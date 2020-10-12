@@ -37,10 +37,9 @@ git clone git@github.com:exp2exp/exp2exp.github.io.git
 
 We’re mirroring the repo to an environment that allows anonymous
 commits (without need for further permissioning).  If want to
-contribute anonymously, info on that is here: https://bit.ly/2EQRHEF
+contribute anonymously, info on that is here: [[https://bit.ly/2EQRHEF][https://bit.ly/2EQRHEF]]
 
-You can review commits to the mob branch here:
-https://repo.or.cz/arxana.git/shortlog/refs/heads/mob
+You can review commits to the mob branch here: [[https://repo.or.cz/arxana.git/shortlog/refs/heads/mob][https://repo.or.cz/arxana.git/shortlog/refs/heads/mob]]
 
 * Setup
 
