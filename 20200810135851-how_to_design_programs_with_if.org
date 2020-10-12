@@ -1,0 +1,43 @@
+#+TITLE: How to Design Programs
+#+roam_tags: HD
+
+We were thinking of /How to Design Programs/ (HtDP) as a potential
+basis for this work.  We would want to respect category theoretic
+concepts in the presentation.  We would expect to find analogues in
+settings like Bayesian modelling.
+
+We could proceed by looking at relationships with argumentation
+theory, thinking about how to do this in a theoretically consistent
+way.  Once we have a definition of the programming language we’re
+going to use, we can then do argumentation over that.
+
+Another strategy would be to develop a DSL for HtDP ideas, which we
+could then reuseq to generate patterns for learning how to design
+various structures (say, web pages or probabilistic programs).  To do
+this well you’d need ways to express ‘recipes’.  For example, an MVP
+might be based on representing HtDP-style recipes using sequent
+calculi for session types.  These represent interactive protocols.
+
+You’d use cut-elimination to have two players interact (using
+something like the **Lakatos Game diagram**).  But what formalism
+would you use?  E.g., /geometry of interaction in linear logic/ has
+been used for this kind of thing, but could it be used here?  With a
+suitable formalism in place we would then imagine that a computer
+programming agent would just follow the “Lakatos Game” style HtDP
+script.  So, this would contribute to the development of agent models
+for programming and program-related Q&A.
+
+* Related work
+
+- General theory-informed algorithms (e.g., apply category theory to scientific models).
+- K framework: Have transformations for any language you define in it.
+- HtDP is similar applied to programming teaching.  Start with PL theory and then find universal things.
+- How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
+
+* Contributes to                                                   :noexport:
+:PROPERTIES:
+:ID:       e5d35810-ca01-48f7-90f1-0681fa548385
+:END:
+
+- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
+- [[file:20200905130423-agent_model.org][Agent model]]

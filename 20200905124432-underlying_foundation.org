@@ -1,0 +1,14 @@
+#+title: Underlying foundation
+#+roam_tags: HL
+
+We believe that category-theoretic foundations will help us make
+progress across different representations of code, process, model
+building, and so on.
+
+* Subgoals :noexport:
+:PROPERTIES:
+:ID:       6778531b-0a13-4596-89f8-df926202c3b0
+:END:
+
+- [[file:20200905125713-category_theoretic_glue.org][Category theoretic glue]]
+- [[file:20200814195815-generating_small_graphs.org][Generating small graphs]]

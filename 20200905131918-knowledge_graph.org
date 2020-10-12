@@ -1,0 +1,25 @@
+#+title: Knowledge graph
+#+roam_tags: LRD
+#+CATEGORY: KRR
+
+Once we have a model of knowledge from Q&A items, e.g., in the form of
+triples. we will want to be able to do something with this material.
+One way in which it may be useful is in combination with an existing
+knowledge graph.  For example, we can look at material from Concept
+Net.  We may also have to make some of our own Concept Net-like
+graphs.
+
+* Practical work
+
+We can already take some practical steps here, along the lines of the
+earlier papers "Modelling the way mathematics is actually done" and
+"Towards mathematical AI via a model of the content and process of
+mathematical question and answer dialogues".
+
+* STARTED Analyse a small sample of examples from s.o.                  :joe:
+
+
+* Next steps :noexport:
+
+- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
+- [[file:20200817172825-recommender_system.org][Recommender System]]

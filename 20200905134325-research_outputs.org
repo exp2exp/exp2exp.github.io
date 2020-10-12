@@ -1,0 +1,15 @@
+#+title: RESEARCH OUTPUTS
+#+roam_tags: HL
+
+We would like to publish some papers, though as Deyan points out we
+should only do this when we have high-quality results:
+
+#+begin_quote
+Deyan: /Every paper that is published for the sake of an academic's publication record, rather than for its scientific merit, is potent fuel for science denialism. The short-term shortcuts for a personal career, when compounded, cause long-term harm to the scientific endeavor./
+#+end_quote
+
+So, what can we do without shortcuts?
+
+* Next steps :noexport:
+
+- [[file:20200906003704-bottom.org][Bottom]]

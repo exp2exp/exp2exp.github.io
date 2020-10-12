@@ -1,0 +1,13 @@
+#+TITLE: Advances in knowledge mining from technical documents
+#+roam_tags: RR
+#+CATEGORY: RESEARCH
+
+This would be a survey paper that would inform our efforts on
+*Information extraction from SO Q&A items* and the *Knowledge graph*
+approach.  Note that if we can find survey papers that others have
+done, that’s pretty much just as useful, and saves us a bunch of time.
+
+* STARTED Reading "Machine Knowledge" paper                          :deyan:
+* Contributes to :noexport:
+
+- [[file:20200905134325-research_outputs.org][RESEARCH OUTPUTS]]
