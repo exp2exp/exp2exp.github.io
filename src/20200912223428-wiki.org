@@ -7,7 +7,7 @@
 #+COMMENT: “brain dump” web interface, at https://notes.exploretoexploit.com/posts/.
 
 The public facing version of these notes is available on a simple web
-interface, created by Firn: [[https://exp2exp.github.io/][https://exp2exp.github.io/]]. This mirrors
+interface, created by firn: [[https://exp2exp.github.io/][https://exp2exp.github.io/]]. This mirrors
 the contents of our Org Roam directory.  Editing is explained below.
 
 We can also view the contents of Org Roam in a linear form as PDF
