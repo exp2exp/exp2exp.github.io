@@ -1,8 +1,0 @@
-#+title: Programmers
-#+roam_tags: SH AN
-
-We imagine any programmer having some use for our tools.  “B2D”
-(Business to Developer) is an emerging category of enterprise where we
-can do interesting things.
-
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]

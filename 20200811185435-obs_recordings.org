@@ -1,9 +1,0 @@
-#+TITLE: OBS recordings
-#+roam_tags: OTS AN
-#+CATEGORY: OBS
-
-We talked about creating asyncronous recordings (screencasts,
-audio). We also talked about possibly putting the audio recordings
-into a threaded voice mail forum, but that's a somewhat different
-application.
-

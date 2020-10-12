@@ -1,7 +1,0 @@
-#+title: Consulting clients
-#+roam_tags: SH AN
-
-We discussed the idea of doing consulting for clients who are
-interested in using scientific models.
-
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]

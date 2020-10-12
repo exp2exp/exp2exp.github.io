@@ -1,7 +1,0 @@
-#+title: Scientific software developers
-#+roam_tags: SH AN
-
-We imagine some software developers consuming “tutorial” content we
-produce, and improving their skills and abilities as a result.
-
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]

@@ -1,8 +1,0 @@
-#+title: POTENTIAL PRODUCTS
-#+roam_tags: HL
-
-Synthesis of some of our /projects/ could lead to marketable /products/.
-
-* Contributes to                                                   :noexport:
-
-- [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]

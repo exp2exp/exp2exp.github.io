@@ -1,7 +1,0 @@
-#+title: Why not what
-#+roam_tags: HL
-
-Our purpose:
-
-- *We want to make the knowledge economy accessible to everyone.*
-- *Our long-term vision is computational intelligence based on collective intelligence.*

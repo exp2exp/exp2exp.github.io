@@ -1,8 +1,0 @@
-#+title: Automated tutoring system users
-#+roam_tags: SH AN
-
-We imagine some students using AI software we develop.  In some cases
-they could be “students”.  In other cases, they could already be
-professional developers.
-
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
