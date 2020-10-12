@@ -1,0 +1,1531 @@
+#+TITLE: Hyperreal Enterprises: Roadmap
+#+OPTIONS: H:3 num:t toc:nil ':t
+#+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+#+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
+#+LATEX_HEADER: \usepackage{mathtools}
+#+LATEX_HEADER: \setmathfont[math-style=upright]{DejaVu Sans Mono}
+#+LATEX_HEADER: \setmonofont[scale=.8,Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER: \newfontfamily{\mm}[scale=.8,Color=red]{DejaVu Sans Mono}
+#+LATEX_HEADER: \setmainfont[BoldFont=EB Garamond,BoldFeatures={Color=ff0000}]{EB Garamond}
+#+LATEX_HEADER: \newcommand{\hookuparrow}{\mathrel{\rotatebox[origin=c]{90}{$\hookrightarrow$}}}
+#+LATEX_HEADER: \usepackage{fix-abstract}
+#+LATEX_HEADER: \definecolor{pale}{HTML}{fffff8}
+#+LATEX_HEADER: \definecolor{orgone}{HTML}{83a598}
+#+LATEX_HEADER: \definecolor{orgtwo}{HTML}{fabd2f}
+#+LATEX_HEADER: \definecolor{orgthree}{HTML}{d3869b}
+#+LATEX_HEADER: \definecolor{orgfour}{HTML}{fb4933}
+#+LATEX_HEADER: \definecolor{orgfive}{HTML}{b8bb26}
+#+LATEX_HEADER: \definecolor{gruvbg}{HTML}{1d2021}
+#+LATEX_HEADER: \newenvironment*{emptyenv}{}{}
+#+LATEX_HEADER: \usepackage{sectsty}
+#+LATEX_HEADER: \sectionfont{\normalfont\color{red}\selectfont}        
+#+LATEX_HEADER: \subsectionfont{\normalfont\selectfont}     
+# #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont}
+#+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
+#+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
+
+\begin{abstract}
+\noindent This document can be thought of as an informal outline of a “\emph{tactic state}”.  On a technical level, the upstream source for this material is an Org Roam graph.  The “Wiki” section contains instructions for accessing the material and generating derived formats, such as the Org Agenda.
+\end{abstract}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+# IMPORT
+* Hyperreal Enterprises: Roadmap
+:PROPERTIES:
+:tag: HL AN
+:END:
+#+CATEGORY: ROADMAP
+
+** Preface
+:PROPERTIES:
+:ID:       0caba40b-2561-4143-b2b1-55f3ddc3201b
+:END:
+
+This document synthesises a [[http://www.peeragogy.org/pattern-roadmap.html][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/product-roadmap.html][Product
+Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
+inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and shared via Git on repo.or.cz.
+This document can be thought of and edited as a [[*Wiki][Wiki]], from which other
+downstream formats can be derived.  A narrative introduction follows.
+To skip it, browse ahead to [[*Top][Top]].
+
+** Introduction
+
+*** We see a massive opportunity that will connect AI and human learning.
+
+We are pursuing a novel programme of technical research and development based on two linked insights:
+- The process of programming can be made more efficient by using AI to automate many tasks; and,
+- People will need to continuously re-skill as technological change accelerates.
+Over the last decade, AI systems achieved clear predominance in board games, and made a surprising amount of progress in areas like text processing.  Over the next decade, AI could eat software engineering too. On the way to full-blown AI for programming, we can imagine an AI system that integrates with code editors, issue trackers, Slack, Github, and Stack Exchange — and that supports upskilling, productivity, and automation, all in one platform — significantly augmenting the ability of human programmers.
+
+# Beyond reskilling: people who are not programmers need to program more and more.
+# Makes Zans anxious about own upskilling.
+# In light of what we’re doing with notebooks, add some more specific things like Roam, Org, LateX...
+# They also say this in [[https://www.forbes.com/sites/cognitiveworld/2019/08/29/software-ate-the-world-now-ai-is-eating-software/#233fe4745810][/Forbes/]].
+
+# Does this do justice to other topics like ‘teaching a course in statistics’? Is this a useful goal in its own right?
+
+# There are lots of common themes that go between the
+# fields. Different communities may not always have the same language,
+# this is why things like category theory are useful.  Since we do
+# have people with diverse skills, can we learn to have these fields
+# help each other?  “Why didn’t you just get a bunch of computer scientist.”
+
+*** The time is now.
+
+The basic research agenda was already set by Alan Turing in the late 1940s.  However, it is only recently that we have two necessary assets: massive amounts of relevant data, and the tools needed to process it into a usable form.  Code completion, code generation, and automated testing are already available to software developers.  They represent a variety of partial solutions that suggest that there’s something more substantial here.
+
+# Headline is boring.
+# partway?
+
+*** Open source is the way forward.
+
+Our team brings together applied experience in Natural Language Processing (NLP), computational modelling, reasoning, physics, biology, and statistics.  Having known each other for years, we have banded together around realising serious AI systems.  We see this as a revolutionary task.  Other institutes may be better funded, but our unique experience with building open source products is what’s needed to build a genuinely transformative community around this effort.
+
+# Is it really OSS?  The main theme is ‘the community’... — We are already a community, we’re not starting from scratch.
+# Lots of red flags in this one ... research task? revolutionary task? community side?
+
+# Nice ability to bring in someone for a ‘keynote’ on Friday.  So, like with the Erdos graph, with a core group, and then other people.
+
+# This is where the common language between different fields comes in.  If we have ways to build bridges... my ideal scenario is that people keep coming up with bridges, including ones that we haven’t even conceived of yet.  People who haven’t engaged before... will come along.
+
+# So, part of the value we can create is bridges, and show things that people wouldn’t see if they were just working in one field.
+
+# E.g., spanning the “two cultures of computer programming” (numeric & formal).
+
+*** The steps progress from data, to models, to AI agents.
+
+On this blog, we will document our progress.  Presently we are all working on this sub-part-time. Future posts in this series will expand the agenda outlined here, and provide tutorial material that can help turn readers into contributors.
+
+- Beginning from the data, we plan to use contemporary information extraction methods to derive computationally meaningful material from Stack Exchange Q&A, Github Issues, and programmers’ discussions, along with code. To do this, we will combine general purpose language models, like BERT, and a knowledge graph approach.
+
+- At this level, we will use category theoretic methods as a glue that can hold together a range of computational models, including models of programs and the process of computer programming. Monocl is an existing process modelling language that has been used to create an abstraction layer over a collection of data science programs. We plan to generalise this considerably.
+
+- Ultimately we plan to install these models in computational agents who can then “converse with each other to sharpen their wits,” as Turing anticipated, mirroring contemporary developments in self-play.  The design of the agents remains an open issue at the moment.  We are aware of interesting related work in proof generation and program synthesis, but so far this work only addresses part of the problem. We plan to bring in techniques from Bayesian learning, logic programming, and reinforcement learning.
+
+# Don’t make things sound too closed-ended
+# This is our best stab at how things might be done now — but a year from now we might learn more.
+
+*** This work can contribute significant economic value over reasonably short time scales.
+
+We will progress by producing ever-better models of human behaviour in computer-mediated communications around technical topics.  We anticipate potential routes-to-market focused on service provision for upskilling, lightweight automation, and support for custom model development.  We speculate that improved learning materials and tools will become the basis for a future community of highly skilled technical workers.
+
+Looking ahead to the next months, we intend to create small demos across the pipeline, following a regular release schedule.  As time goes by, short blog posts will become inputs to research papers and usable tools. We will eventually pursue funding, ideally either in the form of direct revenue or grants, in order to allow us to work full time on these issues.
+
+# Be careful about ‘regular’ unless we have one and can meet it (e.g., waiting for the date to come) — Is it monthly? Weekly?
+# In the overall flow of the document, we started with a lofty goal, we talked about who’s doing it, and how we might go about it. But that’s far off and we’re not 100% sure. It’s not all or nothing! There are things we can do incrementally along the way towards that: this will not only mark our progress but be useful in their own right.
+# Not “ten years to success metrics”.
+
+# Questions: what would the regular release schedule look like?
+
+*** Progress so far
+- Set up initial ghost blog
+- Drafted initial blog post
+- Update hyperreal.enterprises website to match current reality
+- We have tech set up to recording our meetings
+- Joe knows how to use OBS so can be a backup player
+- Seminar describing an Open IE approach with several notebooks
+*** Currently active projects
+**** #emacs-cloud-hypernotebooks
+**** #how-to-design-programs
+**** #text-analysis
+**** #model-construction
+**** #knowledge-graph
+*** TL;DR
+
+We are creating AI tools that will read the things people have written about computer programming and draw on these to find ways that computers can automatically create software.
+
+* Top
+:PROPERTIES:
+:tag: HL
+:END:
+
+** Motivation: For the sake of advancing AI
+:PROPERTIES:
+:ID:       744b12b2-b93c-4ad9-9fd1-5f649eac548f
+:END:
+
+We are doing this R&D work partly to make demonstrations of more
+advanced AI systems.  We expect that our stance on AI will not
+necessarily be a popular one.  But this is an important “minor” strand
+of AI research dating back to Alan Turing:
+
+#+begin_quote
+"As time goes on the [computer] itself will take over the functions
+both of [programmers] and of [users]…The [programmers] are liable to
+get replaced because as soon as any technique becomes at all
+stereotyped it becomes possible to devise a system of instruction
+tables which will enable the electronic computer to do it for
+itself. It may happen however that the [programmers] will refuse to do
+this. They may be unwilling to let their jobs be stolen from them in
+this way. In that case they would surround the whole of their work
+with mystery and make excuses, couched in well chosen gibberish,
+whenever any dangerous suggestions were made." -- Alan Turing, 1947.
+#+end_quote
+
+On average, advanced AI would bring in new ways of working, and would
+facilitate broad access to high-quality training.  This agenda could
+serve to focus the mind of technical workers, but not many are
+pursuing it presently.
+
+** Motivation: Technical experiments become easier
+
+Even in the present time, without relying on any speculative AI
+futures to magically appear, we can benefit from pursuing the agenda
+above.  Accordingly, we are doing some applied work with existing
+software that will give us a set of further tools and levers to work
+with.
+
+** Representative Prior Work
+
+*** PlanetMath
+
+PlanetMath users created a reasonably large informal mathematical
+knowledge base together.  On the way, we came up with several
+technical demos and sketched possible [[https://github.com/holtzermann17/planetmath-docs/labels/PREVIEW][previews]] for upcoming features.
+One possible direction of work we looked at would be to focus on
+building a comprehensive category theory knowledge base.
+
+*** Modelling the way mathematics is actually done
+
+In this paper, we talked about how mathematics is situated somewhere
+in between ‘games’ and ‘storytelling’ in its complexity.  We proposed
+to build computational models of informal mathematical reasoning.
+Some related work develeoped using ideas from [[https://www.sciencedirect.com/science/article/pii/S0004370217300267][dialogue games]] and
+[[https://link.springer.com/article/10.1007/s10503-018-9474-x][argumentation theory more broadly]].
+
+** A sketch of a plan
+
+So, having gotten together around these ideas, we’re having online
+chat, frequent short meetings.  We’ve talked about maintaining a blog
+that would describe what we’re learning and developing.  So, roughly
+speaking, we will try to develop a curriculum through the blog.  We
+also have this wiki, that any of us can edit, which we can use as a
+staging ground for more developed blog posts.  Our thought was that
+blog posts might move in the direction of more developed outputs,
+whether products or research papers.  We want to use some ideas
+adapted from Scrum to build a shared awareness of what’s going on.
+However, we want to be careful not to become “managerial” since
+everyone is currently here as a volunteer, working on topics of his or
+her own interest.  We want to provide mutual support and fun.
+Reflection, whether in writing, or by recording and listening again to
+conversations, should help with that.  We are not constraining things
+to come out in a purely structured curriculum, or any other form of
+product development.  “Users” and “customers” may appear as we release
+things we are happy with and expand our little community.
+
+#+begin_quote
+“Rousseau says, someone who has been properly educated will be engaged
+in society, but relate to his or her fellow citizens in a natural way.
+... We naturally look after our own
+preservation and interests.  By contrast, /amour-propre/ is an unnatural
+self-love that is essentially relational. ... Thus, /amour-propre/ can
+contribute positively to human freedom and even virtue. Nevertheless,
+/amour-propre/ is also extremely dangerous because it is so easily
+corruptible. ... In its corrupted form, /amour-propre/ is the source of
+vice and misery, and results in human beings basing their own self
+worth on their feeling of superiority over others.” — [[https://iep.utm.edu/rousseau/][IEP]]
+#+end_quote
+
+#+begin_quote
+Hypothetical conversation: /In my next post I want to integrate something that I learned from you about PL.  I want to drive in the direction of synthesis, as hard as I know how to right now.  This depends on everyone having free time to invest in this.  Start a blog where we think about what's the overlap in terms of learning?/
+#+end_quote
+
+#+begin_quote
+Zans: /If I implemented as I read things, it would be a pretty interesting blog. There could be a huge market of people interested in following this, this would give a pool of people who know who we are. This is a nice goal b/c it doesn't focus on the product... but it's a deliverable, made up of smaller deliverables, and a concrete benefit./
+#+end_quote
+
+** A possible formulation: short correlated sprints as opposed to random behaviour
+
+“Two people working together 4 hours a week for two weeks” could serve
+as an approximate unit of work.  Once we have amassed a few outputs
+from this kind of effort, we will have some evidence of the kinds of
+things that we can realistically achieve.  So far, our workflow has
+been more based on solo activities and informal conversations, but
+short robust team-ups continue to be an option!
+
+** Subgoals:                                                        :noexport:
+:PROPERTIES:
+:ID:       1d3660fd-8826-4afb-b1e4-91b20c27ee9a
+:END:
+
+- [[*Why not what][Why not what]]
+- [[*Which model construction process works as a whole?][Which model construction process works as a whole?]]
+- [[*Underlying foundation][Underlying foundation]]
+- [[*Construct, critique, improve models of the creative process][Construct, critique, improve models of the creative process]]
+* Why not what
+:PROPERTIES:
+:tag: HL
+:END:
+
+Our purpose:
+
+- *We want to make the knowledge economy accessible to everyone.*
+- *Our long-term vision is computational intelligence based on collective intelligence.*
+** Teach arbitrary coding
+:PROPERTIES:
+:tag: LRD
+:END:
+
+This would be an abstraction over teaching basic programming and
+knowledge graphs.
+
+*** Feature: Production system
+
+We’ve started to build a simple production system that can be used to
+detect errors in subtraction (reimplementing some classic work). We
+were thinking that something similar could be used to detect other
+kinds of errors (so, for debugging, teaching), and to support other
+kinds of reasoning processes (e.g., turning Q’s into A’s in a
+question-answering system).
+
+We previously did a little exploratory work, with similar intent, using
+polygraphs as input, in the workshop paper
+/Modelling the Way Mathematics Is Actually Done/.
+
+**** Demo application: Reimplementing classic rules to model subtraction
+
+We looked at a classic paper about “subtraction on Mars” and it seems
+that reimplementing it might be the best way to go.
+
+*** Contributes to                                                 :noexport:
+:PROPERTIES:
+:ID:       98bd73a0-035b-434c-aa2e-ea0e3e6ec15d
+:END:
+- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]]
+
+** How to Design Programs
+:PROPERTIES:
+:tag: HD
+:END:
+
+We were thinking of /How to Design Programs/ (HtDP) as a potential
+basis for this work.  We would want to respect category theoretic
+concepts in the presentation.  We would expect to find analogues in
+settings like Bayesian modelling.
+
+We could proceed by looking at relationships with argumentation
+theory, thinking about how to do this in a theoretically consistent
+way.  Once we have a definition of the programming language we’re
+going to use, we can then do argumentation over that.
+
+Another strategy would be to develop a DSL for HtDP ideas, which we
+could then reuseq to generate patterns for learning how to design
+various structures (say, web pages or probabilistic programs).  To do
+this well you’d need ways to express ‘recipes’.  For example, an MVP
+might be based on representing HtDP-style recipes using sequent
+calculi for session types.  These represent interactive protocols.
+
+You’d use cut-elimination to have two players interact (using
+something like the **Lakatos Game diagram**).  But what formalism
+would you use?  E.g., /geometry of interaction in linear logic/ has
+been used for this kind of thing, but could it be used here?  With a
+suitable formalism in place we would then imagine that a computer
+programming agent would just follow the “Lakatos Game” style HtDP
+script.  So, this would contribute to the development of agent models
+for programming and program-related Q&A.
+
+*** Related work
+
+- General theory-informed algorithms (e.g., apply category theory to scientific models).
+- K framework: Have transformations for any language you define in it.
+- HtDP is similar applied to programming teaching.  Start with PL theory and then find universal things.
+- How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
+
+*** Contributes to                                                 :noexport:
+:PROPERTIES:
+:ID:       e5d35810-ca01-48f7-90f1-0681fa548385
+:END:
+
+- [[*Teach arbitrary coding][Teach arbitrary coding]]
+- [[*Agent model][Agent model]]
+* Construct, critique, improve models of the creative process
+:PROPERTIES:
+:tag: HL
+:END:
+
+We want tools and processes for working with models, with a particular
+emphasis on improved models of the creative process. The reason for
+this emphasis is that if we have good models of the creative process,
+including the modelling process, we can then apply them to a wide
+range of problems!  This prompts reflection on the infrastructure and
+tools that we are actually using.
+
+** Subgoals :noexport:
+:PROPERTIES:
+:ID:       0fea67e1-6088-4845-9eeb-c080609bf58d
+:END:
+
+- [[*Emacs Hyper Notebook][Emacs Hyper Notebook]]
+- [[*How to Design Programs][How to Design Programs]]
+- [[*Probabilistic programming for scientific modelling][Probabilistic programming for scientific modelling]]
+- [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
+** Emacs Hyper Notebook
+:PROPERTIES:
+:tag: CDN
+:END:
+#+CATEGORY: DEV
+
+We are developing a better way to do “Jupyter notebooks” using Emacs.
+This recovers some of the Research Collab ideas developed by Aaron
+Krowne. It should integrate features such as writing and task
+management (e.g., /Org/) Program evaluation (e.g., /Maxima/),
+Typesetting and presentation (e.g., slides via /LaTeX/), and
+navigation (e.g., /Org Roam/ for displaying topics as a graph).  We
+should be clear that the various technologies used are slot-fillers
+and they might be replaced with other things, or augmented (e.g.,
+/Lean/ for formal verification of some of the above?). A useful input
+to this process would be implementation of examples without
+integration.  This can then be redone in a more integrated fashion.
+
+An integration using existing technologies will have limitations, once
+we have this demos then we will see some of the gaps and how more
+advanced tech could be useful. (For example, Ray’s work with Gerschom
+could turn out to be useful here.)
+
+*** DONE Abstract for EmacsConf 2020                        :joe:ray:cameron:
+*** TODO Figure out subtasks to deliver                     :joe:ray:cameron:
+*** TODO Figure out how EHN relates to other projects       :joe:ray:cameron:
+
+*** Partial prototypes
+
+Notice that crdt can be used inside folded nodes.
+ 
+How far can we go... Through [[https://roamresearch.com/][Roam]]? (We could at least talk to Connor
+about Roam on Twitter?) Through [[https://jupyter.org/][Jupyter]]? [[https://foambubble.github.io/foam/][Foam]]? [[https://gtoolkit.com/][Glamorous Toolkit]]?  Can
+we integrate what we’re building with existing tools like these?  Do
+Lenses or other kinds of ACT machinery help with this at all?  Would
+our system potentially play a role as a universal backend?
+
+*** Feature: Arxana 2020
+
+Revisit [[https://repo.or.cz/w/arxana.git][Arxana]] and turn it into something that we can actually use.
+This is rather closely related to the use of “knowledge graph”
+formulations we’ve been discussing, since Arxana allows us to combine
+writing with knowledge representations.  In our last round of work
+with Arxana, we left off at the point of integrating logic programming
+into the system.
+
+*** Links to useful resources
+
+Technology like this could be used to build simple demos (e.g., Emacs
+in the browser, running Org Mode).  We’ve noticed some other related
+tools as well, like [[https://github.com/200ok-ch/organice][Organice]] and [[https://github.com/tecosaur/codiorg][CodiOrg]] that could provide
+alternative interfaces.
+
+- [[https://github.com/exp2exp/notebooks][exp2exp/notebooks: This is a Docker configuration for running jupyter with multiple kernels on Arch Linux.]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html][emacsclient Options - GNU Emacs Manual]]
+- [[https://github.com/butlerx/wetty][butlerx/wetty: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)]]
+- [[https://github.com/xtermjs/xterm.js#real-world-uses][xtermjs/xterm.js: A terminal for the web]]
+- [[https://twitter.com/cianbutlerx]]
+- [[https://github.com/tsl0922/ttyd][tsl0922/ttyd: Share your terminal over the web]]
+- [[https://github.com/yudai/gotty][yudai/gotty: Share your terminal as a web application]]
+- [[https://hub.docker.com/r/butlerx/wetty][butlerx/wetty - Docker Hub]]
+- [[https://medium.com/@pacroy/setup-web-terminal-using-wetty-docker-image-dcb1ea75bfaf][Setup Web Terminal using Wetty Docker Image | by Chairat Onyaem (Par) | Medium]]
+- [[https://hub.docker.com/r/krishnasrinivas/wetty/][krishnasrinivas/wetty - Docker Hub]]
+
+*** Other related work
+
+- James Fairbanks (relate this to Betancourt).
+
+*** Testing
+
+Reasonable backends to use here would be =babashka= and =cider=. However,
+=babashka= doesn’t support sessions.
+
+#+begin_src clojure :session :backend cider :results output raw
+(def a 2)
+#+end_src
+
+#+RESULTS:
+#'user/a
+
+#+begin_src clojure :session :backend cider :results output raw
+a
+#+end_src
+
+#+RESULTS:
+2
+
+#+begin_src clojure :session :backend cider :results output raw
+(range 10)
+(def a 1)
+#+end_src
+
+#+RESULTS:
+| (0 1 2 3 4 5 6 7 8 9) |
+| #'user/a              |
+
+#+begin_src clojure :session :backend cider :results output raw
+a
+#+end_src
+
+#+RESULTS:
+1
+
+
+*** Contributes to                                                 :noexport:
+- [[*Visual Interfaces][Visual Interfaces]]
+- [[*Knowledge graph][Knowledge graph]]
+* Which model construction process works as a whole?
+:PROPERTIES:
+:tag: HL
+:END:
+
+We are working in an applied way to build models, starting with data
+and using existing tools and methods, but without any strong guarantee
+that we will find the most effective methods right away. So, with
+these experiments we are investigating the process of “model
+construction” generally understood. One example is building
+computational structures from natural language and technical texts.
+
+** Subgoals :noexport:
+:PROPERTIES:
+:ID:       0e2b1ab1-9e3a-4e6c-b2a7-e423cb41a030
+:END:
+
+- [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
+** Information extraction from SO Q&A items
+:PROPERTIES:
+:tag: CDN
+:END:
+#+CATEGORY: ML
+
+We are attempting to extract triples from textual Q&A by using a
+Neural Machine Translation approach.
+
+*** BACKBURNER Refinining OpenIE approach                             :deyan:
+
+*** Next steps                                                     :noexport:
+:PROPERTIES:
+:ID:       2ee512d9-60cf-443c-aa3d-ef8eb42789e9
+:END:
+
+- [[*Knowledge graph][Knowledge graph]]
+- [[*Advances in knowledge mining from technical documents][Advances in knowledge mining from technical documents]]
+** Knowledge graph
+:PROPERTIES:
+:tag: LRD
+:END:
+#+CATEGORY: KRR
+
+Once we have a model of knowledge from Q&A items, e.g., in the form of
+triples. we will want to be able to do something with this material.
+One way in which it may be useful is in combination with an existing
+knowledge graph.  For example, we can look at material from Concept
+Net.  We may also have to make some of our own Concept Net-like
+graphs.
+
+*** Practical work
+
+We can already take some practical steps here, along the lines of the
+earlier papers "Modelling the way mathematics is actually done" and
+"Towards mathematical AI via a model of the content and process of
+mathematical question and answer dialogues".
+
+*** STARTED Analyse a small sample of examples from s.o.                :joe:
+
+
+*** Next steps                                                     :noexport:
+
+- [[*Teach arbitrary coding][Teach arbitrary coding]]
+- [[*Recommender System][Recommender System]]
+* Underlying foundation
+:PROPERTIES:
+:tag: HL
+:END:
+
+We believe that category-theoretic foundations will help us make
+progress across different representations of code, process, model
+building, and so on.
+
+** Subgoals :noexport:
+:PROPERTIES:
+:ID:       6778531b-0a13-4596-89f8-df926202c3b0
+:END:
+
+- [[*Category theoretic glue][Category theoretic glue]]
+- [[*Generating small graphs][Generating small graphs]]
+** Category theoretic glue
+:PROPERTIES:
+:tag: CDN
+:END:
+#+CATEGORY: MATH
+
+We want to develop enough theory that we can use it to frame our
+experiments.  We are trying to do this in a computationally meaningful way.
+
+*** Feature: Understand comma categories as a potential “backend”  :ray:zans:
+
+*** Next steps                                                     :noexport:
+
+- [[*How to Design Programs][How to Design Programs]]
+
+** Probabilistic programming for scientific modelling
+:PROPERTIES:
+:tag: HD
+:END:
+#+CATEGORY: MATH
+
+Probabilistic programming is useful within both scientific modelling,
+and, potentially, as part of a program synthesis toolkit.
+
+*** Feature: relationship between probabilistic programming and categories :zans:cameron:
+
+*** Contributes to                                                 :noexport:
+
+- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]] (at least potentially, e.g., if our business is going to make models for people)
+- [[*DATA COURSE][DATA COURSE]]
+* POTENTIAL PRODUCTS
+:PROPERTIES:
+:tag: HL
+:END:
+
+Synthesis of some of our /projects/ could lead to marketable /products/.
+
+** Contributes to                                                   :noexport:
+
+- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]]
+** Agent model
+:PROPERTIES:
+:tag: HD
+:END:
+
+One of our central intentions is to instantiate our work in an agent
+model of Q&A and programming.  This is based on Alan Turing’s
+suggestion that computers could talk with each other to sharpen their
+wits.
+
+*** Next steps                                                     :noexport:
+:PROPERTIES:
+:ID:       17297f1e-d7e0-46d3-8a26-a51500be92b7
+:END:
+
+- [[*An ABM of the computer programming domain][An ABM of the computer programming domain]]
+- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+** Recommender System
+:PROPERTIES:
+:tag: LRD
+:END:
+#+CATEGORY: ML
+
+We could consume various analyses of Stack Exchange data to make
+recommendations.
+
+*** Possible implementation strategy: build on a version of GPT fine-tuned on SO Q&A tasks
+
+Could we set up a simple version of *GPT* trained on Stack Overflow
+data, just to get it working? Then think about how to get a learning
+loop set up to improve the results...
+
+**** Ideas
+
+- Could this at least help a human navigate the questions on Stack Exchange?
+- Rather than just answering the question, generate the answer and use
+  that to guide search (by combining generation with document similarity)
+- Use a distance to set up a margin of tolerance
+
+**** Precedents
+
+- [[https://stackroboflow.com/about/index.html][Stack Roboflow]] creates ersatz Q&A using =AWD_LTSM=.  Surely we can do better?
+- In Google Books, they use crappy OCR which is good enough for search, but you wouldn't want to read the output.  For search, they use something like rewrite distance, finding something ‘within 5 errors’.
+
+**** Analogue
+
+In parsing, it's not just edit distance but has to involve the grammar
+
+**** Case against going too deep:
+
+- Code generation is hard
+
+**** Case against worrying about that:
+
+- Worry instead about applications like generating learning packets
+ - E.g., learn everything there is to know about =git= from Stack Overflow in a nicely organised way.
+ - E.g., compare the Schuam’s Outline series: could we reassemble open source clones of Schuam’s Outlines by retrieving contents from Math.Stack Exchange?
+
+**** Application of the model: Display SO with similarity graph
+E.g., use generated answers to help identify ‘similarity’.
+
+**** Related work
+
+- https://github.com/stared/tag-graph-map-of-stackexchange/wiki presents a nice-looking map of the relationship between tags.
+
+*** Feature: Initial import of SO for training                          :tim:
+*** Contributes to                                                 :noexport:
+
+- [[*Advances in tutoring systems for programming][Advances in tutoring systems for programming]]
+- [[*Agent model][Agent model]]
+- [[*Teach arbitrary coding][Teach arbitrary coding]]
+
+** Visual Interfaces
+:PROPERTIES:
+:tag: LRD
+:END:
+
+*** Graphical flow for programs
+
+Can we model more general program flow in a similar fashion to Monocl?
+
+*** Limitations
+
+The idea of graphical programming languages is linked with the
+[[https://en.wikipedia.org/wiki/Deutsch_limit][Deutsch limit]] (named for noted programmer [[https://en.wikipedia.org/wiki/L._Peter_Deutsch][L Peter Deutsch]], not
+physicist [[https://en.wikipedia.org/wiki/David_Deutsch][David Deutsch FRS]], though perhaps he could come into play later):
+
+#+begin_quote
+/The problem with visual programming is that you can’t have more than 50 visual primitives on the screen at the same time./
+#+end_quote
+
+*** Automatically create visual interfaces
+
+Here's an idea: assuming we have enough text mining pixie dust (on
+corpora of linux man pages, and stack overflow questions/forum posts
+about linux commands), it might be possible to do:
+
+=user:~$ make-gui-for ls --output ls.py=
+
+*** Feature: Build infra for generating and displaying graphs.
+
+E.g., we can generate graphs based on code flow.
+
+#+begin_src elisp
+(defun triangle (n)
+  (if (equal n 0) 0
+    (+ n (triangle (- n 1)))))
+#+end_src
+
+This would then be related to the visual code walk through feature described below.
+
+*** Feature: Visual code walk through
+
+Ray is working on a visual code walk through.  This should be seen as
+another interface to the same basic underlying information, sort of
+like how Org Roam is the main interface to the data served by Org Roam
+Server.
+
+**** General evaluation strategy for these demos:
+
+- /‘Would anyone want to use this?’/
+- E.g., in the case of Emacs "learn X in Y" demo.
+- If there is interest, work up to covering the HtDP book
+
+**** Related work
+
+- MAUDE framework. :: You describe your programming language using
+  rewrite rules in K.  They define tools to auto-derive rules in [[http://www.kframework.org/index.php/Projects][K]].
+
+- Program slicing :: ‘Galois connection on the traces’. This allows
+  you to find where bugs appeared.  People tend to look in the most
+  recent.  Imagine a call-graph of all the variables, so it gives you
+  a minimum trace, showing where your bug can be found.
+
+*** Next steps                                                     :noexport:
+:PROPERTIES:
+:ID:       8ed6b549-0761-4f06-b478-d47e5ff1036f
+:END:
+
+- [[*Paperspace DO NJ etc. Collaboratory][Paperspace DO NJ etc. Collaboratory]]
+
+*** Contributes to                                                 :noexport:
+- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+** Data course
+:PROPERTIES:
+:tag: LRD
+:END:
+
+There's a new book available from the group affiliated with STAN.  It
+doesn't go very far, but it has tons of examples.  They have data sets
+about all sorts of stuff.  So the idea would be to take, e.g., the
+notebook on linear regression, and go through...
+
+*** Idea
+
+Start with a method, then go through lots of examples.  Make this
+consistent with the way we would teach HtDP.
+
+"Here's a data set, here's a method that would make sense to apply."
+
+*** A quandry
+
+Note that hand-coding of a curriculum vs making a general framework
+that anyone can contribute to (e.g., to make their own curricula) are
+pretty different things.  We will sort out this ambiguity later.
+
+*** Sources
+
+There are tons of great data sets, but the issue would be digging into
+the details of some of them.  The real issue is coordinating.  We want
+to start with e.g., intro to linear regression, then hierarchical
+linear regression, and working up to things like Lotka-Voltera model.
+
+- Datopian
+
+*** How to build up to this?
+
+- E.g., setting up the pre-requisites of the platform
+- Setting up a tutorial on model building in a certain domain, get 10 people in the specialised tutorial, how is it received
+- This would start building up the group of people
+ - Using someone else's platform would be different from using our own platform
+ - Which of these is the focus? (*Good question but let's have one or two sprints beforehand to see where things are going.*)
+
+*** Assumptions
+
+- Keep platform open source, assume people would want to use
+
+*** Comments
+
+- Platform is quite a general word, but in a way we are trying to make something easier
+- The platform is just an interface to a piece of technology we build.  The core is really on the backend.
+- So the focus should be on the backend not on the javascript bits.
+- Maybe leverage more existing technologies for the platform, where building it basically means installing it.
+- Nextjournal: this looks good because they have UX designers to polish things
+- Cloud-based Emacs: Would allow you to back your instantiation as if Emacs is your operating system, 500GB instance on Google Cloud
+
+*** Status
+
+- Cameron has code to set up a multicluster platform available off the shelf that we can start with
+- Ray has been doing similar things for personal use, though if this helps write biology papers.
+- What if our user interface was Emacs?
+ - Different keybindings; developers like Emacs or Vi...
+ - Org Bable exists & we can refer to this for now
+
+*** Reference
+
+- Michael Betancourt: Towards a principled bayesian workflow
+
+*** Next steps                                                     :noexport:
+
+- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+** Paperspace DO NJ etc. Collaboratory
+:PROPERTIES:
+:tag: LRD
+:END:
+
+This would be a potential user-facing product in which we could deploy
+various curricula, share various tools for interacting with
+scientific/computational models, and build a “knowledge hub” of people
+who could do scientific work.
+
+*** Contributes to                                                 :noexport:
+
+- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+- [[*DATA COURSE][DATA COURSE]]
+* BUSINESS DEVELOPMENT
+:PROPERTIES:
+:tag: HL
+:END:
+
+** Relationship to purpose
+
+Understanding how the business activities relate to the purpose?  We
+might do things that appear unrelated what we say at *Why not what* to
+serve customer needs in the mean time.  However, if we do, we should
+either come up with some reasoning about how this helps us address the
+purpose, or revise our statement of purpose to reflect the current
+reality.  This presumably isn’t hard to do, e.g., we could say “once
+we have a successful business we will pour /x%/ into research,” but in
+any case we should clarify this.
+
+** Roughly B2C
+
+- Launch some version of the Emacs Hyper Notebook as a cloud service. (Build it first and test it first.)
+- *Visual Interfaces*: Develop a user interface on top of more advanced data analysis tools. (The focus is on the infrastructure that allows you to convert a graph into a neural network or whatever.)
+- *Data course* (training format): Recruit people to take our course for a fee.
+- *Paperspace DO NJ etc. Collaboratory* (Edtech SaaS): People would build their own courses/projects on our software and pay for licensing.
+- *Teach arbitrary coding* (Edtech SaaS): People would use our tutoring system to improve their programming abilities.
+
+** B2B
+
+- *Agent model* (software as a service format): We can run our agent model to generate new code or other insights. People can pay for compute plus a premium for quality.
+- *Probabilistic programming for scientific computing* (Consulting format): going around and creating customers by talking to businesses, saying “Using proababilistic programming — or other technologies — we can optimize this, this, this, and this, saving you this much money.”
+ - Many companies hardly use any AI, let alone deep learning. If you can hustle and sell things, this can work.
+ - However, we don’t want to sell AI snake oil, so if we are going to do consulting it should be around topics that we’re actually experts on. For example, plausibly, we could talk about modelling /documents/ and /workflows/.
+
+** Different kinds of users
+
+If we want to build a business, we should focus on who our target
+users actually are, and what problems we can solve for them.
+Typically we would build the business in a customer-centric way.  So,
+for example, are the users/customers:
+
+- Advanced STAN users, or,
+- People who don't know how to do data analysis but who can make graphs.
+
+Broad categories of users are surveyed in the *Downstream*.
+
+** Related work
+
+- Be wary of competing with things like Roam, though some level of competition is intrinsic in business.
+- “Roam scratches my itches for document and graph aware note taking pretty well.”
+
+** Next steps :noexport:
+
+- [[*Bottom][Bottom]]
+* RESEARCH OUTPUTS
+:PROPERTIES:
+:tag: HL
+:END:
+
+We would like to publish some papers, though as Deyan points out we
+should only do this when we have high-quality results:
+
+#+begin_quote
+Deyan: /Every paper that is published for the sake of an academic's publication record, rather than for its scientific merit, is potent fuel for science denialism. The short-term shortcuts for a personal career, when compounded, cause long-term harm to the scientific endeavor./
+#+end_quote
+
+So, what can we do without shortcuts?
+
+** Next steps :noexport:
+
+- [[*Bottom][Bottom]]
+** Advances in tutoring systems for programming
+:PROPERTIES:
+:tag: RR
+:END:
+
+This would be a survey paper that would inform our efforts to *Teach arbitrary coding*.
+Follow references, start with ‘AI and tutoring’.
+
+1. (2014) "An adaptation algorithm for an intelligent natural language tutoring system"
+2. (2008) "A novel approach for constructing conversational agents using sentence similarity measures"
+
+*** Helps implement                                                :noexport:
+- [[*Teach arbitrary coding][Teach arbitrary coding]]
+
+*** Contributes to                                                 :noexport:
+- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+** Advances in knowledge mining from technical documents
+:PROPERTIES:
+:tag: RR
+:END:
+#+CATEGORY: RESEARCH
+
+This would be a survey paper that would inform our efforts on
+**Information extraction from SO Q&A items* and the *Knowledge graph*
+approach.  Note that if we can find survey papers that others have
+done, that’s pretty much just as useful, and saves us a bunch of time.
+
+*** STARTED Reading "Machine Knowledge" paper                         :deyan:
+*** Contributes to                                                 :noexport:
+
+- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+** An ABM of the computer programming domain
+:PROPERTIES:
+:tag: RO
+:END:
+
+This would be a paper writing up our agent model work.
+
+The paper could also correspond to a “whitepaper” that talks about how
+we are able to “mine” computer programs automatically.  This would
+contribute to a long-term business in automated programming (and
+potentially other kinds of automation work).
+
+*** Contributes to                                                 :noexport:
+
+- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+* Bottom
+:PROPERTIES:
+:tag: HL
+:END:
+
+By the time we get to this point, we will have established some
+impressive research outputs, a potentially profitable business, and a
+teaching/upskilling platform for technical and scientific topics.
+
+#+ATTR_HTML: :width 700px
+#+ATTR_LATEX: :width \textwidth
+#+CAPTION: Network view
+[[file:org-roam-server-3oct2020.png]]
+
+** Contributes to :noexport:
+:PROPERTIES:
+:ID:       d8c152d1-0d86-4c66-9105-a83b926a0275
+:END:
+- [[*Downstream][Downstream]]
+* Downstream
+:PROPERTIES:
+:tag: HL AN
+:END:
+#+CATEGORY: USERS
+
+What do our potential users look like?
+
+** Possible future users                                            :noexport:
+:PROPERTIES:
+:ID:       34ddbcd3-10a2-4d08-90d9-a489b7542fae
+:END:
+
+- [[*Consulting clients][Consulting clients]]
+- [[*Scientific software developers][Scientific software developers]]
+- [[*Automated tutoring system users][Automated tutoring system users]]
+- [[*Programmers][Programmers]]
+** Consulting clients
+:PROPERTIES:
+:tag: SH AN
+:END:
+
+We discussed the idea of doing consulting for clients who are
+interested in using scientific models.
+
+- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]
+** Scientific software developers
+:PROPERTIES:
+:tag: SH AN
+:END:
+
+We imagine some software developers consuming “tutorial” content we
+produce, and improving their skills and abilities as a result.
+
+- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]
+** Automated tutoring system users
+:PROPERTIES:
+:tag: SH AN
+:END:
+
+We imagine some students using AI software we develop.  In some cases
+they could be “students”.  In other cases, they could already be
+professional developers.
+
+- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
+** Programmers
+:PROPERTIES:
+:tag: SH AN
+:END:
+
+We imagine any programmer having some use for our tools.  “B2D”
+(Business to Developer) is an emerging category of enterprise where we
+can do interesting things.
+
+- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]
+* Organisational infrastructure
+:PROPERTIES:
+:tag: HL AN
+:END:
+#+CATEGORY: ORG
+
+This section is mildly-technical appendix.  It looks at our
+organisational infrastructure itself, including simple things like the
+technologies we use for communication, and more involved things like
+“how we communicate” more broadly.  (This is a good candidate for
+splitting off into its own separate wiki, if for no other reason than
+that it takes up a lot of space in the generated PDF.)
+
+** Schedule and activities
+
+Presently we are meeting 20 minutes a day at 4PM UK time, 11AM
+Eastern, on Discord for a “coffee chat”.
+
+Previously we tried to maintain a schedule of longer meetings (UK
+evenings):
+
+- *Monday*: Seminar
+- *Wednesday*: Workshop
+- *Friday*: Studio
+
+That seemed to be too many meetings.  Whatever we do about regularly
+scheduled meetings, we might want to look at how to best pursue of
+**topics of mutual interest* such as:
+
+- *Readings* on rewriting rules and production systems, and higher-dimensional graph-like things
+- *Business development* around open source, knowledge management, etc.
+- *Reviewing* the value add of Wiki ways of thinking and working, which we have a pretty broad range of experience with
+- *R&D* around ‘lenses’ in ACT: structure for bi-directional transformations, to enable changes in a projection
+
+So far, this Roadmap has gathered information on some of the topics
+that have been discussed, but not all of the things that we could see
+ourselves working on together.
+
+As another activity we may want to get scheduled one or more sessions
+focused on business stuff.
+
+** Project orientation
+
+Some of this will be different depending on whether we think of this
+as a “business”, or as “a business of some specific nature”: primarily
+centring on “who does this business do business with?”
+
+- *Status* - where is the project right now?
+ - Right now /this overall project/ is in a “project development” mode.
+ - What are the (multiple) /success indicators/ or /proof points/ or /failure indicators/ for each of the projects? (E.g., going to the casino with $20, you might quit when you get below $10, you might leave when you get above $50.) E.g., need of customers for X, our credibility in X?
+ - For the various sub-projects: one relevant thing is “how long is it before thing is likely to make money?” (AKA, “Cross-over.”) Or “what else is needed for this to make money?”
+ - In particular: maybe take a couple months to see how things are going with a given sub-project? This gives evidence of what we can produce when we work together. We might then ask, who else would care to pay for this?
+ - We have listed 4 active projects (https://miro.com/app/board/o9J_kmPNvaQ=/); maybe the blog is another one.
+- *Roles and Responsibilities* - /who is handling the standard project roles, and what are they responsible for doing?/
+ - Each individual sub-project is likely to have different requirements (e.g., some may need 2 people, some will need 1, etc.)
+ - If there’s more than one person involved it becomes a parallel architecture
+- *Goals* - /What will this project achieve?/
+ - “If I do something valuable, the money will come later.”
+ - Some of them we might be willing to take the risk of investing time and energy based on whether it looks directly useful to us.
+ - Some, like a course, we may need the information about whether it’s likely to be taught.
+ - Some could become a paper or the building block of a business: these can be small demo projects.
+ - Alternatively, in a consulting mode, our role becomes understanding customer goals and helping rationalise work to fulfil them.
+- *Resource Requirements* - /What (people, money, things) are needed to accomplish this project?  Where do they come from?/
+ - We each individually need some money, but it’s not totally clear that the /company/ needs some money.
+ - If we wanted to replace any one of us with an employee, then we’d have to have some funding source.
+ - If the number of person-hours for the goal is quite high, then it’s unlikely for the goal to be achieved without funding.
+ - E.g., what would we need to be able to do consulting?
+- *People* - /Who are the people working on this project? Who can I ask for more information? How can I best get in touch with them?/
+ - If we were to be doing consulting, then it becomes about serving specific customer needs.
+- *Approach* - /What is the overall strategy for accomplishing this project?/
+ - Whatever we choose (e.g., consulting vs product development) we should choose it based on some data and analysis.
+ - Wherever we are now, the question is what’s needed to move ahead.
+
+- *Workplan and Timeline* - What are the specific tasks needed to accomplish our goals? When might they happen? Who / what / when (in agile, we specify two).
+ - Joe needs some job soon!
+ - To do consulting we’d need to figure out customer need and credibility
+ - To make progress on the AI directions we need some version of all the things up and running!
+- *Communication Norms* - how have the project participants agreed to stay in touch? what, where and how often are regular meetings? Special ceremonies?
+ - In 2 months we’ll have 2 more months of experience.  So we could then assess things.
+ - In advance of that, we might start to understand the expections about how we would gather the data.
+ - It should be pretty much fun, and if it’s not we’re kind of doing it wrong?
+ - On an ongoing basis we should be able to check whether what we’re doing is effectively addressing the goals we have
+- *Sponsor* - /the person who requires the output of the project and has allocated the resources for it (aka Customer in agile)/
+ - So far we’re all sponsoring our own work on sweat equity
+ - While also trying to be helpful & respectful to each other
+ - EF was the sponsor at one time
+ - Joe provided chips and dip but the event was strictly BYOB... as long as we’re here we’ll make the best out of.  Polka time!
+- *Project Manager* - the person responsible for the drumbeat and tempo of the project, and for its administrative details, including good project management hygiene
+- *Lead* - the person responsible to the Sponsor for making sure the project is accomplished and to the Team for making sure they are able to accomplish the project
+ - Ray: project to build bridges between participants (e.g., systems bio, category theory, stats); this is related to the “transdisciplinary design” course
+ - Joe: I’m less technically sophisticated
+- *Team* - people working on the project
+ - Everyone will have some constraints (like need $40K per year if it takes more than 20 hours per week)
+
+*** Project Management Hygiene
+
+- set SMART goals (Specific, Measurable, Achievable, Relevant and Time-based)
+- understand tasks required to accomplish goals, then set realistic timeline 
+- create project plan in wiki
+- regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary 
+- after-action reviews at the end of project, including reflection/writeup of positives and deltas 
+- experienced, well-oiled teams requires less strict project management hygiene 
+- new, less-organized, or heterogenous teams require more attention to careful project management hygiene 
+
+*** TODO Make a list of actual topics of interest                        :ALL:
+If we were just doing “content production” we might think of a list of
+chapters to write, or podcasts to produce. However, maybe those ways
+of thinking and working don’t apply comfortably here.
+
+*** TODO Make a project analysis of active projects                  :joe:ray:
+
+** Technology
+
+Does https://github.com/orgs/exp2exp/projects/1 conflict, replace, or
+serve a different function compared with Org mode agenda items?  
+
+*** TODO Figure out Github project(s) vs Org todos               :joe:cameron:
+
+** Subgoals :noexport:
+:PROPERTIES:
+:ID:       17468abb-5c17-458e-a053-72e6356bbad5
+:END:
+
+- [[*OBS recordings][OBS recordings]]
+- [[*Discord server][Discord server]]
+- [[*Code sharing platform][Code sharing platform]]
+- [[*Blog][Blog]]
+- [[*Wiki][Wiki]]
+- [[*Forum][Forum]]
+** Discord server
+:PROPERTIES:
+:tag: OTS AN
+:END:
+
+We set up a Discord server that we’re using for our meetings.  This
+invite link should not expire: https://discord.gg/pArjt4p
+
+(We also have a Zulip server set up, but currently we’re using it
+less.)
+** OBS recordings
+:PROPERTIES:
+:tag: OTS AN
+:END:
+#+CATEGORY: OBS
+
+We talked about creating asyncronous recordings (screencasts,
+audio). We also talked about possibly putting the audio recordings
+into a threaded voice mail forum, but that's a somewhat different
+application.
+
+** Code sharing platform
+:PROPERTIES:
+:tag: OTS AN
+:END:
+#+CATEGORY: OTS
+
+For now we have a Github organisation (https://github.com/exp2exp), as
+well as a separate repo that contains these Org Roam notes, among
+other things.  This could potentially be improved or upgraded in
+various ways.
+
+*** Comments
+
+- Nextjournal is interesting
+- It's like a Jupyter notebook
+- It's like Org Bable so you can run code in any language within the same environment
+- If I need to add a bash cell to a Julia notebook, it adds a kernel as needed at the run time
+- If I install a bunch of libraries, and save the current environment in a docker container, you can import it
+- It doesn't yet have an easy way to make an app?
+
+*** What if you had a browser based version of Org Bable?
+
+- You could have your notebook, backed by the ability to use Emacs
+
+*** Examples
+
+- Setting up a data science experiment
+- Wadler et al. course in Agda in NextJournal
+- But you can't easily treat this as ‘Org Roam’ (no bi-directional things)
+
+*** Next evolution
+
+We need a basic code sharing platform to get to work.  The next
+evolution might look like what we’ve been calling the “Emacs Hyper
+Notebook”?  However, some contributors are not interested in using
+Emacs for everything.  And we can’t assume that users would be
+interested in it either!
+** Wiki
+:PROPERTIES:
+:tag: OTS AN
+:END:
+#+CATEGORY: OTS
+
+The public facing version of these notes is available on a simple
+“brain dump” web interface, at https://notes.exploretoexploit.com/posts/.
+That mirrors the contents of our Org Roam directory.  Editing
+permissions are explained below.
+
+We can also view the contents of Org Roam in a linear form as PDF
+document... or view the currently active tasks using Org Agenda.  In
+the future we may want to have several different “upstream” locations,
+based on several different small-scale wikis, all feeding into this
+one location.  That’s not hard to set up.  Contents can also be
+browsed in a graphical form either with the built in =org-roam-graph=
+functionality, or by installing Org Roam Server and running
+=org-roam-server-mode=.
+
+We can potentially improve on all of this further, bulding something
+like Metacademy.  For now, we describe how to use this simple Org Roam
+based wiki.
+
+*** Setup
+
+Install Org Roam if needed (=M-x package-install RET org-roam RET=).
+
+Clone the repo, using these instructions to switch to the mob branch
+(which avoids the need for further permissioning). Details are here:
+https://bit.ly/2EQRHEF
+
+Subsequently, add this to your Emacs configuration:
+
+#+BEGIN_src elisp
+(require 'org-roam)
+(setq org-roam-directory (concat "/home/"
+                          (getenv "USER")
+                          "/arxana/org-roam/"))
+(setq org-roam-completion-system 'helm)
+(define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
+(define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
+(define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
+(define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
+(define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
+(org-roam-mode +1)
+#+END_src
+*** Bonus feature: org-roam-checkout
+
+If you regularly use your own separate Org Roam setup, you can use
+this simple context switcher to move between the two.  Keep track of
+the various separate Org Roam installations with =org-roam-library=
+and then switch between them interactively with =org-roam-checkout=.
+
+#+begin_src elisp
+(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/arxana/org-roam/")
+                           ,(concat "/home/" (getenv "USER") "/org-roam/")))
+
+(defun org-roam-checkout ()
+  (interactive)
+  (let ((ctx org-roam-directory))
+    (if (eq (length org-roam-library) 1)
+        ;; Still go ahead and set the variable in this case!
+        (progn (setq org-roam-directory (car org-roam-library))
+               (message "You only have one choice for org-roam-directory defined."))
+      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+        (when lib
+          (setq org-roam-directory lib))))
+    ;; assuming the user changes context, let’s also prompt them
+    ;; to choose a new file in that context
+    (when (not (eq ctx org-roam-directory))
+      (org-roam-find-file))))
+#+end_src
+
+*** Interaction
+
+Use the =C-c n f= keyboard command to add new disconnected nodes to
+the graph, or use =C-c n i= to create a page and insert a wiki-style
+link, like =[[New Page]]=. Follow links with =C-c C-o=. Display the
+graph structure with =C-c n g=.  It may be necessary to run =M-x
+org-roam-db-build-cache= to get the graph to match reality.  Add and
+commit new or modified files with git, along with =org-roam.db=, and
+push them to the repo.
+
+*** Log
+
+You can review commits to the mob branch here:
+https://repo.or.cz/arxana.git/shortlog/refs/heads/mob
+
+*** Tags
+
+Some of the nodes have =#+roam_tags= set:
+
+| *code* | *meaning*        |
+|--------+------------------|
+| HL     | High level       |
+| CDN    | Can do now       |
+| LRD    | Longer R&D cycle |
+| HD     | Has dependencies |
+| RR     | Research Review  |
+| RO     | Research Output  |
+| OTS    | Off the shelf    |
+| SH     | Stakeholder      |
+| AN     | Annex            |
+
+Some of the files also have a =#+CATEGORY= set.
+
+*** Pairing
+
+#+begin_src
+ssh pair@178.79.174.58
+PW: <ASK JOE FOR THE PASSWORD>
+emacsclient -a '' -t
+M-x lockstep
+#+end_src
+*** Linearizing
+
+To turn this map into something we can reliably use, let’s try to
+linearize it.
+
+To downsample from Org Roam (save as =~/bin/roam2org.sh= and make it
+executable):
+
+#+begin_src bash
+#! /bin/bash
+
+emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
+#+end_src
+
+Here are the working parts (save as =~/bin/downsample-org-roam.el=):
+
+#+begin_src elisp
+(defun downsample ()
+  (if (looking-at "^#\\+TITLE:")
+      (replace-match "*"))
+  (forward-line 1)
+  (if (looking-at "^#\\+roam_tags:\\(.*\\)")
+      (replace-match ":PROPERTIES:
+:tag:\\1
+:END:"))
+  (while (re-search-forward "^\\*" nil t)
+    (replace-match "**"))
+  (goto-char (point-min))
+  (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
+    (replace-match "[[*\\2][\\2]]"))
+  (buffer-substring-no-properties (point-min) (point-max)))
+
+(defun combine-files (&rest args)
+  (apply #'concat
+         (mapcar (lambda (file)
+                   (save-window-excursion
+                     (find-file (concat "~/arxana/org-roam/" file))
+                     (let ((contents (buffer-substring-no-properties (point-min)
+                                                                     (point-max))))
+                       (with-temp-buffer (insert contents)
+                                         (goto-char (point-min))
+                                         (downsample)))))
+                 (or (car args) (nthcdr 5 command-line-args)))))
+#+end_src
+
+*** Backlog
+
+Part of the idea with a backlog is to go from most-doable, starting
+with work in progress, to least-doable and potentially vague.  Here,
+then, is one approximate linearization that may or may not meet that
+description!
+
+#+begin_src elisp
+(setq files-to-combine
+'("20200810131435-hyperreal_enterprises.org"
+"20200810132653-top.org"
+"20200905124558-why_not_what.org"
+ "20200909195629-teach_arbitrary_coding.org"
+ "20200810135851-how_to_design_programs_with_if.org"
+"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+  "20200905125342-emacs_hyper_notebook.org"
+"20200905125023-which_model_construction_process_works_as_a_whole.org"
+ "20200905131027-information_extraction_from_so_q_a_items.org"
+"20200905131918-knowledge_graph.org"
+"20200905124432-underlying_foundation.org"
+ "20200905125713-category_theoretic_glue.org"
+ "20200905131656-probabilistic_programming_for_scientific_modelling.org"
+"20201003205523-potential_products.org"
+ "20200905130423-agent_model.org"
+ "20200817172825-recommender_system.org"
+ "20200810135457-visual_interfaces.org"
+ "20200814203551-data_course.org"
+ "20200905132603-paperspace_do_nj_etc_collaboratory.org"
+"20200814210243-business_development.org"
+"20200905134325-research_outputs.org"
+ "20200810135325-advances_in_tutoring_systems_for_programming.org"
+ "20200810135403-advances_in_knowledge_mining_from_technical_documents.org"
+ "20200905132334-an_abm_of_the_computer_programming_domain.org"
+"20200906003704-bottom.org"
+ "20201003164408-downstream.org"
+ "20201003165500-consulting_clients.org"
+ "20201003170312-open_source_developers.org"
+ "20201003170333-tutoring_students.org"
+ "20201003171011-programmers.org"
+"20200810135126-organisational_infrastructure.org"
+ "20200810135619-discord_server.org"
+ "20200811185435-obs_recordings.org"
+ "20200814193042-code_sharing_platform.org"
+ "20200912223428-wiki.org"
+ "20201003164100-forum.org"
+ "20200814195259-blog.org"))
+#+end_src
+
+To combine the files, run:
+#+begin_src elisp
+(combine-files files-to-combine)
+#+end_src
+
+To get the indicative nesting (shown by spaces above) to be replicated
+at the org level, run the following at the top of the exported
+compilation:
+
+#+begin_src elisp
+(defun indent-org-roam-export ()
+  (org-map-entries (lambda ()
+                     ;; don’t demote the top level items and their sub-items
+                     (let ((tag (org-entry-get nil "tag")))
+                       (if (and tag (string= (car (split-string tag)) "HL"))
+                           (progn (org-end-of-subtree)
+                                  (setq org-map-continue-from (point)))
+                         (org-do-demote))))
+                   nil 'file))
+#+end_src
+
+Lastly, to rebuild the PDF, all of this can be done with one swift
+action.
+
+#+begin_src elisp
+(defun rebuild-org-roam-pdf ()
+  (interactive)
+  (save-excursion (find-file (concat "/home/" (getenv "USER")
+                                     "/arxana/org/combined.org"))
+    (goto-char (point-min))
+    (search-forward "# IMPORT")
+    (let ((beg (point)))
+      (delete-region (point) (point-max))
+      (insert "\n" (combine-files files-to-combine))
+      (goto-char beg)
+      (indent-org-roam-export)
+      (org-latex-export-to-pdf))))
+#+end_src
+
+*** Reviewing progress
+
+Something like the following should be all that’s get a high-level
+overview of progress on active tasks, sourcing information directly
+from the Org Roam files.  Add the following to your emacs
+initialisation script (e.g., =~/.emacs=), evaluate it, and then run
+=C-c r= to load up the fun.  This may not be the perfect presentation
+yet but it gives an idea.
+
+#+begin_src elisp
+(setq org-todo-keywords
+      '((sequence "TODO" "STARTED" "BLOCKED" "BACKBURNER" "FROZEN"
+                  "|" "DONE" "DEFERRED" "WONTFIX")))
+
+(setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
+
+(setq org-agenda-files '("~/arxana/org-roam/"))
+
+(defun org-scrum-board ()
+  (interactive)
+  (org-todo-list "TODO|STARTED|BLOCKED|BACKBURNER|FROZEN|DONE|DEFERRED|WONTFIX"))
+
+(global-set-key (kbd "C-c r") 'org-scrum-board)
+#+end_src
+
+This view can then be further filtered by regexp (e.g., your name) by
+pressing ~=~.
+
+*** TODO Package downsamping code separately                            :joe:
+*** TODO Update the repo instructions to reference this file            :joe:
+*** DONE Make generation of combined.org fully automatic                :joe:
+*** WONTFIX Make generation of brain dump fully automatic       :joe:cameron:
+CLOSED: [2020-10-09 Fri 23:32]
+This looks less relevant if we are using Firn, which I personally prefer!
+
+*** Potential further directions
+
+- We could try to get https://github.com/tecosaur/codiorg working.
+** Forum
+:PROPERTIES:
+:tag: OTS AN
+:END:
+#+CATEGORY: OTS
+
+We talked about using Wikum as a forum, because we liked the idea of a
+workflow based on summarising discussions. There’s now a demo instance
+set up that we can use, here:
+
+http://wikum.org/visualization_flags?id=590&owner=holtzermann17
+
+*** Could we incorporate the ideas directly in Org or Org Roam?
+
+Perhaps we could incorporate some Wikum ideas right into the wiki
+here.  The idea would be to treat the top paragraph on each page as a
+summary, and then add discussion threads below.  We’d want some system
+of tags that indicated whether the summary was validated or now.
+(Note the the original WikiWikiWeb did not have separate talk pages!
+I don’t know if they practiced robust summarisation, either.)
+
+***************** REMARK                                                :joe:
+This is an “inline task,” via =(require 'org-inlinetask)=.  There
+doesn’t seem to be support for nested or threaded tasks, but maybe we
+would have use for non-threaded forum discussions at the end of any
+page in the Wiki.  Incidentally, for those curious, the formatting of
+the \LaTeX\nbsp{}export is controlled by
+=org-latex-format-inlinetask-function=.
+***************** END
+
+*** TODO Is anyone willing to adopt a summarisation workflow? To confirm. :ALL:
+
+Since we’re pretty actively updating our *Discord* and pretty happy
+using it, maybe people who are working on Active Projects would be
+willing to summarise activity here, say, weekly?
+** Blog
+:PROPERTIES:
+:tag: OTS AN
+:END:
+#+CATEGORY: BLOG
+
+This is a public window on our experiments, available at
+https://exp2exp.com.
+
+Presently, we’re still figuring out what the work flow and contents of
+the blog will look like.  The kinds of people to whom we wish to
+appear credible are described in *Downstream*, and presumably whatever
+we put online should match what we think they will want to know.
+
+*** Related                                                        :noexport:
+:PROPERTIES:
+:ID:       307bdc02-be3b-464b-8424-323b3c66981a
+:END:
+
+- [[*Code sharing platform][Code sharing platform]]
+
