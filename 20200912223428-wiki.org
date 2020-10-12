@@ -23,13 +23,29 @@ We can potentially improve on all of this further, bulding something
 like Metacademy.  For now, we describe how to use this simple Org Roam
 based wiki.
 
+* Access
+
+Obtain the sources by cloning the repo at
+[[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].
+
+#+begin_src 
+git clone git@github.com:exp2exp/exp2exp.github.io.git
+#+end_src
+
+(See below for an alternative.)
+
+* Mob branch on repo.or.cz
+
+We’re mirroring the repo to an environment that allows anonymous
+commits (without need for further permissioning).  If want to
+contribute anonymously, info on that is here: https://bit.ly/2EQRHEF
+
+You can review commits to the mob branch here:
+https://repo.or.cz/arxana.git/shortlog/refs/heads/mob
+
 * Setup
 
 Install Org Roam if needed (=M-x package-install RET org-roam RET=).
-
-Clone the repo, using these instructions to switch to the mob branch
-(which avoids the need for further permissioning). Details are here:
-https://bit.ly/2EQRHEF
 
 Subsequently, add this to your Emacs configuration:
 
@@ -37,7 +53,7 @@ Subsequently, add this to your Emacs configuration:
 (require 'org-roam)
 (setq org-roam-directory (concat "/home/"
                           (getenv "USER")
-                          "/arxana/org-roam/"))
+                          "/exp2exp/"))
 (setq org-roam-completion-system 'helm)
 (define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
 (define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
@@ -54,7 +70,7 @@ the various separate Org Roam installations with =org-roam-library=
 and then switch between them interactively with =org-roam-checkout=.
 
 #+begin_src elisp
-(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/arxana/org-roam/")
+(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp/")
                            ,(concat "/home/" (getenv "USER") "/org-roam/")))
 
 (defun org-roam-checkout ()
@@ -82,11 +98,6 @@ graph structure with =C-c n g=.  It may be necessary to run =M-x
 org-roam-db-build-cache= to get the graph to match reality.  Add and
 commit new or modified files with git, along with =org-roam.db=, and
 push them to the repo.
-
-* Log
-
-You can review commits to the mob branch here:
-https://repo.or.cz/arxana.git/shortlog/refs/heads/mob
 
 * Tags
 
@@ -127,7 +138,7 @@ M-x crdt-serve-buffer
 And then, from your client, to connect:
 
 #+begin_src 
-M-x connect
+M-x crdt-connect
 #+end_src
 
 * Linearizing
@@ -166,7 +177,7 @@ Here are the working parts (save as =~/bin/downsample-org-roam.el=):
   (apply #'concat
          (mapcar (lambda (file)
                    (save-window-excursion
-                     (find-file (concat "~/arxana/org-roam/" file))
+                     (find-file (concat "~/exp2exp/" file))
                      (let ((contents (buffer-substring-no-properties (point-min)
                                                                      (point-max))))
                        (with-temp-buffer (insert contents)
@@ -254,7 +265,7 @@ action.
 (defun rebuild-org-roam-pdf ()
   (interactive)
   (save-excursion (find-file (concat "/home/" (getenv "USER")
-                                     "/arxana/org/combined.org"))
+                                     "/exp2exp/manual/combined.org"))
     (goto-char (point-min))
     (search-forward "# IMPORT")
     (let ((beg (point)))
@@ -271,7 +282,6 @@ Publishing with Firn is simple:
 
 #+begin_src 
 firn build
-cp -R ~/arxana/org-roam/_firn/_site/* ~/git-repos/exp2exp/docs/
 #+end_src
 
 Then commit and push.
@@ -292,7 +302,7 @@ yet but it gives an idea.
 
 (setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
 
-(setq org-agenda-files '("~/arxana/org-roam/"))
+(setq org-agenda-files '("~/exp2exp/"))
 
 (defun org-scrum-board ()
   (interactive)
