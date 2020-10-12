@@ -142,6 +142,9 @@ M-x crdt-connect
 #+end_src
 
 * Linearizing
+:PROPERTIES:
+:ID:       5bbb2c06-bab3-4e66-8e52-c53642234dec
+:END:
 
 To turn this map into something we can reliably use, let’s try to
 linearize it.
@@ -157,15 +160,18 @@ emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
 
 Here are the working parts (save as =~/bin/downsample-org-roam.el=):
 
-#+begin_src elisp
+#+begin_src elisp :tangle yes
 (defun downsample ()
+  "Process an Org Roam buffer for inclusion in a standard Org file.
+Changes title to header, and increase indentation of existing headers.
+Changes file links to internal links."
   (if (looking-at "^#\\+TITLE:")
       (replace-match "*"))
   (forward-line 1)
   (if (looking-at "^#\\+roam_tags:\\(.*\\)")
       (replace-match ":PROPERTIES:
-:tag:\\1
-:END:"))
+  :tag:\\1
+  :END:"))
   (while (re-search-forward "^\\*" nil t)
     (replace-match "**"))
   (goto-char (point-min))
@@ -173,11 +179,13 @@ Here are the working parts (save as =~/bin/downsample-org-roam.el=):
     (replace-match "[[*\\2][\\2]]"))
   (buffer-substring-no-properties (point-min) (point-max)))
 
-(defun combine-files (&rest args)
+(defun combine-org-roam-files (&rest args)
+"Combine a list of files, specified as ARGs.
+The files are to be found in `org-roam-directory'."
   (apply #'concat
          (mapcar (lambda (file)
                    (save-window-excursion
-                     (find-file (concat "~/exp2exp/" file))
+                     (find-file (concat org-roam-directory file))
                      (let ((contents (buffer-substring-no-properties (point-min)
                                                                      (point-max))))
                        (with-temp-buffer (insert contents)
@@ -187,6 +195,9 @@ Here are the working parts (save as =~/bin/downsample-org-roam.el=):
 #+end_src
 
 * Backlog
+:PROPERTIES:
+:ID:       665a10d6-f9b7-421f-bc63-745f4a597916
+:END:
 
 Part of the idea with a backlog is to go from most-doable, starting
 with work in progress, to least-doable and potentially vague.  Here,
@@ -196,8 +207,8 @@ description!
 Note, this is duplicated in the index file, probably for sanity we
 should pick one and automate the derived version from there!
 
-#+begin_src elisp
-(setq files-to-combine
+#+begin_src elisp :tangle yes
+(defvar files-to-combine
 '("20200810131435-hyperreal_enterprises.org"
 "20200810132653-top.org"
 "20200905124558-why_not_what.org"
@@ -234,20 +245,24 @@ should pick one and automate the derived version from there!
  "20200814193042-code_sharing_platform.org"
  "20200912223428-wiki.org"
  "20201003164100-forum.org"
- "20200814195259-blog.org"))
+ "20200814195259-blog.org")
+"An ordered list of files to combine in our export.
+This is where the order of presentation in the downstream org file
+and derived PDF is defined.")
 #+end_src
 
 To combine the files, run:
 #+begin_src elisp
-(combine-files files-to-combine)
+(combine-org-roam-files files-to-combine)
 #+end_src
 
 To get the indicative nesting (shown by spaces above) to be replicated
 at the org level, run the following at the top of the exported
 compilation:
 
-#+begin_src elisp
+#+begin_src elisp :tangle yes
 (defun indent-org-roam-export ()
+  "Utility function to increase indention for selected trees."
   (org-map-entries (lambda ()
                      ;; don’t demote the top level items and their sub-items
                      (let ((tag (org-entry-get nil "tag")))
@@ -261,11 +276,12 @@ compilation:
 Lastly, to rebuild the PDF, all of this can be done with one swift
 action.
 
-#+begin_src elisp
+#+begin_src elisp :tangle yes
 (defun rebuild-org-roam-pdf ()
+  "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
-  (save-excursion (find-file (concat "/home/" (getenv "USER")
-                                     "/exp2exp/manual/combined.org"))
+  (save-excursion (find-file (concat org-roam-directory
+                                     "/manual/combined.org"))
     (goto-char (point-min))
     (search-forward "# IMPORT")
     (let ((beg (point)))
@@ -314,6 +330,6 @@ yet but it gives an idea.
 This view can then be further filtered by regexp (e.g., your name) by
 pressing ~=~.
 
-* TODO Package downsamping code separately                              :joe:
-* TODO Update the repo instructions to reference this file              :joe:
+* DONE Package downsamping code separately                              :joe:
+* WONTFIX Update the repo instructions to reference this file           :joe:
 
