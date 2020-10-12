@@ -1,0 +1,333 @@
+#+title: Wiki
+#+roam_tags: OTS AN
+#+CATEGORY: OTS
+
+#+COMMENT: OLD CONTENT:
+#+COMMENT: The public facing version of these notes is available on a simple
+#+COMMENT: “brain dump” web interface, at https://notes.exploretoexploit.com/posts/.
+
+The public facing version of these notes is available on a simple web
+interface, created by Firn: [[https://exp2exp.github.io/][https://exp2exp.github.io/]]. This mirrors
+the contents of our Org Roam directory.  Editing is explained below.
+
+We can also view the contents of Org Roam in a linear form as PDF
+document... or view the currently active tasks using Org Agenda.  In
+the future we may want to have several different “upstream” locations,
+based on several different small-scale wikis, all feeding into this
+one location.  That’s not hard to set up.  Contents can also be
+browsed in a graphical form either with the built in =org-roam-graph=
+functionality, or by installing Org Roam Server and running
+=org-roam-server-mode=.
+
+We can potentially improve on all of this further, bulding something
+like Metacademy.  For now, we describe how to use this simple Org Roam
+based wiki.
+
+* Access
+
+Obtain the sources by cloning the repo at [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].
+
+#+begin_src 
+git clone git@github.com:exp2exp/exp2exp.github.io.git
+#+end_src
+
+(See below for an alternative.)
+
+* Mob branch on repo.or.cz
+
+We’re mirroring the repo to an environment that allows anonymous
+commits (without need for further permissioning).  If want to
+contribute anonymously, info on that is here: [[https://bit.ly/2EQRHEF][https://bit.ly/2EQRHEF]]
+
+You can review commits to the mob branch here: [[https://repo.or.cz/arxana.git/shortlog/refs/heads/mob][https://repo.or.cz/arxana.git/shortlog/refs/heads/mob]]
+
+* Setup
+
+Install Org Roam if needed (=M-x package-install RET org-roam RET=).
+
+Subsequently, add this to your Emacs configuration:
+
+#+BEGIN_src elisp
+(require 'org-roam)
+(setq org-roam-directory (concat "/home/"
+                          (getenv "USER")
+                          "/exp2exp/"))
+(setq org-roam-completion-system 'helm)
+(define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
+(define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
+(define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
+(define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
+(define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
+(org-roam-mode +1)
+#+END_src
+* Bonus feature: org-roam-checkout
+
+If you regularly use your own separate Org Roam setup, you can use
+this simple context switcher to move between the two.  Keep track of
+the various separate Org Roam installations with =org-roam-library=
+and then switch between them interactively with =org-roam-checkout=.
+
+#+begin_src elisp
+(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp/")
+                           ,(concat "/home/" (getenv "USER") "/org-roam/")))
+
+(defun org-roam-checkout ()
+  (interactive)
+  (let ((ctx org-roam-directory))
+    (if (eq (length org-roam-library) 1)
+        ;; Still go ahead and set the variable in this case!
+        (progn (setq org-roam-directory (car org-roam-library))
+               (message "You only have one choice for org-roam-directory defined."))
+      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+        (when lib
+          (setq org-roam-directory lib))))
+    ;; assuming the user changes context, let’s also prompt them
+    ;; to choose a new file in that context
+    (when (not (eq ctx org-roam-directory))
+      (org-roam-find-file))))
+#+end_src
+
+* Interaction
+
+Use the =C-c n f= keyboard command to add new disconnected nodes to
+the graph, or use =C-c n i= to create a page and insert a wiki-style
+link, like =[[New Page]]=. Follow links with =C-c C-o=. Display the
+graph structure with =C-c n g=.  It may be necessary to run =M-x
+org-roam-db-build-cache= to get the graph to match reality.  Add and
+commit new or modified files with git, along with =org-roam.db=, and
+push them to the repo.
+
+* Tags
+
+Some of the nodes have =#+roam_tags= set:
+
+| *code* | *meaning*        |
+|--------+------------------|
+| HL     | High level       |
+| CDN    | Can do now       |
+| LRD    | Longer R&D cycle |
+| HD     | Has dependencies |
+| RR     | Research Review  |
+| RO     | Research Output  |
+| OTS    | Off the shelf    |
+| SH     | Stakeholder      |
+| AN     | Annex            |
+
+Some of the files also have a =#+CATEGORY= set.
+
+* Pairing
+
+For syncronized browsing and editing with [[https://github.com/tjim/lockstep][lockstep.el]]:
+
+#+begin_src
+ssh pair@178.79.174.58
+PW: <ASK JOE FOR THE PASSWORD>
+emacsclient -a '' -t
+M-x lockstep
+#+end_src
+
+To open up a real-time collaboration (with multiple cursors), use
+[[https://code.librehq.com/qhong/crdt.el][crdt.el]], first to serve the buffer:
+
+#+begin_src 
+M-x crdt-serve-buffer
+#+end_src
+
+And then, from your client, to connect:
+
+#+begin_src 
+M-x crdt-connect
+#+end_src
+
+* Linearizing
+:PROPERTIES:
+:ID:       5bbb2c06-bab3-4e66-8e52-c53642234dec
+:END:
+
+To turn this map into something we can reliably use, let’s try to
+linearize it.
+
+To downsample from Org Roam (save as =~/bin/roam2org.sh= and make it
+executable):
+
+#+begin_src bash
+#! /bin/bash
+
+emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
+#+end_src
+
+Here are the working parts (save as =~/bin/downsample-org-roam.el=):
+
+#+begin_src elisp :tangle yes
+(defun downsample ()
+  "Process an Org Roam buffer for inclusion in a standard Org file.
+Changes title to header, and increase indentation of existing headers.
+Changes file links to internal links."
+  (if (looking-at "^#\\+TITLE:")
+      (replace-match "*"))
+  (forward-line 1)
+  (if (looking-at "^#\\+roam_tags:\\(.*\\)")
+      (replace-match ":PROPERTIES:
+  :tag:\\1
+  :END:"))
+  (while (re-search-forward "^\\*" nil t)
+    (replace-match "**"))
+  (goto-char (point-min))
+  (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
+    (replace-match "[[*\\2][\\2]]"))
+  (buffer-substring-no-properties (point-min) (point-max)))
+
+(defun combine-org-roam-files (&rest args)
+"Combine a list of files, specified as ARGs.
+The files are to be found in `org-roam-directory'."
+  (apply #'concat
+         (mapcar (lambda (file)
+                   (save-window-excursion
+                     (find-file (concat org-roam-directory file))
+                     (let ((contents (buffer-substring-no-properties (point-min)
+                                                                     (point-max))))
+                       (with-temp-buffer (insert contents)
+                                         (goto-char (point-min))
+                                         (downsample)))))
+                 (or (car args) (nthcdr 5 command-line-args)))))
+#+end_src
+
+* Backlog
+:PROPERTIES:
+:ID:       665a10d6-f9b7-421f-bc63-745f4a597916
+:END:
+
+Part of the idea with a backlog is to go from most-doable, starting
+with work in progress, to least-doable and potentially vague.  Here,
+then, is one approximate linearization that may or may not meet that
+description!
+
+Note, this is duplicated in the index file, probably for sanity we
+should pick one and automate the derived version from there!
+
+#+begin_src elisp :tangle yes
+(defvar files-to-combine
+'("20200810131435-hyperreal_enterprises.org"
+"20200810132653-top.org"
+"20200905124558-why_not_what.org"
+ "20200909195629-teach_arbitrary_coding.org"
+ "20200810135851-how_to_design_programs_with_if.org"
+"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+  "20200905125342-emacs_hyper_notebook.org"
+"20200905125023-which_model_construction_process_works_as_a_whole.org"
+ "20200905131027-information_extraction_from_so_q_a_items.org"
+"20200905131918-knowledge_graph.org"
+"20200905124432-underlying_foundation.org"
+ "20200905125713-category_theoretic_glue.org"
+ "20200905131656-probabilistic_programming_for_scientific_modelling.org"
+"20201003205523-potential_products.org"
+ "20200905130423-agent_model.org"
+ "20200817172825-recommender_system.org"
+ "20200810135457-visual_interfaces.org"
+ "20200814203551-data_course.org"
+ "20200905132603-paperspace_do_nj_etc_collaboratory.org"
+"20200814210243-business_development.org"
+"20200905134325-research_outputs.org"
+ "20200810135325-advances_in_tutoring_systems_for_programming.org"
+ "20200810135403-advances_in_knowledge_mining_from_technical_documents.org"
+ "20200905132334-an_abm_of_the_computer_programming_domain.org"
+"20200906003704-bottom.org"
+ "20201003164408-downstream.org"
+ "20201003165500-consulting_clients.org"
+ "20201003170312-open_source_developers.org"
+ "20201003170333-tutoring_students.org"
+ "20201003171011-programmers.org"
+"20200810135126-organisational_infrastructure.org"
+ "20200810135619-discord_server.org"
+ "20200811185435-obs_recordings.org"
+ "20200814193042-code_sharing_platform.org"
+ "20200912223428-wiki.org"
+ "20201003164100-forum.org"
+ "20200814195259-blog.org")
+"An ordered list of files to combine in our export.
+This is where the order of presentation in the downstream org file
+and derived PDF is defined.")
+#+end_src
+
+To combine the files, run:
+#+begin_src elisp
+(combine-org-roam-files files-to-combine)
+#+end_src
+
+To get the indicative nesting (shown by spaces above) to be replicated
+at the org level, run the following at the top of the exported
+compilation:
+
+#+begin_src elisp :tangle yes
+(defun indent-org-roam-export ()
+  "Utility function to increase indention for selected trees."
+  (org-map-entries (lambda ()
+                     ;; don’t demote the top level items and their sub-items
+                     (let ((tag (org-entry-get nil "tag")))
+                       (if (and tag (string= (car (split-string tag)) "HL"))
+                           (progn (org-end-of-subtree)
+                                  (setq org-map-continue-from (point)))
+                         (org-do-demote))))
+                   nil 'file))
+#+end_src
+
+Lastly, to rebuild the PDF, all of this can be done with one swift
+action.
+
+#+begin_src elisp :tangle yes
+(defun rebuild-org-roam-pdf ()
+  "Build an org file and PDF compiling `files-to-combine'."
+  (interactive)
+  (save-excursion (find-file (concat org-roam-directory
+                                     "/manual/combined.org"))
+    (goto-char (point-min))
+    (search-forward "# IMPORT")
+    (let ((beg (point)))
+      (delete-region (point) (point-max))
+      (insert "\n" (combine-files files-to-combine))
+      (goto-char beg)
+      (indent-org-roam-export)
+      (org-latex-export-to-pdf))))
+#+end_src
+
+* Publishing to the web
+
+Publishing with Firn is simple:
+
+#+begin_src 
+firn build
+#+end_src
+
+Then commit and push.
+
+* Reviewing progress
+
+Something like the following should be all that’s get a high-level
+overview of progress on active tasks, sourcing information directly
+from the Org Roam files.  Add the following to your emacs
+initialisation script (e.g., =~/.emacs=), evaluate it, and then run
+=C-c r= to load up the fun.  This may not be the perfect presentation
+yet but it gives an idea.
+
+#+begin_src elisp
+(setq org-todo-keywords
+      '((sequence "TODO" "STARTED" "BLOCKED" "BACKBURNER" "FROZEN"
+                  "|" "DONE" "DEFERRED" "WONTFIX")))
+
+(setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
+
+(setq org-agenda-files '("~/exp2exp/"))
+
+(defun org-scrum-board ()
+  (interactive)
+  (org-todo-list "TODO|STARTED|BLOCKED|BACKBURNER|FROZEN|DONE|DEFERRED|WONTFIX"))
+
+(global-set-key (kbd "C-c r") 'org-scrum-board)
+#+end_src
+
+This view can then be further filtered by regexp (e.g., your name) by
+pressing ~=~.
+
+* DONE Package downsamping code separately                              :joe:
+* WONTFIX Update the repo instructions to reference this file           :joe:
+

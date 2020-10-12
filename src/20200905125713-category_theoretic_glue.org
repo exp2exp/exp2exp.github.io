@@ -1,0 +1,13 @@
+#+title: Category theoretic glue
+#+roam_tags: CDN
+#+CATEGORY: MATH
+
+We want to develop enough theory that we can use it to frame our
+experiments.  We are trying to do this in a computationally meaningful way.
+
+* Feature: Understand comma categories as a potential “backend”    :ray:zans:
+
+* Next steps :noexport:
+
+- [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
+

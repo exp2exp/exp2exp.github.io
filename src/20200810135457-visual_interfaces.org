@@ -1,0 +1,69 @@
+#+TITLE: Visual Interfaces
+#+roam_tags: LRD
+
+* Graphical flow for programs
+
+Can we model more general program flow in a similar fashion to Monocl?
+
+* Limitations
+
+The idea of graphical programming languages is linked with the
+[[https://en.wikipedia.org/wiki/Deutsch_limit][Deutsch limit]] (named for noted programmer [[https://en.wikipedia.org/wiki/L._Peter_Deutsch][L Peter Deutsch]], not
+physicist [[https://en.wikipedia.org/wiki/David_Deutsch][David Deutsch FRS]], though perhaps he could come into play later):
+
+#+begin_quote
+/The problem with visual programming is that you can’t have more than 50 visual primitives on the screen at the same time./
+#+end_quote
+
+* Automatically create visual interfaces
+
+Here's an idea: assuming we have enough text mining pixie dust (on
+corpora of linux man pages, and stack overflow questions/forum posts
+about linux commands), it might be possible to do:
+
+=user:~$ make-gui-for ls --output ls.py=
+
+* Feature: Build infra for generating and displaying graphs.
+
+E.g., we can generate graphs based on code flow.
+
+#+begin_src elisp
+(defun triangle (n)
+  (if (equal n 0) 0
+    (+ n (triangle (- n 1)))))
+#+end_src
+
+This would then be related to the visual code walk through feature described below.
+
+* Feature: Visual code walk through
+
+Ray is working on a visual code walk through.  This should be seen as
+another interface to the same basic underlying information, sort of
+like how Org Roam is the main interface to the data served by Org Roam
+Server.
+
+** General evaluation strategy for these demos:
+
+- /‘Would anyone want to use this?’/
+- E.g., in the case of Emacs "learn X in Y" demo.
+- If there is interest, work up to covering the HtDP book
+
+** Related work
+
+- MAUDE framework. :: You describe your programming language using
+  rewrite rules in K.  They define tools to auto-derive rules in [[http://www.kframework.org/index.php/Projects][K]].
+
+- Program slicing :: ‘Galois connection on the traces’. This allows
+  you to find where bugs appeared.  People tend to look in the most
+  recent.  Imagine a call-graph of all the variables, so it gives you
+  a minimum trace, showing where your bug can be found.
+
+* Next steps                                                       :noexport:
+:PROPERTIES:
+:ID:       8ed6b549-0761-4f06-b478-d47e5ff1036f
+:END:
+
+- [[file:20200905132603-paperspace_do_nj_etc_collaboratory.org][Paperspace DO NJ etc. Collaboratory]]
+
+* Contributes to                                                   :noexport:
+- [[file:20201003205523-potential_products.org][POTENTIAL PRODUCTS]]

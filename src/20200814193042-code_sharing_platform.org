@@ -1,0 +1,35 @@
+#+title: Code sharing platform
+#+roam_tags: OTS AN
+#+CATEGORY: OTS
+
+For now we have a Github organisation (https://github.com/exp2exp), as
+well as a separate repo that contains these Org Roam notes, among
+other things.  This could potentially be improved or upgraded in
+various ways.
+
+* Comments
+
+- Nextjournal is interesting
+- It's like a Jupyter notebook
+- It's like Org Bable so you can run code in any language within the same environment
+- If I need to add a bash cell to a Julia notebook, it adds a kernel as needed at the run time
+- If I install a bunch of libraries, and save the current environment in a docker container, you can import it
+- It doesn't yet have an easy way to make an app?
+
+* What if you had a browser based version of Org Bable?
+
+- You could have your notebook, backed by the ability to use Emacs
+
+* Examples
+
+- Setting up a data science experiment
+- Wadler et al. course in Agda in NextJournal
+- But you can't easily treat this as ‘Org Roam’ (no bi-directional things)
+
+* Next evolution
+
+We need a basic code sharing platform to get to work.  The next
+evolution might look like what we’ve been calling the “Emacs Hyper
+Notebook”?  However, some contributors are not interested in using
+Emacs for everything.  And we can’t assume that users would be
+interested in it either!

@@ -1,0 +1,8 @@
+#+TITLE: Discord server
+#+roam_tags: OTS AN
+
+We set up a Discord server that we’re using for our meetings.  This
+invite link should not expire: https://discord.gg/pArjt4p
+
+(We also have a Zulip server set up, but currently we’re using it
+less.)

@@ -1,0 +1,14 @@
+#+title: Make the knowledge economy universally accessible
+
+Our main goal is to make the knowledge economy accessible to anyone.
+
+This will have major economic, social, and even environmental
+ramifications.  This has been documented by R. M. Unger (with a
+summary in a recent Nesta whitepaper).
+
+* Addresses
+- [[file:20200905124558-why_not_what.org][Why not what]]
+
+* Implementation strategy                                          :noexport:
+- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
+- [[file:20200905131918-knowledge_graph.org][Knowledge graph]]

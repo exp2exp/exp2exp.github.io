@@ -1,0 +1,113 @@
+#+TITLE: Top
+#+roam_tags: HL
+
+* Motivation: For the sake of advancing AI
+:PROPERTIES:
+:ID:       744b12b2-b93c-4ad9-9fd1-5f649eac548f
+:END:
+
+We are doing this R&D work partly to make demonstrations of more
+advanced AI systems.  We expect that our stance on AI will not
+necessarily be a popular one.  But this is an important “minor” strand
+of AI research dating back to Alan Turing:
+
+#+begin_quote
+"As time goes on the [computer] itself will take over the functions
+both of [programmers] and of [users]…The [programmers] are liable to
+get replaced because as soon as any technique becomes at all
+stereotyped it becomes possible to devise a system of instruction
+tables which will enable the electronic computer to do it for
+itself. It may happen however that the [programmers] will refuse to do
+this. They may be unwilling to let their jobs be stolen from them in
+this way. In that case they would surround the whole of their work
+with mystery and make excuses, couched in well chosen gibberish,
+whenever any dangerous suggestions were made." -- Alan Turing, 1947.
+#+end_quote
+
+On average, advanced AI would bring in new ways of working, and would
+facilitate broad access to high-quality training.  This agenda could
+serve to focus the mind of technical workers, but not many are
+pursuing it presently.
+
+* Motivation: Technical experiments become easier
+
+Even in the present time, without relying on any speculative AI
+futures to magically appear, we can benefit from pursuing the agenda
+above.  Accordingly, we are doing some applied work with existing
+software that will give us a set of further tools and levers to work
+with.
+
+* Representative Prior Work
+
+** PlanetMath
+
+[[https://planetmath.org/][PlanetMath]] users created a reasonably large informal mathematical
+knowledge base together.  On the way, we came up with several
+technical demos and sketched possible [[https://github.com/holtzermann17/planetmath-docs/labels/PREVIEW][previews]] for upcoming features.
+One possible direction of work we looked at would be to focus on
+building a comprehensive category theory knowledge base.
+
+** Modelling the way mathematics is actually done
+
+In [[https://www.newton.ac.uk/files/preprints/ni17003.pdf][this paper]], we talked about how mathematics is situated somewhere
+in between ‘games’ and ‘storytelling’ in its complexity.  We proposed
+to build computational models of informal mathematical reasoning.
+Subsequent work continued on in this direction, using ideas from
+[[https://www.sciencedirect.com/science/article/pii/S0004370217300267][dialogue games]] and [[https://link.springer.com/article/10.1007/s10503-018-9474-x][argumentation theory more broadly]].
+
+* A sketch of a plan
+
+So, having gotten together around these ideas, we’re having online
+chat, frequent short meetings.  We’ve talked about maintaining a blog
+that would describe what we’re learning and developing.  So, roughly
+speaking, we will try to develop a curriculum through the blog.  We
+also have this wiki, that any of us can edit, which we can use as a
+staging ground for more developed blog posts.  Our thought was that
+blog posts might move in the direction of more developed outputs,
+whether products or research papers.  We want to use some ideas
+adapted from Scrum to build a shared awareness of what’s going on.
+However, we want to be careful not to become “managerial” since
+everyone is currently here as a volunteer, working on topics of his or
+her own interest.  We want to provide mutual support and fun.
+Reflection, whether in writing, or by recording and listening again to
+conversations, should help with that.  We are not constraining things
+to come out in a purely structured curriculum, or any other form of
+product development.  “Users” and “customers” may appear as we release
+things we are happy with and expand our little community.
+
+#+begin_quote
+“Rousseau says, someone who has been properly educated will be engaged
+in society, but relate to his or her fellow citizens in a natural way.
+... We naturally look after our own
+preservation and interests.  By contrast, /amour-propre/ is an unnatural
+self-love that is essentially relational. ... Thus, /amour-propre/ can
+contribute positively to human freedom and even virtue. Nevertheless,
+/amour-propre/ is also extremely dangerous because it is so easily
+corruptible. ... In its corrupted form, /amour-propre/ is the source of
+vice and misery, and results in human beings basing their own self
+worth on their feeling of superiority over others.” — [[https://iep.utm.edu/rousseau/][IEP]]
+#+end_quote
+
+* A possible formulation: short correlated sprints as opposed to random behaviour
+
+“Two people working together 4 hours a week for two weeks” could serve
+as an approximate unit of work.  Once we have amassed a few outputs
+from this kind of effort, we will have some evidence of the kinds of
+things that we can realistically achieve.  So far, our workflow has
+been more based on solo activities and informal conversations, but
+short robust team-ups continue to be an option!
+
+#+begin_quote
+Hypothetical conversation: /In my next post I want to integrate something that I learned from you about PL.  I want to drive in the direction of synthesis, as hard as I know how to right now.  This depends on everyone having free time to invest in this.  Start a blog where we think about what's the overlap in terms of learning?/
+#+end_quote
+
+
+* Subgoals:                                                        :noexport:
+:PROPERTIES:
+:ID:       1d3660fd-8826-4afb-b1e4-91b20c27ee9a
+:END:
+
+- [[file:20200905124558-why_not_what.org][Why not what]]
+- [[file:20200905125023-which_model_construction_process_works_as_a_whole.org][Which model construction process works as a whole?]]
+- [[file:20200905124432-underlying_foundation.org][Underlying foundation]]
+- [[file:20200905124405-construct_critique_improve_models_of_the_creative_process.org][Construct, critique, improve models of the creative process]]
