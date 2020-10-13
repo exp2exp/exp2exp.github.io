@@ -114,6 +114,9 @@ a
 1
 #+end_src
 
+* Future work
+
+- Extending to VS Code?  Would people who use VS code even want this kind of interaction?  Maybe VS Code is better for quick visualisations?
 
 * Contributes to                                                   :noexport:
 - [[file:20200810135457-visual_interfaces.org][Visual Interfaces]]
