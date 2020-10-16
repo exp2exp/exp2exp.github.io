@@ -35,8 +35,8 @@
 # IMPORT
 * Hyperreal Enterprises: Roadmap
 :PROPERTIES:
-:tag: HL AN
-:END:
+  :tag: HL AN
+  :END:
 #+CATEGORY: ROADMAP
 
 ** Preface
@@ -47,100 +47,97 @@
 This document synthesises a [[http://www.peeragogy.org/pattern-roadmap.html][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/product-roadmap.html][Product
 Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
 inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and shared via Git on repo.or.cz.
-This document can be thought of and edited as a [[*Wiki][Wiki]], from which other
+This document can be thought of and edited as a [[id:c8d5497d-601a-4595-a333-a7e671898307][Wiki]], from which other
 downstream formats can be derived.  A narrative introduction follows.
-To skip it, browse ahead to [[*Top][Top]].
+To skip it, browse ahead to [[id:4d9283fe-22d6-4617-a20d-5b4bdba8c684][Top]].
 
 ** Introduction
 
-*** We see a massive opportunity that will connect AI and human learning.
+*** Applying AI to technical fields is a huge opportunity.
 
-We are pursuing a novel programme of technical research and development based on two linked insights:
-- The process of programming can be made more efficient by using AI to automate many tasks; and,
-- People will need to continuously re-skill as technological change accelerates.
-Over the last decade, AI systems achieved clear predominance in board games, and made a surprising amount of progress in areas like text processing.  Over the next decade, AI could eat software engineering too. On the way to full-blown AI for programming, we can imagine an AI system that integrates with code editors, issue trackers, Slack, Github, and Stack Exchange — and that supports upskilling, productivity, and automation, all in one platform — significantly augmenting the ability of human programmers.
+It’s striking that in computer programming work, /collective
+intelligence/ is used almost everywhere, but artificial intelligence is
+used almost nowhere.  AI can kick butt at Chess and Go, but university
+courses are still taught by human professors.  Surely, AI that could
+write code at a human level would be a valuable thing...
 
-# Beyond reskilling: people who are not programmers need to program more and more.
-# Makes Zans anxious about own upskilling.
-# In light of what we’re doing with notebooks, add some more specific things like Roam, Org, LateX...
-# They also say this in [[https://www.forbes.com/sites/cognitiveworld/2019/08/29/software-ate-the-world-now-ai-is-eating-software/#233fe4745810][/Forbes/]].
+*** But where’s the human-level AI for coding?
 
-# Does this do justice to other topics like ‘teaching a course in statistics’? Is this a useful goal in its own right?
+A research agenda around “AI for programming” was already spelled out
+by Alan Turing in the late 1940s.  It is only relatively recently that
+we have massive amounts of relevant data to work with.  Code
+completion and code generation tools are some of the “low hanging
+fruit” of this domain.  We think that something much more substantial
+is around the corner.
 
-# There are lots of common themes that go between the
-# fields. Different communities may not always have the same language,
-# this is why things like category theory are useful.  Since we do
-# have people with diverse skills, can we learn to have these fields
-# help each other?  “Why didn’t you just get a bunch of computer scientist.”
+*** We are looking at this problem as an informal open source R&D collective.
 
-*** The time is now.
+Our team brings together applied experience in Natural Language
+Processing (NLP), computational modelling, online communities,
+physics, biology, mathematics, and statistics.  We’ve been getting
+together for daily coffee chats, and sharing information and skills
+with each other in online seminars.  Sometimes we bring in guest
+speakers.  We hope as time goes by our chats will coalesce into notes,
+blog posts, papers, and working prototypes.  We aren’t promising a
+schedule of deliverables — because we’re all volunteers — and we’re
+doing this for fun and interest.  But we do plan to share what we’re
+learning as we go along!
 
-The basic research agenda was already set by Alan Turing in the late 1940s.  However, it is only recently that we have two necessary assets: massive amounts of relevant data, and the tools needed to process it into a usable form.  Code completion, code generation, and automated testing are already available to software developers.  They represent a variety of partial solutions that suggest that there’s something more substantial here.
+*** Broadly, the steps we have in mind go from data, to models, to AI agents.
 
-# Headline is boring.
-# partway?
+We plan to document our progress (or lack thereof) on this blog.  As a
+very rough outline, this is what we expect to look at:
 
-*** Open source is the way forward.
+- We plan to use contemporary information extraction methods to derive computationally meaningful material from Stack Exchange Q&A, Github Issues, and programmers’ discussions, along with code. To do this, we will combine general purpose language models, like BERT, and a knowledge graph approach.
 
-Our team brings together applied experience in Natural Language Processing (NLP), computational modelling, reasoning, physics, biology, and statistics.  Having known each other for years, we have banded together around realising serious AI systems.  We see this as a revolutionary task.  Other institutes may be better funded, but our unique experience with building open source products is what’s needed to build a genuinely transformative community around this effort.
+- We plan to use category theoretic methods as a glue that can hold together a range of computational models, including models of programs and the process of computer programming. [[https://arxiv.org/pdf/1807.05691][Monocl]] is an existing process modelling language that has been used to create an abstraction layer over a collection of [[https://www.datascienceontology.org/][data science programs]]. We plan to generalise this.
 
-# Is it really OSS?  The main theme is ‘the community’... — We are already a community, we’re not starting from scratch.
-# Lots of red flags in this one ... research task? revolutionary task? community side?
+- Ultimately, we plan to install these models in computational agents who can then “converse with each other to sharpen their wits,” as Turing anticipated, mirroring contemporary developments in self-play.  However, the specific design of the agents remains an open issue at the moment!  We plan to explore techniques from Bayesian learning, logic programming, and reinforcement learning.
 
-# Nice ability to bring in someone for a ‘keynote’ on Friday.  So, like with the Erdos graph, with a core group, and then other people.
+*** Reflection is part of the process.
 
-# This is where the common language between different fields comes in.  If we have ways to build bridges... my ideal scenario is that people keep coming up with bridges, including ones that we haven’t even conceived of yet.  People who haven’t engaged before... will come along.
-
-# So, part of the value we can create is bridges, and show things that people wouldn’t see if they were just working in one field.
-
-# E.g., spanning the “two cultures of computer programming” (numeric & formal).
-
-*** The steps progress from data, to models, to AI agents.
-
-On this blog, we will document our progress.  Presently we are all working on this sub-part-time. Future posts in this series will expand the agenda outlined here, and provide tutorial material that can help turn readers into contributors.
-
-- Beginning from the data, we plan to use contemporary information extraction methods to derive computationally meaningful material from Stack Exchange Q&A, Github Issues, and programmers’ discussions, along with code. To do this, we will combine general purpose language models, like BERT, and a knowledge graph approach.
-
-- At this level, we will use category theoretic methods as a glue that can hold together a range of computational models, including models of programs and the process of computer programming. Monocl is an existing process modelling language that has been used to create an abstraction layer over a collection of data science programs. We plan to generalise this considerably.
-
-- Ultimately we plan to install these models in computational agents who can then “converse with each other to sharpen their wits,” as Turing anticipated, mirroring contemporary developments in self-play.  The design of the agents remains an open issue at the moment.  We are aware of interesting related work in proof generation and program synthesis, but so far this work only addresses part of the problem. We plan to bring in techniques from Bayesian learning, logic programming, and reinforcement learning.
-
-# Don’t make things sound too closed-ended
-# This is our best stab at how things might be done now — but a year from now we might learn more.
-
-*** This work can contribute significant economic value over reasonably short time scales.
-
-We will progress by producing ever-better models of human behaviour in computer-mediated communications around technical topics.  We anticipate potential routes-to-market focused on service provision for upskilling, lightweight automation, and support for custom model development.  We speculate that improved learning materials and tools will become the basis for a future community of highly skilled technical workers.
-
-Looking ahead to the next months, we intend to create small demos across the pipeline, following a regular release schedule.  As time goes by, short blog posts will become inputs to research papers and usable tools. We will eventually pursue funding, ideally either in the form of direct revenue or grants, in order to allow us to work full time on these issues.
-
-# Be careful about ‘regular’ unless we have one and can meet it (e.g., waiting for the date to come) — Is it monthly? Weekly?
-# In the overall flow of the document, we started with a lofty goal, we talked about who’s doing it, and how we might go about it. But that’s far off and we’re not 100% sure. It’s not all or nothing! There are things we can do incrementally along the way towards that: this will not only mark our progress but be useful in their own right.
-# Not “ten years to success metrics”.
-
-# Questions: what would the regular release schedule look like?
+We’re interested in understanding human behaviour as well as technical
+topics: that goes for our own behaviour in particular.  We plan to
+post to our blog at least monthly — as long as we keep our discussion
+running — using it as a place to reflect on how things are going.
+Although we’re grappling with some weighty topics, success is not all
+or nothing!  Writing here will mark our progress and be useful in
+their own right (e.g., blog posts can feed into research papers or
+tools).
 
 *** Progress so far
-- Set up initial ghost blog
-- Drafted initial blog post
-- Update hyperreal.enterprises website to match current reality
-- We have tech set up to recording our meetings
-- Joe knows how to use OBS so can be a backup player
-- Seminar describing an Open IE approach with several notebooks
-*** Currently active projects
-**** #emacs-cloud-hypernotebooks
-**** #how-to-design-programs
-**** #text-analysis
-**** #model-construction
-**** #knowledge-graph
+Alongside setting up a blog and drafting an initial anouncement
+(voilà!), we’ve updated the website of our affiliated UK-based company
+[[https://hyperreal.enterprises/][Hyperreal Enterprises]] to match the outlines of what we’ve described
+here.  As mentioned above, are having regular meetings, which we’ll
+record if they look likely to be interesting to a wider audience.
+We’ve got nice internal documentation going, via [[https://github.com/org-roam/org-roam][Org Roam]], from wich
+various derived formats are produced, including a public [[https://exp2exp.github.io/][wiki]]
+generated by [[https://github.com/theiceshelf/firn][Firn]].  (We recently sent an abstract to EmacsConf 2020 to
+talk about the various other Emacs-based tools we’re using!)
+
+Some of our seminars so far have explored an Open Information
+Extraction (with several demo notebooks), and looked at the early
+parts of Michael Betancourt’s “Towards a principled Bayesian
+workflow”.
+
+Active channels on our Discord server include:
+- #emacs-cloud-hypernotebooks
+- #how-to-design-programs
+- #text-analysis
+- #model-construction
+- #knowledge-graph
+
 *** TL;DR
 
-We are creating AI tools that will read the things people have written about computer programming and draw on these to find ways that computers can automatically create software.
+We are creating AI tools that will process open source information and
+build on these in applications such as automated programming.
 
 * Top
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       4d9283fe-22d6-4617-a20d-5b4bdba8c684
+  :END:
 
 ** Motivation: For the sake of advancing AI
 :PROPERTIES:
@@ -182,7 +179,7 @@ with.
 
 *** PlanetMath
 
-PlanetMath users created a reasonably large informal mathematical
+[[https://planetmath.org/][PlanetMath]] users created a reasonably large informal mathematical
 knowledge base together.  On the way, we came up with several
 technical demos and sketched possible [[https://github.com/holtzermann17/planetmath-docs/labels/PREVIEW][previews]] for upcoming features.
 One possible direction of work we looked at would be to focus on
@@ -190,11 +187,11 @@ building a comprehensive category theory knowledge base.
 
 *** Modelling the way mathematics is actually done
 
-In this paper, we talked about how mathematics is situated somewhere
+In [[https://www.newton.ac.uk/files/preprints/ni17003.pdf][this paper]], we talked about how mathematics is situated somewhere
 in between ‘games’ and ‘storytelling’ in its complexity.  We proposed
 to build computational models of informal mathematical reasoning.
-Some related work develeoped using ideas from [[https://www.sciencedirect.com/science/article/pii/S0004370217300267][dialogue games]] and
-[[https://link.springer.com/article/10.1007/s10503-018-9474-x][argumentation theory more broadly]].
+Subsequent work continued on in this direction, using ideas from
+[[https://www.sciencedirect.com/science/article/pii/S0004370217300267][dialogue games]] and [[https://link.springer.com/article/10.1007/s10503-018-9474-x][argumentation theory more broadly]].
 
 ** A sketch of a plan
 
@@ -229,14 +226,6 @@ vice and misery, and results in human beings basing their own self
 worth on their feeling of superiority over others.” — [[https://iep.utm.edu/rousseau/][IEP]]
 #+end_quote
 
-#+begin_quote
-Hypothetical conversation: /In my next post I want to integrate something that I learned from you about PL.  I want to drive in the direction of synthesis, as hard as I know how to right now.  This depends on everyone having free time to invest in this.  Start a blog where we think about what's the overlap in terms of learning?/
-#+end_quote
-
-#+begin_quote
-Zans: /If I implemented as I read things, it would be a pretty interesting blog. There could be a huge market of people interested in following this, this would give a pool of people who know who we are. This is a nice goal b/c it doesn't focus on the product... but it's a deliverable, made up of smaller deliverables, and a concrete benefit./
-#+end_quote
-
 ** A possible formulation: short correlated sprints as opposed to random behaviour
 
 “Two people working together 4 hours a week for two weeks” could serve
@@ -246,105 +235,114 @@ things that we can realistically achieve.  So far, our workflow has
 been more based on solo activities and informal conversations, but
 short robust team-ups continue to be an option!
 
+#+begin_quote
+Hypothetical conversation: /In my next post I want to integrate something that I learned from you about PL.  I want to drive in the direction of synthesis, as hard as I know how to right now.  This depends on everyone having free time to invest in this.  Start a blog where we think about what's the overlap in terms of learning?/
+#+end_quote
+
+
 ** Subgoals:                                                        :noexport:
 :PROPERTIES:
 :ID:       1d3660fd-8826-4afb-b1e4-91b20c27ee9a
 :END:
 
-- [[*Why not what][Why not what]]
-- [[*Which model construction process works as a whole?][Which model construction process works as a whole?]]
-- [[*Underlying foundation][Underlying foundation]]
-- [[*Construct, critique, improve models of the creative process][Construct, critique, improve models of the creative process]]
+- [[id:98a21b79-4e45-49ba-b459-e8f6453216a3][Why not what]]
+- [[id:5ac39e28-3b43-4beb-8019-53efe086917c][Which model construction process works as a whole?]]
+- [[id:ba75b2b8-ae1a-44e5-adf1-c807b58f80a8][Underlying foundation]]
+- [[id:e53a3362-d2bd-41f4-84c5-a08729c9d89b][Construct, critique, improve models of the creative process]]
 * Why not what
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       98a21b79-4e45-49ba-b459-e8f6453216a3
+  :END:
 
 Our purpose:
 
 - *We want to make the knowledge economy accessible to everyone.*
 - *Our long-term vision is computational intelligence based on collective intelligence.*
 ** Teach arbitrary coding
-:PROPERTIES:
-:tag: LRD
-:END:
+   :PROPERTIES:
+   :tag:      LRD
+   :ID:       e99ec3c1-4dac-4c03-bb5a-c69f2087c96d
+   :END:
 
-This would be an abstraction over teaching basic programming and
-knowledge graphs.
+ This would be an abstraction over teaching basic programming and
+ knowledge graphs.
 
 *** Feature: Production system
 
-We’ve started to build a simple production system that can be used to
-detect errors in subtraction (reimplementing some classic work). We
-were thinking that something similar could be used to detect other
-kinds of errors (so, for debugging, teaching), and to support other
-kinds of reasoning processes (e.g., turning Q’s into A’s in a
-question-answering system).
+ We’ve started to build a simple production system that can be used to
+ detect errors in subtraction (reimplementing some classic work). We
+ were thinking that something similar could be used to detect other
+ kinds of errors (so, for debugging, teaching), and to support other
+ kinds of reasoning processes (e.g., turning Q’s into A’s in a
+ question-answering system).
 
-We previously did a little exploratory work, with similar intent, using
-polygraphs as input, in the workshop paper
-/Modelling the Way Mathematics Is Actually Done/.
+ We previously did a little exploratory work, with similar intent, using
+ polygraphs as input, in the workshop paper
+ /Modelling the Way Mathematics Is Actually Done/.
 
 **** Demo application: Reimplementing classic rules to model subtraction
 
-We looked at a classic paper about “subtraction on Mars” and it seems
-that reimplementing it might be the best way to go.
+ We looked at a classic paper about “subtraction on Mars” and it seems
+ that reimplementing it might be the best way to go.
 
 *** Contributes to                                                 :noexport:
-:PROPERTIES:
-:ID:       98bd73a0-035b-434c-aa2e-ea0e3e6ec15d
-:END:
-- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]]
+    :PROPERTIES:
+    :ID:       98bd73a0-035b-434c-aa2e-ea0e3e6ec15d
+    :END:
+ - [[id:dbdf051b-5b01-4958-b40d-40d7170a8edd][BUSINESS DEVELOPMENT]]
 
 ** How to Design Programs
-:PROPERTIES:
-:tag: HD
-:END:
+   :PROPERTIES:
+   :tag:      HD
+   :ID:       06c4e91c-b453-4bc8-9a36-cdb43745f5dc
+   :END:
 
-We were thinking of /How to Design Programs/ (HtDP) as a potential
-basis for this work.  We would want to respect category theoretic
-concepts in the presentation.  We would expect to find analogues in
-settings like Bayesian modelling.
+ We were thinking of /How to Design Programs/ (HtDP) as a potential
+ basis for this work.  We would want to respect category theoretic
+ concepts in the presentation.  We would expect to find analogues in
+ settings like Bayesian modelling.
 
-We could proceed by looking at relationships with argumentation
-theory, thinking about how to do this in a theoretically consistent
-way.  Once we have a definition of the programming language we’re
-going to use, we can then do argumentation over that.
+ We could proceed by looking at relationships with argumentation
+ theory, thinking about how to do this in a theoretically consistent
+ way.  Once we have a definition of the programming language we’re
+ going to use, we can then do argumentation over that.
 
-Another strategy would be to develop a DSL for HtDP ideas, which we
-could then reuseq to generate patterns for learning how to design
-various structures (say, web pages or probabilistic programs).  To do
-this well you’d need ways to express ‘recipes’.  For example, an MVP
-might be based on representing HtDP-style recipes using sequent
-calculi for session types.  These represent interactive protocols.
+ Another strategy would be to develop a DSL for HtDP ideas, which we
+ could then reuseq to generate patterns for learning how to design
+ various structures (say, web pages or probabilistic programs).  To do
+ this well you’d need ways to express ‘recipes’.  For example, an MVP
+ might be based on representing HtDP-style recipes using sequent
+ calculi for session types.  These represent interactive protocols.
 
-You’d use cut-elimination to have two players interact (using
-something like the **Lakatos Game diagram**).  But what formalism
-would you use?  E.g., /geometry of interaction in linear logic/ has
-been used for this kind of thing, but could it be used here?  With a
-suitable formalism in place we would then imagine that a computer
-programming agent would just follow the “Lakatos Game” style HtDP
-script.  So, this would contribute to the development of agent models
-for programming and program-related Q&A.
+ You’d use cut-elimination to have two players interact (using
+ something like the **Lakatos Game diagram**).  But what formalism
+ would you use?  E.g., /geometry of interaction in linear logic/ has
+ been used for this kind of thing, but could it be used here?  With a
+ suitable formalism in place we would then imagine that a computer
+ programming agent would just follow the “Lakatos Game” style HtDP
+ script.  So, this would contribute to the development of agent models
+ for programming and program-related Q&A.
 
 *** Related work
 
-- General theory-informed algorithms (e.g., apply category theory to scientific models).
-- K framework: Have transformations for any language you define in it.
-- HtDP is similar applied to programming teaching.  Start with PL theory and then find universal things.
-- How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
+ - General theory-informed algorithms (e.g., apply category theory to scientific models).
+ - K framework: Have transformations for any language you define in it.
+ - HtDP is similar applied to programming teaching.  Start with PL theory and then find universal things.
+ - How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
 
 *** Contributes to                                                 :noexport:
-:PROPERTIES:
-:ID:       e5d35810-ca01-48f7-90f1-0681fa548385
-:END:
+    :PROPERTIES:
+    :ID:       e5d35810-ca01-48f7-90f1-0681fa548385
+    :END:
 
-- [[*Teach arbitrary coding][Teach arbitrary coding]]
-- [[*Agent model][Agent model]]
+ - [[id:e99ec3c1-4dac-4c03-bb5a-c69f2087c96d][Teach arbitrary coding]]
+ - [[id:dd5d3d5f-bba0-4527-b897-6ad5b4061199][Agent model]]
 * Construct, critique, improve models of the creative process
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       e53a3362-d2bd-41f4-84c5-a08729c9d89b
+  :END:
 
 We want tools and processes for working with models, with a particular
 emphasis on improved models of the creative process. The reason for
@@ -358,121 +356,188 @@ tools that we are actually using.
 :ID:       0fea67e1-6088-4845-9eeb-c080609bf58d
 :END:
 
-- [[*Emacs Hyper Notebook][Emacs Hyper Notebook]]
-- [[*How to Design Programs][How to Design Programs]]
-- [[*Probabilistic programming for scientific modelling][Probabilistic programming for scientific modelling]]
-- [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
+- [[id:9501fb31-1c20-4bf9-ad90-b9e79c61697c][Emacs Hyper Notebook]]
+- [[id:06c4e91c-b453-4bc8-9a36-cdb43745f5dc][How to Design Programs]]
+- [[id:51f1600f-77b8-41c7-883a-4e23bc3a17c8][Probabilistic programming for scientific modelling]]
+- [[id:034430de-d6d4-4387-9212-7aebdd678b6b][Information extraction from SO Q&A items]]
 ** Emacs Hyper Notebook
-:PROPERTIES:
-:tag: CDN
-:END:
-#+CATEGORY: DEV
+   :PROPERTIES:
+   :tag:      CDN
+   :ID:       9501fb31-1c20-4bf9-ad90-b9e79c61697c
+   :END:
+ #+CATEGORY: DEV
 
-We are developing a better way to do “Jupyter notebooks” using Emacs.
-This recovers some of the Research Collab ideas developed by Aaron
-Krowne. It should integrate features such as writing and task
-management (e.g., /Org/) Program evaluation (e.g., /Maxima/),
-Typesetting and presentation (e.g., slides via /LaTeX/), and
-navigation (e.g., /Org Roam/ for displaying topics as a graph).  We
-should be clear that the various technologies used are slot-fillers
-and they might be replaced with other things, or augmented (e.g.,
-/Lean/ for formal verification of some of the above?). A useful input
-to this process would be implementation of examples without
-integration.  This can then be redone in a more integrated fashion.
+ We are developing a better way to do “Jupyter notebooks” using Emacs.
+ This recovers some of the Research Collab ideas developed by Aaron
+ Krowne. It should integrate features such as writing and task
+ management (e.g., /Org/) Program evaluation (e.g., /Maxima/),
+ Typesetting and presentation (e.g., slides via /LaTeX/), and
+ navigation (e.g., /Org Roam/ for displaying topics as a graph).  We
+ should be clear that the various technologies used are slot-fillers
+ and they might be replaced with other things, or augmented (e.g.,
+ /Lean/ for formal verification of some of the above?). A useful input
+ to this process would be implementation of examples without
+ integration.  This can then be redone in a more integrated fashion.
 
-An integration using existing technologies will have limitations, once
-we have this demos then we will see some of the gaps and how more
-advanced tech could be useful. (For example, Ray’s work with Gerschom
-could turn out to be useful here.)
+ An integration using existing technologies will have limitations, once
+ we have this demos then we will see some of the gaps and how more
+ advanced tech could be useful. (For example, Ray’s work with Gerschom
+ could turn out to be useful here.)
 
-*** DONE Abstract for EmacsConf 2020                        :joe:ray:cameron:
-*** TODO Figure out subtasks to deliver                     :joe:ray:cameron:
+**** Some quick thoughts
+
+ - If it was sitting inside a web container, then maybe it’s a quickstart thing that comes in a user friendly form.
+ - Maybe add menu-bar items to make it look like a web browser.
+ - Emacs Maxima interface, we might build on it — for Monday 12th October, a quick "15 minutes" talk to catch up
+ - ... possible deliverable for later on: a NIST talk?
+
+*** TODO Figure out subtasks to deliver for EmacsConf       :joe:ray:cameron:
 *** TODO Figure out how EHN relates to other projects       :joe:ray:cameron:
+*** TODO Keep testing crdt.el and lockstep.el                       :joe:ray:
+*** TODO Could Emacsconf talk become a blog post?           :joe:ray:cameron:
+
+ (Notice that with crdt, typing can go on inside folded nodes! Qiantan
+ is thinking about a mode to make overlays shareable, which would
+ change things a bit.)
 
 *** Partial prototypes
 
-Notice that crdt can be used inside folded nodes.
- 
-How far can we go... Through [[https://roamresearch.com/][Roam]]? (We could at least talk to Connor
-about Roam on Twitter?) Through [[https://jupyter.org/][Jupyter]]? [[https://foambubble.github.io/foam/][Foam]]? [[https://gtoolkit.com/][Glamorous Toolkit]]?  Can
-we integrate what we’re building with existing tools like these?  Do
-Lenses or other kinds of ACT machinery help with this at all?  Would
-our system potentially play a role as a universal backend?
+ How far can we go... Through [[https://roamresearch.com/][Roam]]? (We could at least talk to Connor
+ about Roam on Twitter?) Through [[https://jupyter.org/][Jupyter]]? [[https://foambubble.github.io/foam/][Foam]]? [[https://gtoolkit.com/][Glamorous Toolkit]]?  Can
+ we integrate what we’re building with existing tools like these?  Do
+ Lenses or other kinds of ACT machinery help with this at all?  Would
+ our system potentially play a role as a universal backend?
 
 *** Feature: Arxana 2020
 
-Revisit [[https://repo.or.cz/w/arxana.git][Arxana]] and turn it into something that we can actually use.
-This is rather closely related to the use of “knowledge graph”
-formulations we’ve been discussing, since Arxana allows us to combine
-writing with knowledge representations.  In our last round of work
-with Arxana, we left off at the point of integrating logic programming
-into the system.
+ Revisit [[https://repo.or.cz/w/arxana.git][Arxana]] and turn it into something that we can actually use.
+ This is rather closely related to the use of “knowledge graph”
+ formulations we’ve been discussing, since Arxana allows us to combine
+ writing with knowledge representations.  In our last round of work
+ with Arxana, we left off at the point of integrating logic programming
+ into the system.
 
 *** Links to useful resources
 
-Technology like this could be used to build simple demos (e.g., Emacs
-in the browser, running Org Mode).  We’ve noticed some other related
-tools as well, like [[https://github.com/200ok-ch/organice][Organice]] and [[https://github.com/tecosaur/codiorg][CodiOrg]] that could provide
-alternative interfaces.
+ Technology like this could be used to build simple demos (e.g., Emacs
+ in the browser, running Org Mode).  We’ve noticed some other related
+ tools as well, like [[https://github.com/200ok-ch/organice][Organice]] and [[https://github.com/tecosaur/codiorg][CodiOrg]] that could provide
+ alternative interfaces.
 
-- [[https://github.com/exp2exp/notebooks][exp2exp/notebooks: This is a Docker configuration for running jupyter with multiple kernels on Arch Linux.]]
-- [[https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html][emacsclient Options - GNU Emacs Manual]]
-- [[https://github.com/butlerx/wetty][butlerx/wetty: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)]]
-- [[https://github.com/xtermjs/xterm.js#real-world-uses][xtermjs/xterm.js: A terminal for the web]]
-- [[https://twitter.com/cianbutlerx]]
-- [[https://github.com/tsl0922/ttyd][tsl0922/ttyd: Share your terminal over the web]]
-- [[https://github.com/yudai/gotty][yudai/gotty: Share your terminal as a web application]]
-- [[https://hub.docker.com/r/butlerx/wetty][butlerx/wetty - Docker Hub]]
-- [[https://medium.com/@pacroy/setup-web-terminal-using-wetty-docker-image-dcb1ea75bfaf][Setup Web Terminal using Wetty Docker Image | by Chairat Onyaem (Par) | Medium]]
-- [[https://hub.docker.com/r/krishnasrinivas/wetty/][krishnasrinivas/wetty - Docker Hub]]
+ - [[https://github.com/exp2exp/notebooks][exp2exp/notebooks: This is a Docker configuration for running jupyter with multiple kernels on Arch Linux.]]
+ - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html][emacsclient Options - GNU Emacs Manual]]
+ - [[https://github.com/butlerx/wetty][butlerx/wetty: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)]]
+ - [[https://github.com/xtermjs/xterm.js#real-world-uses][xtermjs/xterm.js: A terminal for the web]]
+ - [[https://twitter.com/cianbutlerx]]
+ - [[https://github.com/tsl0922/ttyd][tsl0922/ttyd: Share your terminal over the web]]
+ - [[https://github.com/yudai/gotty][yudai/gotty: Share your terminal as a web application]]
+ - [[https://hub.docker.com/r/butlerx/wetty][butlerx/wetty - Docker Hub]]
+ - [[https://medium.com/@pacroy/setup-web-terminal-using-wetty-docker-image-dcb1ea75bfaf][Setup Web Terminal using Wetty Docker Image | by Chairat Onyaem (Par) | Medium]]
+ - [[https://hub.docker.com/r/krishnasrinivas/wetty/][krishnasrinivas/wetty - Docker Hub]]
 
 *** Other related work
 
-- James Fairbanks (relate this to Betancourt).
+ - James Fairbanks (relate this to Betancourt).
 
 *** Testing
 
-Reasonable backends to use here would be =babashka= and =cider=. However,
-=babashka= doesn’t support sessions.
+ #+begin_src clojure :session :backend cider :results output org
+ (def a 2)
+ #+end_src
 
-#+begin_src clojure :session :backend cider :results output raw
-(def a 2)
-#+end_src
+ #+RESULTS:
+ #+begin_src org
+ #'user/a
+ #+end_src
 
-#+RESULTS:
-#'user/a
+ #+begin_src clojure :session :backend cider :results output org
+ a
+ #+end_src
 
-#+begin_src clojure :session :backend cider :results output raw
-a
-#+end_src
+ #+RESULTS:
+ #+begin_src org
+ 2
+ #+end_src
 
-#+RESULTS:
-2
+ #+begin_src clojure :session :backend cider :results output org
+ (range 10)
+ (def a 1)
+ #+end_src
 
-#+begin_src clojure :session :backend cider :results output raw
-(range 10)
-(def a 1)
-#+end_src
+ #+RESULTS:
+ #+begin_src org
+ | (0 1 2 3 4 5 6 7 8 9) |
+ | #'user/a              |
+ #+end_src
 
-#+RESULTS:
-| (0 1 2 3 4 5 6 7 8 9) |
-| #'user/a              |
+ #+begin_src clojure :session :backend cider :results output org
+ a
+ #+end_src
 
-#+begin_src clojure :session :backend cider :results output raw
-a
-#+end_src
+ #+RESULTS:
+ #+begin_src org
+ 1
+ #+end_src
 
-#+RESULTS:
-1
+*** What would we actually want as our org interface?
 
+ Configuration of the =src= block might look like:
+
+ =maxima :process :backend maxima :results output org=
+
+ - =:process= stands in for =:session= now as an alternative
+ - =org-babel-execute-src-block= this is what will be called
+ - hang into the =lang= parameter of the above function, but override using =:process=
+
+ #+begin_src calc :stream calculator :results output org
+ 100*9
+ #+end_src
+
+ #+RESULTS:
+ #+begin_src org
+ | value | 900 |
+ #+end_src
+
+ #+begin_src
+ 1+1;
+
+ (error "No such language mode: nil-mode")
+   signal(error ("No such language mode: nil-mode"))
+   error("No such language mode: %s" nil-mode)
+   org-edit-src-code()
+   org-babel-do-key-sequence-in-edit-buffer("\011")
+   (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let ((--mpom (org-element-property :end element))) (save-excursion (if (markerp --mpom) (progn ...)) (save-excursion (save-restriction ... ... ... ...)))))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let ((--mpom (org-element-property :end element))) (save-excursion (if (markerp --mpom) (progn ...)) (save-excursion (save-restriction ... ... ... ...)))))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let ((column (current-column))) (org--align-node-property) (org-move-to-column column))))))
+   (let* ((element (save-excursion (beginning-of-line) (org-element-at-point))) (type (org-element-type element))) (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let ((--mpom ...)) (save-excursion (if ... ...) (save-excursion ...))))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let ((--mpom ...)) (save-excursion (if ... ...) (save-excursion ...))))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let ((column ...)) (org--align-node-property) (org-move-to-column column)))))))
+   (if (org-at-heading-p) nil (let* ((element (save-excursion (beginning-of-line) (org-element-at-point))) (type (org-element-type element))) (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let (...) (save-excursion ... ...)))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let (...) (save-excursion ... ...)))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let (...) (org--align-node-property) (org-move-to-column column))))))))
+   org-indent-line()
+   indent-according-to-mode()
+   electric-indent-post-self-insert-function()
+   self-insert-command(1)
+   newline(nil 1)
+   (if indent (org-newline-and-indent arg) (newline arg interactive))
+   org--newline(nil nil 1)
+   (let ((auto-fill-function (and (not (org-at-property-p)) auto-fill-function))) (org--newline indent arg interactive))
+   (cond ((or (and (eq (quote table) (org-element-type context)) (not (eq (quote table\.el) (org-element-property :type context))) (>= (point) (org-element-property :contents-begin context)) (< (point) (org-element-property :contents-end context))) (org-element-lineage context (quote (table-row table-cell)) t)) (if (or (looking-at-p "[ \011]*$") (save-excursion (skip-chars-backward " \011") (bolp))) (insert "\n") (org-table-justify-field-maybe) (call-interactively (function org-table-next-row)))) ((and org-return-follows-link (or (and (eq (quote link) (org-element-type context)) (let ((origin ...)) (let (...) (save-excursion ... ...)))) (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t))) (call-interactively (function org-open-at-point))) ((and (not (bolp)) (let ((case-fold-search nil)) (org-match-line org-complex-heading-regexp))) (let ((tags-column (and (match-beginning 5) (save-excursion (goto-char ...) (current-column)))) (string (if (and (match-end 4) (org-point-in-group ... 4)) (progn (delete-and-extract-region ... ...))))) (cond ((not (and tags-column string))) (org-auto-align-tags (org-align-tags)) (t (org--align-tags-here tags-column))) (end-of-line) (org-show-entry) (org--newline indent arg interactive) (if string (progn (save-excursion (insert (org-trim string))))))) ((and (not (eolp)) (org-element-lineage context (quote (item)))) (let ((trailing-data (delete-and-extract-region (point) (line-end-position)))) (org--newline indent arg interactive) (save-excursion (insert trailing-data)))) (t (let ((auto-fill-function (and (not (org-at-property-p)) auto-fill-function))) (org--newline indent arg interactive))))
+   (let ((context (if org-return-follows-link (org-element-context) (org-element-at-point)))) (cond ((or (and (eq (quote table) (org-element-type context)) (not (eq (quote table\.el) (org-element-property :type context))) (>= (point) (org-element-property :contents-begin context)) (< (point) (org-element-property :contents-end context))) (org-element-lineage context (quote (table-row table-cell)) t)) (if (or (looking-at-p "[ \011]*$") (save-excursion (skip-chars-backward " \011") (bolp))) (insert "\n") (org-table-justify-field-maybe) (call-interactively (function org-table-next-row)))) ((and org-return-follows-link (or (and (eq (quote link) (org-element-type context)) (let (...) (let ... ...))) (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t))) (call-interactively (function org-open-at-point))) ((and (not (bolp)) (let ((case-fold-search nil)) (org-match-line org-complex-heading-regexp))) (let ((tags-column (and (match-beginning 5) (save-excursion ... ...))) (string (if (and ... ...) (progn ...)))) (cond ((not (and tags-column string))) (org-auto-align-tags (org-align-tags)) (t (org--align-tags-here tags-column))) (end-of-line) (org-show-entry) (org--newline indent arg interactive) (if string (progn (save-excursion (insert ...)))))) ((and (not (eolp)) (org-element-lineage context (quote (item)))) (let ((trailing-data (delete-and-extract-region (point) (line-end-position)))) (org--newline indent arg interactive) (save-excursion (insert trailing-data)))) (t (let ((auto-fill-function (and (not ...) auto-fill-function))) (org--newline indent arg interactive)))))
+   org-return(nil nil 1)
+   funcall-interactively(org-return nil nil 1)
+   call-interactively(org-return nil nil)
+   command-execute(org-return)
+ #+end_src
+
+
+*** Future work
+
+ - Extending to VS Code?  Would people who use VS code even want this kind of interaction?  Maybe VS Code is better for quick visualisations?
 
 *** Contributes to                                                 :noexport:
-- [[*Visual Interfaces][Visual Interfaces]]
-- [[*Knowledge graph][Knowledge graph]]
+ - [[id:4bcfa1b9-c90f-4680-9517-dd78b5f4feeb][Visual Interfaces]]
+ - [[id:285ee877-12f9-4064-93cc-e9559c164cab][Knowledge graph]]
 * Which model construction process works as a whole?
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       5ac39e28-3b43-4beb-8019-53efe086917c
+  :END:
 
 We are working in an applied way to build models, starting with data
 and using existing tools and methods, but without any strong guarantee
@@ -486,56 +551,59 @@ computational structures from natural language and technical texts.
 :ID:       0e2b1ab1-9e3a-4e6c-b2a7-e423cb41a030
 :END:
 
-- [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
+- [[id:034430de-d6d4-4387-9212-7aebdd678b6b][Information extraction from SO Q&A items]]
 ** Information extraction from SO Q&A items
-:PROPERTIES:
-:tag: CDN
-:END:
-#+CATEGORY: ML
+   :PROPERTIES:
+   :tag:      CDN
+   :ID:       034430de-d6d4-4387-9212-7aebdd678b6b
+   :END:
+ #+CATEGORY: ML
 
-We are attempting to extract triples from textual Q&A by using a
-Neural Machine Translation approach.
+ We are attempting to extract triples from textual Q&A by using a
+ Neural Machine Translation approach.
 
 *** BACKBURNER Refinining OpenIE approach                             :deyan:
 
 *** Next steps                                                     :noexport:
-:PROPERTIES:
-:ID:       2ee512d9-60cf-443c-aa3d-ef8eb42789e9
-:END:
+    :PROPERTIES:
+    :ID:       2ee512d9-60cf-443c-aa3d-ef8eb42789e9
+    :END:
 
-- [[*Knowledge graph][Knowledge graph]]
-- [[*Advances in knowledge mining from technical documents][Advances in knowledge mining from technical documents]]
+ - [[id:285ee877-12f9-4064-93cc-e9559c164cab][Knowledge graph]]
+ - [[id:5d19ec7c-654a-446e-8261-9c978630f05f][Advances in knowledge mining from technical documents]]
 ** Knowledge graph
-:PROPERTIES:
-:tag: LRD
-:END:
-#+CATEGORY: KRR
+   :PROPERTIES:
+   :tag:      LRD
+   :ID:       285ee877-12f9-4064-93cc-e9559c164cab
+   :END:
+ #+CATEGORY: KRR
 
-Once we have a model of knowledge from Q&A items, e.g., in the form of
-triples. we will want to be able to do something with this material.
-One way in which it may be useful is in combination with an existing
-knowledge graph.  For example, we can look at material from Concept
-Net.  We may also have to make some of our own Concept Net-like
-graphs.
+ Once we have a model of knowledge from Q&A items, e.g., in the form of
+ triples. we will want to be able to do something with this material.
+ One way in which it may be useful is in combination with an existing
+ knowledge graph.  For example, we can look at material from Concept
+ Net.  We may also have to make some of our own Concept Net-like
+ graphs.
 
 *** Practical work
 
-We can already take some practical steps here, along the lines of the
-earlier papers "Modelling the way mathematics is actually done" and
-"Towards mathematical AI via a model of the content and process of
-mathematical question and answer dialogues".
+ We can already take some practical steps here, along the lines of the
+ earlier papers "Modelling the way mathematics is actually done" and
+ "Towards mathematical AI via a model of the content and process of
+ mathematical question and answer dialogues".
 
 *** STARTED Analyse a small sample of examples from s.o.                :joe:
 
 
 *** Next steps                                                     :noexport:
 
-- [[*Teach arbitrary coding][Teach arbitrary coding]]
-- [[*Recommender System][Recommender System]]
+ - [[id:e99ec3c1-4dac-4c03-bb5a-c69f2087c96d][Teach arbitrary coding]]
+ - [[id:d36d84ed-8d21-446c-b8c1-7856025c5970][Recommender System]]
 * Underlying foundation
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       ba75b2b8-ae1a-44e5-adf1-c807b58f80a8
+  :END:
 
 We believe that category-theoretic foundations will help us make
 progress across different representations of code, process, model
@@ -546,277 +614,285 @@ building, and so on.
 :ID:       6778531b-0a13-4596-89f8-df926202c3b0
 :END:
 
-- [[*Category theoretic glue][Category theoretic glue]]
+- [[id:a9813986-6868-4c20-ba98-07d792b5b622][Category theoretic glue]]
 - [[*Generating small graphs][Generating small graphs]]
 ** Category theoretic glue
-:PROPERTIES:
-:tag: CDN
-:END:
-#+CATEGORY: MATH
+   :PROPERTIES:
+   :tag:      CDN
+   :ID:       a9813986-6868-4c20-ba98-07d792b5b622
+   :END:
+ #+CATEGORY: MATH
 
-We want to develop enough theory that we can use it to frame our
-experiments.  We are trying to do this in a computationally meaningful way.
+ We want to develop enough theory that we can use it to frame our
+ experiments.  We are trying to do this in a computationally meaningful way.
 
 *** Feature: Understand comma categories as a potential “backend”  :ray:zans:
 
 *** Next steps                                                     :noexport:
 
-- [[*How to Design Programs][How to Design Programs]]
+ - [[id:06c4e91c-b453-4bc8-9a36-cdb43745f5dc][How to Design Programs]]
 
 ** Probabilistic programming for scientific modelling
-:PROPERTIES:
-:tag: HD
-:END:
-#+CATEGORY: MATH
+   :PROPERTIES:
+   :tag:      HD
+   :ID:       51f1600f-77b8-41c7-883a-4e23bc3a17c8
+   :END:
+ #+CATEGORY: MATH
 
-Probabilistic programming is useful within both scientific modelling,
-and, potentially, as part of a program synthesis toolkit.
+ Probabilistic programming is useful within both scientific modelling,
+ and, potentially, as part of a program synthesis toolkit.
 
 *** Feature: relationship between probabilistic programming and categories :zans:cameron:
 
 *** Contributes to                                                 :noexport:
 
-- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]] (at least potentially, e.g., if our business is going to make models for people)
-- [[*DATA COURSE][DATA COURSE]]
+ - [[id:dbdf051b-5b01-4958-b40d-40d7170a8edd][BUSINESS DEVELOPMENT]] (at least potentially, e.g., if our business is going to make models for people)
+ - [[*DATA COURSE][DATA COURSE]]
 * POTENTIAL PRODUCTS
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       cba51f01-3c01-4936-b5e1-aeeebe1ef566
+  :END:
 
 Synthesis of some of our /projects/ could lead to marketable /products/.
 
 ** Contributes to                                                   :noexport:
 
-- [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]]
+- [[id:dbdf051b-5b01-4958-b40d-40d7170a8edd][BUSINESS DEVELOPMENT]]
 ** Agent model
-:PROPERTIES:
-:tag: HD
-:END:
+   :PROPERTIES:
+   :tag:      HD
+   :ID:       dd5d3d5f-bba0-4527-b897-6ad5b4061199
+   :END:
 
-One of our central intentions is to instantiate our work in an agent
-model of Q&A and programming.  This is based on Alan Turing’s
-suggestion that computers could talk with each other to sharpen their
-wits.
+ One of our central intentions is to instantiate our work in an agent
+ model of Q&A and programming.  This is based on Alan Turing’s
+ suggestion that computers could talk with each other to sharpen their
+ wits.
 
 *** Next steps                                                     :noexport:
-:PROPERTIES:
-:ID:       17297f1e-d7e0-46d3-8a26-a51500be92b7
-:END:
+    :PROPERTIES:
+    :ID:       17297f1e-d7e0-46d3-8a26-a51500be92b7
+    :END:
 
-- [[*An ABM of the computer programming domain][An ABM of the computer programming domain]]
-- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+ - [[id:c110923d-c155-44c4-9ca0-579c5e71972d][An ABM of the computer programming domain]]
+ - [[id:cba51f01-3c01-4936-b5e1-aeeebe1ef566][POTENTIAL PRODUCTS]]
 ** Recommender System
-:PROPERTIES:
-:tag: LRD
-:END:
-#+CATEGORY: ML
+   :PROPERTIES:
+   :tag:      LRD
+   :ID:       d36d84ed-8d21-446c-b8c1-7856025c5970
+   :END:
+ #+CATEGORY: ML
 
-We could consume various analyses of Stack Exchange data to make
-recommendations.
+ We could consume various analyses of Stack Exchange data to make
+ recommendations.
 
 *** Possible implementation strategy: build on a version of GPT fine-tuned on SO Q&A tasks
 
-Could we set up a simple version of *GPT* trained on Stack Overflow
-data, just to get it working? Then think about how to get a learning
-loop set up to improve the results...
+ Could we set up a simple version of *GPT* trained on Stack Overflow
+ data, just to get it working? Then think about how to get a learning
+ loop set up to improve the results...
 
 **** Ideas
 
-- Could this at least help a human navigate the questions on Stack Exchange?
-- Rather than just answering the question, generate the answer and use
-  that to guide search (by combining generation with document similarity)
-- Use a distance to set up a margin of tolerance
+ - Could this at least help a human navigate the questions on Stack Exchange?
+ - Rather than just answering the question, generate the answer and use
+   that to guide search (by combining generation with document similarity)
+ - Use a distance to set up a margin of tolerance
 
 **** Precedents
 
-- [[https://stackroboflow.com/about/index.html][Stack Roboflow]] creates ersatz Q&A using =AWD_LTSM=.  Surely we can do better?
-- In Google Books, they use crappy OCR which is good enough for search, but you wouldn't want to read the output.  For search, they use something like rewrite distance, finding something ‘within 5 errors’.
+ - [[https://stackroboflow.com/about/index.html][Stack Roboflow]] creates ersatz Q&A using =AWD_LTSM=.  Surely we can do better?
+ - In Google Books, they use crappy OCR which is good enough for search, but you wouldn't want to read the output.  For search, they use something like rewrite distance, finding something ‘within 5 errors’.
 
 **** Analogue
 
-In parsing, it's not just edit distance but has to involve the grammar
+ In parsing, it's not just edit distance but has to involve the grammar
 
 **** Case against going too deep:
 
-- Code generation is hard
+ - Code generation is hard
 
 **** Case against worrying about that:
 
-- Worry instead about applications like generating learning packets
- - E.g., learn everything there is to know about =git= from Stack Overflow in a nicely organised way.
- - E.g., compare the Schuam’s Outline series: could we reassemble open source clones of Schuam’s Outlines by retrieving contents from Math.Stack Exchange?
+ - Worry instead about applications like generating learning packets
+  - E.g., learn everything there is to know about =git= from Stack Overflow in a nicely organised way.
+  - E.g., compare the Schuam’s Outline series: could we reassemble open source clones of Schuam’s Outlines by retrieving contents from Math.Stack Exchange?
 
 **** Application of the model: Display SO with similarity graph
-E.g., use generated answers to help identify ‘similarity’.
+ E.g., use generated answers to help identify ‘similarity’.
 
 **** Related work
 
-- https://github.com/stared/tag-graph-map-of-stackexchange/wiki presents a nice-looking map of the relationship between tags.
+ - https://github.com/stared/tag-graph-map-of-stackexchange/wiki presents a nice-looking map of the relationship between tags.
 
 *** Feature: Initial import of SO for training                          :tim:
 *** Contributes to                                                 :noexport:
 
-- [[*Advances in tutoring systems for programming][Advances in tutoring systems for programming]]
-- [[*Agent model][Agent model]]
-- [[*Teach arbitrary coding][Teach arbitrary coding]]
+ - [[id:32bfdb1f-127b-4679-a2ac-d0d7fc49f6f3][Advances in tutoring systems for programming]]
+ - [[id:dd5d3d5f-bba0-4527-b897-6ad5b4061199][Agent model]]
+ - [[id:e99ec3c1-4dac-4c03-bb5a-c69f2087c96d][Teach arbitrary coding]]
 
 ** Visual Interfaces
-:PROPERTIES:
-:tag: LRD
-:END:
+   :PROPERTIES:
+   :tag:      LRD
+   :ID:       4bcfa1b9-c90f-4680-9517-dd78b5f4feeb
+   :END:
 
 *** Graphical flow for programs
 
-Can we model more general program flow in a similar fashion to Monocl?
+ Can we model more general program flow in a similar fashion to Monocl?
 
 *** Limitations
 
-The idea of graphical programming languages is linked with the
-[[https://en.wikipedia.org/wiki/Deutsch_limit][Deutsch limit]] (named for noted programmer [[https://en.wikipedia.org/wiki/L._Peter_Deutsch][L Peter Deutsch]], not
-physicist [[https://en.wikipedia.org/wiki/David_Deutsch][David Deutsch FRS]], though perhaps he could come into play later):
+ The idea of graphical programming languages is linked with the
+ [[https://en.wikipedia.org/wiki/Deutsch_limit][Deutsch limit]] (named for noted programmer [[https://en.wikipedia.org/wiki/L._Peter_Deutsch][L Peter Deutsch]], not
+ physicist [[https://en.wikipedia.org/wiki/David_Deutsch][David Deutsch FRS]], though perhaps he could come into play later):
 
-#+begin_quote
-/The problem with visual programming is that you can’t have more than 50 visual primitives on the screen at the same time./
-#+end_quote
+ #+begin_quote
+ /The problem with visual programming is that you can’t have more than 50 visual primitives on the screen at the same time./
+ #+end_quote
 
 *** Automatically create visual interfaces
 
-Here's an idea: assuming we have enough text mining pixie dust (on
-corpora of linux man pages, and stack overflow questions/forum posts
-about linux commands), it might be possible to do:
+ Here's an idea: assuming we have enough text mining pixie dust (on
+ corpora of linux man pages, and stack overflow questions/forum posts
+ about linux commands), it might be possible to do:
 
-=user:~$ make-gui-for ls --output ls.py=
+ =user:~$ make-gui-for ls --output ls.py=
 
 *** Feature: Build infra for generating and displaying graphs.
 
-E.g., we can generate graphs based on code flow.
+ E.g., we can generate graphs based on code flow.
 
-#+begin_src elisp
-(defun triangle (n)
-  (if (equal n 0) 0
-    (+ n (triangle (- n 1)))))
-#+end_src
+ #+begin_src elisp
+ (defun triangle (n)
+   (if (equal n 0) 0
+     (+ n (triangle (- n 1)))))
+ #+end_src
 
-This would then be related to the visual code walk through feature described below.
+ This would then be related to the visual code walk through feature described below.
 
 *** Feature: Visual code walk through
 
-Ray is working on a visual code walk through.  This should be seen as
-another interface to the same basic underlying information, sort of
-like how Org Roam is the main interface to the data served by Org Roam
-Server.
+ Ray is working on a visual code walk through.  This should be seen as
+ another interface to the same basic underlying information, sort of
+ like how Org Roam is the main interface to the data served by Org Roam
+ Server.
 
 **** General evaluation strategy for these demos:
 
-- /‘Would anyone want to use this?’/
-- E.g., in the case of Emacs "learn X in Y" demo.
-- If there is interest, work up to covering the HtDP book
+ - /‘Would anyone want to use this?’/
+ - E.g., in the case of Emacs "learn X in Y" demo.
+ - If there is interest, work up to covering the HtDP book
 
 **** Related work
 
-- MAUDE framework. :: You describe your programming language using
-  rewrite rules in K.  They define tools to auto-derive rules in [[http://www.kframework.org/index.php/Projects][K]].
+ - MAUDE framework. :: You describe your programming language using
+   rewrite rules in K.  They define tools to auto-derive rules in [[http://www.kframework.org/index.php/Projects][K]].
 
-- Program slicing :: ‘Galois connection on the traces’. This allows
-  you to find where bugs appeared.  People tend to look in the most
-  recent.  Imagine a call-graph of all the variables, so it gives you
-  a minimum trace, showing where your bug can be found.
+ - Program slicing :: ‘Galois connection on the traces’. This allows
+   you to find where bugs appeared.  People tend to look in the most
+   recent.  Imagine a call-graph of all the variables, so it gives you
+   a minimum trace, showing where your bug can be found.
 
 *** Next steps                                                     :noexport:
-:PROPERTIES:
-:ID:       8ed6b549-0761-4f06-b478-d47e5ff1036f
-:END:
+    :PROPERTIES:
+    :ID:       8ed6b549-0761-4f06-b478-d47e5ff1036f
+    :END:
 
-- [[*Paperspace DO NJ etc. Collaboratory][Paperspace DO NJ etc. Collaboratory]]
+ - [[id:6e66b0c5-ea49-42f4-a662-fc8b70e516ea][Paperspace DO NJ etc. Collaboratory]]
 
 *** Contributes to                                                 :noexport:
-- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+ - [[id:cba51f01-3c01-4936-b5e1-aeeebe1ef566][POTENTIAL PRODUCTS]]
 ** Data course
-:PROPERTIES:
-:tag: LRD
-:END:
+   :PROPERTIES:
+   :tag:      LRD
+   :END:
 
-There's a new book available from the group affiliated with STAN.  It
-doesn't go very far, but it has tons of examples.  They have data sets
-about all sorts of stuff.  So the idea would be to take, e.g., the
-notebook on linear regression, and go through...
+ There's a new book available from the group affiliated with STAN.  It
+ doesn't go very far, but it has tons of examples.  They have data sets
+ about all sorts of stuff.  So the idea would be to take, e.g., the
+ notebook on linear regression, and go through...
 
 *** Idea
 
-Start with a method, then go through lots of examples.  Make this
-consistent with the way we would teach HtDP.
+ Start with a method, then go through lots of examples.  Make this
+ consistent with the way we would teach HtDP.
 
-"Here's a data set, here's a method that would make sense to apply."
+ "Here's a data set, here's a method that would make sense to apply."
 
 *** A quandry
 
-Note that hand-coding of a curriculum vs making a general framework
-that anyone can contribute to (e.g., to make their own curricula) are
-pretty different things.  We will sort out this ambiguity later.
+ Note that hand-coding of a curriculum vs making a general framework
+ that anyone can contribute to (e.g., to make their own curricula) are
+ pretty different things.  We will sort out this ambiguity later.
 
 *** Sources
 
-There are tons of great data sets, but the issue would be digging into
-the details of some of them.  The real issue is coordinating.  We want
-to start with e.g., intro to linear regression, then hierarchical
-linear regression, and working up to things like Lotka-Voltera model.
+ There are tons of great data sets, but the issue would be digging into
+ the details of some of them.  The real issue is coordinating.  We want
+ to start with e.g., intro to linear regression, then hierarchical
+ linear regression, and working up to things like Lotka-Voltera model.
 
-- Datopian
+ - Datopian
 
 *** How to build up to this?
 
-- E.g., setting up the pre-requisites of the platform
-- Setting up a tutorial on model building in a certain domain, get 10 people in the specialised tutorial, how is it received
-- This would start building up the group of people
- - Using someone else's platform would be different from using our own platform
- - Which of these is the focus? (*Good question but let's have one or two sprints beforehand to see where things are going.*)
+ - E.g., setting up the pre-requisites of the platform
+ - Setting up a tutorial on model building in a certain domain, get 10 people in the specialised tutorial, how is it received
+ - This would start building up the group of people
+  - Using someone else's platform would be different from using our own platform
+  - Which of these is the focus? (*Good question but let's have one or two sprints beforehand to see where things are going.*)
 
 *** Assumptions
 
-- Keep platform open source, assume people would want to use
+ - Keep platform open source, assume people would want to use
 
 *** Comments
 
-- Platform is quite a general word, but in a way we are trying to make something easier
-- The platform is just an interface to a piece of technology we build.  The core is really on the backend.
-- So the focus should be on the backend not on the javascript bits.
-- Maybe leverage more existing technologies for the platform, where building it basically means installing it.
-- Nextjournal: this looks good because they have UX designers to polish things
-- Cloud-based Emacs: Would allow you to back your instantiation as if Emacs is your operating system, 500GB instance on Google Cloud
+ - Platform is quite a general word, but in a way we are trying to make something easier
+ - The platform is just an interface to a piece of technology we build.  The core is really on the backend.
+ - So the focus should be on the backend not on the javascript bits.
+ - Maybe leverage more existing technologies for the platform, where building it basically means installing it.
+ - Nextjournal: this looks good because they have UX designers to polish things
+ - Cloud-based Emacs: Would allow you to back your instantiation as if Emacs is your operating system, 500GB instance on Google Cloud
 
 *** Status
 
-- Cameron has code to set up a multicluster platform available off the shelf that we can start with
-- Ray has been doing similar things for personal use, though if this helps write biology papers.
-- What if our user interface was Emacs?
- - Different keybindings; developers like Emacs or Vi...
- - Org Bable exists & we can refer to this for now
+ - Cameron has code to set up a multicluster platform available off the shelf that we can start with
+ - Ray has been doing similar things for personal use, though if this helps write biology papers.
+ - What if our user interface was Emacs?
+  - Different keybindings; developers like Emacs or Vi...
+  - Org Bable exists & we can refer to this for now
 
 *** Reference
 
-- Michael Betancourt: Towards a principled bayesian workflow
+ - Michael Betancourt: Towards a principled bayesian workflow
 
 *** Next steps                                                     :noexport:
 
-- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
+ - [[id:cba51f01-3c01-4936-b5e1-aeeebe1ef566][POTENTIAL PRODUCTS]]
 ** Paperspace DO NJ etc. Collaboratory
-:PROPERTIES:
-:tag: LRD
-:END:
+   :PROPERTIES:
+   :tag:      LRD
+   :ID:       6e66b0c5-ea49-42f4-a662-fc8b70e516ea
+   :END:
 
-This would be a potential user-facing product in which we could deploy
-various curricula, share various tools for interacting with
-scientific/computational models, and build a “knowledge hub” of people
-who could do scientific work.
+ This would be a potential user-facing product in which we could deploy
+ various curricula, share various tools for interacting with
+ scientific/computational models, and build a “knowledge hub” of people
+ who could do scientific work.
 
 *** Contributes to                                                 :noexport:
 
-- [[*POTENTIAL PRODUCTS][POTENTIAL PRODUCTS]]
-- [[*DATA COURSE][DATA COURSE]]
+ - [[id:cba51f01-3c01-4936-b5e1-aeeebe1ef566][POTENTIAL PRODUCTS]]
+ - [[*DATA COURSE][DATA COURSE]]
 * BUSINESS DEVELOPMENT
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       dbdf051b-5b01-4958-b40d-40d7170a8edd
+  :END:
 
 ** Relationship to purpose
 
@@ -863,11 +939,12 @@ Broad categories of users are surveyed in the *Downstream*.
 
 ** Next steps :noexport:
 
-- [[*Bottom][Bottom]]
+- [[id:54e01680-2223-469b-801a-44c0303a9b7b][Bottom]]
 * RESEARCH OUTPUTS
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       2235a6a1-8050-4e88-957b-2583500b8825
+  :END:
 
 We would like to publish some papers, though as Deyan points out we
 should only do this when we have high-quality results:
@@ -880,57 +957,61 @@ So, what can we do without shortcuts?
 
 ** Next steps :noexport:
 
-- [[*Bottom][Bottom]]
+- [[id:54e01680-2223-469b-801a-44c0303a9b7b][Bottom]]
 ** Advances in tutoring systems for programming
-:PROPERTIES:
-:tag: RR
-:END:
+   :PROPERTIES:
+   :tag:      RR
+   :ID:       32bfdb1f-127b-4679-a2ac-d0d7fc49f6f3
+   :END:
 
-This would be a survey paper that would inform our efforts to *Teach arbitrary coding*.
-Follow references, start with ‘AI and tutoring’.
+ This would be a survey paper that would inform our efforts to *Teach arbitrary coding*.
+ Follow references, start with ‘AI and tutoring’.
 
-1. (2014) "An adaptation algorithm for an intelligent natural language tutoring system"
-2. (2008) "A novel approach for constructing conversational agents using sentence similarity measures"
+ 1. (2014) "An adaptation algorithm for an intelligent natural language tutoring system"
+ 2. (2008) "A novel approach for constructing conversational agents using sentence similarity measures"
 
 *** Helps implement                                                :noexport:
-- [[*Teach arbitrary coding][Teach arbitrary coding]]
+ - [[id:e99ec3c1-4dac-4c03-bb5a-c69f2087c96d][Teach arbitrary coding]]
 
 *** Contributes to                                                 :noexport:
-- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+ - [[id:2235a6a1-8050-4e88-957b-2583500b8825][RESEARCH OUTPUTS]]
 ** Advances in knowledge mining from technical documents
-:PROPERTIES:
-:tag: RR
-:END:
-#+CATEGORY: RESEARCH
+   :PROPERTIES:
+   :tag:      RR
+   :ID:       5d19ec7c-654a-446e-8261-9c978630f05f
+   :END:
+ #+CATEGORY: RESEARCH
 
-This would be a survey paper that would inform our efforts on
-**Information extraction from SO Q&A items* and the *Knowledge graph*
-approach.  Note that if we can find survey papers that others have
-done, that’s pretty much just as useful, and saves us a bunch of time.
+ This would be a survey paper that would inform our efforts on
+ **Information extraction from SO Q&A items* and the *Knowledge graph*
+ approach.  Note that if we can find survey papers that others have
+ done, that’s pretty much just as useful, and saves us a bunch of time.
 
 *** STARTED Reading "Machine Knowledge" paper                         :deyan:
 *** Contributes to                                                 :noexport:
 
-- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+ - [[id:2235a6a1-8050-4e88-957b-2583500b8825][RESEARCH OUTPUTS]]
 ** An ABM of the computer programming domain
-:PROPERTIES:
-:tag: RO
-:END:
+   :PROPERTIES:
+   :tag:      RO
+   :ID:       c110923d-c155-44c4-9ca0-579c5e71972d
+   :END:
 
-This would be a paper writing up our agent model work.
+ This would be a paper writing up our agent model work.
 
-The paper could also correspond to a “whitepaper” that talks about how
-we are able to “mine” computer programs automatically.  This would
-contribute to a long-term business in automated programming (and
-potentially other kinds of automation work).
+ The paper could also correspond to a “whitepaper” that talks about how
+ we are able to “mine” computer programs automatically.  This would
+ contribute to a long-term business in automated programming (and
+ potentially other kinds of automation work).
 
 *** Contributes to                                                 :noexport:
 
-- [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
+ - [[id:2235a6a1-8050-4e88-957b-2583500b8825][RESEARCH OUTPUTS]]
 * Bottom
 :PROPERTIES:
-:tag: HL
-:END:
+  :tag: HL
+  :ID:       54e01680-2223-469b-801a-44c0303a9b7b
+  :END:
 
 By the time we get to this point, we will have established some
 impressive research outputs, a potentially profitable business, and a
@@ -945,11 +1026,12 @@ teaching/upskilling platform for technical and scientific topics.
 :PROPERTIES:
 :ID:       d8c152d1-0d86-4c66-9105-a83b926a0275
 :END:
-- [[*Downstream][Downstream]]
+- [[id:07ae3dc4-5850-476b-a9b5-0e2f08363235][Downstream]]
 * Downstream
 :PROPERTIES:
-:tag: HL AN
-:END:
+  :tag: HL AN
+  :ID:       07ae3dc4-5850-476b-a9b5-0e2f08363235
+  :END:
 #+CATEGORY: USERS
 
 What do our potential users look like?
@@ -959,52 +1041,56 @@ What do our potential users look like?
 :ID:       34ddbcd3-10a2-4d08-90d9-a489b7542fae
 :END:
 
-- [[*Consulting clients][Consulting clients]]
-- [[*Scientific software developers][Scientific software developers]]
-- [[*Automated tutoring system users][Automated tutoring system users]]
-- [[*Programmers][Programmers]]
+- [[id:fcb30c35-b897-4925-ab18-dba20ec28725][Consulting clients]]
+- [[id:41045551-9aaa-4f16-9c79-4726191d8092][Scientific software developers]]
+- [[id:363eafaa-cdd5-4306-a15f-426fd90a9ace][Automated tutoring system users]]
+- [[id:b2e3155d-5644-43f9-a338-bee4cca39bdf][Programmers]]
 ** Consulting clients
-:PROPERTIES:
-:tag: SH AN
-:END:
+   :PROPERTIES:
+   :tag:      SH AN
+   :ID:       fcb30c35-b897-4925-ab18-dba20ec28725
+   :END:
 
-We discussed the idea of doing consulting for clients who are
-interested in using scientific models.
+ We discussed the idea of doing consulting for clients who are
+ interested in using scientific models.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]
+ - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]
 ** Scientific software developers
-:PROPERTIES:
-:tag: SH AN
-:END:
+   :PROPERTIES:
+   :tag:      SH AN
+   :ID:       41045551-9aaa-4f16-9c79-4726191d8092
+   :END:
 
-We imagine some software developers consuming “tutorial” content we
-produce, and improving their skills and abilities as a result.
+ We imagine some software developers consuming “tutorial” content we
+ produce, and improving their skills and abilities as a result.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]
+ - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]
 ** Automated tutoring system users
-:PROPERTIES:
-:tag: SH AN
-:END:
+   :PROPERTIES:
+   :tag:      SH AN
+   :ID:       363eafaa-cdd5-4306-a15f-426fd90a9ace
+   :END:
 
-We imagine some students using AI software we develop.  In some cases
-they could be “students”.  In other cases, they could already be
-professional developers.
+ We imagine some students using AI software we develop.  In some cases
+ they could be “students”.  In other cases, they could already be
+ professional developers.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
+ - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
 ** Programmers
-:PROPERTIES:
-:tag: SH AN
-:END:
+   :PROPERTIES:
+   :tag:      SH AN
+   :ID:       b2e3155d-5644-43f9-a338-bee4cca39bdf
+   :END:
 
-We imagine any programmer having some use for our tools.  “B2D”
-(Business to Developer) is an emerging category of enterprise where we
-can do interesting things.
+ We imagine any programmer having some use for our tools.  “B2D”
+ (Business to Developer) is an emerging category of enterprise where we
+ can do interesting things.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]
+ - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]
 * Organisational infrastructure
 :PROPERTIES:
-:tag: HL AN
-:END:
+  :tag: HL AN
+  :END:
 #+CATEGORY: ORG
 
 This section is mildly-technical appendix.  It looks at our
@@ -1124,408 +1210,469 @@ serve a different function compared with Org mode agenda items?
 :ID:       17468abb-5c17-458e-a053-72e6356bbad5
 :END:
 
-- [[*OBS recordings][OBS recordings]]
-- [[*Discord server][Discord server]]
-- [[*Code sharing platform][Code sharing platform]]
-- [[*Blog][Blog]]
-- [[*Wiki][Wiki]]
-- [[*Forum][Forum]]
+- [[id:d92d21ec-b22e-4231-ae6b-ed1724b2c60c][OBS recordings]]
+- [[id:e2001777-ea9c-4326-9b55-9028f79bf4d5][Discord server]]
+- [[id:7bb968cc-d77d-4e4e-9002-2742f93defd7][Code sharing platform]]
+- [[id:a1940898-5c6b-40c5-9c9b-5e80a8cb55bb][Blog]]
+- [[id:c8d5497d-601a-4595-a333-a7e671898307][Wiki]]
+- [[id:8ea49d05-6a9e-4380-a41d-8db241ffbcf3][Forum]]
 ** Discord server
-:PROPERTIES:
-:tag: OTS AN
-:END:
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       e2001777-ea9c-4326-9b55-9028f79bf4d5
+   :END:
 
-We set up a Discord server that we’re using for our meetings.  This
-invite link should not expire: https://discord.gg/pArjt4p
+ We set up a Discord server that we’re using for our meetings.  This
+ invite link should not expire: https://discord.gg/pArjt4p
 
-(We also have a Zulip server set up, but currently we’re using it
-less.)
+ (We also have a Zulip server set up, but currently we’re using it
+ less.)
 ** OBS recordings
-:PROPERTIES:
-:tag: OTS AN
-:END:
-#+CATEGORY: OBS
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       d92d21ec-b22e-4231-ae6b-ed1724b2c60c
+   :END:
+ #+CATEGORY: OBS
 
-We talked about creating asyncronous recordings (screencasts,
-audio). We also talked about possibly putting the audio recordings
-into a threaded voice mail forum, but that's a somewhat different
-application.
+ We talked about creating asyncronous recordings (screencasts,
+ audio). We also talked about possibly putting the audio recordings
+ into a threaded voice mail forum, but that's a somewhat different
+ application.
 
 ** Code sharing platform
-:PROPERTIES:
-:tag: OTS AN
-:END:
-#+CATEGORY: OTS
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       7bb968cc-d77d-4e4e-9002-2742f93defd7
+   :END:
+ #+CATEGORY: OTS
 
-For now we have a Github organisation (https://github.com/exp2exp), as
-well as a separate repo that contains these Org Roam notes, among
-other things.  This could potentially be improved or upgraded in
-various ways.
+ For now we have a Github organisation (https://github.com/exp2exp), as
+ well as a separate repo that contains these Org Roam notes, among
+ other things.  This could potentially be improved or upgraded in
+ various ways.
 
 *** Comments
 
-- Nextjournal is interesting
-- It's like a Jupyter notebook
-- It's like Org Bable so you can run code in any language within the same environment
-- If I need to add a bash cell to a Julia notebook, it adds a kernel as needed at the run time
-- If I install a bunch of libraries, and save the current environment in a docker container, you can import it
-- It doesn't yet have an easy way to make an app?
+ - Nextjournal is interesting
+ - It's like a Jupyter notebook
+ - It's like Org Bable so you can run code in any language within the same environment
+ - If I need to add a bash cell to a Julia notebook, it adds a kernel as needed at the run time
+ - If I install a bunch of libraries, and save the current environment in a docker container, you can import it
+ - It doesn't yet have an easy way to make an app?
 
 *** What if you had a browser based version of Org Bable?
 
-- You could have your notebook, backed by the ability to use Emacs
+ - You could have your notebook, backed by the ability to use Emacs
 
 *** Examples
 
-- Setting up a data science experiment
-- Wadler et al. course in Agda in NextJournal
-- But you can't easily treat this as ‘Org Roam’ (no bi-directional things)
+ - Setting up a data science experiment
+ - Wadler et al. course in Agda in NextJournal
+ - But you can't easily treat this as ‘Org Roam’ (no bi-directional things)
 
 *** Next evolution
 
-We need a basic code sharing platform to get to work.  The next
-evolution might look like what we’ve been calling the “Emacs Hyper
-Notebook”?  However, some contributors are not interested in using
-Emacs for everything.  And we can’t assume that users would be
-interested in it either!
+ We need a basic code sharing platform to get to work.  The next
+ evolution might look like what we’ve been calling the “Emacs Hyper
+ Notebook”?  However, some contributors are not interested in using
+ Emacs for everything.  And we can’t assume that users would be
+ interested in it either!
 ** Wiki
-:PROPERTIES:
-:tag: OTS AN
-:END:
-#+CATEGORY: OTS
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       c8d5497d-601a-4595-a333-a7e671898307
+   :END:
+ #+CATEGORY: OTS
 
-The public facing version of these notes is available on a simple
-“brain dump” web interface, at https://notes.exploretoexploit.com/posts/.
-That mirrors the contents of our Org Roam directory.  Editing
-permissions are explained below.
+ #+COMMENT: OLD CONTENT:
+ #+COMMENT: The public facing version of these notes is available on a simple
+ #+COMMENT: “brain dump” web interface, at https://notes.exploretoexploit.com/posts/.
 
-We can also view the contents of Org Roam in a linear form as PDF
-document... or view the currently active tasks using Org Agenda.  In
-the future we may want to have several different “upstream” locations,
-based on several different small-scale wikis, all feeding into this
-one location.  That’s not hard to set up.  Contents can also be
-browsed in a graphical form either with the built in =org-roam-graph=
-functionality, or by installing Org Roam Server and running
-=org-roam-server-mode=.
+ The public facing version of these notes is available on a simple web
+ interface, created by firn: [[https://exp2exp.github.io/][https://exp2exp.github.io/]]. This mirrors
+ the contents of our Org Roam directory.  Editing is explained below.
 
-We can potentially improve on all of this further, bulding something
-like Metacademy.  For now, we describe how to use this simple Org Roam
-based wiki.
+ We can also view the contents of Org Roam in a linear form as PDF
+ document... or view the currently active tasks using Org Agenda.  In
+ the future we may want to have several different “upstream” locations,
+ based on several different small-scale wikis, all feeding into this
+ one location.  That’s not hard to set up.  Contents can also be
+ browsed in a graphical form either with the built in =org-roam-graph=
+ functionality, or by installing Org Roam Server and running
+ =org-roam-server-mode=.
+
+ We can potentially improve on all of this further, bulding something
+ like Metacademy.  For now, we describe how to use this simple Org Roam
+ based wiki.
+
+*** Access
+
+ Obtain the sources by cloning the repo at [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].
+
+ #+begin_src 
+ git clone git@github.com:exp2exp/exp2exp.github.io.git
+ #+end_src
+
+ (See below for an alternative.)
+
+*** Mob branch on repo.or.cz
+
+ We’re mirroring the repo to an environment that allows anonymous
+ commits (without need for further permissioning).  If want to
+ contribute anonymously, info on that is here: [[https://bit.ly/2EQRHEF][https://bit.ly/2EQRHEF]]
+
+ You can review commits to the mob branch here: [[https://repo.or.cz/arxana.git/shortlog/refs/heads/mob][https://repo.or.cz/arxana.git/shortlog/refs/heads/mob]]
 
 *** Setup
 
-Install Org Roam if needed (=M-x package-install RET org-roam RET=).
+ Install Org Roam if needed (=M-x package-install RET org-roam RET=).
 
-Clone the repo, using these instructions to switch to the mob branch
-(which avoids the need for further permissioning). Details are here:
-https://bit.ly/2EQRHEF
+ Subsequently, add this to your Emacs configuration:
 
-Subsequently, add this to your Emacs configuration:
-
-#+BEGIN_src elisp
-(require 'org-roam)
-(setq org-roam-directory (concat "/home/"
-                          (getenv "USER")
-                          "/arxana/org-roam/"))
-(setq org-roam-completion-system 'helm)
-(define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
-(define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
-(define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
-(define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
-(define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
-(org-roam-mode +1)
-#+END_src
+ #+BEGIN_src elisp
+ (require 'org-roam)
+ (setq org-roam-directory (concat "/home/"
+                           (getenv "USER")
+                           "/exp2exp/"))
+ (setq org-roam-completion-system 'helm)
+ (define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
+ (define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
+ (define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
+ (define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
+ (define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
+ (org-roam-mode +1)
+ #+END_src
 *** Bonus feature: org-roam-checkout
 
-If you regularly use your own separate Org Roam setup, you can use
-this simple context switcher to move between the two.  Keep track of
-the various separate Org Roam installations with =org-roam-library=
-and then switch between them interactively with =org-roam-checkout=.
+ If you regularly use your own separate Org Roam setup, you can use
+ this simple context switcher to move between the two.  Keep track of
+ the various separate Org Roam installations with =org-roam-library=
+ and then switch between them interactively with =org-roam-checkout=.
 
-#+begin_src elisp
-(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/arxana/org-roam/")
-                           ,(concat "/home/" (getenv "USER") "/org-roam/")))
+ #+begin_src elisp
+ (defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp/")
+                            ,(concat "/home/" (getenv "USER") "/org-roam/")))
 
-(defun org-roam-checkout ()
-  (interactive)
-  (let ((ctx org-roam-directory))
-    (if (eq (length org-roam-library) 1)
-        ;; Still go ahead and set the variable in this case!
-        (progn (setq org-roam-directory (car org-roam-library))
-               (message "You only have one choice for org-roam-directory defined."))
-      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
-        (when lib
-          (setq org-roam-directory lib))))
-    ;; assuming the user changes context, let’s also prompt them
-    ;; to choose a new file in that context
-    (when (not (eq ctx org-roam-directory))
-      (org-roam-find-file))))
-#+end_src
+ (defun org-roam-checkout ()
+   (interactive)
+   (let ((ctx org-roam-directory))
+     (if (eq (length org-roam-library) 1)
+         ;; Still go ahead and set the variable in this case!
+         (progn (setq org-roam-directory (car org-roam-library))
+		(message "You only have one choice for org-roam-directory defined."))
+       (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+         (when lib
+           (setq org-roam-directory lib))))
+     ;; assuming the user changes context, let’s also prompt them
+     ;; to choose a new file in that context
+     (when (not (eq ctx org-roam-directory))
+       (org-roam-find-file))))
+ #+end_src
 
 *** Interaction
 
-Use the =C-c n f= keyboard command to add new disconnected nodes to
-the graph, or use =C-c n i= to create a page and insert a wiki-style
-link, like =[[New Page]]=. Follow links with =C-c C-o=. Display the
-graph structure with =C-c n g=.  It may be necessary to run =M-x
-org-roam-db-build-cache= to get the graph to match reality.  Add and
-commit new or modified files with git, along with =org-roam.db=, and
-push them to the repo.
-
-*** Log
-
-You can review commits to the mob branch here:
-https://repo.or.cz/arxana.git/shortlog/refs/heads/mob
+ Use the =C-c n f= keyboard command to add new disconnected nodes to
+ the graph, or use =C-c n i= to create a page and insert a wiki-style
+ link, like =[[New Page]]=. Follow links with =C-c C-o=. Display the
+ graph structure with =C-c n g=.  It may be necessary to run =M-x
+ org-roam-db-build-cache= to get the graph to match reality.  Add and
+ commit new or modified files with git, along with =org-roam.db=, and
+ push them to the repo.
 
 *** Tags
 
-Some of the nodes have =#+roam_tags= set:
+ Some of the nodes have =#+roam_tags= set:
 
-| *code* | *meaning*        |
-|--------+------------------|
-| HL     | High level       |
-| CDN    | Can do now       |
-| LRD    | Longer R&D cycle |
-| HD     | Has dependencies |
-| RR     | Research Review  |
-| RO     | Research Output  |
-| OTS    | Off the shelf    |
-| SH     | Stakeholder      |
-| AN     | Annex            |
+ | *code* | *meaning*        |
+ |--------+------------------|
+ | HL     | High level       |
+ | CDN    | Can do now       |
+ | LRD    | Longer R&D cycle |
+ | HD     | Has dependencies |
+ | RR     | Research Review  |
+ | RO     | Research Output  |
+ | OTS    | Off the shelf    |
+ | SH     | Stakeholder      |
+ | AN     | Annex            |
 
-Some of the files also have a =#+CATEGORY= set.
+ Some of the files also have a =#+CATEGORY= set.
 
 *** Pairing
 
-#+begin_src
-ssh pair@178.79.174.58
-PW: <ASK JOE FOR THE PASSWORD>
-emacsclient -a '' -t
-M-x lockstep
-#+end_src
+ For syncronized browsing and editing with [[https://github.com/tjim/lockstep][lockstep.el]]:
+
+ #+begin_src
+ ssh pair@178.79.174.58
+ PW: <ASK JOE FOR THE PASSWORD>
+ emacsclient -a '' -t
+ M-x lockstep
+ #+end_src
+
+ To open up a real-time collaboration (with multiple cursors), use
+ [[https://code.librehq.com/qhong/crdt.el][crdt.el]], first to serve the buffer:
+
+ #+begin_src 
+ M-x crdt-serve-buffer
+ #+end_src
+
+ And then, from your client, to connect:
+
+ #+begin_src 
+ M-x crdt-connect
+ #+end_src
+
 *** Linearizing
+    :PROPERTIES:
+    :ID:       5bbb2c06-bab3-4e66-8e52-c53642234dec
+    :END:
 
-To turn this map into something we can reliably use, let’s try to
-linearize it.
+ To turn this map into something we can reliably use, let’s try to
+ linearize it.
 
-To downsample from Org Roam (save as =~/bin/roam2org.sh= and make it
-executable):
+ To downsample from Org Roam (save as =~/bin/roam2org.sh= and make it
+ executable):
 
-#+begin_src bash
-#! /bin/bash
+ #+begin_src bash
+ #! /bin/bash
 
-emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
-#+end_src
+ emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
+ #+end_src
 
-Here are the working parts (save as =~/bin/downsample-org-roam.el=):
+ Here are the working parts (save as =~/bin/downsample-org-roam.el=):
 
-#+begin_src elisp
-(defun downsample ()
-  (if (looking-at "^#\\+TITLE:")
-      (replace-match "*"))
-  (forward-line 1)
-  (if (looking-at "^#\\+roam_tags:\\(.*\\)")
-      (replace-match ":PROPERTIES:
-:tag:\\1
-:END:"))
-  (while (re-search-forward "^\\*" nil t)
-    (replace-match "**"))
-  (goto-char (point-min))
-  (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
-    (replace-match "[[*\\2][\\2]]"))
-  (buffer-substring-no-properties (point-min) (point-max)))
+ #+begin_src elisp :tangle yes
+ (defun downsample ()
+   "Process an Org Roam buffer for inclusion in a standard Org file.
+ Changes title to header, and increase indentation of existing headers.
+ Changes file links to internal links."
+   (if (looking-at "^#\\+TITLE:")
+       (replace-match "*"))
+   (forward-line 1)
+   (if (looking-at "^#\\+roam_tags:\\(.*\\)")
+       (replace-match ":PROPERTIES:
+   :tag:\\1
+   :END:"))
+   (while (re-search-forward "^\\*" nil t)
+     (replace-match "**"))
+   (goto-char (point-min))
+   (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
+     (replace-match "[[*\\2][\\2]]"))
+   (buffer-substring-no-properties (point-min) (point-max)))
 
-(defun combine-files (&rest args)
-  (apply #'concat
-         (mapcar (lambda (file)
-                   (save-window-excursion
-                     (find-file (concat "~/arxana/org-roam/" file))
-                     (let ((contents (buffer-substring-no-properties (point-min)
-                                                                     (point-max))))
-                       (with-temp-buffer (insert contents)
-                                         (goto-char (point-min))
-                                         (downsample)))))
-                 (or (car args) (nthcdr 5 command-line-args)))))
-#+end_src
+ (defun combine-org-roam-files (&rest args)
+ "Combine a list of files, specified as ARGs.
+ The files are to be found in `org-roam-directory'."
+   (apply #'concat
+          (mapcar (lambda (file)
+                    (save-window-excursion
+                      (find-file (concat org-roam-directory file))
+                      (let ((contents (buffer-substring-no-properties (point-min)
+                                                                      (point-max))))
+			(with-temp-buffer (insert contents)
+                                          (goto-char (point-min))
+                                          (downsample)))))
+                  (or (car args) (nthcdr 5 command-line-args)))))
+ #+end_src
 
 *** Backlog
+    :PROPERTIES:
+    :ID:       665a10d6-f9b7-421f-bc63-745f4a597916
+    :END:
 
-Part of the idea with a backlog is to go from most-doable, starting
-with work in progress, to least-doable and potentially vague.  Here,
-then, is one approximate linearization that may or may not meet that
-description!
+ Part of the idea with a backlog is to go from most-doable, starting
+ with work in progress, to least-doable and potentially vague.  Here,
+ then, is one approximate linearization that may or may not meet that
+ description!
 
-#+begin_src elisp
-(setq files-to-combine
-'("20200810131435-hyperreal_enterprises.org"
-"20200810132653-top.org"
-"20200905124558-why_not_what.org"
- "20200909195629-teach_arbitrary_coding.org"
- "20200810135851-how_to_design_programs_with_if.org"
-"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
-  "20200905125342-emacs_hyper_notebook.org"
-"20200905125023-which_model_construction_process_works_as_a_whole.org"
- "20200905131027-information_extraction_from_so_q_a_items.org"
-"20200905131918-knowledge_graph.org"
-"20200905124432-underlying_foundation.org"
- "20200905125713-category_theoretic_glue.org"
- "20200905131656-probabilistic_programming_for_scientific_modelling.org"
-"20201003205523-potential_products.org"
- "20200905130423-agent_model.org"
- "20200817172825-recommender_system.org"
- "20200810135457-visual_interfaces.org"
- "20200814203551-data_course.org"
- "20200905132603-paperspace_do_nj_etc_collaboratory.org"
-"20200814210243-business_development.org"
-"20200905134325-research_outputs.org"
- "20200810135325-advances_in_tutoring_systems_for_programming.org"
- "20200810135403-advances_in_knowledge_mining_from_technical_documents.org"
- "20200905132334-an_abm_of_the_computer_programming_domain.org"
-"20200906003704-bottom.org"
- "20201003164408-downstream.org"
- "20201003165500-consulting_clients.org"
- "20201003170312-open_source_developers.org"
- "20201003170333-tutoring_students.org"
- "20201003171011-programmers.org"
-"20200810135126-organisational_infrastructure.org"
- "20200810135619-discord_server.org"
- "20200811185435-obs_recordings.org"
- "20200814193042-code_sharing_platform.org"
- "20200912223428-wiki.org"
- "20201003164100-forum.org"
- "20200814195259-blog.org"))
-#+end_src
+ Note, this is duplicated in the index file, probably for sanity we
+ should pick one and automate the derived version from there!
 
-To combine the files, run:
-#+begin_src elisp
-(combine-files files-to-combine)
-#+end_src
+ #+begin_src elisp :tangle yes
+ (defvar files-to-combine
+ '("20200810131435-hyperreal_enterprises.org"
+ "20200810132653-top.org"
+ "20200905124558-why_not_what.org"
+  "20200909195629-teach_arbitrary_coding.org"
+  "20200810135851-how_to_design_programs_with_if.org"
+ "20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+   "20200905125342-emacs_hyper_notebook.org"
+ "20200905125023-which_model_construction_process_works_as_a_whole.org"
+  "20200905131027-information_extraction_from_so_q_a_items.org"
+ "20200905131918-knowledge_graph.org"
+ "20200905124432-underlying_foundation.org"
+  "20200905125713-category_theoretic_glue.org"
+  "20200905131656-probabilistic_programming_for_scientific_modelling.org"
+ "20201003205523-potential_products.org"
+  "20200905130423-agent_model.org"
+  "20200817172825-recommender_system.org"
+  "20200810135457-visual_interfaces.org"
+  "20200814203551-data_course.org"
+  "20200905132603-paperspace_do_nj_etc_collaboratory.org"
+ "20200814210243-business_development.org"
+ "20200905134325-research_outputs.org"
+  "20200810135325-advances_in_tutoring_systems_for_programming.org"
+  "20200810135403-advances_in_knowledge_mining_from_technical_documents.org"
+  "20200905132334-an_abm_of_the_computer_programming_domain.org"
+ "20200906003704-bottom.org"
+  "20201003164408-downstream.org"
+  "20201003165500-consulting_clients.org"
+  "20201003170312-open_source_developers.org"
+  "20201003170333-tutoring_students.org"
+  "20201003171011-programmers.org"
+ "20200810135126-organisational_infrastructure.org"
+  "20200810135619-discord_server.org"
+  "20200811185435-obs_recordings.org"
+  "20200814193042-code_sharing_platform.org"
+  "20200912223428-wiki.org"
+  "20201003164100-forum.org"
+  "20200814195259-blog.org")
+ "An ordered list of files to combine in our export.
+ This is where the order of presentation in the downstream org file
+ and derived PDF is defined.")
+ #+end_src
 
-To get the indicative nesting (shown by spaces above) to be replicated
-at the org level, run the following at the top of the exported
-compilation:
+ To combine the files, run:
+ #+begin_src elisp
+ (combine-org-roam-files files-to-combine)
+ #+end_src
 
-#+begin_src elisp
-(defun indent-org-roam-export ()
-  (org-map-entries (lambda ()
-                     ;; don’t demote the top level items and their sub-items
-                     (let ((tag (org-entry-get nil "tag")))
-                       (if (and tag (string= (car (split-string tag)) "HL"))
-                           (progn (org-end-of-subtree)
-                                  (setq org-map-continue-from (point)))
-                         (org-do-demote))))
-                   nil 'file))
-#+end_src
+ To get the indicative nesting (shown by spaces above) to be replicated
+ at the org level, run the following at the top of the exported
+ compilation:
 
-Lastly, to rebuild the PDF, all of this can be done with one swift
-action.
+ #+begin_src elisp :tangle yes
+ (defun indent-org-roam-export ()
+   "Utility function to increase indention for selected trees."
+   (org-map-entries (lambda ()
+                      ;; don’t demote the top level items and their sub-items
+                      (let ((tag (org-entry-get nil "tag")))
+			(if (and tag (string= (car (split-string tag)) "HL"))
+                            (progn (org-end-of-subtree)
+                                   (setq org-map-continue-from (point)))
+                          (org-do-demote))))
+                    nil 'file))
+ #+end_src
 
-#+begin_src elisp
-(defun rebuild-org-roam-pdf ()
-  (interactive)
-  (save-excursion (find-file (concat "/home/" (getenv "USER")
-                                     "/arxana/org/combined.org"))
-    (goto-char (point-min))
-    (search-forward "# IMPORT")
-    (let ((beg (point)))
-      (delete-region (point) (point-max))
-      (insert "\n" (combine-files files-to-combine))
-      (goto-char beg)
-      (indent-org-roam-export)
-      (org-latex-export-to-pdf))))
-#+end_src
+ Lastly, to rebuild the PDF, all of this can be done with one swift
+ action.
+
+ #+begin_src elisp :tangle yes
+ (defun rebuild-org-roam-pdf ()
+   "Build an org file and PDF compiling `files-to-combine'."
+   (interactive)
+   (save-excursion (find-file (concat org-roam-directory
+                                      "/manual/combined.org"))
+     (goto-char (point-min))
+     (search-forward "# IMPORT")
+     (let ((beg (point)))
+       (delete-region (point) (point-max))
+       (insert "\n" (combine-files files-to-combine))
+       (goto-char beg)
+       (indent-org-roam-export)
+       (org-latex-export-to-pdf))))
+ #+end_src
+
+*** Publishing to the web
+
+ Publishing with Firn is simple:
+
+ #+begin_src 
+ firn build
+ #+end_src
+
+ Then commit and push.
 
 *** Reviewing progress
 
-Something like the following should be all that’s get a high-level
-overview of progress on active tasks, sourcing information directly
-from the Org Roam files.  Add the following to your emacs
-initialisation script (e.g., =~/.emacs=), evaluate it, and then run
-=C-c r= to load up the fun.  This may not be the perfect presentation
-yet but it gives an idea.
+ Something like the following should be all that’s get a high-level
+ overview of progress on active tasks, sourcing information directly
+ from the Org Roam files.  Add the following to your emacs
+ initialisation script (e.g., =~/.emacs=), evaluate it, and then run
+ =C-c r= to load up the fun.  This may not be the perfect presentation
+ yet but it gives an idea.
 
-#+begin_src elisp
-(setq org-todo-keywords
-      '((sequence "TODO" "STARTED" "BLOCKED" "BACKBURNER" "FROZEN"
-                  "|" "DONE" "DEFERRED" "WONTFIX")))
+ #+begin_src elisp
+ (setq org-todo-keywords
+       '((sequence "TODO" "STARTED" "BLOCKED" "BACKBURNER" "FROZEN"
+                   "|" "DONE" "DEFERRED" "WONTFIX")))
 
-(setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
+ (setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
 
-(setq org-agenda-files '("~/arxana/org-roam/"))
+ (setq org-agenda-files '("~/exp2exp/"))
 
-(defun org-scrum-board ()
-  (interactive)
-  (org-todo-list "TODO|STARTED|BLOCKED|BACKBURNER|FROZEN|DONE|DEFERRED|WONTFIX"))
+ (defun org-scrum-board ()
+   (interactive)
+   (org-todo-list "TODO|STARTED|BLOCKED|BACKBURNER|FROZEN|DONE|DEFERRED|WONTFIX"))
 
-(global-set-key (kbd "C-c r") 'org-scrum-board)
-#+end_src
+ (global-set-key (kbd "C-c r") 'org-scrum-board)
+ #+end_src
 
-This view can then be further filtered by regexp (e.g., your name) by
-pressing ~=~.
+ This view can then be further filtered by regexp (e.g., your name) by
+ pressing ~=~.
 
-*** TODO Package downsamping code separately                            :joe:
-*** TODO Update the repo instructions to reference this file            :joe:
-*** DONE Make generation of combined.org fully automatic                :joe:
-*** WONTFIX Make generation of brain dump fully automatic       :joe:cameron:
-CLOSED: [2020-10-09 Fri 23:32]
-This looks less relevant if we are using Firn, which I personally prefer!
+*** DONE Package downsamping code separately                            :joe:
+*** WONTFIX Update the repo instructions to reference this file         :joe:
 
-*** Potential further directions
-
-- We could try to get https://github.com/tecosaur/codiorg working.
 ** Forum
-:PROPERTIES:
-:tag: OTS AN
-:END:
-#+CATEGORY: OTS
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       8ea49d05-6a9e-4380-a41d-8db241ffbcf3
+   :END:
+ #+CATEGORY: OTS
 
-We talked about using Wikum as a forum, because we liked the idea of a
-workflow based on summarising discussions. There’s now a demo instance
-set up that we can use, here:
+ We talked about using Wikum as a forum, because we liked the idea of a
+ workflow based on summarising discussions. There’s now a demo instance
+ set up that we can use, here:
 
-http://wikum.org/visualization_flags?id=590&owner=holtzermann17
+ http://wikum.org/visualization_flags?id=590&owner=holtzermann17
 
 *** Could we incorporate the ideas directly in Org or Org Roam?
 
-Perhaps we could incorporate some Wikum ideas right into the wiki
-here.  The idea would be to treat the top paragraph on each page as a
-summary, and then add discussion threads below.  We’d want some system
-of tags that indicated whether the summary was validated or now.
-(Note the the original WikiWikiWeb did not have separate talk pages!
-I don’t know if they practiced robust summarisation, either.)
+ Perhaps we could incorporate some Wikum ideas right into the wiki
+ here.  The idea would be to treat the top paragraph on each page as a
+ summary, and then add discussion threads below.  We’d want some system
+ of tags that indicated whether the summary was validated or now.
+ (Note the the original WikiWikiWeb did not have separate talk pages!
+ I don’t know if they practiced robust summarisation, either.)
 
 ***************** REMARK                                                :joe:
-This is an “inline task,” via =(require 'org-inlinetask)=.  There
-doesn’t seem to be support for nested or threaded tasks, but maybe we
-would have use for non-threaded forum discussions at the end of any
-page in the Wiki.  Incidentally, for those curious, the formatting of
-the \LaTeX\nbsp{}export is controlled by
-=org-latex-format-inlinetask-function=.
+ This is an “inline task,” via =(require 'org-inlinetask)=.  There
+ doesn’t seem to be support for nested or threaded tasks, but maybe we
+ would have use for non-threaded forum discussions at the end of any
+ page in the Wiki.  Incidentally, for those curious, the formatting of
+ the \LaTeX\nbsp{}export is controlled by
+ =org-latex-format-inlinetask-function=.
 ***************** END
 
-*** TODO Is anyone willing to adopt a summarisation workflow? To confirm. :ALL:
+*** TODO What might our summarisation workflow look like?               :ALL:
 
-Since we’re pretty actively updating our *Discord* and pretty happy
-using it, maybe people who are working on Active Projects would be
-willing to summarise activity here, say, weekly?
+ Since we’re pretty actively updating our *Discord* and pretty happy
+ using it, maybe people who are working on Active Projects would be
+ willing to summarise on the wiki, say, weekly?  And contribute to a
+ monthly group blog post?
 ** Blog
-:PROPERTIES:
-:tag: OTS AN
-:END:
-#+CATEGORY: BLOG
+   :PROPERTIES:
+   :tag:      OTS AN
+   :ID:       a1940898-5c6b-40c5-9c9b-5e80a8cb55bb
+   :END:
+ #+CATEGORY: BLOG
 
-This is a public window on our experiments, available at
-https://exp2exp.com.
+ This is a public window on our experiments, available at
+ [[https://exp2exp.com][https://exp2exp.com]].
 
-Presently, we’re still figuring out what the work flow and contents of
-the blog will look like.  The kinds of people to whom we wish to
-appear credible are described in *Downstream*, and presumably whatever
-we put online should match what we think they will want to know.
+ Presently, we’re still figuring out what the work flow and contents of
+ the blog will look like.  The kinds of people to whom we wish to
+ appear credible are described in *Downstream*, and presumably whatever
+ we put online should match what we think they will want to know.
+
+ #+begin_quote
+ Zans: /If I implemented as I read things, it would be a pretty interesting blog. There could be a huge market of people interested in following this, this would give a pool of people who know who we are. This is a nice goal b/c it doesn't focus on the product... but it's a deliverable, made up of smaller deliverables, and a concrete benefit./
+ #+end_quote
 
 *** Related                                                        :noexport:
-:PROPERTIES:
-:ID:       307bdc02-be3b-464b-8424-323b3c66981a
-:END:
+    :PROPERTIES:
+    :ID:       307bdc02-be3b-464b-8424-323b3c66981a
+    :END:
 
-- [[*Code sharing platform][Code sharing platform]]
+ - [[id:7bb968cc-d77d-4e4e-9002-2742f93defd7][Code sharing platform]]
 

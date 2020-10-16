@@ -114,6 +114,53 @@ a
 1
 #+end_src
 
+* What would we actually want as our org interface?
+
+Configuration of the =src= block might look like:
+
+=maxima :process :backend maxima :results output org=
+
+- =:process= stands in for =:session= now as an alternative
+- =org-babel-execute-src-block= this is what will be called
+- hang into the =lang= parameter of the above function, but override using =:process=
+
+#+begin_src calc :stream calculator :results output org
+100*9
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+| value | 900 |
+#+end_src
+
+#+begin_src
+1+1;
+
+(error "No such language mode: nil-mode")
+  signal(error ("No such language mode: nil-mode"))
+  error("No such language mode: %s" nil-mode)
+  org-edit-src-code()
+  org-babel-do-key-sequence-in-edit-buffer("\011")
+  (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let ((--mpom (org-element-property :end element))) (save-excursion (if (markerp --mpom) (progn ...)) (save-excursion (save-restriction ... ... ... ...)))))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let ((--mpom (org-element-property :end element))) (save-excursion (if (markerp --mpom) (progn ...)) (save-excursion (save-restriction ... ... ... ...)))))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let ((column (current-column))) (org--align-node-property) (org-move-to-column column))))))
+  (let* ((element (save-excursion (beginning-of-line) (org-element-at-point))) (type (org-element-type element))) (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let ((--mpom ...)) (save-excursion (if ... ...) (save-excursion ...))))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let ((--mpom ...)) (save-excursion (if ... ...) (save-excursion ...))))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let ((column ...)) (org--align-node-property) (org-move-to-column column)))))))
+  (if (org-at-heading-p) nil (let* ((element (save-excursion (beginning-of-line) (org-element-at-point))) (type (org-element-type element))) (cond ((and (memq type (quote (plain-list item))) (= (line-beginning-position) (org-element-property :post-affiliated element))) nil) ((and (eq type (quote latex-environment)) (>= (point) (org-element-property :post-affiliated element)) (< (point) (let (...) (save-excursion ... ...)))) nil) ((and (eq type (quote src-block)) org-src-tab-acts-natively (> (line-beginning-position) (org-element-property :post-affiliated element)) (< (line-beginning-position) (let (...) (save-excursion ... ...)))) (org-babel-do-key-sequence-in-edit-buffer (kbd "TAB"))) (t (let ((column (org--get-expected-indentation element nil))) (if (<= (current-column) (current-indentation)) (indent-line-to column) (save-excursion (indent-line-to column)))) (if (eq type (quote node-property)) (progn (let (...) (org--align-node-property) (org-move-to-column column))))))))
+  org-indent-line()
+  indent-according-to-mode()
+  electric-indent-post-self-insert-function()
+  self-insert-command(1)
+  newline(nil 1)
+  (if indent (org-newline-and-indent arg) (newline arg interactive))
+  org--newline(nil nil 1)
+  (let ((auto-fill-function (and (not (org-at-property-p)) auto-fill-function))) (org--newline indent arg interactive))
+  (cond ((or (and (eq (quote table) (org-element-type context)) (not (eq (quote table\.el) (org-element-property :type context))) (>= (point) (org-element-property :contents-begin context)) (< (point) (org-element-property :contents-end context))) (org-element-lineage context (quote (table-row table-cell)) t)) (if (or (looking-at-p "[ \011]*$") (save-excursion (skip-chars-backward " \011") (bolp))) (insert "\n") (org-table-justify-field-maybe) (call-interactively (function org-table-next-row)))) ((and org-return-follows-link (or (and (eq (quote link) (org-element-type context)) (let ((origin ...)) (let (...) (save-excursion ... ...)))) (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t))) (call-interactively (function org-open-at-point))) ((and (not (bolp)) (let ((case-fold-search nil)) (org-match-line org-complex-heading-regexp))) (let ((tags-column (and (match-beginning 5) (save-excursion (goto-char ...) (current-column)))) (string (if (and (match-end 4) (org-point-in-group ... 4)) (progn (delete-and-extract-region ... ...))))) (cond ((not (and tags-column string))) (org-auto-align-tags (org-align-tags)) (t (org--align-tags-here tags-column))) (end-of-line) (org-show-entry) (org--newline indent arg interactive) (if string (progn (save-excursion (insert (org-trim string))))))) ((and (not (eolp)) (org-element-lineage context (quote (item)))) (let ((trailing-data (delete-and-extract-region (point) (line-end-position)))) (org--newline indent arg interactive) (save-excursion (insert trailing-data)))) (t (let ((auto-fill-function (and (not (org-at-property-p)) auto-fill-function))) (org--newline indent arg interactive))))
+  (let ((context (if org-return-follows-link (org-element-context) (org-element-at-point)))) (cond ((or (and (eq (quote table) (org-element-type context)) (not (eq (quote table\.el) (org-element-property :type context))) (>= (point) (org-element-property :contents-begin context)) (< (point) (org-element-property :contents-end context))) (org-element-lineage context (quote (table-row table-cell)) t)) (if (or (looking-at-p "[ \011]*$") (save-excursion (skip-chars-backward " \011") (bolp))) (insert "\n") (org-table-justify-field-maybe) (call-interactively (function org-table-next-row)))) ((and org-return-follows-link (or (and (eq (quote link) (org-element-type context)) (let (...) (let ... ...))) (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t))) (call-interactively (function org-open-at-point))) ((and (not (bolp)) (let ((case-fold-search nil)) (org-match-line org-complex-heading-regexp))) (let ((tags-column (and (match-beginning 5) (save-excursion ... ...))) (string (if (and ... ...) (progn ...)))) (cond ((not (and tags-column string))) (org-auto-align-tags (org-align-tags)) (t (org--align-tags-here tags-column))) (end-of-line) (org-show-entry) (org--newline indent arg interactive) (if string (progn (save-excursion (insert ...)))))) ((and (not (eolp)) (org-element-lineage context (quote (item)))) (let ((trailing-data (delete-and-extract-region (point) (line-end-position)))) (org--newline indent arg interactive) (save-excursion (insert trailing-data)))) (t (let ((auto-fill-function (and (not ...) auto-fill-function))) (org--newline indent arg interactive)))))
+  org-return(nil nil 1)
+  funcall-interactively(org-return nil nil 1)
+  call-interactively(org-return nil nil)
+  command-execute(org-return)
+#+end_src
+
+
 * Future work
 
 - Extending to VS Code?  Would people who use VS code even want this kind of interaction?  Maybe VS Code is better for quick visualisations?
