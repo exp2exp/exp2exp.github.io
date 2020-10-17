@@ -1,0 +1,453 @@
+#+TITLE: emacs-jupyter remote debugging
+
+* Set up container on gcp
+** gcp configuration
+
+You may like to run =gcloud auth login= ( [[https://cloud.google.com/sdk/gcloud/reference/auth/login][auth login docs]] ). This is an interactive process that launches oauth for your google account in the web browser so I think it is best to do it from a terminal though it may be possible to run it in org-babel.
+
+#+BEGIN_SRC sh :session gcpsetup :results output verbatim replace :exports both
+gcloud config configurations list
+#+END_SRC
+
+#+BEGIN_SRC sh :session gcpsetup :results output verbatim replace :exports both
+gcloud config configurations describe quarere
+#+END_SRC
+
+#+RESULTS:
+: is_active: true
+: name: quarere
+: properties:
+:   compute:
+:     region: us-central1
+:     zone: us-central1-f
+:   core:
+:     account: camrn86@gmail.com
+:     project: quarere
+
+** launch container image
+
+Deploy a vm based on the container =cameronraysmith/notebooks:latest=.
+
+#+BEGIN_SRC sh :session gcpsetup :results output verbatim replace :exports code
+gcloud compute instances create-with-container notebooks-vm \
+    --container-image registry.hub.docker.com/cameronraysmith/notebooks:latest \
+    --container-restart-policy on-failure \
+    --container-privileged \
+    --container-stdin \
+    --container-tty \
+    --container-mount-host-path mount-path=/home/jupyter,host-path=/tmp,mode=rw \
+    --machine-type n1-standard-1 \
+    --boot-disk-size 50GB \
+    --preemptible
+#+END_SRC
+
+Setup ssh with your new instance
+
+#+BEGIN_SRC sh :session gcpsetup :results output verbatim replace :exports code
+gcloud compute config-ssh
+cat ~/.ssh/config | grep "Host notebooks"
+#+END_SRC
+
+#+RESULTS:
+: You should now be able to use ssh/scp with your instances.
+: For example, try running:
+: ssh notebooks-vm.us-central1-f.quarere
+: Host notebooks-vm.us-central1-f.quarere
+
+You can =ssh= into the host machine or the container using the various commands below.
+
+#+BEGIN_EXAMPLE sh
+gcloud compute ssh notebooks-vm # into host machine
+ssh notebooks-vm.us-central1-f.quarere docker ps -aqf "name=klt-notebooks-vm-cjme" # check the container ID
+gcloud compute ssh notebooks-vm --container klt-notebooks-vm-cjme # use gcloud ssh with --dry-run to print the command
+ssh -t notebooks-vm.us-central1-f.quarere -- sudo docker exec -it klt-notebooks-vm-cjme /bin/sh # this takes you directly into the container
+#+END_EXAMPLE
+
+Of course you can stop and start the machine with
+
+#+BEGIN_EXAMPLE sh
+gcloud compute instances stop notebooks-vm
+gcloud compute instances start notebooks-vm
+#+END_EXAMPLE
+
+* Startup the cloud vm running our container of interest
+** Setup remote container host machine
+
+We already setup the container named =notebooks-vm= so all we need to do to begin with is to start it up.
+
+#+BEGIN_SRC sh :results output verbatim replace :exports both :async yes
+gcloud compute instances start notebooks-vm
+#+END_SRC
+
+#+RESULTS:
+
+Check that our instance is indeed running
+
+#+BEGIN_SRC sh :results output verbatim replace :exports both
+gcloud compute instances list
+#+END_SRC
+
+#+RESULTS:
+: NAME          ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP   STATUS
+: notebooks     us-central1-c  n1-standard-1               10.128.0.22                TERMINATED
+: notebooks-vm  us-central1-f  n1-standard-1  true         10.128.0.26  35.223.72.41  RUNNING
+
+Make sure the correct ip address is entered into our =.ssh/config= file.
+#+BEGIN_SRC sh :results output verbatim replace :exports both
+gcloud compute config-ssh
+#+END_SRC
+
+#+RESULTS:
+: You should now be able to use ssh/scp with your instances.
+: For example, try running:
+:
+:   $ ssh notebooks-vm.us-central1-f.quarere
+:
+
+Inspect the IP address we find in our =.ssh/config= file
+
+#+BEGIN_SRC sh :results output verbatim replace :exports both
+grep HostName ~/.ssh/config
+#+END_SRC
+
+#+RESULTS:
+:     HostName 35.224.59.240
+:     HostName 35.223.72.41
+
+*** Execute commands on the remote container host machine
+#+BEGIN_SRC sh :session notebookshost :results output verbatim replace :exports both :dir /ssh:notebooks-vm.us-central1-f.quarere:
+hostname --long
+#+END_SRC
+
+#+RESULTS:
+:
+: $ notebooks-vm.us-central1-f.c.quarere.internal
+
+#+BEGIN_SRC sh :session notebookshost :results output verbatim replace :exports both :dir /ssh:notebooks-vm.us-central1-f.quarere:
+docker container ls
+#+END_SRC
+
+#+RESULTS:
+: CONTAINER ID        IMAGE                                                                COMMAND                  CREATED              STATUS              PORTS               NAMES
+: 7e5e8974adc8        registry.hub.docker.com/cameronraysmith/notebooks:latest             "/bin/sh -c 'jupyter…"   About a minute ago   Up About a minute                       klt-notebooks-vm-cjme
+: 5a480b60af52        gcr.io/stackdriver-agents/stackdriver-logging-agent:0.2-1.5.33-1-1   "/entrypoint.sh /usr…"   About a minute ago   Up About a minute                       stackdriver-logging-agent
+
+#+BEGIN_SRC sh :session notebookshost :results output verbatim replace :exports both :dir /ssh:notebooks.us-central1-c.quarere:
+docker container ls
+#+END_SRC
+
+#+RESULTS:
+:
+: $ CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS              PORTS                      NAMES
+: caadc9a126bb        gcr.io/inverting-proxy/agent       "/bin/sh -c '/opt/bi…"   2 hours ago         Up 2 hours                                     proxy-agent
+: 8080/tcp   payload-container
+
+* Run shell commands on the remote container
+:PROPERTIES:
+:header-args: :results output verbatim replace :session notebookscontainer :dir /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:  :exports both  :eval never-export
+:END:
+
+To switch between two available configurations, choose one of the lines below to copy to the =:PROPERTIES:= drawer for this section.
+#+BEGIN_EXAMPLE lisp
+:header-args: :results output verbatim replace :session notebookscontainer :dir /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:  :exports both  :eval never-export
+:header-args: :results output verbatim replace :session notebookscontainer :dir /ssh:notebooks.us-central1-c.quarere|docker:payload-container:  :exports both  :eval never-export
+#+END_EXAMPLE
+
+In order to connect to the remote host followed by the docker container we specify the directory as =ssh:notebooks-vm= (including the extra details we got from =gcloud compute ssh-config=) followed by =docker:containername= where we got the container name from running =docker container ls= on the remote machine.
+
+#+BEGIN_SRC sh
+echo $JUPYTER_PATH
+#+END_SRC
+
+#+RESULTS:
+:
+: $
+
+#+BEGIN_SRC sh
+head -3 /proc/self/cgroup
+#+END_SRC
+
+#+RESULTS:
+:
+: $ 12:blkio:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
+: 11:net_cls,net_prio:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
+: 10:hugetlb:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
+
+Check the working directory and the list of jupyter kernels
+#+BEGIN_EXAMPLE lisp
+(push "-e" docker-tramp-docker-options)
+(push "-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter" docker-tramp-docker-options)
+#+END_EXAMPLE
+
+#+BEGIN_SRC sh
+echo $JUPYTER_PATH
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC sh
+jupyter kernelspec list
+#+END_SRC
+
+#+RESULTS:
+: Available kernels:
+:   ir           /home/jovyan/.local/share/jupyter/kernels/ir
+:   julia-1.5    /home/jovyan/.local/share/jupyter/kernels/julia-1.5
+:   maxima       /home/jovyan/.local/share/jupyter/kernels/maxima
+:   python3      /usr/share/jupyter/kernels/python3
+
+If you try to make use of an existing session on the docker container to run one of the =emacs-jupyter= kernels, you find that there is a different usage of the TRAMP remote path specification in the =:dir= property for the =sh= language of babel and with the =:session= property in the =emacs-jupyter= /language/ of babel. This is the error I got the first time I tried this with the TRAMP remote path specification in =:dir=:
+
+#+BEGIN_EXAMPLE python
+: FileNotFoundErrorTraceback (most recent call last)
+: <ipython-input-1-d4b8d99aef95> in <module>
+:       1 import os
+:       2 __JUPY_saved_dir = os.getcwd()
+: ----> 3 os.chdir("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:/home/jovyan/")
+:       4 try:
+:       5     get_ipython().run_cell("""x = 'foo'
+:
+: FileNotFoundError: [Errno 2] No such file or directory: '/ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:/home/jovyan/'
+#+END_EXAMPLE
+
+** Run python session on the remote container
+:PROPERTIES:
+:header-args: :results output verbatim replace :session notebookscontainer-python :dir /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:  :exports both  :eval never-export
+:END:
+
+The default properties that should apply to this section are
+
+#+BEGIN_EXAMPLE elisp
+:header-args: :results output verbatim replace :session notebookscontainer-python :dir /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:/home/jovyan/  :exports both  :eval never-export
+#+END_EXAMPLE
+
+In order to connect to the remote host followed by the docker container we specify the directory as =ssh:notebooks-vm= (including the extra details we got from =gcloud compute ssh-config=) followed by a =|= and then =docker:containername= where we got the container name from running =docker container ls= on the remote machine.
+
+#+BEGIN_SRC python
+x = 'foo'
+y = 'bar'
+print(x + ' ' + y)
+#+END_SRC
+
+#+RESULTS:
+: foo bar
+
+#+BEGIN_SRC python
+x = 1 + 1
+print(x)
+#+END_SRC
+
+#+RESULTS:
+: 2
+
+* BUG: Run a jupyter kernel in a remote container
+:PROPERTIES:
+:header-args: :results output verbatim replace :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:notebooks01  :exports both  :eval never-export
+:END:
+
+** properties
+To switch between two available configurations, choose one of the lines below to copy to the =:PROPERTIES:= drawer for this section.
+#+BEGIN_EXAMPLE lisp
+:header-args: :results output verbatim replace :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:notebooks01  :exports both  :eval never-export
+:header-args: :results output verbatim replace :session /ssh:notebooks.us-central1-c.quarere|docker:payload-container:notebooks01  :exports both  :eval never-export
+#+END_EXAMPLE
+
+** test code
+
+#+BEGIN_SRC jupyter-python :kernel python3
+x = 'foo'
+y = 'bar'
+x + ' ' + y
+#+END_SRC
+
+There is a problem whereby the =:dir= property is being passed along to jupyter as if it were a file. It looks like the intention may be to pass the TRAMP parameters to =:session= rather than =:dir= in the case of =emacs-jupyter=.
+
+Here there is a bug that has been reported in [[https://github.com/nnicandro/emacs-jupyter/issues/191][issue 191 of emacs-jupyter]].
+
+#+BEGIN_EXAMPLE lisp
+executing Jupyter-Python code block...
+jupyter-start-kernel: default-directory = /ssh:cloudmachine|docker:containeroncloudmachine:
+jupyter-start-kernel: Starting process with args "/bin/python3 -c from jupyter_client.kernelapp import main; main() --kernel=python3"
+Tramp: Opening connection for containeroncloudmachine using docker...
+Tramp: Sending command ‘exec ssh -q    -e none cloudmachine’
+Tramp: Waiting for prompts from remote shell...done
+Tramp: Found remote shell prompt on ‘cloudmachine’
+Tramp: Sending command ‘exec docker  exec -it  containeroncloudmachine sh’
+Tramp: Waiting for prompts from remote shell...done
+Tramp: Found remote shell prompt on ‘containeroncloudmachine’
+Tramp: Opening connection for containeroncloudmachine using docker...done
+Launching python3 kernel process...done
+Tramp: Inserting ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’...
+Tramp: Encoding remote file ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’ with ‘base64 <%s’...done
+Tramp: Decoding local file ‘/var/folders/1d/wtzfcz5s4x98nbkdx9g5ss3c0000gn/T/tramp.krOJmR.json’ with ‘base64-decode-region’...done
+Tramp: Inserting ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’...done
+SENDING: :kernel-info-request ae928b51-f755-441e-a250-8a08c58d734d nil
+SENT: (:shell ae928b51-f755-441e-a250-8a08c58d734d)
+Requesting kernel info...done
+jupyter-kernel-info: Kernel did not respond to kernel-info request
+#+END_EXAMPLE
+
+There is a [[https://github.com/nnicandro/emacs-jupyter/issues/72#issuecomment-543952258][suggestion from arthurcgusmao]] in another issue stating one needs to set the =JUPYTER_PATH= environment variable to resolve the =Kernel did not respond to kernel-info request= issue.
+
+It is simple to set the =JUPYTER_PATH= environment variable via tramp
+
+#+BEGIN_EXAMPLE elisp
+(add-to-list 'tramp-remote-process-environment "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter")
+#+END_EXAMPLE
+
+however, this does not resolve the issue.
+
+I originally tried to set the environment variable by passing a parameter to docker, but this did not work properly in the sense that if you check the value from inside the container it does not appear to be set despite what appears to be the appropriate docker flag for doing so.
+
+#+BEGIN_EXAMPLE elisp
+(push "-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter" docker-tramp-docker-options)
+(setq docker-tramp-docker-options
+      '("-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter"))
+#+END_EXAMPLE
+
+** Debugging =jupyter-kernel-info=
+
+=jupyter-kernel-info= is the function from which the error ~Kernel did not respond to kernel-info request~ arises (see [[https://github.com/nnicandro/emacs-jupyter/blob/403c70c83cb3754c83da0932b0efaf5e72bdca9a/jupyter-client.el#L2066][line 2066 of jupyter-client.el]]).
+
+The stack trace for =jupyter-kernel-info=
+
+#+BEGIN_EXAMPLE elisp
+Debugger entered--entering a function:
+jupyter-kernel-info(#<jupyter-org-client jupyter-org-client-1fe73d7aa114>)
+jupyter--error-if-no-kernel-info(#<jupyter-org-client jupyter-org-client-1fe73d7aa114>)
+jupyter-start-new-kernel("julia-1.5" jupyter-org-client)
+jupyter-run-repl("julia-1.5" nil nil jupyter-org-client)
+#f(compiled-function (session kernel) "Initiate a client connected to a remote kernel process." #<bytecode 0x1fe7435018f5>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+apply(#f(compiled-function (session kernel) "Initiate a client connected to a remote kernel process." #<bytecode 0x1fe7435018f5>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
+#f(compiled-function (&rest args) #<bytecode 0x1fe743520a15>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+apply(#f(compiled-function (&rest args) #<bytecode 0x1fe743520a15>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
+#f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>)()
+#f(compiled-function (cl--cnm session kernel) "Rename the returned client's REPL buffer to include SESSION's name.\nAlso set `jupyter-include-other-output' to nil for the session so\nthat output produced by other clients do not get handled by the\nclient." #<bytecode 0x1fe7434f577d>)(#f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>) #s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+apply(#f(compiled-function (cl--cnm session kernel) "Rename the returned client's REPL buffer to include SESSION's name.\nAlso set `jupyter-include-other-output' to nil for the session so\nthat output produced by other clients do not get handled by the\nclient." #<bytecode 0x1fe7434f577d>) #f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
+#f(compiled-function (&rest args) #<bytecode 0x1fe743520a41>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+apply(#f(compiled-function (&rest args) #<bytecode 0x1fe743520a41>) #s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+org-babel-jupyter-initiate-client(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
+org-babel-jupyter-initiate-session-by-key("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
+#f(compiled-function (&optional session params) "Initialize a Jupyter SESSION according to PARAMS." #<bytecode 0x1fe7439bd0c1>)("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
+apply(#f(compiled-function (&optional session params) "Initialize a Jupyter SESSION according to PARAMS." #<bytecode 0x1fe7439bd0c1>) ("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5"))))
+org-babel-jupyter-initiate-session("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
+org-babel-execute:jupyter-julia("x = \"foo\"\ny = \"bar\"\nprintln(x)\nprintln(y)" ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
+#f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>)(nil nil nil)
+ob-async-org-babel-execute-src-block(#f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>) nil)
+apply(ob-async-org-babel-execute-src-block #f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>) nil)
+org-babel-execute-src-block(nil)
+(cond ((eq type 'headline) (cond ((memq (and (boundp 'org-goto-map) org-goto-map) (current-active-maps)) (org-goto-ret)) ((and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (toc-org-insert-toc) (message "Updating table of contents")) ((string= "ARCHIVE" (car-safe (org-get-tags))) (org-force-cycle-archived)) ((or (org-element-property :todo-type context) (org-element-property :scheduled context)) (org-todo (if (eq (org-element-property :todo-type context) 'done) (or (car ...) 'todo) 'done)))) (org-update-checkbox-count) (org-update-parent-todo-statistics) (if (and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (progn (toc-org-insert-toc) (message "Updating table of contents"))) (let* ((beg (if (org-before-first-heading-p) (line-beginning-position) (save-excursion (org-back-to-heading) (point)))) (end (if (org-before-first-heading-p) (line-end-position) (save-excursion (org-end-of-subtree) (point)))) (overlays (condition-case nil (progn (overlays-in beg end)) (error nil))) (latex-overlays (cl-find-if #'(lambda ... ...) overlays)) (image-overlays (cl-find-if #'(lambda ... ...) overlays))) (+org--toggle-inline-images-in-subtree beg end) (if (or image-overlays latex-overlays) (org-clear-latex-preview beg end) (org--latex-preview-region beg end)))) ((eq type 'clock) (org-clock-update-time-maybe)) ((eq type 'footnote-reference) (org-footnote-goto-definition (org-element-property :label context))) ((eq type 'footnote-definition) (org-footnote-goto-previous-reference (org-element-property :label context))) ((memq type '(timestamp planning)) (org-follow-timestamp-link)) ((memq type '(table-row table)) (if (org-at-TBLFM-p) (org-table-calc-current-TBLFM) (condition-case nil (progn (save-excursion (goto-char (org-element-property :contents-begin context)) (org-call-with-arg 'org-table-recalculate (or arg t)))) (error nil)))) ((eq type 'table-cell) (org-table-blank-field) (org-table-recalculate arg) (if (and (string-empty-p (string-trim (org-table-get-field))) (and (boundp 'evil-local-mode) evil-local-mode)) (progn (evil-change-state 'insert)))) ((eq type 'babel-call) (org-babel-lob-execute-maybe)) ((eq type 'statistics-cookie) (save-excursion (org-update-statistics-cookies arg))) ((memq type '(inline-src-block src-block)) (org-babel-execute-src-block arg)) ((memq type '(latex-environment latex-fragment)) (org-latex-preview arg)) ((eq type 'link) (let* ((lineage (org-element-lineage context '(link) t)) (path (org-element-property :path lineage))) (if (or (equal (org-element-property :type lineage) "img") (and path (image-type-from-file-name path))) (+org--toggle-inline-images-in-subtree (org-element-property :begin lineage) (org-element-property :end lineage)) (org-open-at-point arg)))) ((org-element-property :checkbox (org-element-lineage context '(item) t)) (let ((match (and (org-at-item-checkbox-p) (match-string 1)))) (org-toggle-checkbox (if (equal match "[ ]") '(16))))) (t (if (or (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t)) (call-interactively #'org-open-at-point) (+org--toggle-inline-images-in-subtree (org-element-property :begin context) (org-element-property :end context)))))
+(let* ((context (org-element-context)) (type (org-element-type context))) (while (and context (memq type '(verbatim code bold italic underline strike-through subscript superscript))) (setq context (org-element-property :parent context) type (org-element-type context))) (cond ((eq type 'headline) (cond ((memq (and (boundp ...) org-goto-map) (current-active-maps)) (org-goto-ret)) ((and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (toc-org-insert-toc) (message "Updating table of contents")) ((string= "ARCHIVE" (car-safe (org-get-tags))) (org-force-cycle-archived)) ((or (org-element-property :todo-type context) (org-element-property :scheduled context)) (org-todo (if (eq ... ...) (or ... ...) 'done)))) (org-update-checkbox-count) (org-update-parent-todo-statistics) (if (and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (progn (toc-org-insert-toc) (message "Updating table of contents"))) (let* ((beg (if (org-before-first-heading-p) (line-beginning-position) (save-excursion ... ...))) (end (if (org-before-first-heading-p) (line-end-position) (save-excursion ... ...))) (overlays (condition-case nil (progn ...) (error nil))) (latex-overlays (cl-find-if #'... overlays)) (image-overlays (cl-find-if #'... overlays))) (+org--toggle-inline-images-in-subtree beg end) (if (or image-overlays latex-overlays) (org-clear-latex-preview beg end) (org--latex-preview-region beg end)))) ((eq type 'clock) (org-clock-update-time-maybe)) ((eq type 'footnote-reference) (org-footnote-goto-definition (org-element-property :label context))) ((eq type 'footnote-definition) (org-footnote-goto-previous-reference (org-element-property :label context))) ((memq type '(timestamp planning)) (org-follow-timestamp-link)) ((memq type '(table-row table)) (if (org-at-TBLFM-p) (org-table-calc-current-TBLFM) (condition-case nil (progn (save-excursion (goto-char ...) (org-call-with-arg ... ...))) (error nil)))) ((eq type 'table-cell) (org-table-blank-field) (org-table-recalculate arg) (if (and (string-empty-p (string-trim (org-table-get-field))) (and (boundp 'evil-local-mode) evil-local-mode)) (progn (evil-change-state 'insert)))) ((eq type 'babel-call) (org-babel-lob-execute-maybe)) ((eq type 'statistics-cookie) (save-excursion (org-update-statistics-cookies arg))) ((memq type '(inline-src-block src-block)) (org-babel-execute-src-block arg)) ((memq type '(latex-environment latex-fragment)) (org-latex-preview arg)) ((eq type 'link) (let* ((lineage (org-element-lineage context '... t)) (path (org-element-property :path lineage))) (if (or (equal (org-element-property :type lineage) "img") (and path (image-type-from-file-name path))) (+org--toggle-inline-images-in-subtree (org-element-property :begin lineage) (org-element-property :end lineage)) (org-open-at-point arg)))) ((org-element-property :checkbox (org-element-lineage context '(item) t)) (let ((match (and (org-at-item-checkbox-p) (match-string 1)))) (org-toggle-checkbox (if (equal match "[ ]") '(16))))) (t (if (or (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t)) (call-interactively #'org-open-at-point) (+org--toggle-inline-images-in-subtree (org-element-property :begin context) (org-element-property :end context))))))
+#+END_EXAMPLE
+
+Printing the value of the =client= variable from inside =edebug= on =jupyter-kernel-info= yields
+
+#+BEGIN_EXAMPLE elisp
+;; client  ;;pp-eval-last-sexp
+#s(jupyter-org-client
+   (#<finalizer>)
+   jupyter--clients "idle" 1 #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data
+                                           ())
+   nil #s(jupyter-channel-ioloop-comm
+          (#s(hash-table size 1 test eql weakness value rehash-size 1.5 rehash-threshold 0.8125 data
+                         (t #0)))
+          #s(jupyter-zmq-channel-ioloop
+             (#<finalizer>)
+             #<process zmq> nil
+             ((send
+               ((channel jupyter-channel)
+                msg-type msg msg-id)
+               ((list 'sent
+                      (oref channel type)
+                      (jupyter-send channel msg-type msg msg-id))))
+              (stop-channel
+               (type)
+               ((let
+                    ((channel
+                      (object-assoc type :type jupyter-channel-ioloop-channels)))
+                  (when
+                      (and channel
+                           (jupyter-channel-alive-p channel))
+                    (jupyter-stop-channel channel))
+                  (list 'stop-channel type))))
+              (start-channel
+               ((channel jupyter-channel)
+                endpoint)
+               ((when
+                    (jupyter-channel-alive-p channel)
+                  (jupyter-stop-channel channel))
+                (oset channel endpoint endpoint)
+                (let
+                    ((identity
+                      (jupyter-session-id jupyter-channel-ioloop-session)))
+                  (jupyter-start-channel channel :identity identity))
+                (list 'start-channel
+                      (oref channel type)))))
+             ((setq jupyter-channel-ioloop-session
+                    (jupyter-session :id "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7"))
+              (require 'jupyter-channel-ioloop)
+              (require 'jupyter-zmq-channel-ioloop)
+              (push 'jupyter-zmq-channel-ioloop--recv-messages jupyter-ioloop-post-hook)
+              (cl-loop for channel in
+                       '(:shell :stdin :iopub)
+                       unless
+                       (object-assoc channel :type jupyter-channel-ioloop-channels)
+                       do
+                       (push
+                        (jupyter-zmq-channel :session jupyter-channel-ioloop-session :type channel)
+                        jupyter-channel-ioloop-channels)))
+             ((mapc #'jupyter-stop-channel jupyter-channel-ioloop-channels)))
+          #s(jupyter-hb-channel :hb #s(jupyter-session
+                                       (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
+                                       "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
+                                "tcp://127.0.0.1:49243" #<user-ptr ptr=0x6000002f88a0 finalizer=0x10e782ed0> 10 ignore t t)
+          jupyter-zmq-channel-ioloop #s(jupyter-session
+                                        (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
+                                        "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
+          (:stdin #s(jupyter-proxy-channel "tcp://127.0.0.1:46591" t)
+                  :shell #s(jupyter-proxy-channel "tcp://127.0.0.1:60543" t)
+                  :iopub #s(jupyter-proxy-channel "tcp://127.0.0.1:52071" t)))
+   #s(jupyter-session
+      (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
+      "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
+   #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data
+                 ())
+   #s(jupyter-kernel-process-manager
+      (#<finalizer>)
+      jupyter--kernel-managers #s(jupyter-command-kernel
+                                  (#<finalizer>)
+                                  ("julia-1.5" "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:/home/jovyan/.local/share/jupyter/kernels/julia-1.5" :argv
+                                   ["/usr/bin/julia" "-i" "--startup-file=yes" "--color=yes" "--project=@." "/home/jovyan/.julia/packages/IJulia/tOM8L/src/kernel.jl" "{connection_file}"]
+                                   :env nil :display_name "Julia 1.5.1" :language "julia" :interrupt_mode "signal" :metadata nil)
+                                  #s(jupyter-session
+                                     (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
+                                     "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
+                                  #<process jupyter-kernel-julia-1.5>)
+      #s(jupyter-zmq-channel :control #s(jupyter-session
+                                         (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
+                                         "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
+                             "tcp://127.0.0.1:37599" #<user-ptr ptr=0x6000002f8900 finalizer=0x10e782ed0>))
+   #<buffer  *jupyter-kernel-client*> nil "null" nil nil nil)
+#+END_EXAMPLE
+
+When I check all of the existing kernel files, I find one whose kernel ID is different ( =14238987-f1b4-4049-982a-94012ddb7087= )from what is contained in the =client= variable ( =38bcac68-f74f-4bd2-b1e7-998df7c14c4f= ), but whose key and various ports are all correct.
+
+#+BEGIN_EXAMPLE sh
+/docker:klt-notebooks-vm-cjme:/home/jovyan/ #$ cat .local/share/jupyter/runtime/kernel-14238987-f1b4-4049-982a-94012ddb7087.json
+{
+  "shell_port": 60543,
+  "iopub_port": 52071,
+  "stdin_port": 46591,
+  "control_port": 37599,
+  "hb_port": 49243,
+  "ip": "127.0.0.1",
+  "key": "a1369b21-aa7ff7834dd1f3fa5f7108e7",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "julia-1.5"
+}
+#+END_EXAMPLE
+
+This suggests that the root of the problem is that the kernel ID is not being captured accurately. There is no kernel with an ID equivalent to the one that appears in the =client= variable, so it is not clear to me where the value that appears in the client variable is coming from. I don't know if there is any condition in which jupyter changes the kernel ID and leaves all other parameters the same.
+
+The issue appears to arise in =jupyter-make-client= (see [[https://github.com/nnicandro/emacs-jupyter/blob/a9ae0bcef52a62cf7df520756d994162a0570156/jupyter-kernel-manager.el#L141][L141 in jupyter-kernel-manager.el]]) when calling =make-instance class= for class =jupyter-org-client= which derives from =jupyter-repl-client= which derives from =jupyter-kernel-client=. The =session= is defined as an element of =jupyter-kernel-client= at [[https://github.com/nnicandro/emacs-jupyter/blob/403c70c83cb3754c83da0932b0efaf5e72bdca9a/jupyter-client.el#L215][L215 of jupyter-client.el]].

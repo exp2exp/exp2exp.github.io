@@ -160,6 +160,13 @@ Configuration of the =src= block might look like:
   command-execute(org-return)
 #+end_src
 
+* Backends
+** jupyter
+:PROPERTIES:
+:ID:       43fd0298-adec-400a-a9b6-6d48cfd244a6
+:END:
+
+The jupyter backend works well locally but suffers from a bug when run via tramp. Se [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]] .
 
 * Future work
 
