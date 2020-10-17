@@ -2,7 +2,7 @@
 
 ## introduction
 
-This is a repository of notes stored in [org](https://orgmode.org/manual/) format in the `src` directory. These notes are generated with [firn](https://github.com/theiceshelf/firn) and served via [github pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) on the master branch from the `docs` directory.
+This is a repository of notes stored in [org](https://orgmode.org/manual/) format in the `src` directory. These notes are generated with [firn](https://github.com/theiceshelf/firn) and served via [github pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) on the `gh-pages` branches built automatically with the github action in `.github/workflows/src-build.yml`.
 
 ## usage
 
