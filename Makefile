@@ -3,16 +3,14 @@
 BRANCH=`git branch --show-current`
 
 build:
-	cd src && firn build && cd .. && \
-    rsync -athv --exclude=".*" src/_firn/_site/ docs/
+	cd src && firn build
 
 srv:
 	cd src && firn serve
 
-commit: build
+commit:
 	@printf "\033[0;32mDeploying updates to github...\033[0m\n"
 	git add src/*
-	git add docs/*
 	git commit -m "site rebuild `date`"
 
 deploy: commit
