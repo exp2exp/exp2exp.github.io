@@ -102,6 +102,7 @@ should pick one and automate the derived version from there!</span></p><pre><cod
  "20200810135851-how_to_design_programs_with_if.org"
 "20200905124405-construct_critique_improve_models_of_the_creative_process.org"
   "20200905125342-emacs_hyper_notebook.org"
+  "emacs_jupyter_remote_debugging.org"
 "20200905125023-which_model_construction_process_works_as_a_whole.org"
  "20200905131027-information_extraction_from_so_q_a_items.org"
 "20200905131918-knowledge_graph.org"
@@ -131,7 +132,21 @@ should pick one and automate the derived version from there!</span></p><pre><cod
  "20200814193042-code_sharing_platform.org"
  "20200912223428-wiki.org"
  "20201003164100-forum.org"
- "20200814195259-blog.org")
+ "20200814195259-blog.org"
+"sfi/sfi.org"
+ "sfi/gather_data_via_stack_exchange_apis.org"
+ "sfi/argumentation_theoretic_analysis.org"
+ "sfi/process_model_analysis.org"
+ "sfi/ml_nlp_bootcamp.org"
+ "sfi/initial_ml_baseline_e_g_match_q_a.org"
+ "sfi/hierarchical_ml_for_content_extraction.org"
+ "sfi/active_inference_bootcamp.org"
+ "sfi/agent_modelling_and_sandbox_setup.org"
+ "sfi/curate_koans_and_develop_solver.org"
+ "sfi/study_with_crowdsourced_exercises.org"
+ "sfi/study_with_agent_written_questions.org"
+ "sfi/publication_ijcai.org"
+)
 "An ordered list of files to combine in our export.
 This is where the order of presentation in the downstream org file
 and derived PDF is defined.")
@@ -158,7 +173,7 @@ action.</span></p><pre><code>(defun rebuild-org-roam-pdf ()
     (search-forward "# IMPORT")
     (let ((beg (point)))
       (delete-region (point) (point-max))
-      (insert "\n" (combine-files files-to-combine))
+      (insert "\n" (combine-org-roam-files files-to-combine))
       (goto-char beg)
       (indent-org-roam-export)
       (org-latex-export-to-pdf))))
