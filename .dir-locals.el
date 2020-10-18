@@ -1,2 +1,2 @@
-((nil . ((org-roam-directory . ".")
-         (org-roam-db-location . "./org-roam.db"))))
+((nil . ((org-roam-directory . "~/exp2exp.github.io/src/")
+         (org-roam-db-location . "~/exp2exp.github.io/src/org-roam.db"))))
