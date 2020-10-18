@@ -112,7 +112,11 @@ of thinking and working don’t apply comfortably here.
 Does https://github.com/orgs/exp2exp/projects/1 conflict, replace, or
 serve a different function compared with Org mode agenda items?  
 
-** TODO Figure out Github project(s) vs Org todos               :joe:cameron:
+** DONE Figure out Github project(s) vs Org todos               :joe:cameron:
+
+We won’t use Github stuff right now.  That’s better for dealing with a
+public-facing contribution workflow when we have actual open source
+things running with contributors.
 
 * Subgoals :noexport:
 :PROPERTIES:

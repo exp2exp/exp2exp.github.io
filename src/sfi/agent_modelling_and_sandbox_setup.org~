@@ -1,0 +1,26 @@
+#+title: Agent modelling and sandbox setup
+
+This seems to be the main outcome of the Active Inference bootcamp.
+
+Could we set up a simpler agent learning paradigm, and progressively
+run it in long epochs, in which the agents learn more complicated
+skills each time?  E.g., learn how to upvote, learn how to retrieve
+relevant concepts, learn how to structure them into sentences and
+paragraphs?
+
+Maybe it’s worth looking around at some of the other Stack Exchange
+sites to get inspired, or have a think about what domains the Q&A
+approach might be especially suitable for.  (E.g., are there any open
+source SQuAD systems that would naturally lend themselves to agent
+modelling?)
+
+Or, what about the question of turning Stack Exchange into a set of
+rewrite rules first, and basing the agents on those rules?  If we
+think about things in terms of rewriting, then maybe each rewriting
+step could be viewed as a Q/A pair.  So then, we could look at any
+open source rewrite system and try to give a score to rules based on
+how often they are used.
+
+HEL topic: [[file:../20200905130423-agent_model.org][Agent model]]
+
+Next: [[file:curate_koans_and_develop_solver.org][Curate koans and develop solver]]

@@ -2111,10 +2111,12 @@ Zans: /If I implemented as I read things, it would be a pretty interesting blog.
   :END:
 #+CATEGORY: PERS
 
-This is some content trying to build a linear plan.
+This is some content trying to build a linear plan.  From within the
+Hyperreal Enterprises repo this should connect to [[*Top][Top]].  Inside the
+Roadmap document, this now works as an appendix.  It uses the first
+person (I=Joe).
 
-From within the Hyperreal Enterprises repo this should connect to
-[[*Top][Top]].
+** Index                                                            :noexport:
 
 M1      [[*Gather data via Stack Exchange APIs][Gather data via Stack Exchange APIs]]
 M2      [[*Argumentation-theoretic analysis][Argumentation-theoretic analysis]]
@@ -2128,25 +2130,11 @@ M9      [[*Curate koans and develop solver][Curate koans and develop solver]]
 M10     [[*Study with crowdsourced exercises][Study with crowdsourced exercises]]
 M11     [[*Study with agent-written questions][Study with agent-written questions]]
 M12     [[*Publication: IJCAI][Publication: IJCAI]]
-M13     Institution modelling using IAD
-M14     Integrate themes from SFI collaborators
-M15     Develop infrastructure for contributors
-M16     Agents writing agents
-M17     Agents writing institutions
-M18     Organise first contest
-M19     Publication: Artificial Intelligence
-M20     Integrate with Github API
-M21     Integrate themes from SFI collaborators
-M22     Study in an online tutoring application
-M23     Publication: Science
-M24     Time off and plan Year 3
 ** Gather data via Stack Exchange APIs
 
-This is just a matter of downloading the data in bulk.
+This is just a matter of downloading the data in bulk.  We’ve also seen that some of the data is available in a bulk download. Tim did some work to load it into a machine learning framework.
 
-We’ve also seen that some of the data is available in a bulk download.
-
-Tim did some work to load it into a machine learning framework.
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
 
@@ -2158,7 +2146,11 @@ anything there we can extract.
 
 This isn’t yet the same as an argumentation-theoretic analysis, but I
 can imagine returning to this Q&A stuff through the lens of the
-earlier papers, and see what we could do to argument-mine them.
+earlier papers, and see what we could do to argument-mine them.  That
+could lead to the “FARM 2.0” paper that Ray and I have often
+discussed.
+
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Knowledge graph][Knowledge graph]]
 
@@ -2169,6 +2161,8 @@ This is about making a model of the process of programming, per
 Monocl, which I think we’ve been starting to understand a bit better
 through HtDP recently.
 
+*** Navigation                                                     :noexport:
+
 HEL topic: [[*Construct, critique, improve models of the creative process][Construct, critique, improve models of the creative process]]
 
 Next: [[*ML/NLP bootcamp][ML/NLP bootcamp]]
@@ -2176,10 +2170,11 @@ Next: [[*ML/NLP bootcamp][ML/NLP bootcamp]]
 
 I got some insights from both Tim and Deyan about what is directly
 possible to do with existing tools.  We didn’t yet progress beyond
-some initial “failed” experiments and partial work.
+some initial “failed” experiments and partial work. However, in
+principle we could go back to it and try to do Q&A matching.  That’s a
+low-level task.
 
-However, in principle we could go back to it and try to do Q&A
-matching.  That’s a low-level task.
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
 
@@ -2187,14 +2182,13 @@ Next: [[*Initial ML baseline, e.g., match Q-A][Initial ML baseline, e.g., match 
 ** Initial ML baseline, e.g., match Q-A
 
 This remains a pretty straightforwardly “doable” task if we were to
-get things loaded up.
-
-After taking a stab at things within the the HEL sessions, I could
-presumably take that as a curriculum to be able to get this running
-after several months (with adequate help from Tim and Deyan).
-
-However, it’s less obviously useful... if we can’t do the
+get things loaded up.  After taking a stab at things within the the
+HEL sessions, I could presumably take that as a curriculum to be able
+to get this running after several months (with adequate help from Tim
+and Deyan).  However, it’s less obviously useful... if we can’t do the
 “hierarchical ML” next step.
+
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
 
@@ -2202,15 +2196,13 @@ Next: [[*Hierarchical ML for content extraction][Hierarchical ML for content ext
 ** Hierarchical ML for content extraction
 
 I guess part of this would be to do first Coarse Discourse style
-detections, then move from that to more specific models.
+detections, then move from that to more specific models.  During the
+HEL sessions I don’t think we’ve made any directly tangible progress
+on this goal.  I did find references to /CROKAGE/, which I should follow
+up on.  Still, maybe there are some alternative ways to make progress
+here that should be thought about.
 
-During the HEL sessions I don’t think we’ve made any directly tangible
-progress on this goal.
-
-I did find references to /CROKAGE/, which I should follow up on.
-
-Still, maybe there are some alternative ways to make progress here
-that should be thought about.
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
 
@@ -2222,11 +2214,13 @@ background is relevant to making sense of what’s going on in here.
 Lots of other papers are available, including some by Beren Millidge
 if we wanted to start making models of agents.
 
-We could also think about these models in terms of Tangled Program
-Graphs or some other reinforcement learning paradigm.  E.g., Zans and
-I talked about making an upvoting bot.  If we could moreover learn the
-actual features that go into good questions and answers, then those
-could be used on the generative side too.
+We could also/alternatively think about these models in terms of
+Tangled Program Graphs or some other reinforcement learning paradigm.
+E.g., Zans and I talked about making an upvoting bot.  If we could
+moreover learn the actual features that go into good questions and
+answers, then those could be used on the generative side too.
+
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Agent model][Agent model]]
 
@@ -2244,7 +2238,7 @@ paragraphs?
 Maybe it’s worth looking around at some of the other Stack Exchange
 sites to get inspired, or have a think about what domains the Q&A
 approach might be especially suitable for.  (E.g., are there any open
-source SQuAD systems that would naturally lend themselves to agent
+source SQuAD-performant systems that would naturally lend themselves to agent
 modelling?)
 
 Or, what about the question of turning Stack Exchange into a set of
@@ -2253,6 +2247,8 @@ think about things in terms of rewriting, then maybe each rewriting
 step could be viewed as a Q/A pair.  So then, we could look at any
 open source rewrite system and try to give a score to rules based on
 how often they are used.
+
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*Agent model][Agent model]]
 
@@ -2269,6 +2265,8 @@ something along these lines could be created for solving Clojure koans
 sure it would be helpful for me to get more practice, and this time,
 include a careful writeup of the ‘rules’ I follow.
 
+*** Navigation                                                     :noexport:
+
 HEL topic: [[*How to Design Programs][How to Design Programs]]
 
 Next: [[*Study with crowdsourced exercises][Study with crowdsourced exercises]]
@@ -2283,20 +2281,23 @@ SQuAD-like questions and answers based on existing Stack Exchange
 problems.  This would help build a catalogue of the kinds of things
 we’re looking for inside of the Q&A items.
 
+*** Navigation                                                     :noexport:
+
 HEL topic: [[*Recommender System][Recommender System]]
 
 Next: [[*Study with agent-written questions][Study with agent-written questions]]
 ** Study with agent-written questions
 
 Can agents come up with questions to ask about a given question that
-break it down into more do-able components?
-
-“Asking questions about Stack Overflow questions.”
+break it down into more do-able components?  Can we gain leverage by
+“Asking questions about Stack Overflow questions”?
 
 What sorts of Q/A structures might go in to reading and comprehending
 a given question?  Maybe, again, we could think in terms of rewrite
 rules.  “Here is a portion of text that is unclear.  Let’s try to see
 what the author was actually trying to say.”
+
+*** Navigation                                                     :noexport:
 
 HEL topic: [[*An ABM of the computer programming domain][An ABM of the computer programming domain]]
 
@@ -2317,11 +2318,13 @@ brainstorming sessions, just to keep things fresh.  So, for now, these
 could become slips of paper that we pull out of a jar at a party to
 discuss?
 
+*** Navigation                                                     :noexport:
+
 Contributes to:
 
 - [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
 
-Other possible future work
+*** Other possible future work
 
 - *M13*  Institution modelling using IAD
 - *M14*  Integrate themes from SFI collaborators

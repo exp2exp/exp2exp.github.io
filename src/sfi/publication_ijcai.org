@@ -1,0 +1,42 @@
+#+title: Publication: IJCAI
+
+If some of the foregoing ideas “worked” then we would presumably have
+some nice things to write up for a publication.  In fact, a bunch of
+the other ideas that were in my plan would probably be better saved
+for future work.  Maybe things, like institutions, should be
+foregrounded.  But, I can see how the plan I submitted to SFI probably
+came across as overly ambitious and unrealistic.  Maybe the basic plan
+above would have to be spread out over 2 years.
+
+On the other hand, some of these ideas do look like fun exploratory
+kinds of topics, which should maybe be thought about in some
+brainstorming sessions, just to keep things fresh.  So, for now, these
+could become slips of paper that we pull out of a jar at a party to
+discuss?
+
+* Navigation                                                       :noexport:
+
+Contributes to:
+
+- [[file:../20200905134325-research_outputs.org][RESEARCH OUTPUTS]]
+
+* Other possible future work
+
+It makes sense to truncate the two year plan that I pitched to SFI
+before it gets too speculative, because it’s not yet totally clear how
+we would even do the first year plan.  However, if the first year plan
+did work, it would open up some of this stuff pretty nicely.
+
+- *M13*  Institution modelling using IAD
+- *M14*  Integrate themes from SFI collaborators
+- *M15*  Develop infrastructure for contributors
+- *M16*  Agents writing agents
+- *M17*  Agents writing institutions
+- *M18*  Organise first contest
+- *M19*  Publication: Artificial Intelligence
+- *M20*  Integrate with Github API
+- *M21*  Integrate themes from SFI collaborators
+- *M22*  Study in an online tutoring application
+- *M23*  Publication: Science
+- *M24*  Time off and plan Year 3
+

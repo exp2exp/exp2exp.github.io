@@ -1,0 +1,12 @@
+#+title: ML/NLP bootcamp
+
+I got some insights from both Tim and Deyan about what is directly
+possible to do with existing tools.  We didn’t yet progress beyond
+some initial “failed” experiments and partial work.
+
+However, in principle we could go back to it and try to do Q&A
+matching.  That’s a low-level task.
+
+HEL topic: [[file:../20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+
+Next: [[file:initial_ml_baseline_e_g_match_q_a.org][Initial ML baseline, e.g., match Q-A]]

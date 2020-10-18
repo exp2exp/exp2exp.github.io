@@ -1,0 +1,15 @@
+#+title: Initial ML baseline, e.g., match Q-A
+
+This remains a pretty straightforwardly “doable” task if we were to
+get things loaded up.
+
+After taking a stab at things within the the HEL sessions, I could
+presumably take that as a curriculum to be able to get this running
+after several months (with adequate help from Tim and Deyan).
+
+However, it’s less obviously useful... if we can’t do the
+“hierarchical ML” next step.
+
+HEL topic: [[file:../20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+
+Next: [[file:hierarchical_ml_for_content_extraction.org][Hierarchical ML for content extraction]]

@@ -1,0 +1,14 @@
+#+title: Study with crowdsourced exercises
+
+“Crowdsourced reading comprehension questions and simple exercises
+derived from existing Q&A would provide a further route to
+evaluation.”
+
+So the idea here would be to pay people to come up with some
+SQuAD-like questions and answers based on existing Stack Exchange
+problems.  This would help build a catalogue of the kinds of things
+we’re looking for inside of the Q&A items.
+
+HEL topic: [[file:../20200817172825-recommender_system.org][Recommender System]]
+
+Next: [[file:study_with_agent_written_questions.org][Study with agent-written questions]]

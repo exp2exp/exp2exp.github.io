@@ -1,0 +1,16 @@
+#+title: Active Inference bootcamp
+
+Cameron talked a bit about active inference, and his Bayesian stats
+background is relevant to making sense of what’s going on in here.
+Lots of other papers are available, including some by Beren Millidge
+if we wanted to start making models of agents.
+
+We could also think about these models in terms of Tangled Program
+Graphs or some other reinforcement learning paradigm.  E.g., Zans and
+I talked about making an upvoting bot.  If we could moreover learn the
+actual features that go into good questions and answers, then those
+could be used on the generative side too.
+
+HEL topic: [[file:../20200905130423-agent_model.org][Agent model]]
+
+Next: [[file:agent_modelling_and_sandbox_setup.org][Agent modelling and sandbox setup]]

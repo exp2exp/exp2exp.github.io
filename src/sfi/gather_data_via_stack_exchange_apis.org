@@ -1,0 +1,9 @@
+#+title: Gather data via Stack Exchange APIs
+
+This is just a matter of downloading the data in bulk.  We’ve also seen that some of the data is available in a bulk download. Tim did some work to load it into a machine learning framework.
+
+* Navigation                                                       :noexport:
+
+HEL topic: [[file:../20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+
+Next: [[file:argumentation_theoretic_analysis.org][Argumentation-theoretic analysis]]

@@ -1,4 +1,5 @@
 #+TITLE: emacs-jupyter remote debugging
+#+roam_tags: CDN
 
 * Set up container on gcp
 ** gcp configuration
