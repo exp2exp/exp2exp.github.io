@@ -1,0 +1,106 @@
+#+title: Hypernotebook First Demo
+
+First demo notes will go here.
+
+* During our first session on this
+
+We wrote up a configuration, starting from what the =src= block might
+look like:
+
+- =:process= stands in for =:session= now as an alternative
+- =org-babel-execute-src-block= this is the function that will be called
+- We saw we had to hang into the =lang= parameter of the above function, but override using =:process=
+
+This is an example of what we came up with:
+
+=#+begin_src calc :stream calculator :results output org=
+
+#+begin_src calc :stream calculator :results output org
+10*9
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+| value | 90 |
+#+end_src
+
+#+begin_src calc :stream calculator-proc :results output org
+11*9
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+| value | 90 |
+#+end_src
+
+* Background research
+
+We took a good look at emacs-jupyter to understand how it works.
+It seems to work reasonably well but not able to do all the hops via TRAMP to connect with a notebook running on Google Cloud.  This is documented as bug #191 in the emacs-jupyter repo.
+
+* Now we wanted to improve this to make it more robust
+
+- Be able to handle multiple backends (now via "servants" for different shell commands and potentially other processes), not just the =bc= calculator!
+- In the first version we just used a variable to store things, now use a hash table to organise the data better (=org-babel-servant-info=)
+- Generalise everything
+
+* Stitching things together
+
+- Find a good way to weave =org-babel-servant= into =org-babel-execute-src-block=
+- Organise the callbacks, can we demo it calling Maxima?
+
+** Getting things going
+
+#+begin_src emacs-lisp
+    ;; Here we start the process
+  (get-buffer-create "maxima-error")
+    (setq maxima-proc
+	(make-process
+	 :name "maxima-proc3"
+	 :command '("maxima"  "--very-quiet") ;; if we need parameters can add here
+	 ;; :stderr "maxima-error"
+	 :filter #'org-stream-callback))
+
+    (setq calculator-proc
+	(make-process
+	 :name "calculator-proc"
+	 :command '("bc" "-q") ;; if we need parameters can add here
+	 ;; :stderr "maxima-error"
+	 :filter #'org-stream-callback))
+#+end_src
+
+Here we call the process we just started
+
+#+begin_src exp :stream maxima-proc3 :results verbatim org
+display2d:false;
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+| value | false |
+#+end_src
+
+#+begin_src maxima :stream maxima-proc3 :results verbatim org
+tex(expand((x+1)^3));
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+| value | $$x^3+3\,x^2+3\,x+1$$ |
+#+end_src
+
+* Next steps
+
+- Change the formatting of the output so it doesn't come across as a table
+- Carry on with ob-servant to integrate it (improve calling Maxima, errors)
+- Raise the change with the Org maintainers
+- Package it up! (patch + repo?)
+- 5 minute talk for Emacs New York (Monday 2 November 2020).
+
+* Social Networking
+
+- Talk with Fermin to understand what he's doing with Maxima and see if we need to do anything differently
+
+* Final polishing
+
+- Consider renaming it to ob-servent!
