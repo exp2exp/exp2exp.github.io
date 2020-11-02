@@ -1,0 +1,15 @@
+#+title: Upstream
+
+This is a place to keep track of the upstream tickets we’re interested
+in.  Our ability to resolve some of these issues might suggest that we
+have an ability to deliver things that are useful to other people and
+would therefore be a step in the direction of [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]].
+
+* emacs-jupyter
+
+- [[https://github.com/nnicandro/emacs-jupyter/issues/296][:id not set in jupyter-start-kernel #296]]
+- [[https://github.com/nnicandro/emacs-jupyter/issues/191]['Kernel did not respond to kernel-info request' when using ssh session. #191]]
+
+* Firn
+
+- [[https://github.com/theiceshelf/firn/issues/57][links inside :noexport subtrees shouldn't generate backlinks in their targets #57]]

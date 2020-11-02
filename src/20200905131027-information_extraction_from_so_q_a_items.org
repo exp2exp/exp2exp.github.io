@@ -7,6 +7,200 @@ Neural Machine Translation approach.
 
 * BACKBURNER Refinining OpenIE approach                               :deyan:
 
+** Idea is we need a basic data model from which we can build things
+
+- User assistants
+- If we have triples we can do interesting subtasks
+- What’s a nice little task to solve in workflows w/ text or w/ code?
+
+* GPT/BERT
+
+- Are they relevant for this? Or are they just good for prettifying
+   text to do fun tricks?
+
+** Ontology papers in Stanford
+
+Pinpointing what can and can’t be done. E.g., phrase structure. Linear
+probes into the model, correlate weight structure of attention nodes
+and classical phrase extractors.  This uses Stanford’s phrase
+structure parser (which is based on correct phrase structure
+extraction).
+
+GPT & BERT have the /beginning/ of capturing. Classical embedding
+results hold (King is to Queen...).  Pretrained model gets maybe 85%
+of the classical task.
+
+So, if we get a downstream task (relatively shallow linguistic task
+X), then you have an expectation that with 10K examples to fine-tune,
+you’ll get a decent outcome.
+
+** Deyan’s prior notebooks
+
+Had borderline reasonable results, extracting triples that were
+linguistically plausible SVO triples.  But these weren’t business
+ready.  It would get confused about extracting only a fragment
+(‘elephant’, not ‘pink elephant’).  Still, this gives validation that
+concept extraction works.
+
+** Play with rewrite rules?
+- Michael Kohlhase’s thesis deals with this (using unification)
+- In language land, rewrites are just translations
+- In ML, it’s just a model translating things
+
+In a serious program language setting, Python 3.7, we’ll use the abstract
+syntax tree of Python, doing formal bits
+
+** Categorise: Q or A?
+- A/B test explanations?
+- “Grammarly” for SO (but this is 2-3 times harder than improving documentation)
+** Extracting metadata
+*** Given text as question answer, provide as much metadata as possible
+*** Instead of triples, care about words that may not even be in there
+*** Google Photos
+They’ve used individual classifiers for any label of interest “church”, “cheesecake”.
+They have many NN classifiers, one for each photo.
+
+This shines b/c you can annotate people with names.  If I search for
+“me plus my parents” I get exactly what I’d want.
+
+This would be a bit intense if you have 1 million data for 2m gigabytes of address space.
+** Map: Q’s to A’s and vice versa
+** Identify duplicate answers
+If someone answers, people don’t ask.
+** Identify relevant answers
+*** CL: match “I’m buying what someone is selling”
+*** Iterating or recursively doing this as a tree
+
+- =(A (B (C D E F)))=
+
+(This is pretty easy to evaluate.)
+
+E.g. with Wikipedia internal links: do they reference as related or...
+
+On SO there’s a second aspect: “I’m trying to achieve X but I’m
+failing in this way.”  The answer is a rewrite.  Not a dependency but
+it’s about mastery.
+
+“Recommending comprehensive solutions for programming tasks by mining
+crowd knowledge.”
+
+Link text + surrounding context: does the target page link back?
+And if it does link back they are of mutual importance.
+
+Context will tell whether it’s a general or specific concept.
+
+JC: Q/A can also be seen as a link.
+
+** Route questions based on expertise
+This is something that people have looked at.
+** Why have a man page if you could turn SO into man pages that interact?
+In general docs are trash, so you google and use SO for tasks.
+Pandas docs are almost intentionally obfuscated, the examples are useless.
+
+Competing with Google-for-StackOverflow isn’t a great plan
+
+But could I improve the documentation itself?
+
+*** Autogenerate better documentation for python
+- Python is ubiquitous and there are a lot of SO
+- There could also be demand
+- Ontology could turn into TOC for the guide
+** Validating GPT as usable or not usable in...?
+There’s a terminal that uses GPT. You could describe your CSS
+and it changed an English description into a webpage template.
+** Given a schema it can generate a query.
+There are text summarisation quips (e.g., generate abstracts).
+
+** If you extracted information this way we could use STAN to validate a hypothesis
+E.g. get estimates about sizes of groups on SO.
+** Pie-in-the-sky
+You could use nonparametric Bayesian models to ‘tame’ a neural network
+and make it interpretable.  You can put it into an end-to-end
+differentiable system, alternate generalisable with model structure.
+
+/Tangled Program Graphs/
+** “Hate speech”
+"How do I solve this sort in Python"
+If I reply enough with Haskell, you can see I’m galling him... this is so much easier in Haskell.
+You can go w/ stable differences when these 2 user are interacting.
+
+This is a high-quality answer but in the context of all the answers
+and questions, you find it’s actually hate speech.
+*** Friendworld
+It’s about frogs that are friendly. This is a Pepe the frog
+meme. They’d post melancholy or fun frog...
+
+With interspersed nazi shit.
+
+Audioplayers can be completely destroyed by playing a certain record.
+
+If you’re looking for honest learning exachanges they are more mundane.
+
+E.g., *account for poor wording*.
+
+*** BUT... Humans are good at understanding this but computers aren’t.
+
+People were pointing out the subtle stuff, the problem was that there
+wasn’t enough investment to do anything about it.
+
+In Germany, Twitter filters holocaust denial; even the stuff they
+(could) detect they don’t remove.  In the US, if you report it,
+they’ll deny it.  (It’s a ‘prior restraint’ thing... it’s complicated
+if you’re responding to someone’s complaint.)
+
+Look at two Nazi related words and see if they form a hashtag.
+=#jewspiracy= etc.
+
+Filters are however very difficult.
+
+- An automated white-knight that did the responding for you
+- But they want you to engage...
+
+You could do tricks, people started using =#proudboys= for something
+else.
+
+*** Example: how does responding to hate speech influence things?
+
+Study tracking activity and challenges as to whether people continue
+posting hate speech.
+
+*** “Consider writing this in a more assertive way”
+I wonder if possibly...
+
+Guess the degree of someone by reading their email
+** Automatically generating docs from type signature
+Maybe going for a language with static types could be a way to combine
+free association in the structured data.
+
+This is more robust than "write language and get code out."
+
+“Write code with a bug, get SO Q&A back” (Crokage?)
+
+Starting with working code.
+How would you generate failing code.
+How would you generate failing unit tests?
+(E.g., “fuzzers” that generate near arbitrary run-ti)
+Put in integers, get output. Generate wrong unit tests.
+
+
+* Overall commments
+
+These are translation or compression style problems.
+
+Code generation demos are pretty suspicious: GPT3 doesn’t make
+off-by-one errors, it uses completely different function syntax.
+
+Like the motivation behind it. Z was recently criticising
+auto-generation of query program. The amount of time it takes to debug
+the query.
+
+“Count all the listings” but rather queried the database’s AirBnB
+table. What if there are multiple tables w/ similar names?
+
+If you put leashes on these things, using solid methods. 
+
+* We didn’t get one simple
+
 * Next steps :noexport:
 :PROPERTIES:
 :ID:       2ee512d9-60cf-443c-aa3d-ef8eb42789e9

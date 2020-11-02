@@ -1,6 +1,31 @@
 #+TITLE: emacs-jupyter remote debugging
 #+roam_tags: CDN
 
+* Debugging
+
+** Initial fix (of what turned out to be a minor problem)
+- =jupyter-start-kernel= was problematic, because the id didn’t seem to be set correctly
+ - line -2 from end of this function, added =:id (substring conn-file -41 -5)=.
+
+** Ongoing concerns: can we access the kernel?
+- However, this still doesn’t solve our problem
+ - Now we are debugging =jupyter-kernel-info=
+ - Our aim is to figure out =jupyter-send-kernel-info-request=, maybe also =jupyter-wait-until-received=
+
+- jupyter-comm-initialize 
+- jupyter-kernel-info
+- jupyter-make-client
+- jupyter-session — 
+- jupyter-kernel-info — doesn’t get a message back for some reason
+
+We suspect it looks at the wrong kernel b/c it examines an id that
+doesn’t seem to exist on the server.
+
+#+begin_src elisp
+(with-slots (kernel) manager
+  (oref kernel session))
+#+end_src
+
 * Set up container on gcp
 ** gcp configuration
 
@@ -10,20 +35,17 @@ You may like to run =gcloud auth login= ( [[https://cloud.google.com/sdk/gcloud/
 gcloud config configurations list
 #+END_SRC
 
+#+RESULTS:
+: 
+: NAME     IS_ACTIVE  ACCOUNT                  PROJECT  COMPUTE_DEFAULT_ZONE  COMPUTE_DEFAULT_REGION
+: default  True       holtzermann17@gmail.com  quarere
+
 #+BEGIN_SRC sh :session gcpsetup :results output verbatim replace :exports both
 gcloud config configurations describe quarere
 #+END_SRC
 
 #+RESULTS:
-: is_active: true
-: name: quarere
-: properties:
-:   compute:
-:     region: us-central1
-:     zone: us-central1-f
-:   core:
-:     account: camrn86@gmail.com
-:     project: quarere
+: [1;31mERROR:[0m (gcloud.config.configurations.describe) The configuration [quarere] does not exist.
 
 ** launch container image
 
@@ -89,9 +111,9 @@ gcloud compute instances list
 #+END_SRC
 
 #+RESULTS:
-: NAME          ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP   STATUS
-: notebooks     us-central1-c  n1-standard-1               10.128.0.22                TERMINATED
-: notebooks-vm  us-central1-f  n1-standard-1  true         10.128.0.26  35.223.72.41  RUNNING
+: NAME          ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
+: notebooks     us-central1-c  n1-standard-1               10.128.0.22                  TERMINATED
+: notebooks-vm  us-central1-f  n1-standard-1  true         10.128.0.26  104.154.99.181  RUNNING
 
 Make sure the correct ip address is entered into our =.ssh/config= file.
 #+BEGIN_SRC sh :results output verbatim replace :exports both
@@ -101,9 +123,9 @@ gcloud compute config-ssh
 #+RESULTS:
 : You should now be able to use ssh/scp with your instances.
 : For example, try running:
-:
+: 
 :   $ ssh notebooks-vm.us-central1-f.quarere
-:
+: 
 
 Inspect the IP address we find in our =.ssh/config= file
 
@@ -112,8 +134,7 @@ grep HostName ~/.ssh/config
 #+END_SRC
 
 #+RESULTS:
-:     HostName 35.224.59.240
-:     HostName 35.223.72.41
+:     HostName 104.154.99.181
 
 *** Execute commands on the remote container host machine
 #+BEGIN_SRC sh :session notebookshost :results output verbatim replace :exports both :dir /ssh:notebooks-vm.us-central1-f.quarere:
@@ -129,9 +150,10 @@ docker container ls
 #+END_SRC
 
 #+RESULTS:
-: CONTAINER ID        IMAGE                                                                COMMAND                  CREATED              STATUS              PORTS               NAMES
-: 7e5e8974adc8        registry.hub.docker.com/cameronraysmith/notebooks:latest             "/bin/sh -c 'jupyter…"   About a minute ago   Up About a minute                       klt-notebooks-vm-cjme
-: 5a480b60af52        gcr.io/stackdriver-agents/stackdriver-logging-agent:0.2-1.5.33-1-1   "/entrypoint.sh /usr…"   About a minute ago   Up About a minute                       stackdriver-logging-agent
+: 
+: $ CONTAINER ID        IMAGE                                                                COMMAND                  CREATED             STATUS              PORTS               NAMES
+: 4f31864fade2        registry.hub.docker.com/cameronraysmith/notebooks:latest             "/bin/sh -c 'jupyter…"   23 minutes ago      Up 23 minutes                           klt-notebooks-vm-cjme
+: 19a4598c7503        gcr.io/stackdriver-agents/stackdriver-logging-agent:0.2-1.5.33-1-1   "/entrypoint.sh /usr…"   24 minutes ago      Up 24 minutes                           stackdriver-logging-agent
 
 #+BEGIN_SRC sh :session notebookshost :results output verbatim replace :exports both :dir /ssh:notebooks.us-central1-c.quarere:
 docker container ls
@@ -161,7 +183,7 @@ echo $JUPYTER_PATH
 #+END_SRC
 
 #+RESULTS:
-:
+: 
 : $
 
 #+BEGIN_SRC sh
@@ -169,12 +191,12 @@ head -3 /proc/self/cgroup
 #+END_SRC
 
 #+RESULTS:
-:
-: $ 12:blkio:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
-: 11:net_cls,net_prio:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
-: 10:hugetlb:/docker/0313f41d52ad7945b5f9687efc0d1e3431e531eb7a29c8d7eecf5fddcbef0f93
+: 12:cpuset:/docker/4f31864fade2d620150f5bdb8f162bfefd6528670dbe3769b7773570931445ff
+: 11:freezer:/docker/4f31864fade2d620150f5bdb8f162bfefd6528670dbe3769b7773570931445ff
+: 10:cpu,cpuacct:/docker/4f31864fade2d620150f5bdb8f162bfefd6528670dbe3769b7773570931445ff
 
 Check the working directory and the list of jupyter kernels
+
 #+BEGIN_EXAMPLE lisp
 (push "-e" docker-tramp-docker-options)
 (push "-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter" docker-tramp-docker-options)
