@@ -263,7 +263,7 @@ print(x)
 #+RESULTS:
 : 2
 
-* BUG: Run a jupyter kernel in a remote container
+* BUG: Run a jupyter kernel in a remote container                 :noexport:
 :PROPERTIES:
 :header-args: :results output verbatim replace :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:notebooks01  :exports both  :eval never-export
 :END:

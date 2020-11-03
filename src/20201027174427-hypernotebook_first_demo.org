@@ -15,7 +15,7 @@ look like:
 - If you're going to use a language mode like =calc= it should be required.
 - The process itself needs to be defined as well.
 - =(setq org-confirm-babel-evaluate nil)= should be set.
-  
+
 This is an example of what we came up with:
 
 =#+begin_src calc :stream calculator :results output org=
