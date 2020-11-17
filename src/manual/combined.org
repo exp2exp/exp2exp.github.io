@@ -515,7 +515,7 @@ This is work in progress, with some sample content above.
 
 First demo notes will go here.
 
-*** During our first session on this
+*** During our first session on this, we set up a calculator
 
 We wrote up a configuration, starting from what the =src= block might
 look like:
@@ -523,27 +523,23 @@ look like:
 - =:process= stands in for =:session= now as an alternative
 - =org-babel-execute-src-block= this is the function that will be called
 - We saw we had to hang into the =lang= parameter of the above function, but override using =:process=
+- The variable =org-stream-output= needs to be defined (it's in our =ob-stream.el=).
+- The function =org-babel-stream= needs to be defined as well (it's in our =ob-stream.el=).
+- If you're going to use a language mode like =calc= it should be required.
+- The process itself needs to be defined as well.
+- =(setq org-confirm-babel-evaluate nil)= should be set.
 
 This is an example of what we came up with:
 
 =#+begin_src calc :stream calculator :results output org=
 
 #+begin_src calc :stream calculator :results output org
-10*9
+10*8
 #+end_src
 
 #+RESULTS:
 #+begin_src org
-| value | 90 |
-#+end_src
-
-#+begin_src calc :stream calculator-proc :results output org
-11*9
-#+end_src
-
-#+RESULTS:
-#+begin_src org
-| value | 90 |
+80
 #+end_src
 
 *** Background research
@@ -565,41 +561,83 @@ It seems to work reasonably well but not able to do all the hops via TRAMP to co
 **** Getting things going
 
 #+begin_src emacs-lisp
-    ;; Here we start the process
-  (get-buffer-create "maxima-error")
-    (setq maxima-proc
-	(make-process
-	 :name "maxima-proc3"
-	 :command '("maxima"  "--very-quiet") ;; if we need parameters can add here
-	 ;; :stderr "maxima-error"
-	 :filter #'org-stream-callback))
+;; Here we start the process
+(get-buffer-create "maxima-error")
+(setq maxima-proc
+      (make-process
+       :name "maxima-proc"
+       :command '("maxima" "--very-quiet") ;; if we need parameters can add here
+       :stderr "maxima-error"
+       :filter #'org-stream-string-callback))
 
-    (setq calculator-proc
-	(make-process
-	 :name "calculator-proc"
-	 :command '("bc" "-q") ;; if we need parameters can add here
-	 ;; :stderr "maxima-error"
-	 :filter #'org-stream-callback))
+(setq calculator-proc
+      (make-process
+       :name "calculator-proc"
+       :command '("bc" "-q") ;; if we need parameters can add here
+       ;; :stderr "maxima-error"
+       :filter #'org-stream-number-callback))
 #+end_src
 
-Here we call the process we just started
+***** Calculator example again
+#+begin_src calc :stream calculator-proc :results output org
+10+1
+#+end_src
 
-#+begin_src exp :stream maxima-proc3 :results verbatim org
+#+RESULTS:
+#+begin_src org
+10
+#+end_src
+
+***** Maxima example
+
+Here we call the process we just started.
+
+#+begin_src exp :servant maxima-proc :results verbatim org
+3+600000000;
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+600000003
+#+end_src
+
+#+begin_src exp :servant maxima-proc :results output org
 display2d:false;
 #+end_src
 
 #+RESULTS:
 #+begin_src org
-| value | false |
+false
 #+end_src
 
-#+begin_src maxima :stream maxima-proc3 :results verbatim org
-tex(expand((x+1)^3));
+#+begin_src exp :servant maxima-proc :results output org
+expand((x+1)^9)
 #+end_src
 
 #+RESULTS:
 #+begin_src org
-| value | $$x^3+3\,x^2+3\,x+1$$ |
+$$x^9+9\,x^8+36\,x^7+84\,x^6+126\,x^5+126\,x^4+84\,x^3+36\,x^2+9\,x+1$$
+#+end_src
+
+#+begin_src exp :servant maxima-proc :results output org
+expand((x+1)^1)
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+$$x+1$$
+#+end_src
+
+*** Ob-servant example
+
+**** Calculator example again
+#+begin_src calc :servant calculator :results output org
+10+1
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+11
 #+end_src
 
 *** Next steps
@@ -884,7 +922,7 @@ print(x)
 #+RESULTS:
 : 2
 
-*** BUG: Run a jupyter kernel in a remote container
+*** BUG: Run a jupyter kernel in a remote container                :noexport:
 :PROPERTIES:
 :header-args: :results output verbatim replace :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:notebooks01  :exports both  :eval never-export
 :END:
@@ -1781,15 +1819,15 @@ teaching/upskilling platform for technical and scientific topics.
 :ID:       d8c152d1-0d86-4c66-9105-a83b926a0275
 :END:
 - [[*Downstream][Downstream]]
-* Downstream
+** Downstream
 :PROPERTIES:
-  :tag: HL AN
+  :tag: AN
   :END:
 #+CATEGORY: USERS
 
 What do our potential users look like?
 
-** Possible future users                                            :noexport:
+*** Possible future users                                          :noexport:
 :PROPERTIES:
 :ID:       34ddbcd3-10a2-4d08-90d9-a489b7542fae
 :END:
