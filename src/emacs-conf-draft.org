@@ -1,0 +1,103 @@
+Name: Joseph Corneli, Raymond Puzio, and Cameron Ray Smith
+#+Title: Experience Report: Steps to "Emacs Hyper Notebooks"
+
+Format: 10 minute talk for EmacsConf 2020
+
+* Scenario 1  :one:
+
+Ray and Cameron have been collaborating for years on theoretical biology research.  For instance, in a typical project, we might use Maxima to make symbolic calculations and Julia for simulations.  Interfacing them involves mofving around code and data between different programs by hand.  Then, when we make progress, we have another workflow for writing up our results as notes and preparing them for publication.  All this going back and forth between different software applications is time-consuming and distracting --- is there a better way?
+
+Cameron is experienced with Jupyter, BUT it doesn't solve the problems above.
+Script of Scripts (https://vatlab.github.io/sos-docs/) solves some (partially).
+
+Joe was happy to provide some tech support with Emacs thinking about another solution.
+
+* The problem in general :one:
+
+When working on a scientific research project, one typically has
+multiple different computer programs running at the same time.
+
+But Emacs is meant to be an "operating system", so...
+
+* Emacs+Org Mode solutions :two:
+
+Switching and moving content among individual programs can be distracting,
+time-consuming, and prone to error.  These issues are compounded when
+there are several collaborators involved.
+
+The Emacs + Org mode ecosystem offers the following solutions:
+
+| Maxima      | maxima mode     | Solving DE, output details for numerical solution |
+| Julia       | julia mode      | Run the numerical solver                          |
+|             | org-poly        | run multiple modes inside Org mode                |
+| TeX         |                 | Typeset the results                               |
+| Beamer      | zpresent        | Make slides for a presentation.                   |
+| Roam        | Org Roam        | Prepare the paper on a wiki                       |
+| Zotero      | Org Roam Bibtex | Reference related work                            |
+| —           | Logseq          | ... with some coauthors who don’t use Emacs       |
+| Google Docs | crdt.el         | Collaborating in real time                        |
+| Jekyll      | Firn            | Publish work in progress on your blog             |
+| —           | KaTeX           | ... including LaTeX                               |
+| —           | LaTeXML         | ... including lots of LaTeX                       |
+
+* Demo :three:
+
+** NYC Demo
+- Behind the scenes, showing what we did about calling external routines
+- Introduce ob-servant, a general-purpose tool for calling processes from Org Mode
+
+** Any additions since then
+- Getting the automatic LaTeX typesetting display integrated
+
+* Reflections :one:
+
+We outline both the pleasure and pain involved in this experience.
+
+1. Getting emacs-juypter working was pretty painful and we didn't get everything working yet!
+2. By comparison working on ob-servant was pretty fun!  There's also more to be done here.
+[3.] Joe: Looking forward to seeing the demo!
+4. Getting images sorted out is an extra step to think about.
+
+* Next steps :one:
+
+1. Combining Evan Patterson's string diagram stuff?
+2. (Can we feed in diagrams and get out code?)
+3. Look at examples from Charlie for examples from his work as an analyst
+
+* Conclusion :one:
+
+We presented a short experience report from the perspective of two
+long-time Emacs users and one relative newcomer.  Our motivations
+relate, broadly, to reproducibility of research in science.  We think
+that something is "reproducible" if it is teachable to someone who
+hasn't been doing it all along.  We think that Org Mode (and literate
+programming in general) is useful for this.
+
+Even sharing a paper plus supplementary data and code isn't enough to
+actually reproduce the result.  And in the mean time there was a bunch
+of copying and pasting.  The whole affair is quite brittle.
+
+Furthermore collaboration across different skill sets is SUPER
+challenging.  We looked at collaboration between a physicist and a
+mathematical biologist, but what about collaborations between a
+scenario planner, a simulation scientist, and local farmers?
+
+Would it have applications, e.g., in startup incubators?  (Could we
+have a startup incubator "on demand"?)
+
+** We expect to see the future of science to be:
+
+- widely teachable
+- sharable
+- semi-automated
+- transdisciplinary
+- real-time, e.g., going beyond CRDT+mumble to something we can use to host online conferences?
+
+* Appendix
+
+** TODO Refresh on ob-servant code
+** TODO Gather the notebook
+** TODO Check org-mode variables to deal with the copy-paste issues
+** TODO Ask Charlie for an example notebook and maybe a meeting about that
+** TODO Repeat something like Minnesota 2050 with some of these tools 
+** TODO Do due dilligence on https://remo.co/
