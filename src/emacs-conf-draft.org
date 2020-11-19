@@ -58,6 +58,55 @@ another solution.
 | KaTeX    |                | ... including LaTeX math               |
 | LaTeXML  |                | ... including lots of LaTeX            |
 
+* Naive calculation, using Maxima mode
+
+Notice that this computation requires a *partridge in a pear tree* like
+setup. We keep recomputing at each step: =<<solve-for-u>>=.
+
+#+NAME: solve-for-u0
+#+HEADER: :exports none
+#+BEGIN_SRC maxima :results raw
+tex(u0sol : part(solve ([u/(D*u + s) = %e^(-s*v) * u0/(D*u0 + s)], [u0]), 1 , 2));
+#+END_SRC
+
+#+RESULTS: solve-for-u0
+$$-{{s\,u\,e^{s\,v}}\over{D\,u\,e^{s\,v}-D\,u-s}}$$
+
+#+NAME: check-characteristic-u
+#+HEADER: :exports none
+#+BEGIN_SRC maxima :results raw :noweb yes
+<<solve-for-u>>
+tex(factor(diff(usol, v) + usol*(D*usol + s)));
+#+END_SRC
+
+#+RESULTS: check-characteristic-u
+$${{s\,u_{0}}\over{\left(D\,u_{0}+s\right)\,e^{s\,v}-D\,u_{0}}}$$
+$$0$$
+
+* Better solution (mockup, persistent maxima)
+
+#+begin_src exp :servant maxima-proc :results output org
+display2d:false;
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+false
+#+end_src
+
+#+begin_src exp :servant maxima-proc :results output org
+expand((x+1)^9)
+#+end_src
+
+#+NAME: factored-function
+#+RESULTS:
+#+begin_src org
+$$x^9+9\,x^8+36\,x^7+84\,x^6+126\,x^5+126\,x^4+84\,x^3+36\,x^2+9\,x+1$$
+#+end_src
+
+... will need named variables /inside Org mode/ if we want to move
+things between Maxima and Julia... but how to move things back in.
+
 * Demo                                                               :three:
 
 ** NYC Demo
@@ -117,7 +166,7 @@ We outline both the pleasure and *pain* involved in this experience.
 * Appendix I
 
 ** TODO Refresh on ob-servant code
-** TODO Gather the notebook
+** DONE Gather the notebook
 ** TODO Check org-mode variables to deal with the copy-paste issues
 ** DONE Ask Charlie for an example notebook and maybe a meeting about that
 
@@ -125,7 +174,6 @@ We outline both the pleasure and *pain* involved in this experience.
 
 ** TODO Repeat something like Minnesota 2050 with some of these tools
 ** TODO Do due dilligence on https://remo.co/
-
 ** TODO Think about about the connections with Peeragogy & Ethics
 Is there a pattern where, if you have different subjects, interleave
 them in this way to make them branch out and learn?
