@@ -6,89 +6,75 @@
 
 
 * Scenario                                                           :one:
+
 Ray and Cameron have been collaborating for years on theoretical
-biology research.  For instance, in a typical project, we might use
+biology research.  For instance, in a typical project, they might use
 Maxima to make symbolic calculations and Julia for simulations.
 
-- E.g., Latest work in progress is on *XXX YYY*.
+This work combines biology, physics, and computer science.
+
+- E.g., Latest work in progress is on branching processes for cancer
+  modelling.
 * The problem
 
-Interfacing the tools we use involves moving code and data between
-different programs by hand.  Then, when we make progress, we have
-another workflow for writing up our results as notes and preparing
-them for publication.  All this going back and forth between different
-software applications is time-consuming and distracting --- is there a
-better way?
-
+- Moving code and data between different programs by hand.
+- Two workflows for writing notes and preparing publications.
+- This is time consuming and error prone!
 * Possible solutions
 
-Cameron is experienced with Jupyter, but it doesn't solve all of the problems above.
+Cameron is experienced with Jupyter, but it doesn't solve all of the
+problems above.
 
-- Script of Scripts (https://vatlab.github.io/sos-docs/) partially solves /some/ of the problems.
+- Script of Scripts (https://vatlab.github.io/sos-docs/) partially
+  solves /some/ of the problems.
 
-Joe was happy to provide some tech support with Emacs thinking about
-another solution.
-
-# * The problem in general                                               :one:
-
-# When working on a scientific research project, one typically has
-# multiple different computer programs running at the same time.
-# But Emacs is meant to be an "operating system", so...
-
-# * Emacs+Org Mode solutions                                             :two:
-
-# Switching and moving content among individual programs can be
-# distracting, time-consuming, and prone to error.  These issues are
-# compounded when there are several collaborators involved.
+Joe and Ray were happy explore Emacs-based solutions.
+(And Cameron got enthusiastic about Doom Emacs!)
 
 * Emacs+Org Mode...
 
-| TOOLS    | EMACS/ORG      |                                        |
-| Maxima   | maxima-mode    | Solving DE symbolically                |
-| Julia    | julia-mode     | Run the numerical solver               |
-|          | org-poly       | Run multiple modes inside Org mode     |
-| Beamer   | org-tree-slide | Make slides for a presentation.        |
-| Wikis    | Org Roam       | Prepare the paper on a wiki            |
-| —        | Logseq         | ... with coauthors who don’t use Emacs |
-| Pairing  | lockstep.el    | Collaborate in real time               |
-| Etherpad | crdt.el        | ... with multiple people typing        |
-| Zotero   | ORB            | Reference related work                 |
-| TeX      | latex-mode     | Typeset the results                    |
-| Jekyll   | Firn           | Publish work in progress on your blog  |
-| KaTeX    |                | ... including LaTeX math               |
-| LaTeXML  |                | ... including lots of LaTeX            |
+| TOOLS    | EMACS/ORG      | ——————————————————————————————————————— |
+| Maxima   | maxima-mode    | Solving DE symbolically                 |
+| Julia    | julia-mode     | Run the numerical solver                |
+| —        | org-poly       | Run multiple modes inside Org mode      |
+| Beamer   | org-tree-slide | Make slides for a presentation          |
+| Wikis    | Org Roam       | Prepare the paper in a nonlinear wiki   |
+| —        | Logseq         | ... with coauthors who don’t use Emacs  |
+| Pairing  | lockstep.el    | Collaborate in real time                |
+| Etherpad | crdt.el        | ... with multiple people typing at once |
+| Zotero   | ORB            | Reference related work                  |
+| TeX      | latex-mode     | Typeset the results                     |
+| Jekyll   | Firn           | Publish work in progress on a blog      |
+| KaTeX    | fragtog        | ... including LaTeX math symbols        |
+| LaTeXML  | Org Mode!      | ... or possibly more advaced LaTeX      |
+
 
 * Naive calculation, using Maxima mode
 
-Notice that this computation requires a *partridge in a pear tree* like
-setup. We keep recomputing at each step: =<<solve-for-u>>=.
-
+Notice that this computation requires a *partridge in a pear tree*-like
+setup. I.e., we keep recomputing at each step: =<<solve-for-u>>=.
 #+NAME: solve-for-u0
 #+HEADER: :exports none
 #+BEGIN_SRC maxima :results raw
 tex(u0sol : part(solve ([u/(D*u + s) = %e^(-s*v) * u0/(D*u0 + s)], [u0]), 1 , 2));
 #+END_SRC
-
 #+RESULTS: solve-for-u0
 $$-{{s\,u\,e^{s\,v}}\over{D\,u\,e^{s\,v}-D\,u-s}}$$
-
 #+NAME: check-characteristic-u
 #+HEADER: :exports none
 #+BEGIN_SRC maxima :results raw :noweb yes
 <<solve-for-u>>
 tex(factor(diff(usol, v) + usol*(D*usol + s)));
 #+END_SRC
-
 #+RESULTS: check-characteristic-u
 $${{s\,u_{0}}\over{\left(D\,u_{0}+s\right)\,e^{s\,v}-D\,u_{0}}}$$
 $$0$$
-
-* Better solution (mockup, persistent maxima)
+** TODO Look at how to do this with Org variables                      :ray:
+* Better solution (mockup of persistent maxima)
 
 #+begin_src exp :servant maxima-proc :results output org
 display2d:false;
 #+end_src
-
 #+RESULTS:
 #+begin_src org
 false
@@ -97,49 +83,54 @@ false
 #+begin_src exp :servant maxima-proc :results output org
 expand((x+1)^9)
 #+end_src
-
 #+NAME: factored-function
 #+RESULTS:
 #+begin_src org
 $$x^9+9\,x^8+36\,x^7+84\,x^6+126\,x^5+126\,x^4+84\,x^3+36\,x^2+9\,x+1$$
 #+end_src
 
-... will need named variables /inside Org mode/ if we want to move
-things between Maxima and Julia... but how to move things back in.
-
+** TODO to pass to Julia we do need named variables /inside Org mode/
 * Demo                                                               :three:
 
 ** NYC Demo
-
+*** TODO Add block for the Org mode patch
+*** TODO Add block for ob-servant code
 - Behind the scenes, showing how we called external routines
 - Introduce ob-servant, a general-purpose tool for calling processes from Org Mode
 
 ** Any additions since then
+*** TODO Try simplest ways to get images to show up
 
-- Getting the automatic LaTeX typesetting display integrated
-- Hopefully adding images
 
-* Reflections                                                          :one:
+* Reflections: pleasure and pain!                                      :one:
 
-We outline both the pleasure and *pain* involved in this experience.
-
-0. We tried getting Emacs running in the browser but command keys
-   didn’t pass through properly on the most popular browsers.
 1. Getting *emacs-juypter* working wasn’t easy and we didn't get
-   everything working yet!
-2. By comparison working on ob-servant was pretty fun!  But there's
-   also more to be done here.
-3. ... Looking forward to seeing the demo!
-4. ... Getting images sorted out is an extra step to think about.
-5. A few small *compatibility issues* came up with Firn and Logseq
+   everything working yet! :-(
+2. Setting up Jupyter itself with multiple kernels is a viable
+   alternative, but still not feature-complete (e.g., TeX support) :-|
+3. Working on ob-servant was pretty fun!  :-)
+4. We got more experience with co-editing code :-)
+5. The stack is work in progress and not just on our part
+   (e.g. crdt.el bugfixes thank to Quintan) :-)
+4. A few small *compatibility issues* came up with /Firn/ and /Logseq/
+   (these were addressed by the maintainers quickly!) :-)
+6. We tried getting Emacs running in the browser to make these tools
+   widely accessible — but command keys didn’t pass through properly
+   on the most popular browsers. :-(
+7. We got benefit from presenting early prototypes at Emacs NYC :-)
+8. Dialogues continue around EmacsConf 2020 w/ Fermin :-)
 
 * Next steps                                                           :one:
 
-1. Combining *Evan Patterson's* string diagram stuff?
+1. Combining *Evan Patterson's* string diagram stuff — to address FARM 2.0
 2. (Can we feed in diagrams and get out code?)
 3. Look at examples from *Charlie* for examples from his work as an analyst
+4. We want to be feature-complete with BASH (or more b/c we need a "remote control")
 
-* Conclusions: we have taken some steps to address:                    :one:
+** TODO How to integrate this workflow with Arxana?                    :joe:
+** TODO SIMPLIFY the presentation by removing red todos                :joe:
+** TODO Record a preliminary 10 minute version on OBS to practice      :joe:
+* Conclusions: we have taken steps to address:                         :one:
 
 ** Reproducible research
 
