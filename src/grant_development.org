@@ -1,0 +1,46 @@
+#+title: Grant development
+
+One way to do [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]] could be through grant development
+to help bootstrap initial outputs.
+
+A sensible place to get some grant funding connected into the themes
+around this work would be through Joe’s appointment as a Research
+Fellow at Oxford Brookes University’s Ethical AI Institute.
+
+One of the constraints here is that that’s a 2-year appointment, and
+some grants (but not all) require the PI to be a permanent employee.
+But this constraint is something we could relatively easily work with.
+
+* EPSRC: Mathematical Sciences Small Grants
+
+This is for projects of up to £80K.
+
+https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/
+
+** "Inducing a mathematics encyclopedia out of Arxiv"
+We talked about following on from the Open Information Extraction
+theme possibly in connection with the new preprint “Language Models
+are Open Knowledge Graphs” (and the associated video [[https://www.youtube.com/watch?v=NAJOZTNkhlI][review]]).  This is
+close to Deyan’s expertise and would build on his previous work.
+
+#+begin_quote
+*Deyan*: "Accurate entity linking is desired." (video min 43) -- hey,
+they honestly admit this in the paper! This was my stopping point with
+the jupyter notebook as well i believe, I would like to get the neural
+model to "ace" that part of the job before moving further. [...]  ok,
+so after watching the entire review, I can conclude if I arrive at a
+reliably successful method following my initial notebooks, and apply
+them to arXiv and/or SE there's certainly a paper in there. Their
+suggestions from the paper aren't actually that useful sadly, just
+confirming some basic practical tricks (using last attention layer,
+constraining with beam search and using language priors for the triple
+content) that were already known
+#+end_quote
+** "Mining informal proof structure"
+This would be a somewhat similar line of work but more along the lines
+of what we did in the FARM paper.  We discussed the advant
+
+** Maybe we could move in another more formal (category theoretic) direction
+Maybe we could build out some of the ideas that Zans and Ray have been
+discussing. Potentially this could also involve
+* TODO Outline(s) for small grants                                     :joe:

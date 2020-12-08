@@ -1,0 +1,54 @@
+#+title: Simple Noweb Example
+
+
+#+name: block-1
+#+BEGIN_SRC emacs-lisp :cache yes :results raw
+(current-time-string)
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp :results raw :var input=block-1 :noweb yes
+(format "Then %S and now: %S" <<block-1>> input)
+#+END_SRC
+
+#+RESULTS:
+Then "Fri Nov 27 19:15:49 2020" and now: "Fri Nov 27 19:15:49 2020"
+Then "(current-time-string)" and now: "Fri Nov 27 19:15:36 2020"
+Then "Fri Nov 27 19:14:13 2020" and now: "Fri Nov 27 19:14:13 2020"
+Then "Fri Nov 27 18:51:05 2020" and now: "Fri Nov 27 18:51:05 2020"
+
+#+name: block-1
+#+BEGIN_SRC emacs-lisp :results org
+(current-time-string)
+#+END_SRC
+
+#+RESULTS[8dfa404531eb9e20742feb333c9031cd519de5ce]: block-1
+Fri Nov 27 19:17:23 2020
+
+#+BEGIN_SRC emacs-lisp :results raw :noweb yes
+(format "We got %S in block-1" <<block-1>>)
+#+END_SRC
+
+#+RESULTS:
+We got "Fri Nov 27 18:43:19 2020" in block-1
+
+#+BEGIN_SRC emacs-lisp :results raw :noweb yes
+(format "We got %S in block-1" "<<block-1()>>")
+#+END_SRC
+
+#+RESULTS:
+We got "Fri Nov 27 18:49:37 2020" in block-1
+
+#+name: block-2
+#+BEGIN_SRC emacs-lisp :cache yes
+(current-time-string)
+#+END_SRC
+
+#+RESULTS[522c1acedf512eeb6307a37c445f000c38bdeaee]: block-2
+: Fri Nov 27 18:51:05 2020
+
+#+BEGIN_SRC emacs-lisp :results raw :noweb yes
+(format "We got %S in block-1" "<<block-2()>>")
+#+END_SRC
+
+#+RESULTS:
+We got "Fri Nov 27 18:51:05 2020" in block-1

@@ -1,0 +1,30 @@
+#+title: EHN deep future
+#+CATEGORY: EHN
+
+* Appendix I
+
+** TODO Refresh on ob-servant code
+** DONE Gather the notebook
+** TODO Check org-mode variables to deal with the copy-paste issues
+** DONE Ask Charlie for an example notebook and maybe a meeting about that
+
+* Appendix II
+
+** TODO Repeat something like Minnesota 2050 with some of these tools
+** TODO Do due dilligence on https://remo.co/
+** TODO Think about about the connections with Peeragogy & Ethics
+Is there a pattern where, if you have different subjects, interleave
+them in this way to make them branch out and learn?
+
+E.g, scenario with Piet thinking about Big Bang, or Peeragogy people
+thinking about Futures Studies
+
+Who were doing astronomy 3000 or 5000 years ago?  Priests.
+
+Kepler on logarithms: they’re great!  Ptolemy didn’t have them and it
+made a huge difference.
+
+Interchange between business, science, and religion.
+
+
+** TODO Would it have applications, e.g., in startup incubators?  (Could we have a startup incubator "on demand"?)
