@@ -1,0 +1,11 @@
+<html><html><head><meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /></head></html><body><main><article class="content"><h1>Simple Noweb Example</h1><div><div><section><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(current-time-string)
+</code></pre><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "Then %S and now: %S" <<block-1>> input)
+</code></pre><p><span>Then "Fri Nov 27 19:15:49 2020" and now: "Fri Nov 27 19:15:49 2020"
+Then "(current-time-string)" and now: "Fri Nov 27 19:15:36 2020"
+Then "Fri Nov 27 19:14:13 2020" and now: "Fri Nov 27 19:14:13 2020"
+Then "Fri Nov 27 18:51:05 2020" and now: "Fri Nov 27 18:51:05 2020"</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(current-time-string)
+</code></pre><p><span>Fri Nov 27 19:17:23 2020</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" <<block-1>>)
+</code></pre><p><span>We got "Fri Nov 27 18:43:19 2020" in block-1</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" "<<block-1()>>")
+</code></pre><p><span>We got "Fri Nov 27 18:49:37 2020" in block-1</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(current-time-string)
+</code></pre><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" "<<block-2()>>")
+</code></pre><p><span>We got "Fri Nov 27 18:51:05 2020" in block-1</span></p></section></div></div></article></main></body></html>
