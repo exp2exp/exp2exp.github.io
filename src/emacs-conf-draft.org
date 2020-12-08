@@ -7,12 +7,12 @@
 * Scenario                                                             :20s:
 
 Ray and Cameron have been collaborating for years on theoretical
-biology research.  For instance, in a typical project, they might use
-Maxima to make symbolic calculations and Julia for simulations.
+biology research.  In a typical project, they might use Maxima to make
+symbolic calculations and Julia for simulations.
 
-This work combines biology, physics, and computer science.
+Their work combines biology, physics, and computer science.
 
-- E.g., Latest work in progress is on branching processes for cancer
+- E.g., Latest work-in-progress is on branching processes for cancer
   modelling.
 * The problem                                                          :20s:
 
@@ -23,8 +23,8 @@ This work combines biology, physics, and computer science.
 
 Cameron is experienced with Jupyter and...
 
-- Script of Scripts (https://vatlab.github.io/sos-docs/) partially
-  solves /some/ of the problems.
+- we found Script of Scripts (https://vatlab.github.io/sos-docs/)
+  but it only solves /some/ of the problems.
 
 Joe and Ray were happy explore Emacs-based solutions.
 (And Cameron got enthusiastic about Doom Emacs!)
@@ -41,22 +41,21 @@ Joe and Ray were happy explore Emacs-based solutions.
 | Pairing  | lockstep.el    | Collaborate in real time                |
 | Etherpad | crdt.el        | ... with multiple people typing at once |
 | Zotero   | ORB            | Reference related work                  |
-| TeX      | latex-mode     | Typeset the results                     |
+| TeX      | Org Mode!      | Typeset the results                     |
 | Jekyll   | Firn           | Publish work in progress on a blog      |
 | KaTeX    | fragtog        | ... including LaTeX math symbols        |
-| LaTeXML  | Org Mode!      | ... or possibly more advaced LaTeX      |
 
-* Naive calculation, using Maxima mod                                   :1m:
+* Let’s try a calculation using Maxima mode                             :1m:
+  *Maxima doesn’t have a long-running process by default!* Here’s a workaround.
 
-*Maxima doesn’t have a long-running process by default!* Here’s a *“partridge in a pear tree”* workaround.
 #+begin_example
-⌗+NAME: solve-for-u0
+⌗+NAME: solve-for-u
 ⌗+BEGIN_SRC maxima :results raw
-tex(u0sol : part(solve ([u/(D*u + s) = %e^(-s*v) * u0/(D*u0 + s)], [u0]), 1 , 2));
+tex(usol : part(solve ([u/(D*u + s) = %e^(-s*v) * u0/(D*u0 + s)], [u]), 1 , 2));
 ⌗+END_SRC
 #+end_example
-#+RESULTS: solve-for-u0
-$$-{{s\,u\,e^{s\,v}}\over{D\,u\,e^{s\,v}-D\,u-s}}$$
+#+RESULTS: solve-for-u
+$${{s\,u_{0}}\over{\left(D\,u_{0}+s\right)\,e^{s\,v}-D\,u_{0}}}$$
 #+NAME: check-characteristic-u
 #+begin_example
 ⌗+BEGIN_SRC maxima :results raw :noweb yes
@@ -68,10 +67,8 @@ tex(factor(diff(usol, v) + usol*(D*usol + s)));
 $${{s\,u_{0}}\over{\left(D\,u_{0}+s\right)\,e^{s\,v}-D\,u_{0}}}$$
 $$0$$
 
-* Problem 1: passing variables and outputs! — Org mode can do this      :1m:
-
-(Actually it’s a bit easier than on the previous naive attempt.)
-
+* Problem 1: passing variables and outputs! — maybe not /so/ bad?         :1m:
+/Something like this should be enough to stitch Maxima and Julia together./
 #+begin_example
 ⌗+name: block-1
 ⌗+BEGIN_SRC emacs-lisp :cache yes :results raw
@@ -97,7 +94,6 @@ Then "Fri Nov 27 19:18:26 2020" and now: "Fri Nov 27 19:17:23 2020
 #+begin_src exp :servant maxima-proc :results output org
 display2d:false
 #+end_src
-
 #+RESULTS:
 #+begin_src org
 false
@@ -106,23 +102,23 @@ false
 #+begin_src exp :servant maxima-proc :results output raw
 expand((x+1)^9)
 #+end_src
-
 #+RESULTS:
 $$x^9+9\,x^8+36\,x^7+84\,x^6+126\,x^5+126\,x^4+84\,x^3+36\,x^2+9\,x+1$$
 
-(*Bonus feature*: we made it do tex output by default.)
+(*Bonus feature*: notice that we made it do tex output by default.)
 
 ** Minor change to ob-core.el
 
-We added a =:servant= parameter to override =org-babel-execute:<lang>=.
-We still want to keep the language around to control fontification etc.
+We added a =:servant= parameter to override =org-babel-execute:<lang>=
+inside =org-babel-execute-src-block=.  (We still want to keep the
+language around to control fontification etc.)
 
 #+begin_src diff
 715c715,719
 < 		 (cmd (intern (concat "org-babel-execute:" lang)))
 ---
-> 		 ;; OVERRIDE WITH :stream TO ACCESS THE PROCESS WE CALL
-> 		 ;; e.g. (:stream . "calculator")
+> 		 ;; OVERRIDE WITH :servant TO ACCESS THE PROCESS WE CALL
+> 		 ;; e.g. (:servant . "calculator")
 > 		 (cmd (if (assoc :servant params)
 > 			#'org-babel-servant
 > 			(intern (concat "org-babel-execute:" lang))))
@@ -160,11 +156,17 @@ We still want to keep the language around to control fontification etc.
        :stderr "maxima-error"
        :filter #'org-babel-servant-callback))
 
-(puthash '("maxima-proc" :preproc) (lambda (x params) (concat x "\n"))           org-babel-servant-info)
 (puthash '("maxima-proc" :preproc) (lambda (x params) (concat "tex(" x ");\n"))  org-babel-servant-info)
 (puthash '("maxima-proc" :postproc) (lambda (x params err) (substring x nil -6)) org-babel-servant-info)
 (puthash '("maxima-proc" :timeout) 2.0                                           org-babel-servant-info)
-(gethash '("maxima-proc" :lastout)                                               org-babel-servant-info)
+#+end_src
+
+BTW, the /substring/ is b/c Maxima prints out =false= as a second return here:
+
+#+begin_src maxima
+tex(expand((x+1)^9));
+$$x^9+9\,x^8+36\,x^7+84\,x^6+126\,x^5+126\,x^4+84\,x^3+36\,x^2+9\,x+1$$
+false
 #+end_src
 
 * Reflections: pleasure and pain!                                      :30s:
@@ -175,8 +177,8 @@ We still want to keep the language around to control fontification etc.
 
 3. We got more experience with co-editing code                      *:-)*
 
-4. The stack is work in progress and not just on our part
-   (e.g. crdt.el bugfixes thank to Quintan)                         *:-)*
+4. The stack is work in progress (e.g. crdt.el bugfixes thanks to
+   Qiantan).                                                        *:-)*
 
 5. A few small *compatibility issues* came up with /Firn/ and /Logseq/
    (these were addressed by the maintainers quickly!)               *:-)*
@@ -187,39 +189,72 @@ We still want to keep the language around to control fontification etc.
 
 7. We got benefit from presenting early prototypes at Emacs NYC     *:-)*
 
-8. Dialogues continue around EmacsConf 2020 w/ Fermin               *:-)*
+8. Dialogues continue around EmacsConf 2020 w/ Fermin and others    *:-)*
 
-* Future work 1                                                        :30s:
+* Future work 1                                                         :30s:
 
-- How to integrate this workflow with Arxana (EmacsConf 2013, FARM 2017)
- - General idea of network programming, e.g., with string diagrams
- - Ideally feature-complete with BASH... or better yet, LISP
- - ... with a “remote control” for long-running processes?
+- How to integrate this workflow with Arxana (EmacsConf 2013, FARM 2017)?
+
+  - /One idea/: Arxana deals with transclusions, and could potentially
+    help with the combined notes+writeup workflow.
+  - Also relates to the general idea of “network programming”
+
+- How do we think about “remote control” for long-running processes?
 
 * Conclusions: we have taken steps to address:                         :30s:
+
+Technical experiments are about /accessing any longrunning process/ with
+a simple interface.  We’re not the only people to look into
+“notebooks” but we think that Emacs has some advantages.
 
 ** Reproducible research
 
 - Something is "reproducible" if it is teachable to someone new!
+
 - Org Mode (and literate programming in general) is useful for this.
 
 
 ** Interdisciplinary collaboration
 
 - Collaboration across different skill sets is challenging.
+
 - Our collaboration was already interdisciplinary...
-• ... but what about collaborations between a scenario planner, a
+
+• ... but what about collaborations between a scenario planner,
       simulation scientist, and local farmers, etc.?
 
 * Future work 2                                                        :30s:
 
 ** Science should be:
 
-- widely teachable
-- sharable
-- semi-automated
-- transdisciplinary
-- real-time, like EmacsConf!
+- Widely teachable
+- Sharable
+- Semi-automated
+- Transdisciplinary
+- Real-time, like EmacsConf!
+
+#+begin_example
+EMAIL        joseph.corneli@hyperreal.enterprises
+             rsp@hyperreal.enterprises
+             cameron.ray.smith@gmail.com
+
+IRC          jcorneli
+
+CODE (WIP)   github.com/exp2exp/ob-servant
+#+end_example
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Local Variables:
 # org-latex-inputenc-alist: (("utf8" . "utf8x"))

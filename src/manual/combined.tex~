@@ -1,4 +1,4 @@
-% Created 2020-11-03 Tue 12:32
+% Created 2020-12-08 Tue 16:05
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8x]{inputenc}
@@ -58,22 +58,22 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 \section{Hyperreal Enterprises: Roadmap}
-\label{sec:orgb01bc66}
+\label{sec:orge30e497}
 
 \subsection{Preface}
-\label{sec:orgb235229}
+\label{sec:org31e0501}
 This document synthesises a \href{http://www.peeragogy.org/pattern-roadmap.html}{Roadmap} (and perhaps also a \href{http://scrumbook.org/value-stream/product-roadmap.html}{Product
 Roadmap}) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
 inside \href{https://github.com/org-roam/org-roam}{Org Roam} (an \href{https://www.gnu.org/software/emacs/}{Emacs} package), and shared via Git on repo.or.cz.
-This document can be thought of and edited as a \hyperref[sec:org50e0894]{Wiki}, from which other
+This document can be thought of and edited as a \hyperref[sec:org19aff6f]{Wiki}, from which other
 downstream formats can be derived.  A narrative introduction follows.
-To skip it, browse ahead to \hyperref[sec:orgcb31c2f]{Top}.
+To skip it, browse ahead to \hyperref[sec:org9b1a4ad]{Top}.
 
 \subsection{Introduction}
-\label{sec:org88e8508}
+\label{sec:org4a8f5d4}
 
 \subsubsection{Applying AI to technical fields is a huge opportunity.}
-\label{sec:org75d5356}
+\label{sec:orgd3aec9c}
 
 It’s striking that in computer programming work, \emph{collective
 intelligence} is used almost everywhere, but artificial intelligence is
@@ -82,7 +82,7 @@ courses are still taught by human professors.  Surely, AI that could
 write code at a human level would be a valuable thing\ldots{}
 
 \subsubsection{But where’s the human-level AI for coding?}
-\label{sec:org2f28360}
+\label{sec:orgd264ae7}
 
 A research agenda around “AI for programming” was already spelled out
 by Alan Turing in the late 1940s.  It is only relatively recently that
@@ -92,7 +92,7 @@ fruit” of this domain.  We think that something much more substantial
 is around the corner.
 
 \subsubsection{We are looking at this problem as an informal open source R\&D collective.}
-\label{sec:orgc3ab0ea}
+\label{sec:orgb1dd4ce}
 
 Our team brings together applied experience in Natural Language
 Processing (NLP), computational modelling, online communities,
@@ -106,7 +106,7 @@ doing this for fun and interest.  But we do plan to share what we’re
 learning as we go along!
 
 \subsubsection{Broadly, the steps we have in mind go from data, to models, to AI agents.}
-\label{sec:org5bbf193}
+\label{sec:orgd3c9608}
 
 We plan to document our progress (or lack thereof) on this blog.  As a
 very rough outline, this is what we expect to look at:
@@ -120,7 +120,7 @@ very rough outline, this is what we expect to look at:
 \end{itemize}
 
 \subsubsection{Reflection is part of the process.}
-\label{sec:orgf27964c}
+\label{sec:org1db0846}
 
 We’re interested in understanding human behaviour as well as technical
 topics: that goes for our own behaviour in particular.  We plan to
@@ -132,7 +132,7 @@ their own right (e.g., blog posts can feed into research papers or
 tools).
 
 \subsubsection{Progress so far}
-\label{sec:org5ee4e8a}
+\label{sec:org08567a1}
 Alongside setting up a blog and drafting an initial anouncement
 (voilà!), we’ve updated the website of our affiliated UK-based company
 \href{https://hyperreal.enterprises/}{Hyperreal Enterprises} to match the outlines of what we’ve described
@@ -158,15 +158,15 @@ Active channels on our Discord server include:
 \end{itemize}
 
 \subsubsection{TL;DR}
-\label{sec:org761e3ff}
+\label{sec:org431d0c5}
 
 We are creating AI tools that will process open source information and
 build on these in applications such as automated programming.
 
 \section{Top}
-\label{sec:orgcb31c2f}
+\label{sec:org9b1a4ad}
 \subsection{Motivation: For the sake of advancing AI}
-\label{sec:orgb10109f}
+\label{sec:org26edf3a}
 We are doing this R\&D work partly to make demonstrations of more
 advanced AI systems.  We expect that our stance on AI will not
 necessarily be a popular one.  But this is an important “minor” strand
@@ -191,7 +191,7 @@ serve to focus the mind of technical workers, but not many are
 pursuing it presently.
 
 \subsection{Motivation: Technical experiments become easier}
-\label{sec:orga147d90}
+\label{sec:orgeb3acae}
 
 Even in the present time, without relying on any speculative AI
 futures to magically appear, we can benefit from pursuing the agenda
@@ -200,10 +200,10 @@ software that will give us a set of further tools and levers to work
 with.
 
 \subsection{Representative Prior Work}
-\label{sec:orgc84be3f}
+\label{sec:org9209744}
 
 \subsubsection{PlanetMath}
-\label{sec:org3092e72}
+\label{sec:org16aecaf}
 
 \href{https://planetmath.org/}{PlanetMath} users created a reasonably large informal mathematical
 knowledge base together.  On the way, we came up with several
@@ -212,7 +212,7 @@ One possible direction of work we looked at would be to focus on
 building a comprehensive category theory knowledge base.
 
 \subsubsection{Modelling the way mathematics is actually done}
-\label{sec:orgfb4af3c}
+\label{sec:org305c3c8}
 
 In \href{https://www.newton.ac.uk/files/preprints/ni17003.pdf}{this paper}, we talked about how mathematics is situated somewhere
 in between ‘games’ and ‘storytelling’ in its complexity.  We proposed
@@ -221,7 +221,7 @@ Subsequent work continued on in this direction, using ideas from
 \href{https://www.sciencedirect.com/science/article/pii/S0004370217300267}{dialogue games} and \href{https://link.springer.com/article/10.1007/s10503-018-9474-x}{argumentation theory more broadly}.
 
 \subsection{A sketch of a plan}
-\label{sec:org5e2b431}
+\label{sec:org94cc4dc}
 
 So, having gotten together around these ideas, we’re having online
 chat, frequent short meetings.  We’ve talked about maintaining a blog
@@ -255,7 +255,7 @@ worth on their feeling of superiority over others.” — \href{https://iep.utm.
 \end{quote}
 
 \subsection{A possible formulation: short correlated sprints as opposed to random behaviour}
-\label{sec:org1371d28}
+\label{sec:org7ffe639}
 
 “Two people working together 4 hours a week for two weeks” could serve
 as an approximate unit of work.  Once we have amassed a few outputs
@@ -268,7 +268,7 @@ short robust team-ups continue to be an option!
 Hypothetical conversation: \emph{In my next post I want to integrate something that I learned from you about PL.  I want to drive in the direction of synthesis, as hard as I know how to right now.  This depends on everyone having free time to invest in this.  Start a blog where we think about what's the overlap in terms of learning?}
 \end{quote}
 \section{Why not what}
-\label{sec:orgff555f3}
+\label{sec:org555cdd0}
 Our purpose:
 
 \begin{itemize}
@@ -276,12 +276,12 @@ Our purpose:
 \item \textbf{Our long-term vision is computational intelligence based on collective intelligence.}
 \end{itemize}
 \subsection{Teach arbitrary coding}
-\label{sec:org1722b7a}
+\label{sec:org95cdc09}
 This would be an abstraction over teaching basic programming and
 knowledge graphs.
 
 \subsubsection{Feature: Production system}
-\label{sec:org1e08cb0}
+\label{sec:org4993aed}
 
 We’ve started to build a simple production system that can be used to
 detect errors in subtraction (reimplementing some classic work). We
@@ -296,14 +296,14 @@ polygraphs as input, in the workshop paper
 
 \begin{enumerate}
 \item Demo application: Reimplementing classic rules to model subtraction
-\label{sec:org835a7c0}
+\label{sec:orgc84c376}
 
 We looked at a classic paper about “subtraction on Mars” and it seems
 that reimplementing it might be the best way to go.
 \end{enumerate}
 
 \subsection{How to Design Programs}
-\label{sec:orgacd5845}
+\label{sec:orge7ab7dd}
 We were thinking of \emph{How to Design Programs} (HtDP) as a potential
 basis for this work.  We would want to respect category theoretic
 concepts in the presentation.  We would expect to find analogues in
@@ -331,7 +331,7 @@ script.  So, this would contribute to the development of agent models
 for programming and program-related Q\&A.
 
 \subsubsection{Related work}
-\label{sec:org74d583f}
+\label{sec:org3473e38}
 
 \begin{itemize}
 \item General theory-informed algorithms (e.g., apply category theory to scientific models).
@@ -340,7 +340,7 @@ for programming and program-related Q\&A.
 \item How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
 \end{itemize}
 \section{Construct, critique, improve models of the creative process}
-\label{sec:orge495586}
+\label{sec:org2097296}
 We want tools and processes for working with models, with a particular
 emphasis on improved models of the creative process. The reason for
 this emphasis is that if we have good models of the creative process,
@@ -349,7 +349,7 @@ range of problems!  This prompts reflection on the infrastructure and
 tools that we are actually using.
 
 \subsection{Emacs Hyper Notebook}
-\label{sec:org777ffe5}
+\label{sec:org70a6e58}
 We are developing a better way to do “Jupyter notebooks” using Emacs.
 This recovers some of the Research Collab ideas developed by Aaron
 Krowne. It should integrate features such as writing and task
@@ -369,7 +369,7 @@ could turn out to be useful here.)
 
 \begin{enumerate}
 \item Some quick thoughts
-\label{sec:orgd64d82d}
+\label{sec:org6c13d7a}
 
 \begin{itemize}
 \item If it was sitting inside a web container, then maybe it’s a quickstart thing that comes in a user friendly form.
@@ -380,20 +380,20 @@ could turn out to be useful here.)
 \end{enumerate}
 
 \subsubsection{{\bfseries\sffamily TODO} Figure out subtasks to deliver for EmacsConf\hfill{}\textsc{joe:ray:cameron}}
-\label{sec:orga9f910a}
+\label{sec:org3828f11}
 \subsubsection{{\bfseries\sffamily TODO} Figure out how EHN relates to other projects\hfill{}\textsc{joe:ray:cameron}}
-\label{sec:orgdf83738}
+\label{sec:org61234c7}
 \subsubsection{{\bfseries\sffamily TODO} Keep testing crdt.el and lockstep.el\hfill{}\textsc{joe:ray}}
-\label{sec:orga7e9116}
+\label{sec:orge5fb5f8}
 \subsubsection{{\bfseries\sffamily TODO} Could Emacsconf talk become a blog post?\hfill{}\textsc{joe:ray:cameron}}
-\label{sec:orgfc8ba4a}
+\label{sec:org277e50b}
 
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan
 is thinking about a mode to make overlays shareable, which would
 change things a bit.)
 
 \subsubsection{Partial prototypes}
-\label{sec:orgd03f601}
+\label{sec:orgff7e08d}
 
 How far can we go\ldots{} Through \href{https://roamresearch.com/}{Roam}? (We could at least talk to Connor
 about Roam on Twitter?) Through \href{https://jupyter.org/}{Jupyter}? \href{https://foambubble.github.io/foam/}{Foam}? \href{https://gtoolkit.com/}{Glamorous Toolkit}?  Can
@@ -402,7 +402,7 @@ Lenses or other kinds of ACT machinery help with this at all?  Would
 our system potentially play a role as a universal backend?
 
 \subsubsection{Feature: Arxana 2020}
-\label{sec:orgd469b95}
+\label{sec:orgd1087f4}
 
 Revisit \href{https://repo.or.cz/w/arxana.git}{Arxana} and turn it into something that we can actually use.
 This is rather closely related to the use of “knowledge graph”
@@ -412,7 +412,7 @@ with Arxana, we left off at the point of integrating logic programming
 into the system.
 
 \subsubsection{Links to useful resources}
-\label{sec:org0464598}
+\label{sec:orgbe58860}
 
 Technology like this could be used to build simple demos (e.g., Emacs
 in the browser, running Org Mode).  We’ve noticed some other related
@@ -433,14 +433,14 @@ alternative interfaces.
 \end{itemize}
 
 \subsubsection{Other related work}
-\label{sec:org969d402}
+\label{sec:orgce3be13}
 
 \begin{itemize}
 \item James Fairbanks (relate this to Betancourt).
 \end{itemize}
 
 \subsubsection{Testing}
-\label{sec:org9dc7008}
+\label{sec:org7f3fce9}
 
 \begin{verbatim}
 (def a 2)
@@ -477,15 +477,15 @@ a
 \end{verbatim}
 
 \subsubsection{Implementing a quick demo for Emacs NYC}
-\label{sec:orgd3700bc}
+\label{sec:org8506dd6}
 Notes for the first talk will appear here:
 
 \begin{itemize}
-\item \hyperref[sec:org1e5d1e8]{Hypernotebook First Demo}
+\item \hyperref[sec:org5d00eff]{Hypernotebook First Demo}
 \end{itemize}
 
 \subsubsection{What would we actually want as our org interface?}
-\label{sec:org346eb7c}
+\label{sec:org47d6d05}
 
 We had a short problem with this:
 
@@ -496,31 +496,31 @@ We had a short problem with this:
 \end{verbatim}
 
 \subsubsection{Backends}
-\label{sec:org29f4a84}
+\label{sec:orga9589f0}
 \begin{enumerate}
 \item jupyter
-\label{sec:org52112f6}
-The jupyter backend works well locally but suffers from a bug when run via tramp. See \hyperref[sec:org625a473]{emacs-jupyter remote debugging}
+\label{sec:orgd5a91ff}
+The jupyter backend works well locally but suffers from a bug when run via tramp. See \hyperref[sec:orgc929b9c]{emacs-jupyter remote debugging}
 
 \item ob-streams
-\label{sec:org1a9bd0f}
+\label{sec:org429b176}
 
 This is work in progress, with some sample content above.
 \end{enumerate}
 
 \subsubsection{Future work}
-\label{sec:orgcb91bcb}
+\label{sec:orgf980263}
 
 \begin{itemize}
 \item Extending to VS Code?  Would people who use VS code even want this kind of interaction?  Maybe VS Code is better for quick visualisations?
 \end{itemize}
 \subsection{Hypernotebook First Demo}
-\label{sec:org1e5d1e8}
+\label{sec:org5d00eff}
 
 First demo notes will go here.
 
 \subsubsection{During our first session on this, we set up a calculator}
-\label{sec:org2255a6a}
+\label{sec:org86e7910}
 
 We wrote up a configuration, starting from what the \texttt{src} block might
 look like:
@@ -549,13 +549,13 @@ This is an example of what we came up with:
 \end{verbatim}
 
 \subsubsection{Background research}
-\label{sec:orge752e4f}
+\label{sec:orgb828035}
 
 We took a good look at emacs-jupyter to understand how it works.
 It seems to work reasonably well but not able to do all the hops via TRAMP to connect with a notebook running on Google Cloud.  This is documented as bug \#191 in the emacs-jupyter repo.
 
 \subsubsection{Now we wanted to improve this to make it more robust}
-\label{sec:org48c841f}
+\label{sec:orgfbf50f7}
 
 \begin{itemize}
 \item Be able to handle multiple backends (now via ``servants'' for different shell commands and potentially other processes), not just the \texttt{bc} calculator!
@@ -564,7 +564,7 @@ It seems to work reasonably well but not able to do all the hops via TRAMP to co
 \end{itemize}
 
 \subsubsection{Stitching things together}
-\label{sec:org2a676ed}
+\label{sec:org36b69cb}
 
 \begin{itemize}
 \item Find a good way to weave \texttt{org-babel-servant} into \texttt{org-babel-execute-src-block}
@@ -573,7 +573,7 @@ It seems to work reasonably well but not able to do all the hops via TRAMP to co
 
 \begin{enumerate}
 \item Getting things going
-\label{sec:orgd553077}
+\label{sec:orgfc86354}
 
 \begin{verbatim}
 ;; Here we start the process
@@ -595,7 +595,7 @@ It seems to work reasonably well but not able to do all the hops via TRAMP to co
 
 \begin{enumerate}
 \item Calculator example again
-\label{sec:orgce08c18}
+\label{sec:orgd79517a}
 \begin{verbatim}
 10+1
 \end{verbatim}
@@ -605,7 +605,7 @@ It seems to work reasonably well but not able to do all the hops via TRAMP to co
 \end{verbatim}
 
 \item Maxima example
-\label{sec:orgc1a61f5}
+\label{sec:orgd234ae8}
 
 Here we call the process we just started.
 
@@ -644,11 +644,11 @@ $$x+1$$
 \end{enumerate}
 
 \subsubsection{Ob-servant example}
-\label{sec:org7dff510}
+\label{sec:org86fa3ca}
 
 \begin{enumerate}
 \item Calculator example again
-\label{sec:org3c10d55}
+\label{sec:orga3d8a23}
 \begin{verbatim}
 10+1
 \end{verbatim}
@@ -659,7 +659,7 @@ $$x+1$$
 \end{enumerate}
 
 \subsubsection{Next steps}
-\label{sec:orgec78738}
+\label{sec:org0baa3d5}
 
 \begin{itemize}
 \item Change the formatting of the output so it doesn't come across as a table
@@ -670,26 +670,26 @@ $$x+1$$
 \end{itemize}
 
 \subsubsection{Social Networking}
-\label{sec:org2009752}
+\label{sec:orgcbe5250}
 
 \begin{itemize}
 \item Talk with Fermin to understand what he's doing with Maxima and see if we need to do anything differently
 \end{itemize}
 
 \subsubsection{Final polishing}
-\label{sec:org39de9e0}
+\label{sec:org4f45982}
 
 \begin{itemize}
 \item Consider renaming it to ob-servent!
 \end{itemize}
 \subsection{emacs-jupyter remote debugging}
-\label{sec:org625a473}
+\label{sec:orgc929b9c}
 \subsubsection{Debugging}
-\label{sec:orgbc74d11}
+\label{sec:org3b56af9}
 
 \begin{enumerate}
 \item Initial fix (of what turned out to be a minor problem)
-\label{sec:org87a4180}
+\label{sec:orgc9bbd50}
 \begin{itemize}
 \item \texttt{jupyter-start-kernel} was problematic, because the id didn’t seem to be set correctly
 \begin{itemize}
@@ -698,7 +698,7 @@ $$x+1$$
 \end{itemize}
 
 \item Ongoing concerns: can we access the kernel?
-\label{sec:org9432bc8}
+\label{sec:org13fd939}
 \begin{itemize}
 \item However, this still doesn’t solve our problem
 \begin{itemize}
@@ -723,10 +723,10 @@ doesn’t seem to exist on the server.
 \end{enumerate}
 
 \subsubsection{Set up container on gcp}
-\label{sec:org9b8ad44}
+\label{sec:org5535dc4}
 \begin{enumerate}
 \item gcp configuration
-\label{sec:org9768b03}
+\label{sec:orgd83ffbb}
 
 You may like to run \texttt{gcloud auth login} ( \href{https://cloud.google.com/sdk/gcloud/reference/auth/login}{auth login docs} ). This is an interactive process that launches oauth for your google account in the web browser so I think it is best to do it from a terminal though it may be possible to run it in org-babel.
 
@@ -750,7 +750,7 @@ gcloud config configurations describe quarere
 \end{verbatim}
 
 \item launch container image
-\label{sec:org0680945}
+\label{sec:org7583e62}
 
 Deploy a vm based on the container \texttt{cameronraysmith/notebooks:latest}.
 
@@ -800,10 +800,10 @@ gcloud compute instances start notebooks-vm
 \end{enumerate}
 
 \subsubsection{Startup the cloud vm running our container of interest}
-\label{sec:orgda5a39b}
+\label{sec:org13db8e8}
 \begin{enumerate}
 \item Setup remote container host machine
-\label{sec:orgbf5cee7}
+\label{sec:org0e50f1c}
 
 We already setup the container named \texttt{notebooks-vm} so all we need to do to begin with is to start it up.
 
@@ -850,7 +850,7 @@ HostName 104.154.99.181
 
 \begin{enumerate}
 \item Execute commands on the remote container host machine
-\label{sec:orgaf5632d}
+\label{sec:org6bdd7ad}
 \begin{verbatim}
 hostname --long
 \end{verbatim}
@@ -887,7 +887,7 @@ caadc9a126bb        gcr.io/inverting-proxy/agent       "/bin/sh -c '/opt/bi…" 
 \end{enumerate}
 
 \subsubsection{Run shell commands on the remote container}
-\label{sec:org63a57e2}
+\label{sec:orge0fc748}
 To switch between two available configurations, choose one of the lines below to copy to the \texttt{:PROPERTIES:} drawer for this section.
 \begin{verbatim}
 :header-args: :results output verbatim replace :session notebookscontainer :dir /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:  :exports both  :eval never-export
@@ -957,7 +957,7 @@ If you try to make use of an existing session on the docker container to run one
 
 \begin{enumerate}
 \item Run python session on the remote container
-\label{sec:org61c37a8}
+\label{sec:org6dc438e}
 The default properties that should apply to this section are
 
 \begin{verbatim}
@@ -986,222 +986,169 @@ print(x)
 2
 \end{verbatim}
 \end{enumerate}
+\subsection{Arxana}
+\label{sec:org96740f0}
 
-\subsubsection{BUG: Run a jupyter kernel in a remote container}
-\label{sec:orga751a8b}
+Now that we’ve gotten quite familiar with Org Mode things, it could be
+good to revisit our work with Arxana and see what it might have to
+offer here.  We know that Arxana is similar to \href{https://github.com/opencog/atomspace}{Atomspace}.  It would be
+possible to create a (Clojure) backend that’s linked with \href{https://github.com/juxt/crux}{Crux} or some
+other graph database.
+
+When we left off working on Arxana in 2017, we made a few notes.
+Maybe it could be applied to something interesting for which we could
+get a grant. Below, is some of the future work (circa FARM 2017).
+
+\subsubsection{Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo}
+\label{sec:org9fbae57}
 \begin{enumerate}
-\item properties
-\label{sec:org5c306ca}
-To switch between two available configurations, choose one of the lines below to copy to the \texttt{:PROPERTIES:} drawer for this section.
-\begin{verbatim}
-:header-args: :results output verbatim replace :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:notebooks01  :exports both  :eval never-export
-:header-args: :results output verbatim replace :session /ssh:notebooks.us-central1-c.quarere|docker:payload-container:notebooks01  :exports both  :eval never-export
-\end{verbatim}
+\item Clean up namespaces of functions\hfill{}\textsc{maintenance}
+\label{sec:org71706d0}
+E.g. write \texttt{honey:add-nema} instead of \texttt{add-nema}.
+\item find the generic interface layer and put it in its own file\hfill{}\textsc{maintenance}
+\label{sec:orgae2e8fb}
+Sketched in honey-spec.org, but let's make sure it's consistent.
+\item Assemble/disassemble a buffer from/to distributed storage\hfill{}\textsc{demoscheme}
+\label{sec:orgedca8b8}
 
-\item test code
-\label{sec:org5f0c67d}
+While not needed for our FARM demo, this could be useful for the
+Scheme demo because it makes a relatively convincing case.  And
+furthermore this would be good as user facility and for us as we
+continue working on the project.
 
-\begin{verbatim}
-x = 'foo'
-y = 'bar'
-x + ' ' + y
-\end{verbatim}
+\begin{itemize}
+\item E.g., related work of arxana-merge merge automatically.
+\end{itemize}
 
-There is a problem whereby the \texttt{:dir} property is being passed along to jupyter as if it were a file. It looks like the intention may be to pass the TRAMP parameters to \texttt{:session} rather than \texttt{:dir} in the case of \texttt{emacs-jupyter}.
+\item Write a basic IATCD evaluator to load Listing 1 stuff\hfill{}\textsc{demofarm}
+\label{sec:org362d772}
 
-Here there is a bug that has been reported in \href{https://github.com/nnicandro/emacs-jupyter/issues/191}{issue 191 of emacs-jupyter}.
+\emph{What is a better name for IATCD?} ;-)
 
-\begin{verbatim}
-executing Jupyter-Python code block...
-jupyter-start-kernel: default-directory = /ssh:cloudmachine|docker:containeroncloudmachine:
-jupyter-start-kernel: Starting process with args "/bin/python3 -c from jupyter_client.kernelapp import main; main() --kernel=python3"
-Tramp: Opening connection for containeroncloudmachine using docker...
-Tramp: Sending command ‘exec ssh -q    -e none cloudmachine’
-Tramp: Waiting for prompts from remote shell...done
-Tramp: Found remote shell prompt on ‘cloudmachine’
-Tramp: Sending command ‘exec docker  exec -it  containeroncloudmachine sh’
-Tramp: Waiting for prompts from remote shell...done
-Tramp: Found remote shell prompt on ‘containeroncloudmachine’
-Tramp: Opening connection for containeroncloudmachine using docker...done
-Launching python3 kernel process...done
-Tramp: Inserting ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’...
-Tramp: Encoding remote file ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’ with ‘base64 <%s’...done
-Tramp: Decoding local file ‘/var/folders/1d/wtzfcz5s4x98nbkdx9g5ss3c0000gn/T/tramp.krOJmR.json’ with ‘base64-decode-region’...done
-Tramp: Inserting ‘/ssh:cloudmachine|docker:containeroncloudmachine:/home/jovyan/.local/share/jupyter/runtime/kernel-fc5b0ea7-f553-4725-aa59-32829d356665.json’...done
-SENDING: :kernel-info-request ae928b51-f755-441e-a250-8a08c58d734d nil
-SENT: (:shell ae928b51-f755-441e-a250-8a08c58d734d)
-Requesting kernel info...done
-jupyter-kernel-info: Kernel did not respond to kernel-info request
-\end{verbatim}
+This is just at the level of moving data around - specifically turning
+s-expressions into triples.
 
-There is a \href{https://github.com/nnicandro/emacs-jupyter/issues/72\#issuecomment-543952258}{suggestion from arthurcgusmao} in another issue stating one needs to set the \texttt{JUPYTER\_PATH} environment variable to resolve the \texttt{Kernel did not respond to kernel-info request} issue.
+\item Use scholium-based programs to run Listing 2\hfill{}\textsc{demofarm}
+\label{sec:orgd619381}
 
-It is simple to set the \texttt{JUPYTER\_PATH} environment variable via tramp
+This is a minimal \textbf{working} implementation of what we talk about in the paper.
 
-\begin{verbatim}
-(add-to-list 'tramp-remote-process-environment "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter")
-\end{verbatim}
+\item How do inferential connections work (I/R, I/E, etc.)?\hfill{}\textsc{demofarm}
+\label{sec:org9ef6084}
 
-however, this does not resolve the issue.
+E.g. fig. 7 of Lytinen.
 
-I originally tried to set the environment variable by passing a parameter to docker, but this did not work properly in the sense that if you check the value from inside the container it does not appear to be set despite what appears to be the appropriate docker flag for doing so.
+This is just for exposition, when talking about prior art it would be nice to know how they did it.
 
-\begin{verbatim}
-(push "-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter" docker-tramp-docker-options)
-(setq docker-tramp-docker-options
-      '("-e" "JUPYTER_PATH=/home/jovyan/.local/share/jupyter:/usr/local/share/jupyter:/usr/share/jupyter"))
-\end{verbatim}
-
-\item Debugging \texttt{jupyter-kernel-info}
-\label{sec:orgea00dbc}
-
-\texttt{jupyter-kernel-info} is the function from which the error \texttt{Kernel did not respond to kernel-info request} arises (see \href{https://github.com/nnicandro/emacs-jupyter/blob/403c70c83cb3754c83da0932b0efaf5e72bdca9a/jupyter-client.el\#L2066}{line 2066 of jupyter-client.el}).
-
-The stack trace for \texttt{jupyter-kernel-info}
-
-\begin{verbatim}
-Debugger entered--entering a function:
-jupyter-kernel-info(#<jupyter-org-client jupyter-org-client-1fe73d7aa114>)
-jupyter--error-if-no-kernel-info(#<jupyter-org-client jupyter-org-client-1fe73d7aa114>)
-jupyter-start-new-kernel("julia-1.5" jupyter-org-client)
-jupyter-run-repl("julia-1.5" nil nil jupyter-org-client)
-#f(compiled-function (session kernel) "Initiate a client connected to a remote kernel process." #<bytecode 0x1fe7435018f5>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-apply(#f(compiled-function (session kernel) "Initiate a client connected to a remote kernel process." #<bytecode 0x1fe7435018f5>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
-#f(compiled-function (&rest args) #<bytecode 0x1fe743520a15>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-apply(#f(compiled-function (&rest args) #<bytecode 0x1fe743520a15>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
-#f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>)()
-#f(compiled-function (cl--cnm session kernel) "Rename the returned client's REPL buffer to include SESSION's name.\nAlso set `jupyter-include-other-output' to nil for the session so\nthat output produced by other clients do not get handled by the\nclient." #<bytecode 0x1fe7434f577d>)(#f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>) #s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-apply(#f(compiled-function (cl--cnm session kernel) "Rename the returned client's REPL buffer to include SESSION's name.\nAlso set `jupyter-include-other-output' to nil for the session so\nthat output produced by other clients do not get handled by the\nclient." #<bytecode 0x1fe7434f577d>) #f(compiled-function (&rest cnm-args) #<bytecode 0x1fe7430d03fd>) (#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5"))
-#f(compiled-function (&rest args) #<bytecode 0x1fe743520a41>)(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-apply(#f(compiled-function (&rest args) #<bytecode 0x1fe743520a41>) #s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-org-babel-jupyter-initiate-client(#s(org-babel-jupyter-remote-session :name "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." :connect-repl-p nil) "julia-1.5")
-org-babel-jupyter-initiate-session-by-key("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
-#f(compiled-function (&optional session params) "Initialize a Jupyter SESSION according to PARAMS." #<bytecode 0x1fe7439bd0c1>)("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
-apply(#f(compiled-function (&optional session params) "Initialize a Jupyter SESSION according to PARAMS." #<bytecode 0x1fe7439bd0c1>) ("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5"))))
-org-babel-jupyter-initiate-session("/ssh:notebooks-vm.us-central1-f.quarere|docker:klt..." ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
-org-babel-execute:jupyter-julia("x = \"foo\"\ny = \"bar\"\nprintln(x)\nprintln(y)" ((:colname-names) (:rowname-names) (:result-params "replace") (:result-type . value) (:results . "replace") (:exports . "both") (:cache . "no") (:noweb . "no") (:hlines . "no") (:tangle . "no") (:eval . "never-export") (:async . "no") (:session . "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt...") (:kernel . "julia-1.5")))
-#f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>)(nil nil nil)
-ob-async-org-babel-execute-src-block(#f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>) nil)
-apply(ob-async-org-babel-execute-src-block #f(compiled-function (&optional arg info params) "Execute the current source code block.\nInsert the results of execution into the buffer.  Source code\nexecution and the collection and formatting of results can be\ncontrolled through a variety of header arguments.\n\nWith prefix argument ARG, force re-execution even if an existing\nresult cached in the buffer would otherwise have been returned.\n\nOptionally supply a value for INFO in the form returned by\n`org-babel-get-src-block-info'.\n\nOptionally supply a value for PARAMS which will be merged with\nthe header arguments specified at the front of the source code\nblock." (interactive nil) #<bytecode 0x1fe742a390dd>) nil)
-org-babel-execute-src-block(nil)
-(cond ((eq type 'headline) (cond ((memq (and (boundp 'org-goto-map) org-goto-map) (current-active-maps)) (org-goto-ret)) ((and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (toc-org-insert-toc) (message "Updating table of contents")) ((string= "ARCHIVE" (car-safe (org-get-tags))) (org-force-cycle-archived)) ((or (org-element-property :todo-type context) (org-element-property :scheduled context)) (org-todo (if (eq (org-element-property :todo-type context) 'done) (or (car ...) 'todo) 'done)))) (org-update-checkbox-count) (org-update-parent-todo-statistics) (if (and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (progn (toc-org-insert-toc) (message "Updating table of contents"))) (let* ((beg (if (org-before-first-heading-p) (line-beginning-position) (save-excursion (org-back-to-heading) (point)))) (end (if (org-before-first-heading-p) (line-end-position) (save-excursion (org-end-of-subtree) (point)))) (overlays (condition-case nil (progn (overlays-in beg end)) (error nil))) (latex-overlays (cl-find-if #'(lambda ... ...) overlays)) (image-overlays (cl-find-if #'(lambda ... ...) overlays))) (+org--toggle-inline-images-in-subtree beg end) (if (or image-overlays latex-overlays) (org-clear-latex-preview beg end) (org--latex-preview-region beg end)))) ((eq type 'clock) (org-clock-update-time-maybe)) ((eq type 'footnote-reference) (org-footnote-goto-definition (org-element-property :label context))) ((eq type 'footnote-definition) (org-footnote-goto-previous-reference (org-element-property :label context))) ((memq type '(timestamp planning)) (org-follow-timestamp-link)) ((memq type '(table-row table)) (if (org-at-TBLFM-p) (org-table-calc-current-TBLFM) (condition-case nil (progn (save-excursion (goto-char (org-element-property :contents-begin context)) (org-call-with-arg 'org-table-recalculate (or arg t)))) (error nil)))) ((eq type 'table-cell) (org-table-blank-field) (org-table-recalculate arg) (if (and (string-empty-p (string-trim (org-table-get-field))) (and (boundp 'evil-local-mode) evil-local-mode)) (progn (evil-change-state 'insert)))) ((eq type 'babel-call) (org-babel-lob-execute-maybe)) ((eq type 'statistics-cookie) (save-excursion (org-update-statistics-cookies arg))) ((memq type '(inline-src-block src-block)) (org-babel-execute-src-block arg)) ((memq type '(latex-environment latex-fragment)) (org-latex-preview arg)) ((eq type 'link) (let* ((lineage (org-element-lineage context '(link) t)) (path (org-element-property :path lineage))) (if (or (equal (org-element-property :type lineage) "img") (and path (image-type-from-file-name path))) (+org--toggle-inline-images-in-subtree (org-element-property :begin lineage) (org-element-property :end lineage)) (org-open-at-point arg)))) ((org-element-property :checkbox (org-element-lineage context '(item) t)) (let ((match (and (org-at-item-checkbox-p) (match-string 1)))) (org-toggle-checkbox (if (equal match "[ ]") '(16))))) (t (if (or (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t)) (call-interactively #'org-open-at-point) (+org--toggle-inline-images-in-subtree (org-element-property :begin context) (org-element-property :end context)))))
-(let* ((context (org-element-context)) (type (org-element-type context))) (while (and context (memq type '(verbatim code bold italic underline strike-through subscript superscript))) (setq context (org-element-property :parent context) type (org-element-type context))) (cond ((eq type 'headline) (cond ((memq (and (boundp ...) org-goto-map) (current-active-maps)) (org-goto-ret)) ((and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (toc-org-insert-toc) (message "Updating table of contents")) ((string= "ARCHIVE" (car-safe (org-get-tags))) (org-force-cycle-archived)) ((or (org-element-property :todo-type context) (org-element-property :scheduled context)) (org-todo (if (eq ... ...) (or ... ...) 'done)))) (org-update-checkbox-count) (org-update-parent-todo-statistics) (if (and (fboundp 'toc-org-insert-toc) (member "TOC" (org-get-tags))) (progn (toc-org-insert-toc) (message "Updating table of contents"))) (let* ((beg (if (org-before-first-heading-p) (line-beginning-position) (save-excursion ... ...))) (end (if (org-before-first-heading-p) (line-end-position) (save-excursion ... ...))) (overlays (condition-case nil (progn ...) (error nil))) (latex-overlays (cl-find-if #'... overlays)) (image-overlays (cl-find-if #'... overlays))) (+org--toggle-inline-images-in-subtree beg end) (if (or image-overlays latex-overlays) (org-clear-latex-preview beg end) (org--latex-preview-region beg end)))) ((eq type 'clock) (org-clock-update-time-maybe)) ((eq type 'footnote-reference) (org-footnote-goto-definition (org-element-property :label context))) ((eq type 'footnote-definition) (org-footnote-goto-previous-reference (org-element-property :label context))) ((memq type '(timestamp planning)) (org-follow-timestamp-link)) ((memq type '(table-row table)) (if (org-at-TBLFM-p) (org-table-calc-current-TBLFM) (condition-case nil (progn (save-excursion (goto-char ...) (org-call-with-arg ... ...))) (error nil)))) ((eq type 'table-cell) (org-table-blank-field) (org-table-recalculate arg) (if (and (string-empty-p (string-trim (org-table-get-field))) (and (boundp 'evil-local-mode) evil-local-mode)) (progn (evil-change-state 'insert)))) ((eq type 'babel-call) (org-babel-lob-execute-maybe)) ((eq type 'statistics-cookie) (save-excursion (org-update-statistics-cookies arg))) ((memq type '(inline-src-block src-block)) (org-babel-execute-src-block arg)) ((memq type '(latex-environment latex-fragment)) (org-latex-preview arg)) ((eq type 'link) (let* ((lineage (org-element-lineage context '... t)) (path (org-element-property :path lineage))) (if (or (equal (org-element-property :type lineage) "img") (and path (image-type-from-file-name path))) (+org--toggle-inline-images-in-subtree (org-element-property :begin lineage) (org-element-property :end lineage)) (org-open-at-point arg)))) ((org-element-property :checkbox (org-element-lineage context '(item) t)) (let ((match (and (org-at-item-checkbox-p) (match-string 1)))) (org-toggle-checkbox (if (equal match "[ ]") '(16))))) (t (if (or (org-in-regexp org-ts-regexp-both nil t) (org-in-regexp org-tsr-regexp-both nil t) (org-in-regexp org-link-any-re nil t)) (call-interactively #'org-open-at-point) (+org--toggle-inline-images-in-subtree (org-element-property :begin context) (org-element-property :end context))))))
-\end{verbatim}
-
-Printing the value of the \texttt{client} variable from inside \texttt{edebug} on \texttt{jupyter-kernel-info} yields
-
-\begin{verbatim}
-;; client  ;;pp-eval-last-sexp
-#s(jupyter-org-client
-   (#<finalizer>)
-   jupyter--clients "idle" 1 #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data
-                                           ())
-   nil #s(jupyter-channel-ioloop-comm
-          (#s(hash-table size 1 test eql weakness value rehash-size 1.5 rehash-threshold 0.8125 data
-                         (t #0)))
-          #s(jupyter-zmq-channel-ioloop
-             (#<finalizer>)
-             #<process zmq> nil
-             ((send
-               ((channel jupyter-channel)
-                msg-type msg msg-id)
-               ((list 'sent
-                      (oref channel type)
-                      (jupyter-send channel msg-type msg msg-id))))
-              (stop-channel
-               (type)
-               ((let
-                    ((channel
-                      (object-assoc type :type jupyter-channel-ioloop-channels)))
-                  (when
-                      (and channel
-                           (jupyter-channel-alive-p channel))
-                    (jupyter-stop-channel channel))
-                  (list 'stop-channel type))))
-              (start-channel
-               ((channel jupyter-channel)
-                endpoint)
-               ((when
-                    (jupyter-channel-alive-p channel)
-                  (jupyter-stop-channel channel))
-                (oset channel endpoint endpoint)
-                (let
-                    ((identity
-                      (jupyter-session-id jupyter-channel-ioloop-session)))
-                  (jupyter-start-channel channel :identity identity))
-                (list 'start-channel
-                      (oref channel type)))))
-             ((setq jupyter-channel-ioloop-session
-                    (jupyter-session :id "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7"))
-              (require 'jupyter-channel-ioloop)
-              (require 'jupyter-zmq-channel-ioloop)
-              (push 'jupyter-zmq-channel-ioloop--recv-messages jupyter-ioloop-post-hook)
-              (cl-loop for channel in
-                       '(:shell :stdin :iopub)
-                       unless
-                       (object-assoc channel :type jupyter-channel-ioloop-channels)
-                       do
-                       (push
-                        (jupyter-zmq-channel :session jupyter-channel-ioloop-session :type channel)
-                        jupyter-channel-ioloop-channels)))
-             ((mapc #'jupyter-stop-channel jupyter-channel-ioloop-channels)))
-          #s(jupyter-hb-channel :hb #s(jupyter-session
-                                       (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
-                                       "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
-                                "tcp://127.0.0.1:49243" #<user-ptr ptr=0x6000002f88a0 finalizer=0x10e782ed0> 10 ignore t t)
-          jupyter-zmq-channel-ioloop #s(jupyter-session
-                                        (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
-                                        "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
-          (:stdin #s(jupyter-proxy-channel "tcp://127.0.0.1:46591" t)
-                  :shell #s(jupyter-proxy-channel "tcp://127.0.0.1:60543" t)
-                  :iopub #s(jupyter-proxy-channel "tcp://127.0.0.1:52071" t)))
-   #s(jupyter-session
-      (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
-      "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
-   #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data
-                 ())
-   #s(jupyter-kernel-process-manager
-      (#<finalizer>)
-      jupyter--kernel-managers #s(jupyter-command-kernel
-                                  (#<finalizer>)
-                                  ("julia-1.5" "/ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:/home/jovyan/.local/share/jupyter/kernels/julia-1.5" :argv
-                                   ["/usr/bin/julia" "-i" "--startup-file=yes" "--color=yes" "--project=@." "/home/jovyan/.julia/packages/IJulia/tOM8L/src/kernel.jl" "{connection_file}"]
-                                   :env nil :display_name "Julia 1.5.1" :language "julia" :interrupt_mode "signal" :metadata nil)
-                                  #s(jupyter-session
-                                     (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
-                                     "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
-                                  #<process jupyter-kernel-julia-1.5>)
-      #s(jupyter-zmq-channel :control #s(jupyter-session
-                                         (:shell_port 60543 :iopub_port 52071 :stdin_port 46591 :control_port 37599 :hb_port 49243 :ip "127.0.0.1" :key "a1369b21-aa7ff7834dd1f3fa5f7108e7" :transport "tcp" :signature_scheme "hmac-sha256" :kernel_name "julia-1.5")
-                                         "38bcac68-f74f-4bd2-b1e7-998df7c14c4f" "a1369b21-aa7ff7834dd1f3fa5f7108e7")
-                             "tcp://127.0.0.1:37599" #<user-ptr ptr=0x6000002f8900 finalizer=0x10e782ed0>))
-   #<buffer  *jupyter-kernel-client*> nil "null" nil nil nil)
-\end{verbatim}
-
-When I check all of the existing kernel files, I find one whose kernel ID is different ( \texttt{14238987-f1b4-4049-982a-94012ddb7087} )from what is contained in the \texttt{client} variable ( \texttt{38bcac68-f74f-4bd2-b1e7-998df7c14c4f} ), but whose key and various ports are all correct.
-
-\begin{verbatim}
-/docker:klt-notebooks-vm-cjme:/home/jovyan/ #$ cat .local/share/jupyter/runtime/kernel-14238987-f1b4-4049-982a-94012ddb7087.json
-{
-  "shell_port": 60543,
-  "iopub_port": 52071,
-  "stdin_port": 46591,
-  "control_port": 37599,
-  "hb_port": 49243,
-  "ip": "127.0.0.1",
-  "key": "a1369b21-aa7ff7834dd1f3fa5f7108e7",
-  "transport": "tcp",
-  "signature_scheme": "hmac-sha256",
-  "kernel_name": "julia-1.5"
-}
-\end{verbatim}
-
-This suggests that the root of the problem is that the kernel ID is not being captured accurately. There is no kernel with an ID equivalent to the one that appears in the \texttt{client} variable, so it is not clear to me where the value that appears in the client variable is coming from. I don't know if there is any condition in which jupyter changes the kernel ID and leaves all other parameters the same.
-
-The issue appears to arise in \texttt{jupyter-make-client} (see \href{https://github.com/nnicandro/emacs-jupyter/blob/a9ae0bcef52a62cf7df520756d994162a0570156/jupyter-kernel-manager.el\#L141}{L141 in jupyter-kernel-manager.el}) when calling \texttt{make-instance class} for class \texttt{jupyter-org-client} which derives from \texttt{jupyter-repl-client} which derives from \texttt{jupyter-kernel-client}. The \texttt{session} is defined as an element of \texttt{jupyter-kernel-client} at \href{https://github.com/nnicandro/emacs-jupyter/blob/403c70c83cb3754c83da0932b0efaf5e72bdca9a/jupyter-client.el\#L215}{L215 of jupyter-client.el}.
+\begin{itemize}
+\item links between basic CD's
+\begin{itemize}
+\item e.g., joe communicated the IP address to ray, by talking, so that ray could get on the server
+\end{itemize}
+\end{itemize}
 \end{enumerate}
+
+\subsubsection{Next steps: Paper for IJCAI 2018}
+\label{sec:org721b2fa}
+\begin{enumerate}
+\item IJCAI 2018: Write up applications to mathematics\hfill{}\textsc{platform}
+\label{sec:org9fe26cb}
+Possibly for IJCAI/ECAI.
+Papers due \textbf{January 2018}? \url{http://www.chessprogress.com/IJCAI-2018/calls/}
+To take place \textbf{July 13-19, 2018}
+\item Demo the system walking through the steps of a proof like GCP or MPM.
+\label{sec:org0ea37cb}
+\item Demo with APM prelim problems
+\label{sec:orgdd98fd4}
+This might be a ``future work'' section for this paper.
+\item Demo with APM-Xi content
+\label{sec:orgf73f360}
+Show interface with types.
+\begin{itemize}
+\item E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Next steps: Paper for ICFP 2018}
+\label{sec:orgf9f0a5a}
+\begin{enumerate}
+\item ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs\hfill{}\textsc{platform}
+\label{sec:orgb402b25}
+Possibly submit to \href{http://conf.researchr.org/home/icfp-2018}{ICFP}. Papers due \textbf{Fri 16 Mar 2018}.
+Event to take place in St. Louis, Missouri, United States, to take place \textbf{late September}.
+\item Fuzzy search to retrieve loose matches and analogies
+\label{sec:org5c30e5e}
+\item Write a simple user language and an interface that generates triplets/quintuplets
+\label{sec:orge0adac3}
+\item Can the system come up with answers to new, basic, questions?
+\label{sec:orgb6f72d1}
+
+\begin{itemize}
+\item Inspired by Nuamah et al's geography examples
+\item Simple comparisons, like, how does this concept relate to that concept?  We informally talk about this as ``analogy'' between concepts.  But\ldots{}
+\end{itemize}
+
+\item Foldable views (like in Org mode) so that people can browse proofs
+\label{sec:orgafb26b0}
+
+\begin{itemize}
+\item This may come after the May submission
+\item Folding and unfolding the definitions of terms in something like an APM context is relevant example.  Just `unpacking' terms.
+\item Note that there is some relevant prior work in the ``Wikum'' paper of Amy Zhang et al
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Other next steps: from the Future Work section of our FARM paper}
+\label{sec:org0700fbc}
+
+This could potentially be used as the basis of an ERC fellowship
+proposal.  The ``2018'' version of the call was released August 3 2017,
+and is due October 17 2017.  Presumably the ``2019'' version of the call
+will be run on a similar timeline.  A long PDF describing the current
+call is here: \href{http://ec.europa.eu/research/participants/data/ref/h2020/other/guides\_for\_applicants/h2020-guide18-erc-stg-cog\_en.pdf}{h2020-guide18-erc-stg-cog\textsubscript{en.pdf}}.
+
+\begin{enumerate}
+\item Formal proof
+\label{sec:orgf08aa4a}
+\begin{enumerate}
+\item Demo the system walking through the steps of a proof like GCP or MPM.
+\label{sec:org9f30c7f}
+If we keep at it, might have this ready by January, in time for an
+IJCAI paper.
+\item Refine both representations and reasoning aspects.
+\label{sec:org3d46e4e}
+\item Integrate external computer algebra / proof checking systems.
+\label{sec:org562d83a}
+\end{enumerate}
+\item Embodiment and cognitive science
+\label{sec:orgc95b847}
+\begin{enumerate}
+\item Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
+\label{sec:org33e5da5}
+\end{enumerate}
+\item Linguistics and NLP
+\label{sec:org49375a9}
+\begin{enumerate}
+\item Integrate parsers to generate IATC+CD automatically.
+\label{sec:org4944289}
+\item Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
+\label{sec:org6104fed}
+\end{enumerate}
+\item Machine learning
+\label{sec:orgb8ab229}
+\begin{enumerate}
+\item Integrate with knowledge bases of mathematical terms and frequency data (as above).
+\label{sec:org1089867}
+\item Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
+\label{sec:orgf09c8c1}
+\item Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
+\label{sec:orgd5ac459}
+\end{enumerate}
+\end{enumerate}
+
+
 \section{Which model construction process works as a whole?}
-\label{sec:org697d105}
+\label{sec:orgb56487a}
 We are working in an applied way to build models, starting with data
 and using existing tools and methods, but without any strong guarantee
 that we will find the most effective methods right away. So, with
@@ -1210,16 +1157,16 @@ construction” generally understood. One example is building
 computational structures from natural language and technical texts.
 
 \subsection{Information extraction from SO Q\&A items}
-\label{sec:orgb03b0c4}
+\label{sec:orgba2594a}
 We are attempting to extract triples from textual Q\&A by using a
 Neural Machine Translation approach.
 
 \subsubsection{{\bfseries\sffamily BACKBURNER} Refinining OpenIE approach\hfill{}\textsc{deyan}}
-\label{sec:org3399357}
+\label{sec:org31b7b97}
 
 \begin{enumerate}
 \item Idea is we need a basic data model from which we can build things
-\label{sec:org5020379}
+\label{sec:orgebbacf5}
 
 \begin{itemize}
 \item User assistants
@@ -1229,7 +1176,7 @@ Neural Machine Translation approach.
 \end{enumerate}
 
 \subsubsection{GPT/BERT}
-\label{sec:orgdadb280}
+\label{sec:orgda99271}
 
 \begin{itemize}
 \item Are they relevant for this? Or are they just good for prettifying
@@ -1238,7 +1185,7 @@ text to do fun tricks?
 
 \begin{enumerate}
 \item Ontology papers in Stanford
-\label{sec:orga0f0270}
+\label{sec:orga4bb694}
 
 Pinpointing what can and can’t be done. E.g., phrase structure. Linear
 probes into the model, correlate weight structure of attention nodes
@@ -1255,7 +1202,7 @@ X), then you have an expectation that with 10K examples to fine-tune,
 you’ll get a decent outcome.
 
 \item Deyan’s prior notebooks
-\label{sec:org0a479c7}
+\label{sec:org8629629}
 
 Had borderline reasonable results, extracting triples that were
 linguistically plausible SVO triples.  But these weren’t business
@@ -1264,7 +1211,7 @@ ready.  It would get confused about extracting only a fragment
 concept extraction works.
 
 \item Play with rewrite rules?
-\label{sec:orgd30a11e}
+\label{sec:orgb42f960}
 \begin{itemize}
 \item Michael Kohlhase’s thesis deals with this (using unification)
 \item In language land, rewrites are just translations
@@ -1275,20 +1222,20 @@ In a serious program language setting, Python 3.7, we’ll use the abstract
 syntax tree of Python, doing formal bits
 
 \item Categorise: Q or A?
-\label{sec:org74b8c19}
+\label{sec:org4cb530c}
 \begin{itemize}
 \item A/B test explanations?
 \item “Grammarly” for SO (but this is 2-3 times harder than improving documentation)
 \end{itemize}
 \item Extracting metadata
-\label{sec:orgb00360a}
+\label{sec:orgcaa1df1}
 \begin{enumerate}
 \item Given text as question answer, provide as much metadata as possible
-\label{sec:orgdb70773}
+\label{sec:orge17ba68}
 \item Instead of triples, care about words that may not even be in there
-\label{sec:orgd7442ae}
+\label{sec:org8bb76f1}
 \item Google Photos
-\label{sec:org3460fae}
+\label{sec:orgfca07fb}
 They’ve used individual classifiers for any label of interest “church”, “cheesecake”.
 They have many NN classifiers, one for each photo.
 
@@ -1298,17 +1245,17 @@ This shines b/c you can annotate people with names.  If I search for
 This would be a bit intense if you have 1 million data for 2m gigabytes of address space.
 \end{enumerate}
 \item Map: Q’s to A’s and vice versa
-\label{sec:orgaf52a0b}
+\label{sec:org889c681}
 \item Identify duplicate answers
-\label{sec:org60800c7}
+\label{sec:orgfc428dc}
 If someone answers, people don’t ask.
 \item Identify relevant answers
-\label{sec:org7d5e68a}
+\label{sec:org993f2f7}
 \begin{enumerate}
 \item CL: match “I’m buying what someone is selling”
-\label{sec:org756a9fd}
+\label{sec:orgd5bde51}
 \item Iterating or recursively doing this as a tree
-\label{sec:org2fe0ce0}
+\label{sec:orgc2f0147}
 
 \begin{itemize}
 \item \texttt{(A (B (C D E F)))}
@@ -1334,10 +1281,10 @@ JC: Q/A can also be seen as a link.
 \end{enumerate}
 
 \item Route questions based on expertise
-\label{sec:org616763c}
+\label{sec:org3d5630c}
 This is something that people have looked at.
 \item Why have a man page if you could turn SO into man pages that interact?
-\label{sec:org611787d}
+\label{sec:org185c127}
 In general docs are trash, so you google and use SO for tasks.
 Pandas docs are almost intentionally obfuscated, the examples are useless.
 
@@ -1347,7 +1294,7 @@ But could I improve the documentation itself?
 
 \begin{enumerate}
 \item Autogenerate better documentation for python
-\label{sec:org2e39574}
+\label{sec:org8eb0018}
 \begin{itemize}
 \item Python is ubiquitous and there are a lot of SO
 \item There could also be demand
@@ -1355,25 +1302,25 @@ But could I improve the documentation itself?
 \end{itemize}
 \end{enumerate}
 \item Validating GPT as usable or not usable in\ldots{}?
-\label{sec:org5d9dd4c}
+\label{sec:org1833e6a}
 There’s a terminal that uses GPT. You could describe your CSS
 and it changed an English description into a webpage template.
 \item Given a schema it can generate a query.
-\label{sec:org20c88cf}
+\label{sec:orgc43e395}
 There are text summarisation quips (e.g., generate abstracts).
 
 \item If you extracted information this way we could use STAN to validate a hypothesis
-\label{sec:orge4140e7}
+\label{sec:org6b40f73}
 E.g. get estimates about sizes of groups on SO.
 \item Pie-in-the-sky
-\label{sec:org346161a}
+\label{sec:org99000b1}
 You could use nonparametric Bayesian models to ‘tame’ a neural network
 and make it interpretable.  You can put it into an end-to-end
 differentiable system, alternate generalisable with model structure.
 
 \emph{Tangled Program Graphs}
 \item “Hate speech”
-\label{sec:orged0c9ba}
+\label{sec:org47d9937}
 ``How do I solve this sort in Python''
 If I reply enough with Haskell, you can see I’m galling him\ldots{} this is so much easier in Haskell.
 You can go w/ stable differences when these 2 user are interacting.
@@ -1382,7 +1329,7 @@ This is a high-quality answer but in the context of all the answers
 and questions, you find it’s actually hate speech.
 \begin{enumerate}
 \item Friendworld
-\label{sec:org4b5fe19}
+\label{sec:org7658e52}
 It’s about frogs that are friendly. This is a Pepe the frog
 meme. They’d post melancholy or fun frog\ldots{}
 
@@ -1395,7 +1342,7 @@ If you’re looking for honest learning exachanges they are more mundane.
 E.g., \textbf{account for poor wording}.
 
 \item BUT\ldots{} Humans are good at understanding this but computers aren’t.
-\label{sec:org113a368}
+\label{sec:orga700ca4}
 
 People were pointing out the subtle stuff, the problem was that there
 wasn’t enough investment to do anything about it.
@@ -1419,19 +1366,19 @@ You could do tricks, people started using \texttt{\#proudboys} for something
 else.
 
 \item Example: how does responding to hate speech influence things?
-\label{sec:org7bf8057}
+\label{sec:orga7a462c}
 
 Study tracking activity and challenges as to whether people continue
 posting hate speech.
 
 \item “Consider writing this in a more assertive way”
-\label{sec:org11db996}
+\label{sec:org660494d}
 I wonder if possibly\ldots{}
 
 Guess the degree of someone by reading their email
 \end{enumerate}
 \item Automatically generating docs from type signature
-\label{sec:org7ac9663}
+\label{sec:org1aef907}
 Maybe going for a language with static types could be a way to combine
 free association in the structured data.
 
@@ -1448,7 +1395,7 @@ Put in integers, get output. Generate wrong unit tests.
 
 
 \subsubsection{Overall commments}
-\label{sec:org79e00fc}
+\label{sec:orge4e1c23}
 
 These are translation or compression style problems.
 
@@ -1465,9 +1412,9 @@ table. What if there are multiple tables w/ similar names?
 If you put leashes on these things, using solid methods. 
 
 \subsubsection{We didn’t get one simple}
-\label{sec:org958c427}
+\label{sec:orgdf6b970}
 \subsection{Knowledge graph}
-\label{sec:orgd8a5653}
+\label{sec:org496c71a}
 Once we have a model of knowledge from Q\&A items, e.g., in the form of
 triples. we will want to be able to do something with this material.
 One way in which it may be useful is in combination with an existing
@@ -1476,7 +1423,7 @@ Net.  We may also have to make some of our own Concept Net-like
 graphs.
 
 \subsubsection{Practical work}
-\label{sec:orgeeedf98}
+\label{sec:orgc9f04a5}
 
 We can already take some practical steps here, along the lines of the
 earlier papers ``Modelling the way mathematics is actually done'' and
@@ -1484,45 +1431,45 @@ earlier papers ``Modelling the way mathematics is actually done'' and
 mathematical question and answer dialogues''.
 
 \subsubsection{{\bfseries\sffamily STARTED} Analyse a small sample of examples from s.o.\hfill{}\textsc{joe}}
-\label{sec:org33a595a}
+\label{sec:orgc1e7d4c}
 \section{Underlying foundation}
-\label{sec:orge89ac66}
+\label{sec:org6276377}
 We believe that category-theoretic foundations will help us make
 progress across different representations of code, process, model
 building, and so on.
 
 \subsection{Category theoretic glue}
-\label{sec:orgfa4c8bd}
+\label{sec:org7eb9b9f}
 We want to develop enough theory that we can use it to frame our
 experiments.  We are trying to do this in a computationally meaningful way.
 
 \subsubsection{Feature: Understand comma categories as a potential “backend”\hfill{}\textsc{ray:zans}}
-\label{sec:org834be5d}
+\label{sec:org8d03f10}
 
 \subsection{Probabilistic programming for scientific modelling}
-\label{sec:org2194b9e}
+\label{sec:org9f330e5}
 Probabilistic programming is useful within both scientific modelling,
 and, potentially, as part of a program synthesis toolkit.
 
 \subsubsection{Feature: relationship between probabilistic programming and categories\hfill{}\textsc{zans:cameron}}
-\label{sec:org4f711b9}
+\label{sec:org2b4ecd9}
 \section{POTENTIAL PRODUCTS}
-\label{sec:org3c48741}
+\label{sec:org5db8905}
 Synthesis of some of our \emph{projects} could lead to marketable \emph{products}.
 
 \subsection{Agent model}
-\label{sec:orgc8de9c0}
+\label{sec:orge202537}
 One of our central intentions is to instantiate our work in an agent
 model of Q\&A and programming.  This is based on Alan Turing’s
 suggestion that computers could talk with each other to sharpen their
 wits.
 \subsection{Recommender System}
-\label{sec:orgf92b988}
+\label{sec:org36b2ab7}
 We could consume various analyses of Stack Exchange data to make
 recommendations.
 
 \subsubsection{Possible implementation strategy: build on a version of GPT fine-tuned on SO Q\&A tasks}
-\label{sec:org0198c22}
+\label{sec:orge5f4d8a}
 
 Could we set up a simple version of \textbf{GPT} trained on Stack Overflow
 data, just to get it working? Then think about how to get a learning
@@ -1530,7 +1477,7 @@ loop set up to improve the results\ldots{}
 
 \begin{enumerate}
 \item Ideas
-\label{sec:orge59cc79}
+\label{sec:org8cca912}
 
 \begin{itemize}
 \item Could this at least help a human navigate the questions on Stack Exchange?
@@ -1540,7 +1487,7 @@ that to guide search (by combining generation with document similarity)
 \end{itemize}
 
 \item Precedents
-\label{sec:org42e49db}
+\label{sec:org38125a0}
 
 \begin{itemize}
 \item \href{https://stackroboflow.com/about/index.html}{Stack Roboflow} creates ersatz Q\&A using \texttt{AWD\_LTSM}.  Surely we can do better?
@@ -1548,19 +1495,19 @@ that to guide search (by combining generation with document similarity)
 \end{itemize}
 
 \item Analogue
-\label{sec:org4202961}
+\label{sec:orgfce6ebf}
 
 In parsing, it's not just edit distance but has to involve the grammar
 
 \item Case against going too deep:
-\label{sec:org8d24d50}
+\label{sec:org88c74e1}
 
 \begin{itemize}
 \item Code generation is hard
 \end{itemize}
 
 \item Case against worrying about that:
-\label{sec:org91dee56}
+\label{sec:orgfa27c6b}
 
 \begin{itemize}
 \item Worry instead about applications like generating learning packets
@@ -1571,11 +1518,11 @@ In parsing, it's not just edit distance but has to involve the grammar
 \end{itemize}
 
 \item Application of the model: Display SO with similarity graph
-\label{sec:orgc5f6472}
+\label{sec:orgcc9f9b7}
 E.g., use generated answers to help identify ‘similarity’.
 
 \item Related work
-\label{sec:org8bc8d46}
+\label{sec:org64de3f7}
 
 \begin{itemize}
 \item \url{https://github.com/stared/tag-graph-map-of-stackexchange/wiki} presents a nice-looking map of the relationship between tags.
@@ -1583,17 +1530,17 @@ E.g., use generated answers to help identify ‘similarity’.
 \end{enumerate}
 
 \subsubsection{Feature: Initial import of SO for training\hfill{}\textsc{tim}}
-\label{sec:orgc3c7675}
+\label{sec:org32f037d}
 
 \subsection{Visual Interfaces}
-\label{sec:org7e27bed}
+\label{sec:org8f293f1}
 \subsubsection{Graphical flow for programs}
-\label{sec:org437746f}
+\label{sec:org4d25cb9}
 
 Can we model more general program flow in a similar fashion to Monocl?
 
 \subsubsection{Limitations}
-\label{sec:org05ef876}
+\label{sec:org11caaae}
 
 The idea of graphical programming languages is linked with the
 \href{https://en.wikipedia.org/wiki/Deutsch\_limit}{Deutsch limit} (named for noted programmer \href{https://en.wikipedia.org/wiki/L.\_Peter\_Deutsch}{L Peter Deutsch}, not
@@ -1604,7 +1551,7 @@ physicist \href{https://en.wikipedia.org/wiki/David\_Deutsch}{David Deutsch FRS}
 \end{quote}
 
 \subsubsection{Automatically create visual interfaces}
-\label{sec:orgcc88b3a}
+\label{sec:org1e413c1}
 
 Here's an idea: assuming we have enough text mining pixie dust (on
 corpora of linux man pages, and stack overflow questions/forum posts
@@ -1613,7 +1560,7 @@ about linux commands), it might be possible to do:
 \texttt{user:\textasciitilde{}\$ make-gui-for ls -{}-output ls.py}
 
 \subsubsection{Feature: Build infra for generating and displaying graphs.}
-\label{sec:orga048f42}
+\label{sec:org5e6c326}
 
 E.g., we can generate graphs based on code flow.
 
@@ -1626,7 +1573,7 @@ E.g., we can generate graphs based on code flow.
 This would then be related to the visual code walk through feature described below.
 
 \subsubsection{Feature: Visual code walk through}
-\label{sec:org883cc62}
+\label{sec:orga87663f}
 
 Ray is working on a visual code walk through.  This should be seen as
 another interface to the same basic underlying information, sort of
@@ -1635,7 +1582,7 @@ Server.
 
 \begin{enumerate}
 \item General evaluation strategy for these demos:
-\label{sec:orgd094528}
+\label{sec:org19211a7}
 
 \begin{itemize}
 \item \emph{‘Would anyone want to use this?’}
@@ -1644,7 +1591,7 @@ Server.
 \end{itemize}
 
 \item Related work
-\label{sec:org2b8bdb8}
+\label{sec:org7874cf6}
 
 \begin{description}
 \item[{MAUDE framework.}] You describe your programming language using
@@ -1657,14 +1604,14 @@ a minimum trace, showing where your bug can be found.
 \end{description}
 \end{enumerate}
 \subsection{Data course}
-\label{sec:org49aacbc}
+\label{sec:orgb3598a2}
 There's a new book available from the group affiliated with STAN.  It
 doesn't go very far, but it has tons of examples.  They have data sets
 about all sorts of stuff.  So the idea would be to take, e.g., the
 notebook on linear regression, and go through\ldots{}
 
 \subsubsection{Idea}
-\label{sec:orgdf22a83}
+\label{sec:orgfd51e95}
 
 Start with a method, then go through lots of examples.  Make this
 consistent with the way we would teach HtDP.
@@ -1672,14 +1619,14 @@ consistent with the way we would teach HtDP.
 ``Here's a data set, here's a method that would make sense to apply.''
 
 \subsubsection{A quandry}
-\label{sec:orga865a86}
+\label{sec:org7a0de50}
 
 Note that hand-coding of a curriculum vs making a general framework
 that anyone can contribute to (e.g., to make their own curricula) are
 pretty different things.  We will sort out this ambiguity later.
 
 \subsubsection{Sources}
-\label{sec:org2895010}
+\label{sec:org1cbe35a}
 
 There are tons of great data sets, but the issue would be digging into
 the details of some of them.  The real issue is coordinating.  We want
@@ -1691,7 +1638,7 @@ linear regression, and working up to things like Lotka-Voltera model.
 \end{itemize}
 
 \subsubsection{How to build up to this?}
-\label{sec:org35491a3}
+\label{sec:orgb8fab26}
 
 \begin{itemize}
 \item E.g., setting up the pre-requisites of the platform
@@ -1704,14 +1651,14 @@ linear regression, and working up to things like Lotka-Voltera model.
 \end{itemize}
 
 \subsubsection{Assumptions}
-\label{sec:org0fbca79}
+\label{sec:orgf5a444f}
 
 \begin{itemize}
 \item Keep platform open source, assume people would want to use
 \end{itemize}
 
 \subsubsection{Comments}
-\label{sec:org7ba65e9}
+\label{sec:org9c76af3}
 
 \begin{itemize}
 \item Platform is quite a general word, but in a way we are trying to make something easier
@@ -1723,7 +1670,7 @@ linear regression, and working up to things like Lotka-Voltera model.
 \end{itemize}
 
 \subsubsection{Status}
-\label{sec:org4b058ea}
+\label{sec:org7a7d491}
 
 \begin{itemize}
 \item Cameron has code to set up a multicluster platform available off the shelf that we can start with
@@ -1736,21 +1683,21 @@ linear regression, and working up to things like Lotka-Voltera model.
 \end{itemize}
 
 \subsubsection{Reference}
-\label{sec:org02bc409}
+\label{sec:org1d4c41b}
 
 \begin{itemize}
 \item Michael Betancourt: Towards a principled bayesian workflow
 \end{itemize}
 \subsection{Paperspace DO NJ etc. Collaboratory}
-\label{sec:orgb4721f8}
+\label{sec:orgb5e5146}
 This would be a potential user-facing product in which we could deploy
 various curricula, share various tools for interacting with
 scientific/computational models, and build a “knowledge hub” of people
 who could do scientific work.
 \section{BUSINESS DEVELOPMENT}
-\label{sec:org81714a1}
+\label{sec:org15bfebc}
 \subsection{Relationship to purpose}
-\label{sec:org7875d1b}
+\label{sec:org2aedfb3}
 
 Understanding how the business activities relate to the purpose?  We
 might do things that appear unrelated what we say at \textbf{Why not what} to
@@ -1762,7 +1709,7 @@ we have a successful business we will pour \emph{x\%} into research,” but in
 any case we should clarify this.
 
 \subsection{Roughly B2C}
-\label{sec:orgfe8ea95}
+\label{sec:orgd8f322f}
 
 \begin{itemize}
 \item Launch some version of the Emacs Hyper Notebook as a cloud service. (Build it first and test it first.)
@@ -1773,7 +1720,7 @@ any case we should clarify this.
 \end{itemize}
 
 \subsection{B2B}
-\label{sec:orga0b6f5d}
+\label{sec:org82a03d4}
 
 \begin{itemize}
 \item \textbf{Agent model} (software as a service format): We can run our agent model to generate new code or other insights. People can pay for compute plus a premium for quality.
@@ -1785,7 +1732,7 @@ any case we should clarify this.
 \end{itemize}
 
 \subsection{Different kinds of users}
-\label{sec:org1706ee7}
+\label{sec:org62b6797}
 
 If we want to build a business, we should focus on who our target
 users actually are, and what problems we can solve for them.
@@ -1800,7 +1747,7 @@ for example, are the users/customers:
 Broad categories of users are surveyed in the \textbf{Downstream}.
 
 \subsection{Related work}
-\label{sec:org49418f3}
+\label{sec:orgb4faf8f}
 
 \begin{itemize}
 \item Be wary of competing with things like Roam, though some level of competition is intrinsic in business.
@@ -1808,15 +1755,15 @@ Broad categories of users are surveyed in the \textbf{Downstream}.
 \end{itemize}
 
 \subsection{Upstream}
-\label{sec:orgeec28c7}
+\label{sec:org4adbe72}
 
 This is a place to keep track of the upstream tickets we’re interested
 in.  Our ability to resolve some of these issues might suggest that we
 have an ability to deliver things that are useful to other people and
-would therefore be a step in the direction of \hyperref[sec:org81714a1]{BUSINESS DEVELOPMENT}.
+would therefore be a step in the direction of \hyperref[sec:org15bfebc]{BUSINESS DEVELOPMENT}.
 
 \subsubsection{emacs-jupyter}
-\label{sec:orgc03d5b6}
+\label{sec:org62d4b80}
 
 \begin{itemize}
 \item \href{https://github.com/nnicandro/emacs-jupyter/issues/296}{:id not set in jupyter-start-kernel \#296}
@@ -1824,13 +1771,67 @@ would therefore be a step in the direction of \hyperref[sec:org81714a1]{BUSINESS
 \end{itemize}
 
 \subsubsection{Firn}
-\label{sec:orge76928f}
+\label{sec:org6fbf0cb}
 
 \begin{itemize}
 \item \href{https://github.com/theiceshelf/firn/issues/57}{links inside :noexport subtrees shouldn't generate backlinks in their targets \#57}
 \end{itemize}
+\subsection{Grant development}
+\label{sec:org08ccc8f}
+
+One way to do \hyperref[sec:org15bfebc]{BUSINESS DEVELOPMENT} could be through grant development
+to help bootstrap initial outputs.
+
+A sensible place to get some grant funding connected into the themes
+around this work would be through Joe’s appointment as a Research
+Fellow at Oxford Brookes University’s Ethical AI Institute.
+
+One of the constraints here is that that’s a 2-year appointment, and
+some grants (but not all) require the PI to be a permanent employee.
+But this constraint is something we could relatively easily work with.
+
+\subsubsection{EPSRC: Mathematical Sciences Small Grants}
+\label{sec:org4be07a4}
+
+This is for projects of up to £80K.
+
+\url{https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/}
+
+\begin{enumerate}
+\item ``Inducing a mathematics encyclopedia out of Arxiv''
+\label{sec:orgf0be046}
+We talked about following on from the Open Information Extraction
+theme possibly in connection with the new preprint “Language Models
+are Open Knowledge Graphs” (and the associated video \href{https://www.youtube.com/watch?v=NAJOZTNkhlI}{review}).  This is
+close to Deyan’s expertise and would build on his previous work.
+
+\begin{quote}
+\textbf{*Deyan}: ``Accurate entity linking is desired.'' (video min 43) -- hey,
+they honestly admit this in the paper! This was my stopping point with
+the jupyter notebook as well i believe, I would like to get the neural
+model to ``ace'' that part of the job before moving further. [\ldots{}]  ok,
+so after watching the entire review, I can conclude if I arrive at a
+reliably successful method following my initial notebooks, and apply
+them to arXiv and/or SE there's certainly a paper in there. Their
+suggestions from the paper aren't actually that useful sadly, just
+confirming some basic practical tricks (using last attention layer,
+constraining with beam search and using language priors for the triple
+content) that were already known
+\end{quote}
+\item ``Mining informal proof structure''
+\label{sec:org17e2b2a}
+This would be a somewhat similar line of work but more along the lines
+of what we did in the FARM paper.  We discussed the advant
+
+\item Maybe we could move in another more formal (category theoretic) direction
+\label{sec:org703bd0a}
+Maybe we could build out some of the ideas that Zans and Ray have been
+discussing. Potentially this could also involve
+\end{enumerate}
+\subsubsection{{\bfseries\sffamily TODO} Outline(s) for small grants\hfill{}\textsc{joe}}
+\label{sec:orgc4e0996}
 \section{RESEARCH OUTPUTS}
-\label{sec:org193f1e7}
+\label{sec:orge8facfb}
 We would like to publish some papers, though as Deyan points out we
 should only do this when we have high-quality results:
 
@@ -1841,7 +1842,7 @@ Deyan: \emph{Every paper that is published for the sake of an academic's publica
 So, what can we do without shortcuts?
 
 \subsection{Advances in tutoring systems for programming}
-\label{sec:orgaa77ffd}
+\label{sec:org3f7ac0e}
 This would be a survey paper that would inform our efforts to \textbf{Teach arbitrary coding}.
 Follow references, start with ‘AI and tutoring’.
 
@@ -1850,16 +1851,16 @@ Follow references, start with ‘AI and tutoring’.
 \item (2008) ``A novel approach for constructing conversational agents using sentence similarity measures''
 \end{enumerate}
 \subsection{Advances in knowledge mining from technical documents}
-\label{sec:org046d87b}
+\label{sec:orgb3b3fed}
 This would be a survey paper that would inform our efforts on
 \textbf{*Information extraction from SO Q\&A items} and the \textbf{Knowledge graph}
 approach.  Note that if we can find survey papers that others have
 done, that’s pretty much just as useful, and saves us a bunch of time.
 
 \subsubsection{{\bfseries\sffamily STARTED} Reading ``Machine Knowledge'' paper\hfill{}\textsc{deyan}}
-\label{sec:org7aab00e}
+\label{sec:org7d70753}
 \subsection{An ABM of the computer programming domain}
-\label{sec:org29fbba5}
+\label{sec:org2196249}
 This would be a paper writing up our agent model work.
 
 The paper could also correspond to a “whitepaper” that talks about how
@@ -1867,7 +1868,7 @@ we are able to “mine” computer programs automatically.  This would
 contribute to a long-term business in automated programming (and
 potentially other kinds of automation work).
 \section{Bottom}
-\label{sec:orga1f54e6}
+\label{sec:orgc57a5db}
 By the time we get to this point, we will have established some
 impressive research outputs, a potentially profitable business, and a
 teaching/upskilling platform for technical and scientific topics.
@@ -1879,10 +1880,10 @@ teaching/upskilling platform for technical and scientific topics.
 \end{figure}
 
 \subsection{Downstream}
-\label{sec:orgfe88e39}
+\label{sec:org0b8ed8b}
 What do our potential users look like?
 \subsection{Consulting clients}
-\label{sec:orgb27f09a}
+\label{sec:orgd5e9b79}
 We discussed the idea of doing consulting for clients who are
 interested in using scientific models.
 
@@ -1890,7 +1891,7 @@ interested in using scientific models.
 \item \href{0caba40b-2561-4143-b2b1-55f3ddc3201b}{Play through again as a consulting client}
 \end{itemize}
 \subsection{Scientific software developers}
-\label{sec:orgb13ae5f}
+\label{sec:org473b39e}
 We imagine some software developers consuming “tutorial” content we
 produce, and improving their skills and abilities as a result.
 
@@ -1898,7 +1899,7 @@ produce, and improving their skills and abilities as a result.
 \item \href{0caba40b-2561-4143-b2b1-55f3ddc3201b}{Play through again as a scientific software developer}
 \end{itemize}
 \subsection{Automated tutoring system users}
-\label{sec:org2e4e1b1}
+\label{sec:org5ed21a0}
 We imagine some students using AI software we develop.  In some cases
 they could be “students”.  In other cases, they could already be
 professional developers.
@@ -1907,7 +1908,7 @@ professional developers.
 \item \href{0caba40b-2561-4143-b2b1-55f3ddc3201b}{Play through again as an automated tutoring system user}
 \end{itemize}
 \subsection{Programmers}
-\label{sec:org671b655}
+\label{sec:org00b924a}
 We imagine any programmer having some use for our tools.  “B2D”
 (Business to Developer) is an emerging category of enterprise where we
 can do interesting things.
@@ -1916,7 +1917,7 @@ can do interesting things.
 \item \href{0caba40b-2561-4143-b2b1-55f3ddc3201b}{Play through again as a programmer}
 \end{itemize}
 \section{Organisational infrastructure}
-\label{sec:org32bad29}
+\label{sec:orgc772ad9}
 This section is mildly-technical appendix.  It looks at our
 organisational infrastructure itself, including simple things like the
 technologies we use for communication, and more involved things like
@@ -1925,7 +1926,7 @@ splitting off into its own separate wiki, if for no other reason than
 that it takes up a lot of space in the generated PDF.)
 
 \subsection{Schedule and activities}
-\label{sec:org80d0231}
+\label{sec:org9ccf68c}
 
 Presently we are meeting 20 minutes a day at 4PM UK time, 11AM
 Eastern, on Discord for a “coffee chat”.
@@ -1958,7 +1959,7 @@ As another activity we may want to get scheduled one or more sessions
 focused on business stuff.
 
 \subsection{Project orientation}
-\label{sec:org0ab22a9}
+\label{sec:orgb8bfc38}
 
 Some of this will be different depending on whether we think of this
 as a “business”, or as “a business of some specific nature”: primarily
@@ -2036,7 +2037,7 @@ centring on “who does this business do business with?”
 \end{itemize}
 
 \subsubsection{Project Management Hygiene}
-\label{sec:org6c2d77b}
+\label{sec:orgec9a03f}
 
 \begin{itemize}
 \item set SMART goals (Specific, Measurable, Achievable, Relevant and Time-based)
@@ -2049,50 +2050,50 @@ centring on “who does this business do business with?”
 \end{itemize}
 
 \subsubsection{{\bfseries\sffamily TODO} Make a list of actual topics of interest\hfill{}\textsc{ALL}}
-\label{sec:org79077b5}
+\label{sec:orgfa050db}
 If we were just doing “content production” we might think of a list of
 chapters to write, or podcasts to produce. However, maybe those ways
 of thinking and working don’t apply comfortably here.
 
 \subsubsection{{\bfseries\sffamily TODO} Make a project analysis of active projects\hfill{}\textsc{joe:ray}}
-\label{sec:org739146d}
+\label{sec:orge4ab61d}
 
 \subsection{Technology}
-\label{sec:orga9c4764}
+\label{sec:org9eaa42f}
 
 Does \url{https://github.com/orgs/exp2exp/projects/1} conflict, replace, or
 serve a different function compared with Org mode agenda items?  
 
 \subsubsection{{\bfseries\sffamily DONE} Figure out Github project(s) vs Org todos\hfill{}\textsc{joe:cameron}}
-\label{sec:orgc324385}
+\label{sec:orge3605b9}
 
 We won’t use Github stuff right now.  That’s better for dealing with a
 public-facing contribution workflow when we have actual open source
 things running with contributors.
 
 \subsection{Discord server}
-\label{sec:org52d4ea5}
+\label{sec:orgc0546a6}
 We set up a Discord server that we’re using for our meetings.  This
 invite link should not expire: \url{https://discord.gg/pArjt4p}
 
 (We also have a Zulip server set up, but currently we’re using it
 less.)
 \subsection{OBS recordings}
-\label{sec:org959fc0b}
+\label{sec:orge6b19b3}
 We talked about creating asyncronous recordings (screencasts,
 audio). We also talked about possibly putting the audio recordings
 into a threaded voice mail forum, but that's a somewhat different
 application.
 
 \subsection{Code sharing platform}
-\label{sec:org8299610}
+\label{sec:org63fd4a1}
 For now we have a Github organisation (\url{https://github.com/exp2exp}), as
 well as a separate repo that contains these Org Roam notes, among
 other things.  This could potentially be improved or upgraded in
 various ways.
 
 \subsubsection{Comments}
-\label{sec:org4804dec}
+\label{sec:org034dd32}
 
 \begin{itemize}
 \item Nextjournal is interesting
@@ -2104,14 +2105,14 @@ various ways.
 \end{itemize}
 
 \subsubsection{What if you had a browser based version of Org Bable?}
-\label{sec:org84225e6}
+\label{sec:orga49fdee}
 
 \begin{itemize}
 \item You could have your notebook, backed by the ability to use Emacs
 \end{itemize}
 
 \subsubsection{Examples}
-\label{sec:orgc1b3f04}
+\label{sec:orgcc66c0e}
 
 \begin{itemize}
 \item Setting up a data science experiment
@@ -2120,7 +2121,7 @@ various ways.
 \end{itemize}
 
 \subsubsection{Next evolution}
-\label{sec:orgc7cb6bf}
+\label{sec:orgc772808}
 
 We need a basic code sharing platform to get to work.  The next
 evolution might look like what we’ve been calling the “Emacs Hyper
@@ -2128,7 +2129,7 @@ Notebook”?  However, some contributors are not interested in using
 Emacs for everything.  And we can’t assume that users would be
 interested in it either!
 \subsection{Wiki}
-\label{sec:org50e0894}
+\label{sec:org19aff6f}
 The public facing version of these notes is available on a simple web
 interface, created by firn: \href{https://exp2exp.github.io/}{https://exp2exp.github.io/}. This mirrors
 the contents of our Org Roam directory.  Editing is explained below.
@@ -2147,7 +2148,7 @@ like Metacademy.  For now, we describe how to use this simple Org Roam
 based wiki.
 
 \subsubsection{Access}
-\label{sec:org9809287}
+\label{sec:orgaf1cbb9}
 
 Obtain the sources by cloning the repo at \href{https://github.com/exp2exp/exp2exp.github.io}{https://github.com/exp2exp/exp2exp.github.io}.
 
@@ -2158,7 +2159,7 @@ git clone git@github.com:exp2exp/exp2exp.github.io.git
 (See below for an alternative.)
 
 \subsubsection{Mob branch on repo.or.cz}
-\label{sec:org45176ce}
+\label{sec:org5f021ae}
 
 We’re mirroring the repo to an environment that allows anonymous
 commits (without need for further permissioning).  If want to
@@ -2167,7 +2168,7 @@ contribute anonymously, info on that is here: \href{https://bit.ly/2EQRHEF}{http
 You can review commits to the mob branch here: \href{https://repo.or.cz/arxana.git/shortlog/refs/heads/mob}{https://repo.or.cz/arxana.git/shortlog/refs/heads/mob}
 
 \subsubsection{Setup}
-\label{sec:orgc7a32ea}
+\label{sec:org1bb6d48}
 
 Install Org Roam if needed (\texttt{M-x package-install RET org-roam RET}).
 
@@ -2187,7 +2188,7 @@ Subsequently, add this to your Emacs configuration:
 (org-roam-mode +1)
 \end{verbatim}
 \subsubsection{Bonus feature: org-roam-checkout}
-\label{sec:orgcfb22d2}
+\label{sec:orgdda0de2}
 
 If you regularly use your own separate Org Roam setup, you can use
 this simple context switcher to move between the two.  Keep track of
@@ -2215,7 +2216,7 @@ and then switch between them interactively with \texttt{org-roam-checkout}.
 \end{verbatim}
 
 \subsubsection{Interaction}
-\label{sec:org401d631}
+\label{sec:orga1dab5a}
 
 Use the \texttt{C-c n f} keyboard command to add new disconnected nodes to
 the graph, or use \texttt{C-c n i} to create a page and insert a wiki-style
@@ -2226,7 +2227,7 @@ commit new or modified files with git, along with \texttt{org-roam.db}, and
 push them to the repo.
 
 \subsubsection{Tags}
-\label{sec:orgea64147}
+\label{sec:orgad752f0}
 
 Some of the nodes have \texttt{\#+roam\_tags} set:
 
@@ -2249,7 +2250,7 @@ AN & Annex\\
 Some of the files also have a \texttt{\#+CATEGORY} set.
 
 \subsubsection{Pairing}
-\label{sec:org42eb390}
+\label{sec:orgcc24def}
 
 For syncronized browsing and editing with \href{https://github.com/tjim/lockstep}{lockstep.el}:
 
@@ -2274,7 +2275,7 @@ M-x crdt-connect
 \end{verbatim}
 
 \subsubsection{Linearizing}
-\label{sec:org2570b41}
+\label{sec:org4db3416}
 To turn this map into something we can reliably use, let’s try to
 linearize it.
 
@@ -2324,7 +2325,7 @@ The files are to be found in `org-roam-directory'."
 \end{verbatim}
 
 \subsubsection{Backlog}
-\label{sec:orgd8b18f7}
+\label{sec:org8da3678}
 Part of the idea with a backlog is to go from most-doable, starting
 with work in progress, to least-doable and potentially vague.  Here,
 then, is one approximate linearization that may or may not meet that
@@ -2434,7 +2435,7 @@ action.
 \end{verbatim}
 
 \subsubsection{Publishing to the web}
-\label{sec:org93186d5}
+\label{sec:orgc88a0be}
 
 Publishing with Firn is simple:
 
@@ -2445,7 +2446,7 @@ firn build
 Then commit and push.
 
 \subsubsection{Reviewing progress}
-\label{sec:orgee6d3ea}
+\label{sec:org1682cf7}
 
 Something like the following should be all that’s get a high-level
 overview of progress on active tasks, sourcing information directly
@@ -2474,12 +2475,12 @@ This view can then be further filtered by regexp (e.g., your name) by
 pressing \texttt{=}.
 
 \subsubsection{{\bfseries\sffamily DONE} Package downsamping code separately\hfill{}\textsc{joe}}
-\label{sec:orgb130633}
+\label{sec:orgc31e473}
 \subsubsection{{\bfseries\sffamily WONTFIX} Update the repo instructions to reference this file\hfill{}\textsc{joe}}
-\label{sec:org73ee324}
+\label{sec:org0037f45}
 
 \subsection{Forum}
-\label{sec:orgfba973a}
+\label{sec:org68a34c3}
 We talked about using Wikum as a forum, because we liked the idea of a
 workflow based on summarising discussions. There’s now a demo instance
 set up that we can use, here:
@@ -2487,7 +2488,7 @@ set up that we can use, here:
 \url{http://wikum.org/visualization\_flags?id=590\&owner=holtzermann17}
 
 \subsubsection{Could we incorporate the ideas directly in Org or Org Roam?}
-\label{sec:org98bd8e4}
+\label{sec:org8f8111f}
 
 Perhaps we could incorporate some Wikum ideas right into the wiki
 here.  The idea would be to treat the top paragraph on each page as a
@@ -2498,7 +2499,7 @@ I don’t know if they practiced robust summarisation, either.)
 
 \begin{enumerate}
 \item REMARK\hfill{}\textsc{joe}
-\label{sec:org74ad63c}
+\label{sec:org12fe10a}
 This is an “inline task,” via \texttt{(require 'org-inlinetask)}.  There
 doesn’t seem to be support for nested or threaded tasks, but maybe we
 would have use for non-threaded forum discussions at the end of any
@@ -2506,18 +2507,18 @@ page in the Wiki.  Incidentally, for those curious, the formatting of
 the \LaTeX~export is controlled by
 \texttt{org-latex-format-inlinetask-function}.
 \item END
-\label{sec:org38e7cbc}
+\label{sec:org078547c}
 \end{enumerate}
 
 \subsubsection{{\bfseries\sffamily TODO} What might our summarisation workflow look like?\hfill{}\textsc{ALL}}
-\label{sec:org7845a61}
+\label{sec:orgfa49c93}
 
 Since we’re pretty actively updating our \textbf{Discord} and pretty happy
 using it, maybe people who are working on Active Projects would be
 willing to summarise on the wiki, say, weekly?  And contribute to a
 monthly group blog post?
 \subsection{Blog}
-\label{sec:orgbaa0253}
+\label{sec:org503303d}
 This is a public window on our experiments, available at
 \href{https://exp2exp.com}{https://exp2exp.com}.
 

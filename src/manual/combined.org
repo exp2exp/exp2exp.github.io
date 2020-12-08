@@ -355,6 +355,7 @@ tools that we are actually using.
 - [[*How to Design Programs][How to Design Programs]]
 - [[*Probabilistic programming for scientific modelling][Probabilistic programming for scientific modelling]]
 - [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
+- [[*Arxana][Arxana]]
 ** Emacs Hyper Notebook
 :PROPERTIES:
   :tag: CDN
@@ -1133,6 +1134,106 @@ When I check all of the existing kernel files, I find one whose kernel ID is dif
 This suggests that the root of the problem is that the kernel ID is not being captured accurately. There is no kernel with an ID equivalent to the one that appears in the =client= variable, so it is not clear to me where the value that appears in the client variable is coming from. I don't know if there is any condition in which jupyter changes the kernel ID and leaves all other parameters the same.
 
 The issue appears to arise in =jupyter-make-client= (see [[https://github.com/nnicandro/emacs-jupyter/blob/a9ae0bcef52a62cf7df520756d994162a0570156/jupyter-kernel-manager.el#L141][L141 in jupyter-kernel-manager.el]]) when calling =make-instance class= for class =jupyter-org-client= which derives from =jupyter-repl-client= which derives from =jupyter-kernel-client=. The =session= is defined as an element of =jupyter-kernel-client= at [[https://github.com/nnicandro/emacs-jupyter/blob/403c70c83cb3754c83da0932b0efaf5e72bdca9a/jupyter-client.el#L215][L215 of jupyter-client.el]].
+** Arxana
+
+Now that we’ve gotten quite familiar with Org Mode things, it could be
+good to revisit our work with Arxana and see what it might have to
+offer here.  We know that Arxana is similar to [[https://github.com/opencog/atomspace][Atomspace]].  It would be
+possible to create a (Clojure) backend that’s linked with [[https://github.com/juxt/crux][Crux]].
+
+When we left off working on Arxana in 2017, we made a few notes.
+Maybe it could be applied to something interesting for which we could
+get a grant.
+
+*** Future work (circa FARM 2017)
+**** Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo
+***** Clean up namespaces of functions                          :maintenance:
+E.g. write =honey:add-nema= instead of =add-nema=.
+***** find the generic interface layer and put it in its own file :maintenance:
+Sketched in honey-spec.org, but let's make sure it's consistent.
+***** Assemble/disassemble a buffer from/to distributed storage  :demoscheme:
+
+While not needed for our FARM demo, this could be useful for the
+Scheme demo because it makes a relatively convincing case.  And
+furthermore this would be good as user facility and for us as we
+continue working on the project.
+
+- E.g., related work of arxana-merge merge automatically.
+
+***** Write a basic IATCD evaluator to load Listing 1 stuff        :demofarm:
+
+/What is a better name for IATCD?/ ;-)
+
+This is just at the level of moving data around - specifically turning
+s-expressions into triples.
+
+***** Use scholium-based programs to run Listing 2                 :demofarm:
+
+This is a minimal *working* implementation of what we talk about in the paper.
+
+***** How do inferential connections work (I/R, I/E, etc.)?        :demofarm:
+
+E.g. fig. 7 of Lytinen.
+
+This is just for exposition, when talking about prior art it would be nice to know how they did it.
+
+- links between basic CD's
+ - e.g., joe communicated the IP address to ray, by talking, so that ray could get on the server
+
+**** Next steps: Paper for IJCAI 2018
+***** IJCAI 2018: Write up applications to mathematics             :platform:
+Possibly for IJCAI/ECAI.
+Papers due *January 2018*? http://www.chessprogress.com/IJCAI-2018/calls/
+To take place *July 13-19, 2018*
+***** Demo the system walking through the steps of a proof like GCP or MPM.
+***** Demo with APM prelim problems
+This might be a "future work" section for this paper.
+***** Demo with APM-Xi content
+Show interface with types.
+- E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
+
+**** Next steps: Paper for ICFP 2018
+***** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+Possibly submit to [[http://conf.researchr.org/home/icfp-2018][ICFP]]. Papers due *Fri 16 Mar 2018*.
+Event to take place in St. Louis, Missouri, United States, to take place *late September*.
+***** Fuzzy search to retrieve loose matches and analogies
+***** Write a simple user language and an interface that generates triplets/quintuplets
+***** Can the system come up with answers to new, basic, questions?
+
+- Inspired by Nuamah et al's geography examples
+- Simple comparisons, like, how does this concept relate to that concept?  We informally talk about this as ``analogy'' between concepts.  But...
+
+***** Foldable views (like in Org mode) so that people can browse proofs
+
+- This may come after the May submission
+- Folding and unfolding the definitions of terms in something like an APM context is relevant example.  Just `unpacking' terms.
+- Note that there is some relevant prior work in the "Wikum" paper of Amy Zhang et al
+
+**** Other next steps: from the Future Work section of our FARM paper
+
+This could potentially be used as the basis of an ERC fellowship
+proposal.  The "2018" version of the call was released August 3 2017,
+and is due October 17 2017.  Presumably the "2019" version of the call
+will be run on a similar timeline.  A long PDF describing the current
+call is here: [[http://ec.europa.eu/research/participants/data/ref/h2020/other/guides_for_applicants/h2020-guide18-erc-stg-cog_en.pdf][h2020-guide18-erc-stg-cog_en.pdf]].
+
+***** Formal proof
+****** Demo the system walking through the steps of a proof like GCP or MPM.
+If we keep at it, might have this ready by January, in time for an
+IJCAI paper.
+****** Refine both representations and reasoning aspects.
+****** Integrate external computer algebra / proof checking systems.
+***** Embodiment and cognitive science
+****** Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
+***** Linguistics and NLP
+****** Integrate parsers to generate IATC+CD automatically.
+****** Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
+***** Machine learning
+****** Integrate with knowledge bases of mathematical terms and frequency data (as above).
+****** Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
+****** Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
+
+
 * Which model construction process works as a whole?
 :PROPERTIES:
   :tag: HL
@@ -1737,6 +1838,52 @@ would therefore be a step in the direction of [[*BUSINESS DEVELOPMENT][BUSINESS 
 *** Firn
 
 - [[https://github.com/theiceshelf/firn/issues/57][links inside :noexport subtrees shouldn't generate backlinks in their targets #57]]
+** Grant development
+
+One way to do [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]] could be through grant development
+to help bootstrap initial outputs.
+
+A sensible place to get some grant funding connected into the themes
+around this work would be through Joe’s appointment as a Research
+Fellow at Oxford Brookes University’s Ethical AI Institute.
+
+One of the constraints here is that that’s a 2-year appointment, and
+some grants (but not all) require the PI to be a permanent employee.
+But this constraint is something we could relatively easily work with.
+
+*** EPSRC: Mathematical Sciences Small Grants
+
+This is for projects of up to £80K.
+
+https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/
+
+**** "Inducing a mathematics encyclopedia out of Arxiv"
+We talked about following on from the Open Information Extraction
+theme possibly in connection with the new preprint “Language Models
+are Open Knowledge Graphs” (and the associated video [[https://www.youtube.com/watch?v=NAJOZTNkhlI][review]]).  This is
+close to Deyan’s expertise and would build on his previous work.
+
+#+begin_quote
+**Deyan*: "Accurate entity linking is desired." (video min 43) -- hey,
+they honestly admit this in the paper! This was my stopping point with
+the jupyter notebook as well i believe, I would like to get the neural
+model to "ace" that part of the job before moving further. [...]  ok,
+so after watching the entire review, I can conclude if I arrive at a
+reliably successful method following my initial notebooks, and apply
+them to arXiv and/or SE there's certainly a paper in there. Their
+suggestions from the paper aren't actually that useful sadly, just
+confirming some basic practical tricks (using last attention layer,
+constraining with beam search and using language priors for the triple
+content) that were already known
+#+end_quote
+**** "Mining informal proof structure"
+This would be a somewhat similar line of work but more along the lines
+of what we did in the FARM paper.  We discussed the advant
+
+**** Maybe we could move in another more formal (category theoretic) direction
+Maybe we could build out some of the ideas that Zans and Ray have been
+discussing. Potentially this could also involve
+*** TODO Outline(s) for small grants                                    :joe:
 * RESEARCH OUTPUTS
 :PROPERTIES:
   :tag: HL
