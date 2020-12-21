@@ -352,6 +352,13 @@ then export to a div with the given block name:
 This is some text.
 #+end_monoblock
 
+With Firn/Orgize, it seems these blocks aren’t currently exported.
+However, examples are exported:
+
+#+begin_example
+This is some text.
+#+end_example
+
 * DONE Package downsamping code separately                              :joe:
 * WONTFIX Update the repo instructions to reference this file           :joe:
 
