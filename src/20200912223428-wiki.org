@@ -343,6 +343,15 @@ yet but it gives an idea.
 This view can then be further filtered by regexp (e.g., your name) by
 pressing ~=~.
 
+* Notes about exporting things with Firn
+
+In regular Org mode, it’s possible to [[https://superuser.com/questions/726201/how-can-i-apply-easy-formatting-to-org-mode-blocks][define your own blocks]] which
+then export to a div with the given block name:
+
+#+begin_monoblock
+This is some text.
+#+end_monoblock
+
 * DONE Package downsamping code separately                              :joe:
 * WONTFIX Update the repo instructions to reference this file           :joe:
 
