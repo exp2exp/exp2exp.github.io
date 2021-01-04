@@ -9,5 +9,6 @@
         [:div.def-content       ; => see above
          [:h1 title]            ; => renders an `h1` tag with the file title.
          (render :sitemap {:start-at ["Updates"]
+                           :depth 1
                            :sort-by :newest})
          ]]]]]))                ; => all these closing brackets can be thought of as closing html tags (for now)
