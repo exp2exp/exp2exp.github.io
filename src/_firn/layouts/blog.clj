@@ -11,4 +11,7 @@
          (render :sitemap {:start-at ["Updates"]
                            :depth 1
                            :sort-by :newest})
+         [:hr]
+         [:div.back "Back to main outline:"
+          [:a {:href "https://exp2exp.github.io/index.html"} "Exp2Exp"]]
          ]]]]]))                ; => all these closing brackets can be thought of as closing html tags (for now)
