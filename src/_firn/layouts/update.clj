@@ -8,7 +8,7 @@
        [:article.content
         ;; [:div (render :toc)] ;; Optional; add a table of contents
         [:h1 title]
-        [:h2 date-created]
+        [:i date-created]
         [:div (render :file)]
         ;; if backlinks exist, store them in a let bindings.
         (when-let [backlinks (render :backlinks)] 
