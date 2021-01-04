@@ -1,4 +1,5 @@
 #+title: Firn-based Blog Created!
+#+FIRN_UNDER: Updates
 #+DATE_CREATED: <2021-01-04 Mon>
 
 Just testing the sitemap stuff.

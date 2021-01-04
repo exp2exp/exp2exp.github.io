@@ -8,5 +8,5 @@
        [:article.def-wrapper    ; => opens a `article` html tag with a class of `def-wrapper`
         [:div.def-content       ; => see above
          [:h1 title]            ; => renders an `h1` tag with the file title.
-         (render :sitemap {:sort-by :newest})
+         (render :sitemap {:start-at ["Updates"]} {:sort-by :newest})
          ]]]]]))                ; => all these closing brackets can be thought of as closing html tags (for now)
