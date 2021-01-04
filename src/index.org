@@ -56,4 +56,6 @@
  - [[file:sfi/study_with_agent_written_questions.org][Study with agent-written questions]]
  - [[file:sfi/publication_ijcai.org][Publication: IJCAI]]
 
-Sources available here: [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]]
+Latest news at: [[file:updates.org][Updates]].
+
+Sources available here: [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].
