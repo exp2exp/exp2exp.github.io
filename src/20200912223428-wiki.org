@@ -353,7 +353,7 @@ This is some text.
 #+end_monoblock
 
 With Firn/Orgize, it seems these blocks aren’t currently exported.
-However, examples are exported:
+However, examples are exported?  Maybe not.
 
 #+begin_example
 This is some text.
