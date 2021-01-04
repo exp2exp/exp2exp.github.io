@@ -89,6 +89,8 @@ main {
   padding: 32px;
 }
 
+.back-to-main { margin-left:15px; }
+
 hr {
   margin: 2rem 0;
   border-top: 1px solid var(--border-col);
