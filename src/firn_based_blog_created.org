@@ -1,9 +1,13 @@
-#+title: Firn-based Blog Created!
+#+TITLE: Firn-based Blog Created!
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
 #+DATE_CREATED: <2021-01-04 Mon>
+#+DATE_CREATED: <2021-01-05 Tue>
 #+AUTHOR: Joe Corneli
 
-- Testing the sitemap stuff.
-- Testing the breadcrumb stuff.
-- These seem to work
+- Testing the sitemap stuff and breadcrumb stuff.
+ - (These seem to work.)
+- =AUTHOR= metadata: Got help from tees, this now works
+- =date-updated= or something else for recent changes: got some sample code from tees
+- dates (or other metadata) in the sitemap: should be doable.
+

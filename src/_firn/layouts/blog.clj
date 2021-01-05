@@ -1,16 +1,23 @@
-(defn blog                   ; define a clojure func
-  [{:keys [build-url title render partials]}] ; destructured commonly used functions and data
-  (let [{:keys [head]} partials]              ; Ignore for now, partials will be explained later
-    [:html                      ; => opens a `html` tag
-     (head build-url)           ; => Renders the `head` partial
-     [:body                     ; => opens a `body` tag
-      [:main                    ; => Ditto
-       [:article.def-wrapper    ; => opens a `article` html tag with a class of `def-wrapper`
-        [:div.def-content       ; => see above
-         [:h1 title]            ; => renders an `h1` tag with the file title.
+(defn blog
+  [{:keys [build-url title render partials]}]
+  (let [{:keys [head]} partials]
+    [:html
+     (head build-url)
+     [:body
+      [:main
+       [:article.def-wrapper
+        [:div.def-content
+         [:h1 title]
+         ;; List files that "FIRN_UNDER" the "Updates" page
+         ;; But only those which are immediately "under" it
+         ;; sorted by newness
+         ;; - ‘render’ renders HTML, but would be nice to have version that just returns data
          (render :sitemap {:start-at ["Updates"]
                            :depth 1
                            :sort-by :newest})
          [:hr]
-         [:div.back-to-main [:p "Back to main index: " [:a {:href "https://exp2exp.github.io/index.html"} "Exp2Exp"]]]
-         ]]]]]))                ; => all these closing brackets can be thought of as closing html tags (for now)
+         [:div.back-to-main
+          [:p "Back to main index: "
+           [:a {:href "https://exp2exp.github.io/index.html"} "Exp2Exp"]]]
+         ]]]]]))
+
