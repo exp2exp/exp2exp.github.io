@@ -9,9 +9,11 @@
 
 This document synthesises a [[http://www.peeragogy.org/pattern-roadmap.html][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/product-roadmap.html][Product
 Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
-inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and shared via Git on repo.or.cz.
-This document can be thought of and edited as a [[file:20200912223428-wiki.org][Wiki]], from which other
-downstream formats can be derived.  A narrative introduction follows.
+inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and displayed with [[https://github.com/theiceshelf/firn][Firn]].  The
+document can be thought of as a [[file:20200912223428-wiki.org][Wiki]] (and edited inside Emacs).  From
+these sources, other downstream formats can be derived.  A narrative
+introduction follows.
+
 To skip it, browse ahead to [[file:20200810132653-top.org][Top]].
 
 * Introduction
