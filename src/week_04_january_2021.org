@@ -1,0 +1,21 @@
+#+title: Week 04 January 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-01-06 Wed>
+#+AUTHOR: Joe Corneli
+
+* News
+- [[http://adjointschool.com/apply][Adjoint school]] Applications due January 29th.
+
+* Research topics
+- Reproducible research in authoritarian regimes (20 people paper!)
+- Qualtrix; Survey Monkey — survey software (but expensive!)
+- ERG: research policy still a bit nebulous especially in qualitative research, whereas in science experiments are more reproducible
+ - Inductive nature of qualitative research
+ - How environment interacts w/ questions & data collection — it’s hard to reproduce this
+ - Definitions: *siloed communities will be talking about the same thing but with different terms* (e.g. in stats, causal inference ‘mediator’)
+ - Ray’s story about reviewers
+- Math replication crisis — Kevin Buzzard: people can’t understand the proofs
+
+* Fun
+- [[https://openai.com/blog/dall-e/][OpenAI: DALL·E model]], no end of fun with baby avocados & tapirs, e.g., looking at their reflections in a mirror
