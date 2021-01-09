@@ -6,14 +6,9 @@ This is a repository of notes stored in [org](https://orgmode.org/manual/) forma
 
 ## usage
 
-We set `.dir-locals.el` to reference a variable `PATH-TO-EXP2EXP`.  So
-you should set it, e.g., in your Emacs initializion file via:
-
-```
-(setenv "PATH-TO-EXP2EXP" "~/exp2exp.github.io/src/")
-```
-
-(Or, wherever you put the files.)
+We set `.dir-locals.el` to reference a local directory where the files
+are stored; the default is `~/exp2exp.github.io/src/`, but if you put
+the files in another location, you’ll want to change that.
 
 You can edit the `org` files in the `src` directory. These can be used with [org-roam](https://www.orgroam.com/), but this is not required.
 
