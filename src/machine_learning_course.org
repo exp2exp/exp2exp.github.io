@@ -1,0 +1,27 @@
+#+title: Machine Learning course
+#+roam_tags: LRD
+
+* Recent book
+
+https://probml.github.io/pml-book/book1.html
+
+And notebooks to go with it: https://github.com/probml/pyprobml/tree/master/book1
+
+* Other packages that can round out the picture
+
+- https://pyro.ai/
+- https://www.broadinstitute.org/talks/deep-probabilistic-programming-pyro
+- https://github.com/pyro-ppl/numpyro
+- https://github.com/fehiepsi/rethinking-pyro
+- https://nlp.stanford.edu/projects/tacred/ — associated talk (+paper) can be found here: https://vimeo.com/238230211
+
+The recent paper that got me there discussed+used their data, and
+generally bashed deep networks for RE compared to classical
+methods. https://arxiv.org/abs/2005.00087
+
+* Text analysis
+
+This is the huge review article I had shared in September that covers a range of hyperreal mini projects in its subsubsections:
+
+https://arxiv.org/abs/2009.11564
+

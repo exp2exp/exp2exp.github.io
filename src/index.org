@@ -21,6 +21,7 @@
  - [[file:20200817172825-recommender_system.org][Recommender System]]
  - [[file:20200810135457-visual_interfaces.org][Visual Interfaces]]
  - [[file:20200814203551-data_course.org][Data course]]
+ - [[file:machine_learning_course.org][Machine Learning course]]
  - [[file:20200905132603-paperspace_do_nj_etc_collaboratory.org][Paperspace DO NJ etc. Collaboratory]]
 - [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]
  - [[file:upstream.org][Upstream]]

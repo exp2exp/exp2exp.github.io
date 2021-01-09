@@ -20,8 +20,8 @@
 #+LATEX_HEADER: \definecolor{gruvbg}{HTML}{1d2021}
 #+LATEX_HEADER: \newenvironment*{emptyenv}{}{}
 #+LATEX_HEADER: \usepackage{sectsty}
-#+LATEX_HEADER: \sectionfont{\normalfont\color{red}\selectfont}        
-#+LATEX_HEADER: \subsectionfont{\normalfont\selectfont}     
+#+LATEX_HEADER: \sectionfont{\normalfont\color{red}\selectfont}
+#+LATEX_HEADER: \subsectionfont{\normalfont\selectfont}
 # #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont}
 #+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}

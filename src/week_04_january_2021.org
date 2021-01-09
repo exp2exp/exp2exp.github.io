@@ -2,6 +2,7 @@
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
 #+DATE_CREATED: <2021-01-06 Wed>
+#+DATE_UPDATED: <2021-01-09 Sat>
 #+AUTHOR: Joe Corneli
 
 * News
@@ -19,3 +20,6 @@
 
 * Fun
 - [[https://openai.com/blog/dall-e/][OpenAI: DALL·E model]], no end of fun with baby avocados & tapirs, e.g., looking at their reflections in a mirror
+
+* Emacs Research Group
+- Discussed a =.dir-local.el= solution for working with multiple
