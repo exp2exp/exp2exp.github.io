@@ -6,6 +6,15 @@ This is a repository of notes stored in [org](https://orgmode.org/manual/) forma
 
 ## usage
 
+We set `.dir-locals.el` to reference a variable `PATH-TO-EXP2EXP`.  So
+you should set it, e.g., in your Emacs initializion file via:
+
+```
+(setenv "PATH-TO-EXP2EXP" "~/exp2exp.github.io/src/")
+```
+
+(Or, wherever you put the files.)
+
 You can edit the `org` files in the `src` directory. These can be used with [org-roam](https://www.orgroam.com/), but this is not required.
 
 The `Makefile` contains targets for working with git and [firn](https://github.com/theiceshelf/firn). First, make sure firn is available in your `$PATH` or issue the `make firn` command to install (mac and linux only).

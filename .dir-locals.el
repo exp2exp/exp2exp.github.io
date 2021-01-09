@@ -1,2 +1,2 @@
-((nil . ((org-roam-directory . "~/exp2exp.github.io/src/")
-         (org-roam-db-location . "~/exp2exp.github.io/src/org-roam.db"))))
+((nil . ((org-roam-directory . (getenv "PATH-TO-EXP2EXP"))
+         (org-roam-db-location . (concat (getenv "PATH-TO-EXP2EXP") "/org-roam.db")))))
