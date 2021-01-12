@@ -1,0 +1,52 @@
+#+title: Week 11 January 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-01-12 Tue>
+#+AUTHOR: Joe Corneli
+
+* News
+- Joe meeting with Category Theory folks, maybe about PlanetMath corpus
+ - Relationship with nCat lab?
+- “Tool (as inner loop), interested audience, many previous unsuccessful attempts, extra information to expand knowledge base”
+ - E.g., DeepMind every paper is a small tweak
+ - Each model only solves one problem (similar to functional centres in fMRIs?)
+
+* Discussion
+- [[https://aspuru.substack.com/p/molecular-graph-representations-and][SELFIES]]
+ - if we want to combine it with an NL system, just stick the models next to each other, and embed into both; we’re not too far off.
+ - You can get better results using the 2 latent spaces w/ things like search
+ - Few-hundred dimensional space, each one is being used imprecisely... if a certain feature is represented across inputs, it will use the same dimensions to represent things
+ - Benzene vs snake-biting-tale?  Mendeleev saw table in a dream (after a long time of trying); in the transfer to long-term memory you can see things from a new perspective.
+ - Multi-modality, same message can have different perspectives; CLIP and DALL-E just came out. It’s been in the literature for a while (e.g., John Bateman at University of Bremen), but the ability to solve stuff.
+- Guaranteed truth vs real-world representativeness
+ - The space of ‘true’ statements is hard to navigate (cf. AURA)
+ - ATPs, Vampyre: prove or disprove premises (Exactly like Go? But /in ATP someone has to decide what’s important to prove./)
+ - HOLyHammer knows a bit, but it’s a distillation of what’s been done in the database. Geometry mastery wouldn’t transfer to measure theory.
+ - ‘How complex is the space?’ — sine waves, sand ripples... these are relatively simple.
+- Abstraction: recognizing ‘emergence’ — the separations happen when you have an emergence.  Informational ‘closure’; only the info that transfers...
+** Sleep
+- Podcast [[https://en.wikipedia.org/wiki/Andrew_D._Huberman][Andrew Huberman]]: sun up and sundown
+
+* References
+
+- Regarding serendipity stuff: Model-agnostic Meta-learning (MAML) is a very promising active area of research. Can do Atari, but maybe too tied to video games.
+
+* Prep
+
+#+begin_quote
+Deyan: ARQMath could be mentioned to anyone interested in math search,
+active 2020-2021
+#+end_quote
+
+* Wiki blog
+
+#+begin_quote
+From Tees: do you use tagging at all in Firn?  I'm thinking about
+rebuilding it so that a site can have a =/tag= page, that lists all tags
+(both roam/firn tags and heading =:tags:= and then for each tag, creates
+a sub-page (=/tag/my-tag= and lists every page that has that tag
+#+end_quote
+
+* Topos
+
+Polynomial functors
