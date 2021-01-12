@@ -9,6 +9,46 @@
 
 ;;; Code:
 
+;; Here’s some code to turn a large Org mode file into sub-files
+;; ready for Org Roam
+
+(defun org-get-headline ()
+  (org-back-to-heading t)
+  (looking-at org-complex-heading-regexp)
+  (match-string-no-properties 4))
+
+(defun org-get-body ()
+  (save-excursion
+    (save-restriction
+      (widen)
+      (let* ((elt (org-element-at-point))
+             (title (org-element-property :title elt))
+             (beg (save-excursion (org-end-of-meta-data t) (point)))
+             (end (save-excursion (org-end-of-subtree) (point))))
+        (buffer-substring-no-properties beg end)))))
+
+(defun zoom-in-and-enhance ()
+  "Process an Org Mode buffer into multiple Org Roam-style files.
+Changes headers to titles."
+  (org-map-entries
+   (lambda ()
+     (let* ((title (org-get-headline))
+            (contents (org-get-body)))
+       (with-temp-buffer
+         (insert "#+TITLE: " title "\n"
+                 contents)
+         (org-mode)
+         (org-map-entries #'org-promote-subtree)
+         (write-file (concat
+                      (funcall
+                       org-roam-title-to-slug-function
+                       title) ".org")))))
+   "LEVEL=1"))
+
+;; Here’s the functionality needed for going the other direction
+;; i.e., turning a collection of Org Roam files into one big Org Mode
+;; file.
+
 (defun downsample ()
   "Process an Org Roam buffer for inclusion in a standard Org file.
 Changes title to header, and increase indentation of existing headers.
