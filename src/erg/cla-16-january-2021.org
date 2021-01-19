@@ -6,6 +6,45 @@
 
 ‘What is our vision for change and how is progress measurable?’
 
+* Firn compatible version
+
+** Understanding data, headlines, empirical world (short term change) :data:
+*** [[file:./erg/emacs-research-notes.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
+*** [[file:./erg/emacs-research-notes.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep5:
+
+** Systemic approaches and solutions (social system) :epystem:
+*** [[file:./erg/emacs-research-notes.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Work on methodology of the group][Work on methodology of the group]] :ep2:
+*** [[file:./erg/emacs-research-notes.org::*Have a nice language for asking for demo material, or other needs][Have a nice language for asking for demo material, or other needs]] :ep2:
+*** [[file:./erg/emacs-research-notes.org::*David & Noorah have joined the Discord server!][David & Noorah have joined the Discord server!]] :ep3:
+*** [[file:./erg/emacs-research-notes.org::*Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*Make the inputs contextual.][Make the inputs contextual.]] :ep5:
+*** [[file:./erg/emacs-research-notes.org::*We came up with an adapted plan for the exercise][We came up with an adapted plan for the exercise]] :ep5:
+*** [[file:./erg/emacs-research-notes.org::*Maybe milestone based funding for Org Roam][Maybe milestone based funding for Org Roam]] :ep5:
+*** [[file:./erg/emacs-research-notes.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep5:
+
+** Worldview, ways of knowing and alternative discourse :worldview:
+*** [[file:./erg/emacs-research-notes.org::*Wonderful outcome from attending EmacsConf 2020!][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep2:
+*** [[file:./erg/emacs-research-notes.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep3:
+*** [[file:./erg/emacs-research-notes.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep3:
+*** [[file:./erg/emacs-research-notes.org::*About these PARS... the method of ongoing review still needs improvement][About these PARS... the method of ongoing review still needs improvement]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep5:
+
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+*** [[file:./erg/emacs-research-notes.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
+*** [[file:./erg/emacs-research-notes.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep4:
+*** [[file:./erg/emacs-research-notes.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep5:
+*** [[file:./erg/emacs-research-notes.org::*Finding density poles within research?][Finding density poles within research?]] :ep5:
+
+* Org compatible version
+
 ** Understanding data, headlines, empirical world (short term change) :data:
 *** [[file:emacs-research-notes.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
 *** [[file:emacs-research-notes.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
@@ -40,3 +79,7 @@
 *** [[file:emacs-research-notes.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep4:
 *** [[file:emacs-research-notes.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep5:
 *** [[file:emacs-research-notes.org::*Finding density poles within research?][Finding density poles within research?]] :ep5:
+
+* Testing
+
+*** [[file:~/exp2exp.github.io/src/week_11_january_2021.org::*News][News]]
