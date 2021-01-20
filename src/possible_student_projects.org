@@ -1,0 +1,53 @@
+#+title: Possible student projects
+
+* Co-editing a shared "second brain"
+
+*Keywords*: HCI, coworking, real-time collaboration
+
+Emacs is a well-known code editor. Recently, the crdt.el package was
+created to support multiple people editing the same Emacs buffer (like
+Google Docs or Etherpad). In this project, the CRDT implementation
+will be extended to share workspaces rather than single documents. 
+One application is within the "Org Roam" note taking tool, which
+currently supports individual users working on their own "personal
+wiki". In this project, these features will be combined. The design
+may take inspiration from an earlier [[http://oro.open.ac.uk/29278/][demo of real-time web annotation]]
+and from [[http://rudel.sourceforge.net/][previous co-editing tools for Emacs]]. The student taking on
+this project should either be familiar with LISP or quick at picking
+up programming languages. In addition to implementation, the project
+should be accompanied by detailed documentation and backed up by user
+research on how the tools influence collaborative work.
+
+* Implementing an automated programming system using contracts
+
+*Keywords*: program synthesis, functional programming, evolutionary computing
+
+Clojure allows typing information (and more) to be added to functions
+using clojure.spec. This means that we can easily test function
+implementations to see if they match their contracts: are the inputs
+and outputs of the right type, and do the outputs have the right
+relationships among them? This also suggests a way to put functions
+together automatically, based on their types, composing a bigger
+function that, itself, meets the correct specification. This project
+will explore previous work on contract-based programming and genetic
+programming, and implement a system that can discover novel useful
+programs. The student taking on this project should either be familiar
+with Clojure or with a strongly typed functional programming language
+like Haskell. Relevant background reading includes this 2013 paper on
+"[[https://discovery.dundee.ac.uk/en/publications/a-discussion-on-serendipity-in-creative-systems][A discussion on serendipity in creative systems]]".
+
+* Modelling the informal logic in a simple but tricky proof
+
+*Keywords*: proof, argumentation, hypergraphs
+
+In the short paper "[[https://dl.acm.org/doi/10.1145/3122938.3122942][Modelling the way mathematics is actually done]]" we
+produced a computational model of one step in a simple but tricky
+proof. The proof uses patterns of inference that are not well
+represented in formal theorem proving systems (although the theorem
+itself would have a straightforward formal proof). In this project, a
+full computational implementation of the proof will be created,
+expanding on the hypergraph-based models from the above-mentioned
+paper. This project would be appropriate for a student with a strong
+mathematics and computing background. A student who additionally has a
+background in physics may wish to discuss relationships with ongoing
+work in the Wolfram Physics project.

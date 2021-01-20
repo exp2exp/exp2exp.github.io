@@ -180,7 +180,7 @@
 *** We decided to go 10 minutes over!
 
 
-Here’s our first Project Action Review!
+** Here’s our first Project Action Review!
 
 *** 1. *Review the intention: what do we expect to learn or make together?*
 **** Joe Noorah and Leo wanted to convene a meeting with interested parties in Emacs+Research

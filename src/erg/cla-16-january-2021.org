@@ -14,7 +14,7 @@
 *** [[file:./erg/emacs-research-notes.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep4:
 *** [[file:./erg/emacs-research-notes.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep5:
 
-** Systemic approaches and solutions (social system) :epystem:
+** Systemic approaches and solutions (social system) :system:
 *** [[file:./erg/emacs-research-notes.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
 *** [[file:./erg/emacs-research-notes.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
 *** [[file:./erg/emacs-research-notes.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
