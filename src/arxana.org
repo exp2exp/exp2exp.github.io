@@ -28,9 +28,7 @@ relevant.
 - I also have [[https://github.com/exp2exp/exp2exp.github.io/blob/master/src/manual/org-roam-manual.el][code for pulling them together into one big Org file]].
 - I'd like to be able to edit the big Org file, and have the changes flow back to all of the underlying Org Roam files without having to think about saving or copying and pasting.
 
-This particular example should in principle be doable with
-[[https://github.com/nobiot/org-transclusion][org-transclusion]], but looking into it a bit more, that’s not actually
-how the existing implementation works:
+This particular example should in principle be doable with [[https://github.com/nobiot/org-transclusion][org-transclusion]], but looking into it a bit more, that’s not actually how the existing implementation works:
 
 #+begin_quote
 Transcluded contents are read-only. To edit them, use
