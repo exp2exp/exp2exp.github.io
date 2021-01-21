@@ -16,8 +16,8 @@ in the mob branch).  There’s some propaganda about the project at
 
 * 2021 report: Dusting off the Tome
 
-I’m starting to revive Arxana for use in grant applications (targeting
-[[file:grant_development.org::*EPSRC: Mathematical Sciences Small Grants][EPSRC: Mathematical Sciences Small Grants]]).  As I go along I want to
+I’m starting to revive Arxana for use in grant applications
+(targeting [[file:grant_development.org::*EPSRC: Mathematical Sciences Small Grants][EPSRC: Mathematical Sciences Small Grants]]).  As I go along I want to
 better understand how the old versions of the code works, and better
 understand the use cases for which something like Arxana could be
 relevant.
