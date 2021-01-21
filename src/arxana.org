@@ -10,12 +10,73 @@ When we left off working on Arxana in 2017, we made a few notes.
 Maybe it could be applied to something interesting for which we could
 get a grant. Below, is some of the future work (circa FARM 2017).
 
-* Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo
-** Clean up namespaces of functions                             :maintenance:
+The code is stored in [[https://repo.or.cz/w/arxana.git][https://repo.or.cz/w/arxana.git]] (with the latest
+in the mob branch).  There’s some propaganda about the project at
+[[http://arxana.net/][http://arxana.net/]].
+
+* 2021 report: Dusting off the Tome
+
+I’m starting to revive Arxana for use in grant applications (targeting
+[[file:grant_development.org::*EPSRC: Mathematical Sciences Small Grants][EPSRC: Mathematical Sciences Small Grants]]).  As I go along I want to
+better understand how the old versions of the code works, and better
+understand the use cases for which something like Arxana could be
+relevant.
+
+** Use case: Edit transcluded files                                :usecase:
+
+- I have a bunch of org files managed by Org Roam
+- I also have [[https://github.com/exp2exp/exp2exp.github.io/blob/master/src/manual/org-roam-manual.el][code for pulling them together into one big Org file]].
+- I'd like to be able to edit the big Org file, and have the changes flow back to all of the underlying Org Roam files without having to think about saving or copying and pasting.
+
+This particular example should in principle be doable with
+[[https://github.com/nobiot/org-transclusion][org-transclusion]], but looking into it a bit more, that’s not actually
+how the existing implementation works:
+
+#+begin_quote
+Transcluded contents are read-only. To edit them, use
+=org-transclusion-open-edit-src-buffer-at-point= command. By default, it
+is bound to C-c n e in org-transclusion-mode-map (modify the
+keybinding as you prefer).
+#+end_quote
+
+On the other hand, a limited /working/ version of the workflow is
+afforded by =M-x occur= followed by =e=, which allows editing the /lines/
+where a given word occurs.  But this is much more limited than
+a full-transclusion based workflow.
+
+
+** Probe: Get Arxana 2005 running                                    :probe:
+
+I got Arxana 2005 running again, with minor updates to the code.
+This recipe now works to get a first look at what’s going on.
+
+1. Find =sbdm4cbpp.tex=.
+2. Evaluate the code block in the section called “Preface”.
+3. Enter =C-; d a section RET= to browse a list of major sections (change to the =*Generic List*= buffer if it doesn’t pop up automatically).  Hit =RET= in the  =*Generic List*= buffer to view listed contents.
+4. Follow colorful links in the =Main Article Display= or =Scholia Display= buffers with =C-; f=.
+5. Type =C-; C-h= to list other keyboard commands.
+
+*So far, nothing we haven’t seen in Org Mode.*
+
+In particular, even though the system /imports/ bits of =sbdm4cbpp.tex= as
+the demo, it’s not clear that it actually allows the user edit these
+pieces and save them back into the source (as described above).
+Exploring some of the other commands
+
+*** Adding a scholium and editing an article
+
+It was possible to create a scholium about a given article with =C-; m
+p=, i.e,. =make-scholium-about-part-of-current-article=, then edit the
+article and commit changes with =C-; c=, i.e., =commit-edits=, and notice
+the text moving around appropriately.  So, that’s a little bit new.
+
+* Old agenda for developing Arxana (circa our FARM paper)
+** Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo
+*** Clean up namespaces of functions                            :maintenance:
 E.g. write =honey:add-nema= instead of =add-nema=.
-** find the generic interface layer and put it in its own file  :maintenance:
+*** find the generic interface layer and put it in its own file :maintenance:
 Sketched in honey-spec.org, but let's make sure it's consistent.
-** Assemble/disassemble a buffer from/to distributed storage     :demoscheme:
+*** Assemble/disassemble a buffer from/to distributed storage    :demoscheme:
 
 While not needed for our FARM demo, this could be useful for the
 Scheme demo because it makes a relatively convincing case.  And
@@ -24,18 +85,18 @@ continue working on the project.
 
 - E.g., related work of arxana-merge merge automatically.
 
-** Write a basic IATCD evaluator to load Listing 1 stuff           :demofarm:
+*** Write a basic IATCD evaluator to load Listing 1 stuff          :demofarm:
 
 /What is a better name for IATCD?/ ;-)
 
 This is just at the level of moving data around - specifically turning
 s-expressions into triples.
 
-** Use scholium-based programs to run Listing 2                    :demofarm:
+*** Use scholium-based programs to run Listing 2                   :demofarm:
 
 This is a minimal *working* implementation of what we talk about in the paper.
 
-** How do inferential connections work (I/R, I/E, etc.)?           :demofarm:
+*** How do inferential connections work (I/R, I/E, etc.)?          :demofarm:
 
 E.g. fig. 7 of Lytinen.
 
@@ -44,36 +105,36 @@ This is just for exposition, when talking about prior art it would be nice to kn
 - links between basic CD's
  - e.g., joe communicated the IP address to ray, by talking, so that ray could get on the server
 
-* Next steps: Paper for IJCAI 2018
-** IJCAI 2018: Write up applications to mathematics                :platform:
+** Next steps: Paper for IJCAI 2018
+*** IJCAI 2018: Write up applications to mathematics               :platform:
 Possibly for IJCAI/ECAI.
 Papers due *January 2018*? http://www.chessprogress.com/IJCAI-2018/calls/
 To take place *July 13-19, 2018*
-** Demo the system walking through the steps of a proof like GCP or MPM.
-** Demo with APM prelim problems
+*** Demo the system walking through the steps of a proof like GCP or MPM.
+*** Demo with APM prelim problems
 This might be a "future work" section for this paper.
-** Demo with APM-Xi content
+*** Demo with APM-Xi content
 Show interface with types.
 - E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
 
-* Next steps: Paper for ICFP 2018
-** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+** Next steps: Paper for ICFP 2018
+*** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
 Possibly submit to [[http://conf.researchr.org/home/icfp-2018][ICFP]]. Papers due *Fri 16 Mar 2018*.
 Event to take place in St. Louis, Missouri, United States, to take place *late September*.
-** Fuzzy search to retrieve loose matches and analogies
-** Write a simple user language and an interface that generates triplets/quintuplets
-** Can the system come up with answers to new, basic, questions?
+*** Fuzzy search to retrieve loose matches and analogies
+*** Write a simple user language and an interface that generates triplets/quintuplets
+*** Can the system come up with answers to new, basic, questions?
 
 - Inspired by Nuamah et al's geography examples
 - Simple comparisons, like, how does this concept relate to that concept?  We informally talk about this as ``analogy'' between concepts.  But...
 
-** Foldable views (like in Org mode) so that people can browse proofs
+*** Foldable views (like in Org mode) so that people can browse proofs
 
 - This may come after the May submission
 - Folding and unfolding the definitions of terms in something like an APM context is relevant example.  Just `unpacking' terms.
 - Note that there is some relevant prior work in the "Wikum" paper of Amy Zhang et al
 
-* Other next steps: from the Future Work section of our FARM paper
+** Other next steps: from the Future Work section of our FARM paper
 
 This could potentially be used as the basis of an ERC fellowship
 proposal.  The "2018" version of the call was released August 3 2017,
@@ -81,20 +142,20 @@ and is due October 17 2017.  Presumably the "2019" version of the call
 will be run on a similar timeline.  A long PDF describing the current
 call is here: [[http://ec.europa.eu/research/participants/data/ref/h2020/other/guides_for_applicants/h2020-guide18-erc-stg-cog_en.pdf][=h2020-guide18-erc-stg-cog_en.pdf=]]
 
-** Formal proof
-*** Demo the system walking through the steps of a proof like GCP or MPM.
+*** Formal proof
+**** Demo the system walking through the steps of a proof like GCP or MPM.
 If we keep at it, might have this ready by January, in time for an
 IJCAI paper.
-*** Refine both representations and reasoning aspects.
-*** Integrate external computer algebra / proof checking systems.
-** Embodiment and cognitive science
-*** Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
-** Linguistics and NLP
-*** Integrate parsers to generate IATC+CD automatically.
-*** Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
-** Machine learning
-*** Integrate with knowledge bases of mathematical terms and frequency data (as above).
-*** Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
-*** Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
+**** Refine both representations and reasoning aspects.
+**** Integrate external computer algebra / proof checking systems.
+*** Embodiment and cognitive science
+**** Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
+*** Linguistics and NLP
+**** Integrate parsers to generate IATC+CD automatically.
+**** Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
+*** Machine learning
+**** Integrate with knowledge bases of mathematical terms and frequency data (as above).
+**** Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
+**** Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
 
 
