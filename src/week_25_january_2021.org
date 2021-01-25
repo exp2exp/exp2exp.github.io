@@ -1,0 +1,63 @@
+#+title: Week 25 January 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-01-25 Mon>
+#+AUTHOR: Joe Corneli
+
+* Start of the week
+
+#+begin_quote
+Trying something a bit new here: I’ve been maintaining my own personal
+Scrum board.  For a week, I kept it up to date each day by ‘carrying’
+completed tickets off into the ‘completed’ section.  I also have been
+trying to write short (150 word) entries into my personal diary (US:
+daily planner).  Over the weekend, I took all the tickets that I
+completed last week, and wrote a page in my long-form writing journal.
+I’ve now typed up the results.  I was thinking that this might be
+enough to move towards a “blog post” (e.g., four of /these/ per month
+could perhaps be edited into something a bit more serious).  Broadly,
+I think we’ve not been as good at moving from conversations and chats
+to the kinds of things that have more communicative power as we
+thought we might be at the outset of this project!  But, for me this
+constitutes a quantum leap forward.  I think there could be some
+exciting — collaborative, software-based — extensions of this workflow
+within the next few months.
+#+end_quote
+
+We did an initial analysis of PARs collected by the Emacs Research
+Group.  Currently this exists in note form at [[file:erg/cla-16-january-2021.org][CLA 16 January 2021]] and
+elsewhere.  Regarding *ARs, it’s worth having a look at a Harvard
+Business Review article that Cameron found.
+
+I wrote to the FSF’s CTO Ruben about the NSF grant, but didn’t hear
+back immediately!  We could think more about how to target our
+outreach: that said, Topos is interested to continue discussing this
+stuff.  Maybe we can find some common ground there.
+
+I set up an meeting with the Brookes research Office, scheduled for
+Thursday, 28 January 2:00 – 3:00pm (though I will ask them if I can
+push it to 3PM).  So, I can chat with them about that and my typed up
+EPSRC short-grant proposals (see [[file:first_draft_of_two_short_mathematical_science_research_grant_proposals.org][First Draft of two "Mathematical
+Sciences Small Grant" Research Proposals]]).
+
+In the Peeragogy Handbook v4, I’ve created some editorial-director
+style notes for revision *up to* the section on "Practice".  It would be
+great to do the rest of the sections on ‘patterns’ in one focused
+session, and it would probably take about *5 hours or most of 1 working day* to do that.
+
+I wrote 3 MSc project descriptions (see [[file:possible_student_projects.org][Possible student projects]]),
+and they were reasonably well received by my colleagues.  (No specific
+notes for revisions.  The topics are all “doable”, with concrete
+technical deliverables, which were appreciated.
+
+Also, I prepared and sent off a 400 word abstract on /serendipity/ for
+the Serendipity and Big Data workshop that’s coming up next month.
+I’ve started to chase through all of the old reviewer reports ond
+previous submissions, adding notes with Org Roam.  Again, it would be
+good to set aside *5 hours* or so to devote to that this week to see how
+I get on.
+
+Lastly, I made some initial arrangements about AIDAN, emailing people
+about talks, preparing the initial schedule for meetings, and
+analysing the survey of interested persons.  That, itself, comprised a
+fun warm-up for my first day of teaching on “Survey Fundamentals”.
