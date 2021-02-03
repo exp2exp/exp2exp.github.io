@@ -10,6 +10,7 @@
  - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
  - [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]]
  - [[file:arxana.org][Arxana]]
+ - [[file:erg.org][Emacs Research Group meeting notes]]
 - [[file:20200905125023-which_model_construction_process_works_as_a_whole.org][Which model construction process works as a whole?]]
  - [[file:20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
 - [[file:20200905131918-knowledge_graph.org][Knowledge graph]]
@@ -43,19 +44,6 @@
  - [[file:20200912223428-wiki.org][Wiki]]
  - [[file:20201003164100-forum.org][Forum]]
  - [[file:20200814195259-blog.org][Blog]]
-- [[file:sfi/sfi.org][Joe’s Santa Fe Institute proposal (Redux)]]
- - [[file:sfi/gather_data_via_stack_exchange_apis.org][Gather data via Stack Exchange APIs]]
- - [[file:sfi/argumentation_theoretic_analysis.org][Argumentation-theoretic analysis]]
- - [[file:sfi/process_model_analysis.org][Process model analysis]]
- - [[file:sfi/ml_nlp_bootcamp.org][ML/NLP bootcamp]]
- - [[file:sfi/initial_ml_baseline_e_g_match_q_a.org][Initial ML baseline, e.g., match Q-A]]
- - [[file:sfi/hierarchical_ml_for_content_extraction.org][Hierarchical ML for content extraction]]
- - [[file:sfi/active_inference_bootcamp.org][Active Inference bootcamp]]
- - [[file:sfi/agent_modelling_and_sandbox_setup.org][Agent modelling and sandbox setup]]
- - [[file:sfi/curate_koans_and_develop_solver.org][Curate koans and develop solver]]
- - [[file:sfi/study_with_crowdsourced_exercises.org][Study with crowdsourced exercises]]
- - [[file:sfi/study_with_agent_written_questions.org][Study with agent-written questions]]
- - [[file:sfi/publication_ijcai.org][Publication: IJCAI]]
 
 Latest news at: [[file:updates.org][Updates]].
 
