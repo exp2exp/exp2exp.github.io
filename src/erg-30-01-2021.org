@@ -1,0 +1,244 @@
+#+TITLE: Notes 30 Jan 
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+* Notes 30 Jan 
+** Quick checkins
+- Cameron: busy
+- David: how's it going?
+- Noorah: Cedar fever, good pot de creme.
+- Joe: Doing pretty good; lull in energy today, but fixed with a bath; might be able to make progress on work after recovering.  He has been working on the HCI paper.
+- Ray: Good progress with physics, using Emacs as a tool. This can inform development when we get back to that.
+- Leo: Having a great week, spent a lot working & in meetings; made a lot of progress w/ current work and PhD research topics.
+** Agenda
+*** Joe’s demo of Arxana                                              :10m:
+**** Demonstration of scholium for marginalia
+**** Difficulties importing the old version
+**** 2017 version hasn’t even been touched by Joe
+***** Interesting software archaeology
+****** 2010 was probably a little easier to work with based on the similarity in the tool-chain (seq.el), especially with org-roam compatibility on the topic of rhzm
+***** This version had a quite general backend idea
+**** Ray: will need to 
+**** Agenda item: writing a report about what’s really wanted this week 
+**** Derisking 6 month version of the proposal so it doesn’t seem to
+*** Contacting crdt.el’s dev for meeting next week [2021-02-06 Sat 18:30]
+**** Joe is going to send an email to the dev to formally invite him
+**** We don’t need to overly worry about the format; we’re going to record anyway for us, and if there’s anything good to be carved out of it, the better.
+*** Application for Oxford                                         :20m:30m:
+- Useful conversation(s) with Joe
+- Thinking about people to work with
+- Needs some more writing time to distil an elevator pitch but will /try/ an improvised version
+**** Find something from ERG that can resonate w/ Leo, Oxford, FHI
+- Leo: I feel like a philosopher thinking about the future of humanity
+- That said I am also a software developer
+- So, how do I formulate a research topic that mobilises /doing philosophy/ and /working on e-research/?
+**** Concept: /Practice/
+- Software, research, e-research — all have practice components
+- How to articulate this?
+- 80% code, 20% philosophy?
+- 25%/25%/25%/25% — an analogy of a self-learning machine, a process of constant input and adaptation
+- Still sort of abstact... what we wanted to do was to take a broad view of the topic... 
+**** Strategy now:
+- Specific questions?
+**** vs ‘research programme’
+- What can we do after we have a problem?
+- Then you can go back and ask, where does it fit in terms of high-level topics?  What bucket does it fit in...?
+- Cog.-sci. / cognitive psychology / software?
+- Beginning-middle-end?
+**** Noorah’s pal
+- Puzzle, has it been sufficiently addressed or resolved, if yes... and people have moved on, then rethink the puzzle?
+- But if only a few people are in the area, then it’s relatively easy to get into the conversation?
+- OK, is this feasible as a research project?
+- How does it relate to the gap in literature?
+- How does it relate to *method*? / is there a testable hypothesis? / Where is the data?
+- Learning a new method can take a long time... can you learn any needed methods quickly?
+- Noorah: And, give yourself the space that any of this stuff (including the topic) can change...
+  - /You might go down different paths!/
+**** What kind of philosophy are we talking about here?
+- ‘Epistemology’ as an example branch (how are we creating knowledge /using these new softwares/)
+- (Deleuze, Foucault? As a way to step back & then find a way forward...)
+- For a PhD thesis topic, try to find a ="puzzle"= — a nagging feeling to explore something more... How can we solve this?
+- There needs to be a problem side thing
+*** /We Need to Talk About Emacs/ (not the Lynne Ramsay film)           :20m:
+- Lots of tools to do this... Etherpad, /Bookdown/, Hypothesis?
+  - Works well for you
+    - …but Noorah rhetorically guesses that it wouldn’t work for her supervisors/colleagues
+  - Local Hypothes.is??
+  - But also a reinvention for your readers that works well for them
+- How interoperable are these tools...?
+- Maybe it’s at the level of a file, I move things from one place to another
+- To have something that’s more than the sum of its parts, we need something *holistic*
+- In Emacs we have something perfect to coordinate something — if we move to an online platform without Emacs we would have to reinvent
+- BUT maybe we are confronting a (too) ambitious project
+- Do we want to make a ‘panoption’ of research...
+- Involving supervisor/supervisee... 
+*** CLA review, Part 2                                                :10m:
+- This a central agenda item
+- https://exp2exp.github.io/erg/cla-16-january-2021
+- https://docs.google.com/document/d/1gyLbTjnVs3eYxj7cMyBQSOWIxRGHe0W8VeAPTFsZuMA/edit
+- Nice to have a shared artefact:
+
+**** Understanding data, headlines, empirical world (short term change) :data:
+- We need to be collectively confident on the major themes (maybe set a realistic deadline at the end of Feb)
+- Maybe add a couple of demos for this quarter (assigned and on the calendar)
+**** Systemic approaches and solutions (social system)              :system:
+- Requires a larger community of contributors for it to work.
+  - How do we differentiate authorship in those notes?
+- Our work needs to be public first before we can embark on this project.
+**** Worldview, ways of knowing and alternative discourse        :worldview:
+- /Practice/: Different to ‘method’ (the latter is more top down)
+- *Collaborative is a key theme*
+- /Talking about actualizing what we’re doing/: This keeps popping up, so might be worth discussing tomorrow.
+- *My* (Noorah’s) thoughts on a set of notes that we create together across time (30th January)
+  - Annotations and history
+  - “Bookdown” to create book in Markdown?
+  - *Hypothes.is* to have access to WIP (https://via.hypothes.is/https://www.gnu.org/)
+  - Trying to structure my dissertation, which has many parts; and I have a committee that needs to comment on progress
+    - How is the progress of an applicant/researcher measured?
+      - Visible outputs of research; // quantifiable research
+- We started off with PARs, then we started thinking through our past PARs, then observing /patterns/...
+  - https://arxiv.org/abs/2012.03736
+  - Seeing patterns require a high-level view.
+  - ‘Patterns’ as ‘projects’; parallels to LV’s workflow?
+  - How can we make our patterns work in a collaborative fashion?
+    - e.g. having similar patterns with Qiantan; how do we share?
+    - Linked to /common ground/?  How do we find common ground with people?  Technically speaking, but also methodologically/practice-oriented speaking
+**** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+- /Method/: This keeps popping up too. We may need to decide on a few activities/deliverables, just something more tangible.
+- /Link between method & practice?/  Actualising what we’re doing
+  - What gives an *Objective* character to what we’re doing?  (It’s fine to do something that we’re enjoying, but there must be something about actualising.  Even if it were just fun; how can we make it so that even more fun.
+  - Top-down approach of method vs. the bottom-up approach of practice
+- https://hbr.org/2005/07/learning-in-the-thick-of-it
+- If we tackle big enough projects would create need for collaboration /en train/
+*** Peeragogy stuff                                                   :20m:
+**** Porting the Peeragogy manual to org-mode
+- Joe showed us some very nice templates from the handbook in [[*Worldview, ways of knowing and alternative discourse][Worldview, ways of knowing and alternative discourse]] (above)
+  - Template for PARs/CLA
+  - The links can be nicely visualised with org-roam-server-mode
+    - Some links might have been lost in translation; but the port is already at a decent stage
+**** How to create the website infrastructure
+***** Joe would like to bring this point towards ‘collaborative blogging experience’ (à la Peeragogy)
+**** Points about Charlotte’s perception of Emacs
+***** When do we meet?
+** Practical considerations from today’s meeting
+*** crdt.el behaved well, mostly
+*** Storing templates into yasnippets, and creating babel blocks at the top of this file so that we can all load the templates
+** Joe’s feedback
+- Tension between objective and subjective character
+  - We talked about research s a search forward in the fog (Joe’s analogy with the Muses)
+  - It’s a search process, but not towards a goal; a creative search
+  - Planning, tasks; they’re all about objects and goals; measurable progress
+- Interesting in the light of the code and philosophy:
+  - They both have an objective character (the /practical/ element)
+    - Questions:
+      - How do we do research as a researcher?
+      - How do we do philosophy as a researcher?
+    - Where does it stand in productivity consulting?
+    - How is Oxford going to make good of the £60k
+  - The time is to start working backwards (// Peeragogy method)
+- Practical advice
+  - Looking into PhD thesis which would be similar
+    - Joe has a paper in mind
+    - Who are the rôle models for this type of research?
+    - I don’t want to do it like this.
+** Noorah’s points
+- Philosophy & Practice
+  - What kind of philosophy am I talking about?  Is it about the philosophy of creating knowledge (ways of knowing/seeing à la Berger; the learning-self)
+  - Coming up with a theory of coming up with knowledge
+- For a PhD project, the goal is to find a puzzle: ‘What is the puzzle that I am trying to solve?’
+  - There must be a nagging feeling that needs to be elucidated.
+  - There’s an emotional side to it.
+  - Problem-solving aspect of research very reminiscent of the programmer’s stance
+  - Research program // computer program; is it about format?  Is it about standards?
+- Let’s say I have a problem; what next?
+  - What I can then do and go back (backward-planning, like Joe said); which bucket does this topic go into?
+    - Process of /refinement/ the topic; polishing the raw diamond
+      - Maybe what I need to do is remove the slag, of which I have too much right now (the sturdiness of philosophy in light of French Theory)
+
+**** Back to Joe:
+- We need to think about a beginning/middle/end process/road-map.
+  - For Joe, this was theory/tool/test
+    - Theory: Peer-learning is an effective way to learn maths
+    - Tool:   Collaborative maths, encyclopedia
+    - Test:   How do people learn? ; qualitative research
+- Feels like building on the process of reverse planning, or ‘working backwards’
+
+**** Back to Noorah:
+- After the puzzle, ‘Has this problem has been sufficiently addressed.
+  - If yes, a lot, then rethink the puzzle (going forward, as opposed to going before)
+  - Thinking of rese  arch as a conversation (Book: They Say, I Say, cite:graff2014)
+- How do I plan on measuring the research?
+  - Thinking about outputs
+- Matching the methods with the skills I have; working with what I have rather than always being concerned with what I can learn to make this a reality; having a relationship to time which is based on maximising results.
+- ‘Give yourself the space so that any of this stuff can change’
+  - The French Theory does that a lot, so it’s fine, since it allows your projects to breath
+  - Funny that Noorah refers to it as a journey, which is again very geographical.
+
+**** Leo’s points:
+- Salience of visible output; I can use the tools I’ve developed
+- Finding the best way to give feedback
+- Though some points could have been clearer... Concretize what I/we’re doing here. Including the very beginning of research!
+- Now the time is to simplify in a Thereau’dian way
+- And think backwards about the strategies
+- Should include the tools, planning my research, how do I develop tools that allow me to research better with my supervisor?
+- Making the progress of my work visible & transparent?
+
+**** Back to Joe
+- Feedback on his aborted PhD, saying
+- ‘It’s good to build in the personal support network that can help make some of the decisions, even if they’re difficult or challenging (and to have people who can notice the patterns, /wink wink nudge nudge/ Noorah)
+- ‘You’re in an interesting position: you’re writing a proposal, but you might want to have a second book-keeping (// reversed Zettelkasten) for a MA thesis; what is the first thing that would satisfy you about the methods?
+  - So, doing another research topic on the side which could be used as a testament to my ability to work, but which could also allow me to submlimate the energy that I have right now to write and talk about philosophy in an output-/result-based way.
+
+**** Noorah
+- Journalling is a good way to have visible output, and it’s also good for challenging resistance (cf. cite:jensen2017)
+  - Jensen, J. (2007). Write No Matter What: Advice for Academics. : University of Chicago Press.
+- ‘From notes to narrative’
+
+**** Joe
+- Doing research in/on Philosophy (nice preposition tension like the beginnings of the ERG)
+- 
+
+**** Noorah
+
+- Digital ethnography: Of philosophers, of social medias
+
+**** Joe
+- Moment of appreciation for the methods that Joe wanted to 
+
+** Future agenda
+*** Questions for Qiantan :1hr:
+**** crdt.el & encryption
+*** Working on Arxana with Joe :15min:
+- Report on pairing session
+*** Why do we need to create collaborative writing platforms? :15m:
+**** Do we have a real reason to do so?
+***** We need Cameron for this.
+***** We have so many problems in the world that we can’t solve them in an individual way.
+*** Leo’s tag-up meeting on the application                              :15m:
+**** Elevator speech for those who weren’t around
+**** Gauging the place of the CLA within my research: was it useful or not?  Is that kind of method useful or not?
+** PAR 30th January 2021                                                :15m:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Objective to get back to Emacs a little, having experimented with a somewhat more structured format
+- Cover Oxford application some more
+- CLA again
+- Collaborative annotations
+*** 2. Establish what is happening: what and how are we learning?
+- Smaller group this time
+- Fun time talking about demos & real applications as well 
+  - The fun of actualising method via practice
+- Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research
+  - Joe also benefited from this discussion
+*** 3. What are some different perspectives on what’s happening?
+- Joe: Enjoyed Noorah's thinking about PhD writing
+- Leo: Getting more comfy with using templates like PARs and CLAs
+*** 4. What did we learn or change?
+- Noorah mentioned interest in pattern templates
+*** 5. What else should we change going forward?
+- Joe to research Bookdown + Hypothes.is + Rstudio
+- Circulate early draft of HCI paper, Joe to read comedy and philosophy paper
+- Automation: Sacha is obsessed with automating things so we can do better work (e.g., Yasnippet)
+  - What could we achieve, in terms of tracking authorship, speed, etc.

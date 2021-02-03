@@ -1,0 +1,409 @@
+#+title: 02 January 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+#
+* 02 January 2021 — Emacs Research Group
+** No more 2020!
+
+- Unstructured time off!
+- Think about the projects we have now to prune & focus etc.
+- Agenda item: research that’s been done
+- Progress since 2019!
+- Plus, 2020 was the 4th Emacs Conf, and ERG counts as progress!
+- Painting, audio programming
+
+** Progress report (post-holidays)
+
+- Minimal concrete progress, but some thinking + Lit Review — thinking about this as contribution to a Whitepaper.
+- Condense concretein 1st hour
+- Show and tell of first dip survey: https://etherpad.wikimedia.org/p/emacs-research-refs
+- Zettlekasten
+- Experiment: David & Noorah (report TBA)
+
+** We’ve been discussing practical stuff...
+
+Next directions?
+
+*** Philosophically
+
+- Philosophically, how to relate things like Zettlekasten & ‘thinking’?
+- Also: how did it somehow spring from nowhere?  *Panacea* of all academic problems!  Write papers w/o suffering!
+- We’ve been using ‘Zettlekasten’ style methods w/ great success, but it’s not magic.
+- Why does it appeal to us?
+- ‘Organicity’ — does this correspond w/ cognition?  Thinking w/o structure (in cog sci, linguistics)?
+- RSP: Panacea → could give a back-reaction if it doesn’t actually do everything?  A social side of things?
+ - LV: the metaphor/analogy allowed an interesting retort; this is talked about by Lakoff /WOMEN FIRE AND DANGEROUS THINGS/
+ - Andy Matuschak...
+ - Is it b/c we made it /very visual/?
+- Finding inspiration in the meta-aspects
+- Link w/ Digital Humanities & Meta-science
+
+#+begin_quote
+Deyan Ginev: Before AlphaZero the limitation was that any "big enough"
+search space is unapproachable by AI, because it would be
+intractable. Nowadays the limitation is that your space should be
+somewhat describable and rigid, because "unsupervised knowledge
+representation building" isn't properly solved yet. The ARC challenge
+connects on one end of this puzzle piece, theorem proving on a second
+end, and human dialogue on a third
+#+end_quote
+
+**** CRS: What are we doing when we take notes & compress them?
+
+What could continue driving the interest in convening in this group?
+Thinking about /the research process in general/.  I’ve come to this
+collection of tools having filtered through a wide variety of options.
+But the whole while I’ve been focused on research itself, not the
+specific toolset.
+
+So, I’d be motivated if we agree the prioritisation is ‘what does it
+mean to do things like take notes & how can we do it in ways that help
+us realise our interests?’.
+
+I like to ask questions I don’t know the answer to.  I plan to engage
+in this, but sometimes it feels like a waste of time.  You can
+/characaturise/ taking notes: transcribing the world’s knowledge at a
+snail’s pace!  You’ll never cover a useful fraction!
+
+But what we’re doing is trying to augment our memory.  It slows us
+down in reading, but likelihood that we’d remember is low.
+
+So, there’s some co-optimisation... what we write down & what we
+choose to ignore... evolves over the lifetime of anyone (and any
+researcher in particular).
+
+At the same time I believe in combining these philosophical things w/
+very down-to-earth things.
+
+What we functionally have is, Joe taking a note in a place where we
+don’t all have access.  We *could* immediately solve this by opening a
+Google Doc. This is why people don’t use these tools.
+
+- RSP: Just transcribing doesn’t work well; usually the purpose of notes is to make a roadmap.
+ - Literary example: Borges’s map vs an actual *roadmap* for the knowledge you have
+
+**** LV: There’s a fundamental aspect of ethics
+- What we have here is free software, that allowed us to do research
+  better, allowed us to meet one another (etc.)
+- Our interests resonate easily!
+- BUT one of the cornerstones of what we’re trying to do is ‘method’.
+ - E.g., with peeragogy: a key thing is ‘methods’
+ - /Being open about the process, being efficient about the process/
+ - Maybe the soul is ‘method’
+- Having the freedom that comes from documenting everything...
+
+*** Doubling down on concrete aspects?
+
+- Is the patent about ZigZag over?  Instead of spreadsheets, it’s more
+  like a Rubics Cube.  Using a ‘cubical complex’ as a semantic network.
+ - RSP: Somewhat similar to some things we did w/ arxana
+ - LV: Related to Org Brain ‘move like this, like this’
+
+**** Putting in the ground work to set up our infrastructure as functional
+
+- This operationalises the philosophy stuff
+- We need to commit to this to realise the ideas that we are throwing around
+- This is a little in tension w/ the other stuff but we need both (and need to address them) 
+
+** Whitepaper: reasonable as a first step
+*** State of play
+- This is what makes a group official.  We’ve been postponing writing
+  it, but we’ve been able to think it through.
+- Our cohesion could be condusive!  We started wide & narrowed; we’re able to pluralize a vision...
+- We are very ready!
+- NA: I can think of a structure for the paper.
+- We can use our research into writing the paper as a ‘case’
+ - E.g., we’re doing a /Systematic review of emacs/ — a /categorization exercise/.
+ - To make it a little more interesting, use the tools we’re talking about :-)
+ - Possible model paper:
+
+#+begin_quote
+Tomlinson, B., Ross, J., André, P., et al. 2012. Massively distributed
+   authorship of academic papers. /CHI’12 Extended Abstracts on Human
+   Factors in Computing Systems/, ACM, 11–20.
+#+end_quote
+
+*** Bibliometric stuff: categorization of stuff that’s been done?
+- This isn’t necessarily the most appealing part
+- You may have to spend time reading papers that are outside your area
+- Finding a bunch of sources is 25% of the work done!
+
+*** Meta stuff
+- Reflecting on our process
+- Progress so far, doesn’t necessarily cover Emacs from a philosophical/HCI/peer-working prism?
+
+*** What else is needed? We need to make obvious in writing the things that we do when we create a group.
+- How to get people in our faculties to use Emacs
+- How to Ascribe? Enfief? — to which disciplines...
+
+*** ‘What is Emacs’ — Editor? OS?
+
+- Analogy, compare EmacsConf process: should we publish on emacs.org or emacsconf.org?
+- Moving from Research in Emacs to "Emacs itself"
+- Research in/on/with Emacs — could be a clever title
+ - But still misses a section on ‘so what’.
+
+**** DT: It’s an artificially intelligent personal assistant!
+
+- It segregates settings per user (from functionality)
+- Because it’s written mostly in LISP you have the ability to use almost all Classical AI techniques (up to and probably including modern NN)
+- Because it has more than a passing similarity to Common Lisp, a lot of CMU stuff is available
+- LV: this is related to how we talk about Zettlekasten as a ‘second brain’
+ - This is not about AI in a traditional way, but AI as a conversation partner.
+ - AI is often about /replacing/ human decision making...
+
+- DT: Yes, it is a conversation (when you program, and now I’m doing audio stuff too and that’s working out!)
+ - Maybe you can’t edit video in it now... but someday
+
+- LV: Methodology of creation!
+ - You feel like a demiurge!
+ - It’s a powerful tool... insofar as it allows you to be empowered.
+- Methodology of research is an example
+
+**** DT: It’s also important for software freedom, because it’s not running on your phone etc.
+
+- It’s one of the few AIs you can download and play with
+- Example: I recently played Emacs chess over the network
+- If you’re doing /reproducible research/ (Gov’t pays, taxpayers want to add more data and re-run the analysis... they can)
+
+*** what are we trying to do? (preview?)
+
+note that we:
+- need to address energy, sustainability
+- as far as strategy, are people going to be receptive to such a paper...
+- Unless we’ve primed them to know /they can use the software themselves/.
+- *And* that we’re experts.
+ - This refers back to the shock-and-awe method.
+- How do we do research in the 21st Century? How do we work together?
+
+**** Should we make a commitment:
+
+- The way we created the group
+- The way we wrote the whitepaper
+- What is the soul of the group
+- Favor a ground-level approach at the risk of being less exciting?
+
+**** If we look at transdisciplinarity, HCI, there are others talking about this stuff
+
+- If we’re supposed to be the bridge between these groups
+- ... transdisciplinarity of transdisciplinarity itself...
+
+*** Game plan: it’s an inductive process
+- If we start & do things, things will come up
+- If we stick with this group for now, that’s good — we can avoid neverending conversations
+- We should document the infrastructure (e.g., comment on ‘I don’t know how to SSH, Git... how do we overcome this problem?’)
+- Let’s use this case to get people to use it: this is how we’ve overcome our problems!
+
+**** Start assigning tasks?
+- Create repo to write things in
+- Do some soul searching on our own?
+- Create a slipbox based on the things we’ve been discussing from the start
+- Then start linking them together!
+- Focus on atoms now, and focus on structure next.
+- We have some ideas.
+- Lit review is pretty basic and needs to be fleshed out (RSP)
+- Bibliography, annotations
+- Assigned reading/review via mini-lecture: Massively distributed authorship of academic papers (JAC)
+**** Start fresh on whitepaper & tasks next week?
+
+** CRS: Questions
+*** Could we agree to proceed with making an attempt to write a whitepaper?
+
+- Want to get to the step of writing it
+- Also could do this as ‘US TAKING NOTES TOGETHER’ — it doesn’t have to be final draft!
+- Foucauldian perspective vs dreadful perspective!
+- It can be a scary process...
+
+*** Could we agree on how we can do that collaboratively (e.g. using Org-Roam, Git, Logseq, Firn (for anyone who doesn't want to install emacs and use command-line/GUI Git))?
+
+- Place to begin collaborating on /draft/ of outline — doesn’t necessarily look like anything final
+- Begin to open up places of agreement/disagreement
+- Discussion about next steps will be easier if we have actually surfaced things that could be contentious
+
+- Workflow for shared git repo isn’t so different from solo
+- Do sometimes need to sort out conflicts (magit, ediff!)
+
+- Do we do personal files? joe.org, leo.org?
+- whitepaper.org? — needed
+- Minimize the merge conflicts by focus more on outline level with brief description plus link to other files
+ - Any merge conflicts can be useful in terms of moving the conversation forward
+- Use *org transclusion* — this can easily be transluded in and edited!
+
+*** Could we agree to "document" our work on the whitepaper asynchronously by RECORDING SCREENCASTS of most of our individual contributions (including audio where we might try to explain to the others what we are thinking as we edit the draft document)?
+- Start to think about ‘when I’m working on a subsection’
+- It would be awesome if I had a screencast of when they were working on another section...
+- You don’t want it to be a barrier, but here’s what I was doing, here’s what I was thinking about — zipping around... it could be an interesting artefact to incorporate (in between having a podcast & just posting a paper); we’d have archival footage of the actual production of the thing.
+- This is often left out, which is one reason (maybe) why people don’t learn how to do research
+- E.g., Andy Matuschak example shows the ‘unraveling’ of his mind!
+- Within meetings we can definitely give comments on our thinking over the week (this is a good way to start rather than recording every second to begin with)
+*** LV: Format of meetings
+
+1. Operational parts (report back on tasks)
+2. Have actual reading group (e.g., presentations on something everyone ‘reads’, or distribute readings & report back)
+
+** AOB
+
+- Hyperreal Discord; maybe not just Emacs but HCI in general...
+ - LV: I have been thinking about this as a side project
+- Peeragogy book
+- Peeragogy /Futures/ paper: lots of looking up references seemed to help us all
+- Take time to read the notes, feel free to write notes & someone else will write them
+- If we work on this we’ll keep conflict to an approximate minimum
+- Options
+ - [[Philosophy of note taking]]
+ - [[Philosophy of note taking — Leo]]
+ - [[Philosophy of note taking — Cameron]]
+- We’ll get something readable, relateable, etc.
+- Shared Zettlekasten
+ - Need to get the system up and running
+ - raison d’etre!
+- But we’re trying to work out a process by which we can investigate benefits of combining notes in real time 
+ - Wikipedia already tells you what outcomes / benefits can be
+ - Groups w/ 100 authors might actually have only 1 ‘real’ author
+ - Can you really take notes in real time in small groups collaboratively...?
+
+- ‘FLOSS HOST’ — for public projects w/ free toolchain.  But, it’s a complicated project.
+- Free cloud → anything can happen from this, projects can sprout!
+ - Org Roam is a kind of a prototype for this (‘infrastructure for thinking’)!
+
+** PAR review, allow 15 minutes (from 19:15)
+
+“An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
+
+*** 1. Review the intention: what do we expect to learn or make together?
+- Share updates
+- Keep momentum going
+- Plan whitepaper — Still narrowing to a decent output
+*** 2. Establish what is happening: what and how are we learning?
+- ‘Method’ — a potential topic of key interest
+- Talking about actualizing what we’re doing
+*** 3. What are some different perspectives on what’s happening?
+- This was a productive session in terms of concrete things being done
+- Good coverage of speakers
+- Sad we lost David at the end!
+- This could turn into a grant (be careful!)
+- Whitepaper should be ‘enough’ as a pilot study
+*** 4. What did we learn or change?
+- David & Noorah have joined the Discord server!
+- “An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
+*** 5. What else should we change going forward?
+- 4PM UTC chats: welcome for beverage
+- Getting the shared *Zettlekasten* / OR working!
+ - (Zettlekasten isn’t yet a solved problem.)
+- crdt.el — Qiantan is on vacation, he’s working now... we might want to get in touch!
+ - if we ended up writing a paper about this he should be included
+- Invite for forseeable future?
+- Journal paper ... what would this look like:
+- Leo plans:
+ - It might be wiser to re-ask this next week, e.g., could we set up the slipbox properly?
+ - Repo for slipbox
+ - Notes on methodology — will include local file that includes the configuration
+ - To share by Monday
+- Possible structure of whitepaper:
+ - Virtuous circle of reflection.
+
+** Config for handling muliple org roam directories
+#+begin_src elisp
+;; You’ll want to set these variables for your "default" Org Roam
+;; — my settings given
+(setq org-roam-directory "/home/joe/exp2exp.github.io/src/")
+(setq org-roam-db-location "/home/joe/exp2exp.github.io/src/org-roam.db")
+
+;; Set this variable to include paths to whatever directories you use Org Roam with
+;; — two examples given
+(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp.github.io/src/")
+                           ,(concat "/home/" (getenv "USER") "/PeeragogyORG/")))
+
+;; A command to change Org Mode
+(defun org-roam-checkout ()
+  (interactive)
+  (let ((ctx org-roam-directory))
+    (if (eq (length org-roam-library) 1)
+        ;; Go ahead and set the variable in this case!
+        (progn (setq org-roam-directory (car org-roam-library)
+                     org-roam-db-location (concat org-roam-directory "org-roam.db"))
+               (message "You only have one choice for org-roam-directory defined."))
+      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+        (when lib
+          (setq org-roam-directory lib
+                org-roam-db-location (concat org-roam-directory "org-roam.db")))))
+    ;; Assuming that the user changes context, let’s prompt them to
+    ;; choose a new file in that context
+    (when (not (eq ctx org-roam-directory))
+      ;; not rebuilding the cache for now, uncomment if needed
+      ;(org-roam-db-build-cache)
+      (org-roam-find-file))))
+
+;; Keybinding for the above
+(define-key org-mode-map (kbd "C-c n d") #'org-roam-checkout)
+#+end_src
+
+** Chat notes
+
+Leo Vivier
+5:46 PM
+
+https://dl.acm.org/doi/10.1145/2723872.2723881
+jo
+Joe Corneli
+5:49 PM
+
+sounds good
+ca
+Cameron Smith
+5:50 PM
+
+Link to freely available reprint of Leo's reference https://hal.inria.fr/hal-01112795/document
+jo
+Joe Corneli
+5:50 PM
+
+https://etherpad.wikimedia.org/p/emacs-research-refs
+no
+Noorah Alhasan
+6:02 PM
+
+https://github.com/org-roam/org-roam-bibtex#orb-pdf-scrapper---retrieve-references-from-pdfs
+ca
+Cameron Smith
+6:04 PM
+
+[[https://www.youtube.com/watch?v=PENtIUXCBf4][After Math: Reasoning, Proving, and Computing in the Postwar United States - Stephanie Dick - YouTube]]
+da
+DavidOToole(Offline)
+6:09 PM
+
+https://en.wikipedia.org/wiki/ZigZag_(software)
+ca
+Cameron Smith
+6:10 PM
+
+https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning and https://en.wikipedia.org/wiki/Description_logic
+ca
+Cameron Smith
+6:15 PM
+
+https://discord.gg/YzjsdHRD
+ca
+Cameron Smith
+6:46 PM
+
+1) Could we agree to proceed with making an attempt to write a whitepaper?
+
+2) Could we agree on how we can do that collaboratively (e.g. using org-roam, git, logseq (for anyone who doesn't want to install emacs and use command-line/gui git))?
+
+3) Could we agree to "document" our work on the whitepaper asynchronously by recording screencasts of most of our individual contributions (including audio where we might try to explain to the others what we are thinking as we edit the draft document)?
+da
+DavidOToole(Offline)
+7:03 PM
+
+more recent wiki blurb https://www.emacswiki.org/emacs/DavidOtoole
+ca
+Cameron Smith
+7:06 PM
+
+https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line

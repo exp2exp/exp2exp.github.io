@@ -1,0 +1,153 @@
+#+TITLE: 16 January 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+#
+* 16 January 2021 — Emacs Research Group
+** Activities
+- NA: How I’m approaching the learning process, why are we using this?  E.g., ‘let’ instead of ‘while’
+- How do we think about this process, problem-specific, details
+- JC: Other learning folks; Luís (Emacs), Stephan (Lisp)
+- Separate places for working
+- Physical scrum board creates limitations
+- RSP: Glad I made it here, sorry last week was unexpected interruption
+ - Looked at notes from last week
+
+“Six pillars: futures thinking for transforming”
+- https://www.youtube.com/watch?v=ImWDmFPfifI
+- https://www.benlandau.com/wp-content/uploads/2015/06/Inayatullah-2008-Six-Pillars.pdf
+- https://www.researchgate.net/figure/The-CLA-Iceberg-Source-Inayatullah-Sohail-Appendices-The-Causal-Layered-Analysis_fig1_329686603
+** CLA notes: how are we envisioning
+- Which paradigms (e.g., Deleuzian terms of how fields influence each other)
+- ‘Iceberg’ — tip of the iceberg, what’s beneath it isn’t good!
+- ‘Rhizome’ might be more neutral
+*** Did some prep work in here:
+https://docs.google.com/document/d/1gyLbTjnVs3eYxj7cMyBQSOWIxRGHe0W8VeAPTFsZuMA/edit#heading=h.q4gpa8a2mtgl
+*** TODO Look at this individually, add to the doc, and come ready to discuss next week
+** Big picture
+- High level
+- Practical/concrete
+** Last week
+- Highly philosophical
+** This week
+*** Goals
+- Being more pragmatic about...
+- Grants?
+- How to do the research
+- Thinking about career situation
+- Making a field if it doesn’t exist! Enfief ourselves to Digital Humanities (DH)?
+- But academia is medieval and it’s hard to squeeze a way in to make something new
+- RSP: Now we also have online learning, academia’s place is changing
+- LV: I spent 8 years studying English, literature, education, philosophy
+ - Now that I’m outside of uni it feels like I’m taking the next step!
+ - I feel like I’m fresh out of (?) an abusive relationship with academia
+ - There’s always been a literary site and a technical side, it feels as though they have traded off against each other
+ - Research: will this allow me to mobilise both?  But it can be a lot of trouble to apply and get a spot!
+ - Academia is a good way to get a grant, if you can appear as smooth as you need to be...
+ - But could we consider doing this as something independent?  Or, if we do it within academia is there a way to maintain independence?
+*** Assume we can write what we need to write
+Is it tightly locked with academia, or is it something that could fit with a company?  How tightly connected w/ Academia?
+Should we make a distinction between academia & research?
+- RSP: Let’s not get tightly locked with any specific idea of academia or institutions
+ - With PlanetMath we were building another locus (institution?) where research would happen
+ - OK, academia is there and we should work with it... but we may also need to create a suitable institution
+- Legal requirement about NSF grants
+ - Cultural elements? Is this known to people who do funding
+- Joe & Ray have lots of experience with doing things outside —
+- RSP: Don’t be limited to just one!
+ - ‘Internal reviews’ vs ‘research’ — institutional incentives aren’t strictly aligned
+- JAC: That said, no shame in being at the university getting a PhD!
+*** LV: Choices to make
+- Philosophy PhD?
+- Literature PhD?
+- Personally crafted position in DH?
+- Technological world?
+- But the academic world is dreadful! Everyone feels like they have the competence to ‘do it’ but even someone with experience with productivity will have a hard time.
+- More money and ‘cred’ in the tech world than in academia
+- In France, you get a 3 year contract with €13K/an., 5 or 10 spots within each university.
+ - I could apply for this but what’s the point?
+ - If I could do this sort of thing as an independent person/researcher (e.g., monetizing Org Roam?)
+- RSP: Recommendation: Max Weber, “Science as a Vocation”
+- JAC, NA: Take your time!
+- NA: Being in an academic environment does help with research, the cohort, the colleagues help. Research on its own is lonely/dark.
+ - The dream for me is to do research without the academia nonsense
+- RSP: I completely agree, and the way it’s worked out for me it’s been some people in and some out of academia
+ - The research itself has been a bit stable across these different institutions
+- LV: I spoke with a colleague who used to teach high school, like he, and I helped him apply to Princeton and Harvard
+ - We’ve always been the students close to the profs
+ - But we’ve felt like the good people were kind of locked in; they had beautiful wings which were then clipped!
+ - Administrative things, little time for research!
+ - The emphasis on teaching and administration takes a lot of space; those who can do this kind of stuff can be a bit ‘locked’
+ - Equilibrium in chaos? Prevented
+- LV: I know all the arguments against going to academia...
+ - With OR there’s the appeal of what we’ve been doing that supports people in liberated thinking!
+ - There’s also the craft of trying to make the software optimised... hard to find something that combines the 2
+ - In a case in which LV worked with JAC and a PhD student... I’m not sure how I would be able to navigate this so far!
+ - This nebulousness has been a boon for thinking outside the box; now I’ve thrown away the box and I’m going somewhere...
+ - Friend was recommended to look into private sector or start proper consulting
+ - What I like the most about academia was not the institution, the lectures... the libraries, the ambience...
+ - It was the intermingling of people, where you could discuss things seriously with people... interesting discussions isn’t tightly coupled with academia
+*** Responses
+- Doing a PhD is always an irrational choice... so go with your gut!
+- NA: I’ve done 4 years in the PhD program and still figuring out what I’m doing
+- RSP: In regards of ‘technical’ vs ‘humanities’ — what you’re doing may not fit well in this department or that
+ - When I do some of the things I do now, is it biology or is it physics?
+ - The way I do it is... what do I do, it has various elements but it’s a well-defined area
+- JAC: There are choices but there are also constants — identify those and get on with them
+*** Further thoughts
+- If you don’t have the field or the topic then you’re down to the ‘aesthetic’ of the romanticised version of self
+- I’ve been thinking about options in terms of what I need to change; but I *should* be thinking about what I’m good at, and finding something that fits
+- But could I find a job that I’m capable of right now?
+- It may take some adaptation, but not a complete reinvention!
+- On an ongoing basis, we want to be productive...
+- Split things up a bit... get livelihood, what I do as researcher...?
+- RSP: What are the goals? What are the things I’m trying to do? Once I have that clear, it’s how I go about doing it. And this may involve different choices that may not be obvious.
+- JAC: Getting a PhD won’t solve any of these problems!
+- The existential crisis is somewhat ongoing!
+** Grant document
+Noorah found this: https://www.nsf.gov/pubs/2021/nsf21548/nsf21548.htm
+- Writing a grant could help us hone in our objectives and what we want to do
+- It’s also possible to repurpose
+- We could try to draft something for this?
+- We could look around for analogous
+- Who would we have to recommend us? (Letters of reference, to get a chance of being read.)
+- Maybe use it an an exercise (supplant the notion of a general Whitepaper)
+- Maybe look for similar EU opportunities?
+** Review — 16th January
+*** 1. Review the intention: what do we expect to learn or make together?
+**** Looking at CLA, thinking about what a more ‘meta’ approach looks like, making sure that our ethics align with the project
+**** Meta-analysis is a big part of what we’re doing?                 :data:
+**** We want to do more with these reviews than just file them away for future archaeologists
+**** Make the inputs contextual.
+*** 2. Establish what is happening: what and how are we learning?
+**** Tiny intro to CLA on the fly, based on reviewing a TEDx talk this afternoon; never done one before
+**** We came up with an adapted plan for the exercise
+**** More personal discussion will feed nicely into this
+**** Hyperreal Enterprises Firn config ported to PeeragogyORG
+**** We never got around to doing CLA there yet, but this will help
+*** 3. What are some different perspectives on what’s happening?
+**** Last week: ‘methodology’, ‘collaboration’; now, trying to ‘debug’ the way we work together
+**** The ways we’ve been discussing has created a healthy dialogue
+**** CLA came to us from the last large Peeragogy paper
+**** We’re contributing to Peeragogy from within
+**** We hardly spoke about emacs (just mentioned crdt.el; we didn’t specifically talk about Emacs)... if 3 weeks go by w/o discussion
+**** Are we becoming more an extension of the Peeragogy group (...and less about Emacs?)
+**** But Emacs could come back into it for managing tech
+**** Maybe both aspects are meeting in the middle!
+**** This review seems more conclusive/actionable
+*** 4. What did we learn or change?
+**** Created a Google Doc for 2 experiments at once: (1) to use a google doc and think about what works and doesn’t (2) CLA homework
+**** Leo’s situation
+**** The overall relationship between academia and research
+**** Relationship between these kinds of personal health things and the "group health"
+*** 5. What else should we change going forward?
+**** Contacting Bradley Kuhn about the NSF grant
+**** Report to Cameron and David about what we covered
+**** Review the CLA stuff
+**** Finding density poles within research?                       :metaphor:
+**** TODO Joe to pass info about Firn tags to Leo
+**** Maybe milestone based funding for Org Roam
+**** Following up w/ 1600 UTC weekdays

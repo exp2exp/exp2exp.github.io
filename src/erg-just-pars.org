@@ -1,0 +1,169 @@
+#
+* Here’s our first Project Action Review!
+
+1. *Review the intention: what do we expect to learn or make together?*
+
+- Joe Noorah and Leo wanted to convene a meeting with interested parties in Emacs+Research
+- Address longstanding worry about "wait until next year"
+- Part of a greater sense of trying to do something with EmacsConf to federate the community
+
+2. Establish what is happening: what and how are we learning?
+
+- Met for an initial 70 minute meeting (via Zoom)
+- Everyone shared a brief intro and ideas so we got to know each other
+- Joe took notes via screenshare... we all took notes (as academics)
+
+3. What are some different perspectives on what’s happening?
+
+- Cameron: We are meeting for the first time so there’s a lot of intro information
+ - We generally agreed that we want to make something that exposes intrinsic value of using these tools
+ - Vaguely agreed on follow-up directions, this seems to be a general consensus, often with full agreement (e.g. on testing and making a collaborative Org Roam work, to further cement as tool for collective thinking in combination w/ individual)
+- David: there are ways I could help out with extra elisp, helping figure out a package, intro elisp workshop
+- Joe: Leo did an amazing job facilitating the meeting
+- Ray: I was impressed by the diversity of the group in background & levels of use
+
+4. What did we learn or change?
+
+- We can do this!
+- We feel empowered
+- Wonderful outcome from attending EmacsConf 2020!
+- Public Policy conference: (How to get a grant?)
+
+5. What else should we change going forward?
+
+- Ongoing dialogue
+- Maybe with breakout groups
+- Need for governance for this; getting public, taking time we need going forward
+- Many actions need to be taken forward but we have too many right now: maybe this should be the next objective to pick a good viable project to go after now
+- Can set up a shared Org Roam + Firn instance: do we want to use this?
+ - Can work have something similar w/in Org Roam
+- Someone to schedule the next meeting... accomodate UTC+8, maybe use BBB; Leo will publish scheduler
+
+* Review
+
+** Review the intention: what do we expect to learn or make together?
+
+- Start to set up next year’s agenda
+- Work on methodology of the group
+
+** Establish what is happening: what and how are we learning?
+
+- Continued on the trend of pruning things out
+- Needed to narrow our focus so we can broaden later
+
+** What are some different perspectives on what’s happening?
+
+- Seminars & Emacs journal
+- Nice thinking about a standard method that can accomodate different kinds of topics
+- Focus of small group & connections to the rest of the world looking good
+
+** What did we learn or change?
+
+- Listening!
+- How to open up? — Somewhat technical discussions take time to absorb
+- "I+1 vs I+10"
+- Felt a degree of coherence
+
+**** What else should we change going forward?
+
+- Ability to show demos on Emacs is always there and a potentially good style
+- Have a nice language for asking for demo material, or other needs
+- Would be nice to have 2 screenshares (but BBB can’t do this simulatenously)
+- OBS could forward screens to webcam, but it’s finicky... still, interesting to develop this!  How to suggest features for other infrastructure
+- To think about talks we might like to give (for weeks we don’t get invited speakers)
+
+* PAR review, allow 15 minutes (from 19:15)
+
+“An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
+
+** 1. Review the intention: what do we expect to learn or make together?
+- Share updates
+- Keep momentum going
+- Plan whitepaper — Still narrowing to a decent output
+** 2. Establish what is happening: what and how are we learning?
+- ‘Method’ — a potential topic of key interest
+- Talking about actualizing what we’re doing
+** 3. What are some different perspectives on what’s happening?
+- This was a productive session in terms of concrete things being done
+- Good coverage of speakers
+- Sad we lost David at the end!
+- This could turn into a grant (be careful!)
+- Whitepaper should be ‘enough’ as a pilot study
+** 4. What did we learn or change?
+- David & Noorah have joined the Discord server!
+- “An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
+** 5. What else should we change going forward?
+- 4PM UTC chats: welcome for beverage
+- Getting the shared *Zettlekasten* / OR working!
+ - (Zettlekasten isn’t yet a solved problem.)
+- crdt.el — Qiantan is on vacation, he’s working now... we might want to get in touch!
+ - if we ended up writing a paper about this he should be included
+- Invite for forseeable future?
+- Journal paper ... what would this look like:
+- Leo plans:
+ - It might be wiser to re-ask this next week, e.g., could we set up the slipbox properly?
+ - Repo for slipbox
+ - Notes on methodology — will include local file that includes the configuration
+ - To share by Monday
+- Possible structure of whitepaper:
+ - Virtuous circle of reflection.
+
+* Review
+** 1. Review the intention: what do we expect to learn or make together?
+- Desire to work on methodology: address the many hurdles LV faced with collaborative slip box
+** 2. Establish what is happening: what and how are we learning?
+- Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call
+- We’re all getting to know each other better during the week
+** 3. What are some different perspectives on what’s happening?
+- LV & CRS had a lot to say today! (<5 mins each? Length of intervention was a result of the topics! There was some free association style.)
+- Taking a step back was helpful
+- exp2exp wiki does exist, paired with Tyler on Firn, we could go on w/ this
+- JC: Loved the reference to Deleuze
+- About these PARS... the method of ongoing review still needs improvement
+- We missed Ray... would be nice to pass him a link to the recording (later in the week)
+** 4. What did we learn or change?
+- Today w/o necessarily setting out to do this we took steps back to think about what we’re actually doing: more concerned with direction than outputs
+- Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate
+** 5. What else should we change going forward?
+- Awareness of the adversarial process in review of research
+- Seed the collaboration by collaborating on an OR instance
+- Maybe not call it a ‘white paper’ — we want to continue this exploration, including infrastructure
+- We could learn more from these if we start from a review next time: the distinction between skillful & unskillful (e.g., start w/ a 15 minute review next week where we use these as data); possibly bring this in as a monthly cycle (review method)
+- LV: Planning to go back over notes & improve current ZK to share
+- Same time next week 17:30 UTC next week!
+
+* Review — 16th January
+** 1. Review the intention: what do we expect to learn or make together?
+*** Looking at CLA, thinking about what a more ‘meta’ approach looks like, making sure that our ethics align with the project
+*** Meta-analysis is a big part of what we’re doing?                   :data:
+*** We want to do more with these reviews than just file them away for future archaeologists
+*** Make the inputs contextual.
+** 2. Establish what is happening: what and how are we learning?
+*** Tiny intro to CLA on the fly, based on reviewing a TEDx talk this afternoon; never done one before
+*** We came up with an adapted plan for the exercise
+*** More personal discussion will feed nicely into this
+*** Hyperreal Enterprises Firn config ported to PeeragogyORG
+*** We never got around to doing CLA there yet, but this will help
+** 3. What are some different perspectives on what’s happening?
+*** Last week: ‘methodology’, ‘collaboration’; now, trying to ‘debug’ the way we work together
+*** The ways we’ve been discussing has created a healthy dialogue
+*** CLA came to us from the last large Peeragogy paper
+*** We’re contributing to Peeragogy from within
+*** We hardly spoke about emacs (just mentioned crdt.el; we didn’t specifically talk about Emacs)... if 3 weeks go by w/o discussion
+*** Are we becoming more an extension of the Peeragogy group (...and less about Emacs?)
+*** But Emacs could come back into it for managing tech
+*** Maybe both aspects are meeting in the middle!
+*** This review seems more conclusive/actionable
+** 4. What did we learn or change?
+*** Created a Google Doc for 2 experiments at once: (1) to use a google doc and think about what works and doesn’t (2) CLA homework
+*** Leo’s situation
+*** The overall relationship between academia and research
+*** Relationship between these kinds of personal health things and the "group health"
+** 5. What else should we change going forward?
+*** Contacting Bradley Kuhn about the NSF grant
+*** Report to Cameron and David about what we covered
+*** Review the CLA stuff
+*** Finding density poles within research?                         :metaphor:
+*** TODO Joe to pass info about Firn tags to Leo
+*** Maybe milestone based funding for Org Roam
+*** Following up w/ 1600 UTC weekdays

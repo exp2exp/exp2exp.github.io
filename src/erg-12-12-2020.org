@@ -1,0 +1,282 @@
+#+TITLE: Research & Emacs 12 Dec
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+* Research & Emacs 12 Dec
+
+** Intros/Checkins
+Last week: getting as much ideas as possible
+This week: thinking about what’s actionable
+
+LV: Are we feeling energised?
+
+JC: HCI & ethics, soup
+
+NA: looking for other social scientists who might be interseted
+- Maybe grants could come from meta-science
+- Found Raoul Patcheko who does research logistics methods in soc sci
+ - ... who is thinking of running a podcast.
+ - Qualitative researcher, looking at Zettlekasten
+ - maybe/potential addition, with a good following
+ - Feeling fine, doing a lot of baking
+
+DOT: Have been spending time with family, brother, dog
+ - Since last time, moving forward with Emacs Workshop idea
+ - Would like to do 2 of them, like an online class?
+ - Or make it 1-on-1 and record it so others can learn
+ - Could do both (e.g., 1-1 with live questions)
+ - People who know basics & take them into Elisp
+ - Has friend who’s been getting interested; asked if they can do 1-1- presentation 
+ - Roughly following the Emacs Lisp intro book
+
+RSP: Has been working on the project from EmacsConf
+ - Talked with Joe about other related projects
+ - Discussing concerns about how to balance various different activities
+ - How to pace ourselves to stay together to get things accomplished?
+ - Could see that this group could meet regularly and Emacs Conf is just biggest mtg
+ - LV: we have a different rhythm, based on excitement
+ - Now we can have an international group
+ - LV: How to get UTC+13?
+
+LV: My week went swimmingly
+ - Had lots of meetings incl. with EmacsConf team
+ - Chief decision was to talk with FSF about using BBB
+  - (which we are now using)
+ - This means we have a free software solution for having onngoing meetings
+  - Still need landline solution (1 to 2 weeks?)
+ - Started reading Douglas Adams — interesting stuff about HCI
+  - Also stuff about writing your own text editor!
+
+** First point about format of meeting
+ - One hour was short
+ - Looking for regular time(s)
+  - Would this time be good for everyone for 5PM UTC?
+  - Ideally not always on weekend, but there are some hard constraints
+  - Can use async methods to stay in touch otherwise
+  - If we have weekly meetings we could also make theme themed
+   - E.g. so people can pick ones they want to make it to
+   - One week
+  - On the name: in/on/with? "Emacs Research Group" — is open enough
+ - AUS people could coordinate their own meetings, relay notes
+  - They can share BBB etc
+ - Is this a meetup/workshop/RG? Let’s not overthink this.
+** Tangential:
+ - What are we trying to be, and do?
+ - Grants?
+  - Flexibility: small, big?
+  - Emacs is flexible: grants for research, for education?
+  - E.g., focusing more on pedagogy, reproducible
+ - Maybe we will invalidate
+ - Leo is interested in the HCCC paper
+  - Working on complex thought & systems theory
+  - To correlate atoms & links with something philosophical
+  - Thinking about the bridges between different fields
+  - Transdisciplinary is big in Digital Humanities
+** Podcast and other media
+ - Just had Emacs Conf meeting
+ - We discussed revising a podcast
+ - Limited to Emacs & Community
+ - We could be invited to talk about resesarch on this podcast?
+  - Podcast or book?
+ - LV: had time to browse through the book
+  - There’s quite a bit of overlap
+  - Could discuss the benefits for Org Roam
+  - Are methods advocated by Peeragogy useful for Org Roam dev?
+  - Can there be a symbiotic relationship?
+ - How to create policy to support transdisciplinary research?
+  - LV: Philosophy of humor!
+  - How to get different organs working together?
+  - How is this supported by embracing free software
+ - A wiki could be useful to set up the discussions so they aren’t conflicting!
+ - To bring Jethro + Leo could be hard, UTC+8/9
+  - Both able to formulate coherent thoughts
+ - Resonance between Peeragogy + Org Roam could be a more regular activity
+** Lobbying
+- Right now we are too few to kickstart something
+- Maybe we could do something with the Biden administration on this?
+** Fields
+- We don’t need to circumscribe to a field, but can embrace flexibility
+** Finance?
+ - OSPO: "Open Source Programming Office"
+  - This is an odd thing in Europe
+  - Companies/Gov’ts forming groups to understand how to get free software used
+ - This is a superset of what we’re trying to do
+ - But, Emacs is so transversal in terms of notes, writing, reproducibility
+  - Having an OSPO for academies could be mostly concerned with Emacs!
+  - 2 docs by EU (1) 2020-2023 guidelines (2) specifics on OSPO in companies from July
+ - OSPO is a blueprint — it started in corporate world
+ - todo group is biggest conglomerate (started by Google)
+ - Strategically viable
+ - Next step in Digital Humanities
+  - potential good thing to focus our energies
+** Mingling of pedagogy & activism
+ - What can we do to help our colleagues?
+ - There may be other more activist ways of working with this?
+ - RSP: Brief experience report from Einstein Medical College
+  - They might spend hours making a presentation
+  - I’d show how using Org Beamer export they could do it quicker
+  - They don’t even know such tools are available
+ - NA: Similar one-on-one level
+ - Still struggling with how to do it at an institutional level
+ - *"Shock and awe"* strategy
+  - People see plain text, reproducible research — this won’t be
+    enough to convince people to switch but...
+  - When you have this tactic "but I can teach you how I do this"
+  - In this brief moment, people will be sufficiently interested to
+    follow up
+   - Need to have e.g. a buddy system
+   - Need to have software
+  - Speaking with Sacha, who extracted all mentions of research &
+    academic from Emacs News
+ - RSP: Important to act when “iron is hot” — also important to make
+   sure there’s not too much barrier
+  - Most of the time people will have to have Emacs installed / setup
+  - Web interface might help, e.g., here’s an Emacs I can use in my
+    web browser
+  - Concern, it won’t work unless people can set it up & have it ready
+    to use
+ - David: after I do the basic w/ my friend, Noorah we could do one
+  - Two would be a good experience
+  - About Peeragogy, I was looking at the website...
+   - I went to HS for one year and left to do private tutoring
+   - Had benefit of older siblings, parents who were programmers
+   - Got GED and became a tutor
+ - Noorah: Is it OK to come in with a specific workflow?
+  - E.g., to identify any inefficiency & overcome that?
+  - LV: To pull wagons together — having office hours
+   - If these sessions could be shared later on...
+   - Having private tutoring sessions could fit with this
+ - DOT: I’d start with a general outline, get something ahead of time
+  - There are 100 Trillion things to do!
+  - E.g., working with R, getting familiar
+ - JC: Maybe doing this as a structure bug report?
+ - NA: “Doom Emacs” idea would help
+** “Emacs Process Improvement Specialist”
+ - E.g., Joe could commit to watch the videos & make notes from a peeragogy standpoint
+** Workshop Recap
+ - DOT setting up 1-to-1 tutorials
+** Org roam and how do we use it?
+ - Where does it sit in all of this?
+ - Org Roam is a good tool for researchers
+ - Maybe we could focus on how to make Org Roam work for the project
+ - We can have a symbiotic relationship
+  - Feature requests on Org Roam, get more people involved...
+ - Org Roam → Roam Research → Zettlekasten
+ - Many researchers working on Roam Research and how useful it is
+ - LV: not convinced of intellectual integrity
+ - You find plenty of people popping up and saying it’s lifechanging
+ - But the problem that I have with this is that the links between reviewers and RR are  a bit dubious
+ - LV: was contacted by one such interviewer and is between 2 chairs
+ - Is this a good opportunity to outreach?
+ - How to assess the integrity of their research?
+ - I regret their subscriber model.
+ - It feels weird to have 2 pieces of software that rely on same principles
+ - In one the ethics are a problem, in the other the aim is to combat that
+ - How do we make Org Roam more popular? Finance-able?
+ - Without interacting with RR
+ - RSP: Mainly the name roam
+ - NA: The biggest hurdle of researchers of researchers using RR is data protection
+  - If people are working with sensitive data, going to be on a company’s server
+  - This will not fly with IRB standards
+  - OR makes a better alternative from that point alone
+ - LV: We’re using Org Roam, not Roam Research
+  - Whether or not we want it we are within this aura
+  - Discussed many times the necessity of renaming
+  - Having spoken with the main developer, we’re not on the same market
+  - But we get more and more of their market share
+ - Being clear what we find acceptable
+ - Connor: doubts
+ - But what about e.g. independent researchers Andy Mautuschak & Kings Col researcher
+  - Their interest in Zettlekasten could come onto these meetings
+  - Rob
+  - If I probe and find people who have reserves
+  - We could get people as operational helps with the software
+  - Maybe we could bring them onboard with the ethics as well
+ - CRS: I think each person should be considered on their own presentation
+  - E.g., Andy has presented interest in the entire framework
+  - (Not just an implementation.)
+  - Andy has implemented his own version (web interface)
+  - Some other people may be in a position to have financial ties which is a different question
+  - We should engage with a lot of these people, but ask: if they aren’t interested in the methods but in the specific implementation
+  - Myself, having used Roam for a while: I’m a long-time user of LaTeX, I didn’t realise that Org Mode should be thought of as a superset of LaTeX, I thought of it as a subset
+  - So I had this misconception for a long time
+  - Trying Org Roam made me realize the misconception!
+  - I feel Org Roam as a feature of Org Mode is a lineage that provides the basis for the research tools
+  - It’s excellent that we have this collection
+  - It could be useful to change the name; backlinks in Org Mode is not necessarily a separate thing
+  - Focusing more on the "Org" part is a good way to present on the ecosystem of research tools
+  - This is what researchers need — and these are things that RR doesn’t plan to implement in the short term
+  - The dependency we’re interested in is “Emacs because of Org Mode”
+  - “The rise of Roam”
+- RSP: And Org mode is also only a subset of Emacs!
+ - LV: These are by design
+ - How to get the integrations?
+ - Org Roam is just Zettlekasten
+ - Does this need to have a name?
+- DOT: Quick question:
+ - Idea of OR is: pre-indexing version controlled set of files?
+ - Note taking?
+ - Just making sure that there are backlinks that are reliable.
+ - It sounds like people are using OM for reproducible research
+ - Zettlekasten: non-hierarchical organization of notes
+ - If you’re friendly with them it sounds fine.
+ - Companies can be friendly until they’re not!
+** Office Hours
+** Other leads
+ - https://www.kpsrl.org/knowledge-management-fund
+ - http://opendreamkit.org/
+ - https://github.com/OpenDreamKit/OpenDreamKit.github.io/blob/master/_posts/2015-05-15-OpenDreamKit-accepted.md
+** Links from chat
+- https://peeragogy.org/
+- https://plain-text.co/index.html
+- https://dl.acm.org/doi/10.1145/2723872.2723881
+
+** PAR
+*** 1. Intention: what do we expect to learn or make together?
+
+- Solidify our group
+- Have more time talk
+- Prune some of good ideas
+
+*** 2. Establish what is happening: what and how are we learning?
+
+- Discussed, came with notes from last week
+
+*** 3. What are some different perspectives on what’s happening?
+
+- Having a better way to have a garden of notes
+- LV: Thinking I was speaking a lot
+ - JC: Leo had a bit of crackle
+ - LV: wants to try to give voice
+- Telephone interface perspective — others may want to join by phone
+ - *Jitsi* could be an opportunity
+ - BBB has some extra features? FSF controls.
+ - You need to be a sponsor of FSF to use their Jitsi, but not sure if they support phone calls
+- David: thanks for being patient w/ me as non-researcher answering my questions about Org Roam!
+
+*** 4. What did we learn or change?
+
+- "Emacs Research Group"
+- "How to support transdisciplinary research?"
+- 1-to-1 tutorials as way to go forward
+- Learning about Org Roam
+- AUS-ERG to coord w/ as we go forward
+
+*** 5. What else should we change going forward?
+
+- Could switch moderator role from time to time?
+- Can also have Leo be ongoing moderator if he’s up for that!
+- David’s tutorial material will be ready to look at
+- NA: Will want some help to set up + use the tech
+- Many can look into the Logseq/OR/Firn ecosystem
+- Meeting w/ Jethro can be challenging (but worth it)
+- Leo, please follow up w/ JC about paper!
+- Meta-review of PARs later?
+- DOT+LV, looking at Peeragogy book
+- Allow up to 2 hours to discuss? — But we will put all the key things in 1st hour
+- Use David’s 1-to-1 as a template
+ - Schedule further 1-to-1s for January?
+- *Meeting 19th* — followed by break

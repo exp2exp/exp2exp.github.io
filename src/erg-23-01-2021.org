@@ -1,0 +1,234 @@
+#+TITLE: Notes 23 January 2021
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+#
+* Notes 23 January 2021
+** Testing crdt.el
+#+begin_src bash
+git clone https://code.librehq.com/qhong/crdt.el.git
+M-x find-file RET ./crdt.el/crdt.el
+M-x eval-buffer RET
+# On the server
+M-x crdt-share-buffer RET
+RET to select the default port
+# On the clients
+M-x crdt-connect RET
+178.79.174.58 RET
+RET to select the default port
+RET to select the default buffer (Doom: switch to insert-mode)
+#+end_src
+
+Other stuff:
+- ~crdt-list-users~ allows you to show the list of users currently connected.
+
+Main commands:
+
+#+begin_src lisp
+crdt-list-sessions (&optional display-buffer)
+crdt-refresh-sessions (display-buffer)
+crdt-list-buffers (&optional crdt-buffer display-buffer)
+crdt-refresh-buffers (display-buffer)
+crdt-list-users (&optional crdt-buffer display-buffer)
+crdt-refresh-users (display-buffer)
+crdt-share-buffer (session-name &optional port)
+crdt-stop-share-buffer ()
+crdt-new-session (port session-name &optional password display-name)
+crdt-stop-session (&optional session-name)
+crdt-copy-url (&optional session-name)
+crdt-disconnect (&optional session-name)
+crdt-connect (url &optional display-name)
+#+end_src
+
+GNU PSPP?
+Port to R or Python? +1 for python. SPSS is not very useful for project development etc beyond a course setting even though there are some industrial partners that use it extensively
+
+** Checking in with everyone
+- Ray: working on physics stuff with Cameron
+- Joe is not enthused at the idea of teaching again.
+  - Conceptual course on survey methods.
+  - See Wagenmakers and Lee "Bayesian Cognitive Modeling" section 3.6 example of analyzing survey data
+- Applications: Excel, save as text file
+- Noorah: cooking sous vide, pot de crême
+- Leo: Interesting meeting with [[https://www.youtube.com/channel/UCWA6aNcUjK2w0Z_-0UURq_g][Rob Haisfield]], hanging out in Discord was fun; job possibilities (Oxford, Wikimedia)
+*** TODO Do we need checkins (esp. if we are meeting in the week?)
+- Keep it to 30 seconds like Noorah?
+** CRDT
+- Practical to be taking notes at the same time
+- Methodological: how are we taking notes?
+** Agenda
+*** Leo: Recap conversation with Rob Haisfield                         :30m:
+*** Joe: Arxana                                                        :10m:
+*** Leo: Talk about FHI scholarship proposal                           :20m:
+This is a good strategy for making a solid strategy in a short amount of time
+*** AOB: Topos                                                          :5m:
+**** Something might be done with Topos wrt FSF or other grants.
+***** Free software + Category theory
+***** We’re worried about Zi who has worked with the Topos people and could give us more insight
+*** Look again at CLA                                                  :20m:
+*** Review                                                              :5m:
+** Rob
+- Were we going to record the call?  Not this time.
+- Rob is not affiliated to Roam Research
+- Extremely interested in Org Roam and interested in designing software with feature parity to Roam, fixing some deficits of RR
+- Did comparative screen share
+- Talked about things that could shape the methodology of taking notes (especially collaboratively)
+*** Summary                                                             :10m:
+- Some of this stuff is reminiscent of linking to any point in a file (like Arxana)
+- How can we warrant this usage? Linking, e.g., to a word.
+- Technically it is possible to target a word or paragraph, but it’s not clear that this is something we want to encourage
+- In RR, ‘everything is a headline’ — and the underlying file is XML.
+- Headlines/lists all have ids to which you can refer.  But you can’t link to an ‘element of a headline’ (single word)
+- Rob: by having everything as headlines
+  + ... linking is refined
+  + ... search is improved
+  + E.g., ‘search through the entire slip box for strings’
+- Now in OR you can do =org-roam-insert= ...
+- Rob showed how to do completion list, across all the headlines.
+- We would need to come up with ways to filter that
+- If you want to relate /design/ and /programming/ ... we need some things to hook into
+- RR has a query language based on the completion-list
+- “Find me all the headlines and files that contain =emacs= and =design=.
+- This will grep for files with these matches.
+- This feels incredibly useful... the ability that you gain thanks to this is to have a *headline that includes a query* and then this is updated live depending on what you write
+- You don’t need to tag anything (basically, automatic pingbacks)
+- With org-roam maybe we could use =rg= to do this in an efficient way...
+- This feels like the next step for what we can be doing with OR
+- Another thing where RR is much better: Window management.  OR is shit at managing windows, the Emacs system is messy.
+ + In order to have a reliable side buffer we need ...
+- In RR: you can open things on left and right, browse in separate windows, and so on.
+- If you have 30 backlinks in OR, do you really need to see everything?
+- As a Free Software developer, researcher, /aprentir designer/... it was useful to talk w/ someone whose job is to design things.
+- Useful not to have to wear all the hats! — Useful to have specialists around. — ‘Design’ isn’t necessarily our speciality here
+- We don’t have a clear way to get feedback...
+- Milestones? Someone who’s not in Emacs ecosystem gave lots of ideas.
+*** Discussion
+**** CRS: Having used RR extensively
+- *Do* understand block linking
+- *Don’t* understand: for what purposes is having a query language better than just running ripgrep over the entire collection of files?
+- I don’t find much value in thinking about ‘which words’ I want to run queries over
+- You could create a system for thinking about linking to particular words.
+- New pages based on queries...?  RR already does free text search.
+**** Example
+- Create note with a question: "Might be interesting to look for ‘emacs’ and ‘design’..." so you make the query
+- Research & design
+- Emacs & design
+- Now below all of these things you get all the blocks that contain these words.
+- JAC: Magnetic links idea — could apply to PlanetMath
+- RSP: Like a code block that ran your search for you
+- CRS: ‘Org babel block that prints search results’ would get close to this, could update with links to the things you queried
+- Maybe we’re not that far away from having something that’s just as good.
+- CRS: Block linking is a mixed bag, it promotes statements you’ve made as canonical, even though they aren’t actually!
+- You get the “Google search” problem. As the place/concept moves over time, it’s hard to move the links as well.
+- The linking can be superfluous b/c I have to spend time thinking about how to make them and move them.
+**** Follow up:
+- Is this something we want to encourage?
+- This is just a specialisation of emacs-hypernotebooks
+- Also, it’s pretty much ~org-roam-unlinked-references~
+- CRS: Enthusiastic about having design insights into this sort of thing, Rob will be interesting person to collaborate with
+- How would Rob talk about his ability to manage and curate his note hygiene?  General searching and org-roam-unlinked-references?
+- https://github.com/pariyatti/kosa @Leo to check this out?
+- Liked: Questions w/o rigid style. Liked limited use of templates. No need to stick strictly to different models?
+*** Closing
+- If you have software that is free enough, people will find structures that work for them
+- Things can happen organically
+- There could be a nice way to account for any structure that could be serendipitously be discovered?
+** Arxana
+- Joe got Arxana 2005 working again.
+- Interesting demo of /scholium/ which might be particularly relevant for humanities research.
+  - Document editing vs. documentation editing
+- Using Arxana as a semantic network (cf ZigZag)
+*** Next steps and questions
+- Keep working on the more recent versions of Arxana
+- Written in “Literate Elisp” — can be uglier than lst-listing
+  - Minted might be a better option?
+    - [[https://ctan.org/pkg/minted?lang=en][CTAN: Package minted]]
+    - [[https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted][Code Highlighting with minted - Overleaf, Online LaTeX Editor]]
+  - How to do it with LaTeXML?
+** Grants, and finding a job for Leo
+*** FHI                                                                 :5m:
+- Applying for scholarship there?
+- Broad topics: “free software as future of humanity & future of e-research”
+- Formulating research topic based on our discussions... idea of getting paid to work on ‘our topics’
+- Not sure how competitive the application will be, but /humanities/ + developer skills ... could at least get to interview step?
+- How to use the time (to 14th Feb) to help craft this?
+- Potential deficit: knowing the conclusions at first?
+- FS, DH, transdisciplinarity, meta-research?
+- RSP: What you said about the meta-topic was good
+  - e-research
+  - We’ve talked about all these different Emacs tools...
+  - Now pick a project about where they would apply & be helpful
+- Proposing a specific meta-study, e.g., using some of the Emacs tools, that helps with that
+**** *Emacs as a site and method for e-research*              :possible_title:
+- ‘We’ve got all these tools, but we also have the ability toe xtend them and look at how other people use them and do something useful.’
+- We could do some rapid cycles of ‘try this out’ and develop
+  - A research-based take on the milestone-based plan for financing org-roam
+    - What is measurable about those milestones? Features for development, but papers of research
+- The future of humanity/ies?
+  - Look at Futures Study methods incl. CLA
+    - ‘We’ve rapidly prototyped this proposal, some future visioning on why it was important and how it could be measurable, as well as the /quanta/ of progress
+- Choosing a field (one or two)
+  - Look at "Transdisciplinary Design" proposal as well
+  - Future, the future of work (social sciency direction?)
+  - Philosophy
+  - J: ‘Eresearch and category theory as a way to create the future of work’
+- Joe is OK to work on the topic, but he’s hesitant to influence the research topic
+  - Like being a spot at a gym
+*** Topos
+- Category theory & NLP
+- Theory of concurrency?
+- Thu 9pm UTC, conversation with Brandon on NLP, category theory.
+- Is it possible to make a mash-up of FLOSS and what they’re doing, which might be a different topic from doing research Emacs.  However: could we get category theory into Arxana?
+- Links to other people
+  - Match to Evan Patterson & James Fairbanks methods?
+  - Brendan, Valeria.
+  - Tim Hosgood...
+  - Antonin D...
+- ‘Future of work’ stuff — develop these ideas sometime before Thursday
+**** Conclusions for grants
+- Lots of options, which we might want to discuss one at a time during the daily 4pm UTC meetups.
+- Set questions of answers to answer:
+  - ...
+** CLA Review
+*** Noorah
+- Working with Google Doc got Noorah thinking about org-roam and collaborative slip-box
+  - Having a collaborative might be confusing during the note-taking process
+  - What she thought instead was to all have individual slip-boxes, and somehow tag certain notes with a research group
+    - Tag-based/category-based workflow
+    - Otherwise, there is a disconnect
+    - Noorah’s point is in favour of a strict methodology to adhere to for creating concept-files (i.e. evergreen notes in Andy’s taxonomy)
+- We want to do more activities
+*** Joe
+- ‘Friction is not a bad thing.’ (Might have been Cameron)
+- Thinking about the outputs of PAR and CLA in terms of research.
+- More notes: https://exp2exp.github.io/erg/cla-16-january-2021
+*** Leo
+- Should /something/ be written to give substance to this CLA (in light
+- Building on this input & his directorial vision!
+** PAR
+*** 1. Review the intention: what do we expect to learn or make together?
+- We wanted to make a crdt test
+*** 2. Establish what is happening: what and how are we learning?
+- crdt was almost a resounding success
+- Joe starting teaching soon
+*** 3. What are some different perspectives on what’s happening?
+- Missing perspectives when Cameron and Ray left
+- post-New Years
+- Worried that people might be burning out on meetings (PAR for Hyperreal?)
+- Have had long meetings... but we can let it organically restrict itself
+- If you're coming last-minute with an agenda this can create fatigue
+- More fun to do this sort of stuff than the rules & structures of academia
+*** 4. What did we learn or change?
+- We want to have a clear sense of progress each week
+- Moving things from TODO to DONE would be nice
+- Looked at CLA stuff, have rough notes from Noorah and Joe
+*** 5. What else should we change going forward?
+- Can we understand the relationships between these different groups & projects?
+- crdt.el more stable
+- Leo continuue work on FHI proposal & Joe consult on that
+- Further distill CLA into prose
+- Try to get agenda earlier, don't frustrate people!
+- Noorah and Joe to check-in!

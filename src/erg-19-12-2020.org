@@ -1,0 +1,173 @@
+#+TITLE: 19 December 2020 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-01 Saturday>
+
+* 19 December 2020 — Emacs Research Group
+** Methodology
+*** Real-time syncing side
+Survey of different options for synchronous notes w/ Org Mode.
+
+*Promising:*
+
+- crdt.el — for syncronizing sessions w/ SSH & port forwarding; library for replication across buffers
+ - a bit early
+ - Qiantan might be interested to join our sessions
+ - The approach is one that synchronises anything that Emacs does
+ - Maybe in a year we'll have a good package
+
+Etherpad is tried and tested! Works for up to 100 people.
+
+- linepad.el — Making Emacs into a frontend of Etherpad.
+ - But it didn't really work!
+
+*** Publishing side
+This can be sorted out much more quickly.
+
+- Org Roam notes online, various tech options already exist
+- Git repos work already; sometimes need to resolve edit conflicts if multiple people edit the same files.
+- We can generally write atomic files / trees, so we don't run into many conflicts
+- Works with netlify to publish to the web
+- We might want to develop a structured way of writing
+- Pronunciation: /paragogy/ vs /peeragogy/ vs /pairagogy/ (Fr.)
+*** Meetings
+- Meeting times (e.g. 5PM? 5:30PM?)
+- Invitations for special guests
+- Possibly open enrolment once things are set up
+- when compared with EmacsConf: ERG keeps opening up ideas, and not doing pruning, or, there's more to prune.
+- How do we want meetings to go e.g., 2nd of January?
+- Do we want to do a couple months that are private, but give ourselves a deadline?
+- Once we get notes going, people will be able to read and give them contact info; and inviting people in as needed.
+*** Outputs and style of working of the group
+- Writing research reports + whitepaper(s)
+ - The exact format & presentation depends on audience
+  - Emacs community?
+  - Academics?
+  - Our peers?
+- Getting people using Emacs
+- Podcast where we discuss conclusions? (Including 20mins debrief of procedures.)
+- 1ce a month deep dive into things like crdt.el (or other packages) with the author.
+ - "When I wrote this what is my vision?"
+ - When we explain the motivation behind a package it makes people want to use it more
+ - Overlap with Emacs Lisp group (for package managers)
+ - Users + potential users can supply feedback
+ - Does this belong to ERG?  As a seminar.  Of interest, but we want to do some other things too.
+  - Stats, CS, social science seminars might look different
+  - Being a slow version of EmacsConf?
+  - We're rather amorphous (not bound to official university requirements)
+  - We're presently more of a think tank, thinking about options
+  - Digital Humanities? CS? Etc.; not everyone will attend every seminar
+  - Can have different populations even w/in same faculty
+- What infrastructure can we make that will facilitate people coming to the right talks?
+ - Keep track of the various streams of interests
+- Cf. RGCS Research Group on Collaborative Spaces
+ - Could be linked to peeragogy
+ - "Place of statues within urban landscape"
+ - "Open Science & publishing reproducible research"
+ - Topics are a bit far apart but there's some cohesion as well
+ - We could follow a similar style
+- Make sure to have a defined process/aims so that people know what to expect
+ - At first we might want a limited set of people who we know will make it to the topics
+- Online academic world is still in a primordial soup of COVID-proof workflows
+ - Build a presence in the online landscape
+
+** Early future for the project
+*** Monthly schedule
+- If we do a seminar, we expose a lot about ourselves and how we do research
+ - This could be a good "shock and awe" method: people can copy us
+ - This will give a good way to get better
+*** Whitepaper: How to structure?
+- If we try a first draft we may get somewhere.
+- (Org Roam doesn't yet have a proper manual!)
+*** Bridges to Peeragogy + writing there
+- Make Emacs accessible to people who edit the Handbook
+- Section on Emacs w/in Peeragogy
+- May want to circumscribe the two so it’s not too evangelistic
+- How to support the peeragogy community in learning how to use the format
+ - And potentially more of Emacs
+ - How to get peer learning to get peeragogues to use Emacs
+- Move towards evangelising to other colleagues (in digital humanities &c.)?
+- Possibly defining ERG as a group of people w/ expertise in peer learning & collaborative work
+ - LV: “Reflection on research” become a specialty for me
+ - How to organize a research group? Can feed into Emacs as well
+ - As someone who’s worked on methods
+*** Define activities of the group
+- Looking at Emacs as an entire system: has anyone tried to categorize?
+ - What's used, who uses them, what are the motivations? What outputs? Etc.
+ - There have been such attempts: alphapapa wrote a guide for package developers
+ - Emacs for writers: article exists
+ - Is this something we ought to be doing...? — How would you categorize it?
+ - What is Org Roam? Magit? Etc.
+ - Look at tags (keywords)
+  - How have the packages & their use evolved?
+  - Analogy with "Mathematical People"
+ - What is Emacs (since 1985 or whatever)
+  - How has it evolved? (E.g., using a biology of software systems method!)
+
+*** Art & Science of Documentation
+- What if we made students go into the repos & use the packages and rewrite the docs from a user perspective?
+ - RSP: Reminds me of Math Reviews: in maths they have an org that reads papers & writes summaries
+ - LV: These efforts can be bad for documentation
+  - Excited new users go on IRC and say "I like Org Roam!"
+   - They are often told to "go write documentation"
+  - For people who have the ability to do research... we have a way of writing and seeing flaws...
+  - For BA students, it's a little complicated. Technical writing takes effort.
+  - *If* students want to do this, then get them doing it!
+ - JAC: Extreme view: What would an /Emacs Journal/ look like?
+  - Maybe start with the in-depth sessions, this could turn into a monograph.
+  - Bringing the package developer to talk could help
+  - "I want to know how to use this package but no idea how!"
+  - This is a problem we can address!
+  - LV: This would make the field legitimate! Or, a monograph! This is something we could do. We are researchers in different fields...!
+   - E.g., "how does Zettlekasten w/ OR help your research?"
+   - "How is Emacs a platform for packages...?"
+   - This could be striking gold — making a list of potential papers
+   - E.g., "The Rise of Roam" "Do all roads lead to Roam?"
+   - Thinking about ideas of papers
+** When to meet next? Not December 26th, but yes SATURDAY 2nd; 17:30-19:30 UTC
+
+- ACTIONS
+ - List interests we have as a group!
+ - Keeping in mind
+- Condense 1st hour with key bullets
+
+** Review
+
+*** Review the intention: what do we expect to learn or make together?
+
+- Start to set up next year’s agenda
+- Work on methodology of the group
+
+*** Establish what is happening: what and how are we learning?
+
+- Continued on the trend of pruning things out
+- Needed to narrow our focus so we can broaden later
+
+*** What are some different perspectives on what’s happening?
+
+- Seminars & Emacs journal
+- Nice thinking about a standard method that can accomodate different kinds of topics
+- Focus of small group & connections to the rest of the world looking good
+
+*** What did we learn or change?
+
+- Listening!
+- How to open up? — Somewhat technical discussions take time to absorb
+- "I+1 vs I+10"
+- Felt a degree of coherence
+
+*** What else should we change going forward?
+
+- Ability to show demos on Emacs is always there and a potentially good style
+- Have a nice language for asking for demo material, or other needs
+- Would be nice to have 2 screenshares (but BBB can’t do this simulatenously)
+- OBS could forward screens to webcam, but it’s finicky... still, interesting to develop this!  How to suggest features for other infrastructure
+- To think about talks we might like to give (for weeks we don’t get invited speakers)
+
+** Notes from chat
+
+http://rgcs-owee.org/
+
+https://www.youtube.com/channel/UCPiQO2KBpL_OG8Cx_f50sGQ
