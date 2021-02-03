@@ -1,0 +1,344 @@
+#+title: Draft of a "Mathematical Sciences Small Grant" Research Proposal
+#+Author: Joseph Corneli
+#+Date: Addressing [[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][this call]] from the EPSRC; the next “batching date” is mid-April
+#+STARTUP: indent
+#+OPTIONS: H:2 num:t toc:nil ':t
+#+LATEX_HEADER: \usepackage[utf8x]{inputenc}
+#+LATEX_HEADER: \usepackage{libertine}
+#+LATEX_HEADER: \beamertemplatenavigationsymbolsempty
+#+LATEX_HEADER: \hypersetup{frenchlinks=true}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\small,fontfamily=helvetica,obeytabs,tabsize=8,formatcom {\color[rgb]{0.5,0,0}}}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\begin{abstract}
+    \textbf{Format:} \textbf{Four pages}: Case for support – including evidence of an ability to deliver the proposed research.
+    \textbf{One page}: Justification of resources.
+    \textbf{Letters of support} from all project partners included in the Je-S form: no page limit – Must be included from all named project partners. Must be on headed paper, and be signed and dated within six months of the proposal submission date.
+    \textbf{Host organisation letter of support}: This document type should only be used where a secondment is being supported [so, N/A].
+\end{abstract}
+
+
+* EPSRC Standard Mode Review Criteria                             :noexport:
+** Primary Criterion.
+Please comment on the degree of research excellence of the proposal making reference to:
+1. The novelty, relationship to the context, and timeliness;
+2. The ambition, adventure, and transformative aspects identified;
+3. The appropriateness of the proposed methodology.
+(For multi-disciplinary proposals please state which aspects of the proposal you feel qualified to assess)
+
+** Importance (maximum 4,000 characters)
+Secondary major criterion. Comment on the national importance of the research. How the research:
+1. Contributes to, or helps maintain the health of other disciplines contributes to addressing key UK societal challenges and/or contributes to future UK economic success and development of emerging industry(s).;
+2. Meets national needs by establishing/maintaining a unique world leading activity;
+3. Complements other UK research funded in the area, including any relationship to the EPSRC portfolio.
+
+** Impact (maximum 4,000 characters)
+Secondary criterion. Please comment on the pathway to impact identified for this work particularly:
+1. How complete and realistic are the impacts identified for this work;
+2. The effectiveness of the activities identified to help realise these impacts, including the resources requested for this purpose;
+3. The relevance and appropriateness of any beneficiaries or collaborators.
+
+** Applicant (maximum 4,000 characters)
+Secondary criterion. Please comment on the applicants’ ability to deliver the proposed project making reference to:
+1. Appropriateness of the track record of the applicant(s.;
+2. Balance of skills of the project team, including academic partners.
+
+** Resources and Management (maximum 4,000 characters)
+Secondary criterion. Please comment on the effectiveness of the proposed planning and management and on whether the requested resources are appropriate and have been fully justified. Please comment explicitly on the viability of the arrangements described to access equipment needed for this project, and particularly on any university or third party contribution.
+
+** Overall Assessment (maximum 4,000 characters)
+
+** My judgement is that:
+1. This proposal is scientifically or technically flawed
+2. This proposal does not meet one or more of the assessment criteria
+3. This proposal meets all assessment criteria but with clear weaknesses
+4. This is a good proposal that meets all assessment criteria but with minor weaknesses
+5. This is a strong proposal that broadly meets all assessment criteria
+6. This is a very strong proposal that fully meets all assessment criteria
+
+
+Place an X under the relevant option
+
+** My confidence level in assessing this is:
+Low, Medium, High
+
+** Reviewer Expertise (maximum 4,000 characters)
+Please indicate the areas of expertise that are relevant to your assessment. Take care not to reveal your identity to the applicant.
+
+
+* Information Extraction: Beyond Clustering to Knowledge
+
+** Novelty                                                         :ignore:
+Whereas language models have wide applications in processing natural
+language text — e.g., in machine translation and named entity
+recognition — their potential applications to technical texts and
+workflows has yet to be realised.  Eye-catching demonstrations from
+OpenAI of GPT-3 generating Python code and JSX web page layouts were
+circulated in 2020 — but in practice, word models themselves do not
+contain the fine-grained structural information needed to process the
+deep semantics of most code or mathematical text.
+** Relationship to the context                                     :ignore:
+This proposal will provide the early proofs-of-concept applications
+building on the demonstrated power of word models for named entity
+recognition.  The work proposed will exploit a newly-developed
+BERT-style model of *MMM thousands* of technical documents, which is
+under preparation by a colleague based at the US National Institute of
+Standards and Technology (NIST).  The specific aim in this project is
+to demonstrate applications to information extraction that are
+directly useful to researchers and students in mathematical science.
+Similar work has been developing with success in fields such as
+biomedicine (2012.08844).
+** Timeliness                                                      :ignore:
+This project will comprise a key advance in a broader programme of
+artificial intelligence research that seeks to bridge between
+subsymbolic methods — which are typically neural-network-based — and
+symbolic methods such as automated proof.  Crucially, this project
+addresses the large corpora of technical discussions in natural
+language text — e.g., with nearly 2m articles being added to the Arxiv
+preprint server each month — rather than the artificial formal
+languages of theorem proving systems.
+** Ambition                                                        :ignore:
+For board games like Draughts, Chess, and Go, representations are
+straightforward, while the training process can be complex and/or
+computationally intensive.  In open domains like mathematics and
+programming, the appropriate representations /for training and
+reasoning/ are by no means a settled issue.  Word models show
+signficiant potential both for direct applications (e.g., named entity
+recognition) as well as for constructing derived symbolic models
+(e.g., semantic networks of definitions, inference rules, and
+theorems).
+** Adventure                                                       :ignore: 
+Building /representations/ suitable for scaffolding human-level
+intelligence in technical domains is a key problem in AI, going back
+to Turing.  Whereas early approaches were exclusively symbolic (e.g.,
+catalogues of hand-written production rules), word embedding models
+encode rich latent structure.  The work proposed her is a key step
+forward on a path towards robust, context-aware, AI tutoring systems.
+** Transformative Aspects                                          :ignore:
+More immediate applications of knowledge extraction can provide direct
+public benefits by helping people find and structure learning
+materials.  The ability to structure curricula can also play a
+transformative role in development of training regimes for building
+human-like AI in mathematics and programming.
+** Appropriateness of methodology                                  :ignore:
+In keeping with the scope envisioned by the call, this six month
+project focuses on necessary (straightforward) technical work, a short
+validation study, and development of further use cases for the
+underlying technology to be pursued with international partners.
+** Beneficiaries
+*** Importance: health of other disciplines                       :ignore:
+The direct beneficiaries of this work will include mathematicians,
+math-sci researchers, and programmers, as well as their employers.
+This direct public benefit consists in groundwork for AI systems that
+can support learning and upskilling /at scale/ (e.g., on the job).
+*** Importance: key UK societal challenges                       :ignore:
+Training the next generation of talent in a globalised economy, under
+conditions of rapid technological change, is a challenge that calls
+for technical tooling.
+*** Importance: future UK economic success                        :ignore:
+Whereas AI research and big data are a natural pairing, so far, AI
+tools have not been able to make human-level use of the large-scale
+repositories of technical resources. State of the art applications in
+programming include code completion.  The project points to future
+applications of making more significant use automation both in
+technical fields, and other semantically rich fields such as law.
+** Track record
+*** Importance: establishing a unique world leading activity :ignore:
+In 2014 I completed a PhD examining online learning on PlanetMath, one
+of the first large online encyclopedias.  The same year, I co-authored
+a paper called “NNexus Revolutions” with Deyan Ginev, which modernised
+PlanetMath’s named entity linking tool NNexus: this revision made the
+tool interoperable with a half-dozen other mathematical knowledge
+bases.  Subsequently, I held research postdoc positions focused on
+building models of social creativity in mathematics, working with
+colleagues supported by various EPSRC grants.
+*** Appropriateness of the track record of the applicant          :ignore:
+In 2020, I spent six months at the selective startup incubator
+Entrepreneur First working on business model innovation around AI
+support for learning applications.  This helped me to understand the
+clear demand for such technologies, and the need for more fundamental
+research to support them.
+*** Balance of skills of the project team/partners                :ignore:
+During this time I was in close communication with Mr Ginev — based
+professionally at NIST and enrolled as a PhD student at the KWARC
+research group in Germany — about corpus development and model
+pre-training.  I worked with him to design and pilot knowledge
+extraction experiments using existing off-the-shelf models, exposing
+their limitations.  I am in regular contact the principals of the
+Topos Institute in the US, who are developing an ambitious programme
+of research that will be enabled by the technology being proved out
+here.  In the proposed project, I will have full support of the
+Institute for Ethical AI at Brookes where relevant research staff are
+in post and available.
+
+** Objective and methods
+
+*1. Modern NLP enabling natural language interfaces.*
+
+Mainstream applications of NLP to documents and corpora feature
+applications like document clustering. We will demonstrate further
+layers of meaning, e.g., a document retrieval system that can enable a
+non-expert user to answer a given technical question (along with
+rationale explaining why these particular articles were retrieved). 
+
+*2. Demonstrate applications to learning*
+
+As such we would be able to find and diagnose learning pathways, first
+by looking at historical data and then by building recommendations for
+learners. In order to facilitate this, we will need groundwork in (1)
+Named Entity extraction and linking, and (2) triple extraction, which
+shows how entites are used/related within the documents studied. These
+terms and relations can then be used to find dependencies between
+concepts and problems. The tools will be validated in a learning
+recommender task.
+
+*3. Development of further use cases*
+
+This work prepares the ground for intensive structure mapping (as
+demonstrated in by-hand constructions by Corneli et al in a sequence
+of papers), leading to more organised maps of mathematical knowledge.
+
+** Research Programme
+
+(0 - /prior to the funded programme of work/) D. Ginev is presently
+preparing a large corpus and NLP models based on it using \LaTeX ML,
+improving on earlier work with the Arxiv corpus by regularising
+mathematical symbols and significantly expanding the training set.
+
+(1a) Mine clusters, named entites, and triples, replicating standard
+techniques using the new data set.
+
+(1b) Find dependencies within clusters and relations between them,
+wrapped in a recommender tool.
+
+(2) Initial /validation study/ using the recommender from (1b) in a
+learning task.
+
+(3) I will liaise with the Topos Institute to develop these use cases
+and contribute to an international (UK/US) proposal that will build
+them out.
+
+** Gantt chart
+
+*** Effectiveness of the proposed planning and management         :ignore:
+
+(0): Now-April (output: NLP pretraining)
+
+(1a): May-July [3m] (output: primary technical proof of concept)
+
+(1b): August-September [2m] (output: open source “NNexus Revolutions” tool)
+
+(2): September-October [1m] (output: original research study)
+
+(3): Ongoing, Now-September (output: design doc)
+
+** Pathways to impact
+
+*** Impact: complete and realistic                                :ignore:
+
+# It is predicted in Bryan Alexander’s book “Academia Next” that
+# publishers will be adapt their business models to work more on text
+# analytics and recommendations. I will liaise with publishers through
+# industry contacts via the Oxford International Centre for Publishing
+# at OBU, to explore potential business applications.
+
+The software developed in this project could deployed within a student
+project to reboot the well-known PlanetMath.org website (originally
+the topic of Aaron Krowne’s Master’s thesis at Virginia Tech and
+subsequently the subject of the PI’s PhD at The Open University).
+With the rise of the social web, online creativity in mathematics is
+now widely distributed, so linking to and rationalising this material
+using an AI tool would present advantages.  Topos Institute is
+interested in such applications with a focus on category theory.
+
+As the start of the PI’s independent research career, this proposal is
+a step towards automating human-style proofs, going beyond, e.g.,
+Timothy Gowers’s & Mohan Ganesalingham’s system PROOFONE.  A further
+feasibility study on this theme will be submitted to Small Grants
+scheme; some indicative details are presented in the next section.
+
+** Academic Beneficiaries
+
+*** Importance: Complements other UK research funded in the area  :ignore:
+
+This project lays groundwork for argumentation mining in mathematics
+and technology fields.  Academia is responsible not only for research
+but also teaching, and the academic field as a whole has struggled
+during the Covid-19 pandemic with the rapid move to online teaching.
+The work will be relevant to all aspects of the UK’s skills base
+(e.g., complementing research by Chris Sangwin on set preparation and
+instrumentation).  As a research contribution towards integrating
+subsymbolic and symbolic AI methods, the work here will have relevance
+to other meaning-rich domains: for example, at IEAI we’ve discussed
+applications of similar technologies to the development of a synthetic
+CV data set for AI system testing and validation.
+
+*** Importance: relevance and appropriateness of beneficiaries    :ignore:
+
+** National Importance
+
+*** This is a very strong proposal that fully meets all assessment criteria :ignore:
+# Importance: health of other disciplines
+# Importance: key UK societal challenges
+# Importance: future UK economic success
+# Importance: establishing a unique world leading activity
+# Appropriateness of the track record of the applicant
+# Balance of skills of the project team/partners
+# Effectiveness of the proposed planning and management
+# Impact: effectiveness of the activities, incl. resources
+# Impact: complete and realistic
+# Importance: Complements other UK research funded in the area
+# Importance: relevance and appropriateness of beneficiaries
+# This is a very strong proposal that fully meets all assessment criteria
+In the information age, tools are continually playing catch-up to the
+scale of available data.  Major national-level initiatives like the
+Alan Turing Institute and the National Centre for Text Mining are
+direct results of the need for innovation in data.  According to the
+“UK data economy after Brexit” report by the Digital Catapult, the UK
+has the fifth largest data economy worldwide.  However, technical
+domains are not yet well represented from an AI research standpoint.
+Meanwhile, applications such as drug discovery show profound the
+potential of AI in science more broadly.  “AlphaGo”-level
+breakthroughs in fields like mathematics, programming, and other
+semantically-rich open domains would have profound implications for
+knowledge work.  Moreso than other discovery domains, progress here
+depends on making sense of existing knowledge bases.
+
+\clearpage
+** Notes                                                         :noexport:
+
+How will we cope with new mathematics when it comes along?
+
+Let’s consider NNexus3 to be something like a ‘kernel’ in OS
+terms. When new documents are presented they can be assimilated into
+existing categories and graphs, effectively creating a rich metadata
+overlay across the mathematical science literature. (Cf. KG’s,
+interoperate with them?)
+
+The work goes beyond the clear limitations of NN methods in technical
+tetx, towards models that can be constrained by meaning. To achieve
+this will require the orchestration of multiple methods.
+
+Whereas certain methods like CCGs and the CG’s of Sowa (and related
+work by Ganesalingam) exist, they are not well-grounded in large-scale
+usage. While we will not be able to develop all of the applications in
+this time frame, the mechanisms of KE that we will develop constitute
+key advances.
+
+A further benefit will be that the induced methods can become input to
+a high-level ‘programming language’ for mathematics (see follow-on
+proposal).
+
+** Justification of resources
+
+*** Impact: effectiveness of the activities, incl. resources      :ignore:
+
+A knowledgeable NLP operator is needed to develop clustering,
+thesaurus-like KGs, semantic networks, and a demonstration recommender
+implementation.  Devesh and Jintao are in position at OBU IEAI, and
+will jobshare this work.  Relevant to the scope of the proposal, they
+have been already been working on learning-recommender focused tasks
+with Learner Shape.
