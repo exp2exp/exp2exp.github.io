@@ -1,0 +1,225 @@
+#+TITLE: Research & Emacs 02 Dec
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2020-02-12 Saturday>
+
+* 2 December 2020, 17:00-18:10 UTC meeting
+
+** Leo: To add some structure for one hour
+
+- I believe there’s something to be done
+- Publicising, writing better tools
+- ...
+- Link between research and software
+
+** Roundtable, experience, level of study?
+*** Leo: presented during EmacsConf
+- MA in English studies
+- Previously was English prof
+- Taking a break to be a freelance software developer
+- Hoping to return to Uni for PhD
+- Experimented in Humanities w/ using Emacs (a non-traditional tool)
+- Has tried to evangelise w/ peers around
+- Was previously quite familiar with the French free software scene
+- Interested to move into financing projects w/in Org Roam
+ - E.g., put milestone on Github repository to estimate features, and get people to vote with their wallets what they want to implement
+ - There are many projects that are possible! We have everything we’d need.. but need money
+- Getting BBB set up to support this effort (c/o FSF)
+*** Noorah
+- 4th Year PhD student in public policy at UT Austin
+- Started using Emacs August 2019
+- Doesn’t know Elisp at present
+- Very interested in the customization of Emacs in general
+- How could this be utilized for the research process?
+- Interesting: writing and knowledge production, documentation — and something else in the future
+- Documentation needs to come in (e.g., MaGit & Org Mode)
+- Interested in collaborative work (e.g., with Org mode!)
+*** Cameron
+- Background in computational biology, PhD (2018)
+- Also did MD at the same time
+- Currently clinical pathology resident at Mass General
+- was planning to do postdoc in Computational Genomics — but got job offer to do similar thing at a company
+- Have been using Emacs since 2005, but not fully integrated into research workflow
+- Reincentivised by Org Roam, Org Noter, Org Babel... that could replace Roam, Mendeley, and Jupyter NB in a way that would better integrate with LaTeX
+- Had since adopted Emacs — Evil through Doom made it easy to get involved based on Vim experience
+*** David
+- BA in CS from Worcester State University (prev college), 2001
+- Did grad studies but didn’t want to be a TA etc.
+- Went into industry, worked for a video game company; several of the programmers used Emacs there
+- Was an IT person there
+- Started using Emacs around 2004 — wrote games, ported game engine to Common Lisp
+- Concatenative Synthesis is current interest (from speech, now music)
+- Didn’t present at EmacsConf 2020 but helpd with closed captions and other things
+- Wanted to offer support to help out as a non-academic with that turn of mind
+- Contributed 10pp of code to official Org Mode
+- How to support Emacs & the conference!
+*** Ray
+- Doctorate in theoretical physics
+- Learned about Emacs at an enrichment programme for HS student (where he also learned about Lisp)
+- Met Joe 15 years ago; worked on several projects related to Emacs
+- Worked as a research scientist on theoretical bio with Cameron
+- Things mentioned in the Hypernotebooks talk came from that collaboration
+- Involved with Lisp and Emacs meetups in NYC
+- Humanities and social science things remind me of digital humanities contacts there.
+*** Joe
+— Emacs 16
+— Elisp 20
+— PlanetMath etc
+
+** Leo noticing:
+- We have people with different levels of studies and fields
+- We also have various level of technical mastery in Emacs & other programming + CS fields
+- Writing a paper...? This would be a decent starting point.
+- But there’s something more to be done...
+- The wind is changing now.
+ - Academics are much more interested in free software! 
+ - Pandemic
+ - Technology
+ - Digital humanities
+
+- We’re all interested in Emacs reaching higher fields
+- Start with regular meetups — right now we’re 6 people
+- To give context...
+ - Developing the sense of community within Emacs
+
+1. *Elisp-package-developer* — tips about best practices; support Emotionally the developers (support people like Thierry who couldn’t take it anymore...)
+2. And a second area... about how to *federate the academic community* around Emacs?
+3. How to get beginners onto Emacs?  Make sure they aren’t so scared to learn Elisp?
+
+** So, what do we want to do?                                       :40mins:
+
+*** Block out some time to discuss in depth
+- Workshop?
+- Regular meetups?
+ - Maybe need 2 hour session to cover as much ground as possible.
+ - Maybe there are people within our personal circles
+ - Don’t open to the general public until we have figured out what we’re doing
+- How do we federate these meetups?
+ - NYC, Paris, Austin, San Francisco... - how to centralize all the efforts
+ - NonGNU ELPA for Emacs...?
+- Running intro workshops
+ - E.g., for Elisp
+ - You can write one function =(defun x (y) (+ 1 y))=...
+ - Using tutoring and teaching background
+ - Using “Learn Emacs Lisp” book by Chassell, published by FSF.
+- This is similar to how the GNU language came to be
+ - When a law professor learned Elisp,
+ - When Stallman needed help, Moglan wrote the license for him
+*** Grants
+- Think in terms of Outputs, Outcomes and Impacts
+- Maybe some HCI research
+- Maybe think back from Impacts to Methodology
+ - Put things like Org Roam into the balance?
+ - Publicising?
+ - Making it more developed?
+ - Make Org Roam part of a success story about how it can achieve results, how it can be coherent with Cognitive Science
+  - Cameron: I strongly second that!
+*** Papers
+- Need to write a whitepaper about how Emacs can work, what are the gaps, what needs to be done — *Noorah*
+ - For now, throw in ideas: whatever we’re feeling, what we’re frustrated with, see what comes up...
+ - With social sciences, the issue of /collaborative work/, /data documentation/ (is bad!), /reproducibility/.
+  - What tools could help us? E.g., "Open Science Framework"; more professors using Github to build courses
+  - What if it’s easier to build a package in Elisp?
+  - All of these are eased by free software
+- Working with state-level tech in France, in discussion about how to get sciences in general working on state open software — Leo
+ - they are working on this problematic
+- Previously I was using RStudio and RMarkdown: still use this with students. It’s not as great as Emacs. — Noorah
+ - Having trouble with ESS and Emacs
+ - Need to work on setup of ESS
+*** Podcast
+- Can foster a sense of community — David
+- Like a podcast — Noorah
+- *Peeragogy!*
+- *Hyperreal Enterprises*!
+- *New York Emacs Meetup*
+ - Meets every month
+ - There are overlapping topics & this could be introduced there
+ - Does remote, speakers from outside come in
+- The next big thing could be based on Free Software, why not!
+*** Lobbying
+- More representation?
+- Getting more people involved
+- Need some kind of “governance”
+ - Use this as a think tank
+ - The wind isn’t going to change /again/ very soon
+ - Think carefully about the next steps, make it concrete
+*** Open Science Framework, free software, reproducibility
+- To make the thing really reproducible, you may need to look at the software, this is an argument for open source — *Ray*
+*** Doing things like using Emacs to coordinate different programs; organizing knowledge
+- Using Emacs to coordinate R, different programs
+- One way to help make things more reproducible/accessible: using a notebook structure together with documentation
+- If someone publishes a scientific paper, with programs maybe, the two won’t be well integrated
+- It makes it hard to reproduce their analysis
+- Also: organizing knowledge, there’s so much and when you have 1000s of papers in any field, it can be very hard to find information! — *Ray*
+ - E.g. Zettlekasten
+*** Sustaining these efforts?
+- Red Hat — an example of “Open Source Success”
+- Could we affiliate Org Roam or any such thing to an enterprise endeavour?
+*** Teaching something to sythesize paintings
+- Teaching a LISP program how to paint — David
+- Conceivable to use Emacs to compile down SVG — David
+*** Think in format that appreciates enthusiasm w/o being overburdening
+- In light of proposals related to creating useful things for others — to reduce concern or intimidation...
+- One interesting thing would be to try to help people learn how to build their own literate configuration that in that process makes use of some of the tools that are particularly important for research — *Cameron*
+ - Maybe a series of tutorials that we would build in a format where one person is trying to teach another, or a group...
+ - To help get set up with a group of tools
+ - Like a research-oriented module for Emacs in general: you build your own module by writing your own literate configuration
+ - You learn your own basic config, as well as some of the core tools that many people have found useful
+ - This is biased towards research tools!
+*** Spreadsheet display
+- David: Would you benefit from a spreadsheet display?
+- If you view dataframe it will pop up automatically
+*** Start to use a shared Org Roam to maintain notes here?
+- This could be something to share notes and work
+- Whatever direction we go with this project, Jethro & Leo are excited
+- Jethro is also a research associate
+
+** Demo of how to navigate around in Org Roam
+ =[[file:pages/Grants_Index.org][Grant Index]]=
+** Debrief
+- 10000 words long (?)
+*** We decided to go 10 minutes over!
+
+*** Here’s our first Project Action Review!
+
+1. *Review the intention: what do we expect to learn or make together?*
+
+- Joe Noorah and Leo wanted to convene a meeting with interested parties in Emacs+Research
+- Address longstanding worry about "wait until next year"
+- Part of a greater sense of trying to do something with EmacsConf to federate the community
+
+2. Establish what is happening: what and how are we learning?
+
+- Met for an initial 70 minute meeting (via Zoom)
+- Everyone shared a brief intro and ideas so we got to know each other
+- Joe took notes via screenshare... we all took notes (as academics)
+
+3. What are some different perspectives on what’s happening?
+
+- Cameron: We are meeting for the first time so there’s a lot of intro information
+ - We generally agreed that we want to make something that exposes intrinsic value of using these tools
+ - Vaguely agreed on follow-up directions, this seems to be a general consensus, often with full agreement (e.g. on testing and making a collaborative Org Roam work, to further cement as tool for collective thinking in combination w/ individual)
+- David: there are ways I could help out with extra elisp, helping figure out a package, intro elisp workshop
+- Joe: Leo did an amazing job facilitating the meeting
+- Ray: I was impressed by the diversity of the group in background & levels of use
+
+4. What did we learn or change?
+
+- We can do this!
+- We feel empowered
+- Wonderful outcome from attending EmacsConf 2020!
+- Public Policy conference: (How to get a grant?)
+
+5. What else should we change going forward?
+
+- Ongoing dialogue
+- Maybe with breakout groups
+- Need for governance for this; getting public, taking time we need going forward
+- Many actions need to be taken forward but we have too many right now: maybe this should be the next objective to pick a good viable project to go after now
+- Can set up a shared Org Roam + Firn instance: do we want to use this?
+ - Can work have something similar w/in Org Roam
+- Someone to schedule the next meeting... accomodate UTC+8, maybe use BBB; Leo will publish scheduler
+
+
