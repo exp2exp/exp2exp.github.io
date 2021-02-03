@@ -275,36 +275,36 @@ note that we:
 “An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
 
 *** 1. Review the intention: what do we expect to learn or make together?
-- Share updates
-- Keep momentum going
-- Plan whitepaper — Still narrowing to a decent output
+**** Share updates
+**** Keep momentum going
+**** Plan whitepaper — Still narrowing to a decent output
 *** 2. Establish what is happening: what and how are we learning?
-- ‘Method’ — a potential topic of key interest
-- Talking about actualizing what we’re doing
+**** ‘Method’ — a potential topic of key interest
+**** Talking about actualizing what we’re doing
 *** 3. What are some different perspectives on what’s happening?
-- This was a productive session in terms of concrete things being done
-- Good coverage of speakers
-- Sad we lost David at the end!
-- This could turn into a grant (be careful!)
-- Whitepaper should be ‘enough’ as a pilot study
+**** This was a productive session in terms of concrete things being done
+**** Good coverage of speakers
+**** Sad we lost David at the end!
+**** This could turn into a grant (be careful!)
+**** Whitepaper should be ‘enough’ as a pilot study
 *** 4. What did we learn or change?
-- David & Noorah have joined the Discord server!
-- “An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
+**** David & Noorah have joined the Discord server!
+**** “An extra question: are we being transparent with the way we’re working & are we documenting it properly?”
 *** 5. What else should we change going forward?
-- 4PM UTC chats: welcome for beverage
-- Getting the shared *Zettlekasten* / OR working!
- - (Zettlekasten isn’t yet a solved problem.)
-- crdt.el — Qiantan is on vacation, he’s working now... we might want to get in touch!
- - if we ended up writing a paper about this he should be included
-- Invite for forseeable future?
-- Journal paper ... what would this look like:
-- Leo plans:
- - It might be wiser to re-ask this next week, e.g., could we set up the slipbox properly?
- - Repo for slipbox
- - Notes on methodology — will include local file that includes the configuration
- - To share by Monday
-- Possible structure of whitepaper:
- - Virtuous circle of reflection.
+**** 4PM UTC chats: welcome for beverage
+**** Getting the shared *Zettlekasten* / OR working!
+**** (Zettlekasten isn’t yet a solved problem.)
+**** crdt.el — Qiantan is on vacation, he’s working now... we might want to get in touch!
+**** if we ended up writing a paper about this he should be included
+**** Invite for forseeable future?
+**** Journal paper ... what would this look like:
+**** Leo plans:
+**** It might be wiser to re-ask this next week, e.g., could we set up the slipbox properly?
+**** Repo for slipbox
+**** Notes on methodology — will include local file that includes the configuration
+**** To share by Monday
+**** Possible structure of whitepaper:
+**** Virtuous circle of reflection.
 
 ** Config for handling muliple org roam directories
 #+begin_src elisp

@@ -136,35 +136,26 @@ This can be sorted out much more quickly.
 ** Review
 
 *** Review the intention: what do we expect to learn or make together?
-
-- Start to set up next year’s agenda
-- Work on methodology of the group
-
+**** Start to set up next year’s agenda
+**** Work on methodology of the group
 *** Establish what is happening: what and how are we learning?
-
-- Continued on the trend of pruning things out
-- Needed to narrow our focus so we can broaden later
-
+**** Continued on the trend of pruning things out
+**** Needed to narrow our focus so we can broaden later
 *** What are some different perspectives on what’s happening?
-
-- Seminars & Emacs journal
-- Nice thinking about a standard method that can accomodate different kinds of topics
-- Focus of small group & connections to the rest of the world looking good
-
+**** Seminars & Emacs journal
+**** Nice thinking about a standard method that can accomodate different kinds of topics
+**** Focus of small group & connections to the rest of the world looking good
 *** What did we learn or change?
-
-- Listening!
-- How to open up? — Somewhat technical discussions take time to absorb
-- "I+1 vs I+10"
-- Felt a degree of coherence
-
+**** Listening!
+**** How to open up? — Somewhat technical discussions take time to absorb
+**** "I+1 vs I+10"
+**** Felt a degree of coherence
 *** What else should we change going forward?
-
-- Ability to show demos on Emacs is always there and a potentially good style
-- Have a nice language for asking for demo material, or other needs
-- Would be nice to have 2 screenshares (but BBB can’t do this simulatenously)
-- OBS could forward screens to webcam, but it’s finicky... still, interesting to develop this!  How to suggest features for other infrastructure
-- To think about talks we might like to give (for weeks we don’t get invited speakers)
+**** Ability to show demos on Emacs is always there and a potentially good style
+**** Have a nice language for asking for demo material, or other needs
+**** Would be nice to have 2 screenshares (but BBB can’t do this simulatenously)
+**** OBS could forward screens to webcam, but it’s finicky... still, interesting to develop this!  How to suggest features for other infrastructure
+**** To think about talks we might like to give (for weeks we don’t get invited speakers)
 
 ** Notes from chat
 

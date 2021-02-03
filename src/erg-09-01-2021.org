@@ -193,24 +193,24 @@ Here’s an example...?
   - LV: As far as my interest concerns there seems to be a wealth to be exploited here.
 ** Review
 *** 1. Review the intention: what do we expect to learn or make together?
-- Desire to work on methodology: address the many hurdles LV faced with collaborative slip box
+**** Desire to work on methodology: address the many hurdles LV faced with collaborative slip box
 *** 2. Establish what is happening: what and how are we learning?
-- Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call
-- We’re all getting to know each other better during the week
+**** Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call
+**** We’re all getting to know each other better during the week
 *** 3. What are some different perspectives on what’s happening?
-- LV & CRS had a lot to say today! (<5 mins each? Length of intervention was a result of the topics! There was some free association style.)
-- Taking a step back was helpful
-- exp2exp wiki does exist, paired with Tyler on Firn, we could go on w/ this
-- JC: Loved the reference to Deleuze
-- About these PARS... the method of ongoing review still needs improvement
-- We missed Ray... would be nice to pass him a link to the recording (later in the week)
+**** LV & CRS had a lot to say today! (<5 mins each? Length of intervention was a result of the topics! There was some free association style.)
+**** Taking a step back was helpful
+**** exp2exp wiki does exist, paired with Tyler on Firn, we could go on w/ this
+**** JC: Loved the reference to Deleuze
+**** About these PARS... the method of ongoing review still needs improvement
+**** We missed Ray... would be nice to pass him a link to the recording (later in the week)
 *** 4. What did we learn or change?
-- Today w/o necessarily setting out to do this we took steps back to think about what we’re actually doing: more concerned with direction than outputs
-- Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate
+**** Today w/o necessarily setting out to do this we took steps back to think about what we’re actually doing: more concerned with direction than outputs
+**** Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate
 *** 5. What else should we change going forward?
-- Awareness of the adversarial process in review of research
-- Seed the collaboration by collaborating on an OR instance
-- Maybe not call it a ‘white paper’ — we want to continue this exploration, including infrastructure
-- We could learn more from these if we start from a review next time: the distinction between skillful & unskillful (e.g., start w/ a 15 minute review next week where we use these as data); possibly bring this in as a monthly cycle (review method)
-- LV: Planning to go back over notes & improve current ZK to share
-- Same time next week 17:30 UTC next week!
+**** Awareness of the adversarial process in review of research
+**** Seed the collaboration by collaborating on an OR instance
+**** Maybe not call it a ‘white paper’ — we want to continue this exploration, including infrastructure
+**** We could learn more from these if we start from a review next time: the distinction between skillful & unskillful (e.g., start w/ a 15 minute review next week where we use these as data); possibly bring this in as a monthly cycle (review method)
+**** LV: Planning to go back over notes & improve current ZK to share
+**** Same time next week 17:30 UTC next week!

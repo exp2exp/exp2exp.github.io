@@ -6,44 +6,51 @@
 #+DATE_CREATED: <2021-02-01 Saturday>
 #+roam_tag: HI
 
+# Cross references:
+# erg-02-12-2020.org 1
+# erg-12-12-2020.org 2
+# erg-19-12-2020.org 3
+# erg-02-01-2021.org 4
+# erg-09-01-2021.org 5
+# erg-16-01-2021.org 6
+# erg-23-01-2021.org 7
+# erg-30-01-2021.org 8
+
 * Objective for this session?
 
 ‘What is our vision for change and how is progress measurable?’
 
-* Org compatible version
-
 ** Understanding data, headlines, empirical world (short term change) :data:
-*** [[file:erg-12-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
+*** [[file:erg-02-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
 *** [[file:erg-02-01-2021.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
-*** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep4:
-*** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep5:
+*** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
+*** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep6:
 
 ** Systemic approaches and solutions (social system) :epystem:
-*** [[file:erg-12-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
-*** [[file:erg-12-12-2020.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
-*** [[file:erg-12-12-2020.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
-*** [[file:erg-19-12-2020.org::*Work on methodology of the group][Work on methodology of the group]] :ep2:
-*** [[file:erg-19-12-2020.org::*Have a nice language for asking for demo material, or other needs][Have a nice language for asking for demo material, or other needs]] :ep2:
-*** [[file:erg-02-01-2021.org::*David & Noorah have joined the Discord server!][David & Noorah have joined the Discord server!]] :ep3:
-*** [[file:erg-09-01-2021.org::*Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep4:
-*** [[file:erg-16-01-2021.org::*Make the inputs contextual.][Make the inputs contextual.]] :ep5:
-*** [[file:erg-16-01-2021.org::*We came up with an adapted plan for the exercise][We came up with an adapted plan for the exercise]] :ep5:
-*** [[file:erg-16-01-2021.org::*Maybe milestone based funding for Org Roam][Maybe milestone based funding for Org Roam]] :ep5:
-*** [[file:erg-16-01-2021.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep5:
+*** [[file:erg-02-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
+*** [[file:erg-02-12-2020.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
+*** [[file:erg-02-12-2020.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
+*** [[file:erg-19-12-2020.org::*Work on methodology of the group][Work on methodology of the group]] :ep3:
+*** [[file:erg-19-12-2020.org::*Have a nice language for asking for demo material, or other needs][Have a nice language for asking for demo material, or other needs]] :ep3:
+*** [[file:erg-02-01-2021.org::*David & Noorah have joined the Discord server!][David & Noorah have joined the Discord server!]] :ep4:
+*** [[file:erg-09-01-2021.org::*Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep5:
+*** [[file:erg-16-01-2021.org::*Make the inputs contextual.][Make the inputs contextual.]] :ep6:
+*** [[file:erg-16-01-2021.org::*We came up with an adapted plan for the exercise][We came up with an adapted plan for the exercise]] :ep6:
+*** [[file:erg-16-01-2021.org::*Maybe milestone based funding for Org Roam][Maybe milestone based funding for Org Roam]] :ep6:
+*** [[file:erg-16-01-2021.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep6:
 
 ** Worldview, ways of knowing and alternative discourse :worldview:
-*** [[file:erg-12-12-2020.org::*Wonderful outcome from attending EmacsConf 2020!][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
-*** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep2:
-*** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep3:
-*** [[file:erg-02-01-2021.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep3:
-*** [[file:erg-09-01-2021.org::*About these PARS... the method of ongoing review still needs improvement][About these PARS... the method of ongoing review still needs improvement]] :ep4:
-*** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep4:
-*** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep5:
+*** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+*** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
+*** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
+*** [[file:erg-02-01-2021.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep4:
+*** [[file:erg-09-01-2021.org::*About these PARS... the method of ongoing review still needs improvement][About these PARS... the method of ongoing review still needs improvement]] :ep5:
+*** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep5:
+*** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
 
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
-*** [[file:erg-12-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
-*** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep4:
-*** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep4:
-*** [[file:erg-16-01-2021.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep5:
-*** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]] :ep5:
-
+*** [[file:erg-02-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
+*** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep5:
+*** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
+*** [[file:erg-16-01-2021.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep6:
+*** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]] :ep6:
