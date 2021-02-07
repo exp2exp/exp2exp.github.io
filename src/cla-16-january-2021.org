@@ -77,7 +77,7 @@
 *** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep5:
 *** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
 
-** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 #+begin_quote
 - /Method/: This keeps popping up too. We may need to decide on a few activities/deliverables, just something more tangible.
 - /Link between method & practice?/  Actualising what we’re doing
