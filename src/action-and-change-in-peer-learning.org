@@ -1,0 +1,106 @@
+#+TITLE: Action and Change in Peer Learning
+#+AUTHOR: C. J. Danoff & J. Corneli
+
+* ABSTRACT
+
+How can informal learning endeavors reflect on what they have
+accomplished? What lessons should they take forward to improve their
+future group studies?  This poster introduces a methodology others can
+leverage for informal educational reflection using two lenses. First,
+the "Paragogical Action Review", which was adapted from the well-known
+After Action Review developed by the United States Army. Second,
+Non-Cognitive Predictors of Student Success: A Predictive Comparison
+Between Domestic and International Sohail Validity Inayatullah's
+"Causal Students Layered Analysis", a method for envisioning
+transformation
+(http://www.metafuture.org/Articles/CausalLayeredAnalysis.htm).
+
+* CASE STUDY
+
+Using the combined technique to examine two unsuccessful peeragogy
+submissions.
+
+** Paragogical Action Review
+
+*** Patterns of Peeragogy IEG
+
+1. We bid for an Individual Engagement Grant to support engagement with the Wikimedia community.
+
+2. We propose to catalogue patterns of peer learning on Wikimedia sites. We get feedback asking for more examples and clearer benefits.
+
+3. Our breakdown of tasks and deliverables is fairly precise, but doesn’t add up to an obvious “must have”.
+
+4. We get really into design patterns!
+
+5. Could we draw on our work on peeragogy.edu (2015) in a proposal that clearly addresses the Foundation’s priorities? Could we improve our pattern writing workflow with a federated wiki, per Cunningham and Mehaffy (2013)?
+
+*** Choose Your Own Peeragogical Fortune
+
+1. We prepare a submission for the 2018 Connected Learning Summit.
+
+2. We have a dialogue about the “what’s next” steps from our pattern catalogue, asking what makes the peeragogy project a sustainable learning community.
+
+3. At the last minute, we realize we need to anonymize the paper. The content is too much Non-Cognitive Predictors Student Success: about “us” to stand up well to those of changes.
+
+4. We subsequently revise the text into a successful submission for Anticipation 2019.
+
+5. We should review work that was accepted for CLS.
+
+** Causal Layered Analysis
+
+We look back over the PARs and attempt a synthesis that can “make
+synchronized changes at all levels to create a coherent new future”
+(Wikipedia, 2019b). At each level we compare the current reality with
+the future reality hinted at above.
+
+*** The litany
+
+We track things like meetings, patterns, handbook editions and
+purchases; papers, citations, These are linked together in an
+illustrative example, using the techniques to evaluate our work in the
+Peeragogy Project, specifically two unsuccessful submissions (one for
+a grant, another a conference).  This informal learning community was
+convened by media scholar Howard Rheingold in 2012, charged with being
+a living resource for "for any group of people who want to learn
+anything." Our successful work since then includes multiple peer
+reviewed papers and three editions of the Peeragogy Handbook. Since
+one aim of peeragogy is to be explicit about how learning works, it
+makes sense to investigate how to learn from failures and
+successes. The poster will show how using the combined methods can
+surface emergent themes and diagnose trends.
+
+*** Social causes
+
+Our aim with ‘peeragogy’ was to use peer learning to build better
+support for peer learning (Corneli and Danoff, 2011).  Are we
+successfully inventing ways of relating that address the needs of
+people with limited access to educational opportunity? Can we extract
+patterns from the literature on MOOCS, crowdfunding and other
+collaborative projects that can be applied here?
+
+*** Structure
+
+There are a bunch of innovative learning experiments going on, but it
+can be hard to get a good overview, and access is very uneven.  Can we
+develop our strategy for translating our learning within the peeragogy
+project to (and from) diverse audiences?
+
+*** Metaphor and myth
+
+People often talk about great men and women, neglecting peers and
+networks. We should nevertheless keep the Iron Law of Oligarchy in
+mind as a dangerous attractor in peer production (Shaw & Hill, 2014)!
+We can borrow a technique from religious studies (Batchelor, 2015),
+and ask, how does peeragogy differ from other approaches?
+
+* References
+
+Corneli, J., & Danoff, C. J. (2011). Paragogy. /Proceedings of the 6th Open Knowledge Conference, OKCon 2011, Berlin, Germany, June 30 July 1, 2011/.
+
+Cunningham, W., & Mehaffy, M. W. (2013, October). Wiki as pattern language. In /20th Conference on pattern languages of programs/. ACM.
+
+Batchelor, S. (2015). /After Buddhism: Rethinking the dharma for a secular age/. Yale University Press.
+
+Shaw, A., & Hill, B. M. (2014). Laboratories of oligarchy? How the iron law extends to peer production. /Journal of Communication/, 64(2), 215-238.
+
+Wikipedia contributors. (2020, August 16). Causal layered analysis. In Wikipedia, The Free Encyclopedia. Retrieved 21:01, February 7, 2021, from https://en.wikipedia.org/w/index.php?title=Causal_layered_analysis&oldid=973225921 
