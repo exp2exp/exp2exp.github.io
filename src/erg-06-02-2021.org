@@ -3,9 +3,9 @@
 #+roam_tag: HI
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: update
-#+DATE_CREATED: <2021-06-02 Saturday>
+#+DATE_CREATED: <2021-02-06 Saturday>
 
-In this meeting we did a live demo and source code 
+In this meeting we did a live demo and source code
 exploration of [[https://code.librehq.com/qhong/crdt.el][crdt.el]] with the author, Qiantan Hong.
 In the last 15 minutes we outlined some plans for the next meeting, to
 focus on Patterns + Org mode.
