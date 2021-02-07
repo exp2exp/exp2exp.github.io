@@ -10,11 +10,11 @@ exploration of [[https://code.librehq.com/qhong/crdt.el][crdt.el]] with the auth
 In the last 15 minutes we outlined some plans for the next meeting, to
 focus on Patterns + Org mode.
 
-* Multiple buffers
+* High level overview
 
 - Different levels of correctness
-
-** Buffers are synchronised naïvely
+- Sharing multiple buffers
+- Buffers are synchronised naïvely
 * The algorithm
 ** User synchronisation algorithm
 *** ‘Each writer wants to see their change instantly.’
@@ -22,7 +22,7 @@ focus on Patterns + Org mode.
 **** Problem: It will wait for a round-trip.
 ** Original transform: Broadcasting one’s operations naïvely
 *** Synchronising text-first
-*** Fundamental prble
+*** Fundamental problem
 *** Person A: Type ‘a’ at position 100; the character appears
 *** Person B: Type ‘b’ at position 90; there’s going to be an offset for Person A.
 ** Operation transform
@@ -50,6 +50,77 @@ focus on Patterns + Org mode.
 ** Implementation questions
 *** Text-properties
 **** All the
+* JC: Some detailed comments on the code
+(To some extent this replicates the above; Leo and Joe were typing in different buffers.)
+** Background
+
+Qiantan: was doing a music project and wanted something like this.
+Older packages didn’t really work or used naive algorithms.
+** Usage
+
+- To share a buffer: M-x crdt-share-buffer
+- Collaborative editing: each writer wants to see the changes instantly
+- Classical sync mode, there’s a central authority that keeps everything in a linear order
+- But this has problems in that it’s slow.
+** Comparison with OT
+- Historically, the OT algorithm deals with difficulties
+- E.g., "insert a character ’a’ at position 100"
+- If everyone does this it seems to work... But this doesn’t really work.
+- What if someone else "insert a character ’b’ at position 90"
+** How it works
+
+- Now, require the id to be strictly increasing
+- A B C, each with id 1 2 3
+- A B D C results from "insert D with id 2.5".
+- You never use the absolute position.  Everyone will receive the correctly ordered info.
+- The question is, what if you keep working?  The labels need to keep syncronized.
+- Are there any cases where it can desynchronise later?
+- The invariant is that after the data is created, it always keeps the same label.
+- There’s a question of "which labels can I refer to?" — possible conflicts between different editors...?
+- Each client/site has a unique id attached to themselves.  Instead of inserting between 2.50, 2.51, 2.53 — this extra bit is assigned to the clients
+
+What about:
+
+- A B, C? D? — Actually, either "A C D B" or "A D C B" could make sense.
+- Both come simultaneously, do I put C or D first... later I put a C and D first
+- The ids are generated per user.  The server doesn’t play any central role.
+- The only thing the server does is to broadcast messages.
+
+How to deal with insert of regions/strings?
+
+- But this does raise a problem to the original CRDT algorithm.  A B — A (C D)_1  A (E F)_2 B
+- You could get "A C E D F B" from the original algorithm.  So, instead of adding ids for characters, use
+- an identifier for the region of text rather than the individual characters.
+** Logging/warnings
+- =(warn "test")=
+- You can log the traffic to *Messages*
+- But it gets huge. — Maybe can broadcast some of the key things to warnings?
+** The core algorithm
+
+- CRDT IDs are represented by _unibyte strings_ (for efficient comparison)
+- ‘lsh’ bits shifted left by count
+- comparing ids in lexicographic order happens a lot
+- Encoding with bigendian unibyte strings can use string=, string< to do the comparison
+- reading & writing two-byte integers into this representation
+** How to get the ID of the site
+
+- this one generates the unique ID between two other ids
+- low-offset is a position within the segment
+- a CAT b, will generate a text property for CAT — C will have the id, A will have id+1, T id+2
+- use one text property for a continuous range of text
+- There are a bunch of Haskell people who also do live coding!
+- Lisp is better for creative coding :-)
+- The Haskell people use Electro to run their code — and it’s important for them to know who created some code
+** The main data structure
+-  There’s a table of CRDT sessions, mapping them to this structure
+** Network traffic, parsing messanges
+- This doesn’t really connect but it’s how it handles network traffic
+- The parsing in here isn’t particularly efficient
+- This can have bottlenecks...
+- There is also an ability to log events
+- If there are errors happening, it would make sense
+- to display things like stop the session.
+
 * Paths of improvement?
 ** Colour-coded modifications
 *** Maybe a bg face?
