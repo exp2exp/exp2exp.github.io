@@ -3,7 +3,7 @@
 #+roam_tag: HI
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: update
-#+DATE_CREATED: <2021-30-01 Saturday>
+#+DATE_CREATED: <2021-01-30 Saturday>
 
 * Notes 30 Jan 
 ** Quick checkins

@@ -3,7 +3,7 @@
 #+roam_tag: HI
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: update
-#+DATE_CREATED: <2021-02-01 Saturday>
+#+DATE_CREATED: <2021-01-16 Saturday>
 #+roam_tag: HI
 
 # Cross references:
@@ -54,7 +54,7 @@
 - /Practice/: Different to ‘method’ (the latter is more top down)
 - *Collaborative is a key theme*
 - /Talking about actualizing what we’re doing/: This keeps popping up, so might be worth discussing tomorrow.
-- Now we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time (30th January)
+- Now (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work?
   - Annotations and history
   - “Bookdown” to create book in Markdown?
   - *Hypothes.is* to have access to WIP (https://via.hypothes.is/https://www.gnu.org/)

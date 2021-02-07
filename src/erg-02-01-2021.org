@@ -5,7 +5,6 @@
 #+FIRN_LAYOUT: update
 #+DATE_CREATED: <2021-01-02 Saturday>
 
-#
 * 02 January 2021 — Emacs Research Group
 ** No more 2020!
 
