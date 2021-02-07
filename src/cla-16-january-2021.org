@@ -21,12 +21,22 @@
 ‘What is our vision for change and how is progress measurable?’
 
 ** Understanding data, headlines, empirical world (short term change) :data:
+#+begin_quote
+- We need to be collectively confident on the major themes (maybe set a realistic deadline at the end of Feb)
+- Maybe add a couple of demos for this quarter (assigned and on the calendar)
+#+end_quote
 *** [[file:erg-02-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
 *** [[file:erg-02-01-2021.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
 *** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
 *** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep6:
 
-** Systemic approaches and solutions (social system) :epystem:
+** Systemic approaches and solutions (social system) :system:
+#+begin_quote
+- Requires a larger community of contributors for it to work.
+- How do we differentiate authorship in those notes?
+- Our work needs to be public first before we can embark on this project.
+#+end_quote
+
 *** [[file:erg-02-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
 *** [[file:erg-02-12-2020.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
 *** [[file:erg-02-12-2020.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
@@ -40,6 +50,25 @@
 *** [[file:erg-16-01-2021.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep6:
 
 ** Worldview, ways of knowing and alternative discourse :worldview:
+#+begin_quote
+- /Practice/: Different to ‘method’ (the latter is more top down)
+- *Collaborative is a key theme*
+- /Talking about actualizing what we’re doing/: This keeps popping up, so might be worth discussing tomorrow.
+- Now we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time (30th January)
+  - Annotations and history
+  - “Bookdown” to create book in Markdown?
+  - *Hypothes.is* to have access to WIP (https://via.hypothes.is/https://www.gnu.org/)
+  - Trying to structure my dissertation, which has many parts; and I have a committee that needs to comment on progress
+    - How is the progress of an applicant/researcher measured?
+      - Visible outputs of research; // quantifiable research
+- We started off with PARs, then we started thinking through our past PARs, then observing /patterns/...
+  - https://arxiv.org/abs/2012.03736
+  - Seeing patterns require a high-level view.
+  - ‘Patterns’ as ‘projects’; parallels to LV’s workflow?
+  - How can we make our patterns work in a collaborative fashion?
+    - e.g. having similar patterns with Qiantan; how do we share?
+    - Linked to /common ground/?  How do we find common ground with people?  Technically speaking, but also methodologically/practice-oriented speaking
+#+end_quote
 *** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
 *** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
 *** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
@@ -48,7 +77,15 @@
 *** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep5:
 *** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
 
-** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+#+begin_quote
+- /Method/: This keeps popping up too. We may need to decide on a few activities/deliverables, just something more tangible.
+- /Link between method & practice?/  Actualising what we’re doing
+  - What gives an *Objective* character to what we’re doing?  (It’s fine to do something that we’re enjoying, but there must be something about actualising.  Even if it were just fun; how can we make it so that even more fun.
+  - Top-down approach of method vs. the bottom-up approach of practice
+- https://hbr.org/2005/07/learning-in-the-thick-of-it
+- If we tackle big enough projects would create need for collaboration /en train/
+#+end_quote
 *** [[file:erg-02-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
 *** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep5:
 *** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
