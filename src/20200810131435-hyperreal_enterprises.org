@@ -37,9 +37,9 @@ is around the corner.
 
 ** We are looking at this problem as an informal open source R&D collective.
 
-Our team brings together applied experience in Natural Language
+Our loose-knit team brings together applied experience in Natural Language
 Processing (NLP), computational modelling, online communities,
-physics, biology, mathematics, and statistics.  We’ve been getting
+mathematical sciences ($x!$) as well as humanities and social science.  We’ve been getting
 together for daily coffee chats, and sharing information and skills
 with each other in online seminars.  Sometimes we bring in guest
 speakers.  We hope as time goes by our chats will coalesce into notes,
