@@ -46,7 +46,7 @@ submissions.
 
 ** Causal Layered Analysis
 
-We look back over the PARs and attempt a synthesis that can “make
+We look back over PARs, like the examples above, and attempt a synthesis that can “make
 synchronized changes at all levels to create a coherent new future”
 (Wikipedia, 2019b). At each level we compare the current reality with
 the future reality hinted at above.
