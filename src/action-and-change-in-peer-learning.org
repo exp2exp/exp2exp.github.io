@@ -46,29 +46,25 @@ submissions.
 
 ** Causal Layered Analysis
 
-We look back over PARs, like the examples above, and attempt a synthesis that can “make
-synchronized changes at all levels to create a coherent new future”
-(Wikipedia, 2019b). At each level we compare the current reality with
-the future reality hinted at above.
+We look back over PARs, like the examples above, and attempt a
+synthesis that can “make synchronized changes at all levels to create
+a coherent new future” (Wikipedia, 2020).  At each level we compare
+the current reality with the future reality hinted at in the PARs.
 
 *** The litany
 
-We track things like meetings, patterns, handbook editions and
-purchases; papers, citations, These are linked together in an
-illustrative example, using the techniques to evaluate our work in the
-Peeragogy Project, specifically two unsuccessful submissions (one for
-a grant, another a conference).  This informal learning community was
+The Peeragogy project was
 convened by media scholar Howard Rheingold in 2012, charged with being
 a living resource for "for any group of people who want to learn
 anything." Our successful work since then includes multiple peer
 reviewed papers and three editions of the Peeragogy Handbook. Since
 one aim of peeragogy is to be explicit about how learning works, it
 makes sense to investigate how to learn from failures and
-successes. The poster will show how using the combined methods can
-surface emergent themes and diagnose trends.
+successes.
 
 *** Social causes
 
+This poster show how using the combined PAR+CLA methods can surface emergent themes and diagnose trends.
 Our aim with ‘peeragogy’ was to use peer learning to build better
 support for peer learning (Corneli and Danoff, 2011).  Are we
 successfully inventing ways of relating that address the needs of
