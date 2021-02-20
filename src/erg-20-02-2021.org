@@ -9,14 +9,156 @@
 
 (Notes to be added here.) We also have the [[file:cla-20-february-2021.org][CLA 20 February 2021]] which is starting to collect input to progress our CLA.
 
+* Checkins/News/Agenda
+- 1 hour Leo agenda
+- 30 min other topics
+- 15 min PAR
+** Leo
+- Feeling quite tired
+- Came from EmacsConf, which had lots of crashes
+- Limited monitor
+- Get data out of the PARs 
+- Try to do CLA that surfaces info about interviews
+- It’s been a dense month
+- Interview w/ Peeragogy podcast
+- General review, try to re-surface input-output
+- Would like to present this & get some ideas and reflections
+- The FHI ideas are somewhat getting rerouted into this
+** Noorah
+- surviving Snowpocalypse 2021
+- Feeling creatively drained & glad we are meeting today
+- Peeragogy podcast interview was fun and gave a lot of ideas
+** Joe
+- Sacha automation via yasnippets
+- We now have a template for our weekly meetings
+- Joe did spend some time creating a file for today’s CLA
+** Raymond
+- Got back to meet w/ Joe & Leo a couple days ago
+- Thinking about the white paper reminds me of scientific projects where we get an idea and then wait until we get the result and the papers take care of themselves
+- So, when we do have a paper we will have a better one because we have a better understanding of collaborative writing in Emacs.
+** Cameron
+- Might be getting some leeway at work
+** David
+- Was hoping to join, shared a stream with some VR gaming
+
+* CRDT updated!
+
 #+begin_src bash
 cd ~/crdt.el/ 
 git pull
 #+end_src
 
-* PAR
+#+begin_src emacs-lisp
+(load-file "~/crdt.el/crdt.el")
+#+end_src
+Then:
+
+#+begin_src bash
+M-x crdt-connect RET metameso.org RET RET RET
+#+end_src
+
+* Quality Assurance testing of recent CRDT features [3/3]
+#+begin_quote
+Qiantan: I’ve authored a few changes to crdt.el addressing some issue we discussed:
+- [X] correct behavior when changing major mode
+- [X] mouse click alias for RET in crdt-*-menu
+- [X] crdt-visualize-author-mode
+#+end_quote
+
+** Follow up
+*** M-x crdt-share-buffer should give a default for RET          :usability:
+*** Underlining color is incorrect on the server                     :repro:
+*** Underlining color goes away inside org mode on client            :repro:
+
+* Meeting topics
+** Review interviews w/ Qiantan, Charlie et al                         :20m:
+#+begin_quote
+[[06 February 2021 — Emacs Research Group]]
+[[file:exp2exp.github.io/src/erg-13-02-2021.org][13 February 2021 — Emacs Research Group]]
+#+end_quote
+- We all thought it was good, this was exactly the kind of thing we wanted to do!
+- Ray made a note that we’re using the latest version of crdt.el, and whilst it’s buggy, it’s working
+- Noorah left the meeting with Peeragogy very energised (both the ones with the ERG, and the Peeragogy Podcast)
+- We need to find a balance between interviews (including both development and users) and ‘regular sessions’
+- Qiantan & Charlie had different styles + subjects, and our styles of interview were different
+  - Having a cycle between dev-oriented and method-oriented interviews
+  - It’s mainly just a matter of scheduling
+- Compare Emacs New York (short, long, hack night, panel discussion)
+- Compare “M-x Research” — Leo is following up with them (18th March), maybe we can have a joint meeting with them later
+- E.g., Sacha would be great as a guest on Emacs culture
+- Those interviews/meetings had some nice follow-ups to them
+  - Qiantan’s iteration on crdt.el
+  - Charlotte’s and Charlie’s excitement about our tools
+** CLA for other stuff that we’ve been doing                           :20m:
+[[file:exp2exp.github.io/src/erg-20-02-2021.org][20 February 2021 — Emacs Research Group]]
+- crdt.el idea: relative file-paths for links inserted in a buffer
+  - Enforcing default-directory locally?
+- Org-transclusions would help here
+** Leo thinking about Kickstarter project                              :15m:
+- Aiming to get some more feedback here
+- Thinking back to our first meetings, Leo had been highlighting financing work on Emacs
+- Right now he’s aware of planning to write free software but needs to think of a system that allows him to keep doing this
+- Had highlighted milestone-based plans (e.g., get transclusion into Org Roam with money on the table)
+ - But this was linked to Org Roam, and Leo’s also an Org Mode developer (e.g., org agenda, tasks: not in core Emacs)
+- So what could be interesting is to try to move to a position that affects all of Org Mode
+- a position of mediation between MELPA packages and Org Mode... 
+- E.g., alphapapa (Adam): =org-ql=, =org-super-agenda= — but he doesn’t want to merge this stuff into core b/c of bureaucracy
+ - It’s not an ideological difference, just a matter of overcoming the inconveniences
+- =org-noter= and =pdf-tools= are presently abandoned: and we might even have trouble getting Copyright for FSF
+- There are many pockets of interested users around; Org Roam w/ 3K stars on github is just one
+ - Transclusions, backlinks and so on could go into Org Mode
+ - But rather than having just the Org Roam crowd this would address the whole Org Mode crowd
+ - ORB is an example (which connects different packages)
+ - But Org Super Agenda isn’t presently connected
+- There are plenty of people, e.g., a maths department wanting a Jupyter to org exporter; maybe not reaching the corporate crowd like Magit but still there are people there
+- Thinking about taxes and fees reached €17K figure for 6 months of work, with stretch goals (like doing a year of work).
+- Developer, leader, good at talking with people...
+*** Feedback
+- Hypernotebooks would be an example we’d like to merge into Org mode
+- This reminds Ray of discussions about business model of Hyperreal — we could continue this during the week
+- Refining this 10-min speech into a 3-min speech might be better in a startup
+  - Honing the structure, the sub-points, and hinting it as being the draft for the kickstarter
+  - Maybe the first challenge would be honing on /why/ this is what I want to be doing in the next 6 months
+** JC NA to follow up about structure of networks & peeragogy           :5m:
+- org-roam-server as a nice introduction to org-roam and the structure of any complex concept
+  - The problem is that it does not show structure
+- Thinking about boundaries and structures (e.g., w/ our Org Roam directories)
+- Right now we are at the note-taking phase, what do we do next
+- One solution(?): with transclusion to put together the pieces (but this is just visual)
+- Nicolas Luhmann — like Luhmann method — on systems theory: can notice how the notes are connecting from one note to another
+  - But it took NA quite some effort to comphrehend what he’s actually saying, and has to go back 
+  - So, it can be a bad thing to collect notes without comprehending where you’re going!
+- Joe to follow on /Notes to Narrative/
+** Meeting and prep and workflow                                        :10m:
+*** How to make sure we follow up
+- Notes without method are just dead weight; it’s best to process them to keep them usable
+- We could have a shared agenda, let’s leave it for a while
+- Leo did make a commit to exp2exp
+- Would be good to go through exp2exp and prune it some times
+** Whitepaper thoughts                                                  :5m:
+- Joe hasn’t gotten back to Topos
+- There are other things we can do w/ the NSF Future of Work thing
+- If we’re trying to build a collaborative system within Emacs we should be learning from the people who have already
+- How to proceed with RStudio + people there? — A few chats with the could
+ - Can also look at RStudio videos on Youtube to see how it’s being used
+* PAR                                                                  :15m:
 *** 1. Review the intention: what do we expect to learn or make together?
+- We came with an agenda and had a lot of topics to look at
+- We also invited everyone to add agenda items at the beginning
 *** 2. Establish what is happening: what and how are we learning?
+- Today, we’ve mentioned many times our desire to refine/distil
+- We’ve been going quite fast today
+- More tightly contained + minuted topics helped us keep from going into super high level discussions
+- However the high-level discussions allow more room for serendipity?
 *** 3. What are some different perspectives on what’s happening?
+- Hungry, tired, maybe a bit stressed
+- Updating the PAR /live/ with points might be interesting
+  - It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things /contextually/
+- Leo’s life has a lot going on!
+- Snowpocalypse is also pretty involving
 *** 4. What did we learn or change?
+- EmacsConf is less objective-based and more having a circle of support
 *** 5. What else should we change going forward?
+- Leo will follow up with Rob
+- Joe: can report back on practical details of serendipity next week!
+- Build some Elisp sessions for ourselves in future!
