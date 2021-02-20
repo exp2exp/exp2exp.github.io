@@ -17,11 +17,11 @@
 ****** Ray knows most people here already know him!
 ****** Charlie is looking forward to seeing how we all use Emacs to improve his productivity and learn about our workflows.
 ****** Charlotte wanted to meet Noorah (she’s going to come along for the next Peeragogy podcast)
-******* She was also curious about what Joe was doing with Emacs, and didn’t want to miss out (FOMO)
+- She was also curious about what Joe was doing with Emacs, and didn’t want to miss out (FOMO)
 ***** 2. Establish what is happening: what and how are we learning?
 ****** Ray has already been working with Peeragogy, especially on the topic of /patterns/
 ****** /Hyper-notebooks/
-******* A way to coordinate multiple workflows with computers and note-taking.
+- A way to coordinate multiple workflows with computers and note-taking.
 ***** 3. What are some different perspectives on what’s happening?
 ****** Power dynamics (especially power to your house… Re: power-cut when taking those notes)
 ***** 4. What did we learn or change?
@@ -39,7 +39,7 @@ We will strive to keep things grounded and operational (since the Peeragogy folk
 ****** ‘The solution is going to involve our pattern-catalogue’
 ***** Joe presented org-roam in a very succinct fashion
 ****** A little disorienting?
-******* Grounding the presentation of org-roam with org-roam-server to visualise the trail made for a pretty visual demo
+- Grounding the presentation of org-roam with org-roam-server to visualise the trail made for a pretty visual demo
 ***** Joe presented TODOs inside the Peeragogy Handbook
 ****** Custom code for highlighting in org-agenda
 ****** Tag-based assignment for tasks, e.g. ~:joe~
@@ -64,7 +64,7 @@ PATTERN: Roadmap
 ***** Ray mentions the importance of planning in relation to patterns
 ***** Relationship between patterns & anti-patterns?
 ****** Definition of anti-pattern
-******* Used by some people to refer to patterns which are not productive
+- Used by some people to refer to patterns which are not productive
 ****** Anti-patterns are written in the same way as patterns
 **** Questions
 ***** Noorah is confused about what a pattern is
@@ -72,8 +72,8 @@ PATTERN: Roadmap
 ****** ‘Can a pattern be applied in different context?’
 ****** According to ray, patterns are problem-oriented
 ****** Example: Research reproceability
-******* In science, it’s a lot easier to set up because STEM has been doing that forever
-******* In social sciences, it depends on the methods being used
+- In science, it’s a lot easier to set up because STEM has been doing that forever
+- In social sciences, it depends on the methods being used
 *** Now we also have Next Steps, PARs, and CLAs in addition to the basic pattern template :5m:
 **** Show and tell: of the PARs + CLA we have done already in ERG
 *** Charlie’s feedback                                                :10m:
@@ -92,12 +92,12 @@ PATTERN: Roadmap
 **** Exchange between digital humanities and AI
 ***** Digital humanities work: building tools which wrok at a sufficient level of generality
 ****** Some stuff require more technical knowledge
-******* e.g. R (used by Noorah, Charlie)
+- e.g. R (used by Noorah, Charlie)
 ****** Follow-up on Joe & Charlie’s paper for Learning Analytics Conference, which might be 10y late
 ****** ‘It’s not just AI people pushing their ideas onto others, but an /exchange/ where we’re looking about methods and ideas (i.e. writing poetry), and how do we make patterns more engaging for people; i.e., a trandisciplinary exchange’
 ****** Grants, pitches
-******* Publishing opportunities with [[http://peerproduction.net/editsuite/][The Journal of Peer Production]]
-******** Charting the future of FLOSS for research
+- Publishing opportunities with [[http://peerproduction.net/editsuite/][The Journal of Peer Production]]
+- Charting the future of FLOSS for research
 **** Actual practical work in data analysis, AI
 ***** [[https://hyperreal.enterprises/nesta.html][Peeragogical Pathways]]
 ****** Patterns have a very /intuitive/ meaning
@@ -122,59 +122,59 @@ PATTERN: Roadmap
 ****** Well, now, people seem to be using it, especially us in the ERG!
 ***** On patterns
 ****** We found the PAR good for gathering data
-******* Measurable progress (particularly interesting in a perspective of tracking progress in academia)
+- Measurable progress (particularly interesting in a perspective of tracking progress in academia)
 ****** CLA
-******* With the ERG, we’re still trying to figure out what is the place of CLA
+- With the ERG, we’re still trying to figure out what is the place of CLA
 ***** Re: ERG & Peeragogy
 ****** We believe we could be working together on some interesting topics.
 **** Understanding data, headlines, empirical world (short term change)
 ***** If Charlie starts using the tool-chain we’ve explored today to iterate over the Peeragogy Handbook, it’d be a wonderful learning experience
 ***** It would also be data point in our reviews
 ****** Charlie’s day-job is to analyse and synthetise data taken from surveys into a document that might inform his employers’s decisions
-******* Parallels between the moonlight-job with Peeragogy and the day-time job
+- Parallels between the moonlight-job with Peeragogy and the day-time job
 **** Systemic approaches and solutions (social system)
 ***** ‘PAR + CLA + Next steps’ is a system with a lot of potential
 ****** We haven’t validated as a system yet
 ****** ‘How do we validate such a system? (probably most relevant to Noorah)
-******* We can change a system if we don’t like it; so how do we validate the system for ourselves, and then potentially for other people/context
-******** We shouldn’t be pushing a system until we’ve tried it and validated it
-******** Noorah: ‘Adding context allows us to think about groups of people’
-******** Joe: ‘My cousin does research in education policy, and there are so many numbers, data.. but in the world of FLOSS, there might be as much data, but not necessarily as well-defined collaboration and well-defined things.  She works at Columbia, and they don’t have the same tools, availabilities…’
-******** Noorah: vs. education policy
-********* External pressure to come up with novel ways of measuring performance
-********* ‘With FLOSS, the external pressure is just passion for FLOSS’
-******** Joe: ‘There might be a profit motive for some companies in FLOSS’
-********* Charlie: e.g. Walmart and NodeJS
+- We can change a system if we don’t like it; so how do we validate the system for ourselves, and then potentially for other people/context
+- We shouldn’t be pushing a system until we’ve tried it and validated it
+- Noorah: ‘Adding context allows us to think about groups of people’
+- Joe: ‘My cousin does research in education policy, and there are so many numbers, data.. but in the world of FLOSS, there might be as much data, but not necessarily as well-defined collaboration and well-defined things.  She works at Columbia, and they don’t have the same tools, availabilities…’
+- Noorah: vs. education policy
+- External pressure to come up with novel ways of measuring performance
+- ‘With FLOSS, the external pressure is just passion for FLOSS’
+- Joe: ‘There might be a profit motive for some companies in FLOSS’
+- Charlie: e.g. Walmart and NodeJS
 **** Worldview, ways of knowing and alternative discourse
 **** Myths, metaphors and narratives: imagined (longer term change)
-*** PAR                                                               :15m:
-**** Pre-PAR + Post-PAR (which doesn’t sound as cool as prePARe, unfortunately)
-***** 1. Review the intention: what do we expect to learn or make together?
-****** We all met one another!
-****** Leo: ‘I’d set out to take good notesa from this meeting because it was something that I’d been expecting for a while, and I haven’t been disappointed by the quality of the exchanges we’ve been having’
-***** 2. Establish what is happening: what and how are we learning?
-****** Last time, we had a special guest: Qiantan
-******* We’re continuing on the path of interdisciplinary learning
-******** We might have also convinced Qiantan of joining us with HyperReal!
-****** Ray has already been working with Peeragogy, especially on the topic of /patterns/
-***** 3. What are some different perspectives on what’s happening?
-****** Power dynamics (especially power to your house… Re: power-cut when taking those notes)
-***** 4. What did we learn or change?
-****** We talked about /hyper-notebooks/ in terms of the replicability/reproduceability of research
-******* Anthropology + Psychology is a special nightmare for reproduceability
-***** 5. What else should we change going forward?
-****** We’ve brainstormed a couple of options for /getting out there/
-******* White-papers
-******* Grants
-******* Journal papers (very concrete)
-****** Could there be a joint ERG/org-mode venture with the Peeragogy podcast?
-******* Once Charlie is brought up to speed, he could have a discussion with Leo
-******* Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)
-******** This could get us working on patterns!
-********* The patterns of maintenance
-****** Charlie thinks it’d be interesting to dig further on the topic of AI as a peer, patterns, and Peeragogy
-****** Joe mentions that the Peeragogy Handbook only lists 9 patterns
-******* Maybe the ERG could contribute further patterns?
+* PAR                                                               :15m:
+Pre-PAR + Post-PAR (which doesn’t sound as cool as prePARe, unfortunately)
+*** 1. Review the intention: what do we expect to learn or make together?
+**** We all met one another!
+**** Leo: ‘I’d set out to take good notesa from this meeting because it was something that I’d been expecting for a while, and I haven’t been disappointed by the quality of the exchanges we’ve been having’
+**** 2. Establish what is happening: what and how are we learning?
+**** Last time, we had a special guest: Qiantan
+**** We’re continuing on the path of interdisciplinary learning
+**** We might have also convinced Qiantan of joining us with HyperReal!
+**** Ray has already been working with Peeragogy, especially on the topic of /patterns/
+*** 3. What are some different perspectives on what’s happening?
+**** Power dynamics (especially power to your house… Re: power-cut when taking those notes)
+*** 4. What did we learn or change?
+**** We talked about /hyper-notebooks/ in terms of the replicability/reproduceability of research
+**** Anthropology + Psychology is a special nightmare for reproduceability
+*** 5. What else should we change going forward?
+**** We’ve brainstormed a couple of options for /getting out there/
+- White-papers
+- Grants
+- Journal papers (very concrete)
+**** Could there be a joint ERG/org-mode venture with the Peeragogy podcast?
+- Once Charlie is brought up to speed, he could have a discussion with Leo
+- Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)
+- This could get us working on patterns!
+- The patterns of maintenance
+**** Charlie thinks it’d be interesting to dig further on the topic of AI as a peer, patterns, and Peeragogy
+**** Joe mentions that the Peeragogy Handbook only lists 9 patterns
+- Maybe the ERG could contribute further patterns?
 ** Re: HyperReal
 *** Charlie is already on the HyperReal discord
 ** Points for later
