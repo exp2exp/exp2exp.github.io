@@ -1,0 +1,30 @@
+#+title: Emacs and Org Mode
+
+We have been looking at Emacs and Org Mode, along with other tools for
+researchers and knowledge workers.
+
+Some of our discussions appear in [[file:erg.org][Emacs Research Group meeting notes]].
+This page attempts to create a summary of some of the themes and ideas
+we’ve been surfacing.  Another form of high-level summary appears in
+our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20 February 2021]]).
+
+* Outtakes from our CLA notes, to turn into a narrative
+
+- /Talking about actualizing what we’re doing/: This keeps popping up, so might be worth discussing tomorrow.
+- Annotations and history
+- “Bookdown” to create a book in Markdown?
+- *Hypothes.is* to have access to WIP (https://via.hypothes.is/https://www.gnu.org/)
+- Trying to structure my dissertation, which has many parts; and I have a committee that needs to comment on progress
+  - How is the progress of an applicant/researcher measured?
+    - Visible outputs of research; // quantifiable research
+- We started off with PARs, then we started thinking through our past PARs, then observing /patterns/...
+- https://arxiv.org/abs/2012.03736
+- Seeing patterns require a high-level view.
+- ‘Patterns’ as ‘projects’; parallels to LV’s workflow?
+- How can we make our patterns work in a collaborative fashion?
+  - e.g. having similar patterns with Qiantan; how do we share?
+  - Linked to /common ground/?  How do we find common ground with people?  Technically speaking, but also methodologically/practice-oriented speaking
+- It’s fine to do something that we’re enjoying, but there must be something about actualising.  Even if it were just fun; how can we make it so that even more fun.
+- Top-down approach of method vs. the bottom-up approach of practice
+- https://hbr.org/2005/07/learning-in-the-thick-of-it
+- There’s a /link between method & practice/ that has to do with actualising what we’re doing

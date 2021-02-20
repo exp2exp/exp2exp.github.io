@@ -170,28 +170,28 @@ LV Would be excited to work with the UX of the program.
 ***** Qiantan works very efficiently when they’re alone; however, they’d be happy to help.
 * PAR (Project Action Report/Review)
 ** 1. Review the intention: what do we expect to learn or make together?
-- Qiantan as special guest to describe and demo crdt
-- Q&A about CRDT
-- This is a perfect example of the kind of thing we wanted to do
+**** Qiantan as special guest to describe and demo crdt
+**** Q&A about CRDT
+**** This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do
 ** 2. Establish what is happening: what and how are we learning?
-- Very successful demo
-- Fun time getting to know Qiantan
+**** Very successful demo
+**** Fun time getting to know Qiantan
 ** 3. What are some different perspectives on what’s happening?
-- Worked well from Qiantan’s side
-- Qiantan doesn’t use org mode... it generates section
-- We are very excited about crdt
-- Joe took less notes this time
+**** Worked well from Qiantan’s side
+**** Qiantan doesn’t use org mode... it generates section
+**** We are very excited about crdt
+**** Joe took less notes this time
 ** 4. What did we learn or change?
-- We found a few bugs and possible features
-- We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)
+**** We found a few bugs and possible features
+**** We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)
 ** 5. What else should we change going forward?
-- Leo to liaise UX, dev stuff
-- Nice to have further sessions where we go in depth about code
-- Ideal to have specific questions
-- Email bugs and features
-- Follow up with a demo of the music stuff sometime
-- Follow up with a public session to promote this at some stage
-- Prepare for CRDT Hackathon in summer?
+**** Leo to liaise UX, dev stuff
+**** Nice to have further sessions where we go in depth about code
+**** Ideal to have specific questions
+**** Email bugs and features
+**** Follow up with a demo of the music stuff sometime
+**** Follow up with a public session to promote this at some stage
+**** Prepare for CRDT Hackathon in summer?
 * Next time
 ** Meeting with Charlie next week [2021-02-13 Sat 18:30-20:30]
 *** Exploration of Joe’s org-roam-based-workflow

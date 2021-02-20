@@ -222,23 +222,23 @@
 **** Gauging the place of the CLA within my research: was it useful or not?  Is that kind of method useful or not?
 ** PAR 30th January 2021                                                :15m:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Objective to get back to Emacs a little, having experimented with a somewhat more structured format
-- Cover Oxford application some more
-- CLA again
-- Collaborative annotations
+**** Objective to get back to Emacs a little, having experimented with a somewhat more structured format
+**** Cover Oxford application some more
+**** CLA again
+**** Collaborative annotations
 *** 2. Establish what is happening: what and how are we learning?
-- Smaller group this time
-- Fun time talking about demos & real applications as well 
-  - The fun of actualising method via practice
-- Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research
-  - Joe also benefited from this discussion
+**** Smaller group this time
+**** Fun time talking about demos & real applications as well
+- The fun of actualising method via practice
+**** Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research
+- Joe also benefited from this discussion
 *** 3. What are some different perspectives on what’s happening?
-- Joe: Enjoyed Noorah's thinking about PhD writing
-- Leo: Getting more comfy with using templates like PARs and CLAs
+**** Joe: Enjoyed Noorah's thinking about PhD writing
+**** Leo: Getting more comfy with using templates like PARs and CLAs
 *** 4. What did we learn or change?
-- Noorah mentioned interest in pattern templates
+**** Noorah mentioned interest in pattern templates
 *** 5. What else should we change going forward?
-- Joe to research Bookdown + Hypothes.is + Rstudio
-- Circulate early draft of HCI paper, Joe to read comedy and philosophy paper
-- Automation: Sacha is obsessed with automating things so we can do better work (e.g., Yasnippet)
-  - What could we achieve, in terms of tracking authorship, speed, etc.
+**** Joe to research Bookdown + Hypothes.is + Rstudio
+**** Circulate early draft of HCI paper, Joe to read comedy and philosophy paper
+**** Automation: Sacha is obsessed with automating things so we can do better work (e.g., Yasnippet)
+- What could we achieve, in terms of tracking authorship, speed, etc.

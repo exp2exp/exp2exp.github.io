@@ -151,8 +151,8 @@ PATTERN: Roadmap
 Pre-PAR + Post-PAR (which doesn’t sound as cool as prePARe, unfortunately)
 *** 1. Review the intention: what do we expect to learn or make together?
 **** We all met one another!
-**** Leo: ‘I’d set out to take good notesa from this meeting because it was something that I’d been expecting for a while, and I haven’t been disappointed by the quality of the exchanges we’ve been having’
-**** 2. Establish what is happening: what and how are we learning?
+**** Leo: ‘I’d set out to take good notes from this meeting because it was something that I’d been expecting for a while, and I haven’t been disappointed by the quality of the exchanges we’ve been having’
+*** 2. Establish what is happening: what and how are we learning?
 **** Last time, we had a special guest: Qiantan
 **** We’re continuing on the path of interdisciplinary learning
 **** We might have also convinced Qiantan of joining us with HyperReal!
@@ -160,21 +160,18 @@ Pre-PAR + Post-PAR (which doesn’t sound as cool as prePARe, unfortunately)
 *** 3. What are some different perspectives on what’s happening?
 **** Power dynamics (especially power to your house… Re: power-cut when taking those notes)
 *** 4. What did we learn or change?
-**** We talked about /hyper-notebooks/ in terms of the replicability/reproduceability of research
-**** Anthropology + Psychology is a special nightmare for reproduceability
+**** We talked about /hyper-notebooks/ in terms of the replicability/reproducibility of research
+**** Anthropology + Psychology is a special nightmare for reproducibility
 *** 5. What else should we change going forward?
-**** We’ve brainstormed a couple of options for /getting out there/
-- White-papers
-- Grants
-- Journal papers (very concrete)
+**** We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)
 **** Could there be a joint ERG/org-mode venture with the Peeragogy podcast?
-- Once Charlie is brought up to speed, he could have a discussion with Leo
-- Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)
-- This could get us working on patterns!
-- The patterns of maintenance
+**** Once Charlie is brought up to speed, he could have a discussion with Leo
+**** Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)
+**** This could get us working on patterns!
+**** The patterns of maintenance
 **** Charlie thinks it’d be interesting to dig further on the topic of AI as a peer, patterns, and Peeragogy
 **** Joe mentions that the Peeragogy Handbook only lists 9 patterns
-- Maybe the ERG could contribute further patterns?
+**** Maybe the ERG could contribute further patterns?
 ** Re: HyperReal
 *** Charlie is already on the HyperReal discord
 ** Points for later
