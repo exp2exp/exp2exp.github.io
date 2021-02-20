@@ -210,25 +210,25 @@ This is a good strategy for making a solid strategy in a short amount of time
 - Building on this input & his directorial vision!
 ** PAR
 *** 1. Review the intention: what do we expect to learn or make together?
-- We wanted to make a crdt test
+**** We wanted to make a crdt test
 *** 2. Establish what is happening: what and how are we learning?
-- crdt was almost a resounding success
-- Joe starting teaching soon
+**** crdt was almost a resounding success
+**** Joe starting teaching soon
 *** 3. What are some different perspectives on what’s happening?
-- Missing perspectives when Cameron and Ray left
-- post-New Years
-- Worried that people might be burning out on meetings (PAR for Hyperreal?)
-- Have had long meetings... but we can let it organically restrict itself
-- If you're coming last-minute with an agenda this can create fatigue
-- More fun to do this sort of stuff than the rules & structures of academia
+**** Missing perspectives when Cameron and Ray left
+**** post-New Years
+**** Worried that people might be burning out on meetings (PAR for Hyperreal?)
+**** Have had long meetings... but we can let it organically restrict itself
+**** If you're coming last-minute with an agenda this can create fatigue
+**** More fun to do this sort of stuff than the rules & structures of academia
 *** 4. What did we learn or change?
-- We want to have a clear sense of progress each week
-- Moving things from TODO to DONE would be nice
-- Looked at CLA stuff, have rough notes from Noorah and Joe
+**** We want to have a clear sense of progress each week
+**** Moving things from TODO to DONE would be nice
+**** Looked at CLA stuff, have rough notes from Noorah and Joe
 *** 5. What else should we change going forward?
-- Can we understand the relationships between these different groups & projects?
-- crdt.el more stable
-- Leo continuue work on FHI proposal & Joe consult on that
-- Further distill CLA into prose
-- Try to get agenda earlier, don't frustrate people!
-- Noorah and Joe to check-in!
+**** Can we understand the relationships between these different groups & projects?
+**** crdt.el more stable
+**** Leo continue work on FHI proposal & Joe consult on that
+**** Further distill CLA into prose
+**** Try to get agenda earlier, don't frustrate people!
+**** Noorah and Joe to check-in!
