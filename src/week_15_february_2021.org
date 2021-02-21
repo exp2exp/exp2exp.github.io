@@ -1,0 +1,56 @@
+#+title: Week 15 February 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-21 Sunday>
+#+AUTHOR: Joe Corneli
+
+* Weekly review
+
+/Just catching up a bit late this time!/
+
+I paired with Tyler on Firn and we got the start of a simple Special
+Block exporter working.  However, the [[https://github.com/theiceshelf/firn/pull/85][screenshot in the pull request]]
+suggests that it may need some more effort to really be nice.  Still,
+it’s a good start; clearly it gave me some more practice with Firn,
+and I also dusted off my git branch maintenance manoeuvres.  Various [[https://github.com/theiceshelf/firn/issues][issues]] I’ve added to the
+Firn issue tracker could provide starting points for further learning/improvement projects.
+Routinely doing a bit of work on Firn is great for keeping my Clojure skills from going stale!
+
+I also got on with reading some of the books related to “Survey
+Fundamentals” including a chapter from the book on /Sampling/ that Tim
+recommended.  The first part of student projects will be due on
+February 22nd, so the lecture for that day might give some previews of
+everything else to come in the semester.  We’re getting past the
+design and piloting stage and onto data collection and analysis: so,
+this part will be more quantitative.  I’m a little bit intimidated
+because my own background in stats is less thorough than that of the
+students, but I figure we can make it through together.  The class so
+far has had a decent level of peer learning in it.
+
+I did the necessary outreach to get a “research mentor” on the Brookes
+faculty, and sent a little introductory note.  It’s now time to follow
+up with some more concrete efforts.  Also related to research at
+Brookes, my colleagues in IEAI are happy to be involved on the project
+I’ll be pitching, and they asked some good questions about it that
+prompt some revision of the draft.
+
+Relatedly, we had a reasonably successful “2nd soft launch” event for
+the AI and Data Analysis Network (AIDAN), and I collected a few PostIt
+notes on that, summing up what people said they want from the network.
+AIDAN continues to seem like peeragogy in action, on some level,
+though since it’s within an institution the incentive structures are a
+bit different from those found “in the wild”.
+
+Minor business details: I unsubscribed from Miro (which I wasn’t using
+anymore); and Starling credited my account with a £1250 bonus for
+switching to them, so that’s cool, and got me wondering again about
+what we might be able to make out of the HEL business.
+
+* For the week ahead
+
+My personal Scrum board looks a lot like Space Invaders.  Aside from
+teaching obligations, the most immediately pressing items are to
+finalise the Intent to Submit form for my small grant proposal, and to
+finish preparing a talk about Serendipity that I’ll deliver on
+Thursday at 1400 GMT — I’ll also want to drop into some of the other
+activities during the week!
