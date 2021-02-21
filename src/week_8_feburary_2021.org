@@ -1,0 +1,42 @@
+#+title: Week 8 February 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-08 Tuesday>
+#+AUTHOR: Joe Corneli
+
+* Weekly review
+
+I did some preliminary Emacs tutoring with Luís and made minor
+adjustments to our Logseq + Org Roam installation, with (e.g.,
+=.dir-locals.el= set up so that the next time we use Org Roam it will
+“just work”; also Logseq changed their link format which required some
+updating in our draft notes).  I wonder if building in a “heads up”
+display for new Emacs users could be helpful!  I personally can’t
+remember all of the default bindings in Org Roam, and with Doom/Evil I
+am even more naive.
+
+Other achievements were task breakdowns for several of the workflows
+that I am involved with.  Some of these have relevant *deadlines* that
+should be added into my own (paper-based) heads-up display!
+
+I spent a little time on Sunday messing around with Firn, which seems
+to be part of several different critical paths.  Linking between
+subdirectories now works; I made a few bug reports that had been
+outstanding, and did QA for a clever patch that someone submitted that
+fixed links in headlines, and also added some examples to the docs.  I
+played around some with the CSS, getting something reasonable in order
+as a first step towards integrating special blocks in Tufte-style
+sidebars.  Next steps on the coding side are slated for Wednesday 10th
+February (lunch time Toronto!).
+
+At Brookes I was in touch with some of the research support staff who
+offered to set me up with a research mentor.  That’s now secured!  By
+mid-week I reached out to him to arrange an initial discussion.  I
+should also remember to drop a line to some of the informal contacts
+that I spotted when I was just looking around to see who could do some
+mentoring.
+
+Lastly, I did the initial technical edit on the first mix of our
+Discord chats about secular dharma.  That would need some further
+editing to be publishable.
+
