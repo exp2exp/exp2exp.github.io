@@ -24,6 +24,34 @@ But we might as well start now so that we don’t have to do it all at once!&lt;
       inlineMath: [ ['$','$'], ['\\(','\\)'] ],
       processEscapes: true
     }
+  });&lt;/script&gt;&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;&lt;script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"&gt;&lt;/script&gt;&lt;link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /&gt;&lt;/head&gt;&lt;body&gt;&lt;main&gt;&lt;article class="content"&gt;&lt;h1&gt;Week 8 February 2021&lt;/h1&gt;&lt;i&gt;2021-02-08 Tuesday — Joe Corneli&lt;/i&gt;&lt;div&gt;&lt;div&gt;&lt;section&gt;&lt;/section&gt;&lt;div class="firn-headline-section firn-headline-section-1"&gt;&lt;h1 class="firn-headline firn-headline-1" id="weekly-review"&gt;&lt;span class="firn-headline-text"&gt;&lt;span&gt;Weekly review&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;&lt;section&gt;&lt;p&gt;&lt;span&gt;I did some preliminary Emacs tutoring with Luís and made minor
+adjustments to our Logseq + Org Roam installation, with (e.g.,&lt;/span&gt;&lt;code&gt;.dir-locals.el&lt;/code&gt;&lt;span&gt; set up so that the next time we use Org Roam it will
+“just work”; also Logseq changed their link format which required some
+updating in our draft notes).  I wonder if building in a “heads up”
+display for new Emacs users could be helpful!  I personally can’t
+remember all of the default bindings in Org Roam, and with Doom/Evil I
+am even more naive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Other achievements were task breakdowns for several of the workflows
+that I am involved with.  Some of these have relevant &lt;/span&gt;&lt;strong&gt;&lt;span&gt;deadlines&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; that
+should be added into my own (paper-based) heads-up display!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;I spent a little time on Sunday messing around with Firn, which seems
+to be part of several different critical paths.  Linking between
+subdirectories now works; I made a few bug reports that had been
+outstanding, and did QA for a clever patch that someone submitted that
+fixed links in headlines, and also added some examples to the docs.  I
+played around some with the CSS, getting something reasonable in order
+as a first step towards integrating special blocks in Tufte-style
+sidebars.  Next steps on the coding side are slated for Wednesday 10th
+February (lunch time Toronto!).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;At Brookes I was in touch with some of the research support staff who
+offered to set me up with a research mentor.  That’s now secured!  By
+mid-week I reached out to him to arrange an initial discussion.  I
+should also remember to drop a line to some of the informal contacts
+that I spotted when I was just looking around to see who could do some
+mentoring.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Lastly, I did the initial technical edit on the first mix of our
+Discord chats about secular dharma.  That would need some further
+editing to be publishable.&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr /&gt;&lt;div class="back"&gt;&lt;p&gt;Back to blog: &lt;a href="https://exp2exp.github.io/updates.html"&gt;Exp2Exp: Updates&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/main&gt;&lt;/body&gt;&lt;/html&gt;</description><pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate><title>Week 8 February 2021</title><link>week_8_feburary_2021</link></item><item><description>&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8" /&gt;&lt;meta content="width=device-width, initial-scale=1.0" name="viewport" /&gt;&lt;script type="text/x-mathjax-config"&gt;MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      processEscapes: true
+    }
   });&lt;/script&gt;&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;&lt;script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"&gt;&lt;/script&gt;&lt;link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /&gt;&lt;/head&gt;&lt;body&gt;&lt;main&gt;&lt;article class="content"&gt;&lt;h1&gt;06 February 2021 — Emacs Research Group&lt;/h1&gt;&lt;i&gt;2021-02-06 Saturday — Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier with special guest Qiantan Hong&lt;/i&gt;&lt;div&gt;&lt;div&gt;&lt;section&gt;&lt;p&gt;&lt;span&gt;In this meeting we did a live demo and source code
 exploration of &lt;/span&gt;&lt;a class="firn-external" href="https://code.librehq.com/qhong/crdt.el" target="_blank"&gt;crdt.el&lt;/a&gt;&lt;span&gt; with the author, Qiantan Hong.
 In the last 15 minutes we outlined some plans for the next meeting, to
