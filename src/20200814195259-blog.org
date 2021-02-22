@@ -2,8 +2,7 @@
 #+roam_tags: OTS AN
 #+CATEGORY: BLOG
 
-This is a public window on our experiments, available at
-[[https://exp2exp.com][https://exp2exp.com]].
+This is a public window on our experiments, available at [[https://exp2exp.com][https://exp2exp.com]].
 
 Presently, we’re still figuring out what the work flow and contents of
 the blog will look like.  The kinds of people to whom we wish to
@@ -13,6 +12,12 @@ we put online should match what we think they will want to know.
 #+begin_quote
 Zans: /If I implemented as I read things, it would be a pretty interesting blog. There could be a huge market of people interested in following this, this would give a pool of people who know who we are. This is a nice goal b/c it doesn't focus on the product... but it's a deliverable, made up of smaller deliverables, and a concrete benefit./
 #+end_quote
+
+* Blog roll
+
+- [[https://weakty.com/chronolog][Weakty.com]] by T Sloane, the primary developer of Firn
+- [[https://lyderic.origenial.fr/][Lydéric's Digital Garden]]
+- [[https://doubleloop.net/][Double Loop.net]]
 
 * Related                                                          :noexport:
 :PROPERTIES:
