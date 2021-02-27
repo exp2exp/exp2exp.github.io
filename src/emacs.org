@@ -28,3 +28,16 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 - Top-down approach of method vs. the bottom-up approach of practice
 - https://hbr.org/2005/07/learning-in-the-thick-of-it
 - There’s a /link between method & practice/ that has to do with actualising what we’re doing
+
+- RServer allows collaborative writing and editing, but is expensive ($5000 for 5 users). Compare also RStudio Cloud. For people who use R as their main language, they use this.
+- We could schedule a person specialised on R-Studio to come present us the piece of software (à la Google Doc presentation)
+- Learn from parallel projects; Mark had video introducing people to Spacemacs
+
+- CLA is useful as a reflective tool but there are others as well!
+- Requires a larger community of contributors for it to work.
+- How do we differentiate authorship in those notes?
+- Expectations might not be met, but we are practicing the things that we’ve learnt; it’s what makes it systematic (the machine that builds itself again).
+
+- *Now* (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work? — But do we care about this in our workflow?  We could keep track of who created what with properties: do we want/need to persist these things? All the CRDT logs to file?
+- Saving the buffer with the text properties could do it.
+- What problem are we trying to solve? 

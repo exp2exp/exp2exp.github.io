@@ -229,30 +229,30 @@ What do we do to push it to the next level?
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- LV: I wanted to meet Mark and introduce you to the ERG team
-- RSP: We wanted to find out ways to interact across groups
- - Mark: yes this was big
- - And wanting to know what we do and what’s going on
+**** LV: I wanted to meet Mark and introduce you to the ERG team
+**** RSP: We wanted to find out ways to interact across groups
+**** Mark: yes this was big
+**** And wanting to know what we do and what’s going on
 *** 2. Establish what is happening: what and how are we learning?
-- Leo had drafted email but didn’t send so contact was slightly delayed
-- Mark feels there’s a lot of interesting topics that we can look at in future meetings
+**** Leo had drafted email but didn’t send so contact was slightly delayed
+**** Mark feels there’s a lot of interesting topics that we can look at in future meetings
 *** 3. What are some different perspectives on what’s happening?
-- Mark’s interest is piqued on many of the topics we’ve approached today
-- Joe: appreciate Mark jumping in, cautions that he doesn’t have to join a mind-meld
-- Mark has 2 young children so this constrains his time, but can’t promise to be frequent
+**** Mark’s interest is piqued on many of the topics we’ve approached today
+**** Joe: appreciate Mark jumping in, cautions that he doesn’t have to join a mind-meld
+**** Mark has 2 young children so this constrains his time, but can’t promise to be frequent
 *** 4. What did we learn or change?
-- Re: Moderation
-  - LV: We might want to revise the interview format; did Mark talk enough?
-    - JC: It was good enough, especially since Mark might not be able to join us next week
+**** Re: Moderation
+**** LV: We might want to revise the interview format; did Mark talk enough?
+**** JC: It was good enough, especially since Mark might not be able to join us next week
 *** 5. What else should we change going forward?
-- Hope to have Mark along to future events!
-- Maybe we need an all-weekend-all-timezone format for drop-in sessions
-- Emacs Paris meetup is next week too! — This is a big plan to have a Vimmer along, loosely talking about Vim
- - LV: Supposed to come up with the plan
- - This could be a good opportunity for Joe to sign in and get some French immersion
-- Is there a bulletin board with all the things on one calendar?
- - Sacha & Leo have been working on this... on the wiki 
- - Joe: should be a package!
+**** Hope to have Mark along to future events!
+**** Maybe we need an all-weekend-all-timezone format for drop-in sessions
+**** Emacs Paris meetup is next week too! — This is a big plan to have a Vimmer along, loosely talking about Vim
+**** LV: Supposed to come up with the plan
+**** This could be a good opportunity for Joe to sign in and get some French immersion
+**** Is there a bulletin board with all the things on one calendar?
+**** Sacha & Leo have been working on this... on the wiki 
+**** Joe: should be a package!
 
 ** COMMENT CLA review
 :PROPERTIES:
@@ -345,30 +345,30 @@ What do we do to push it to the next level?
   - JC: At the same time, this is preventing us (ERG) to get up to speed
 - Maybe a ‘focus group’ could be worthwhile rather than just mining their records
  - If there was a more central focus group that we’d run that we could point people to...?
- 
+
 
 * PAR                                                                   :10m:
 :PROPERTIES:
 :Effort:   0:08
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Double down on PAR method today
-- Feedback from Mark on the Kickstarter ideas
+**** Double down on PAR method today
+**** Feedback from Mark on the Kickstarter ideas
 *** 2. Establish what is happening: what and how are we learning?
-- We already did a podcast action review
-- Ray needs to get going before the PAR
-  - He already had to go before the PAR during a previous session; maybe move it to a different time?
-  - We could explore PrePAR and après-PAR
+**** We already did a podcast action review
+**** Ray needs to get going before the PAR
+**** He already had to go before the PAR during a previous session; maybe move it to a different time?
+**** We could explore PrePAR and après-PAR
 *** 3. What are some different perspectives on what’s happening?
-- Mark is impressed with the organisational aspects of these meetings
-  - LV: I take it as very high praise
-- JC: Very interested in doing more peer-programming for solving Emacs/Elisp problems, and would like to move towards that direction
-  - It could be streamed on Twitch, this might be of interesting to some M-x Research folks
-    - Some of them haven’t had the easiest time with this
-  - Re: Jazz Night / Hackathon: Might be something worth developing
+**** Mark is impressed with the organisational aspects of these meetings
+**** LV: I take it as very high praise
+**** JC: Very interested in doing more peer-programming for solving Emacs/Elisp problems, and would like to move towards that direction
+**** It could be streamed on Twitch, this might be of interesting to some M-x Research folks
+**** Some of them haven’t had the easiest time with this
+**** Re: Jazz Night / Hackathon: Might be something worth developing
 *** 4. What did we learn or change?
-- We’ve gotten to know Mark a bit!
-- We’ve been able to close the open folder about should we have public meetings about how to do research with Emacs?
+**** We’ve gotten to know Mark a bit!
+**** We’ve been able to close the open folder about should we have public meetings about how to do research with Emacs?
 *** 5. What else should we change going forward?
-- Leo planning to attend M-x Research in late March — the specific day might change though
-- To discuss coding & jazz sessions in week sessions!
+**** Leo planning to attend M-x Research in late March — the specific day might change though
+**** To discuss coding & jazz sessions in week sessions!

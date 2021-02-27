@@ -19,6 +19,7 @@
 # erg-06-02-2021.org 9
 # erg-13-02-2021.org 10
 # erg-20-02-2021.org 11
+# erg-27-02-2021.org 12
 
 This refines the previous [[file:cla-20-february-2021.org][CLA 16 January 2021]], which covered Episodes 1-6.
 Perhaps we should delay ‘finalising’ this for a couple more weeks, so that we can also have 6 episodes to look back on.
@@ -30,10 +31,8 @@ But we might as well start now so that we don’t have to do it all at once!
 
 ** Understanding data, headlines, empirical world (short term change) :data:
 #+begin_quote
-- We’ve made progress since we started with the raw /themes of Emacs and Research/ 
-- Add a couple more demos for the next quarter, following up on our existing work.
-- Decide on a few tangible activities/deliverables — but this can also take an ‘agile’ approach.
-- Celebrate what we have done! — “If we knew what the outcome was it wouldn’t be research”. Have a role for serendipity
+- We’ve made progress since we started with the raw themes of “Research on/in/with Emacs”.
+- We’ve had interesting and varied guests, and some developing plans for the quarter ahead.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
 ***** [[file:erg-02-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
@@ -41,23 +40,19 @@ But we might as well start now so that we don’t have to do it all at once!
 ***** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
 ***** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
-***** [[file:erg-23-01-2021.org::*crdt was almost a resounding success][crdt was almost a resounding success]] :ep7:
-***** [[file:erg-23-01-2021.org::*Moving things from TODO to DONE would be nice][Moving things from TODO to DONE would be nice]] :ep7:
-***** [[file:erg-30-01-2021.org::*Joe to research Bookdown + Hypothes.is + Rstudio][Joe to research Bookdown + Hypothes.is + Rstudio]] :ep8:
+***** [[file:erg-23-01-2021.org::*crdt was almost a resounding success][crdt was almost a resounding success]]                             :ep7:
+***** [[file:erg-23-01-2021.org::*Moving things from TODO to DONE would be nice][Moving things from TODO to DONE would be nice]]                    :ep7:
+***** [[file:erg-30-01-2021.org::*Joe to research Bookdown + Hypothes.is + Rstudio][Joe to research Bookdown + Hypothes.is + Rstudio]]                 :ep8:
 ***** [[file:erg-30-01-2021.org::*Circulate early draft of HCI paper, Joe to read comedy and philosophy paper][Circulate early draft of HCI paper, Joe to read comedy and philosophy paper]] :ep8:
-***** [[file:erg-06-02-2021.org::*Leo to liaise UX, dev stuff][Leo to liaise UX, dev stuff]] :ep9:
+***** [[file:erg-06-02-2021.org::*Leo to liaise UX, dev stuff][Leo to liaise UX, dev stuff]]                                      :ep9:
 ***** [[file:erg-13-02-2021.org::*We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)][We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)]] :ep10:
+***** [[file:erg-27-02-2021.org::*Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee][Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee]] :ep12:
+***** [[file:erg-27-02-2021.org::*JC: It was good enough, especially since Mark might not be able to join us next week][JC: It was good enough, especially since Mark might not be able to join us next week]] :ep12:
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
-- Requires a larger community of contributors for it to work.
-- How do we differentiate authorship in those notes?
-- Our work needs to be public first before we can embark on this project.
-- We’ve got a workflow with careful review and diagnosis of issues when expectations aren’t met
-- CLA is useful as a reflective tool but there are others as well!
-- Looking at RStudio as a model of the kinds of things we want to do. RServer allows collaborative writing and editing, but is expensive ($5000 for 5 users). Compare also RStudio Cloud. For people who use R as their main language, they use this.
-  - We could schedule a person specialised on R-Studio to come present us the piece of software (à la Google Doc presentation)
-  - Learn from parallel projects; Mark had video introducing people to Spacemacs
-- Expectations might not be met, but we are practicing the things that we’ve learnt; it’s what makes it systematic (the machine that builds itself again).
+- We’ve got a workflow with careful review and diagnosis of issues when expectations aren’t met.
+- Our work needs to be public first before we can embark on this project; we can mesh with ongoing related activities elsewhere.
+- Looking at RStudio as a model of (some of) the kinds of things we want to do.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
 ***** [[file:erg-02-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
@@ -77,44 +72,46 @@ But we might as well start now so that we don’t have to do it all at once!
 ***** [[file:erg-23-01-2021.org::*If you're coming last-minute with an agenda this can create fatigue][If you're coming last-minute with an agenda this can create fatigue]] :ep7:
 ***** [[file:erg-13-02-2021.org::*We’re continuing on the path of interdisciplinary learning][We’re continuing on the path of interdisciplinary learning]]      :ep10:
 ***** [[file:erg-13-02-2021.org::*Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)][Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)]] :ep10:
+***** [[file:erg-20-02-2021.org::*Build some Elisp sessions for ourselves in future!][Build some Elisp sessions for ourselves in future!]]              :ep11:
+***** [[file:erg-27-02-2021.org::*Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!][Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!]] :ep12:
 ** Worldview, ways of knowing and alternative discourse          :worldview:
 #+begin_quote
-- ‘Practice’ and ‘method’ keep coming up (respectively, more bottom up and more top down ways of actualising what we’re doing)
-- If we tackle big enough projects, it will typically bring with it the need for collaboration
-- *Now* (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work? — But do we care about this in our workflow?  We could keep track of who created what with properties: do we want/need to persist these things? All the CRDT logs to file?
-- Saving the buffer with the text properties could do it.
-- What problem are we trying to solve? Instead of having a shared Org Roam directory, having ways of managing sharing of notes.  When and where do we really need this?
+- ‘Practice’ and ‘method’ keep coming up (respectively, more bottom up and more top down ways of actualising what we’re doing). E.g., one /method/ would be: instead of having a shared Org Roam directory, having ways of managing sharing of notes across ‘graphs’.
+- If we tackle big enough projects, it will bring with it the need for collaboration.
+- While like do tangible deliverables (e.g., journal articles), “If we knew what the outcome was it wouldn’t be research” — and we want to keep a role for serendipity in our work.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
-***** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]]                 :ep1:
-***** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]]                                       :ep3:
-***** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]]                       :ep4:
-***** [[file:erg-02-01-2021.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]]                                   :ep4:
+***** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+***** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
+***** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
+***** [[file:erg-02-01-2021.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep4:
 ***** [[file:erg-09-01-2021.org::*About these PARS... the method of ongoing review still needs improvement][About these PARS... the method of ongoing review still needs improvement]] :ep5:
 ***** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep5:
 ***** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
 
-**** Supporting data from CLA 2                                         :TBA:
+**** Supporting data from CLA 2                                        :TBA:
 ***** [[file:erg-23-01-2021.org::*More fun to do this sort of stuff than the rules & structures of academia][More fun to do this sort of stuff than the rules & structures of academia]] :ep7:
-***** [[file:erg-30-01-2021.org::*Cover Oxford application some more][Cover Oxford application some more]] :ep8:
-***** [[file:erg-30-01-2021.org::*Collaborative annotations][Collaborative annotations]] :ep8:
+***** [[file:erg-30-01-2021.org::*Cover Oxford application some more][Cover Oxford application some more]]                               :ep8:
+***** [[file:erg-30-01-2021.org::*Collaborative annotations][Collaborative annotations]]                                        :ep8:
 ***** [[file:erg-30-01-2021.org::*Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research][Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research]] :ep8:
 ***** [[file:erg-06-02-2021.org::*This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do][This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do]] :ep9:
-***** [[file:erg-06-02-2021.org::*Qiantan doesn’t use org mode... it generates section][Qiantan doesn’t use org mode... it generates section]] :ep9:
+***** [[file:erg-06-02-2021.org::*Qiantan doesn’t use org mode... it generates section][Qiantan doesn’t use org mode... it generates section]]             :ep9:
 ***** [[file:erg-13-02-2021.org::*Anthropology + Psychology is a special nightmare for reproducibility][Anthropology + Psychology is a special nightmare for reproducibility]] :ep10:
-***** [[file:erg-13-02-2021.org::*Maybe the ERG could contribute further patterns?][Maybe the ERG could contribute further patterns?]] :ep10:
+***** [[file:erg-13-02-2021.org::*Maybe the ERG could contribute further patterns?][Maybe the ERG could contribute further patterns?]]                :ep10:
+***** [[file:erg-20-02-2021.org::*It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things /contextually/][It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things contextually]] :ep11:
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 #+begin_quote
-- What gives an objective character to what we’re doing?
-- Conferences and journal articles are nice — but what’s the actual point? What /big problem/ are we solving?
+- What gives an objective character to what we’re doing?  Or, rather: what is it that allows us to synthesise new relationships?
+- What big or ‘existential’ problem are we solving...?
 #+end_quote
-**** Supporting data from CLA 1                                    :noexport:
+**** Supporting data from CLA 1                                   :noexport:
 ***** [[file:erg-02-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
 ***** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep5:
 ***** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
 ***** [[file:erg-16-01-2021.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep6:
-***** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]]                           :ep6:
+***** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
 ***** [[file:erg-30-01-2021.org::*Noorah mentioned interest in pattern templates][Noorah mentioned interest in pattern templates]]                   :ep8:
 ***** [[file:erg-06-02-2021.org::*We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)][We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)]] :ep9:
 ***** [[file:erg-06-02-2021.org::*Prepare for CRDT Hackathon in summer?][Prepare for CRDT Hackathon in summer?]]                            :ep9:
+***** [[file:erg-20-02-2021.org::*Joe: can report back on practical details of serendipity next week!][Joe: can report back on practical details of serendipity next week!]] :ep11:
