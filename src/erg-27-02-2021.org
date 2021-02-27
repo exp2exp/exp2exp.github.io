@@ -1,0 +1,67 @@
+#+TITLE: 27 February 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-02-27 Saturday>
+
+* 27 February 2021 — Emacs Research Group
+
+* Check-ins                                                              :10m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+** Noorah
+** Joe
+** Raymond
+** Cameron
+** David
+** Leo
+
+* Things to keep in mind
+
+** Points can be added to PARs mid-session, no need to wait for the end
+
+* Agenda                                                               :100m:
+
+** Interview with Mark Dawson from ~M-x Research~
+:PROPERTIES:
+:Effort:   0:45
+:END:
+
+** Post-interview PAR
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** CLA review
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+*** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
+
+** Crowdfunding sitrep                                                  :lv:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+
+*** SitRep
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+*** Discussion
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+* PAR                                                                   :10m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
