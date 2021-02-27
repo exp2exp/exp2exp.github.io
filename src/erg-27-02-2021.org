@@ -6,62 +6,369 @@
 #+DATE_CREATED: <2021-02-27 Saturday>
 
 * 27 February 2021 — Emacs Research Group
+* Pre-meeting with Mark Dawson
+** Elevator speech for ERG
+*** Questions
+**** Are we more of a UG or a research-focussed group?
+***** The latter
+**** What are the foci currently?
+***** Note-taking
+***** Collaborative working
+** Elevator speech for M-x Research
+*** Links with SWE
+*** Primarly a UG: rather than research /on/ Emacs, research /in/ Emacs
+**** Reminiscent of the early name for ERG: ‘Research in/on/with Emacs’
+*** The group dates back to 2018, and face-to-face meetings started a little before the pandemic
+**** A blessing in disguise, since it allowed Mark to form an international group, since he didn’t have people with related interest within his institution
+***** Since everyone was getting onto Zoom, it felt like a 
+*** Reasonably well attended, still growing
+**** How many people?
+***** On the channel, there’s about 53-54 people on the channel
+****** Could you specify ‘channel’?
+***** 10-20 live; recently <10; but peaked at 23 last time with the guest
+*** More geared towards support, with a focus on researchers in SWE
+**** Because they came out of the SWE aspect, they had less focus on the research, since research in SWE are mostly on the /support/ of research
+**** The web is a great platform for that
+*** Cross-contamination is a great place to be, but Mark would like involving more people
+**** Mark has recently started inviting people along
+***** David from SystemCrafters came along as the first guest, giving a talk about using EXWM in the context of research (or what they’d be itnerested int)
+***** Considered guests
+****** John Kitchin
+****** LV
+*** Emacs is a big part of research for Mark
+*** Format of the meetings
+**** Every two weeks
 
 * Check-ins                                                              :10m:
 :PROPERTIES:
 :Effort:   0:05
 :END:
 ** Noorah
+- Not able to make it today, busy with her dissertation
 ** Joe
+- Feeling really good
+- Finished his presentation on serendipity at the Serendipity Society
+- Finishing up the internal process of grant marking
+- Ethics & HCI
 ** Raymond
-** Cameron
-** David
+- No major news
+** Cameron, David
+- ?
 ** Leo
+- Exhausting week of back-to-back weeks, nearing end of FR contract, liaised with Bastien, finishing up
+- Thinking about crowdfunding project, liaised w/ Jethro Kuan about that
+- Took some daily walks
+** Mark
+- Likes this checkin format
+- Feeling great
+- Hesitant to say much about the week b/c it will seem odd, but this week started a new job not in a research capacity
+- Until last week was leading research software engineering group in supercomputing (in Wales); now moved into industry
+- Still leading the M-x Research group despite not being paid to do this...
+- Starting a new role working in Clojure is interesting! — fun to spend time with it
 
 * Things to keep in mind
 
+** Independent research welcome!
 ** Points can be added to PARs mid-session, no need to wait for the end
 
 * Agenda                                                               :100m:
+:PROPERTIES:
+:COLUMNS:  %ITEM %Effort(Effort){:}
+:END:
+
+** Effort estimates
+- Needs debugging
 
 ** Interview with Mark Dawson from ~M-x Research~
 :PROPERTIES:
-:Effort:   0:45
+:Effort:   1:00
 :END:
 
-** Post-interview PAR
-:PROPERTIES:
-:Effort:   0:15
-:END:
+*** Who is Mark?
+- Software engineering background
+- Moved into a PhD programme, ended up after PhD ended up leading a new research software engineering group
+- Used Emacs extensively
+- Wanted to talk with people about the extensive Emacs ecosystem
+- Hard/impossible to set up the community locally, but interested from 2018 in doing this in a broader context
+- On UKRSE slack (research software engineering) formed #emacs and there was interest from enthusiasts in chatting
+- In 2020 this developed some momentum & started meetups as per original wish
 
-** CLA review
-:PROPERTIES:
-:Effort:   0:20
-:END:
+*** What is M-x research?
+- Research ={:yes {with in} :no {for about}}= Emacs
+- Fortnightly meetings, since early 2020 — w/ decent number of attendees, typically 10-20, though recently less (6-7)
+- Maybe it’s due to time of the year or what
+- Format is usually ='(topic demo discussion)=.
+- Typically operational & applied things
+- To finish this off we discuss things like productivity, how to use Emacs, try to share workflows, programming, tools
+ - E.g., LSP tools, packages, sometimes around an idea
+ - Typically Mark chooses the topic or takes ideas form the community
+ - Maybe we should cooperate around guest speakers — only had one so far, we have various potential candidates
+- People in the boundary between Emacs & research that attendees would like to hear about
+- In future would be nice to have face-to-face meetings
+- We’re primarily community driven, forming a community of people doing similar things, working so that people don’t feel out of depth
+- Can help start people off
+- Thursday afternoons at 3PM UTC, likely to change soon
+ - 1st and 3rd of each month
+- In new role there will be a need to find a new time
+- Next meeting is on the 4th on 3PM (but without Mark)
+- This next one is about ‘Emacs Pinkie’ issues and how to avoid it
+- One of our regulars has gone to extremes
+- In NYC people will bring keyboards and discuss them
+- Worth sharing it with NYC people
 
-*** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
+*** Next topic: Keyboards
+- This is a natural extension of customizing
+- Picture of 19th
+- Mark came from Vim background and entered via Spacemacs & Doom
+- Now uses Emacs w/o Evil mode
+- You need to think more carefully about how you’re doing your input
 
-** Crowdfunding sitrep                                                  :lv:
-:PROPERTIES:
-:EFFORT:   0:20
-:END:
+*** Scheduling
+**** Proposed weekend schedule for Jazz Nights
+#+begin_src
+Sat 27 Feb 19:00:00 GMT 2021—Sat 27 Feb 00:00:00 GMT 2021 (London)
+Fri 26 Feb 19:00:00 EST 2021—Sat 27 Feb 00:00:00 EST 2021 (New York)
+Fri 26 Feb 19:00:00 HST 2021—Sat 27 Feb 00:00:00 HST 2021 (Honolulu)
+Sun 28 Feb 19:00:00 JST 2021—Mon 1 Mar 00:00:00 JST 2021 (Tokyo)
+Mon 1 Mar 19:00:00 +04 2021—Mon 1 Mar 00:00:00 +04 2021 (Samara)
+#+end_src
 
-*** SitRep
-:PROPERTIES:
-:Effort:   0:05
-:END:
+**** Other topics
+- Less formal, more formal
+- Even though distance isn’t an issue, time in the form of time-zones still is
+- We could in principle organize the meetups to take place one after each other
+- Related topics/streaming
 
-*** Discussion
-:PROPERTIES:
-:Effort:   0:15
-:END:
+**** Need satisfied by M-x research
+- Value of people being there in a physical sense
+- People really there, not half-being-there
+- More of this could be happening
+- How to keep these things coordinated?  
+- E.g., ERG started as a follow-up to Emacs Conf
+ - Typical problem: excitement at the conference but people don’t keep in touch until the next conference, limiting impact
+- An event isn’t the same as building a community
+- Beginners may have had difficulty doing things, may have been intimidated about asking for help on IRC
+ - They get value from having ‘friendly faces’ and they feel safe to be ignorant (at first)
 
-* PAR                                                                   :10m:
+*** Operational dimensions of this
+**** Initial thoughts
+- E.g., thinking about us wanting to have a group where we could keep talking
+- Now thinking more about inputs, processes, & outputs
+- It’d be nice to attend the sessions of the M-x (user/research) group
+- If we start moving on to Mark & where we could go w/ ERG?
+- Is there anything you’d like to get involved with regarding project overlaps?
+- Mark can’t answer for the other folks but maybe there could be some interest in someone coming along to one of our meetups
+  - “These are the things we are interested in — is that something anyone wants to get involved with or share ideas with?”
+  - This could be positive!
+- Joe wonders what it’d be like to dilute M-x Research and ERG to a Lisp/FP context rather than just Emacs?
+  - Mark mentions that this is a recurrent tension in the M-x meetings
+    - Haskell is pretty popular, so is Clojure presumably
+- Mark has resisted this urge b/c it would muddy the waters
+- The people who are interested in one thing might be interested in other interesting things!
+**** Transdisciplinary focus in ERG
+- Lispy languages &c — most of us in ERG have faced when we try to circumscribe
+  - Org Roam, Org Mode, Emacs, ...?
+  - Not wanting to trap into a cell; there’s some organicity, and you don’t have to label yourself (despite naming the group!)
+- ‘Same people with different labels, working with different hats’
+- Different labels w/ different parts
+- There’s some play in this discussion — we’ve enjoyed seeing this in Org Roam and it’s nonlinear features
+- Yesterday e.g. we were discussing NLP, AI, linguistics and an algorithm that generates images based on a sample of text
+  - LV: As a linguist I could get a whole lot out of this
+- And this is part of the point of research: if you knew the answer it wouldn’t be research
+- And by roaming the fields of our minds we end up with a lot of potential for ideas/innovation/serendipity
+**** Mark’s uninterrupted take
+- Mark’s enthusiasm for M-x Research is obvious and contagious
+- To be honest, it’s a difficult transition. M-x Research is representative of where the group started
+- I don’t see the group and me being the same thing
+- It’s a group of a certain size — there are 53 people in the channel! 
+- This underlines why we haven’t broadened in the direction of all the different threads, hypothetical aspects
+- This would be my personal interest, /but/ I have to also think with these people’s hat on. Some of them are so deep into FP that the broader topics would be interesting... but the group has been focused on a more practical+grounded way of thinking
+- Maybe we could bleed into some more blue sky thinking! Forward thinking! Creativity — lots of people would be interested in that
+- The other thing we’ve touched on that could be an obvious point of cooperation — forming a group where guests could be invited to, helping each other out in terms of a nice environment for guests
+- People want to have a good attendance and good response
+- RSP: There’s still a good amount of overlap, w/ the pragmatic stuff, e.g., the discussion with Qiantan was a very practical discussion about how a certain piece of software works
+- FP has come up again and again — there are too many people in the group that aren’t in that bubble yet for us to make this the impetus!
+- Has been interested in having a secondary group talking about FP (splitter!)
+- The ‘common interests’ are not as broad as the ones on your end (HEL) — this is both an advantage and a limitation
+**** Which type of collaboration could we have?
+#+begin_quote
+What do we do to push it to the next level?
+#+end_quote
+
+- Have ERG and M-x Research be two sides of the same coin?
+- Further follow-up on how to continue this discussion!
+ - Would you personally like to come along to our meetings or should our next step be coming to M-x Research?
+ - Mark happy with both?
+- Good to have the different groups know where to go between these things
+- These pressing questions (next-steps, next-level)? I don’t even know if the next level is a good idea!
+- Don’t want to lose our identity (growth vs. loss of identity; maybe related to the dilution of the subject matter, e.g. moving from Emacs to Lispy languages)
+- RSP: This is why I tend to think of a more federated approach, there’s probably a more optimum size
+ - But then set up at the next level ways in which groups/individuals can interact
+ - By writing some descriptions we could come up with two distinct identities
+ - Here’s a series of events for getting hands dirty, here’s some for progressive thinking 
+
+*** Leo’s hope
+- Concrete things
+- Can go to the next session of M-x Research?
+- Do we want to think about potential paths?
+- RSP: If we went next Thursday, would it be appropriate to do some converse of what we did today?
+  - We could do that... but we might not do it justice
+  - This could be the focus of a meet-up (e.g., 18th March?)  
+  - Maybe something that crosses this boundary — ‘community building in {europe, free software, ?}’
+  - This would give more breathing space for a more meaty discussion
+- Maybe ERG could join the Slack?
+ - This is part of a different community and gives hurdles to joining (via UK RSE)
+- Potential action: Mark to move it beyond that space so others have an easier time joining
+- Maybe at March 4th we can propose a future agenda item for brainstorming what the topic that ERG can discuss is!
+*** Attending the next session of M-x Research on [2021-03-04 Thu]
+- LV: Can’t make it (Emacs Paris workshop in parallel)
+- RSP: Needs the joining info (Mark will get in touch with LV)
+
+** Post-interview PAR (/Podcast/ Action Review)
 :PROPERTIES:
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
+- LV: I wanted to meet Mark and introduce you to the ERG team
+- RSP: We wanted to find out ways to interact across groups
+ - Mark: yes this was big
+ - And wanting to know what we do and what’s going on
 *** 2. Establish what is happening: what and how are we learning?
+- Leo had drafted email but didn’t send so contact was slightly delayed
+- Mark feels there’s a lot of interesting topics that we can look at in future meetings
 *** 3. What are some different perspectives on what’s happening?
+- Mark’s interest is piqued on many of the topics we’ve approached today
+- Joe: appreciate Mark jumping in, cautions that he doesn’t have to join a mind-meld
+- Mark has 2 young children so this constrains his time, but can’t promise to be frequent
 *** 4. What did we learn or change?
+- Re: Moderation
+  - LV: We might want to revise the interview format; did Mark talk enough?
+    - JC: It was good enough, especially since Mark might not be able to join us next week
 *** 5. What else should we change going forward?
+- Hope to have Mark along to future events!
+- Maybe we need an all-weekend-all-timezone format for drop-in sessions
+- Emacs Paris meetup is next week too! — This is a big plan to have a Vimmer along, loosely talking about Vim
+ - LV: Supposed to come up with the plan
+ - This could be a good opportunity for Joe to sign in and get some French immersion
+- Is there a bulletin board with all the things on one calendar?
+ - Sacha & Leo have been working on this... on the wiki 
+ - Joe: should be a package!
+
+** COMMENT CLA review
+:PROPERTIES:
+:Effort:   0:00
+:END:
+
+- The discussion was postponed to give more time to the discussion with Mark
+
+*** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
+
+** Joe on his paper on HCI ethics
+:PROPERTIES:
+:Effort:   0:05
+:END:
+(Joe has notes in another org file for the paper.)
+
+- HCCC: Human-Computer Co-Creativity
+- Knowledge explosion
+- HCC vs. HCI?
+- Technologies of social transformation: guillotine, steam engine
+- ‘Philosophy of the Enlightenment is equally out of date’
+
+*** Outline of the main sections of the paper
+- 1.0 Philosophical foundation for a contemporary ethical practice
+- 2.0 Embodied cognition, social intelligence, collective intelligence
+- 3.0 Reprise: Evolution regarding all of these
+- 4.0 Narratives, genres, and disciplines: How do we talk about HCI ethics?
+
+** Crowdfunding sitrep                                                  :lv:
+:PROPERTIES:
+:EFFORT:   0:15
+:END:
+
+*** Intro
+- Leo thinking about the future
+- Nothing set in stone
+- Thinking about: financing Org Roam with milestones
+ - But Org Roam is interesting but a bit shaky/narrow
+ - So thinking about ‘diluting’ to something wider
+ - Something that would be interesting would be mediating between packages not in core & those in melpa
+ - This is generally a political question... E.g., syntax libraries, string-parsing libraries
+- LV: Someone with experience with melpa packages, and org mode maintainers
+ - Can be a missing link
+ - Motivation sharp around merging things into core (a lot of people who develop packages can’t be bothered; there can be some posturing & ‘dumb refactoring’ involved)
+- So, what about stepping into this role, and surveying the field to look at what’s worthwhile?
+- Looking towards coherency between packages, e.g., /what if... Org Roam could play better with Org Agenda?/
+ - Mark: I have played briefly with it and would like to use it more!
+  - You have to schedule time for learning things!
+- #orgroamcult 
+
+*** Situational Report (SitRep)
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- LV: Has been talking with Jethro this morning
+- First touch-base in a month
+- Jethro calm and able to think about Org Roam but doesn’t have as much time
+- He was completely on board with the Kickstarter project though can’t join the project now
+- Would be happy to keep working on Org Roam
+- Regarding the finances €17K→€20K (Kickstarter takes a margin)
+- (€40 if we increased it to a one-year stint)
+- Next week to meet with Tarsius (developer of Magit) to probe his mind
+ - He got $88K for Magit development
+- Also will plan to talk with Sacha to get her input
+- Aiming for 15th of March ‘to get started’, but need to finish things up
+- Thinking about the nature of the job based on Ray’s input, and the ‘end user’
+- Need to be exploiting my ability communicate about what I’m doing with Emacs
+ - Exchanges like this discussion now could be shared
+ - So 50% development+politicking (Bastien can help) + 50% community (have been training)
+
+*** Discussion
+:PROPERTIES:
+:Effort:   0:20
+:END:
+- RSP: may have feedback in some afternoon
+- 15th of March is probably unobtainable...
+- Mark: this is interesting — the community is diverse
+- You want to be appealing to a broad cross-section of community, not everyone who uses Emacs is as well-versed as ‘we might be’ (?)
+- There are lots of people in the community who might not immediately be aware of the benefits something like this might give!
+  - So whatever you do needs to be very clear to people who are more peripherally involved
+  - People who use it as a day-to-day text editor
+  - We might be able to distil milestone-based stuff
+  - Also good to have vlogs to keep people in the loop
+- Look through M-x Research archives to see what a more representative set of people talk about?
+  - Might help us prod what people are talking about (to gauge interest for some features)
+- Mark: We have some records that are somewhat in this vein; we recorded the sessions
+- The record
+- Mark was hesitant on sharing recordings or logs as to create friction with some people
+  - JC: At the same time, this is preventing us (ERG) to get up to speed
+- Maybe a ‘focus group’ could be worthwhile rather than just mining their records
+ - If there was a more central focus group that we’d run that we could point people to...?
+ 
+
+* PAR                                                                   :10m:
+:PROPERTIES:
+:Effort:   0:08
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Double down on PAR method today
+- Feedback from Mark on the Kickstarter ideas
+*** 2. Establish what is happening: what and how are we learning?
+- We already did a podcast action review
+- Ray needs to get going before the PAR
+  - He already had to go before the PAR during a previous session; maybe move it to a different time?
+  - We could explore PrePAR and après-PAR
+*** 3. What are some different perspectives on what’s happening?
+- Mark is impressed with the organisational aspects of these meetings
+  - LV: I take it as very high praise
+- JC: Very interested in doing more peer-programming for solving Emacs/Elisp problems, and would like to move towards that direction
+  - It could be streamed on Twitch, this might be of interesting to some M-x Research folks
+    - Some of them haven’t had the easiest time with this
+  - Re: Jazz Night / Hackathon: Might be something worth developing
+*** 4. What did we learn or change?
+- We’ve gotten to know Mark a bit!
+- We’ve been able to close the open folder about should we have public meetings about how to do research with Emacs?
+*** 5. What else should we change going forward?
+- Leo planning to attend M-x Research in late March — the specific day might change though
+- To discuss coding & jazz sessions in week sessions!
