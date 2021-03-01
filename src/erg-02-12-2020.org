@@ -2,7 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
-#+FIRN_LAYOUT: update
+#+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2020-02-12 Wednesday>
 
 * 2 December 2020, 17:00-18:10 UTC meeting

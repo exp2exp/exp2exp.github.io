@@ -41,3 +41,5 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 - *Now* (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work? — But do we care about this in our workflow?  We could keep track of who created what with properties: do we want/need to persist these things? All the CRDT logs to file?
 - Saving the buffer with the text properties could do it.
 - What problem are we trying to solve? 
+
+- Decide on a few tangible activities/deliverables — but this can also take an ‘agile’ approach.

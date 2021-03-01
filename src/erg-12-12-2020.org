@@ -2,7 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
-#+FIRN_LAYOUT: update
+#+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2020-12-12 Saturday>
 
 * Research & Emacs 12 Dec

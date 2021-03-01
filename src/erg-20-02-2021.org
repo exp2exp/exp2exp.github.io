@@ -2,7 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
-#+FIRN_LAYOUT: update
+#+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-02-20 Saturday>
 
 * 20 February 2021 — Emacs Research Group
@@ -143,22 +143,22 @@ Qiantan: I’ve authored a few changes to crdt.el addressing some issue we discu
  - Can also look at RStudio videos on Youtube to see how it’s being used
 * PAR                                                                  :15m:
 *** 1. Review the intention: what do we expect to learn or make together?
-- We came with an agenda and had a lot of topics to look at
-- We also invited everyone to add agenda items at the beginning
+**** We came with an agenda and had a lot of topics to look at
+**** We also invited everyone to add agenda items at the beginning
 *** 2. Establish what is happening: what and how are we learning?
-- Today, we’ve mentioned many times our desire to refine/distil
-- We’ve been going quite fast today
-- More tightly contained + minuted topics helped us keep from going into super high level discussions
-- However the high-level discussions allow more room for serendipity?
+**** Today, we’ve mentioned many times our desire to refine/distil
+**** We’ve been going quite fast today
+**** More tightly contained + minuted topics helped us keep from going into super high level discussions
+**** However the high-level discussions allow more room for serendipity?
 *** 3. What are some different perspectives on what’s happening?
-- Hungry, tired, maybe a bit stressed
-- Updating the PAR /live/ with points might be interesting
-  - It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things /contextually/
-- Leo’s life has a lot going on!
-- Snowpocalypse is also pretty involving
+**** Hungry, tired, maybe a bit stressed
+**** Updating the PAR /live/ with points might be interesting
+**** It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things /contextually/
+**** Leo’s life has a lot going on!
+**** Snowpocalypse is also pretty involving
 *** 4. What did we learn or change?
-- EmacsConf is less objective-based and more having a circle of support
+**** EmacsConf is less objective-based and more having a circle of support
 *** 5. What else should we change going forward?
-- Leo will follow up with Rob
-- Joe: can report back on practical details of serendipity next week!
-- Build some Elisp sessions for ourselves in future!
+**** Leo will follow up with Rob
+**** Joe: can report back on practical details of serendipity next week!
+**** Build some Elisp sessions for ourselves in future!

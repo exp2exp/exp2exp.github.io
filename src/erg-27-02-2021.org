@@ -2,7 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
-#+FIRN_LAYOUT: update
+#+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-02-27 Saturday>
 
 * 27 February 2021 — Emacs Research Group
@@ -239,7 +239,7 @@ What do we do to push it to the next level?
 *** 3. What are some different perspectives on what’s happening?
 **** Mark’s interest is piqued on many of the topics we’ve approached today
 **** Joe: appreciate Mark jumping in, cautions that he doesn’t have to join a mind-meld
-**** Mark has 2 young children so this constrains his time, but can’t promise to be frequent
+**** Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee
 *** 4. What did we learn or change?
 **** Re: Moderation
 **** LV: We might want to revise the interview format; did Mark talk enough?
@@ -251,8 +251,8 @@ What do we do to push it to the next level?
 **** LV: Supposed to come up with the plan
 **** This could be a good opportunity for Joe to sign in and get some French immersion
 **** Is there a bulletin board with all the things on one calendar?
-**** Sacha & Leo have been working on this... on the wiki 
-**** Joe: should be a package!
+**** Sacha & Leo have been working on this... on the wiki
+**** Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!
 
 ** COMMENT CLA review
 :PROPERTIES:
