@@ -1,0 +1,65 @@
+#+title: Week 22 February 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-03-03 Wednesday>
+#+AUTHOR: Joe Corneli
+
+* Weekly review
+
+I had a good week last week: at least, I can say that I felt pretty
+good about it. Probably slightly overdid things but that’s the nature
+of the times we are living in.  As of 1 March I finally got around to
+submitting the Intent to Submit form for my EPSRC proposal.  And I did
+some more prep-work on the proposal using an old template that I had
+first put together when I was at Goldsmiths and then, apparently, used
+again when I was at Edinburgh.  So, I’ve had a bit of practice writing
+these things, which is good.
+
+The main activity over the week was preparing and then delivering a
+talk at the Serendipity and Big Data symposium.  This was definitely
+an interesting experience and I left with a bunch of ideas!
+
+In a follow-up I told one of the facilitators, Wendy, that I would be
+keen to have the Serendipity Society take a look at my next revision
+of the “Modelling Serendipity” paper, towards the end of March.  That
+gives me a little bit of social pressure to get something written up.
+
+In fact there are lots of writing tasks on at the moment! I’ll want to
+keep working on the grant proposal to get something to share around by
+or before Friday March 5th, so that will be a big thing for this week.
+I also told Charlie that I would try to get a ‘triplet stanzas
+edition’ of the Peeragogy patterns written on the same timeline.
+That’s all possible.
+
+Following up on the work we did with Mark Dawson over the weekend, I
+hope to attend a session of the M-x Research group to see what they
+are all about.
+
+I’m mildly concerned that one of the people from the Serendipity
+Society meeting emailed me to tell me that he thought I was ‘spreading
+my butter too thinly’.  Maybe he is right, though on reflection I’m a
+bit reminded of Mara’s speeches to Gotama telling him to give up his
+quest.  Nevertheless, it’s interesting to learn that the impression
+one gets from [[https://hyperreal.enterprises][hyperreal.enterprises]] and other such papertrails is that
+I’m too unfocused.  
+
+Various other personal reflections: I may end up wanting to move to
+Oxford sometime so I started looking a bit (I’ll have a little nest
+egg in the form of my payment for teaching and tutoring).  I’ve nearly
+finished watching ML Street Talk Episode 38 and found it really
+rewarding so far, but now it’s as if I need to schedule some time for
+TV viewing!  To say nothing of reading books, which has fallen off
+recently... hm, maybe I do have too much going on!
+
+Hyperreal Enterprises: £1250 still burning a hole in our collective
+pocket, which may be a good thing!  One question with revisiting in
+light of the discussion from [[file:erg-27-02-2021.org][27 February 2021 — Emacs Research Group]]
+is: ‘how much would people pay for continuous service uptime?’
+
+* Week ahead tasks
+
+- Grant refinements
+- Triplet stanzas
+- Filling in my time sheets to collect some money for teaching!
+- Going over the course notes on random sampling to finalise those
+- Thinking about how to move to the next phase with the HCI Ethics paper (Reading Group presentation, and then, probably, a detailed outline or ‘storyboard’)
