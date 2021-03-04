@@ -6,9 +6,9 @@ This is a repository of notes stored in [org](https://orgmode.org/manual/) forma
 
 ## usage
 
-We set `.dir-locals.el` to reference a local directory where the files
-are stored; the default is `~/exp2exp.github.io/src/`, but if you put
-the files in another location, you’ll want to change that.
+To access the local slip-box, you need to define the location of your local
+repository in `.dir-locals.el` (at the root).  A template and instructions are
+available in [`.dir-locals.default.el`](.dir-locals.default.el).
 
 You can edit the `org` files in the `src` directory. These can be used with [org-roam](https://www.orgroam.com/), but this is not required.
 
