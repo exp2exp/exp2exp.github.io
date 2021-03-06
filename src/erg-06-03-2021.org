@@ -7,126 +7,304 @@
 
 * 6 March 2021 — Emacs Research Group
 
-* Check-ins                                                             :10m:
+* Check-ins                                                             :20m:
 :PROPERTIES:
-:Effort:   0:10
+:EFFORT:   0:20
 :END:
 ** Noorah
+- Andy K’s doughnuts
+- Things to do in Austin!
+- Vaccine Monday!
 ** Joe
+- Charlie learning Org Roam... explore the org file structure
+- Heading, properties, exporting
+- Helm-BibTeX...
+- Attendance of Emacs-SF (as a podcast!)
+- They are the ones who encouraged Noorah to present at EmacsConf
 ** Raymond
+- NYC Emacs was this past Monday
+- After stormy relationship decided to say goodbye to dydx!
+- Goes back to fluxions df(x)/dx — lots of differential equations
+- Had a nice discussion about possible plans about ob-servant
+- This notation saves time from switching between symbols
+- They didn’t have the right notation for functions...
+- Could this notation have changed things?
+- Design principles: if things are left implicit and not written down you can forget - and realising when this happens
 ** Cameron, David
 ** Leo
-** Mark
+- Bug report on switching timer - Chat with zanzi
+- Was late b/c Leo was in the train & EmacsConf meeting
+- Talked a lot w/ Joe about Hyperreal
+- Things coming to an end w/ government
+- Broadly spent about 14 hours in Emacs meetings (Paris, M-x, Emacs SF)
+- Like a second job, felt manageable, happy about this
 
 * Things to keep in mind
 ** Points can be added to PARs mid-session, no need to wait for the end
+** Record the sodding session
 
-* Agenda                                                               :100m:
+* Agenda                                                               :90m:
 :PROPERTIES:
 :COLUMNS:  %ITEM %Effort(Effort){:}
 :END:
 
 ** Effort estimates
 
-** R Studio                                                            :50m:
+- Mostly working but will need some refinements
+
+** R Studio                                                            :60m:
 :PROPERTIES:
-:Effort:   1:00
+:EFFORT:   0:60
 :END:
 
 *** Noorah’s presentation
 :PROPERTIES:
-:Effort:   0:20
+:EFFORT:
 :END:
 
-*** Discussion
+- RStudio is an IDE built on top of R
+- Have integrated Python code as well
+- Types: Text
+- JC’s feedback on R Studio
+  - Felt reminiscent of org-mode/cider, C++, for today will look at R Markdown
+- Similar to Org, and how to create a quick website
+
+**** Setup
+You get a pop-up wizard; ‘Shiny’ is interactive; you can download templates (e.g., similar to Tufte style documents)
+
+- Sheringan: nice HTML presentation style
+- Enter the name of the contributor per package
+
+Set up HTML file; you can export in pure MD
+
+- Uses Knitter to export
+- You can change the date to have it automatically update
+
+**** Basic features
+
+- Provides a nice data browser that keeps track of variables you have used
+- In the data export you can add dependencies
+- It will print TeX file
+- Knit to HTML, Word, LaTeX: this creates the export
+- Noorah has edited the =pandoc= setting to change the font in the backend (it uses Calibri by default)
+
+**** Question
+- RSP: What features do you find that are most/least useful/productive?
+
+**** Comments
+- The environment (data browser) is hard to do in Org mode
+- You’d have to type up the export
+- It gives you lots of tabs to be able to use things like Github and so on
+- With the console, it populate things on the side: it’s helpful and very user friendly...
+- However it doesn’t have the headers and thing
+- The free software version is /more hackable/?
+- But if we compare Emacs with a lot of things it has user friendliness... could we add some of the user-friendliness in Emacs?
+
+And, even though this is the free version, there is a company behind it: whereas with Emacs it’s whoever is doing work at that time.
+
+- RSP: Could we have a workflow that has both?  Get them to work together?
+- Leo: Working on Zotero connection these things can be more hassle than it’s worth.  People who know how to do org mode will be happy with elisp but not with other stuff
+- Emacs: it’s nice to be able to customize it in elisp! Whereas with RStudio it’s way harder to customize
+
+**** Next part: Project creation
+
+- You can use different packages through the browser in lower-right pane
+- The thing that’s also a big deal with the R project (similar to projectile); once we create a project we can associate it with a directory, and you can choose what type of project you’re creating (e.g. Distill website)
+- It can give some permissions issues
+- Can configure it for Github pages, or use netlify (Leo + Cameron use it regularly) — Github pages is also easy
+- “Demo ERG Website” on Github pages, can use the Github desktop app to show 
+
+**** 20 more minutes!
+- Creates index, docs, you can browse contents inside
+- Github desktop... this is good for folks who want to learn how to do this but don’t have the time to learn how to do it
+- “Add Existing Repository”
+- It’s user-friendly (Github Desktop all set up)
+- This is now up in the Github account, we see it inside Github
+- To use Netlify... just drag and drop a file
+- Can link it to Github, it takes a little while to publish
+- Org Roam is very opinionated, but ‘backlinks’ could be merged into Org — then what is Org Roam? It’s something that allows you to play with backlinks
+- Maybe writing the side-buffer is the proper use for this thing
+- How do you build an interface that makes it easier?
+
+**** Example
+- Sef van Buuren has written a nice book in Bookdown
+- You can integrate hypothesis with such a website
+
+**** Random
+- Next directions! — Peeragogy Handbook chapter?
+- RStudio desktop as a development base and they then move it on to /cloud computing/ products
+
+**** Pain
+
+- Why does it not quite work inside Emacs?
+- Webscraping database...
+- Org file with literate programming
+- Different chunks of code in Org mode
+- You can create chunks in any type of language!
+- But if you look at the R part =Rterm= program not found
+- I don’t have time to do all the configuration
+- It fires up a session
+- Need lots of configuration; once done, it will print the results
+- BUT what I have to do is /call a session/ — in RStudio the session is assumed — but in Emacs you need to manage it
+- When I open the R Session in another window or frame, it freezes (though, this is a Windows issue according to ESS maintainer)
+- JC is reminded of Cameron’s experience w/ TRAMP
+- Since Org mode can run all kinds of things... you do need to give it some directions
+- If we make backlinks native in org-mode, we need to think about ‘What is a backlink?’, e.g., M-TAB in typical windowing system
+  - Creating a workflow snapshot (according to NA)
+  - Backlinks could have this /evolutionary/ component (‘let’s go back to the state of computation before, before I modified this variable or corrupted’)
+  - Covering an entire surface of evolution (‘Adjacent possible’)
+  - Familiar from our discussion of generic trace in October 2020
+- Reminiscent of *Reflog* project inside Magit, which shows the whole history of interactions
+- Reminiscent of Nero (based on Conkeror, the web browser)
+  - Features like ‘Ariadne’s trail’
+- The thing we were doing in ob-servant would be keeping track of the data we would need to do that
+  - Similar to the data
+
+**** Relationship to Org Roam
+  - Org Roam 2.0 — simplified database?
+  - Trails will be consecration of this.
+  - Maybe interesting to have a Datomic backend?
+  - Or have a standard and make the database interchangeable?
+
+**** Feedback on Noorah’s presentation
+- Great! 👍👍👍
+
+** M-x Research debrief                                                :15m:
 :PROPERTIES:
-:Effort:   0:30
+:Effort:   0:15
 :END:
 
-** M-x Research debrief                                                :20m:
+- Github inside Magit
+- Have a visual way to retrace our steps
+- JC is concerned about the female representation in this group
+  - With M-x Research, 1 in 12 was starting to feel weird (what about EmacsConf?)
+- NA: They were talking about ‘Emacs Pinkie’ and for me I don’t use my pinkie to type anything, my pinkie is too small! I use my ring finger! And I have arthritis so sometimes it flares up — maybe they don’t have a clue about gender issues
+- And a general issue — in Peeragogy working on gender balance actively since pretty much the beginning
+- Also working on this with the EmacsConf group (taskforce working on the topic)
+  - Maybe we should focus on the research?
+- Deb and other stuff to look at about this from research side... but maybe people get to a point where “we’ve done enough and now move on”
+- Diversity issues can be a nightmare to address
+- The task force disappears when it’s dissolved
+- But you get a bunch of half-measures that aren’t really resolved
+- Office hours will have metrics that we could work on
+- RSP: Around the time that personal computing came around, this was when the gender divide in computing came in — they became ‘toys for boys’ at that time (Cf. Mar Hicks, to think about how did it come)
+- If we are thinking about the future of work it’s not going to (weirdly) just be the male half of the population doing this
+- NYC one has done quite a bit of steps with a /code of conduct/ to make sure they have a safe space...
+- “Software development is just about software”  — ends up with only men! ...
+- So we need to modify the rules (4 Freedoms)... Netbeans can also be hard, but where can you ask questions?  Who has access to the questions, and what’s the response.
 
+*** TODO Come back to this during the week                             :ALL:
+- EmacsConf discussions getting going in mid-April 
+
+** LV’s Crowdfunding                                                   :5m:
+:PROPERTIES:
+:EFFORT:   0:5
+:END:
+
+- Leo has been thinking more, talked with Sacha
+- SC is extremely excited about it
+- LV also getting much better at describing it: 
+- (I) *Mediation*,
+- (II) *Coherence* - Melpa to core but in an intelligente package, thinking about coherence in Org Mode system, e.g., backlinks must interact nicely
+- (III) *Community*. E.g., EmacsConf office hours, whatever ERG wants to put forward.
+
+*** Hints: Emacs Paris & SF
+- People there are friendly and excited about LV stuff
+- Emacs SF was excited about this
+- One of the people wanted to make contents on Org Roam
+- “You are changing the mood and making it more geared to in-depth discussion.” 
+  - At first this seemed negative (LV has been to two meetings but it’s “so much better since you arrived”)
+  - But no, you owe it to the organizers
+- JC’s take on LV’s intervention at Emacs-SF
+  - LV might have undersold himself there; these were the results of method and discipline that 
+  - Could offer practice time
 
 ** CLA review                                                          :20m:
 :PROPERTIES:
-:Effort:   0:20
+:Effort:   0:15
 :END:
 
 - The discussion was postponed last week to give more time to the discussion with Mark
 
 *** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
 
-** LV’s Crowdfunding                                                   :10m:
-:PROPERTIES:
-:EFFORT:   0:15
-:END:
+- Noorah: Is there a way to use NLP to get to this? I.e., NLP to get to document from atomic ideas? Does NLP play a role in coherence?
+  - LV: You need to ask it to do something... humans are struggling already, so asking a machine to do it seems out of reach
+  - …However, this could be within a 5-year plan
+    - TODO: Discuss this with Deyan?
+- RSP: the sentence about “the big themes that come up”
+  - Two big problems came up in today’s discussion: /Gender balance/ and /ob-servant and talking about backlinks in a general way/ — How these things in Emacs work at a higher level
+    - Historical/genetic approach on how we got there (Foucaldian archeology?)
+    - Worth noting themes like this
+- This CLA could form the basis of how we present ourselves, i.e., page 1 of our whitepaper
+- Ray’s point about giving more space for discussion during interviews
+- LV: The approach to ‘method’ seems to be gendered, GTD stuff, this ability to step back and look at how you organise yourself — this is a leisure activity.  If you’re stripped of this b/c of motherhood, or plus having a job — it strips one from having the ability to organise oneself
+ - E.g., ‘glass prison’ is another level of imprisonment
+ - Being kept in a status where there’s no opportunity to reflect on method
+ - The deprival of time
+- NA: It’s also about representation and not enough mentorship to attract a diverse group!
+ - E.g., people of colour can be deprived of time as well
+ - Other folks similar to Black Panthers or feminism who will have thought of these things
+ - Cf. example of learning Lakota — this element of diversity can be used to tap into more diversity
 
-*** Intro
-- Leo thinking about the future
-- Nothing set in stone
-- Thinking about: financing Org Roam with milestones
- - But Org Roam is interesting but a bit shaky/narrow
- - So thinking about ‘diluting’ to something wider
- - Something that would be interesting would be mediating between packages not in core & those in melpa
- - This is generally a political question... E.g., syntax libraries, string-parsing libraries
-- LV: Someone with experience with melpa packages, and org mode maintainers
- - Can be a missing link
- - Motivation sharp around merging things into core (a lot of people who develop packages can’t be bothered; there can be some posturing & ‘dumb refactoring’ involved)
-- So, what about stepping into this role, and surveying the field to look at what’s worthwhile?
-- Looking towards coherency between packages, e.g., /what if... Org Roam could play better with Org Agenda?/
- - Mark: I have played briefly with it and would like to use it more!
-  - You have to schedule time for learning things!
-- #orgroamcult 
-
-*** Situational Report (SitRep)
-:PROPERTIES:
-:Effort:   0:05
-:END:
-
-- LV: Has been talking with Jethro this morning
-- First touch-base in a month
-- Jethro calm and able to think about Org Roam but doesn’t have as much time
-- He was completely on board with the Kickstarter project though can’t join the project now
-- Would be happy to keep working on Org Roam
-- Regarding the finances €17K→€20K (Kickstarter takes a margin)
-- (€40 if we increased it to a one-year stint)
-- Next week to meet with Tarsius (developer of Magit) to probe his mind
- - He got $88K for Magit development
-- Also will plan to talk with Sacha to get her input
-- Aiming for 15th of March ‘to get started’, but need to finish things up
-- Thinking about the nature of the job based on Ray’s input, and the ‘end user’
-- Need to be exploiting my ability communicate about what I’m doing with Emacs
- - Exchanges like this discussion now could be shared
- - So 50% development+politicking (Bastien can help) + 50% community (have been training)
-
-*** Discussion
-:PROPERTIES:
-:Effort:   0:20
-:END:
-- RSP: may have feedback in some afternoon
-- 15th of March is probably unobtainable...
-- Mark: this is interesting — the community is diverse
-- You want to be appealing to a broad cross-section of community, not everyone who uses Emacs is as well-versed as ‘we might be’ (?)
-- There are lots of people in the community who might not immediately be aware of the benefits something like this might give!
-  - So whatever you do needs to be very clear to people who are more peripherally involved
-  - People who use it as a day-to-day text editor
-  - We might be able to distil milestone-based stuff
-  - Also good to have vlogs to keep people in the loop
-- Look through M-x Research archives to see what a more representative set of people talk about?
-  - Might help us prod what people are talking about (to gauge interest for some features)
-- Mark: We have some records that are somewhat in this vein; we recorded the sessions
-- The record
-- Mark was hesitant on sharing recordings or logs as to create friction with some people
-  - JC: At the same time, this is preventing us (ERG) to get up to speed
-- Maybe a ‘focus group’ could be worthwhile rather than just mining their records
- - If there was a more central focus group that we’d run that we could point people to...?
-
+* Ongoing projects & Next actions
+- Noorah & Charlie exploration of org-roam/org-mode/org-ref/bibtex-completion
+  - Screensharing
+- Getting people from JC’s impactful research seminar with the gender-flipped ratio to come to ERG
+- Inviting people related to diversity issues (// EmacsConf)
+  - shoshin?
+- Creating a front for ERG
+  - Web-page
+  - Opening the meeting to other people
+    - WIP with EmacsConf
 
 * PAR                                                                   :10m:
 :PROPERTIES:
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
+- JC had a tough week, and really enjoyed the support he got from HyperReal
+  - ‘It’s not just about individuals; the community is itself a strength, and meeting regularly is creating that space, because we can count on one another.’
+  - We’ve gotten to know one another to the point where it’s become tricky to find the common denominators of the group
+    - If we picked ‘Gender & FLOSS’, we know we’d use the tools to do what we wanted to do
+- RSP: ‘This fits very well with the diversity discussion we’ve been having today’
+- View RStudio presentation and think about
+  - We had a good discussion where we tied this to Emacs
+  - It was good to see some code and some visualisation
 *** 2. Establish what is happening: what and how are we learning?
+- It’s been a while since we had David or Cameron
+- Things running well in Ray’s research project
+- We got a look at Noorah’s thesis layout with Zanzi, and a demo of using Emacs to run bibliography
 *** 3. What are some different perspectives on what’s happening?
+- The PAR can still be difficult to navigate
+  - The self-reflexive PAR!
+- JC’s discussion with Charlie
+  - Charlie is in a very different position from Joe, but they’re both working with students who are likely to get jobs
+  - Using the techniques which have been deployed in the Peeragogy project in ERG from the  was a good bet
+- Timer *almost* worked automatically
 *** 4. What did we learn or change?
+- PARs worked for ERG, but did they work for EmacsConf?
+- Would we need a different kind of organisation for this?
+- Sacha’s buy-in is a complement! Right time, team of people that she’s working with
 *** 5. What else should we change going forward?
+- We’re getting to a point where we can do a shared research project 
+- Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards 
+- We would be ready to receive visitors at some point...
+- Could learn from EmacsConf as they try to do this
+
+* Check-out (exceptional or not)
+
+** JC
+- Feeling energised
+- The Peeragogy podcast coming out on <2021-03-12 Fri 21:00> might be
+** NA
+- Great session!
+- Happy about her presentation on RStudio
+- Ready for a delicious lunch created by her partner!
+** RSP
+- Good session overall
+- Interesting discussion of observant & traces: things to get back to
+- Looking forward to continue some things in coffee time
+** LV
+- I’m glad we had some time to do checkouts before the clock runs out
+
