@@ -78,7 +78,7 @@ But we might as well start now so that we don’t have to do it all at once!
 #+begin_quote
 - ‘Practice’ and ‘method’ keep coming up (respectively, more bottom up and more top down ways of actualising what we’re doing). E.g., one /method/ would be: instead of having a shared Org Roam directory, having ways of managing sharing of notes across ‘graphs’.
 - If we tackle big enough projects, it will bring with it the need for collaboration.
-- While like do tangible deliverables (e.g., journal articles), “If we knew what the outcome was it wouldn’t be research” — and we want to keep a role for serendipity in our work.
+- While we like to create tangible deliverables (e.g., journal articles), “If we knew what the outcome was it wouldn’t be research” — and we want to keep a role for /serendipity/ in our work.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
 ***** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
