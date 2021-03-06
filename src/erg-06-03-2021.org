@@ -1,0 +1,132 @@
+#+TITLE: 6 March 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-03-06 Saturday>
+
+* 6 March 2021 — Emacs Research Group
+
+* Check-ins                                                             :10m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+** Noorah
+** Joe
+** Raymond
+** Cameron, David
+** Leo
+** Mark
+
+* Things to keep in mind
+** Points can be added to PARs mid-session, no need to wait for the end
+
+* Agenda                                                               :100m:
+:PROPERTIES:
+:COLUMNS:  %ITEM %Effort(Effort){:}
+:END:
+
+** Effort estimates
+
+** R Studio                                                            :50m:
+:PROPERTIES:
+:Effort:   1:00
+:END:
+
+*** Noorah’s presentation
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+*** Discussion
+:PROPERTIES:
+:Effort:   0:30
+:END:
+
+** M-x Research debrief                                                :20m:
+
+
+** CLA review                                                          :20m:
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- The discussion was postponed last week to give more time to the discussion with Mark
+
+*** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
+
+** LV’s Crowdfunding                                                   :10m:
+:PROPERTIES:
+:EFFORT:   0:15
+:END:
+
+*** Intro
+- Leo thinking about the future
+- Nothing set in stone
+- Thinking about: financing Org Roam with milestones
+ - But Org Roam is interesting but a bit shaky/narrow
+ - So thinking about ‘diluting’ to something wider
+ - Something that would be interesting would be mediating between packages not in core & those in melpa
+ - This is generally a political question... E.g., syntax libraries, string-parsing libraries
+- LV: Someone with experience with melpa packages, and org mode maintainers
+ - Can be a missing link
+ - Motivation sharp around merging things into core (a lot of people who develop packages can’t be bothered; there can be some posturing & ‘dumb refactoring’ involved)
+- So, what about stepping into this role, and surveying the field to look at what’s worthwhile?
+- Looking towards coherency between packages, e.g., /what if... Org Roam could play better with Org Agenda?/
+ - Mark: I have played briefly with it and would like to use it more!
+  - You have to schedule time for learning things!
+- #orgroamcult 
+
+*** Situational Report (SitRep)
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- LV: Has been talking with Jethro this morning
+- First touch-base in a month
+- Jethro calm and able to think about Org Roam but doesn’t have as much time
+- He was completely on board with the Kickstarter project though can’t join the project now
+- Would be happy to keep working on Org Roam
+- Regarding the finances €17K→€20K (Kickstarter takes a margin)
+- (€40 if we increased it to a one-year stint)
+- Next week to meet with Tarsius (developer of Magit) to probe his mind
+ - He got $88K for Magit development
+- Also will plan to talk with Sacha to get her input
+- Aiming for 15th of March ‘to get started’, but need to finish things up
+- Thinking about the nature of the job based on Ray’s input, and the ‘end user’
+- Need to be exploiting my ability communicate about what I’m doing with Emacs
+ - Exchanges like this discussion now could be shared
+ - So 50% development+politicking (Bastien can help) + 50% community (have been training)
+
+*** Discussion
+:PROPERTIES:
+:Effort:   0:20
+:END:
+- RSP: may have feedback in some afternoon
+- 15th of March is probably unobtainable...
+- Mark: this is interesting — the community is diverse
+- You want to be appealing to a broad cross-section of community, not everyone who uses Emacs is as well-versed as ‘we might be’ (?)
+- There are lots of people in the community who might not immediately be aware of the benefits something like this might give!
+  - So whatever you do needs to be very clear to people who are more peripherally involved
+  - People who use it as a day-to-day text editor
+  - We might be able to distil milestone-based stuff
+  - Also good to have vlogs to keep people in the loop
+- Look through M-x Research archives to see what a more representative set of people talk about?
+  - Might help us prod what people are talking about (to gauge interest for some features)
+- Mark: We have some records that are somewhat in this vein; we recorded the sessions
+- The record
+- Mark was hesitant on sharing recordings or logs as to create friction with some people
+  - JC: At the same time, this is preventing us (ERG) to get up to speed
+- Maybe a ‘focus group’ could be worthwhile rather than just mining their records
+ - If there was a more central focus group that we’d run that we could point people to...?
+
+
+* PAR                                                                   :10m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
