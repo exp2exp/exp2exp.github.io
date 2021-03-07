@@ -35,11 +35,17 @@ But we might as well start now so that we don’t have to do it all at once!
 - We’ve had interesting and varied guests, and some developing plans for the quarter ahead.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-02-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
 ***** [[file:erg-02-01-2021.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
 ***** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
 ***** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-23-01-2021.org::*crdt was almost a resounding success][crdt was almost a resounding success]]                             :ep7:
 ***** [[file:erg-23-01-2021.org::*Moving things from TODO to DONE would be nice][Moving things from TODO to DONE would be nice]]                    :ep7:
 ***** [[file:erg-30-01-2021.org::*Joe to research Bookdown + Hypothes.is + Rstudio][Joe to research Bookdown + Hypothes.is + Rstudio]]                 :ep8:
@@ -55,6 +61,9 @@ But we might as well start now so that we don’t have to do it all at once!
 - Looking at RStudio as a model of (some of) the kinds of things we want to do.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-02-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
 ***** [[file:erg-02-12-2020.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
 ***** [[file:erg-02-12-2020.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
@@ -68,6 +77,9 @@ But we might as well start now so that we don’t have to do it all at once!
 ***** [[file:erg-16-01-2021.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep6:
 
 **** Supporting data from CLA 2                                        :TBA:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-23-01-2021.org::*Worried that people might be burning out on meetings (PAR for Hyperreal?)][Worried that people might be burning out on meetings (PAR for Hyperreal?)]] :ep7:
 ***** [[file:erg-23-01-2021.org::*If you're coming last-minute with an agenda this can create fatigue][If you're coming last-minute with an agenda this can create fatigue]] :ep7:
 ***** [[file:erg-13-02-2021.org::*We’re continuing on the path of interdisciplinary learning][We’re continuing on the path of interdisciplinary learning]]      :ep10:
@@ -81,6 +93,9 @@ But we might as well start now so that we don’t have to do it all at once!
 - While we like to create tangible deliverables (e.g., journal articles), “If we knew what the outcome was it wouldn’t be research” — and we want to keep a role for /serendipity/ in our work.
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
 ***** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
 ***** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
@@ -90,6 +105,9 @@ But we might as well start now so that we don’t have to do it all at once!
 ***** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
 
 **** Supporting data from CLA 2                                        :TBA:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-23-01-2021.org::*More fun to do this sort of stuff than the rules & structures of academia][More fun to do this sort of stuff than the rules & structures of academia]] :ep7:
 ***** [[file:erg-30-01-2021.org::*Cover Oxford application some more][Cover Oxford application some more]]                               :ep8:
 ***** [[file:erg-30-01-2021.org::*Collaborative annotations][Collaborative annotations]]                                        :ep8:
@@ -105,12 +123,18 @@ But we might as well start now so that we don’t have to do it all at once!
 - What big or ‘existential’ problem are we solving...?
 #+end_quote
 **** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-02-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
 ***** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep5:
 ***** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
 ***** [[file:erg-16-01-2021.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep6:
 ***** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ***** [[file:erg-30-01-2021.org::*Noorah mentioned interest in pattern templates][Noorah mentioned interest in pattern templates]]                   :ep8:
 ***** [[file:erg-06-02-2021.org::*We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)][We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)]] :ep9:
 ***** [[file:erg-06-02-2021.org::*Prepare for CRDT Hackathon in summer?][Prepare for CRDT Hackathon in summer?]]                            :ep9:
