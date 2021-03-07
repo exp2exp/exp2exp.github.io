@@ -112,7 +112,7 @@ And, even though this is the free version, there is a company behind it: whereas
 - The thing that’s also a big deal with the R project (similar to projectile); once we create a project we can associate it with a directory, and you can choose what type of project you’re creating (e.g. Distill website)
 - It can give some permissions issues
 - Can configure it for Github pages, or use netlify (Leo + Cameron use it regularly) — Github pages is also easy
-- “Demo ERG Website” on Github pages, can use the Github desktop app to show 
+- “Demo ERG Website” on Github pages, can use the Github desktop app to show
 
 **** 20 more minutes!
 - Creates index, docs, you can browse contents inside
@@ -194,7 +194,7 @@ And, even though this is the free version, there is a company behind it: whereas
 - So we need to modify the rules (4 Freedoms)... Netbeans can also be hard, but where can you ask questions?  Who has access to the questions, and what’s the response.
 
 *** TODO Come back to this during the week                             :ALL:
-- EmacsConf discussions getting going in mid-April 
+- EmacsConf discussions getting going in mid-April
 
 ** LV’s Crowdfunding                                                   :5m:
 :PROPERTIES:
@@ -203,7 +203,7 @@ And, even though this is the free version, there is a company behind it: whereas
 
 - Leo has been thinking more, talked with Sacha
 - SC is extremely excited about it
-- LV also getting much better at describing it: 
+- LV also getting much better at describing it:
 - (I) *Mediation*,
 - (II) *Coherence* - Melpa to core but in an intelligente package, thinking about coherence in Org Mode system, e.g., backlinks must interact nicely
 - (III) *Community*. E.g., EmacsConf office hours, whatever ERG wants to put forward.
@@ -212,11 +212,11 @@ And, even though this is the free version, there is a company behind it: whereas
 - People there are friendly and excited about LV stuff
 - Emacs SF was excited about this
 - One of the people wanted to make contents on Org Roam
-- “You are changing the mood and making it more geared to in-depth discussion.” 
+- “You are changing the mood and making it more geared to in-depth discussion.”
   - At first this seemed negative (LV has been to two meetings but it’s “so much better since you arrived”)
   - But no, you owe it to the organizers
 - JC’s take on LV’s intervention at Emacs-SF
-  - LV might have undersold himself there; these were the results of method and discipline that 
+  - LV might have undersold himself there; these were the results of method and discipline that
   - Could offer practice time
 
 ** CLA review                                                          :20m:
@@ -279,16 +279,17 @@ And, even though this is the free version, there is a company behind it: whereas
 - The PAR can still be difficult to navigate
   - The self-reflexive PAR!
 - JC’s discussion with Charlie
-  - Charlie is in a very different position from Joe, but they’re both working with students who are likely to get jobs
-  - Using the techniques which have been deployed in the Peeragogy project in ERG from the  was a good bet
+  - Charlie is in a very different position from Joe, but they’re both working with people learning data analysis skills
+     - (CD: on the job or JC: MSC students)
+  - Using the techniques which have been deployed in the Peeragogy project in ERG from the start was a good bet
 - Timer *almost* worked automatically
 *** 4. What did we learn or change?
 - PARs worked for ERG, but did they work for EmacsConf?
 - Would we need a different kind of organisation for this?
 - Sacha’s buy-in is a complement! Right time, team of people that she’s working with
 *** 5. What else should we change going forward?
-- We’re getting to a point where we can do a shared research project 
-- Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards 
+- We’re getting to a point where we can do a shared research project
+- Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards
 - We would be ready to receive visitors at some point...
 - Could learn from EmacsConf as they try to do this
 
@@ -307,4 +308,3 @@ And, even though this is the free version, there is a company behind it: whereas
 - Looking forward to continue some things in coffee time
 ** LV
 - I’m glad we had some time to do checkouts before the clock runs out
-
