@@ -40,6 +40,29 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 
 - *Now* (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work? — But do we care about this in our workflow?  We could keep track of who created what with properties: do we want/need to persist these things? All the CRDT logs to file?
 - Saving the buffer with the text properties could do it.
-- What problem are we trying to solve? 
+- What problem are we trying to solve?
 
 - Decide on a few tangible activities/deliverables — but this can also take an ‘agile’ approach.
+
+* Some coffee chat follow-up thoughts
+
+** Actions, Patterns, Methods
+- Actions are atomic
+- Patterns are the relationships (molecules)
+  - E.g, people show up at the protest, but the underlying issue is what the protest is about!
+  - Cf. Tim Urban on the /instant gratification monkey/ and /dark playground/
+  - E.g. piano, figure skating, swimming, meditation (moving to couples skating and ice-hockey)
+  - Consider also the /discriminating mind/, maybe more actively deployed in programming?
+  - Deploying collective agency with the body... then bringing things to the level of collected movement: ‘organism’
+- Methods are the intention (in Buddhism, there’s /right intention/)
+  - E.g., sensory mind and discriminating mind as kidney-shaped entities within the mind.
+  - Method of how you practice
+- Would need a 4th level to account for ‘end’
+  - Red and yellow scores for skating
+  - How well did you execute it in the case of a quasi-unexpected circumstance? (Compare also the use of data analysis in football.)
+  - In Buddhism, putting an end to ‘fabrications’
+
+** Concrete things
+- Org-super-agenda
+- Patterns
+- Routine
