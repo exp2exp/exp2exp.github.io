@@ -61,7 +61,7 @@ the ‘2nd’ EPSRC proposal.
 ** Serendipity
 
 Here I have gotten off to a good start thanks to some correspondence
-over the weekend with Thomas Baruzzi.  However, there are loads of
+over the weekend with *Thomas Baruzzi*.  However, there are loads of
 historical reviewer comments to get through, the rest of the ML Street
 Talk video to watch, the actual slides to prepare, and if I get
 through all of that, the paper rewrite to tackle.  It probably makes

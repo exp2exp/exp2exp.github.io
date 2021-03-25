@@ -1,3 +1,5 @@
+#+CATEGORY: RESEARCH
+
 #
 * Here’s our first Project Action Review!
 
@@ -164,6 +166,6 @@
 *** Report to Cameron and David about what we covered
 *** Review the CLA stuff
 *** Finding density poles within research?                         :metaphor:
-*** TODO Joe to pass info about Firn tags to Leo
+*** Joe to pass info about Firn tags to Leo
 *** Maybe milestone based funding for Org Roam
 *** Following up w/ 1600 UTC weekdays

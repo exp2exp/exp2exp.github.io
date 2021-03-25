@@ -16,7 +16,7 @@ earlier papers "Modelling the way mathematics is actually done" and
 "Towards mathematical AI via a model of the content and process of
 mathematical question and answer dialogues".
 
-* STARTED Analyse a small sample of examples from s.o.                  :joe:
+* FROZEN Analyse a small sample of examples from s.o.                  :joe:
 
 
 * Next steps :noexport:

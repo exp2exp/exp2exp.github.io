@@ -1,4 +1,5 @@
 #+title: Grant development
+#+CATEGORY: BUSINESS
 
 One way to do [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]] could be through grant development
 to help bootstrap initial outputs.
@@ -43,4 +44,5 @@ of what we did in the FARM paper.  We discussed the advant
 ** Maybe we could move in another more formal (category theoretic) direction
 Maybe we could build out some of the ideas that Zans and Ray have been
 discussing. Potentially this could also involve
-* TODO Outline(s) for small grants                                     :joe:
+* STARTED [#A] Outline(s) for small grants                             :joe:
+* STARTED [#A] Sort out details of letters of support, partners        :joe:

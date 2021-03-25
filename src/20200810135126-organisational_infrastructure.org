@@ -100,12 +100,12 @@ centring on “who does this business do business with?”
 - experienced, well-oiled teams requires less strict project management hygiene 
 - new, less-organized, or heterogenous teams require more attention to careful project management hygiene 
 
-** TODO Make a list of actual topics of interest                        :ALL:
+** FROZEN Make a list of actual topics of interest                     :ALL:
 If we were just doing “content production” we might think of a list of
 chapters to write, or podcasts to produce. However, maybe those ways
 of thinking and working don’t apply comfortably here.
 
-** TODO Make a project analysis of active projects                  :joe:ray:
+** FROZEN Make a project analysis of active projects               :joe:ray:
 
 * Technology
 

@@ -66,3 +66,8 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 - Org-super-agenda
 - Patterns
 - Routine
+
+* Some ERG seminar points for discussion
+* TODO [#A] Figure out how to get another column in the default Org Agenda
+* TODO [#A] Debug the color-coding of lines
+See Joe’s configuration file: [[file:~/.emacs.d/settings.org::*Org Roam: Library, Scrum board][Org Roam: Library, Scrum board]] → fontify-agenda

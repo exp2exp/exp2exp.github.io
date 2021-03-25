@@ -4,6 +4,7 @@
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-03-06 Saturday>
+#+CATEGORY: ERG
 
 * 6 March 2021 — Emacs Research Group
 
@@ -193,12 +194,12 @@ And, even though this is the free version, there is a company behind it: whereas
 - “Software development is just about software”  — ends up with only men! ...
 - So we need to modify the rules (4 Freedoms)... Netbeans can also be hard, but where can you ask questions?  Who has access to the questions, and what’s the response.
 
-*** TODO Come back to this during the week                             :ALL:
+*** BACK Come back to the M-x Research debrief during the week         :ALL:
 - EmacsConf discussions getting going in mid-April
 
 ** LV’s Crowdfunding                                                   :5m:
 :PROPERTIES:
-:EFFORT:   0:5
+:EFFORT:   0.05h
 :END:
 
 - Leo has been thinking more, talked with Sacha

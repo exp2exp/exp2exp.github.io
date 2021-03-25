@@ -26,7 +26,7 @@ the \LaTeX\nbsp{}export is controlled by
 =org-latex-format-inlinetask-function=.
 *************** END
 
-* TODO What might our summarisation workflow look like?               :ALL:
+* FROZEN What might our summarisation workflow look like?              :ALL:
 
 Since we’re pretty actively updating our *Discord* and pretty happy
 using it, maybe people who are working on Active Projects would be

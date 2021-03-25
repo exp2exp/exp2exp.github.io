@@ -4,6 +4,7 @@
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-01-23 Saturday>
+#+CATEGORY: ERG
 
 #
 * Notes 23 January 2021
@@ -54,7 +55,7 @@ Port to R or Python? +1 for python. SPSS is not very useful for project developm
 - Applications: Excel, save as text file
 - Noorah: cooking sous vide, pot de crême
 - Leo: Interesting meeting with [[https://www.youtube.com/channel/UCWA6aNcUjK2w0Z_-0UURq_g][Rob Haisfield]], hanging out in Discord was fun; job possibilities (Oxford, Wikimedia)
-*** TODO Do we need checkins (esp. if we are meeting in the week?)
+*** BACK Do we need checkins (esp. if we are meeting in the week?)
 - Keep it to 30 seconds like Noorah?
 ** CRDT
 - Practical to be taking notes at the same time
@@ -223,7 +224,7 @@ This is a good strategy for making a solid strategy in a short amount of time
 **** More fun to do this sort of stuff than the rules & structures of academia
 *** 4. What did we learn or change?
 **** We want to have a clear sense of progress each week
-**** Moving things from TODO to DONE would be nice
+**** Moving things from BACK to DONE would be nice
 **** Looked at CLA stuff, have rough notes from Noorah and Joe
 *** 5. What else should we change going forward?
 **** Can we understand the relationships between these different groups & projects?
