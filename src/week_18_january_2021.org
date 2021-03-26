@@ -1,4 +1,4 @@
-#+title: Week 18 January 2021
+#+TITLE: Week 18 January 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
 #+DATE_CREATED: <2021-01-20 Wed>

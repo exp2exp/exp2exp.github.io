@@ -1,4 +1,4 @@
-#+title: Agent model
+#+TITLE: Agent model
 #+roam_tags: HD
 
 One of our central intentions is to instantiate our work in an agent

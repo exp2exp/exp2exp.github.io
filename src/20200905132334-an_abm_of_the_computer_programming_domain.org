@@ -1,4 +1,4 @@
-#+title: An ABM of the computer programming domain
+#+TITLE: An ABM of the computer programming domain
 #+roam_tags: RO
 
 This would be a paper writing up our agent model work.

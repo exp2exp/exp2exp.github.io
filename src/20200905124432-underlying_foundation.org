@@ -1,4 +1,4 @@
-#+title: Underlying foundation
+#+TITLE: Underlying foundation
 #+roam_tags: HL
 
 We believe that category-theoretic foundations will help us make

@@ -1,4 +1,4 @@
-#+title: Wiki
+#+TITLE: Wiki
 #+roam_tags: OTS AN
 #+CATEGORY: OTS
 

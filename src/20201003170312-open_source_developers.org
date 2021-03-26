@@ -1,4 +1,4 @@
-#+title: Scientific software developers
+#+TITLE: Scientific software developers
 #+roam_tags: SH AN
 
 We imagine some software developers consuming “tutorial” content we

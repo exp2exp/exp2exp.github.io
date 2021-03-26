@@ -1,4 +1,4 @@
-#+Title: Experience Report: Steps to "Emacs Hyper Notebooks"
+#+TITLE: Experience Report: Steps to "Emacs Hyper Notebooks"
 #+Author: Joseph Corneli, Raymond Puzio, and Cameron Ray Smith
 #+Date: 10 minute talk for EmacsConf 2020 (28 Nov 2020)
 #+OPTIONS: toc:nil

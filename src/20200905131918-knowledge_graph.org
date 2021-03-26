@@ -1,4 +1,4 @@
-#+title: Knowledge graph
+#+TITLE: Knowledge graph
 #+roam_tags: LRD
 #+CATEGORY: KRR
 

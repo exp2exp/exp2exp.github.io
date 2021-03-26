@@ -1,4 +1,4 @@
-#+title: Category theoretic glue
+#+TITLE: Category theoretic glue
 #+roam_tags: CDN
 #+CATEGORY: MATH
 

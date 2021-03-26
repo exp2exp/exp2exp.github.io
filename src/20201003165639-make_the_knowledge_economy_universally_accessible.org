@@ -1,4 +1,4 @@
-#+title: Make the knowledge economy universally accessible
+#+TITLE: Make the knowledge economy universally accessible
 
 Our main goal is to make the knowledge economy accessible to anyone.
 

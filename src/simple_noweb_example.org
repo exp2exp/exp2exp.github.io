@@ -1,4 +1,4 @@
-#+title: Simple Noweb Example
+#+TITLE: Simple Noweb Example
 
 
 #+name: block-1

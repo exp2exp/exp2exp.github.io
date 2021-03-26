@@ -1,4 +1,4 @@
-#+title: Grant development
+#+TITLE: Grant development
 #+CATEGORY: BUSINESS
 
 One way to do [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]] could be through grant development

@@ -1,4 +1,4 @@
-#+title: Consulting clients
+#+TITLE: Consulting clients
 #+roam_tags: SH AN
 
 We discussed the idea of doing consulting for clients who are

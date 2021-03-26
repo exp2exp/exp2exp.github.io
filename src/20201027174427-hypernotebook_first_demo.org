@@ -1,4 +1,4 @@
-#+title: Hypernotebook First Demo
+#+TITLE: Hypernotebook First Demo
 
 First demo notes will go here.
 

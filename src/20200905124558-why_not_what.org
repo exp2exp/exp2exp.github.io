@@ -1,4 +1,4 @@
-#+title: Why not what
+#+TITLE: Why not what
 #+roam_tags: HL
 
 Our purpose:

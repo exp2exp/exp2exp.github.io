@@ -1,4 +1,4 @@
-#+title: Emacs and Org Mode
+#+TITLE: Emacs and Org Mode
 
 We have been looking at Emacs and Org Mode, along with other tools for
 researchers and knowledge workers.

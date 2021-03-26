@@ -1,4 +1,4 @@
-#+title: Emacs Hyper Notebook
+#+TITLE: Emacs Hyper Notebook
 #+roam_tags: CDN
 #+CATEGORY: DEV
 

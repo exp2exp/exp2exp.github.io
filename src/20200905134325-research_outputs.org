@@ -1,4 +1,4 @@
-#+title: RESEARCH OUTPUTS
+#+TITLE: RESEARCH OUTPUTS
 #+roam_tags: HL
 
 We would like to publish some papers, though as Deyan points out we

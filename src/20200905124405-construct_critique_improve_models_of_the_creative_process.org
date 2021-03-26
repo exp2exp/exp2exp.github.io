@@ -1,4 +1,4 @@
-#+title: Construct, critique, improve models of the creative process
+#+TITLE: Construct, critique, improve models of the creative process
 #+roam_tags: HL
 
 We want tools and processes for working with models, with a particular

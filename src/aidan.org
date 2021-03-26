@@ -1,4 +1,4 @@
-#+title: AIDAN
+#+TITLE: AIDAN
 
 Joe is facilitating the AI and Data Analysis Network at Oxford
 Brookes.  Here are some very rough bullet points that might be

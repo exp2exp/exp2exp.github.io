@@ -1,4 +1,4 @@
-#+title: Recommender System
+#+TITLE: Recommender System
 #+roam_tags: LRD
 #+CATEGORY: ML
 

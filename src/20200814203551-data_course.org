@@ -1,4 +1,4 @@
-#+title: Data course
+#+TITLE: Data course
 #+roam_tags: LRD
 
 There's a new book available from the group affiliated with STAN.  It

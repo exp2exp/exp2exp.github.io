@@ -1,4 +1,4 @@
-#+title: BUSINESS DEVELOPMENT
+#+TITLE: BUSINESS DEVELOPMENT
 #+roam_tags: HL
 
 * Relationship to purpose

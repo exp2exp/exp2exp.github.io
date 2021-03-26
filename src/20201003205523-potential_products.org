@@ -1,4 +1,4 @@
-#+title: POTENTIAL PRODUCTS
+#+TITLE: POTENTIAL PRODUCTS
 #+roam_tags: HL
 
 Synthesis of some of our /projects/ could lead to marketable /products/.

@@ -1,4 +1,4 @@
-#+title: Code sharing platform
+#+TITLE: Code sharing platform
 #+roam_tags: OTS AN
 #+CATEGORY: OTS
 

@@ -1,4 +1,4 @@
-#+title: Forum
+#+TITLE: Forum
 #+roam_tags: OTS AN
 #+CATEGORY: OTS
 

@@ -1,4 +1,4 @@
-#+title: Upstream
+#+TITLE: Upstream
 
 This is a place to keep track of the upstream tickets we’re interested
 in.  Our ability to resolve some of these issues might suggest that we

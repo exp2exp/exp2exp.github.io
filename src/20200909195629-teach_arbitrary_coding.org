@@ -1,4 +1,4 @@
-#+title: Teach arbitrary coding
+#+TITLE: Teach arbitrary coding
 #+roam_tags: LRD
 
 This would be an abstraction over teaching basic programming and

@@ -1,4 +1,4 @@
-#+title: Arxana
+#+TITLE: Arxana
 
 Now that we’ve gotten quite familiar with Org Mode things, it could be
 good to revisit our work with Arxana and see what it might have to

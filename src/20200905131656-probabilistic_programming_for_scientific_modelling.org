@@ -1,4 +1,4 @@
-#+title: Probabilistic programming for scientific modelling
+#+TITLE: Probabilistic programming for scientific modelling
 #+roam_tags: HD
 #+CATEGORY: MATH
 

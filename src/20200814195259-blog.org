@@ -1,4 +1,4 @@
-#+title: Blog
+#+TITLE: Blog
 #+roam_tags: OTS AN
 #+CATEGORY: BLOG
 

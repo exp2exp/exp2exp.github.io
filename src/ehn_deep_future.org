@@ -1,4 +1,4 @@
-#+title: EHN deep future
+#+TITLE: EHN deep future
 #+CATEGORY: EHN
 
 * Appendix I

@@ -1,4 +1,4 @@
-#+title: Peeragogy in Action PAR, [2021-03-12 Fri]
+#+TITLE: Peeragogy in Action PAR, [2021-03-12 Fri]
 #+authors: Joe Corneli, Leo Vivier, Charlotte Pierce, Jerry Michalski, Peter Kaminski
 
 * Pete is sharing an image

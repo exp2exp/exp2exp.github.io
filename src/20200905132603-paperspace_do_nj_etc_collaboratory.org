@@ -1,4 +1,4 @@
-#+title: Paperspace DO NJ etc. Collaboratory
+#+TITLE: Paperspace DO NJ etc. Collaboratory
 #+roam_tags: LRD
 
 This would be a potential user-facing product in which we could deploy

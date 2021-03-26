@@ -1,4 +1,4 @@
-#+title: Possible student projects
+#+TITLE: Possible student projects
 
 * Co-editing a shared "second brain"
 
