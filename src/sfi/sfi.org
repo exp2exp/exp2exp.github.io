@@ -1,4 +1,4 @@
-#+title: Joe’s Santa Fe Institute proposal (Redux)
+#+TITLE: Joe’s Santa Fe Institute proposal (Redux)
 #+roam_tags: HL AN
 #+CATEGORY: PERS
 

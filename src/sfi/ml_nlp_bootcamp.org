@@ -1,4 +1,4 @@
-#+title: ML/NLP bootcamp
+#+TITLE: ML/NLP bootcamp
 
 I got some insights from both Tim and Deyan about what is directly
 possible to do with existing tools.  We didn’t yet progress beyond

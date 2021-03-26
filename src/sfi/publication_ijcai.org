@@ -1,4 +1,4 @@
-#+title: Publication: IJCAI
+#+TITLE: Publication: IJCAI
 
 If some of the foregoing ideas “worked” then we would presumably have
 some nice things to write up for a publication.  In fact, a bunch of

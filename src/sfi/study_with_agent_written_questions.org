@@ -1,4 +1,4 @@
-#+title: Study with agent-written questions
+#+TITLE: Study with agent-written questions
 
 Can agents come up with questions to ask about a given question that
 break it down into more do-able components?  Can we gain leverage by

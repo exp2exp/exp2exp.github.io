@@ -1,4 +1,4 @@
-#+title: Initial ML baseline, e.g., match Q-A
+#+TITLE: Initial ML baseline, e.g., match Q-A
 
 This remains a pretty straightforwardly “doable” task if we were to
 get things loaded up.  After taking a stab at things within the the

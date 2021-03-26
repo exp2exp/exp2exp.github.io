@@ -1,4 +1,4 @@
-#+title: Agent modelling and sandbox setup
+#+TITLE: Agent modelling and sandbox setup
 
 This seems to be the main outcome of the Active Inference bootcamp.
 

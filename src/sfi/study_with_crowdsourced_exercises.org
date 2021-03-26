@@ -1,4 +1,4 @@
-#+title: Study with crowdsourced exercises
+#+TITLE: Study with crowdsourced exercises
 
 “Crowdsourced reading comprehension questions and simple exercises
 derived from existing Q&A would provide a further route to

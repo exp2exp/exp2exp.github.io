@@ -1,4 +1,4 @@
-#+title: Process model analysis
+#+TITLE: Process model analysis
 
 This is about making a model of the process of programming, per
 Monocl, which I think we’ve been starting to understand a bit better

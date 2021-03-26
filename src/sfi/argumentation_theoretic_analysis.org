@@ -1,4 +1,4 @@
-#+title: Argumentation-theoretic analysis
+#+TITLE: Argumentation-theoretic analysis
 
 I’ve started to look at some of the Q&A items to see whether there’s
 anything there we can extract.

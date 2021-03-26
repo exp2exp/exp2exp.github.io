@@ -1,4 +1,4 @@
-#+title: Gather data via Stack Exchange APIs
+#+TITLE: Gather data via Stack Exchange APIs
 
 This is just a matter of downloading the data in bulk.  We’ve also seen that some of the data is available in a bulk download. Tim did some work to load it into a machine learning framework.
 

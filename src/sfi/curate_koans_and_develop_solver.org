@@ -1,4 +1,4 @@
-#+title: Curate koans and develop solver
+#+TITLE: Curate koans and develop solver
 
 The first part seems relatively straightforward: we already have
 questions available from sites like 4Clojure.  But the solver hasn’t
