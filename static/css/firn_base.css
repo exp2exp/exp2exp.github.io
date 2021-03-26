@@ -27,8 +27,7 @@
   --color-shadow: #f4f4f4;
   --color-text: #444;
   --color-text-secondary: #999;
-  --font-family: "Arial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-family: 'Ubuntu', sans-serif;
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
@@ -129,14 +128,22 @@ details summary {
   padding: 0 8px;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: 'Ubuntu Condensed', sans-serif;
   line-height: var(--line-height);
   margin: 1em 0;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 200%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: var(--line-height);
+    margin: 1em 0;
 }
 
 mark {
@@ -618,7 +625,7 @@ div.table-wrapper {
 }
 
 code, pre > code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;;
     font-size: 1.0rem;
     line-height: 1.42;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
