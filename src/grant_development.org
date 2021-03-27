@@ -44,5 +44,6 @@ of what we did in the FARM paper.  We discussed the advant
 ** Maybe we could move in another more formal (category theoretic) direction
 Maybe we could build out some of the ideas that Zans and Ray have been
 discussing. Potentially this could also involve
-* STARTED [#A] Outline(s) for small grants                             :joe:
-* STARTED [#A] Sort out details of letters of support, partners        :joe:
+* STARTED Outline(s) for small grants                                  :joe:
+** DONE [#A] Send info to Topos asking them whether they want to be Project Partners :joe: 
+** STARTED [#A] Revise Academic Beneficiaries part of draft            :joe:
