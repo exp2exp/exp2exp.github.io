@@ -1,0 +1,21 @@
+#+TITLE: After Hours
+
+Welcome to Hyperreal Enterprises Limited — After Hours.
+
+We have available the following “rooms” in which we will do some
+immersive theater.
+
+[[https://discord.com/channels/744955057279074386/818973350944309278/819719435044257792][#atrium]]
+
+[[https://discord.com/channels/744955057279074386/818977604638998618/820290519779115050][#billboard]]
+
+[[https://discord.com/channels/744955057279074386/818973611238752256/820081598396366889][#boardroom]]
+
+[[https://discord.com/channels/744955057279074386/818980311987126293/820316583712391188][#erg-office]]
+
+[[https://discord.com/channels/744955057279074386/821008589182205952/821009083586314350][#forum]]
+
+We also have an audio channel where we can confer with each other.
+
+[[https://discord.com/channels/744955057279074386/818973385249652737][🔊forum]]
+
