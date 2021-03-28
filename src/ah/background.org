@@ -1,4 +1,4 @@
-#+title: Background
+#+TITLE: Background
 
 * Nourse
 ** Mobility difficulty
