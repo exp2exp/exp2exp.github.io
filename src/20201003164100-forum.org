@@ -27,7 +27,6 @@ the \LaTeX\nbsp{}export is controlled by
 *************** END
 
 * FROZEN What might our summarisation workflow look like?              :ALL:
-
 Since we’re pretty actively updating our *Discord* and pretty happy
 using it, maybe people who are working on Active Projects would be
 willing to summarise on the wiki, say, weekly?  And contribute to a

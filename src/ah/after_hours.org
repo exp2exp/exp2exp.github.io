@@ -1,0 +1,50 @@
+#+TITLE: After Hours
+
+Welcome to Hyperreal Enterprises After Hours.
+
+We have available the following “rooms” in which we will do some immersive theater.
+
+- https://etherpad.wikimedia.org/p/after-hours-hospital
+- https://etherpad.wikimedia.org/p/after-hours-city
+- https://etherpad.wikimedia.org/p/after-hours-home
+
+(We can create more as necessary.) We’ll have an audio channel where we can confer with each other.
+
+* Rough Guide to “Building a Better Conversation” (BBC)
+
+We will adapt a version of these as our game mechanics for the session.
+
+1. Each player uses an independently constructed deck of 100 or fewer cards; each card can contain any information whatsoever (typically they will include a TITLE).
+2. Players start with 5 cards in their hand, and play one card each turn, drawing one new card at the end of each turn (when the draw pile is depleted, play continues with the cards in hand).
+3. A card is either played face up and remains in play for the rest of the game, or discarded, face down, to the player’s personal discard pile.
+4. When playing a card face up, the player must state the card’s interpretation within the current game; essentially, why it is being played.
+5. Every play should relate to at least one previously played card, continuing and adding to the discourse.
+6. Blank cards drawn from the deck can be converted to non-blank cards on-the-fly, then played.
+7. Play ends either when all of the players discard in succession, or one of the players can not play because of being out of cards.
+
+* Scenario
+
+It has been a couple of decades since a major PANDEMIC faded away.
+The disease was extremely deadly, and there were some complications
+around the roll-out of the vaccine.  However, everyone now has access
+to free medical care.  Nevertheless, because of ongoing concerns about
+overpopulation and associated environmental degradation, people are
+encouraged to have no more than one child.  Advancements in medical
+technology mean that people tend to live longer.  Partly due to
+population pressures on earth, humans are starting to colonise Mars
+and to mine asteroids.  However, this work is considered to be
+extremely dangerous.
+
+BILL is a medical doctor specialising in synthetic biology.  He used
+to have a club foot and went by the nick-name BILLY THE GIMP.  That
+was a long time ago.  His foot has been repaired with surgery, leaving
+only a slight limp.
+
+MOLLY is Bill’s spouse and also his colleague at the hospital.  She
+used to be a nurse but is now a senior biomedical researcher.
+
+JOHN LONG is a retired doctor who MOLLY and BILL both used to work for
+a long time ago, in somewhat different capacities.
+
+Our protagonists, Molly and Bill — in keeping with the social mores of
+the world they live in — have decided not to have children.
