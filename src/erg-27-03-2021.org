@@ -1,0 +1,193 @@
+#+TITLE: 27 March 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-03-13 Saturday>
+
+* 27 March 2021 — Emacs Research Group
+
+* Check-ins                                                             :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Noorah
+- [[https://ohmyveggies.com/recipe-broccoli-parmesan-meatballs/][Broccoli meatballs!]] (but taste more like falafel)
+- Had a tryst with R-studio (how dare she?)
+- Didn’t do much with Emacs other than writing
+- R Studio good for creating websites and exporting to Word (useful for Noorah’s students who use the Word ecosystem)
+- How to port back ‘track changes’ into Markdown? pandoc doesn’t do this
+- Critic Markup is easier to apply
+** Joe
+- Leo helped Org mode setup and I want to demo briefly
+- Alex in #alex-msc channel, might join here to give new user perspective sometime
+** Raymond
+- Discussion of open source
+- Depending on the context, OSS is important but so is open source, schematics, standards
+- OSS makes sense at the level at which you’re coding (then you also need access to interact with the system!)
+- Unfair competition / unfair to lock people out
+- Maybe obstacles to entry are similar
+- Has been interested in 2x 2hr sessions on technical and social sessions...
+** Leo
+- Finished an EmacsConf session, now using
+- Very tired, but happy this morning due to some online shopping, and glad to talk with Emacs Conf team about RMS stuff
+- Basically at capacity for this
+- Has someone paying him for tutoring on Emacs, this will bridge to the kickstarter and point in the direction he wants to go
+- Helps envision a level of funding for Kickstarter that can provid tutoring (with markup, e.g., €2K for 10 hours of coaching)
+- ‘User support’ could be another part? — Less systematic but still useful? w/o structured path
+- Internal deadline 5th of April?
+
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda
+** JC: Alex’s induction into Emacs and other demo stuff                :20m:
+- JC is excited because he finally got around to refactoring his configuration as a literal config in org-mode
+- RStudio + Word comparison with Emacs
+- Alex might be a good person to be discussing R-Studio with
+- Interoperability and ability to translate... E.g. between /R Markdown/ and /Org Mode/ — ways to go but it would be cool!
+- R Markdown has slightly different code chunk
+- Understanding what to do with DONE tasks when they are done... I don’t have this yet — use ‘date tree’? Or...?
+- Thanks for the peer support around Org Mode!
+ - RSP: my use has been buried inside Logseq
+ - How could we extend Logseq? — Who uses this and what are the priorities?
+ - "Like a wiki on the web but with limited $\LaTeX$"
+
+** LV: Coming up with a calendar of people to invite                    :15m:
+*** List of potential guests                                         :list:
+**** Alex (HyperReal)
+**** Mark Dawson (M-x Research, again)
+- Interested in improving M-x Research
+**** Qiantan (CRDT, again)
+**** John Kitchin (Kitchin group)
+**** OGM folks: Jerry and/or Pete (design c/o The Brain poweruser perspective)
+**** Logseq folks
+**** Tyler (Firn)
+**** Charlie (peeragogy, again)
+**** Deb Nicholson (OSI)
+**** Adam Porter (alphapapa)
+**** Wendy Ross / Samantha Copeland (Serendipity)
+***** They’re interested in how research happens in a humanistic approach
+***** ‘How research happens’ could be a glue for other groups
+**** Brian Darcus (CSL, i.e. Citation Syntax Language; present on the org-roam discourse)
+**** Cameron Ray Smith on bibliography stuff (plus maybe Logseq user experience?)
+*** What about making some things public?
+**** ‘Series 2’ becoming public sometime?
+- Following a session to debrief
+- If we wanted to livestream that’s another level: this could bring us to a wider group
+- Maybe a lower-key thing like fielding the video, and have a ‘launch’ after a while
+- Easiest is just recording the session and releasing it
+- /Producer/ in EmacsConf team could help, also good to have good streaming platform
+- Could do less or more often
+- None of us wants to do video editing, but it would make it awesome (see ML Street Talk for production values!)
+*** Calendar
+**** [2021-04-03 Sat]
+***** Alex?
+**** [2021-04-10 Sat]
+***** Mark Dawson?
+**** [2021-04-17 Sat]
+**** [2021-04-24 Sat]
+
+** LV: Org-mode tutoring                                                :5m:
+- Context: Sacha got Leo in touch w/ someone who initially wanted 6 hours but now it’s weekly
+- He’s ex-Apple, currently working in security sector, interested in automation
+- Consultant side being mobilised
+- Next week he’s taking a break
+- 5 hrs/wk, €100/hr
+- On board with both tutoring and development (+ merging) of functionality
+- Endorsement for the Kickstarter coming along
+- Possibly more people coming along
+- It’s not too far from some business models we discussed w/ Hyperreal last year (though this is clearly a bit of a windfall)
+- Luck & jumping on the opportunity simultaneously? (metal detector metaphor)
+
+*** JC: An interesting ‘persona’
+- [[https://www.brafton.co.uk/blog/strategy/persona-examples-from-around-the-web-and-why-they-work/][Example]]
+
+** NA: Work with R-studio                                              :10m:
+- Chapter developing on a Github organisation
+- Documents split into sections
+- Each Rmd file is a section, each with a separate angle
+- Uses Bookdown
+- If you go to =index.Rmd= it knits the sections all into one
+- There’s an MS Windows template, everything nicely goes in
+- Chicago style references
+- Zotero has the bib items in it
+- Noorah has a BetterBibtex plugin
+- Inside of R Markdown, you can put in a CSL file
+ - LV: The developer of CSL is an Org Roam user
+ - RSP: Cameron is now (after some time with Mendeley) trying out PaperPile
+ - Dropbox makes sense here
+- JC: Would be nice to get some citations into our shared work 
+- With Zotero: uncheck ‘file syncing’ so you don’t have to pay them
+- Bibtex keys show up as =[@CITATIONKEY]= — they show up in footnotes; if you used author/year you can have citep 
+- Specify bibliography in the YAML
+- You can also suppress the bibliography with another key
+- There’s an ‘insert citations’ GUI tool inside R Markdown
+- Track Changes export / intercompatibility remains a challenge
+- Editing DOCX in Emacs isn’t currently possible
+
+*** Leo: we can do the same in Emacs
+- We need to get design documents on this experience
+- You’ve shown completion, but we do this with Helm Bibtex
+- If the problem now is the window and the layout... that’s 30 minutes!
+- If we have people doing research in nat sci and soc sci, then we’re building something that people in the real world are using
+- NA: If you’re dealing with 8K citations, are you organising them by themes? Sections? Mendeley themes...
+- “Md Roam” already exists; would be a small jump to support R Markdown mode; get in touch with Nobiot (org-roam Discourse)
+- Once people are comfortable maybe we could bridge to Org Mode
+
+
+*** BTW Also some related Emacs packages
+#+begin_src
+  zotelo 20160602.949   available    melpa    Manage Zotero collections from emacs
+  zotxt  20210222.347   available    melpa    Tools to integrate emacs with Zotero via the zotxt plugin.
+#+end_src
+
+** JC: Grant WIP                                                        :15m:
+- Quick report
+- person days vs working days
+- Next hurdle is soon
+- Subsequent panel in July
+
+* PAR                                                                   :15m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Come back together after a couple weeks out; catchup
+*** 2. Establish what is happening: what and how are we learning?
+- Longer check in this time
+- We’ll have Ray on this time!
+- It evolved organically in a more unstructured session
+*** 3. What are some different perspectives on what’s happening?
+- It was nice to catch up
+- Emacs gauntlet has been thrown down! The R Markdown affair may come to an end...?
+- RSP: Both Noorah and I have been bringing in experiences of how this relates to research with other collaborators (incl. their use of other platforms)
+- NA: Continuing on the goal of ‘how to do collaborative research’ — e.g. switching formats to minimise information loss, incorporating comments on Word and incorporating them
+- RSP: This is also the case in Peeragogy (using Overleaf w/ minimal pushback)
+- There can be very different expectations about how collaborations go
+- Let’s treasure these things for the CLA
+*** 4. What did we learn or change?
+- A lot of interesting topics came up that we didn’t know about at the beginning
+- Got in some planning for more structured sessions with guests
+*** 5. What else should we change going forward?
+- CLA for next week, breaking down text into doable tasks?
+- Leo can demo commands for splitting tasks, GTD style!
+- Try to keep things to 1h30m in future?
+- Maybe useful to look at Lisa’s interview to think about structured data gathering method
+
+* Check-out (exceptional or not)
+
+** RSP
+- Found this quite useful, pleasantly happy about the different topics that came in relating different topics, e.g., relating to ongoing work with bibliography
+** JC
+- Hungry again.
+- Reserved the new house, so, from April 1, probably wont’ be too available
+- Lot of change going on.
+- Always happy with those meetings.
+** NA
+- Off for lunch next!
+- Great seeing you guys, interested in Joe’s Org Agenda for future 
+** LV
+- GC problems IRL
+- But did clean up his email inbox!
