@@ -22,7 +22,7 @@ We will adapt a version of these as our game mechanics for the session.
 6. Blank cards drawn from the deck can be converted to non-blank cards on-the-fly, then played.
 7. Play ends either when all of the players discard in succession, or one of the players can not play because of being out of cards.
 
-* Scenario
+* Scenario 28 March 2021
 
 It has been a couple of decades since a major PANDEMIC faded away.
 The disease was extremely deadly, and there were some complications
@@ -48,3 +48,5 @@ a long time ago, in somewhat different capacities.
 
 Our protagonists, Molly and Bill — in keeping with the social mores of
 the world they live in — have decided not to have children.
+
+- [[file:story.org][BBC 28 March 2021]]
