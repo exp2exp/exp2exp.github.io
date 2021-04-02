@@ -10,3 +10,11 @@
 - [[https://peeragogy.org/][Peeragogy Handbook (v3) on Peeragogy.org]]
 - [[https://docs.google.com/document/d/1yqA81IJsjZHSflMtMgoYE1yIA3GBrtSIztW9Obcd33I/edit#][Peeragogy Handbook (v3): Augment Reading Group Edition]]
 - [[https://github.com/PeeragogyLabs/PeeragogyORG/blob/main/src/top.org#peeragogy][Developing outline of Peeragogy Handbook (v4)]]
+
+* Next steps
+
+- Calendar of events
+- Direct people who register interest someplace where they can talk with each other
+- Decide whether we want to offer recurring 1 hour intro workshop to people who sign up
+- Decide whether we want to prepare ‘a syllabus’ or if it will be made by course participants
+- ...
