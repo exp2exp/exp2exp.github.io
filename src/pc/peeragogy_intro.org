@@ -1,0 +1,12 @@
+#+TITLE: List of resources related to the Peeragogy Course
+
+- [[https://groups.google.com/g/peeragogy/c/MuOajHokGho/m/lZlEqcZwAwAJ][Howard Rheingold’s invitation]]
+- [[https://forms.gle/PEuPYVtjwPPybd1m6][Sign up form for the course]]
+- [[https://docs.google.com/document/d/1jNI9hzXvS0PmfOnHnMogMEr50ElP4eAwwKtjzTVwVqc/edit][One hour workshop plan]]
+- [[https://docs.google.com/document/d/19YlAWtzE3bysMdtYIrYoVEaf0LRj8YEYOfA-5G59bSU/edit][Three week workshop sketch]]
+- [[https://hackmd.io/zEY9rv5QR3O9JFl4jVCYFw?view#New-content-Peeragogical-Innovations-9-week-pilot][Nine week pilot course]]
+- [[https://docs.google.com/document/d/1YSMrQEhTpyrLuAgaJ_4OlCD1PsI4E1kK910Wk0P5RW8/edit][Thirteen week course outline]]
+- [[https://docs.google.com/document/d/1h5O9SSEDeXYQSpiexZUDsiUVwqDgqE1lI4itp8qT6ko/edit#heading=h.5r5ujccq2ck4][Thirteen week course outline: earlier version]]
+- [[https://peeragogy.org/][Peeragogy Handbook (v3) on Peeragogy.org]]
+- [[https://docs.google.com/document/d/1yqA81IJsjZHSflMtMgoYE1yIA3GBrtSIztW9Obcd33I/edit#][Peeragogy Handbook (v3): Augment Reading Group Edition]]
+- [[https://github.com/PeeragogyLabs/PeeragogyORG/blob/main/src/top.org#peeragogy][Developing outline of Peeragogy Handbook (v4)]]
