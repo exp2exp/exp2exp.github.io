@@ -198,20 +198,22 @@ $$\int \text{exp}(x) \, dx$$
 
 ** ‘Thaw’
 
-: *** Special TODO states per file 
-: *** Maybe also need effort estimates
-: *** And will need various agendas per the different Emacs things 
-: *** DONE
-: *** TODAY
-: *** STARTED
-: *** TODO
-: *** BLOCKED
-: *** BACKBURNER
-: *** FROZEN
-: *** DEFERRED
-: *** BACK
-: *** WONTFIX
+- Special TODO states per file 
+- Maybe also need effort estimates
+- And will need various agendas per the different Emacs things 
 
+#+begin_src 
+DONE      
+TODAY     
+STARTED   
+TODO      
+BLOCKED   
+BACKBURNER
+FROZEN    
+DEFERRED  
+BACK      
+WONTFIX   
+#+end_src
 
 * Check-out (exceptional or not)
 
