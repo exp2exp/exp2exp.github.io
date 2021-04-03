@@ -1,0 +1,213 @@
+#+TITLE: 03 April 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-04-03 Saturday>
+
+* 03 April 2021 — Emacs Research Group
+
+We’ll be using the FOSS Host BBB. This allows recording, and we are in full.
+- We might ask them someday about their setup
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+- Busy with biology stuff, finishing things for that, Easter is tomorrow
+- Cameron said he’d like to join but he has too many jobs right now
+- Schedule is a bit crammed (peeragogy projects)
+- 1 hour today;
+** Noora
+- Got 2nd vaccine shot on Monday, no side effects, just working all week after that
+- Found a second committee member, need a 3rd one in the department, and 4th outside, and 1 external
+- Have some people in mind after previous meetings, need some quant-heavy people to support modelling
+** Leo
+- Busy week, even though it was a holiday
+- Today was packed, met with Tarsius (Magit), then Emacs Conf, now ERG
+- Lots of progress on crowdfunding, some info later (10m)
+- Feeling good, next week 1°C or so with snow in France
+** Joe
+- 2 calls family and Charlie call about peeragogy (Charlie will be extra busy next 2 or 3 months)
+- Using Org Mode
+- News: I’m in Oxford, you’re invited for next time you’re in town
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda
+** Thinking Time                                                       :15m:
+- We were going to look at CLA
+- We had written a prose thing and I thought we could turn it into some todo items?
+- Tyler (Firn guy) is making a nice TODO tracker in Firn — maybe invite him?
+- Joe found a bibliography tool
+*** Infrastructure stuff
+- Thought: Peeragogy and authoring, *Logseq* + *Org Roam → *Firn *LaTeXML*
+- Nice setting for people to use, we could use something similar with the biology
+- Org Mode has nice TeX export, and nice inline expressions
+- We could use Emacs running on the server to just do the rendering
+$$\int \text{exp}(x) \, dx$$
+- Fragtog — could it Org Mode create /HTML with the SVGs/ inside?
+- LaTeXML, MathJaX — they don’t currently do commutative diagrams.
+- What could we use in the meanwhile?
+- We know that LaTeX can do everything!
+- Deyan on BibLaTeX in LaTeXML: ticket has been open since 2013.
+- Replacement for ShareLaTeX
+** Logseq demo                                                         :30m:
+*** This demo is private for us!
+- Where did the outlice come from? It’s manual this time.
+- Bibliography items are similarly cut-and-pasted
+- Control-Enter to cycle through LATER, NEXT, DONE states which show up in squares
+ - Maybe these things are configurable in the =.edn= file
+- It’s nice that it’s block based (similar to Authorea solution which prevents problems with simultaneous editing)
+- There’s a little (?) icon that gives hints
+- LaTeX formulas are formatted with KaTeX or MathJaX? 
+- =\[= won’t indent but =$$= does indent (even though in LaTeX they are supposed to be the same thing); =$$= is a macro in TeX
+ - Maybe changing this is a 30 minute fix for a competent developer with this codebase
+- Otherwise they are limited, and it can get confused — but it can do some reasonably intensive things (e.g., in the methods of characteristics page)
+- =\begin{aligned}= versus =\begin{align}= which is what we would expect
+- With the SVG solution you could be guaranteed that it produces TeX
+- Users are excited to jump on the ship but there’s so much that seems under-cooked
+- Worth looking to see whether the relevant parts are open source...
+ - Parts are being closed ‘for security reasons’
+- Permissions are given for the Logseq app to access your selected repository
+*** Useful because
+- Can use it in any computer
+- And it’s an overlay on a git repo
+- It automatically commits and merges things intelligent — which is a big advantage
+- It will ask you if both people edit in exactly the same place
+- It does this after leaving each block
+*** Weaknesses
+- TeX support
+- Security business... or is this just an approach to financial security?
+*** Review
+- Reusing many existing open source software (maybe some GPL), LaTeXML, Org Mode parser, etc.
+- Still miles away from what we /could/ be doing
+- Like: it displays it as an interlinked thing
+- It’s easy to store on top of Git (no database)
+- Does a reasonably good job of resolving conflicts
+- Block editing
+*** Response
+- We’d be happy with these features with any platform!
+- So do take notes of what’s working, not working
+- It needs to be an effort that’s well-coordinated:
+- Org-element needs to be externalised
+ - So that efficient parsers in Rust or whatever can do this
+- The reason this is essential is I want to do things well from the get-go
+- ‘I’ could write a /decent/ Org Mode parser, but want something that will last
+- Why do we need one in Rust?  We have one in Emacs; couldn’t it do all the parsing?
+- Yes, LISP does it well, but it’s hard to parallelise.
+- It’s easier to externalise this than implement threading (so, port to Common Lisp? Clojure?)
+- Short term: maybe having Emacs as the intermediary server could work!
+ - The problems with these methods, though, is that we might resort to shortcuts
+- What about just accessing Emacs like via TMUX? You can type, you get bindings and such
+ - Yes, I’d love this!
+ - Keybindings C-c, C-n
+ - How to handle pictures?
+ - How to handle synchronisation?
+- You can do this with Bravo...
+- Or don’t ask them to install anything, turn off all the keybindings
+- CUA mode, CRDT, category theory diagrams
+- Hacker Andy — side-by-side windows does exist
+- There is demand even for easy solutions...
+- 3.3k
+*** We don’t know if Emacs is the obstacle until we ask, e.g., Ximo
+- Now at least we know what the conflicts are
+- What are different needs, time-constraints, how much we can deal with
+** Catch up on Leo’s Crowdfunding                                      :15m:
+*** Overflow from the Logseq demo
+- If it takes a year to externalise the Org Mode parser, what will people do in the meanwhile?
+- What about just getting a clone of Logseq that 
+- Worried about the potatoes vs the gravy on top
+- Emacs in the browser is a disagreement between Ray and Leo?
+- The web is the way of the future... or is it?  The web stifles our ability for design!
+- This isn’t just about Org mode, it’s about Emacs at large
+- That said, if we had an external parser we could have an external interface to Emacs
+- Is there something that has both long-term and something that works today?
+- NA: I get it about making something inclusive, having this be an easy interface
+- Co-authors won’t work with anything that takes work
+- LV: I know people who can implement this in the web... but you need to find a way to justify it, and they will want to do it intelligently
+- This is similar to the ‘uncanny valley’ but here it’s the opposite: Anything that’s not 95% complete, whatever the missing 5% is, it will seem to be utter shite
+- “I need this in my workflow” people will see only the missing things
+- “I need to have my paper in a journal, and I need to have commutative diagrams in it”
+ - Either find developers like Joe who are willing to implement short-term solutions
+ - Or find whatever solution that works in the short term
+ - BUT then let’s have a comprehensive plan
+- Cameron, Ximo, and Ray are using Overleaf — but this forces everything to be a draft of a paper
+*** Logseq is frustrating though
+- LV: The conventions around payment piss me off
+- What I’m saying is not “use other tools” 
+ - I need stories of software that work, software that doesn’t work
+ - I’ll distill these and develop things
+ - I’d love to start working on this now, but I can’t justify to do it like this
+ - Org mode has been there 15 years, all attempts to get it into the web have been sub-par
+*** Short recap of the day’s activity
+- Fun 2 hour talk with Tarsius
+- Convinced him to join EmacsConf
+- Decided not to use Kickstarter b/c it takes too much of a cut
+  - (PayPal and other platforms better)
+  - Need to direct people to these things
+  - Do a 30 day campaign, publishing things, going to user group channels
+  - Rather than trying to bank €40K, instead aim for €2K/month directly
+- Tarsius wanted a figure (see the bar getting filled)
+- Try to find a way to account for, e.g., Paypal, just divide donations by 12 to get the figure
+- Ask friends, package maintainers, and such to pitch in
+- And don’t need to aim for a high figure
+- Also got confirmation from Etalab that will get paid for the 80% of the contract he’s done already
+- So, €6K after tax...
+- Depending on how to come up the monthly thing... if I get <1500, will need a side job
+- If I get >2500, then this is the main job
+- Can make the coaching thing a perk
+- Can start with a progress bar
+- Won’t have as much visibility, but should hopefully be able to get towards something sustainable
+- And you’ll get visibility later
+** Meta
+- LV: French accent increases when I don’t breathe
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Intended to be here!
+- We’re still here even though we’re busy with other things!
+*** 2. Establish what is happening: what and how are we learning?
+- Leo’s had more than 5 hours of Org and Emacs activities and is pretty saturated
+- When you see others haven’t made it to this baseline...
+*** 3. What are some different perspectives on what’s happening?
+- LV: Feels like the discussion with Ray silenced Noorah?
+- Maybe not so much sunshine today
+- Deadlines are creeping up...
+- We all have deadlines coming up
+*** 4. What did we learn or change?
+- JC: I was happy to see Ray’s use of Logseq
+- We also managed to describe some of the real-world conflicts depending on the users
+*** 5. What else should we change going forward?
+- New user on Noorah’s Windows machine called “Dissertation”
+- User stories will be interesting to see (‘Black and White’)
+- Bibliographies, demo of Dissertation user, a longer thing for next time
+- Noorah will have time to prep this
+- Joe could maybe do a little prep on the CLA paragraph
+- Make a template, erg-push-button solution would be nice (20 minute job)
+
+#+begin_src org
+** ‘Thaw’
+*** Special TODO states per file 
+*** DONE
+*** TODAY
+*** STARTED
+*** TODO
+*** BLOCKED
+*** BACKBURNER
+*** FROZEN
+*** DEFERRED
+*** BACK
+*** WONTFIX
+#+end_src
+
+* Check-out (exceptional or not)
+
+** RSP
+** JC
+** NA
+** LV
