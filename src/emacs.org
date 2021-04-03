@@ -71,9 +71,9 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 ** STARTED [#A] Figure out whether it’s possible to get another column in the default Org Agenda, showing the /directory/
 - See Joe’s configuration file: [[file:~/.emacs.d/settings.org::*Org Roam: Library, Scrum board][Org Roam: Library, Scrum board]] → fontify-agenda
 - ‘Breadcrumbs’, push everything back but
-** TODO [#A] Debug the color-coding of lines
+** BACK Debug the color-coding of lines
 - Don’t do filtering before sorting... ask Leo for help with this
-** TODO [#A] Getting tasks mapped into reasonable packets
-** TODO Figure out how to handle tasks that are DONE
-** TODO Figure out how to handle tasks that are FROZEN
-** TODO Figure out how to handle tasks that are not actually discrete doable tasks but are instead projects :leo:
+** BACK Getting tasks mapped into reasonable packets
+** BACK Figure out how to handle tasks that are DONE
+** BACK Figure out how to handle tasks that are FROZEN
+** BACK Figure out how to handle tasks that are not actually discrete doable tasks but are instead projects :leo:

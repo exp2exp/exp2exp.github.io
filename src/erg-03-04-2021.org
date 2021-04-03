@@ -179,9 +179,12 @@ $$\int \text{exp}(x) \, dx$$
 - Maybe not so much sunshine today
 - Deadlines are creeping up...
 - We all have deadlines coming up
+- ERG is creating a beautiful child!
+- We hit into some key issues — many of us are trying to do science outside 
 *** 4. What did we learn or change?
 - JC: I was happy to see Ray’s use of Logseq
 - We also managed to describe some of the real-world conflicts depending on the users
+- ‘postlapsarian’ is not a word
 *** 5. What else should we change going forward?
 - New user on Noorah’s Windows machine called “Dissertation”
 - User stories will be interesting to see (‘Black and White’)
@@ -189,10 +192,15 @@ $$\int \text{exp}(x) \, dx$$
 - Noorah will have time to prep this
 - Joe could maybe do a little prep on the CLA paragraph
 - Make a template, erg-push-button solution would be nice (20 minute job)
+- Using it should bring joy, when compared with Git and Tramp etc.
+- But how to anticipate how far
+- Exciting to think about ‘the future of emacs, free software, citizen science’
 
 #+begin_src org
 ** ‘Thaw’
 *** Special TODO states per file 
+*** Maybe also need effort estimates
+*** And will need various agendas per the different Emacs things 
 *** DONE
 *** TODAY
 *** STARTED
@@ -207,7 +215,16 @@ $$\int \text{exp}(x) \, dx$$
 
 * Check-out (exceptional or not)
 
-** RSP
 ** JC
+- Joe used checkouts in Peeragogy and there was an interesting result! Got some interesting data.
+** RSP
+- Have said plenty so Happy Easter + weekend + holiday, and look forward to speaking in the week 
 ** NA
+- Will work more on the Dissertation User demo to show next week
+- Might ask Leo about how to change the view related to accessing directories in Emacs
+- I like the file explorer
+ - LV: I recommend ranger over Dired - let’s schedule a demo for this
+- And would like to have automatic Git commits!
 ** LV
+- ... to sublimate the technical frustration
+- Vocabulary getting better

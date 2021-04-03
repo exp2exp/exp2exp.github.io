@@ -29,9 +29,12 @@ jobs:
     if: success() && github.ref == 'refs/heads/master'
     steps:
       - name: Download build artifacts
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: public
+          path: "src/_firn/_site"
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
