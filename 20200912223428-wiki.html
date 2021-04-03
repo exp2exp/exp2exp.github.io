@@ -1,0 +1,206 @@
+<html><head><meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      processEscapes: true
+    }
+  });</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script async="async" src="https://hypothes.is/embed.js"></script><script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /><link href="https://fonts.gstatic.com" rel="preconnect" /><link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&amp;family=Ubuntu+Mono&amp;family=Ubuntu:wght@300;400&amp;display=swap" rel="stylesheet" /></head><body><main><article class="content"><h1>Wiki</h1><div><div><section><p><span>The public facing version of these notes is available on a simple web
+interface, created by firn: </span><a class="firn-external" href="https://exp2exp.github.io/" target="_blank">https://exp2exp.github.io/</a><span>. This mirrors
+the contents of our Org Roam directory.  Editing is explained below.</span></p><p><span>We can also view the contents of Org Roam in a linear form as PDF
+document... or view the currently active tasks using Org Agenda.  In
+the future we may want to have several different “upstream” locations,
+based on several different small-scale wikis, all feeding into this
+one location.  That’s not hard to set up.  Contents can also be
+browsed in a graphical form either with the built in </span><code>org-roam-graph</code><span>
+functionality, or by installing Org Roam Server and running</span><code>org-roam-server-mode</code><span>.</span></p><p><span>We can potentially improve on all of this further, bulding something
+like Metacademy.  For now, we describe how to use this simple Org Roam
+based wiki.</span></p></section><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="access"><span class="firn-headline-text"><span>Access</span></span></h1><section><p><span>Obtain the sources by cloning the repo at </span><a class="firn-external" href="https://github.com/exp2exp/exp2exp.github.io" target="_blank">https://github.com/exp2exp/exp2exp.github.io</a><span>.</span></p><pre class="language-"><code class="language-">git clone git@github.com:exp2exp/exp2exp.github.io.git
+</code></pre><p><span>(See below for an alternative.)</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="mob-branch-on-repoorcz"><span class="firn-headline-text"><span>Mob branch on repo.or.cz</span></span></h1><section><p><span>We’re mirroring the repo to an environment that allows anonymous
+commits (without need for further permissioning).  If want to
+contribute anonymously, info on that is here: </span><a class="firn-external" href="https://bit.ly/2EQRHEF" target="_blank">https://bit.ly/2EQRHEF</a></p><p><span>You can review commits to the mob branch here: </span><a class="firn-external" href="https://repo.or.cz/arxana.git/shortlog/refs/heads/mob" target="_blank">https://repo.or.cz/arxana.git/shortlog/refs/heads/mob</a></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="setup"><span class="firn-headline-text"><span>Setup</span></span></h1><section><p><span>Install Org Roam if needed (</span><code>M-x package-install RET org-roam RET</code><span>).</span></p><p><span>Subsequently, add this to your Emacs configuration:</span></p><pre class="language-elisp"><code class="language-elisp">(require 'org-roam)
+(setq org-roam-directory (concat "/home/"
+                          (getenv "USER")
+                          "/exp2exp/"))
+(setq org-roam-completion-system 'helm)
+(define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
+(define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
+(define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
+(define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
+(define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
+(org-roam-mode +1)
+</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="bonus-feature:-org-roam-checkout"><span class="firn-headline-text"><span>Bonus feature: org-roam-checkout</span></span></h1><section><p><span>If you regularly use your own separate Org Roam setup, you can use
+this simple context switcher to move between the two.  Keep track of
+the various separate Org Roam installations with </span><code>org-roam-library</code><span>
+and then switch between them interactively with </span><code>org-roam-checkout</code><span>.</span></p><pre class="language-elisp"><code class="language-elisp">(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp/")
+                           ,(concat "/home/" (getenv "USER") "/org-roam/")))
+
+(defun org-roam-checkout ()
+  (interactive)
+  (let ((ctx org-roam-directory))
+    (if (eq (length org-roam-library) 1)
+        ;; Still go ahead and set the variable in this case!
+        (progn (setq org-roam-directory (car org-roam-library))
+               (message "You only have one choice for org-roam-directory defined."))
+      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+        (when lib
+          (setq org-roam-directory lib))))
+    ;; assuming the user changes context, let’s also prompt them
+    ;; to choose a new file in that context
+    (when (not (eq ctx org-roam-directory))
+      (org-roam-find-file))))
+</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="interaction"><span class="firn-headline-text"><span>Interaction</span></span></h1><section><p><span>Use the </span><code>C-c n f</code><span> keyboard command to add new disconnected nodes to
+the graph, or use </span><code>C-c n i</code><span> to create a page and insert a wiki-style
+link, like </span><code>[[New Page]]</code><span>. Follow links with </span><code>C-c C-o</code><span>. Display the
+graph structure with </span><code>C-c n g</code><span>.  It may be necessary to run </span><code>M-x
+org-roam-db-build-cache</code><span> to get the graph to match reality.  Add and
+commit new or modified files with git, along with </span><code>org-roam.db</code><span>, and
+push them to the repo.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="tags"><span class="firn-headline-text"><span>Tags</span></span></h1><section><p><span>Some of the nodes have </span><code>#+roam_tags</code><span> set:</span></p><table><tr><td><strong><span>code</span></strong></td><td><strong><span>meaning</span></strong></td></tr><tr></tr><tr><td><span>HL</span></td><td><span>High level</span></td></tr><tr><td><span>CDN</span></td><td><span>Can do now</span></td></tr><tr><td><span>LRD</span></td><td><span>Longer R&D cycle</span></td></tr><tr><td><span>HD</span></td><td><span>Has dependencies</span></td></tr><tr><td><span>RR</span></td><td><span>Research Review</span></td></tr><tr><td><span>RO</span></td><td><span>Research Output</span></td></tr><tr><td><span>OTS</span></td><td><span>Off the shelf</span></td></tr><tr><td><span>SH</span></td><td><span>Stakeholder</span></td></tr><tr><td><span>AN</span></td><td><span>Annex</span></td></tr></table><p><span>Some of the files also have a </span><code>#+CATEGORY</code><span> set.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="pairing"><span class="firn-headline-text"><span>Pairing</span></span></h1><section><p><span>For syncronized browsing and editing with </span><a class="firn-external" href="https://github.com/tjim/lockstep" target="_blank">lockstep.el</a><span>:</span></p><pre class="language-"><code class="language-">ssh pair@178.79.174.58
+PW: <ASK JOE FOR THE PASSWORD>
+emacsclient -a '' -t
+M-x lockstep
+</code></pre><p><span>To open up a real-time collaboration (with multiple cursors), use</span><a class="firn-external" href="https://code.librehq.com/qhong/crdt.el" target="_blank">crdt.el</a><span>, first to serve the buffer:</span></p><pre class="language-"><code class="language-">M-x crdt-serve-buffer
+</code></pre><p><span>And then, from your client, to connect:</span></p><pre class="language-"><code class="language-">M-x crdt-connect
+</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="linearizing"><span class="firn-headline-text"><span>Linearizing</span></span></h1><section><p><span>To turn this map into something we can reliably use, let’s try to
+linearize it.</span></p><p><span>To downsample from Org Roam (save as </span><code>~/bin/roam2org.sh</code><span> and make it
+executable):</span></p><pre class="language-bash"><code class="language-bash">#! /bin/bash
+
+emacs --batch -l ~/bin/downsample-org-roam.el --eval "(combine-files)" "$@"
+</code></pre><p><span>Here are the working parts (save as </span><code>~/bin/downsample-org-roam.el</code><span>):</span></p><pre class="language-elisp"><code class="language-elisp">(defun downsample ()
+  "Process an Org Roam buffer for inclusion in a standard Org file.
+Changes title to header, and increase indentation of existing headers.
+Changes file links to internal links."
+  (if (looking-at "^#\\+TITLE:")
+      (replace-match "*"))
+  (forward-line 1)
+  (if (looking-at "^#\\+roam_tags:\\(.*\\)")
+      (replace-match ":PROPERTIES:
+  :tag:\\1
+  :END:"))
+  (while (re-search-forward "^\\*" nil t)
+    (replace-match "**"))
+  (goto-char (point-min))
+  (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
+    (replace-match "[[*\\2][\\2]]"))
+  (buffer-substring-no-properties (point-min) (point-max)))
+
+(defun combine-org-roam-files (&rest args)
+"Combine a list of files, specified as ARGs.
+The files are to be found in `org-roam-directory'."
+  (apply #'concat
+         (mapcar (lambda (file)
+                   (save-window-excursion
+                     (find-file (concat org-roam-directory file))
+                     (let ((contents (buffer-substring-no-properties (point-min)
+                                                                     (point-max))))
+                       (with-temp-buffer (insert contents)
+                                         (goto-char (point-min))
+                                         (downsample)))))
+                 (or (car args) (nthcdr 5 command-line-args)))))
+</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="backlog"><span class="firn-headline-text"><span>Backlog</span></span></h1><section><p><span>Part of the idea with a backlog is to go from most-doable, starting
+with work in progress, to least-doable and potentially vague.  Here,
+then, is one approximate linearization that may or may not meet that
+description!</span></p><p><span>Note, this is duplicated in the index file, probably for sanity we
+should pick one and automate the derived version from there!</span></p><pre class="language-elisp"><code class="language-elisp">(defvar files-to-combine
+'("20200810131435-hyperreal_enterprises.org"
+"20200810132653-top.org"
+"20200905124558-why_not_what.org"
+ "20200909195629-teach_arbitrary_coding.org"
+ "20200810135851-how_to_design_programs_with_if.org"
+"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+  "20200905125342-emacs_hyper_notebook.org"
+  "emacs_jupyter_remote_debugging.org"
+"20200905125023-which_model_construction_process_works_as_a_whole.org"
+ "20200905131027-information_extraction_from_so_q_a_items.org"
+"20200905131918-knowledge_graph.org"
+"20200905124432-underlying_foundation.org"
+ "20200905125713-category_theoretic_glue.org"
+ "20200905131656-probabilistic_programming_for_scientific_modelling.org"
+"20201003205523-potential_products.org"
+ "20200905130423-agent_model.org"
+ "20200817172825-recommender_system.org"
+ "20200810135457-visual_interfaces.org"
+ "20200814203551-data_course.org"
+ "20200905132603-paperspace_do_nj_etc_collaboratory.org"
+"20200814210243-business_development.org"
+"20200905134325-research_outputs.org"
+ "20200810135325-advances_in_tutoring_systems_for_programming.org"
+ "20200810135403-advances_in_knowledge_mining_from_technical_documents.org"
+ "20200905132334-an_abm_of_the_computer_programming_domain.org"
+"20200906003704-bottom.org"
+ "20201003164408-downstream.org"
+ "20201003165500-consulting_clients.org"
+ "20201003170312-open_source_developers.org"
+ "20201003170333-tutoring_students.org"
+ "20201003171011-programmers.org"
+"20200810135126-organisational_infrastructure.org"
+ "20200810135619-discord_server.org"
+ "20200811185435-obs_recordings.org"
+ "20200814193042-code_sharing_platform.org"
+ "20200912223428-wiki.org"
+ "20201003164100-forum.org"
+ "20200814195259-blog.org"
+"sfi/sfi.org"
+ "sfi/gather_data_via_stack_exchange_apis.org"
+ "sfi/argumentation_theoretic_analysis.org"
+ "sfi/process_model_analysis.org"
+ "sfi/ml_nlp_bootcamp.org"
+ "sfi/initial_ml_baseline_e_g_match_q_a.org"
+ "sfi/hierarchical_ml_for_content_extraction.org"
+ "sfi/active_inference_bootcamp.org"
+ "sfi/agent_modelling_and_sandbox_setup.org"
+ "sfi/curate_koans_and_develop_solver.org"
+ "sfi/study_with_crowdsourced_exercises.org"
+ "sfi/study_with_agent_written_questions.org"
+ "sfi/publication_ijcai.org"
+)
+"An ordered list of files to combine in our export.
+This is where the order of presentation in the downstream org file
+and derived PDF is defined.")
+</code></pre><p><span>To combine the files, run:</span></p><pre class="language-elisp"><code class="language-elisp">(combine-org-roam-files files-to-combine)
+</code></pre><p><span>To get the indicative nesting (shown by spaces above) to be replicated
+at the org level, run the following at the top of the exported
+compilation:</span></p><pre class="language-elisp"><code class="language-elisp">(defun indent-org-roam-export ()
+  "Utility function to increase indention for selected trees."
+  (org-map-entries (lambda ()
+                     ;; don’t demote the top level items and their sub-items
+                     (let ((tag (org-entry-get nil "tag")))
+                       (if (and tag (string= (car (split-string tag)) "HL"))
+                           (progn (org-end-of-subtree)
+                                  (setq org-map-continue-from (point)))
+                         (org-do-demote))))
+                   nil 'file))
+</code></pre><p><span>Lastly, to rebuild the PDF, all of this can be done with one swift
+action.</span></p><pre class="language-elisp"><code class="language-elisp">(defun rebuild-org-roam-pdf ()
+  "Build an org file and PDF compiling `files-to-combine'."
+  (interactive)
+  (save-excursion (find-file (concat org-roam-directory
+                                     "/manual/combined.org"))
+    (goto-char (point-min))
+    (search-forward "# IMPORT")
+    (let ((beg (point)))
+      (delete-region (point) (point-max))
+      (insert "\n" (combine-org-roam-files files-to-combine))
+      (goto-char beg)
+      (indent-org-roam-export)
+      (org-latex-export-to-pdf))))
+</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="publishing-to-the-web"><span class="firn-headline-text"><span>Publishing to the web</span></span></h1><section><p><span>Publishing with Firn is simple:</span></p><pre class="language-"><code class="language-">firn build
+</code></pre><p><span>Then commit and push.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="reviewing-progress"><span class="firn-headline-text"><span>Reviewing progress</span></span></h1><section><p><span>Something like the following should be all that’s get a high-level
+overview of progress on active tasks, sourcing information directly
+from the Org Roam files.  Add the following to your emacs
+initialisation script (e.g., </span><code>~/.emacs</code><span>), evaluate it, and then run</span><code>C-c r</code><span> to load up the fun.  This may not be the perfect presentation
+yet but it gives an idea.</span></p><pre class="language-elisp"><code class="language-elisp">(setq org-todo-keywords
+      '((sequence "TODO" "STARTED" "BLOCKED" "BACKBURNER" "FROZEN"
+                  "|" "DONE" "DEFERRED" "WONTFIX")))
+
+(setq org-agenda-sorting-strategy '((todo todo-state-down category-down)))
+
+(setq org-agenda-files '("~/exp2exp/"))
+
+(defun org-scrum-board ()
+  (interactive)
+  (org-todo-list "TODO|STARTED|BLOCKED|BACKBURNER|FROZEN|DONE|DEFERRED|WONTFIX"))
+
+(global-set-key (kbd "C-c r") 'org-scrum-board)
+</code></pre><p><span>This view can then be further filtered by regexp (e.g., your name) by
+pressing </span><code>=</code><span>.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="notes-about-exporting-things-with-firn"><span class="firn-headline-text"><span>Notes about exporting things with Firn</span></span></h1><section><p><span>In regular Org mode, it’s possible to </span><a class="firn-external" href="https://superuser.com/questions/726201/how-can-i-apply-easy-formatting-to-org-mode-blocks" target="_blank">define your own blocks</a><span> which
+then export to a div with the given block name:</span></p><div class="monoblock"><p><span>This is some text.</span></p></div><p><span>With Firn/Orgize, it seems these blocks aren’t currently exported.
+However, examples are exported?  Maybe not.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="package-downsamping-code-separately"><span class="firn-headline-keyword firn-headline-keyword__DONE">DONE </span><span class="firn-headline-text"><span>Package downsamping code separately</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#joe">joe</a></span></span></h1></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="wontfix-update-the-repo-instructions-to-reference-this-file"><span class="firn-headline-text"><span>WONTFIX Update the repo instructions to reference this file</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#joe">joe</a></span></span></h1></div></div></div><div><hr /><div class="backlinks"><h4>Backlinks to this document:</h4><ul class="firn-backlinks"><li class="firn-backlink"><a href="https://exp2exp.github.io/20200810135126-organisational_infrastructure">Organisational infrastructure</a></li><li class="firn-backlink"><a href="https://exp2exp.github.io/20200810131435-hyperreal_enterprises">Hyperreal Enterprises: Roadmap</a></li><li class="firn-backlink"><a href="https://exp2exp.github.io/index">index</a></li></ul></div></div></article></main></body></html>
