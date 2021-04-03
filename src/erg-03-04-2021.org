@@ -196,7 +196,6 @@ $$\int \text{exp}(x) \, dx$$
 - But how to anticipate how far
 - Exciting to think about ‘the future of emacs, free software, citizen science’
 
-#+begin_src org
 ** ‘Thaw’
 
 : *** Special TODO states per file 
