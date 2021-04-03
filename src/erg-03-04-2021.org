@@ -198,20 +198,21 @@ $$\int \text{exp}(x) \, dx$$
 
 #+begin_src org
 ** ‘Thaw’
-  ,*** Special TODO states per file 
-  ,*** Maybe also need effort estimates
-  ,*** And will need various agendas per the different Emacs things 
-  ,*** DONE
-  ,*** TODAY
-  ,*** STARTED
-  ,*** TODO
-  ,*** BLOCKED
-  ,*** BACKBURNER
-  ,*** FROZEN
-  ,*** DEFERRED
-  ,*** BACK
-  ,*** WONTFIX
-#+end_src
+
+: *** Special TODO states per file 
+: *** Maybe also need effort estimates
+: *** And will need various agendas per the different Emacs things 
+: *** DONE
+: *** TODAY
+: *** STARTED
+: *** TODO
+: *** BLOCKED
+: *** BACKBURNER
+: *** FROZEN
+: *** DEFERRED
+: *** BACK
+: *** WONTFIX
+
 
 * Check-out (exceptional or not)
 
