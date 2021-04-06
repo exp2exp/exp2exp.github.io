@@ -1,0 +1,240 @@
+#+title: Coaching and Mentoring
+
+* Coaching design c/o Fiona Reith
+
+Here I respond to the key ideas of “How your coach will work with you”.  This seems to be a kind of abstract set of ‘tactics’ that we can use.
+
+** Help you discover what you want to achieve
+- We can think about this from the point of view of “the business” not just us as individuals
+- To do this, we need a way to extract some signals from our activities about the direction of motion.
+- Perhaps the best example of this process so far is the PARs + CLA that we’ve been doing consistently in the Emacs Research Group.
+ - Latest checkpoint: [[https://exp2exp.github.io/erg-13-03-2021#cla-bullet-points-to-turn-into-prose][Prose format]] & [[https://exp2exp.github.io/cla-20-february-2021][Underlying bullet-point format]]
+- Since we /haven’t/ been consistently doing PARs in HEL (per se), we don’t have quite the same databank to work from
+- So, strategically, one question is how to operationalise the PAR here.
+ - One thought we discussed on 5th April 2021 was to expand /each coffee chat/ into a slow-motion PAR.
+- How might that work?  Well, if slowed the PAR down across *1h40m* we’d get a template a little bit like this:
+*** 1. Review the intention: what do we expect to learn or make together? :20m:
+- This could be the usual coffee chat, but with the twist that we now focus on digging into what we’re trying to do here
+*** 2. Establish what is happening: what and how are we learning?      :20m:
+- In principle, this could then develop in breakout rooms, following Leo’s design in Experimental Ground, where people dig into concrete tasks that have already been set up within these virtualised spaces, which we explore together
+*** 3. What are some different perspectives on what’s happening?       :20m:
+<<perspectives>>
+- Presumably this can happen in two levels:
+ - The /multiple perspectives/ within the virtual breakout spaces
+ - The multiple perspectives that we /bring back/ informed by our experiences in the virtual spaces
+*** 4. What did we learn or change?                                    :20m:
+- In line with #3, it seems as though we’d a form of “share back” /rapportage/
+- Since it’s perhaps unrealistic to do this “live” by coming back into the meeting, it makes sense that some summary could be written and shared
+*** 5. What else should we change going forward?                       :20m:
+<<forward>>
+- Next step actions would be part of that share-back
+- Presumably activities /outside/ of the meeting will carry on
+** Enable you to set specific goals
+- I’d say that *1h40m* is a pretty long time for a daily meeting, but since we end up talking that long pretty frequently /without/ the structure of the PAR
+- Even if we don’t follow that structure in the concrete time-delineated fashion mentioned above, we may want to try and do it abstractly
+- Once we have the data in the form of PARs, we can run CLAs on them, to answer: ‘What is our vision for change and how is progress measurable?’
+** Enable you to get real insight into current issues
+- This seems to be what we’ve been trying to do with writing and publishing on [[https://exp2exp.github.io/][https://exp2exp.github.io/]], however I feel the workflow hasn’t fully materialised
+- Rather than creating a highly systematic workflow of /forum/ *→* /meetings/ *→* /wiki/  *→* /blogging/ *→* /publications, products/ (or such), things have been much more more intermixed
+- ‘Value’ has been surfaced for participants in the discussions, and we also have various outputs in the pipeline
+- Nevertheless (at least speaking for myself; see [[mentoring]] below) we may not have a totally clear picture of /where/ things are going
+ - As we’ve discussed, maybe it’s more relevant to be aware of /how/ things are going
+** Ask mostly open questions to stimulate your thinking
+- Coming up with good questions isn’t necessarily easy
+** Listen attentively to what you say and to what you don’t say
+- This is something I’ve been doing in the meetings (and taking notes as well as I can)
+- That said, there are other ways to listen than to take notes verbatim
+- Maybe we all should be working to practice listening more (e.g., if we’re going to ultimately provide value for /customers/ we need to understand their requirements)
+** Reflect understanding of what you communicate through summary or paraphrase
+- This is a useful part of active listening
+- Within an ‘agile’ framework, this sort of active listening could embed into preliminary work products, mockups, and other things to be discussed further
+** Share intuitions with you
+- For that, we need to get a source of intuitions: probably this can come from everyone’s own personality, experience, and reflective practices
+- Nevertheless, let’s not take it as given that we will readly notice our intuitions, or that the intuitions will always be directly /useful/
+** Will, when appropriate, offer their own thinking or suggestions for your consideration
+- In the context of dialogue, people tend to speak up a lot
+- In the code of conduct we remark:
+#+begin_quote
+First and foremost our organisation is home to “a discussion” and the familiar norms of discussion apply. At this stage, organization is “bottom-up” — it is more a bazaar than a cathedral.
+#+end_quote
+This certainly means that any viewpoints that are on offer can be bypassed!
+- When we think about [[perspectives]]: it’s nice to have them because they give grist for thought, but we also seem to have limits on how to use and assimilate these perspectives
+** Challenge and support you to generate solutions and strategies
+- Something I like here is a “strengths-based” approach where we notice the solutions that are being generated endogenously
+- Sometimes in a therapeutic context (and probably other contexts) the solutions can be maladaptive, in which case it’s a matter of learning new habits
+** Agree assignments for you between meetings
+- This seems to match the [[forward]] component of the PAR, which is a matter of firming up a given intention
+** Enable you to compare how you got on with your action plan against what you hoped to achieve
+- /This seems to be the core idea in the CLA.../
+*** To identify learning and to create a revised action plan
+- /... and creating a revised action plan would presumably amount to doing the next round of the CLA./
+** Be non judgemental
+- I think it’s safe to say that everyone has a lot going on, not to mention the global stresses that we’ve been through with the pandemic and so on
+- So I think we can’t expect perfection or even reliable ‘progress’
+** Act within the boundaries of their expertise and competence
+- It makes sense to try and delineate further what our expertise and compentence is, to start with
+
+* Mentoring                                                            :joe:
+<<mentoring>>
+
+Here, I expand my own outreach and interactions with a
+formally-allocated mentor. I start with outlining the things I wanted
+to work on with them.  Then I try to respond to their advice to make
+this more concrete.
+
+** (Concern 1) Winning research grant funding & managing rejection
+
+I've applied for several grants and fellowships in the past — [[https://hyperreal.enterprises/history.html][https://hyperreal.enterprises/history.html]] is an incomplete list — but not had luck winning them. Part of that is down to the ε-baked nature of some of the proposals (0<ε<1), but surely another part of it is the competitive nature of the programmes I was applying to.  Presently I'm working on a short proposal for this "[[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][EPSRC mathematical sciences small grants scheme]]" with another one in the works, though it might turn into something bigger or different.  It seems to me that writing a 6-month proposal is very good hygiene, since some of my previous attempts have come across as "ambitious" (read: full of hot air).  Building a suitable research track record seems like an art form. I've published a "reasonable amount" ([[http://metameso.org/~joe/publications.html][http://metameso.org/~joe/publications.html]]) but I also got a bit of a late start at this, since I only began my PhD at age 30 (I'm now 41) — having spent my 20s as a 'citizen scientist' and bohemian. Furthermore my research has been a bit hard to assign to any one research community.  In fact, to relate this a bit to HSS, I have long been interested in the "anthropology of modern mathematics".
+
+** (Concern 2) Career development advice
+
+As a Research Fellow in the Institute for Ethical AI, I am one of the few people in my group without "Senior" or similar in my job title ([[https://ethical-ai.ac.uk/about/the-team/][https://ethical-ai.ac.uk/about/the-team/]]). Brookes pays me less than I made as a postdoc, however I do appreciate the relative independence. Furthermore, as a single person and as-and-when practicing Buddhist, money and promotion aren't the most salient drivers in my life.  That said, I ()would?) love to develop my career in the direction of being part of a thriving research community and making a difference in the world to the extent that I'm able.  I'm very much involved in informal international research networks, but so far there's not a whole lot of "traction" between these activities and my day-job. Perhaps it's worth working to change that in some ways. E.g., at Brookes I've been asked to help set up the AI and Data Analysis Network and I think that's a good opportunity to bring my interests in peer learning to bear.  At the same time, it seems to me that winning grants is the #1 big ticket item for career progression!  I've also been getting involved with teaching as the instructor for Survey Fundamentals and as a tutor for Object Oriented Programming.  How to sort this relative to research?  I'm trying to channel Tim Ingold's energy about bringing students into the "powerhouse of knowledge construction", from "Anthropology is not Ethnography".  I don't know if this is [[https://www.brookes.ac.uk/human-resources/working-here/pay-and-grading/research-roles/senior-research-fellow-role-profile/][aligned with the institutional incentive structure]] or not; furthermore I don't know if I should be paying much attention to these incentive structures. If I was trying to become a billionaire, it wouldn't necessarily help to [[https://twitter.com/itsdansheehan/status/1329933037564424192?lang=en][double my salary]]; maybe there's something similar to be said about research ambitions.
+
+** (Concern 3) Managing research grant projects
+
+Broadly I'll look at being a Research Fellow as something like a grant project since — with the exception of some teaching & service activities as above — I am free to choose how I spend my time.  I'd like to move towards formal team leadership; in my informal networks I'm a bit of a CEO type: a generalist who has been bringing people together, working to maintain the health of the collaboration, and pushing people to think big. That's a good start but I may not yet have all the attributes needed to fully "go pro" on the basis of these skills alone.  I have been cultivating decent habits around managing workflow (with some notes starting to accumulate here: [[https://exp2exp.github.io/updates][https://exp2exp.github.io/updates]]), but if I was trying to win something like an [[https://erc.europa.eu/funding/starting-grants][ERC Starting Grant]] I'd have to do a bit more (smarter, I think, not harder).
+
+** Instructions: The Mentor’s Role
+
+• Acts as an advisor, advocate and coach
+• Providing advice based on own experience
+• Identifying and discussing the mentee’s research goals and career expectations
+• Supporting and developing the capacity of the mentee to undertake quality research
+• Helping the mentee to identify problems and find their own solutions
+• Introducing the mentee to broader perspectives and other points of view
+• Providing access to appropriate resources and networks
+• Assisting the mentee to develop a research plan that clearly identifies the tasks, objectives and milestones associated with developing a track record
+
+** Instructions: The Mentee’s Role
+
+• Approach the mentoring partnership with clear and realistic ideas of what you want to achieve
+• Lead the mentoring partnership by clarifying to the mentor the kind of feedback being sought
+• Be proactive in communication with the mentor, including a commitment to meet regularly
+• Prepare for each mentoring meeting, keep a record of the discussion and act on suggestions
+• Be open and welcome constructive feedback
+• Be considerate and appreciate the value of the mentor's time
+
+** Objectives
+
+#+begin_quote
+I tend to use SMART (specific, measurable, achievable, realistic and timely) objectives to help mentee's shape goals.  
+#+end_quote
+
+In my case, this probably means breaking down Concerns 1-3 along these
+dimensions.  Perhaps reworking the concerns above using the
+conceptions of the CLA would be one way to start!  Let’s take the
+informal statements above and turn them into evidence for the CLA, and
+use these SMART characteristics as tags.
+
+** Understanding data, headlines, empirical world (short term change) :data:
+*** I've applied for several grants and fellowships in the past — [[https://hyperreal.enterprises/history.html][https://hyperreal.enterprises/history.html]] is an incomplete list — but not had luck winning them. :measurable:
+Grant submissions and rejections are certainly measurable.
+*** Presently I'm working on a short proposal for this "[[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][EPSRC mathematical sciences small grants scheme]]" with another one in the works, though it might turn into something bigger or different. :timely:
+Since this is due very soon, getting it finished up and submitted is timely.
+*** I've published a "reasonable amount" ([[http://metameso.org/~joe/publications.html][http://metameso.org/~joe/publications.html]]) but I also got a bit of a late start at this, since I only began my PhD at age 30 (I'm now 41) — having spent my 20s as a 'citizen scientist' and bohemian. :measurable:
+I’m pretty sure it’s not a matter of how much I published in the past
+that I’d be assessed on at the next career stage, but rather the rate
+of publications (and their quality) that I emit during my time as a
+research fellow.
+** Systemic approaches and solutions (social system)                :system:
+*** Part of that is down to the ε-baked nature of some of the proposals (0<ε<1), but surely another part of it is the competitive nature of the programmes I was applying to. :specific:
+I’ve complained about the incentive structures of previous research
+groups not being aligned in a way that really helps me ‘bake’ the
+ideas properly
+*** As a Research Fellow in the Institute for Ethical AI, I am one of the few people in my group without "Senior" or similar in my job title ([[https://ethical-ai.ac.uk/about/the-team/][https://ethical-ai.ac.uk/about/the-team/]]). :realistic:
+Maybe there are some advantages to /not/ being seen as a ‘Senior’ figure
+in the group, since I don’t have to put time in on management
+hierarcies, and can focus more on developing my own agenda.
+*** Brookes pays me less than I made as a postdoc, however I do appreciate the relative independence. :specific:
+In the context of Hyperreal, I think it would make sense to try and
+find a way to earn more money over the next year than the gratuity
+payment that came from Starling Bank, so that we could use the money
+to develop something.  In the case of my own finances, right now I
+seem to have ‘everything that I need’ here in my little Annex by the
+Thames, so I don’t necessarily need to chase more money.
+*** E.g., at Brookes I've been asked to help set up the AI and Data Analysis Network and I think that's a good opportunity to bring my interests in peer learning to bear. :specific:
+Getting AIDAN working as well as possible is something that I can try
+to deliver, but what I don’t know is how that relates to incentive
+structures.  Maybe it doesn’t have any incentives to it other than “a
+job well done”.  However, if I started to use AIDAN to build some
+different research projects of my own, that could be a further
+incentive.
+*** Furthermore my research has been a bit hard to assign to any one research community. :achievable:
+It’s not as if I’m /allergic/ to being pinned down into a discipline.
+For that matter, if I figure out a way to contribute to
+“interdisciplinary studies” that would be a way to double down on the
+position I’m in now, rather than complaining about it.  We had found a
+book about interdisciplinarity and Deleuze that’s probably worth
+looking into!
+*** I don't know if this is [[https://www.brookes.ac.uk/human-resources/working-here/pay-and-grading/research-roles/senior-research-fellow-role-profile/][aligned with the institutional incentive structure]] or not; furthermore I don't know if I should be paying much attention to these incentive structures. :realistic:
+Probably it’s realistic to think about what incentives I’m most
+attracted to.  For example, am I motivated by [[http://metameso.org/~joe/#news][writing these papers]]?
+Or does that not float my boat anymore?
+** Worldview, ways of knowing and alternative discourse          :worldview:
+*** It seems to me that writing a 6-month proposal is very good hygiene, since some of my previous attempts have come across as "ambitious" (read: full of hot air). :specific:
+Writing short and doable proposals forces one to get specific and keep
+things pretty grounded.
+*** Furthermore, as a single person and as-and-when practicing Buddhist, money and promotion aren't the most salient drivers in my life. :timely:
+One of the reasons I moved to the location I did is that there is a
+Buddhist centre about two blocks away.  So a timely goal would be to
+get into the habit of doing morning meditation and stopping by there
+at 7:30AM when they open up again.
+*** That said, I (would?) love to develop my career in the direction of being part of a thriving research community and making a difference in the world to the extent that I'm able. :specific:
+This is what I’m hoping to do within Hyperreal, and it’s why I’ve been
+seeking opportunities that use and develop /all/ of my abilities, not
+just /some/ of them (e.g., as would be the case if I got a job as an
+industry programmer).
+*** I'm trying to channel Tim Ingold's energy about bringing students into the "powerhouse of knowledge construction", from "Anthropology is not Ethnography". :specific:
+This gets concrete in the case of Alex’s MSC project.  If I could get
+funding for him to do a PhD that would potentially be interesting —
+and anyway, it’s a specific goal that I could pursue (for him, and
+maybe others).
+*** Broadly I'll look at being a Research Fellow as something like a grant project since — with the exception of some teaching & service activities as above — I am free to choose how I spend my time. :realistic:
+Since I know something about how grant projects work after having been
+employed on them for 6 years or so, maybe it would make sense to start
+developing some work packages, milestones, deliverables, and a Gantt
+chart to go along with my Research Fellow job.  Though I’m not
+entirely sure that sort of managerial apparatus would be a good idea:
+would it stifle creativity?
+*** I'd like to move towards formal team leadership; in my informal networks I'm a bit of a CEO type: a generalist who has been bringing people together, working to maintain the health of the collaboration, and pushing people to think big. :specific:
+Does this mean I should be enrolling in training that would help me
+develop my leadership profile?  Or perhaps that I should be signing up
+in Brookes’s own startup incubator, or some other similar setup around
+Oxford/elsewhere?
+*** I have been cultivating decent habits around managing workflow (with some notes starting to accumulate here: [[https://exp2exp.github.io/updates][https://exp2exp.github.io/updates]]), but if I was trying to win something like an [[https://erc.europa.eu/funding/starting-grants][ERC Starting Grant]] I'd have to do a bit more (smarter, I think, not harder).
+In here are a couple different worldviews: one in which
+‘bootstrapping’ my way forward together with peer support is enough to
+make progress, and another in which it so happens that my research
+ideas could actually turn into a substantial and meaningful programme
+of academic work.  They’re not mutually exclusive!  But that doesn’t
+mean that either is necessarily true!  They could both be part of the
+same fictional world.
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+*** Building a suitable research track record seems like an art form. :realistic:
+This is realistic in the sense that it presents a view on ‘life as
+art’, and life is what’s said to contain the most ‘reality’.
+*** In fact, to relate this a bit to HSS, I have long been interested in the "anthropology of modern mathematics". :specific:
+This was something that I was interested in when I was 16 or 17 years
+old, and it did indeed give some impetus to my career to date.  Maybe
+it would be a good time to produce a ‘mid-term project report’, if
+this interest is indeed going to be a lifelong interest!
+*** I'm very much involved in informal international research networks, but so far there's not a whole lot of "traction" between these activities and my day-job. :measurable:
+At least we can measure ‘traction’ of some kind in terms of /people
+engaging with/ things like the Peeragogy project.  I did set up an
+opportunity to do a peeragogy-related workshop at Brookes; and I was
+thinking that peeragogy would also relate to AIDAN.  Similarly, the
+Hyperreal organisation fits with what’s going on in IEAI, insofar as
+it would bring together international and local colleagues in the
+consortium.
+*** Perhaps it's worth working to change that in some ways.         :timely:
+Getting the gears turning is relevant to figuring out what my next
+position is going to be.  I suppose it’s a /narrative/ that suggests
+that I have the capability to change these things.
+*** If I was trying to become a billionaire, it wouldn't necessarily help to [[https://twitter.com/itsdansheehan/status/1329933037564424192?lang=en][double my salary]]; maybe there's something similar to be said about research ambitions.
+I very much doubt that I will become a billionaire since I haven’t
+been putting myself in a position where I’m prone to do so, however,
+some of the ideas in HEL would relate to helping manage and understand
+large value-flows; so, how could we make ourselves more prone to that?
+*** That's a good start but I may not yet have all the attributes needed to fully "go pro" on the basis of these skills alone. :measurable:
+I could try to do more ‘informational interviews’ with people whose
+jobs I might like to have after my next career juncture.

@@ -197,12 +197,11 @@ $$\int \text{exp}(x) \, dx$$
 - Exciting to think about ‘the future of emacs, free software, citizen science’
 
 ** ‘Thaw’
-
 - Special TODO states per file 
 - Maybe also need effort estimates
 - And will need various agendas per the different Emacs things 
 
-#+begin_src 
+#+begin_src
 DONE      
 TODAY     
 STARTED   
