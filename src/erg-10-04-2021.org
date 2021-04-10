@@ -1,0 +1,269 @@
+#+TITLE: 10 April 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-04-10 Sat>
+
+* 10 April 2021 — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+- Been reading a lot, esp. on /oral/ culture (practicing /aural skills/)
+- Thought about writing: sometimes it’s difficult if I try to rush into a finished thing
+- What about if I just write the notes and treat myself as an editor of those notes?
+- In the end it’s a paper you hand in and get graded
+** Noorah
+- Noticed it’s hard for me to write, everything is in notes all over the place — I want to write paragraphs! But with my co-authors I’m great at editing their work.
+- Everyone’s willing to help!
+- Getting comfortable talking about my research
+ - The ‘informal committee’ can help in a different way — they can help
+** Leo
+- When I was facing similar issues in terms of life organisation, I was thinking of life being a relay between different versions of yourself
+- You have to make sure that future-you gets the best chance at managing stuff — tomorrow you can do whatever you want to ‘past you’
+- This mindset puts enough distance between
+ - "Write no matter what"
+** Joe
+- Has been writing 2pp by hand per day
+- Same thing in the evening
+- Clearly not scientific paper or scientific journal, but would be happy to share some of them... maybe buying a scanner?
+- Debugged our interactions on Hyperreal this week
+
+* Things to keep in mind
+** Record the sodding session
+** PAR from last time (transclusions would be nice, eh?)
+*** 5. What else should we change going forward?
+- New user on Noorah’s Windows machine called “Dissertation”
+- User stories will be interesting to see (‘Black and White’)
+- Bibliographies, demo of Dissertation user, a longer thing for next time
+- Noorah will have time to prep this
+- Joe could maybe do a little prep on the CLA paragraph
+- Make a template, erg-push-button solution would be nice (20 minute job)
+- Using it should bring joy, when compared with Git and Tramp etc.
+- But how to anticipate how far
+- Exciting to think about ‘the future of emacs, free software, citizen science’
+
+* Agenda
+** Interpersonal issues                                                :20m:
+- JC reminded everyone of social issues around figuring out what’s suitable in our dialogues?
+  - JC’s sister: ‘Let’s not make too many assumptions’
+  - Conclusion: ‘Make it explicit, whatever it is.’
+
+- How to e.g., catch people up to speed?
+- NA Since we all have experience with note-taking, tools
+  - We’re all comfortable with /writing/
+  - Going from atomic ideas to molecular & cellular ideas!
+  - This is something we all can share
+- JC: But are we happy to talk about religious topics or sociology of film...?
+  - We never agreed about these particular red lines (if any)
+
+- JC: ‘I think the key thing in writing a PhD thesis is figuring out what you’re not writing about.’
+  - This keeps you more focused!
+
+- LV: Helping my friend write a portrait, to decide if the character will be a good fit
+  - Rather than writing a portrait, this friend wrote an ‘inverted portrait’
+  - All the stuff that he hadn’t read, all the stuff that he didn’t know
+  - Very glorious, in French
+  - Working what isn’t there sounds convenient, but there’s actual value of being on the offset
+
+- RSP: regarding my own thesis, a lot was incomplete
+  - I had the ideas but I didn’t have the methods and tools to take them further
+  - Some of the tools I only found out 5 years ago, when I started working on biology!
+  - Now, for me it was kind of satisfying to see the growth; 20 years ago, I didn’t know what to do besides writing it down and trying to bang it in w/ the tools at hand
+  - Now, there’s a sense of accomplishment; and this was the beginning of my life as a researcher after all!
+
+- JC: NA needs to build up on the fact that she is an excellent communicator
+  - ‘How do you prepare for the next step when you’re not on a linear path?’
+    - Related to LV/Foucault’s take on /equipment/!
+    - Merit of these tools, skills
+    - How to take the next step?
+    - E.g., when we talked about the side-buffer/references to specific notes
+    - It would be cool if this showed up as a way to search tags w/in the org roam buffer?
+    - This is easy to implement
+
+- RSP Thinking about ‘design requirements’ dialogues
+  - NA’s thesis, PH, Ray’s notes — maybe we should start to have a discussion around design requirements for collaborative writing
+  - Wanting to have a discussion that’s not too detail-oriented but also on broader issues
+  - CFP for EmacsConf starting around July
+  - What are other conferences that work on tools and research?
+    - Ask ‘systemstheory‘ on YouTube
+    - RGCS, communties, peeragogy
+    - Meta-Research folks at Stanford, there was a symposium
+  - The relationship between tools and research seems to be a wider issue than just Emacs
+  - NA: I’ve been exposed to issues of ‘how do members talk to each other in terms of the tools they use’ — translations between software systems
+  - RSP: We should focus on /the data/ — not just Open Source, but on /where the data goes/ — e.g., I have a directory full of plain text files
+    - ... So, in this case I can use whatever software on them (data lifecycles)
+    - Is there a real-time translator between the data formats?
+
+- Logseq vs Org Roam from last week: we agreed that we had a directory of Org Roam files, and this is what we were interested in
+  - Anyone can edit them with whatever tools
+
+- JC: This is linked to Noorah’s enjoyment for /editing/
+  - ‘Here’s the data; how do I tell a /story/ about this data?’
+  - ‘Is there a way to trick yourself into being an editor from day one?’
+
+- NA: I’ve opened a random Org Roam note and been positively surprised: I’ve already written that!
+
+** Noorah’s presentation wrt her dissertation                          :20m:
+- ‘The project box’ in /Write no matter what/ —
+  - ‘The cleared deck fantasy’
+  - Leo has 112 books about writing
+  - ‘Patterns for college writing’ book
+  - Could we look at this stuff to help our work with the text analysis, NNexus stuff, could you operationalise it?
+  - So that the computer can do some of these things
+  - David’s comment about AI in Emacs could apply again to getting this kind of intelligence in writing
+
+- Motivation of not being distracted by Slack, Discord, a bunch of other things
+- Every five minutes checking email or something else, it was driving me nuts
+- Public, Noorah, Dissertations users
+- The Dissertation user has Dropbox and only some specific folders
+- And it only has a small number of software things installed
+- Within Emacs only have searches that work with this
+- Removed Org Gcal — things had filled up w/ things that weren’t relevant to the dissertation
+- Emacs still takes a while to open... Eight-Megabytes and Constantly Swapping
+- JC recommended creating links inside the one-paragrapher to the concepts
+- ‘No export’
+- Maybe org-special-blocks to bracket the things that are half-baked
+- From Joe’s thesis, people were missing ‘EPHEMERAL’
+
+*** Leo notes on the above
+
+LV: development considerations for org-roam/org-mode
+
+**** Features for org-roam:
+1. Reverse ~org-roam-unlinked-references~ for all the words in a pagraph to be found inside the slip-box
+2. Pluralisation of the meaning of links:
+   - Green links for org-roam
+   - User-defined rules for fontifying the links, i.e. based on *tags*?  i.e., for links to figures
+**** Features for org-mode:
+1. Implementations of ‘[ (X)  Doubt ]’ via ~org-insert-structure-template~ for modalising inputs
+2. Personal completion cookie not based on actual tasks
+
+*** Further comments
+
+There’s stuff that’s mostly possible:
+- =org-roam-unlinked-references= finds mentions to Emacs which aren’t linked
+- (This is basically NNexus inside Org-Roam.)
+- New feature: do this on regions.
+- You would be able to select your abstract, and add links by discretion; this could allow serendipitously creating links
+- Sometime the naive way to go will find things that aren’t linked for a reason!  So, don’t create them automatically...
+
+The technology to distinguish between different types of links:
+
+Leo has 3 or 4 different colours of links in his =[[Emacs]]= file.
+- Linking to Org Roam file
+- Linking to regular Org Mode file (not in Org Roam)
+- Linking to citation records
+- ... can define other rules like this
+- JC: See also [[https://github.com/org-roam/org-roam-server/issues/130][Control color per tag #130]]
+ - Various kinds of links and such can be computed by tags
+ - Current paper, external paper, tag of ‘figure’ (for the link targets)
+ - This would add a layer of meaningfulness
+- Presently the tags live in the SQL database...
+ - Is there a map to something that someone using a different database?
+ - Would there be a later XML export that can be read by anyone?
+ - For now, SQL is considered the agnostic information source
+ - Current questions are more about how to get information into the database?
+
+- NA: when I open org-roam-server, everything is connected to everything
+- I started getting anxious about where’s the structure
+- We wanted things to be decentralised, but we also want to see the structure
+- RSP: non-commutativity, structure...
+
+*** The first thing that comes into focus in the main document!
+
+** Leo’s tag-up on crowdfunding campaign                               :10m:
+- Not too much to say right now, this week took it slow
+- Had a spiritual awakening... we talked about films philosophy spirituality... it was ‘off-topic’ for the discussion
+- But got LV thinking about writing, breathing, thinking in the morning
+- Needed to process what Tarsius said last week
+  - Will make a video, will be present on social media
+  - Will delay to the 19th, will allow to finish up some other jobs
+  - RSP: this is the same date that RSP will have a presentation on biology
+  - The week after is a good time for starting new projects (anything we are going to jointly work on, e.g., design requirements)
+- Maybe things like ‘gathering user stories’ will be part of the roadmap
+- We have a common milestone
+- Do let us know how we can be helpful...
+  - Maybe Leo should be presenter next week for 30 minute session or so
+- LV want to keep it pretty informal
+  - Not going w/ something heavily structured or polished
+  - Not a 30 hour edited video...
+  - Need to aim for a ‘sprezzatura’
+  - This led to some further investigation of Walpole, the Medicis
+  - ‘His method seems to be used the landscape as an element’; fitting in effortlessly?
+** Follow-up to RSP/LV discussion from last time                       :5m:
+Recap from the coffee chats:
+
+Leo and Ray were coming from separate communities: developer + a certain community of 3 users. We had conflicting needs on conflicting timescales: different establishments meeting each other...? (The tale of Eastern Europe!)
+
+*** Broader consideration
+
+*Interoperability, with various communities & different kinds of software.*
+
+Ray agrees about developing things the right way, taking enough time. BUT we also have users who want something to use now.  Logseq became exciting because we had a common thing that the co-authors can do something in Logseq, without all of us having to work in ShareLaTeX and pretending
+
+*** Aside on scanners:
+- Download Adobe Scan on the phone?
+- Frame for the scanner & use the phone
+
+** Stabilising the upcoming calendar                                   :5m:
+
+/Invitees:/
+
+| [2021-04-17 Sat] | Alex                                        |
+| [2021-04-24 Sat] | Mark Dawson (PAR on M-x Research)           |
+| [2021-05-01 Sat] | Cameron and Ximo? (‘Labour day’)            |
+| [2021-05-08 Sat] | Rob Haisfield +1 (RoamResearch)             |
+|------------------+---------------------------------------------|
+| *Unstable future*  |                                             |
+| [2021-05-15 Sat] | LogSeq folks? Tyler (Firn)                  |
+| [2021-05-22 Sat] | Women and Emacs, after EmacsConf discussion |
+
+** CLA                                                                 :5m:
+- It might be fun to think about the /making-of/ part
+  - cf. NA’s thesis at the beginning of today’s session
+- CLA is about the future, and we’re interested in working on the future of /stuff/
+
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Joe came ready to continue emotional processing
+- Ray: finding more about what Noorah was saying more
+*** 2. Establish what is happening: what and how are we learning?
+- In the context of peeragogy we were talking about other disasters and how disasters a
+*** 3. What are some different perspectives on what’s happening?
+- We’ve been meeting for almost half a year
+- Ray and Joe have been trying to feel our way
+  - Will our stuff about design patterns and futures be useful
+  - Maybe we can do some shared readings around Noorah’s ‘adaptive capacity’ themes
+  - But how do we think about this methodologically?
+- Need to articulate what we’re doing...
+- It’s helpful to talk about the ideas and this will make the writing work
+- Leo has been quieter today, partly by design (no experience w/ disseratation writing) BUT also if I just fade away from the discussion
+- This felt a bit chill; we wanted some more tight control sessions interspersed with less structured...
+- But we also didn’t get Leo’s checkin, partly because the rawness of the current situation
+- (This is good b/c we’re not letting things fester.)
+- Also keeping each other in the loop.
+*** 4. What did we learn or change?
+- Interest in ‘adaptive capacity’ at the institutional level
+- Adaptability has to do w/ how strong their institutions are
+- Weak organisations will have difficulties working together
+- Right amount of structure; nevertheless there’s a benefit of ‘intention-based meetings’
+- Sharing idea of meetings without a proliferation of topics
+- “If I’m in this room I want to look to these topics.”
+- This signals intention and therefore prevents confusion
+*** 5. What else should we change going forward?
+- Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~
+- Maybe getting something fired up from 19th around adaptive capacity?
+- Will read some papers around these interests
+- We have enough bullet points to do another edition of the CLA
+
+* Check-out (exceptional or not)
+
+** LV
+Doing wonderfully! Happy about today’s session. Glad that we made progress. Looking forward to next week.
