@@ -55,7 +55,7 @@ Port to R or Python? +1 for python. SPSS is not very useful for project developm
 - Applications: Excel, save as text file
 - Noorah: cooking sous vide, pot de crême
 - Leo: Interesting meeting with [[https://www.youtube.com/channel/UCWA6aNcUjK2w0Z_-0UURq_g][Rob Haisfield]], hanging out in Discord was fun; job possibilities (Oxford, Wikimedia)
-*** BACK Do we need checkins (esp. if we are meeting in the week?)
+*** Do we need checkins (esp. if we are meeting in the week?)
 - Keep it to 30 seconds like Noorah?
 ** CRDT
 - Practical to be taking notes at the same time

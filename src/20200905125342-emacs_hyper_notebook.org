@@ -26,10 +26,10 @@ could turn out to be useful here.)
 - Emacs Maxima interface, we might build on it — for Monday 12th October, a quick "15 minutes" talk to catch up
 - ... possible deliverable for later on: a NIST talk?
 
-* DONE Figure out subtasks to deliver for EmacsConf        :joe:ray:cameron:
-* FROZEN Figure out how EHN relates to other projects      :joe:ray:cameron:
-* DONE Keep testing crdt.el and lockstep.el                        :joe:ray:
-* WONTFIX Could Emacsconf talk become a blog post?         :joe:ray:cameron:
+* DONE [#A] Figure out subtasks to deliver for EmacsConf   :joe:ray:cameron:
+* BACK Figure out how EHN relates to other projects
+* DONE [#A] Keep testing crdt.el and lockstep.el                   :joe:ray:
+* BACK Could Emacsconf talk become a blog post?       :joe:ray:cameron:
 
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan
 is thinking about a mode to make overlays shareable, which would

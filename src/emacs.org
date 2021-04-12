@@ -68,7 +68,7 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 - Routine
 
 * Some ERG seminar points for discussion
-** STARTED [#A] Figure out whether it’s possible to get another column in the default Org Agenda, showing the /directory/
+** BACK Figure out whether it’s possible to get another column in the default Org Agenda, showing the /directory/
 - See Joe’s configuration file: [[file:~/.emacs.d/settings.org::*Org Roam: Library, Scrum board][Org Roam: Library, Scrum board]] → fontify-agenda
 - ‘Breadcrumbs’, push everything back but
 ** BACK Debug the color-coding of lines
@@ -76,4 +76,4 @@ our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][C
 ** BACK Getting tasks mapped into reasonable packets
 ** BACK Figure out how to handle tasks that are DONE
 ** BACK Figure out how to handle tasks that are FROZEN
-** BACK Figure out how to handle tasks that are not actually discrete doable tasks but are instead projects :leo:
+** BACK Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects

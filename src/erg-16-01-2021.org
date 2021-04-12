@@ -27,7 +27,7 @@
 - ‘Rhizome’ might be more neutral
 *** Did some prep work in here:
 https://docs.google.com/document/d/1gyLbTjnVs3eYxj7cMyBQSOWIxRGHe0W8VeAPTFsZuMA/edit#heading=h.q4gpa8a2mtgl
-*** BACK Look at this individually, add to the doc, and come ready to discuss next week
+*** Look at this individually, add to the doc, and come ready to discuss next week
 ** Big picture
 - High level
 - Practical/concrete
@@ -149,6 +149,6 @@ Noorah found this: https://www.nsf.gov/pubs/2021/nsf21548/nsf21548.htm
 **** Report to Cameron and David about what we covered
 **** Review the CLA stuff
 **** Finding density poles within research?                       :metaphor:
-**** BACK Joe to pass info about Firn tags to Leo
+**** Joe to pass info about Firn tags to Leo
 **** Maybe milestone based funding for Org Roam
 **** Following up w/ 1600 UTC weekdays

@@ -93,24 +93,29 @@ centring on “who does this business do business with?”
 ** Project Management Hygiene
 
 - set SMART goals (Specific, Measurable, Achievable, Relevant and Time-based)
-- understand tasks required to accomplish goals, then set realistic timeline 
+ - (See also: [[file:coaching_and_mentoring.org][Coaching and Mentoring]].)
+- understand tasks required to accomplish goals, then set realistic timeline
 - create project plan in wiki
-- regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary 
-- after-action reviews at the end of project, including reflection/writeup of positives and deltas 
-- experienced, well-oiled teams requires less strict project management hygiene 
-- new, less-organized, or heterogenous teams require more attention to careful project management hygiene 
+- regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary
+- after-action reviews at the end of project, including reflection/writeup of positives and deltas
+- experienced, well-oiled teams requires less strict project management hygiene
+- new, less-organized, or heterogenous teams require more attention to careful project management hygiene
 
-** FROZEN Make a list of actual topics of interest                     :ALL:
+** STARTED [#A] Review the Exp2Exp backlog to decide which things are wontfix, what other categories need to be created, etc.
+I can browse these locally with =C-c R e=.
+
+** BACK Make a list of actual topics of interest
 If we were just doing “content production” we might think of a list of
 chapters to write, or podcasts to produce. However, maybe those ways
 of thinking and working don’t apply comfortably here.
 
-** FROZEN Make a project analysis of active projects               :joe:ray:
+** BACK Make a project analysis of active projects
+This could refer to Peter Kaminski’s "[[file:20200810135126-organisational_infrastructure.org::*Project orientation][Project orientation]]" described in [[file:20200810135126-organisational_infrastructure.org][Organisational infrastructure]].
 
 * Technology
 
 Does https://github.com/orgs/exp2exp/projects/1 conflict, replace, or
-serve a different function compared with Org mode agenda items?  
+serve a different function compared with Org mode agenda items?
 
 ** DONE Figure out Github project(s) vs Org todos               :joe:cameron:
 

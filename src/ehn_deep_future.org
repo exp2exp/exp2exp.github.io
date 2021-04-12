@@ -3,16 +3,16 @@
 
 * Appendix I
 
-** FROZEN Refresh on ob-servant code
+** BACK Refresh on ob-servant code
 ** DONE Gather the notebook
-** FROZEN Check org-mode variables to deal with the copy-paste issues
+** BACK Check org-mode variables to deal with the copy-paste issues
 ** DONE Ask Charlie for an example notebook and maybe a meeting about that
 
 * Appendix II
 
-** FROZEN Repeat something like Minnesota 2050 with some of these tools
-** FROZEN Do due dilligence on https://remo.co/
-** FROZEN Think about about the connections with Peeragogy & Ethics
+** BACK Repeat something like Minnesota 2050 with some of these tools
+** BACK Do due dilligence on https://remo.co/
+** BACK Think about about the connections between EHN, Peeragogy, and Ethics
 Is there a pattern where, if you have different subjects, interleave
 them in this way to make them branch out and learn?
 
@@ -27,4 +27,4 @@ made a huge difference.
 Interchange between business, science, and religion.
 
 
-** FROZEN Would it have applications, e.g., in startup incubators?  (Could we have a startup incubator "on demand"?)
+** BACK Would it have applications, e.g., in startup incubators?  (Could we have a startup incubator "on demand"?)

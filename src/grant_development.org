@@ -44,5 +44,5 @@ of what we did in the FARM paper.  We discussed the advant
 ** Maybe we could move in another more formal (category theoretic) direction
 Maybe we could build out some of the ideas that Zans and Ray have been
 discussing. Potentially this could also involve
-* STARTED Outline(s) for small grants                                  :joe:
-** STARTED [#A] Revise Academic Beneficiaries part of draft            :joe:
+* DONE [#A] Outline(s) for small grants                                 :joe:
+** DONE [#A] Revise Academic Beneficiaries part of draft               :joe:

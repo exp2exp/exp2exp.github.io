@@ -194,7 +194,7 @@ And, even though this is the free version, there is a company behind it: whereas
 - “Software development is just about software”  — ends up with only men! ...
 - So we need to modify the rules (4 Freedoms)... Netbeans can also be hard, but where can you ask questions?  Who has access to the questions, and what’s the response.
 
-*** BACK Come back to the M-x Research debrief during the week         :ALL:
+*** Come back to the M-x Research debrief during the week
 - EmacsConf discussions getting going in mid-April
 
 ** LV’s Crowdfunding                                                   :5m:
