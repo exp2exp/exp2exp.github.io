@@ -29,7 +29,7 @@
 # erg-10-04-2021.org 17
 # erg-17-04-2021.org 18
 
-This refines the previous [[file:cla-20-february-2021.org][CLA 16 January 2021]], which covered Episodes
+This refines the previous [[file:cla-16-january-2021.org][CLA 16 January 2021]], which covered Episodes
 1-6, and [[file:cla-20-february-2021.org][CLA 20 February 2021]] which covered Episodes 7-12.  This one,
 additionally, covers Episodes 13-18.  Now that we have been over this
 territory a bit, it makes sense to try and develop some breakdown of

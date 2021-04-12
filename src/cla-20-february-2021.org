@@ -21,7 +21,7 @@
 # erg-20-02-2021.org 11
 # erg-27-02-2021.org 12
 
-This refines the previous [[file:cla-20-february-2021.org][CLA 16 January 2021]], which covered Episodes 1-6.
+This refines the previous [[file:cla-16-january-2021.org][CLA 16 January 2021]], which covered Episodes 1-6.
 Perhaps we should delay ‘finalising’ this for a couple more weeks, so that we can also have 6 episodes to look back on.
 But we might as well start now so that we don’t have to do it all at once!
 
