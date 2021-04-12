@@ -264,35 +264,35 @@ And, even though this is the free version, there is a company behind it: whereas
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- JC had a tough week, and really enjoyed the support he got from HyperReal
-  - ‘It’s not just about individuals; the community is itself a strength, and meeting regularly is creating that space, because we can count on one another.’
-  - We’ve gotten to know one another to the point where it’s become tricky to find the common denominators of the group
-    - If we picked ‘Gender & FLOSS’, we know we’d use the tools to do what we wanted to do
-- RSP: ‘This fits very well with the diversity discussion we’ve been having today’
-- View RStudio presentation and think about
-  - We had a good discussion where we tied this to Emacs
-  - It was good to see some code and some visualisation
+**** JC had a tough week, and really enjoyed the support he got from HyperReal
+**** ‘It’s not just about individuals; the community is itself a strength, and meeting regularly is creating that space, because we can count on one another.’
+**** We’ve gotten to know one another to the point where it’s become tricky to find the common denominators of the group
+**** If we picked ‘Gender & FLOSS’, we know we’d use the tools to do what we wanted to do
+**** RSP: ‘This fits very well with the diversity discussion we’ve been having today’
+**** View RStudio presentation and think about
+**** We had a good discussion where we tied this to Emacs
+**** It was good to see some code and some visualisation
 *** 2. Establish what is happening: what and how are we learning?
-- It’s been a while since we had David or Cameron
-- Things running well in Ray’s research project
-- We got a look at Noorah’s thesis layout with Zanzi, and a demo of using Emacs to run bibliography
+**** It’s been a while since we had David or Cameron
+**** Things running well in Ray’s research project
+**** We got a look at Noorah’s thesis layout with Zanzi, and a demo of using Emacs to run bibliography
 *** 3. What are some different perspectives on what’s happening?
-- The PAR can still be difficult to navigate
-  - The self-reflexive PAR!
-- JC’s discussion with Charlie
-  - Charlie is in a very different position from Joe, but they’re both working with people learning data analysis skills
-     - (CD: on the job or JC: MSC students)
-  - Using the techniques which have been deployed in the Peeragogy project in ERG from the start was a good bet
-- Timer *almost* worked automatically
+**** The PAR can still be difficult to navigate
+**** The self-reflexive PAR!
+**** JC’s discussion with Charlie
+**** Charlie is in a very different position from Joe, but they’re both working with people learning data analysis skills
+**** (CD: on the job or JC: MSC students)
+**** Using the techniques which have been deployed in the Peeragogy project in ERG from the start was a good bet
+**** Timer almost worked automatically
 *** 4. What did we learn or change?
-- PARs worked for ERG, but did they work for EmacsConf?
-- Would we need a different kind of organisation for this?
-- Sacha’s buy-in is a complement! Right time, team of people that she’s working with
+**** PARs worked for ERG, but did they work for EmacsConf?
+**** Would we need a different kind of organisation for this?
+**** Sacha’s buy-in is a complement! Right time, team of people that she’s working with
 *** 5. What else should we change going forward?
-- We’re getting to a point where we can do a shared research project
-- Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards
-- We would be ready to receive visitors at some point...
-- Could learn from EmacsConf as they try to do this
+**** We’re getting to a point where we can do a shared research project
+**** Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards
+**** We would be ready to receive visitors at some point...
+**** Could learn from EmacsConf as they try to do this
 
 * Check-out (exceptional or not)
 

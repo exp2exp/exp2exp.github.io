@@ -194,24 +194,24 @@ Mini Emacs-Rocks?
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- We wanted to have laid back chat rather than a minuted meeting this time
-- This helped to tie this in to some of the topics that we talked about during the week
+**** We wanted to have laid back chat rather than a minuted meeting this time
+**** This helped to tie this in to some of the topics that we talked about during the week
 *** 2. Establish what is happening: what and how are we learning?
-- The way we’ve used the PAR has evolved with the months, and it seems we’re getting more value out of them now; we’ve refined our method.
-- This casual way of talking helped us digest things a little more slowly
-- This was almost an ‘Agile restrospective’
+**** The way we’ve used the PAR has evolved with the months, and it seems we’re getting more value out of them now; we’ve refined our method.
+**** This casual way of talking helped us digest things a little more slowly
+**** This was almost an ‘Agile restrospective’
 *** 3. What are some different perspectives on what’s happening?
-- We wanted to know if things like the index project had to do with our projects — we got some value out of it; if we don’t do that, we can get torn apart and all the ideas don’t fit, whereas if you have an idea of they fit into a bigger thing it’s easier to make progress
-- If 3 weeks out of the 4 we are focusing on a blue-print (keeping in mind that I’m not an architect) — in the 4th there’s also the opportunity to step back
-- If we don’t have that, we get lost
-- Joe liked bringing in a Deleuze quote; and connecting to an idea of an 8-handed composition
-- Leo regrets that we are currently only have 4 people on board; Cameron will be back sometime
+**** We wanted to know if things like the index project had to do with our projects — we got some value out of it; if we don’t do that, we can get torn apart and all the ideas don’t fit, whereas if you have an idea of they fit into a bigger thing it’s easier to make progress
+**** If 3 weeks out of the 4 we are focusing on a blue-print (keeping in mind that I’m not an architect) — in the 4th there’s also the opportunity to step back
+**** If we don’t have that, we get lost
+**** Joe liked bringing in a Deleuze quote; and connecting to an idea of an 8-handed composition
+**** Leo regrets that we are currently only have 4 people on board; Cameron will be back sometime
 *** 4. What did we learn or change?
-- We liked this a lot
+**** We liked this a lot
 *** 5. What else should we change going forward?
-- We could come up with a pseudo-Agile retro after the CLA to have unstructured discussions like we’ve had today
-- We need to address the gender balance sometime
-- We should be thinking about other guests
+**** We could come up with a pseudo-Agile retro after the CLA to have unstructured discussions like we’ve had today
+**** We need to address the gender balance sometime
+**** We should be thinking about other guests
 
 * Check-out (exceptional or not)
 

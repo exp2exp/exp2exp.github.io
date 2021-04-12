@@ -154,27 +154,27 @@
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Come back together after a couple weeks out; catchup
+**** Come back together after a couple weeks out; catchup
 *** 2. Establish what is happening: what and how are we learning?
-- Longer check in this time
-- We’ll have Ray on this time!
-- It evolved organically in a more unstructured session
+**** Longer check in this time
+**** We’ll have Ray on this time!
+**** It evolved organically in a more unstructured session
 *** 3. What are some different perspectives on what’s happening?
-- It was nice to catch up
-- Emacs gauntlet has been thrown down! The R Markdown affair may come to an end...?
-- RSP: Both Noorah and I have been bringing in experiences of how this relates to research with other collaborators (incl. their use of other platforms)
-- NA: Continuing on the goal of ‘how to do collaborative research’ — e.g. switching formats to minimise information loss, incorporating comments on Word and incorporating them
-- RSP: This is also the case in Peeragogy (using Overleaf w/ minimal pushback)
-- There can be very different expectations about how collaborations go
-- Let’s treasure these things for the CLA
+**** It was nice to catch up
+**** Emacs gauntlet has been thrown down! The R Markdown affair may come to an end...?
+**** RSP: Both Noorah and I have been bringing in experiences of how this relates to research with other collaborators (incl. their use of other platforms)
+**** NA: Continuing on the goal of ‘how to do collaborative research’ — e.g. switching formats to minimise information loss, incorporating comments on Word and incorporating them
+**** RSP: This is also the case in Peeragogy (using Overleaf w/ minimal pushback)
+**** There can be very different expectations about how collaborations go
+**** Let’s treasure these things for the CLA
 *** 4. What did we learn or change?
-- A lot of interesting topics came up that we didn’t know about at the beginning
-- Got in some planning for more structured sessions with guests
+**** A lot of interesting topics came up that we didn’t know about at the beginning
+**** Got in some planning for more structured sessions with guests
 *** 5. What else should we change going forward?
-- CLA for next week, breaking down text into doable tasks?
-- Leo can demo commands for splitting tasks, GTD style!
-- Try to keep things to 1h30m in future?
-- Maybe useful to look at Lisa’s interview to think about structured data gathering method
+**** CLA for next week, breaking down text into doable tasks?
+**** Leo can demo commands for splitting tasks, GTD style!
+**** Try to keep things to 1h30m in future?
+**** Maybe useful to look at Lisa’s interview to think about structured data gathering method
 
 * Check-out (exceptional or not)
 

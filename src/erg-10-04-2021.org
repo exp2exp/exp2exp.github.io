@@ -232,36 +232,36 @@ Ray agrees about developing things the right way, taking enough time. BUT we als
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Joe came ready to continue emotional processing
-- Ray: finding more about what Noorah was saying more
+**** Joe came ready to continue emotional processing
+**** Ray: finding more about what Noorah was saying more
 *** 2. Establish what is happening: what and how are we learning?
-- In the context of peeragogy we were talking about other disasters and how disasters a
+**** In the context of peeragogy we were talking about other disasters and how people can engage with them
 *** 3. What are some different perspectives on what’s happening?
-- We’ve been meeting for almost half a year
-- Ray and Joe have been trying to feel our way
-  - Will our stuff about design patterns and futures be useful
-  - Maybe we can do some shared readings around Noorah’s ‘adaptive capacity’ themes
-  - But how do we think about this methodologically?
-- Need to articulate what we’re doing...
-- It’s helpful to talk about the ideas and this will make the writing work
-- Leo has been quieter today, partly by design (no experience w/ disseratation writing) BUT also if I just fade away from the discussion
-- This felt a bit chill; we wanted some more tight control sessions interspersed with less structured...
-- But we also didn’t get Leo’s checkin, partly because the rawness of the current situation
-- (This is good b/c we’re not letting things fester.)
-- Also keeping each other in the loop.
+**** We’ve been meeting for almost half a year
+**** Ray and Joe have been trying to feel our way
+**** Will our stuff about design patterns and futures be useful
+**** Maybe we can do some shared readings around Noorah’s ‘adaptive capacity’ themes
+**** But how do we think about this methodologically?
+**** Need to articulate what we’re doing...
+**** It’s helpful to talk about the ideas and this will make the writing work
+**** Leo has been quieter today, partly by design (no experience w/ disseratation writing) BUT also if I just fade away from the discussion
+**** This felt a bit chill; we wanted some more tight control sessions interspersed with less structured...
+**** But we also didn’t get Leo’s checkin, partly because the rawness of the current situation
+**** (This is good b/c we’re not letting things fester.)
+**** Also keeping each other in the loop.
 *** 4. What did we learn or change?
-- Interest in ‘adaptive capacity’ at the institutional level
-- Adaptability has to do w/ how strong their institutions are
-- Weak organisations will have difficulties working together
-- Right amount of structure; nevertheless there’s a benefit of ‘intention-based meetings’
-- Sharing idea of meetings without a proliferation of topics
-- “If I’m in this room I want to look to these topics.”
-- This signals intention and therefore prevents confusion
+**** Interest in ‘adaptive capacity’ at the institutional level
+**** Adaptability has to do w/ how strong their institutions are
+**** Weak organisations will have difficulties working together
+**** Right amount of structure; nevertheless there’s a benefit of ‘intention-based meetings’
+**** Sharing idea of meetings without a proliferation of topics
+**** “If I’m in this room I want to look to these topics.”
+**** This signals intention and therefore prevents confusion
 *** 5. What else should we change going forward?
-- Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~
-- Maybe getting something fired up from 19th around adaptive capacity?
-- Will read some papers around these interests
-- We have enough bullet points to do another edition of the CLA
+**** Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~
+**** Maybe getting something fired up from 19th around adaptive capacity?
+**** Will read some papers around these interests
+**** We have enough bullet points to do another edition of the CLA
 
 * Check-out (exceptional or not)
 

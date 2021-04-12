@@ -1,0 +1,231 @@
+#+TITLE: CLA 20 February 2021
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-02-20 Saturday>
+#+roam_tag: HI
+
+* Cross references:
+
+# erg-02-12-2020.org 1
+# erg-12-12-2020.org 2
+# erg-19-12-2020.org 3
+# erg-02-01-2021.org 4
+# erg-09-01-2021.org 5
+# erg-16-01-2021.org 6
+#
+# erg-23-01-2021.org 7
+# erg-30-01-2021.org 8
+# erg-06-02-2021.org 9
+# erg-13-02-2021.org 10
+# erg-20-02-2021.org 11
+# erg-27-02-2021.org 12
+#
+# erg-06-03-2021.org 13
+# erg-13-03-2021.org 14
+# erg-27-03-2021.org 15
+# erg-03-04-2021.org 16
+# erg-10-04-2021.org 17
+# erg-17-04-2021.org 18
+
+This refines the previous [[file:cla-20-february-2021.org][CLA 16 January 2021]], which covered Episodes
+1-6, and [[file:cla-20-february-2021.org][CLA 20 February 2021]] which covered Episodes 7-12.  This one,
+additionally, covers Episodes 13-18.  Now that we have been over this
+territory a bit, it makes sense to try and develop some breakdown of
+the text we’ve developed into doable, measurable, tasks.
+
+* Objective for this session
+
+‘What is our vision for change and how is progress measurable?’
+
+** Understanding data, headlines, empirical world (short term change) :data:
+#+begin_quote
+We’ve made progress since we started with the raw themes of “Research
+on/in/with Emacs”.  We’ve had interesting and varied guests, and some
+developing plans for the quarter ahead.  We’ve got a workflow with
+careful review and diagnosis of issues when expectations aren’t met.
+Our work needs to be public first before we can embark on the next
+phase of this project — which is to mesh with ongoing related
+activities elsewhere.
+#+end_quote
+*** TODO Maintain plans for the quarter ahead?
+*** TODO Keep doing PARs and CLAs?
+*** TODO Mesh with other ongoing activities elsewhere?
+**** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-02-12-2020.org::*Everyone shared a brief intro and ideas so we got to know each other][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
+***** [[file:erg-02-01-2021.org::*Plan whitepaper — Still narrowing to a decent output][Plan whitepaper — Still narrowing to a decent output]] :ep3:
+***** [[file:erg-09-01-2021.org::*LV: Planning to go back over notes & improve current ZK to share][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
+***** [[file:erg-16-01-2021.org::*Joe to pass info about Firn tags to Leo][Joe to pass info about Firn tags to Leo]] :ep6:
+**** Supporting data from CLA 2                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-23-01-2021.org::*crdt was almost a resounding success][crdt was almost a resounding success]]                             :ep7:
+***** [[file:erg-23-01-2021.org::*Moving things from TODO to DONE would be nice][Moving things from TODO to DONE would be nice]]                    :ep7:
+***** [[file:erg-30-01-2021.org::*Joe to research Bookdown + Hypothes.is + Rstudio][Joe to research Bookdown + Hypothes.is + Rstudio]]                 :ep8:
+***** [[file:erg-30-01-2021.org::*Circulate early draft of HCI paper, Joe to read comedy and philosophy paper][Circulate early draft of HCI paper, Joe to read comedy and philosophy paper]] :ep8:
+***** [[file:erg-06-02-2021.org::*Leo to liaise UX, dev stuff][Leo to liaise UX, dev stuff]]                                      :ep9:
+***** [[file:erg-13-02-2021.org::*We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)][We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)]] :ep10:
+***** [[file:erg-27-02-2021.org::*Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee][Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee]] :ep12:
+***** [[file:erg-27-02-2021.org::*JC: It was good enough, especially since Mark might not be able to join us next week][JC: It was good enough, especially since Mark might not be able to join us next week]] :ep12:
+**** Supporting data from CLA 3
+***** [[file:erg-06-03-2021.org::*Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards][Federating the groups around Emacs, or creating a global Emacs research, is probably what we should be striving towards]] :ep13:
+***** [[file:erg-27-03-2021.org::*RSP: Both Noorah and I have been bringing in experiences of how this relates to research with other collaborators (incl. their use of other platforms)][RSP: Both Noorah and I have been bringing in experiences of how this relates to research with other collaborators (incl. their use of other platforms)]] :ep15:
+***** [[file:erg-27-03-2021.org::*Leo can demo commands for splitting tasks, GTD style!][Leo can demo commands for splitting tasks, GTD style!]] :ep15:
+***** [[file:erg-27-03-2021.org::*Maybe useful to look at Lisa’s interview to think about structured data gathering method][Maybe useful to look at Lisa’s interview to think about structured data gathering method]] :ep15:
+***** [[file:erg-03-04-2021.org::*Leo’s had more than 5 hours of Org and Emacs activities and is pretty saturated][Leo’s had more than 5 hours of Org and Emacs activities and is pretty saturated]] :ep16:
+***** [[file:erg-03-04-2021.org::*User stories will be interesting to see (‘Black and White’)][User stories will be interesting to see (‘Black and White’)]] :ep16:
+***** [[file:erg-10-04-2021.org::*Weak organisations will have difficulties working together][Weak organisations will have difficulties working together]] :ep17:
+** Systemic approaches and solutions (social system)                :system:
+#+begin_quote
+If we tackle big enough projects, it will bring with it the need for
+collaboration (who, what is the itinerary; having places to talk about
+research?). While we like to create tangible deliverables (e.g.,
+journal articles, rather than half-baked/half-finished publications),
+“If we knew what the outcome was it wouldn’t be research” — and we
+want to keep a role for serendipity in our work. (Good to have some
+people holding the fort; we’re doing fine in terms of turn-out at
+weekly meetings!)
+#+end_quote
+*** TODO Identify potential stakeholders in Emacs Research
+*** TODO Identify stakeholders in the kind of activities we can support
+*** TODO Create some publication to plant a flag for our group
+*** TODO Keep exploring!
+**** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-02-12-2020.org::*Part of a greater sense of trying to do something with EmacsConf to federate the community][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
+***** [[file:erg-02-12-2020.org::*Joe: Leo did an amazing job facilitating the meeting][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
+***** [[file:erg-02-12-2020.org::*Public Policy conference: (How to get a grant?)][Public Policy conference: (How to get a grant?)]] :ep1:
+***** [[file:erg-19-12-2020.org::*Work on methodology of the group][Work on methodology of the group]] :ep3:
+***** [[file:erg-19-12-2020.org::*Have a nice language for asking for demo material, or other needs][Have a nice language for asking for demo material, or other needs]] :ep3:
+***** [[file:erg-02-01-2021.org::*David & Noorah have joined the Discord server!][David & Noorah have joined the Discord server!]] :ep4:
+***** [[file:erg-09-01-2021.org::*Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep5:
+***** [[file:erg-16-01-2021.org::*Make the inputs contextual.][Make the inputs contextual.]] :ep6:
+***** [[file:erg-16-01-2021.org::*We came up with an adapted plan for the exercise][We came up with an adapted plan for the exercise]] :ep6:
+***** [[file:erg-16-01-2021.org::*Maybe milestone based funding for Org Roam][Maybe milestone based funding for Org Roam]] :ep6:
+***** [[file:erg-16-01-2021.org::*Following up w/ 1600 UTC weekdays][Following up w/ 1600 UTC weekdays]] :ep6:
+
+**** Supporting data from CLA 2                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-23-01-2021.org::*Worried that people might be burning out on meetings (PAR for Hyperreal?)][Worried that people might be burning out on meetings (PAR for Hyperreal?)]] :ep7:
+***** [[file:erg-23-01-2021.org::*If you're coming last-minute with an agenda this can create fatigue][If you're coming last-minute with an agenda this can create fatigue]] :ep7:
+***** [[file:erg-13-02-2021.org::*We’re continuing on the path of interdisciplinary learning][We’re continuing on the path of interdisciplinary learning]]      :ep10:
+***** [[file:erg-13-02-2021.org::*Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)][Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)]] :ep10:
+***** [[file:erg-20-02-2021.org::*Build some Elisp sessions for ourselves in future!][Build some Elisp sessions for ourselves in future!]]              :ep11:
+***** [[file:erg-27-02-2021.org::*Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!][Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!]] :ep12:
+**** Supporting data from CLA 3
+***** [[file:erg-06-03-2021.org::*If we picked ‘Gender & FLOSS’, we know we’d use the tools to do what we wanted to do][If we picked ‘Gender & FLOSS’, we know we’d use the tools to do what we wanted to do]] :ep13:
+***** [[file:erg-06-03-2021.org::*We got a look at Noorah’s thesis layout with Zanzi, and a demo of using Emacs to run bibliography][We got a look at Noorah’s thesis layout with Zanzi, and a demo of using Emacs to run bibliography]] :ep13:
+***** [[file:erg-06-03-2021.org::*Charlie is in a very different position from Joe, but they’re both working with people learning data analysis skills][Charlie is in a very different position from Joe, but they’re both working with people learning data analysis skills]] :ep13:
+***** [[file:erg-13-03-2021.org::*We wanted to have laid back chat rather than a minuted meeting this time][We wanted to have laid back chat rather than a minuted meeting this time]] :ep14:
+***** [[file:erg-27-03-2021.org::*It evolved organically in a more unstructured session][It evolved organically in a more unstructured session]] :ep15:
+***** [[file:erg-03-04-2021.org::*We hit into some key issues — many of us are trying to do science outside][We hit into some key issues — many of us are trying to do science outside]] :ep16:
+***** [[file:erg-03-04-2021.org::*We also managed to describe some of the real-world conflicts depending on the users][We also managed to describe some of the real-world conflicts depending on the users]] :ep16:
+***** [[file:erg-10-04-2021.org::*In the context of peeragogy we were talking about other disasters and how people can engage with them][In the context of peeragogy we were talking about other disasters and how people can engage with them]] :ep17:
+***** [[file:erg-10-04-2021.org::*But we also didn’t get Leo’s checkin, partly because the rawness of the current situation][But we also didn’t get Leo’s checkin, partly because the rawness of the current situation]] :ep17:
+***** [[file:erg-10-04-2021.org::*Adaptability has to do w/ how strong their institutions are][Adaptability has to do w/ how strong their institutions are]] :ep17:
+***** [[file:erg-10-04-2021.org::*“If I’m in this room I want to look to these topics.” This signals intention and therefore prevents confusion][“If I’m in this room I want to look to these topics.” This signals intention and therefore prevents confusion]] :ep17:
+** Worldview, ways of knowing and alternative discourse          :worldview:
+#+begin_quote
+We have looked at RStudio as a model of (some of) the kinds of things
+we want to do (would be great if we got the next big thing up and
+running in a year... but this is a lot to ask). ‘Practice’ and
+‘method’ keep coming up (respectively, these seem to be more bottom up
+and more top down ways of actualising what we’re doing).  We’ve been
+focusing on what we’re actually doing, and when we’re clear on that,
+we look at which settings are the most conducive. E.g., one method
+would be: instead of having a shared Org Roam directory, having ways
+of managing sharing of notes across ‘graphs’. (Collaborative work,
+academia, writing a book; ORCiD. If we all had our slipboxes on there
+we could reference between them. Finding things which are continually
+evolving. Maybe it would turn into a Tinder for academics to match
+people based on interest... Instead of paying money to go to
+conferences! Now we can spontaneously make up conferences. That will
+be $750.0 per user...)
+#+end_quote
+*** TODO Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq)
+*** TODO Develop our own intention-based workflow
+*** TODO Continue to develop and refine our methods
+*** TODO Develop a suitable collaborative writing workflow for a specific shared output
+*** TODO Think about the product and business development plans for such a service
+**** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-02-12-2020.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+***** [[file:erg-19-12-2020.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
+***** [[file:erg-02-01-2021.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
+***** [[file:erg-02-01-2021.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep4:
+***** [[file:erg-09-01-2021.org::*About these PARS... the method of ongoing review still needs improvement][About these PARS... the method of ongoing review still needs improvement]] :ep5:
+***** [[file:erg-09-01-2021.org::*Awareness of the adversarial process in review of research][Awareness of the adversarial process in review of research]] :ep5:
+***** [[file:erg-16-01-2021.org::*We’re contributing to Peeragogy from within][We’re contributing to Peeragogy from within]] :ep6:
+
+**** Supporting data from CLA 2                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-23-01-2021.org::*More fun to do this sort of stuff than the rules & structures of academia][More fun to do this sort of stuff than the rules & structures of academia]] :ep7:
+***** [[file:erg-30-01-2021.org::*Cover Oxford application some more][Cover Oxford application some more]] :ep8:
+***** [[file:erg-30-01-2021.org::*Collaborative annotations][Collaborative annotations]] :ep8:
+***** [[file:erg-30-01-2021.org::*Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research][Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research]] :ep8:
+***** [[file:erg-06-02-2021.org::*This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do][This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do]] :ep9:
+***** [[file:erg-06-02-2021.org::*Qiantan doesn’t use org mode... it generates section][Qiantan doesn’t use org mode... it generates section]] :ep9:
+***** [[file:erg-13-02-2021.org::*Anthropology + Psychology is a special nightmare for reproducibility][Anthropology + Psychology is a special nightmare for reproducibility]] :ep10:
+***** [[file:erg-13-02-2021.org::*Maybe the ERG could contribute further patterns?][Maybe the ERG could contribute further patterns?]] :ep10:
+***** [[file:erg-20-02-2021.org::*It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things /contextually/][It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things contextually]] :ep11:
+**** Supporting data from CLA 3
+***** [[file:erg-06-03-2021.org::*Using the techniques which have been deployed in the Peeragogy project in ERG from the start was a good bet][Using the techniques which have been deployed in the Peeragogy project in ERG from the start was a good bet]] :ep13:
+***** [[file:erg-13-03-2021.org::*We wanted to know if things like the index project had to do with our projects — we got some value out of it; if we don’t do that, we can get torn apart and all the ideas don’t fit, whereas if you have an idea of they fit into a bigger thing it’s easier to make progress][We wanted to know if things like the index project had to do with our projects — we got some value out of it; if we don’t do that, we can get torn apart and all the ideas don’t fit, whereas if you have an idea of they fit into a bigger thing it’s easier to make progress]] :ep14:
+***** [[file:erg-13-03-2021.org::*Joe liked bringing in a Deleuze quote; and connecting to an idea of an 8-handed composition][Joe liked bringing in a Deleuze quote; and connecting to an idea of an 8-handed composition]] :ep14:
+***** [[file:erg-13-03-2021.org::*We could come up with a pseudo-Agile retro after the CLA to have unstructured discussions like we’ve had today][We could come up with a pseudo-Agile retro after the CLA to have unstructured discussions like we’ve had today]] :ep14:
+***** [[file:erg-27-03-2021.org::*NA: Continuing on the goal of ‘how to do collaborative research’ — e.g. switching formats to minimise information loss, incorporating comments on Word and incorporating them][NA: Continuing on the goal of ‘how to do collaborative research’ — e.g. switching formats to minimise information loss, incorporating comments on Word and incorporating them]] :ep15:
+***** [[file:erg-03-04-2021.org::*LV: Feels like the discussion with Ray silenced Noorah?][LV: Feels like the discussion with Ray silenced Noorah?]] :ep16:
+***** [[file:erg-03-04-2021.org::*JC: I was happy to see Ray’s use of Logseq][JC: I was happy to see Ray’s use of Logseq]] :ep16:
+***** [[file:erg-10-04-2021.org::*Will our stuff about design patterns and futures be useful][Will our stuff about design patterns and futures be useful]] :ep17:
+***** [[file:erg-10-04-2021.org::*Maybe we can do some shared readings around Noorah’s ‘adaptive capacity’ themes][Maybe we can do some shared readings around Noorah’s ‘adaptive capacity’ themes]] :ep17:
+***** [[file:erg-10-04-2021.org::*Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~][Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~]] :ep17:
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+#+begin_quote
+What gives an objective character to what we’re doing? (Noting also
+that time is going by; things that were timely 7 years ago might not
+be timely now; the actual relevance goes down.) Or, rather: what is it
+that allows us to synthesise new relationships? What big or
+‘existential’ problem are we solving... we’re not pushing ourselves
+beyond what’s humanly possible, but we are pushing ourselves to
+learn.
+#+end_quote
+*** TODO Survey related work
+*** TODO Assess what we’re learning
+**** Supporting data from CLA 1                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-02-12-2020.org::*We generally agreed that we want to make something that exposes intrinsic value of using these tools][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
+***** [[file:erg-09-01-2021.org::*Taking a step back was helpful][Taking a step back was helpful]] :ep5:
+***** [[file:erg-09-01-2021.org::*Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
+***** [[file:erg-16-01-2021.org::*Relationship between these kinds of personal health things and the "group health"][Relationship between these kinds of personal health things and the "group health"]] :ep6:
+***** [[file:erg-16-01-2021.org::*Finding density poles within research?][Finding density poles within research?]] :ep6:
+**** Supporting data from CLA 2                                   :noexport:
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+***** [[file:erg-30-01-2021.org::*Noorah mentioned interest in pattern templates][Noorah mentioned interest in pattern templates]] :ep8:
+***** [[file:erg-06-02-2021.org::*We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)][We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)]] :ep9:
+***** [[file:erg-06-02-2021.org::*Prepare for CRDT Hackathon in summer?][Prepare for CRDT Hackathon in summer?]] :ep9:
+***** [[file:erg-20-02-2021.org::*Joe: can report back on practical details of serendipity next week!][Joe: can report back on practical details of serendipity next week!]] :ep11:
+**** Supporting data from CLA 3
+***** [[file:erg-06-03-2021.org::*We’ve gotten to know one another to the point where it’s become tricky to find the common denominators of the group][We’ve gotten to know one another to the point where it’s become tricky to find the common denominators of the group]] :ep13:
+***** [[file:erg-13-03-2021.org::*If 3 weeks out of the 4 we are focusing on a blue-print (keeping in mind that I’m not an architect) — in the 4th there’s also the opportunity to step back][If 3 weeks out of the 4 we are focusing on a blue-print (keeping in mind that I’m not an architect) — in the 4th there’s also the opportunity to step back]] :ep14:
+***** [[file:erg-13-03-2021.org::*We need to address the gender balance sometime][We need to address the gender balance sometime]] :ep14:
+***** [[file:erg-27-03-2021.org::*There can be very different expectations about how collaborations go][There can be very different expectations about how collaborations go]] :ep15:
+***** [[file:erg-03-04-2021.org::*Exciting to think about ‘the future of emacs, free software, citizen science’][Exciting to think about ‘the future of emacs, free software, citizen science’]] :ep16:
+***** [[file:erg-10-04-2021.org::*Joe came ready to continue emotional processing][Joe came ready to continue emotional processing]] :ep17:
+***** [[file:erg-10-04-2021.org::*(This is good b/c we’re not letting things fester.)][(This is good b/c we’re not letting things fester.)]] :ep17:

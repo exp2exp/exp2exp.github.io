@@ -169,32 +169,32 @@ $$\int \text{exp}(x) \, dx$$
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Intended to be here!
-- We’re still here even though we’re busy with other things!
+**** Intended to be here!
+**** We’re still here even though we’re busy with other things!
 *** 2. Establish what is happening: what and how are we learning?
-- Leo’s had more than 5 hours of Org and Emacs activities and is pretty saturated
-- When you see others haven’t made it to this baseline...
+**** Leo’s had more than 5 hours of Org and Emacs activities and is pretty saturated
+**** When you see others haven’t made it to this baseline...
 *** 3. What are some different perspectives on what’s happening?
-- LV: Feels like the discussion with Ray silenced Noorah?
-- Maybe not so much sunshine today
-- Deadlines are creeping up...
-- We all have deadlines coming up
-- ERG is creating a beautiful child!
-- We hit into some key issues — many of us are trying to do science outside 
+**** LV: Feels like the discussion with Ray silenced Noorah?
+**** Maybe not so much sunshine today
+**** Deadlines are creeping up...
+**** We all have deadlines coming up
+**** ERG is creating a beautiful child!
+**** We hit into some key issues — many of us are trying to do science outside 
 *** 4. What did we learn or change?
-- JC: I was happy to see Ray’s use of Logseq
-- We also managed to describe some of the real-world conflicts depending on the users
-- ‘postlapsarian’ is not a word
+**** JC: I was happy to see Ray’s use of Logseq
+**** We also managed to describe some of the real-world conflicts depending on the users
+**** ‘postlapsarian’ is not a word
 *** 5. What else should we change going forward?
-- New user on Noorah’s Windows machine called “Dissertation”
-- User stories will be interesting to see (‘Black and White’)
-- Bibliographies, demo of Dissertation user, a longer thing for next time
-- Noorah will have time to prep this
-- Joe could maybe do a little prep on the CLA paragraph
-- Make a template, erg-push-button solution would be nice (20 minute job)
-- Using it should bring joy, when compared with Git and Tramp etc.
-- But how to anticipate how far
-- Exciting to think about ‘the future of emacs, free software, citizen science’
+**** New user on Noorah’s Windows machine called “Dissertation”
+**** User stories will be interesting to see (‘Black and White’)
+**** Bibliographies, demo of Dissertation user, a longer thing for next time
+**** Noorah will have time to prep this
+**** Joe could maybe do a little prep on the CLA paragraph
+**** Make a template, erg-push-button solution would be nice (20 minute job)
+**** Using it should bring joy, when compared with Git and Tramp etc.
+**** But how to anticipate how far
+**** Exciting to think about ‘the future of emacs, free software, citizen science’
 
 ** ‘Thaw’
 - Special TODO states per file 
