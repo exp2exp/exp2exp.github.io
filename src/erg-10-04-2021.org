@@ -255,8 +255,7 @@ Ray agrees about developing things the right way, taking enough time. BUT we als
 **** Weak organisations will have difficulties working together
 **** Right amount of structure; nevertheless there’s a benefit of ‘intention-based meetings’
 **** Sharing idea of meetings without a proliferation of topics
-**** “If I’m in this room I want to look to these topics.”
-**** This signals intention and therefore prevents confusion
+**** “If I’m in this room I want to look to these topics.” This signals intention and therefore prevents confusion
 *** 5. What else should we change going forward?
 **** Ray’s point about NNexus and the link with what org-roam is doing, esp. ~org-roam-unlinked-references~
 **** Maybe getting something fired up from 19th around adaptive capacity?

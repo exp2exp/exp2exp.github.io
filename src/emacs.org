@@ -1,12 +1,17 @@
 #+TITLE: Emacs and Org Mode
+#+roam_tags: TO
 
 We have been looking at Emacs and Org Mode, along with other tools for
-researchers and knowledge workers.
+researchers and knowledge workers.  We gave a short talk at EmacsConf
+about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].
 
-Some of our discussions appear in [[file:erg.org][Emacs Research Group meeting notes]].
-This page attempts to create a summary of some of the themes and ideas
-we’ve been surfacing.  Another form of high-level summary appears in
-our experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20 February 2021]]).
+Some of our subsequent discussions about Emacs and Research appear in
+[[file:erg.org][Emacs Research Group meeting notes]].
+
+This page attempts to create a summary of the themes and ideas we’ve
+been surfacing.  Another form of high-level summary appears in our
+experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20
+February 2021]]).
 
 * Outtakes from our CLA notes, to turn into a narrative
 

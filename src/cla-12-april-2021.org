@@ -1,10 +1,11 @@
 #+TITLE: CLA 12 April 2021
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
-#+roam_tag: HI
+#+roam_tag: HI TO
 #+FIRN_UNDER: erg
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-04-12 Monday>
 #+roam_tag: HI
+#+CATEGORY: ERG
 
 * Cross references:
 

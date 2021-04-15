@@ -1,5 +1,5 @@
 #+TITLE: Forum
-#+roam_tags: OTS AN
+#+roam_tags: OTS AN TO
 #+CATEGORY: OTS
 
 We talked about using Wikum as a forum, because we liked the idea of a

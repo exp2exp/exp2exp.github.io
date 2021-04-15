@@ -46,9 +46,11 @@
 
 This document synthesises a [[http://www.peeragogy.org/pattern-roadmap.html][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/product-roadmap.html][Product
 Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
-inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and shared via Git on repo.or.cz.
-This document can be thought of and edited as a [[*Wiki][Wiki]], from which other
-downstream formats can be derived.  A narrative introduction follows.
+inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and displayed with [[https://github.com/theiceshelf/firn][Firn]].  The
+document can be thought of as a [[*Wiki][Wiki]] (and edited inside Emacs).  From
+these sources, other downstream formats can be derived.  A narrative
+introduction follows.
+
 To skip it, browse ahead to [[*Top][Top]].
 
 ** Introduction
@@ -72,9 +74,9 @@ is around the corner.
 
 *** We are looking at this problem as an informal open source R&D collective.
 
-Our team brings together applied experience in Natural Language
+Our loose-knit team brings together applied experience in Natural Language
 Processing (NLP), computational modelling, online communities,
-physics, biology, mathematics, and statistics.  We’ve been getting
+mathematical sciences ($x!$) as well as humanities and social science.  We’ve been getting
 together for daily coffee chats, and sharing information and skills
 with each other in online seminars.  Sometimes we bring in guest
 speakers.  We hope as time goes by our chats will coalesce into notes,
@@ -255,8 +257,8 @@ Hypothetical conversation: /In my next post I want to integrate something that I
 
 Our purpose:
 
-- *We want to make the knowledge economy accessible to everyone.*
-- *Our long-term vision is computational intelligence based on collective intelligence.*
+- We want to make the knowledge economy accessible to everyone.
+- Our long-term vision is computational intelligence based on collective intelligence.
 ** Teach arbitrary coding
 :PROPERTIES:
   :tag: LRD
@@ -358,7 +360,7 @@ tools that we are actually using.
 - [[*Arxana][Arxana]]
 ** Emacs Hyper Notebook
 :PROPERTIES:
-  :tag: CDN
+  :tag: CDN TO
   :END:
 #+CATEGORY: DEV
 
@@ -386,10 +388,10 @@ could turn out to be useful here.)
 - Emacs Maxima interface, we might build on it — for Monday 12th October, a quick "15 minutes" talk to catch up
 - ... possible deliverable for later on: a NIST talk?
 
-*** TODO Figure out subtasks to deliver for EmacsConf       :joe:ray:cameron:
-*** TODO Figure out how EHN relates to other projects       :joe:ray:cameron:
-*** TODO Keep testing crdt.el and lockstep.el                       :joe:ray:
-*** TODO Could Emacsconf talk become a blog post?           :joe:ray:cameron:
+*** DONE [#A] Figure out subtasks to deliver for EmacsConf  :joe:ray:cameron:
+*** BACK Figure out how EHN relates to other projects
+*** DONE [#A] Keep testing crdt.el and lockstep.el                  :joe:ray:
+*** BACK Could Emacsconf talk become a blog post?           :joe:ray:cameron:
 
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan
 is thinking about a mode to make overlays shareable, which would
@@ -1146,12 +1148,71 @@ When we left off working on Arxana in 2017, we made a few notes.
 Maybe it could be applied to something interesting for which we could
 get a grant. Below, is some of the future work (circa FARM 2017).
 
-*** Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo
-**** Clean up namespaces of functions                           :maintenance:
+The code is stored in [[https://repo.or.cz/w/arxana.git][https://repo.or.cz/w/arxana.git]] (with the latest
+in the mob branch).  There’s some propaganda about the project at
+[[http://arxana.net/][http://arxana.net/]].
+
+*** 2021 report: Dusting off the Tome
+
+I’m starting to revive Arxana for use in grant applications
+(targeting [[*EPSRC: Mathematical Sciences Small Grants][EPSRC: Mathematical Sciences Small Grants]]).  As I go along I want to
+better understand how the old versions of the code works, and better
+understand the use cases for which something like Arxana could be
+relevant.
+
+**** Use case: Edit transcluded files                               :usecase:
+
+- I have a bunch of org files managed by Org Roam
+- I also have [[https://github.com/exp2exp/exp2exp.github.io/blob/master/src/manual/org-roam-manual.el][code for pulling them together into one big Org file]].
+- I'd like to be able to edit the big Org file, and have the changes flow back to all of the underlying Org Roam files without having to think about saving or copying and pasting.
+
+This particular example should in principle be doable with [[https://github.com/nobiot/org-transclusion][org-transclusion]], but looking into it a bit more, that’s not actually how the existing implementation works:
+
+#+begin_quote
+Transcluded contents are read-only. To edit them, use
+=org-transclusion-open-edit-src-buffer-at-point= command. By default, it
+is bound to C-c n e in org-transclusion-mode-map (modify the
+keybinding as you prefer).
+#+end_quote
+
+On the other hand, a limited /working/ version of the workflow is
+afforded by =M-x occur= followed by =e=, which allows editing the /lines/
+where a given word occurs.  But this is much more limited than
+a full-transclusion based workflow.
+
+
+**** Probe: Get Arxana 2005 running                                   :probe:
+
+I got Arxana 2005 running again, with minor updates to the code.
+This recipe now works to get a first look at what’s going on.
+
+1. Find =sbdm4cbpp.tex=.
+2. Evaluate the code block in the section called “Preface”.
+3. Enter =C-; d a section RET= to browse a list of major sections (change to the =*Generic List*= buffer if it doesn’t pop up automatically).  Hit =RET= in the  =*Generic List*= buffer to view listed contents.
+4. Follow colorful links in the =Main Article Display= or =Scholia Display= buffers with =C-; f=.
+5. Type =C-; C-h= to list other keyboard commands.
+
+**So far, nothing we haven’t seen in Org Mode.*
+
+In particular, even though the system /imports/ bits of =sbdm4cbpp.tex= as
+the demo, it’s not clear that it actually allows the user edit these
+pieces and save them back into the source (as described above).
+Exploring some of the other commands
+
+***** Adding a scholium and editing an article
+
+It was possible to create a scholium about a given article with =C-; m
+p=, i.e,. =make-scholium-about-part-of-current-article=, then edit the
+article and commit changes with =C-; c=, i.e., =commit-edits=, and notice
+the text moving around appropriately.  So, that’s a little bit new.
+
+*** Old agenda for developing Arxana (circa our FARM paper)
+**** Immediate upcoming: Before September 3-9 ICFP conference, focusing on our demo
+***** Clean up namespaces of functions                          :maintenance:
 E.g. write =honey:add-nema= instead of =add-nema=.
-**** find the generic interface layer and put it in its own file :maintenance:
+***** find the generic interface layer and put it in its own file :maintenance:
 Sketched in honey-spec.org, but let's make sure it's consistent.
-**** Assemble/disassemble a buffer from/to distributed storage   :demoscheme:
+***** Assemble/disassemble a buffer from/to distributed storage  :demoscheme:
 
 While not needed for our FARM demo, this could be useful for the
 Scheme demo because it makes a relatively convincing case.  And
@@ -1160,18 +1221,18 @@ continue working on the project.
 
 - E.g., related work of arxana-merge merge automatically.
 
-**** Write a basic IATCD evaluator to load Listing 1 stuff         :demofarm:
+***** Write a basic IATCD evaluator to load Listing 1 stuff        :demofarm:
 
 /What is a better name for IATCD?/ ;-)
 
 This is just at the level of moving data around - specifically turning
 s-expressions into triples.
 
-**** Use scholium-based programs to run Listing 2                  :demofarm:
+***** Use scholium-based programs to run Listing 2                 :demofarm:
 
 This is a minimal *working* implementation of what we talk about in the paper.
 
-**** How do inferential connections work (I/R, I/E, etc.)?         :demofarm:
+***** How do inferential connections work (I/R, I/E, etc.)?        :demofarm:
 
 E.g. fig. 7 of Lytinen.
 
@@ -1180,36 +1241,36 @@ This is just for exposition, when talking about prior art it would be nice to kn
 - links between basic CD's
  - e.g., joe communicated the IP address to ray, by talking, so that ray could get on the server
 
-*** Next steps: Paper for IJCAI 2018
-**** IJCAI 2018: Write up applications to mathematics              :platform:
+**** Next steps: Paper for IJCAI 2018
+***** IJCAI 2018: Write up applications to mathematics             :platform:
 Possibly for IJCAI/ECAI.
 Papers due *January 2018*? http://www.chessprogress.com/IJCAI-2018/calls/
 To take place *July 13-19, 2018*
-**** Demo the system walking through the steps of a proof like GCP or MPM.
-**** Demo with APM prelim problems
+***** Demo the system walking through the steps of a proof like GCP or MPM.
+***** Demo with APM prelim problems
 This might be a "future work" section for this paper.
-**** Demo with APM-Xi content
+***** Demo with APM-Xi content
 Show interface with types.
 - E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
 
-*** Next steps: Paper for ICFP 2018
-**** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+**** Next steps: Paper for ICFP 2018
+***** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
 Possibly submit to [[http://conf.researchr.org/home/icfp-2018][ICFP]]. Papers due *Fri 16 Mar 2018*.
 Event to take place in St. Louis, Missouri, United States, to take place *late September*.
-**** Fuzzy search to retrieve loose matches and analogies
-**** Write a simple user language and an interface that generates triplets/quintuplets
-**** Can the system come up with answers to new, basic, questions?
+***** Fuzzy search to retrieve loose matches and analogies
+***** Write a simple user language and an interface that generates triplets/quintuplets
+***** Can the system come up with answers to new, basic, questions?
 
 - Inspired by Nuamah et al's geography examples
 - Simple comparisons, like, how does this concept relate to that concept?  We informally talk about this as ``analogy'' between concepts.  But...
 
-**** Foldable views (like in Org mode) so that people can browse proofs
+***** Foldable views (like in Org mode) so that people can browse proofs
 
 - This may come after the May submission
 - Folding and unfolding the definitions of terms in something like an APM context is relevant example.  Just `unpacking' terms.
 - Note that there is some relevant prior work in the "Wikum" paper of Amy Zhang et al
 
-*** Other next steps: from the Future Work section of our FARM paper
+**** Other next steps: from the Future Work section of our FARM paper
 
 This could potentially be used as the basis of an ERC fellowship
 proposal.  The "2018" version of the call was released August 3 2017,
@@ -1217,21 +1278,21 @@ and is due October 17 2017.  Presumably the "2019" version of the call
 will be run on a similar timeline.  A long PDF describing the current
 call is here: [[http://ec.europa.eu/research/participants/data/ref/h2020/other/guides_for_applicants/h2020-guide18-erc-stg-cog_en.pdf][=h2020-guide18-erc-stg-cog_en.pdf=]]
 
-**** Formal proof
-***** Demo the system walking through the steps of a proof like GCP or MPM.
+***** Formal proof
+****** Demo the system walking through the steps of a proof like GCP or MPM.
 If we keep at it, might have this ready by January, in time for an
 IJCAI paper.
-***** Refine both representations and reasoning aspects.
-***** Integrate external computer algebra / proof checking systems.
-**** Embodiment and cognitive science
-***** Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
-**** Linguistics and NLP
-***** Integrate parsers to generate IATC+CD automatically.
-***** Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
-**** Machine learning
-***** Integrate with knowledge bases of mathematical terms and frequency data (as above).
-***** Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
-***** Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
+****** Refine both representations and reasoning aspects.
+****** Integrate external computer algebra / proof checking systems.
+***** Embodiment and cognitive science
+****** Build on CD theory to reason about embodied intuitions in geometric problems, integrate with Lakoff and Núñez's conceptual metaphors \cite{kaliszyk2014developing-misc}.
+***** Linguistics and NLP
+****** Integrate parsers to generate IATC+CD automatically.
+****** Use these models to seed statistical machine learning, e.g., expanding on the work of Kaliszyk et al who ascertained the frequency of various schematic usages like ``let \(X\) be a \(Y\)'' in a specific corpus of proofs.
+***** Machine learning
+****** Integrate with knowledge bases of mathematical terms and frequency data (as above).
+****** Model Stack Exchange dialogues, in parallel with the work done  on Reddit discussions \cite{zhang2017characterizing}.
+****** Build a system with multiple agents that ``converse with each other to sharpen their wits'' \cite{heretical-theory}.
 
 
 * Which model construction process works as a whole?
@@ -1254,14 +1315,14 @@ computational structures from natural language and technical texts.
 - [[*Information extraction from SO Q&A items][Information extraction from SO Q&A items]]
 ** Information extraction from SO Q&A items
 :PROPERTIES:
-  :tag: CDN
+  :tag: CDN TO
   :END:
 #+CATEGORY: ML
 
 We are attempting to extract triples from textual Q&A by using a
 Neural Machine Translation approach.
 
-*** BACKBURNER Refinining OpenIE approach                             :deyan:
+*** BACK Refinining OpenIE approach
 
 **** Idea is we need a basic data model from which we can build things
 
@@ -1466,7 +1527,7 @@ If you put leashes on these things, using solid methods.
 - [[*Advances in knowledge mining from technical documents][Advances in knowledge mining from technical documents]]
 ** Knowledge graph
 :PROPERTIES:
-  :tag: LRD
+  :tag: LRD TO
   :END:
 #+CATEGORY: KRR
 
@@ -1480,11 +1541,17 @@ graphs.
 *** Practical work
 
 We can already take some practical steps here, along the lines of the
-earlier papers "Modelling the way mathematics is actually done" and
-"Towards mathematical AI via a model of the content and process of
-mathematical question and answer dialogues".
+earlier papers:
 
-*** STARTED Analyse a small sample of examples from s.o.                :joe:
+- "Modelling the way mathematics is actually done", and
+- "Towards mathematical AI via a model of the content and process of mathematical question and answer dialogues".
+
+One possible strategy for further development would be to keep feeding
+our [[*Forum][Forum]] information into this wiki, thinking about the wiki as the
+basic grounds for a kind of informal knowledge graph.  This could
+potentially relate to the [[*Arxana][Arxana]] project.
+
+*** BACK Analyse a small sample of examples from s.o.
 
 
 *** Next steps                                                     :noexport:
@@ -1839,6 +1906,7 @@ would therefore be a step in the direction of [[*BUSINESS DEVELOPMENT][BUSINESS 
 
 - [[https://github.com/theiceshelf/firn/issues/57][links inside :noexport subtrees shouldn't generate backlinks in their targets #57]]
 ** Grant development
+#+CATEGORY: BUSINESS
 
 One way to do [[*BUSINESS DEVELOPMENT][BUSINESS DEVELOPMENT]] could be through grant development
 to help bootstrap initial outputs.
@@ -1883,7 +1951,8 @@ of what we did in the FARM paper.  We discussed the advant
 **** Maybe we could move in another more formal (category theoretic) direction
 Maybe we could build out some of the ideas that Zans and Ray have been
 discussing. Potentially this could also involve
-*** TODO Outline(s) for small grants                                    :joe:
+*** DONE [#A] Outline(s) for small grants                               :joe:
+**** DONE [#A] Revise Academic Beneficiaries part of draft              :joe:
 * RESEARCH OUTPUTS
 :PROPERTIES:
   :tag: HL
@@ -1928,7 +1997,7 @@ This would be a survey paper that would inform our efforts on
 approach.  Note that if we can find survey papers that others have
 done, that’s pretty much just as useful, and saves us a bunch of time.
 
-*** STARTED Reading "Machine Knowledge" paper                         :deyan:
+*** DONE Reading "Machine Knowledge" paper                            :deyan:
 *** Contributes to                                                 :noexport:
 
 - [[*RESEARCH OUTPUTS][RESEARCH OUTPUTS]]
@@ -1991,7 +2060,8 @@ What do our potential users look like?
 We discussed the idea of doing consulting for clients who are
 interested in using scientific models.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]
+/Play through again as a consulting client/
+# - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a consulting client]]
 ** Scientific software developers
 :PROPERTIES:
   :tag: SH AN
@@ -2000,7 +2070,8 @@ interested in using scientific models.
 We imagine some software developers consuming “tutorial” content we
 produce, and improving their skills and abilities as a result.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]
+/Play through again as a consulting client/
+# - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a scientific software developer]]
 ** Automated tutoring system users
 :PROPERTIES:
   :tag: SH AN
@@ -2010,7 +2081,7 @@ We imagine some students using AI software we develop.  In some cases
 they could be “students”.  In other cases, they could already be
 professional developers.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
+# - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as an automated tutoring system user]]
 ** Programmers
 :PROPERTIES:
   :tag: SH AN
@@ -2020,10 +2091,10 @@ We imagine any programmer having some use for our tools.  “B2D”
 (Business to Developer) is an emerging category of enterprise where we
 can do interesting things.
 
-- [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]
+# - [[xid:0caba40b-2561-4143-b2b1-55f3ddc3201b][Play through again as a programmer]]
 * Organisational infrastructure
 :PROPERTIES:
-  :tag: HL AN
+  :tag: HL AN TO
   :END:
 #+CATEGORY: ORG
 
@@ -2118,24 +2189,30 @@ centring on “who does this business do business with?”
 *** Project Management Hygiene
 
 - set SMART goals (Specific, Measurable, Achievable, Relevant and Time-based)
-- understand tasks required to accomplish goals, then set realistic timeline 
+ - (See also: /Coaching and Mentoring/
+.)
+- understand tasks required to accomplish goals, then set realistic timeline
 - create project plan in wiki
-- regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary 
-- after-action reviews at the end of project, including reflection/writeup of positives and deltas 
-- experienced, well-oiled teams requires less strict project management hygiene 
-- new, less-organized, or heterogenous teams require more attention to careful project management hygiene 
+- regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary
+- after-action reviews at the end of project, including reflection/writeup of positives and deltas
+- experienced, well-oiled teams requires less strict project management hygiene
+- new, less-organized, or heterogenous teams require more attention to careful project management hygiene
 
-*** TODO Make a list of actual topics of interest                        :ALL:
+*** STARTED [#A] Review the Exp2Exp backlog to decide which things are wontfix, what other categories need to be created, etc.
+I can browse these locally with =C-c R e=.
+
+*** BACK Make a list of actual topics of interest
 If we were just doing “content production” we might think of a list of
 chapters to write, or podcasts to produce. However, maybe those ways
 of thinking and working don’t apply comfortably here.
 
-*** TODO Make a project analysis of active projects                  :joe:ray:
+*** BACK Make a project analysis of active projects
+This could refer to Peter Kaminski’s "[[*Project orientation][Project orientation]]" described in [[*Organisational infrastructure][Organisational infrastructure]].
 
 ** Technology
 
 Does https://github.com/orgs/exp2exp/projects/1 conflict, replace, or
-serve a different function compared with Org mode agenda items?  
+serve a different function compared with Org mode agenda items?
 
 *** DONE Figure out Github project(s) vs Org todos               :joe:cameron:
 
@@ -2559,12 +2636,28 @@ yet but it gives an idea.
 This view can then be further filtered by regexp (e.g., your name) by
 pressing ~=~.
 
+*** Notes about exporting things with Firn
+
+In regular Org mode, it’s possible to [[https://superuser.com/questions/726201/how-can-i-apply-easy-formatting-to-org-mode-blocks][define your own blocks]] which
+then export to a div with the given block name:
+
+#+begin_monoblock
+This is some text.
+#+end_monoblock
+
+With Firn/Orgize, it seems these blocks aren’t currently exported.
+However, examples are exported?  Maybe not.
+
+#+begin_example
+This is some text.
+#+end_example
+
 *** DONE Package downsamping code separately                            :joe:
 *** WONTFIX Update the repo instructions to reference this file         :joe:
 
 ** Forum
 :PROPERTIES:
-  :tag: OTS AN
+  :tag: OTS AN TO
   :END:
 #+CATEGORY: OTS
 
@@ -2592,8 +2685,7 @@ the \LaTeX\nbsp{}export is controlled by
 =org-latex-format-inlinetask-function=.
 ***************** END
 
-*** TODO What might our summarisation workflow look like?               :ALL:
-
+*** BACK What might our summarisation workflow look like?
 Since we’re pretty actively updating our *Discord* and pretty happy
 using it, maybe people who are working on Active Projects would be
 willing to summarise on the wiki, say, weekly?  And contribute to a
@@ -2604,17 +2696,29 @@ monthly group blog post?
   :END:
 #+CATEGORY: BLOG
 
-This is a public window on our experiments, available at
-[[https://exp2exp.com][https://exp2exp.com]].
-
-Presently, we’re still figuring out what the work flow and contents of
-the blog will look like.  The kinds of people to whom we wish to
-appear credible are described in *Downstream*, and presumably whatever
-we put online should match what we think they will want to know.
+For now we’re just maintaining a /blog roll/ rather than one shared blog
 
 #+begin_quote
 Zans: /If I implemented as I read things, it would be a pretty interesting blog. There could be a huge market of people interested in following this, this would give a pool of people who know who we are. This is a nice goal b/c it doesn't focus on the product... but it's a deliverable, made up of smaller deliverables, and a concrete benefit./
 #+end_quote
+
+*** Blog roll
+
+Some of us are writing blogs.
+
+- [[https://exp2exp.github.io/updates][Updates on Exp2Exp]] by Joe Corneli
+- [[https://prodg.org/blog][Prodg.org]] by Deyan Ginev
+- [[https://zaeph.net/posts/][Zaeph.net]] by Leo Vivier
+- [[https://exp2exp.github.io/erg][Emacs Research Group]] meeting notes
+
+*** Blog roll: Others
+
+Here are some people with related interests.
+
+- [[https://sachachua.com/blog/][Sacha Chua]] maintains a great Emacs blog and newsletter
+- [[https://weakty.com/chronolog][Weakty.com]] by T Sloane, the primary developer of Firn
+- [[https://lyderic.origenial.fr/][Lydéric's Digital Garden]] by Lydéric Dutillieu, Clojure programmer, Paris
+- [[https://doubleloop.net/][Double Loop.net]] by Neil Mather
 
 *** Related                                                        :noexport:
 :PROPERTIES:

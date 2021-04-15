@@ -1,5 +1,5 @@
 #+TITLE: Knowledge graph
-#+roam_tags: LRD
+#+roam_tags: LRD TO
 #+CATEGORY: KRR
 
 Once we have a model of knowledge from Q&A items, e.g., in the form of
@@ -12,9 +12,15 @@ graphs.
 * Practical work
 
 We can already take some practical steps here, along the lines of the
-earlier papers "Modelling the way mathematics is actually done" and
-"Towards mathematical AI via a model of the content and process of
-mathematical question and answer dialogues".
+earlier papers:
+
+- "Modelling the way mathematics is actually done", and
+- "Towards mathematical AI via a model of the content and process of mathematical question and answer dialogues".
+
+One possible strategy for further development would be to keep feeding
+our [[file:20201003164100-forum.org][Forum]] information into this wiki, thinking about the wiki as the
+basic grounds for a kind of informal knowledge graph.  This could
+potentially relate to the [[file:arxana.org][Arxana]] project.
 
 * BACK Analyse a small sample of examples from s.o.
 

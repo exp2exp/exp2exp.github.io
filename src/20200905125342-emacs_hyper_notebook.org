@@ -1,5 +1,5 @@
 #+TITLE: Emacs Hyper Notebook
-#+roam_tags: CDN
+#+roam_tags: CDN TO
 #+CATEGORY: DEV
 
 We are developing a better way to do “Jupyter notebooks” using Emacs.

@@ -46,6 +46,7 @@
  - [[file:20200912223428-wiki.org][Wiki]]
  - [[file:20201003164100-forum.org][Forum]]
  - [[file:20200814195259-blog.org][Blog]]
+- [[file:other_stuff.org][Other stuff]]
 
 Latest news at: [[file:updates.org][Updates]].
 
