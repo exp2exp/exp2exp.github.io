@@ -73,12 +73,14 @@ February 2021]]).
 - Routine
 
 * Some ERG seminar points for discussion
-** BACK Figure out whether it’s possible to get another column in the default Org Agenda, showing the /directory/
-- See Joe’s configuration file: [[file:~/.emacs.d/settings.org::*Org Roam: Library, Scrum board][Org Roam: Library, Scrum board]] → fontify-agenda
-- ‘Breadcrumbs’, push everything back but
-** BACK Debug the color-coding of lines
-- Don’t do filtering before sorting... ask Leo for help with this
 ** BACK Getting tasks mapped into reasonable packets
+- [[file:hel/getting_tasks_mapped_into_reasonable_packets.org][Getting tasks mapped into reasonable packets]]
 ** BACK Figure out how to handle tasks that are DONE
+- [[file:hel/figure_out_how_to_handle_tasks_that_are_done.org][Figure out how to handle tasks that are DONE]]
 ** BACK Figure out how to handle tasks that are FROZEN
+- [[file:hel/figure_out_how_to_handle_tasks_that_are_frozen.org][Figure out how to handle tasks that are FROZEN]]
 ** BACK Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects
+- [[file:hel/ask_leo_how_to_handle_tasks_that_are_not_actually_discrete_doable_tasks_but_are_instead_projects.org][Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects]]
+
+* Emacs Tweaks
+- [[file:emacs_tweaks.org][Emacs Tweaks]]

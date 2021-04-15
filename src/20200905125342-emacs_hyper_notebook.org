@@ -27,10 +27,9 @@ could turn out to be useful here.)
 - ... possible deliverable for later on: a NIST talk?
 
 * DONE [#A] Figure out subtasks to deliver for EmacsConf   :joe:ray:cameron:
-* BACK Figure out how EHN relates to other projects
 * DONE [#A] Keep testing crdt.el and lockstep.el                   :joe:ray:
 * BACK Could Emacsconf talk become a blog post?       :joe:ray:cameron:
-
+- [[file:hel/could_emacsconf_talk_become_a_blog_post.org][Could Emacsconf talk become a blog post?]]
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan
 is thinking about a mode to make overlays shareable, which would
 change things a bit.)
@@ -147,7 +146,7 @@ This is work in progress, with some sample content above.
 
 * Future work
 
-- Extending to VS Code?  Would people who use VS code even want this kind of interaction?  Maybe VS Code is better for quick visualisations?
+- [[file:ehn_next_steps.org][EHN next steps]]
 
 * Contributes to                                                   :noexport:
 - [[file:20200810135457-visual_interfaces.org][Visual Interfaces]]

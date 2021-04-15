@@ -1,0 +1,4 @@
+#+TITLE: Create some publication to plant a flag for our group
+#+roam_tags: TO
+
+- [[file:../stubs/survey_related_work.org][Survey related work]]

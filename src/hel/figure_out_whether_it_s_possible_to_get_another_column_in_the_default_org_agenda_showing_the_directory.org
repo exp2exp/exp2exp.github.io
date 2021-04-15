@@ -1,0 +1,2 @@
+#+TITLE: Figure out whether it’s possible to get another column in the default Org Agenda, showing the /directory/
+#+roam_tags: TO

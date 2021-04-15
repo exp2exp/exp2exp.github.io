@@ -9,7 +9,18 @@ technologies we use for communication, and more involved things like
 splitting off into its own separate wiki, if for no other reason than
 that it takes up a lot of space in the generated PDF.)
 
+* Stakeholders
+Probably worth understanding that the stakeholders come in circles or
+layers (like an onion).  The people who use the infrastructure are key
+stakeholders.  But, the people who use the work that they produce are
+another set of stakeholders.  And then there are a bunch of people who
+are doing ‘similar’ things who could be stakeholders.
+
+- [[file:stakeholders.org][Stakeholders]]
+
 * Schedule and activities
+
+- [[file:stubs/develop_a_suitable_collaborative_writing_workflow_for_a_specific_shared_output.org][Develop a suitable collaborative writing workflow for a specific shared output]]
 
 Presently we are meeting 20 minutes a day at 4PM UK time, 11AM
 Eastern, on Discord for a “coffee chat”.
@@ -93,7 +104,7 @@ centring on “who does this business do business with?”
 ** Project Management Hygiene
 
 - set SMART goals (Specific, Measurable, Achievable, Relevant and Time-based)
- - (See also: [[file:coaching_and_mentoring.org][Coaching and Mentoring]].)
+ - (See also: *Coaching and Mentoring*.)
 - understand tasks required to accomplish goals, then set realistic timeline
 - create project plan in wiki
 - regular, frequent check-ins to iterate plan (goal, priorities, etc.) if necessary
@@ -110,7 +121,9 @@ chapters to write, or podcasts to produce. However, maybe those ways
 of thinking and working don’t apply comfortably here.
 
 ** BACK Make a project analysis of active projects
-This could refer to Peter Kaminski’s "[[file:20200810135126-organisational_infrastructure.org::*Project orientation][Project orientation]]" described in [[file:20200810135126-organisational_infrastructure.org][Organisational infrastructure]].
+(This could refer to Peter Kaminski’s *project orientation* concept.)
+- [[file:hel/make_a_project_analysis_of_active_projects.org][Make a project analysis of active projects]]
+- [[file:stubs/maintain_plans_for_the_quarter_ahead.org][Maintain plans for the quarter ahead?]]
 
 * Technology
 
@@ -123,7 +136,7 @@ We won’t use Github stuff right now.  That’s better for dealing with a
 public-facing contribution workflow when we have actual open source
 things running with contributors.
 
-* Subgoals :noexport:
+* Next steps                                                      :noexport:
 :PROPERTIES:
 :ID:       17468abb-5c17-458e-a053-72e6356bbad5
 :END:

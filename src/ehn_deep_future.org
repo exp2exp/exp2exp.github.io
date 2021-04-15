@@ -2,18 +2,19 @@
 #+CATEGORY: EHN
 #+roam_tags: TO
 
-* Appendix I
+* EHN progress
 
-** BACK Refresh on ob-servant code
 ** DONE Gather the notebook
-** BACK Check org-mode variables to deal with the copy-paste issues
 ** DONE Ask Charlie for an example notebook and maybe a meeting about that
 
-* Appendix II
+* EHN future steps
 
 ** BACK Repeat something like Minnesota 2050 with some of these tools
-** BACK Do due dilligence on https://remo.co/
+- [[file:hel/repeat_something_like_minnesota_2050_with_some_of_these_tools.org][Repeat something like Minnesota 2050 with some of these tools]]
+** BACK Figure out how EHN relates to other projects
+- [[file:hel/figure_out_how_ehn_relates_to_other_projects.org][Figure out how EHN relates to other projects]]
 ** BACK Think about about the connections between EHN, Peeragogy, and Ethics
+- [[file:hel/think_about_about_the_connections_between_ehn_peeragogy_and_ethics.org][Think about about the connections between EHN, Peeragogy, and Ethics]]
 Is there a pattern where, if you have different subjects, interleave
 them in this way to make them branch out and learn?
 
@@ -27,5 +28,9 @@ made a huge difference.
 
 Interchange between business, science, and religion.
 
-
 ** BACK Would it have applications, e.g., in startup incubators?  (Could we have a startup incubator "on demand"?)
+** BACK Extensions beyond Emacs
+E.g., extending to VS Code?  Would people who use VS code even want
+this kind of interaction?  Maybe VS Code is better for quick
+visualisations?  We’ve also talked about the web as a relevant
+platform, this might be easier than VS Code to start with?

@@ -5,8 +5,6 @@
 We are attempting to extract triples from textual Q&A by using a
 Neural Machine Translation approach.
 
-* BACK Refinining OpenIE approach
-
 ** Idea is we need a basic data model from which we can build things
 
 - User assistants
@@ -182,7 +180,6 @@ How would you generate failing unit tests?
 (E.g., “fuzzers” that generate near arbitrary run-ti)
 Put in integers, get output. Generate wrong unit tests.
 
-
 * Overall commments
 
 These are translation or compression style problems.
@@ -208,3 +205,7 @@ If you put leashes on these things, using solid methods.
 
 - [[file:20200905131918-knowledge_graph.org][Knowledge graph]]
 - [[file:20200810135403-advances_in_knowledge_mining_from_technical_documents.org][Advances in knowledge mining from technical documents]]
+** BACK Refinining OpenIE approach
+- [[file:hel/refinining_openie_approach.org][Refinining OpenIE approach]]
+** BACK Analyse a small sample of examples from s.o.
+- [[file:hel/analyse_a_small_sample_of_examples_from_s_o.org][Analyse a small sample of examples from s.o.]]

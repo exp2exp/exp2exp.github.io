@@ -1,0 +1,6 @@
+#+TITLE: What might our summarisation workflow look like?
+#+roam_tags: TO
+
+- [[file:make_a_list_of_actual_topics_of_interest.org][Make a list of actual topics of interest]]
+- [[file:../stubs/assess_what_we_re_learning.org][Assess what we’re learning]]
+- [[file:../stubs/keep_doing_pars_and_clas.org][Keep doing PARs and CLAs?]]

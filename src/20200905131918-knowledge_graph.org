@@ -22,9 +22,6 @@ our [[file:20201003164100-forum.org][Forum]] information into this wiki, thinkin
 basic grounds for a kind of informal knowledge graph.  This could
 potentially relate to the [[file:arxana.org][Arxana]] project.
 
-* BACK Analyse a small sample of examples from s.o.
-
-
 * Next steps :noexport:
 
 - [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]

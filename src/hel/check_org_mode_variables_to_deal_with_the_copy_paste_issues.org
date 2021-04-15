@@ -1,0 +1,2 @@
+#+TITLE: Check org-mode variables to deal with the copy-paste issues
+#+roam_tags: TO

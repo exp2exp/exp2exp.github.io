@@ -156,7 +156,7 @@ be $750.0 per user...)
 *** TODO Develop our own intention-based workflow
 *** TODO Continue to develop and refine our methods
 *** TODO Develop a suitable collaborative writing workflow for a specific shared output
-*** TODO Think about the product and business development plans for such a service
+*** TODO Think about the product and business development plans for a multigraph interlinking service
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:
 :VISIBILITY: folded

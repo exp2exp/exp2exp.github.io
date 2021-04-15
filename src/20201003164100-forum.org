@@ -26,7 +26,12 @@ the \LaTeX\nbsp{}export is controlled by
 =org-latex-format-inlinetask-function=.
 *************** END
 
-* BACK What might our summarisation workflow look like?
+* Next steps
+
+- [[file:stubs/develop_our_own_intention_based_workflow.org][Develop our own intention-based workflow]]
+
+** BACK What might our summarisation workflow look like?
+- [[file:hel/what_might_our_summarisation_workflow_look_like.org][What might our summarisation workflow look like?]]
 Since we’re pretty actively updating our *Discord* and pretty happy
 using it, maybe people who are working on Active Projects would be
 willing to summarise on the wiki, say, weekly?  And contribute to a

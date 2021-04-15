@@ -1,0 +1,6 @@
+#+TITLE: Develop our own intention-based workflow
+#+roam_tags: TO
+
+- [[file:keep_exploring.org][Keep exploring!]]
+- [[file:continue_to_develop_and_refine_our_methods.org][Continue to develop and refine our methods]]
+- [[file:create_some_publication_to_plant_a_flag_for_our_group.org][Create some publication to plant a flag for our group]]
