@@ -1,0 +1,72 @@
+#+TITLE: 17 April 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-04-17 Sat>
+
+* 17 April 2021 — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+** Noorah
+** Leo
+** Joe
+** Alex
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                               :80m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+** Special guest: Alex Murphy, Oxford Brookes, MSc Data Analytics      :40m:
+- Alex is doing an MSc dissertation linked to the theme “code is data”
+- He’s been getting started with Emacs, Org mode, and other tools
+- We’re interested in learning about his experience as a new user, and in having a think about how we can help out.
+- At least initally Alex can screenshare, ideally with =command-log-mode= or =interaction-log-mode= turned on
+
+#+begin_src
+(require 'command-log-mode)
+(define-key global-map (kbd "C-c '")
+  (lambda () (interactive) (if command-log-mode
+                               (command-log-mode -1)
+                             (command-log-mode +1)
+                             (clm/open-command-log-buffer))))
+#+end_src
+
+#+begin_src
+(require 'interaction-log)
+(ilog-show-in-new-frame)
+#+end_src
+
+** Revisions to the CLA                                                :40m:
+- Web-viewable draft here: https://exp2exp.github.io/cla-12-april-2021
+- Let’s edit this together and think more about the breakdown of doable tasks
+- Joe can screenshare info in Org Roam Server
+
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
+
+* Check-out (exceptional or not)                                        :5m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+** JC
+** DOT
+** RSP
+** CRS
+** LV
