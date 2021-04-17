@@ -8,6 +8,10 @@ about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org
 Some of our subsequent discussions about Emacs and Research appear in
 [[file:erg.org][Emacs Research Group meeting notes]].
 
+- For convenience, here’s a template: [[file:erg-DD-MM-YYYY.org][DD Month YEAR — Emacs Research Group]]
+
+* What have we here?
+
 This page attempts to create a summary of the themes and ideas we’ve
 been surfacing.  Another form of high-level summary appears in our
 experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20
@@ -72,7 +76,7 @@ February 2021]]).
 - Patterns
 - Routine
 
-* Some ERG seminar points for discussion
+* Some ERG seminar points for furthe discussion/action
 ** BACK Getting tasks mapped into reasonable packets
 - [[file:hel/getting_tasks_mapped_into_reasonable_packets.org][Getting tasks mapped into reasonable packets]]
 ** BACK Figure out how to handle tasks that are DONE
@@ -83,4 +87,5 @@ February 2021]]).
 - [[file:hel/ask_leo_how_to_handle_tasks_that_are_not_actually_discrete_doable_tasks_but_are_instead_projects.org][Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects]]
 
 * Emacs Tweaks
+Points too minor to be listed above.
 - [[file:emacs_tweaks.org][Emacs Tweaks]]
