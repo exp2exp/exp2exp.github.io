@@ -1,0 +1,43 @@
+#+TITLE: DD Month YEAR — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-MM-DD Sat>
+
+* DD Month YEAR — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+** Noorah
+** Leo
+** Joe
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda
+** Interpersonal issues                                                :20m:
+** Noorah’s presentation wrt her dissertation                          :20m:
+
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
+
+* Check-out (exceptional or not)
+
+** NA
+** JC
+** DOT
+** RSP
+** CRS
+** LV
