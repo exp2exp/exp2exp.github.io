@@ -108,6 +108,12 @@ This is just for exposition, when talking about prior art it would be nice to kn
 Possibly for IJCAI/ECAI.
 Papers due *January 2018*? http://www.chessprogress.com/IJCAI-2018/calls/
 To take place *July 13-19, 2018*
+*** Revisit history of AI
+- How has AI been applied (games are relatively closed, mathematics is more complex, the world is still more complex)
+- Is ethics more complex than biology?
+- Compare some thinking in the history of cultural thought — Mosaic-Axial-present
+- 2500 years ago; city-states and prose-literacy. 
+- Cf. the Sloterdijk /Shadow of Mt Sinai/
 *** Demo the system walking through the steps of a proof like GCP or MPM.
 *** Demo with APM prelim problems
 This might be a "future work" section for this paper.
@@ -116,7 +122,14 @@ Show interface with types.
 - E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
 
 ** Next steps: Paper for ICFP 2018
-*** ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+*** TODO ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+- To start with, read the actual reasoned schemer
+- And we could apply it to our project.
+- We could make an org mode notebook of the thing
+- Maybe expand the ideas ‘what does this do’ with other exercises
+- When we get it going we might get in touch with Friedman and Byrd, and explore
+- How would it met with neural nets
+- Maybe look at this in relationship to 
 Possibly submit to [[http://conf.researchr.org/home/icfp-2018][ICFP]]. Papers due *Fri 16 Mar 2018*.
 Event to take place in St. Louis, Missouri, United States, to take place *late September*.
 *** Fuzzy search to retrieve loose matches and analogies

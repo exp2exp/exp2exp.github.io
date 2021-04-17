@@ -2,3 +2,4 @@
 
 - [[file:ah/after_hours.org][After Hours]]
 - [[file:pc/peeragogy_intro.org][List of resources related to the Peeragogy Course]]
+- [[file:writers_workshop.org][Writers Workshop]]

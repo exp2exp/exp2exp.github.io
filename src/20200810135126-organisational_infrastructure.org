@@ -112,7 +112,8 @@ centring on “who does this business do business with?”
 - experienced, well-oiled teams requires less strict project management hygiene
 - new, less-organized, or heterogenous teams require more attention to careful project management hygiene
 
-** STARTED [#A] Review the Exp2Exp backlog to decide which things are wontfix, what other categories need to be created, etc.
+** DONE [#A] Review the Exp2Exp backlog to decide which things are wontfix, what other categories need to be created, etc.
+CLOSED: [2021-04-15 Thu 22:01]
 I can browse these locally with =C-c R e=.
 
 ** BACK Make a list of actual topics of interest
