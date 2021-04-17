@@ -11,18 +11,39 @@
 :PROPERTIES:
 :EFFORT:   0:20
 :END:
-** Raymond
-** Noorah
-** Leo
 ** Joe
+- I set up a basic template [[file:../exp2exp.github.io/src/erg-DD-MM-YYYY.org][DD Month YEAR — Emacs Research Group]].
+- For today’s session: =M-x crdt-connect: metameso.org PW: erg=
+- Was able to set up the crdt.el server today (yay!
+- Productive week
+- Happy with his life right now; happy to explore habits
+  - Per Leo: ‘When you move, it’s a chance to take stock on (of?) your life — and think about habits’
+** Raymond
+- Spinoza’s letter to Oldenberg slated — closest to a journal article
+- Somewhat bad news: Bio stuff has been pushed to the last minute and may need to leave promptly at 2PM Eastern to eat
+- Better news: thinking with Joe about reading /The Reasoned Schemer/ (logic/relational programming)
+- Thinking about how to set up an *Org Mode* notebook to (re)develop the code this as we read 
+** Leo
+- Had a busy week w/ tech-lead application prep, a lot of time thinking and some time working
+- Yesterday: productive Org Mode tutoring, thinking about a more managerial position for setting up the stack
+- This means 2 or 3 major projects on the horizon, w/ a lot of effervescence and energy (and some slippage potential)
+- Being grounded in the present could be helpful
 ** Alex
+- It’s good to check-in :-)
+- Lots to learn about here... 
+- I’m also busy, getting work done on the ‘modular’ components for the course, 2 more weeks for that
+- Then dissertation in the focus
+- This is the same Alex as in =#alex-msc= channel
+ - RSP: You’d be welcome to join some further reading groups on the Discord when you have time
+** Noorah
+- In Chicago
 
 * Things to keep in mind
-** Record the sodding session
+- [✓] Record the sodding session 
 
 * Agenda                                                               :80m:
 :PROPERTIES:
-:EFFORT:   1:25
+:EFFORT:   1:20
 :END:
 ** Special guest: Alex Murphy, Oxford Brookes, MSc Data Analytics      :40m:
 - Alex is doing an MSc dissertation linked to the theme “code is data”
@@ -30,7 +51,87 @@
 - We’re interested in learning about his experience as a new user, and in having a think about how we can help out.
 - At least initally Alex can screenshare, ideally with =command-log-mode= or =interaction-log-mode= turned on
 
-#+begin_src
+*** Can start with a talk then extend to Q&A
+
+- Alex is a =vim= user, have used it for a while
+- Have been using VIM and vim keybindings
+- For diss, using Clojure, previously used R and Python
+- Emacs seems to be the goto text editor for Clojure
+- This demo will show how I use vim, Clojure and the shell
+- I hope you can guide me as I switch over to Emacs!
+- This has now gotten some reaction — so this presentation is “all about vim” until I realise I can use Emacs and it might be superior
+
+*** Demo
+
+We start with the open source Powershell Core, zoomed in so we can see what’s going on.
+
+Uses things like =Get-Location= but it also supports commands like bash =ls=.
+
+From here, I would say “I am going to do some analysis” so I’ll make some text
+
+Now I go and write some text.  For me that’s how I’d write, then I’d
+do =:w= to write, =:q!= and I see the thing.
+
+In the clojurebits directory.
+
+So I could try =vim helloworld.clj=
+
+if I want to =(println "hello there world")=
+
+To run it I run =clojure .\hello_world.clj= and I get the printout.
+
+So, I can write files, run files — this is nice but it’s not so nice
+as doing everything inside vim.  Within Vim I can open a terminal.
+
+You’ve got a terminal now in split screen, where you can in principle
+run commands.  Or, you could have two terminals side by side.
+
+Within Clojure I can =(load-file "hello_world.clj")=.
+
+I usually use RStudio IDE, but Clojure doesn’t have RStudio.
+
+Emacs has CIDER which is specifically for Clojure, but we could start
+with a more vanilla environment.
+
+Running =emacs -nw= — you now have about 10 billion key bindings, =C-x
+C-f= to find a file.  I can find it.  How do I then.
+
+=CMD shell= doesn’t know 
+
+*** Intervention from Leo
+We’re not doing a great job of demoing.
+It’d be better to have a demo
+
+*** Joe’s demo
+- Elisp
+- Cider
+- R
+- LaTeX
+
+*** Leo continues
+
+- It’s more of a paradigm for interaction. 
+- “I want to do what I’m doing with my shell, terminal emulator”
+- One of my worries with this angle is that we need to present sufficient context so that what you’re exploring is more meaningful.
+
+*** Alex responds
+- Thinking of Emacs as a paradigm
+- ‘I know what I’m doing, I know what I want to do’ — I don’t have to think conceptually, I just need to learn the keybindings
+- But maybe this was the wrong way to go about it because Emacs seems to require more foundational knowledge to even get it up and running to the level I want it to do
+
+- LV: I think the goal is to have a purpose-driven thing.
+- I want to make sure you have everything you need in 10 minutes
+- And then to try to forward a list of things you’d like to do and forward them to Joe, so, Joe can be the expert.
+
+*** Any questions?
+- The last 30 or 40 minutes have been helpful,
+- Being able to talk, guide, demo — this is a variety of different inputs has helped
+
+#+begin_src clojure :session :backend cider :results output org
+(println "Hello from Org mode?")
+#+end_src
+
+#+begin_src emacs-lisp
 (require 'command-log-mode)
 (define-key global-map (kbd "C-c '")
   (lambda () (interactive) (if command-log-mode
@@ -44,29 +145,109 @@
 (ilog-show-in-new-frame)
 #+end_src
 
+*** 1. Review the intention: what do we expect to learn or make together?
+- Alex learn some Emacs paradigms
+- Others help and demo different Emacs ideas
+*** 2. Establish what is happening: what and how are we learning?
+- Started with what Alex is most familiar with: vim and PowerShell (and RStudio, unshown)
+- Helpful to go over /what Emacs is/ rather than just showing the detail
+- Plurimodel approach, between ‘lay perspective of how do I do who I do elsewhere’ 
+- Getting the wireframe
+- Demos in Emacs Lisp, Clojure, and R — we could do Javascript or whatever
+- evil mode
+*** 3. What are some different perspectives on what’s happening?
+- We could use these patterns with others
+- Noorah would be interested in a more detailed discussion
+- Cameron has a similar background and became a fan of Doom
+- “if you don’t like the default, that’s OK, the E stands for Extensible”
+- Alex’s perspective: I thought you’d ask me. Learning Emacs as someone who never used Emacs or Lisp before is hard. But, when you can talk to people and get a feedback loop going, then it comes into its own. Documentation exists but it’s learning a new language. Let alone the keybindings. But if I listen to you talking, I hear the important stuff. 
+- Docs are more intended as reference
+- “What is the specific command to do this” — it would be like trying to learn a language with a dictionary and grammar book
+- Alex agrees with Leo’s playground perspective: I know what to do in another setting... but not here!
+- Emacs is so much more than the text editor
+- Text-interface?
+*** 4. What did we learn or change?
+- You don’t learn a language by looking at a dictionary (unless you’re a linguist and a bit crazy)
+- But there’s a problem with Emacs, which is that there isn’t proper intro
+- Combined many years of suffering learning the ropes.
+- We’re trying to do here: doing what we would have liked to have had; and having more people onboard.
+- Both vim and Emacs are awful for beginners, but people who use vim are already using the command line...
+*** 5. What else should we change going forward?
+- We’re missing a proper tutorial introduction to Emacs
+- Human mediation between the documentation and what Emacs is ... is what allows you to apprehend the value of what Emacs is
+- If we had a good tutorial (we do have good docs) — the feeling of being guided by a human voice would be enough...
+- But there was no such guidance; you were in the middle of an alien playground.  “But I just wanted to do my Clojure stuff.”
+- Joe can guide: both how to do the Clojure stuff and how to do the high-level stuff, and how to learn the ropes more efficiently
+- Alex, please take notes on how you learn Emacs, and adopt a meta perspective. If you want to do something but you don’t know how to do it in Emacs, document it. Write a little about your experience — it will make it easier for us to help you, and help other people with their similar user stories. =#emacs-classroom=?
+
 ** Revisions to the CLA                                                :40m:
 - Web-viewable draft here: https://exp2exp.github.io/cla-12-april-2021
 - Let’s edit this together and think more about the breakdown of doable tasks
 - Joe can screenshare info in Org Roam Server
 
-* PAR                                                                  :15m:
+*** Notes connecting back
+- We need to get deeper rather than just sitting on the surface of how Emacs works
+- CLA is deeper, thinking more holistic
+- We might be tempted on a micro-scale (PAR, shorter, agile)... to keep it broad, without going deep
+- LV: with the CLA you go back you your original objective
+- RSP: And you may find new objectives or patterns have emerged that you weren’t aware of
+- The idea of changing the rhythm — micro/macro can assume that ‘macro’ is important — but there’s also something different going on
+- When you have a project you also have a deliverable. When you have one being close to what you’re doing on a daily basis
+*** Closing up this session
+- We might want to revisit the whitepaper?
+- If Alex is up to this, with regard... we could also try to do CLA for Alex’s diss project.
+- This could then create a rhythm with the PAR that goes on in our supervision relationship
+- This way of working has helped us keep track of our objectives — it would not be hard to replicate the stuff you’ve seen here
+- LV: I would have liked to have these tools deployed, and I’m happy to provide input
+- RSP: In the people here, most of us are either involved in writing a dissertation or writing one in the past!
+
+
+* PAR (Project Action Review)                                           :15m:
 :PROPERTIES:
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
+- AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further
+- RSP: In part 2 wanted to make progress with the layered analysis — to actually do it! — making some progress
 *** 2. Establish what is happening: what and how are we learning?
+- Joe was given the keys to the car — though Leo did take them back
 *** 3. What are some different perspectives on what’s happening?
+- Leo did a nice job of intervening
+- Missed Noorah and hope she and Alex will talk at some stage soon (e.g., about writing)
+- Missing David and Charlie; did they get the link?
+- Ray has serious commitments in bio — now catching up with the Easter stuff
 *** 4. What did we learn or change?
+- I think we got a better sense of CLA and a new use case
+- Alex’s schedule is busy in 2 weeks, though has finished up some classwork freeing up time
 *** 5. What else should we change going forward?
+- We should go back and read some Inyatullah papers
+- We are developing our intention to do something with group writing even if we haven’t figured out
+- Alex is welcome any time, and note we can do in a spotlight session, either on Saturday (2hr) or 1600 (circa *20 minutes*)
+- I think we should probably be thinking more in terms of PAR+CLA for Hyperreal?  
 
 * Check-out (exceptional or not)                                        :5m:
 :PROPERTIES:
 :Effort:   0:05
 :END:
 
-** NA
 ** JC
-** DOT
-** RSP
-** CRS
+- Watched /The Death of Stalin/
+- This was great, Alex can be supervised by a Central Emacs Committee!
+- Still nervous about the /collectivisation™/ of our writing
+- =#show-and-tell= — can set up an RSS feed for Hypothesis comments into Discord
+- Still WIP to get it really up and running
+- Going to look at the river and have a beer
+** AM
+- Main point for checkout is that there are now 2 weeks of assignments
+- Then more flexible with time and energy
+- I foresee a lot of Emacs in the future — if I can reciprocate w/ anything (manual labour for next Emacs Conf?)
 ** LV
+- From a physical perspective, quite tired today
+- Had a productive EmacsConf meeting (i.e., continuing discussion from the EmacsConf event where LV was an organiser; every week on Saturday the discussion of Emacs Conf and Emacs Community continues!)
+- This was quite a technical one
+- Besides the tiredness, nice to interact again with Alex, it’s good to have some new blood here
+- Since my memories of being a Master’s student are still fresh I want to make sure that people don’t go through this alone
+- Basically, just don’t stay on your own — it can be complex also to talk w/ your supervisor, it’s also good to talk with others as resources
+- Happy to keep coaching
+- Now continuing Javascript learning
+- Still pissed that the UK can open their pools
