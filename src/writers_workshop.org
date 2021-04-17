@@ -6,6 +6,6 @@ Here’s a two paragraph sample.
 - then subselected in GIMP for demonstration purposes
 - Then uploaded elsewhere and linked here:
 
-http://metameso.org/~joe/docs/two-paragraphs.png
+[[http://metameso.org/~joe/docs/two-paragraphs.png]]
 
 [fn:1] ~ghostscript -dBATCH -dNOPAUSE -sDEVICE=png16m -r300 -sOutputFile="day1-%03d.png" "scan.pdf"~
