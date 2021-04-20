@@ -26,8 +26,6 @@ could turn out to be useful here.)
 - Emacs Maxima interface, we might build on it — for Monday 12th October, a quick "15 minutes" talk to catch up
 - ... possible deliverable for later on: a NIST talk?
 
-* DONE [#A] Figure out subtasks to deliver for EmacsConf   :joe:ray:cameron:
-* DONE [#A] Keep testing crdt.el and lockstep.el                   :joe:ray:
 * BACK Could Emacsconf talk become a blog post?       :joe:ray:cameron:
 - [[file:hel/could_emacsconf_talk_become_a_blog_post.org][Could Emacsconf talk become a blog post?]]
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan

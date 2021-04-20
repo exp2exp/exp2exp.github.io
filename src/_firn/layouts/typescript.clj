@@ -10,7 +10,7 @@
         [:h1 title]
         [:i (str date-created " — " (-> meta :keywords :author))]
         [:div (render :file)]
-        [:embed {:src (str "http://metameso.org/~joe/docs/" date-created ".pdf")
+        [:embed {:src (str "https://hyperreal.enterprises/docs/" date-created ".pdf")
                  :type "application/pdf"
                  :width "100%"
                  :height "600px"}]

@@ -122,7 +122,7 @@ Show interface with types.
 - E.g. APM-Xi style formulations of category theory definitons could be salient to work with.
 
 ** Next steps: Paper for ICFP 2018
-*** TODO ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
+*** BACK ICFP 2018: Logic programming like Reasoned Schemer but for hypergraphs :platform:
 - To start with, read the actual reasoned schemer
 - And we could apply it to our project.
 - We could make an org mode notebook of the thing
