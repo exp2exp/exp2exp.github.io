@@ -15,7 +15,7 @@
                  :width "100%"
                  :height "600px"}]
         ;; if backlinks exist, store them in a let bindings.
-        (when-let [backlinks (render :backlinks)] 
+        (when-let [backlinks (render :backlinks)]
           [:div
            [:hr]
            [:div.backlinks

@@ -6,7 +6,7 @@
 
 * Commentary
 Here I’m continuing to follow Noorah’s advice to use Adobe Scan rather
-than waiting for a ScanSnap.  I’m also creating another ‘update’
+than waiting for a *ScanSnap*.  I’m also creating another ‘update’
 format (and cycle!) to post things like this.  I’m currently uploading
 the PDF pages to [[https://hyperreal.enterprises/docs][https://hyperreal.enterprises/docs]].
 
