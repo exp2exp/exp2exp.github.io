@@ -1,0 +1,11 @@
+#+title: 20 April 2021 — Getting Starting With Writing
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-04-20>
+#+AUTHOR: Joe Corneli
+
+* Comments
+Here I’m continuing to follow Noorah’s advice to use Adobe Scan rather
+than waiting for a ScanSnap.  I’m also creating another ‘update’
+format (and cycle!) to post things like this.
+

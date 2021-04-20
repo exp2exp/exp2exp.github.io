@@ -1,0 +1,5 @@
+#+TITLE: Writing
+#+FIRN_LAYOUT: sketchbook
+
+(This should display a "site map" of all pages with a date associated
+with them.)
