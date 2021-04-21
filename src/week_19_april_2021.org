@@ -1,0 +1,94 @@
+#+TITLE: Week 19 April 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-04-20 Tues>
+#+AUTHOR: Joe Corneli
+
+* Weekly review
+
+It’s been quite a while since I wrote one of these updates.  In the
+mean time I have significantly upgraded my use of the Org Mode Agenda,
+which allows me to keep better track of the tasks that I’ve been
+completing.  So first let’s talk about that.
+
+* Org mode upgrades
+
+** [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#org-mode-org-agenda][Basic configuration of the org mode agenda]]
+
+This something along these lines is what everyone will need to make
+effective use of the Org Agenda.  I have added a few bonus features,
+like turning the extra information displayed by =E= show up in dark
+green (that’s certainly not essential but it’s kind of fun).
+
+** [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#org-mode-archiving-and-refiling][Org mode archiving and refiling]]
+
+This is starting to define a “downstream” for the workflow, i.e., a
+place to put completed tasks.
+
+** [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#org-mode-org-journal][Org mode: org-journal]]
+
+Now supposing we want to add little routine memos about things to do
+on a day-to-day basis; basically a way to keep track of TODO items
+that don’t fit under any other heading.
+
+** [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#org-roam-library-scrum-board][Org Roam: Library, Scrum board]]
+
+But the big problem with my previous attempts to use Org Mode is that
+that I ended up with a giant ‘backlog’ and very little structure.  This is solved with a few steps:
+
+1. Using Org Roam to manage contents as a wiki (this is a huge upgrade itself)
+2. Using multiple different Org Roam installations for multiple different wikis (this is just common sense)
+3. Collecting TODO lists from across the different defined wikis (this is the key next upgrade)
+
+** [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#basic-scrum-board-setup][Basic scrum board setup]]
+This starts to operationalise item 3. above.  Some key examples:
+
+- [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#back-hyperreal-enterprises-roadmap][TODO items from across this wiki]] 
+- [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#back-actual-wip][Actual Work in Progress from across all of the wikis]]
+
+(Note that to define WIP requires some attention to the various
+overall backlogs, so this is why I’m getting back into making these
+review notes)
+
+** General comments on this setup
+
+Cleaning up the code to make a nice ‘minimal’ implementation of the
+above be a good project for sometime — but hey, now I can at least add
+a todo item about that, and know it won’t get lost!
+
+* So what have I actually gotten done?
+
+After getting all of that working here are the things I covered.
+There were some cheats involved because this pulled out items that had
+been marked =DONE= already.  But here’s what I came up with so far under
+the ‘April’ section of the defined datetree mentioned above:
+
+- =WONTFIX= Evaluation: revisit old work                               
+- =WONTFIX= 4PM Friday, meet on moral machines paper w/ overleaf outline
+- Send info to Topos asking them whether they want to be Project Partners 
+- Cleaning up org files
+- Collate ‘Next Steps’ with Charlie’s spreadsheet          
+- Review the Exp2Exp backlog to decide which things are wontfix, what other categories need to be created, etc.
+- Figure out subtasks to deliver for EmacsConf 
+- Keep testing crdt.el and lockstep.el         
+- Create a template and agenda for the ERG seminar
+- Outline(s) for small grants                  
+- Process comments from Reviewer 1
+- Collate ‘Next Steps’ with Charlie’s spreadsheet
+- Prepare next event for the ‘course’ and invite people
+
+I also set up a [[file:Writing.org][Writing]] workflow that should help me stay focused, and made a little demo of a separate [[https://gist.github.com/holtzermann17/4bf00a023e9ba1d7fd38d02abd641b42][Org Mode based content transformer]].  
+
+* Week ahead tasks
+
+I still have some =TODO= items left over from last week.  Probably it
+would be good to have these automatically marked as =DEFERRED=, but for
+now they are just lagging around in the WIP list so I’ll keep at it.
+This will work for now — though I should also go over the existing
+todo lists and give them a solid brushing up, and spend some time
+recording immediate tasks for the week in my journal.  As a way to get
+back into the swing of things, though, this is plenty!
+
+- Review the peeragogy backlog to decide which things are wontfix, what other categories need to be created, etc.
+- Work some more on the ‘poem’ version of the handbook
+- Turn the HCI Ethics treatment into a storyboard
