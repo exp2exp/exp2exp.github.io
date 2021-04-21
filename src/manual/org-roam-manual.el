@@ -81,6 +81,7 @@ The files are to be found in `org-roam-directory'."
                                          (downsample)))))
                  (or (car args) (nthcdr 5 command-line-args)))))
 
+;; Probably this should be constructed automatically from the index.org page!
 (defvar files-to-combine
 '("20200810131435-hyperreal_enterprises.org"
 "20200810132653-top.org"

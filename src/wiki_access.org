@@ -1,0 +1,9 @@
+#+title: Wiki: Access
+
+Obtain the sources by cloning the repo at [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].
+
+#+begin_src
+git clone git@github.com:exp2exp/exp2exp.github.io.git
+#+end_src
+
+(See below for an alternative.)

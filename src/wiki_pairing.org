@@ -1,0 +1,29 @@
+#+title: Wiki: Pairing
+
+We’ve tried a couple of methods for effective pairing and group editing.
+
+* Current preferred method
+
+To open up a real-time collaboration (with multiple cursors), use
+[[https://code.librehq.com/qhong/crdt.el][crdt.el]], first to serve the buffer:
+
+#+begin_src
+M-x crdt-serve-buffer
+#+end_src
+
+And then, from your client, to connect:
+
+#+begin_src
+M-x crdt-connect
+#+end_src
+
+* Older alternative
+
+For syncronized browsing and editing with [[https://github.com/tjim/lockstep][lockstep.el]]:
+
+#+begin_src
+ssh pair@178.79.174.58
+PW: <ASK JOE FOR THE PASSWORD>
+emacsclient -a '' -t
+M-x lockstep
+#+end_src

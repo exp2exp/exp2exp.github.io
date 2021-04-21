@@ -1,0 +1,59 @@
+#+title: Wiki: Org Roam setup
+
+* Basic setup
+
+Install Org Roam if needed (=M-x package-install RET org-roam RET=).
+
+Subsequently, add this to your Emacs configuration:
+
+#+BEGIN_src elisp
+(require 'org-roam)
+(setq org-roam-directory (concat "/home/"
+                          (getenv "USER")
+                          "/exp2exp/"))
+(setq org-roam-completion-system 'helm)
+(define-key org-roam-mode-map (kbd "C-c n l") #'org-roam)
+(define-key org-roam-mode-map (kbd "C-c n f") #'org-roam-find-file)
+(define-key org-roam-mode-map (kbd "C-c n b") #'org-roam-switch-to-buffer)
+(define-key org-roam-mode-map (kbd "C-c n g") #'org-roam-graph)
+(define-key org-mode-map (kbd "C-c n i") #'org-roam-insert)
+(org-roam-mode +1)
+#+END_src
+
+* Interaction
+
+Use the =C-c n f= keyboard command to add new disconnected nodes to
+the graph, or use =C-c n i= to create a page and insert a wiki-style
+link, like =[[New Page]]=. Follow links with =C-c C-o=. Display the
+graph structure with =C-c n g=.  It may be necessary to run =M-x
+org-roam-db-build-cache= to get the graph to match reality.  Add and
+commit new or modified files with git, along with =org-roam.db=, and
+push them to the repo.
+
+* Bonus: org-roam-checkout
+
+If you regularly use your own separate Org Roam setup, you can use
+this simple context switcher to move between the two.  Keep track of
+the various separate Org Roam installations with =org-roam-library=
+and then switch between them interactively with =org-roam-checkout=.
+
+#+begin_src elisp
+(defvar org-roam-library `(,(concat "/home/" (getenv "USER") "/exp2exp/")
+                           ,(concat "/home/" (getenv "USER") "/org-roam/")))
+
+(defun org-roam-checkout ()
+  (interactive)
+  (let ((ctx org-roam-directory))
+    (if (eq (length org-roam-library) 1)
+        ;; Still go ahead and set the variable in this case!
+        (progn (setq org-roam-directory (car org-roam-library))
+               (message "You only have one choice for org-roam-directory defined."))
+      (let ((lib (completing-read "Choose a volume: " org-roam-library)))
+        (when lib
+          (setq org-roam-directory lib))))
+    ;; assuming the user changes context, let’s also prompt them
+    ;; to choose a new file in that context
+    (when (not (eq ctx org-roam-directory))
+      (org-roam-find-file))))
+#+end_src
+

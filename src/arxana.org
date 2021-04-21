@@ -35,6 +35,13 @@ The code is stored in [[https://repo.or.cz/w/arxana.git][https://repo.or.cz/w/ar
 in the mob branch).  There’s some written propaganda about the project
 at [[http://arxana.net/][http://arxana.net/]].
 
+** Mob branch on repo.or.cz
+
+Incidentally, if you want to contribute anonymously, info on how to do
+that is here: [[https://bit.ly/2EQRHEF][https://bit.ly/2EQRHEF]]
+
+You can review commits to the mob branch here: [[https://repo.or.cz/arxana.git/shortlog/refs/heads/mob][https://repo.or.cz/arxana.git/shortlog/refs/heads/mob]]
+
 * 2021 report: Dusting off the Tome
 
 I’m starting to revive Arxana for use in grant applications
