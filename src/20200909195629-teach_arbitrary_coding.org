@@ -14,8 +14,7 @@ kinds of reasoning processes (e.g., turning Q’s into A’s in a
 question-answering system).
 
 We previously did a little exploratory work, with similar intent, using
-polygraphs as input, in the workshop paper
-/Modelling the Way Mathematics Is Actually Done/.
+polygraphs as input, in the workshop paper “[[https://www.newton.ac.uk/files/preprints/ni17003.pdf][Modelling the Way Mathematics Is Actually Done]]”.
 
 ** Demo application: Reimplementing classic rules to model subtraction
 
@@ -23,8 +22,6 @@ We looked at a classic paper about “subtraction on Mars” and it seems
 that reimplementing it might be the best way to go.
 
 * Contributes to :noexport:
-:PROPERTIES:
-:ID:       98bd73a0-035b-434c-aa2e-ea0e3e6ec15d
-:END:
+
 - [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]
 
