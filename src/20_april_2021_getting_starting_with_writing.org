@@ -1,0 +1,31 @@
+#+title: 20 April 2021 — Getting Starting With Writing
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-04-20>
+#+AUTHOR: Joe Corneli
+
+* Commentary
+Here I’m continuing to follow Noorah’s advice to use Adobe Scan rather
+than waiting for a *ScanSnap*.  I’m also creating another ‘update’
+format (and cycle!) to post things like this.  I’m currently uploading
+the PDF pages to [[https://hyperreal.enterprises/docs][https://hyperreal.enterprises/docs]].
+
+** This proposes to bring some literary creativity into our workflow
+What I think I’m realising after today’s conversation was that
+building draft material that could eventually /go into a book/ would be
+one way to change my workflow so that I feel like I’m building towards
+something. Broadly, I think we can and should use all different kinds
+of creativity here, and build some shared reflections that weave them
+together.
+
+** Tech notes
+To make this work, I’m committing a pdf scan (=2021-04-20.pdf=) in a
+separate repository (the backend for the Hyperreal Enterprises web
+page).  That is then embedded by Firn using a special =typescript.clj=
+layout.
+
+In addition to the embedded PDF, I’m writing some extra commentary on
+the computer (which is what you’re seeing here).  Perhaps ideally,
+what I write in the typescripts would interesting enough for others to
+want to read them — and perhaps we could make such reading-and-writing
+effort a fair trade in a [[file:writers_workshop.org][Writers Workshop]] setup.
