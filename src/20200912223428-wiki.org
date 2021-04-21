@@ -20,12 +20,15 @@ functionality, or by installing Org Roam Server and running
 =org-roam-server-mode=.
 
 We can potentially improve on all of this further, bulding something
-like Metacademy.  For now, we describe how to use this simple Org Roam
-based wiki.
+like [[https://metacademy.org/][Metacademy]].  For now, we describe how to use this simple Org Roam
+based wiki.  A few sub-pages provide technical details needed for a
+one-time startup.
 
 - [[file:wiki_access.org][Wiki: Access]]
 - [[file:wiki_org_roam_setup.org][Wiki: Org Roam setup]]
 - [[file:wiki_pairing.org][Wiki: Pairing]]
+
+Now on to some of the more day to day topics, issues, and concerns!
 
 * Tags
 
