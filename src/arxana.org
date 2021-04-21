@@ -1,18 +1,39 @@
 #+TITLE: Arxana
 
 Now that we’ve gotten quite familiar with Org Mode things, it could be
-good to revisit our work with Arxana and see what it might have to
-offer here.  We know that Arxana is similar to [[https://github.com/opencog/atomspace][Atomspace]].  It would be
-possible to create a (Clojure) backend that’s linked with [[https://github.com/juxt/crux][Crux]] or some
-other graph database.
+good to revisit previous work (by some of us) with Arxana — and to see
+what it might have to offer here.
+
+* Basic questions: who cares about this, and what does Arxana do?
+
+There are some simple tasks that aren’t entirely obvious how to solve
+in Org Mode.  Suppose for example that I want to browse all of the
+pages marked with =#+roam_tags: HL=.  Well, right now I’d probably have
+to write a custom exporter just to look at that material.  But
+supposing that I actually wanted to /edit/ all that material in one
+place, then press save, and have the edited text reappear in the
+original source locations?  You might think that this would be solved
+with the [[https://github.com/nobiot/org-transclusion][org-transclusion]] package, but actually the transcluded text
+can’t just be edited directly with that package.  It might be better
+to think in terms of real-time shared editing of the text from
+multiple people, as with [[https://code.librehq.com/qhong/crdt.el][crdt.el]], just sourcing the contents from
+different existing files.  Well, Arxana did something a little bit
+like that, although less nicely.  It also tried to model everything as
+a fancy kind of graph.
+
+* Background
+
+Arxana is somewhat similar to [[https://github.com/opencog/atomspace][Atomspace]].  It would be possible to
+create a (Clojure) backend that’s linked with [[https://github.com/juxt/crux][Crux]] or some other graph
+database.
 
 When we left off working on Arxana in 2017, we made a few notes.
 Maybe it could be applied to something interesting for which we could
 get a grant. Below, is some of the future work (circa FARM 2017).
 
 The code is stored in [[https://repo.or.cz/w/arxana.git][https://repo.or.cz/w/arxana.git]] (with the latest
-in the mob branch).  There’s some propaganda about the project at
-[[http://arxana.net/][http://arxana.net/]].
+in the mob branch).  There’s some written propaganda about the project
+at [[http://arxana.net/][http://arxana.net/]].
 
 * 2021 report: Dusting off the Tome
 
