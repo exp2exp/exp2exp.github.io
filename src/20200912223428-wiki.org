@@ -1,6 +1,6 @@
 #+TITLE: Wiki
-#+roam_tags: OTS AN
-#+CATEGORY: OTS
+#+roam_tags: MAI AN
+#+CATEGORY: MAI
 
 #+COMMENT: OLD CONTENT:
 #+COMMENT: The public facing version of these notes is available on a simple
@@ -43,6 +43,7 @@ Some of the nodes have =#+roam_tags= from the following set:
 | RR   | Research Review  |
 | RO   | Research Output  |
 | OTS  | Off the shelf    |
+| MAI  | Maintain         |
 | SH   | Stakeholder      |
 | AN   | Annex            |
 
@@ -53,14 +54,15 @@ Some of the files also have a =#+CATEGORY= set.
 A method for turning the wiki into a more-or-less linear document is
 supplied in the =manual= subdirectory, see [[https://github.com/exp2exp/exp2exp.github.io/blob/master/src/manual/org-roam-manual.el][org-roam-manual.el]].
 
-** BACK The manual could be improved for generating slices according to certain queries
-
-** Backlog
 According to Scrum, a key idea with a ‘backlog’ is to go from the
 most-doable work in progress to the least-doable and potentially
-vague.  The linearization defined above was constructed with that
-inspiration in mind, but it probably is too slushy to achieve the
+vague.  The linearization described here was constructed with that
+inspiration in mind — but it probably is too slushy to achieve the
 objective.
+
+** BACK org-roam-manual.el could be improved for generating slices according e.g. roam tags
+
+** BACK Backlog linearisation relative to the long-form text
 
 Another way to look at the backlog is to [[https://gist.github.com/holtzermann17/1c5b333a905b312f21da66db246159a6#back-hyperreal-enterprises-roadmap][view all of the TODO items]]
 from across the wiki.  It would be absolutely worthwhile to sort these

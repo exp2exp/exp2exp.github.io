@@ -112,10 +112,16 @@ centring on “who does this business do business with?”
 - experienced, well-oiled teams requires less strict project management hygiene
 - new, less-organized, or heterogenous teams require more attention to careful project management hygiene
 
-** BACK Make a list of actual topics of interest
-If we were just doing “content production” we might think of a list of
-chapters to write, or podcasts to produce. However, maybe those ways
-of thinking and working don’t apply comfortably here.
+** BACK Make a list of actual topics of interest: revise HL pages to match
+If we were simply doing “content production” — then we might think of
+a list of chapters to write, or podcasts to produce, or something like
+that.  Maybe those ways of thinking and working don’t apply
+comfortably here.  What we do have, currently, is a list of “high
+level topics” which can be found by searching for the =HL= tag.  We also
+have tons of channels — most of them more-or-less abandoned — in the
+Discord.  Even though a list of topics won’t help a whole lot,
+revising the =HL= items might give us a better sense of what our shared
+objectives *or other forms of common ground* are.
 
 ** BACK Make a project analysis of active projects
 (This could refer to Peter Kaminski’s *project orientation* concept.)
