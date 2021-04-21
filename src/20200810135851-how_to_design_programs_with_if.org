@@ -1,10 +1,10 @@
 #+TITLE: How to Design Programs
 #+roam_tags: HD
 
-We were thinking of /How to Design Programs/ (HtDP) as a potential
-basis for this work.  We would want to respect category theoretic
-concepts in the presentation.  We would expect to find analogues in
-settings like Bayesian modelling.
+We were thinking of /How to Design Programs/ (HtDP) as a potential basis
+for our approach to *teaching arbitrary programming*.  We would want to
+respect category theoretic concepts in the presentation.  We would
+expect to find analogues in settings like Bayesian modelling.
 
 We could proceed by looking at relationships with argumentation
 theory, thinking about how to do this in a theoretically consistent
@@ -29,15 +29,11 @@ for programming and program-related Q&A.
 
 * Related work
 
-- General theory-informed algorithms (e.g., apply category theory to scientific models).
+- General theory-informed algorithms (e.g., “apply category theory to scientific models”).
 - K framework: Have transformations for any language you define in it.
 - HtDP is similar applied to programming teaching.  Start with PL theory and then find universal things.
 - How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
 
 * Contributes to                                                   :noexport:
-:PROPERTIES:
-:ID:       e5d35810-ca01-48f7-90f1-0681fa548385
-:END:
-
 - [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
 - [[file:20200905130423-agent_model.org][Agent model]]

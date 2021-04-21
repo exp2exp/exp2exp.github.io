@@ -1,9 +1,9 @@
 #+TITLE: Emacs and Org Mode
 #+roam_tags: TO
 
-We have been looking at Emacs and Org Mode, along with other tools for
-researchers and knowledge workers.  We gave a short talk at EmacsConf
-about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].
+Some of us have been looking at Emacs and Org Mode, along with other
+tools for researchers and knowledge workers. We gave a short talk at
+EmacsConf about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].
 
 Some of our subsequent discussions about Emacs and Research appear in
 [[file:erg.org][Emacs Research Group meeting notes]].
@@ -13,12 +13,20 @@ Some of our subsequent discussions about Emacs and Research appear in
 * What have we here?
 
 This page attempts to create a summary of the themes and ideas we’ve
-been surfacing.  Another form of high-level summary appears in our
-experiments with Causal Layered Analysis ([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20
-February 2021]]).
+been surfacing.  It draws on our experiments with Causal Layered Analysis
+([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20 February 2021]], [[file:cla-12-april-2021.org][CLA 12 April 2021]]).
 
-* Outtakes from our CLA notes, to turn into a narrative
+* Remix of our CLA notes and some other outtakes, to turn into a narrative
 
+We’ve made progress since we started with the raw themes of “Research
+on/in/with Emacs”.  We’ve had interesting and varied guests, and some
+developing plans for the quarter ahead.  We’ve got a workflow with
+careful review and diagnosis of issues when expectations aren’t met.
+Our work needs to be public first before we can embark on the next
+phase of this project — which is to mesh with ongoing related
+activities elsewhere.
+
+- Actions are atomic
 - /Talking about actualizing what we’re doing/: This keeps popping up, so might be worth discussing tomorrow.
 - Annotations and history
 - “Bookdown” to create a book in Markdown?
@@ -28,6 +36,16 @@ February 2021]]).
     - Visible outputs of research; // quantifiable research
 - We started off with PARs, then we started thinking through our past PARs, then observing /patterns/...
 - https://arxiv.org/abs/2012.03736
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration (who, what is the itinerary; having places to talk about
+research?). While we like to create tangible deliverables (e.g.,
+journal articles, rather than half-baked/half-finished publications),
+“If we knew what the outcome was it wouldn’t be research” — and we
+want to keep a role for serendipity in our work. (Good to have some
+people holding the fort; we’re doing fine in terms of turn-out at
+weekly meetings!)
+
 - Seeing patterns require a high-level view.
 - ‘Patterns’ as ‘projects’; parallels to LV’s workflow?
 - How can we make our patterns work in a collaborative fashion?
@@ -37,6 +55,28 @@ February 2021]]).
 - Top-down approach of method vs. the bottom-up approach of practice
 - https://hbr.org/2005/07/learning-in-the-thick-of-it
 - There’s a /link between method & practice/ that has to do with actualising what we’re doing
+- Patterns are the relationships (molecules)
+  - E.g, people show up at the protest, but the underlying issue is what the protest is about!
+  - Cf. Tim Urban on the /instant gratification monkey/ and /dark playground/
+  - E.g. piano, figure skating, swimming, meditation (moving to couples skating and ice-hockey)
+  - Consider also the /discriminating mind/, maybe more actively deployed in programming?
+  - Deploying collective agency with the body... then bringing things to the level of collected movement: ‘organism’
+
+We have looked at RStudio as a model of (some of) the kinds of things
+we want to do (would be great if we got the next big thing up and
+running in a year... but this is a lot to ask). ‘Practice’ and
+‘method’ keep coming up (respectively, these seem to be more bottom up
+and more top down ways of actualising what we’re doing).  We’ve been
+focusing on what we’re actually doing, and when we’re clear on that,
+we look at which settings are the most conducive. E.g., one method
+would be: instead of having a shared Org Roam directory, having ways
+of managing sharing of notes across ‘graphs’. (Collaborative work,
+academia, writing a book; ORCiD. If we all had our slipboxes on there
+we could reference between them. Finding things which are continually
+evolving. Maybe it would turn into a Tinder for academics to match
+people based on interest... Instead of paying money to go to
+conferences! Now we can spontaneously make up conferences. That will
+be $750.0 per user...)
 
 - RServer allows collaborative writing and editing, but is expensive ($5000 for 5 users). Compare also RStudio Cloud. For people who use R as their main language, they use this.
 - We could schedule a person specialised on R-Studio to come present us the piece of software (à la Google Doc presentation)
@@ -47,36 +87,35 @@ February 2021]]).
 - How do we differentiate authorship in those notes?
 - Expectations might not be met, but we are practicing the things that we’ve learnt; it’s what makes it systematic (the machine that builds itself again).
 
+- Methods are the intention (in Buddhism, there’s /right intention/)
+  - E.g., sensory mind and discriminating mind as kidney-shaped entities within the mind.
+  - Method of how you practice
+
+What gives an objective character to what we’re doing? (Noting also
+that time is going by; things that were timely 7 years ago might not
+be timely now; the actual relevance goes down.) Or, rather: what is it
+that allows us to synthesise new relationships? What big or
+‘existential’ problem are we solving... we’re not pushing ourselves
+beyond what’s humanly possible, but we are pushing ourselves to learn.
+
 - *Now* (30th January) we try to integrate *my* (Noorah’s) thoughts on a set of notes that we create together across time. How does this work? — But do we care about this in our workflow?  We could keep track of who created what with properties: do we want/need to persist these things? All the CRDT logs to file?
 - Saving the buffer with the text properties could do it.
 - What problem are we trying to solve?
 
 - Decide on a few tangible activities/deliverables — but this can also take an ‘agile’ approach.
 
-* Some coffee chat follow-up thoughts
-
-** Actions, Patterns, Methods
-- Actions are atomic
-- Patterns are the relationships (molecules)
-  - E.g, people show up at the protest, but the underlying issue is what the protest is about!
-  - Cf. Tim Urban on the /instant gratification monkey/ and /dark playground/
-  - E.g. piano, figure skating, swimming, meditation (moving to couples skating and ice-hockey)
-  - Consider also the /discriminating mind/, maybe more actively deployed in programming?
-  - Deploying collective agency with the body... then bringing things to the level of collected movement: ‘organism’
-- Methods are the intention (in Buddhism, there’s /right intention/)
-  - E.g., sensory mind and discriminating mind as kidney-shaped entities within the mind.
-  - Method of how you practice
 - Would need a 4th level to account for ‘end’
   - Red and yellow scores for skating
   - How well did you execute it in the case of a quasi-unexpected circumstance? (Compare also the use of data analysis in football.)
   - In Buddhism, putting an end to ‘fabrications’
 
-** Concrete things
+* Some further coffee chat follow-up thoughts: concrete things
+
 - Org-super-agenda
 - Patterns
 - Routine
 
-* Some ERG seminar points for furthe discussion/action
+* Some ERG seminar points for further discussion/action
 ** BACK Getting tasks mapped into reasonable packets
 - [[file:hel/getting_tasks_mapped_into_reasonable_packets.org][Getting tasks mapped into reasonable packets]]
 ** BACK Figure out how to handle tasks that are DONE

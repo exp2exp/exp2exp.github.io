@@ -9,9 +9,6 @@ range of problems!  This prompts reflection on the infrastructure and
 tools that we are actually using.
 
 * Subgoals :noexport:
-:PROPERTIES:
-:ID:       0fea67e1-6088-4845-9eeb-c080609bf58d
-:END:
 
 - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
 - [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
