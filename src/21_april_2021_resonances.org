@@ -1,0 +1,14 @@
+#+title: 21 April 2021 — Resonances
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-04-21>
+#+AUTHOR: Joe Corneli
+
+Here I describe the resonances that I am thinking about (across the
+wiki), and compare my writing with the musical genre of ‘sludge’.
+Then I start to reflect on how people don’t necessarily have
+incentives to stop and think about how things work.  I compare
+reasonable and unreasonable thinking.  Then I talk about how when I
+was first trying to think about these issues I thought in terms of
+‘hypertext’.  I’m alluding to Deleuze’s /Logic of Sense/ as far as I can
+remember what he says there.
