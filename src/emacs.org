@@ -3,7 +3,10 @@
 
 Some of us have been looking at Emacs and Org Mode, along with other
 tools for researchers and knowledge workers. We gave a short talk at
-EmacsConf about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].
+EmacsConf about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].  One
+of our reasons for starting that project was a sense of
+dissatisfaction with what could be achievede with Jupyter; see for
+example: [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]].
 
 Some of our subsequent discussions about Emacs and Research appear in
 [[file:erg.org][Emacs Research Group meeting notes]].

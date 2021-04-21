@@ -1,12 +1,24 @@
 #+TITLE: Which model construction process works as a whole?
 #+roam_tags: HL
 
-We are working in an applied way to build models, starting with data
-and using existing tools and methods, but without any strong guarantee
-that we will find the most effective methods right away. So, with
-these experiments we are investigating the process of “model
-construction” generally understood. One example is building
-computational structures from natural language and technical texts.
+We plan on working in an applied way to build models, starting with
+data and using existing tools and methods, and reflecting on the
+process — without any strong guarantee that we will find the most
+effective methods for model-building right away.  So, we plan to
+proceed with experiments in which we investigate the process of “model
+construction”, generally understood.
+
+One example application is building computational structures from
+texts, though that’s a bit vague.  In other kinds of modelling it may
+be easier to create examples quickly.
+
+* Status
+
+We got a good initial look at some ideas from [[https://betanalpha.github.io/][Michael Betancourt]], but
+didn’t end up going that much further.  We had an idea of some
+concrete processes that we would like to model, but we didn’t get very
+far with those either.  Noting these facts, it’s presumably a good
+time to regroup — and perhaps, rethink.
 
 * Subgoals :noexport:
 :PROPERTIES:
