@@ -12,7 +12,7 @@ Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
 inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and displayed with [[https://github.com/theiceshelf/firn][Firn]].  The
 document can be thought of as a [[file:20200912223428-wiki.org][Wiki]] (and edited inside Emacs).  From
 these sources, other downstream formats can be derived.  A narrative
-introduction follows.
+overview follows.
 
 To skip it, browse ahead to [[file:20200810132653-top.org][Top]].
 

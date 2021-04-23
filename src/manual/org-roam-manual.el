@@ -129,6 +129,19 @@ The files are to be found in `org-roam-directory'."
 This is where the order of presentation in the downstream org file
 and derived PDF is defined.")
 
+;; This would be better done using some form of slicing, but for now
+(defvar just-high-level-files '("20200810131435-hyperreal_enterprises.org"
+"20200810132653-top.org"
+"20200810135126-organisational_infrastructure.org"
+"20200814210243-business_development.org"
+"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+"20200905124432-underlying_foundation.org"
+"20200905124558-why_not_what.org"
+"20200905125023-which_model_construction_process_works_as_a_whole.org"
+"20200905134325-research_outputs.org"
+"20200906003704-bottom.org"
+"20201003205523-potential_products.org"))
+
 (defun indent-org-roam-export ()
   "Utility function to increase indention for selected trees."
   (org-map-entries (lambda ()
@@ -144,7 +157,7 @@ and derived PDF is defined.")
   "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
   (save-excursion (find-file (concat org-roam-directory
-                                     "/manual/combined.org"))
+                                     "/manual/hl.org"))
     (goto-char (point-min))
     (search-forward "# IMPORT")
     (let ((beg (point)))

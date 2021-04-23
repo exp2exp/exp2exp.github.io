@@ -9,7 +9,6 @@
 - [[file:20200905124405-construct_critique_improve_models_of_the_creative_process.org][Construct, critique, improve models of the creative process]]
  - [[file:emacs.org][Emacs and Org Mode]]
  - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
- - [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]]
  - [[file:arxana.org][Arxana]]
  - [[file:erg.org][Emacs Research Group meeting notes]]
 - [[file:20200905125023-which_model_construction_process_works_as_a_whole.org][Which model construction process works as a whole?]]
