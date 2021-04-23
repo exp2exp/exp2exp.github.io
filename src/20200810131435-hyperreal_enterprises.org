@@ -82,7 +82,7 @@ company [[https://hyperreal.enterprises/][Hyperreal Enterprises]] with an agenda
 of we’ve described here.  As mentioned above, are having
 regular meetings, which we may record if they look likely to be
 interesting to a wider audience.  We’re working on tools and processes
-that can improve our efficacy, for example, we gave a short talk
+that can improve our efficacy, for example, we gave a short [[https://github.com/exp2exp/ob-servant][talk]]
 at [[https://emacsconf.org/2020/][EmacsConf 2020]] about some of the Emacs-based tools we’ve been working on.
 We also submitted a [[https://hyperreal.enterprises/nnexus.html][grant proposal]] (with colleagues at Oxford Brookes) to the [[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][EPSRC mathematical sciences small grants scheme]] that would support half a year of work on the data-facing part of the pipeline.
 
