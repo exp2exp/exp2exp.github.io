@@ -224,7 +224,7 @@ It’d be better to have a demo
 **** We should go back and read some Inyatullah papers
 **** We are developing our intention to do something with group writing even if we haven’t figured out
 **** Alex is welcome any time, and note we can do in a spotlight session, either on Saturday (2hr) or 1600 (circa *20 minutes*)
-**** I think we should probably be thinking more in terms of PAR+CLA for Hyperreal?  
+**** I think we should probably be thinking more in terms of PAR+CLA for Hyperreal?
 
 * Check-out (exceptional or not)                                        :5m:
 :PROPERTIES:
