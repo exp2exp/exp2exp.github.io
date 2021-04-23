@@ -46,9 +46,9 @@ and sharing information and skills with each other in online seminars.
 Sometimes we bring in guest speakers.  We trying to structure things
 so that as time goes by our chats will coalesce into notes, blog
 posts, papers, and working prototypes.  We aren’t promising a schedule
-of deliverables — because we’re all volunteers (typically with other
-paying jobs!) — and we’re doing this for fun and interest.  We plan to
-share what we’re learning as we go along!
+of deliverables.  We’re all volunteers, typically with other
+paying jobs, sometimes in the process of looking for them!
+We’re doing this for fun and interest.  We plan to share what we’re learning as we go along!
 
 ** Broadly, the steps we have in mind move from data, to models, to AI agents.
 
