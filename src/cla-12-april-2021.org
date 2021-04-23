@@ -35,6 +35,10 @@ This refines the previous [[file:cla-16-january-2021.org][CLA 16 January 2021]],
 additionally, covers Episodes 13-18.  Now that we have been over this
 territory a bit, it may make sense to try and develop some breakdown
 of the /text/ that we’ve developed into doable, measurable, tasks.
+Notice that the supporting evidence from our previous PARs shows the
+kinds of things that we are capable of doing, so in some sense they
+foreshadow the kinds of =TODO= items that we could be slating for
+further work.
 
 * Objective for this session
 
