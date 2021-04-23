@@ -145,40 +145,41 @@ It’d be better to have a demo
 (ilog-show-in-new-frame)
 #+end_src
 
+** PAR for special guest session
 *** 1. Review the intention: what do we expect to learn or make together?
-- Alex learn some Emacs paradigms
-- Others help and demo different Emacs ideas
+**** Alex learn some Emacs paradigms
+**** Others help and demo different Emacs ideas
 *** 2. Establish what is happening: what and how are we learning?
-- Started with what Alex is most familiar with: vim and PowerShell (and RStudio, unshown)
-- Helpful to go over /what Emacs is/ rather than just showing the detail
-- Plurimodel approach, between ‘lay perspective of how do I do who I do elsewhere’ 
-- Getting the wireframe
-- Demos in Emacs Lisp, Clojure, and R — we could do Javascript or whatever
-- evil mode
+**** Started with what Alex is most familiar with: vim and PowerShell (and RStudio, unshown)
+**** Helpful to go over /what Emacs is/ rather than just showing the detail
+**** Plurimodel approach, between ‘lay perspective of how do I do who I do elsewhere’ 
+**** Getting the wireframe
+**** Demos in Emacs Lisp, Clojure, and R — we could do Javascript or whatever
+**** evil mode
 *** 3. What are some different perspectives on what’s happening?
-- We could use these patterns with others
-- Noorah would be interested in a more detailed discussion
-- Cameron has a similar background and became a fan of Doom
-- “if you don’t like the default, that’s OK, the E stands for Extensible”
-- Alex’s perspective: I thought you’d ask me. Learning Emacs as someone who never used Emacs or Lisp before is hard. But, when you can talk to people and get a feedback loop going, then it comes into its own. Documentation exists but it’s learning a new language. Let alone the keybindings. But if I listen to you talking, I hear the important stuff. 
-- Docs are more intended as reference
-- “What is the specific command to do this” — it would be like trying to learn a language with a dictionary and grammar book
-- Alex agrees with Leo’s playground perspective: I know what to do in another setting... but not here!
-- Emacs is so much more than the text editor
-- Text-interface?
+**** We could use these patterns with others
+**** Noorah would be interested in a more detailed discussion
+**** Cameron has a similar background and became a fan of Doom
+**** “if you don’t like the default, that’s OK, the E stands for Extensible”
+**** Alex’s perspective: I thought you’d ask me. Learning Emacs as someone who never used Emacs or Lisp before is hard. But, when you can talk to people and get a feedback loop going, then it comes into its own. Documentation exists but it’s learning a new language. Let alone the keybindings. But if I listen to you talking, I hear the important stuff. 
+**** Docs are more intended as reference
+**** “What is the specific command to do this” — it would be like trying to learn a language with a dictionary and grammar book
+**** Alex agrees with Leo’s playground perspective: I know what to do in another setting... but not here!
+**** Emacs is so much more than the text editor
+**** Text-interface?
 *** 4. What did we learn or change?
-- You don’t learn a language by looking at a dictionary (unless you’re a linguist and a bit crazy)
-- But there’s a problem with Emacs, which is that there isn’t proper intro
-- Combined many years of suffering learning the ropes.
-- We’re trying to do here: doing what we would have liked to have had; and having more people onboard.
-- Both vim and Emacs are awful for beginners, but people who use vim are already using the command line...
+**** You don’t learn a language by looking at a dictionary (unless you’re a linguist and a bit crazy)
+**** But there’s a problem with Emacs, which is that there isn’t proper intro
+**** Combined many years of suffering learning the ropes.
+**** We’re trying to do here: doing what we would have liked to have had; and having more people onboard.
+**** Both vim and Emacs are awful for beginners, but people who use vim are already using the command line...
 *** 5. What else should we change going forward?
-- We’re missing a proper tutorial introduction to Emacs
-- Human mediation between the documentation and what Emacs is ... is what allows you to apprehend the value of what Emacs is
-- If we had a good tutorial (we do have good docs) — the feeling of being guided by a human voice would be enough...
-- But there was no such guidance; you were in the middle of an alien playground.  “But I just wanted to do my Clojure stuff.”
-- Joe can guide: both how to do the Clojure stuff and how to do the high-level stuff, and how to learn the ropes more efficiently
-- Alex, please take notes on how you learn Emacs, and adopt a meta perspective. If you want to do something but you don’t know how to do it in Emacs, document it. Write a little about your experience — it will make it easier for us to help you, and help other people with their similar user stories. =#emacs-classroom=?
+**** We’re missing a proper tutorial introduction to Emacs
+**** Human mediation between the documentation and what Emacs is ... is what allows you to apprehend the value of what Emacs is
+**** If we had a good tutorial (we do have good docs) — the feeling of being guided by a human voice would be enough...
+**** But there was no such guidance; you were in the middle of an alien playground.  “But I just wanted to do my Clojure stuff.”
+**** Joe can guide: both how to do the Clojure stuff and how to do the high-level stuff, and how to learn the ropes more efficiently
+**** Alex, please take notes on how you learn Emacs, and adopt a meta perspective. If you want to do something but you don’t know how to do it in Emacs, document it. Write a little about your experience — it will make it easier for us to help you, and help other people with their similar user stories. =#emacs-classroom=?
 
 ** Revisions to the CLA                                                :40m:
 - Web-viewable draft here: https://exp2exp.github.io/cla-12-april-2021
@@ -202,28 +203,28 @@ It’d be better to have a demo
 - RSP: In the people here, most of us are either involved in writing a dissertation or writing one in the past!
 
 
-* PAR (Project Action Review)                                           :15m:
+* PAR (Project Action Review) for overall session                      :15m:
 :PROPERTIES:
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further
-- RSP: In part 2 wanted to make progress with the layered analysis — to actually do it! — making some progress
+**** AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further
+**** RSP: In part 2 wanted to make progress with the layered analysis — to actually do it! — making some progress
 *** 2. Establish what is happening: what and how are we learning?
-- Joe was given the keys to the car — though Leo did take them back
+**** Joe was given the keys to the car — though Leo did take them back
 *** 3. What are some different perspectives on what’s happening?
-- Leo did a nice job of intervening
-- Missed Noorah and hope she and Alex will talk at some stage soon (e.g., about writing)
-- Missing David and Charlie; did they get the link?
-- Ray has serious commitments in bio — now catching up with the Easter stuff
+**** Leo did a nice job of intervening
+**** Missed Noorah and hope she and Alex will talk at some stage soon (e.g., about writing)
+**** Missing David and Charlie; did they get the link?
+**** Ray has serious commitments in bio — now catching up with the Easter stuff
 *** 4. What did we learn or change?
-- I think we got a better sense of CLA and a new use case
-- Alex’s schedule is busy in 2 weeks, though has finished up some classwork freeing up time
+**** I think we got a better sense of CLA and a new use case
+**** Alex’s schedule is busy in 2 weeks, though has finished up some classwork freeing up time
 *** 5. What else should we change going forward?
-- We should go back and read some Inyatullah papers
-- We are developing our intention to do something with group writing even if we haven’t figured out
-- Alex is welcome any time, and note we can do in a spotlight session, either on Saturday (2hr) or 1600 (circa *20 minutes*)
-- I think we should probably be thinking more in terms of PAR+CLA for Hyperreal?  
+**** We should go back and read some Inyatullah papers
+**** We are developing our intention to do something with group writing even if we haven’t figured out
+**** Alex is welcome any time, and note we can do in a spotlight session, either on Saturday (2hr) or 1600 (circa *20 minutes*)
+**** I think we should probably be thinking more in terms of PAR+CLA for Hyperreal?  
 
 * Check-out (exceptional or not)                                        :5m:
 :PROPERTIES:
