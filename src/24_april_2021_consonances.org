@@ -1,0 +1,17 @@
+#+title: 24 April 2021 — Consonances
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-04-24>
+#+AUTHOR: Joe Corneli
+
+I’m looking at pages like the [[file:20200810131435-hyperreal_enterprises.org][Hyperreal Enterprises: Roadmap]] and [[file:20200810132653-top.org][Top]]
+to reorient myself to what we said when we first created this wiki.
+I’m thinking about how what we’re doing may be /actively opposed/ in some cases,
+not simply difficult.  My sense is that some of our historical difficulties may
+have come from the less-developed state of our communication patterns.
+This got me thinking then about the challenge of employing multiple different
+disciplinary-styles-of-thinking in a coherent way.  I tried to imagine what
+that thinking might do for us.  I considered that ‘known’ approaches are often
+‘enough’ which shows us some of our own built-in resistance to finding new methods.
+Thinking about the difference between participants in a collective endeavour and
+that collective endeavour itself is then suggested as a sort of philosophical can-opener.
