@@ -34,7 +34,7 @@ by Alan Turing in the late 1940s.  It is only relatively recently that
 we have massive amounts of relevant data ready to work with.  Code
 completion and code generation tools are some of the “low hanging
 fruit” in this domain.  However, we think that something much more
-substantial is around the corner.
+substantial is around the corner. (Some evidence: we’re not the only [[https://www.wired.com/story/ai-latest-trick-writing-computer-code/][people thinking about this]].)
 
 ** So we are looking into it.
 
@@ -55,11 +55,11 @@ We’re doing this for fun and interest.  We plan to share what we’re learning
 We plan to document our progress (or lack thereof) on this blog.  As a
 very rough outline:
 
-- We’d like to use contemporary information extraction methods to derive computationally meaningful material from sources like Stack Exchange Q&A, Github Issues, and programmers’ discussions, along with code. To do this, we will combine general purpose language models, like ELECTRA, and a knowledge graph approach.
+- [ ] We’d like to use contemporary information extraction methods to derive computationally meaningful material from sources like Stack Exchange Q&A, Github Issues, and programmers’ discussions, along with code. To do this, we will combine general purpose language models, like ELECTRA, and a knowledge graph approach.
 
-- We’d like to use category theoretic methods as a glue that can hold together a range of computational models, including models of programs and the process of computer programming. [[https://arxiv.org/pdf/1807.05691][Monocl]] is one such an existing process modelling language that has been used to create an abstraction layer over a collection of [[https://www.datascienceontology.org/][data science programs]]: we’d like to generalise this approach.
+- [ ] We’d like to use category theoretic methods as a glue that can hold together a range of computational models, including models of programs and the process of computer programming. [[https://arxiv.org/pdf/1807.05691][Monocl]] is one such an existing process modelling language that has been used to create an abstraction layer over a collection of [[https://www.datascienceontology.org/][data science programs]]: we’d like to generalise this approach.
 
-- Ultimately, we plan to install the models in computational agents who can then “converse with each other to sharpen their wits” (as Turing anticipated), mirroring contemporary developments in self-play.  However, the specific design of the agents remains an open issue at the moment!  Here, we’d like to explore techniques from Bayesian learning, logic programming, and reinforcement learning.
+- [ ] Ultimately, we plan to install the models in computational agents who can then “converse with each other to sharpen their wits” (as Turing anticipated), mirroring contemporary developments in self-play.  However, the specific design of the agents remains an open issue at the moment!  Here, we’d like to explore techniques from Bayesian learning, logic programming, and reinforcement learning.
 
 The path forward may be much less linear than these three bullet points would suggest.
 
