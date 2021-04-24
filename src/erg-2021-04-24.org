@@ -1,0 +1,123 @@
+#+TITLE: 24 April 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+# #+FIRN_LAYOUT: erg-update
+# #+DATE_CREATED: <2021-04-24 Sat>
+
+# We usually meet for 2 hours, starting 17:30 UK time.  
+
+# As a template, we have one special guest, one extra topic, a PAR,
+# and some informal chat. We take notes into the agenda using crdt.
+
+# (Details vary per session.)
+
+* 24 April 2021 — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Noorah
+- Busy writing
+** Raymond
+- Things are moving along with Cameron & Ximo w/ daily meetings (missed 1 but catching up)
+- CLA: haven’t read Inyatullah this week
+- Waiting for Deleuze & Sloterdijk books
+ - LV: Excited to hear about this & looking forward to discussions; help can open more questions
+** Leo
+- Current week’s odyssey: no news, quite tired, yesterday had a lot of meetings 2PM-8PM: tutoring, coffee, Rob
+- Meeting with Rob went well; he’s migrate to Obsidian whilst waiting for Org Roam to get even better
+- ‘Org Roam is probably the most promising of the zettlekasten solutions’
+- Discussed designs, plans, progress — Rob will come along in 2nd half of May
+- LV: Expecting the 1st half of May to be quite busy, no idea what the next couple of weeks would be
+- Generally doing good but still working on his new shoes
+- Bummed that he didn’t get news from the job (yet) but did get a chance to think about JC/LV morning meeting
+ - Joe mentioned that ‘tech lead’ was even somewhat below Leo’s fully capable zone
+ - LV didn’t want to finish the meeting on this, but there was discussion of the compatible zone between Leo’s entrepreneurial spirit
+** Joe
+- Doing better in the wake of his first vaccine injection
+- Had a little bit of a row with OGM on Diversity; has also exchanged with Charlotte on it
+- On this week’s coffee chats: was a little disjointed; LV and JC were a little out of touch with what was being discussed
+- Very pleased with the CLA
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                               :50m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+** CLA finally ready-ish                                               :25m:
+- [[https://exp2exp.github.io/cla-12-april-2021][https://exp2exp.github.io/cla-12-april-2021]]
+- Based on the strengths of what we’ve been doing, what’s next?
+- What are the deeper issues/icebergs beneath the surface?
+*** Added further bullet points on this
+** Insights on LV’s tutoring contract                                  :5m:
+- Notes were taken in the CLA notes
+- (To revisit and rethink during the week.)
+** Adapting Coffee Chats with breakout rooms and other entrepreneur stuff :20m:
+- cf. Transportation Futures
+ - Information Epoch essay
+ - Maybe we can revisit, e.g., starting as a wiki
+- Small-scale logistics: /books?/ /reusable shipping containers?/
+- Cloning companies can be profitable!
+- Some interesting things going on in France: people could return packages /via their mailbox/
+ - E.g. if shoes don’t fit, you could return them
+ - Put them in your mail box, they will go back to whomever needs to receive it
+ - Having the ability to receive packages with any mailbox
+- Energy levels and time permitting will make a more full engagement
+- LV & RSP will need more time to read and ponder
+- Raising /Experimental Ground/ — ?
+ - Let’s do this together with Zanzi
+ - Maybe we also need a physical layout — since were inspired by Gathertown
+- RSP: Maybe it’s a cultural thing that everyone has a chance to check in, be heard if they want to bring a topic, and if there are specialist things they wait til later.
+ - We’re already really familiar with this...
+
+* PAR                                                                  :10m:
+:PROPERTIES:
+:Effort:   0:10
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Short session
+- Cover CLA
+- Put it in context with other things we’re doing
+*** 2. Establish what is happening: what and how are we learning?
+- We heard some about the energy and time costs of Leo’s Typescript learning sprint
+- Ray reconnected with the Futures, Transportation, economics thinking
+*** 3. What are some different perspectives on what’s happening?
+- Leo is a little bummed b/c he’s not been able to bring 100%
+- (Leo has still participated, though wishes he’d be able to muster more forces.)
+- Noorah is quite taken w/ her current writing project, drawn by her coauthors
+- There may be a build up of pressure
+*** 4. What did we learn or change?
+- Scheduling of Peeragogy meeting on Sunday came as a bit of a shock to Ray, Joe to send link
+*** 5. What else should we change going forward?
+- Possibly centre the CLA+PAR stuff
+- Re-work the coffee sessions with checkins to build an agenda
+- Maybe build a map of the virtual rooms, and bring everyone onto the same page about
+
+* Check-out (exceptional or not)                                        :5m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** RSP
+- Triva point: the most vital substance in marbling is Ox Gall
+- Writing with some expository stuff has helped
+- PlanetMath was like this
+- Re-implementing a mini-Kanren would be along the same lines
+** JC
+- Marbling papers are similar to thin fractal
+- Took a couple days off of disciplined writing
+- If we had money, we would have talent and maybe even some business models to think about...
+ - LV: Talents will remain, even if their time is somewhat diluted; in my case I was ‘trying to create opportunities’
+** LV
+- Watching “The Crown” — there are lovely moments about art in it
+- Churchill had great modernist art commissioned for his 80th birthday, but it was a representation of aging!
+- There’s a lovely discussion about art influencing your view on life: utterly brilliant!
+- Had a chance to do some writing on his tablet by the window
+- Tired but not depressed, aware of some sense of dullness: but, taking a survey of the conscious lay of the land, writing is less salient, now wants to go back to Typescript and play around with it; in particular wants to learn the unit testing, maybe redo the interview test.
+- ‘Want success’ (in light of a sense of Midas touch), though did bite off a lot here! Skipping 8 years of study and work in 2 weeks. ‘Once tech lead, forever tech lead’?
+ - JC: Maybe FLOSS is better /quality/ of learning — if so, introducing freedom can be generally useful
