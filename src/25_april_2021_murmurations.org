@@ -1,0 +1,22 @@
+#+title: 25 April 2021 — Murmurations
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-04-25>
+
+I started thinking about how our ‘experiments’ have often been taking
+place in ‘conversations’.  I think about how this creates a certain
+landscape, with some things in focus and other blindspots.  I then
+think about how this resembles physical systems which have activation
+thresholds — and other kinds of thresholds — relative to their
+landscape.  /Evolutionary/ systems in particular do the work of
+‘discovering’ certain thresholds within their environments.  Our
+ability to talk and think about evolution (on the one hand), and
+patterns (on the other) is perplexed by the fact that we are ourselves
+engaged in ‘emergent’ behaviour when we do so.  The tools, mindsets,
+and abilities that we deploy as we relate to the process of
+‘discovery’ all need to be thought about somewhat circumspectly.  We
+want to create a sense of perplexity while also having the methods at
+our disposal for making sense of it in due course.  Deploying language
+to make meaning relative to a background landscape is only the
+incremental *PARticle* of meaning-making; the aggregate needs to be
+discussed more later on.
