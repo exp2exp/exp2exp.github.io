@@ -17,5 +17,5 @@
     [:link {:rel "stylesheet" :href (build-url "/static/css/firn_base.css")}]
     [:link {:rel "preconnect" :href "https://fonts.gstatic.com"}]
     [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono&family=Ubuntu:wght@300;400&display=swap"}]
+    [:script {:src "https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"}]
 ])
-

@@ -776,3 +776,21 @@ label.margin-toggle:not(.sidenote-number) {
         width: 100%;
     } 
 }
+
+/* Anchor.JS */
+
+.anchorjs-link {
+  transition: all .25s linear;
+  background: unset !important;
+  text-shadow: unset !important;
+}
+
+.anchorjs-link {
+  color: #C0C0C0;
+}
+.anchorjs-link:hover {
+  color: #C0C0C0;
+}
+*:hover > .anchorjs-link {
+  transition: color .25s linear;
+}

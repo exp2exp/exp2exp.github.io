@@ -1,6 +1,6 @@
 (defn sketchbook
   [{:keys [build-url title render partials]}]
-  (let [{:keys [head]} partials]
+  (let [{:keys [head foot]} partials]
     [:html
      (head build-url)
      [:body
@@ -19,6 +19,7 @@
          [:div.back-to-main
           [:p "Back to main index: "
            [:a {:href "https://exp2exp.github.io/index.html"} "Exp2Exp"]]]
-         ]]]]]))
+         ]]]]
+     (foot)]))
 
 

@@ -1,6 +1,6 @@
 (defn typescript
   [{:keys [render partials title meta date-created build-url]}]
-  (let [{:keys [head]} partials]
+  (let [{:keys [head foot]} partials]
     [:html
      (head build-url)
      [:body
@@ -22,4 +22,5 @@
             [:h4 "Backlinks to this document:"]
             backlinks]])
         [:hr]
-        [:div.back [:p "Back to blog: " [:a {:href "https://exp2exp.github.io/Writing"} "Exp2Exp: Writing"]]]]]]]))
+        [:div.back [:p "Back to blog: " [:a {:href "https://exp2exp.github.io/Writing"} "Exp2Exp: Writing"]]]]]]
+     (foot)]))
