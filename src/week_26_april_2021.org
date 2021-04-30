@@ -1,4 +1,9 @@
 #+title: Week 26 April 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-04-30 Fri>
+#+AUTHOR: Joe Corneli
+
 
 My joint paper with Nigel Crook “The anatomy of moral agency: A theological and
 neuroscience inspired model of virtue ethics” has been shipped off in a final
