@@ -1,0 +1,73 @@
+#+title: Week 26 April 2021
+
+My joint paper with Nigel Crook “The anatomy of moral agency: A theological and
+neuroscience inspired model of virtue ethics” has been shipped off in a final
+camera-ready version.  It was almost entirely Nigel’s work, but I provided a
+sounding board.  In addition, I helped flesh the paper out in directions that I’m
+sure Nigel hadn’t anticipated — using some ideas and themes that I personally
+hadn’t anticipated relying on in an academic setting!  /Viz./, from the Discussion:
+
+#+begin_quote
+One clear limitation of this work is that we have cleaved to certain “Western”
+notions.  Fundamental parallels to Willard’s model may be found in some other
+traditions (e.g., the four frames of reference [*body*, *feelings*, *mind*, and *mental
+qualities*], together with the three path aggregates [*virtue*, *concentration*, and
+*discernment*] in Buddhist practice theory, cf. Thannisaro Bhutto (2013, pp. [[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part2.html#part2-b][74]],
+[[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part3.html#part3-a][173]])): but even more interesting for future work would be an elaboration of
+cultural differences that this model does not capture.
+#+end_quote
+
+I’d been interested in ‘practice theory’: both with regard to /reading/ [[https://en.wikipedia.org/wiki/You_Must_Change_Your_Life][Peter Sloterdijk]]
+and also with regard to /writing/ in the [[https://peeragogy.org/practice.html][Peeragogy Handbook]] and elsewhere.
+So I was glad that some of this started to make its way into my more formal writing,
+even though I don’t know much about the themes of ‘theology’ and ‘neuroscience’ in the subtitle.
+
+Also on the front of paper-writing, I polished off (at least to draft status)
+another task that had been around for a long time: turning our HCI Ethics
+‘treatment’ into a ‘storyboard’.  In plain language this means transforming a 7
+page PDF into a set of around 75 slides, each one dealing with a significant point
+from the short 7 page ‘treatment’.  I think a similar development strategy could
+be useful for other papers: writing “outline → treatment → storyboard → paper”.
+Along the way we also used Logseq to create a more extended version of the
+treatment (I’m not sure that anything particularly valuable was actually ended up
+in there!) alongside Slack which accumulated a big collection of links.  So these
+resources start to give a set of references that can be added to the document.
+the theme of “HCI Ethics” seems a bit connected with ‘practice theory’ as above,
+and we’ve been trying to pay attention to thinking carefully about the tools and
+practices we’ve used when writing these successive drafts.
+
+Speaking of writing: over the past week I introduced a page here on Exp2Exp to
+collect some more free-form [[file:Writing.org][Writing]], which — if I post frequently and regularly —
+may be helpful (for me) as an alternative way to explore the themes we’ve been
+talking about here in the wiki.  I’m also wondering if a [[file:writers_workshop.org][Writers Workshop]] might be
+worthwhile to add into the mix of shared activities, and I’ve aired that as a
+possibility.
+
+And, speaking of practice theory, I’ve started to use [[https://orgmode.org/manual/Tracking-your-habits.html][org-habit]] to track a few new
+habits that I’d like to get fully established in May:
+
+- Write 2 pages in the morning
+- Meditate in the morning
+- Jump rope 300 times
+- ...
+- Meditate in the evening
+- Write 2 pages in the evening
+- 22:00 Bedtime
+
+The ellipsis in the middle covers all the professional, personal, and
+business (and, creative, etc.) things I’d /like/ to be doing and which
+clearly need some more development.  Some of the tasks I have slated
+for the next week will unpack this further via some meta-reflection
+stuff — doing some future-oriented thinking (in the top three
+bullet-points here):
+
+- What are some projects I should be working on at the six-month scale?
+- What are some projects I should be working on at the year scale?
+- What are some projects I should be working on at the year-and-a-half scale?
+- Out of my defined projects what’s the value I want to generate there?
+- Now that I have more Org Roams I should put the ones I actually use under version control
+- Drop email to DALT students
+- Review my journal from the first week
+- Review the peeragogy backlog to decide which things are wontfix, what other categories need to be created, etc.
+- Work some more on the ‘poem’ version of the handbook
+
