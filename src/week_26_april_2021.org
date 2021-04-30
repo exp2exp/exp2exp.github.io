@@ -15,9 +15,9 @@ hadn’t anticipated relying on in an academic setting!  /Viz./, from the Discus
 #+begin_quote
 One clear limitation of this work is that we have cleaved to certain “Western”
 notions.  Fundamental parallels to Willard’s model may be found in some other
-traditions (e.g., the four frames of reference [*body*, *feelings*, *mind*, and *mental
-qualities*], together with the three path aggregates [*virtue*, *concentration*, and
-*discernment*] in Buddhist practice theory, cf. Thannisaro Bhutto (2013, pp. [[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part2.html#part2-b][74]], [[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part3.html#part3-a][173]])):
+traditions (e.g., the four frames of reference [body, feelings, mind, and mental
+qualities], together with the three path aggregates [virtue, concentration, and
+discernment] in Buddhist practice theory, cf. Thannisaro Bhutto (2013, pp. [[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part2.html#part2-b][74]], [[https://www.accesstoinsight.org/lib/authors/thanissaro/wings/part3.html#part3-a][173]])):
 but even more interesting for future work would be an elaboration of
 cultural differences that this model does not capture.
 #+end_quote
