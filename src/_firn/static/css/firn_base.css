@@ -196,6 +196,7 @@ sup {
 
 a {
   color: var(--color-secondary);
+  font-variant-caps: small-caps;
   text-decoration: none;
 }
 
