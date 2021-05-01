@@ -198,6 +198,7 @@ a {
   color: var(--color-secondary);
   font-variant-caps: small-caps;
   text-decoration: none;
+  font-size: 115%;
 }
 
 a:hover {
