@@ -1,0 +1,211 @@
+#+TITLE: 1 May 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-05-01 Sat>
+
+We usually meet for 2 hours, starting 17:30 UK time.  
+
+As a template, we have one special guest, one extra topic, a PAR,
+and some informal chat. We take notes into the agenda using crdt.
+
+(Details vary per session.)
+
+* 1 May 2021 — Emacs Research Group
+
+* Check-ins                                                            :30m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+- Available to discuss the grant further later
+- Ximo might make it (9AM where he is)
+- When we were talking about diversity, I was reading a paper that critiques ‘identity politics’ so this is reminiscent of some other ongoing discussions
+- Over next couple months working towards a conference presentation, but intending to get back to ob-servant and hypernotebooks over summer
+** Noorah
+- Last week was overworked
+- Feeling determined to finish her thesis
+- And if she doesn’t finish it she will always think about it
+  - RSP: Furthermore everything is fresh now
+  - LV: [[https://www.flinders.edu.au/people/tara.brabazon][Tara Brabazan]] is worth checking out on ‘how to structure your thesis’ 
+- The way I’ve been looking at my detailed outline, and then I get caught up thinking about where to put it, rather than just writing it down
+  - JC: Pirsig talked about the same thing in /Lila/
+  - LV: Maybe here a ‘staging area’ could be helpful, either at the top or elsewhere
+  - JC: From one of his old supervisers: ‘Move the footnotes to the endnotes, and remove the endnotes!’
+** Leo
+- Short version of Leo’s turmoil this week: the beginning of the week was rough, and the week before was spent with tech test, it went decent but he hasn’t heard from them
+- So as a result spent the first part of the week feeling some disorientation
+- Talked with people this week, and has grown some as a person, and feeling more at peace
+- Enjoyed the cantata that Ray shared
+- Switched to ‘Emacs main’ 28.0.50 compared to 27.1.5 which is what’s usually shipped; only one thing was breaking
+  - =.el= vs =.elc= vs native compilation — can increase the speed significantly
+  - Could do a workshop on how to install this
+- Has been watching the first season of “The Simpsons” — which at the time were counter-culture, though now they are just regular culture
+  - Enjoys the density of jokes
+- We’d been talking about a reading group in philosophy and doing some regular writing, but hasn’t caught a wave with this yet
+- Just coming from an EmacsConf meeting about diversity — including planning a public session or if we need to revisit some points
+- How do we handle controversial figures?  How do we outreach to people?  How do we invite people to office hours, help them make better talks
+- Planning an early-June ‘EmacsConf improvement’ workshop (behind closed doors, but open about the process)
+  - JC: Maybe 2 dates would be good?
+  - LV: Though I’ll probably have to moderate anything, so may only have one.  But there will be an office hour slot where you can follow up, also email.
+  - RSP: Maybe also IRC discussion for an asynchronous thing; perhaps with an installation of ‘the Lounge’ so people don’t have to install their own client
+- Next week will have more operational stuff
+- JC: ‘Diversity and accessibility’ feels like an uphill battle with Emacs and Free Software
+- RSP: Useful to think about ‘what is diversity?’  Also with others besides the committee involved!
+  - LV: “We’d be calling for the meeting but we wouldn’t be the centre of that”
+  - JC: Bringing Noorah’s take on /adaptive capacity/ as a different theme that could change the game?
+** Joe
+- Slightly bummed because of the rejection of the grant on a technicality
+- Joe did feel like he was doing his best work though, and that, if he keeps putting his best work, things will work out
+- Made some physical zettels
+  - Projects & Personal goals
+  - Made Joe think about how writing was a tenet of ERG
+- Been doing a lot of free-writing since a little while, on [[https://exp2exp.github.io/writing][https://exp2exp.github.io/writing]]
+  - RSP: I could move some of my writing here later
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                               :80m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+** Diversity recap from EmacsConf                                      :50m:
+- NA: When I think about ‘adaptive capacity’ and diversity I think about ‘shared language’
+- When people say ‘too much diversity’ maybe they mean ‘a lot of noise’ — it’s the language
+- RSP: I’d broaden that slightly because language is a social/cultural phenomenon so we’d want to look for customs or other parts of culture that are used as a foundation
+- NA: Thinking of Emacs, there are some initial conditions to enter the space, for example, the words that people use — it’s like being cool and knowing slang.  You can’t be part of the group unless you know the words that are used.  And this explains how things can become less diverse.
+- RSP: And you can then ask why that is the case.  E.g., we have the term ‘buffer’ so that’s important?  Or, that’s purely a historical accident and it excludes people who would otherwise be part of the discussion.
+- NA: So, the way I was thinking about it — remember the high school kid who presented at EmacsConf... I was blown away!  It was awesome how he was using Emacs.  That said, he’s studying at Stanford Online School or something, where all the resources are there for learning about this world.  I personally didn’t know about open source until I was in my mid-20s
+- RSP: That’s similar to me: I was going to a private school and happened to go to an activity at Columbia.  So if it is only at elite schools that is going to exclude a lot of people
+- NA: I remember that I got into it via ‘rooting’ the Google Nexus phone — and this opened some floodgates
+  - LV: and then 5 or 10 years later here we are...
+- LV: I’d like to recontextualise... to note: ‘diversity and emacs’ and the ‘EmacsConf improvement workshop’ are different
+- ‘What is diversity in software’ is more of a scholarly question; not necessarily what we have to take into account within operationalising it in the EmacsConf
+  - We know which people are being concerned, and we know areas in which we are sorely lacking
+  - The doctrine that we adopted was to come up with an “outreach programme” (which existed in the CFP last year, in the form of a paragraph)
+  - Now trying to operationalise that, with office hours that are designed to be open
+  - This can provide a certain number of outlets for people to express themselves; but these aren’t tagged as only “places for diversity” (e.g., comfortability presenting is an aspect of diversity, but that’s)
+*** And here we are to address scholarly questions!
+- RSP: But actually the question is too important to just be scholarly!
+- Somewhere there should be a place to have the broad-ranging discussion about ‘what is diversity’ and things like that
+- Charlotte would say “not everything does things in a scholarly way” 
+- So, the broad discussion should exist and eventually inform EmacsConf
+- LV: In fact we do expect the discussion to be about ‘diversity’
+  - but we also have to share our thoughts 
+- NA: A couple of things, we should be thinking about partnerships and ‘community engagement’ (not ‘outreach’ because engagement is a 2-way relationship: this is an example of language) — e.g., “[[https://girlswhocode.com/][Girls Who Code]]” is a great organisation that you could approach around engagement in programming and what it means to be open source
+  - We’re still thinking about FLOSS as philosophy, but let’s walk the talk! — by doing it in real project
+  - We also have to think about it from the side of user, and from the side of developers; there’s a disconnect between users and developers who don’t actually talk with each other, or it can feel like a one-way conversation
+- LV: The problem we’ve encountered with EmacsConf is: we talk about diversity partly because we don’t understand what goes into it; user-developer or maintainer-to-maintainer relationships /might/ go into diversity but it could be a better fit for /Emacs user groups/.
+  - I’ve been working to create more links, and now people are thinking about Org Roam as a highlight as a result, but I/we are also encouraging people to do the same
+  - e.g., I was talking with the maintainer of TRAMP...
+  - We’ve talked also about a “user group for maintainers”... now we’re thinking we should lead by example, e.g., blogging about emacs, or handholding by providing the facility to be as welcoming as possible
+  - This could also include working with Girls Who Code
+- NA: We’ve talked about how documentation is a big hurdle — so how about creating /templates/ — i.e., documentation templates, prompt questions
+  - In this section you can talk about the purpose of this package — what is the user experience — etc.
+  - This sort of template should be helpful to maintainers and developers
+- LV: We’ve been working to nudge people towards this, but maintainers would have very little time or motivation to do so
+  - E.g., we do want to write an Org Roam tutorial, I have a feeling about the shape I want it to be — but it’s only a matter of finding the time?
+  - /try to be what we preach/ — if we want people to do this then Org Roam should be the flagship for this.  If Org Roam is investing time into doing this then it becomes easier to replicate this.  Similar to when you need to write an official letter, you’ll look for a template.
+  - It’s going to be a long-term effort b/c even after 40 years Emacs hasn’t secured a place in the hearts of ‘Girls who Code’ or such
+  - If we say: we want to have a discussion about /diversity in Emacs/ we will get people who have a lot to do with diversity — but some may be way too well-equipped for us to handle, we are not many people
+    - Some people might say Leo wasn’t legitimate in having this discussion — this would ‘gnaw’ at the discussion
+  - JC: ‘Emacs Lagos only exists to serve a purpose’
+  - JC: ‘Where is the space to have those very big, visionary discussions — and they remain grounded in reality as well (knowing this is a big ask).’
+- RSP: Remember when Paola was talking about bringing peeragogy to other parts of the way, and she remarked that this was being done in a colonialist way
+  - You’d want to have a discussion w/ the people in Lagos 
+  - JC: this got started with regard to a specific [[https://www.sciencedirect.com/science/article/abs/pii/S0016328715001214][paper]] in the /Futures/ journal; and there’s another interesting one in there (at least):
+    - ‘The need for citizen science in the transition to a sustainable peer-to-peer-society’
+- NA: What are resources out there which make it easy to write Lisp functions?  That’d help people
+  - It all starts with education
+  - LV is very much aligned with NA on this topic
+  - JC: There’s a whole bunch of literature saying ‘we need something like this; and we have something that works for us; we’re not sure it’s going to work for girls, or we’re not sure if it’s going to work in Lagos’; how do we incentivise diverse groups of people to adopt those tools?
+- RSP: “Technology is stuff you can’t build”: comic book definition of technology
+  - But ‘customization’ breaks this down — people see that they can /begin towards/ the process of building technology, and /if I went further/ I could go towards building a whole package
+  - NA: Customization: makes it easier to adapt to another state, and /empowers you to think about/ changing the state
+  - LV: Maybe related to the discussion we had before about gender and methods?
+- JC: Customisation & Growth mindset: the ability to keep projects and the thinking associated to them alive?
+** Noorah’s thesis check-in and current state                          :10m:
+*** Social situation
+- Headlines, moving slower than anticipated, but glad to have met with committee members early on.
+- Two co-chairs: what do you want to do, how do you want to approach this, we will help you with the framework
+- The external committee members: had good questions and a different perspective but also added more work NA didn’t anticipate
+- Also met with someone else a little tangential and this also threw her in a new direction (and prompted lots of reading)
+- Has notes, concept maps, and stuff 
+
+- Joe is interesting in learning more about Noorah’s progress because, at Brookes, he’s likely to be close to people in similar situations
+  - ‘What are the best practices?  What are the problems?’
+*** Now justifying some of the choices
+- Why am I looking at this case rather than some other case?
+- This is really affecting my thinking about research question.
+- I somewhat resent my PhD programme for not telling us about this
+- The guy I talked to outside of the department is a geographer: he said, you’re heading in a good direction, but when you’re talking about adaptive capacity to climate change, what is the /threat/? So, in this specific region I have to think about these specific hazards.  E.g., extreme heat and dust storms within the health sector, who the actors are involved, or dealing with the issue; and then I thought let’s think about climate change as a systems and complexity issue
+- JC: Reminiscent of Charlotte’s friends in Nepal
+- NA: What’s handing in soon is the proposal
+- JC: Happy to see that NA’s methods has been vetted by her supervisors
+- NA: /Just/ need to draft the literature a little more
+- NA: ‘Unit of analysis’ — why are you looking at households vs institutions; looking at urban situations
+- Joe’s ‘what are you not looking at’ — e.g., NOT household-level adaptive capacity, NOT flashfloods — ‘what if we modify the question by making it a negative’
+- LV: List of word to help with literary analysis... sometimes if I don’t know how to describe a phenomenon, I’d look at this list
+- JC: Isn’t it grounded in ethnography, at the end?
+  - NA: up to 3 cases to be compared, why are there differences in terms of institutional performance?  What makes something work?  One is moving faster than the other, so what are the factors
+
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- Figure out our place in the world — what are we?
+*** 2. Establish what is happening: what and how are we learning?
+- Extended checkins
+- Diversity was very interesting discussion for us
+- We ended up sending about 60 minutes after following that theme
+*** 3. What are some different perspectives on what’s happening?
+- It seems as though we may be asking and changing that answer on a long term basis
+- This is a space to think and talk about writing
+- Future studies ideas were useful in this particular conversation
+- Joe had been mentioning thinking more about ‘outputs’ — maybe we should be thinking about this here — we’ve been talking about this
+- A lot of mature thinking, even if it is early in a paper-writing pipeline
+*** 4. What did we learn or change?
+- We’d like to keep discussing our place in the world
+- The topic can change and the work can 
+- We can add more freedom here — other places can provide stress readily enough, and indeed if things are moving it can compromise other things
+*** 5. What else should we change going forward?
+- When we don’t have the time to go on a tangent, we should probably make a note of it and address it either in a coffee chat or in another session here
+- Maybe what we can develop here is an enriched perspective on writing (either collaborative or not)
+- A tad more structure in advance, e.g., with respect to guests?  Perhaps with ‘plan A’ and ‘plan B’
+- RSP: I wanted to make more time to read Inayatullah
+
+* Check-out (exceptional or not)                                        :5m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Was happy to catch-up
+- Happy to talk about her research to other people
+- Happy to go return to her project with all the harvested energy
+** JC
+- Feeling way better after this meeting; came from a nap and a walk, and a family talk; not feeling too bad about the grant but now feeling good
+** RSP
+- Pity that neither of my collaborators made it, but glad that we nonetheless had a productive meeting w/ some themes that we’ll hopefully keep discussing
+** LV
+- /Finally/ found something that seems to work better than ~org-special-ctrl-a/e~ set to =t=, and is happy about it
+- Happy about the session, a bit tired after the prior 4 hours of charged diversity discussion, but glad we did it, looking forward to next week
+
+* Post check-out (even more exceptional!)
+- Ximo joined us at the very last minute!
+- Bonus paper: [[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006265][The evolutionary dynamics of metabolic protocells]] — Ximo, Ray, and Aviv as coauthors
+- Current tools are a bit disconnected
+- Cameron likes trying anything new — *an ideal solution would be something that can improve over time with potential to grow*
+- Currently use Overleaf, used to use Mendeley, Cameron changed it to PaperPile, Noorah uses a different solution (Zotero)
+- Cameron works to share Jupyter
+- Ximo usually uses Sublime
+- NA: Org mode is great for writing, you can easily export 
+- RSP: What would be development priorities
+- The perfect integration of tools for the working scientist, thinking about processes, referring to other sources — in a one-stop-shop this would be ideal
+- In Genentech, we have several groups, e.g, on the advantages of ‘polyglotism’ — the constellation of development tools can create 
+- Communication, coding, bibliography management — we can demo this
+- Combining CRDT and a few other things would allow notes, Maxima... so these are the makings of what we’re trying to get at
