@@ -1,0 +1,21 @@
+#+title: 04 May 2021 — World of the text
+#+FIRN_UNDER: Writing
+#+FIRN_LAYOUT: typescript
+#+DATE_CREATED: <2021-05-04>
+
+The perspective of the text always existing is considered and rejected
+as too much of a 20th Century idea.  Instead we look at how the text
+develops, as an example of a complex system.  We consider that larger
+cultural systems have a similar property of capturing patterns in
+informatic terms.  The patterns in our lives are similar.  Sometimes
+they are very sticky, sometimes they are well-connected, sometimes
+they are disparate and so on.  Measurement seems to be a game changer,
+since it allows us to assess certain patterns and project them into a
+domain that feels simple and familiar.  But more interesting than
+measurement is the informatic relation itself, which is more related
+to ‘learning’.  In this view we circle back to ask whether a text
+itself can learn, rather than simply being informed.  We consider text
+as a kind of ‘being’.  Text has a quantized self, which is different
+from simply projecting into familiar numbering systems.  If we became
+acquainted with the world of text we would start to see things in a
+different way.  Allusion to /The Great God Pan/.
