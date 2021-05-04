@@ -16,6 +16,13 @@ question-answering system).
 We previously did a little exploratory work, with similar intent, using
 polygraphs as input, in the workshop paper “[[https://www.newton.ac.uk/files/preprints/ni17003.pdf][Modelling the Way Mathematics Is Actually Done]]”.
 
+- The paper talks about exposition and formal thinking as two different sides of [[file:mathematics.org][mathematics]].
+- You need exposition to teach anything
+
+** Comments
+
+- We are trying to build a new web
+
 ** Demo application: Reimplementing classic rules to model subtraction
 
 We looked at a classic paper about “subtraction on Mars” and it seems
