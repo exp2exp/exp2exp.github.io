@@ -7,7 +7,7 @@
 :ID:       0caba40b-2561-4143-b2b1-55f3ddc3201b
 :END:
 
-This document synthesises a [[http://www.peeragogy.org/pattern-roadmap.html][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/product-roadmap.html][Product
+This document synthesises a [[https://peeragogy.org/roadmap][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/release-plan/product-roadmap.html][Product
 Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
 inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and displayed with [[https://github.com/theiceshelf/firn][Firn]].  The
 document can be thought of as a [[file:20200912223428-wiki.org][Wiki]] (and edited inside Emacs).  From
