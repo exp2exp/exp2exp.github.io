@@ -34,7 +34,8 @@ by Alan Turing in the late 1940s.  It is only relatively recently that
 we have massive amounts of relevant data ready to work with.  Code
 completion and code generation tools are some of the “low hanging
 fruit” in this domain.  However, we think that something much more
-substantial is around the corner. (Some evidence: we’re not the only [[https://www.wired.com/story/ai-latest-trick-writing-computer-code/][people thinking about this]].)
+substantial is around the corner. (Some evidence: we’re not the
+only [[https://www.wired.com/story/ai-latest-trick-writing-computer-code/][people thinking about this kind of thing]].)
 
 ** So we are looking into it.
 
@@ -92,4 +93,3 @@ interesting to a wider audience.  Other stuff:
 We are working on creating AI tools that will process open source
 information and enable applications such as automated computer
 programming.
-
