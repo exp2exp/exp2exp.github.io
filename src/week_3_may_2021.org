@@ -1,0 +1,95 @@
+#+title: Week 3 May 2021
+
+I went through the Peeragogy task list and sorted it into manageable [[https://groups.google.com/g/peeragogy/c/9MrG6xybtgE][packets]] using Org Agenda.
+In the process I marked a few duplicates, not-obviously-doable, and outdated items as =WONTFIX=.
+I also did some work on the ‘[[https://peeragogy.org/top][Top-level]]’ page, which has most of the makings of poetic overview of
+what’s going on with Peeragogy.  The packets of tasks are viewable on the [[https://peeragogy.org/tags][tags]] page.
+
+So, that nearly finishes off the earlier goal of ‘patternizing’ the
+major sections — at a draft status with minimal patterns — though
+there are a few more to add, in the /Technologies/ and /Case studies/
+sections.  It would make sense to bring along some short patterns
+dealing with the /technologies/ sections for Wednesday the 12th, when
+I’m planning to meet with Ray to discuss “Tools for Thought Revisited”
+in preparation for an internal talk taking place on the 18th.
+
+By the way, one reason I know these specific forward-looking
+calendrical details is that I missed a one-hour presentation on Friday
+since there wasn’t a calendar reminder about it — and as a result I
+proposed that we include some forward-planning for the week ahead in
+the checkout at ERG.
+
+The other major thing I moved forward was work on the HCI Ethics
+slides, which I converted with this massive =pandoc= oneliner:
+
+#+begin_src bash
+pandoc --citeproc --bibliography /home/joe/hci-ethics-readings.bib \
+       --csl=chicago-fullnote-bibliography-short-title-subsequent.csl \
+       -M suppress-bibliography=true \
+       HCCC-storyboard.org --to pptx -o HCCC-storyboard.pptx
+#+end_src
+
+The resulting =.pptx= file could be loaded into Google Slides for
+discussion with Luís, though we haven’t overlapped for a live
+discussion about this stuff yet.  I’m thinking of the result as a
+‘storyboard’, not yet a draft, but something more than just a detailed
+outline.  The strategy of writing /outline/ → /treatment/ → /storyboard/ → /draft/
+makes some sense for a big piece like this.
+
+Another thing I worked on was a shorter set of slides for the Feeling
+Zembla talk with Thomas.
+
+* Other reflections
+
+Over the weekend I did some reflection, coming up with some bullet
+points that could start to outline a vision for the future on the
+1½-years scale.
+
+- We have submitted some ‘short’ proposals that decompose the /discovery/ theme into doable packets.
+- We have written some Clojure code that operationalises program discovery.
+- I have written about 1000 pages of typescript developing different ideas and possibilities.
+- We have a business plan for Hyperreal Enterprises ready to run and some evidence that it works.
+- The business plan has a cognate research plan ready to submit to an agency like the European Research Council or EPSRC.
+- Things have gone well developing AIDAN and it can be used as a model case study within the next version of the Peeragogy Handbook.
+- I have gotten to know people here in Oxford and am happy with the state of my relationships.
+- I have kept up my reading on philosophy of technology and would be ready to write a book in this area, or to do a second PhD or supervise someone else’s PhD on these topics.
+- Things are going well with Alex’s career and with the careers of everyone who put in some time and effort in Hyperreal.
+
+We also had a lively session at [[https://exp2exp.github.io/erg-2021-05-08][ERG]].
+
+* Feeling status
+I’m not sure if it is /as a result/ of the planning and other
+activities, or just the way things are shaping up around my flat right
+now — or if I’ve onboarded a virus or some allergies or something —
+but I’ve felt very tired on Monday morning (including when I’m writing
+this).  So, I’ll try to revisit the above at a time when I’m feeling
+more with it.
+
+My guess is that I’m tired /because/ I have taken a break from the
+various ‘good habits’ I defined — by and large they should be
+restoring me rather than costing energy.  But it’s hard to do things
+like, e.g., [[file:Writing.org][write]], if I am feeling tired.  I think part of the
+solution is to try to spend more time during the day roaming through
+the items here on Exp2Exp, so that I have the sense of being prepared.
+The other thing is to add in more wind-down time in the evening.
+
+* Next steps
+
+I still have a bunch of things in my agenda that look like personal
+planning and processing, so these are going to have to be
+priortised. I’d like to see somewhat more specific progress on the
+individual topics, but probably working back from the ‘vision’
+mentioned above to think about the things that can actually be done to
+support it would make sense as a place to start.
+
+There’s an Oxford AI meetup this evening that looks like an
+interesting one — but of course that interferes with the time I would
+spend writing.  Maybe I can try turning on the video and put it on as
+a background process, though that sounds a extremely dubious.  (I
+wonder if they are recorded?) Or, maybe I should just go ahead and
+attend it this time if I’m still feeling under the weather.
+
+Other than all this, I’ll have some meetings on Friday to revisit the [[file:clustering.org][grant]] that went in while ago.
+And there are a few other writing projects I’d like to get started on.  In the big picture, I think [[file:arxana.org][Arxana]]
+is what’s most in scope this quarter, since I want to be working towards another small proposal about that.
+
