@@ -1,4 +1,8 @@
 #+title: Week 3 May 2021
+#+FIRN_UNDER: Updates
+#+FIRN_LAYOUT: update
+#+DATE_CREATED: <2021-05-10 Mon>
+#+AUTHOR: Joe Corneli
 
 I went through the Peeragogy task list and sorted it into manageable [[https://groups.google.com/g/peeragogy/c/9MrG6xybtgE][packets]] using Org Agenda.
 In the process I marked a few duplicates, not-obviously-doable, and outdated items as =WONTFIX=.
