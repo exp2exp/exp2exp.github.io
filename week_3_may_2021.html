@@ -1,0 +1,63 @@
+<html><head><meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      processEscapes: true
+    }
+  });</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script async="async" src="https://hypothes.is/embed.js"></script><script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /><link href="https://fonts.gstatic.com" rel="preconnect" /><link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&amp;family=Ubuntu+Mono&amp;family=Ubuntu:wght@300;400&amp;display=swap" rel="stylesheet" /><script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script></head><body><main><article class="content"><h1>Week 3 May 2021</h1><div><div><section><p><span>I went through the Peeragogy task list and sorted it into manageable </span><a class="firn-external" href="https://groups.google.com/g/peeragogy/c/9MrG6xybtgE" target="_blank">packets</a><span> using Org Agenda.
+In the process I marked a few duplicates, not-obviously-doable, and outdated items as </span><code>WONTFIX</code><span>.
+I also did some work on the ‘</span><a class="firn-external" href="https://peeragogy.org/top" target="_blank">Top-level</a><span>’ page, which has most of the makings of poetic overview of
+what’s going on with Peeragogy.  The packets of tasks are viewable on the </span><a class="firn-external" href="https://peeragogy.org/tags" target="_blank">tags</a><span> page.</span></p><p><span>So, that nearly finishes off the earlier goal of ‘patternizing’ the
+major sections — at a draft status with minimal patterns — though
+there are a few more to add, in the </span><em><span>Technologies</span></em><span> and </span><em><span>Case studies</span></em><span>
+sections.  It would make sense to bring along some short patterns
+dealing with the </span><em><span>technologies</span></em><span> sections for Wednesday the 12th, when
+I’m planning to meet with Ray to discuss “Tools for Thought Revisited”
+in preparation for an internal talk taking place on the 18th.</span></p><p><span>By the way, one reason I know these specific forward-looking
+calendrical details is that I missed a one-hour presentation on Friday
+since there wasn’t a calendar reminder about it — and as a result I
+proposed that we include some forward-planning for the week ahead in
+the checkout at ERG.</span></p><p><span>The other major thing I moved forward was work on the HCI Ethics
+slides, which I converted with this massive </span><code>pandoc</code><span> oneliner:</span></p><pre class="language-bash"><code class="language-bash">pandoc --citeproc --bibliography /home/joe/hci-ethics-readings.bib \
+       --csl=chicago-fullnote-bibliography-short-title-subsequent.csl \
+       -M suppress-bibliography=true \
+       HCCC-storyboard.org --to pptx -o HCCC-storyboard.pptx
+</code></pre><p><span>The resulting </span><code>.pptx</code><span> file could be loaded into Google Slides for
+discussion with Luís, though we haven’t overlapped for a live
+discussion about this stuff yet.  I’m thinking of the result as a
+‘storyboard’, not yet a draft, but something more than just a detailed
+outline.  The strategy of writing </span><em><span>outline</span></em><span> → </span><em><span>treatment</span></em><span> → </span><em><span>storyboard</span></em><span> → </span><em><span>draft</span></em><span>
+makes some sense for a big piece like this.</span></p><p><span>Another thing I worked on was a shorter set of slides for the Feeling
+Zembla talk with Thomas.</span></p></section><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="other-reflections"><span class="firn-headline-text"><span>Other reflections</span></span></h1><section><p><span>Over the weekend I did some reflection, coming up with some bullet
+points that could start to outline a vision for the future on the
+1½-years scale.</span></p><ul><li><p><span>We have submitted some ‘short’ proposals that decompose the </span><em><span>discovery</span></em><span> theme into doable packets.</span></p></li><li><p><span>We have written some Clojure code that operationalises program discovery.</span></p></li><li><p><span>I have written about 1000 pages of typescript developing different ideas and possibilities.</span></p></li><li><p><span>We have a business plan for Hyperreal Enterprises ready to run and some evidence that it works.</span></p></li><li><p><span>The business plan has a cognate research plan ready to submit to an agency like the European Research Council or EPSRC.</span></p></li><li><p><span>Things have gone well developing AIDAN and it can be used as a model case study within the next version of the Peeragogy Handbook.</span></p></li><li><p><span>I have gotten to know people here in Oxford and am happy with the state of my relationships.</span></p></li><li><p><span>I have kept up my reading on philosophy of technology and would be ready to write a book in this area, or to do a second PhD or supervise someone else’s PhD on these topics.</span></p></li><li><p><span>Things are going well with Alex’s career and with the careers of everyone who put in some time and effort in Hyperreal.</span></p></li></ul><p><span>We also had a lively session at </span><a class="firn-external" href="https://exp2exp.github.io/erg-2021-05-08" target="_blank">ERG</a><span>.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="feeling-status"><span class="firn-headline-text"><span>Feeling status</span></span></h1><section><p><span>I’m not sure if it is </span><em><span>as a result</span></em><span> of the planning and other
+activities, or just the way things are shaping up around my flat right
+now — or if I’ve onboarded a virus or some allergies or something —
+but I’ve felt very tired on Monday morning (including when I’m writing
+this).  So, I’ll try to revisit the above at a time when I’m feeling
+more with it.</span></p><p><span>My guess is that I’m tired </span><em><span>because</span></em><span> I have taken a break from the
+various ‘good habits’ I defined — by and large they should be
+restoring me rather than costing energy.  But it’s hard to do things
+like, e.g., </span><a class="firn-internal" href="https://exp2exp.github.io/Writing">write</a><span>, if I am feeling tired.  I think part of the
+solution is to try to spend more time during the day roaming through
+the items here on Exp2Exp, so that I have the sense of being prepared.
+The other thing is to add in more wind-down time in the evening.</span></p></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="next-steps"><span class="firn-headline-text"><span>Next steps</span></span></h1><section><p><span>I still have a bunch of things in my agenda that look like personal
+planning and processing, so these are going to have to be
+priortised. I’d like to see somewhat more specific progress on the
+individual topics, but probably working back from the ‘vision’
+mentioned above to think about the things that can actually be done to
+support it would make sense as a place to start.</span></p><p><span>There’s an Oxford AI meetup this evening that looks like an
+interesting one — but of course that interferes with the time I would
+spend writing.  Maybe I can try turning on the video and put it on as
+a background process, though that sounds a extremely dubious.  (I
+wonder if they are recorded?) Or, maybe I should just go ahead and
+attend it this time if I’m still feeling under the weather.</span></p><p><span>Other than all this, I’ll have some meetings on Friday to revisit the </span><a class="firn-internal" href="https://exp2exp.github.io/clustering">grant</a><span> that went in while ago.
+And there are a few other writing projects I’d like to get started on.  In the big picture, I think </span><a class="firn-internal" href="https://exp2exp.github.io/arxana">Arxana</a><span>
+is what’s most in scope this quarter, since I want to be working towards another small proposal about that.</span></p></section></div></div></div></article></main></body><script>anchors.options = {
+                               visible: 'always',
+                               placement: 'left',
+                               icon: '§'
+                               };
+            anchors.add('h2');
+            anchors.add('h3');
+            anchors.add('h4');
+            anchors.add('h5');</script></html>
