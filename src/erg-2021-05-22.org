@@ -1,0 +1,128 @@
+#+TITLE: 22 May 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-05-22 Sat>
+
+# We usually meet for 2 hours, starting 17:30 UK time.  
+
+# As a template, we have one special guest, one extra topic, a PAR,
+# and some informal chat. We take notes into the agenda using crdt.
+
+# (Details vary per session.)
+
+* 22 May 2021 — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+** Noorah
+** Leo
+** Joe
+** David
+** Cameron
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                               :80m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+** CLA text hive edit                                                  :20m:
+#+begin_quote
+We’ve made progress since we started with the raw themes of Research
+on/in/with Emacs back in October 2020.
+
+We’ve met almost every week since then, and interviewed some
+interesting and varied guests. We have a clearer idea of what what we
+want to talk about at the next EmacsConf, and how we can be of service
+to researchers and Emacs users. We have been using a workflow that
+helps us carefully review progress and diagnose issues. The next phase
+of this project is to “go public” and mesh with ongoing related
+activities elsewhere.
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration. We like to create tangible deliverables (e.g., journal
+articles). However, “If we knew what the outcome was it wouldn’t be
+research” — therefore, we’re focusing initially on research methods
+and design documents. That may mean it takes us a bit longer to write
+our first paper, but when we get something out it will be
+good. Meanwhile we’re also keeping sharp by fixing bugs, filing
+issues, improving our own workflows, and actively exploring the
+landscape. We want to keep a role for serendipity here, which adds the
+requirement that our planning process remain open and flexible:
+including to various disciplinary methods, and especially to change as
+we reflect on how things are going.
+
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can eventually improve upon. ‘Practice’
+and ‘method’ keep coming up in our discussions as, respectively, ‘more
+bottom up’ and ‘more top down’ ways of actualising things. Concretely,
+we’ve been studying our own processes and looking for the tools and
+settings that are the most conducive to the work we want to do. For
+example, instead of having a single Org Roam directory shared via Git,
+what if we had ways of managing sharing of notes across ‘graphs’?
+
+Collaboration is familiar to in all kinds of teams across all
+sectors. Even authors working alone may have need to ‘virtually
+collaborate with themselves’ — and of course to share their work with
+others when it’s ready. If we all had our slipboxes online, we could
+reference between them. This would generalise ORCiD, and people to
+reference processes that are undergoing evolution. Maybe a service
+like this would turn into a ‘Tinder for academics’ — helping to match
+people based on their interests (or similar people in different
+fields). So, what’s the price point? Instead of paying money to go to
+conferences, now we can spontaneously make conferences and
+workshops. As a guess, $750.0 per user per year might be a fair price
+— for those who can afford to pay it — if the service helps people to
+do better research and saves a bunch of travel. We could also set up a
+pricing model proportional to each country’s carbon emissions or
+something like that.
+
+In our concrete methods, we have aligned ourselves with the ‘long-term
+perspective’. This includes both retrospective and prospective
+thinking. For example, the things that were timely 7 years ago might
+not be so timely now; in many the relevance of a given innovation goes
+down over time. However, Emacs has an evolutionary character that has
+allowed it to keep up with the times — becoming more relevant and
+useful ever since Steele and Stallman started to systematise Editor
+MACroS for the Text Editor and Corrector (TECO). Not only has the
+technology evolved, but so has the social setting in which this work
+is done. Whereas the concepts underlying the free software movement
+were based on “communal sharing” of source code, with due reflection
+these methods extend much more broadly, and allow us to synthesise new
+relationships within ecological, semiotic, and genetic commons. Much
+like the Universal Turing Machine is a system for modelling any
+machine, Emacs can become a system for addresssing any ‘existential’
+problem. This does not yet push us beyond what’s humanly possible, but
+may expand the frontier of possibility.
+#+end_quote
+** Special guest                                                       :40m:
+** Extra topic 1                                                       :20m:
+
+* PAR                                                                  :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
+
+* Check-out (exceptional or not)                                        :5m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+** JC
+** DOT
+** RSP
+** CRS
+** LV
