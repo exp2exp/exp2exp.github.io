@@ -1,0 +1,240 @@
+#+TITLE: 15 May 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-05-15 Sat>
+
+We usually meet for 2 hours, starting 17:30 UK time.  
+
+As a template, we have one special guest, one extra topic, a PAR,
+and some informal chat. We take notes into the agenda using crdt.
+
+(Details vary per session.)
+
+* 15 May 2021 — Emacs Research Group
+
+* Check-ins                                                             :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Raymond
+- Has looked into getting BBB working on Chrome, but that’s nontrivial
+- Has verified that the bio conference is going ahead — so Ray, Cameron, and Ximo are out 12th June (to prep for June 14th presentation)
+- Week following will be attending bio talks
+- This leads into the talk about reproducibility
+*** TODO 12th is a Saturday off!
+** Leo
+- Checkin: we have seen one another every day for the last 5 days, so only minor updates to checkins from the week
+- Feeling less of the vaccine presence, but can still muster some hilarity
+- Today: sending the CEO of the startup a message since it’s been a month
+** Joe
+- Feeling good now! — but it was a stressful week.
+- Took most of Saturday off.
+- Started reading Inyatula (?).
+- Noticed that we got the jump on Discord’s rebranding with Hyperreal rebranding.
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                                :80m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+** JC & RSP: Arxana retrospective via slides                           :50m:
+Somehow a simple example:
+#+begin_src clojure
+Leo KNOWS Ray → Leo (knows from_Emacsconf) Ray
+              → Leo [ (knows from_Emacsconf) 
+                       first_meeting ] Ray
+
+              → Leo [ (knows from_Emacsconf) 
+                       ( first_meeting 
+                         of many ) ]
+                 Ray
+
+              → ( Leo :as group_organizer )
+                 [ (knows from_Emacsconf) 
+                       ( first_meeting 
+                         of many ) ]
+                 ( Ray :as programmer )
+
+;; We have now built up an object that we can refer to
+
+  { ( Leo :as group_organizer )
+     [ (knows from_Emacsconf) 
+           ( first_meeting 
+             of many ) ]
+     ( Ray :as programmer ) } ( is_known_to based_on observation )  Noorah }
+                 
+? Does Noorah know Ray → Yes
+? Who are all the people that Leo knows from EmacsConf → Amin, Ray, Joe, Sacha...
+#+end_src
+*** Reaction
+- LV: I understand more about what you mean about qualifying links
+- Married, divorced, judging the relation itself — this all made sense
+- The problem, beyond the formalism in the initial slides (I could only grok the example!)
+- I’m still failing to see how from the operational level of managing notes, how is this beneficial
+  - The adjectivisation of links seems abstractly useful
+  - But the endless abstractivisation of a relation, how does this help the model
+  - Grasping reality comes with atomisation of the conceptual frame work
+  - E.g., in Org Roam we work with links and nodes, there’s no conception of a ‘verb’
+  - You could create SVO with a new node e.g. *A comparison of Org Roam and Arxana*
+- You could think of this in the link description system we mentioned, but nodes and links allow this to happen organically
+- You could still find the ‘comparison’ node (via backlinks) from the various places
+- So, the complex links aren’t necessary
+- Joe: AI vs HCI; and philosophical orientation to modelling process
+  - E.g., how does a mathematician solve problems?
+  - How do I think through this problem to come to a solution?
+  - We tried to represent this, and have the computer be able to follow this
+  - Not just representing /deductive logic/ but also the induction, abduction, reasoning — “mathematical intuition”
+- LV: So, this feels like a dissection tool rather than a tool for representing knowledge
+- It reminds me of ‘hyperlist’ — a way to describe any example in pseudocode
+- LV has an example for his washing machine
+  - Explaining things, the concept of flowchart
+  - If JC and RSP had introduced it this way, LV would have been better primed
+  - ‘Language’ would have carried better — a tool for description + AI
+  - Now this makes more sense — it’s drifting apart from an equivalence with “Org Roam”
+  - But perhaps Arxana is more of a ‘tool’ that can inform Org Roam 
+  - Arxana could be a way of relating nodes in a complex way that allows you to complete the relations between the two
+- RSP: It started with Noosphere and hypertext but then got into AI 
+- JC: Namecheck Douglas Adams here to bring “Solving the whole problem” here
+- LV: Now I get it — this is what I needed to see to understand the relation of
+
+** RSP: Reproducible research                                          :25m:
+- Ray screensharing: “Ten Simple Rules for Reproducible Computational Research”
+  - This paper is from “PLOS Computational Biology”
+- Reproducibility is a basic criterion of science
+- Now in bio (especially) we have the computer processing the data
+- There’s been a debate about what’s the best way to do this
+- In the Hypernotebook channel Ray’s dropped in 5 papers from this discussion
+- Now walking through one of the papers
+- This is something that a lot of the projects from Emacs could contribute to
+- Useful for biologists?  And useful for thinking about the potenital power of Emacs!
+*** 01 For every result keep track of how it was produced
+- E.g., involved a certain computation
+- I measured these pistils... so provide the data
+*** 02 Avoid manual data manipulation steps
+- Don’t just do the conversion on the back on an envelope
+- If the data change, you can redo
+- It’s clear what the steps were
+- If you can’t avoid doing it manually, then note what files were changed etc.
+*** 03 Archive the exact version of all EXTERNAL programs used
+*** 04 Version control for all CUSTOM scripts
+- LV: it’s like fight club
+*** 05 Record all INTERMEDIATE results, where possible in standardised formats
+- RSP: Emacs + Hypernotebooks could shine here
+- People shouldn’t have to wait until they get to the final step to see if they disagree
+- LV: So far, a lot of this was handled with Git (e.g., minimal commits should allow you to recompile)
+  - Archiving the material
+  - Record all intermediate states
+  - Git allows you to save things in the reflog
+  - This is a testament to why reproducible research is linked with version control
+- RSP: There’s another article on “Git for reproducible research”
+*** 06 If you’re going to have a random thing, include your random seed
+- LV: I’m parsing this as testing (tests for software) — in the tests you’ll account for the randomness
+- This makes sense, for extracting not just a specific rule but the rationale that can be applied more broadly
+*** 07 Always store the raw data behind your plot
+- Esp. in biology as they have lots of plots
+*** 08 [#A] Generate hierarchical analysis output allowing layers of increasing detail to be inspected
+- LV: More reminiscent of DARCS - computing relationships in ‘geometric history’
+  - [[http://darcs.net/][Darcs - FrontPage]]
+  - [[https://2.bp.blogspot.com/-qkVJ-L5MqE4/VyN4T0baemI/AAAAAAAAC3k/Uh5BiWMY6ucPeARdd2hWlxozj1omIuYugCLcB/s1600/deps.png][deps.png (PNG Image, 805 × 656 pixels)]]
+- Suppose someone measured the pistils, in different families, and then in a paper summarising them in different taxa
+- If I want to go from different hierarchy into different statements about how plants evolved
+- “We find hypertext to be particularly relevant here.”
+- “You should inspect the details under the summaries.”
+- Similar to the diagrams that show the detail underlying each blob.
+- JC: This seems a bit Arxana-like
+*** 09 Connect textual statements to underlying results
+- With most authors: we wish you luck finding the actual data or computation in the supporting material
+- This is where things like Emacs can really shine
+- You could use something more like a Zettlekasten: some of the cards may have computations on them
+- If you say “instead of just writing your paper from scratch, you /compose/ it in a way where you leave your links it.”
+  - So: a computation, I go to some computer algebra or proof assistant, or whatever
+- LV: If you’re using minimal commits, when you insert a commit message, you explicitly tag this commit as building this feature — so you could link the comments into the codebase
+- RSP: Usually the text of the paper and the analysis live in different places (Jupyter + ShareLaTeX)... they may be sitting on the same screen but it’s the human cutting and pasting between them
+  - So, two years later, if all you’ve given me is the paper and the archived code, the cutting-and-pasting link is lost 
+- JC: This reminds me of what I said about creative writing on the Org Roam Discourse 
+*** 10 Provide public access to scripts, runs, results
+- The obvious one for open source
+*** BONUS: The horror story
+- Just to show how we have been abusing ShareLaTeX
+- Action items inside of ShareLaTeX
+- JC: Cf. =ed= package
+*** Next steps
+- RSP: I’ll put them in Org Roam (shock and awe tactic)
+  - When we publish the thing in a month or two, we’ll have some kind of Org file
+- LV: Be careful about v2 release timing! Please make sure to stick to v1 so it is reliable
+- So, we’ll submit a paper, with supplementary material — and then maybe have another paper about ‘use of Emacs’ with this as a case study
+- Plan would be to have a preprint alongside the talk
+- Would be nice if we then had the design document for Org Roam open
+- We can start to operationalise these things
+** Break                                                                :7m:
+- Cultural reflection on data collection in France, e.g., domains tracking what we do
+- Cards linking... 50% of pharmacies do track anonymised data (though it’s easy to compute what you’re doing)
+- But the software doesn’t allow them to /not/ forward the info
+** LV: org-roam: micro-talk                                             :3m:
+- The only thing I have to talk about is that I am writing a design document
+- Planning v2 changes: this isn’t being done innocently
+- I want to rekindle the Org Roam crowd-funding campaign and this would be the anchor
+- Some of the features we discussed with Arxana could make their way into the long-term project
+- So, a lot of the stuff we’ve been discussing over the past weeks, with /direction/, /milestones/, and other crowd-pleasers
+- Leo and Jethro will be making time for this — and planning-wise the goal is to get money and sustainment
+- So, timing for directing people to Org Roam at a time when the ‘crowdfunding’ (messages, Reddit, justify spending time on this)
+- If we’re somewhat in harmony, there’d be a visibility benefit (esp. academic and corporate interests)
+*** For now
+- Cameron, Ximo: this is sort of in-house
+- It’s publicly released, advocating the tools
+- And there are many avenues for PR
+- The summer will feature a lot of visibility, starting in mid-July
+- Maybe these things can be discussed next week
+
+* PAR                                                                   :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- We all know what each other is doing, this will help us to coordinate our efforts
+- Three topics in the agenda (Arxana, Reproducibile Research, and Org Roam updates)
+*** 2. Establish what is happening: what and how are we learning?
+- Our three topics today seem related
+- With regards to org-roam: it probably has a lot potential, especially considering RoamResearch’s successful funding
+*** 3. What are some different perspectives on what’s happening?
+- We didn’t get Noorah’s perspective which might have led us, had she been here, into thinking more about adaptive capacity
+  - Joe has brought some inspiration from Futures study... Joe is feeling itchy to do some Futures stuff
+  - LV: Don’t essentialise Noorah as the adaptive capacity expert!
+- Ray appreciated Leo’s perspective on the reproducible research
+- LV: Also, this meeting has lost 50% of its population
+*** 4. What did we learn or change?
+- Reinjecting different voices is necessary to keep growing
+- Ideal scenario for Leo is to contact people via the Shock and Awe tactic and have them say ‘we would love to have you in 2 weeks’ and we are then ready
+*** 5. What else should we change going forward?
+- As a fix to our potential isolation in a group that agrees most of the time, this points us towards opening up the meeting to discuss with other people
+  - We had discussed having a monthly session that we wanted to discuss in public
+  - If we can’t resolve the lack of different perspectives by having different people, either we recruit people, or have a monthly open meeting that allows us to recruit people
+- This sort of outreach could happen within EmacsNYC?
+  - LV: We’re able to commit discussing, but we’d like to remobilise others — though we’re doing work anyway
+  - If we were to contact them in mid-June for a 1st week of July panel... that’s too soon
+- User research chat
+
+* TODO Make a long-range calendar for ERG
+| Jul 2021 | Possibly going public |
+| Sep 2021 | Panel Emacs NYC       |
+
+* Suggestions for next agenda
+- Going public
+- What to do when LV is gone
+
+* Check-out (exceptional or not)                                         :5m:
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** JC
+- Continuing to be tired; but this has still been fun
+** RSP
+- This has been a good meeting look forward to carrying these things forward.
+** LV
+- Glad to hav grokked Arxana; unhappy that we finished one minute late.
