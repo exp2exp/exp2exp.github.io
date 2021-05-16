@@ -157,26 +157,26 @@ and some informal chat. We take notes into the agenda using crdt.
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Figure out our place in the world — what are we?
+**** Figure out our place in the world — what are we?
 *** 2. Establish what is happening: what and how are we learning?
-- Extended checkins
-- Diversity was very interesting discussion for us
-- We ended up sending about 60 minutes after following that theme
+**** Extended checkins
+**** Diversity was very interesting discussion for us
+**** We ended up sending about 60 minutes after following that theme
 *** 3. What are some different perspectives on what’s happening?
-- It seems as though we may be asking and changing that answer on a long term basis
-- This is a space to think and talk about writing
-- Future studies ideas were useful in this particular conversation
-- Joe had been mentioning thinking more about ‘outputs’ — maybe we should be thinking about this here — we’ve been talking about this
-- A lot of mature thinking, even if it is early in a paper-writing pipeline
+**** It seems as though we may be asking and changing that answer on a long term basis
+**** This is a space to think and talk about writing
+**** Future studies ideas were useful in this particular conversation
+**** Joe had been mentioning thinking more about ‘outputs’ — maybe we should be thinking about this here — we’ve been talking about this
+**** A lot of mature thinking, even if it is early in a paper-writing pipeline
 *** 4. What did we learn or change?
-- We’d like to keep discussing our place in the world
-- The topic can change and the work can 
-- We can add more freedom here — other places can provide stress readily enough, and indeed if things are moving it can compromise other things
+**** We’d like to keep discussing our place in the world
+**** The topic can change and the work can 
+**** We can add more freedom here — other places can provide stress readily enough, and indeed if things are moving it can compromise other things
 *** 5. What else should we change going forward?
-- When we don’t have the time to go on a tangent, we should probably make a note of it and address it either in a coffee chat or in another session here
-- Maybe what we can develop here is an enriched perspective on writing (either collaborative or not)
-- A tad more structure in advance, e.g., with respect to guests?  Perhaps with ‘plan A’ and ‘plan B’
-- RSP: I wanted to make more time to read Inayatullah
+**** When we don’t have the time to go on a tangent, we should probably make a note of it and address it either in a coffee chat or in another session here
+**** Maybe what we can develop here is an enriched perspective on writing (either collaborative or not)
+**** A tad more structure in advance, e.g., with respect to guests?  Perhaps with ‘plan A’ and ‘plan B’
+**** RSP: I wanted to make more time to read Inayatullah
 
 * Check-out (exceptional or not)                                        :5m:
 :PROPERTIES:

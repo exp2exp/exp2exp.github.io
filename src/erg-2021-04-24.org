@@ -72,23 +72,23 @@
 :Effort:   0:10
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Short session
-- Cover CLA
-- Put it in context with other things we’re doing
+**** Short session
+**** Cover CLA
+**** Put it in context with other things we’re doing
 *** 2. Establish what is happening: what and how are we learning?
-- We heard some about the energy and time costs of Leo’s Typescript learning sprint
-- Ray reconnected with the Futures, Transportation, economics thinking
+**** We heard some about the energy and time costs of Leo’s Typescript learning sprint
+**** Ray reconnected with the Futures, Transportation, economics thinking
 *** 3. What are some different perspectives on what’s happening?
-- Leo is a little bummed b/c he’s not been able to bring 100%
-- (Leo has still participated, though wishes he’d be able to muster more forces.)
-- Noorah is quite taken w/ her current writing project, drawn by her coauthors
-- There may be a build up of pressure
+**** Leo is a little bummed b/c he’s not been able to bring 100%
+**** (Leo has still participated, though wishes he’d be able to muster more forces.)
+**** Noorah is quite taken w/ her current writing project, drawn by her coauthors
+**** There may be a build up of pressure
 *** 4. What did we learn or change?
-- Scheduling of Peeragogy meeting on Sunday came as a bit of a shock to Ray, Joe to send link
+**** Scheduling of Peeragogy meeting on Sunday came as a bit of a shock to Ray, Joe to send link
 *** 5. What else should we change going forward?
-- Possibly centre the CLA+PAR stuff
-- Re-work the coffee sessions with checkins to build an agenda
-- Maybe build a map of the virtual rooms, and bring everyone onto the same page about
+**** Possibly centre the CLA+PAR stuff
+**** Re-work the coffee sessions with checkins to build an agenda
+**** Maybe build a map of the virtual rooms, and bring everyone onto the same page about
 
 * Check-out (exceptional or not)                                        :5m:
 :PROPERTIES:

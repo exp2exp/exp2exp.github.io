@@ -185,42 +185,42 @@ Cameron had to leave early, but we might be interested in exploring
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- Expected to meet Cameron and maybe Ximo, hoped to talk more about the biology tools
-  - Ximo’s at a family visit
-- Sharing updates on Emacs NYC possibilities and EmacsConf developments
-- News about Noorah’s thesis
+**** Expected to meet Cameron and maybe Ximo, hoped to talk more about the biology tools
+**** Ximo’s at a family visit
+**** Sharing updates on Emacs NYC possibilities and EmacsConf developments
+**** News about Noorah’s thesis
 *** 2. Establish what is happening: what and how are we learning?
-- Cameron showed up
-- We talked about startup life and Institute
-- Cameron had to leave early
-- We did not get to do a detailed checkin on Noorah’s thesis
-- We talked about Leo’s holiday plans and our need to plan ahead
+**** Cameron showed up
+**** We talked about startup life and Institute
+**** Cameron had to leave early
+**** We did not get to do a detailed checkin on Noorah’s thesis
+**** We talked about Leo’s holiday plans and our need to plan ahead
 *** 3. What are some different perspectives on what’s happening?
-- Joe glad to know that Cameron has the same problems
-  - Ray: this relates to the future of work, this is yesterday’s future of work
-  - Joe: maybe also relates to Institutions
-  - Noorah: does this just relate to white collar
-- We are keeping the connection going on the different external projects
-- Things were carefully orchestrated and we stayed on schedule
-- Leo was thinking about diversity with his ‘EmacsConf’ hat on — maybe the daily quota of Emacs+diversity has been
-- "I have a book to recommend but you don’t need to read it"
+**** Joe glad to know that Cameron has the same problems
+**** Ray: this relates to the future of work, this is yesterday’s future of work
+**** Joe: maybe also relates to Institutions
+**** Noorah: does this just relate to white collar
+**** We are keeping the connection going on the different external projects
+**** Things were carefully orchestrated and we stayed on schedule
+**** Leo was thinking about diversity with his ‘EmacsConf’ hat on — maybe the daily quota of Emacs+diversity has been
+**** "I have a book to recommend but you don’t need to read it"
 *** 4. What did we learn or change?
-- Ximo’s conference is in 2 months
-- Emacs NYC lightning talk style? — we should be thinking about what the public version of the ERG thing is like
-- We have started to pencil ourselves in for a panel discussion
-- If we are getting the crew back together then we should be thinking about the next heist!
+**** Ximo’s conference is in 2 months
+**** Emacs NYC lightning talk style? — we should be thinking about what the public version of the ERG thing is like
+**** We have started to pencil ourselves in for a panel discussion
+**** If we are getting the crew back together then we should be thinking about the next heist!
 *** 5. What else should we change going forward?
-- Our way to track long-running items (Org agenda?)
-- Maybe use a todo word inside the notes to grep them
-- *During our check-outs, we might want to list upcoming things*
-  - This means we might need our calendars open at the end to help remember it
-- Wouldn’t it be nice to have events flow from Google Calendar into Org Agenda
+**** Our way to track long-running items (Org agenda?)
+**** Maybe use a todo word inside the notes to grep them
+**** *During our check-outs, we might want to list upcoming things*
+**** This means we might need our calendars open at the end to help remember it
+**** Wouldn’t it be nice to have events flow from Google Calendar into Org Agenda
 **** TODO [#A] Dig out the old Information Epoch essay
-- Should narrow it to a sector?
-- ‘Technology’ is what created the different colors
-- Research is a process that cuts across different domains
-- Noorah needs a bit of a break
-- Workana — revisited
+**** Should narrow it to a sector?
+**** ‘Technology’ is what created the different colors
+**** Research is a process that cuts across different domains
+**** Noorah needs a bit of a break
+**** Workana — revisited
 
 * Next session
 - Revisit our stance with Emacs NYC, especially as to what we’d want to do
@@ -240,7 +240,7 @@ Cameron had to leave early, but we might be interested in exploring
 CLOSED: [2021-05-10 Mon 12:41]
  <2021-05-10 Mon 10:00>
 *** TODO Meeting with Alex
- <2021-05-12 Wed 10:00>
+ <2021-05-12 Wed 10:30>
 *** TODO [#A] Meeting with Ray: prep Tools for Thought
  <2021-05-12 Wed 14:00>
 ** RSP
