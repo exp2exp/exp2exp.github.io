@@ -44,7 +44,7 @@
 *** 4. What did we learn or change?
 *** 5. What else should we change going forward?
 
-* Check-out (exceptional or not)                                        :5m:
+* Check-out (exceptional or not, include any scheduling announcements)  :5m:
 :PROPERTIES:
 :Effort:   0:05
 :END:
