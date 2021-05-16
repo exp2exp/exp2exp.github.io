@@ -196,28 +196,28 @@ Leo KNOWS Ray → Leo (knows from_Emacsconf) Ray
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
-- We all know what each other is doing, this will help us to coordinate our efforts
-- Three topics in the agenda (Arxana, Reproducibile Research, and Org Roam updates)
+**** We all know what each other is doing, this will help us to coordinate our efforts
+**** Three topics in the agenda (Arxana, Reproducibile Research, and Org Roam updates)
 *** 2. Establish what is happening: what and how are we learning?
-- Our three topics today seem related
-- With regards to org-roam: it probably has a lot potential, especially considering RoamResearch’s successful funding
+**** Our three topics today seem related
+**** With regards to org-roam: it probably has a lot potential, especially considering RoamResearch’s successful funding
 *** 3. What are some different perspectives on what’s happening?
-- We didn’t get Noorah’s perspective which might have led us, had she been here, into thinking more about adaptive capacity
-  - Joe has brought some inspiration from Futures study... Joe is feeling itchy to do some Futures stuff
-  - LV: Don’t essentialise Noorah as the adaptive capacity expert!
-- Ray appreciated Leo’s perspective on the reproducible research
-- LV: Also, this meeting has lost 50% of its population
+**** We didn’t get Noorah’s perspective which might have led us, had she been here, into thinking more about adaptive capacity
+**** Joe has brought some inspiration from Futures study... Joe is feeling itchy to do some Futures stuff
+**** LV: Don’t essentialise Noorah as the adaptive capacity expert!
+**** Ray appreciated Leo’s perspective on the reproducible research
+**** LV: Also, this meeting has lost 50% of its population
 *** 4. What did we learn or change?
-- Reinjecting different voices is necessary to keep growing
-- Ideal scenario for Leo is to contact people via the Shock and Awe tactic and have them say ‘we would love to have you in 2 weeks’ and we are then ready
+**** Reinjecting different voices is necessary to keep growing
+**** Ideal scenario for Leo is to contact people via the Shock and Awe tactic and have them say ‘we would love to have you in 2 weeks’ and we are then ready
 *** 5. What else should we change going forward?
-- As a fix to our potential isolation in a group that agrees most of the time, this points us towards opening up the meeting to discuss with other people
-  - We had discussed having a monthly session that we wanted to discuss in public
-  - If we can’t resolve the lack of different perspectives by having different people, either we recruit people, or have a monthly open meeting that allows us to recruit people
-- This sort of outreach could happen within EmacsNYC?
-  - LV: We’re able to commit discussing, but we’d like to remobilise others — though we’re doing work anyway
-  - If we were to contact them in mid-June for a 1st week of July panel... that’s too soon
-- User research chat
+**** As a fix to our potential isolation in a group that agrees most of the time, this points us towards opening up the meeting to discuss with other people
+**** We had discussed having a monthly session that we wanted to discuss in public
+**** If we can’t resolve the lack of different perspectives by having different people, either we recruit people, or have a monthly open meeting that allows us to recruit people
+**** This sort of outreach could happen within EmacsNYC?
+**** LV: We’re able to commit discussing, but we’d like to remobilise others — though we’re doing work anyway
+**** If we were to contact them in mid-June for a 1st week of July panel... that’s too soon
+**** User research chat
 
 * TODO Make a long-range calendar for ERG
 | Jul 2021 | Possibly going public |
