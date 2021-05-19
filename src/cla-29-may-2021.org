@@ -287,18 +287,17 @@ that.
 In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
 perspective]]’.  This includes both retrospective and prospective
 thinking.  For example, the things that were timely 7 years ago might
-not be so timely now; in many the relevance of a given innovation goes
-down over time.  However, Emacs has an evolutionary character that has
-allowed it to keep up with the times — becoming more relevant and
-useful ever since Steele and Stallman started to systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor
-MACroS]] for the Text Editor and Corrector (TECO).  Not only has the
-technology evolved, but so has the social setting in which this work
-is done.  Whereas the concepts underlying the free software movement
-were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source code, with due reflection
-these methods extend much more broadly, and allow us to synthesise new
-relationships within ecological, semiotic, and genetic commons.  Much
-like the Universal Turing Machine is a system for modelling any
-machine, Emacs can become a system for addresssing any ‘existential’
+not be so timely now; in many cases the relevance of a given
+innovation goes down over time.  However, Emacs has an evolutionary
+character that has allowed it to keep up with the times — becoming
+more relevant and useful ever since Steele and Stallman started to
+systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
+program.  Not only has the technology evolved, but so has the social
+setting in which this work is done.  Whereas the concepts underlying
+the free software movement were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source
+code, with due reflection these methods extend much more broadly, and
+allow us to synthesise new relationships within broader semiotic
+commons.  Emacs can become a system for addressing any ‘existential’
 problem.  This does not yet push us beyond what’s humanly possible,
 but may expand the frontier of possibility.
 #+end_quote
