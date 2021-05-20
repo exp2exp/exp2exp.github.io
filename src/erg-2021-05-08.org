@@ -241,7 +241,8 @@ CLOSED: [2021-05-10 Mon 12:41]
  <2021-05-10 Mon 10:00>
 *** TODO Meeting with Alex
  <2021-05-12 Wed 10:30>
-*** TODO [#A] Meeting with Ray: prep Tools for Thought
+*** WONTFIX [#A] Meeting with Ray: prep Tools for Thought
+CLOSED: [2021-05-19 Wed 13:12]
  <2021-05-12 Wed 14:00>
 ** RSP
 - Will get back to Emacs New York in the way discussed earlier
