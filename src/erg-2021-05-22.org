@@ -15,25 +15,162 @@
 
 * 22 May 2021 — Emacs Research Group
 
-* Check-ins                                                            :20m:
+- Demonstration with 2 or 3 magnets
+- Intro to a magnet-capture game
+- "The two trained horses in tandem can actually pull 32,000 pounds, which is a load four times as heavy as either of the horses could pull by themselves"
+
+
+* Check-ins                                                             :30m:
 :PROPERTIES:
-:EFFORT:   0:20
+:EFFORT:   0:30
 :END:
 ** Raymond
-** Noorah
-** Leo
+- 2x conferences with deadlines of 14th of June (bio + patterns)
+  - So, w/ Joe scheduling a minimum productive
+  - Maybe some ‘communication to non-experts’ for practice
 ** Joe
-** David
-** Cameron
+- Was feeling very tired and bitter-ish at the end of the week
+- Multi-part story:
+  - It’s always possible to tell a 3-part story: past/present/future
+    - You can always go into more details
+    - Sometimes you go into details into some of those parts
+    - It’s important for Joe to get those stories going so that they make sense
+- Feeling rather ebullient today
+  - Probably a consequence of Joe’s meeting with the Brookes grant team on Friday
+** Leo
+- “It’s suprisingly hard to find beaches in Normandy that hadn’t been stormed”
+  - (Cf. Paris ambulance ambiance.)
+- Has had a busy week (par for the course these days)
+- Getting a bit paranoid that maybe something around here is under NDA
+- Big news: Connor White-Sullivan (Roam Research) approached Jethro, w/ interest to pay one or both to work on Org Roam
+  - But that’s all the info Leo has to work from right now
+  - Jethro wants Leo to field this
+  - Leo wants to sort out the ‘ethics’ and any possible risks
+- Otherwise, still working with Mike, had to buy 2 Apple devices to get them working properly
+  - Had been called by Apple during EmacsConf meeting with some somewhat invasive questions
+- Has vaccine
+- Wednesday: France is moving out of lockdown enough for Leo to go shopping and to the Louvre, and will go back on Monday
+- Magnet demo with 3 or 4
+  - NA: This is assuming equal-strength-of-attraction
+  - NA: The 3 reminded me of my sisters, there’s always one being ganged-up-on
+** Noorah
+- Had a light week
+- @NA: Happy birthday on Monday!
+- Recovering from crazy deadlines in the two weeks before, had been just doing some errands that had been put off
+- Last week went to the Palestinian protest in Austin
+  - LV: The cease-fire doesn’t look like it’s being respected
+  - RSP: In the US the situation is very polarised by party
+  - LV: 25 years since a famous handshake in the Clinton administration
+** David (/in absentia/)
+- We have been chatting in Discord about HCI and Emacs
+** Cameron (/in absentia/)
+- Doing medical exam, leaving Ray and Ximo to focus on biology project
 
 * Things to keep in mind
 ** Record the sodding session
 
-* Agenda                                                               :80m:
+* Agenda                                                                :80m:
 :PROPERTIES:
 :EFFORT:   1:25
 :END:
 
+** CLA: demo of evidentiary workflow                                   :40m:
+- This is our 23rd session!
+- We’ve been pretty good at doing CLA every 6-7 sessions so far.
+- RSP: Plenty of Litany (trends and problems that are going on now)... but have we connected them with other layers.
+  - What are the social + economic causes behind these?
+  - 2nd layer: We’ve noticed that these thing have happened, but what can we say about the causes?  What discourse has led to this
+  - 3rd layer: What’s the world-view behind this?  What are our common views / things we haven’t realised
+  - 4th layer: Taking it to the myth and archetype informing it
+- So this becomes a tool for self-discovery
+- How do we actually gather data for the deeper layers?
+- We can discuss it and see what we think
+- LV: Does this still make sense to you Noorah?  (I.e., if you’ve missed a couple sessions.)
+  - We’ve presented this as a ‘different rhythm’
+  - Does it feel samey, is it bringing things together, does it feel you are catching up on what you missed?
+  - NA: It’s just a deeper analysis
+  - LV: But if it’s supposed to bring an element of cohesion, or connect with other items... but it feels a little samey
+  - RSP: Similar concerns
+  - LV: I haven’t participated in the data gathering part of this, so it would be good to come prepared for next week, so that it’s not just Joe taking responsibility for the longer-term higher-level workflow
+  - LV: So, since we have been discussing Joe’s conclusions but the onus for collection of the notes has been on Joe; I feel like it should be a distillation of the voices, the notes are a good rendition of what we said, but our filtering of the notes would be an input that would give shared ownership of this
+  - NA: I need to brush up on the CLA method
+  - RSP: Short quote from Inyatullah:
+#+begin_quote
+Causal Layered Analysis is concerned less with predicting a particular future...
+in contrast to emerging issues analysis...
+and more on the vertical dimension...
+opens up the space for constitutive discourses that can then be shaped as discourses.
+— “Poststructuralism as method”
+#+end_quote
+- NA: This reminds me of intersectional work.
+- LV: Poststructuralism, interdisciplinarity... — I’m hesitant to take too much control.
+  - LV: My input is better appreciated as a global thing, I’d like to be in the imprint looking more in the action without worrying about the memory
+- NA: I’m interested in looking deeper into it, rereading the notes, seeing what comes up.  Can give feedback on a paper.
+- LV: It won’t take much time to feel like we have a hand in what’s going on.
+- NA: Logistic questions: maybe do this in a branch, so that when we merge things we can see who wrote what.
+- JC: There’s some info there about multiple slipboxes, but we have gone into a specific technical direction rather than treating the core issue of ‘who contributed what to the document’
+** org-roam’s tentative future                                         :30m:
+- Have discussed legitimacy of working w/ RR
+- It’s all exciting, especially considering that 13 months ago I just started working on Org Roam
+- RSP: This is an instance of the real world and the way free software and business have to get along w/ mutual embeddings.  Often free software is developed in a company; and so these issues are definitely going to be coming up.
+  - This is an interesting ‘case study’ for us to research.
+- LV: With regard to sustainability, this is a ‘case study’ that will require some compromises (but within ethical boundaries); I’m content to follow NDAs while priorities are 
+*** Scenario 1: Nothing comes out of this
+- This seems unlikely, particularly since there’s a good relationship with Connor and we think he wouldn’t be throwing this around lightly.
+- Since their 200m valuation, they are trying to grow
+- My goal would be to handle negotiations and see which of these we land into
+*** Scenario 2: There are 2 openings for senior Clojure developers
+- In this scenario, they want someone working for their company
+- The posting has been open for one month, maybe we’re candidates for that.
+- This could be problematic, since I’d need to have a solid case about the IP policy for Roam Research...
+- Developers are paid a lot in the US (e.g., $140K)
+- It would be great if I could keep working on Org Roam on the side
+- In a typical seting, the employer /doesn’t/ make the approach.  So this could be an option /a couple of steps ahead/
+- (Learning Clojure is totally possible.)
+- NA: This is good money but maybe there’s a conflict of interest with working on Org Roam as well
+  - JC: Maybe a sort of acquisition of talent to kill Org Roam
+  - On paper it sounds doable to ‘do both’ but at some point you’ll have to choose one or the other
+  - Unless the company says: “supporting this free software fits with our business model” (like IBM supporting free software)
+- RSP: Similar issues came up with PlanetMath, it needed to be sustained and the project went away!  That issue needs to be solved with any free software community.
+*** Scenario 3: Connor wants to pay us to develop Org-Roam to show support for FLOSS as part of Roam’s philanthropic arm
+- This would probably be the best for Org Roam
+- Maybe building migration scripts, idea sharing, keeping Org Roam going as a FLOSS project
+- NA: Anything that’s developed with Org Roam benefits everyone!  And it will benefit Roam in the end.
+  - They believe that we are currently targeting different groups of people.
+  - To them, Emacs feels like a niche tool — we’re working with developers and not vying for the same target
+  - So they’d be willing to finance us as a bank of ideas, and a way in to the developer community
+- They do have a business model, paying themselves well, and such!
+- LV: Even though I’m willing to finagle to get my way for free software, if someone else can work on Org Roam and Carnelian choices (a dilemma that is too hard to resolve)
+*** Scenario 3b: If we’re in Option 3, we could ask for community approval in the crowdfunding scenario
+- The community might be opposed to this agenda
+- If the community doesn’t want me to work with Roam then I’ll need to double down on the community funding
+- NA: The community may very well say no!
+*** Further:
+- In a week or 2 there may be more details
+** Noorah thesis check-in                                               :2m:
+- Just started going through it again
+- 15th of August is the date
+- Wanted to share some stuff about PubPub — it’s sort of like creating communities of journals. [[https://www.pubpub.org/explore][https://www.pubpub.org/explore]]
+- E.g., /The journal of Trial and Error/ [[https://archive.jtrialerror.com/][https://archive.jtrialerror.com/]]
+  - Contains a section on unfunded grants
+  - Meta-research
+- Near the journal of irreproducible research
+** Unstructured time for Joe’s life                                     :15m:
+- Tools for Thought
+- Peeragogy workshop
+- All things considered, JC is struggling to maintaining any positive outlook on the future between himself and Brookes
+  - His colleagues working on the grant are giddy, but JC doesn’t feel like they’re grasping the /gravitas/ for JC
+- Student/Lecturer/? conceptual relationship proving particularly problematic for JC right now; feeling quite stuck
+  - Career progression has a lot of things lying on it
+  - Surrounded by people with ‘senior’ or ‘director’ in their job title
+- Feeling a little estranged in his life
+- No real future within academia unless he can turn some of these stories into papers or grants
+- No obvious path forward as an employee in industry
+- Not clear what’s going on with entrepreneurship
+- The structures aren’t endorsing the things I’m doing unless I make that
+- LV: share further developments via Discord
+
+* Deferred
 ** Practical session with crdt.el                                      :10m:
 Code is online here: [[https://code.librehq.com/qhong/crdt.el][https://code.librehq.com/qhong/crdt.el]]
 
@@ -56,7 +193,6 @@ Emacs Lisp:
 - M-x crdt-connect RET zaeph.tk RET
 - /Accept defaults and supply password/
 - Once connected hit RET to join the buffer
-
 ** CLA: text hive edit the raw text                                    :20m:
 #+begin_quote
 We’ve made progress since we started with the raw themes of Research
@@ -126,27 +262,41 @@ machine, Emacs can become a system for addresssing any ‘existential’
 problem. This does not yet push us beyond what’s humanly possible, but
 may expand the frontier of possibility.
 #+end_quote
-** CLA: demo of evidentiary workflow                                   :20m:
-** Extra topic 1                                                       :30m:
-
-* PAR                                                                  :15m:
+* PAR                                                                    :4m:
 :PROPERTIES:
-:Effort:   0:15
+:Effort:   0:8
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
+- We wanted to work on the CLA, but we ended up co-opting the time to talk more about the methodology (and we’ve postponed it to next week)
 *** 2. Establish what is happening: what and how are we learning?
+- JC: particularly appreciated LV and NA’s comments about how to get hands dirty
 *** 3. What are some different perspectives on what’s happening?
+- Hard to keep things contained for the CLA, it was interesting to discuss, but it was hard to keep things condensed
+- Many folks could be more involved
+- Notes on Exp2Exp look good and Noorah can produce a lot of feedback
 *** 4. What did we learn or change?
+- Apart from the CLA these were more personal or emotional topics; CLA is less personal
+- Leo wants to manage this time differently; wanting to keep a better eye on the clock, e.g., thinking of what things can be moved
 *** 5. What else should we change going forward?
+- To read and study the CLA for further discussion next time
+- Leo will pay more attention to regulating discussion
 
-* Check-out (exceptional or not, include any scheduling announcements) :5m:
+* Check-out (exceptional or not, include any scheduling announcements)   :1m:
 :PROPERTIES:
 :Effort:   0:05
 :END:
 
 ** NA
+- Just starting the dissertation stuff after a week of ‘laziness™’
+- CLA for next week
 ** JC
-** DOT
+- Still feeling wound up with Friday’s feelings
+- Reminded us that the check-out should now include scheduling info
+- Getting the plans in place will be quite useful
+*** TODO Meeting Alex for lunch on <2021-05-24 Mon>
 ** RSP
-** CRS
+- Will be there to discuss further in the coffee chat and will look forward to seeing you all
 ** LV
+- Happy to see you all, particularly glad to see Noorah
+- Interesting things with Mike
+- Excited for the holiday, rest tomorrow, available to chat
