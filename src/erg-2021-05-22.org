@@ -33,7 +33,31 @@
 :PROPERTIES:
 :EFFORT:   1:25
 :END:
-** CLA text hive edit                                                  :20m:
+
+** Practical session with crdt.el                                      :10m:
+Code is online here: [[https://code.librehq.com/qhong/crdt.el][https://code.librehq.com/qhong/crdt.el]]
+
+*** Install
+
+Command line instructions to get the code and put it in place:
+#+begin_src
+git clone https://code.librehq.com/qhong/crdt.el.git
+mkdir -p ~/.emacs.d/lisp/
+ln -s ~/crdt.el/crdt.el  ~/.emacs.d/lisp/crdt.el
+#+end_src
+
+Emacs Lisp:
+#+begin_src
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(load "crdt.el")
+#+end_src
+
+*** Interaction
+- M-x crdt-connect RET zaeph.tk RET
+- /Accept defaults and supply password/
+- Once connected hit RET to join the buffer
+
+** CLA: text hive edit the raw text                                    :20m:
 #+begin_quote
 We’ve made progress since we started with the raw themes of Research
 on/in/with Emacs back in October 2020.
@@ -102,8 +126,8 @@ machine, Emacs can become a system for addresssing any ‘existential’
 problem. This does not yet push us beyond what’s humanly possible, but
 may expand the frontier of possibility.
 #+end_quote
-** Special guest                                                       :40m:
-** Extra topic 1                                                       :20m:
+** CLA: demo of evidentiary workflow                                   :20m:
+** Extra topic 1                                                       :30m:
 
 * PAR                                                                  :15m:
 :PROPERTIES:
@@ -115,7 +139,7 @@ may expand the frontier of possibility.
 *** 4. What did we learn or change?
 *** 5. What else should we change going forward?
 
-* Check-out (exceptional or not)                                        :5m:
+* Check-out (exceptional or not, include any scheduling announcements) :5m:
 :PROPERTIES:
 :Effort:   0:05
 :END:
