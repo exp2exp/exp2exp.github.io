@@ -12,7 +12,8 @@ Then "Fri Nov 27 18:51:05 2020" and now: "Fri Nov 27 18:51:05 2020"</span></p><p
 </code></pre><p><span>Fri Nov 27 19:17:23 2020</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" <<block-1>>)
 </code></pre><p><span>We got "Fri Nov 27 18:43:19 2020" in block-1</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" "<<block-1()>>")
 </code></pre><p><span>We got "Fri Nov 27 18:49:37 2020" in block-1</span></p><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(current-time-string)
-</code></pre><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" "<<block-2()>>")
+</code></pre><pre class="fixed-width"> Fri Nov 27 18:51:05 2020
+</pre><pre class="language-emacs-lisp"><code class="language-emacs-lisp">(format "We got %S in block-1" "<<block-2()>>")
 </code></pre><p><span>We got "Fri Nov 27 18:51:05 2020" in block-1</span></p></section></div></div></article></main></body><script>anchors.options = {
                                visible: 'always',
                                placement: 'left',
