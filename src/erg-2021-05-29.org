@@ -1,0 +1,453 @@
+#+TITLE: 29 May 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-05-29 Sat>
+
+* 29 May 2021 — Emacs Research Group
+
+* Check-ins                                                            :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+* Leo
+- Relocated - to his parents’ place
+- Happy to be on holiday
+* Ray
+- Having to do with papers for 14th of June, debugging a /Nature/ paper
+- And the CLA stuff will inform what we’re submitting to a patterns conference
+* Noorah
+- Travel booked for Kuwait and Jordan
+- Chipping away at proposal
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                               :80m:
+:PROPERTIES:
+:EFFORT:   1:25
+:END:
+
+** CLA
+- Joe has a talk about ‘5 methods’
+- Do we all have the ‘4 layers’
+- Noorah: I went through the meeting notes, I feel like I only got to the /worldview/ layer. Maybe it’s hard to get to the ‘abyss’ layer.
+
+- RSP: Someone likes to cook pizza... should I start a business?
+  - What do I need to cook the pizza?
+  - But what are the causes...?
+    - “I want to grow the food because I want fresh tomatoes” — so, why not just what’s going on.
+  - Worldview: why am I doing it...?  Not just “cooking a fresh pizza” but “I believe in self-reliance”.  So I’m making pizza because I want to be self-sufficient.
+  - /Myth/: could be an image from which the worldview comes.
+     - Ceres
+     - Christopher Columbus
+
+- What is free software?
+  - /Daedelus, Ariadne/, ..., Lovelace, Boole, Babbage, Turing, ... Stallmann, ... us...
+  - What Stallman wrote about free software?
+  - But can we move beyond this?
+  - NA: I kept thinking, who’s the users, who’s the audience?  There was mention of a paradigm.  Let’s conceptualise what free software means today?
+
+- RSP: Different kinds of ‘four freedoms’
+  - There are difference between now everyone having their own computers vs timesharing?
+  - NA: With free software, where is the freedom?  Who can use it?
+  - Education?
+  - Does this map to research at all?  Is maybe free software /orthogonal/ to their interests?
+  - Maybe, for them, it’s neutral?  As long as I can /use it/ that’s all the freedom I need.
+
+- Maybe here are the six other things you can’t do w/o free software. (E.g., reproducibility.)
+  - And this gets to the concern that: if it’s just the 4 of us, what public are we inviting?
+  - Other researchers might be interested in reproducibility, open access, finding references.
+
+** The poststructural futures toolbox                                  :50m:
+
+Adapted from Sohail Inayatullah, "Causal layered analysis: Poststructuralism as method".
+
+- For a short presentation at ERG, 29th of May 2021
+- What are the deeper layers?
+
+** DECONSTRUCTION
+
+The first term in a poststructural futures toolbox is /deconstruction/.
+
+*** Framing ‘Deconstruction’
+
+#+begin_quote
+   /In its simplest form it can be regarded as a criticism of Platonism
+   and the idea of true forms, or essences, which take precedence over
+   appearances. Deconstruction instead places the emphasis on appearance,
+   or suggests, at least, that essence is to be found in appearance./
+   — https://en.wikipedia.org/wiki/Deconstruction
+
+   /In order to understand Derrida's motivation, one must refer to
+   Friedrich Nietzsche's philosophy. Nietzsche's project began with
+   ‘Orpheus’, the man underground./ — ibid.
+
+   /Derrida wishes to help us step beyond Nietzsche's penultimate
+   revaluation of all western values, to the ultimate, which is the
+   final appreciation of "THE ROLE OF WRITING IN THE PRODUCTION OF
+   KNOWLEDGE". — ibid./
+#+end_quote
+
+*** Summary
+
+*SI*: In this we take a text (here meaning anything that can be
+critiqued - a movie, a book, a worldview, a person - something or
+someone that can be read) and break apart its components, asking what
+is visible and what is invisible?
+
+- E.g., we could ask ‘How did Howard’s interviews for /Tools for Thought/ go?’
+
+*** Research questions that emerge from this perspective include:
+
+- Who is privileged at the level of /knowledge/?
+- Who /gains at economic, social/ and other levels?
+- Who is silenced?
+- What is the politics of truth?
+
+In terms of futures studies, we ask:
+
+- Which future is privileged?
+- Which assumptions of the future are made preferable?
+
+We wonder:
+
+- How does Leo feel about this conception of ‘deconstruction’?
+- How does this relate to adaptive capacity?
+** GENEALOGY
+
+*SI*: The second concept is genealogy. This is history; not a continuous
+history of events and trends, but more a history of paradigms, if you
+will, of discerning which discourses have been hegemonic and how the
+term under study has travelled through these various discourses.
+
+- E.g., Stallman: don’t use the term ‘intellectual property’, ‘pirate’
+- *Is it free software or open source.*
+
+*SI*: Thus for Nietzsche, it was not so much an issue of what is the
+moral, but a genealogy of the moral: how and when the moral becomes
+contentious and through which discourses.
+
+- Add Foucault here... to give credit...
+
+*** Questions
+
+- [[file:./which_discourses_have_been_victorious_in_constituting_the_present.org][Which discourses have been victorious in constituting the present]]?
+  - PARs, CLAs, methods, demos, guests...
+  - Genealogy of tool use
+- How have they travelled through history?
+- What have been the points in which the issue has become important or contentious?
+  - Let’s not ignore times when we have argued
+- What might be the genealogies of the future?
+
+* Detour: update on Joe’s collaboration with Luís
+
+** Probes
+#+ATTR_ORG: :width 800px
+#+ATTR_HTML: :width 800px
+[[http://metameso.org/~joe/hccc_table_1.png]]
+
+** Genealogy -
+#+ATTR_ORG: :width 800px
+#+ATTR_HTML: :width 800px
+[[http://metameso.org/~joe/hccc_table_2.png]]
+
+*** Further comments or questions?
+- NA: Likes the figure
+** DISTANCE
+
+*SI*: The third crucial term is distance. Again, this is to
+differentiate between the /disinterest of empiricism/ and the /mutuality
+of interpretative research/.  Distancing provides the theoretical link
+between poststructural thought and futures studies.
+
+- Scenarios become not forecasts but /images of the possible/ ...
+- ... that critique the present
+- ... that make it remarkable
+- ... thus allowing other futures to emerge.
+
+Distancing can be accomplished by /utopias/ as well - "perfect", "no-",
+or far away places - other spaces.
+
+*** Framing ‘distance’
+#+begin_quote
+/Initially treated as an esoteric distinction of interest only to
+specialists in the field of ontology, since the advent of computer
+games, and more especially the Internet, this distinction has become
+very important because it allows that what is seen or experienced on
+screen is still REAL, even if it isn't ACTUAL./
+
+—  “actual and virtual”, in /A Dictionary of Critical Theory/
+#+end_quote
+- You get into a metaphysics four-fold on this in metaphysics
+- "virtual seminar"?
+  - ‘Virtual’ vs ‘remote’
+  - ‘Virtual reality’ vs ‘just in different places’
+  - Trying to create something that doesn’t exist in physical space
+*** Questions
+
+- Which scenarios make the present remarkable?
+- Make it unfamiliar?
+- Strange?
+- Denaturalize it?
+- Are these scenarios in historical space (the futures that could have
+  been) or in present or future space?
+
+*** If we were meeting in a university, we would be carving out a new space instead of using the spaces that they provide
+
+- Mathematics, applied maths, computing vs logic & metaphysics
+- The public affairs school is in a secluded area, there’s a park and a somewhat obscure library
+- When we were asked about the program: it was US focused, and US centred, taking us folks who are studying international policy longer because we’re only learning about US stuff
+- Especially for policy, we should be in the centre of the campus
+- No real way to work across levels of e.g., international policy, national, state, local
+ - /“Research should be problem and solution oriented/...”
+   - (As a dominant research culture, also with grants becoming more tied to certain problems.)
+ - RSP: I see this being used as a club against theorists like me and Cameron
+ - Sometimes this can be used to get focused on the
+- NA: I was only taught one configuration of policy
+  - Similar to my notes on Emacs as a framework or Emacs as a theory; how do we turn a tool into a framework or paradigm... it will have to include other variables
+    - Here’s how we bring CLA to a deeper layer.  /What is Emacs fundamentally?/
+    - Referencing back to conversation with Alex
+- JC: similar to ‘object oriented programming’
+
+**** Leo has been doing ‘car chases’
+- LV: I liked the discussion about genealogy; I think it would be interesting to approach ‘archeology’
+- Maybe we got a little bit of this when we were looking at the discussion of Logseq, Google Docs
+- Leo’s now going to dinner
+- I like Orphean (Orphic) comment — this was inspired by our detour into classics?
+- LV: For Ray and myself, the classics are like a (secular) bible of experience.
+
+**** Theist vs non-theist
+- Perfect examples of myth layer
+  - E.g., Jordan and Kuwait may have different myths even though they are in a similar region
+- You might compare different cultures of different cultures, where they approach different things, e.g., climate change.
+
+** ALTERNATIVE PASTS AND FUTURES
+
+*SI*: The fourth term is "alternative pasts and futures". While futures
+studies has focused only on alternative futures, within the
+/poststructural critical framework/, just as the future is problematic,
+so is /the past/.  The past we see as truth is in fact the particular
+writing of history, often by the victors of history.  The questions
+that flow from this perspective are as below:
+
+- Cf. ethics of archeology paper by /Mark Fisher/ at Oxford uni 2021
+
+*** Questions
+
+- Which interpretation of past is valorized?
+- /What histories make the present problematic?/
+  - RSP: Relates to Tft, how different people present the history of computing
+    - How does free software vs other groups?
+  - NA: When we’re thinking about Emacs we always have to think about /how developers/ are using it, rather than others?
+    - In R there’s a package that helps you write other packages easier, shortcuts that users can use to help write their own packages.  They’ve changed the language so that people who don’t have a lot of programming experience so people can still create their own functions.  So this is easier to comprehend.  People don’t necessarily have time to learn the specialist languages.
+    - There are many libraries that are being written for experts
+    - E.g., “how can I create a library that makes it easier for high schoolers to write their own packages, or their own functions?”
+  - What can we learn from this, building an analogous thing in Emacs?
+  - NA: I think it’s because more people are using R, it’s big in Data Science — the package was born out of frustration!
+     - It was not initially a tool for programmers
+  - NA: Moving beyond Emacs is just for programmers & developers; [[https://kitchingroup.cheme.cmu.edu/][Kitchin group]] — worth talking to
+  - There’s also the Emacs Humanities mailing list...
+  - Maybe there’s something to do with ‘writing’
+- Which vision of the future is used to maintain the present?
+- Which undo the unity of the present?
+
+** REORDERING KNOWLEDGE
+
+*SI*: The last concept — reordering knowledge — brings a different
+dimension to the future and is similar to much of the work being done
+in civilizational futures research.  Reordering knowledge is similar
+to deconstruction and genealogy in that it undoes particular
+categories, however, it focuses particularly on how certain categories
+such as "civilization" or "stages in history" order knowledge.
+
+*** Questions
+
+- RSP: This relates to our Zettlekasten or Arxana, and how we can make more re-orderable interfaces
+- JC: ‘stages in history’ sounds like something we were writing about in 2009
+- RSP: What are the myths and metaphors in the ‘user communities’?  How do users see themselves?  E.g, “hacker culture” — e.g., Leo’s use of the term /demiurge/.
+  - This is the draw
+  - JC: I was so invested in this way of thinking... what was I thinking?
+- If we can’t even agree what editor to use how will we agree on how to design markets?
+
+- How does the ordering of knowledge differ across civilization, gender and episteme?
+- What or Who is othered?
+- How does it denaturalize current orderings, making them peculiar instead of universal?
+
+*** Adaptive capacity
+
+- This is the ability of a system to ‘adapt’ into a new state after a shock
+- What are the preconditions that give it the ability to adapt to a new state?
+  - RSP: there’s a thing Cameron and I did on ‘robustness’ which is the same sort of thing with dynamical systems.  So what features of a dynamical system allow it to remain stable
+    - NA: This is more referred to as ‘resilience’ in the climate discource — different to adaptive capacity /which can bring you into a new state/ — which is at least the same or better
+      - JC: sharing software as a kind of anti-fragility?
+- If we were doing a comparison of Emacs and Vim, we could look at how fast bugs are fixed on average...
+  - We can ask Alex about Vim packages.
+* Summary
+
+/These five concepts are part of a poststructural futures toolbox./
+
+*SI*: There is a strong link, of course, to other futures methods.
+Emerging issues analysis, for example, at one level predicts issues
+outside of conventional knowledge categories but it does so by
+disturbing conventional categories, by making them problematic; it
+reorders knowledge.  For example, the notion of the "rights of robots"
+forces us to rethink rights, seeing them not as universal but as
+historical and political, as hard fought political and conceptual
+battles.  It also forces us to rethink intelligence and sentience —
+posing the question what is life?  Thus, a futures method such as
+emerging issues analysis, conventionally used to identify trends and
+problems in their emergent phase, should not merely be seen as a
+predictive method; it can also be a critical one.
+
+** Hypothes.is                                                         :15m:
+
+We looked at some of the comments on the web page:
+
+#+begin_quote
+/What makes emacs a framework if it's essentially a tool? I'm not
+familiar with theories of HCI so maybe looking into that could help us
+understand tools as frameworks./
+#+end_quote
+
+- It’s not just this particular language but a set of utilities and routines (e.g., buffers)
+- JC: meta-research terminology: ‘framework’ vs ‘theory’?
+- Like /Black Mountain College/ vs /tango club/ vs /The Nutcracker/
+- In Emacs the roles are more fluid
+
+#+begin_quote
+/this makes me think the customizability-accessibility(?) tradeoff. When something is purpose-driven the question would be for who? If that's the case then what's the general framework. I'm starting to feel like I'm going in circles/
+#+end_quote
+
+- https://mako.cc/copyrighteous/the-remixing-dilemma
+- This has led to rethinking some of our discussions — if we can begin to answer this it will give us a sense of direction for the next conference
+- There are different roles involved (developer, users, maintainers) — clarifying what belongs to which aspects; this would be a good goal for the next Emacs conference, to understand Emacs at a deeper level than “oh I use it for music”
+  - Finch, Turtle, Galapogos, climate change...
+- We have R, and so we can compare
+- An easy exercise would be — we can look at the Emacs mailing lists, and map the topology
+  - Where is (are) the conversation(s) happening?
+
+#+begin_quote
+/This is where peers matter, sharing the knowledge with similar peers expediates the learning process especially when it comes to the vocabulary. For example, I don't need to learn all the words to get me started I just need to get started with what matters (org-agenda) to get the ball rolling./
+
+/So solutions such as doom, spacemacs, xemacs etc. cater to certain audiences, which makes me curious about configurations that benefit specific types of audiences. For example, how can we design emacs that can help school teachers or high-schoolers taking a writing or English literature class?/
+#+end_quote
+
+- People will learn faster if they are learning with closer peers
+- What is their starting point?
+- The right set of peers will say ‘start from here’
+- JC: different roles of learning from relative experts vs learning from relative peers
+- RSP: There have been mis-matches
+- NA: Tutorials have mostly been from writers — these helped me learn more about Emacs
+- For this peer learning stuff do we use network analysis?  Maybe for a 10th anniversary Charlie? — there are ways to measure strengths of learning in peer groups.
+ - We could follow up on the LA literature
+
+** CLA: text hive edit the raw text                                    :20m:
+#+begin_quote
+We’ve made progress since we started with the raw themes of Research
+on/in/with Emacs back in October 2020.
+
+We’ve met almost every week since then, and interviewed some
+interesting and varied guests. We have a clearer idea of what we
+want to talk about at the next EmacsConf, and how we can be of service
+to researchers and Emacs users. We have been using a workflow that
+helps us carefully review progress and diagnose issues. The next phase
+of this project is to “go public” and mesh with ongoing related
+activities elsewhere.
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration. We like to create tangible deliverables (e.g., journal
+articles). However, “If we knew what the outcome was it wouldn’t be
+research” — therefore, we’re focusing initially on research methods
+and design documents.  That may mean it takes us a bit longer to write
+our first paper, but when we get something out it will be
+good.  Meanwhile we’re also keeping sharp by fixing bugs, filing
+issues, improving our own workflows, and actively exploring the
+landscape.  We want to keep a role for serendipity here, which adds the
+requirement that our planning process remain open and flexible:
+including to various disciplinary methods, and especially to change as
+we reflect on how things are going.
+
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can eventually improve upon.  ‘Practice’
+and ‘method’ keep coming up in our discussions as, respectively, ‘more
+bottom up’ and ‘more top down’ ways of actualising things.  Concretely,
+we’ve been studying our own processes and looking for the tools and
+settings that are the most conducive to the work we want to do.  For
+example, instead of having a single Org Roam directory shared via Git,
+what if we had ways of managing sharing of notes across ‘graphs’?
+
+Collaboration is familiar to all kinds of teams across all
+sectors. Even authors working alone may have need to ‘virtually
+collaborate with themselves’ — and of course to share their work with
+others when it’s ready. If we all had our slipboxes online, we could
+reference between them. This would generalise ORCiD, allowing people to
+reference processes that are undergoing evolution. Maybe a service
+like this could turn into a ‘Tinder for academics’ — helping to match
+people based on their interests (or similar people in different
+fields). So, what’s the price point? Instead of paying money to go to
+conferences, now we can spontaneously make conferences and
+workshops. As a guess, $750.00 per user per year might be a fair price
+— for those who can afford to pay it — if the service helps people to
+do better research and saves a bunch of travel. We could also set up a
+pricing model proportional to each country’s carbon emissions or
+something like that.
+
+In our concrete methods, we have aligned ourselves with the ‘long-term
+perspective’. This includes both retrospective and prospective
+thinking. For example, the things that were timely 7 years ago might
+not be so timely now; in many cases, the relevance of a given innovation goes
+down over time. However, Emacs has an /evolutionary/ character that has
+allowed it to keep up with the times — becoming more relevant and
+useful ever since Steele and Stallman started to systematise Editor
+MACroS for the Text Editor and Corrector (TECO) program.  Not only has the
+technology evolved, but so has the social setting in which this work
+is done.  Whereas the concepts underlying the free software movement
+were based on “communal sharing” of source code, with due reflection
+these methods extend much more broadly, and allow us to synthesise new
+relationships within ecological, semiotic, and genetic commons.  Much
+like the Universal Turing Machine is a system for modelling any
+machine, Emacs can become a system for addressing broad classes of problems.
+This does not yet push us beyond what’s humanly possible, but
+may expand the frontier of possibility.
+#+end_quote
+
+- LV: More inclined to see the paragraph before this as clearly resolved...
+
+* PAR                                                                   :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what do we expect to learn or make together?
+- More about CLA
+- We wanted to really scrutinise our practice in this group as well
+*** 2. Establish what is happening: what and how are we learning?
+- We missed Leo through most of the session but managed it w/ some of his intervention from afar.
+- This session was somewhat ad hoc on Leo’s part
+*** 3. What are some different perspectives on what’s happening?
+- Joe reflection on Emacs SF talk about /TECO/ — this contributed a lot
+- Joe made effort to say strange things and make people think — this could be articulated better using the ‘probes’
+- LV: Do we feel the session went well, even though I wasn’t here?
+  - 15 minutes became 50 minutes
+  - There were things we would want to get back to you to get more into Foucault + archeology
+*** 4. What did we learn or change?
+- We’re learning that Emacs is a theory/framework/paradigm (?) — we’re still trying to determine the right vocab.
+- How to move beyond the current understanding of Emacs
+- We learned some of the deeper myth and worldview layers in the Emacs community
+*** 5. What else should we change going forward?
+- What we might bring to the Emacs Conf next year that’s quite different
+- Surveying previous Emacs Confs and other venues to see what’s going on inside Emacs and what people use it for
+- We could empirically map the histories of Emacs / users (using the genealogy)
+- We can share notes and record
+- (We can put this in terms of patterns for PLoP.)
+
+* Check-out
+
+- Everyone’s happy; we could continue individually, or in our own minds; maybe taking a week or two to think about things on the 18th we might have more to add to this?
+- Next week Leo will be moving to the holiday home so won’t be able to
+  be there to moderate the meeting; maybe we could take a week off?
+- *Planning break until 19th*
+- We could try to get Leo a draft *ASAP* — written material is probably faster for comments, but Leo does have 40 minutes of driving on a major road.
+- Leo is near the Sillon de Talbert!
