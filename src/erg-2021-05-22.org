@@ -6,6 +6,7 @@
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-05-22 Sat>
 
+
 # We usually meet for 2 hours, starting 17:30 UK time.  
 
 # As a template, we have one special guest, one extra topic, a PAR,
@@ -19,8 +20,8 @@
 - Intro to a magnet-capture game
 - "The two trained horses in tandem can actually pull 32,000 pounds, which is a load four times as heavy as either of the horses could pull by themselves"
 
+* Check-ins                                                            :20m:
 
-* Check-ins                                                             :30m:
 :PROPERTIES:
 :EFFORT:   0:30
 :END:

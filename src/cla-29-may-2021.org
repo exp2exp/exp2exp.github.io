@@ -15,6 +15,9 @@ can catch up on that in the works of Sohail Inayatullah.  One of the
 things we’re working on is a proper methodological introduction to how
 we use this tool along with other methods.
 
+- Input to Pattern Languages of Programs paper?
+- We have a novel method that is at least somewhat inspired by ‘patterns’
+
 * Cross references:
 
 # erg-2020-12-02.org 1
@@ -48,13 +51,13 @@ we use this tool along with other methods.
 This CLA refines the previous drafts:
 - [[file:cla-16-january-2021.org][CLA 16 January 2021]], which covered Episodes 1-6,
 - [[file:cla-20-february-2021.org][CLA 20 February 2021]] which covered Episodes 7-12, and
-- [[file:cla-12-april-2021.org][CLA 12 April 2021]], which covered Episodes 13-18. 
+- [[file:cla-12-april-2021.org][CLA 12 April 2021]], which covered Episodes 13-18.
 This one includes data from Episodes 19-24.
 
 * Objective for this session
 
 - ‘What is our vision for change and how is progress measurable?’
-- /Can we get concrete about that with some sign-ups relative to the TODOs here?/
+  - /Can we get concrete about that with some sign-ups relative to the TODOs here?/
 
 ** Understanding data, headlines, empirical world (short term change) :data:
 #+begin_quote
@@ -65,15 +68,16 @@ We’ve met almost every week since then, and interviewed some
 interesting and varied guests.  We have a clearer idea of what what we
 want to talk about at the next EmacsConf, and how we can be of service
 to researchers and Emacs users.  We have been using a workflow that
-helps us carefully review progress and diagnose issues.  The next
-phase of this project is to “go public” and mesh with ongoing related
-activities elsewhere.
+helps us carefully review progress, diagnose issues, and manage our
+energy.  The next phase of this project is to “go public” and mesh
+with ongoing related activities elsewhere.
 #+end_quote
 *** TODO Maintain plans for the next six months                  :breakdown:
 - We are doing research
 - Some more directly related to Emacs
 - Some with guests
 - Some ‘user’ and “market” research
+- Backlink to: [[peeragogy:Roadmap]]
 *** TODO Keep doing PARs and CLAs                                :breakdown:
 - This is our thing about method
 - Maybe we should be expanding this to patterns...?
@@ -90,6 +94,7 @@ activities elsewhere.
   - What’s the relationship to time, expertise, serendipity?
   - What’s relationship to ongoing Hyperreal activities?
   - To discuss more next week...
+**** TODO Come up with a categorical treatment of todo-categories
 *** Data
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:
@@ -121,6 +126,8 @@ activities elsewhere.
 ***** [[file:erg-2021-04-10.org::*Weak organisations will have difficulties working together][Weak organisations will have difficulties working together]] :ep17:
 ***** [[file:erg-2021-04-17.org::*AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further][AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further]] :ep18:
 **** Supporting data from CLA 4
+***** [[file:erg-2021-04-24.org::*We heard some about the energy and time costs of Leo’s Typescript learning sprint][We heard some about the energy and time costs of Leo’s Typescript learning sprint]] :ep19:
+***** [[file:erg-2021-04-24.org::*(Leo has still participated, though wishes he’d be able to muster more forces.)][(Leo has still participated, though wishes he’d be able to muster more forces.)]] :ep19:
 - TBA
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
