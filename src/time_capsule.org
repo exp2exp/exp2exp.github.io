@@ -1,0 +1,379 @@
+#+title: Time Capsule
+
+* Created: Fri, 01 Apr 2005, opened 26 May 2021
+
+It is a misty grey day in Reykjavik, home to Hyperreal
+Enterprises.  The mist has been turning back and forth
+into rain all morning, but it finally settled down in
+the early afternoon.  Inside, the small staff of
+mostly Icelandic researchers are hard at work, mony of
+them hacking away at their workstations.  A seminar is
+taking place in the seminar room.  It is, in fact,
+business as usual at "Heck" - as the offices are
+colloquially known.
+
+The place looks mostly like you would expect for an
+early 21st century technology firm based in a
+Scandinavian country.  Modern, but not cheap.
+Utilitarian, but comfortable.  (Nicer, even,
+than Ikia.)
+
+HE officially opened its doors here in Reykjavik on
+January 15, 2011.  The company is owned collectively
+by the employees.  This could theoretically have made
+these folks some of the richest people in the world,
+if they hadn't agreed in their founding documents to
+keep everyone's wage in sync with that of the
+Reykjavik Postmaster General.  Most of the company's
+earnings are spent funding the work of independent
+contractors - other programmers, engineers and
+researchers, as well as transport and warehouse
+personnel working in various countries.  Then there is
+the technology budget, also significant.  Electricity
+is of course inexpensive, and the building and grounds
+are owned by HE.
+
+Happy April Fools day ya'll!  I wrote this for you last
+night, sorry if it isn't fun or funny.
+
+Here are some open-ended Reading Comprehension questions.
+
+1.  Why the "Heck"?
+2.  Where did Hyperreal Enterprises get its startup capital?
+3.  Why is Hyperreal Enterprises based in Iceland?
+4.  Are the programmers mentioned in paragraph 1 male or female?
+5.  Why January 15, 2011?
+6.  What is about to happen in the story (if anything)?
+
+Best answers receive a free copy of a better short science function story by E. M. Forster.
+
+* Ray
+
+> Best answers receive a free copy of a better short science function
+> story by E. M. Forster.
+
+OOhh!! I love function stories.  Is it a thriller about how a
+hypergeometric function nearly escaped being annihilated by a mean
+and nasty skew-adjoint operator ;)
+
+Here are my toungue-in-cheek answers to your questions:
+
+=1.= Why the "Heck"?
+
+Hyperreal Enterprises Centre for Kyle's stuff.  The purpose
+of this particuar centre is to further the development of Kyle's
+theorem prover.  By now, JACKYL has moved far beyond showing that
+10 is even and has settled several major conjectures in number
+theory.
+
+=2.= Where did Hyperreal Enterprises get its startup capital?
+
+By special arrangement with the New University of Tahiti, they
+had a fundraiser in which they sold Tahiti treat.  Another
+important source of revenue was the money associated with prizes
+for solving the conjectures.
+
+=3.= Why is Hyperreal Enterprises based in Iceland?
+
+Because Icelanders love Tahiti treat.  One bite of the stuff
+and you'll think you're lounging on the beach of a tropical
+island instead of watching the icebergs go by a frozen fjord.
+In fact the headquarters of Hyperreal Enterprises used to be an old
+post office, but the postmaster agreed to donate them to Hyperreal
+Enterprises in exchange for a lifetime supply of Tahitian treat.
+
+=4.= Are the programmers mentioned in paragraph 1 male or female?
+
+Neither. (trick question) Those people are not programmers -- the
+computers program themselves.  The people busily typing away at
+terminals are actually mathematicians whom the computers are
+questioning in order to build up the knowledge base.
+
+=5.= Why January 15, 2011?
+
+Originally, it was supposed to open in 2010 with the unveling of
+Deep black 10 in the year of the Space Oddyssey.  However a geyser
+blew up and flooded the building, so the opening had to wait until
+the building could be dried out.  Hence the opening date got
+pushed up to January 1, 2011.  However, since Icelanders take
+their winter holidays seriously and celebrate 13 days of
+Christmas, the opening had to wait until a week after Thor blot
+(which marks the end of Yule season).
+
+=6.= What is about to happen in the story (if anything)?
+
+We will organize a conference on computer-based mathematics and
+ask the University of Iceland if they would agree to host it.  Upon
+seeing that the organizers do not have the proper academic
+credentials to organize a conference in this field, they flatly
+refuse to have anything to do with us.  So we go to our good
+friend the postmaster, who gladly lets us use the training centre
+for mailmen and arranges for a special stamp to be printed in
+honor of the First Nordic Conference on the Hyperreal Dictionary
+of Mathematics.  (As it turns out, not many of these stamps get
+used because conference registration is electronic and the
+proceedings are pulished on Asteriod Meta.)
+
+The conference will be a big success with a list of speakers that
+reads like a who's who of computer science.  For weeks afterwards,
+one can hear disgruntled professors in the departments of computer
+science and mathematics of the University of Iceland grumbling how
+a group of amateurs cheated them out of the glory that was
+rightly theirs.
+
+This story will be used as a benchmark for reading comprehension programs.
+
+** Reply to Ray
+
+#+begin_quote
+> Best answers receive a free copy of a better short science function
+story by E. M. Forster.
+
+OOhh!! I love function stories.  Is it a thriller about how a
+hypergeometric function nearly escaped being annihilated by a mean
+and nasty skew-adjoint operator ;)
+#+end_quote
+
+No, I meant a story that serves a _scientific_ function.  What you're
+describing sounds like a _math_ function story.
+
+
+#+begin_quote
+Here are my toungue-in-cheek answers to your questions:
+
+1. Why the "Heck"?
+
+Hyperreal Enterprises Centre for Kyle's stuff.  The purpose
+of this particuar centre is to further the development of Kyle's
+theorem prover.  By now, JACKYL has moved far beyond showing that
+10 is even and has settled several major conjectures in number
+theory.
+#+end_quote
+
+Not what I had in mind - but good... a "10" so to speak.
+
+
+#+begin_quote
+2. Where did Hyperreal Enterprises get its startup capital?
+
+By special arrangement with the New University of Tahiti, they
+had a fundraiser in which they sold Tahiti treat.  Another
+important source of revenue was the money associated with prizes
+for solving the conjectures.
+#+end_quote
+
+
+OK, but let me point out that it is New _College_ of Tahiti (not New
+University, nor New School) - sigh.
+
+But you were completely right about the prize money!
+
+#+begin_quote
+3. Why is Hyperreal Enterprises based in Iceland?
+
+Because Icelanders love Tahiti treat.  One bite of the stuff
+and you'll think you're lounging on the beach of a tropical
+island instead of watching the icebergs go by a frozen fjord.
+In fact the headquarters of Hyperreal Enterprises used to be an old
+post office, but the postmaster agreed to donate them to Hyperreal
+Enterprises in exchange for a lifetime supply of Tahitian treat.
+#+end_quote
+
+
+Hm... well, I think this is close in some dimensions.  And I like the
+active role played by the Postmaster in this story.
+
+However, let me note that Iceland actually has a very nice climate,
+despite its northern locale.  It could, in fact, be described as _hyperborean_.
+
+
+#+begin_quote
+4. Are the programmers mentioned in paragraph 1 male or female?
+
+Neither. (trick question) Those people are not programmers -- the
+computers program themselves.  The people busily typing away at
+terminals are actually mathematicians whom the computers are
+questioning in order to build up the knowledge base.
+#+end_quote
+
+Aha - that was tricky.  But I thought that we had finally decided for
+once and for all that math and programming were the same thing ;).
+
+Hint: Have you taken a look at Time Magazine lately?
+
+
+#+begin_quote
+5. Why January 15, 2011?
+
+Originally, it was supposed to open in 2010 with the unveling of
+Deep black 10 in the year of the Space Oddyssey.  However a geyser
+blew up and flooded the building, so the opening had to wait until
+the building could be dried out.  Hence the opening date got
+pushed up to January 1, 2011.  However, since Icelanders take
+their winter holidays seriously and celebrate 13 days of
+Christmas, the opening had to wait until a week after Thor blot
+(which marks the end of Yule season).
+#+end_quote
+
+
+Excellent answer.
+
+
+#+begin_quote
+6. What is about to happen in the story (if anything)?
+
+We will organize a conference on computer-based mathematics and
+ask the University of Iceland if they would agree to host it.  Upon
+seeing that the organizers do not have the proper academic
+credentials to organize a conference in this field, they flatly
+refuse to have anything to do with us.  So we go to our good
+friend the postmaster, who gladly lets us use the training centre
+for mailmen and arranges for a special stamp to be printed in
+honor of the First Nordic Conference on the Hyperreal Dictionary
+of Mathematics.  (As it turns out, not many of these stamps get
+used because conference registration is electronic and the
+proceedings are pulished on Asteriod Meta.)
+
+The conference will be a big success with a list of speakers that
+reads like a who's who of computer science.  For weeks afterwards,
+one can hear disgruntled professors in the departments of computer
+science and mathematics of the University of Iceland grumbling how
+a group of amateurs cheated them out of the glory that was
+rightly theirs.
+#+end_quote
+
+Funny, yes - even a "powerful" organization like HE could be snubbed
+by the academy.
+
+I like the idea for an AM/PM conference publication - maybe we won't
+have to wait five (+) years for that?
+
+#+begin_quote
+This story will be used as a benchmark for reading comprehension programs.
+#+end_quote
+
+Sounds good to me.
+
+Feel free to claim your prize, at
+
+
+  http://www.ma.utexas.edu/~jcorneli/b/machine-stops
+
+
+To the rest - you can still win, since openended questions can have
+different "best" answers.  The contest remains open until midnight
+tonight, at which time I just might publish _my_ answers...
+
+
+* Kyle
+
+*Here are some open-ended Reading Comprehension questions.*
+
+i'll pitch in since we haven't heard your answers yet.
+
+*1.  Why the "Heck"?*
+
+i don't know.
+
+*2.  Where did Hyperreal Enterprises get its startup capital?*
+
+i don't know.
+
+*3.  Why is Hyperreal Enterprises based in Iceland?*
+
+it is a haven of democracy, and it has great spas.
+
+*4.  Are the programmers mentioned in paragraph 1 male or female?*
+
+i don't know.
+
+*5.  Why January 15, 2011?*
+
+i don't know.
+
+*6.  What is about to happen in the story (if anything)?*
+
+i don't know. but i'd like to.
+
+* Zoe
+
+** Version 1: Angelic
+
+1. Hyperreal Enterprises of reyKjavik.
+
+2. Business loan from Citibank?
+
+3. They're such do-gooders that they actually WANTED to pay higher taxes.
+
+4. Probably a mix. Searches of the TIME magazine website for "computer programmers" and "computer programming" did not reveal any clues.
+
+5. Because it's my 27th birthday, of course.
+
+6. More of the same.
+
+** Version 2: Demonic
+
+1. H.E. + Hack = Heck
+
+2. Their first big heist.
+
+3. Low profile, relaxed laws, like having a Swiss bank account. The postmaster general thing is because they're posing as a government agency.
+
+4. Same answer.
+
+5. Not sure.
+
+6. They're about to get busted!
+
+** Reply to Zoe
+
+Well, no one else seemed to care for my game...
+
+So you're the only one who gets my answers.
+
+1.  "Heck" is the literal pronunciation of HEHQ, Hyperreal Enterprises
+    Headquarters.  It is, moreover, another word for a door latch
+    (i.e. what you need to use to open or close a door; perhaps even a
+    metaphorical door needs a metaphorical doorlatch), or a door
+    itself; or a "latticework contrivance for catching fish" (i.e. a
+    sort of a net).  Can also be written "hack".  Finally, there are
+    other nice meanings related to weaving, or the meandering of a
+    stream, or, of course, to a sort of purgatory or hell (compare
+    "The Matrix", esp. part II).
+
+2.  By winning prize money, like you said.  Which means we're going to
+    have to work pretty damn hard.
+
+3.  Joe Corneli has a facination with Iceland... due to...
+
+     - "Moby Dick", and the description of the crewmembers
+       as "isolatoes" - and a general interest in islands
+     - the pronunciation of "Island" in Jamaican dialect
+     - the spelling of "Iceland" in Icelandic
+     - its long and interesting history (and mythology); see
+       the sagas (which I should read more of myself)
+     - its hyperborean situation (hotsprings, gulf stream, fish, etc.)
+     - a symbolic opposition to Tahiti
+     - site of most famous (not most infamous) Bobby Fischer game
+
+4.  Female, at least, predominantly.  As described in a recent Time
+    Magazine article, female Icelanders are better at math than male
+    Icelanders.  At least, that's what I think I read; they may have
+    just been talking about one city.
+
+5.  5 years from now, plus a little slop time.  Jan 15 is also my
+    sister's birthday, shared also with Martin Luther King.
+
+6.  Probably nothing too exciting.  I've already implied that HE is a
+    major multinational corporation, and that it embraces socially
+    progressive ideals.  If you want a S.F. story that will take you
+    in an interesting direction from there, maybe try "Fremder" by
+    (one of my favorite authors) Russell Hoban.  But really, I have no
+    idea where things would go.  If we could really "do" math in 5
+    years, and, say, world business in another 5 or 10, it completely
+    boggles _my_ mind to think what we'd be doing next.  I say, one
+    step at a time.  The expression parser isn't even finished; maybe
+    even "just started", I'm not sure.  But at least one day out of
+    the year should be given over to foolish thinking, I'd say.
+
+
