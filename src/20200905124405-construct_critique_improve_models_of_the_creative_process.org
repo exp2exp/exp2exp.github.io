@@ -8,6 +8,13 @@ including the modelling process, we can then apply them to a wide
 range of problems!  This prompts reflection on the infrastructure and
 tools that we are actually using.
 
+* Read on
+
+ - [[file:emacs.org][Emacs and Org Mode]]
+ - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
+ - [[file:arxana.org][Arxana]]
+ - [[file:erg.org][Emacs Research Group meeting notes]]
+
 * Subgoals :noexport:
 
 - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]

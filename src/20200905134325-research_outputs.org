@@ -10,6 +10,12 @@ Deyan: /Every paper that is published for the sake of an academic's publication 
 
 So, what can we do without shortcuts?
 
+* Read on
+
+ - [[file:20200810135325-advances_in_tutoring_systems_for_programming.org][Advances in tutoring systems for programming]]
+ - [[file:20200810135403-advances_in_knowledge_mining_from_technical_documents.org][Advances in knowledge mining from technical documents]]
+ - [[file:20200905132334-an_abm_of_the_computer_programming_domain.org][An ABM of the computer programming domain]]
+
 * Next steps :noexport:
 
 - [[file:20200906003704-bottom.org][Bottom]]

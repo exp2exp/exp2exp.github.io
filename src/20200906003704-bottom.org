@@ -10,6 +10,14 @@ teaching/upskilling platform for technical and scientific topics.
 #+CAPTION: Network view
 [[file:org-roam-server-3oct2020.png]]
 
+* Read on
+
+ - [[file:20201003164408-downstream.org][Downstream]]
+ - [[file:20201003165500-consulting_clients.org][Consulting clients]]
+ - [[file:20201003170312-open_source_developers.org][Scientific software developers]]
+ - [[file:20201003170333-tutoring_students.org][Automated tutoring system users]]
+ - [[file:20201003171011-programmers.org][Programmers]]
+
 * Contributes to :noexport:
 :PROPERTIES:
 :ID:       d8c152d1-0d86-4c66-9105-a83b926a0275

@@ -5,3 +5,8 @@ Our purpose:
 
 - We want to make the knowledge economy accessible to everyone.
 - Our long-term vision is computational intelligence based on collective intelligence.
+
+* Read on
+
+ - [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
+ - [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]

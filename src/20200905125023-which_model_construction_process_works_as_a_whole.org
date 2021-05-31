@@ -20,6 +20,10 @@ concrete processes that we would like to model, but we didn’t get very
 far with those either.  Noting these facts, it’s presumably a good
 time to regroup — and perhaps, rethink.
 
+* Read on
+
+ - [[file:20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+
 * Subgoals :noexport:
 :PROPERTIES:
 :ID:       0e2b1ab1-9e3a-4e6c-b2a7-e423cb41a030

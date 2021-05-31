@@ -139,6 +139,15 @@ We won’t use Github stuff right now.  That’s better for dealing with a
 public-facing contribution workflow when we have actual open source
 things running with contributors.
 
+* Read on
+
+ - [[file:20200810135619-discord_server.org][Discord server]]
+ - [[file:20200811185435-obs_recordings.org][OBS recordings]]
+ - [[file:20200814193042-code_sharing_platform.org][Code sharing platform]]
+ - [[file:20200912223428-wiki.org][Wiki]]
+ - [[file:20201003164100-forum.org][Forum]]
+ - [[file:20200814195259-blog.org][Blog]]
+
 * Next steps                                                      :noexport:
 :PROPERTIES:
 :ID:       17468abb-5c17-458e-a053-72e6356bbad5

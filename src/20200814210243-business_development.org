@@ -44,6 +44,13 @@ Broad categories of users are surveyed in the *Downstream*.
 - Be wary of competing with things like Roam, though some level of competition is intrinsic in business.
 - “Roam scratches my itches for document and graph aware note taking pretty well.”
 
+* Read on
+
+ - [[file:upstream.org][Upstream]]
+ - [[file:grant_development.org][Grant development]]
+ - [[file:action-and-change-in-peer-learning.org][Action and Change in Peer Learning]]
+ - [[file:coaching_and_mentoring.org][Coaching and Mentoring]]
+
 * Next steps :noexport:
 
 - [[file:20200906003704-bottom.org][Bottom]]
