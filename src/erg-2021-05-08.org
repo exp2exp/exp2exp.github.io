@@ -164,7 +164,7 @@ and some informal chat. We take notes into the agenda using crdt.
 - JC: doesn’t think that he needs other people to manage his agenda.
 - JC: thinks that a social solution would be to announce any upcoming things
 - JC: also thought about the topic when he was having trouble communicating with the Peeragogy folks
-*** TODO [#A] 13:00 JC’s next talk: Tools for Thought Revisited           :talk:
+*** TODO 13:00 JC’s next talk: Tools for Thought Revisited            :talk:
 SCHEDULED:  <2021-05-18 Tue>
 - ‘Tools for thought’ revisited
 - Ray has recently read it: it’s a summary of quick biographies of people involved in computer networks, starting with Boole and Babbage, moving up to von Neumann, Nelson, online communities
@@ -215,7 +215,7 @@ Cameron had to leave early, but we might be interested in exploring
 **** *During our check-outs, we might want to list upcoming things*
 **** This means we might need our calendars open at the end to help remember it
 **** Wouldn’t it be nice to have events flow from Google Calendar into Org Agenda
-**** TODO [#A] Dig out the old Information Epoch essay
+**** TODO Dig out the old Information Epoch essay
 **** Should narrow it to a sector?
 **** ‘Technology’ is what created the different colors
 **** Research is a process that cuts across different domains
@@ -241,9 +241,6 @@ CLOSED: [2021-05-10 Mon 12:41]
  <2021-05-10 Mon 10:00>
 *** TODO Meeting with Alex
  <2021-05-12 Wed 10:30>
-*** WONTFIX [#A] Meeting with Ray: prep Tools for Thought
-CLOSED: [2021-05-19 Wed 13:12]
- <2021-05-12 Wed 14:00>
 ** RSP
 - Will get back to Emacs New York in the way discussed earlier
 - Cameron and Ray are still doing ongoing work in Maxima
