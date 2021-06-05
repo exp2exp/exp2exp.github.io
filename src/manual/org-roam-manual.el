@@ -81,6 +81,18 @@ The files are to be found in `org-roam-directory'."
                                          (downsample)))))
                  (or (car args) (nthcdr 5 command-line-args)))))
 
+(defvar front-page-plus-one
+  '("20200810131435-hyperreal_enterprises.org"
+"20200810132653-top.org"
+"20200905124558-why_not_what.org"
+"20200905124405-construct_critique_improve_models_of_the_creative_process.org"
+"20200905125023-which_model_construction_process_works_as_a_whole.org"
+"20200905131918-knowledge_graph.org"
+"20200905124432-underlying_foundation.org"
+"20200906003704-bottom.org"
+"time_capsule.org")
+  )
+
 ;; Probably this should be constructed automatically from the index.org page!
 (defvar files-to-combine
 '("20200810131435-hyperreal_enterprises.org"
@@ -153,6 +165,10 @@ and derived PDF is defined.")
                          (org-do-demote))))
                    nil 'file))
 
+;; In order to get it to work with broken links, I made a quick
+;; change to ox.el [[file:~/org-mode/lisp/ox.el::(`mark (org-export-data]]
+;; ... where, ideally, this would be done with advice
+;; ... doing that properly and cleanly is a bit of a hassle!
 (defun rebuild-org-roam-pdf ()
   "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
