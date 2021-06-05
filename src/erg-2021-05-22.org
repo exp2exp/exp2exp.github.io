@@ -265,7 +265,7 @@ may expand the frontier of possibility.
 #+end_quote
 * PAR                                                                    :4m:
 :PROPERTIES:
-:Effort:   0:8
+:Effort:   0:08
 :END:
 *** 1. Review the intention: what do we expect to learn or make together?
 - We wanted to work on the CLA, but we ended up co-opting the time to talk more about the methodology (and we’ve postponed it to next week)
