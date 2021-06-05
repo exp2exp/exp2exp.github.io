@@ -7,7 +7,7 @@ teaching/upskilling platform for technical and scientific topics.
 
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width \textwidth
-#+CAPTION: Network view
+#+CAPTION: Network view, current as of 3 October 2020
 [[file:org-roam-server-3oct2020.png]]
 
 * Read on
