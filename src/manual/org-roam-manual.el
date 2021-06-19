@@ -154,6 +154,19 @@ and derived PDF is defined.")
 "20200906003704-bottom.org"
 "20201003205523-potential_products.org"))
 
+(defvar just-writing '("20_april_2021_getting_starting_with_writing.org"
+                       "27_april_2021_what_s_unwritten.org"
+                       "21_april_2021_resonances.org"
+                       "24_april_2021_consonances.org"
+                       "25_april_2021_murmurations.org"
+                       "29_april_2021_testament_of_youf.org"
+                       "30_april_2021_fatigue_joy.org"
+                       "01_may_2021_future.org"
+                       "02_may_2021_sfumato.org"
+                       "03_may_2021_collective_writing.org"
+                       "04_may_2021_world_of_the_text.org"
+                       "05_may_2021_breakdown_of_language.org"))
+
 (defun indent-org-roam-export ()
   "Utility function to increase indention for selected trees."
   (org-map-entries (lambda ()
@@ -169,16 +182,19 @@ and derived PDF is defined.")
 ;; change to ox.el [[file:~/org-mode/lisp/ox.el::(`mark (org-export-data]]
 ;; ... where, ideally, this would be done with advice
 ;; ... doing that properly and cleanly is a bit of a hassle!
-(defun rebuild-org-roam-pdf ()
+;;
+;; Also, this function should really take some arguments and then separate implementations should be called for the individual extracts we want to build
+(defun rebuild-org-roam-pdf (filename &optional sources)
   "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
-  (save-excursion (find-file (concat org-roam-directory
-                                     "/manual/hl.org"))
+  (shell-command (concat "cp " org-roam-directory "manual/hl.org "
+                               org-roam-directory "manual/" filename))
+  (save-excursion (find-file (concat org-roam-directory "manual/" filename))
     (goto-char (point-min))
     (search-forward "# IMPORT")
     (let ((beg (point)))
       (delete-region (point) (point-max))
-      (insert "\n" (combine-org-roam-files files-to-combine))
+      (insert "\n" (combine-org-roam-files (or sources files-to-combine)))
       (goto-char beg)
       (indent-org-roam-export)
       (org-latex-export-to-pdf))))
