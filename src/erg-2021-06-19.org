@@ -1,0 +1,210 @@
+#+TITLE: 19 June 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-06-19 Sat>
+
+* 19 June 2021 — Emacs Research Group
+
+* Check-ins                                                             :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Leo
+- Has been rushing and coming into frustrating, single-point-of-failures issues with BBB
+- The broader checkin: people expect you to have nice things to report not tech frustrations!  I returned 2h30 ago.  Came a bit early for this almost-ad-hoc checkout session.  Happy to be back and happy to have had some time off during the holiday, where I’ve let my mind wander across the rocks and sand; I feel rested despite the immediate frustrations
+- Ready to make some changes in the way I work, and tomorrow I will go back swimming!  ERG has just pushed this off one more day (for seven-months-and-a-day total)
+- There’s also a thunderstorm outside!
+** Joe
+- Feeling well (had a nice cup of matcha tea)
+** Ray
+- Paper’s due 24th of June, you’re all welcome to join; let’s organise meetings for the week, I’m willing to put time in now; in 2 weeks they’ll put in some time
+- Over the next month or so, this paper, other research interests; may want to leave ERG things on the shelf, do want to plan things for the fall
+- E.g., working with hypernotebooks, a code tracer, and some other things — will want input and connections w/ others as coding and integration develops
+- Partly in connection with the paper, the usefulness of interaction with Peeragogy; we talked a lot about Org Roam & Zettlekasten stuff, so practicalities of e.g. having a notebook that is separate from the draft of what you’re working on.  Would love to set up a “collaborative notebook/ZK for peeragogy and elsewhere” — maybe discuss this in 2nd phase of the meeting
+** Noorah
+- Did take a look at the Google Docs paper, not sure how much I contributed — did I earn my name on it?
+- I have been busy working on my dissertation and packing for travel
+- Haven’t thought through Emacs for fall but: getting up to date with packages on Emacs would be something I want to do, have still been using things from the last 6 months, getting a refresher on what’s going on out there
+- Still want to work on a collaborative slip-box as a Venn intersection between different slip boxes!  Would be nice to think through the implications.
+- The way we’re doing things with CRDT is really cool, but depends on a note-taker at the meetings; but even working individually and how we can learn through
+
+* Things to keep in mind
+** Goal for today — extended checkout of Season 1
+- Thinking about projects
+** Record the sodding session (not today, because we’re on Discord)
+
+* Agenda                                                                :80m:
+:PROPERTIES:
+:EFFORT:   1:20
+:END:
+
+** Technical aspect of working together                                :30m:
+- Happy we called this the ending of Season 0
+- CLA is a testament to the energy that’s gone into our collaboration
+- But we might have been able to do more if we had the tools of collaboration that we’ve discussed
+  - If I was to make a list:
+*** Collaborative slip boxes for a collection of notes
+- Ability to publish notes and work on those notes together
+- Submodule 1: Issues of authorship, conflict resolution, how to sync the database
+- Submodule 2: Ability to do these things “live” — we need to come up with a technical solution to traverse nodes together, rather than just traversing single nodes together (sharing an entire slipbox via CRDT)
+**** Biggest component of what I plan to be doing this summer
+- It’s easy to make it dumb, harder to make it intelligent...
+- RSP: It would be nice to have, even async would be interesting+valuable
+- On 1: we have to work on how syncing works.  We have discussed many solutions (e.g., tracking commits via Git) 
+  - “These lines were written by JC, NA, etc.”
+  - ORv2 is different from ORv1, we only have =id= links
+  - This opens interesting themes for collaboration
+- One understanding, I.e., if you’re putting all your notes into one slip box...
+  - You could say: “I only want to share notes that are tagged erg.”
+  - That would be interesting b/c it would allow you to have some shared things
+  - “One thing with contents from many people.”
+- How we conceive collaboration: is it sharing individual notes, or the the elaboration of notes together?
+- NA: Two situations, one doable, one tricky
+  - If we’re working asynchronously, we solve it with Git commits
+  - But if we’re doing something at the same time, this is when it gets tricky.
+  - Maybe my contribution is just me thinking out loud and then Joe is writing it down — if Joe commits it looks like it’s his work!
+- JC: underlining, colour?
+- RSP: who actually contributed the research that’s being presented there!
+**** Type 1
+- Sharing notes out of individual ZKs and aggregating them
+**** Type 2
+- People all working on a single node inside the file
+**** SO...
+- we need a way to articulate these two
+- If there’s something in Type 1, can we convert it to Type 2?
+- Is this something you should desire?  Should this be something that’s locked?
+- If you want to edit one of these things, do you create a link and work there?
+**** Joe’s view
+- Type 1 slows everything down; Type 2 is probably what we should focus on
+**** Ray’s view:
+- A third ring is to bring back some specific PlanetMath things
+- E.g., Peeragogy started as a spin off
+- Some of these things are successors to Planetary
+- Discussions with Aaron about PlanetMath back in scope
+- We’ve been talking about everyone having their own ZKs, but what about  projects?  If I have a project, this is where I keep the notes for this!
+  - I might populate it with notes I have sitting around, I might have a way to sync, who knows; but when we work on this project we will keep our notes there.
+- STANDARD PRACTICE: We usually have a shared draft and everything gets overburdened and it isn’t meant for that.
+  - If you think what ZK is supposed to bring into the situation, you’re creating your own notes — as you’re perusing sources, you write, and then things can be reused as needed
+  - If we start thinking of a collective slipbox in a collaborative fashion, then we lose a link between your project activities and the individual cathedrals
+**** Leo’s view
+- I want something for us to work with... if we forget Type 1 and focus on Type 2, if we’re all working with our own contents...
+- If we’re only working with Type 1 stuff, then there’s no co-creation
+- No sense of bringing things that you have from elsewhere into the room
+- If there’s a metal detector and you put all your baggage on the side
+**** Joe’s response
+- It’s all a matter of perspective; at the end of the day, we’re going to make everything work together
+- We’d even have changes for a single user, e.g., everything tagged ERG
+**** Noorah’s response
+- The other side of the argument is that it limits transdisciplinarity: I want to bring something in from a different discipline, if I’m stuck in the project slipbox, I have to import things.
+- RSP: You’re free to bring in the other ones and link it, e.g., I won’t bring in every note on bio
+- NA: for me the project-minded thing is the INTERSECTION I’m talking about, the intersection that we all work in — that’s the project
+- LV: It’s interesting that you mentioned interface — or link — “you could link back to those notes outside of the project — but you’re the one who decides whether you make the links.
+  - It’s funny you mentioned you can link to or from it — if you can do that you’re already inside it.  It follows a model of colonisation, how to colonise different folders.
+- RSP: My practical stance: I agree with all of these things; but even if it has all of these problems, what’s the improvements over one single google doc.  An incremental improvement over what we have now.
+**** Some synthesis
+- If I have 2 months to bring this in to the world, I can make technological high-art — right now I’m more enthusiastic about the high-art
+- JC: Also, keep the ‘incremental’, ‘holistic’, ‘developer’, ‘user’ modes of thinking in mind as we think about DESIGN
+**** Summing up
+- LV: We do have a “collaborative slip box” at the psychic level!
+- All told I will be working on this
+  - I’ll be thinking in July
+  - I’d like to do a small presentation; does this cover the feature set half way through — it could also be something I record and submit to you to watch
+    - NA: I will be more available because of the time zone
+    - RSP: Of course!  Similar to the “working vacation”
+    - LV: though I do want us to worry about this...? 
+       - We did also want to get some head space!
+  - Some might be done with half-step measures, and want to reach for Season 1 the beginning of tools
+- I didn’t get to talk about a place to keep the todos for a project!
+- None of it will be too complicated, but the Type1/Type2 stuff will be complicated
+- Some things would be easiers than others (e.g., interface with CRDT??)
+- But project related TODOs seem complicated, and there’s a lot of stuff to think about
+- I’d like to have milestones in the calendar about this — but I’d also like to come back to financing Org Roam, and a milestone based thing would likely work!
+- It will be a busy month of July 
+- Moving to: https://meet.jit.si/peeragogy 
+** Check-in with Charlotte                                             :10m:
+- Hive editing is in session
+- Hi from Joe...
+- Hi from Leo!
+- Hi it's me Noorah!!
+  - BUT we don’t have a link for you to get on this doc for hive editing!
+  - Maybe in 6 months we’ll have an obvious working solution
+*** Charlotte
+- Let’s drill through the steel barrier!
+- The attraction of hive editing is great
+- It will override 
+*** With Peeragogy
+
+** Peeragogy ERG mash up paper in draft                                :45m:
+
+** Plan next step move for PLoP                                        :10m:
+  - Ray: I’m available next week; also there will be the big shepherding thing in 2 weeks after the deadline
+  - Leo: I’ve scheduled 2 hour review on Monday, Tuesday onwards is better
+  - Noorah: next week is difficult but I’ll assign myself the discussion section and write notes to see if something makes sense there
+  - Deadline for 24th
+    - We don’t have a specific todo list yet!
+    - In the Google doc there were some awkward phrasings and typos, follow Charlotte’s notes to fix
+    - CP: I don’t need authorship, but can contribute some text about the need for an agent
+  - Monday: Joe has another paper due
+    - Don’t use the coffee chat for this, b/c we have VAMIPIRISED the coffee chat to work on this
+    - Make a clear split, e.g., 30 minutes before or after?
+    - Ray and Joe meet 6PM UK time
+    - Preview podcast meeting on Monday
+  - Tuesday: 
+    - 5:30PM UK meet with Leo on Discord
+  - Wednesday: 
+    - 7:30PM UK meet with everyone on BBB (Jitsi as fallback)
+    - TIME: 11:45 East Coast = podcast
+** Extra
+We agreed to extend today’s meeting today to have a proper check-out for the check-out session.
+
+* PAR                                                                   :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what did we expect to learn or make together?
+- ERG Peeragogy mashup call to discuss paper for PLoP
+*** 2. Establish what is happening: what and how are we learning?
+- On Jitsi with Charlotte and Vitor as well as the ERG regulars
+- ERG people met for 1 hour on Discord previously, after some last-minute hiccups
+*** 3. What are some different perspectives on what’s happening?
+- CP: I’m happy you’re doing this for PLoP and keeping that relationship alive
+  - Newbie perspective!
+- Ray: Also, we have the peeragogy and ERG relationship that is ongoing and will hopefully continue
+- Joe: more practical for us, and more practical for other people via the newbie perspective on the paper
+- This is our last session for a while, so let’s add 5 minutes to the end
+- It’s great to have someone like Leo who is aware of the timing generously helping us meet our time frame!
+- This is an example of an agent! — Otherwise you won’t have people absorb the wisdom
+- CP: We do a par at the end, but what about doing it before?
+  - Ray: that came up with Joe, but at the end it should be what you were saying
+  - The PAR should help with planning!
+  - We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!
+*** 4. What did we learn or change?
+- Charlotte suggested more practical perspectives, making the bridge to the group you’re trying to help
+- Diversity; Noorah was talking about the Utility of CLA when they have multiple meetings, going back to the meetings — going — different vocabularies can make lack of cohesion or even conflict — transdisciplinarity came up
+- LV: this feels related to methodology, like, how to “lower the bridge to get people inside” — defining the taxonomy, explaiing it, making people get the click for the vocabulary is essential.
+- Reminds me of Andy Matuschak, which is a taxonomy of notes: fleeting notes, things you take off the top of your mind, ever-green notes, things you use as a concept is other notes — this kind of approach to sharing and cementing knowledge...
+- I was talking about clicks with regard to programming... but for peer learning this also can create clicks!  “Evergreen” notes
+  - CP: Oh, the ah-ha moment!
+  - How do you lead people through a bunch of aha moments...
+  - Like when slaloming through doors on skis, to get through A B C quickly... now in 4D
+- The flow-zone where you know your tools well enough to implement them without thinking.  There are 1 mil things per stroke... but putting them together
+- Maybe this is also about /encoding patterns/ — your brain is fitted to see patterns in the world and put concepts behind them.  When you regress from this point and assimilate it... ‘groking’... you’re after the click!
+*** 5. What else should we change going forward?
+- How can we use this with a rowing club, or a group of people in Brazil... 400 people at Brookes applying for grants!
+- Be more pro-active so we don’t get behind deadlines!  How can we gather up what we’ve done but not being behind an 8-ball where we are rushing to do things w/o developing them...
+  - This is methodological and technological problem — I use the technology myself, this is another reason to get behind the steel wall
+  - A lot of this is about attitude and planning; giving yourself enough extra room.
+  - LV: the problem is that you’ve been pro-active, but we have not been proactive — linking the desire to organise with the ability to organise.  When we go back to the PILOT.
+- Network is probably an advantage here
+
+
+* Check-out                                                              :5m:
+- LV: happy about this session, on break, happy we met 8 days ago and convened — also very happy with the breezy fan that Joe suggested!  I collected some nice things on the beach.
+- JC: Wanted to repromote his cloud-water-soda (?)
+- CP:
+- NA:
+- RSP:
+- VB:
