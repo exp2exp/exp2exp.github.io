@@ -47,6 +47,9 @@
 - But we might have been able to do more if we had the tools of collaboration that we’ve discussed
   - If I was to make a list:
 *** Collaborative slip boxes for a collection of notes
+#+CAPTION: Two types of collaboration workflows, illustrated
+#+NAME:   fig:leo-collab-types
+[[http://metameso.org/~joe/leo-collab-types.png]]
 - Ability to publish notes and work on those notes together
 - Submodule 1: Issues of authorship, conflict resolution, how to sync the database
 - Submodule 2: Ability to do these things “live” — we need to come up with a technical solution to traverse nodes together, rather than just traversing single nodes together (sharing an entire slipbox via CRDT)
