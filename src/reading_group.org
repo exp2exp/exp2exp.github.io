@@ -7,5 +7,35 @@ book(s) we select.
 * The Reasoned Schemer
 https://mitpress.mit.edu/books/reasoned-schemer
 
+** Table of contents:
+
+1. Playthings
+2. Teaching Old Toys New Tricks
+3. Seeing Old Friends in New Ways
+4. Double Your Fun
+5. Members Only
+6. The Fun Never Ends
+7. A Bit Too Much
+8. Just a Bit More
+9. Thin Ice
+10. Under the Hood
+11. Connecting the Wires
+12. Welcome to the Club
+
+
 * Grokking Algorithms
 https://www.manning.com/books/grokking-algorithms
+
+** Table of contents:
+
+1. Introduction to Algorithms
+2. Selection Sort
+3. Recursion
+4. Quicksort
+5. Hash Tables
+6. Breadth-First Search
+7. Dijkstra’s Algorithm
+8. Greedy Algorithms
+9. Dynamic Programming
+10. K Nearest Neighbors
+11. Where To Go next
