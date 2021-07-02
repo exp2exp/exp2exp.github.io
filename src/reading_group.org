@@ -1,0 +1,11 @@
+#+title: Reading Group
+
+We’ve been talking about reading a couple of books.  This would be
+estimated to take 3 to 5 hours a week until we’re done with the
+book(s) we select.
+
+* The Reasoned Schemer
+https://mitpress.mit.edu/books/reasoned-schemer
+
+* Grokking Algorithms
+https://www.manning.com/books/grokking-algorithms
