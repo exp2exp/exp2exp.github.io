@@ -35,10 +35,9 @@ transactions.
 
 Semantic networks formed from triples are prime ground for studying
 learning from the viewpoint of symbolic interactionism [12], since they
-make explicit the meanings, inter- actions, and interpretive processes
+make explicit the meanings, interactions, and interpretive processes
 with which learners are engaged. Interactive, textual, and social, such
-networks form input suitable for ethnographic research and ethnography-
-informed development work in the domain of personalized learning ([13],
+networks form input suitable for ethnographic research and ethnography-informed development work in the domain of personalized learning ([13],
 [14], cited in [15]).
 
 * Discussion.
@@ -110,7 +109,7 @@ benefits; this is the vision behind student involvement with “real-world
 problems” in the liberal arts [19] or sciences [20].
 
 A key theme in this proposal is that all learning takes place in the
-real world, so that, following to the rules of open systems, there will
+real world, so that, following the rules of open systems, there will
 always be extra value to capture. If we understand the semantics of
 different modes of learner engagement, and the associated products,
 externalities, and arbitrage opportunities, we will be able to create
@@ -120,8 +119,7 @@ social value of learning.
 *Agenda.* /(Phase I.)/ I propose to begin by making semantic maps of
 three domains: (1) personalized learning environments in general
 (starting with a network version of the survey given above); (2) the
-major target domain OpenLearn{2}; and (3) PlanetMath.org{3}, a non-
-profit community-based mathematics website, on whose board of directors
+major target domain OpenLearn{2}; and (3) PlanetMath.org{3}, a non-profit community-based mathematics website, on whose board of directors
 I serve.
 
 Over the past several years I have developed an open source
@@ -152,10 +150,9 @@ what's working.
 
 System prototyping in Domain (3) will proceed in concert with work by
 Ross Moore{6}, Frank Quinn{7}, and the Noösphere development team{8}, to
-develop tools for authoring self- grading problem sets, and methods to
+develop tools for authoring self-grading problem sets, and methods to
 assess and improve the quality of connection between the elements of
-PlanetMath's corpus. When see topics connected to exercises and applica-
-tions, preliminary materials, and resources for further learning, the
+PlanetMath's corpus. When topics connect to exercises and applications, preliminary materials, and resources for further learning, the
 result will be a tool that students can use for self-directed study in
 mathematics. Further, our tool will be able to track individual
 performance ([7], Chapter 11) and will have a sense of what has worked
@@ -163,10 +160,10 @@ for other learners in similar situations, so that we can provide the
 benefits of personalization.
 
 /(Phase III.)/ I propose to conclude the project by integrating my
-findings into a web front- end, that works transparently with other
+findings into a web frontend, that works transparently with other
 web-based learning platforms, and that facilitates mixing, annotating,
 and connecting learning resources. In some respects similar to
-iGoogle{9} , in the sense that it brings different modular interactive
+iGoogle{9}, in the sense that it brings different modular interactive
 resources and data feeds to the user, the tool should cut across modules
 in its annotation and connection layer. Indeed, the combination of
 connection and modularity is the key to commons-based peer production
