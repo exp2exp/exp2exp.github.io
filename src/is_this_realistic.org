@@ -1,0 +1,47 @@
+#+title: Is this realistic?
+
+* Joe’s plans for 2021-2022
+** Papers
+
+Aiming for approximately quarterly journal submissions.
+
+- EPSRC submission will have a journal follow on in a special issue for /Web Science/ journal
+- PLoP paper will only be finalised in December (camera-ready copy for PLoP); can potentially be submitted with subsequent improvements to the /TPLoP/ journal
+- Arandas et al. project to target /Philosophy and Technology/ journal
+- Baruzzi and Corneli to target /Leonardo/ journal
+- Murphy project to be written up (venue TBD, possibly also reusing material from Joe’s “Serendipity and Big Data” workshop presentation and associated preprint)
+- From December: focus on a paper related to [[file:arxana.org][Arxana]], tentatively for the International Conference on Functional Programming or IJCAI.
+
+This seems doable but ambitious.
+
+** Supervision
+- Murphy MSc project could spin off into a PhD project
+- If others come along with an interest in knowledge extraction, I could be a good co-supervisor
+
+** Grant development
+- Various project proposals continue (EPSRC, Horizon Europe, British Academy)
+- Engagement with new ATI-led initiative to build an EPSRC Network on Knowledge Graphs
+
+** Teaching
+- For Autumn I have been invited to teach Survey Fundamentals again, and additionally a new (?) course on Applied Data Analytics.
+
+* And does this help with the Roadmap?
+
+I think so:
+
+** Papers
+- Arandas: What would it take to reason effectively about user workflows?
+- Baruzzi: Where do narratives come from?
+- EPSRC spinoff: How do we extract concepts from documents?
+- PLoP: How do we engage with concepts in context (e.g., social, historical)?
+- Murphy: What aspects of this can be automated using ‘lightweight’ methods?
+- Arxana: How can we hook all of these aspects together in a working system?
+
+** Grants
+- EPSRC: Can we demonstrate concept-operative AI systems in domains like mathematics/programming, drawing on Q&A data?
+- Horizon Europe: Can we model values in discourse in a similar way? (Calculemus!)
+- British Academy: Can we embed these design systems in practical action?
+
+** Other
+
+- Continued upskilling and networking

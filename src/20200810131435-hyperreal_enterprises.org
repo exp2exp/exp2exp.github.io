@@ -36,6 +36,7 @@ grids.
 
 What if AI systems worked, instead, at the conceptual level?
 
-* Previously...
+* Other questions
 
 - [[file:is_this_interesting.org][Is this interesting?]]
+- [[file:is_this_realistic.org][Is this realistic?]]
