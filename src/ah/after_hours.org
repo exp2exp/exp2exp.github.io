@@ -53,4 +53,4 @@ the world they live in — have decided not to have children.
 
 * Reference
 
-- [[[[https://realitystudio.org/]]][[[https://realitystudio.org/]]]]
+- [[https://realitystudio.org/][https://realitystudio.org/]]
