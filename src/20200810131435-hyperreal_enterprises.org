@@ -37,7 +37,7 @@ work with abstract patterns in data: in this case, patterns built out
 of three-by-three grids.
 
 What if AI systems worked, instead, at the conceptual level?  It’s
-possibel to represent and reason about [[https://en.wikipedia.org/wiki/Olog][concepts]] on computers in a way
+possible to represent and reason about [[https://en.wikipedia.org/wiki/Olog][concepts]] on computers in a way
 that looks very different from word vectors.  But the infrastructure
 for computing with concepts isn’t as well established as contemporary
 neural methods, and isn’t yet connected with those methods in a
