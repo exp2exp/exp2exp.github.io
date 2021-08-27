@@ -20,21 +20,29 @@ To skip it, browse ahead to [[file:20200810132653-top.org][Top]].
 
 We started thinking about how to create AI tools that would process
 open source information and enable applications such as automated
-computer programming.  Then [[https://copilot.github.com/][Github Copilot]] came along and slightly
-stole our thunder.  But actually, Copilot leaves a lot more open
-questions than it solves.  Focusing on the technical side of things:
-what would it take to build an AI system for programming, with depth
-measured not in terms of neural network layers but in terms of
-understanding?
+computer programming.  Then [[https://www.youtube.com/watch?v=SGUCcjHTmGY][Open AI Codex]] and [[https://copilot.github.com/][Github Copilot]] came
+along and slightly stole our thunder.  But actually, these tools still
+leave plenty of open questions.
 
-A curious thought: AI systems can beat the best human players at the
-game of Go, but the systems in question don’t “know” the basic
-concepts of Go that any amateur human player would recognise.  The
-systems don’t work in terms of concepts, but rather, in terms of
-patterns in data: in this case, patterns built out of three-by-three
-grids.
+Focusing on the technical side of things: what would it take to build
+an AI system for programming, with depth measured not in terms of
+neural network layers but in terms of understanding?  And what about
+other domains of inquiry, like science, mathematics, or collaborative
+design?
 
-What if AI systems worked, instead, at the conceptual level?
+Here’s a curious thought.  AI systems can beat the best human players
+at the game of Go, but these systems don’t “know” the basic concepts
+of Go that any amateur human player would recognise.  These AI systems
+work with abstract patterns in data: in this case, patterns built out
+of three-by-three grids.
+
+What if AI systems worked, instead, at the conceptual level?  It’s
+possibel to represent and reason about [[https://en.wikipedia.org/wiki/Olog][concepts]] on computers in a way
+that looks very different from word vectors.  But the infrastructure
+for computing with concepts isn’t as well established as contemporary
+neural methods, and isn’t yet connected with those methods in a
+ready-to-use way.  If we were able to bridge this gap, we could apply
+AI technology everywhere there are /patterns/.
 
 * Other questions
 

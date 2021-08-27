@@ -2,6 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
+#+CATEGORY: ERG
 # Uncomment these lines and adjust the date to match
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-05-15 Sat>
@@ -24,7 +25,7 @@ and some informal chat. We take notes into the agenda using crdt.
 - Has verified that the bio conference is going ahead — so Ray, Cameron, and Ximo are out 12th June (to prep for June 14th presentation)
 - Week following will be attending bio talks
 - This leads into the talk about reproducibility
-*** TODO 12th is a Saturday off!
+*** BACK 12th is a Saturday off!
 ** Leo
 - Checkin: we have seen one another every day for the last 5 days, so only minor updates to checkins from the week
 - Feeling less of the vaccine presence, but can still muster some hilarity
@@ -219,7 +220,7 @@ Leo KNOWS Ray → Leo (knows from_Emacsconf) Ray
 **** If we were to contact them in mid-June for a 1st week of July panel... that’s too soon
 **** User research chat
 
-* TODO Make a long-range calendar for ERG
+* BACK Make a long-range calendar for ERG
 | Jul 2021 | Possibly going public |
 | Sep 2021 | Panel Emacs NYC       |
 

@@ -72,19 +72,19 @@ helps us carefully review progress, diagnose issues, and manage our
 energy.  The next phase of this project is to “go public” and mesh
 with ongoing related activities elsewhere.
 #+end_quote
-*** TODO Maintain plans for the next six months                  :breakdown:
+*** BACK Maintain plans for the next six months                  :breakdown:
 - We are doing research
 - Some more directly related to Emacs
 - Some with guests
 - Some ‘user’ and “market” research
 - Backlink to: [[peeragogy:Roadmap]]
-*** TODO Keep doing PARs and CLAs                                :breakdown:
+*** BACK Keep doing PARs and CLAs                                :breakdown:
 - This is our thing about method
 - Maybe we should be expanding this to patterns...?
 - This could be about presenting ‘futures’ in Patterns
  - NB: in Typescript work, there was a nice description of patterns
  - They talked about how we shouldn’t blindly internalise them
-*** TODO Mesh with other ongoing activities elsewhere            :breakdown:
+*** BACK Mesh with other ongoing activities elsewhere            :breakdown:
 - Stakeholders are much bigger group
 - Diversity of guests
 - Diversity of outreach (maybe some kids in London haven’t heard about programmers...)
@@ -94,7 +94,7 @@ with ongoing related activities elsewhere.
   - What’s the relationship to time, expertise, serendipity?
   - What’s relationship to ongoing Hyperreal activities?
   - To discuss more next week...
-**** TODO Come up with a categorical treatment of todo-categories
+**** BACK Come up with a categorical treatment of todo-categories
 *** Data
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:
@@ -144,20 +144,20 @@ that our planning process remain open and flexible: including to
 various disciplinary methods, and especially to change as we reflect
 on how things are going.
 #+end_quote
-*** TODO Identify potential stakeholders in Emacs Research       :breakdown:
+*** BACK Identify potential stakeholders in Emacs Research       :breakdown:
 - ‘Org Notes’ for some potential USERS
 - Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
 - Org Roam
 - Zanzi’s Smos stuff, Qiantan’s S-EXP based editor, treesitter stuff
 - Standardising Org? What are the different enablers?
-*** TODO Identify stakeholders in the kind of activities we can support :breakdown:
+*** BACK Identify stakeholders in the kind of activities we can support :breakdown:
 - Literature review?
 - “Lisp as alien technology”
-*** TODO Identify venues where we can reach these different stakeholders :breakdown:
+*** BACK Identify venues where we can reach these different stakeholders :breakdown:
 -  (who, what is the itinerary; having places to talk about research?)
-*** TODO Create some publication to plant a flag for our group   :breakdown:
+*** BACK Create some publication to plant a flag for our group   :breakdown:
 - To whom could we could present preliminary and intermediate results (e.g., some people who haven’t attended every session may want to have a summary to catch up).
-*** TODO Keep exploring!                                         :breakdown:
+*** BACK Keep exploring!                                         :breakdown:
 - (In terms of the Peeragogy Heartbeat concept, we have some people
   holding the fort; in this sense we are doing fine in terms of
   turn-out at weekly meetings!)
@@ -232,19 +232,19 @@ and saves a bunch of travel.  We could also set up a pricing model
 proportional to each country’s carbon emissions or something like
 that.
 #+end_quote
-*** TODO Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq) :breakdown:
+*** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq) :breakdown:
 -  (It would be great if we got the next big thing up and running in a year... but this is a lot to ask.)
 - But what would the “next big thing” look like at the level of, say, an ERC proposal?
-*** TODO Develop our own intention-based workflow                :breakdown:
+*** BACK Develop our own intention-based workflow                 :breakdown:
 - [x] Surfacing the experimental ground
 - [ ] What else?
-*** TODO Continue to develop and refine our methods              :breakdown:
+*** BACK Continue to develop and refine our methods               :breakdown:
 - This is already incorporated with the PAR and CLA (that’s actionable)
 - So would be doubling down here with a paper on our methods for PLoP
-*** TODO Develop a suitable collaborative writing workflow for a specific shared output :breakdown:
-*** TODO Think about the product and business development plans for a multigraph interlinking service :breakdown:
+*** BACK Develop a suitable collaborative writing workflow for a specific shared output :breakdown:
+*** BACK Think about the product and business development plans for a multigraph interlinking service :breakdown:
 - Inyatullah would want us to think critically about what we’re saying in this document.
-*** TODO Something similar with Pete Kaminsky and Lauralie ‘matching’
+*** BACK Something similar with Pete Kaminsky and Lauralie ‘matching’
 - Harder to do soul-matching...
 - It’s not just what they need to go but what you need to avoid (or, which half of the room?)
 - Use the friend magnetism to attract people (GravPad?)
@@ -308,9 +308,9 @@ commons.  Emacs can become a system for addressing any ‘existential’
 problem.  This does not yet push us beyond what’s humanly possible,
 but may expand the frontier of possibility.
 #+end_quote
-*** TODO Survey related work                                     :breakdown:
-*** TODO Assess what we’re learning                              :breakdown:
-*** TODO Figure out the gender balance stuff
+*** BACK Survey related work                                      :breakdown:
+*** BACK Assess what we’re learning                               :breakdown:
+*** BACK Figure out the gender balance stuff
 *** Data
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:

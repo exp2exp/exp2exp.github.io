@@ -2,6 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
 #+FIRN_UNDER: erg
+#+CATEGORY: ERG
 # Uncomment these lines and adjust the date to match
 #+FIRN_LAYOUT: erg-update
 #+DATE_CREATED: <2021-05-22 Sat>
@@ -294,7 +295,7 @@ may expand the frontier of possibility.
 - Still feeling wound up with Friday’s feelings
 - Reminded us that the check-out should now include scheduling info
 - Getting the plans in place will be quite useful
-*** TODO Meeting Alex for lunch on <2021-05-24 Mon>
+*** BACK Meeting Alex for lunch on <2021-05-24 Mon>
 ** RSP
 - Will be there to discuss further in the coffee chat and will look forward to seeing you all
 ** LV

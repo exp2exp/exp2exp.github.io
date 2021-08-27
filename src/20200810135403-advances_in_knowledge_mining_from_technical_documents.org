@@ -7,7 +7,6 @@ This would be a survey paper that would inform our efforts on
 approach.  Note that if we can find survey papers that others have
 done, that’s pretty much just as useful, and saves us a bunch of time.
 
-* DONE Reading "Machine Knowledge" paper                             :deyan:
 * Contributes to :noexport:
 
 - [[file:20200905134325-research_outputs.org][RESEARCH OUTPUTS]]

@@ -4,9 +4,6 @@
 
 * EHN progress
 
-** DONE Gather the notebook
-** DONE Ask Charlie for an example notebook and maybe a meeting about that
-
 * EHN future steps
 
 ** BACK Repeat something like Minnesota 2050 with some of these tools

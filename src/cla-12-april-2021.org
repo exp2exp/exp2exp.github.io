@@ -54,18 +54,18 @@ diagnosis of issues when expectations aren’t met.  Our work needs to
 be public first before we can embark on the next phase of this project
 — which is to mesh with ongoing related activities elsewhere.
 #+end_quote
-*** TODO Maintain plans for the quarter ahead?
+*** BACK Maintain plans for the quarter ahead?
 - We are doing research
 - Some more directly related to Emacs
 - Some with guests
 - Some ‘user’ and “market” research
-*** TODO Keep doing PARs and CLAs?
+*** BACK Keep doing PARs and CLAs?
 - This is our thing about method
 - Maybe we should be expanding this to patterns...?
 - This could be about presenting ‘futures’ in Patterns
  - NB: in Typescript work, there was a nice description of patterns
  - They talked about how we shouldn’t blindly internalise them
-*** TODO Mesh with other ongoing activities elsewhere?
+*** BACK Mesh with other ongoing activities elsewhere?
 - Stakeholders are much bigger group
 - Diversity of guests
 - Diversity of outreach (maybe some kids in London haven’t heard about programmers...)
@@ -115,17 +115,17 @@ want to keep a role for serendipity in our work. (Good to have some
 people holding the fort; we’re doing fine in terms of turn-out at
 weekly meetings!)
 #+end_quote
-*** TODO Identify potential stakeholders in Emacs Research
+*** BACK Identify potential stakeholders in Emacs Research
 - ‘Org Notes’ for some potential USERS
 - Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
 - Org Roam
 - Zanzi’s Smos stuff, Qiantan’s S-EXP based editor, treesitter stuff
 - Standardising Org? What are the different enablers?
-*** TODO Identify stakeholders in the kind of activities we can support
+*** BACK Identify stakeholders in the kind of activities we can support
 - Literature review?
 - “Lisp as alien technology”
-*** TODO Create some publication to plant a flag for our group
-*** TODO Keep exploring!
+*** BACK Create some publication to plant a flag for our group
+*** BACK Keep exploring!
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:
 :VISIBILITY: folded
@@ -183,14 +183,14 @@ people based on interest... Instead of paying money to go to
 conferences! Now we can spontaneously make up conferences. That will
 be $750.0 per user...)
 #+end_quote
-*** TODO Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq)
-*** TODO Develop our own intention-based workflow
+*** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq)
+*** BACK Develop our own intention-based workflow
 - Surfacing the experimental ground?
-*** TODO Continue to develop and refine our methods
+*** BACK Continue to develop and refine our methods
 - This is already incorporated with the PAR and CLA (that’s actionable)
 - So would be doubling down here with a paper on our methods for PLoP
-*** TODO Develop a suitable collaborative writing workflow for a specific shared output
-*** TODO Think about the product and business development plans for a multigraph interlinking service
+*** BACK Develop a suitable collaborative writing workflow for a specific shared output
+*** BACK Think about the product and business development plans for a multigraph interlinking service
 **** Supporting data from CLA 1                                   :noexport:
 :PROPERTIES:
 :VISIBILITY: folded
@@ -239,8 +239,8 @@ that allows us to synthesise new relationships? What big or
 beyond what’s humanly possible, but we are pushing ourselves to
 learn.
 #+end_quote
-*** TODO Survey related work
-*** TODO Assess what we’re learning
+*** BACK Survey related work
+*** BACK Assess what we’re learning
 **** Supporting data from CLA 1                                    :noexport:
 :PROPERTIES:
 :VISIBILITY: folded
