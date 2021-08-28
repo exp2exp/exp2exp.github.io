@@ -1,0 +1,155 @@
+#+TITLE: 28 August 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-06-19 Sat>
+
+* 28 August 2021 — Emacs Research Group
+* Check-ins                                                             :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Leo
+- Leo is feeling amp’t but also hungry - Mukban?
+- Late notice because we are just getting things dusted off here
+- Really happy to see you again in this more-or-less formal setting
+** Ray
+- Will have to leave in 40 minutes
+- Looking forward to discussing the paper
+** Noorah
+- Org Roam v2 messed up the system; for now I just want the Bibtex back, with connections
+** Joe
+- I went swimming in the river by myself, b/c neighbour Lizzie was away
+- Baked a vegan pizza to share with Lizzie and Imogen
+- Feeling more socially alive
+- ERG could fit into continuing that
+
+
+* Things to keep in mind
+** Goal for today — extended checkIN for Season 1
+- We don’t need to get a solid schedule out of the way today
+- Coming from ‘Zero’ seems to make things more serious but we don’t need to be too serious
+- The PLoP paper [[https://arxiv.org/abs/2107.10497][https://arxiv.org/abs/2107.10497]] was a way for us to echo what we wanted to do in the first PAR
+- Even though we have technically been on a break, we’ve been thinking about pedagogy, peeragogy, and Emacs
+** Record the sodding session
+
+* Agenda                                                                :55m:
+:PROPERTIES:
+:EFFORT:   1:20
+:END:
+** Some technology debrief                                              :5m:
+- Leo will be working on technology stuff but can’t justify /major investments/ right now
+- Leo could take over some of the bookkeeping stuff using his upgraded Org Mode
+- Only got some of the things done
+** Joe screenshare: Debrief PLoP                                       :10m:
+- We analysed some of what happened at the meet?
+- Do we want to make a white paper? 
+
+** ERG
+*** BACK Process the following points                           :Scrapbook:
+- "Patterns all the way down meme"
+- Workshop design is where JC overlapped with NA more recently, could we make an Emacs workshop?
+- Keep in mind that in December is the final deadline of PLoP, so we can report on progress then
+*** BACK Maintain plans for the next six months                   :Roadmap:
+*** BACK Keep doing PARs and CLAs                              :Assessment:
+*** BACK Mesh with other ongoing activities elsewhere         :Cooperation:
+*** BACK New user workshops: “Zero to Org Roam”                  :Newcomer:
+:PROPERTIES:
+:Subproject: ERG
+:END:
+- Are we minting the newcomer?  Or is the the next step for them?  What’s the next step for us?
+- Can we use some algorithmic thinking, rather than just with structured data?
+- 300 instances of "Newcomer" isn’t that relevant
+*** BACK Come up with a categorical treatment of todo-categories :FormalPatterns:
+*** BACK Identify potential stakeholders in Emacs Research      :Community:
+*** BACK Identify stakeholders in the kind of activities we can support :ASpecificProject:
+- How should we share/disseminate what we’ve done?
+- Publicise some?  Private meetings?
+*** BACK Identify venues where we can reach these different stakeholders :Wrapper:
+*** BACK Create some publication to plant a flag for our group      :Paper:
+- PLoP paper has been progressed! ✓
+*** BACK Keep exploring                                       :Serendipity:
+*** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research :Community:
+*** BACK Develop our own intention-based workflow                   :Forum:
+*** BACK Continue to develop and refine our methods            :Assessment:
+*** BACK Product and business development plans for a multigraph interlinking service :Website:
+- Maybe we need this to keep our items organised
+- Could we prototype some of this stuff with a modern graph database?
+- What about Spivak’s version of a database? is CQL somehow relevant...
+- /Relates to/ [[Come up with a categorical treatment of todo-categories]]
+**** Manage the technical issues within ORG mode
+- =make-anchor= + =insert-link-to-anchor=
+- If we can at least get them linking with each other
+*** BACK A tool to find and match peers/content               :RECOMMENDER:
+*** BACK Survey related work                                      :Context:
+- We have a Related work section of the paper and [[Reading groups and seminars]]
+*** BACK Assess what we’re learning                            :Assessment:
+*** BACK Think about how we can help improve gender balance in Free Software :DIVERSITY:
+- Relates to [[Create some publication to plant a flag for our group]] since we reference some people who talk about this
+
+
+** Objectives for Season 1                                             :10m:
+- LV really wants to get the technological side massively overhauled
+- Will PLoP lead to something?  Making some of this stuff things we could do on a regular basis with ERG
+- Going public and having more people come into the meetings
+- RP: In what sense PUBLIC?  Maybe approaching it gradually. So let’s discuss this.
+- RP: Hypernotebook, busy now but later this year would like to work with this. It’s not just developing it, but how it would fit in with other things. So I could benefit from group discussions rather than going ahead.
+- RP: An interesting question is, how does Emacs fit with the other platforms (RStudio, Logseq).  Would we want a "Logseq mode"?  Taking Org stuff and detaching it so it could interoperate with other languages/platforms.  This relates closely to Hypernotebooks, because one of the main ideas there was that things would be written/interact with programs outside of Emacs.  Basically "How does Emacs fit with the outside world". (JC: I was thinking about Planetary mode for PlanetMath stuff... but never made it.)
+- RP@NA: We’d appreciate your expertise on the workshop for PLoP about climate change, having to do with patterns and CLA on this; how would we quantify progress with this
+- NA: I’ve been thinking about workshopping as a method, could draw on some software expertise though it’s mostly policy; it has to do with teams, and where
+- JC: Bringing up some insights from our respective worlds (software-engineering, policy-making) could bring us closer to /deliberate practice/.
+- JC: Speaking about the paper and the WORKSHOP, JC tried to approach other teams which we could consider as stakeholders in what we’re doing. The connection with Abby Tabor at UWE.  "Flaws of the Cool City" is a prototype.  We could possibly run through it sometime soon.
+
+** ----------------------------------------
+** HyperReal & ERG scheduling: Reading groups and coffee chats         :15m:
+- JC: reminiscent of what they’ve recently done with RP for Peeragogy
+  - Time scales: weekly, monthly, 6 months, year — mirroring the CLA layers
+- E.g., if we want to organise a review for a workshop and we only do it during the coffee chats then NA might not be able to attend
+- Thinking about technological aspects: make a note and share it with Leo, you can send them and Leo will collect them, and accrue...
+- NA could tentatively commit to Tue/Thu/Fri on coffee-chat times (1500Z, 10AM local)
+** Fairly informal debrief of the summer                               :10m:
+- Academia and Private sector; semesters vs quarters =:-)=
+- Might have to be more deliberate about how we schedule things
+- We’ve tended to rely a lot on serendipity, as a team, if (say) Joe’s the centre for research, we coordinate around pairs about the topics we’re working on 1-1 and the Joe can pull things together
+- Might be interesting to share practices of chairing (but no need to do that right away)
+- Leo’s willing to be someone ‘who keeps track of everything’ — but the issue could be better for the person(s) who are working on those things
+- Wiki/ZK/Todos
+** Academia vs. private sector
+- Sponsored research by employer
+- Full-time job could facilitate research work and other extra stuff pro bono; how much time I have will depend on 
+- Novel careers in industry
+- Career changes after 5 years in any case
+- Academia is a bit more samey, you’ll have paper-writing, more meetings
+- JC@NA Please come and bring some of your work in progress
+
+** Unstructured time                                                   :40m:
+
+* Next actions
+** Schedule a session about ‘going public’
+** Preparing the workshop for PLoP
+DEADLINE: <2021-09-17 Fri>
+
+* PAR                                                                   :10m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Formally back after summer break, looking at our intentions for S1
+*** 2. Establish what is happening: what and how are we learning?
+- LV has grown some muscles (and perhaps gills) over the summer
+- We looked at the =BACK= log items from the paper and decided to reflect more on that for further discussion later ("Scrapbook" style)
+- Talked about life, and how we’re adjusting what we’re doing as we go
+*** 3. What are some different perspectives on what’s happening?
+- We still had minutes, didn’t drop formalism, got a lot of things done given the time constraints.
+- Patterns and methods seem useful
+- Good to detect difficulties early...
+*** 4. What did we learn or change?
+- JC: Reiterated interest in discussing Noorah’s project in coming weeks
+- Burn-out and recovery is always in progress...
+*** 5. What else should we change going forward?
+- NA: Meeting committee member next week
+- Talk to people in person! Daily acts of beneficence are always good for people writing a thesis.
+
+* Check-out                                                              :5m:
