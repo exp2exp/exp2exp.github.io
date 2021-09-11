@@ -1,0 +1,192 @@
+#+TITLE: 11 September 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-09-1 Sat>
+
+* 11 September 2021 — Emacs Research Group
+* Check-ins                                                             :20m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Ray
+- In about a week we'll be having a Writer's Workshop and reading 5-6 papers with feedback on the others
+- We were talking in the week about different reading groups and thought of ERG as a seminar within that schedule
+** Noorah
+- Doing OK so far, had a meeting w/ committee member who is excited about her work so far, and you’ve refined it a lot in the last couple months!
+- Nice feeling validated but now... I have to keep going (I care about the topic!)
+  - RP@NA: We had daily tea time, discussion; similar to IAS
+  - NA: That’s really cool!
+** Joe
+- Tired from playing Go last night, we did turn in the paper yesterday.
+  - Maybe reading 10 pages a day or so would be good
+- Going into lots of teaching after summer vacation with more in-person social life recenty
+** Leo
+- I’m sensing the pressure rising w/ the upcoming interview; presently a fuzzy feeling with a lining of anxiety
+- Working on exercises, reading the Elisp manual, looking into Common Lisp loops (different from mapping)
+  - RP: When Emacs was developed Elisp was originally based on Maclisp, CL came out later (and has lots of features), Common Lisp library for Emacs came later still
+- Have kept on swimming, doing more than before; feeling great physically, and so feeling good
+- NA: You’ve inspired me to go back to swimming!
+
+* Things to keep in mind
+** Record the sodding session
+
+* Agenda                                                                :55m:
+:PROPERTIES:
+:EFFORT:   1:20
+:END:
+** PLoP: Preparing the workshop                                        :20m:
+- Clarifications:
+  - We’re preparing the workshop together, but one of us will have to carry out the plan on D-day
+  - The person who will carry out the plan will need to be registered with PLoP (50 USD)
+- We’ll be busy reading papers for the WW
+- "September 24 - October 1 | Writer's Workshop week"
+- "October 5 - 7 | PLoP Conference days" (our workshop)
+- *"Regarding the logistics, we would like to make a call next week and co-organize it with you."* - Ademar
+
+*** Current workshop outline
+- Protocol, prompts, questions
+- This is a good source of depth, working with workshop-as-method, knowing how to start, facilitate, and end the workshop.  It can’t just be an ERG meeting where we go on tangents and explore feelings and such!
+- Timing still to be determined
+- Good to do some planning in advance; do it differently from the Kaiju workshop at Brookes (e.g., do more simulation)
+- How much time do we want to spend on ERG meetings preparing for the workshop?  Should it move to a slot during the week?
+  - JC: In ERG, let’s think on the mid-term strategy about how this relates to what we would want to do with Emacs (e.g., could we run a similar workshop at EmacsConf)
+  - RP: On the short-term, we might have to use some of ERG time
+  - JC: Nominate NA to be guest-chair for future ½ hour sections?
+  - RP: Maybe wait until October to start the Reasoned Schemer reading group
+    - JC: Fine
+  - NA: I like focusing on one project in September and focusing on one thing in October
+- Next workshop meeting?
+*** Scheduling a working session for the workshop
+- Can meet for a strict hour Tuesday 10AM and Thursday 10AM
+- Monday, Wednesday, and Friday 10AM are ‘real’ coffee chats?
+
+** Are we spreading ourselves too thin?                                :40m:
+*** Current situation:
+- Commitments to perform in the next few weeks
+- Let’s try to do proper checkins to prepare us to talk without thinking about all the other stuff going on
+
+*** Adjacent possible
+- Leo and Alex starting with Phoenix project week of the 13th (time TBD)
+- We’ll need time for reading PLoP
+- Need separate time(s) for Peeragogy meetings, to advertise appropriately
+
+*** Concerns
+- Let’s not do things like propose the Peeragogy course and not follow through
+- Monthly heartbeat to assess "what will we do this MONTH"
+- Reminiscent of TODOs becoming (linking to) patterns (next action for Leo is to optimise)
+- JC: Concerned about his own health; personally spreading himself thin; worries about the sustainability of it all; needs to do something substantial over the next 3 months (seasonal peer-review?)
+  - Easy action: don’t come to every possible meeting! — Learn to let go of some of the stuff
+  - Maybe we could do this with everyone?
+- There’s a peeragogy pattern called Wrap which is, e.g., if you come to the monthly meeting or quarterly meeting, you can prepare a summary of what you’ve done...
+- We might need an HR department
+ - [[https://www.salesforce.com/blog/how-to-create-alignment-within-your-company/][https://www.salesforce.com/blog/how-to-create-alignment-within-your-company/]] for reference of an example template, i.e., in short:
+
+#+begin_quote
+1. Vision — what do you want to achieve?
+2. Values — what’s important to you?
+3. Methods — how do you get it?
+4. Obstacles — what is preventing you from being successful?
+5. Measures — how do you know you have it?
+#+end_quote
+
+*** Reviewing tasks/patterns which JC showed during the last session
+- These are not yet linked with "time-needed", it would be great to have that nailed down.
+- @Leo might be able to work this into his prep from the material we sourced
+*** Are we spreading too thin *with ERG*?
+- 14 sessions until the end of the year
+  - Big checkpoint after 10 Saturday sessions for EmacsConf 2021; after 6 we definitely need to know what we’re doing to respond to the EmacsConf CFP.
+- We should have a discussion about what we want to do for EmacsConf 2021 ASAP (next week?)
+  - We’ve done different stuff together
+  - We could talk about patterns, PLoP, how we work together, a practical discussion about using CRDT
+  - "Flaws of the Open Community" workshop...?  We still haven’t prototyped it but might not have it ready; and a 3 hour workshop isn’t likely to work.
+  - We can be proud of coming out with a method — we could say "we will be running this in small groups for the next four weeks, please register and come to one of the sessions"
+  - NA: One of our presentations is just to talk about what we’ve been doing so far!
+  - RP: And say something about "here’s how we would welcome people to be involved".
+  - JC: EmacsConf people have been doing a lot with in-person meetings, could something like that be something we can connect with?
+   - RP: Certainly people will be restarting in-person meetings, but what will ERG’s role be in such a world?  We could do some scenario planning around this kind of thing.
+   - JC: We could quote [[https://github.com/exp2exp/ob-servant#interdisciplinary-collaboration][https://github.com/exp2exp/ob-servant#interdisciplinary-collaboration]] and talk about requirements for this kind of thing?
+
+** Presentation ideas for EmacsConf                                    :15m:
+- Something along the lines of the findings from Patterns of Patterns paper
+  - We wanted to get more communities involved
+- Something to talk about what we’ve done and how people could get involved
+  - (Maybe this is just another part of the same story above.)
+- One talk would reduce the amount of stuff we need to prepare, maybe Leo could get us at most one hour (total, across 40 + 20 minutes; for paper presentation + deplacardising)
+- Great to find useful ways for people to get involved with
+*** Risks
+- Leo will get increasingly busy with EmacsConf organisation, so probably can’t be too involved with making or delivering the presentations
+
+** Emacs-devel mailing-list shenanigans                                 :10m:
+- Not dissimilar to some of the discussions we had around diversity
+- Some maintainers have been exhibiting behaviour that Leo and Amin find befuddling
+- Think of Linus Torvalds sulphurous attitude towards contributors to Linux
+- We’re starting to notice similar patterns with emacs-devel
+- Amin sent an email to the maintainers saying: why are we having so much negativity being spewed here?
+- If we’re working on inclusivity/diversity and being a nice front to a good community, then it sucks to be... a lovely house in the suburb with a wonderful porch and windows, and then you open the door and there’s a nasty dog biting you when you open the door
+- If we have this sort of feel, then it undermines the work we’re doing (especially with Sacha)
+- There are problems with the maintenance of Emacs; when I was defining the crowdfunding campaign for Org Roam, I wanted to have a "mediation" role; at that time it had to do with integrating code, but now I’m thinking about patterns of maintenance (though I haven’t got all the picture of how it goes on, I do have input in how we do that, in an inclusive and diverse fashion)
+- Any intervention will need to be a carefully crafted endeavour; the move towards more diversity and inclusivity is something LV now feels comfortable talking with people about this; I was emboldened by our activities in EmacsConf+ERG in this regard, making progress on keeping ourselves accountable.
+*** Replies
+- RP: The situation could easily be parsed via CLA:
+  - Myth: Heroes like Stallman or Torvalds; but now there’s been lots of comeuppance going on saying these things are not acceptable
+  - There are immediate things to do but we need to also address it at the deeper root causes
+- LV: The CLA+PAR methods are informing how we’re tackling some of these things; e.g., with Stallman if you hold someone on a pedestal, then you’re very much in the myth layer.  So, this has given some credence to what we’ve been doing
+
+
+* Next actions from last time
+** DONE Discussion of preparing the workshop for PLoP
+CLOSED: [2021-09-11 Sat 19:32] DEADLINE: <2021-09-17 Fri>
+** TODO Schedule a session about ‘going public’
+- This will be /one/ of our six sessions to get ready for "Emacs Research Group Season 1" talk
+
+* PAR                                                                   :15m:
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** 1. Review the intention: what did we expect to learn or make together?
+- LV: We wanted to resume our ERG sessions with tight agendas.
+*** 2. Establish what is happening: what and how are we learning?
+- LV: We had a nice, packed session where we covered a lot of ground.
+*** 3. What are some different perspectives on what’s happening?
+- JC is a little concerned that there’s been back-and-forth LV/JC and LV/RC, but very little LV/NA or other permutations
+  - JC was especially made aware of this when he was muted (NA likes this idea too)
+- LV: It’s been a while since we had a session with stringent minutes, I reinserted the stringency around the minutes this time; we covered a lot of ground; are we sure that everyone is following?  I might make jokes with Noorah, and she smiles, and in my mental landscape I see this and it counts as interaction.  With Joe and Ray, they are sometimes bolstered in making points that were made before in coffee chats and they might be poignant again
+- NA: It can be overwhelming when a lot of different things are going on (during the meeting)
+- RP: I like the solution of planning that we’ve been developing here.  Maybe one of the reasons we have to go so quickly through the topics is that we don’t have things scheduled.  This would allow us to focus on workshops (for example) without going through so many different topics
+*** 4. What did we learn or change?
+- JC: We could probably improving our usage of crdt.el and experiment with silent-sessions
+- Earlier "are we spreading ourselves thin" section, we naturally did a survey of the things that we have on our mind
+- LV: One reason for speaking/chairing more than before is that I’m formalising the things we do, and the pseudo-org-agenda is presently in my head, so I’m bringing up the meta-points, this causes us to jump to another level even if I try to do it in a way that’s unobtrusive
+  - It’s like reinstalling the formula with the previous season’s characters
+- RP: Problems come up when we are reactive with, e.g., workshops that we have to run but haven’t been planned well
+*** 5. What else should we change going forward?
+- Liaise with Emacs NYC to check out what’s going on there regarding scheduling
+- Add in month/quarterly meetings, and other ways to keep track of what we’re focusing on
+- Maybe we should spend some time on concerns at the start of the next meeting
+
+* Next actions
+** Come up with a plan for quarterly reviews à la HR
+** LV: Prepare the psuedo org-agenda files with our tasks for ERG
+** Implementing pauses in the meeting so that people can rest their minds and go get drinks
+
+* Tentative agenda for next week
+** Rethinking the rhythm of the meetings
+** Distantiated look on PLoP workshop
+** Prepare 5 or 6 topics for EmacsConf presentation
+- To be developed over next 3-4 weeks (max 5), assuming we spend some time later polishing the proposal!
+- One of them can be "Going Public" — what are the others?
+
+
+
+* Check-out                                                             :10m:
+** JC
+- Had to leave early for dinner!
+** RP
+- Meeting went well; looking forward to the next one!
+** NA
+- Will see us on Tuesday for the workshop
+** LV
+
