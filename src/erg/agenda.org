@@ -1,0 +1,22 @@
+* Long-term tasks
+** TODO Schedule a session about going public
+:PROPERTIES:
+:CREATED:  [2021-09-18 Sat 15:39]
+:END:
+- This will be /one/ of our six sessions to get ready for "Emacs Research Group Season 1" talk
+
+* Short-term tasks
+** TODO Come up with a plan for quarterly reviews à la HR
+:PROPERTIES:
+:CREATED:  [2021-09-18 Sat 15:40]
+:END:
+** DONE Prepare the pseudo org-agenda files with our tasks for ERG      :LV:
+CLOSED: [2021-09-18 Sat 15:42]
+:PROPERTIES:
+:CREATED:  [2021-09-18 Sat 15:42]
+:END:
+
+* Calendar
+| EmacsConf 2021 - CFP closing        | [2021-09-30 Thu]                   |
+| Deadline for submitting our talk(s) | [2021-10-16 Sat]                   |
+| EmacsConf 2021                      | [2021-11-27 Sat]--[2021-11-28 Sun] |
