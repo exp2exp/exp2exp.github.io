@@ -1,0 +1,366 @@
+#+TITLE: 18 September 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-09-18 Sat>
+
+* 18 September 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+:PROPERTIES:
+:EFFORT:   0:20
+:END:
+** Ray
+- Will only be able to stay for 2h (sharpish to go meet Cameron, and this is on his mind, trying to free up some weekend-off time by doing everything needed now)
+** Noorah
+- Busy morning: elecro-muscular stimulation makes 30 minute workout equivalent to 3 hours!
+  - JC: Plus Barton Springs
+** Joe
+- Has lilacs (because the UK is weird)
+- Has a 3 sentence Fearless Change talk 
+** Leo
+- After losing weight due to swimming now needs the 5th hole on his belt (alteration should be free)
+- Had a very long EmacsConf debrief (2'15"); prepared a lot of stuff for Emacs 2021 and 2022.
+- Exploring options about more discussions during the conference w/ some informality and high-standard
+- Tomorrow is potentially the last “mock” interview; would have loved to review some of this stuff, might push the actual interview off another week to be extra sure
+- Excited about today b/c he put a lot into the plan
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+
+* Next actions from last time
+** CXLD Schedule a session about ‘going public’                  :cancelled:
+CLOSED: [2021-09-18 Sat 15:36]
+:LOGBOOK-NOTES:
+- State "CXLD"       from "TODO"       [2021-09-18 Sat 15:36] \\
+  Moved to agenda.
+:END:
+** DONE Implementing pauses in the meeting so that people can rest their minds and go get drinks
+CLOSED: [2021-09-18 Sat 15:53]
+- Related to micro-pauses in the conversation to give everyone a chance to think and voice ideas
+
+
+* Agenda                                                                :90m:
+:PROPERTIES:
+:EFFORT:   1:20
+:END:
+** Meta points                                                         :10m:
+*** LV: New organisation tools
+*** Rethinking the rhythm of the meetings
+- LV: Last week, we suggested taking a break during the meeting; I’ve elected to place it at the middle of the agenda (cf.
+  [[*Pause][Pause]])
+- There’s also an Agenda that Leo has been developing based on the items from our PLoP paper; you can also add items but let Leo know if you push something so he can keep track of it. Everything he has in mind for ERG will appear here.
+- JC: Will look and comment later, I believe this gets everything from the paper in it, will check.
+- NA: reduce number of main agenda items (?)
+  - As a general plan, having THREE things in the agenda could be a good thing
+** Distantiated look on PLoP (Writers Workshop, and climate workshop...) :12m:
+*** What can ERG do to help?
+- Let’s try to make sure we have a clear headline idea of what the workshop actually is about
+*** What do we need to schedule here?
+- Do we do this Tuesday and Thursday again, 4PM UK
+**** Further details to deal with, e.g.,
+- Historians: they only need to /read/ the scenarios they will run along with the general guidance for historians
+*** Leo is mostly external now
+- If we could walk Leo through it in 10 minutes on *Thursday* he can be around (to present the 15 minute intro)
+** Quick look on Fearless Change workshop                               :5m:
+
+*Bringing communities together*
+
+1. In our research groups, we have combined and adapted methods from elite training, future studies, and collaborative design.
+2. These methods have helped us run small-scale collaborations, and we wonder whether they could be used to scaffold large-scale distributed collaborations as well.
+3. We would like to start by sharing the combined methods with all the communities whose work we’ve drawn upon, and get their views: the challenge will be to bridge between different backgrounds.
+
+4. (Cf. Literature on collaborative governance for later.)
+   a. [[https://www.cambridge.org/core/books/adaptiveness-changing-earth-system-governance/assessing-the-adaptive-capacity-of-collaborative-governance-institutions/825D80580F34C6CC31730F88EFF79E26][Assessing the Adaptive Capacity of Collaborative Governance Institutions]]
+   b. [[https://www.sciencedirect.com/science/article/pii/S0301479713001667][Collaboration and nested environmental governance: scale dependency, scale framing, and cross-scale interactions in collaborative conservation ]]
+   c. JC: Thank you!
+5. It’s one thing to bring together the methods, it’s another to bring together the communities!
+6. Reminiscent of ‘transdisciplinarity’: this feels like it’s in direct communication with something that we have been doing since this started 
+
+** Starting work on a plan for EmacsConf submission (alongside everything else) :13m:
+*** Let’s plan from the deadline of October the 16th
+- We’ve got 4 ERG sessions (including this one) to prepare our proposal for EmacsConf:
+  - Revised plan in light of the 2nd part of the meeting
+    | [2021-09-18 Sat] | /General discussion about the format & figuring out the points we want to cover/  |
+    | [2021-09-25 Sat] | Finish ERG-tech presentation (30m) & Plan ERG-meta (30m)                          |
+    | [2021-10-02 Sat] | Finish prep for ERG-meta (1h)                                                     |
+    | [2021-10-09 Sat] | Overflow                                                                          |
+    | [2021-10-16 Sat] | Ultimate overflow (Record the talk?, though it doesn’t need to happen right away) |
+
+- To be clear, the ideal would be to have the whole talk written by the time, and only need to record it
+- Would be nice to have a high-level objective to address the challenge ③ above.
+- 40m (about our group, what we’ve done, what we’ve achieved, what it means for Emacs) +20m (demo how we’ve used CRDT, or otherwise how we run the meetings)?
+- Similar to LV and NA talks from last time (org roam + application to research)
+** COMMENT Pause                                                        :5m:
+- yay!
+** Prepare EmacsConf presentations                                     :45m:
+
+*** 40m talk + 20m of question time
+- ‘What is ERG’ take time to get going.
+- ‘What is Emacs, Really?’ (this is something we’ve talked about, and it could be a research question.)
+  - This is a question that needs to be asked (cf. fish and water)
+
+Theme:
+
+- ‘What is ERG, Really?’
+
+- We might need 40 minutes to talk about "What you will see in the upcoming demo."
+
+Possible research questions for us to think about now:
+
+- "/How should/ Emacs Research Group go public?"
+- "How can Emacs Research Group best /serve/ the public?"
+- "Why should ERG go public?"
+- And even more fundamentally: *‘Why ERG?’*
+
+ORGAMI :-)
+
+- ‘Lost in La Mancha’ metaphor
+- Cf. ‘He Dreams of Giants’ which is a follow-up documentary
+
+
+**** Listener framework (Hero’s journey of the reader?)
+
+#+begin_quote
+*4 Campbell's seventeen stages*
+
+    4.1 Departure
+        4.1.1 The Call to Adventure
+        4.1.2 Refusal of the Call
+        4.1.3 Supernatural Aid
+        4.1.4 The Crossing of the First Threshold
+        4.1.5 Belly of the Whale
+    4.2 Initiation
+        4.2.1 The Road of Trials
+        4.2.2 The Meeting with the Goddess
+        4.2.3 Woman as the Temptress
+        4.2.4 Atonement with the Father/Abyss
+        4.2.5 Apotheosis
+        4.2.6 The Ultimate Boon
+    4.3 Return
+        4.3.1 Refusal of the Return
+        4.3.2 The Magic Flight
+        4.3.3 Rescue from Without
+        4.3.4 The Crossing of the Return Threshold
+        4.3.5 Master of the Two Worlds
+        4.3.6 Freedom to Live
+#+end_quote
+
+**** Timeline framework (What are our plans?)
+
+- To what extent are we prepared to ‘go public’?
+- I’m willing to downscale the time I can invest over the next couple months so I’d rather push it
+- If it is public, maybe in a limited way
+  - ERG itself is a way to go public
+  - Could just share video recordings on YouTube?
+- Would we be ready if 5 people watched this and wanted to join us?
+  - If we wanted it to really be public we would have a whole season planned (e.g., like a plan for a reading group or course)
+  - We are at approximately that point with Peeragogy, but probably not yet with ERG
+- However, reducing frequency would come with a loss of meaning.  If a chair or someone else highly involved drops participation, energy goes out.
+
+**** People framework (Just us talking about ERG in a panel!)
+
+- Joe
+- Leo
+- Noorah
+- Ray
+
+**** Technology framework (The tools we use)
+
+***** WE USE
+- CRDT (user research)
+- Org Mode
+- Org Roam
+- BBB
+- Git
+***** WE’RE WORKING ON
+- ... Hypernotebooks 
+- ... Arxana
+***** WE’RE ALSO STUDYING AND THINKING ABOUT HOW WE MIGHT INTERFACE WITH
+- ¶ Roam Research 
+- ¶ R Studio
+
+But we don’t just want to say “we’re a group of people who use tools”.
+
+**** Methodological framework (The methods we use)
+
+- PARs
+- CLAs
+- Patterns
+- Checkins
+- Checkouts
+- ...
+
+But, again, we don’t just want to say “we’re a group of people who use these methods” (especially since we want to share the methods with others!)
+
+**** Peeragogy framework (would we think about ERG in a peeragogical way)
+
+Stuff that JC and RP use for Peeragogy that could be useful for structuring our own talk?
+#+begin_quote
+WHAT ARE WE TRYING TO DO TODAY?
+
+Course
+Podcast
+Software
+Project
+Community
+Peeragogy Handbook
+Customers/Outreach
+Papers
+#+end_quote
+
+- E.g. the "Course" here would be analogous to “ERG going public”
+
+**** PLoP framework (outline of the paper)
+
+- Abstract 
+- Introduction
+  - Outline of Methods
+- Project Action Review (PAR) is the sensory element: systematically gathering and verifying observational data.
+- Causal Layered Analysis (CLA) is the cognitive element: giving organization and depth to the enterprise.
+- Design Pattern Language (DPL) is the motor element: orchestrating and scaffolding action
+  - Summary of Findings
+  - Supplementary Material
+- Background
+- Methods
+  - Project Action Review
+  - Causal Layered Analysis
+  - Design Pattern Languages
+  - PLACARD: A Synthesis of PAR, CLA, and DPL
+- PLACARD
+- Context of the Research
+  - Design Pattern Language literature and practices
+  - Emacs Research Group
+- Results
+- Discussion
+  - Scenario I. Patterns become explicitly computational
+  - Scenario II. Pattern language authoring communities move to free/libre/open source licensing
+  - Scenario III. PLACARD scaffolds new literacies of collaboration
+  - Scenario IV. Patterns eat Big Tech
+  - Related Work
+  - Criticisms
+  - How PLACARD relates to Alexander’s broader programme
+- Conclusion
+- Acknowledgements
+
+**** Narrative framework (CLA from the paper)
+
+We’ve made progress since we started with the raw themes of *Research
+on/in/with Emacs* back in December 2020.  We’ve met almost every week
+since then, and interviewed some interesting and varied guests.  We
+have a clearer idea of what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users.  We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  The next phase of
+this project is to “go public” and mesh with ongoing related
+activities elsewhere, including by getting some training events up and
+running.
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration.  We like to create tangible deliverables (e.g. journal
+articles). However, “If we knew what the outcome was, it wouldn’t be
+research”—therefore, we’re focusing initially on research methods
+and design documents. That may result in a longer time to write
+initial papers, but when something is released it is more thoroughly
+prepared. Meanwhile, we keep our skills sharp by fixing bugs,
+improving our own workflows, and actively exploring the landscape. All
+these activities are part of the system we implement regularly, which
+minimizes technical debt and allows space for serendipity to occur.
+
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can learn from and eventually improve upon.
+‘Practice’ and ‘method’ keep coming up in our discussions as,
+respectively, ‘more bottom up’ and ‘more top down’ ways of actualizing
+things.  Concretely, we’ve been studying our own processes and looking
+for the tools and settings that are the most conducive to the work we
+want to do.  For example, instead of having a single Org Roam
+directory shared via Git, what if we had ways of managing sharing of
+notes across ‘graphs’?
+
+Collaboration is familiar to teams across all domains. Even authors
+working alone will collaborate with their past and future selves. What
+is common for all collaborators is that the transfer of information
+must be uninhibited.  If we all had our slipboxes online, we could
+interlink them.[fn:: The zettelkasten (German for “slip box”, plural zettelkästen) is a method of note-taking and personal knowledge management used in research and study.  ([[https://en.wikipedia.org/wiki/Zettelkasten][Wikipedia]])]  This would generalize *ORCiD*, and allow people to
+reference processes that are undergoing evolution.  Maybe a service
+like this would turn into a ‘Tinder for academics’—helping to match
+people based on their interests (or similar people in different
+fields).  So, what’s the price point?  Instead of paying money to go
+to conferences, now we can spontaneously make conferences and
+workshops.  As a guess, $750.0 per user per year might be a fair price—for those who can afford to pay it—if the service helps people to
+do better research and saves a bunch of travel.  We could also set up
+a pricing model proportional to each country’s carbon emissions or
+something like that.
+
+In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
+perspective]]’.  This includes both retrospective and prospective
+thinking.  For example, the things that were timely 7 years ago might
+not be so timely now; in many cases the relevance of a given
+innovation goes down over time.  However, Emacs has an evolutionary
+character that has allowed it to keep up with the times—becoming
+more relevant and useful ever since Steele and Stallman started to
+systematize [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
+program.  Not only has the technology evolved, but so has the social
+setting in which this work is done.  Whereas the concepts underlying
+the free software movement were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source
+code, these methods can be extended and allow us to synthesize new
+relationships within broader semiotic commons.  Emacs can become part
+of a system for addressing large-scale existential problems, by
+expanding the frontier of what’s possible for human beings.
+
+
+
+
+*** 40m demo + 20m of question time
+
+- To be developed over next 3 weeks, assuming we spend some time later polishing the proposal!
+- One of them can be "Going Public" — what are the others?
+
+* PAR                                                                   :10m:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+- JC: Mainly focussed on preparing our thinking for the ERG
+- Leo brought some "how do we do things around here" ideas and questions for discussion
+*** 2. Establish what is happening: what and how are we learning?
+- RP: We got to important questions like what does it mean to go public, what kind of presentation, etc. We didn’t have all of these things settled, we had to figure these things out before we could start
+- NA: Where can I put a comment about “Why we should present our case of people getting together and creating their own communities similar to ours?”
+  - JC: This is partly an answer to "Why ERG"
+  - RP: Going public might just be "make public what we do" — e.g., they could make their own research group — not a grand opening of a new business;
+  - Some of the pressure I felt was assuming 1 default meaning of ‘going public’; can we make clear the meanings we have for these key things; we haven’t done the job, it’s been nebulous. Only when we considered the EmacsConf proposal did we consider this.
+- We could do live-support for Coursera or something like that.
+- What about an Emacs MOOC?  (Revisit the Peeragogy chapter with an applied example.)
+*** 3. What are some different perspectives on what’s happening?
+- Noorah’s Logitech mic is nicely active today!
+- If we want to go public one thing we might do is upgrade our kit to at least get to Leo’s level
+- LV: For next week just prep the tech presentation quickly
+- Try to keep the agenda to 3 POINTS for ease of grasping by attendees
+- Thanks to Leo for prepping this
+- JC: CRDT is similar to a blackboard (cf. Michael Barrany); recall that Joe used to do real-time transcripts in maths, there is something anchoring for what we could do here
+*** 4. What did we learn or change?
+- JC: In our plan for ERG, we need to make serious attempt for planning (not just planning more outputs)
+ - Where do peeragogy, Hyperreal, ERG (etc.) begin and end?
+- Since people enjoyed informal sessions in EmacsConf, being meta will help people realise that "this is just people organising stuff" and this will be an empowering move
+*** 5. What else should we change going forward?
+- Because of the tension with PLoP we need to be more clear about "what is Peeragogy, what is PLoP, where to put them... so we don’t cause too much tension by taking over everything" (10% of the way by focusing on EmacsConf in ERG, but short things can get distracting)
+- Leo may be doing some shopping if he get the new job
+- The meta-talk we are preparing will help us understand the ‘bodies’ that fit into this scheme in a Deleuzian sense
+- Remember to do a new CLA analysis in a few weeks!
+
+* Tentative agenda for next week
+
+** PLoP 15m
+** EmacsConf talk stuff 1h
+** 15 Unstructured
+
+* Check-out                                                              :5m:
+** LV
+Slightly tired after 4 hours of meeting, extremely hungry, and still have 2 hours of algorithm revising to do, at least I won’t have to talk as much
+** RP
+- Goodbye because I need to rush
+** JC
+- Happy with the way things are going locally and here at ERG
+- Not so happy with the fact that courses are starting next week, and that he’s going to be quite busy with teaching
+** NA
+- I am going for lunch right now, which is waiting for lunch: and can someone teach me the curly apostrophe?

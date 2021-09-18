@@ -1,22 +1,39 @@
 * Long-term tasks
-** TODO Schedule a session about going public
+** STRT Prepare EmacsConf proposal
+DEADLINE: <2021-10-16 Sat>
+:LOGBOOK-NOTES:
+- State "STRT"       from "TODO"       [2021-09-18 Sat 19:28]
+:END:
+*** TODO Schedule a session about going public
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:39]
 :END:
+Tentatively enfeoffed to EmacsConf proposal
 - This will be /one/ of our six sessions to get ready for "Emacs Research Group Season 1" talk
+*** Tentative agenda from [2021-09-18 Sat 20:23]
+| [2021-09-18 Sat] | General discussion about the format & figuring out the points we want to cover    |
+** TODO [#D] Think about ways to implement silent-sessions of ERG (with heavy use of crdt.el)
 
 * Short-term tasks
-** TODO Come up with a plan for quarterly reviews à la HR
+** STBY Come up with a plan for quarterly reviews à la HR          :standby:
+SCHEDULED: <2021-09-25 Sat>
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:40]
 :END:
+Should come after the PLoP workshop for us to have enough visibility on what needs to be done.
 ** DONE Prepare the pseudo org-agenda files with our tasks for ERG      :LV:
 CLOSED: [2021-09-18 Sat 15:42]
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:42]
 :END:
+** TODO PLoP
+*** The crew will give a 10-min presentation of where we’re at with the workshop
+SCHEDULED: <2021-09-23 Thu>
 
 * Calendar
-| EmacsConf 2021 - CFP closing        | [2021-09-30 Thu]                   |
-| Deadline for submitting our talk(s) | [2021-10-16 Sat]                   |
-| EmacsConf 2021                      | [2021-11-27 Sat]--[2021-11-28 Sun] |
+| [2021-09-25 Sat]                   | For EmacsConf: Finish ERG-tech presentation (30m) & Plan ERG-meta (30m) |
+| [2021-10-02 Sat]                   | For EmacsConf: Finish prep for ERG-meta (1h)                            |
+| [2021-09-30 Thu]                   | EmacsConf 2021 - CFP closing                                            |
+| [2021-10-09 Sat]                   | CLA for ERG & Overflow for EmacsConf                                    |
+| [2021-10-16 Sat]                   | For EmacsConf: Deadline for submitting our talks & Ultimate overflow    |
+| [2021-11-27 Sat]--[2021-11-28 Sun] | EmacsConf 2021                                                          |
