@@ -37,3 +37,45 @@ SCHEDULED: <2021-09-23 Thu>
 | [2021-10-09 Sat]                   | CLA for ERG & Overflow for EmacsConf                                    |
 | [2021-10-16 Sat]                   | For EmacsConf: Deadline for submitting our talks & Ultimate overflow    |
 | [2021-11-27 Sat]--[2021-11-28 Sun] | EmacsConf 2021                                                          |
+
+* ERG items from PLoP CLA 1                                 :NeedsBreakdown:
+** BACK Process the following points                             :Scrapbook:
+- "Patterns all the way down meme"
+- Workshop design is where JC overlapped with NA more recently, could we make an Emacs workshop?
+- Keep in mind that in December is the final deadline of PLoP, so we can report on progress then
+** BACK Maintain plans for the next six months                     :Roadmap:
+** BACK Keep doing PARs and CLAs                                :Assessment:
+** BACK Mesh with other ongoing activities elsewhere           :Cooperation:
+** BACK New user workshops: “Zero to Org Roam”                    :Newcomer:
+:PROPERTIES:
+:Subproject: ERG
+:END:
+- Are we minting the newcomer?  Or is the the next step for them?  What’s the next step for us?
+- Can we use some algorithmic thinking, rather than just with structured data?
+- 300 instances of "Newcomer" isn’t that relevant
+** BACK Come up with a categorical treatment of todo-categories :FormalPatterns:
+** BACK Identify potential stakeholders in Emacs Research        :Community:
+** BACK Identify stakeholders in the kind of activities we can support :ASpecificProject:
+- How should we share/disseminate what we’ve done?
+- Publicise some?  Private meetings?
+** BACK Identify venues where we can reach these different stakeholders :Wrapper:
+** BACK Create some publication to plant a flag for our group        :Paper:
+- PLoP paper has been progressed! ✓
+** BACK Keep exploring                                         :Serendipity:
+** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research :Community:
+** BACK Develop our own intention-based workflow                     :Forum:
+** BACK Continue to develop and refine our methods              :Assessment:
+** BACK Product and business development plans for a multigraph interlinking service :Website:
+- Maybe we need this to keep our items organised
+- Could we prototype some of this stuff with a modern graph database?
+- What about Spivak’s version of a database? is CQL somehow relevant...
+- /Relates to/ [[Come up with a categorical treatment of todo-categories]]
+*** Manage the technical issues within ORG mode
+- =make-anchor= + =insert-link-to-anchor=
+- If we can at least get them linking with each other
+** BACK A tool to find and match peers/content                 :RECOMMENDER:
+** BACK Survey related work                                        :Context:
+- We have a Related work section of the paper and [[Reading groups and seminars]]
+** BACK Assess what we’re learning                              :Assessment:
+** BACK Think about how we can help improve gender balance in Free Software :DIVERSITY:
+- Relates to [[Create some publication to plant a flag for our group]] since we reference some people who talk about this
