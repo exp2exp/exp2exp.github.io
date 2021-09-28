@@ -5,8 +5,8 @@
   :PROPERTIES:
   :CUSTOM_ID: pedestrian-linkages-cycle-club
   :END:
-*Type:* Ideal\\
-*Stage:* Delivery\\
+*Type:* Ideal •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A  pattern of contours]]
@@ -132,7 +132,7 @@ City of Sydney. Cycling.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/pedestrian-linkages-cycle-club/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/pedestrian-linkages-cycle-club/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -155,8 +155,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: caring-for-trees
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning, Post-occupancy, Delivery\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning, Post-occupancy, Delivery •
 *Related Patterns:*
 
 - [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
@@ -362,7 +362,7 @@ PDF resources, [[https://www.tree-consult.org/downloads.htm]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/caring-for-trees/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/caring-for-trees/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -385,8 +385,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: site-planning-for-coolth
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
@@ -544,7 +544,7 @@ Reader's Digest Association, Incorporated.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/site-planning-for-coolth/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/site-planning-for-coolth/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -567,8 +567,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: pedestrian-linkages-walking-school-bus
   :END:
-*Type:* Ideal\\
-*Stage:* Post-occupancy, Delivery\\
+*Type:* Ideal •
+*Stage:* Post-occupancy, Delivery •
 *Related Patterns:*
 
 - [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
@@ -709,7 +709,7 @@ K-12/,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/pedestrian-linkages-walking-school-bus/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/pedestrian-linkages-walking-school-bus/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -732,8 +732,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: private-garden-trees
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning, Post-occupancy\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning, Post-occupancy •
 *Related Patterns:*
 
 - [[#site-planning-for-coolth][Site Planning for Coolth]]
@@ -911,7 +911,7 @@ Tree Keepers Nursery (No date). Images of field grown trees,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/private-garden-trees/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/private-garden-trees/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -934,8 +934,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: ways-of-welcoming
   :END:
-*Type:* Ideal\\
-*Stage:* Post-occupancy, Delivery\\
+*Type:* Ideal •
+*Stage:* Post-occupancy, Delivery •
 *Related Patterns:*
 
 - [[#outdoor-cooking][Outdoor Cooking]]
@@ -1055,7 +1055,7 @@ The Welcome Dinner Project: [[https://welcomedinnerproject.org/]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/trial-live-in-protocol/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/trial-live-in-protocol/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -1078,8 +1078,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: accessible-clean-water-for-recreation
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#shade-2][Shade]]
@@ -1215,7 +1215,7 @@ aids safety.
 
 *Constraints:*
 
-- Drought conditions may limit water for play.\\
+- Drought conditions may limit water for play. •
   Usability and toxicity of still water needs to be assessed and meet
   safety guidelines.
 - Material and finishes selection must consider slip and trip hazards.
@@ -1311,7 +1311,7 @@ Sydney: Low Carbon Living CRC.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/accessible-clean-water-for-recreation/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/accessible-clean-water-for-recreation/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -1334,8 +1334,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: sensory-devices-for-parks
   :END:
-*Type:* Ideal\\
-*Stage:* Planning, Delivery\\
+*Type:* Ideal •
+*Stage:* Planning, Delivery •
 *Related Patterns:*
 
 - [[#outdoor-play-areas][Outdoor Play Areas]]
@@ -1456,7 +1456,7 @@ R-URBAN, Paris, [[http://r-urban.net/en/]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/sensory-devices-for-parks/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/sensory-devices-for-parks/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -1479,8 +1479,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: outdoor-cooking
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning, Post-occupancy\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning, Post-occupancy •
 *Related Patterns:*
 
 - [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
@@ -1610,7 +1610,7 @@ Parks and Green Spaces. /Landscape Research/ 36(5): 599-620
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/outdoor-cooking/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/outdoor-cooking/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -1633,8 +1633,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: street-plaza-trees
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#managing-on-site-water][Managing On-Site Water]]
@@ -1877,7 +1877,7 @@ Australia.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/street-plaza-trees/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/street-plaza-trees/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -1900,8 +1900,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: managing-on-site-water
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#site-planning-for-coolth][Site Planning for Coolth]]
@@ -2121,7 +2121,7 @@ Trust, [[https://trove.nla.gov.au/version/20437886]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/managing-on-site-water/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/managing-on-site-water/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -2144,8 +2144,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: bird-baths-and-other-cooling-infrastructure-for-animals
   :END:
-*Type:* Remedial\\
-*Stage:* Planning\\
+*Type:* Remedial •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#heat-preparedness-plan-2][Heat Preparedness Plan]]
@@ -2304,7 +2304,7 @@ Summer,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/bird-baths-and-other-cooling-infrastructure-for-animals/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/bird-baths-and-other-cooling-infrastructure-for-animals/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -2327,8 +2327,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: mobile-play-van
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Delivery\\
+*Type:* Ideal, Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#shade-2][Shade]]
@@ -2481,7 +2481,7 @@ Cultural Research, University of Western Sydney and Penrith City Council
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/mobile-play-van/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/mobile-play-van/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -2504,8 +2504,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: outdoor-play-areas
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
@@ -2659,7 +2659,7 @@ Schools. Penrith, New South Wales: Western Sydney University.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/outdoor-play-areas/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/outdoor-play-areas/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -2682,8 +2682,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: gathering-outdoors
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning, Post-occupancy\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning, Post-occupancy •
 *Related Patterns:*
 
 - [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
@@ -2842,7 +2842,7 @@ GEOMATE/ 11(26): 2541-2546.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/gathering-outdoors/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/gathering-outdoors/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -2865,8 +2865,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: shade
   :END:
-*Type:* Remedial\\
-*Stage:* Planning\\
+*Type:* Remedial •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
@@ -2974,7 +2974,7 @@ shade' will be required.
 - Increasing urban heat due to climate change and rising incidents of
   skin cancer in Australia are conditions informing the need for shade.
   An ameliorating factor might be the increase of non-European migrants
-  whose skin types are more suited to the Australian sun.\\
+  whose skin types are more suited to the Australian sun. •
   Trees can be slow growing; therefore, other shade measures need to be
   sought.
 - Cancer Council Shade Guidelines and promotion of climate defensive
@@ -3093,7 +3093,7 @@ Victoria.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/shade-2/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/shade-2/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -3117,8 +3117,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :CUSTOM_ID: subcultural-boundaries
   :END:
 
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
@@ -3220,7 +3220,7 @@ Language/. Oxford: Oxford University Press.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/subcultural-boundaries/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/subcultural-boundaries/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -3243,8 +3243,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: selecting-shade-trees-for-public-open-space
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Planning\\
+*Type:* Ideal, Remedial •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#site-planning-for-coolth][Site Planning for Coolth]]
@@ -3480,7 +3480,7 @@ Black Ink Books.
 - [[https://www.coolingthecommons.com/pattern/selecting-shade-trees-for-public-open-space/acknowledgement-of-country][Acknowledgement of Country]]
 - [[https://www.coolingthecommons.com/pattern/selecting-shade-trees-for-public-open-space/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/selecting-shade-trees-for-public-open-space/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -3503,8 +3503,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: keyline-planning-for-healthy-trees
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#endangered-ecological-forests][Endangered Ecological Forests]]
@@ -3650,7 +3650,7 @@ Environment Revolution/. Sydney: Keyline Publishing Pty. Ltd
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/keyline-planning-for-healthy-trees/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/keyline-planning-for-healthy-trees/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -3673,8 +3673,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: bushcare-groups
   :END:
-*Type:* Ideal\\
-*Stage:* Post-occupancy\\
+*Type:* Ideal •
+*Stage:* Post-occupancy •
 *Related Patterns:*
 
 - [[#endangered-ecological-forests][Endangered Ecological Forests]]
@@ -3816,7 +3816,7 @@ Bush Care Blue Mountains. (No date). About Bushcare Blue Mountains,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/bushcare-groups/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/bushcare-groups/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -3839,8 +3839,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: community-governance
   :END:
-*Type:* Ideal\\
-*Stage:* Post-occupancy\\
+*Type:* Ideal •
+*Stage:* Post-occupancy •
 *Related Patterns:*
 
 - [[#trial-live-in-protocol][Ways of Welcoming]]
@@ -4014,7 +4014,7 @@ The Waverton Hub. (No date). I belong, [[http://wavertonhub.com.au/]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/community-governance-structures-resident-welfare-organisations-residents-community-organisations/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/community-governance-structures-resident-welfare-organisations-residents-community-organisations/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -4037,8 +4037,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: post-occupancy-learning
   :END:
-*Type:* Remedial\\
-*Stage:* Post-occupancy\\
+*Type:* Remedial •
+*Stage:* Post-occupancy •
 *Related Patterns:*
 
 - [[#succession-tree-planting][Succession Tree Planting]]
@@ -4155,7 +4155,7 @@ including mechanisms for intergenerational communication.
     :CUSTOM_ID: commoning-concerns-21
     :END:
 *Access:* Residents and relevant stakeholders. The inclusion of newly
-arrived residents will need to be facilitated.\\
+arrived residents will need to be facilitated. •
 /Use:/ Residents, future-residents, community liaison officer and other
 development agency stakeholders.
 
@@ -4253,7 +4253,7 @@ London, UK: Higher Education Funding Council for England (HEFCE).
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/post-occupancy-learning/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/post-occupancy-learning/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -4276,8 +4276,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: web-of-public-transportation-destination-shuttle
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Post-occupancy\\
+*Type:* Ideal, Remedial •
+*Stage:* Post-occupancy •
 *Related Patterns:*
 
 - [[#shade-2][Shade]]
@@ -4448,7 +4448,7 @@ buses,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/web-of-public-transportation-destination-shuttle/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/web-of-public-transportation-destination-shuttle/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -4471,8 +4471,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: patchwork-for-accessible-coolth
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#site-planning-for-coolth][Site Planning for Coolth]]
@@ -4651,7 +4651,7 @@ Environments. London: Routledge.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/patchwork-for-accessible-coolth/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/patchwork-for-accessible-coolth/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -4674,8 +4674,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: cool-slopes-a-pattern-of-contours
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#site-planning-for-coolth][Site Planning for Coolth]]
@@ -4814,7 +4814,7 @@ Environment Revolution/,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/cool-slopes-a-pattern-of-contours/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/cool-slopes-a-pattern-of-contours/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -4837,8 +4837,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: urban-rural-fingers
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#establishing-site-forests][Establishing Site Forests]]
@@ -4986,7 +4986,7 @@ Plain vegetation mapping project,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/urban-rural-fingers/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/urban-rural-fingers/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5009,8 +5009,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: misting-devices-for-cooling-outdoor-space
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Delivery\\
+*Type:* Ideal, Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#planning-and-designing-devices-for-a-cool-park][Planning
@@ -5152,7 +5152,7 @@ ThePlumber.com (2016). The Pros & Cons of Outdoor Misting Systems,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/misting-devices-for-cooling-outdoor-space/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/misting-devices-for-cooling-outdoor-space/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5175,8 +5175,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: the-night-time-commons
   :END:
-*Type:* Remedial\\
-*Stage:* Delivery\\
+*Type:* Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#street-parties-fetes][Street Parties & Fêtes]]
@@ -5388,7 +5388,7 @@ New community lights up Macarthur:
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/the-night-time-commons/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/the-night-time-commons/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5411,8 +5411,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: signage
   :END:
-*Type:* Remedial\\
-*Stage:* Delivery\\
+*Type:* Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#heat-preparedness-plan-2][Heat Preparedness Plan]]
@@ -5584,7 +5584,7 @@ NSW Govt Planning and Environment:
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/signage/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/signage/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5607,8 +5607,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: memorial-walkway
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#shade-2][Shade]]
@@ -5744,7 +5744,7 @@ Engineering/. 7(17): 17-25.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/memorial-walkway/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/memorial-walkway/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5767,8 +5767,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: establishing-site-forests
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#endangered-ecological-forests-2][Endangered Ecological Forests]]
@@ -5912,7 +5912,7 @@ Environment Revolution/. Sydney: Keyline Publishing Pty. Ltd,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/establishing-site-forests/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/establishing-site-forests/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -5935,8 +5935,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: shaded-pedestrian-linkage
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 # <<pattern-gallery>>
@@ -6088,7 +6088,7 @@ Shadeways platform project: [[https://www.shadeways.net/]]
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/shaded-pedestrian-linkage/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/shaded-pedestrian-linkage/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -6111,8 +6111,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: heat-preparedness-plan
   :END:
-*Type:* Ideal\\
-*Stage:* Delivery\\
+*Type:* Ideal •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#community-governance][Community
@@ -6259,7 +6259,7 @@ New South Wales Health. (2019). How to Prepare for a Heat Wave.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/heat-preparedness-plan-2/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/heat-preparedness-plan-2/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -6282,8 +6282,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: temporary-or-meanwhile-use-of-outdoor-public-space
   :END:
-*Type:* Remedial\\
-*Stage:* Delivery\\
+*Type:* Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#community-governance][Community Governance]]
@@ -6491,7 +6491,7 @@ Urban Design Collaborative Making Our Own Space:
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/temporary-or-meanwhile-use-of-outdoor-public-space/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/temporary-or-meanwhile-use-of-outdoor-public-space/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -6514,8 +6514,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: car-share
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Delivery\\
+*Type:* Ideal, Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#pedestrian-linkages-cycle-club][Pedestrian Linkages -- Cycle Club]]
@@ -6650,7 +6650,7 @@ platform-based enterprises.
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/car-share/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/car-share/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -6673,8 +6673,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: street-parties-fêtes
   :END:
-*Type:* Ideal, Remedial\\
-*Stage:* Delivery\\
+*Type:* Ideal, Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
@@ -6871,7 +6871,7 @@ North Shore Mums: Fairs, Fetes & Festivals,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/street-parties-fetes/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/street-parties-fetes/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -6894,8 +6894,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: community-library
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#post-occupancy-learning][Post-occupancy Learning]]
@@ -7043,7 +7043,7 @@ Pennsylvania. /Environmental Science and Technology/, 49(19):
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/community-library/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/community-library/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -7066,8 +7066,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: endangered-ecological-forests
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#establishing-site-forests][Establishing Site Forests]]
@@ -7241,7 +7241,7 @@ species,[[https://www.environment.nsw.gov.au/topics/animals-and-plants/threatene
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/endangered-ecological-forests/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/endangered-ecological-forests/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -7264,8 +7264,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: planning-and-designing-devices-for-a-cool-park
   :END:
-*Type:* Remedial\\
-*Stage:* Delivery\\
+*Type:* Remedial •
+*Stage:* Delivery •
 *Related Patterns:*
 
 - [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
@@ -7394,7 +7394,7 @@ Rajagopal, A. (2014). Philippe Rahm: Climate as Architecture,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/planning-and-designing-devices-for-a-cool-park/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/planning-and-designing-devices-for-a-cool-park/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -7417,8 +7417,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: multi-use-community-centre
   :END:
-*Type:* Ideal\\
-*Stage:* Planning\\
+*Type:* Ideal •
+*Stage:* Planning •
 *Related Patterns:*
 
 - [[#post-occupancy-learning][Post-occupancy Learning]]
@@ -7550,7 +7550,7 @@ Retrieved from
 - [[https://www.coolingthecommons.com/pattern/multi-use-community-centre/acknowledgement-of-country][Acknowledgement of Country]]
 - [[https://www.coolingthecommons.com/pattern/multi-use-community-centre/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/multi-use-community-centre/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
@@ -7573,8 +7573,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
   :PROPERTIES:
   :CUSTOM_ID: succession-tree-planting
   :END:
-*Type:* Ideal\\
-*Stage:* Post-occupancy\\
+*Type:* Ideal •
+*Stage:* Post-occupancy •
 *Related Patterns:*
 
 - [[#establishing-site-forests][Establishing Site Forests]]
@@ -7735,7 +7735,7 @@ City of Ryde. (2016). Tree Management Plan -- Draft, August 2106,
   of Country]]
 - [[https://www.coolingthecommons.com/pattern/succession-tree-planting/privacy-policy][Privacy]]
 - [[https://www.coolingthecommons.com/pattern/succession-tree-planting/copyright][Copyright]]
-- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]]\\
+- [[http://creativecommons.org/licenses/by-nc-sa/4.0/][[[https://i2.wp.com/i.creativecommons.org/l/by-nc-sa/4.0/88x31.png?w=1080&ssl=1]]]] •
   This work is licensed under a
   [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International License]].
