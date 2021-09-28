@@ -20,68 +20,89 @@ enlightenment. Going deeper into the mind is an inward process through
 which truths are
 realized.[fn::https://proutglobe.org/2013/06/the-further-reaches-of-policy-making-cla/]
 #+end_quote
-In developing a CLA, none of the four layers is
-privileged over the others, nor are they examined in isolation.
-Rather, one moves between them, examining how they relate to one
-another.  One can then integrate these insights to form a more
-comprehensive basis for understanding what is happening in the present
-and for anticipating the future.  Table \ref{tab:cla-summary} describes each of the four layers according to the following schema:
+In developing a CLA, none of the four layers is privileged over the
+others, nor are they examined in isolation.  Rather, one moves between
+them, examining how they relate to one another.  One can then
+integrate these insights to form a more comprehensive basis for
+understanding what is happening in the present and for anticipating
+the future.  The tables below describes each of the four layers
+according to the following schema:
 
 - *Contents*: /What is found in this layer?/
 - *Analysis*: /Techniques for analysis of this layer./
 - *Literature*: /Instances of texts which are typically operative at this layer./
 
-#                                                    🍕🍕🍕🍕
-#                                                    "Let’s stick with layer as opposed to level."
-
 To further illustrate the four layers and show how such an analysis
 might proceed, we present two examples in the following sections.
 
-\begin{table}[t]
-\begin{mdframed}
-\begin{tabular}{c}
-\textbf{Litany}\\
-\begin{minipage}{\textwidth}
-\begin{description}
-\item[Contents:] Observable facts, events, and quantitative trends.
-\item[Analysis:] Minimal processing of data.
-\item[Literature:] News reports, tax filings, chit-chat.
-\end{description}
-\medskip
-\end{minipage}\\
-\textbf{System}\\
-\begin{minipage}{\textwidth}
-\begin{description}
-\item[Contents:] The social, economic, political, and historical forces which shape events.
-\item[Analysis:] Technical explanations and interpretation of data within a given paradigm.
-\item[Literature:] Editorials and policy institute reports.
-\end{description}
-\medskip
-\end{minipage}\\
-\textbf{Worldview}\\
-\begin{minipage}{\textwidth}
-\begin{description}
-\item[Contents:] Core values and attitudes which motivate choices and actions.
-\item[Analysis:] Uncover deep assumptions and study the mental and linguistic constructs which undergird how people interact with each other and their surroundings.  Compare and critique paradigms and discourses.
-\item[Literature:] Works of philosophy and critical theory.
-\end{description}
-\medskip
-\end{minipage}\\
-\textbf{Myth}\\
-\begin{minipage}{\textwidth}
-\begin{description}
-\item[Contents:] The symbols and tales which give meaning to life.
-\item[Analysis:] Study symbols and narratives, and the myths and rituals within which they participate.
-\item[Literature:] Poetry, art, anthropology, Jungian analysis.
-\end{description}
-\end{minipage}
-\end{tabular}
-\end{mdframed}
-\medskip
-\caption{Overview of the layers in Causal Layered Analysis\label{tab:cla-summary}}
-\vspace{-2\baselineskip}
-\end{table}
+#+CAPTION: Litany
+| Contents | Observable facts, events, and quantitative trends.|
+| Analysis | Minimal processing of data. |
+| Literature | News reports, tax filings, chit-chat. |
 
+#+CAPTION: System
+| Contents   | The social, economic, political, and historical forces which shape events. |
+| Analysis   | Technical explanations and interpretation of data within a given paradigm. |
+| Literature | Editorials and policy institute reports.                                   |
+
+#+CAPTION: Worldview
+| Contents   | Core values and attitudes which motivate choices and actions.                                                                                                                                       |
+| Analysis   | Uncover deep assumptions and study the mental and linguistic constructs which undergird how people interact with each other and their surroundings.  Compare and critique paradigms and discourses. |
+| Literature | Works of philosophy and critical theory.                                                                                                                                                            |
+
+#+CAPTION: Myth
+| Contents   | The symbols and tales which give meaning to life.                                      |
+| Analysis   | Study symbols and narratives, and the myths and rituals within which they participate. |
+| Literature | Poetry, art, anthropology, Jungian analysis.                                           |
+
+* Ashmolean example
+
+** Litany
+An (gasp!) Evil Genius has occupied the Ashmolean museum.  All
+entrances are barred shut, noone can get in or out.  For a few weeks
+this persists---despite efforts at blockading the premises and
+shutting off utilities, somehow the occupiers are not being starved
+out and are not letting up.  The press and the authorities are baffled
+as how and why this is going on!  It seems that the occupiers are not
+interested in making public statements or demanding ransom or anything
+of the sort---apparently all they want to do is to have the museum to
+themselves and camp out there.  After a few week, documents from the
+museum and detailed plans and images of artefacts from the museum
+circulate on the web and museum-quality replicas of artefacts from the
+Ashmolean appear in third-world countries.
+
+** System
+Advances in scanning and printing technology make it possible to
+produce copies of artefacts indistinguishable form the original.
+Moreover, since the information is stored and transmitted digitally,
+anyone with a suitable printer anywhere can make themselves a copy.  A
+system of tunnels allowed the occupiers to evade the blockade and keep
+themselves supplied.  The security system originally designed to keep
+terrorists from damaging the priceless treasures was instead used to
+protect the "terrorists" against the "authorities" "besieging" the
+museum.
+
+** Worldview
+At the bottom of this, there is a clash of worldviews.  What is an
+artefact: Is it an object which plays a role in rituals and gift
+networks?  Is it a source of data for scientific investigations of the
+past?  Is it a part of an artistic and cultural heritage?  Who should
+own the artefact: The heirs of the people who originally made it?
+Those with the power and wealth to acquire it?  Those who have the
+facilities to curate and study it?  Where is the value: Is it
+spritual?  Is it social?  Is it economic?  Is it scientific?  Is it
+artistic?  Does it specially inhere in the original or can a copy
+share in the value under certain circumstances?
+
+** Myth
+There is a corresponding clash/clang of myths.  We have the myths of
+the people who made the artefact and the metaphors which it expressed
+for them.  We have the "manifest destiny" and "white man's burden"
+myths of the colonizers who collected the artefacts and sent them to
+the museum.  We have the more secular myths of people who admire,
+study and care for the artefacts in the museum today, treasuring them
+as expressions of the human spirit which continue to serve as a source
+of meaning and inspiration.
 
 * Le Quattro Stagioni, a CLA short story
 <<appendix-pizza>>
@@ -118,59 +139,6 @@ seasons.
 # restaurant remains affordable, they garner enthusiastic crit from
 # foodies.
 
-
-* Flaws of the smart city via CLA
-
-** Flaws of the smart city via CLA: Litany
-# Realistic and well-thought-out role
-# Communicate to people and develop the role
-# Like a coach to get people to say more about what they mean by what they are saying.
-# The cards are just things to suggest an idea, even better would be for people to make up their own roles.
-# "Why instead of building trains do you want to build rickshaw robots?"
-# "Does someone else have an opinion that would be different from that?"
-
-(Gasp!) An Evil Genius has occupied the Ashmolean museum.  All
-entrances are barred shut, noone can get in or out.  For a few weeks
-this persists---despite efforts at blockading the premises and
-shutting off utilities, somehow the occupiers are not being starved
-out and are not letting up.  The press and the authorities are baffled
-as how and why this is going on!  It seems that the occupiers are not
-interested in making public statements or demanding ransom or anything
-of the sort---apparently all they want to do is to have the museum to
-themselves and camp out there.  After a few week, documents from the
-museum and detailed plans and images of artefacts from the museum
-circulate on the web and museum-quality replicas of artefacts from the
-Ashmolean appear in third-world countries.
-** Flaws of the smart city via CLA: System
-Advances in scanning and printing technology make it possible to
-produce copies of artefacts indistinguishable form the original.
-Moreover, since the information is stored and transmitted digitally,
-anyone with a suitable printer anywhere can make themselves a copy.  A
-system of tunnels allowed the occupiers to evade the blockade and keep
-themselves supplied.  The security system originally designed to keep
-terrorists from damaging the priceless treasures was instead used to
-protect the "terrorists" against the "authorities" "besieging" the
-museum.(edited)
-** Flaws of the smart city via CLA: Worldview
-At the bottom of this, there is a clash of worldviews.  What is an
-artefact: Is it an object which plays a role in rituals and gift
-networks?  Is it a source of data for scientific investigations of the
-past?  Is it a part of an artistic and cultural heritage?  Who should
-own the artefact: The heirs of the people who originally made it?
-Those with the power and wealth to acquire it?  Those who have the
-facilities to curate and study it?  Where is the value: Is it
-spritual?  Is it social?  Is it economic?  Is it scientific?  Is it
-artistic?  Does it specially inhere in the original or can a copy
-share in the value under certain circumstances?
-** Flaws of the smart city via CLA: Myth
-There is a corresponding clash/clang of myths.  We have the myths of
-the people who made the artefact and the metaphors which it expressed
-for them.  We have the "manifest destiny" and "white man's burden"
-myths of the colonizers who collected the artefacts and sent them to
-the museum.  We have the more secular myths of people who admire,
-study and care for the artefacts in the museum today, treasuring them
-as expressions of the human spirit which continue to serve as a source
-of meaning and inspiration.
 * The end                                                           :ignore:
 
 #+begin_export latex
