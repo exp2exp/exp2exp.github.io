@@ -13,7 +13,7 @@ Tentatively enfeoffed to EmacsConf proposal
 *** Tentative agenda from [2021-09-18 Sat 20:23]
 | [2021-09-18 Sat] | General discussion about the format & figuring out the points we want to cover    |
 ** TODO [#D] Think about ways to implement silent-sessions of ERG (with heavy use of crdt.el)
-
+** TODO Trickle-down money from JC’s work with Abby?
 * Short-term tasks
 ** STBY Come up with a plan for quarterly reviews à la HR          :standby:
 SCHEDULED: <2021-09-25 Sat>
@@ -29,14 +29,15 @@ CLOSED: [2021-09-18 Sat 15:42]
 ** TODO PLoP
 *** The crew will give a 10-min presentation of where we’re at with the workshop
 SCHEDULED: <2021-09-23 Thu>
+* Things on our
 
 * Calendar
-| [2021-09-25 Sat]                   | For EmacsConf: Finish ERG-tech presentation (30m) & Plan ERG-meta (30m) |
-| [2021-10-02 Sat]                   | For EmacsConf: Finish prep for ERG-meta (1h)                            |
-| [2021-09-30 Thu]                   | EmacsConf 2021 - CFP closing                                            |
-| [2021-10-09 Sat]                   | CLA for ERG & Overflow for EmacsConf                                    |
-| [2021-10-16 Sat]                   | For EmacsConf: Deadline for submitting our talks & Ultimate overflow    |
-| [2021-11-27 Sat]--[2021-11-28 Sun] | EmacsConf 2021                                                          |
+| [2021-09-25 Sat]                   | For EmacsConf: Work ERG-tech presentation (30m) & Plan ERG-meta (30m)                   |
+| [2021-09-30 Thu]                   | EmacsConf 2021 - CFP closing                                                            |
+| [2021-10-02 Sat]                   | For EmacsConf: Finish the ERG-tech presentation & Work or finish prep for ERG-meta (1h) |
+| [2021-10-09 Sat]                   | CLA for ERG & Overflow for EmacsConf                                                    |
+| [2021-10-16 Sat]                   | For EmacsConf: Deadline for submitting our talks & Ultimate overflow for EmacsConf      |
+| [2021-11-27 Sat]--[2021-11-28 Sun] | EmacsConf 2021                                                                          |
 
 * ERG items from PLoP CLA 1                                 :NeedsBreakdown:
 ** BACK Process the following points                             :Scrapbook:

@@ -1,0 +1,298 @@
+#+TITLE: 25 September 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-09-25 Sat>
+
+* 25 September 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+** Ray
+Will be having a New York Emacs meeting on Monday 4th of October, and Qiantan will start with 15 minute talk then.  We can also start to discuss what we do when we come back.
+
+Also has a new phone.
+
+Has been going to the Complex analysis seminar, had a look and had some thoughts about Takashi’s “Back to Nature” paper.
+
+- 48 hour resolution time after Ray’s reminder
+- Eric had been unwell and probably this just led to some slippage
+- LV: You kickstarted the chain reaction as an Epicurian atom (and proto-statistical mechanics figure!)
+** Noorah
+- Doing good; glad she made it
+- OK week! Had a review session was yesterday for stats!
+  - Joe would like to attend at least one, to see how they do it in UT.
+- Did workout today.
+** Joe
+- Tired, after some 4:30AM wakeups this week.
+- Read a bunch of the PLoP papers, and a little frustrated by their not keeping their participants in the loops
+  - The papers themselves are interesting, if a little dry; one on start-ups looks fairly interesting
+** Leo
+Hard to do 4 hours of meetings on Saturdays when I’m working the rest
+of the week on interview stuff.  Now it is a little complicated.
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-09-25 Sat 18:44]
+** News
+*** LV is a co-maint for crdt.el
+- Qiantan has been chatting w/ us on Hyperreal Discord.
+- Leo is now officially liable for any problems we come up with! (Yay!)
+- Can do any install help during coffee chats
+*** Coffee chats schedule
+- Coffee chats now start the /same time as ERG/ but during the week
+*** Peeragogy
+- Meeting with Charlie on Wednesday to do a quick run-through of the workshop
+
+* Agenda                                                                :90m:
+
+** PLoP checkpoint                                                     :15m:
+#+begin_quote
+"Enter the Matrix"
+#+end_quote
+
+- [[https://drive.google.com/drive/folders/1mvjBRfOsy7VCJcFSTodprQExSHjivtVr?usp=sharing][Drive with papers]] for our WW
+- If we want to discuss Sunday or Monday we can do that before the WW (to schedule)
+
+
+*** Conference Schedule stuff
+- Still unclear
+
+*** Our workshop
+Ray presented to Leo and Qiantan w/ enough context for someone not
+familiar with PLoP. Somewhat adapted the format to include 20 minutes
+of Q&A.
+
+LV found real appeal in this and felt it had all the missing links.
+
+1. For someone familiar with the paper, Ray’s presentation was solid
+2. For someone NOT familiar with the paper, it provided enough information to think about patterns, could let Qiantan think about the workshop /sans/ the paper.
+
+Further discussion felt at the same level.  So, feeling confident now about the workshop!
+
+*** WW stuff
+- RP: Since there isn’t much time to read, comments are likely to be surface level.
+
+*** AOB
+- Our paper!
+- Maybe think about this for another paper, but table that suggestion until after PLoP.
+  - This is a good idea but let’s finish what we have now before it.
+  - Maybe we want to revisit it as another tool for us in our meetings.
+- What might come out of this whole circumstance?  Embrace serendipity here.
+
+
+** EmacsConf: Finish ERG-tech                                          :35m:
+- Following the =.../erg/agenda.org= agenda to get our 2 presentation ready 
+- Current plan is to cover /Tech/ + /Meta/ stuff.
+- What are the different elements we’re taking into account e.g., "what does it mean to go public?"
+
+*** Not agreeing on the format: ERG-tech/-meta vs ERG-practice/-theory
+- JC was more interested in having the later format, and laments that we’ve adopted the earlier format.
+- LV: showing our organisational documents could be helpful
+- RP: This reminds me of one of the conference papers about the tools they are using for teaching online, it’s also timely with regard to other things moving online; so this was inadvertant research into "how to do meetings online over an extended period of time"
+
+*** Recap
+NA: You (Leo) will cover CRDT, then we will do the application.
+
+LV: Yes I will do a presentation on CRDT, we should focus on the 2nd part.
+
+JC: Would [at least initially] prefer to do /Demo/ + /Theory/ 
+
+#+begin_quote
+RP: "Here’s how we use these tools to host the meeting."
+#+end_quote
+
+*** Format of the proposal
+- Just straightforward stuff that’s not going to be new to us since we submitted last year
+- For the presentation itself, we should have lists of what we’ll talk about
+- Leo will vet the presentation vis-à-vis the ERG-EmacsConf interface
+
+**** The tools: Here’s how we combine these different things
+
+- REAL TIME WRITING :: *CRDT*, allows us to have collaboration at basic level
+- DOCUMENT FORMAT :: *Org Mode*, showing that it is a good tool to allow you to come up with /ad hoc/ organisation
+- WIKI :: *Org Roam*, record of notes and helps with analysis
+- AUDIO VIDEO CHAT :: *BBB*, allows recording for possible dissemination
+- BULLETIN BOARD :: *Mentioning Discord as an ad hoc solution*
+
+We can talk about the methods for choosing the tools.
+We can also talk about the "patterns" - a pattern language for meeting and organising our activities.  This is edging towards the meta side (perhaps it is the transition point).
+
+If we think about it as a pattern language, then it can be communicable and repeatable (e.g. in your local Emacs organisation, or even with different software).
+
+(JC should feel vindicated with PLoP being reused!!!)
+
+JC: Whilst it’s fine to talk about the merits of the tools and how they facilitate some workflows, we’re also frustrated by some of the cons of those tools and how they constrain our patterns.
+
+Silver lining: because of Emacs’s extensibility and package-writing expertise, the limitations aren’t dead ends.  These are places where we are walking nearer to the frontier of what’s possible with Emacs.  With people who have expertise in Elisp we can push the boundaries of the circle; it’s an iterative process of improvement in which we’re taking part.  ERG was concerned about the circle of Emacs, but any Emacsian endeavour seems DOOMED to improve Emacs.
+
+**** Bridge points between our two presentations are going to be important
+- Non-exclusive candidates
+  - From tools (from last time) to researching the tools themselves
+  - Tools enable methods which inform patterns  TO BE REFINED)
+
+*** Considerations on writing the submission form
+**** How to come up with a title?
+- It might be easier to think about the themes and then reflect them in the title. 
+
+*** Submission form
+**** Name:
+Emacs Research Group
+**** Title:
+/ERG-Tech: Research in, on, and with Emacs: Lost in La Mancha/
+**** Abstract:
+
+- 5-10 minutes: (brief description/outline)
+  - short version
+
+- *20 minutes: (brief description/outline)* [We will aim for this one]
+  - medium version 
+  - 3 points
+    - /We wanted to do research in, on, and/ *with* /Emacs/
+    - /WITH here means research on how to use Emacs to run a meeting or organisation/
+    - /How we think about tech inform how we do research and vice versa/
+    - We can show the process of how we run our meetings, how we load up CRDT, one of us will take the lead on writing note, how Git checks it out.
+    - we could all show our screen to show that we’re all in the same document even though we have different set-ups
+    - In a similar (rich) VEIN to how we presented Season Zero... now we’re doing the behind the scenes for something that hasn’t come out publicly yet; it could be a 2 minute presentation of Leo doing the setup, then, the video, 
+
+- 40 minutes: (brief description/outline)
+  - More than we need
+
+**** Availability and preferred Q&A approach:
+**** Speaker release:
+
+#+begin_quote
+By submitting this proposal, I agree that my presentation at
+EmacsConf 2021 is subject to the following terms and conditions:
+
+The EmacsConf organizers may capture audio and video (a "Recording")
+of my presentation and any associated materials, which may include
+slides, notes, transcripts, and prerecording(s) of my presentation
+that I provide to the EmacsConf organizers.
+
+I authorize the EmacsConf organizers to distribute, reproduce,
+publicly display, and prepare derivative works of the Recording and
+any derivative works of the Recording (the "Licensed Materials")
+under the terms of the Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0) license.
+
+I grant to the EmacsConf organizers permission to use my name,
+likeness, and biographic information in association with their use
+of the Licensed Materials under the above license.
+
+I represent that I have the authority to grant the above license to
+the EmacsConf organizers.  If my presentation incorporates any
+material owned by third parties, I represent that the material is
+sublicensable to the EmacsConf organizers or that my use of them is
+fair use.
+
+- Joseph Corneli
+- 
+#+end_quote
+
+
+** PAUSE                                                               :10m:
+
+** EmacsConf: ERG-meta                                                 :30m:
+
+#+begin_quote
+Your 50% might become your 20% after sufficient training.
+#+end_quote
+
+- Today, mostly about continuing the discussion from our /Meta/ talk. Exploring questions rather than setting things in stone.  Next week we can discuss details.
+
+Mentioning the people who were involved to give credit where credit is due; these days we are the vanguard.
+
+*** Questions and answers
+**** INTRODUCTION
+- "Are these questions for the meta-talk?"
+- "What are the most important things that we want to communicate to someone who might be "
+- What have we actually been doing?
+- SF, and so on, can be described as a "Workshop"; but ERG might not be, because we work in a different way.
+**** Going PUBLIC
+- "What does it mean to go public?"
+  - But we’re not really ready to go public in a substantial way
+- We are at least now telling the general public that there is such a thing as ERG, and giving them a sense of what goes on in the meeting
+- Why were we talking about going public in the first place?
+  - Thinking about offering a service might be an avenue thinking about going public
+    - Potential answer: ‘We have been meeting; this has been a formative thing, and it has worked for us; if someone else wants to, they might want to start a similar organisation (like what is being done with EmacsConf)
+  - Will need its own planning
+- ERG cluster is currently somewhat isolated from the rest of the Emacs world; this doesn’t mean we’re adding more points to the cluster but we are now putting more links to the bigger cluster
+- We could be strategically vague about ‘the public’ so, not putting promises about ‘now you can join our sessions’ but don’t exclude the possibility either.
+- When we interacted with M-x Research, we assumed significant overlap, but we had somewhat different styles
+- Don’t want: "We exist but you can’t join us’
+- If we say "meetup" or "club" then people might assume that they should be able to join via some protocol; "family" would be quite different; "research group" might have its own set of expectations slightly different from these
+**** WHY ERG? (WHAT is the purpose of ERG?)
+- I still want to do a CLA of "Why ERG"
+  - This might be related to the concept of transdisciplinarity: you might be using all those tools and *not* be working transdisciplanarily, but JC thinks that something like that should be mentioned, at least because it’s exciting for us!
+  - One of the things we could report on is our workshop; we’ve done it as a team, and it’s not especially Emacs-related, but we could be running those types of workshop globally.  If we had all the tools up and running, we could have a giant policy wiki where we could ask people working on those issues around the clock
+  - Helping people
+  - Here’s a corner that not much is being done with in Emacs so far (the transdisciplanarily corner of Emacs); 
+- "How are we organising ourselves using Emacs?" (A lot of people who are using Emacs customise their editor, but it is a very SOLO JOURNEY and ecosystem; so this is a good opportunity to see how people collaborate even though they have their own thing going. Even though we all have 
+- Why were we talking about going public in the first place?
+"(Rhetorical) What are the frameworks we use to organise the stuff that we feature in the PLoP paper?"
+**** Fold to talk about IMPLICATIONS
+"What are the implications of these methods? 
+"Where is it all going? "(Policy, free software, development?)"
+- Maybe other people could start their own organisations, people could use some of these techniques (JC: in a federated way?)
+  - Similar to EmacsConf: we don’t do it every month but we can tell you how we do it.
+**** Next steps for us
+- Maybe we could write a monograph
+- We could do a word-cloud analysis of the notes
+- There’s a lot of data there
+**** Take-home questions
+- Will people want to contribute this?
+- How can we contribute to your projects?
+- What is the ultimate distillate/condensate: it acknowledges the work that goes into making something that is beautiful.
+- Carbons are the weekly session, but the methods are the diamonds
+*** The format is a stretch goal for today
+
+* PAR                                                                   :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Some workshop checkin (adding structure that hasn’t been fully there with PLoP itself)
+- EmacsConf prep
+*** 2. Establish what is happening: what and how are we learning?
+- Vigorous discussion of our plans for EmacsConf
+- Tech Meta distinction which we talked about last week became more clear as we populated it
+- The way we’ve been finding times to work in the week has allowed us to work more effectively during the week; even if everyone is happy to recover more time, now the potential to meet during the week for satellite times has been explored, so we could get back to that
+- Efficiency means that people feel something has been accomplished, and this has been going up; this energy could provide impetus to future uses of the workshop
+  "You’re getting good at something just at the end"
+*** 3. What are some different perspectives on what’s happening?
+- JC: 3 points and a break with clear topics planned according to a schedule made things go very well
+- We did stay focused on the topic of the talk rather than mixing in things like planning the workshop; in general our ability to stay focused is improved.
+- This was a more serious discussion of "the public" thing; the workshop is an example
+*** 4. What did we learn or change?
+- ‘Gangue’ is slag around something precious; an egg of slag that contains something precious
+- LV: Changes in modes/rhythms of meeting allows us to explore different ways of working together; this builds our repertoire (staccato, agenda, minutes, whatever); we can redeploy them later
+*** 5. What else should we change going forward?
+- Could we please have a wrap of the Meta discussion; we’ve suggested a lot of things, but how do they actually fit together to make a coherent plan for the talk?
+- JC: Will attempt a wrap and a CLA draft
+
+
+* Tentative agenda for next week
+
+** PLoP debrief or ???                                                 :13m:
+** EmacsConf: Finish ERG-tech                                          :35m:
+** Pause                                                                :5m:
+** EmacsConf: Keep working and possibly  ERG-meta :35m:
+
+* Check-out                                                              :5m:
+** LV
+- Qiantan will be joining on Thursdays
+- Has a Hyperreal tarot card calendar
+- =crdt-follow-user= needs some love
+- Agree it was high energy and would rather have dense meetings (instead of somewhat longer/less dense summer ones)
+- See you in October
+** RP
+- Would like to talk with QH about the Emacs New York meeting
+- Demo could be possible
+- Wishes everyone a good weekend
+- Pace of things will become more relaxed once we get PLoP etc sorted
+** JC
+- Install story would be nice
+- Have had fun talking with you
+- Earlier resting by the river but didn’t see...
+  - ... a Rabbi with a waistcoat?
+** NA
+- Lunch, grocery shopping, then resting
