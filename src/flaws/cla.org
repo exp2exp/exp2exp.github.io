@@ -1,0 +1,179 @@
+#+Title: Analyst’s Handbook
+#+BIBLIOGRAPHY: /home/joe/flaws/main.bib
+#+LATEX_HEADER: \usepackage{natbib}
+
+* Introduction to Causal Layered Analysis
+<<CLA_patterns>>
+
+Sohail Inayatullah developed Causal Layered Analysis (CLA)
+cite:inayatullah1998b,inayatullah2004causal as a research methodology
+for examining a topic of concern at four layers that he refers to as
+the /litany/, /system/, /worldview/ and /myth/.  Part of the reason to carry out such
+an analysis is that there are different kinds of causes, ranging from
+immediate events to deep-seated cultural beliefs.  Inyatullah’s work draws on his
+scholarship of P. R. Sarkar cite:inayatullah1999situating.
+#+begin_quote
+This perspective is derived from Indian philosophical thought...which
+asserts that the mind is constituted in shells or kosas. Moving up and
+down the shells is a process of moral and spiritual
+enlightenment. Going deeper into the mind is an inward process through
+which truths are
+realized.[fn::https://proutglobe.org/2013/06/the-further-reaches-of-policy-making-cla/]
+#+end_quote
+In developing a CLA, none of the four layers is
+privileged over the others, nor are they examined in isolation.
+Rather, one moves between them, examining how they relate to one
+another.  One can then integrate these insights to form a more
+comprehensive basis for understanding what is happening in the present
+and for anticipating the future.  Table \ref{tab:cla-summary} describes each of the four layers according to the following schema:
+
+- *Contents*: /What is found in this layer?/
+- *Analysis*: /Techniques for analysis of this layer./
+- *Literature*: /Instances of texts which are typically operative at this layer./
+
+#                                                    🍕🍕🍕🍕
+#                                                    "Let’s stick with layer as opposed to level."
+
+To further illustrate the four layers and show how such an analysis
+might proceed, we present two examples in the following sections.
+
+\begin{table}[t]
+\begin{mdframed}
+\begin{tabular}{c}
+\textbf{Litany}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] Observable facts, events, and quantitative trends.
+\item[Analysis:] Minimal processing of data.
+\item[Literature:] News reports, tax filings, chit-chat.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{System}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] The social, economic, political, and historical forces which shape events.
+\item[Analysis:] Technical explanations and interpretation of data within a given paradigm.
+\item[Literature:] Editorials and policy institute reports.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{Worldview}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] Core values and attitudes which motivate choices and actions.
+\item[Analysis:] Uncover deep assumptions and study the mental and linguistic constructs which undergird how people interact with each other and their surroundings.  Compare and critique paradigms and discourses.
+\item[Literature:] Works of philosophy and critical theory.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{Myth}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] The symbols and tales which give meaning to life.
+\item[Analysis:] Study symbols and narratives, and the myths and rituals within which they participate.
+\item[Literature:] Poetry, art, anthropology, Jungian analysis.
+\end{description}
+\end{minipage}
+\end{tabular}
+\end{mdframed}
+\medskip
+\caption{Overview of the layers in Causal Layered Analysis\label{tab:cla-summary}}
+\vspace{-2\baselineskip}
+\end{table}
+
+
+* Le Quattro Stagioni, a CLA short story
+<<appendix-pizza>>
+** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
+Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neapolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
+** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
+Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
+** \includegraphics[width=1em]{U1f355.PDF} Example, Worldview Layer
+Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
+** \includegraphics[width=1em]{U1f355.PDF} Example, Myth Layer
+Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom has fond childhood memories of parents who loved cooking together, and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
+
+** Potential Dénouement
+# The stress mentioned above is an upshot of all of the activity described.  Business is booming, money is flowing: that’s not the problem.  However, some confusion has ensued about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  Here we get a sense of what’s missing at the system level, namely, they haven’t yet found a systematic way to sort out the confusion.
+
+# Earlier we looked at the choices that the couple made, relative to their experiences, environment, and background.  Now we see some of the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews—while not disjoint or necessarily in conflict—are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+
+Innovation at the myth layer supports an adapted worldview that
+introduces new patterns into Mom and Pop’s daily and weekly rituals,
+along with new sources of meaning.  Firstly, they focus on improving
+the quality of the food they serve, and receive rave reviews from food
+critics.  This exercises their creativity and ultimately changes the
+whole approach: “Innovation foils attempts to be consistent and
+efficient” cite:tan2020uncertainty (p. 12).  Additionally, Mom and Pop
+decide to close the shop Monday through Wednesday, to spend some time
+away from the business, as part of a new weekly cycle that mirrors the
+seasons.
+
+# They engage with hobbies like writing, woodwork, and painting, and
+# they tend their garden together.  Thursday through Sunday, they
+# resolidify their intention to make their work together a meditation on
+# love. They develop new ideas, related to food and otherwise.  Boosted
+# by their time off, they prepare more innovative meals and, while the
+# restaurant remains affordable, they garner enthusiastic crit from
+# foodies.
+
+
+* Flaws of the smart city via CLA
+
+** Flaws of the smart city via CLA: Litany
+# Realistic and well-thought-out role
+# Communicate to people and develop the role
+# Like a coach to get people to say more about what they mean by what they are saying.
+# The cards are just things to suggest an idea, even better would be for people to make up their own roles.
+# "Why instead of building trains do you want to build rickshaw robots?"
+# "Does someone else have an opinion that would be different from that?"
+
+(Gasp!) An Evil Genius has occupied the Ashmolean museum.  All
+entrances are barred shut, noone can get in or out.  For a few weeks
+this persists---despite efforts at blockading the premises and
+shutting off utilities, somehow the occupiers are not being starved
+out and are not letting up.  The press and the authorities are baffled
+as how and why this is going on!  It seems that the occupiers are not
+interested in making public statements or demanding ransom or anything
+of the sort---apparently all they want to do is to have the museum to
+themselves and camp out there.  After a few week, documents from the
+museum and detailed plans and images of artefacts from the museum
+circulate on the web and museum-quality replicas of artefacts from the
+Ashmolean appear in third-world countries.
+** Flaws of the smart city via CLA: System
+Advances in scanning and printing technology make it possible to
+produce copies of artefacts indistinguishable form the original.
+Moreover, since the information is stored and transmitted digitally,
+anyone with a suitable printer anywhere can make themselves a copy.  A
+system of tunnels allowed the occupiers to evade the blockade and keep
+themselves supplied.  The security system originally designed to keep
+terrorists from damaging the priceless treasures was instead used to
+protect the "terrorists" against the "authorities" "besieging" the
+museum.(edited)
+** Flaws of the smart city via CLA: Worldview
+At the bottom of this, there is a clash of worldviews.  What is an
+artefact: Is it an object which plays a role in rituals and gift
+networks?  Is it a source of data for scientific investigations of the
+past?  Is it a part of an artistic and cultural heritage?  Who should
+own the artefact: The heirs of the people who originally made it?
+Those with the power and wealth to acquire it?  Those who have the
+facilities to curate and study it?  Where is the value: Is it
+spritual?  Is it social?  Is it economic?  Is it scientific?  Is it
+artistic?  Does it specially inhere in the original or can a copy
+share in the value under certain circumstances?
+** Flaws of the smart city via CLA: Myth
+There is a corresponding clash/clang of myths.  We have the myths of
+the people who made the artefact and the metaphors which it expressed
+for them.  We have the "manifest destiny" and "white man's burden"
+myths of the colonizers who collected the artefacts and sent them to
+the museum.  We have the more secular myths of people who admire,
+study and care for the artefacts in the museum today, treasuring them
+as expressions of the human spirit which continue to serve as a source
+of meaning and inspiration.
+* The end                                                           :ignore:
+
+#+begin_export latex
+\bibliographystyle{plain}
+\bibliography{./main}
+#+end_export

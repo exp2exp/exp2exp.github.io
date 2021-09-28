@@ -1,0 +1,91 @@
+#+TITLE: Historian’s Handbook
+
+* Credits
+Excerpted with minor changes from:
+
+Sirkka Heinonen, Joni Karjalainen and Juho Ruotsalainen. Radical Transformation in a Distributed Society — Neo-Carbon Energy Scenarios 2050. © Writers & Finland Futures Research Centre, University of Turku.
+
+
+* Pathway to Radical Startups Finland 2050
+** 2015
+Austerity polices of the new government and Western sections of Russia depen the recession in Finland.
+** 2019
+Liberal parties win the elections of 2019. The Green Party and the National Coalition Party form the backbone of the new government.
+** 2020
+Open source becomes increasingly prominent as a business model. Finnish startups become forerunners of open source practices.
+** 2021
+The government defines ecosystems of startups, especially cleantech and environmental businesses, as the new backbone of the Finnish economy.
+** 2025 
+The goal is set that Finland would become carbon-neutral by 2050. Road tolls are introduced. Business funding is modified to enable startups taking more risks. Social security is renewode to support startup entrepreneurs after failure.
+** 2030
+A new culture of experiments emerges. Finland opens to the rest of the world, especially due to translation technologies which have made language barriers obsolete.
+** 2035
+Finland’s traditional very narrow production structure is diversified significantly. Services, ICT, cleantech and the cultural sector become the new economic leaders.
+** 2040
+The emphasis on pragmatism and engineer-like rationalism has stepped aside to give room for more value-oriented approaches. Following the example of startups, values of deep ecology have penetrated throughout the Finnish culture.
+** 2045
+Inequality and work-related stress have increased. People find it hard to wind down or do things for their own purpose, without calculating the profit for business and work. Public schools have almost disappeared; private schools and self-learning communities provide education. Rural areas have become desolate. Most finns live in large cities.
+** 2050
+The new business environment has matured, and the state has stepped out of the way to leave businesses to operate on their own. Finland has become more or less a libertarian state, as have most other countries.
+* Pathway to Value-Driven Techemonths Finland 2050
+** 2015
+Elon Musk established a private school for Space X employees, representing one of the first moves towards community-like companies.
+** 2017
+Finnish companies began to look for new organization models. They were especially attracetd by the experiments of Google, Facebook and other technology behemoths.
+** 2020
+The first Finnish techemoth was established out of the small and medium-sized companies of the company ecosystem formed around Nokia.
+** 2021
+Many Finnish companies turned to techemoth organization models. The lives of many Finns began to revolve around their workplaces.
+** 2025
+Engineer-minded HR management proved disfunctional in techemoth settings. Management was to be rethought.
+** 2030
+Little by little the Finnish management culture became more democratic. Employees were given more power than they were used to. Cooperative-like practices were implemented in most of the Finnish techemoths.
+** 2040
+Conflicts between techemoths and society begin to emerge. Companies, especially international ones, are so powerful that their interests often clash with the interests of the general public.
+** 2045
+Techemoths’ large resources have enabled the transition to a sustainable society and renewable energy system, but the problem is that energy solutions are tied to the companies providig them.
+** 2050
+Inequalities have widened between those employed by techemonths and those working and living outside them. The well-off are more informed on energy and environmental issues, and are able to make smarter and "cooler" choices on energy and the environment.
+* Pathway to DIY Engineers Finland 2050
+** 2015
+The first dramatic effects of the climate change are seen in the Western countries. In Finland, the effects are not yet really visibly felt, but preparing for the changing climate is taken more seriously than before.
+** 2017
+The Finnish government led by the Center Party invests in bio economy, creating jobs all around the country.
+** 2020
+Education, especially that of engineers, is steered towards the bio economy and sustainable solutions. Digital services are sued increasingly to enable collaboration and distributed practices.
+** 2021
+Traditional wood and paper industry has transformed into a biomaterials industry. Almost everything can be manufactured with biomaterials.
+** 2025
+Local economies and communities thrive once again in every nook and cranny of Finland. The warming climate is beneficial for the bio economy, as growing seasons are longer than before.
+** 2030
+Warming climate causes unrest across the globe. Finns become increasingly isolated and try to stay away from global conflicts. A survivalist mentality gains ground, and local communities try to become self-sufficient.
+** 2035
+Peopel start to migrate away from Southern Finland to the inland.
+** 2040
+Finns live mostly in self-sufficient small cities and communities and are well-prepared for whatever the global situation might turn into. Unemployment is rare, which eases social tensions and frees resources.
+** 2045
+In Finland the pull towards self-sufficient communities is lifestyle- and value-driven, whereas in many parts of the world tight communities are necessary for survivng the climate change. While elsewhere localisation of communities often leads to isolation and fragmentation, the Finns still share a common national identity.
+** 2050
+The isolation of Finland proves in more and more occasions a two-sided sword. As the global situation becomes increasingly chaotic, allies across borders are welcomed warmly. New global order begins to emerge, but Finland continues its cosy isolation (“impivaaralaisuus”).
+
+* Pathway to New Consciousness Finland 2050
+** 2015
+People have become much more connected than before. Social media with its emphasis on sharing, communities and collaboration is becoming the norm in “real life” as well.
+** 2017
+Finland is adapting to the “connectedness” development more slowly than many other countries. This is manifested in the use of media, which in Finland is still dominated by traditional media companies.
+** 2020
+The Finnish economy is still dominated by manufacturing and industrial production, while most of the developed countries rely on services. Due to this lag in development, Finland continues falling behind its reference countries both culturally and economically.
+** 2021
+The downfall of traditional Finnish industries has left an economic vacuum to be filled. A multitude of economic invaders—often from open source and collective urban movements—emerge to fill the void.
+** 2025
+A new global contradiction is arising. Sharing, collaboration and altruism are seen as the path to progress. Unfortunately, in many countries inequalities between citizens are a serious blockade to a harmonious, collaborative society.
+** 2030
+Finland is still a relatively equal country in terms of distribution of wealth and education. Finland decides to tap the potential and begins promoting politics and economics of good life.
+** 2035
+Environmental problems cause conflicts around the globe. New global superpowers, especially China, are using global instability to spread their geopolitical stance. Cyberattacks and grassroots propaganda are used as well as traditional means of war.
+** 2040
+The atmosphere of warfare is ubiquitous as “soft” means of warfare reach citizens’ minds. Enemies are using very clever ways of sowing paranoia and distrust among civilians.
+** 2045
+Stable and equal Finland is seen as a safe-haven amidst global chaos. As early adopters of sharing technologies involving, e.g., brain-to-brain communication, Finns become forerunners of the “New Consciousness” practices and mindsets, paving the way out of the global turmoil.
+** 2050
+Germs of the new, shared consciousness begin to sprout throughout the globe. The phenomenon of the anxiety-ridden self that tries to secure social status, pride, prestige and power starts to evaporate, and humans are finally finding a peace within themselves, each other, and nature.
