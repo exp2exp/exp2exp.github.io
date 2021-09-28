@@ -54,12 +54,12 @@
 • 
 *Related Patterns:*
 
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A  pattern of contours]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#web-of-public-transportation-destination-shuttle][Web Of Public Transportation -- Destination Shuttle]]
-- [[#community-governance][Community Governance]]
-- [[#signage][Signage]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A  pattern of contours]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[web-of-public-transportation-destination-shuttle][Web Of Public Transportation -- Destination Shuttle]]
+- [[community-governance][Community Governance]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -207,11 +207,11 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
 
 # <<pattern-gallery>>
 
@@ -440,11 +440,11 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[caring-for-trees][Caring for Trees]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
 
 # <<pattern-gallery>>
 
@@ -625,14 +625,14 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#street-plaza-trees][Street Plaza Trees]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
-- [[#community-governance][Community Governance]]
-- [[#signage][Signage]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[street-plaza-trees][Street Plaza Trees]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
+- [[community-governance][Community Governance]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -793,9 +793,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting  Shade Trees for Public Open Space]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[caring-for-trees][Caring for Trees]]
+- [[selecting-shade-trees-for-public-open-space][Selecting  Shade Trees for Public Open Space]]
 
 # <<pattern-gallery>>
 
@@ -998,9 +998,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#outdoor-cooking][Outdoor Cooking]]
-- [[#heat-preparedness-plan][Heat Preparedness Plan]]
-- [[#community-governance][Community  Governance]]
+- [[outdoor-cooking][Outdoor Cooking]]
+- [[heat-preparedness-plan][Heat Preparedness Plan]]
+- [[community-governance][Community  Governance]]
 
 # <<pattern-gallery>>
 
@@ -1145,10 +1145,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#shade-2][Shade]]
-- [[#signage][Signage]]
-- [[#bird-baths-and-other-cooling-infrastructure-for-animals][Bird  Baths and other cooling infrastructure for animals]]
-- [[#patchwork-for-accessible-coolth][Patchwork for  Accessible Coolth]]
+- [[shade-2][Shade]]
+- [[signage][Signage]]
+- [[bird-baths-and-other-cooling-infrastructure-for-animals][Bird  Baths and other cooling infrastructure for animals]]
+- [[patchwork-for-accessible-coolth][Patchwork for  Accessible Coolth]]
 
 # <<pattern-gallery>>
 
@@ -1405,10 +1405,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#street-plaza-trees][Street Plaza Trees]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[street-plaza-trees][Street Plaza Trees]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
 
 # <<pattern-gallery>>
 
@@ -1553,9 +1553,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#the-night-time-commons][The Night-time Commons]]
-- [[#gathering-outdoors][Gathering Outdoors]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[the-night-time-commons][The Night-time Commons]]
+- [[gathering-outdoors][Gathering Outdoors]]
 
 # <<pattern-gallery>>
 
@@ -1710,10 +1710,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#private-garden-trees][Private Garden Trees]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#caring-for-trees][Caring for Trees]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[private-garden-trees][Private Garden Trees]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[caring-for-trees][Caring for Trees]]
 
 # <<pattern-gallery>>
 
@@ -1980,11 +1980,11 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A  pattern of contours]]
-- [[#keyline-planning-for-healthy-trees][Keyline Planning  for Healthy Trees]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[caring-for-trees][Caring for Trees]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A  pattern of contours]]
+- [[keyline-planning-for-healthy-trees][Keyline Planning  for Healthy Trees]]
 
 # <<pattern-gallery>>
 
@@ -2227,12 +2227,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#heat-preparedness-plan-2][Heat Preparedness Plan]]
-- [[#shade-2][Shade]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#private-garden-trees][Private Garden Trees]]
-- [[#caring-for-trees][Caring for Trees]]
+- [[heat-preparedness-plan-2][Heat Preparedness Plan]]
+- [[shade-2][Shade]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[private-garden-trees][Private Garden Trees]]
+- [[caring-for-trees][Caring for Trees]]
 
 # <<pattern-gallery>>
 
@@ -2413,11 +2413,11 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#shade-2][Shade]]
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#community-governance][Community Governance]]
-- [[#signage][Signage]]
+- [[shade-2][Shade]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[community-governance][Community Governance]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -2593,12 +2593,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#memorial-walkway][Memorial Walkway]]
-- [[#the-night-time-commons][The Night-time Commons]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#sensory-devices-for-parks][Sensory Devices for Parks]]
-- [[#mobile-play-van][Mobile Play Van]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[memorial-walkway][Memorial Walkway]]
+- [[the-night-time-commons][The Night-time Commons]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[sensory-devices-for-parks][Sensory Devices for Parks]]
+- [[mobile-play-van][Mobile Play Van]]
 
 # <<pattern-gallery>>
 
@@ -2774,13 +2774,13 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#memorial-walkway][Memorial Walkway]]
-- [[#the-night-time-commons][The Night-time Commons]]
-- [[#outdoor-cooking][Outdoor Cooking]]
-- [[#mobile-play-van][Mobile Play Van]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[memorial-walkway][Memorial Walkway]]
+- [[the-night-time-commons][The Night-time Commons]]
+- [[outdoor-cooking][Outdoor Cooking]]
+- [[mobile-play-van][Mobile Play Van]]
 
 # <<pattern-gallery>>
 
@@ -2960,12 +2960,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#succession-tree-planting][Succession Tree Planting]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[caring-for-trees][Caring for Trees]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[succession-tree-planting][Succession Tree Planting]]
 
 # <<pattern-gallery>>
 
@@ -3216,8 +3216,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
-- [[#urban-rural-fingers][Urban & Rural Fingers]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[urban-rural-fingers][Urban & Rural Fingers]]
 
 *** About this pattern
     :PROPERTIES:
@@ -3345,14 +3345,14 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#endangered-ecological-forests][Endangered Ecological Forests]]
-- [[#succession-tree-planting][Succession Tree Planting]]
-- [[#private-garden-trees][Private Garden Trees]]
-- [[#street-plaza-trees][Street Plaza Trees]]
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#caring-for-trees][Caring for Trees]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[endangered-ecological-forests][Endangered Ecological Forests]]
+- [[succession-tree-planting][Succession Tree Planting]]
+- [[private-garden-trees][Private Garden Trees]]
+- [[street-plaza-trees][Street Plaza Trees]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[caring-for-trees][Caring for Trees]]
 
 # <<pattern-gallery>>
 
@@ -3608,10 +3608,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#endangered-ecological-forests][Endangered Ecological Forests]]
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#caring-for-trees][Caring for Trees]]
+- [[endangered-ecological-forests][Endangered Ecological Forests]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[caring-for-trees][Caring for Trees]]
 
 # <<pattern-gallery>>
 
@@ -3781,13 +3781,13 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#endangered-ecological-forests][Endangered Ecological Forests]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#private-garden-trees][Private Garden Trees]]
-- [[#community-governance][Community Governance]]
+- [[endangered-ecological-forests][Endangered Ecological Forests]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[caring-for-trees][Caring for Trees]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[private-garden-trees][Private Garden Trees]]
+- [[community-governance][Community Governance]]
 
 # <<pattern-gallery>>
 
@@ -3950,8 +3950,8 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#trial-live-in-protocol][Ways of Welcoming]]
-- [[#post-occupancy-learning][Post-occupancy Learning]]
+- [[trial-live-in-protocol][Ways of Welcoming]]
+- [[post-occupancy-learning][Post-occupancy Learning]]
 
 # <<pattern-gallery>>
 
@@ -4151,12 +4151,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#succession-tree-planting][Succession Tree Planting]]
-- [[#signage][Signage]]
-- [[#multi-use-community-centre][Multi-Use Community Centre]]
-- [[#trial-live-in-protocol][Ways of Welcoming]]
-- [[#community-governance][Community Governance]]
-- [[#community-library][Community Library]]
+- [[succession-tree-planting][Succession Tree Planting]]
+- [[signage][Signage]]
+- [[multi-use-community-centre][Multi-Use Community Centre]]
+- [[trial-live-in-protocol][Ways of Welcoming]]
+- [[community-governance][Community Governance]]
+- [[community-library][Community Library]]
 
 # <<pattern-gallery>>
 
@@ -4394,12 +4394,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#shade-2][Shade]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
-- [[#pedestrian-linkages-cycle-club][Pedestrian Linkages -- Cycle Club]]
-- [[#car-share][Car Share]]
-- [[#community-governance][Community Governance]]
+- [[shade-2][Shade]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
+- [[pedestrian-linkages-cycle-club][Pedestrian Linkages -- Cycle Club]]
+- [[car-share][Car Share]]
+- [[community-governance][Community Governance]]
 
 # <<pattern-gallery>>
 
@@ -4592,13 +4592,13 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#gathering-outdoors][Gathering Outdoors]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#multi-use-community-centre][Multi-Use Community Centre]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[gathering-outdoors][Gathering Outdoors]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[multi-use-community-centre][Multi-Use Community Centre]]
 
 # <<pattern-gallery>>
 
@@ -4798,9 +4798,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#site-planning-for-coolth][Site Planning for Coolth]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#managing-on-site-water][Managing On-Site Water]]
+- [[site-planning-for-coolth][Site Planning for Coolth]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[managing-on-site-water][Managing On-Site Water]]
 
 # <<pattern-gallery>>
 
@@ -4964,10 +4964,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#endangered-ecological-forests-2][Endangered Ecological Forests]]
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
-- [[#subcultural-boundaries][Subcultural Boundaries]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[endangered-ecological-forests-2][Endangered Ecological Forests]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[subcultural-boundaries][Subcultural Boundaries]]
 
 # <<pattern-gallery>>
 
@@ -5139,12 +5139,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#planning-and-designing-devices-for-a-cool-park][Planning
+- [[planning-and-designing-devices-for-a-cool-park][Planning
   and Designing Devices for A Cool Park]]
-- [[#gathering-outdoors][Gathering Outdoors]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#pedestrian-linkages-walking-school-bus][Pedestrian Linkages -- Walking School Bus]]
+- [[gathering-outdoors][Gathering Outdoors]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[pedestrian-linkages-walking-school-bus][Pedestrian Linkages -- Walking School Bus]]
 
 # <<pattern-gallery>>
 
@@ -5308,10 +5308,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#street-parties-fetes][Street Parties & Fêtes]]
-- [[#outdoor-cooking][Outdoor Cooking]]
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#signage][Signage]]
+- [[street-parties-fetes][Street Parties & Fêtes]]
+- [[outdoor-cooking][Outdoor Cooking]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -5547,17 +5547,17 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#heat-preparedness-plan-2][Heat Preparedness Plan]]
-- [[#street-parties-fetes][Street Parties & Fêtes]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#memorial-walkway][Memorial Walkway]]
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#the-night-time-commons][The Night-time Commons]]
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#outdoor-cooking][Outdoor Cooking]]
-- [[#bushcare-groups][Bushcare Groups]]
+- [[heat-preparedness-plan-2][Heat Preparedness Plan]]
+- [[street-parties-fetes][Street Parties & Fêtes]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[memorial-walkway][Memorial Walkway]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[the-night-time-commons][The Night-time Commons]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[caring-for-trees][Caring for Trees]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[outdoor-cooking][Outdoor Cooking]]
+- [[bushcare-groups][Bushcare Groups]]
 
 # <<pattern-gallery>>
 
@@ -5746,10 +5746,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#shade-2][Shade]]
-- [[#shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
-- [[#succession-tree-planting][Succession Tree Planting]]
+- [[shade-2][Shade]]
+- [[shaded-pedestrian-linkage][Shaded Pedestrian Linkage]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[succession-tree-planting][Succession Tree Planting]]
 
 # <<pattern-gallery>>
 
@@ -5909,12 +5909,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#endangered-ecological-forests-2][Endangered Ecological Forests]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#managing-on-site-water][Managing On-Site Water]]
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
-- [[#succession-tree-planting][Succession Tree Planting]]
+- [[endangered-ecological-forests-2][Endangered Ecological Forests]]
+- [[caring-for-trees][Caring for Trees]]
+- [[managing-on-site-water][Managing On-Site Water]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
+- [[succession-tree-planting][Succession Tree Planting]]
 
 # <<pattern-gallery>>
 
@@ -6259,12 +6259,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#community-governance][Community
+- [[community-governance][Community
   Governance]]
-- [[#multi-use-community-centre][Multi-Use Community
+- [[multi-use-community-centre][Multi-Use Community
   Centre]]
-- [[#community-library][Community Library]]
-- [[#signage][Signage]]
+- [[community-library][Community Library]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -6433,13 +6433,13 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#community-governance][Community Governance]]
-- [[#multi-use-community-centre][Multi-Use Community Centre]]
-- [[#street-parties-fetes][Street Parties & Fêtes]]
-- [[#the-night-time-commons][The Night-time Commons]]
-- [[#community-library][Community Library]]
-- [[#post-occupancy-learning][Post-occupancy Learning]]
-- [[#signage][Signage]]
+- [[community-governance][Community Governance]]
+- [[multi-use-community-centre][Multi-Use Community Centre]]
+- [[street-parties-fetes][Street Parties & Fêtes]]
+- [[the-night-time-commons][The Night-time Commons]]
+- [[community-library][Community Library]]
+- [[post-occupancy-learning][Post-occupancy Learning]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -6668,12 +6668,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#pedestrian-linkages-cycle-club][Pedestrian Linkages -- Cycle Club]]
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
-- [[#community-governance][Community Governance]]
-- [[#community-library][Community Library]]
-- [[#web-of-public-transportation-destination-shuttle][Web Of Public Transportation -- Destination Shuttle]]
-- [[#trial-live-in-protocol][Ways of Welcoming]]
+- [[pedestrian-linkages-cycle-club][Pedestrian Linkages -- Cycle Club]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[community-governance][Community Governance]]
+- [[community-library][Community Library]]
+- [[web-of-public-transportation-destination-shuttle][Web Of Public Transportation -- Destination Shuttle]]
+- [[trial-live-in-protocol][Ways of Welcoming]]
 
 # <<pattern-gallery>>
 
@@ -6830,12 +6830,12 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
-- [[#community-governance][Community Governance]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
-- [[#outdoor-play-areas][Outdoor Play Areas]]
-- [[#signage][Signage]]
+- [[temporary-or-meanwhile-use-of-outdoor-public-space][Temporary or ‘Meanwhile' Use of Outdoor Public Space]]
+- [[community-governance][Community Governance]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
+- [[outdoor-play-areas][Outdoor Play Areas]]
+- [[signage][Signage]]
 
 # <<pattern-gallery>>
 
@@ -7054,9 +7054,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#post-occupancy-learning][Post-occupancy Learning]]
-- [[#community-governance][Community Governance]]
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[post-occupancy-learning][Post-occupancy Learning]]
+- [[community-governance][Community Governance]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
 
 # <<pattern-gallery>>
 
@@ -7229,9 +7229,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#managing-on-site-water][Managing On-Site Water]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[caring-for-trees][Caring for Trees]]
+- [[managing-on-site-water][Managing On-Site Water]]
 
 # <<pattern-gallery>>
 
@@ -7430,10 +7430,10 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
-- [[#keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
-- [[#accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
-- [[#misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
+- [[cool-slopes-a-pattern-of-contours][Cool Slopes: A pattern of contours]]
+- [[keyline-planning-for-healthy-trees][Keyline Planning for Healthy Trees]]
+- [[accessible-clean-water-for-recreation][Accessible Clean Water for Recreation]]
+- [[misting-devices-for-cooling-outdoor-space][Misting Devices for Cooling Outdoor Space]]
 
 # <<pattern-gallery>>
 
@@ -7586,9 +7586,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#post-occupancy-learning][Post-occupancy Learning]]
-- [[#community-governance][Community Governance]]
-- [[#patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
+- [[post-occupancy-learning][Post-occupancy Learning]]
+- [[community-governance][Community Governance]]
+- [[patchwork-for-accessible-coolth][Patchwork for Accessible Coolth]]
 
 # <<pattern-gallery>>
 
@@ -7745,9 +7745,9 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 • 
 *Related Patterns:*
 
-- [[#establishing-site-forests][Establishing Site Forests]]
-- [[#caring-for-trees][Caring for Trees]]
-- [[#selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
+- [[establishing-site-forests][Establishing Site Forests]]
+- [[caring-for-trees][Caring for Trees]]
+- [[selecting-shade-trees-for-public-open-space][Selecting Shade Trees for Public Open Space]]
 
 # <<pattern-gallery>>
 
