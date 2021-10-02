@@ -1,0 +1,257 @@
+#+TITLE: 2 October 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-10-02 Sat>
+
+* 2 October 2021 — Emacs Research Group
+
+* Check-ins                                                            :15m:
+** Ray
+- PLoP workshop summaries requested
+  - JC: however, some confusion here about scheduling
+** Noorah
+- Doing well, all things considered
+** Joe
+- Thinking about looking around for a new job; and in any case, moving out of current flat in 3 months.
+- Any location starting with an =M= would be good.
+** Leo
+- CRDT upgraded 0.2.5, has worked with QH to improve versioning
+- Interview prep: 2 of three algos nailed in the mock interview
+  - 1 of three had a "hard block" which required some data-structures that aren’t in elisp
+  - I can simulate double-linked-lists, stacks, queues... they have different costs, some make the front easier, some the back, and so on.
+  - "So why not just go for Python?"
+  - 8 days to keep practicing, will keep practicing
+- Also thinking about quarterly planning, and other sessions after the PLoP thing is over to discuss objectives relative to a postmortem of PLoP. PAR/CLA perhaps as well.
+  - Would make it easier to select new projects and not repeat last-minute scheduling or overburdening (either early or mid-stream)
+- EmacsConf received a massive number of proposals
+  - Expected many at the end; last year got 5, this year got 12 (in the last week).
+  - This moved to the same number of proposals (45/46).
+  - Schedule is packed (e.g., 40 minutes cut to 20 minutes; and there aren’t that many breaks between talks)
+  - We could do one of our talks in "overflow"
+  - Or we could do it separately in some other venue
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-10-02 Sat 18:47]
+** TODO 
+
+* Agenda                                                               :90m:
+** Impromptu EmacsConf problem
+- The last week of the CFP for EmacsConf brought a lot of proposals, which means that it will be hard to submit the 1h-worth of content we intended to.
+- This pushes us to rethink our talks.
+  - RP: We might want to be able to use the overflow time that EmacsConf is suggesting to /present the model/.
+  - NA: Going for one of the talks during the overflow would be acceptable
+    - LV: There’s no specific deadline, but we would want a pre-recording by Nov 14th
+    - RP: So with both things we proposed we have a good amount of time with this talk or any follow-up or satellite event; we could give ourselves a break to think about what it is, who’s leading it, etc., not feeling pressure to resolve it now
+    - We all have things dragging on our attention right now so why don’t we delay
+- LV: I’m not really able to make valuable contributions to content today because my head is elsewhere
+- Can someone take responsibility for shepherding the talk along?
+** PLoP moment                                                         :15m:
+*** Writer’s workshop debrief
+*** SitRep for Thursday’s workshop
+** EmacsConf talks (?)                                                 :70m:
+
+- How much time to invest into the projects?
+- We need a way to define how we engage with projects.
+
+For PLoP, Joe brought up the topic and was spearheading it.  So is
+"project lead" and other people have been happy to spend time on it.
+So you have a leader and active participants (e.g., helping with the
+event).
+
+Since we’re all co-writers we’re all active participants, but LV has
+taken a more inactive role since September.  In this duration, others
+might have wanted to become inactive, perhaps due to the added work
+coming from PLoP.  However if we had a taxonomy of modes of
+engagement, it might make it easier for leaders and participants to
+get an estimate of how much time things would take.
+
+The problem: if you cut the head out of a project, it shouldn’t flail
+around.  I’m still going to be involved with EmacsConf, and can still
+keep track of what ERG wants to do.  I can’t afford to be an active
+lead on an ERG-EmacsConf talk.  But why was I feeling the pressure to
+do so?  I’m averse of seeing projects we’ve put energy towards... not
+being made good.
+
+"Reliability" is a big concept, beyond just being part of SRE.
+Considering the PLoP stuff, some of us felt overwhelmed: this is the
+worst moment to be dropping a project that we care about because it
+feels like it will be absorbed somewhere else.  As soon as we finish
+PLoP... will we throw everything that we have put off into this?
+
+If we consider the 2 weeks we’ve spent working on the ERG-EmacsConf
+talk...
+
+- NA: It’s not like we’re going anywhere.  We’ve done a lot of work
+  already!
+- RP: A week or two from now, we won’t forget where we’ve left the
+  work, that should be fine.
+
+- LV: So where I’m sitting right now, for September I’ve been phasing
+  out involvement in PLoP (happy to be on the periphery); for ERG, it
+  feels like I’ve been able to organise the meeting, and organising
+  towards the immediate objective of an ERG-EmacsConf presentation.
+  However I didn’t want to create another separate time to work on the
+  proposal.
+
+- The problem is that I thought we would have time to make proposals
+  after the CFP, but due to the massive wave of interest, it’s hard to
+  squeeze things in as we hoped.  Now it feels like this work has been
+  going down the drain as a result of the overcrowded CFP.  Changing
+  course would require more energy than I actually have now... I don’t
+  have a great confidence to do this!
+
+- There’s a setback, but I can’t adapt to change course.
+
+- So far I only had a few minutes to change the plan (I only had 5
+  minutes).
+
+- RP: Since we have til the 17th, we can avoid being stuck with a commitment; we just commit to ourselves to make it. And at that point we have in 90% done.
+- NA: if we just pre-record it, the organisers won’t feel stressed out, and it streamlines the whole event.
+
+- LV: I do want it to be polished, so maybe this is why I don’t want to be in the leadership role.  We discussed this with regard to the Flaws workshop: we wanted to deliver something on par with our expectations.
+
+- The hard work should pay off... no pressure!
+
+- The problem now is that I mobilise perfectionism, but this can be toxic if we don’t have a lot of time to prepare something.
+
+- It’s the conundrum of "reduce the content" — so it won’t have the chocolate chips or whatever it needs on it.
+
+- RP: But we can leave the opportunity of presenting it in January, doing even better since there is more time!  If by the 17th we have enough ideas we could say we have a second event in part of the pre-recorded meeting.
+
+- PLoP feels like it has been a Damocles sword: we’ve spent a lot of time trying to raise it above our head.  I don’t want to be responsible for putting another sword on our head!  
+
+- NA: ...leader of?
+
+- LV: of the whole "going public", the talks we had planned.
+
+- Why do we keep coming back to the going public stuff?  It’s an easy pithy thing.  Any action towards doing something publicly.
+
+- LV: The problem for me: I’m feeling quite ill at ease with the concept of putting strife on people... whether /organisational/ or... I don’t want to have people sacrifice evenings or weekends which we are doing as passion projects.  With PLoP this has been happening; and I’ve been feeling ill at ease with ERG-EmacsConf and trying to meet deadlines.  So then super-opposed to having a short deadline for something that requires more working hours or a changed scope.
+
+I still want to participate in ERG, but I want to guarantee that if extra work is required, we’ll require due notice (like with a contract, next week we would need another hour, are you OK with this).  So we could figure out the taxonomy of involvement/participation before we embark on another topic.
+
+I’ve had trouble from the side looking at how you were interacting with PLoP. Some of the pressure was definitely put by PLoP.  Semi- dropping off and feeling like the boat was rocking... makes me want to intervene, when I see problems, I want to barge in and fix them manumilitary...
+
+So delayed communication? I don’t want to rustle feelings?
+
+The organisation in September has been bad, but I’m echoing Ray’s plea to come up w/ a good way to organise our work together; with ERG or Hyperreal we’re pretty much the same people.  We don’t seem to have the tooling to compartmentalise these differently.  These are venues of work (not para-work) that has none of the financial sustainability that comes with work.  If we realise we’ve invested 4 hours of work towards something and we only have notes and stife that comes from poor organisation... some people might sponge up more than this.  I want to prevent any chain reaction that gets everyone distressed.  I did touch base with Joe recently.
+
+*** Replies
+
+RP: Better said sooner rather than later.  Possibly overflow talk but
+table the other things, but without a specific date.  And even with
+the overflow talk we will have enough time to prepare and present only
+if it is ready with our standards without an early promise (in case
+people don’t have as much time).
+
+JC: The positive value of good organisation, Emacs working, free lancing stuff working (even while heading into another job)...
+
+LV: I would rather not have put this rod into the wheel as we were getting the PLoP thing towards the end.  But I had less availability not to to field this.
+
+RP: This doesn’t affect or derail the preparations for the PLoP workshop.  We’ll get back to that other stuff later.
+
+
+** PAUSE                                                                :5m:
+** Time and effort Ctd.                                                :35m:
+
+LV: You’re effectively being paid to do research, this is important to take into account... it’s the fact that now that I’m in the process of applying for a job, it’s changed by perspective on how I invest my time on the side.  In a chat with Alex: I knew I wanted to keep swimming and free software.  It’s easy to circumscribe swimming and work-stuff.  But with FLOSS stuff it keeps growing and adapting.  I would like to put a charm on it, and would like the reliability there-for.  Fluctuations from Org Roam, EmacsConf, ERG, CRDT... it would need an approvals process.  We already put 2 hours per week here!
+
+JC: To bounce back on what RP was saying, this was great preparation for the PLoP workshop: we would know the strategies to work through people’s problems, we would have an analyst to know...; and we would have a kaiju-coordinator that would look at the micro-perturbations that could happen; what LV brought today was such a micro-perturbation.  In the scenario language that we’ve been developing, we’ve been able to work through this.
+
+NA: PLoP will be ending next week anyway. ¯\_(ツ)_/¯
+
+It will end!
+
+What do we want to learn from the experience?  What do we want to change going forward?
+
+NA: Going forward we all need to be on the same page, if we take on things tangential/parallel... it did feel like we were trying to move things fast and it created strife, definitely.
+
+RP: In addition, the fact that we have these different things means that we can’t always consider them in isolation (erg, workshop... limited time!).  We need to take them all into account, and if you focus on one project at a time it might seem you have time, but only if you neglect the other projects.
+
+LV: With peeragogy or pedagogy... OK but how about "cooperation"?  Literally, Co-operation.  Means that we are synchronising our schedule in a way.  The important thing would be to ensure that the common-ground is the same, and to develop patterns or recognise patterns of overcommitment.
+
+E.g. "a meeting the next day". Either you double-time it and come up with more time, or you do something sub-par.
+
+NA: Doing something is better than nothing!
+
+RP: Sometimes!  It depends on circumstances.
+
+NA: For me, for PLoP, it would be a great opportunity even if we don’t finish it 100%, it would still be worth it to run through it and see what comes up.  It’s a work in progress, same thing with any conference with Emacs we’d say "this is what we’ve done so far" and a conversation there will move things forward.
+
+LV: This reminds me of The Phoenix Project which is about dev-ops: "I am developing Org Roam" and "How do I deploy Org Roam to be used within a company?"  This is linked to the concept of business.  So, too much WIP kills business because you get a huge stack of things to do.  So when you mentioned this, it made me think, how do we manage stuff to be done in a business?  Organisation is one of them, trying to keep WIP low enough is a good thing to do.  So, for me, getting something out there rather than nothing at all... Ray was in a middle-ground (with complexity)... but I am kind of the opposite from Noorah in that I have trouble birthing things in the world unless it is perfect.
+
+One of the problems that I have also is that between ERG and Hyperreal: we’ve talked about grants.  But for me I don’t see ERG that way anymore.  Sometimes it’s research, sometimes its facilitation, but I’m not seeing it as an avenue for money.  The idea of getting a job as a developer has decreased the impetus to get money for the other things.  I didn’t like the idea of developing Org Roam via payments from Roam Research, there were a lot of ties attached.  Hyperreal does have the goal of getting money; even if it is an NGO.  But having financial sustainability coming from a project like this feels like a lot of strife.
+
+RP: three comments: (1) whether to cancel or go forward, a lot has to do with the expectations of a venue. E.g., a workshop, people are OK with WIP.  In a different place where they expect a finished presentation, it’s better to drop out. (2) The place I have heard WIP is in medical research, where we would have work-in-progress seminars, and a much lower expectation on explaining how your work is progressing. (3) Relative to the NGO: going back to PlanetMath, /you/ might not need personal funding, but if things get to a certain stage in an organisation it may need funding to move things forward.  ERG is nowhere near that, but we had that discussion on PlanetMath.  (We had many discussions about this.)
+
+LV: As a quick complexification: I wouldn’t say I’m opposed to getting money from these avenues, but it is causing stife to think of this as a financial sustainability pathway.  Even a grant isn’t sustainable enough, because there’s an end-date and a finite sum.  I need a more fleeting point on the horizon with no end.  This feels artificial in a way, but I need to conjure up a sense of perenity, and then I can help other people.  E.g., if Joe was talking about changing jobs... I might get money from Hyperreal on the side, but I’d rather think of "sustainability" as what I do on my own.  At 27 I’m the youngest one here, most of my studies have been funded by parents, but I kind of need to prove that I can sustain myself on my own.  If I tie it to a group and we are struggling to make ends meet... this won’t bring the sustainability that I need.  I’d rather work for a corporation and be able to afford FLOSS on the side.
+
+RP: Personal sustainability separate from projects makes sense; the other direction has to do with what the project needs.  "This is what we need to do ERG."  But these are separate issues.  With PM, we might have needed... more than a handful of people on a volunteer basis.
+
+JC: The organisational health of ERG & Hyperreal is miles ahead of where PlanetMath’s was.  We might not enjoy the process of communicating clearly at times, but it’s having real benefits.  With regards to Hyperreal, it *is* a company, and JC has to pay money to keep it as such; it is like a startup with training-wheels, with the wheels being our /desire/ to make it a company.  With regards to payments, we were talking with Qiantan on developing a new WWW, we’d probably want some money for that.
+
+LV: Qiantan doesn’t love the formal things in his PhD... but it’s presently his leisure time stuff.  Money would be nice to help keep me afloat.  It would be nice to get money for working on expertise and fun.  But we always have a difference between work and leisure.  A para-professional thing is akin to leisure... maybe motivated by money as well... but typically driven by interest.  I want to get the professional setting going (where I’m getting paid!) so that the FLOSS life can be removed from money consideration or money-corrupts tangents.  My goals to monetise Org-Roam: some were good ideas, some were rotten apples from the start.  We have to make compromises, but I’d rather maintain an element of purity that we haven’t had in the past.
+
+RP: Part of this depends on the scale.  If it depends on you developing something by yourself, as long as you find sustainability and work on it on the side, OK, but if it becomes a bigger thing that involves other people... cf. Project Gutenberg or PlanetMath because people thought it could work pure-volunteer.
+
+LV: This reminds me of a point Noorah mentioned about time invested into leisure.  In a garden or evergreen notes... it feels to me that it’s an organic process, for a passion project or leisure project, to become something that can(~) possibly scale up.  E.g. Org Roam was something that I was just contributing to.  I wasn’t thinking it was going to be a big project; later it starts to have visibility.  But it’s still within the level of scale where I feel we can do it: "it’s just matter of time".  The Roam Research stuff and desire to scale up weren’t lining up.  Money at this point kind of corrupted my approach.  Programming is an interesting example: passion projects can become things you can make money from. But, say, swimming: I’m never going to live from this.  Something to leverage in the time spent w/ ERG: cultivating a garden of projects, and if one of them is a grand idea, we should feel it.  "Going public" is like a seed that none of really recognised.  We have to decide whether to uproot it or potentially corrupt everything else...
+
+NA: I never understood the whole public thing!  I never understood why we even talked about it... still confused, that’s my take.
+
+RP: This goes back to what I was trying to get at the other day with QH, with the Emacs Web and scaling.  Is this going to be something on a small scale that’s done by a few amateurs, versus something that we want to be much bigger with a small prototype?  It’s important to be clear, not just about roles, but also the scope of a project up front, so that you don’t get confused about what it is.
+
+LV: For me, low-scale stuff that eventually turns bigger scale and might need money is based on regular weekly involvement, and after some investment of time, it can turn bigger.  If we think about something that is bigger-scale-first, I find it easier to think if I’m being paid up front for me to feel safe doing it.  If I were to be recruited by Criteo, I’d think about bigger projects because I don’t have to worry about money.  For the FLOSS stuff I’d rather enshrine a (smaller) amount of time that might lead somewhere eventually.  But it needs to be a very smooth process that is erring on the side of caution regarding financing (even if it takes risks with ideas).
+
+JC: On the top of getting the money upfront; with Hyperreal, with the 80k figure, the money would have been upfront, but it would probably have been an element of pressure.  We might be closer now to a think-tank, or to a group of consultants; but we’re definitely not like a unicorn startup.
+
+RP: Visionary, DIY engineer, startup, big company... most things can have a similar plot line.  We’re in the early stages here.  So having something else finance it vs seeking financing (JC: or customers) is more appropriate.
+
+LV: I don’t want to imprint too much onto ERG.  ERG is a horizontal process; I don’t want the direction to be too influenced by the direction of my life.  E.g., scheduling.  I might err on the side of caution, but others might want to do something else.  Let me know if I’m blocking something.
+
+* PAR                                                                  :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Initially we wanted to talk about our ERG-EmacsConf talk
+- We ended up being side-tracked on fielding worries about changing elements of life and getting a bit worried about the way we work together
+*** 2. Establish what is happening: what and how are we learning?
+- Circumstances evolved rapidly, and there have been other unexpected circumstances over the last few weeks, so we couldn’t just work tightly to the schedule
+- We had to go back and think things through starting from the circumstances and concerns and whatever else came up
+*** 3. What are some different perspectives on what’s happening?
+- Pleased that his prod got us deeper into the discussion that we ended up fielding.  We re-routed the discussion midstream, which is probably a good testament to our flexibility.
+- We’re quite willing to consider this a smooth endeavour with smooth progression.  We should be wary of elements like "going public" which appear like a tunnel on the horizon...  Let’s be wary of the cruft that crops up in what we’re doing that might be side-effects of misunderstanding or perfunctory work that is turning sour.
+- RP: this is a default assumption "people meet, they want to get bigger" But this might have crept in unexamined.
+- LV: We often mobilise transdisciplinarity, but another might be originality.  By putting "Research" in the title we strive towards the goal of fitting to whatever research is meant to be, but our work and style actually reflects a lot of originality.  So we should be careful of all the usual stuff that other RGs do.  Let’s try to be wary of stereotypical behaviours: take the expectations with a grain of salt.  Debrief them in whatever setting.
+- JC: Tangentially, work on the CLA has been pushed to later.
+*** 4. What did we learn or change?
+- Yesterday we talked about =Joe:Chaos=, =Leo:Organisation=; now we see how that can play out practically.
+*** 5. What else should we change going forward?
+- When the circumstances are not working out how we want, we should be aiming to reconsider them and adapt.
+- Reviewing what you’re doing and adapting is related to flexibility. You need to be able to adapt to a situation.  We’ve had a good track record of justing how we run the meeting, or adjust the objectives: e.g. whitepaper (goal) vs paper (outcome).  
+
+
+* Tentative agenda for next week
+
+** TBD; no bandwidth right now
+
+* Check-out                                                             :5m:
+** LV
+- (Today’s work was beneficial to PLoP but we didn’t field it formally.)
+- Wanting to provide an offset view on the workshop at some point.
+- My life: containment proceedure for emotional strife was put to the test today, it was my intent to delay until the PLoP workshop, but talking about it today was for the better. The focus here on me at the mic was appropriate given my concern; I’m fine and feeling lighter with regard to ERG and Hyperreal now that I’ve fielded this stuff.
+- There’s an element of "eustress" relative to the interview (not distress). The stakes are rising, and with me separating the floss stuff from professional stuff, it’s me bracing for the interviews.  Now there are significant stakes (e.g. doing this in a different language) but I’m more excited than stressed about it.
+- However I do have very little bandwidth for unexpected stuff or assessing future risks, that’s why I’m saying no to scheduling stuff. But this isn’t preventing me from making good on current commitments. It’s a good way to establish a baseline for what my involvement would be relative to the job.
+- Safeguarding person inviting the casual meeting warms my heart if it’s a chill session! (10%)
+- Thanks to Joe & Ray for keeping the audio nicely put together (it wasn’t easy with the content but clear communication w/ no background noise or echo made it like we were in the same room)
+** RP
+- Different from expected but it went well. Will get some rest after this and then switch back to workshop mode until Thursday.
+- We don’t need a full session on Sunday, maybe we could have a relaxing play-through?  (Primarily Joe and Noorah, any time after 1PM Eastern with a snack, keep it fun; and best luck to Leo for the preparation.)
+** JC
+- A person that JC likes is moving away, which is causing some mild emotional strife.
+- The tension with his job is also causing him to reconsider the equations of his life; on top of the previous point, this is all very exhausting.
+- Can keep working on the parts of the workshop project on our own
+** NA
+ - Today was interesting I want everyone to know that Mercury is in retrograde until October 18th: if this is confusing that’s fine. Other than that, just going to go have lunch and work on the Designer. 
+- Designer slides...?
