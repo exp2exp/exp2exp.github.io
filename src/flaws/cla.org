@@ -23,21 +23,25 @@ according to the following schema:
 To further illustrate the four layers and show how such an analysis
 might proceed, we present two examples in the following sections.
 
+* Litany
 #+CAPTION: Litany
 | Contents | Observable facts, events, and quantitative trends.|
 | Analysis | Minimal processing of data. |
 | Literature | News reports, tax filings, chit-chat. |
 
+* System
 #+CAPTION: System
 | Contents   | The social, economic, political, and historical forces which shape events. |
 | Analysis   | Technical explanations and interpretation of data within a given paradigm. |
 | Literature | Editorials and policy institute reports.                                   |
 
+* Worldview
 #+CAPTION: Worldview
 | Contents   | Core values and attitudes which motivate choices and actions.                                                                                                                                       |
 | Analysis   | Uncover deep assumptions and study the mental and linguistic constructs which undergird how people interact with each other and their surroundings.  Compare and critique paradigms and discourses. |
 | Literature | Works of philosophy and critical theory.                                                                                                                                                            |
 
+* Myth
 #+CAPTION: Myth
 | Contents   | The symbols and tales which give meaning to life.                                      |
 | Analysis   | Study symbols and narratives, and the myths and rituals within which they participate. |
@@ -126,9 +130,20 @@ these rituals to a new schedule. A suitable research strategy might be
 to study how practices changed in the past, as with the introduction
 of industrialization and its clockwork regimentation of the day.
 
+* Example shareback tableau
+
+*Litany*: The dispossessed outside the glass wall
+
+*System*: Profit motive replaces social care
+
+*Worldview*: The counterculture rises
+
+*Myth*: Accessible Clean Water for Recreation
+
 * The end                                                           :ignore:
 
 #+begin_export latex
 \bibliographystyle{plain}
 \bibliography{./main}
 #+end_export
+
