@@ -5,22 +5,10 @@
 * Introduction to Causal Layered Analysis
 <<CLA_patterns>>
 
-Sohail Inayatullah developed Causal Layered Analysis (CLA)
-cite:inayatullah1998b,inayatullah2004causal as a research methodology
-for examining a topic of concern at four layers that he refers to as
-the /litany/, /system/, /worldview/ and /myth/.  Part of the reason to carry out such
-an analysis is that there are different kinds of causes, ranging from
-immediate events to deep-seated cultural beliefs.  Inyatullah’s work draws on his
-scholarship of P. R. Sarkar cite:inayatullah1999situating.
-#+begin_quote
-This perspective is derived from Indian philosophical thought...which
-asserts that the mind is constituted in shells or kosas. Moving up and
-down the shells is a process of moral and spiritual
-enlightenment. Going deeper into the mind is an inward process through
-which truths are
-realized.[fn::https://proutglobe.org/2013/06/the-further-reaches-of-policy-making-cla/]
-#+end_quote
-In developing a CLA, none of the four layers is privileged over the
+Sohail Inayatullah developed Causal Layered Analysis (CLA) as a
+research methodology for examining a topic of concern at four layers
+that he refers to as the /litany/, /system/, /worldview/ and /myth/.  In
+developing a CLA, none of the four layers is privileged over the
 others, nor are they examined in isolation.  Rather, one moves between
 them, examining how they relate to one another.  One can then
 integrate these insights to form a more comprehensive basis for
@@ -104,40 +92,39 @@ study and care for the artefacts in the museum today, treasuring them
 as expressions of the human spirit which continue to serve as a source
 of meaning and inspiration.
 
-* Le Quattro Stagioni, a CLA short story
-<<appendix-pizza>>
-** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
-Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neapolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
-** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
-Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
-** \includegraphics[width=1em]{U1f355.PDF} Example, Worldview Layer
-Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
-** \includegraphics[width=1em]{U1f355.PDF} Example, Myth Layer
-Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom has fond childhood memories of parents who loved cooking together, and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
+* Applying CLA thinking to critiquing the Cooling the Commons patterns
 
-** Potential Dénouement
-# The stress mentioned above is an upshot of all of the activity described.  Business is booming, money is flowing: that’s not the problem.  However, some confusion has ensued about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  Here we get a sense of what’s missing at the system level, namely, they haven’t yet found a systematic way to sort out the confusion.
+The 41 patterns they have developed include examples like \textsc{The Night-Time Commons}
+which:
 
-# Earlier we looked at the choices that the couple made, relative to their experiences, environment, and background.  Now we see some of the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews—while not disjoint or necessarily in conflict—are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+#+begin_quote
+… might shift daytime activities into cooler night times. Some places
+already have these patterns: night markets and night-time use of
+outdoor spaces. If locally adapted versions of these patterns
+encourage people to adopt new habits, other patterns will be
+needed. These will include, for example, ways to remind those cooling
+off outdoors in the evening that others might be trying to sleep with
+their naturally ventilating windows open. Such interlinked patterns
+point to the way pattern thinking moves from the big scale to the
+small.
+#+end_quote
 
-Innovation at the myth layer supports an adapted worldview that
-introduces new patterns into Mom and Pop’s daily and weekly rituals,
-along with new sources of meaning.  Firstly, they focus on improving
-the quality of the food they serve, and receive rave reviews from food
-critics.  This exercises their creativity and ultimately changes the
-whole approach: “Innovation foils attempts to be consistent and
-efficient” cite:tan2020uncertainty (p. 12).  Additionally, Mom and Pop
-decide to close the shop Monday through Wednesday, to spend some time
-away from the business, as part of a new weekly cycle that mirrors the
-seasons.
-
-# They engage with hobbies like writing, woodwork, and painting, and
-# they tend their garden together.  Thursday through Sunday, they
-# resolidify their intention to make their work together a meditation on
-# love. They develop new ideas, related to food and otherwise.  Boosted
-# by their time off, they prepare more innovative meals and, while the
-# restaurant remains affordable, they garner enthusiastic crit from
-# foodies.
+Reading this, we were concerned that, while the Cooling the Commons
+patterns do acknowledge “horizontal complexity”—namely, through
+interlinked patterns—the process does not deal with the “vertical
+complexity” coming from the fact that diurnal rhythms are deeply
+embedded in biology and culture. People have cultural beliefs about
+the activities that are appropriate for different times of day. Public
+and domestic rituals are organized about the daily cycle. Times of day
+have symbolic associations. As far as we could tell, these authors
+focused on more or less technical issues at the systems level, and did
+not acknowledge these issues at the worldview and myth levels. A more
+comprehensive approach might, for instance, re-examine rituals to see
+which of them relate to the phenomenon of sunrise versus the act of
+getting up and starting the day, and then figuring out how to adapt
+these rituals to a new schedule. A suitable research strategy might be
+to study how practices changed in the past, as with the introduction
+of industrialization and its clockwork regimentation of the day.
 
 * The end                                                           :ignore:
 

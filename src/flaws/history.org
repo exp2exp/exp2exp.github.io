@@ -7,16 +7,26 @@ Sirkka Heinonen, Joni Karjalainen and Juho Ruotsalainen. Radical Transformation 
 
 
 * Pathway to Radical Startups Finland 2050
+#+begin_quote
+In the Radical Startups scenario society is business-oriented, but
+economy is driven by a multitude of small-scale startups known for
+their radical values and approaches.  Peer-to-peer is realised in
+startup networks. Their selling point is promising to do societal and
+environmental good, and offering workers opportunities for
+self-expression.  Environmental problems are solved first and foremost
+commercially.  Businesses are drivers of new, deep-ecologically
+oriented lifestyles.
+#+end_quote
 ** 2015
-Austerity polices of the new government and Western sections of Russia depen the recession in Finland.
+Austerity polices of the new government and Western sections of Russia deepen the recession in Finland.
 ** 2019
 Liberal parties win the elections of 2019. The Green Party and the National Coalition Party form the backbone of the new government.
 ** 2020
 Open source becomes increasingly prominent as a business model. Finnish startups become forerunners of open source practices.
 ** 2021
 The government defines ecosystems of startups, especially cleantech and environmental businesses, as the new backbone of the Finnish economy.
-** 2025 
-The goal is set that Finland would become carbon-neutral by 2050. Road tolls are introduced. Business funding is modified to enable startups taking more risks. Social security is renewode to support startup entrepreneurs after failure.
+** 2025
+The goal is set that Finland would become carbon-neutral by 2050. Road tolls are introduced. Business funding is modified to enable startups taking more risks. Social security is renewed to support startup entrepreneurs after failure.
 ** 2030
 A new culture of experiments emerges. Finland opens to the rest of the world, especially due to translation technologies which have made language barriers obsolete.
 ** 2035
@@ -27,7 +37,20 @@ The emphasis on pragmatism and engineer-like rationalism has stepped aside to gi
 Inequality and work-related stress have increased. People find it hard to wind down or do things for their own purpose, without calculating the profit for business and work. Public schools have almost disappeared; private schools and self-learning communities provide education. Rural areas have become desolate. Most finns live in large cities.
 ** 2050
 The new business environment has matured, and the state has stepped out of the way to leave businesses to operate on their own. Finland has become more or less a libertarian state, as have most other countries.
+
+
 * Pathway to Value-Driven Techemonths Finland 2050
+#+begin_quote
+In the Value-Driven Techemoths scenario, peer-to-peer approaches are
+common, but they are practiced within large technology
+corporations. These “techemoths” represent the Silicon Valley vision
+of emancipation, freedom, creativity and open source.  The vision is,
+however, somewhat self-contradictory. Techemoths cherish the
+“libertarian” hacker ethos, but at the same time confine their
+employees tightly within corporate walls.  In this scenario, markets
+take care of environmental issues. Techemoths invest in ambitious
+energy, technology and environmental projects.
+#+end_quote
 ** 2015
 Elon Musk established a private school for Space X employees, representing one of the first moves towards community-like companies.
 ** 2017
@@ -47,28 +70,62 @@ Techemoths’ large resources have enabled the transition to a sustainable socie
 ** 2050
 Inequalities have widened between those employed by techemonths and those working and living outside them. The well-off are more informed on energy and environmental issues, and are able to make smarter and "cooler" choices on energy and the environment.
 * Pathway to DIY Engineers Finland 2050
+#+begin_quote
+The world has faced an ecological collapse.  Engineer-oriented
+citizens have organized themselves as local communities to survive.
+Environmental problems are solved locally, with a practical mindset.
+Nation states and national cultures have more or less withered away.
+Global trade has plummeted, so communities have to cope with mostly
+low-tech solutions.
+#+end_quote
+
 ** 2015
-The first dramatic effects of the climate change are seen in the Western countries. In Finland, the effects are not yet really visibly felt, but preparing for the changing climate is taken more seriously than before.
+The first dramatic effects of climate change are seen in the Western
+countries. In Finland, the effects are not yet really visibly felt,
+but preparing for the changing climate is taken more seriously than
+before.
 ** 2017
-The Finnish government led by the Center Party invests in bio economy, creating jobs all around the country.
+The Finnish government led by the Center Party invests in bio economy,
+creating jobs all around the country.
 ** 2020
-Education, especially that of engineers, is steered towards the bio economy and sustainable solutions. Digital services are sued increasingly to enable collaboration and distributed practices.
+Education, especially that of engineers, is steered towards the bio
+economy and sustainable solutions. Digital services are used
+increasingly to enable collaboration and distributed practices.
 ** 2021
-Traditional wood and paper industry has transformed into a biomaterials industry. Almost everything can be manufactured with biomaterials.
+Traditional wood and paper industry has transformed into a
+biomaterials industry. Almost everything can be manufactured with
+biomaterials.
 ** 2025
-Local economies and communities thrive once again in every nook and cranny of Finland. The warming climate is beneficial for the bio economy, as growing seasons are longer than before.
+Local economies and communities thrive once again in every nook and
+cranny of Finland. The warming climate is beneficial for the bio
+economy, as growing seasons are longer than before.
 ** 2030
-Warming climate causes unrest across the globe. Finns become increasingly isolated and try to stay away from global conflicts. A survivalist mentality gains ground, and local communities try to become self-sufficient.
+Warming climate causes unrest across the globe. Finns become
+increasingly isolated and try to stay away from global conflicts. A
+survivalist mentality gains ground, and local communities try to
+become self-sufficient.
 ** 2035
-Peopel start to migrate away from Southern Finland to the inland.
+People start to migrate away from Southern Finland to the inland.
 ** 2040
 Finns live mostly in self-sufficient small cities and communities and are well-prepared for whatever the global situation might turn into. Unemployment is rare, which eases social tensions and frees resources.
 ** 2045
-In Finland the pull towards self-sufficient communities is lifestyle- and value-driven, whereas in many parts of the world tight communities are necessary for survivng the climate change. While elsewhere localisation of communities often leads to isolation and fragmentation, the Finns still share a common national identity.
+In Finland the pull towards self-sufficient communities is lifestyle- and value-driven, whereas in many parts of the world tight communities are necessary for surviving climate change. While elsewhere localisation of communities often leads to isolation and fragmentation, the Finns still share a common national identity.
 ** 2050
 The isolation of Finland proves in more and more occasions a two-sided sword. As the global situation becomes increasingly chaotic, allies across borders are welcomed warmly. New global order begins to emerge, but Finland continues its cosy isolation (“impivaaralaisuus”).
 
 * Pathway to New Consciousness Finland 2050
+#+begin_quote
+In the “New Consciousness” scenario, a looming ecological crisis,
+“World War III” of numerous small hybrid warfare conflicts, and
+ubiquitous ICTs have led to a new kind of consciousness and worldview
+altogether. Values of deep ecology have become the norm.  People do
+not conceive themselves as separate, self-profit seeking individuals,
+but deeply intertwined with other humans and with nature. Phenomena
+are conceptualized and understood from a systems-oriented worldview,
+which sees “everything connected to everything else” – as parts of a
+single, global system. Society is organised as open global
+collaboration and sharing of resources and information.
+#+end_quote
 ** 2015
 People have become much more connected than before. Social media with its emphasis on sharing, communities and collaboration is becoming the norm in “real life” as well.
 ** 2017

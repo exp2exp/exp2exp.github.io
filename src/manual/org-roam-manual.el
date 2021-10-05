@@ -167,6 +167,40 @@ and derived PDF is defined.")
                        "04_may_2021_world_of_the_text.org"
                        "05_may_2021_breakdown_of_language.org"))
 
+(defvar just-erg
+  '(
+    "erg-2020-12-02.org"
+    "erg-2020-12-12.org"
+    "erg-2020-12-19.org"
+    "erg-2021-01-02.org"
+    "erg-2021-01-09.org"
+    "erg-2021-01-16.org"
+    "erg-2021-01-23.org"
+    "erg-2021-01-30.org"
+    "erg-2021-02-06.org"
+    "erg-2021-02-13.org"
+    "erg-2021-02-20.org"
+    "erg-2021-02-27.org"
+    "erg-2021-03-06.org"
+    "erg-2021-03-13.org"
+    "erg-2021-03-27.org"
+    "erg-2021-04-03.org"
+    "erg-2021-04-10.org"
+    "erg-2021-04-17.org"
+    "erg-2021-04-24.org"
+    "erg-2021-05-01.org"
+    "erg-2021-05-08.org"
+    "erg-2021-05-15.org"
+    "erg-2021-05-22.org"
+    "erg-2021-05-29.org"
+    "erg-2021-06-19.org"
+    "erg-2021-08-28.org"
+    "erg-2021-09-11.org"
+    "erg-2021-09-18.org"
+    "erg-2021-09-25.org"
+    "erg-2021-10-02.org"
+))
+
 (defun indent-org-roam-export ()
   "Utility function to increase indention for selected trees."
   (org-map-entries (lambda ()
