@@ -1,0 +1,171 @@
+#+TITLE: 9 October 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-10-09 Sat>
+
+* 9 October 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+** Ray
+- Has many thoughts about the workshop, could we pick another time to go into more depth on planning what comes next?
+  - NA: Can meet 10AM/11AM Eastern (4PM UK) to discuss more)
+- Don’t have much to add since we have a lot of work to cover today!
+- Could we keep it shorter and focused this time?  Possibly trying to do it in a less-stressful way with out too many commitments.
+** Noorah
+- Doing well, came from a work-out
+** Joe
+- Extremely tired, can take notes.
+** Leo
+- Mentally exhausted because he had 2 hours of EmacsConf meeting with some difficult interpersonal stuff to resolve. Feels he has been running on ropes. Would like to have no interpersonal strife.
+- This particular meeting got so bad and Leo felt impugned in terms of his meeting-running style, thinking maybe he should take a week off from such engagements
+- Broader context: he has a lot of stuff going on with regard to the job preparation stuff, so needs to defend his mental space.
+
+* Meta points
+** TODO Don’t forget to record the session!                             :LV:
+
+* Agenda                                                                :85m:
+** Prepare EmacsConf talk                                              :40m:
+- Can we write the proposal today?
+- Overflow strategy is to fill a 15 minute spot in lunch time (inclusive of questions)
+- Procedurally: this meeting and next two meetings to work on this, with overflow into the week
+- On average we are all pretty tired; this can create a risk that we don’t get much done in the first sessions and then have to make up time later
+*** OBJECTIVE: Submit the proposal
+- November 7th we would want a full prerecorded talk
+- In light of what we wanted to talk about last time we discussed this, could we be happy with a 10 minute presentation?
+- It would be a miniature of any larger talk
+- If it’s a short introduction it could be "human interest" focusing on how we met at the last EmacsConf and the fact that we’re still working together; there’s an annual conference but you can also stay in touch during the year
+- NA: I think the purpose of the talk is similar to what Ray said. "Hey this is what we did this whole year, this is how we talk about Emacs... and then take it from there."  And we can use this talk, the details of it, to explore what we want to do next.  E.g., to digest the whole year, try to figure out what happened and what needs to happen.
+- RP: The historical angle makes sense here.  Like in a PLoP keynote, we could have discussion amongst the participants to give a little sense of what it’s like to be at one of these meetings.
+- LV: Joe had talked about how we might be able to use the Flaws workshop for something else.  Similarly how would this talk help with our goals?  As a 1-year-anniversary we can present ourselves... from a meta perspective, I’d love if in the next 25 minutes we could write the blurb.  This way we can send it today.
+- JC: Could maybe ditch the Q&A and move to a TED Talk style of presentation
+
+#+begin_quote
+- WIP
+  - Doing it historically might have this be our first cry of existence
+  - ERG show and tell
+    - SHOW: panel; pre-recordded
+    - TELL: just telling what happened
+
+- Concrete instances of "what happened"
+
+- Concrete instances of "in/on/with" Emacs
+  - JC: ...does this relate to the CLA layers of "litany/system/worldview/myth"?
+#+end_quote
+
+#+begin_quote
+Name: Emacs Research Group (Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier)
+
+Title: Emacs Research Group Season Zero: What we did together with Emacs in 2 hours a week for a year
+
+Abstract:
+
+This is our story:
+
+We met and convened at EmacsConf 2020.  We thought we might want to
+write a whitepaper as an output.  We met approximately weekly up until
+the summer holiday, and resumed afterward.  We had several guest
+attendees over the weeks.  We took notes on each meeting using a new
+‘conflict-free replicated data type’ package (CRDT).  We did a Project
+Action Review (PAR) at the end of each meeting.  We prepared a Causal
+Layered Analysis (CLA) of our meetings.  We wrote up our experiences
+as a case study within a joint submission to the Pattern Languages of
+Programs Conference (PLoP 2021).  We also prepared and delivered an
+interactive workshop related at that conference.  
+
+We can now understand the roles we used in our workshop in relation to
+the roles that we are taking in our ERG meetings; e.g., situational
+reports (sitreps) from a ‘Kaiju Communicator’, or topic modelling from
+a ‘Designer’; and can we make use of the information about where
+conflict appears through the thinking of an ‘Analyst’?
+
+Going forward we’re inspired by the Gilliam-linked documentaries "Lost
+in La Mancha?" and "[[https://en.wikipedia.org/wiki/The_Man_Who_Killed_Don_Quixote#He_Dreams_of_Giants][He Dreams of Giants]]" and the *Kenneth Cole
+Productions* story.  We can think of our experience as a movie trailer
+parked next to the EmacsConf station.
+
+- 5-10 minutes: (brief description/outline)
+- 20 minutes: (brief description/outline)
+- 40 minutes: (brief description/outline)
+
+Availability and preferred Q&A approach:
+
+Speaker release: XXX
+
+#+end_quote
+** PAUSE                                                                :5m:
+** Overflow for EmacsConf                                              :25m:
+** Prepare the debrief PLoP                                            :10m:
+OBJECTIVE: Have a plan for the debrief session on [2021-10-12 Tue 15:00] (UTC)
+
+- Started with a paper for Futures [[https://arxiv.org/abs/2012.03736][Patterns, anticipation and participatory futures]]; this new submission one got accepted
+- We did incorporate some of what we thought about with ERG
+- Another thing that came up along the way (with ERG)
+- Thinking about the overlaps (is this an ERG thing, Hyperreal, Peeragogy?
+- Thinking about future materials for the workshop.
+- Thinking about rôles in terms of scalability: Who is going to be doing what going forward?
+- Can we make some approximations around what our availability is going to be on several timelines
+- There was some strife along different levels… somewhat stressful for all of us; so… what can we learn from this?
+- The stife does have something to do with our transdisciplinary work, and outside commitments
+- This means we have to be more deliberate than people who were only focused on one thing
+- We started to get future-oriented future into our ways of thinking; i.e., ‘how would we like season 1 to go’; ‘what do we want to deliver a year from now?’
+- Can we retrospectively apply ‘scenarios’ to PLoP? E.g., the Optimistic scenario of nearly-on-schedule, clearly-coordinated, which would allow us to seamlessly do our paper, workshop, campfire talk.  But had we planned a few scenarios where some things went wrong… e.g., "one of us gets busy" or something like that.  And this would allow us to think about what would be our Plan B.
+- We haven’t realised the value of all the seeds we’ve sown
+- This mirrors the experience with the (rejected) Futures submission which was better-realised with PLoP
+- They get loads of work out of us with PLoP, how do we think about the opportunity cost?
+- How should we think about the mission-creep between technical stuff, social stuff, futures stuff, other directions...
+- How might this have alienated some participants?
+
+* PAR                                                                   :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Progress on the EmacsConf talk
+- Initial debrief of PLoP
+*** 2. Establish what is happening: what and how are we learning?
+- Came up with title and abstract of the EmacsConf talk
+- Got through main bullet points on PLoP debrief
+*** 3. What are some different perspectives on what’s happening?
+- Our talk morphed from a more technical talk (last time we discussed it) to a more entertaining lunchtime talk
+- September has taken a toll (PLoP, Criteo, Thesis, Abby…)
+- Joe was expecting just to take notes but got more drawn into the conversation
+- Since we were mostly focused the session was not dizzying
+*** 4. What did we learn or change?
+- For today: today, meta stuff could go into the presentation, future stuff could go into the PLoP.
+- Some questions:
+- What can we learn from the challenges?
+- How can we build on the opportunities that have been created?
+- How do we think about the opportunities?
+*** 5. What else should we change going forward?
+- Get beyond solutions-on-paper to the challenges
+- If there are many topics, think about how to refile/reschedule them if we can’t realistically do them here; let’s not feel obliged to overload ourselves
+- Still, Saturday slots can amorphously adjust to what we want/need to accomplish
+
+* Tentative agenda for next week
+
+** One hour session to focus on the EmacsConf talk
+- Might we in general want to bring it to 1 hour long in future weeks?
+- If we already have time when we work together during the week, this could make sense
+- If Leo’s busy with the job then he might want to safeguard more time on the weekend?
+- Maybe need to get more pieces in play to think about the best possible time to meet
+
+* Check-out                                                             :10m:
+** LV
+- I want to eat, having not eaten since 7 hours ago
+- Really tired but used to the marathon
+- Was really taxed from the previous meeting (like Joe) but still managed to bring an element of wealth into the interaction, with follow-through
+- Next week will need to further down-scale involvement in anything not related to algorithms (and sleeping and swimming and hard commitments with EmacsConf scheduling emails)
+- EmacsConf Org Mode debugging takes time but gives some insurance; EmacsConf organisation is more rife with bottlenecks (personnel robustness) than ERG
+** RP
+- Today went well, I liked the way what would have been a talk turned more into lunch entertainment
+  - JC: side-show format?
+- Happens to be wearing Kenneth Cole shoes today!
+- We’ve internalised the way of working so that it’s not all dependent on one person to conduct the whole thing
+- Happy with conversations about Qiantan during the week
+** JC
+- Tired; wasn’t in a particularly good mood as a result of the talk he has before ERG which was particularly taxing.
+- Has to keep catching up with his rest; last week was stressful, but things might be looking up!
+- Still trying to catch up on his rest and making good on his commitment to treat people well
+** NA
+- Today was great, glad we finished (sort of) the abstract
+- Wants to take a nap!
