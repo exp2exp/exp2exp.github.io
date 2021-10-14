@@ -1,0 +1,27 @@
+#+title: Report on First PLACARD workshop
+
+Hi, Peeragogues!
+
+Last Wednesday, October 6th we led a workshop at the 2021 Pattern Languages of Programming (PLoP) conference.
+
+https://www.hillside.net/plop/2021/
+
+It was an adapted and extended version of the workshops we did earlier this year at the Brookes Creative Industry Festival and the Connected Learning Summit.
+
+Following a short presentation overview 
+
+https://docs.google.com/presentation/d/1xf7sgCciZNKDe5dWKQkYbj8oI1qYR0oqzo3VFOHpavI/edit?usp=drivesdk
+
+we trained attendees on the four different roles (Historian, Kaiju Communicator, Designer and Analyst) for the scenario planning game. The game was a remix of "Flaws of the Smart City" from Design Friction 
+
+http://www.flawsofthesmartcity.com/
+
+and the causal layered analysis (CLA) game Heinonen, Minkkinen, Karjalainen, and Inayatullah played at the "Future Studies Tackling Wicked Problems" 2015 conference in Turku, Finland
+
+https://doi.org/10.1016/j.techfore.2016.10.011
+
+At the end of the session we did a Project Action Review (PAR)
+
+https://docs.google.com/document/d/17JCmBYqN6_zwxgY2cUkMQPU2jVoahgU8iidCErtZ_ts/edit
+
+Thank you to the conference organizers for giving us the opportunity to do this workshop plus the attendees for taking the time to join us and expending energy to participate. Also kudos to Noorah, Ray, Leo and Joe for doing the brunt of the work!
