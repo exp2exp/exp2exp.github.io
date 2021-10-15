@@ -2,26 +2,90 @@
 
 Hi, Peeragogues!
 
-Last Wednesday, October 6th we led a workshop at the 2021 Pattern Languages of Programming (PLoP) conference.
+Last Wednesday, October 6th we led a workshop called "Flaws of the
+Cool City" at the [[https://www.hillside.net/plop/2021/][2021 Pattern Languages of Programming (PLoP)]]
+conference.
 
-https://www.hillside.net/plop/2021/
+It was an adapted and extended version of the workshops we did earlier
+this year at the Brookes Creative Industry Festival and the Connected
+Learning Summit. Following this short [[https://docs.google.com/presentation/d/1xf7sgCciZNKDe5dWKQkYbj8oI1qYR0oqzo3VFOHpavI/edit?usp=drivesdk][presentation]], we trained
+attendees on the four different roles (*Historian*, *Kaiju Communicator*,
+*Designer* and *Analyst*) for the scenario planning game.  The game was a
+remix of "[[http://www.flawsofthesmartcity.com/][Flaws of the Smart City]]" from Design Friction.  And the
+causal layered analysis (CLA) game Heinonen, Minkkinen, Karjalainen,
+and Inayatullah played at the "[[https://doi.org/10.1016/j.techfore.2016.10.011][Future Studies Tackling Wicked Problems]]"
+2015 conference in Turku, Finland.
 
-It was an adapted and extended version of the workshops we did earlier this year at the Brookes Creative Industry Festival and the Connected Learning Summit.
+At the end of the session we did a [[https://docs.google.com/document/d/17JCmBYqN6_zwxgY2cUkMQPU2jVoahgU8iidCErtZ_ts/edit][Project Action Review]] (PAR).  Thank
+you to the conference organizers Ademar and Joe Yoder for giving us
+the opportunity to do this workshop, as well as the attendees for
+taking the time to join us and expending energy to participate.
 
-Following a short presentation overview 
+Feel free to follow up with Noorah, Ray, and Joe for more information
+about next steps with workshop development.
 
-https://docs.google.com/presentation/d/1xf7sgCciZNKDe5dWKQkYbj8oI1qYR0oqzo3VFOHpavI/edit?usp=drivesdk
+* Ideas for immediate next steps
 
-we trained attendees on the four different roles (Historian, Kaiju Communicator, Designer and Analyst) for the scenario planning game. The game was a remix of "Flaws of the Smart City" from Design Friction 
+- Joe to check that he can edit the sources for slides that Noorah produced
+- We will probably try to do a version of the workshop that we already did with IEAI at Brookes
+- Try to put everything together using the same slide format that Noorah prepared
+- Combine everything into one handbook/binder to distribute
+- Figure out how much time we (and participants) actually want/need to make the workshop productive
+- Can we scale to fit in *1 hour*, given that *3 hours* seemed pretty minimal?  Is there a possibility of 2 hours on different days? (Split as: introduction + training followed by game + debrief, possibly run it on the Tuesday and Thursday)
 
-http://www.flawsofthesmartcity.com/
+** Other versions we could potentially do
 
-and the causal layered analysis (CLA) game Heinonen, Minkkinen, Karjalainen, and Inayatullah played at the "Future Studies Tackling Wicked Problems" 2015 conference in Turku, Finland
+- PLoP version (building on the scenarios we already have)
+- Peeragogy version (building on the patterns we already have)
+- Startups (need to be ready to develop scenarios with individual startups)
 
-https://doi.org/10.1016/j.techfore.2016.10.011
+** Thoughts
 
-At the end of the session we did a Project Action Review (PAR)
+- Roles (H, KC, D, A) as phases or ‘things to do’.  The first thing we do is communicate the kaiju.  Make a concrete scenario.  In this world, we don’t have the same infrastructure, there may be shortages (e.g., *coffee*).  The next stage is the history stage, thinking about *what is the history that led up to this* (because of no longer having international networks, there’s very little being exported)  Using this to think about scenarios for the future as well as a strategy that people might use.   What are the *forces* at the systems layer?  (They emphasised this at PLoP.)  What are the worldviews and metaphors associated with that?  A default sequence might go like this (roughly this is what we did).  But these things can have multiple answers.
+  - *Conference Kaiju* :: They might extend the deadline
+  - *Historical background for this* :: Globally, we’re in the middle of a global pandemic; also, in our immediate experience, we worked on the Futures paper, we’ve been doing related things with ERG, Peeragogy, Hyperreal
+  - *Forces*: We can’t spend 80 hours a week on this thing because we’ve already committed to other things
+  - *Metaphors*: In the paper we talked about metaphors to do with ERG, distributed networks; we didn’t have much say in how PLoP was organised but we could have suggested to do it the PLACARD way.  We could have also pulled the effort out of the workshop and pushed it to November.
+  - /OK, so on this basis, what is our actual plan for what to do next?/
+  - Can we just put things together to show an example?  People can come up with other ideas outside of the workshop.
+- One brainstormed strategy would be to report back to the sources of the materials we used and ask them for some help! 
+- I like the idea of trying something simpler: keep the same roles and how they think, but with simpler scenarios.  E.g., not everyone is familiar with climate change patterns, planning for a city; but we could do it with the pizza shop scenario.
 
-https://docs.google.com/document/d/17JCmBYqN6_zwxgY2cUkMQPU2jVoahgU8iidCErtZ_ts/edit
+* Schedule of events
 
-Thank you to the conference organizers for giving us the opportunity to do this workshop plus the attendees for taking the time to join us and expending energy to participate. Also kudos to Noorah, Ray, Leo and Joe for doing the brunt of the work!
+- Thursday Oct. 14th :: Workshop tupperware party (store things for 12 days)
+- Saturday Oct. 16th :: ERG — Submit talk, start to script of talk
+- Tuesday Oct. 19th  :: *Break* from workshop activities
+- Thursday Oct. 21th :: *Break* from workshop activities
+- Saturday Oct. 23rd :: ERG — Talk preparation, finalise script of talk
+- Tuesday Oct. 26th  :: *Break* from workshop activities
+- Thursday Oct. 28th :: *Come back to do one more day of workshop prep*
+- Saturday Oct. 30th :: ERG — (Aim to) *Finalise recording by this date*
+- Tuesday Nov. 30th  :: Run cleaned-up version of workshop with Brookes (Joe to schedule with IEAI)
+
+- Sat-Sun. November 27 and 28, 2021 :: EmacsConf
+
+* Par
+
+*1. Review the intention: what do we expect to learn or make together?*
+- Short and light session and wind down our activities for a 12 day break
+*2. Establish what is happening: what and how are we learning?*
+We’ve gotten some questions and ideas to think about over the break
+*3. What are some different perspectives on what’s happening?*
+- Getting people interested by making scenarios for them
+*4. What did we learn or change?*
+- We observed the need to gather materials that could be relevant in these various settings on an ongoing basis
+- Looking at the roles: If we want to do a thorough job, here are four things you want to do; not quite roles or phases but ‘jobs to be done’.
+- What’s new: the first two phases, before you can do your design, you need some analysis, and you need data!  This is what the PAR was doing for us in the ERG case study, but there might be other ways to gather relevant data.
+*5. What else should we change going forward?*
+- Change scenarios based on the audience.
+- Joe: Volunteers to try to do technical reorg during the break
+- Maybe do scenarios for AI for IEAI, since that’s closer to their interest: what would be similar things from Heinonen relative to AI?
+- Wouldn’t we need them to create the scenarios?  This could be an upgraded version that takes 3 days in total.
+- We could include a diagram of the sensory-motor thing
+
+* Checkouts
+
+- RP: Have a good weekend see you on Saturday
+- JC: Or at top of the hour with Qiantan
+- NA: Going to have another cup of coffee and get down to work
