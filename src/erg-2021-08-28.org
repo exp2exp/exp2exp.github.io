@@ -136,20 +136,20 @@ DEADLINE: <2021-09-17 Fri>
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what did we expect to learn or make together?
-- Formally back after summer break, looking at our intentions for S1
+**** Formally back after summer break, looking at our intentions for S1
 *** 2. Establish what is happening: what and how are we learning?
-- LV has grown some muscles (and perhaps gills) over the summer
-- We looked at the =BACK= log items from the paper and decided to reflect more on that for further discussion later ("Scrapbook" style)
-- Talked about life, and how we’re adjusting what we’re doing as we go
+**** LV has grown some muscles (and perhaps gills) over the summer
+**** We looked at the =BACK= log items from the paper and decided to reflect more on that for further discussion later ("Scrapbook" style)
+**** Talked about life, and how we’re adjusting what we’re doing as we go
 *** 3. What are some different perspectives on what’s happening?
-- We still had minutes, didn’t drop formalism, got a lot of things done given the time constraints.
-- Patterns and methods seem useful
-- Good to detect difficulties early...
+**** We still had minutes, didn’t drop formalism, got a lot of things done given the time constraints.
+**** Patterns and methods seem useful
+**** Good to detect difficulties early...
 *** 4. What did we learn or change?
-- JC: Reiterated interest in discussing Noorah’s project in coming weeks
-- Burn-out and recovery is always in progress...
+**** JC: Reiterated interest in discussing Noorah’s project in coming weeks
+**** Burn-out and recovery is always in progress...
 *** 5. What else should we change going forward?
-- NA: Meeting committee member next week
-- Talk to people in person! Daily acts of beneficence are always good for people writing a thesis.
+**** NA: Meeting committee member next week
+**** Talk to people in person! Daily acts of beneficence are always good for people writing a thesis.
 
 * Check-out                                                              :5m:

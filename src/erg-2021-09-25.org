@@ -250,24 +250,24 @@ Mentioning the people who were involved to give credit where credit is due; thes
 
 * PAR                                                                   :10m:
 *** 1. Review the intention: what did we expect to learn or make together?
-- Some workshop checkin (adding structure that hasn’t been fully there with PLoP itself)
-- EmacsConf prep
+**** Some workshop checkin (adding structure that hasn’t been fully there with PLoP itself)
+**** EmacsConf prep
 *** 2. Establish what is happening: what and how are we learning?
-- Vigorous discussion of our plans for EmacsConf
-- Tech Meta distinction which we talked about last week became more clear as we populated it
-- The way we’ve been finding times to work in the week has allowed us to work more effectively during the week; even if everyone is happy to recover more time, now the potential to meet during the week for satellite times has been explored, so we could get back to that
-- Efficiency means that people feel something has been accomplished, and this has been going up; this energy could provide impetus to future uses of the workshop
-  "You’re getting good at something just at the end"
+**** Vigorous discussion of our plans for EmacsConf
+**** Tech Meta distinction which we talked about last week became more clear as we populated it
+**** The way we’ve been finding times to work in the week has allowed us to work more effectively during the week; even if everyone is happy to recover more time, now the potential to meet during the week for satellite times has been explored, so we could get back to that
+**** Efficiency means that people feel something has been accomplished, and this has been going up; this energy could provide impetus to future uses of the workshop
+****  "You’re getting good at something just at the end"
 *** 3. What are some different perspectives on what’s happening?
-- JC: 3 points and a break with clear topics planned according to a schedule made things go very well
-- We did stay focused on the topic of the talk rather than mixing in things like planning the workshop; in general our ability to stay focused is improved.
-- This was a more serious discussion of "the public" thing; the workshop is an example
+**** JC: 3 points and a break with clear topics planned according to a schedule made things go very well
+**** We did stay focused on the topic of the talk rather than mixing in things like planning the workshop; in general our ability to stay focused is improved.
+**** This was a more serious discussion of "the public" thing; the workshop is an example
 *** 4. What did we learn or change?
-- ‘Gangue’ is slag around something precious; an egg of slag that contains something precious
-- LV: Changes in modes/rhythms of meeting allows us to explore different ways of working together; this builds our repertoire (staccato, agenda, minutes, whatever); we can redeploy them later
+**** ‘Gangue’ is slag around something precious; an egg of slag that contains something precious
+**** LV: Changes in modes/rhythms of meeting allows us to explore different ways of working together; this builds our repertoire (staccato, agenda, minutes, whatever); we can redeploy them later
 *** 5. What else should we change going forward?
-- Could we please have a wrap of the Meta discussion; we’ve suggested a lot of things, but how do they actually fit together to make a coherent plan for the talk?
-- JC: Will attempt a wrap and a CLA draft
+**** Could we please have a wrap of the Meta discussion; we’ve suggested a lot of things, but how do they actually fit together to make a coherent plan for the talk?
+**** JC: Will attempt a wrap and a CLA draft
 
 
 * Tentative agenda for next week

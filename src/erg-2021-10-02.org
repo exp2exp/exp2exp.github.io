@@ -214,22 +214,22 @@ LV: I don’t want to imprint too much onto ERG.  ERG is a horizontal process; I
 
 * PAR                                                                  :10m:
 *** 1. Review the intention: what did we expect to learn or make together?
-- Initially we wanted to talk about our ERG-EmacsConf talk
-- We ended up being side-tracked on fielding worries about changing elements of life and getting a bit worried about the way we work together
+**** Initially we wanted to talk about our ERG-EmacsConf talk
+**** We ended up being side-tracked on fielding worries about changing elements of life and getting a bit worried about the way we work together
 *** 2. Establish what is happening: what and how are we learning?
-- Circumstances evolved rapidly, and there have been other unexpected circumstances over the last few weeks, so we couldn’t just work tightly to the schedule
-- We had to go back and think things through starting from the circumstances and concerns and whatever else came up
+**** Circumstances evolved rapidly, and there have been other unexpected circumstances over the last few weeks, so we couldn’t just work tightly to the schedule
+**** We had to go back and think things through starting from the circumstances and concerns and whatever else came up
 *** 3. What are some different perspectives on what’s happening?
-- Pleased that his prod got us deeper into the discussion that we ended up fielding.  We re-routed the discussion midstream, which is probably a good testament to our flexibility.
-- We’re quite willing to consider this a smooth endeavour with smooth progression.  We should be wary of elements like "going public" which appear like a tunnel on the horizon...  Let’s be wary of the cruft that crops up in what we’re doing that might be side-effects of misunderstanding or perfunctory work that is turning sour.
-- RP: this is a default assumption "people meet, they want to get bigger" But this might have crept in unexamined.
-- LV: We often mobilise transdisciplinarity, but another might be originality.  By putting "Research" in the title we strive towards the goal of fitting to whatever research is meant to be, but our work and style actually reflects a lot of originality.  So we should be careful of all the usual stuff that other RGs do.  Let’s try to be wary of stereotypical behaviours: take the expectations with a grain of salt.  Debrief them in whatever setting.
-- JC: Tangentially, work on the CLA has been pushed to later.
+**** Pleased that his prod got us deeper into the discussion that we ended up fielding.  We re-routed the discussion midstream, which is probably a good testament to our flexibility.
+**** We’re quite willing to consider this a smooth endeavour with smooth progression.  We should be wary of elements like "going public" which appear like a tunnel on the horizon...  Let’s be wary of the cruft that crops up in what we’re doing that might be side-effects of misunderstanding or perfunctory work that is turning sour.
+**** RP: this is a default assumption "people meet, they want to get bigger" But this might have crept in unexamined.
+**** LV: We often mobilise transdisciplinarity, but another might be originality.  By putting "Research" in the title we strive towards the goal of fitting to whatever research is meant to be, but our work and style actually reflects a lot of originality.  So we should be careful of all the usual stuff that other RGs do.  Let’s try to be wary of stereotypical behaviours: take the expectations with a grain of salt.  Debrief them in whatever setting.
+**** JC: Tangentially, work on the CLA has been pushed to later.
 *** 4. What did we learn or change?
-- Yesterday we talked about =Joe:Chaos=, =Leo:Organisation=; now we see how that can play out practically.
+**** Yesterday we talked about =Joe:Chaos=, =Leo:Organisation=; now we see how that can play out practically.
 *** 5. What else should we change going forward?
-- When the circumstances are not working out how we want, we should be aiming to reconsider them and adapt.
-- Reviewing what you’re doing and adapting is related to flexibility. You need to be able to adapt to a situation.  We’ve had a good track record of justing how we run the meeting, or adjust the objectives: e.g. whitepaper (goal) vs paper (outcome).  
+**** When the circumstances are not working out how we want, we should be aiming to reconsider them and adapt.
+**** Reviewing what you’re doing and adapting is related to flexibility. You need to be able to adapt to a situation.  We’ve had a good track record of justing how we run the meeting, or adjust the objectives: e.g. whitepaper (goal) vs paper (outcome).  
 
 
 * Tentative agenda for next week

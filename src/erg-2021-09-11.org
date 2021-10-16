@@ -147,25 +147,25 @@ CLOSED: [2021-09-11 Sat 19:32] DEADLINE: <2021-09-17 Fri>
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what did we expect to learn or make together?
-- LV: We wanted to resume our ERG sessions with tight agendas.
+**** LV: We wanted to resume our ERG sessions with tight agendas.
 *** 2. Establish what is happening: what and how are we learning?
-- LV: We had a nice, packed session where we covered a lot of ground.
+**** LV: We had a nice, packed session where we covered a lot of ground.
 *** 3. What are some different perspectives on what’s happening?
-- JC is a little concerned that there’s been back-and-forth LV/JC and LV/RC, but very little LV/NA or other permutations
-  - JC was especially made aware of this when he was muted (NA likes this idea too)
-- LV: It’s been a while since we had a session with stringent minutes, I reinserted the stringency around the minutes this time; we covered a lot of ground; are we sure that everyone is following?  I might make jokes with Noorah, and she smiles, and in my mental landscape I see this and it counts as interaction.  With Joe and Ray, they are sometimes bolstered in making points that were made before in coffee chats and they might be poignant again
-- NA: It can be overwhelming when a lot of different things are going on (during the meeting)
-- RP: I like the solution of planning that we’ve been developing here.  Maybe one of the reasons we have to go so quickly through the topics is that we don’t have things scheduled.  This would allow us to focus on workshops (for example) without going through so many different topics
+**** JC is a little concerned that there’s been back-and-forth LV/JC and LV/RC, but very little LV/NA or other permutations
+**** JC was especially made aware of this when he was muted (NA likes this idea too)
+**** LV: It’s been a while since we had a session with stringent minutes, I reinserted the stringency around the minutes this time; we covered a lot of ground; are we sure that everyone is following?  I might make jokes with Noorah, and she smiles, and in my mental landscape I see this and it counts as interaction.  With Joe and Ray, they are sometimes bolstered in making points that were made before in coffee chats and they might be poignant again
+**** NA: It can be overwhelming when a lot of different things are going on (during the meeting)
+**** RP: I like the solution of planning that we’ve been developing here.  Maybe one of the reasons we have to go so quickly through the topics is that we don’t have things scheduled.  This would allow us to focus on workshops (for example) without going through so many different topics
 *** 4. What did we learn or change?
-- JC: We could probably improving our usage of crdt.el and experiment with silent-sessions
-- Earlier "are we spreading ourselves thin" section, we naturally did a survey of the things that we have on our mind
-- LV: One reason for speaking/chairing more than before is that I’m formalising the things we do, and the pseudo-org-agenda is presently in my head, so I’m bringing up the meta-points, this causes us to jump to another level even if I try to do it in a way that’s unobtrusive
-  - It’s like reinstalling the formula with the previous season’s characters
-- RP: Problems come up when we are reactive with, e.g., workshops that we have to run but haven’t been planned well
+**** JC: We could probably improving our usage of crdt.el and experiment with silent-sessions
+**** Earlier "are we spreading ourselves thin" section, we naturally did a survey of the things that we have on our mind
+**** LV: One reason for speaking/chairing more than before is that I’m formalising the things we do, and the pseudo-org-agenda is presently in my head, so I’m bringing up the meta-points, this causes us to jump to another level even if I try to do it in a way that’s unobtrusive
+**** It’s like reinstalling the formula with the previous season’s characters
+**** RP: Problems come up when we are reactive with, e.g., workshops that we have to run but haven’t been planned well
 *** 5. What else should we change going forward?
-- Liaise with Emacs NYC to check out what’s going on there regarding scheduling
-- Add in month/quarterly meetings, and other ways to keep track of what we’re focusing on
-- Maybe we should spend some time on concerns at the start of the next meeting
+**** Liaise with Emacs NYC to check out what’s going on there regarding scheduling
+**** Add in month/quarterly meetings, and other ways to keep track of what we’re focusing on
+**** Maybe we should spend some time on concerns at the start of the next meeting
 
 * Next actions
 ** Come up with a plan for quarterly reviews à la HR

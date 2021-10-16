@@ -120,26 +120,26 @@ OBJECTIVE: Have a plan for the debrief session on [2021-10-12 Tue 15:00] (UTC)
 
 * PAR                                                                   :10m:
 *** 1. Review the intention: what did we expect to learn or make together?
-- Progress on the EmacsConf talk
-- Initial debrief of PLoP
+**** Progress on the EmacsConf talk
+**** Initial debrief of PLoP
 *** 2. Establish what is happening: what and how are we learning?
-- Came up with title and abstract of the EmacsConf talk
-- Got through main bullet points on PLoP debrief
+**** Came up with title and abstract of the EmacsConf talk
+**** Got through main bullet points on PLoP debrief
 *** 3. What are some different perspectives on what’s happening?
-- Our talk morphed from a more technical talk (last time we discussed it) to a more entertaining lunchtime talk
-- September has taken a toll (PLoP, Criteo, Thesis, Abby…)
-- Joe was expecting just to take notes but got more drawn into the conversation
-- Since we were mostly focused the session was not dizzying
+**** Our talk morphed from a more technical talk (last time we discussed it) to a more entertaining lunchtime talk
+**** September has taken a toll (PLoP, Criteo, Thesis, Abby…)
+**** Joe was expecting just to take notes but got more drawn into the conversation
+**** Since we were mostly focused the session was not dizzying
 *** 4. What did we learn or change?
-- For today: today, meta stuff could go into the presentation, future stuff could go into the PLoP.
-- Some questions:
-- What can we learn from the challenges?
-- How can we build on the opportunities that have been created?
-- How do we think about the opportunities?
+**** For today: today, meta stuff could go into the presentation, future stuff could go into the PLoP.
+**** Some questions:
+**** What can we learn from the challenges?
+**** How can we build on the opportunities that have been created?
+**** How do we think about the opportunities?
 *** 5. What else should we change going forward?
-- Get beyond solutions-on-paper to the challenges
-- If there are many topics, think about how to refile/reschedule them if we can’t realistically do them here; let’s not feel obliged to overload ourselves
-- Still, Saturday slots can amorphously adjust to what we want/need to accomplish
+**** Get beyond solutions-on-paper to the challenges
+**** If there are many topics, think about how to refile/reschedule them if we can’t realistically do them here; let’s not feel obliged to overload ourselves
+**** Still, Saturday slots can amorphously adjust to what we want/need to accomplish
 
 * Tentative agenda for next week
 

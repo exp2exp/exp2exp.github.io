@@ -321,32 +321,32 @@ expanding the frontier of what’s possible for human beings.
 * PAR                                                                   :10m:
 
 *** 1. Review the intention: what did we expect to learn or make together?
-- JC: Mainly focussed on preparing our thinking for the ERG
-- Leo brought some "how do we do things around here" ideas and questions for discussion
+**** JC: Mainly focussed on preparing our thinking for the ERG
+**** Leo brought some "how do we do things around here" ideas and questions for discussion
 *** 2. Establish what is happening: what and how are we learning?
-- RP: We got to important questions like what does it mean to go public, what kind of presentation, etc. We didn’t have all of these things settled, we had to figure these things out before we could start
-- NA: Where can I put a comment about “Why we should present our case of people getting together and creating their own communities similar to ours?”
-  - JC: This is partly an answer to "Why ERG"
-  - RP: Going public might just be "make public what we do" — e.g., they could make their own research group — not a grand opening of a new business;
-  - Some of the pressure I felt was assuming 1 default meaning of ‘going public’; can we make clear the meanings we have for these key things; we haven’t done the job, it’s been nebulous. Only when we considered the EmacsConf proposal did we consider this.
-- We could do live-support for Coursera or something like that.
-- What about an Emacs MOOC?  (Revisit the Peeragogy chapter with an applied example.)
+**** RP: We got to important questions like what does it mean to go public, what kind of presentation, etc. We didn’t have all of these things settled, we had to figure these things out before we could start
+**** NA: Where can I put a comment about “Why we should present our case of people getting together and creating their own communities similar to ours?”
+**** JC: This is partly an answer to "Why ERG"
+**** RP: Going public might just be "make public what we do" — e.g., they could make their own research group — not a grand opening of a new business;
+**** Some of the pressure I felt was assuming 1 default meaning of ‘going public’; can we make clear the meanings we have for these key things; we haven’t done the job, it’s been nebulous. Only when we considered the EmacsConf proposal did we consider this.
+**** We could do live-support for Coursera or something like that.
+**** What about an Emacs MOOC?  (Revisit the Peeragogy chapter with an applied example.)
 *** 3. What are some different perspectives on what’s happening?
-- Noorah’s Logitech mic is nicely active today!
-- If we want to go public one thing we might do is upgrade our kit to at least get to Leo’s level
-- LV: For next week just prep the tech presentation quickly
-- Try to keep the agenda to 3 POINTS for ease of grasping by attendees
-- Thanks to Leo for prepping this
-- JC: CRDT is similar to a blackboard (cf. Michael Barrany); recall that Joe used to do real-time transcripts in maths, there is something anchoring for what we could do here
+**** Noorah’s Logitech mic is nicely active today!
+**** If we want to go public one thing we might do is upgrade our kit to at least get to Leo’s level
+**** LV: For next week just prep the tech presentation quickly
+**** Try to keep the agenda to 3 POINTS for ease of grasping by attendees
+**** Thanks to Leo for prepping this
+**** JC: CRDT is similar to a blackboard (cf. Michael Barrany); recall that Joe used to do real-time transcripts in maths, there is something anchoring for what we could do here
 *** 4. What did we learn or change?
-- JC: In our plan for ERG, we need to make serious attempt for planning (not just planning more outputs)
- - Where do peeragogy, Hyperreal, ERG (etc.) begin and end?
-- Since people enjoyed informal sessions in EmacsConf, being meta will help people realise that "this is just people organising stuff" and this will be an empowering move
+**** JC: In our plan for ERG, we need to make serious attempt for planning (not just planning more outputs)
+**** Where do peeragogy, Hyperreal, ERG (etc.) begin and end?
+**** Since people enjoyed informal sessions in EmacsConf, being meta will help people realise that "this is just people organising stuff" and this will be an empowering move
 *** 5. What else should we change going forward?
-- Because of the tension with PLoP we need to be more clear about "what is Peeragogy, what is PLoP, where to put them... so we don’t cause too much tension by taking over everything" (10% of the way by focusing on EmacsConf in ERG, but short things can get distracting)
-- Leo may be doing some shopping if he get the new job
-- The meta-talk we are preparing will help us understand the ‘bodies’ that fit into this scheme in a Deleuzian sense
-- Remember to do a new CLA analysis in a few weeks!
+**** Because of the tension with PLoP we need to be more clear about "what is Peeragogy, what is PLoP, where to put them... so we don’t cause too much tension by taking over everything" (10% of the way by focusing on EmacsConf in ERG, but short things can get distracting)
+**** Leo may be doing some shopping if he get the new job
+**** The meta-talk we are preparing will help us understand the ‘bodies’ that fit into this scheme in a Deleuzian sense
+**** Remember to do a new CLA analysis in a few weeks!
 
 * Tentative agenda for next week
 

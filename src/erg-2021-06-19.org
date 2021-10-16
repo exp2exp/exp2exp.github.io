@@ -168,40 +168,39 @@ We agreed to extend today’s meeting today to have a proper check-out for the c
 :Effort:   0:15
 :END:
 *** 1. Review the intention: what did we expect to learn or make together?
-- ERG Peeragogy mashup call to discuss paper for PLoP
+**** ERG Peeragogy mashup call to discuss paper for PLoP
 *** 2. Establish what is happening: what and how are we learning?
-- On Jitsi with Charlotte and Vitor as well as the ERG regulars
-- ERG people met for 1 hour on Discord previously, after some last-minute hiccups
+**** On Jitsi with Charlotte and Vitor as well as the ERG regulars
+**** ERG people met for 1 hour on Discord previously, after some last-minute hiccups
 *** 3. What are some different perspectives on what’s happening?
-- CP: I’m happy you’re doing this for PLoP and keeping that relationship alive
-  - Newbie perspective!
-- Ray: Also, we have the peeragogy and ERG relationship that is ongoing and will hopefully continue
-- Joe: more practical for us, and more practical for other people via the newbie perspective on the paper
-- This is our last session for a while, so let’s add 5 minutes to the end
-- It’s great to have someone like Leo who is aware of the timing generously helping us meet our time frame!
-- This is an example of an agent! — Otherwise you won’t have people absorb the wisdom
-- CP: We do a par at the end, but what about doing it before?
-  - Ray: that came up with Joe, but at the end it should be what you were saying
-  - The PAR should help with planning!
-  - We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!
+**** CP: I’m happy you’re doing this for PLoP and keeping that relationship alive (Newbie perspective!)
+**** Ray: Also, we have the peeragogy and ERG relationship that is ongoing and will hopefully continue
+**** Joe: more practical for us, and more practical for other people via the newbie perspective on the paper
+**** This is our last session for a while, so let’s add 5 minutes to the end
+**** It’s great to have someone like Leo who is aware of the timing generously helping us meet our time frame!
+**** This is an example of an agent! — Otherwise you won’t have people absorb the wisdom
+**** CP: We do a par at the end, but what about doing it before?
+**** Ray: that came up with Joe, but at the end it should be what you were saying
+**** The PAR should help with planning!
+**** We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!
 *** 4. What did we learn or change?
-- Charlotte suggested more practical perspectives, making the bridge to the group you’re trying to help
-- Diversity; Noorah was talking about the Utility of CLA when they have multiple meetings, going back to the meetings — going — different vocabularies can make lack of cohesion or even conflict — transdisciplinarity came up
-- LV: this feels related to methodology, like, how to “lower the bridge to get people inside” — defining the taxonomy, explaiing it, making people get the click for the vocabulary is essential.
-- Reminds me of Andy Matuschak, which is a taxonomy of notes: fleeting notes, things you take off the top of your mind, ever-green notes, things you use as a concept is other notes — this kind of approach to sharing and cementing knowledge...
-- I was talking about clicks with regard to programming... but for peer learning this also can create clicks!  “Evergreen” notes
-  - CP: Oh, the ah-ha moment!
-  - How do you lead people through a bunch of aha moments...
-  - Like when slaloming through doors on skis, to get through A B C quickly... now in 4D
-- The flow-zone where you know your tools well enough to implement them without thinking.  There are 1 mil things per stroke... but putting them together
-- Maybe this is also about /encoding patterns/ — your brain is fitted to see patterns in the world and put concepts behind them.  When you regress from this point and assimilate it... ‘groking’... you’re after the click!
+**** Charlotte suggested more practical perspectives, making the bridge to the group you’re trying to help
+**** Diversity; Noorah was talking about the Utility of CLA when they have multiple meetings, going back to the meetings — going — different vocabularies can make lack of cohesion or even conflict — transdisciplinarity came up
+**** LV: this feels related to methodology, like, how to “lower the bridge to get people inside” — defining the taxonomy, explaiing it, making people get the click for the vocabulary is essential.
+**** Reminds me of Andy Matuschak, which is a taxonomy of notes: fleeting notes, things you take off the top of your mind, ever-green notes, things you use as a concept is other notes — this kind of approach to sharing and cementing knowledge...
+**** I was talking about clicks with regard to programming... but for peer learning this also can create clicks!  “Evergreen” notes
+**** CP: Oh, the ah-ha moment!
+**** How do you lead people through a bunch of aha moments...
+**** Like when slaloming through doors on skis, to get through A B C quickly... now in 4D
+**** The flow-zone where you know your tools well enough to implement them without thinking.  There are 1 mil things per stroke... but putting them together
+**** Maybe this is also about /encoding patterns/ — your brain is fitted to see patterns in the world and put concepts behind them.  When you regress from this point and assimilate it... ‘groking’... you’re after the click!
 *** 5. What else should we change going forward?
-- How can we use this with a rowing club, or a group of people in Brazil... 400 people at Brookes applying for grants!
-- Be more pro-active so we don’t get behind deadlines!  How can we gather up what we’ve done but not being behind an 8-ball where we are rushing to do things w/o developing them...
-  - This is methodological and technological problem — I use the technology myself, this is another reason to get behind the steel wall
-  - A lot of this is about attitude and planning; giving yourself enough extra room.
-  - LV: the problem is that you’ve been pro-active, but we have not been proactive — linking the desire to organise with the ability to organise.  When we go back to the PILOT.
-- Network is probably an advantage here
+**** How can we use this with a rowing club, or a group of people in Brazil... 400 people at Brookes applying for grants!
+**** Be more pro-active so we don’t get behind deadlines!  How can we gather up what we’ve done but not being behind an 8-ball where we are rushing to do things w/o developing them...
+**** This is methodological and technological problem — I use the technology myself, this is another reason to get behind the steel wall
+**** A lot of this is about attitude and planning; giving yourself enough extra room.
+**** LV: the problem is that you’ve been pro-active, but we have not been proactive — linking the desire to organise with the ability to organise.  When we go back to the PILOT.
+**** Network is probably an advantage here
 
 
 * Check-out                                                              :5m:
