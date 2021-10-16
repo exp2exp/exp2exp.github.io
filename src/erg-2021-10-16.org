@@ -1,0 +1,139 @@
+#+TITLE: 16 October 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-10-16 Sat>
+
+* 16 October 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+** Ray
+- Emergency situation, can’t stay for the meeting
+** Noorah
+- Came from gym this morning, now I’m here
+- Not tired! Usually right after the gym I want to keep the party going! (And this is how I’ve been feeling lately.)
+  - LV: This feel reminiscent of what I was doing at the beginning of the summer
+- Burn-out made me realise I need to put my well-being first
+** Joe
+- Made a non-vegan, full-cruelty ಠ_ಠ meal of chicken offal, and is enjoying it.
+- Feeling well; finally got around to doing the CLA, which means that we’ll have 7 sessions in this iteration.
+- Reflected on Noorah’s burn-out from his perspective.
+- Slept above 11h last night, but still probably tired; didn’t sleep the whole time, but still, that’s a lot!
+** Leo
+- Is really drained after EmacsConf and a lot of work, can’t stay the whole time today
+- Did not get a response for the initial technical interview, but self-certifies it as 90% good
+- Hasn’t much bandwidth and on the verge of  running out of steam
+- Right now capping at Energy Level B (Not highly creative)
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-10-16 Sat 18:37]
+
+* Agenda                                                                :85m:
+
+** CLA                                                                 :20m:
+** EmacsConf: Finalising the submission                                :20m:
+#+begin_quote
+Name: Emacs Research Group (Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier)
+
+Title: Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year
+
+Abstract:
+
+This is our story:
+
+The four of us met at EmacsConf 2020, and joined together around a common
+interest in Emacs and research.  Since then, we have convened as the Emacs
+Research Group for weekly meetings.  During these meetings, we took notes
+collaboratively, using a ‘conflict-free replicated data type’ package
+(crdt.el); at the end of each session, we debriefed using a template that we
+call a Project Action Review (PAR).  As as a meta-review of our sessions,
+every six weeks we prepared a Causal Layered Analysis (CLA), which gave us
+a different perspective on what we had done.  We reflected further on our
+experiences and methods, linking our CLA to plans and design patterns.  As
+a formal research output, we contributed a write-up of these matters to
+a joint paper which we presented at the Pattern Languages of Programs
+Conference (PLoP 2021).  The paper included an interactive workshop, in which
+we explored roles in real-time problem solving and collaboration.
+
+In our short talk we share information about these methods, making a
+case for other people getting together and creating their own small
+research communities similar to ours.
+
+- 5-10 minutes: (brief description/outline)
+- 20 minutes: (brief description/outline)
+- 40 minutes: (brief description/outline)
+
+Availability and preferred Q&A approach:
+
+Speaker release: XXX
+#+end_quote
+
+** Outtakes
+
+#+begin_quote
+Going forward we’re inspired by the Gilliam-linked documentaries "Lost
+in La Mancha" and "[[https://en.wikipedia.org/wiki/The_Man_Who_Killed_Don_Quixote#He_Dreams_of_Giants][He Dreams of Giants]]" and the *Kenneth Cole
+Productions* story.  We can think of our experience as a movie trailer
+parked next to the EmacsConf station.
+
+We can now understand the roles we used in our workshop in relation to
+the roles that we are taking in our ERG meetings; e.g., situational
+reports (sitreps) from a ‘Kaiju Communicator’, or topic modelling from
+a ‘Designer’; and can we make use of the information about where
+conflict appears through the thinking of an ‘Analyst’?
+#+end_quote
+
+* PAR                                                                   :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- JC: Brought some CLA notes, wanted to mash them up with our thinking about the EmacsConf proposal.
+*** 2. Establish what is happening: what and how are we learning?
+- LV: It was ERG -1 and it feels smoother b/c we only have to field things from 3 people; it’s like the demonstration with 3 magnets as opposed to 7.
+- JC: 4 creates some chaos
+- JC: For the CLA, we only did the litany layer
+*** 3. What are some different perspectives on what’s happening?
+- JC: Feeling super excited about our talk proposal.
+- Elected to go for 1 hour
+- RP: Glad that things got done in my absence due to the unexpected emergency!  The fact that when 1 of the 4 goes, the others can carry on, this is a good thing.
+*** 4. What did we learn or change?
+- The content of our proposal is the same, but we reworked the flow
+*** 5. What else should we change going forward?
+- We might not use ‘lunch time’ for the talk, or it will come in elsewhere in the schedule
+
+* Tentative agenda for next week
+** CLA: 2nd part
+*** Quick summary of what we did today for Ray who wasn’t with us when we did it
+** EmacsConf: Prep talk; will this be enough time?
+*** Tentative objectives
+**** OR
+***** Detailed script for the talk
+***** Detailed storyboard
+*** Tentative calendar for overflow
+**** [2021-10-26 Tue] (1500Z)
+** Plan the calendar with the timezone changes
+
+* Check-out                                                             :10m:
+** LV
+- Happy with the session, I was low energy but got excited
+- Notes are available for catch up 
+- Probably going to be doing the triad of interviews next week, low-availability continues
+- Going to go watch Netflix, watching “Squid Game”
+- Long history of Korean dramas, satisfying his craving now
+** RP
+- Knowing the abstract is done and that we will prepare the talk next week is important
+- We could potentially use Tuesday 26th for any EmacsConf overflow.
+- Let’s use universal time to set the time for our meetings
+- JC: Glad to know we’ve returned to safe operating conditions!
+** JC
+- We will take a hiatus from the workshop stuff
+- LV: This means reading week off!
+- JC: should do a secular Thanksgiving!
+- UK time change: The clocks go back 31 October.  In EDT it is 7th of November, only Saturday 6th of November will be complex
+- It’s been a quiet weekend in Lake Woebegon
+- Going for a walk after ERG
+** NA
+- Going good, I enjoyed the session, learned some stuff about myself!
+- I have a breakfast bagel sandwich waiting for me 
+- RP: I wish you a good week!
