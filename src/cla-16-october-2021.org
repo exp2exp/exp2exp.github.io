@@ -89,8 +89,11 @@ interesting and varied guests.  We have a clearer idea of what what we
 want to talk about at the next EmacsConf, and how we can be of service
 to researchers and Emacs users.  We have been using a workflow that
 helps us carefully review progress, diagnose issues, and manage our
-energy.  The next phase of this project is to “go public” and mesh
-with ongoing related activities elsewhere.
+energy.  We’re understanding how research is done by doing it, and keeping
+careful track of the process.
+
+- If a session doesn’t go as well as hoped, we think about why (esp. Leo as chair). You know what the bomb is..
+- We try to adapt gracefully to circumstances as they evolve, without being reactive because we know we will be back again next week and the week after etc.
 #+end_quote
 *** BACK Maintain plans for the next six months                  :breakdown:
 - We are doing research
@@ -151,27 +154,47 @@ with ongoing related activities elsewhere.
 - TBA
 **** Supporting data from CLA 5                                   :noexport:
 ***** [[file:erg-2021-06-19.org::*CP: I’m happy you’re doing this for PLoP and keeping that relationship alive (Newbie perspective!)][CP: I’m happy you’re doing this for PLoP and keeping that relationship alive (Newbie perspective!)]] :ep25:
-***** [[file:erg-2021-06-19.org::*We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!][We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!]] :ep25:
+- Reminds me of long-polling sessions via HTTP
+***** [[file:erg-2021-06-19.org::*We could do a PAR for Season 1 — maybe this would the “pilot” of Season 1!][We could do a PAR for Season 0 — maybe this would the “pilot” of Season 1!]] :ep25:
 ***** [[file:erg-2021-06-19.org::*Be more pro-active so we don’t get behind deadlines! How can we gather up what we’ve done but not being behind an 8-ball where we are rushing to do things w/o developing them...][Be more pro-active so we don’t get behind deadlines! How can we gather up what we’ve done but not being behind an 8-ball where we are rushing to do things w/o developing them...]] :ep25:
 ***** [[file:erg-2021-09-11.org::*JC is a little concerned that there’s been back-and-forth LV/JC and LV/RC, but very little LV/NA or other permutations][JC is a little concerned that there’s been back-and-forth LV/JC and LV/RC, but very little LV/NA or other permutations]] :ep27:
+- Added halfway pause
+- Non-verbal cues being followed
+- Before we got the Tuesday Thursday thing up and running
+- NA: Making me think about my behaviour in meetings
+- JC: Noorah’s style reminds me of Cameron in some ways (listening til s/he has something to say)
+- LV: Deterritorialising roles wrt to involvement with project; we could think about this with meeting participants (JC found Kaiju Communicator in different roles)
+- People may be /long-range listening/, Leo as chair may more /EPIDERMIC/ and in the heat of the discussion but w/ different rhythms: I need to keep a level of coherency across sessions. My influence stops at the CLA b/c Joe has been taking care of this; I’m already taking care of a lot of inner workings
 ***** [[file:erg-2021-09-11.org::*NA: It can be overwhelming when a lot of different things are going on (during the meeting)][NA: It can be overwhelming when a lot of different things are going on (during the meeting)]] :ep27:
+- Links with the above, b/c of absorbing so much
+- Might not yet have something to say, which could explain why she wanted less topics in the meeting
+- How can we optimise meetings based on styles?
+- LV: We’re sort of optimising relative to energy.  Sometimes having high-density, or two topics (*dense* and *light*).  We’ve been aware of modularity.  We’ve interpersonalised, and thought about our familiarity.
+- Maybe these fall to people based on inclinations, but they are also jobs-to-be-done
+- (Leo is also being long-range.)
+- It’s a taxing job to both make the conversation flow but also to keep track of how the conversation is going!  People should be taking on the role knowing that there’s a lot going on.  I have a similar position at EmacsConf; I’m managing the agenda, calendar, notes, and need to also do low-level flow, and long-range flow, and delivery of the conference!
+- I’d want the next chair to know about all these other things.
 ***** [[file:erg-2021-09-11.org::*RP: Problems come up when we are reactive with, e.g., workshops that we have to run but haven’t been planned well][RP: Problems come up when we are reactive with, e.g., workshops that we have to run but haven’t been planned well]] :ep27:
 ***** [[file:erg-2021-10-02.org::*Circumstances evolved rapidly, and there have been other unexpected circumstances over the last few weeks, so we couldn’t just work tightly to the schedule][Circumstances evolved rapidly, and there have been other unexpected circumstances over the last few weeks, so we couldn’t just work tightly to the schedule]] :ep30:
 ***** [[file:erg-2021-10-02.org::*We’re quite willing to consider this a smooth endeavour with smooth progression. We should be wary of elements like "going public" which appear like a tunnel on the horizon... Let’s be wary of the cruft that crops up in what we’re doing that might be side-effects of misunderstanding or perfunctory work that is turning sour.][We’re quite willing to consider this a smooth endeavour with smooth progression. We should be wary of elements like "going public" which appear like a tunnel on the horizon... Let’s be wary of the cruft that crops up in what we’re doing that might be side-effects of misunderstanding or perfunctory work that is turning sour.]] :ep30:
+- It’s a sustained activity
+- Onus of scheduling the CLA isn’t on Leo.
+- Maybe this is a general pattern that can reduce stress.
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
 If we tackle big enough projects, it will bring with it the need for
-collaboration.  We like to create tangible deliverables (e.g., journal
-articles).  However, “If we knew what the outcome was it wouldn’t be
-research” — therefore, we’re focusing initially on /research methods/
-and /design documents/.  That may mean it takes us a bit longer to write
-our first paper, but when we get something out it will be good.
-Meanwhile we’re also keeping sharp by fixing bugs, filing issues,
-improving our own workflows, and actively exploring the landscape.  We
-want to keep a role for serendipity here, which adds the requirement
-that our planning process remain open and flexible: including to
-various disciplinary methods, and especially to change as we reflect
-on how things are going.
+/collaboration/.  (We need to respect these other parties.)  We like to
+create tangible deliverables (e.g., journal articles).  However, “If
+we knew what the outcome was it wouldn’t be research” — therefore,
+we’re focusing initially on /research methods/ and /design documents/.
+That may mean it takes us a bit longer to write our first paper, but
+when we get something out it will be good.  Meanwhile we’re also
+keeping sharp by fixing bugs, filing issues, improving our own
+workflows, and actively exploring the landscape.  We want to keep a
+role for serendipity here, which adds the requirement that our
+planning process remain open and flexible: including to various
+disciplinary methods, and especially to change as we reflect on how
+things are going.
 #+end_quote
 *** BACK Identify potential stakeholders in Emacs Research       :breakdown:
 - ‘Org Notes’ for some potential USERS
