@@ -92,8 +92,8 @@ helps us carefully review progress, diagnose issues, and manage our
 energy.  We’re understanding how research is done by doing it, and keeping
 careful track of the process.
 
-- If a session doesn’t go as well as hoped, we think about why (esp. Leo as chair). You know what the bomb is..
-- We try to adapt gracefully to circumstances as they evolve, without being reactive because we know we will be back again next week and the week after etc.
+- If a session doesn’t go as well as hoped, we think about why (esp. Leo as chair). You know what the bomb is... so you can at least hope to defuse it later.
+- We try to adapt gracefully to circumstances as they evolve, without being reactive because we know we will be back again next week and the week after, etc.
 #+end_quote
 *** BACK Maintain plans for the next six months                  :breakdown:
 - We are doing research
@@ -183,11 +183,12 @@ careful track of the process.
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
 If we tackle big enough projects, it will bring with it the need for
-/collaboration/.  (We need to respect these other parties.)  We like to
+/collaboration/.  (And we need to respect these other parties.)  We like to
 create tangible deliverables (e.g., journal articles).  However, “If
 we knew what the outcome was it wouldn’t be research” — therefore,
 we’re focusing initially on /research methods/ and /design documents/.
-That may mean it takes us a bit longer to write our first paper, but
+
+That may mean it takes us a bit longer to write our first paper(s), but
 when we get something out it will be good.  Meanwhile we’re also
 keeping sharp by fixing bugs, filing issues, improving our own
 workflows, and actively exploring the landscape.  We want to keep a
@@ -195,8 +196,22 @@ role for serendipity here, which adds the requirement that our
 planning process remain open and flexible: including to various
 disciplinary methods, and especially to change as we reflect on how
 things are going.
+
+- JC 23/10: I enjoy the way we work
+- Any community we work with needs to be brought on board for the way we work and vice versa.
+- This relates to thinking also about the various purposes of the interacting communities we work with. So far many of the stakeholders have to do with free software, open communities, and so on.  We’re looking for themes.  The different organisations offer some alternatives (e.g., Emacs is software, Peeragogy is about learning, PM was focused on math; all of this is part of a broader initiative; and given the current worldviews, how do such things fit in?  This has been a struggle personally and for organisations.)
+- Kind of like hypernotebooks (which are a tech version of this)
+- We’ve worked to create better meeting structures
+- What’s needed to do something like what we’re doing? We do need a long-range/long-term perspective. By bringing out the meta- topics systematically, we can revisit the things we thought before to see if we agree/disagree.
+- How do we actually systematise our documents?
+- How do we organise ourselves and our work?
+- We did do a silent session once
+- We’ve been trying to do this in recent weeks
+- One of the services we can provide as a group like this is meta-management of workflows; we have a meta-organisational structure.
+- Flexibility, adaptability: We’ve continued to experiment with new methods.
+- Bring emotions not just sticking to a time table; balance between order and chaos?
+- Not trying to do everything live but using the future intelligently (without overburdening that)
 #+end_quote
-things are going.
 *** BACK Identify potential stakeholders in Emacs Research       :breakdown:
 - ‘Org Notes’ for some potential USERS
 - Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
@@ -259,21 +274,38 @@ things are going.
 - TBA
 **** Supporting data from CLA 5                                   
 ***** [[file:erg-2021-06-19.org::*Charlotte suggested more practical perspectives, making the bridge to the group you’re trying to help][Charlotte suggested more practical perspectives, making the bridge to the group you’re trying to help]] :ep25:
+- Community
 ***** [[file:erg-2021-06-19.org::*LV: this feels related to methodology, like, how to “lower the bridge to get people inside” — defining the taxonomy, explaining it, making people get the click for the vocabulary is essential.][LV: this feels related to methodology, like, how to “lower the bridge to get people inside” — defining the taxonomy, explaining it, making people get the click for the vocabulary is essential.]] :ep25:
+- LV: (Nods.)
+  - (Happy to see the CLA working in this way, complementing the long range.)
 ***** [[file:erg-2021-06-19.org::*How can we use this with a rowing club, or a group of people in Brazil... 400 people at Brookes applying for grants!][How can we use this with a rowing club, or a group of people in Brazil... 400 people at Brookes applying for grants!]] :ep25:
+- What’s needed to do something like what we’re doing?
+- We do need a long-range/long-term perspective.
 ***** [[file:erg-2021-06-19.org::*LV: the problem is that you’ve been pro-active, but we have not been proactive — linking the desire to organise with the ability to organise. When we go back to the PILOT.][LV: the problem is that you’ve been pro-active, but we have not been proactive — linking the desire to organise with the ability to organise. When we go back to the PILOT.]] :ep25:
+- How do we actually systematise?
+  - E.g., using design patterns?
 ***** [[file:erg-2021-08-28.org::*We looked at the =BACK= log items from the paper and decided to reflect more on that for further discussion later ("Scrapbook" style)][We looked at the =BACK= log items from the paper and decided to reflect more on that for further discussion later ("Scrapbook" style)]] :ep26:
 ***** [[file:erg-2021-08-28.org::*Talk to people in person! Daily acts of beneficence are always good for people writing a thesis.][Talk to people in person! Daily acts of beneficence are always good for people writing a thesis.]] :ep26:
+- How do we organise ourselves?
 ***** [[file:erg-2021-09-11.org::*JC: We could probably improving our usage of crdt.el and experiment with silent-sessions][JC: We could probably improving our usage of crdt.el and experiment with silent-sessions]] :ep27:
+- We did that once
 ***** [[file:erg-2021-09-18.org::*If we want to go public one thing we might do is upgrade our kit to at least get to Leo’s level][If we want to go public one thing we might do is upgrade our kit to at least get to Leo’s level]] :ep28:
 ***** [[file:erg-2021-09-18.org::*JC: In our plan for ERG, we need to make serious attempt for planning (not just planning more outputs)][JC: In our plan for ERG, we need to make serious attempt for planning (not just planning more outputs)]]  :ep28:
+- We’ve been trying to do this in recent weeks
 ***** [[file:erg-2021-09-25.org::*We did stay focused on the topic of the talk rather than mixing in things like planning the workshop; in general our ability to stay focused is improved.][We did stay focused on the topic of the talk rather than mixing in things like planning the workshop; in general our ability to stay focused is improved.]] :ep29:
+- Better meeting structures
 ***** [[file:erg-2021-09-25.org::*Some workshop checkin (adding structure that hasn’t been fully there with PLoP itself)][Some workshop checkin (adding structure that hasn’t been fully there with PLoP itself)]] :ep29:
+- One of the services we can provide as a group like this!
+- Meta-organisational structure
 ***** [[file:erg-2021-10-02.org::*Reviewing what you’re doing and adapting is related to flexibility. You need to be able to adapt to a situation. We’ve had a good track record of justing how we run the meeting, or adjust the objectives: e.g. whitepaper (goal) vs paper (outcome).][Reviewing what you’re doing and adapting is related to flexibility. You need to be able to adapt to a situation. We’ve had a good track record of justing how we run the meeting, or adjust the objectives: e.g. whitepaper (goal) vs paper (outcome).]] :ep30:
+- Flexibility, adaptability
 ***** [[file:erg-2021-10-02.org::*We ended up being side-tracked on fielding worries about changing elements of life and getting a bit worried about the way we work together][We ended up being side-tracked on fielding worries about changing elements of life and getting a bit worried about the way we work together]] :ep30:
+- Bring emotions not just sticking to a time table
+- Balance between order and chaos
 ***** [[file:erg-2021-10-09.org::*Came up with title and abstract of the EmacsConf talk][Came up with title and abstract of the EmacsConf talk]] :ep31:
 ***** [[file:erg-2021-10-09.org::*September has taken a toll (PLoP, Criteo, Thesis, Abby…)][September has taken a toll (PLoP, Criteo, Thesis, Abby…)]] :ep31:
 ***** [[file:erg-2021-10-09.org::*If there are many topics, think about how to refile/reschedule them if we can’t realistically do them here; let’s not feel obliged to overload ourselves][If there are many topics, think about how to refile/reschedule them if we can’t realistically do them here; let’s not feel obliged to overload ourselves]] :ep31:
+- Not trying to do everything live but using the future intelligently (without overburdening that)
 ** Worldview, ways of knowing and alternative discourse          :worldview:
 #+begin_quote
 We have looked at RStudio and Roam Research as models of (some of) the
@@ -286,7 +318,7 @@ want to do.  For example, instead of having a single Org Roam
 directory shared via Git, what if we had ways of managing sharing of
 notes across ‘graphs’?
 
-Collaboration is familiar to in all kinds of teams across all sectors.
+Collaboration is familiar to all kinds of teams across all sectors.
 Even authors working alone may have need to ‘virtually collaborate
 with themselves’ — and of course to share their work with others when
 it’s ready.  If we all had our slipboxes online, we could reference
@@ -301,6 +333,34 @@ afford to pay it — if the service helps people to do better research
 and saves a bunch of travel.  We could also set up a pricing model
 proportional to each country’s carbon emissions or something like
 that.
+
+- Getting some coherence out of our long-running and somewhat diverse and somewhat hetereogeneous thought process; this would be even more so the more stakeholders we involve
+- What scale does something need to be at to accomplish a certain goal?
+- This seems related to the long-range view; the further you look into the future the more the impetus to assess the scale becomes important.
+- E.g., PLoP took way more time than we anticipated.
+- If over-work due to under-estimating
+- There’s a spatial scale like how much work can we actually do sustainably (with how many people)
+- Making a difference might need more hands
+- The recovery is still in progress but hasn’t been stuck
+- We have fewer things to prepare, but we have tried to infuse our reflections into our way of working (between PLoP and EmacsConf)
+- How to return to some level of chill/flow/...?
+- Especially given that we are doing many other things, some of which we do in common and some which we don’t. The things we do all add up.
+- ERG vs Hyperreal chats: seriousness and focus; how research happens in general communities as one possible goal
+- (Chapter on MOOCS...)
+- Connection with connectionism; the way people talk about connectionism can be rather shallow, it’s not just about learning facts (‘where to look things up’)
+- ARTICULATION is relation connection; there’s a function to be performed by the entire system
+- This suggests: articulation and learning where we want to emphasise this
+- Leo: info(bla) isn’t enough; it’s one thing to have an encyclopedia, it’s another to have a good way to access it.  You do have some guidance (manual plus introduction to elisp, but it’s still a step too far... b/c it lacks interactivity, though it’s a stellar source for intermediate people)
+- Emacs invites people to open the manual where they need to read, so it becomes almost epistolary, which creates wide knowledge but also gaps...
+- Wouldn’t it be nice to have a map of the knowledge you’ve already seen, so you know what you’ve covered
+- The source, with regard to info pages for Elisp: if NNexus could track the amount of the manual that have been read... you can use this as data, e.g., 90% of writing conditions but hardly anything with loops.
+- This is pleasant for us and prompts new ideas
+- People can experience an aha moment when in 2 hours of work (magic number) they actually accomplish something
+- This is related to the notion of ‘clicks’
+- Tim’s PlanetMath code?
+- Roles to employ, sometimes they do fall to these people
+- Working before or close to the deadline
+- By now it has morphed again
 #+end_quote
 *** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq) :breakdown:
 -  (It would be great if we got the next big thing up and running in a year... but this is a lot to ask.)
@@ -361,16 +421,44 @@ that.
 - TBA
 **** Supporting data from CLA 5                                   
 ***** [[file:erg-2021-06-19.org::*Diversity; Noorah was talking about the Utility of CLA when they have multiple meetings, going back to the meetings — going — different vocabularies can make lack of cohesion or even conflict — transdisciplinarity came up][Diversity; Noorah was talking about the Utility of CLA when they have multiple meetings, going back to the meetings — going — different vocabularies can make lack of cohesion or even conflict — transdisciplinarity came up]] :ep25:
+- Getting some coherence out of our long-running and somewhat diverse and somewhat hetereogeneous thought process; this would be even more so the more stakeholders we involve
+- What scale does something need to be at to accomplish a certain goal?
+- This seems related to the long-range view; the further you look into the future the more the impetus to assess the scale becomes important.
+- E.g., PLoP took way more time than we anticipated.
 ***** [[file:erg-2021-08-28.org::*Burn-out and recovery is always in progress...][Burn-out and recovery is always in progress...]] :ep26:
+- If over-work due to under-estimating
+- There’s a spatial scale like how much work can we actually do sustainably (with how many people)
+- Making a difference might need more hands
+- The recovery is still in progress but hasn’t been stuck
 ***** [[file:erg-2021-09-11.org::*LV: One reason for speaking/chairing more than before is that I’m formalising the things we do, and the pseudo-org-agenda is presently in my head, so I’m bringing up the meta-points, this causes us to jump to another level even if I try to do it in a way that’s unobtrusive][LV: One reason for speaking/chairing more than before is that I’m formalising the things we do, and the pseudo-org-agenda is presently in my head, so I’m bringing up the meta-points, this causes us to jump to another level even if I try to do it in a way that’s unobtrusive]] :ep27:
+- We have fewer things to prepare, but we have tried to infuse our reflections into our way of working (between PLoP and EmacsConf)
+- How to return to some level of chill/flow/...?
+- Especially given that we are doing many other things, some of which we do in common and some which we don’t. The things we do all add up.
+- ERG vs Hyperreal chats: seriousness and focus; how research happens in general communities as one possible goal
 ***** [[file:erg-2021-09-11.org::*Maybe we should spend some time on concerns at the start of the next meeting][Maybe we should spend some time on concerns at the start of the next meeting]] :ep27:
 ***** [[file:erg-2021-09-18.org::*Leo brought some "how do we do things around here" ideas and questions for discussion][Leo brought some "how do we do things around here" ideas and questions for discussion]] :ep28:
 ***** [[file:erg-2021-09-18.org::*What about an Emacs MOOC? (Revisit the Peeragogy chapter with an applied example.)][What about an Emacs MOOC? (Revisit the Peeragogy chapter with an applied example.)]] :ep28:
+- (Chapter on MOOCS...)
+- Connection with connectionism; the way people talk about connectionism can be rather shallow, it’s not just about learning facts (‘where to look things up’)
+- ARTICULATION is relation connection; there’s a function to be performed by the entire system
+- This suggests: articulation and learning where we want to emphasise this
+- Leo: info(bla) isn’t enough; it’s one thing to have an encyclopedia, it’s another to have a good way to access it.  You do have some guidance (manual plus introduction to elisp, but it’s still a step too far... b/c it lacks interactivity, though it’s a stellar source for intermediate people)
 ***** [[file:erg-2021-09-18.org::*Try to keep the agenda to 3 POINTS for ease of grasping by attendees][Try to keep the agenda to 3 POINTS for ease of grasping by attendees]] :ep28:
+- Emacs invites people to open the manual where they need to read, so it becomes almost epistolary, which creates wide knowledge but also gaps...
+- Wouldn’t it be nice to have a map of the knowledge you’ve already seen, so you know what you’ve covered
+  - LV: Similar to NNexus project (you know 80%)
+- The source, with regard to info pages for Elisp: if NNexus could track the amount of the manual that have been read... you can use this as data, e.g., 90% of writing conditions but hardly anything with loops.
 ***** [[file:erg-2021-09-25.org::*LV: Changes in modes/rhythms of meeting allows us to explore different ways of working together; this builds our repertoire (staccato, agenda, minutes, whatever); we can redeploy them later][LV: Changes in modes/rhythms of meeting allows us to explore different ways of working together; this builds our repertoire (staccato, agenda, minutes, whatever); we can redeploy them later]] :ep29:
+- This is pleasant for us and prompts new ideas
 ***** [[file:erg-2021-09-25.org::*Efficiency means that people feel something has been accomplished, and this has been going up; this energy could provide impetus to future uses of the workshop][Efficiency means that people feel something has been accomplished, and this has been going up; this energy could provide impetus to future uses of the workshop]] :ep29:
+- People can experience an aha moment when in 2 hours of work (magic number) they actually accomplish something
+- This is related to the notion of ‘clicks’
+- Tim’s PlanetMath code?
 ***** [[file:erg-2021-10-02.org::*Yesterday we talked about =Joe:Chaos=, =Leo:Organisation=; now we see how that can play out practically.][Yesterday we talked about =Joe:Chaos=, =Leo:Organisation=; now we see how that can play out practically.]] :ep30:
+- Roles to employ, sometimes they do fall to these people
+- Working before or close to the deadline
 ***** [[file:erg-2021-10-09.org::*Our talk morphed from a more technical talk (last time we discussed it) to a more entertaining lunchtime talk][Our talk morphed from a more technical talk (last time we discussed it) to a more entertaining lunchtime talk]] :ep31:
+- By now it has morphed again
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 #+begin_quote
 In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
