@@ -1,0 +1,165 @@
+#+TITLE: 23 October 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-10-23 Sat>
+
+* 23 October 2021 — Emacs Research Group
+
+* Check-ins                                                            :15m:
+** Noorah
+- Injured her back (ouch!) after going Too Hard™ at the gym
+  - For the record, she did get her sets in, though.
+** Joe
+- Not too good, not too bad either
+- Spent a nice afternoon with Alex
+- Still feeling blue
+  - RP: Cf. Homer’s ‘Wine-colored sea’.
+  - Advice from one of JC’s sister: ‘Don’t hold off until you have meaningful connection with people’
+- Interesting question: ‘Because we have such a positive attitude towards the way we work together, could it inform the way we work in other groups?’
+  - RP: Let’s get things done today!
+** Ray
+- Busy but it’s not out of hand; wants to get things done in this call, so let’s keep things moving along!
+- Getting something done today can help, anything that needs to wait can wait.
+** Leo
+- Interview feedback at the end of the week, with 2½ or 3 weeks to get to the next round.
+- Got some parental bailout to get some more interview prep time; fairly emotionally drained.
+- Didn’t have EmacsConf today
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-10-23 Sat 18:45]
+** DONE Figure out calendar for next three weeks (given TZ changes)
+CLOSED: [2021-10-23 Sat 18:52]
+| W+1          | No change next week; but US: -1 the next day |
+| W+2 [Nov. 6] | US: -1 (meet 17:30 UK for a *1 hour* meeting)  |
+| W+3 [Nov 13] | EU: -1 (meet 17:30 UK as usual)              |
+
+(Announcement to be sent after the next meeting so we don’t confuse anyone.)
+
+* Agenda                                                               :85m:
+
+** EmacsConf: Prep talk                                                :40m:
+*** Tentative objectives
+**** Detailed script for the talk
+*** Plan
+**** Delivery notes
+***** Noorah’s initial version
+- How we have been running meetings (what we are using)
+- BBB, CRDT, PARs, checkins/checkouts chronology
+- What we want to do moving forward
+***** Some ideas (tentative; but maybe let’s not actually do this?) 
+- RP/NA giving the presentation?
+  - But maybe we want 1 or 4 speakers, let’s return to this later
+- JC/LV taking notes in a crdt.el buffer (JC: live demo is more impactful than a talk)
+
+***** What does it actually look like?
+- One of us talking about our journey... but what am I looking at?
+- Is it someone taking notes on what’s being delivered verbally?
+- Initially show someone talking and someone writing, then expand it to just show what’s being written
+
+**** PRELUDE: THE TAKE-HOME POINT FOR YOU, UP FRONT                   :2m:
+- In our short talk we share information about the methods we use in the Emacs Research Group
+- Today we will make a case for other people getting together and creating their own small research communities similar to ours.
+- We will tell you how we do things, and show you as well a brief demo of how we work together.
+
+**** BACKGROUND + TECHNOLOGY                                          :2m:
+- The FOUR of us met at EmacsConf 2020, and joined together around a common interest in Emacs and research.
+- Since then, we have convened as the Emacs Research Group for weekly meetings.
+- During these meetings, we took notes collaboratively, using a ‘conflict-free replicated data type’ package (crdt. el);
+**** DEMO                                                             :2m:
+- (Excerpt from the making-of the talk session on 23/10.)
+- Writing this talk could be meta (we could return to the recording, roughly around 00:38 in the recording)
+
+**** PROCESS                                                          :2m:
+- *Begin by showing a not-filled-in outline of the session as a slide*
+  - "This is how we organise our org file"
+- At the end of each session, we debriefed using a template that we call a Project Action Review (PAR).
+- As as a meta-review of our sessions, every six weeks we prepared a Causal Layered Analysis (CLA), which gave us a different perspective on what we had done.
+- We reflected further on our experiences and methods, linking our CLA to plans and design patterns.
+
+**** OUTCOMES (SHOW + TELL in Action Review format)                   :2m:
+- As a formal research output, we contributed a write-up of these matters to a joint paper which we presented at the Pattern Languages of Programs Conference (PLoP 2021).
+- The paper included an interactive workshop, in which we explored roles in real-time problem solving and collaboration.
+
+**** CONCLUSION                                                       :1m:
+
+- JC: ‘If we think about the theme of /going public/, this presentation could be it for now: but it doesn’t mean that we want to invite everyone there; we’re more about sharing the methods’
+
+**** LIVE Q&A (4 minutes)
+
+*** Storyboard
+|---------------------------------------------------------------------+---|
+| PRELUDE                                                             | 1 |
+| You can create your own small research communities similar to ours. | * |
+| BACKGROUND + TECHNOLOGY                                             | 2 |
+| Emacs Research Group                                                | * |
+| Weekly meetings                                                     | * |
+| Crdt notes                                                          | * |
+| PRERECORDED DEMO                                                    | 2 |
+| (Video snippet from 23/10.)                                         | § |
+| PROCESS                                                             | 2 |
+| "This is how we organise our org file"                              | * |
+| Project Action Review                                               | * |
+| Causal Layered Analysis                                             | * |
+| Next steps and Design Patterns                                      | * |
+| OUTCOMES                                                            | 2 |
+| The PLoP paper                                                      | * |
+| Overall PAR of Season Zero                                          | * |
+| CONCLUSION                                                          | 1 |
+| "Going public" for now means sharing this talk                      | * |
+| Q&A                                                                 | 5 |
+
+- (Note that clarifying questions can take 2 minutes, this limits the number of questions we can actually field live.)
+- What are the next steps for us to prepare?
+- Binned:
+  - 2-3 slides per section could
+
+- Tentative homework:
+  - Make 1-2 slides
+** Tentative calendar for overflow
+*** [2021-10-26 Tue] (1500Z)
+** PAUSE                                                                :5m:
+** CLA: 2nd part                                                       :40m:
+*** Quick summary of what we did last week
+*** Go through System, Worldview
+* PAR                                                                  :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Prep EmacsConf talk (via set objectives) and work on CLA
+*** 2. Establish what is happening: what and how are we learning?
+- Myth level dropped (catsonified by Bella on the floor)
+- We got through a nice outline and initial storyboard of the talk (but not script yte)
+*** 3. What are some different perspectives on what’s happening?
+- We’ve been focused between PLoP, workshop, EmacsConf: in 2 or 3 weeks we’ll be ready to move on
+- NA: Yay outline! Looking forward to recording it next week
+- JC: Following from his check-in; we didn’t really answer the question: ‘Because we have such a positive attitude towards the way we work together, could it inform the way we work in other groups?’
+- LV: This could be a thematic question to come back to after EmacsConf; it’s not linked to any output but it’s linked to inputs from all of us and the groups in which we work, can we get a high-level view on how the groups work or don’t?
+*** 4. What did we learn or change?
+- Planned what we will do next week
+- Try to minimise work we do outside of the ERG slot
+- "Understanding how groups interact with each other" is part of what we can offer towards sharing effective methods; Hypernotebooks as a metaphor for this is kind of clever
+*** 5. What else should we change going forward?
+- RP: As we were saying once we get through EmacsConf we will have cleared our projects; so what’s going on in the wings? What may have been left behind?
+- We had started getting in touch with Qiantan, and it has broadened to logic and other areas; we might want to pick up on these things especially as they relate to Emacs
+- So after we get through delivery phase, can we get back to these people and involve them?  And how to bring in NNexus as well?
+- Stakeholder meeting to complement our recorded talk?
+- What are the different groups, what are their purposes, what’s their structure? Are they in fact different groups or what?  How do they relate?
+
+* Tentative agenda for next week
+** EmacsConf: Storyboarding
+** EmacsConf: Prep recording
+
+* Check-out                                                            :10m:
+** LV
+- Happy about the session!
+- Won’t need Tuesday overflow, we could do a quick thing in 15 minutes in coffee time
+** RP
+- Have a good weekend and see you next week
+- With the previous plan, if you don’t feel well we can skip the workshop thing this Thursday?
+** NA
+- Hungry
+** JC
+- I have lauded ERG+Hyperreal as well-function research group(s)/network(s)
+- This has been borne out today!
