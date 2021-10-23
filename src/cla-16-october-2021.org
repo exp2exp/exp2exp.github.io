@@ -196,6 +196,7 @@ planning process remain open and flexible: including to various
 disciplinary methods, and especially to change as we reflect on how
 things are going.
 #+end_quote
+things are going.
 *** BACK Identify potential stakeholders in Emacs Research       :breakdown:
 - ‘Org Notes’ for some potential USERS
 - Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
