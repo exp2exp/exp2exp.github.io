@@ -1,0 +1,62 @@
+* Meta
+- We might want to think about the priorities of some of those points; it’s probably more important to talk about crdt.el than talking about the fact that we had the summer off.
+- JC: What about the local stake-holders?  The work we’re doing here is worthwhile, and we woudln’t be spending 10h/week doing it if we didn’t think it was important.  Should it be acknowledged by our employers?
+  - RP: The point is that /we/ acknowledge it now, even if nobody else does.
+  - JC: Maybe we need to do a sales job here on telling people /why/ this is important.
+    - RP: I don’t see anyone else to whom I’d need to acknowledge that.  However, there’s
+  - NA: Re: PLACARD; I would like to build stronger arguments for the method, although it’s not specifically ERG.
+* ----------------------------------------
+* PRELUDE
+** You can create your own small research communities similar to ours.
+- JC: keep the conversation going throughout the year, not just at this conference
+- NA: We’re people with different skills
+* BACKGROUND + TECHNOLOGY
+** Emacs Research Group
+- JC: Transdisciplinarity is going to be important for solving big problems
+  - JC: It’s not a matter of talking at conferences, but *solving problems*
+  - RP: We could mention a problem that we’re trying to solve with Emacs here to be practical about it.
+    - JC: crdt.el could be part of it? (// [[*crdt.el notes][crdt.el notes]] later)
+    - RP: How do we fit crdt.el, Hyper notebooks, org-roam
+    - RP: How do we bring beginners to Emacs?
+      - JC: How would we teach Emacs to the masses?  Is it even possible?
+      - NA: We need to create a flowchat of uses: ‘if you are someone who’s X, thwese are the packages that would work for you’
+      - RP: Understanding why it is that people do or don’t use it; if you brought your focus on those points, would it help bring people on board?
+      - JC: There are some people who would only use it for email, but then they can branch out into org
+      - AM: I don’t think Emacs as a tool know really what it is; the effort that it would take for Alex to understand this is hard to justify.  He tried using Evil (since it’s designed for people who are familiar with Vim), but it still didn’t do what he was expecting it to do.  For someone who’s just new, you are required
+        - LV: Isn’t that the very thing we could get people interested into?  It does take a special mind to care about configuration and customisation ad nauseam, but how could we make it more stomachable for those are maybe not as familiar with the concept
+        - AM: Even though there are very interesting features like org-roam
+        - RP: When the evil-mode came out, what /did/ someone have in mind when they built it?
+    - RP: How do we make the community more accessible (in all the acceptions of the term)
+- NA: We can make a strong link between crdt.el and org-modew; the importance of org-mode; that’s how we’ve been using crdt.el, with org files
+  - JC: Just imagine how much progress we’re making online compared to a group of people meeting physically around a blackboard
+  - RP: This org-roam and hyper notebooks are also working around org
+    - RP: Hyper notebooks is more of a proposal with a PoC right now.
+- NA: The stuff that we haven’t been able to solve yet is the org-roam links
+- JC: A new platform for research might be a big goal, but it might be splittable, or it might share features with other persons/groups visions
+  - RP: If we’re going to be discussing interrelated projects, once-a-year isn’t enough
+    - JC: *How* we discuss them, or *how* we work around disciplines, that’s going to be interesting
+  - RP: One important thing to say about big problems is that they don’t fit in one problem; someone who would be very good at Lisp could just solve that problem; you’d probably need that programming, but also coupled with someone who weould be better at dealing with peoples, a futuruist or whatnot
+    - If the problems are big enough, you probably need transdisciplinarity to approach them.
+** Weekly meetings
+- JC: We need to confess that we took Christmas and summer off. ʕ •`ᴥ´•ʔ
+** crdt.el notes
+- JC: The output of this process of taking notes is that we have 200 pages worth of notes.
+- RP: We digest them and go back to those notes regularly (PAR+CLA usage; meta: what we’re doing now).
+  - NA: We also explain what that means.
+* PRERECORDED DEMO
+** (Video snippet from 23/10.)
+- We’ve decided to be meta about it and use the video of us deciding during the last ERG session [2021-10-23 Sat] what the video would be about.
+* PROCESS
+** "This is how we organise our org file"
+** Project Action Review
+** Causal Layered Analysis
+** Next steps and Design Patterns
+* OUTCOMES
+** The PLoP paper
+** Overall PAR of Season Zero
+- NA: What are the questions we haven’t answered yet?
+- RP: What are the reasons we’re doing this at all?  If we’ve been doing it for a year,
+  - We’re not going to claim that we’ve solved those problems, but if we keep going, and we get people inspired to work on this with us or on their own.
+* CONCLUSION
+** "Going public" for now means sharing this talk
+** Q&

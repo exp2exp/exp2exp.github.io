@@ -27,6 +27,10 @@ DEADLINE: <2021-10-12 Tue 19:00>
 :END:
 ** TODO [#D] Think about ways to implement silent-sessions of ERG (with heavy use of crdt.el)
 ** TODO Trickle-down money from JC’s work with Abby?
+** TODO Getting an evil maint to come talk some goddamn sense into Alex
+- RP: We could set up a dialogue with one of those evil-mode.
+- JC: We could just find someone who loves evil-mode.
+- LV: I’ve asked Alex to keep track of the problems in a document for us to review it.
 * Short-term tasks
 ** STBY Come up with a plan for quarterly reviews à la HR          :standby:
 SCHEDULED: <2021-09-25 Sat>
