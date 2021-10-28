@@ -1,3 +1,5 @@
+#+Title: ERG Agenda
+
 * Long-term tasks
 ** STRT Prepare EmacsConf proposal
 DEADLINE: <2021-10-16 Sat>

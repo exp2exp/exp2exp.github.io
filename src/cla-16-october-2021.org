@@ -82,16 +82,14 @@ This one includes data from Episodes 25-31.
 
 #+begin_quote
 We’ve made progress since we started with the raw themes of *Research
-on/in/with Emacs* back in October 2020.
-
-We’ve met almost every week since then, and interviewed some
-interesting and varied guests.  We have a clearer idea of what what we
-want to talk about at the next EmacsConf, and how we can be of service
-to researchers and Emacs users.  We have been using a workflow that
-helps us carefully review progress, diagnose issues, and manage our
-energy.  We’re understanding how research is done by doing it, and keeping
-careful track of the process.
-
+on/in/with Emacs* back in October 2020.  We’ve met almost every week
+since then, and interviewed some interesting and varied guests.  We
+have a clearer idea of what what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users.  We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  We’re understanding
+how research is done by doing it, and keeping careful track of the
+process.
 - If a session doesn’t go as well as hoped, we think about why (esp. Leo as chair). You know what the bomb is... so you can at least hope to defuse it later.
 - We try to adapt gracefully to circumstances as they evolve, without being reactive because we know we will be back again next week and the week after, etc.
 #+end_quote
@@ -183,19 +181,11 @@ careful track of the process.
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
 If we tackle big enough projects, it will bring with it the need for
-/collaboration/.  (And we need to respect these other parties.)  We like to
-create tangible deliverables (e.g., journal articles).  However, “If
-we knew what the outcome was it wouldn’t be research” — therefore,
-we’re focusing initially on /research methods/ and /design documents/.
-
-That may mean it takes us a bit longer to write our first paper(s), but
-when we get something out it will be good.  Meanwhile we’re also
-keeping sharp by fixing bugs, filing issues, improving our own
-workflows, and actively exploring the landscape.  We want to keep a
-role for serendipity here, which adds the requirement that our
-planning process remain open and flexible: including to various
-disciplinary methods, and especially to change as we reflect on how
-things are going.
+/collaboration/.  (And we need to respect these other parties.)  We like
+to create tangible deliverables (e.g., journal articles).  However,
+“If we knew what the outcome was it wouldn’t be research” — therefore,
+we’re focusing initially on /research methods/ and, to a lesser extent,
+/design documents/.
 
 - JC 23/10: I enjoy the way we work
 - Any community we work with needs to be brought on board for the way we work and vice versa.
@@ -316,24 +306,21 @@ things.  Concretely, we’ve been studying our own processes and looking
 for the tools and settings that are the most conducive to the work we
 want to do.  For example, instead of having a single Org Roam
 directory shared via Git, what if we had ways of managing sharing of
-notes across ‘graphs’?
-
-Collaboration is familiar to all kinds of teams across all sectors.
-Even authors working alone may have need to ‘virtually collaborate
-with themselves’ — and of course to share their work with others when
-it’s ready.  If we all had our slipboxes online, we could reference
-between them.  This would generalise *ORCiD*, and people to reference
-processes that are undergoing evolution.  Maybe a service like this
-would turn into a ‘Tinder for academics’ — helping to match people
-based on their interests (or similar people in different fields).  So,
-what’s the price point?  Instead of paying money to go to conferences,
-now we can spontaneously make conferences and workshops.  As a guess,
-$750.0 per user per year might be a fair price — for those who can
-afford to pay it — if the service helps people to do better research
-and saves a bunch of travel.  We could also set up a pricing model
-proportional to each country’s carbon emissions or something like
-that.
-
+notes across ‘graphs’?  Collaboration is familiar to all kinds of
+teams across all sectors.  Even authors working alone may have need to
+‘virtually collaborate with themselves’ — and of course to share their
+work with others when it’s ready.  If we all had our slipboxes online,
+we could reference between them.  This would generalise *ORCiD*, and
+people to reference processes that are undergoing evolution.  Maybe a
+service like this would turn into a ‘Tinder for academics’ — helping
+to match people based on their interests (or similar people in
+different fields).  So, what’s the price point?  Instead of paying
+money to go to conferences, now we can spontaneously make conferences
+and workshops.  As a guess, $750.0 per user per year might be a fair
+price — for those who can afford to pay it — if the service helps
+people to do better research and saves a bunch of travel.  We could
+also set up a pricing model proportional to each country’s carbon
+emissions or something like that.
 - Getting some coherence out of our long-running and somewhat diverse and somewhat hetereogeneous thought process; this would be even more so the more stakeholders we involve
 - What scale does something need to be at to accomplish a certain goal?
 - This seems related to the long-range view; the further you look into the future the more the impetus to assess the scale becomes important.
@@ -510,7 +497,7 @@ but may expand the frontier of possibility.
 ***** [[file:erg-2021-04-17.org::*But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”][But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”]] :ep18:
 **** Supporting data from CLA 4                                   :noexport:
 - TBA
-**** Supporting data from CLA 5                                   
+**** Supporting data from CLA 5
 ***** [[file:erg-2021-06-19.org::*Maybe this is also about /encoding patterns/ — your brain is fitted to see patterns in the world and put concepts behind them. When you regress from this point and assimilate it... ‘groking’... you’re after the click!][Maybe this is also about /encoding patterns/ — your brain is fitted to see patterns in the world and put concepts behind them. When you regress from this point and assimilate it... ‘groking’... you’re after the click!]] :ep25:
 ***** [[file:erg-2021-09-18.org::*NA: Where can I put a comment about “Why we should present our case of people getting together and creating their own communities similar to ours?”][NA: Where can I put a comment about “Why we should present our case of people getting together and creating their own communities similar to ours?”]] :ep28:
 ***** [[file:erg-2021-09-18.org::*Some of the pressure I felt was assuming 1 default meaning of ‘going public’; can we make clear the meanings we have for these key things; we haven’t done the job, it’s been nebulous. Only when we considered the EmacsConf proposal did we consider this.][Some of the pressure I felt was assuming 1 default meaning of ‘going public’; can we make clear the meanings we have for these key things; we haven’t done the job, it’s been nebulous. Only when we considered the EmacsConf proposal did we consider this.]] :ep28:

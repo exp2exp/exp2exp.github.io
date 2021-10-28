@@ -149,6 +149,7 @@ CLOSED: [2021-10-23 Sat 18:52]
 
 * Tentative agenda for next week
 ** EmacsConf: Storyboarding
+- (Building on the accumulating material in [[file:erg/emacsconf-notes.org][ERG EmacsConf 2021 notes]].)
 ** EmacsConf: Prep recording
 
 * Check-out                                                            :10m:

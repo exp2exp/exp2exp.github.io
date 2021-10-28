@@ -1,3 +1,4 @@
+#+Title: ERG EmacsConf 2021 notes
 * Meta
 - We might want to think about the priorities of some of those points; it’s probably more important to talk about crdt.el than talking about the fact that we had the summer off.
 - JC: What about the local stake-holders?  The work we’re doing here is worthwhile, and we woudln’t be spending 10h/week doing it if we didn’t think it was important.  Should it be acknowledged by our employers?
