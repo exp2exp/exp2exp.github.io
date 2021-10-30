@@ -1,0 +1,437 @@
+#+TITLE: 30 October 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-10-30 Sat>
+
+* 30 October 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+** Noorah
+- Still struggling with her back. :(
+** Joe
+- Only managed to grade one of the eight remaining MSc that he’s meant to be grading.
+  - Some of the quality is fairly dodgy
+  - But the main thing is that doing this needs focus
+- RP: Feedback needs to be positive?
+  - JC: Yep, it’s pretty formulaic
+** Leo
+- Coming from EmacsConf where he’s taken lots of notes and it’s been a full session.
+** Ray
+- Here a few minutes later and will save further ideas for Monday/Tuesdays
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-10-30 Sat 18:35]
+** TODO Remind people of calendar (given TZ changes)                    :LV:
+| W+1          | No change next week; but US: -1 the next day  |
+| W+2 [Nov. 6] | US: -1 (meet 17:30 UK for a *1 hour* meeting) |
+| W+3 [Nov 13] | EU: -1 (meet 17:30 UK as usual)               |
+
+* Agenda                                                                :85m:
+** JC’s quick presentation on the new CLA draft text                   :10m:
+*** 1.1 Litany
+We’ve made progress since we started with the raw themes of Research
+on/in/with Emacs back in October 2020. We’ve met almost every week
+since then, and interviewed some interesting and varied guests. We
+have a clearer idea of what what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users. We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  We’re understanding
+how research is done by doing it, and keeping careful track of the
+process. If a session doesn’t go as well as hoped, we think about why
+(especially Leo as chair). You know what 1the bomb is, so you can at
+least hope to defuse it later. We try to adapt gracefully to
+circumstances as they evolve, without being reactive because we know
+we will be back again next week and the week after, etc.
+
+*** 1.2 System
+If we tackle big enough projects, it will bring with it the need for
+collaboration. (And we need to respect these other parties.) We like
+to create tangible deliverables (e.g., journal articles). How- ever,
+“If we knew what the outcome was it wouldn’t be research” — therefore,
+we’re focusing initially on research methods and design documents. So
+far many of the stakeholders have to do with free software, open
+communities, peer learning: all of this is part of a broader
+initiative. All of them will need some degree of systematised
+activities and documents. This is what we’re experimenting with; in
+principle, we can provide meta-management workflows, and making sure
+to take account of emotions, not just a time table. We’ve been
+experimenting with futures methods that help us use the future
+intelligently (neither trying to do everything ‘live’, nor
+overburdening the future with a bunch of plans that can’t be
+realised).
+
+*** 1.3 Worldview
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can eventually improve upon. Actually
+getting there requires thinking about the specificity of what Emacs
+can do. At least nominally, it is a system for editing. For example,
+currently we can edit a wiki using Org Roam and Git. What about
+editing distributed knowledge graphs? This would allow people to
+reference ongoing research processes. Or we could go further and
+contribute to the development of a new distributed read-write Web!
+Alongside such software products could come various services, such as
+a match- making service for academics, or a set of 24/7 virtual
+conferences. To make such thing really useful, we need to get
+coherence out of various long-running, diverse, and hetereogeneous
+thought processes: and make sure we help people address real
+problems. We can start small, working with the members of ERG and
+their networks. We’re certainly not the only people who are struggling
+with some unexpected commitments.  Successful adaptation requires the
+articulation of an entire system. Thinking again about Emacs: its
+current documentation is certainly useful, but it leaves many gaps,
+some of which are filled in other ways (e.g., by mailing lists). As we
+work we are paying attention to the growth not only of knowledge, but
+also of capability. For this, we often rely on our feelings (getting
+it, not getting it, accomplishing something or not, etc.).
+
+*** 1.4 Myth
+In our concrete methods, we have aligned ourselves with the ‘long-term
+perspective’. This includes both retrospective and prospective
+thinking. For example, the things that were timely 7 years ago might
+now; in many cases the relevance of a given innovation goes down over
+time. That said, Emacs has an evolu- tionary character that has
+allowed it to keep up with the times — apparently becoming
+increasingly relevant and useful ever since Steele and Stallman
+started to systematise Editor MACroS for the Text Editor and Corrector
+(TECO) program. Not only has the technology evolved, but so has the
+social setting in which this work is done. After nearly a year of
+working together, we’re now prepared to argue that other people should
+consider getting together to create their own communities similar to
+ours! The concepts underlying the free software movement were based on
+“communal sharing” of source code: now we’re working on developing and
+sharing other methods as well. Just like free software has
+legitimately expanded the range of what’s humanly possible, so too may
+further efforts expand frontier of possibility. As above, this takes
+careful articulation, and a willingness to do truly original research
+(without relying on fixed assumptions about what research is meant to
+be, or where we will find value).
+
+** EmacsConf: Storyboarding                                            :35m:
+*** Meta
+- We might want to think about the priorities of some of those points; it’s probably more important to talk about crdt.el than talking about the fact that we had the summer off.
+- JC: What about the local stake-holders?  The work we’re doing here is worthwhile, and we woudln’t be spending 10h/week doing it if we didn’t think it was important.  Should it be acknowledged by our employers?
+  - RP: The point is that /we/ acknowledge it now, even if nobody else does.
+  - JC: Maybe we need to do a sales job here on telling people /why/ this is important.
+    - RP: I don’t see anyone else to whom I’d need to acknowledge that.  However, there’s
+  - NA: Re: PLACARD; I would like to build stronger arguments for the method, although it’s not specifically ERG.
+*** ----------------------------------------
+*** INTRODUCTIONS                                                      :2m:
+#+begin_quote
+Hi, I’m Leo Vivier,
+I’m Noorah Alhasan, 
+I’m Ray Puzio, 
+I’m Joe Corneli, I’m a Research Fellow in the Institute for Ethical AI at Brookes in Oxford, UK.  My research background is in mathematics and online communities.
+#+end_quote
+*** PRELUDE                                                            :1m:
+META:
+- We can have a narrator, or we have a back-and-forth between two persons.
+
+#+begin_quote
+The four of us met at EmacsConf 2020 with a common interest in Emacs
+and research.  We’ve met almost every week since then, because we
+wanted to keep the conversation going.  In this short talk, we share
+information about the methods we use, making a case for other people
+getting together and creating their own small research communities
+similar to ours.
+#+end_quote
+
+**** DONE Our submitted abstract
+
+#+begin_src
+Title: Emacs Research Group, Season Zero: What we did together with
+Emacs in 2 hours a week for a year
+
+This is our story:
+
+The four of us met at EmacsConf 2020, and joined together around a
+common interest in Emacs and research.  Since then, we have convened as
+the Emacs Research Group for weekly meetings.  During these meetings, we
+took notes collaboratively, using a ‘conflict-free replicated data type’
+package (crdt.el); at the end of each session, we debriefed using a
+template that we call a Project Action Review (PAR).  As as a
+meta-review of our sessions, every six weeks we prepared a Causal
+Layered Analysis (CLA), which gave us a different perspective on what we
+had done.  We reflected further on our experiences and methods, linking
+our CLA to plans and design patterns.  As a formal research output, we
+contributed a write-up of these matters to a joint paper which we
+presented at the Pattern Languages of Programs Conference (PLoP 2021).
+The paper included an interactive workshop, in which we explored roles
+in real-time problem solving and collaboration.
+
+In our short talk we share information about these methods, making a
+case for other people getting together and creating their own small
+research communities similar to ours.
+#+end_src
+
+**** DONE You can create your own small research communities similar to ours.
+- JC: keep the conversation going throughout the year, not just at this conference
+- NA: We’re people with different skills
+*** BACKGROUND + TECHNOLOGY                                            :2m:
+**** Emacs Research Group
+#+begin_quote
+You’ll have noticed that we all have different research backgrounds.
+Transdisciplinarity is going to be important for solving big problems:
+this is more than just going to specialist conferences.
+
+Let’s face it: there are both great things and also some problems with
+Emacs, especially for new users who are familiar with other tools.  A
+useful problem to think about is how to use Emacs for running a live
+meeting.  Broadly, what we’d like to do (but haven’t done yet) is
+create a flowchart of uses for Emacs.
+
+Configuration and customisation is familiar to new users and provides
+a great on-ramp, but how can we make it more approachable for new
+users?  And thinking big: building a new platform for research is
+indeed a big goal.  But we can approach it incrementally.  It’s
+important to notice that where we are now, we’ve been working through
+Org Mode this whole time: for our notes, our slides, our wiki, our
+agenda.  Nevertheless this can be a point of disconnection for people
+who aren’t familiar with these tools.
+#+end_quote
+***** DONE Notes for the above
+- JC: Transdisciplinarity is going to be important for solving big problems
+  - JC: It’s not a matter of talking at conferences, but *solving problems*
+  - RP: We could mention a problem that we’re trying to solve with Emacs here to be practical about it.
+    - JC: crdt.el could be part of it? (// [[*crdt.el notes][crdt.el notes]] later)
+    - RP: How do we fit crdt.el, Hyper notebooks, org-roam
+    - RP: HOW DO WE BRING BEGINNERS TO EMACS?
+      - JC: How would we teach Emacs to the masses?  Is it even possible?
+      - NA: WE NEED TO CREATE A FLOWCHAT OF USES: ‘if you are someone who’s X, these are the packages that would work for you’
+      - RP: Understanding why it is that people do or don’t use it; if you brought your focus on those points, would it help bring people on board?
+      - JC: There are some people who would only use it for email, but then they can branch out into org
+      - AM: I don’t think Emacs as a tool really knows what it is; the effort that it would take for Alex to understand this is hard to justify.  He tried using Evil (since it’s designed for people who are familiar with Vim), but it still didn’t do what he was expecting it to do.  For someone who’s just new, you are required
+        - LV: Isn’t that the very thing we could get people interested into?  It does take a special mind to care about configuration and customisation ad nauseam, but how could we make it more stomachable for those are maybe not as familiar with the concept
+        - AM: Even though there are very interesting features like org-roam
+        - RP: When the evil-mode came out, what /did/ someone have in mind when they built it?
+    - RP: How do we make the community more accessible (in all the acceptions of the term)
+- NA: We can make a strong link between crdt.el and org-modew; the importance of org-mode; that’s how we’ve been using crdt.el, with org files
+  - JC: Just imagine how much progress we’re making online compared to a group of people meeting physically around a blackboard
+  - RP: This org-roam and hyper notebooks are also working around org
+    - RP: Hyper notebooks is more of a proposal with a PoC right now.
+- NA: The stuff that we haven’t been able to solve yet is the org-roam links
+- JC: A new platform for research might be a big goal, but it might be splittable, or it might share features with other persons/groups visions
+  - RP: If we’re going to be discussing interrelated projects, once-a-year isn’t enough
+    - JC: *How* we discuss them, or *how* we work around disciplines, that’s going to be interesting
+  - RP: One important thing to say about big problems is that they don’t fit in one problem; someone who would be very good at Lisp could just solve that problem; you’d probably need that programming, but also coupled with someone who weould be better at dealing with peoples, a futuruist or whatnot
+    - If the problems are big enough, you probably need transdisciplinarity to approach them.
+**** Quick summary of the tools we use
+#+begin_quote
+- With our weekly meetings we’ve been using Big Blue Button (the same server, in fact, that’s used for EmacsConf).
+- We’re using crdt.el for real-time collaborative note-taking
+#+end_quote
+***** DONE Notes
+- JC: We need to confess that we took Christmas and summer off. ʕ •`ᴥ´•ʔ
+**** crdt.el notes
+- JC: The output of this process of taking notes is that we have 200 pages worth of notes.
+- RP: We digest them and go back to those notes regularly (PAR+CLA usage; meta: what we’re doing now).
+  - NA: We also explain what that means.
+*** PRERECORDED DEMO                                                   :2m:
+**** (Video snippet from 23/10.)
+- We’ve decided to be meta about it and use the video of us deciding during the last ERG session [2021-10-23 Sat] what the video would be about.
+**** TODO Extract excerpt
+[[https://bbb.emacsverse.org/playback/presentation/2.0/playback.html?meetingId=f0f09fef863f8e79ca17de969f4ba93a86538fcf-1635006599067][Recording]]
+- Let’s make sure we find an excerpt where all four of us speak
+*** PROCESS                                                            :2m:
+- If we struggle to do this in a 3 hour workshop, how do we do it in 3 minutes?
+- How can we give the flavour of action reviews, analysis...?
+- RP: We’re probably not going to explain PLACARD here; let’s think of this as the ultimate shortening of the paper submitted to PLoP
+  - JC: It’s like the poster-version of the talk
+**** "This is how we organise our org file"
+- We could use an empty outline for an ERG file to show that it follows a template.
+
+**** Organising metaphor
+
+#+begin_quote
+We use three methods which can help a community carry out
+self-evaluation and peer learning.  Each has natural use-cases when
+considered in isolation.  When combined, the methods provide a more
+holistic mixed pattern.
+#+end_quote
+
+They help us with these three things:
+
+1. Sense
+2. Think
+3. Do
+
+***** Project Action Review
+#+begin_quote
+At the end of every meeting we ask a series of questions adapted from
+the After Action Review developed by the US Army for training elite
+troups.  This helps us remember what happened in the meeting, and
+write down so we can refer to it later.
+#+end_quote
+
+#+begin_src 
+EXAMPLE
+1. Review the intention: what do we expect to learn or make together?
+2. Establish what is happening: what and how are we learning?
+3. What are some different perspectives on what’s happening?
+4. What did we learn or change?
+5. What else should we change going forward?
+#+end_src
+
+***** Causal Layered Analysis
+#+begin_quote
+Every six weeks or so, we analyse the action reviews using a
+four-layer framework to understand the causes of problems developed by
+futurist Sohail Inayatullah.  This helps us get a big-picture sense of
+where we are going and keeps it up to date.
+#+end_quote
+
+#+begin_src 
+EXAMPLE
+1. Litany
+2. System
+3. Worldview
+4. Myth
+#+end_src
+
+***** Design Patterns and Next steps
+#+begin_quote
+At this point having analysed what we’ve done, it’s just as important
+to plan well.  So, we augment our big-picture analysis with next
+steps.  We keep these collated with a developing design pattern
+language from the Peeragogy project.
+#+end_quote
+
+#+begin_src 
+EXAMPLE
+1. Context
+2. Problem
+3. Solution
+4. Next steps
+#+end_src
+*** OUTCOMES                                                           :2m:
+**** We looked at user experience and development together to see how the process went together and where the gaps are
+- Specifically looking at how maintainers and users can relate well
+- This touches back to the beginner experience
+**** We had some guest sessions
+- We did have guests, some of whom we’re still coordinating with
+- We have in mind some future sessions (like bringing together an experienced Vimmer with an Evil maintainer)
+**** We compared Emacs with other platforms, not just at the technical level but at the user experience level
+- Trying to understand how and why people use things (like RStudio and Roam Research)
+- We’ve got some intermediate results
+**** Coming up with methods that other people can use for organizing their own meetings
+- This has several strengths to it
+- One argument for it is that we put together a paper even though we all come from different methods, with different trainings, and somehow miraculously got together and build a shared language that allowed us to produce this paper.
+- We combined not just methods but also people and their different.  Our tools got us talking /to/ one another, but our methods got us talking /with/ one another.
+**** The PLoP paper: Patterns of Patterns 
+#+begin_quote
+We wrote a paper for the Pattern Languages of Programs conference that
+sums up the way we work in ERG, together with co-authors from the
+Peeragogy project.  We contextualise our work relative to other
+communities.
+#+end_quote
+
+#+begin_src 
+Abstract: The purpose of this paper is to show how we can combine and
+adapt methods from elite training, future studies, and collaborative
+design, and apply them to address significant problems in social
+networks. We focus on three such methods: we use Action Reviews to
+implement social perception, Causal Layered Analysis to implement
+social cognition, and Design Pattern Languages to implement social
+action. To illustrate the methods in combination, we first develop a
+case study, showing how we applied them to bootstrap a distributed
+cross-disciplinary research seminar. We then use Causal Layered
+Analysis to explore the ways in which the design pattern discourse has
+been evolving. Building on these analyses, we elaborate several
+scenarios for the future use of design patterns in large-scale
+distributed collaboration. We conclude that the combination of methods
+is robust to uncertainty -- by supporting adaptations as circumstances
+change -- and that they can help people coming from different
+backgrounds work together. In particular, we show how methods drawn
+from other domains enrich and are enriched by design patterns; we
+believe the analysis will be of interest to all of the communities
+whose methods we draw upon.
+#+end_src
+
+**** Workshop design included in the paper and we think it may have a convincing future 
+- The workshop design helps us understand real-time roles
+- The roles are linked with the methods described above
+
+#+begin_src 
+EXAMPLE
+1. Kaiju Communicator — Problems emerging in a scenario
+2. Historian — System of how we got there
+3. Analyst — Analysis of the activity
+4. Designer — Next steps
+#+end_src
+
+**** Overall PAR of Season Zero
+#+begin_quote
+Here’s how we’d sum up our work so far, and how we see the next steps.
+#+end_quote
+***** 1. Review the intention: what do we expect to learn or make together?
+- NA: What are the questions we haven’t answered yet?
+***** 2. Establish what is happening: what and how are we learning?
+- RP: What are the reasons we’re doing this at all?  If we’ve been doing it for a year,
+- We’re not going to claim that we’ve solved those problems, but if we keep going, and we get people inspired to work on this with us or on their own.
+***** 3. What are some different perspectives on what’s happening?
+***** 4. What did we learn or change?
+***** 5. What else should we change going forward?
+
+*** CONCLUSION                                                         :1m:
+#+begin_quote
+We’ve decided that "going public", for now, means sharing this talk.
+#+end_quote
+
+- Invite you to consider these methods and use them
+- The reason we did this was how to stay in touch after the conference, so let’s invite you to specifically try these as a follow-up from EmacsConf 2021
+- It’s a nice way to keep the momentum going.
+
+**** Q&A
+
+** PAUSE                                                                :5m:
+** EmacsConf: Record recording                                         :35m:
+
+* PAR                                                                   :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- We wanted to finish the presentation
+- Joe wanted to report on CLA progress
+*** 2. Establish what is happening: what and how are we learning?
+- We made good headway on the presentation
+- Fielded late-breaking-news as a lightning talk (CLA methods inside Org Roam)
+*** 3. What are some different perspectives on what’s happening?
+- We’re not late, but we are using a bit of overflow time
+- Merged the CLA and the talk notes in one place and are weaving them together
+- This is an example that things sometime take longer than expected so this is a good example of why we may need the extra buffer of time
+*** 4. What did we learn or change?
+- We still had to spend some time sorting out timezone differences for our workshop
+- We’ve adapted our objectives based on how much progress we have been making today
+*** 5. What else should we change going forward?
+- For Tuesday session finish the storyboarding and slides
+- We have the agenda for next week: to record the presentation on Saturday
+- Return to the CLA in a future two-hour Planning session 
+- Anyone who wants to read the notes can review them before the meeting
+- Some week in November or equivalent of time we should devote to finalising the PLoP paper (to be scheduled; it’s due on the 7th of December)
+- EmacsConf itself is on November 27th and 28th
+- Next CLA cycle begins on November 20th, this can therefor cover planning and how we did with the talk
+
+* Tentative agenda for next week (only 1h)
+
+** EmacsConf: Record the presentation
+
+** (Maybe for the next whole session) Planning the next season
+- We could spend a whole 2h session on it, but we’re only getting the process
+- Once we finish the EmacsConf talk, that’s the last thing we had sitting, so we might want to think about
+- JC’s work on the CLA, with additions from our talk preparation
+  - JC: Didn’t include TODOs
+- RP: As in the paper, ‘analysis’ is to be combined with ‘design’
+- JC: Since the PLoP paper is due on the 7th of December, we should have an ERG session/workshop on it in November
+
+* Check-out                                                             :10m:
+** LV
+- Tired, but excited!
+** RP
+- Anything else will be better said on Monday or Tuesday, wish you a happy weekend/rest of the weekend
+- With coffee chats: 17:30 UTC (an hour later).  To be noted in Discord.
+** NA
+- Thanks and sorry I’ve been a little out of it. See you on Tuesday!
+ - All: It’s OK!
+** JC
+- I missed my usual personal PAR on Monday and will get back to it next week.
