@@ -44,7 +44,9 @@
 |----------------------------------------------------------------------+------|
 | Check-ins                                                            | 20m  |
 | Things to keep in mind                                               |      |
-| Agenda                                                               | 80m  |
+| Topic 1                                                              | 40m  |
+| Break                                                                | 5m   |
+| Topic 2                                                              | 35m  |
 | PAR                                                                  | 15m  |
 | Check-out (exceptional or not, include any scheduling announcements) | 5m   |
 
@@ -72,5 +74,64 @@
 #+end_src
 
 * OUTCOMES
+
+** Patterns of Patterns (PLoP 2021)
+
+#+begin_quote
+The purpose of this paper is to show how we can combine and adapt
+methods from elite training, future studies, and collaborative design,
+and apply them to address significant problems in social networks.
+— https://arxiv.org/abs/2107.10497
+#+end_quote
+
+Outline:
+
+- Introduction
+  - Outline of Methods
+  - Summary of Findings
+  - Supplementary Material
+- Background
+- Methods
+  - Project Action Review
+  - Causal Layered Analysis
+  - Design Pattern Languages
+  - PLACARD: A Synthesis of PAR, CLA, and DPL
+- Context of the Research
+  - Design Pattern Language literature and practices
+  - Emacs Research Group
+- Results
+- Discussion
+  - Scenario I. Patterns become explicitly computational
+  - Scenario II. Pattern language authoring communities move to free/libre/open source licensing
+  - Scenario III. PLACARD scaffolds new literacies of collaboration
+  - Scenario IV. Patterns eat Big Tech
+  - Related Work
+  - Criticisms
+  - How PLACARD relates to Alexander’s broader programme
+- Conclusion
+
+** PLACARD Workshop roles
+#+begin_src 
+1. Kaiju Communicator — Problems emerging in a scenario
+2. Historian — System of how we got there
+3. Analyst — Analysis of the activity
+4. Designer — Next steps
+#+end_src
+** Initial user studies
+Guests and infrequent attendees included:
+
+ - Cameron Smith
+ - David O’Toole
+ - Alex Murphy MSc in Data Analytics
+ - Mark Dawson of M-x Research
+ - Qiantan Hong, developer of crdt.el
+
+Building on these conversations we would like to do more interviews
+and eventually be able to say:
+
 - ‘If you are someone who does X, these are the packages that would work for you’
+
 * CONCLUSION
+
+You should consider creating your own small research communities
+similar to ours!
