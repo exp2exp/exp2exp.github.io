@@ -416,7 +416,7 @@ We’ve decided that "going public", for now, means sharing this talk.
 
 ** EmacsConf: Record the presentation
 
-- [See [[file:exp2exp.github.io/src/erg/emacsconf-slides.org][Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year]] for draft slides.]
+- [See [[https://exp2exp.github.io/erg/emacsconf-slides][Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year]] for draft slides.]
 
 ** (Maybe for the next whole session) Planning the next season
 - We could spend a whole 2h session on it, but we’re only getting the process
