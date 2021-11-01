@@ -14,7 +14,7 @@
 - PROCESS
   - Project Action Review (PAR)
   - Causal Layered Analysis (CLA)
-  - Design patterns
+  - Design patterns and next steps
 - OUTCOMES
   - “Patterns of Patterns” paper for PLoP 2021
   - PLACARD workshop
@@ -22,6 +22,7 @@
   - You should consider creating your own small research communities similar to ours!
 
 * PRELUDE
+
 [ Just a picture of us talking? ]
 
 - Leo Vivier
@@ -35,7 +36,16 @@
   making a case for other people getting together and creating their
   own small research communities similar to ours.
 * BACKGROUND AND TECHNOLOGY
-- We wanted an Emacs-centric solution for real-time meetings
+
+We wanted an Emacs-centric solution for real-time meetings.
+
+Tech stack:
+
+- Emacs
+- crdt.el
+- Org mode!
+- Git
+- BBB
 * DEMO
 * PROCESS
 ** How we organise our meetings
@@ -84,12 +94,7 @@ and apply them to address significant problems in social networks.
 — https://arxiv.org/abs/2107.10497
 #+end_quote
 
-Outline:
-
 - Introduction
-  - Outline of Methods
-  - Summary of Findings
-  - Supplementary Material
 - Background
 - Methods
   - Project Action Review
@@ -113,20 +118,19 @@ Outline:
 ** PLACARD Workshop roles
 #+begin_src 
 1. Kaiju Communicator — Problems emerging in a scenario
-2. Historian — System of how we got there
-3. Analyst — Analysis of the activity
-4. Designer — Next steps
+2. Historian — How we got there
+3. Designer — Design patterns and possible next steps
+4. Analyst — Analysis of the activity including deeper meanings
 #+end_src
 ** Initial user studies
-Guests and infrequent attendees included:
 
- - Cameron Smith
- - David O’Toole
- - Alex Murphy MSc in Data Analytics
+Guests included:
+
+ - Alex Murphy MSc in Data Analytics, beginning Emacs user
  - Mark Dawson of M-x Research
  - Qiantan Hong, developer of crdt.el
 
-Building on these conversations we would like to do more interviews
+Building on these conversations we would like to do more interviews,
 and eventually be able to say:
 
 - ‘If you are someone who does X, these are the packages that would work for you’
