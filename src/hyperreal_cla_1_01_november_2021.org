@@ -1,0 +1,86 @@
+#+title: Hyperreal CLA #1 01 November 2021
+
+Using the principle of ‘adapting wholes’ from Christopher Alexander,
+I’ll start with [[file:cla-16-october-2021.org][CLA 16 October 2021]] from ERG.  There are plenty of
+overlaps in terms of people and processes.  However, this will need
+considerable adaptation to take into account the data we’ve been
+gathering in our Discord (particularly in PARs by Joe and Alex).
+
+* Litany
+We’ve made progress since we started with the raw themes of Research
+on/in/with Emacs back in October 2020. We’ve met almost every week
+since then, and interviewed some interesting and varied guests. We
+have a clearer idea of what what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users. We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  We’re understanding
+how research is done by doing it, and keeping careful track of the
+process. If a session doesn’t go as well as hoped, we think about why
+(especially Leo as chair). The idea is that you know what the bomb is, so you can at
+least hope to defuse it later. We try to adapt gracefully to
+circumstances as they evolve, without being reactive because we know
+we will be back again next week and the week after, etc.
+
+* System
+If we tackle big enough projects, it will bring with it the need for
+collaboration. (And we need to respect these other parties.) We like
+to create tangible deliverables (e.g., journal articles). However,
+“If we knew what the outcome was it wouldn’t be research” — therefore,
+we’re focusing initially on research methods and design documents. So
+far many of the stakeholders have to do with free software, open
+communities, peer learning: all of this is part of a broader
+initiative. All of them will need some degree of systematised
+activities and documents. This is what we’re experimenting with; in
+principle, we can provide meta-management workflows.  In the way we work together we make sure
+to take account of emotions, not just a time table. We’ve been
+experimenting with futures methods that help us use the future
+intelligently: neither trying to do everything ‘live’, nor
+overburdening the future with a bunch of plans that can’t be
+realised.
+
+* Worldview
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can eventually improve upon. Actually
+getting there requires thinking about the specificity of what Emacs
+can do. At least nominally, it is a system for editing. For example,
+currently we can edit a wiki using Org Roam and Git. What about
+editing distributed knowledge graphs? This would allow people to
+reference ongoing research processes. Or we could go further and
+contribute to the development of a new distributed read-write Web!
+Alongside such software products could come various services, such as
+a matchmaking service for academics, or a set of 24/7 virtual
+conferences. To make such thing really useful, we need to get
+coherence out of various long-running, diverse, and hetereogeneous
+thought processes: and make sure we help people address real
+problems. We can start small, working with the members of ERG and
+their networks. We’re certainly not the only people who are struggling
+with some unexpected commitments.  Successful adaptation requires the
+articulation of an entire system. Thinking again about Emacs: its
+current documentation is certainly useful, but it leaves many gaps,
+some of which are filled in other ways (e.g., by mailing lists). As we
+work we are paying attention to the growth not only of knowledge, but
+also of capability. For this, we often rely on our feelings (getting
+it, not getting it, accomplishing something or not, etc.).
+
+* Myth
+In our concrete methods, we have aligned ourselves with the ‘long-term
+perspective’. This includes both retrospective and prospective
+thinking. For example, the things that were timely 7 years ago might
+not be now; in many cases the relevance of a given innovation goes down over
+time. That said, Emacs has an evolutionary character that has
+allowed it to keep up with the times — apparently becoming
+increasingly relevant and useful ever since Steele and Stallman
+started to systematise Editor MACroS for the Text Editor and Corrector
+(TECO) program. Not only has the technology evolved, but so has the
+social setting in which this work is done. After nearly a year of
+working together, we’re now prepared to argue that other people should
+consider getting together to create their own communities similar to
+ours! The concepts underlying the free software movement were based on
+“communal sharing” of source code: now we’re working on developing and
+sharing other methods as well. Just like free software has
+legitimately expanded the range of what’s humanly possible, so too may
+further efforts expand frontier of possibility. As above, this takes
+careful articulation, and a willingness to do truly original research
+(without relying on fixed assumptions about what research is meant to
+be, or where we will find value).
+
