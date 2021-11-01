@@ -45,7 +45,9 @@ Tech stack:
 - crdt.el
 - Org mode!
 - Git
+- Firn
 - BBB
+
 * DEMO
 * PROCESS
 ** How we organise our meetings
