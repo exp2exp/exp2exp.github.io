@@ -1,0 +1,76 @@
+#+TITLE: Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+DATE: [Emacsconf 2021]
+
+* OUTLINE
+
+- PRELUDE
+  - EmacsConf 2020
+  - Emacs Research Group convenes!
+- BACKGROUND AND TECHNOLOGY
+  - crdt.el
+  - BBB
+- DEMO
+- PROCESS
+  - Project Action Review (PAR)
+  - Causal Layered Analysis (CLA)
+  - Design patterns
+- OUTCOMES
+  - “Patterns of Patterns” paper for PLoP 2021
+  - PLACARD workshop
+- CONCLUSION
+  - You should consider creating your own small research communities similar to ours!
+
+* PRELUDE
+[ Just a picture of us talking? ]
+
+- Leo Vivier
+- Noorah Alhasan
+- Ray Puzio
+- Joe Corneli
+
+- The four of us met at EmacsConf 2020 with a common interest in Emacs and research.
+- We’ve met almost every week since then, because we wanted to keep the conversation going.
+- In this short talk, we share information about the methods we use,
+  making a case for other people getting together and creating their
+  own small research communities similar to ours.
+* BACKGROUND AND TECHNOLOGY
+- We wanted an Emacs-centric solution for real-time meetings
+* DEMO
+* PROCESS
+** How we organise our meetings
+
+| DD Month YEAR — Emacs Research Group                                 | 120m |
+|----------------------------------------------------------------------+------|
+| Check-ins                                                            | 20m  |
+| Things to keep in mind                                               |      |
+| Agenda                                                               | 80m  |
+| PAR                                                                  | 15m  |
+| Check-out (exceptional or not, include any scheduling announcements) | 5m   |
+
+** Project Action Review (weekly)
+#+begin_src 
+1. Review the intention: what do we expect to learn or make together?
+2. Establish what is happening: what and how are we learning?
+3. What are some different perspectives on what’s happening?
+4. What did we learn or change?
+5. What else should we change going forward?
+#+end_src
+** Causal Layered Analysis (every six weeks)
+#+begin_src 
+1. Litany
+2. System
+3. Worldview
+4. Myth
+#+end_src
+** Design Patterns (as needed, and linked with TODO items)
+#+begin_src 
+1. Context
+2. Problem
+3. Solution
+4. Next steps
+#+end_src
+
+* OUTCOMES
+- ‘If you are someone who does X, these are the packages that would work for you’
+* CONCLUSION
