@@ -6,6 +6,16 @@ overlaps in terms of people and processes.  However, this will need
 considerable adaptation to take into account the data we’ve been
 gathering in our Discord (particularly in PARs by Joe and Alex).
 
+* Projects
+
+- PLACARD paper
+- Emacs conf lunch presentation
+- Cool flaws workshop
+- Peeragogy mini-handbooklet
+- Reasoned schemer read
+- Ob-servant and hypernotebook
+- CRDT
+
 * Litany
 We’ve made progress since we started with the raw themes of Research
 on/in/with Emacs back in October 2020. We’ve met almost every week

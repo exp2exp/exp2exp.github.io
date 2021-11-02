@@ -63,7 +63,7 @@ Tech stack:
 | Check-out (exceptional or not, include any scheduling announcements) | 5m   |
 
 ** Project Action Review (weekly)
-#+begin_src 
+#+begin_src
 1. Review the intention: what do we expect to learn or make together?
 2. Establish what is happening: what and how are we learning?
 3. What are some different perspectives on what’s happening?
@@ -71,14 +71,14 @@ Tech stack:
 5. What else should we change going forward?
 #+end_src
 ** Causal Layered Analysis (every six weeks)
-#+begin_src 
+#+begin_src
 1. Litany
 2. System
 3. Worldview
 4. Myth
 #+end_src
 ** Design Patterns (as needed, and linked with TODO items)
-#+begin_src 
+#+begin_src
 1. Context
 2. Problem
 3. Solution
@@ -96,8 +96,7 @@ and apply them to address significant problems in social networks.
 — https://arxiv.org/abs/2107.10497
 #+end_quote
 
-- Introduction
-- Background
+...
 - Methods
   - Project Action Review
   - Causal Layered Analysis
@@ -106,19 +105,9 @@ and apply them to address significant problems in social networks.
 - Context of the Research
   - Design Pattern Language literature and practices
   - Emacs Research Group
-- Results
-- Discussion
-  - Scenario I. Patterns become explicitly computational
-  - Scenario II. Pattern language authoring communities move to free/libre/open source licensing
-  - Scenario III. PLACARD scaffolds new literacies of collaboration
-  - Scenario IV. Patterns eat Big Tech
-  - Related Work
-  - Criticisms
-  - How PLACARD relates to Alexander’s broader programme
-- Conclusion
-
+...
 ** PLACARD Workshop roles
-#+begin_src 
+#+begin_src
 1. Kaiju Communicator — Problems emerging in a scenario
 2. Historian — How we got there
 3. Designer — Design patterns and possible next steps
