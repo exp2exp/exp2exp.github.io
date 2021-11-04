@@ -2,6 +2,20 @@
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+DATE: [Emacsconf 2021]
 
+* PRELUDE
+
+Introductions from:
+
+- Leo Vivier
+- Noorah Alhasan
+- Ray Puzio
+- Joe Corneli
+
+Summary:
+
+- The four of us met at EmacsConf 2020
+- We’ve met almost every week since then
+- This talk is about the methods we use
 * OUTLINE
 
 - PRELUDE
@@ -18,23 +32,9 @@
 - OUTCOMES
   - “Patterns of Patterns” paper for PLoP 2021
   - PLACARD workshop
+  - This is part of a broader context of collaboration (Peeragogy, Hyperreal,...)
 - CONCLUSION
   - You should consider creating your own small research communities similar to ours!
-
-* PRELUDE
-
-[ Just a picture of us talking? ]
-
-- Leo Vivier
-- Noorah Alhasan
-- Ray Puzio
-- Joe Corneli
-
-- The four of us met at EmacsConf 2020 with a common interest in Emacs and research.
-- We’ve met almost every week since then, because we wanted to keep the conversation going.
-- In this short talk, we share information about the methods we use,
-  making a case for other people getting together and creating their
-  own small research communities similar to ours.
 * BACKGROUND AND TECHNOLOGY
 
 We wanted an Emacs-centric solution for real-time meetings.
@@ -126,7 +126,22 @@ and eventually be able to say:
 
 - ‘If you are someone who does X, these are the packages that would work for you’
 
+** Broader context
+
+- We’re working on various different topics in different overlapping contexts
+- We’re trying to share common PATTERNS and ideas that work well across these different contexts.
+- E.g.,
+
+  - /Every meeting should have an optional checkin so that people can update on anything important/.
+  - /A five minute lightning talk is an example of an extended checkin./
+  - /Apart from checkins, meetings should have only 1 or 2 main topics so that we don’t get overwhelmed./
+  - ... and so on.
+
+- (Some of this could feed back into updating the Peeragogy Handbook’s Realtime Meetings section!)
 * CONCLUSION
 
 You should consider creating your own small research communities
 similar to ours!
+
+- The patterns we’ve been learning are all shared and we’re open to feedback.
+

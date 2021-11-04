@@ -152,8 +152,6 @@ pattern; in the present we contextualise what we’ve learned; towards the
 future we augment our big-picture analysis with next steps.  This helps us
 keep things on track.  (We keep our patterns collated with a developing
 design pattern language from the Peeragogy project.)
-
-
 #+end_quote
 
 #+begin_src 
@@ -163,7 +161,30 @@ EXAMPLE
 3. Solution
 4. Next steps
 #+end_src
-*** OUTCOMES                                                             :2m:
+* OUTCOMES                                                             :2m:
+** Summary
+#+begin_quote
+Next we’ll tell you about some of the progress we’ve made so far.
+#+end_quote
+
+** Patterns of Patterns (PLoP 2021)
+#+begin_quote
+We coauthored a paper on all of the topics we mentioned earlier for a
+conference about Design Patterns.  The paper sums up the way we work in ERG,
+and was written together with co-authors from the Peeragogy project.  In the
+paper, we contextualise our way of working relative to other communities,
+and we tried to describe our way of working in a way that others would find
+accessible and potentially useful.
+#+end_quote
+** PLACARD Workshop roles
+#+begin_quote
+We are also developing an interactive workshop based on the ideas in the
+paper, which we piloted at that conference.
+#+end_quote
+** Initial user studies
+** Broader context
+* CONCLUSION
+
 **** We looked at user experience and development together to see how the process went together and where the gaps are
 - Specifically looking at how maintainers and users can relate well
 - This touches back to the beginner experience
