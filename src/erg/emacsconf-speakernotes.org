@@ -26,7 +26,15 @@ M-x share-buffer
 *** INTRODUCTIONS                                                      :2m:
 #+begin_quote
 Hi I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD student at UT Austin studying climate policy.
-I’m Raymond Puzio, I learned about Emacs back around high school and have been using it since then; I’ve been active in Emacs meetups, and I use it in research in science.
+
+I’m Raymond Puzio, I first learned about Emacs and Lisp at an enrichment program for
+high school students.  When studying physics at the university, I
+used Emacs and TeX to write mathematical documents.  Later on, I
+became active in Lisp and Emacs user groups where, among other
+things, I learned about org mode for reproducible research.
+Nowadays, I am working on synthesizing emacs and other programs
+into an end-to-end platform for scientific research and collaboration.
+
 I’m Joe Corneli, I also started using Emacs in high school, now I use it for a lot more things than I did.  My research background is in mathematics and online communities.
 #+end_quote
 
