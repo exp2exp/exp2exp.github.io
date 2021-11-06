@@ -85,10 +85,9 @@ Tech stack:
 4. Next steps
 #+end_src
 
-* OUTCOMES
+* PROJECTS
 
 ** Patterns of Patterns (PLoP 2021)
-
 #+begin_quote
 The purpose of this paper is to show how we can combine and adapt
 methods from elite training, future studies, and collaborative design,
@@ -106,7 +105,8 @@ and apply them to address significant problems in social networks.
   - Design Pattern Language literature and practices
   - Emacs Research Group
 ...
-** PLACARD Workshop roles
+** PLACARD Workshop
+    *A method for rapid problem solving*
 #+begin_src
 1. Kaiju Communicator — Problems emerging in a scenario
 2. Historian — How we got there
@@ -115,33 +115,33 @@ and apply them to address significant problems in social networks.
 #+end_src
 ** Initial user studies
 
-Guests included:
+*User experience*
+  - Users might get started with programming by learning how to customize Emacs.
+  - In fact they may have to write some s-expressions even to get started with Emacs.
 
+*Platform Comparison*
+  - How does Emacs compare with the other options out there? (RStudio, Roam Research)
+
+*Guests included*
  - Alex Murphy MSc in Data Analytics, beginning Emacs user
  - Mark Dawson of M-x Research
- - Qiantan Hong, developer of crdt.el
+ - Qiantan Hong, author of crdt.el
 
-Building on these conversations we would like to do more interviews,
-and eventually be able to say:
-
-- ‘If you are someone who does X, these are the packages that would work for you’
 
 ** Broader context
 
-- We’re working on various different topics in different overlapping contexts
-- We’re trying to share common PATTERNS and ideas that work well across these different contexts.
-- E.g.,
+We’re trying to identify and share common patterns and ideas, for real-time and other collaboration:
 
-  - /Every meeting should have an optional checkin so that people can update on anything important/.
-  - /A five minute lightning talk is an example of an extended checkin./
-  - /Apart from checkins, meetings should have only 1 or 2 main topics so that we don’t get overwhelmed./
+  - /Every meeting should have an optional check-in so that people can update on anything important/.
+  - /A five minute lightning talk is an example of an extended check-in./
+  - /Apart from check-ins, meetings should have only 1 or 2 main topics so that we don’t get overwhelmed./
   - ... and so on.
 
-- (Some of this could feed back into updating the Peeragogy Handbook’s Realtime Meetings section!)
+Some of this can feed back into the /Peeragogy Handbook/ (e.g., the section on [[https://peeragogy.org/realtime][Realtime Meetings]])!
 * CONCLUSION
 
 You should consider creating your own small research communities
 similar to ours!
 
-- The patterns we’ve been learning are all shared and we’re open to feedback.
+- The patterns we’ve been learning are all shared and we’re open to feedback!
 
