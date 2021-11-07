@@ -1,0 +1,51 @@
+#+TITLE: 6 November 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-11-06 Sat>
+
+* 6 November 2021 — Emacs Research Group
+
+* Check-ins                                                              :5m:
+** Joe
+- Big step-forward in the personal relationship realm
+- Cultivating the present
+** Ray
+- Has added Emacs-related biography for notes
+- Looking forward to latter part of next week to start planning the next phase
+** Leo
+- Following up from yesterday, had a good day today, went to bed early yesterday; would have finished the film at 9:30 but turned off at 9:00.  Fell asleep in 2 minutes and slept 10 hours.  Upon waking up, started on Python and algorithms for the first time in a week.  Fits with "ensuring progress rather than adherence to the schedule".
+  - Sleep important as a way to deal with the effect of stress
+  - LV: needs to be highly stressed to lose sleep over it
+- Also got ORB working with Org Roam v2
+- All in all a good day, probably the most productive day in a while
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-11-06 Sat 18:39]
+
+** Speaker notes feature for org-tree-slides would be easy to add
+- We don’t have the capacity to do in real-time on this call but it would probably only take an hour or so to add them in the future.
+- For now we can just get on with what we have
+
+* Agenda                                                                :35m:
+** EmacsConf: Finish preparing the notes                               :35m:
+
+* Tentative agenda for next week (only 1h)
+- Recording this talk on 9th
+- Organising around PLoP on 11th?
+- Other planning activities to be done next week as well
+
+* Check-out                                                             :5m:
+** RP
+- Will the notes be in the repo?
+ - LV: Yes 
+- Hope to read them in the next 2-3 days
+** LV
+- Links to current content being added to ERG channel
+** JC
+- Let’s not forget to timetable a week (or equivalent) for PLoP paper
+- Very happy with the way the notes have developed
+- I’ve been looking at CLA for Hyperreal, maybe we can have a think about that during our planning session

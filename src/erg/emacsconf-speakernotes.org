@@ -20,10 +20,10 @@ M-x share-buffer
 ;; Share joining instructions:  M-x crdt-connect RET metameso.org default port <pass>
 #+end_src
 
-* Agenda                                                                :85m:
+* Agenda                                                               :85m:
 ** EmacsConf: Storyboarding                                            :35m:
 *** ----------------------------------------
-*** INTRODUCTIONS                                                      :2m:
+*** PRELUDE                                                             :1m:
 #+begin_quote
 Hi I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD student at UT Austin studying climate policy.
 
@@ -38,7 +38,6 @@ into an end-to-end platform for scientific research and collaboration.
 I’m Joe Corneli, I also started using Emacs in high school, now I use it for a lot more things than I did.  My research background is in mathematics and online communities.
 #+end_quote
 
-*** PRELUDE                                                            :1m:
 #+begin_quote
 The four of us met at EmacsConf 2020 with a common interest in Emacs
 and research.  We’ve met almost every week since then, because we
@@ -57,7 +56,7 @@ brought us to the importance of collaboration, and we have some
 lessons about how you can create a research community similar to ours.
 #+end_quote
 
-*** BACKGROUND + TECHNOLOGY                                            :2m:
+*** BACKGROUND + TECHNOLOGY                                              :2m:
 **** Emacs Research Group
 #+begin_quote
 You’ll have noticed that we all have different research backgrounds.
@@ -81,13 +80,13 @@ requirements).
 
 #+end_quote
 
-*** PRERECORDED DEMO                                                   :2m:
+*** PRERECORDED DEMO                                                     :2m:
 #+begin_quote
 Here’s a short prerecorded snippet from one of our recent meetings so
 that you can get a sense of how our meetings look and feel.
 #+end_quote
 
-*** PROCESS                                                             :2m:
+*** PROCESS                                                              :2m:
 
 **** Organising metaphor
 #+begin_quote
@@ -162,106 +161,64 @@ keep things on track.  (We keep our patterns collated with a developing
 design pattern language from the Peeragogy project.)
 #+end_quote
 
-#+begin_src 
-EXAMPLE
-1. Context
-2. Problem
-3. Solution
-4. Next steps
-#+end_src
-* OUTCOMES                                                             :2m:
+* PROJECTS                                                              :2m:
 ** Summary
 #+begin_quote
-Next we’ll tell you about some of the progress we’ve made so far.
+Here are some of the projects we’ve been working on.  
+- Specifically, we’ll tell you about a paper we wrote, a workshop that we piloted, and a user study that we’ve started.
+- And we’ll say a little more about the context we’re working in.
 #+end_quote
 
-** Patterns of Patterns (PLoP 2021)
+** Patterns of Patterns (PLoP 2021)                                 :LITANY:
 #+begin_quote
-We coauthored a paper on all of the topics we mentioned earlier for a
-conference about Design Patterns.  The paper sums up the way we work in ERG,
-and was written together with co-authors from the Peeragogy project.  In the
-paper, we contextualise our way of working relative to other communities,
-and we tried to describe our way of working in a way that others would find
-accessible and potentially useful.
+We coauthored a paper that touches on all of the topics we mentioned
+earlier, and presented it at the leading conference on Design Patterns
+for programs and programming.  One of the case studies in the paper
+sums up the way we work in ERG.  The paper puts ERG in context with
+other peer learning communities, and we aim describe our way of
+working in a way that others would find accessible and potentially
+useful.
 #+end_quote
-** PLACARD Workshop roles
+** PLACARD Workshop roles                                           :SYSTEM:
 #+begin_quote
-We are also developing an interactive workshop based on the ideas in the
-paper, which we piloted at that conference.
+We are also developing an interactive workshop based on the ideas in
+the paper, which we piloted at the PLoP conference.  Our intent with
+the with the workshop was to build a method for rapid problem solving,
+which could, at least in principle, expand beyond the workshop setting
+to distributed networks.  The workshop involves made-up roles—like a
+kaiju communicator who helps understand problems as they arise.  We
+realised that it has given us a lot of wealth for thinking about the
+roles we take on in our real-world workshops.
 #+end_quote
-** Initial user studies
-** Broader context
+** Initial user studies                                          :WORLDVIEW:
+#+begin_quote
+Free software may be lacking on ‘user’ aspects: people often program
+to scratch their own itches, and assume others will do the same.
+
+- We looked at user experience and development together to see how the process went jointly and where the gaps are.
+- We compared Emacs with other platforms, not just at the technical level but at the user experience level as well.
+- We had some guest sessions, where we’ve started gathering user stories.
+
+Building on these conversations we would like to do more research in all these
+and eventually be able to say:
+
+- ‘If you are someone who does X, these are the packages that would work for you’
+#+end_quote
+** Broader context                                                    :MYTH:
+#+begin_quote
+Our PLoP paper and the plans it contains become a /template/ for some of
+the other things we want to work on as we go forward.  If we imagine
+things in 2–3 years, what would it take to realise that vision in the
+paper?
+
+- Thinking about the future: this is one of the main reasons why we
+  want to share these ideas and invite other people into this way of
+  working: there’s no way we can achieve everything in our vision all
+  by ourselves.
+- What we’ve been focusing on in Season Zero is methods that other
+  people can use for organizing their own research groups.
+#+end_quote
 * CONCLUSION
-
-**** We looked at user experience and development together to see how the process went together and where the gaps are
-- Specifically looking at how maintainers and users can relate well
-- This touches back to the beginner experience
-**** We had some guest sessions
-- We did have guests, some of whom we’re still coordinating with
-- We have in mind some future sessions (like bringing together an experienced Vimmer with an Evil maintainer)
-**** We compared Emacs with other platforms, not just at the technical level but at the user experience level
-- Trying to understand how and why people use things (like RStudio and Roam Research)
-- We’ve got some intermediate results
-**** Coming up with methods that other people can use for organizing their own meetings
-- This has several strengths to it
-- One argument for it is that we put together a paper even though we all come from different methods, with different trainings, and somehow miraculously got together and build a shared language that allowed us to produce this paper.
-- We combined not just methods but also people and their different.  Our tools got us talking /to/ one another, but our methods got us talking /with/ one another.
-**** The PLoP paper: Patterns of Patterns 
-#+begin_quote
-We wrote a paper for the Pattern Languages of Programs conference that
-sums up the way we work in ERG, together with co-authors from the
-Peeragogy project.  We contextualise our work relative to other
-communities.
-#+end_quote
-
-#+begin_src 
-Abstract: The purpose of this paper is to show how we can combine and
-adapt methods from elite training, future studies, and collaborative
-design, and apply them to address significant problems in social
-networks. We focus on three such methods: we use Action Reviews to
-implement social perception, Causal Layered Analysis to implement
-social cognition, and Design Pattern Languages to implement social
-action. To illustrate the methods in combination, we first develop a
-case study, showing how we applied them to bootstrap a distributed
-cross-disciplinary research seminar. We then use Causal Layered
-Analysis to explore the ways in which the design pattern discourse has
-been evolving. Building on these analyses, we elaborate several
-scenarios for the future use of design patterns in large-scale
-distributed collaboration. We conclude that the combination of methods
-is robust to uncertainty -- by supporting adaptations as circumstances
-change -- and that they can help people coming from different
-backgrounds work together. In particular, we show how methods drawn
-from other domains enrich and are enriched by design patterns; we
-believe the analysis will be of interest to all of the communities
-whose methods we draw upon.
-#+end_src
-
-**** Workshop design included in the paper and we think it may have a convincing future 
-- The workshop design helps us understand real-time roles
-- The roles are linked with the methods described above
-
-#+begin_src 
-EXAMPLE
-1. Kaiju Communicator — Problems emerging in a scenario
-2. Historian — System of how we got there
-3. Analyst — Analysis of the activity
-4. Designer — Next steps
-#+end_src
-
-**** Overall PAR of Season Zero
-#+begin_quote
-Here’s how we’d sum up our work so far, and how we see the next steps.
-#+end_quote
-***** 1. Review the intention: what do we expect to learn or make together?
-- NA: What are the questions we haven’t answered yet?
-***** 2. Establish what is happening: what and how are we learning?
-- RP: What are the reasons we’re doing this at all?  If we’ve been doing it for a year,
-- We’re not going to claim that we’ve solved those problems, but if we keep going, and we get people inspired to work on this with us or on their own.
-***** 3. What are some different perspectives on what’s happening?
-***** 4. What did we learn or change?
-***** 5. What else should we change going forward?
-
-*** CONCLUSION                                                         :1m:
 #+begin_quote
 We’ve decided that "going public", for now, means sharing this talk.
 #+end_quote
