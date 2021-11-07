@@ -1,0 +1,355 @@
+#+title: Conexus Proposal
+
+Data migration from text into categorical semantic knowledge representation
+
+* Abstract
+Using current tools, the scientific and technical literature is
+difficult to navigate. We will address this problem by parsing technical
+texts using categorial grammar and build up a graphical knowledge base
+of ontologies, vocabularies, and concept maps. We will make this
+available through a web interface and use it as the basis for user
+services such as:
+
+- Contextualised search
+
+- Strategy generation
+
+- Terminology translation
+
+We will demonstrate our approach on the Category Theory literature. Over
+the long term our demo can be extended into a variety of products that
+are relevant to the science community, for example, it could be used as
+the basis of a tutoring system that provides efficient training on
+technical concepts. For more immediate return on investment, and as a
+strategic path towards our long term goals, the demo will also serve as
+a "calling card" to use in consultancy arrangements with organisations
+that need texts turned into computable knowledge.
+
+* _Overview_
+The key to building a system which can do more than current search
+technology is domain specific knowledge modelling. To do this
+efficiently, we need scalable tools to extract structured knowledge from
+documents. For demonstration purposes, we have selected Category Theory
+as our initial application domain. Once the current *one-year pilot
+project (,000)* is done, we will reformulate the project and scale up to
+apply the same techniques and tools to the rest of mathematics,
+biotechnology, medicine, and other subject areas.
+
+Our demonstration will cover:
+
+1. *(Here we need the main anatomy of the demonstration.)*
+
+2. /What if we build a single "GTM" clone, to show that what we're
+   making is possible; and then try to go for the full series later? The
+   demo will already enhance things that already exist. Build something
+   that hooks everything together. All you have now is general-purpose
+   net search. If you build something that connects the different
+   services./
+
+We each bring essential skills to the project:
+
+- Joe has five years of postdoctoral research experience on EU and UK
+  projects in informatics and computing. He has gained experience with
+  effective methods of project management in the Peeragogy project. He
+  has a BA in mathematics and a PhD in computing, specialising in new
+  technologies for online learning.
+
+- Ray has been involved with the NYC category reading groups so we have
+  experience with the educational side and practical experience with
+  people studying category theory in order to apply it on the job site.
+
+- Zanzi is knowledgeable about categorial approaches to language
+  processing.
+
+This needs to be filled out to a one-page summary of the proposal.
+
+* _Project Background, Motivation, Objectives, and Plans_
+** Background
+Scientific literature has been growing exponentially. In mathematics,
+the vision of formalising the literature has been circulating for
+decades. To do this at scale, some automation is required. Plenty of
+approaches to semantic parsing and knowledge representation are
+available. However, /ontologies are fairly brittle./ We need a parsing
+strategy that gives us some flexibility, we need robust representations,
+and we need to work at scale. Moreover, we should not go for full
+formalisation right away. (Theorem provers are nice, but very few
+mathematicians use them, whereas they do use document-based tools.) A
+categorical approach to parsing means we are not committed to a specific
+syntax. Applied category linguists are already using this method. We
+will extend it using ologs/CQL for KR. In a mathematics setting, this
+will provide groundwork for formalisation. It will be useful in broader
+settings as well. We will demonstrate the approach on the (entire)
+literature of Category Theory.
+
+*** Our team
+Working in the context of the PlanetMath.org, Ltd., nonprofit, Joe and
+Ray have pioneering experience in building and curating a digital
+library of mathematics including social and organizational aspects. In
+the course of this process, we have contributed to the development of
+relevant open source software prototypes and to the research literature
+on mathematical AI. Zanzi brings a strong professional programming
+background and experience with Applied Category Theory. We have good
+working relationships with leaders in mathematical knowledge management
+and formalization, as well as with the CT community.
+
+*** Mathematical toolkit
+To build our system, we will make use of structures from several
+branches of category theory. Here we describe some ways in which they
+are applicable to our problems. In outlines:
+
+1. Pregroup grammars will be initially used to create parse trees of
+   natural language syntax
+
+2. Semantics will be given using ologs, building on the work for giving
+   relational semantics to pregroup grammars.
+
+3. Operads will be used as a generalisation from pregroups to more
+   expressive grammars, ie phrase structure grammars.
+
+4. Operads describe multi-slot composition in frame systems
+
+5. Sheaves and Topoi describe the notion of local structure.
+
+6. Higher structure allows us to treat statements about entities as
+   first-class objects.
+
+In more detail: (1)...(2)...(3) We may describe our possible contexts by
+a topological space (or, more generally, a site). We then build a sheaf
+which assigns to each neighborhood the stuff relevant to that particular
+context. This keeps things tidy and organized and build up entities by
+gluing together local pieces. The internal logic of the sheaf topos is
+based upon truth values which tell us where a statement holds. (4)
+Structures such as polygraphs, globular sets, and n-categories about
+which we can make further statements.
+
+*** Software toolkit
+So our toolkit as I see it is Haskell for the backend, Purescript/React
+for the frontend with CQL + Postgres as the database. Potentially using
+Guanxi as the inference framework, assuming that it is mature enough.
+
+** Motivation
+Widespread application of technical knowledge is limited by the
+affordances of textual media, and by current learning and teaching
+methods. In our approach, the relevant facts will be extracted from the
+technical literature into a format that makes their semantics explicit.
+One-off knowledge bases exist already; however there is no off-the-shelf
+way to turn human-readable literature into a semantically meaningful,
+computationally processable, form.
+
+**** Comparison with legacy autolinking
+Currently, NNexus decides when and where to link a term by looking for
+the longest string of terms in which it occurs and matching the subject
+classification of the source to the subject area of the classification.
+However, as experience has shown, this procedure tends to produce
+incorrect links. While, in the past, we fixed these problems by
+introducing ad-hoc "link steering" constructs, now we propose to remedy
+them by taking grammatical structure into account.
+
+**** Comparison with Constrained Natural Language
+We are not asking people to write in a constrained natural language, but
+CNL would be an intermediate stage of our processing.
+
+**** Comparison with Kyndi
+We will be working in a similar space to _Kyndi_, which was written up
+in the New York Times last year ("Is There a Smarter Path to Artificial
+Intelligence? Some Experts Hope So" ). On their website, they say: "Our
+software excels at understanding and extracting meaning from your
+internal data sets, especially text." They are hiring
+[[https://kyndi.applytojob.com/apply/gl6MB3se9p/Computational-Linguist?referrer=20190618130337MDNJQEEXEKEK4LH0][_Computational
+Linguists_]] who have experience with "text-graphs, semantic graphs, and
+kernel methods." Part of their special offering is a way to turn
+graphical structures into structured data, which can then be processed
+using spatial representations, and queried using a PageRank-like
+algorithm based on shared structure (US Patent 9,158,847). There are
+many strengths in their approach, but they seem to have no interest in
+category theory.
+
+** Objectives
+We are going to build a pipeline for translating raw text input into
+categorical knowledge bases. Our goal is to bring together the recent
+category-theoretic innovations in NLP and Knowledge Representation, and
+build a framework that combines them in practice. While the long-term
+goal is the development of queryable domain-specific ontologies for
+various industries, we would start off by offering our services as a
+consultancy for building ontologies internal to an organisation. Our
+initial MVP is a knowledge base for category theory itself - a sort of
+queryable nLab - that will be openly available for researchers and
+students. This ontology will become a basis for outreaching to other
+fields of math, and will allow us to form a foundation for a large scale
+effort of translating other mathematics into category theory.
+
+** Plan
+We will break down the project into the following submodules $\&$
+potential papers/prototypes.
+
+*** Knowledge base
+**** Corpus Collection
+In order to build our knowledge base, we will process a corpus of texts.
+Here we describe this corpus, how we will build it, and some of the
+things we will do with it.
+
+**** Knowledge Extraction
+For this pilot project, we will talk about implementation to category
+theory as a domain. Here's what we will do to achieve *data migration
+from text into categorical semantic knowledge representation.* A
+database has a library of things in it, the computer can read them. It
+can parse them and so on. There are two major issues: you want to
+extract from the texts things that are mathematical statements and which
+are not. We can start with a small collection of sentences, and build a
+parser for that. Maths is static, so we (probably) don't need past
+tense, posessives, etc. Some things are given as words, some as
+formulas. Pull out the formal statements. Then with this limited
+register, we can use types with OR. From using the grammatical
+information from the parse, it becomes constraint fitting. Once we have
+this, we might be able to find the meaning.
+
+*** Computational engine
+**** Semantic-level Query
+How do we find the entities that share some of the "DNA" of a given
+entity? We can follow the structure of the knowledge base (see below).
+Instead of just a graph database, we're building something more like a
+polygraph database; as things get more complicated, we will need this
+structure. You want to be able to talk about a given assertion, and
+these answers will come already translated (e.g., ‘/gauge' is the term
+used on page 23 of a physics book, but on page 199 of a math book they
+say 'section of a principal bundle'; type in type theory is the same as
+object in category theory, etc./).
+
+**** Logic programming and synthesis
+Like a proof assistant but for natural language. E.g. systems would
+pattern match on the type. If you have a categorical definition of
+Exponential, for sets, it becomes a function type. How do I construct
+the Exponential for this? Then it will say: what is the product in sets?
+It's the set product. This kind of manipulation would be fairly
+mechanical. Even if you're missing data, the database doesn't know what
+categorical sets are. This is like your usual logic programming -- it
+will tell you what it needs to know. You have the ontology which you've
+extracted automatically. You can then use it to transform e.g. a certain
+informal proof into some other informal proof. This is why category
+theory was a good example: it's a perfect model for this kind of thing.
+
+*** Business development
+*User testing*
+
+We have good links to the CT community and experience running user
+studies. We can test out our demo with potentially interested users from
+this community.
+
+**** Business and product development
+Even if we deploy a public demo of this system, from a business
+perspective it seems unlikely that our flagship product will be a
+category theory website. We can expand to other topics once we have the
+thing running. We can do this in a consulting mode prior to building our
+own product. This will be a good time to do initial interviews and
+pitches. E.g., the mathematician Tom Hales might suggest that we need
+formal abstracts in it, and we can anticipate this request by showing
+how our representations can be processed with his tools. Looking ahead,
+it would be much more lucrative to jump to calculus or computer
+programming. Looking further ahead, we will develop product sketches
+that apply the same techniques and tools to the rest of mathematics,
+biotechnology, medicine, and other subject areas.
+
+* _Deliverables, Timeline, and Budget_
+** Deliverables
+We propose to address this problem by building online tools which would
+make the literature more accessible and connect disparate resources
+found across the web into a coherent learning environment.
+
+*** Knowledge base
+The knowledge base will reflect our corpus, so, e.g., 100 terms per
+book, we would estimate 20000 total terms; combined with their usage
+from across the rest of the corpus, and anything else we've extracted
+such as co-occurrences, dependencies, glosses extracted from
+encyclopedias or other reference sources, classification of uses. The
+knowledge base would be available for download or use via a website/API.
+
+*** Computational engine
+Uses the items of the knowledge base to produce functionality required
+in the following demo. The software will employ 'contexts' to decide
+which parts of the knowledge base to use in its computations.
+
+**** Features
+
+- *Contextualised Search* - making use of links (e.g., anaphora) within
+  Content
+
+- *Strategy generation* - links within Catalog (decomposing a topic into
+  learning paths)
+
+- *Terminology translation* - links across Communities and mathematical
+  science fields (in physics they say /gauge field/, in math you might
+  say /section of a principal bundle/)
+
+*** Demo
+The following features will be demonstrated:
+
+1. Collection of terms, glosses for technical terms from encyclopedias.
+
+2. Hyperlinks to textbooks which provide background material.
+
+3. Prerequisite trails, trees, and maps showing the quickest way to
+   learn to difficult concepts
+
+4. Links to relevant Q&A and discussion sites on topics found in the
+   article.
+
+5. References and recommendations to related articles
+
+*** Paper
+A discussion of what we've learned, together with estimates about what
+it would take to do all of mathematics using similar methods. The paper
+will include some assessment of, e.g., how often the software is able to
+produce links that people find useful, as assessed in user studies.
+(E.g., comparing user-specific customisations versus default mode.) Will
+engage with other stakeholders as well.
+
+** Timeline
+1 year, during which *Ray 50% time* on Research, liaise with category
+theory community. *Zanzi 100% time*, programming. *Joe 100%* time,
+programming, business development. Details in Gantt chart on following
+page.
+
+** Budget
+See breakdown below.
+
+* _Team_
+** Biographical Sketch: Joe
+"*Build computational support for collaboration around knowledge
+artefacts.* My recent journal papers are in the interdisciplinary field
+of argumentation. Here, mathematical collaboration. provides a model for
+broader instances of social creativity. As reflected in a recent
+conference paper I am interested in applying my knowledge of social
+machines to support collaborative design. With colleagues at the
+University of Edinburgh and Open University, I am developing a proposal
+around "smart Post-It notes" . An ambitious realisation of this agenda
+would allow documents and workflows to be assembled, disassembled, and
+reassembled out of *semantic components*."
+
+** Biographical Sketch: Ray
+Raymond Puzio has a background in mathematics and physics which he is
+currently applying to evolutionary systems biology. This invloves
+category theory such as, for instance, using sheaf theory to study
+satisfiabilty of environmental constraints on networks (Journal of the
+Royal Society Interface 12, no. 108 (2015): 20150179).
+
+Since 2004, he has been involved with content production, community
+organization, and outreach at PlanetMath. As an outgrowth of this
+activity, he has been led to study generalized hypertext and ways of
+indexing the mathematical literature.
+
+He is also an active member of the CUNY category theory seminar
+
+** Biographical Sketch: Zanzi
+Please add.
+
+* _Technical or Business Requirements_
+** Intellectual Property
+
+- We do not foresee any problems reusing our own software or porting it.
+
+- There is the issue of licensing materials for use within the project.
+  We should check what 10K will get us, I just made up that number.
+
+- Imagine we are pitching this to some random company, and explain how
+  we will pitch the consultancy. Ask Zoe $\&$ Ian about businesses using
+  NLP and what benefits they can get from us.
