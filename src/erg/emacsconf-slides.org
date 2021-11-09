@@ -6,10 +6,10 @@
 
 Introductions from:
 
-- Leo Vivier
-- Noorah Alhasan
+- [Leo Vivier]
 - Ray Puzio
 - Joe Corneli
+- Noorah Alhasan
 
 Summary:
 
@@ -63,27 +63,54 @@ Tech stack:
 | Check-out (exceptional or not, include any scheduling announcements) | 5m   |
 
 ** Project Action Review (weekly)
-#+begin_src
 1. Review the intention: what do we expect to learn or make together?
 2. Establish what is happening: what and how are we learning?
 3. What are some different perspectives on what’s happening?
 4. What did we learn or change?
 5. What else should we change going forward?
-#+end_src
+
+
+
+
+
+
+
+
+
+
+
+
+
 ** Causal Layered Analysis (every six weeks)
-#+begin_src
 1. Litany
 2. System
 3. Worldview
 4. Myth
-#+end_src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ** Design Patterns (as needed, and linked with TODO items)
-#+begin_src
 1. Context
 2. Problem
 3. Solution
 4. Next steps
-#+end_src
 
 * PROJECTS
 
@@ -107,12 +134,29 @@ and apply them to address significant problems in social networks.
 ...
 ** PLACARD Workshop
     *A method for rapid problem solving*
-#+begin_src
 1. Kaiju Communicator — Problems emerging in a scenario
 2. Historian — How we got there
 3. Designer — Design patterns and possible next steps
 4. Analyst — Analysis of the activity including deeper meanings
-#+end_src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ** Initial user studies
 
 *User experience*
