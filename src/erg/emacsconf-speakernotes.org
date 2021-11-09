@@ -11,12 +11,14 @@
 * Agenda                                                               :85m:
 ** EmacsConf: Storyboarding                                            :35m:
 *** ----------------------------------------
+*** INTRO
+#+begin_quote
+[I’m Leo, This is a talk about ERG, and I’m also one of the members of
+ERG, and I’ll be around to answer questions live at the end, although
+I only feature briefly in the recording.]
+#+end_quote
 *** PRELUDE                                                             :1m:
 #+begin_quote
-I’m Leo, and you’ll have had me introduced at the beginning of the
-conference; you might know me from Org Roam; I studied literature at
-University.
-
 I’m Raymond Puzio, I first learned about Emacs and Lisp at an
 enrichment program for high school students.  When studying physics at
 the university, I used Emacs and TeX to write mathematical documents.
@@ -54,7 +56,7 @@ lessons about how you can create a research community similar to ours.
 *** BACKGROUND + TECHNOLOGY                                              :2m:
 **** Emacs Research Group
 #+begin_quote
-Leo: You’ll have noticed that we all have different research
+Joe: You’ll have noticed that we all have different research
 backgrounds.  We think that transdisciplinarity is important for
 solving big problems.  If you’re going to have people from different
 research backgrounds talking to each other, they need some scaffolding
@@ -64,12 +66,12 @@ in a meeting taking real-time notes with Emacs realises a dream that
 some of us have been entertaining (and experimenting with) for a
 while.  The package crdt.el by Qiantan Hong makes this easy.  We take
 notes on our meetings using Org Mode.  Since we’ve seen this before in
-talks on reproducible research; also since I am the maintainer of Org
-Roam, it’s particularly natural choice.  For one thing, it allows us
-to quickly put our notes online using Git and the static site
+talks on reproducible research; also since Leo is the maintainer of
+Org Roam, it’s particularly natural choice.  For one thing, it allows
+us to quickly put our notes online using Git and the static site
 generator Firn.  Lastly, of course, we need a real-time meeting tool
 and for that purpose we use BBB in our weekly sessions (in fact, the
-same server used by EmacsConf).  All of these tools are
+same server used by EmacsConf, thanks to Leo).  All of these tools are
 free/libre/open source (though BBB has some intensive hardware
 requirements).
 
@@ -95,7 +97,7 @@ meetings, and some review and planning processes [!].
 
 **** Timetable
 #+begin_quote
-Leo: The meetings generally follow a structure of informal checkins
+Joe: The meetings generally follow a structure of informal checkins
 followed by any announcements, at most two topics (with a break in the
 middle) and a review of what happened at the end, followed by a quick
 checkout.  The whole thing takes two hours in total.  We meet weekly,
@@ -144,7 +146,7 @@ Peeragogy project.)
 * PROJECTS                                                              :2m:
 ** Summary
 #+begin_quote
-Leo: Here are some of the projects we’ve been working on.
+Ray: Here are some of the projects we’ve been working on.
 - Specifically, we’ll tell you about a paper we wrote, a workshop that
   we piloted, and a user study that we’ve started.
 - And we’ll say a little more about the context we’re working in.
