@@ -3,72 +3,63 @@
       inlineMath: [ ['$','$'], ['\\(','\\)'] ],
       processEscapes: true
     }
-  });</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script async="async" src="https://hypothes.is/embed.js"></script><script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /><link href="https://fonts.gstatic.com" rel="preconnect" /><link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&amp;family=Ubuntu+Mono&amp;family=Ubuntu:wght@300;400&amp;display=swap" rel="stylesheet" /><script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script></head><body><main><article class="content"><h1>EmacsConf 2021 Speakernotes</h1><i>2021-10-30 Sat — Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier</i><div><div><section></section><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="tech-notes"><span class="firn-headline-text"><span>Tech notes</span></span></h1><section><pre class="language-"><code class="language-">;; Ssh to your server (unless your computer has a static IP)
-ssh joe@178.79.174.58
-;; Start Emacs
-emacs -Q -nw crdt.el/crdt.el
-;; Source
-M-x eval-buffer (could be automated with the above)
-;; Create the content
-M-x share-buffer
-;; Share joining instructions:  M-x crdt-connect RET metameso.org default port <pass>
-</code></pre></section></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="agenda"><span class="firn-headline-text"><span>Agenda</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#85m">85m</a></span></span></h1><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="emacsconf:-storyboarding"><span class="firn-headline-text"><span>EmacsConf: Storyboarding</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#35m">35m</a></span></span></h2><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="----------------------------------------"><span class="firn-headline-text"><span>----------------------------------------</span></span></h3></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="prelude"><span class="firn-headline-text"><span>PRELUDE</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#1m">1m</a></span></span></h3><section><blockquote><p><span>Hi I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD student at UT Austin studying climate policy.</span></p><p><span>I’m Raymond Puzio, I first learned about Emacs and Lisp at an enrichment program for
-high school students.  When studying physics at the university, I
-used Emacs and TeX to write mathematical documents.  Later on, I
-became active in Lisp and Emacs user groups where, among other
-things, I learned about org mode for reproducible research.
-Nowadays, I am working on synthesizing emacs and other programs
-into an end-to-end platform for scientific research and collaboration.</span></p><p><span>I’m Joe Corneli, I also started using Emacs in high school, now I use it for a lot more things than I did.  My research background is in mathematics and online communities.</span></p></blockquote><blockquote><p><span>The four of us met at EmacsConf 2020 with a common interest in Emacs
-and research.  We’ve met almost every week since then, because we
-wanted to keep the conversation going.  In this short talk, we share
-information about the methods we use, making a case for other people
-getting together and creating their own small research communities
-similar to ours.</span></p><p><span>Here’s the outline of our talk: We’ll tell you technologies we use in
+  });</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script async="async" src="https://hypothes.is/embed.js"></script><script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><link href="https://exp2exp.github.io/static/css/firn_base.css" rel="stylesheet" /><link href="https://fonts.gstatic.com" rel="preconnect" /><link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&amp;family=Ubuntu+Mono&amp;family=Ubuntu:wght@300;400&amp;display=swap" rel="stylesheet" /><script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script></head><body><main><article class="content"><h1>EmacsConf 2021 Speakernotes</h1><i>2021-10-30 Sat — Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier</i><div><div><section></section><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="tech-notes"><span class="firn-headline-text"><span>Tech notes</span></span></h1></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="agenda"><span class="firn-headline-text"><span>Agenda</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#85m">85m</a></span></span></h1><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="emacsconf:-storyboarding"><span class="firn-headline-text"><span>EmacsConf: Storyboarding</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#35m">35m</a></span></span></h2><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="----------------------------------------"><span class="firn-headline-text"><span>----------------------------------------</span></span></h3></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="prelude"><span class="firn-headline-text"><span>PRELUDE</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#1m">1m</a></span></span></h3><section><blockquote><p><span>I’m Leo, and you’ll have had me introduced at the beginning of the
+conference; you might know me from Org Roam; I studied literature at
+University.</span></p><p><span>I’m Raymond Puzio, I first learned about Emacs and Lisp at an
+enrichment program for high school students.  When studying physics at
+the university, I used Emacs and TeX to write mathematical documents.
+Later on, I became active in Lisp and Emacs user groups where, among
+other things, I learned about org mode for reproducible research.
+Nowadays, I am working on synthesizing emacs and other programs into
+an end-to-end platform for scientific research and collaboration.</span></p><p><span>I’m Joe Corneli, I also started using Emacs in high school in a course
+on C programming and now I’m technically a computer scientist.  My
+research background is in mathematics and online communities.</span></p><p><span>Hi, I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD
+student at UT Austin studying climate policy.</span></p></blockquote><blockquote><p><span>Noorah: The four of us met at EmacsConf 2020 with a common interest in
+Emacs and research.  We’ve met almost every week since then, because
+we wanted to keep the conversation going.  In this short talk, we
+share information about the methods we use, making a case for other
+people getting together and creating their own small research
+communities similar to ours.</span></p><p><span>Here’s the outline of our talk: We’ll tell you technologies we use in
 our meetings, and demo a part of our meeting, as well as explain the
 processes that we use when conducting our meetings to have a deeper
 understanding of what we’re talking about.  Finally, we’ll talk about
 what came out of these meetings: we wrote a paper for PLoP 2021 and we
 designed a workshop using the knowledge we created together.  This has
 brought us to the importance of collaboration, and we have some
-lessons about how you can create a research community similar to ours.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="background-+-technology"><span class="firn-headline-text"><span>BACKGROUND + TECHNOLOGY</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="emacs-research-group"><span class="firn-headline-text"><span>Emacs Research Group</span></span></h4><section><blockquote><p><span>You’ll have noticed that we all have different research backgrounds.
-We think that transdisciplinarity is important for solving big
-problems.  If you’re going to have people from different research
-backgrounds talking to each other, they need some scaffolding in both
-tools and methods to help them have good conversations.  Of course, as
-Emacs users, we wanted Emacs at the centre of that.  Being in a
-meeting taking real-time notes with Emacs realises a dream that some
-of us have been entertaining (and experimenting with) for a while.
-The package crdt.el by Qiantan Hong makes this easy.  We take notes on
-our meetings using Org Mode.  Since we’ve seen this before in talks on
-reproducible research, Leo’s the maintainer of Org Roam, it’s
-particularly natural choice.  For one thing, it allows us to quickly
-put our notes online using Git and the static site generator Firn.
-Lastly, of course, we need a real-time meeting tool and for that
-purpose we use BBB in our weekly sessions (in fact, the same server
-used by EmacsConf, thanks again to Leo).  All of these tools are
+lessons about how you can create a research community similar to ours.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="background-+-technology"><span class="firn-headline-text"><span>BACKGROUND + TECHNOLOGY</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="emacs-research-group"><span class="firn-headline-text"><span>Emacs Research Group</span></span></h4><section><blockquote><p><span>Leo: You’ll have noticed that we all have different research
+backgrounds.  We think that transdisciplinarity is important for
+solving big problems.  If you’re going to have people from different
+research backgrounds talking to each other, they need some scaffolding
+in both tools and methods to help them have good conversations.  Of
+course, as Emacs users, we wanted Emacs at the centre of that.  Being
+in a meeting taking real-time notes with Emacs realises a dream that
+some of us have been entertaining (and experimenting with) for a
+while.  The package crdt.el by Qiantan Hong makes this easy.  We take
+notes on our meetings using Org Mode.  Since we’ve seen this before in
+talks on reproducible research; also since I am the maintainer of Org
+Roam, it’s particularly natural choice.  For one thing, it allows us
+to quickly put our notes online using Git and the static site
+generator Firn.  Lastly, of course, we need a real-time meeting tool
+and for that purpose we use BBB in our weekly sessions (in fact, the
+same server used by EmacsConf).  All of these tools are
 free/libre/open source (though BBB has some intensive hardware
-requirements).</span></p></blockquote></section></div></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="prerecorded-demo"><span class="firn-headline-text"><span>PRERECORDED DEMO</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><section><blockquote><p><span>Here’s a short prerecorded snippet from one of our recent meetings so
-that you can get a sense of how our meetings look and feel.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="process"><span class="firn-headline-text"><span>PROCESS</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="organising-metaphor"><span class="firn-headline-text"><span>Organising metaphor</span></span></h4><section><blockquote><p><span>In the demo you saw a very improvised free-flowing conversation.  In
-order to have this kind of conversation and still get things done, we
-need a pretty rigorous structure in place at the bigger scale of the
-meetings.  This involves both a timetable for the meetings, and some
-review and planning processes [!].</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="timetable"><span class="firn-headline-text"><span>Timetable</span></span></h4><section><blockquote><p><span>Leo: The meetings generally follow a structure of informal checkins
+requirements).</span></p></blockquote></section></div></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="prerecorded-demo"><span class="firn-headline-text"><span>PRERECORDED DEMO</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><section><blockquote><p><span>Joe: Here’s a short prerecorded snippet from one of our recent
+meetings so that you can get a sense of how our meetings look and
+feel.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-3"><h3 class="firn-headline firn-headline-3" id="process"><span class="firn-headline-text"><span>PROCESS</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h3><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="organising-metaphor"><span class="firn-headline-text"><span>Organising metaphor</span></span></h4><section><blockquote><p><span>Noorah: In the demo you saw a very improvised free-flowing
+conversation.  In order to have this kind of conversation and still
+get things done, we need a pretty rigorous structure in place at the
+bigger scale of the meetings.  This involves both a timetable for the
+meetings, and some review and planning processes [!].</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-4"><h4 class="firn-headline firn-headline-4" id="timetable"><span class="firn-headline-text"><span>Timetable</span></span></h4><section><blockquote><p><span>Leo: The meetings generally follow a structure of informal checkins
 followed by any announcements, at most two topics (with a break in the
 middle) and a review of what happened at the end, followed by a quick
 checkout.  The whole thing takes two hours in total.  We meet weekly,
-and the consistency is really important for how the group works.</span></p></blockquote></section><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="project-action-review"><span class="firn-headline-text"><span>Project Action Review</span></span></h5><section><blockquote><p><span>Joe: At the end of every meeting we ask and answer a series of
+and the consistency is really important for how the group works.</span></p></blockquote></section><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="project-action-review"><span class="firn-headline-text"><span>Project Action Review</span></span></h5><section><blockquote><p><span>Ray: At the end of every meeting we ask and answer a series of
 questions adapted from the ‘After Action Review’ developed by the US
 Army in their training programs, and used in some business contexts.
 The adaptation here came out of the Peeragogy project which I’ve been
 involved with since 2012, and it’s designed to be less hierarchical
 than the AAR.  By writing down and sharing these reviews we create a
-resource for further peer learning later down the line.</span></p></blockquote><pre class="language-"><code class="language-">EXAMPLE
-1. Review the intention: what do we expect to learn or make together?
-2. Establish what is happening: what and how are we learning?
-3. What are some different perspectives on what’s happening?
-4. What did we learn or change?
-5. What else should we change going forward?
-</code></pre></section></div><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="causal-layered-analysis"><span class="firn-headline-text"><span>Causal Layered Analysis</span></span></h5><section><blockquote><p><span>Joe: Every six weeks or so, we analyse the action reviews using a
+resource for further peer learning later down the line.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="causal-layered-analysis"><span class="firn-headline-text"><span>Causal Layered Analysis</span></span></h5><section><blockquote><p><span>Joe: Every six weeks or so, we analyse the action reviews using a
 four-layer framework to better understand the underlying themes that
 surface in the reviews, and develop the deeper motivations for our
 ongoing work together.  This helps us get a big-picture sense of where
@@ -76,43 +67,47 @@ we are going that we keep up to date at a slower pace than the weekly
 meetings.  This also helps us tie our work into a broader context and
 gives us some hope that over time we can contribute to solving big
 problems.  Transdisciplinarity is important, but we need to know how
-what we’re doing fits into the bigger context.</span></p></blockquote><pre class="language-"><code class="language-">EXAMPLE
-1. Litany
-2. System
-3. Worldview
-4. Myth
-</code></pre></section></div><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="design-patterns-and-next-steps"><span class="firn-headline-text"><span>Design Patterns and Next steps</span></span></h5><section><blockquote><p><span>Ray: Going back to solving larger problems: when we carry out the analysis
-we don’t just think about what happened in the previous meetings, but we
-also take the longer view, thinking about things like structuring a
-community of collaborators, or building platforms for scientific research.
-We want to think about how what we’ve been doing fits into broader
-historical patterns and trends.  In the past, the pattern is a historical
-pattern; in the present we contextualise what we’ve learned; towards the
-future we augment our big-picture analysis with next steps.  This helps us
-keep things on track.  (We keep our patterns collated with a developing
-design pattern language from the Peeragogy project.)</span></p></blockquote></section></div></div></div></div></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="projects"><span class="firn-headline-text"><span>PROJECTS</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h1><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="summary"><span class="firn-headline-text"><span>Summary</span></span></h2><section><blockquote><p><span>Here are some of the projects we’ve been working on.</span></p><ul><li><p><span>Specifically, we’ll tell you about a paper we wrote, a workshop that we piloted, and a user study that we’ve started.</span></p></li><li><p><span>And we’ll say a little more about the context we’re working in.</span></p></li></ul></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="patterns-of-patterns-(plop-2021)"><span class="firn-headline-text"><span>Patterns of Patterns (PLoP 2021)</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#LITANY">LITANY</a></span></span></h2><section><blockquote><p><span>We coauthored a paper that touches on all of the topics we mentioned
+what we’re doing fits into the bigger context.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-5"><h5 class="firn-headline firn-headline-5" id="design-patterns-and-next-steps"><span class="firn-headline-text"><span>Design Patterns and Next steps</span></span></h5><section><blockquote><p><span>Ray: Going back to solving larger problems: when we carry out the
+analysis we don’t just think about what happened in the previous
+meetings, but we also take the longer view, thinking about things like
+structuring a community of collaborators, or building platforms for
+scientific research.  We want to think about how what we’ve been doing
+fits into broader historical patterns and trends.  In the past, the
+pattern is a historical pattern; in the present we contextualise what
+we’ve learned; towards the future we augment our big-picture analysis
+with next steps.  This helps us keep things on track.  (We keep our
+patterns collated with a developing design pattern language from the
+Peeragogy project.)</span></p></blockquote></section></div></div></div></div></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="projects"><span class="firn-headline-text"><span>PROJECTS</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#2m">2m</a></span></span></h1><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="summary"><span class="firn-headline-text"><span>Summary</span></span></h2><section><blockquote><p><span>Leo: Here are some of the projects we’ve been working on.</span></p><ul><li><p><span>Specifically, we’ll tell you about a paper we wrote, a workshop that
+  we piloted, and a user study that we’ve started.</span></p></li><li><p><span>And we’ll say a little more about the context we’re working in.</span></p></li></ul></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="patterns-of-patterns-(plop-2021)"><span class="firn-headline-text"><span>Patterns of Patterns (PLoP 2021)</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#LITANY">LITANY</a></span></span></h2><section><blockquote><p><span>Noorah: We coauthored a paper that touches on all of the topics we mentioned
 earlier, and presented it at the leading conference on Design Patterns
 for programs and programming.  One of the case studies in the paper
 sums up the way we work in ERG.  The paper puts ERG in context with
 other peer learning communities, and we aim describe our way of
 working in a way that others would find accessible and potentially
-useful.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="placard-workshop-roles"><span class="firn-headline-text"><span>PLACARD Workshop roles</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#SYSTEM">SYSTEM</a></span></span></h2><section><blockquote><p><span>We are also developing an interactive workshop based on the ideas in
+useful.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="placard-workshop-roles"><span class="firn-headline-text"><span>PLACARD Workshop roles</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#SYSTEM">SYSTEM</a></span></span></h2><section><blockquote><p><span>Noorah: We are also developing an interactive workshop based on the ideas in
 the paper, which we piloted at the PLoP conference.  Our intent with
 the with the workshop was to build a method for rapid problem solving,
 which could, at least in principle, expand beyond the workshop setting
 to distributed networks.  The workshop involves made-up roles—like a
 kaiju communicator who helps understand problems as they arise.  We
 realised that it has given us a lot of wealth for thinking about the
-roles we take on in our real-world workshops.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="initial-user-studies"><span class="firn-headline-text"><span>Initial user studies</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#WORLDVIEW">WORLDVIEW</a></span></span></h2><section><blockquote><p><span>Free software may be lacking on ‘user’ aspects: people often program
-to scratch their own itches, and assume others will do the same.</span></p><ul><li><p><span>We looked at user experience and development together to see how the process went jointly and where the gaps are.</span></p></li><li><p><span>We compared Emacs with other platforms, not just at the technical level but at the user experience level as well.</span></p></li><li><p><span>We had some guest sessions, where we’ve started gathering user stories.</span></p></li></ul><p><span>Building on these conversations we would like to do more research in all these
-and eventually be able to say:</span></p><ul><li><p><span>‘If you are someone who does X, these are the packages that would work for you’</span></p></li></ul></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="broader-context"><span class="firn-headline-text"><span>Broader context</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#MYTH">MYTH</a></span></span></h2><section><blockquote><p><span>Our PLoP paper and the plans it contains become a </span><em><span>template</span></em><span> for some of
-the other things we want to work on as we go forward.  If we imagine
-things in 2–3 years, what would it take to realise that vision in the
-paper?</span></p><ul><li><p><span>Thinking about the future: this is one of the main reasons why we
+roles we take on in our real-world workshops.</span></p></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="initial-user-studies"><span class="firn-headline-text"><span>Initial user studies</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#WORLDVIEW">WORLDVIEW</a></span></span></h2><section><blockquote><p><span>Ray: Free software may be lacking on ‘user’ aspects: people often program
+to scratch their own itches, and assume others will do the same.</span></p><ul><li><p><span>We looked at user experience and development together to see how the
+  process went jointly and where the gaps are.</span></p></li><li><p><span>We compared Emacs with other platforms, not just at the technical
+  level but at the user experience level as well.</span></p></li><li><p><span>We had some guest sessions, where we’ve started gathering user
+  stories.</span></p></li></ul><p><span>Building on these conversations we would like to do more research in all these
+and eventually be able to say:</span></p><ul><li><p><span>‘If you are someone who does X, these are the packages that would
+  work for you’</span></p></li></ul></blockquote></section></div><div class="firn-headline-section firn-headline-section-2"><h2 class="firn-headline firn-headline-2" id="broader-context"><span class="firn-headline-text"><span>Broader context</span></span><span class="firn-org-tags"><span><a class="firn-org-tag" href="/tags#MYTH">MYTH</a></span></span></h2><section><blockquote><p><span>Ray: Our PLoP paper and the plans it contains become a </span><em><span>template</span></em><span> for
+some of the other things we want to work on as we go forward.  If we
+imagine things in 2–3 years, what would it take to realise that vision
+in the paper?</span></p><ul><li><p><span>Thinking about the future: this is one of the main reasons why we
   want to share these ideas and invite other people into this way of
   working: there’s no way we can achieve everything in our vision all
   by ourselves.</span></p></li><li><p><span>What we’ve been focusing on in Season Zero is methods that other
-  people can use for organizing their own research groups.</span></p></li></ul></blockquote></section></div></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="conclusion"><span class="firn-headline-text"><span>CONCLUSION</span></span></h1><section><blockquote><p><span>We’ve decided that "going public", for now, means sharing this talk.</span></p></blockquote></section></div></div></div><hr /><div class="back"><p>Back to blog: <a href="https://exp2exp.github.io/erg">Exp2Exp: ERG notes</a></p></div></article></main></body><script>anchors.options = {
+  people can use for organizing their own research groups.</span></p></li></ul></blockquote></section></div></div><div class="firn-headline-section firn-headline-section-1"><h1 class="firn-headline firn-headline-1" id="conclusion"><span class="firn-headline-text"><span>CONCLUSION</span></span></h1><section><blockquote><p><span>We decided to share this talk so that folks can learn from our
+community.  Our goal has been to share how we’ve been doing things and
+we hope this information is useful for you in your own communities and
+collaborations.</span></p></blockquote></section></div></div></div><hr /><div class="back"><p>Back to blog: <a href="https://exp2exp.github.io/erg">Exp2Exp: ERG notes</a></p></div></article></main></body><script>anchors.options = {
                                visible: 'always',
                                placement: 'left',
                                icon: '§'
