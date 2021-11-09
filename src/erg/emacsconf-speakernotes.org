@@ -67,7 +67,7 @@ in a meeting taking real-time notes with Emacs realises a dream that
 some of us have been entertaining (and experimenting with) for a
 while.  The package crdt.el by Qiantan Hong makes this easy.  We take
 notes on our meetings using Org Mode.  Since we’ve seen this before in
-talks on reproducible research; and also since Leo is the maintainer
+talks on reproducible research; and also since Leo is the co-maintainer
 of Org Roam, it’s particularly natural choice.  For one thing, it
 allows us to quickly put our notes online using Git and the static
 site generator Firn.  Lastly, of course, we need a real-time meeting
