@@ -8,43 +8,38 @@
 
 * Tech notes
 
-#+begin_src
-;; Ssh to your server (unless your computer has a static IP)
-ssh joe@178.79.174.58
-;; Start Emacs
-emacs -Q -nw crdt.el/crdt.el
-;; Source
-M-x eval-buffer (could be automated with the above)
-;; Create the content
-M-x share-buffer
-;; Share joining instructions:  M-x crdt-connect RET metameso.org default port <pass>
-#+end_src
-
 * Agenda                                                               :85m:
 ** EmacsConf: Storyboarding                                            :35m:
 *** ----------------------------------------
 *** PRELUDE                                                             :1m:
 #+begin_quote
-Hi I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD student at UT Austin studying climate policy.
+I’m Leo, and you’ll have had me introduced at the beginning of the
+conference; you might know me from Org Roam; I studied literature at
+University.
 
-I’m Raymond Puzio, I first learned about Emacs and Lisp at an enrichment program for
-high school students.  When studying physics at the university, I
-used Emacs and TeX to write mathematical documents.  Later on, I
-became active in Lisp and Emacs user groups where, among other
-things, I learned about org mode for reproducible research.
-Nowadays, I am working on synthesizing emacs and other programs
-into an end-to-end platform for scientific research and collaboration.
+I’m Raymond Puzio, I first learned about Emacs and Lisp at an
+enrichment program for high school students.  When studying physics at
+the university, I used Emacs and TeX to write mathematical documents.
+Later on, I became active in Lisp and Emacs user groups where, among
+other things, I learned about org mode for reproducible research.
+Nowadays, I am working on synthesizing emacs and other programs into
+an end-to-end platform for scientific research and collaboration.
 
-I’m Joe Corneli, I also started using Emacs in high school, now I use it for a lot more things than I did.  My research background is in mathematics and online communities.
+I’m Joe Corneli, I also started using Emacs in high school in a course
+on C programming and now I’m technically a computer scientist.  My
+research background is in mathematics and online communities.
+
+Hi, I’m Noorah Alhasan, I’m a member of the ERG group, and a PhD
+student at UT Austin studying climate policy.
 #+end_quote
 
 #+begin_quote
-The four of us met at EmacsConf 2020 with a common interest in Emacs
-and research.  We’ve met almost every week since then, because we
-wanted to keep the conversation going.  In this short talk, we share
-information about the methods we use, making a case for other people
-getting together and creating their own small research communities
-similar to ours.
+Noorah: The four of us met at EmacsConf 2020 with a common interest in
+Emacs and research.  We’ve met almost every week since then, because
+we wanted to keep the conversation going.  In this short talk, we
+share information about the methods we use, making a case for other
+people getting together and creating their own small research
+communities similar to ours.
 
 Here’s the outline of our talk: We’ll tell you technologies we use in
 our meetings, and demo a part of our meeting, as well as explain the
@@ -59,22 +54,22 @@ lessons about how you can create a research community similar to ours.
 *** BACKGROUND + TECHNOLOGY                                              :2m:
 **** Emacs Research Group
 #+begin_quote
-You’ll have noticed that we all have different research backgrounds.
-We think that transdisciplinarity is important for solving big
-problems.  If you’re going to have people from different research
-backgrounds talking to each other, they need some scaffolding in both
-tools and methods to help them have good conversations.  Of course, as
-Emacs users, we wanted Emacs at the centre of that.  Being in a
-meeting taking real-time notes with Emacs realises a dream that some
-of us have been entertaining (and experimenting with) for a while.
-The package crdt.el by Qiantan Hong makes this easy.  We take notes on
-our meetings using Org Mode.  Since we’ve seen this before in talks on
-reproducible research, Leo’s the maintainer of Org Roam, it’s
-particularly natural choice.  For one thing, it allows us to quickly
-put our notes online using Git and the static site generator Firn.
-Lastly, of course, we need a real-time meeting tool and for that
-purpose we use BBB in our weekly sessions (in fact, the same server
-used by EmacsConf, thanks again to Leo).  All of these tools are
+Leo: You’ll have noticed that we all have different research
+backgrounds.  We think that transdisciplinarity is important for
+solving big problems.  If you’re going to have people from different
+research backgrounds talking to each other, they need some scaffolding
+in both tools and methods to help them have good conversations.  Of
+course, as Emacs users, we wanted Emacs at the centre of that.  Being
+in a meeting taking real-time notes with Emacs realises a dream that
+some of us have been entertaining (and experimenting with) for a
+while.  The package crdt.el by Qiantan Hong makes this easy.  We take
+notes on our meetings using Org Mode.  Since we’ve seen this before in
+talks on reproducible research; also since I am the maintainer of Org
+Roam, it’s particularly natural choice.  For one thing, it allows us
+to quickly put our notes online using Git and the static site
+generator Firn.  Lastly, of course, we need a real-time meeting tool
+and for that purpose we use BBB in our weekly sessions (in fact, the
+same server used by EmacsConf).  All of these tools are
 free/libre/open source (though BBB has some intensive hardware
 requirements).
 
@@ -82,19 +77,20 @@ requirements).
 
 *** PRERECORDED DEMO                                                     :2m:
 #+begin_quote
-Here’s a short prerecorded snippet from one of our recent meetings so
-that you can get a sense of how our meetings look and feel.
+Joe: Here’s a short prerecorded snippet from one of our recent
+meetings so that you can get a sense of how our meetings look and
+feel.
 #+end_quote
 
 *** PROCESS                                                              :2m:
 
 **** Organising metaphor
 #+begin_quote
-In the demo you saw a very improvised free-flowing conversation.  In
-order to have this kind of conversation and still get things done, we
-need a pretty rigorous structure in place at the bigger scale of the
-meetings.  This involves both a timetable for the meetings, and some
-review and planning processes [!].
+Noorah: In the demo you saw a very improvised free-flowing
+conversation.  In order to have this kind of conversation and still
+get things done, we need a pretty rigorous structure in place at the
+bigger scale of the meetings.  This involves both a timetable for the
+meetings, and some review and planning processes [!].
 #+end_quote
 
 **** Timetable
@@ -108,7 +104,7 @@ and the consistency is really important for how the group works.
 
 ***** Project Action Review
 #+begin_quote
-Joe: At the end of every meeting we ask and answer a series of
+Ray: At the end of every meeting we ask and answer a series of
 questions adapted from the ‘After Action Review’ developed by the US
 Army in their training programs, and used in some business contexts.
 The adaptation here came out of the Peeragogy project which I’ve been
@@ -116,15 +112,6 @@ involved with since 2012, and it’s designed to be less hierarchical
 than the AAR.  By writing down and sharing these reviews we create a
 resource for further peer learning later down the line.
 #+end_quote
-
-#+begin_src 
-EXAMPLE
-1. Review the intention: what do we expect to learn or make together?
-2. Establish what is happening: what and how are we learning?
-3. What are some different perspectives on what’s happening?
-4. What did we learn or change?
-5. What else should we change going forward?
-#+end_src
 
 ***** Causal Layered Analysis
 #+begin_quote
@@ -139,39 +126,33 @@ problems.  Transdisciplinarity is important, but we need to know how
 what we’re doing fits into the bigger context.
 #+end_quote
 
-#+begin_src 
-EXAMPLE
-1. Litany
-2. System
-3. Worldview
-4. Myth
-#+end_src
-
 ***** Design Patterns and Next steps
 #+begin_quote
-Ray: Going back to solving larger problems: when we carry out the analysis
-we don’t just think about what happened in the previous meetings, but we
-also take the longer view, thinking about things like structuring a
-community of collaborators, or building platforms for scientific research.
-We want to think about how what we’ve been doing fits into broader
-historical patterns and trends.  In the past, the pattern is a historical
-pattern; in the present we contextualise what we’ve learned; towards the
-future we augment our big-picture analysis with next steps.  This helps us
-keep things on track.  (We keep our patterns collated with a developing
-design pattern language from the Peeragogy project.)
+Ray: Going back to solving larger problems: when we carry out the
+analysis we don’t just think about what happened in the previous
+meetings, but we also take the longer view, thinking about things like
+structuring a community of collaborators, or building platforms for
+scientific research.  We want to think about how what we’ve been doing
+fits into broader historical patterns and trends.  In the past, the
+pattern is a historical pattern; in the present we contextualise what
+we’ve learned; towards the future we augment our big-picture analysis
+with next steps.  This helps us keep things on track.  (We keep our
+patterns collated with a developing design pattern language from the
+Peeragogy project.)
 #+end_quote
 
 * PROJECTS                                                              :2m:
 ** Summary
 #+begin_quote
-Here are some of the projects we’ve been working on.  
-- Specifically, we’ll tell you about a paper we wrote, a workshop that we piloted, and a user study that we’ve started.
+Leo: Here are some of the projects we’ve been working on.
+- Specifically, we’ll tell you about a paper we wrote, a workshop that
+  we piloted, and a user study that we’ve started.
 - And we’ll say a little more about the context we’re working in.
 #+end_quote
 
 ** Patterns of Patterns (PLoP 2021)                                 :LITANY:
 #+begin_quote
-We coauthored a paper that touches on all of the topics we mentioned
+Noorah: We coauthored a paper that touches on all of the topics we mentioned
 earlier, and presented it at the leading conference on Design Patterns
 for programs and programming.  One of the case studies in the paper
 sums up the way we work in ERG.  The paper puts ERG in context with
@@ -181,7 +162,7 @@ useful.
 #+end_quote
 ** PLACARD Workshop roles                                           :SYSTEM:
 #+begin_quote
-We are also developing an interactive workshop based on the ideas in
+Noorah: We are also developing an interactive workshop based on the ideas in
 the paper, which we piloted at the PLoP conference.  Our intent with
 the with the workshop was to build a method for rapid problem solving,
 which could, at least in principle, expand beyond the workshop setting
@@ -192,24 +173,28 @@ roles we take on in our real-world workshops.
 #+end_quote
 ** Initial user studies                                          :WORLDVIEW:
 #+begin_quote
-Free software may be lacking on ‘user’ aspects: people often program
+Ray: Free software may be lacking on ‘user’ aspects: people often program
 to scratch their own itches, and assume others will do the same.
 
-- We looked at user experience and development together to see how the process went jointly and where the gaps are.
-- We compared Emacs with other platforms, not just at the technical level but at the user experience level as well.
-- We had some guest sessions, where we’ve started gathering user stories.
+- We looked at user experience and development together to see how the
+  process went jointly and where the gaps are.
+- We compared Emacs with other platforms, not just at the technical
+  level but at the user experience level as well.
+- We had some guest sessions, where we’ve started gathering user
+  stories.
 
 Building on these conversations we would like to do more research in all these
 and eventually be able to say:
 
-- ‘If you are someone who does X, these are the packages that would work for you’
+- ‘If you are someone who does X, these are the packages that would
+  work for you’
 #+end_quote
 ** Broader context                                                    :MYTH:
 #+begin_quote
-Our PLoP paper and the plans it contains become a /template/ for some of
-the other things we want to work on as we go forward.  If we imagine
-things in 2–3 years, what would it take to realise that vision in the
-paper?
+Ray: Our PLoP paper and the plans it contains become a /template/ for
+some of the other things we want to work on as we go forward.  If we
+imagine things in 2–3 years, what would it take to realise that vision
+in the paper?
 
 - Thinking about the future: this is one of the main reasons why we
   want to share these ideas and invite other people into this way of
@@ -220,6 +205,9 @@ paper?
 #+end_quote
 * CONCLUSION
 #+begin_quote
-We’ve decided that "going public", for now, means sharing this talk.
+We decided to share this talk so that folks can learn from our
+community.  Our goal has been to share how we’ve been doing things and
+we hope this information is useful for you in your own communities and
+collaborations.
 #+end_quote
 
