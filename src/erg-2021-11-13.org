@@ -1,0 +1,139 @@
+#+TITLE: 13 November 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-11-13 Sat>
+
+* 13 November 2021 — Emacs Research Group
+
+* Check-ins                                                             :15m:
+** NA
+- Had a strange morning, car wouldn’t start, so had to cancel gym
+- Hybrid batteries can glitch, and can be fixed by jump starting
+  - LV: in the US you see everyone getting far away from you if you don’t have a car
+- (I chill out when I’m stressed!)
+** JC
+- Tired, because he’s been relaxing.
+** RP
+- Joining via phone today
+- 2 things: this Wednesday at the category seminar we have Conceptual Blending (=@Joe=), and,
+- This Thursday at 2PM UK will be about editing the PLoP paper on the basis of Writer’s Workshop comments.
+- Ray will review the WW video, [[https://youtu.be/X-Yk_7xBjXA][https://youtu.be/X-Yk_7xBjXA]]
+  - Can we meet earlier in the week to prep it?  And/or can we do it all during the one-hour session?
+** LV
+- Tired because of EmacsConf prep (just ended 10 minutes ago)
+  - Working on remembering pronunciation many names from around the world in many languages
+- Waiting for many pre-recorded videos and expecting to adapt on the fly (which won’t be fun)
+  - RP: I / we are willing to help if possible!
+  - LV: Mostly I’m just going to be busy (as long as I don’t sacrifice sleep)
+     - I have been going to bed at around 8PM
+- In two weeks [November 27th] we will all (presumably) be at EmacsConf 
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-11-13 Sat 18:36]
+** Recall discussion from Thursday about scheduling and other meta points
+
+* Agenda                                                                :40m:
+LV: Since we have finished everything regarding EmacsConf, can we keep
+this session to 1 or 1.5 hours?
+** EmacsConf: Debrief                                                   :5m:
+- *(Nice to reflect on this from the position of being finished.)*
+- We are still in advance of 50% of the speakers!
+- NA: thanks to Ray for lighting the fire to get it moving!
+  - LV: I erred on the side of not allowing enough time, so the combination was roughly on the dot (4 days off of the dot, but better than most)
+- JC: Shared the video with his family (‘it took us roughly 100h, it’ll take you 10'’!); and thought it was quite good.
+- JC: On the [2021-11-18 Thu], will give a talk at Brookes, giving Joe’s Version™ of the talk
+  - It might be more focussed on AI, given it’s for Brookes.
+  - Big grants could also be appropriate
+  - Can we help on this?
+    - LV: We could have a coffee-chat dedicated to it?
+    - JC: Could present the extra slides? Or simply post-pare by reporting back directly in our Workshop session.
+
+** Planning the near-future (PLoP)                                     :30m:
+- The sooner we are done with the paper the sooner we can focus on the workshop
+- RP: Plus the workshop is in the research phase whereas the paper is in the finalising phase
+- LV: So let’s make sure we have some deadline-oriented stuff first, but keep enough time for the creativity
+  - RP: Including by getting the deadline stuff out of the way so we have more free time!
+  - LV: Success with this method also requires the deadlines to be far enough away that it doesn’t become an emergency
+*** What do we do for PLoP (before December 7th)
+- To coordinate with the Thursday peeragogy paper meeting
+- RA: Would be prudent to hold time for this on next Saturday at ERG
+- NA: If we start talking on the workshop it will be deep, so rather just do the paper so we can switch; after finishing a task I need a breather
+- LV: I probably won’t be able to contribute too much; I will try to move the interview to first week of December (however); for the paper I won’t be able to to make it to all the workshops, but if you need someone to gauge the progress
+- JC: We probably don’t need to timebox it now; but it’s quite possible that we’d spend 3h total hands-on-keyboard.  By next Saturday, we might be done with it.
+  - At end of next Saturday ‘Are we done?’
+- Latest version (with direct link to comments):
+  [[https://github.com/Peeragogy/PatternsOfPatterns/blob/main/application-science.org#summary][https://github.com/Peeragogy/PatternsOfPatterns/blob/main/application-science.org#summary]]
+
+- RP: Let’s discuss the paper on Tuesday or so?  Maybe continue the discussion on Thursday at 4PM?  If we include the Saturday then we can be quite sure we’d be done.
+- NA: Or just meet 8 to 11 and knock it out?
+- RP: Better to have the 1 hour break
+- JC: Maybe the Workshop session will be a bit more planning, or maybe it will editing (depending on what we need)
+- Leo will join this one at 4PM but will be brief because he’ll have a meeting with a potential client that day
+- JC: Thinking ahead to Saturday; would like to do ERG’s take on this paper; sanity-check for the paper
+  - RP: These COULD BE a nice start for Season One of ERG; let’s check them and see.
+
+*** Tuesday: Alex will (hopefully) check-in with us to talk with NA on text-processing
+- JC: Alex works for a legal company, and right now, he’s reviewing contracts, which seems like a topic that is aligned with what we’re trying to do right now with the workshop.  He also has a Master in Data Science. (NLP; Natural legalese processing)
+
+- LV: Cf. FR/Etalab early investment in analyses of tribunal data
+- NA: Two early things: how to preprocess the documents, and then some regexps
+- LV: [[https://www.theguardian.com/us-news/2021/nov/09/kyle-rittenhouse-murder-trial-drone-footage][Kyle Rittenhouse]] trial has become very political with some tech stuff coming up
+
+*** No session on [2021-11-27 Sat] because we have EmacsConf!
+- *Warning that Leo will also have some tech testing stuff going on the 20th (however there’s a 90% chance he will attend the meeting anyway)*
+- Also, our talk is at 17:43 UTC on the Friday
+- Leo will be answering questions live (starting 17:53), we’ll also have a pad that we can answer questions on.
+- We can also add our own questions to the pad that we might especially want to answer!
+
+* PAR                                                                   :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- JC: We wanted to have a short session, and even though there were doubts about needing to go for a second hour, we’ve managed to do verything we wanted to do.
+- Recall that in the CLA it says "we are going to focus on methods"
+*** 2. Establish what is happening: what and how are we learning?
+- Kept to 1 hour (with a 10 minute PAR overrun)
+- The meta talks we’ve had this week have allowed us to make good headway on how we work together; this is at least somewhat related to our work on the PLACARD workshop
+*** 3. What are some different perspectives on what’s happening?
+- RP: Wanted to get to PLoP today to have time to think before we jump into editing
+- NA: We’re maturing as a group, being more deliberate about what we’re doing which is nice.
+  - We’ve been able to turn our aspirations into concrete things and delivering
+  - Maturation is a process that doesn’t necessarily imply more outputs; but we can think that as we mature we can produce more stuff
+*** 4. What did we learn or change?
+- Out of our discussions during the week, we’ve also developed potential new patterns, like VEST (Visionary, Engineers, Scientists, Technicians)
+*** 5. What else should we change going forward?
+- Possibly adjust Hyperreal coffee chats
+- The talk should reproduce more ERGs after we plant the seeds!
+- For 2022, can we take steps to equalise the volume across our mics/sessions (maybe with suggestions to BBB)
+
+* Tentative agenda for next week
+** Progress report on the PLoP paper (and focus on it instead of the workshop for now)
+** Tackling the bus factor of chairing those meetings
+** TODO LV: Look at the recording to remember what the rest of the tentative agenda was
+** Longer-term planning (maybe next-next session)
+- Including the broader patterns of scheduling w/in various groups
+
+* Check-out                                                              :5m:
+** NA
+- Can you train me how to run the meetings?
+- Happy we are being more deliberate, it helps clear my mind, and it’s better than jumping around topics
+- I am going to test out one of my Christmas cookies, got a nice spiced cookie recipe
+** JC
+- As usual, very tired, but feeling much better by the end of it!
+- The biggest support for his Brookes talk was us reminding him that the talk is in 4 days.
+- Things are getting moving on the informal stuff.
+- We did a lot of meticulous scheduling, and that was good 
+** RP
+- Look forward to seeing you 17:30 UTC Monday;
+- For next year would like to bring some more technical sides of Emacs
+  - LV: If 2021 was about ERG, 2022 would be more about fielding a workshop with Emacs package developers; Qiantan, Adam, RP+JC all interested.
+  - RP: Also the 1-year-anniversary of EmacsConf 2020 we haven’t yet tackled concrete details with Hypernotebooks!  So would like to have more going on with this (e.g., in the context of a group who can understand something about Babel)
+  - A couple developers might be willing to join us, but it might be more linked with Emacsverse/Emacsconf things.
+** LV
+- Very happy about how the meeting went; I feel we have been able to make good headway towards planning, listening to everyone, considering all points of view; happy about how it’s gone, and glad that the meeting did actually take one hour (give or take 15 minutes)
+- I will go to bed earlier and earlier, so in general if we stick to 1h30m that would be better in future!
+  - JC: Recall that we used to have long meetings with 8 topics until we learned better
+  - NA: Now we can be more deliberate with our energies
+- Audio with BBB is breaking my gonads; between microphones and echos it’s 
