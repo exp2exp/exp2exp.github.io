@@ -6,7 +6,7 @@ DEADLINE: <2021-10-16 Sat>
 :LOGBOOK-NOTES:
 - State "STRT"       from "TODO"       [2021-09-18 Sat 19:28]
 :END:
-*** CXLD Schedule a session about going public                  :cancelled:
+*** CXLD Schedule a session about going public                   :cancelled:
 CLOSED: [2021-10-09 Sat 19:51]
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:39]
@@ -16,7 +16,7 @@ CLOSED: [2021-10-09 Sat 19:51]
 :END:
 Tentatively enfeoffed to EmacsConf proposal
 - This will be /one/ of our six sessions to get ready for "Emacs Research Group Season 1" talk
-*** CXLD Tentative agenda from [2021-09-18 Sat 20:23]           :cancelled:
+*** CXLD Tentative agenda from [2021-09-18 Sat 20:23]             :cancelled:
 CLOSED: [2021-10-09 Sat 19:51]
 :LOGBOOK-NOTES:
 - State "CXLD"       from              [2021-10-09 Sat 19:51]
@@ -34,13 +34,13 @@ DEADLINE: <2021-10-12 Tue 19:00>
 - JC: We could just find someone who loves evil-mode.
 - LV: I’ve asked Alex to keep track of the problems in a document for us to review it.
 * Short-term tasks
-** STBY Come up with a plan for quarterly reviews à la HR          :standby:
+** STBY Come up with a plan for quarterly reviews à la HR           :standby:
 SCHEDULED: <2021-09-25 Sat>
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:40]
 :END:
 Should come after the PLoP workshop for us to have enough visibility on what needs to be done.
-** DONE Prepare the pseudo org-agenda files with our tasks for ERG      :LV:
+** DONE Prepare the pseudo org-agenda files with our tasks for ERG       :LV:
 CLOSED: [2021-09-18 Sat 15:42]
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:42]
@@ -56,25 +56,68 @@ SCHEDULED: <2021-09-23 Thu>
 | [2021-11-27 Sat]--[2021-11-28 Sun] | EmacsConf 2021                   |
 
 * ERG items from PLoP CLA 1                                 :NeedsBreakdown:
+** What is this method actually useful for?
+- Now we have a chance to reevaluate this method, so by now we would have a chance to have validated some things
+- For the conference version, anything that we can tie up and say... this is what did work and didn’t work so we
+- Just the fact that we’ve been able to meet for ≈2 hours for ≈1 year... the opportunity to work with a crew of people we know, developing /ad hoc/ behaviours like sharing feature requests in real-time for the tools we’re using...
+  - This might be considered side-goals for ERG, but it’s contributing to things being done in/on/with Emacs
+  - Compared with other groups, we’re much more regular and organised!
+  - The way we’ve been able to work and organize has been somewhat haphazard at times, but mostly it was organized, and we could see how to improve the rough points
+  - And if you want to see something very haphazard the other examples are elsewhere!
+- We talked about our ability to work together as a concrete gain
+- With the stack: some ideas might have been too ambitious, or had prerequisites; now, with the paper, we have a deliverable, but we’re in a place where we can get back to things like Hypernotebooks or Arxana; and with things like CRDT, we have now initiated a collaboration
+- Let’s not discount the remaining Potential energy
+- This is a great synthesis of human & technical skills
+  - JC: This is what I want to be doing with my life!
+
+** In addition to this, what else is needed for the paper
+- Discussion needs reshuffling
+- Pull things that need more work and put them in the journal version
+- Let’s chat with Greta Goertz about possibly joining us as part of ERG; she’s giving a related talk
+
+** BACK Maintain plans for the next six months                     :Roadmap:
 ** BACK Process the following points                             :Scrapbook:
 - "Patterns all the way down meme"
 - Workshop design is where JC overlapped with NA more recently, could we make an Emacs workshop?
 - Keep in mind that in December is the final deadline of PLoP, so we can report on progress then
-** BACK Maintain plans for the next six months                     :Roadmap:
 ** BACK Keep doing PARs and CLAs                                :Assessment:
+- This is nice even if just for regularity
+  - Recurring activities which are very small lead to compounding effects later on
+  - E.g., "Paradise Lost" memorization verse-by-verse leads to something bigger than the sum of the parts
+- But there may also be some specific gains
+  - They impact the way we think
+  - Cf. "self-reflexive attitude towards our own learning" from teacher-training methods
+  - CLA and PAR are two ways to consider this, and develop those behaviours
+  - (Similar with meditation, more so than swimming.)
+- It feels like we’re making progress
+
 ** BACK Mesh with other ongoing activities elsewhere           :Cooperation:
-** BACK New user workshops: “Zero to Org Roam”                    :Newcomer:
-:PROPERTIES:
-:Subproject: ERG
-:END:
-- Are we minting the newcomer?  Or is the the next step for them?  What’s the next step for us?
-- Can we use some algorithmic thinking, rather than just with structured data?
-- 300 instances of "Newcomer" isn’t that relevant
-** BACK Come up with a categorical treatment of todo-categories :FormalPatterns:
+- EmacsConf 2023
+- Other Emacs groups
+- Peeragogy
+- CRDT development
+- PLACARD workshop
+- ...
+- Which activities elsewhere?
+- Start also by thinking about individuals like Greta
+
 ** BACK Identify potential stakeholders in Emacs Research        :Community:
+- Keeping in mind health and well-being as a prerequisite for doing what we love!
+- Starting with outreach
+- We hope others will do things like ours
+- Crazy stretch goal: Emacs Research Journal with quarterly reports
+
 ** BACK Identify stakeholders in the kind of activities we can support :ASpecificProject:
+*** Goals
 - How should we share/disseminate what we’ve done?
 - Publicise some?  Private meetings?
+*** Progress
+- We have done this with EmacsConf
+- Joe gave a 30 minute version of that talk at Brookes
+*** Tech note:
+Org mode is less good at keeping track of ongoing/recurring/progressive tasks
+
+
 ** BACK Identify venues where we can reach these different stakeholders :Wrapper:
 ** BACK Create some publication to plant a flag for our group        :Paper:
 - PLoP paper has been progressed! ✓
@@ -96,3 +139,18 @@ SCHEDULED: <2021-09-23 Thu>
 ** BACK Assess what we’re learning                              :Assessment:
 ** BACK Think about how we can help improve gender balance in Free Software :DIVERSITY:
 - Relates to [[Create some publication to plant a flag for our group]] since we reference some people who talk about this
+* WONT ERG items from PLoP CLA Review 20/11                       
+** Peeragogy?
+But they might not be ready to do this yet, so it remains an aspiration
+*** BACK New user workshops: “Zero to Org Roam”                   :Newcomer:
+:PROPERTIES:
+:Subproject: ERG
+:END:
+- Are we minting the newcomer?  Or is the the next step for them?  What’s the next step for us?
+- Can we use some algorithmic thinking, rather than just with structured data?
+- 300 instances of "Newcomer" isn’t that relevant
+** Come back to after six months have gone by?
+*** BACK How can we manage a large distributed set of Org files? :FormalPatterns:
+- War Room metaphor for open source
+- Joe could work on this in one of his grant proposals and report back on any progress
+- We might have other little steps forward that help us do this
