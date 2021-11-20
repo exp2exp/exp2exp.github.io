@@ -1,0 +1,109 @@
+#+TITLE: 20 November 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-11-20 Sat>
+
+* 20 November 2021 — Emacs Research Group
+
+* Check-ins                                                            :15m:
+** NA
+- Is eating brunch
+- Back is better, got a Dr’s note for medical leave for next semester
+- Have started a job search which is somewhat freaky
+- Looking forward to Thanksgiving and indeed Christmas!
+** JC
+- Was trying to move something in CSS the other day, and realised after he was using the wrong code
+- Shared his ERG Emacsconf talk with Brookes
+** RP
+- Just ordered the Schumacher future book
+- Could be useful for the journal version of our PLoP paper
+- Should keep in touch with Michael W and some others about the workshop
+- Maybe THIS TUESDAY we will have the paper done, Thursday will be Thanksgiving, then the next Tuesday get a fresh start on the workshop w/o having the paper distracting
+** LV
+- Leo has come from disaster planning in 25th Hour of EmacsConf this week; and will be happier once he knows we can take notes
+- CRDT has improved in Version: 0.3.0
+  - (Anyone can share a buffer to the server; we’re testing it now; it doesn’t have a local autosave, but it’s robust to crashing).
+  - This is better for EmacsConf 2021 needs
+  - We’re now doing some user research from the driving chair
+- This is like "the other side of PLoP" and very different from writing a collaborative paper!
+- Has memorized 70 verses of "Paradise Lost" (1%), keeping up with interview prep (and sports) in Renaissance-study style
+  - Spirits are elevated
+  - Poem from English Civil War, beautifully written, explores themes of transgression and rebellion
+  - NA: So it’s pretty French!
+  - Leo finds the corrupting rhetoric quite inspiring
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-11-20 Sat 18:54]
+** Recall discussion from Thursday about scheduling and other meta points
+
+* Agenda                                                               :40m:
+** Progress report on the PLoP paper (and focus on it instead of the workshop for now) :5m:
+- Good progress
+  - We did the first 
+- Glad to see Tuesday 23rd as a finishing point
+- What’s next?
+- JC: As a comment on the process, it is going well
+- NA: Discussing the strengths and limitations of the method
+  - This is a practical session for the paper (was this useful for us leaving aside the output)
+** Have a look at our ERG agenda.org                                   :30m:
+- Done, with notes in the file
+** ERG Emacsconf talk                                                   :5m:
+Discussion of [[https://www.ukri.org/opportunity/explore-peoples-relationships-with-digital-technologies/][https://www.ukri.org/opportunity/explore-peoples-relationships-with-digital-technologies/]]
+- What if we had a £1m budget alongside 3 other cool projects
+
+* PAR                                                                  :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Review agenda.org and talk about whether the PLACARD methods was actually useful for us in real terms
+*** 2. Establish what is happening: what and how are we learning?
+- We had that discussion
+- In addition, Noorah and Joe and Ray came up with an agreed plan for a submitable version of the PLoP paper via moving much of the discussion to Journal version outtakes
+- By breaking/inflicting pain upon CRDT we have learned some of its limitations that can be resolved later
+  - =(defun crdt--remote-fcap-advice (lambda (x)))= ??
+- Touched on several interesting points in agenda.org that can help us organise our thinking, furthing the discussion of what we’ve done as ERG and what’s good about it and what we will do in future
+*** 3. What are some different perspectives on what’s happening?
+- Joe said: "this is what I want to be doing with my life!"
+  - This session is a great synthesis of a writer’s room feel and strong technical abilities
+- Leo is tired
+- Ray: We want to finish things so we get a break for Thanksgivings and get back fresh without things hanging over our heads
+  - Leo: And in general closing things without reintroducing new things right away (at least not as joint projects)
+  - What else have we been sacrificing in our activities?
+*** 4. What did we learn or change?
+- Be wary of introducing new things, but if there are things we’ve started make sure we finish or decide they shouldn’t be finished
+- That’s actually what agenda.org is for!  It’s for sketching and thinking about possibilities.
+*** 5. What else should we change going forward?
+- Based on our use of agenda.org (which lives in exp2exp repo)
+  - We designed it as an an ad hoc file for managing projects... it would be good to keep using and developing it... eventually this file might live constantly on Leo’s CRDT server
+  - What if, when you open the file on the server, you can specify, e.g., "Joe has this file on his computer and it lives here" (subscribe to any changes on the server)
+- Take it easy and don’t work 128h per week!
+
+* Tentative agenda for next week
+** FROM MONDAY, everything on Hyperreal centralized on 4PM UTC
+** PAPER MEETING on Tuesday
+** NO WORKSHOPS or coffee chat Thursday or Friday next week
+** NO SESSION on [2021-11-27 Sat] (because EmacsConf!)
+- Some of the afternoon talks are a good chance to find likeminded people, e.g., Greta
+** Longer-term planning
+** Tackling the bus factor of chairing those meetings
+** For meeting after EmacsConf, let’s take some time to reflect on the talk
+
+* Check-out                                                             :5m:
+** NA
+- Husband did shopping this morning
+  - Menu: Turkey breast, in-law + BiL will come, Anan will make smoked pork loin, NA will make mashed potatoes & baked mash and cheese... there will be stuffing, green beans, and booze
+- Color-shift nail art deployed!
+** JC
+- Will cut discussion section immediately after call
+- JC@LV: You will fix CRDT hopefully with Qiantan...?  Because I can’t otherwise use my shell so no CLI-feelings
+  - LV: “Him, the almighty power hurled headlong flaming from th’ethereal sky, with hideous ruin and combustion down to bottomless perdition, there to dwell in adamantine chains and penal fire who durst defies the omnipotent to arms”
+- Joe might go out for dinner this week (e.g., Sunday roast tomorrow!)
+- Get the recording for my longer talk back from Brookes folks
+** RP
+- RP@NA: I’m not preparing specially, getting things like this done will make the possibility of a break (hopefully)!
+** LV
+- Feeling very vegan presently
+- Lentils and pasta incoming! Meals are uninspired presently b/c found what worked with swimming; eating almonds, cashews, and such, not much variety but it’s enjoyable and cheap and nutritious
+- EmacsConf will prepare for Thanksgiving Weekend (clashing with Superbowl...)
