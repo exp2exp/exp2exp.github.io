@@ -1,0 +1,54 @@
+#+TITLE: 11 December 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-12-11 Sat>
+
+* 11 December 2021 — Emacs Research Group
+
+* Check-ins                                                            :15m:
+** NA
+** JC
+** RP
+** LV
+
+* Meta points
+** TODO Don’t forget to record the session!                             :LV:
+** Coordination between NA and LV
+*** TODO-based workflow for agenda items to make them easy to move to the following week
+
+* Agenda                                                               :40m:
+
+** Discuss long-term scheduling
+*** “What is ERG now?”
+** PAUSE                                                               :15m:
+** Miscellaneous
+NA: This new section is for /serendipity/ to happen!
+Do use tags to correlate different elements.
+
+* PAR                                                                  :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+*** 2. Establish what is happening: what and how are we learning?
+*** 3. What are some different perspectives on what’s happening?
+*** 4. What did we learn or change?
+*** 5. What else should we change going forward?
+
+* Tentative agenda for next week
+
+** Scheduling
+- Will organise meeting w/ LV for next week
+- Our next meeting for the year would be Saturday the 18th then take 2 weeks off, and come back on January 3rd?
+** Reflecting on the EmacsConf talk
+** What do we want to do with Greta?
+
+* Tentative agenda for beyond next week
+
+* Check-out
+** RP
+** NA
+** JC
+** LV
+
+
