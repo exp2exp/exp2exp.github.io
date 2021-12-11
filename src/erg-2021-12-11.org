@@ -4,51 +4,178 @@
 #+FIRN_UNDER: erg
 # Uncomment these lines and adjust the date to match
 #+FIRN_LAYOUT: erg-update
-#+DATE_CREATED: <2021-12-11 Sat>
+#+DATE_CREATED: <2021-Dec-11 Sat>
 
-* 11 December 2021 — Emacs Research Group
+* 11 December 2021  — Emacs Research Group
 
 * Check-ins                                                            :15m:
-** NA
-** JC
+
 ** RP
+- No updates since last time.
+** JC
+- Well impressed with the new yasnippet feature!
+- Heard back from John wrt the paper; asked to create an APA-valid format of the paper, but he didn’t specify how much time we2 had.
+  - "Yes, please send us the updated piece, and you can have a bit more time to submit."
+- JC: Going to a choir concert at top of the 2nd hour
 ** LV
+- Known henceforth as “LP” because of the NA’s yasnippet
+- Just coming from EmacsConf debrief, mostly along the lines of reorganising meetings + async work across time zones; all the organisers are on board with this
+  - How can we circumscribe projects, conference, info work; want people to work on what they want, like, and are good at
+  - JC: [[https://en.wikipedia.org/wiki/Ikigai][https://en.wikipedia.org/wiki/Ikigai]]
+  - Shot, MH, dating, going well
+  - Still meeting fatigued!
+  - All volume is now on a filter (though not for the recording)
+** NA
+- Kicking off checkins as chair!
+- Got nails done for Christmas on Thursdays; and similarly /on the other hand./
+- Went to a party and now feeling a bit under the weather
 
 * Meta points
-** TODO Don’t forget to record the session!                             :LV:
-** Coordination between NA and LV
-*** TODO-based workflow for agenda items to make them easy to move to the following week
+
+** DONE Don't forget to record the session!                             :LV:
+** Recall discussion from Thursday about scheduling and other meta points
+** Could we work on audio parameters, and whatever is required to make it not autogained?
+- Leo has been leaving ERG w/ a cluster headache
+- Led (in a straightforward way) to despair about attending
+- "[[https://www.amazon.com/Sony-WH-1000XM4-Canceling-Headphones-phone-call/dp/B0863TXGM3/][Sony WH-1000XM4 Wireless Industry Leading Noise Canceling Overhead Headphones with Mic for Phone-Call and Alexa Voice Control, Black]]" ($248.00)
 
 * Agenda                                                               :40m:
+** Tentative agenda for next week
+*** Reflecting on the EmacsConf talk                                    :5m:
+- Ray has watched all but 7 of the talks EmacsConf!
+- JC: has already done a different version of his talk for his institution; he’s also (starting to) draft a grant which would mobilise elements of it
+*** Scheduling, meeting moderation style                               :15m:
+- NA,RP: How we start off meetings...
+  - What we talked about was the idea that when we walk into a meeting, we are often in the mindspace of going straight into the topic that we’re talking about.
+  - If we start by talking about something else it can throw off the tendency to the main topic.
+  - What can we do to make checkins relevant / non-distracting?
+  - If people have something meaningful to say of course they should bring it, but if we have a general discussion on philosophical themes before the main meeting it can be distracting... if we’re going to have other reflections
+  - JC: Lots of topics and places to discuss them...
+  - LV: Checkins were just supposed to be quick voicing of how we’re doing; so, further, I don’t come here to work, but come to partake in something but I don’t call this work
+    - Why did the checkins become longer?
+    - We created more times to have chill-out sessions that last somewhat longer!
+    - In PLACARD workshops it sounds more like "work" than friendliness, open communication.
+    - So is this a case against checkins?  A dichotomy in which some people want to work, some want to be there?
+  - RP: This isn’t a case against checkins, it’s a question of do we do them before or after we get to the agenda?
+  - JC: Maybe it’s the responsibility of the chair to check in on behalf of the agenda?
+  - RP: Maybe reserve free time for discussion towards the end?
+  - LV: I like short checkin for 15 minutes (with small technical stuff) and social stuff?
+    - 30 minutes to get started?  Well, we may need some time to prepare the room early.
+    - RP: MAybe it will put you at ease to know: the question is, does it make sense to have an extension of coffee chat before we get into the agenda?
+  - NA: The thing that made me feel thrown off was, within the 1hr meetings during the week, sometimes people will come from a different conversation, and that can take time out of the meeting.  It’s about the head-space of how the discussion moves along.  As for Saturday, I like the nice place to hang out and reflect, and that’s the goal for me for Saturday meetings, as a reflection on the week, what happened during the week, getting into the next week more refreshed.  Because we’re all working in different projects w/ different languages it can become confusing!
+  - Does this apply to these meetings or the coffee chat?
+- Will organise meeting w/ LV for next week
+- Our next meeting for the year would be Saturday the 18th then take 2 weeks off, and come back on January 3rd?
+- JC: On moderation styles; it’s not just about moderating the /meetings/, but also about moderating the workflows
 
-** Discuss long-term scheduling
-*** “What is ERG now?”
-** PAUSE                                                               :15m:
-** Miscellaneous
-NA: This new section is for /serendipity/ to happen!
-Do use tags to correlate different elements.
+*** Broader moderation towards what?
+- CLA, as ways to think about everything from the litany (immediate issues) to worldview or myth level (what are the deeper issues)
+- How does the meeting reflect our broader purposes...
+- What is the Saturday meeting?
+  - Reflect
+  - Wind down,
+  - Get ready
+  - NA: If we had serious deadlines we could use it to work on that as well but would rather keep the week for work-work!
+  - RP: OK, so this leads to a question about topic... to make sure e.g., coffee chats (reflection), workshops (work)...
+    - Let’s not barge into something else during the week that we had for something else
+  - LP: As we’re working on the alchemy of the meetings... I would be willing to say, since Saturday happens to be the day when I can be there for 2h or 1h30m, please use me as a resource at this time.  From a vantage point of not being in the chair, I see other things.  I was chairing the EmacsConf meeting, but 80% involved in the discussion, 20% looking ahead at the agenda, trying to make sure that things are productive/friendly/good communication... so, let’s use the session for what we can mobilise during the discussion.
+    - What’s most satisfactory for LP: I’m good at looking at processes, so use me as a resource for this.  I’m the gaze that can be laid on the work you are doing, and providing a distantiated gaze on the workflow; keeping in mind other projects that I’m involved with and successes therein.
+    - And please also use me as design documents... this means I can start plugging away at these things.
+    - I’d also like to volunteer to rework the way we interrupt one another, we may either wait too long, or interrupt to quickly...
+    - How to Marines do it w/ "Roger", "Out", and such.
+    - We’re dealing with BBB: FLOSS but also less-than-stellar
+    - ... rules could reflect the tech?
+
+- Checkins
+- Litany level
+- NA: my ideas about how I’d like to proceed w/ the meetings later!
+
+** DONE Break? :5m:
+- LV: Sharing the timer via a buffer
+  - JC: Awesome!
+- JC: "Learn to love the mute button!"
+
+- Adding action words to headings?
+*** INPROGRESS FINISHED ETC?
+- Could be buffer-specific TODOs?  Not actionable-actionable, but... hey started this conversation, we’re confused, words about where we are in the muddling through...
+- Goal is also be able to have a programmatic way to move the started items that are not finished to the future agenda
+- It could be automatized
+- A question is an action...
+- Let’s table this for next week
+
+** ERG: how we would define ourselves as a group this year?            :15m:
+
+*** Framing
+#+begin_quote
+If I go to a party and someone asks me about ERG, what do I say about that?
+#+end_quote
+
+- Question of the title of participants for the CV/resume
+
+- I want to share this with people: "hey, I did this!"
+- Not work experience but "leadership, volunteering, extra-curricular"
+- How to do it in a way that will make sense to others?
+
+- "Cofounder of collaborative research group on free/open source software"
+
+*** Current status
+- Leo does have this in his CV
+  #+begin_quote
+  Rôle: Co-founder, Past Chair & Member
+  - Think tank on the future of the Emacs platform with weekly sessions.
+  - Emphasis on the development of tools and methods for collaborative e-Research.
+  #+end_quote
+*** Options
+- High-level thinking (free software)
+- vs Podcast (which would say nothing about what it’s actually about)
+- Do the subprojects that we do end up underneath an Emacs Research Group umbrella, or is it just a linked project?
+- We did have a talk about "How we /describe/ ourselves" at EmacsConf itself so we can refer back to that for descriptive text!
+
+** WHAT SHOULD WE SAY TO THE PEOPLE WE MET AT THE EMACS CONFERENCE?   :10m:
+- In particular, what do we want to do with Greta, Mehmet, JP?
+- Send them something so that they know we are still interested...
+- If we have something more concrete we can come back to them in the new year.
+- Don’t want to make it a "let’s get in touch" email that doesn’t have any substance
+- JC: Could invite Sacha and Amin as well?
+- RP: Since JP is interested in Peeragogy could we invite him along for next week as well?
+- LV: Better not to do it last minute, but we already have stuff for next week which is to schedule some other things... if we did this last minute planning for next week to compensate for previous poor planning... the curve had been raising, raising, maintaining... the volunteers want to keep assisting at that level!  But we have to separate the volunteers from core organisers.
+  - If we can’t fructify the volunteers, OK, at least we tried!  We can’t explore everything.  It would be better to lose the volunteers than risk the cohesion of our group.
+- Could send a specific date like 22nd of January and a little about what we would do (to follow through from our talk)
+- LV: We want planning but not clunkiness... I’m happy to volunteer to liaise with them sooner rather than later!
+- Greta might be a guest for PLACARD as well, let’s discuss that on Tuesday
 
 * PAR                                                                  :10m:
+
 *** 1. Review the intention: what did we expect to learn or make together?
+- High level: see where we are for the end of the year
+- Practice chairing by Noorah!
+- Still after the conference so right before the new year, still thinking what are the new things to do, so it is in an intermediate stage
 *** 2. Establish what is happening: what and how are we learning?
-*** 3. What are some different perspectives on what’s happening?
+- NA: We’re getting there from a chairing standpoint
+*** 3. What are some different perspectives on what's happening?
+- JC: Chairing has gone well!
+- JC: Happy to see that LV has more time to involve 100% of his brain to those meetings.
+- LV: Comments about the process: Noorah did a great job, though I don’t feel like I’ve been listened to about weekly organisation (e.g., I didn’t field); scheduling is in a bit of a shambles, we end up the session w/ a point being cut short, e.g. "let’s discuss on Tuesday"...
+- LV: we should have been wondering "How best to contact Greta"?  Was it for ERG?  Confusion about how to get them mobilised is not adequately addressing how to get people working with us.
+  - LV volunteered his time to induct Greta as an ad-hoc solution if need be.
+- (RP: But this was for PLACARD, and a part she could play there!; and JP was multiply interested in Peeragogy, this would be different from contacting them all three for the meeting here.)
 *** 4. What did we learn or change?
+- JC: LV shared audio-concerns about the audio-quality, and I wonder how we may address it in the near-ish future.
 *** 5. What else should we change going forward?
+- JC: If we could get high-quality footage in the coming ≈6 months, that would be a nice goal...
+  - LV: A good first goal would be not to cause physical pain, so let’s get that sorted sooner
 
 * Tentative agenda for next week
 
-** Scheduling
-- Will organise meeting w/ LV for next week
-- Our next meeting for the year would be Saturday the 18th then take 2 weeks off, and come back on January 3rd?
-** Reflecting on the EmacsConf talk
-** What do we want to do with Greta?
+- Peeragogy on 18th of December
 
-* Tentative agenda for beyond next week
+* Check-out                                                             :5m:
 
-* Check-out
-** RP
 ** NA
+- Feels good about her first meeting as a chair!
 ** JC
+- Off to concert.
+** RP
+- Thought about the passive rôle
 ** LV
-
-
+- Showed off his nice collar.
