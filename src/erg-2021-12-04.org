@@ -1,0 +1,215 @@
+#+TITLE: 4 December 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-12-04 Sat>
+
+* 4 December 2021 — Emacs Research Group
+
+* Check-ins                                                            :15m:
+** NA
+- Has baked a lot of cookies yesterday
+- Has been thinking of mailing things but not sure how they would hold up!
+  - JC: The recipe would hold up!
+  - RP: I remember the previous recipe of balls to go w/ falafel
+- Using ‘swerve’ (sugar alternative)
+  - LV: My mom worries about such things as stevia...
+- On CRDT (0.3.0) [at the usual place]!
+** JC
+- On CRDT (0.3.0) [at the usual place]!
+- Had dropped the task with contacting Mary T., drafted and sent an email for that now during the checkin
+- Doing fine; feeling a little bit fragmented with work because of things that may be overlaps
+  - There are other proposals going on right now.
+  - RP: Fragmentation might feels like lack of organisation
+** RP
+- Doing good!  Moving along with everything.
+- On the topic of fragmentation, doing some OS-like defragmentation.
+- Has been doing a lot of things (since mid-2019), a lot of things were in the starting/demo phase
+- Now we have things started and the question is how to turn them into production rather than just starting and demonstrating them
+** LV
+- CRDT has been upgraded to use TLS
+- I don’t feel fragmented, though I didn’t spend a lot of time on ERG
+- I do feel somewhat overworked b/c of spending 30+ hours on EmacsConf publishing
+- I don’t like feeling like people rely on my Organizational Guidance during meetings, especially when I may not show up (?)
+  - I.e., if I were to drop off there would be some problems keeping (especially) ERG going, but also considering that PLACARD workshop has a similar organizational need
+- I’m worried about organization & don’t want people to be overworked, but I do feel essential to making the meetings run
+- December’s always a rough month; EmacsConf has been unanticipated
+- RP: If you left, they wouldn’t be the same but they would go on.  So you’re essential /vis à vis/ what you bring to it, but there would be something going on.
+  - E.g. when DG left Hyperreal, or when CS didn’t have time, we didn’t have what they brought but we kept other things going.
+- It’s been a tense week with EmacsConf; working against the clock w/ publishing IRC, BBB.  Working about 5 hours a day in pairing sessions with Sacha; so this is practical scripting stuff, but the problem is that it makes me realise how, closer I am to doing things that I like, and this makes me feel better than I feel in ongoing ERG sessions (e.g., working as host and streamer but also working on the code); in ERG, if someone else was to take the chair position, then I’d have more room
+  - RP: Please tell us more about your current skill set?
+
+* Meta points
+** DONE Don’t forget to record the session!                             :LV:
+CLOSED: [2021-12-04 Sat 18:54]
+
+* Agenda                                                               :40m:
+** How we’re doing collectively (including the sessions during the week)
+- Generally about time and fragmentation, Leo mentioned Greta, there’s Mehmet, JP, also Mary; more broadly, in EmacsConf and PLoP, there are people we met, and these connections are time sensitive
+- So, worried that these are people who we haven’t 
+- Addressing how people are feeling about what they are doing here is really the whole agenda for today
+*** Leo: I feel like I’m the chair
+- drafting the agenda
+- making sure people can speak
+- keeping track of commitments
+**** I think I have done well
+- Little frustration generated!
+**** Comparison with EmacsConf
+- I do the same thing, I chair the meetings, but there are more technically oriented discussions because we’re co-creating the tools that we’re using for the conference.
+- So, I can do both (technical and chairing) there
+- In ERG meetings I’m leaving energised, but I’m not feeling like I am (yet) mobilising technical skills, and this feels kind of infuriating
+- EmacsConf is self-reflexive in nature, trying to address problems (the problems can be either human or technical)
+- With ERG, reasons we felt we were overwhelmed, there were decisions... but also our tools didn’t increase to meet the demand.  E.g., it would take 5 minutes to make a yasnippet to automate the creation of this file
+- It’s frustrating not to be working on the method; in the past I’ve been interested in design documents; for me, I’d now like to spend more time working on the tools.
+  - E.g., our calendar has been presented as an ad hoc solution, but we need to get back to actually building solutions
+  - This makes me feel like EmacsConf is better working
+  - JC, RP: This echoes things about building from demo mode to production (above).
+  - RP: Setting up CRDT will take time, but it’s worth it to go beyond the minimum working version that we have now.
+*** Joe: For PLACARD workshop I was mainly thinking that we should have some moderator
+- Ray: My role is still in these workshops just listening and contributing when I can
+*** Noorah: Let’s clarify our roles a bit more
+- Talking about responsibilities and areas that we want to work in, what we are willing to commit to (or can’t)
+- Also, concretely, how many HOURS do we want to invest IN THIS GROUP; what’s the workload that’s required for each person
+  - JC: Gush to this b/c it can be unclear when we talk about "investment per project"
+  - RP: This past Thursday, yes, there were project things there, but there were also some timely overlapping topics (to do with networking with people who we just met); it would make people’s heads explode if we do too many things in one meeting, so if we have 6 things pending we might need to distribute them across 2 or 3 meetings
+- Sometimes we might have to pitch in more than others (close to deadlines)
+- So, let’s be specific about what we want! And expect.
+- Each person can talk about side projects and how they think ERG can work forward...
+*** Ray: Where I see some of the strife coming from is the disconnect between what we’re aspiring to do, and what the resources we have in hand are
+- That could include our time, or others we know
+- Or technical infrastructure
+- If we close up this gap, things could go smoother
+- If we’re not in the position to do it now we may have to do something smaller and build something smaller
+- E.g., are we talking about a little workshop (with 5 people) or a big thing (with world experts and funding)
+** Round two: reflection
+*** Leo
+- There was a raise of pressure w/ us recently 
+- EmacsConf involvement is still high
+- PLoP and ERG@EmacsConf presentations are now being closed 
+- Recently spent 3 hours with QH on the new TLS stuff
+- So that spent 4 hours on Hyperreal in the week, and 1 of these was spent thinking about moderation stuff; in the case of thinking about problems, I want to fix them
+  - JC: How to fix this?  E.g., work at the System level?
+  - NA: Why do you feel you need to do this?
+  - RP: Maybe it’s at the Myth level!
+  - LV: Hopefully it’s mythical and not tragical hero
+**** Thinking:
+- Closing books is great, we have outputs!
+- I’ve been the chair since we started!
+- I could take an element of success from this which feels good...
+- I feel rather like Atlas holding the world, but there’s an emptiness in this group that I’m trying to claim elsewhere (e.g., with QH, SC); plenty of things are trying to rush into this
+- Meanwhile I have been able to put in the clock-time to prepare for the meetings
+  - JC: This is a place where technology could get involved if /everyone/ was contributing to an agenda asynchronously
+- RP: This relates to a concern which is, yes we’ve closed books, but there are follow ups.  Also, because we were focusing on these things, there were other things I had been putting off (e.g., I also wanted to get back to Hypernotebook stuff that I hadn’t been working on!)
+  - If I don’t want to drop the Workshop and simultaneously do things like Hypernotebooks, how do I allocate time between them?  Which do I do now?  Which do I leave for later?
+**** Last thing from my psyche?
+- In the wake of EmacsConf, I’ve done a great task...
+- Finished killing the hydra!
+- The problem is that in this comparison, I do have another labour that’s meant to be done... but I do have another one, getting a job!
+  - RP: Aside: In "The Gift" book they make a careful distinction between work and labour!
+- I realised that I’m really good at scripting stuff and solving problems (variously); this was a massive boon to my self-esteem, and I saw that I could do stuff and be happy about this.  Whereas the month of studying in November felt very disconnected from anything practical.  So I want to read about practical python applications.  And similarly, the work with QH is completely practical; and I feel amazing doing this.
+- The problem?  If I’m being hailed at doing a good job at moderation, OK, but I need to improve at doing other things.  As a result, I’d like to (v) "pet two birds with one stroke", by having someone else be the chair
+- With the subconscious: I need material proof that the meeting can go well w/ some other moderator, and I’d like us to think about it quickly.
+**** How could we do this for the next two meetings?
+- LV: Would Noorah be willing to give it a shot next week?
+- NA: Yes, could you walk me through the process?
+  - We could find any time on Tuesday, Thursday, Friday?
+  - Prefer to have it be Leo and Noorah, go into Leo’s office on Discord
+  - JC: As a fall-back plan (if Noorah doesn’t like it) we could invite Greta!
+  - RP: We don’t have to assume/decide who it is now, and as far as Greta; but since we do have guests, the question is whether we will have them as guests!
+  - LV: Maybe not such a great idea to invite an external person to be the chair!
+  - JC: OK, let’s make an alternative backup plan
+  - NA: I’m a terrible note taker...
+**** So, roles...?
+- You’re not volunteering for chairing because of being poor at notetaking?
+  - But ideally everything would go well w/o any one of us being the weak link!
+- So, I’d be similarly disposed to think about the note-taking; everyone can do any of the tasks
+- In principle anyone could assume any one of the roles, anyone could chair the meeting, could take the notes!
+- LV: So let’s decouple the people and the roles
+- RP: We’re capable of improvising, and we’re not inflexible with different roles!
+- LV: I’d say on behalf of us all that we’re all capable people.
+  - RP: We can definitely move on with the roles
+- Can we improvise and work on the solutions and get to a good point?
+  - Following through with things like X (X = Calendar?)
+- JC: Maybe what LV is saying is that there’s a rôle that noone has been filling, viz. writing scripts and improving our workflows
+  - LV: Very concerning for me to not follow up on improving the tools
+- LV: In France with an NGO they always have Treasurer, President, and Secretary.  These are enshrined as "existing conditions" of the NGO.  So, any ‘O’ would really need this.  /With Emacs, we’re needing technological assistance to build towards something./  And we all have that!  When it comes to Org Roam, note taking, directly helping people... I’ve been doing the most of this (w/ my thirst and knack for this).  This is the final layer of my deconstruction of this now.  So, I’d like to work on the tools, the agenda, the way we take notes, the ways we make those meetings more efficient; I think I need to make myself cognitively available for the technological task; and in addition I’m eager to create a meeting for package developers in the near future, so that I can think about this as a proper project.
+- NA: Yes; maybe if one of us takes the role of leading chair, it will give you the space to think about the technical solutions!
+- RP: And indeed I’d also like to get back to package developing.  So, with Workshop, ERG, package developing... that would be another level of involvement for me personally.  In particular Hypernotebooks have been on the shelf for a year b/c of working on other things.
+- JC: The format of this conversation has been good!  It’d be good if we could reprise (?) this conversation
+
+
+** Discussing potential new chair + future of Emacs Research Group
+- JC: I’d be interested to see a further discussion of these kinds of points from other people!
+- There’s a structure, and a time, but what exactly are we thinking about in the next year or even the next few months?
+- Maybe going over how much time we have + want to invest in these things.
+- LV: I want to invest energy in getting the job and also in the package-developer meeting.  So, I spend on a usual basis 4 hours working on ERG-related things per week (including the 2 hours of the meeting, 30 minutes of preparing the notes, and 1 hour thinking about ERG things and ramifications!  If I take away the time /conceptualising the agenda/ then I could spend that time on the tools).
+- RP: I don’t know enough to give a definite answer, but let’s say, leaving aside mathematical and natural sciences; but I can I allow time for Peeragogy, PLACARD, let’s say 5-10 hours a week; and another 5-10 hours for Emacs-related things (Logic programming, meeting with CRDT), whether it’s during the meeting or during the week, or under some other heading.
+- NA: I can commit 10 hours, 4h for meetings, 1 hour for preparing for the Saturday meeting, and 5 hours for work on the project
+- JC: Some of the ERG stuff could be considered part of my day-job at Brookes, e.g. the grant proposal I’m working on with Abby, and writing in NA and LV into it.
+  - I liked what LV said about /conceptualising the agenda/.
+  - I think a more interesting question compared to “how much time I’m spending working on ERG” would be to specify it with “/effective/ time” because I spend a lot of time on the side thinking about the stuff we do.
+  - I’ve also been thinking about it in terms of the greater PAR of my life.
+- NA: There’s the hourly commitment and the side-project commitment, e.g., my role as a chair, that’s one project-level commitment; and in PLACARD that’s another project-level commitment. So for example, JC seems to be wearing too many hats! Within this group, choosing 2 or 3 projects that you can handle is enough!
+- RP: It’s easy to say this goes in the other one, if we don’t look at them all together; and this is where the consistency can fall apart!
+*** Thought experiment: hypernotebooks
+- That’s development and research in Emacs
+- RP: If we’re talking about the developer meeting, the question is: which research in Emacs belongs to ERG?  Working on this thing?  Or the more social side?  A lot of my work would be both.  Part of it would be development, reading code, math, room for user experiences; even if the two users are Cameron and Ximo...
+- JC: Could be a similar success story to our experiences with CRDT?
+- NA: I was thinking about how you might just sit and listen with PLACARD; would that be the same thing with me where we are talking with Hypernotebooks?  Which kinds of participation are a good use of our time?  If you’re meeting with QH about CRDT, I don’t personally see how I can contribute things, but I can (later) start using CRDT and that’s enough
+  - RP: A quick answer is, inter- or transdisciplinarity; in the PLACARD meetings, you know more than I do, but I’m interested, so, though I won’t become a policy expert but I do learn something, if I listen; and if I know enough to follow and ask questions; this opens room for serendipity.  A good example is the PLoP paper, but eventually I had some insights that the experts who would in principle have written the paper. 
+    - [JC: this can be a feature of a newcomer!]
+    - Overwhelm isn’t coming from being in these meetings but from having too many commitments
+    - JC: Maybe then if we only have 2-3 projects, then we can present them here as if there was no background
+**** OK, idea
+- 1st hour: Recap of the projects.
+- 2nd hour: What do we need to do next?
+- LV: What you’re propounding feels like a good way to address this "crucible"; e.g., "CRDT now supports Org Roam and we can experiment with it"; doing it this way would allow everyone to know what everyone else is doing, but in a more focused fashion, and in a way where we’d know that these things could help us in other projects.
+- NA: Another discussion would be to schedule reflections on a month-to-month basis, not a week-to-week basis, to assign the first hour to be reflections and next steps; if we’re doing to do this then we have to organise things related...
+- We’ve got tech solution of CRDT, we’ve got transdisciplinary method of PLACARD; Ray want’s to restart Hypernotebooks... if these are the 3 we have, then in a month we have 4 meetings, so we could have one week where we only reflect and talk about Hypernotebooks, another with CRDT, and another with PLACARD.
+- LV: Making one-hour topics w/ revolving windows... but what if I am working 2 hours straight on CRDT?  Can I field something?  But what if the feature being implemented...
+- The CLA hasn’t been too disruptive for our workflow on topics + free-ranging discussion
+- Also thinking about different chairs and styles, and we win when more people are brought into the chair; we might look at things in a different way
+  
+* PAR                                                                  :10m:
+*** 1. Review the intention: what did we expect to learn or make together?
+- Leo moving to ‘vice-chair’, freeing up mental space, maintaining the level of flexibility as a group that has been flexible for us
+- Working on the tools is another important way to work towards flexibility
+*** 2. Establish what is happening: what and how are we learning?
+- Thinking about the roles that we take on in the meeting
+- LV: At EmacsConf, when I wasn’t talking, I was doing things in the background
+- RP: We agreed to meet with QH one day a week on some other topics, hoping to have Joe join this so we can start meeting this day (could take over / mesh with the logic programming stuff)
+*** 3. What are some different perspectives on what’s happening?
+- "Thanks" is appreciated as a way to socially lubricate the conversation
+- Everyone’s overworking, COVID is starting again
+- RP: Thank you to all of you for what you’ve added; and in answer to the question about the PLACARD workshop, important roles aren’t always active roles, sometimes a neutral observer comes in when the active people don’t see things.  Even if I don’t know much about a topic I don’t feel it’s a waste to show up!
+- NA: Yes; I want us all thinking about Season One in terms of production, so having more structure, and being in the right mental space so we don’t go all over the place.
+- JC: if we want to organise it as a season, then we might need a story arc, not just organising things as an ‘ad hoc’ improvisation every time
+- LV: If there’s something I’m less good at but still the only one able to do it... then I should do it!  E.g. a maintainer’s meeting would help many maintainers, and we have all the tools to do this.  And I really want to experiment with this.  But I don’t want it at the cost of flexibility; though, it’s always hard to run a meeting and can be clunky; but I want it to be done w/ a bunch of care.
+- LV: Thanks for letting me field this!  And willing to run behind you to help the next phase!
+*** 4. What did we learn or change?
+- Flexibility: e.g., if a “CRDT” isn’t ready until next week, we could just move things around
+- If we kept 30 minutes for checkin, we’d have plenty of time to talk about latest changes for CRDT and then go on to a seminar + discussion
+- Leo has had a high level of fatique from November through now; can look forward to similar work surge with future dayjob
+- This sort of fatigue and role change is the cardboard kaiju we have been preparing for
+*** 5. What else should we change going forward?
+- Noorah as chair for next week; keeping in mind that this is an experiment
+- Let’s remain honest with feedback!
+- LV: The best way to address not-feeling-responsible for things, would be to to be responsible for things where it’s valued and have others replace me in areas where I’m replaceable
+
+* Tentative agenda for next week
+
+** Scheduling
+- Will organise meeting w/ LV for next week
+- Our next meeting for the year would be Saturday the 18th then take 2 weeks off, and come back on January 3rd?
+** Reflecting on the EmacsConf talk
+** What do we want to do with Greta?
+
+* Check-out
+
+Thanks for the meeting have a good weekend!
+
+Mary T. responded and said thanks, so we’ll see each other Monday Tuesday
+
+

@@ -4,7 +4,11 @@
 #+FIRN_UNDER: erg
 # Uncomment these lines and adjust the date to match
 #+FIRN_LAYOUT: erg-update
+<<<<<<< HEAD
 #+DATE_CREATED: <2021-Dec-11 Sat>
+=======
+#+DATE_CREATED: <2021-12-11 Sat>
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * 11 December 2021  — Emacs Research Group
 
@@ -120,6 +124,7 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 
 *** Current status
 - Leo does have this in his CV
+<<<<<<< HEAD
   - JC: Could update the roles for 2022
 *** Options
 - High-level thinking (free software)
@@ -128,10 +133,36 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 ** WHAT SHOULD WE SAY TO THE PEOPLE WE MET AT THE EMACS CONFERENCE?   :10m:
 - What do we want to do with Greta?
 
+=======
+  #+begin_quote
+  Rôle: Co-founder, Past Chair & Member
+  - Think tank on the future of the Emacs platform with weekly sessions.
+  - Emphasis on the development of tools and methods for collaborative e-Research.
+  #+end_quote
+*** Options
+- High-level thinking (free software)
+- vs Podcast (which would say nothing about what it’s actually about)
+- Do the subprojects that we do end up underneath an Emacs Research Group umbrella, or is it just a linked project?
+- We did have a talk about "How we /describe/ ourselves" at EmacsConf itself so we can refer back to that for descriptive text!
+
+** WHAT SHOULD WE SAY TO THE PEOPLE WE MET AT THE EMACS CONFERENCE?   :10m:
+- In particular, what do we want to do with Greta, Mehmet, JP?
+- Send them something so that they know we are still interested...
+- If we have something more concrete we can come back to them in the new year.
+- Don’t want to make it a "let’s get in touch" email that doesn’t have any substance
+- JC: Could invite Sacha and Amin as well?
+- RP: Since JP is interested in Peeragogy could we invite him along for next week as well?
+- LV: Better not to do it last minute, but we already have stuff for next week which is to schedule some other things... if we did this last minute planning for next week to compensate for previous poor planning... the curve had been raising, raising, maintaining... the volunteers want to keep assisting at that level!  But we have to separate the volunteers from core organisers.
+  - If we can’t fructify the volunteers, OK, at least we tried!  We can’t explore everything.  It would be better to lose the volunteers than risk the cohesion of our group.
+- Could send a specific date like 22nd of January and a little about what we would do (to follow through from our talk)
+- LV: We want planning but not clunkiness... I’m happy to volunteer to liaise with them sooner rather than later!
+- Greta might be a guest for PLACARD as well, let’s discuss that on Tuesday
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * PAR                                                                  :10m:
 
 *** 1. Review the intention: what did we expect to learn or make together?
+<<<<<<< HEAD
 
 *** 2. Establish what is happening: what and how are we learning?
 
@@ -140,6 +171,25 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 *** 4. What did we learn or change?
 
 *** 5. What else should we change going forward?
+=======
+- High level: see where we are for the end of the year
+- Practice chairing by Noorah!
+- Still after the conference so right before the new year, still thinking what are the new things to do, so it is in an intermediate stage
+*** 2. Establish what is happening: what and how are we learning?
+- NA: We’re getting there from a chairing standpoint
+*** 3. What are some different perspectives on what's happening?
+- JC: Chairing has gone well!
+- JC: Happy to see that LV has more time to involve 100% of his brain to those meetings.
+- LV: Comments about the process: Noorah did a great job, though I don’t feel like I’ve been listened to about weekly organisation (e.g., I didn’t field); scheduling is in a bit of a shambles, we end up the session w/ a point being cut short, e.g. "let’s discuss on Tuesday"...
+- LV: we should have been wondering "How best to contact Greta"?  Was it for ERG?  Confusion about how to get them mobilised is not adequately addressing how to get people working with us.
+  - LV volunteered his time to induct Greta as an ad-hoc solution if need be.
+- (RP: But this was for PLACARD, and a part she could play there!; and JP was multiply interested in Peeragogy, this would be different from contacting them all three for the meeting here.)
+*** 4. What did we learn or change?
+- JC: LV shared audio-concerns about the audio-quality, and I wonder how we may address it in the near-ish future.
+*** 5. What else should we change going forward?
+- JC: If we could get high-quality footage in the coming ≈6 months, that would be a nice goal...
+  - LV: A good first goal would be not to cause physical pain, so let’s get that sorted sooner
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * Tentative agenda for next week
 
@@ -148,9 +198,19 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 * Check-out                                                             :5m:
 
 ** NA
+<<<<<<< HEAD
 
 ** JC
 
 ** RP
 
 ** LV
+=======
+- Feels good about her first meeting as a chair!
+** JC
+- Off to concert.
+** RP
+- Thought about the passive rôle
+** LV
+- Showed off his nice collar.
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
