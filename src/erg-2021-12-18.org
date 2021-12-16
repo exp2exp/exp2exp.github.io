@@ -1,0 +1,89 @@
+#+TITLE: 16 December 2021 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2021-12-16 Thu>
+
+
+* Tech Tasks
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO All members join crdt session for collaborative note-taking :LV:NA:JC:RP:
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+
+** JC
+
+** RP
+
+** LV
+
+
+* Agenda (Peeragogy)
+
+** Peeragogy (show-and-tell)
+:PROPERTIES:
+:Effort:   0:30
+:END:
+
+** Peeragogy feedback
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (ERG)
+
+** Roadmap
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Schduling
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+
+*** 2. Establish what is happening: what and how are we learning?
+
+*** 3. What are some different perspectives on what's happening?
+
+*** 4. What did we learn or change?
+
+*** 5. What else should we change going forward?
+
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+
+** RP
+
+** LV
