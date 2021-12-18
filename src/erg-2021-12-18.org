@@ -9,7 +9,7 @@
 
 * Tech Tasks
 
-** TODO Don't forget to record the session!                             :LV:
+** DONE Don't forget to record the session!                             :NA:
 
 ** TODO All members join crdt session for collaborative note-taking :LV:NA:JC:RP:
 
@@ -19,13 +19,31 @@
 :END:
 
 ** NA
+- On Emacs, for New Years please!
+- Want to make sure we are all prioritising what we are prioritising, and that we’re at approximately the same level of commitment
+- What are your priorities, and pick the top three...; what do you want, what can you realistically commit to in terms of energy, time, effort; which make you more excited.
 
 ** JC
+- Come from an interesting meeting with Charlie and Charlotte
+- Good news from Abby about some funding
 
 ** RP
+- Stressed w/ getting a usable computer, having 50 hour weeks for a while
+- Has something for ready on logic stuff to share on Monday w/ Joe & Qiantan
+- Feeling high pressure to get things going with Emacs and there’s a big stack of things that are on top
+- Care about workshop, peeragogy, and is busy w/ mathematical biology at the same time
+- =1 ... | 2 ... | 3 Logic programming | 4 Peeragogy, Erg, Workshop=
 
 ** LV
+- Spending the week working on his shoulder, starting finally to get some repetitive stress, and doing strength and flexibility work in preparation for physio
 
+** CD
+- Excited about the progress on the Peeragogy pamphlet and impressed with submission
+
+** CP
+- Keeping things percolating along (Emacs, podcast)
+- Have been finding previous things and tagging Leo and Joe on Twitter
+- We all have a lot of business (doubt anyone is less busy than I am!)
 
 * Agenda (Peeragogy)
 
@@ -33,6 +51,271 @@
 :PROPERTIES:
 :Effort:   0:30
 :END:
+
+*** Peeragogy Pamphlet
+- LV: ‘Pamphlet’... if we have mini-guides which are subsets of patterns to be shared with businesses, NGOs; and podcast which is peeragogy in practice, seeing some of the application... maybe "Handbook" doesn’t reflect the encyclopedic nature; in liturature there are lots of Handbooks (e.g., of Wilde); but it seems that the Handbook is in cognitive dissonance.  It tries to be dense about what it proposes; but maybe we need to split it up into several different kinds of thing (e.g., resource guides)
+  - ‘Handbook’ is generally more with regards to second-hand literature about a given author; not an ‘Anthology’ of the works of the author
+- RP: Usually when there’s a handbook w/ literature or chemistry, they are 1000 page comprehensive volumes, meant mostly as reference, you wouldn’t read the whole thing but refer to it as needed.
+- JC: How do we manage those different entities (handbook, podcast) in a way that is cohesive?  How do we handle the different types of interaction from people with different levels of involvement.
+- CD: Thinking of disparate groups, progress of things... reminds me of "Jerry’s Brain" and how he wanted to have different brains out there w/ different software tools communicating w/ each other
+  - CP: I like that, I had an account on the brain... stuff like that takes a lot of time
+  - CD: So... it doesn’t have to be this software or some other sort of software that can interoperate (especially if it’s a low-fi way like an email); just some links so it’s ont
+
+- RP: Handbook might evoke the wrong thing
+  - JC: Remembering "Anarchist Cookbook" from middle school
+  - LV: Powerful taxonomies make for helpful memories. In Org Roam we started with two types of notes (things you could write on your own, and things taken from the literature... are these "literature notes"? "reference notes"? ... "evergreen notes"?  "notes that still need to be incubated"?  These latter terms can make more on an impact on your memory.
+
+*** ERG patterns
+**** Peeragogy Patterns @ Emacs Research Group
+
+The aim of this document is to provide an opportunity to review some
+of the Peeragogy Patterns, and to adjust them to match their concrete
+application.
+
+Here are the patterns we’ve touched on in the Emacs Research Group.
+They are written here in a non-standard "Example, Problem, Solution,
+Context" format.
+
+**** ROADMAP: ERG EXAMPLE
+
+- *Maintain plans for the next six months*
+- Focus on the first month!
+- Get CRDT running for everyone
+
+**** ROADMAP: PLACARD EXAMPLE
+
+- *Maintain plans for the next six months*
+- Focus on the first month!
+- Speak to potential interview subjects like Greta (etc.)
+
+**** ROADMAP: PEERAGOGY EXAMPLE
+
+***** ROADMAP
+
+ - In order to collaborate, people need a way to share
+   current, though incomplete, understanding of the space
+   they are working in, and to nurture relationships with
+   one another and the other elements of this space.
+ - Building a guide to the goals, activities, experiments
+   and working methods can help newcomers and old-timers
+   alike understand their relationship with the project.
+ - The discussants or contributors who collaborate on a
+   project have different points of view and heterogeneous
+   priorities, but they come together in conversations and
+   joint activities.
+
+****** Presentation workflow
+- LV: Getting a litle distrated by watching you type the example
+****** Next steps workflow
+- LV: This feels more like a wiki than a handbook!  When you explore an area, you document it
+  - Calling this the handbook happened through Howard’s Berkeley lecture
+  - Changing it would be fine
+****** Further
+- NA: For e.g. "continue developing our methods" what does it mean?  Do we keep developing the template? Add more literature?  This could be another way to "refine"; we need to define what it means to refine; and what it means to improve something.
+- LV: This reminds me of the taxonomy; some we call patterns, some call actionables; what you seem to be volunteering is a review of this; this would have been the point had we had a bit more time; this could be the input among other inputs to streamline what we’re trying to do and the reason why we are meeting.  "What is ERG?" is an endless ontological question but we have some parameters to play with here.  What our expectations are... we might be on our way to "Draft Season One".
+  - [LV:JC] We come up with ideas, we draft thing, but it’s also different from a Writer’s Room
+- RP: "How is a pattern used?"  There are different ways, e.g., a design pattern, which you might use to solve a particular design problem; or we made it part of a vocabulary to help us recognise things; we have done these all, and a variety of other things w/ the peeragogy patterns.
+  - So, what are the ways we have used the patterns?
+
+****** Details could percolate in here from anyone who has deployed the ROADMAP pattern...
+******* Peeragogy example here
+******* Placard example here
+- Interview guests who know about patterns!
+  - "I could could be a good guest!" — Mary
+******* ERG example here
+******* Logic Programming example here...
+- Discuss fundamentals of LOGIC PROGRAMMING w/ QH JC
+
+SCRAPBOOK: ERG EXAMPLE
+
+- *Process the following points*
+
+***** SCRAPBOOK
+
+ - Not all of the ideas we've come up with have proved
+   workable.
+ - In order to maintain focus, is important to "tune" and
+   "prune" the things we give our attention to.
+ - We have maintained and revised our pattern catalog, and
+   we are achieving some of the "What's Next" steps
+   associated with some of the patterns.
+
+FORUM: ERG EXAMPLE
+
+- *Develop our intention-based workflow*
+- We had several things like "Category theory" or "Swimming Stuff"... but if we created a new channel per topic, it wouldn’t enhance coherence.  It would create many (comprehensive) individual topics... but the difference between ‘#linguistics’ and a ‘#language-lab’ is that the latter gives more density.
+  - The idea here is taken from a Princeton gathertown, where all the panelists got into the gather town and people could get into the space and interact with them.  (E.g., recreating "lunch", but also recreating some micro-aggressions where one panelist gets all the attention and others are being ignored...)
+  - I brought similar ideas onto Discord, and in a ‘#computer-room’ you would talk about things you do with computers, but also computer science, and stuff.  This had some plurality but didn’t lead to proliferation.  The room could be used for something else as needed
+
+***** FORUM
+
+ - How do we find common ground to speak about things?
+ - Create an empty, neutral space where people can come together.
+ - This empty space should be in communication with as much
+   of the rest of the space as possible.
+
+COOPERATION: ERG EXAMPLE
+
+- *Mesh with other ongoing activities elsewhere*
+
+***** COOPERATION
+
+ - Moving to a well-formulated problem requires concerted
+   effort.
+ - Coordinate effort that involves the concerned parties.
+ - Part of this is finding partial solutions elsewhere, and
+   places where you can contribute.
+
+COMMUNITY: ERG EXAMPLE
+
+- *Identify potential stakeholders in Emacs Research*
+- *Spec out the Emacs based ‘answer’ to RStudio, Roam Research*
+
+***** COMMUNITY
+
+ - We can’t expect everyone who has interesting things to
+   say to come on our podcast; besides, they might have
+   more to teach us in context
+ - Interact with some other communities on their home
+   turf and report back
+ - Groups of a certain size with porous boundaries
+
+A SPECIFIC PROJECT: ERG EXAMPLE
+
+- *Identify stakeholders in the kind of activities we can support*
+
+***** A SPECIFIC PROJECT
+
+ - It's easy to think about issues that matter: there are
+   many of them.
+ - If you /are/ able to get concrete about something to do,
+   learn, and achieve, you move from thinking about a topic
+   to becoming a practitioner.
+ - You find yourself interested in or concerned about
+   something, but you only have a vague idea about how it
+   works or how you fit in.
+
+WRAPPER: ERG EXAMPLE
+
+- *Identify venues where we can reach these different stakeholders*
+
+***** WRAPPER
+
+ - In an active project, it can be effectively impossible
+   to stay up to date with all of the details.
+ - Someone involved with the project should regularly
+   create a wrap-up summary — distinct from other project
+   communications.  In the long run it’s valuable if more
+   than one person practices this role.
+ - You are part of an active, long-running, and possibly
+   quite complex project.
+
+PAPER: ERG EXAMPLE
+
+- *Create some publication to plant a flag for our group*
+
+***** PAPER
+
+ - Develop thinking along a number of complex and
+   somewhat novel directions
+ - Write one or more academic papers to a high standard,
+   suitable for discussing with specialists
+ - With specialist topics there are discipline-specific
+   communities who are ready to discuss and give feedback
+
+CONTEXT: ERG EXAMPLE
+
+- *Survey related work*
+
+***** CONTEXT
+
+ - The bigger challenge is always: to manifest meaningful
+   relationships.
+ - That happens through communication.
+ - And always within a bigger context.
+
+WEBSITE: ERG EXAMPLE
+
+- *Product and business development plans for a multigraph interlinking service*
+
+***** WEBSITE
+
+ - The key informatic challenges are those of accessing
+   and interacting with information
+ - This means that when we write we’re not only posting
+   updates but also working to make the material a two
+   way street (or multi-way roadmap!)
+ - Our project exists in a context of readers, viewers,
+   contributors, and others who might want to interact
+   with our materials
+
+ASSESSMENT: ERG EXAMPLE
+
+- *Assess what we’re learning*
+- *Continue to develop and refine our methods*
+- *Keep doing PARs and CLAs*
+
+***** ASSESSMENT
+
+ - You’ll have to find ways to figure out what constitutes
+   progress.
+ - Your mind and body will tell you when you’re training
+   and learning, and when you’re overdoing it or treading
+   water.
+ - Confer with others to get their assessments, which won’t
+   be obvious to you unless you ask.
+
+***** Summary
+
+Here’s how the "Emacs Research Group" itself can be described in pattern form:
+
+***** EMACS RESEARCH GROUP
+
+ - If we tackle big enough projects, this will bring with
+   it the need for collaboration.
+ - Text editing can become part of a system for addressing
+   large-scale existential problems, by expanding the
+   frontier of what we edit.
+ - The Emacs Research Group has made progress on this topic
+   since we started with the raw themes of *Research on/in/with Emacs*
+   back in December 2020.
+
+***** Other Peeragogy Patterns
+
+We had less to say about the following patterns, which are indexed at https://peeragogy.org/top
+
+- PEERAGOGY
+- PROBLEM
+- HARD SCIENCE VS SOFT SCIENCE
+- SOLUTION
+- CONVENING
+- NEWCOMER
+- ORGANIZING
+- HEARTBEAT
+- REDUCE, REUSE, RECYCLE
+- ASSESSMENT
+- CARRYING CAPACITY
+- SHARE
+- THE PEERAGOGY PROJECT
+- PROJECT
+- COURSE
+- PODCAST
+- HANDBOOK
+- TECHNOLOGIES
+- WIKI
+- SOCIAL BOOKMARKING
+- REALTIME
+- CONNECTIVISM
+- CASE STUDIES
+- FORMAL PATTERNS
+- SERENDIPITY
+- RECOMMENDER
+- DIVERSITY
+
+**** Discussion
+- JC: What is our intention for today?
+  - JC: I thought that the handbook would be a place for us to discuss, but it wasn’t happening.
+- JC: How do we like the Peeragogy patterns?  Do we still want to use them?  Do we think they still make sense?  Pinging back to Charlotte’s comment about the practicality of it all
 
 ** Peeragogy feedback
 :PROPERTIES:
@@ -50,29 +333,114 @@
 :PROPERTIES:
 :Effort:   0:20
 :END:
+- NA: JC has first talked about this, mentioning that we’re thinking about 6-month revolving windows.
+- NA: I want to think more concretely about who we are as a group: our mission(s), how we envision them as a /group/ [not as project]; that way, it will be like our roadmap of how to conduct our meetings, start projects, moving on from them, when happens in term of conflict or /confusion/.
+- RP: If I’m going to participate, what do I need to do, or what are the prerequisite?
+  - I can put the time showing up for the weekly session, but if there is other set-up required, it’s probably not going to be doable within the next 3 months.
+  - NA: What are the prerequisites to joining those meetings, then?
+  - JC: This feels related to Charlie’s point from earlier; we might have a few software requirements, a few other /norms/ that we adhere to for not interrupting others.
+- JC: If /this/ is a roadmap, what territory does it span?
+- NA: How do we conduct /this Saturday meeting/?  What is included within it, and what is not?
+  - This is stemming from the fact that we’re all doing different things, and we dump multiple things onto those meetings, which feeds into a feeling of /indirection/.
+  - JC: One of the best things about the meetings this far was that the chair was coming with an agenda, impelling a sense of direction, albeit too-pluralised
+  - [vs "our objective is to get to Paris and then to Reims"]
 
-** Schduling
+- LV: There are "Why we meet" and "How we meet" questions.
+- "If I can’t meet the bar to meet the meeting..."
+- -JC: What is the /bar/ to joining those meetings?  What are the /norms/ (which seems to be an inherently Buddhist terminology/concept).
+  - “A nice norm from Peeragogy is that: ‘we’re going to come at this time, and you’re welcome to join!’”
+  - In Peeragogy, we thought so much about norms, positing that they’re a net benefit.
+  - "Any edit is an improvement or intends to be"
+  - Norms in a practical sense that impacts what actually happens in our activities.
+  - CD: Assuming that the edit is an improvement has been very helpful. Also, w/ confusion / conflict: there’s a peeragy podcast episode about critical conversations...
+- JC: If we’re trying to clear up everything from the different overlapping meetings, that adds /massively/ to the level of confusion.
+  - JC: NA had made a nice definition for the PLACARD workshop, optimising the definition around “our meeting here and then /is/ the workshop” (this is a start)
+  - LV: if you’ve accumulated a lot of cruft, you could just clear the table and throw out the playbook... get it back... and see what is going on.  We could do something similar with ERG; because we have more history there would be a larger playbook.  We started a discussion WRT patterns... but... we may be getting a bit lost into conceptual aspects; norms as a frontier between how and why... but hereforth, discussing what the norms are.
+*** Norms
+- NA: we use emacs, we all have this in common; it’s fun to do everything in Emacs even in these 2 hours.  This is part of the participation
+- JC: Second that; it’s quite funny to meet on Saturdays for this!  This is light, enjoyable work.
+  - LV: Not a Church of Emacs but...
+  - RP: "Not a cult (tm)"
+- NA: Another is the art of collaboration, the art of different backgrounds coming in for a shared idea or project... this is a strong norm, we’re here to collaborate
+- LV: I was going to go back to what Joe was saying in terms of light, enjoyable work; light/work is somewhat in tension (labour vs work, toiling?); for me, exploring it is about "making progress that is vaguely professional" and "the mode of being that should not be taxing".  Work on its own is taxing; it’s something we have to do to sustain your existence, and you (may) damage yourself; light-work ... it’s trying to cut off the element of strife, we discussed since June/July.  Before that it was excitement only.  The Song of Innocence may have been lost, but it might be distilled into a Song of Experience that preserves everyone from generating strife for themselves and others.
+- RP: For me, having to do system admin, reset computer isn’t light work; I can’t do it on a quick timeline of a few weeks. Part of it is to do w/ the other things that have been piled up since June.
+- LV: As a member of the group, backlog could take 3 months, but what about the 10 minute version that would get ≈80% of the results?  What would actually solve the issue?  E.g. microphone patching would fit in given sufficient space; you have proficient people who can bring it down from weeks to days, or weeks to minutes with collaboration dedicating our mind to it.  It’s fine if it’s only one problem, we go on w/ our day, but if it starts piling up and can last months, then it seems mindboggling; we all have stuff to do but it is our own responsibility to make sure we have space for the meetings we do attend.  If you come from a position of strife you have to wonder was it a move forward?  Or backwards?  Or no step at all?
+  - I’m frustrated by apologies w/o follow-through that would allow collaboration to actually resolve the problem. You couldn’t dream of a better team of people to walk through the process of "collaborative work with Emacs": we are writing that playbook.  We are developing tools, designing =org-meetings.el= to make this for everyone.  Your inputs are valuable here, but can be undermined by not ironing out the kinks.
+- RP: The tech problems have pre-requisites. I would appreciate help if I can get it (like I appreciated help w/ email).
+- JC: Tech problems have prerequisites, and LV is a specialist on those issues, and could potentially help on this.
+  - JC: Restorative justice idea
+  - LV: I can justify this if I can guarantee it won’t impact me negatively with regard to my emotions.
+  - Think of it as a meta-process that is running in my mind.  If it is causing emotional damage I have to continually think "do I need to abort the situation"; I’m a little at the end of the rope. I’ll accept the apology for reactivity at the start and offer my own for sternness; but the history here is what makes this sternness accessible as my reaction. It felt to me that the only way.
+- Potential and concrete farewells; if this is the case.
+- LV: I was either reacting sternly or leaving the meeting; but if I am at this point as the past chair and someone taking the notes, it’s a red flag, and I would heavily encourage us to think about this and work on it as much as we can work on it.
+  - RP: To clarify:...
+- JC: I’d heard from LV and NA that the CLA had not been a tool that was appropriated by all.
+  - JC: It feels like this discussion is akin to CLA, but maybe going to its mere meta roots.
+- LV: This is essentializing CLA/PAR workflow "How are things going" and going back to the roots of what it’s supposed to be about.  No matter how unpleasant difficult conversations, it is more effective to have them.  Previously we did get value from CLA, but could have had 3-4 times as much serendipity w/ broader adoptation.
+
+- NA: If I imagine our Saturday meetings: "Light creative ‘work’."  We bring in our creativity, there’s no hard outcomes that we have to get right now, let’s come in relaxed, share our creative ideas, that will help us allow serendipity to happen.  If we come in with hard core tasks... sure we have an agenda to guide us...  can we come together on a consensus of how these
+- JC: What does it feel like to have a philosophy group?  Those Saturday sessions feel pretty close to a symposium.
+- JC: One way we could possibly define ERG (and we don’t have to) is that it’s a subgroup of Hyperreal...?
+  - But presently it doesn’t have such an institutional affiliation.
+  - (NA: ... but clearly we still want to have fun with Emacs.)
+
+- Could relate to longer-term projects
+- What does it mean to be an Emacs group?
+- We could then mobilise research, not on "Emacs", but what is an "Emacs-Group"?
+  - This could bring forward the sociability
+  - Maybe we should try to provide a recipe to people to achieve certain similar things in their week
+- JC: Since Charlie is a relative newcomer to Emacs it would be interesting to discuss later how that’s a limiting factor;
+  - LV: how can we encourage people to work in the meetings to have those social moments where they are sharing?  We do have outputs... how do we make sure that people who have a similar level of proficiency can achieve similar stuff?  There could be a study run based on these methods.  There could be more people interacting with Emacs, sharing the philosophy, in a way that’s visual, understandable, and that makes it obvious that the tools are instrumental to the philosophy... and how good they seem.
+
+** Scheduling                                                           :5m:
 :PROPERTIES:
-:Effort:   0:20
+:Effort:   0:05
 :END:
 
-* PAR
+- Next ERG meeting: [2022-01-15 Sat] (4 weeks from now)
+
+  - Allows time to reflect, bring norms, expectations, and such)
+  - This idea has universal acclaim
+
+- RP: Would be glad to keep in touch meanwhile depending on what’s convenient
+- LV: I will be consumating the break; I’ve been meeting-fatigued, and now feeling better at the pool but still need a break to be able to ask myself questions about meetings and think about them
+- JC: I could look into the technical stuff with RP, Charlie, or whoever would be willing; this could be folded into a peeragogy schedule
+
+- CD: Back to ERG, Noorah offered a long time ago to help with Emacs and I’ve procrastinated about a year on that offer; if I could be "optionally" available in January 15th. As a personal goal I’d like to make Emacs more what I use... and maybe on a slower path towards 2025 full-time usage.  It’s been a good discussion!
+
+* PAR                                                                   :9m:
 :PROPERTIES:
-:Effort:   0:10
+:Effort:   0:09
 :END:
 
 *** 1. Review the intention: what did we expect to learn or make together?
+- NA: We intended to think about the ERG roadmap.
+- NA: We’ve had an interesting+healthy discussion about what is expected.
+  - How do we want to conduct ourselves?
+  - What’s the bar? What’s the intention that we come in on each meeting?
 
 *** 2. Establish what is happening: what and how are we learning?
+- JC: This is the last PAR after, effectively, our first year of working together (as Charlie pointed out).  The massive amount of maturation =:-}= after a year should be acknowledged.
 
 *** 3. What are some different perspectives on what's happening?
+- NA: Creative work is very hard, and isn’t well-fueled by strife
 
 *** 4. What did we learn or change?
-
+- LV: I’d say we are having a distentiated perspective to CLA and perhaps also to the PAR, going back to what they mean, the essence; we headed into this discussion about how and why that in hindsight feels similar to CLA, but which we didn’t say "we are heading into a CLA".  This is trying to mobilise what Charlotte said about taxonomies, they can become a box from which you have to think outside.  The processes are adaptable... I’d invite us to rethink what these are about, and get it towards a more practical core.
+  - Hedging the discussion; you bring a ponderous playbook of "CLA".
+  - Today we mobilised a lot of the same tools but it didn’t feel half as handicapping on the way we were conceptualising things.
+  - JC: Just having that rôle, as per our workshop, it’s just a guideline
+- RP: This sounds like the issue w/ handbook where we have attached a specific meaning to the word in this group that might not mean the same thing in other groups
+- LV: "Common ground" is essential!! (JC: !!!)
+  - There might be an offset between the map and the territory
+- RP: The difference in perspectives and priorities may not always align
+- LV: Since we’ve been diligent in reviewing regular cycles, maybe we should review the common ground
 *** 5. What else should we change going forward?
+- JC: Volunteers one more CLA for January 15th
+- LV: Because of all the pompousness... it comes to mind with the Monty Python Grail priest who hits themselves in the head.
+- NA: could we have images for each layer, play with it... it doesn’t have to be exact.
 
-
-* Tentative agenda for next week
+* KILL :-) Tentative agenda for next week
 
 
 * Check-out
@@ -81,9 +449,17 @@
 :END:
 
 ** NA
-
+- Gonna go do laundry, clean up the house.
+- Having friends over tomorrow
 ** JC
-
+- Still feeling under the weather after the booster.
+  - Cancelled the trip in the US as a result of it
+  - Might go elsewhere instead, though!
 ** RP
-
+- Not plans to go anywhere for the next few months, have a lot of things to do, hoping to fix the computer as well, can’t promise, and will ask questions as needed, w/o imposing.
+- Wish you all best, and look forward to talking next
+- Happy holidays
 ** LV
+- Big brother happens to have covid, and is sniping this side of the family, it’s going to be a lean Christmas; looking foward
+- But beyond apalled that the Normand pool is closing 23rd, 24th, and 25th!  Will be raising the dumbbells in ire!
+- Will swim in the Channel if push comes to shove
