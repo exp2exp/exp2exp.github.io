@@ -4,7 +4,11 @@
 #+FIRN_UNDER: erg
 # Uncomment these lines and adjust the date to match
 #+FIRN_LAYOUT: erg-update
+<<<<<<< HEAD
+#+DATE_CREATED: <2021-Dec-11 Sat>
+=======
 #+DATE_CREATED: <2021-12-11 Sat>
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * 11 December 2021  — Emacs Research Group
 
@@ -120,6 +124,16 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 
 *** Current status
 - Leo does have this in his CV
+<<<<<<< HEAD
+  - JC: Could update the roles for 2022
+*** Options
+- High-level thinking (free software)
+- vs Podcast (which would say nothing about what it’s actually about)
+
+** WHAT SHOULD WE SAY TO THE PEOPLE WE MET AT THE EMACS CONFERENCE?   :10m:
+- What do we want to do with Greta?
+
+=======
   #+begin_quote
   Rôle: Co-founder, Past Chair & Member
   - Think tank on the future of the Emacs platform with weekly sessions.
@@ -143,10 +157,21 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 - Could send a specific date like 22nd of January and a little about what we would do (to follow through from our talk)
 - LV: We want planning but not clunkiness... I’m happy to volunteer to liaise with them sooner rather than later!
 - Greta might be a guest for PLACARD as well, let’s discuss that on Tuesday
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * PAR                                                                  :10m:
 
 *** 1. Review the intention: what did we expect to learn or make together?
+<<<<<<< HEAD
+
+*** 2. Establish what is happening: what and how are we learning?
+
+*** 3. What are some different perspectives on what's happening?
+
+*** 4. What did we learn or change?
+
+*** 5. What else should we change going forward?
+=======
 - High level: see where we are for the end of the year
 - Practice chairing by Noorah!
 - Still after the conference so right before the new year, still thinking what are the new things to do, so it is in an intermediate stage
@@ -164,6 +189,7 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 *** 5. What else should we change going forward?
 - JC: If we could get high-quality footage in the coming ≈6 months, that would be a nice goal...
   - LV: A good first goal would be not to cause physical pain, so let’s get that sorted sooner
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
 
 * Tentative agenda for next week
 
@@ -172,6 +198,14 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 * Check-out                                                             :5m:
 
 ** NA
+<<<<<<< HEAD
+
+** JC
+
+** RP
+
+** LV
+=======
 - Feels good about her first meeting as a chair!
 ** JC
 - Off to concert.
@@ -179,3 +213,4 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 - Thought about the passive rôle
 ** LV
 - Showed off his nice collar.
+>>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
