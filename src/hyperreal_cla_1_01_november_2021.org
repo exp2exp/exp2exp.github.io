@@ -298,10 +298,13 @@ be, or where we will find value).
 Hyperreal Enterprises derives some of its mythos from a [[https://exp2exp.github.io/time_capsule][Time Capsule]]
 created Fri, 01 Apr 2005.  At a deeper level it draws on the idea of
 ‘hyperreality’ as developed by Jean Baudrillard.  As per the
-[[https://plato.stanford.edu/entries/baudrillard/][Baudrillard]] page in the Stanford Encyclopedia of Philosophy, /‘people
-live in the “hyperreality” of simulations in which images, spectacles,
-and the play of signs replace the concepts of production and class
-conflict as key constituents of contemporary societies’./
+[[https://plato.stanford.edu/entries/baudrillard/][Baudrillard]] page in the Stanford Encyclopedia of Philosophy,
+
+#+begin_quote
+‘people live in the “hyperreality” of simulations in which images,
+spectacles, and the play of signs replace the concepts of production
+and class conflict as key constituents of contemporary societies’.
+#+end_quote
 
 If we embrace this idea and take it forward further, we’re led to the
 view that we could build informational systems that can shift
@@ -312,7 +315,8 @@ In-house, our Coffee Chats are overlayed on our ‘real’ lives and seem
 to provide a sense of meaning that isn’t readily found elsewhere.  As
 Baudrillard says elsewhere:
 
-/‘Excluded from the game, their revolt henceforth aims at the rules of
+#+begin_quote
+‘Excluded from the game, their revolt henceforth aims at the rules of
 the game. This revolt can remain ambiguous if it is experienced as
 anomie and as defeat, if it occupies by default the marginal position
 assigned to it by the system or if it is institutionalized as
@@ -320,11 +324,14 @@ marginal. But it is enough that it radically adopts this forced
 exteriority to the system in order to call the system into question,
 no longer as functioning in the interior but from the exterior, as a
 fundamental structure of the society, as a code, as a culture, as an
-interiorized social space.’/
+interiorized social space.’
+#+end_quote
 
 A meaningful symbol is the crow, a social tool-using bird, and the
 idea of a “fake fake” from Philip K. Dick.
 
-/‘Imagine the horror the Disneyland officials would feel when they
+#+begin_quote
+‘Imagine the horror the Disneyland officials would feel when they
 discovered the cruel hoax. Real birds! And perhaps someday even real
-hippos and lions.’/
+hippos and lions.’
+#+end_quote
