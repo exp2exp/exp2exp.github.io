@@ -199,6 +199,12 @@ and derived PDF is defined.")
     "erg-2021-09-18.org"
     "erg-2021-09-25.org"
     "erg-2021-10-02.org"
+    "erg-2021-10-09.org"
+    "erg-2021-10-16.org"
+    "erg-2021-10-23.org"
+    "erg-2021-10-30.org"
+    "erg-2021-11-06.org"
+    "erg-2021-11-13.org"
 ))
 
 (defun indent-org-roam-export ()
