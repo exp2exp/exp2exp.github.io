@@ -1,0 +1,63 @@
+#+title: Springboard application
+
+Title: *Designing urban environments for human health: from the microbiome to the metropolis*
+
+PI: Abby Tabor
+
+* Work Package 2. Embodying a theoretical model: A federated Wiki platform for design
+
+A 3-day symposium: Building a collaborative web-based, design platform for healthy cities
+
+** Day 1. Healthy Cities a: collaborative Design approach
+
+Invited speakers, academics, practitioners (healthcare, public
+health), students, general public (live and online). Hosted at Design
+West with Nudge Architects, Bristol.
+
+A series of speakers from the fields of architecture, public health,
+philosophy, environmental sociology and computational neuroscience
+will present around the topic of designing healthy cities.
+
+Focus groups to discuss how to address the gaps between theory and
+practice under the remit of health in the city.
+
+** Day 2. Federated Wiki Hackathon (led by Dr Mark Miller & Dr Joe Cornelli-Nested Minds Network LTD & Hyperreal Enterprises)
+
+Invited experts from the fields of computational neuroscience and
+computer science will be tasked with creating a user-friendly
+Federated Wiki, that will embody a Pattern Language and an Active
+Inference
+
+Framework for the purpose of collaborative, evolving city design.
+
+** Day 3. User testing of collaborative design platform.
+
+A live demonstration and interactive utilisation of the Federated Wiki
+platform. A collaborative effort, honing the platform under the remit
+of a city case study focussing on biodiversity and immune
+function. Emphasis on input from citizens, professionals, experts to
+ensure co-creation and usability is addressed.
+
+** Aim. The creation of a usable online platform (federated wiki) for ongoing collaborative design of health cities.
+
+** Outputs 
+
+- An evolving web-based design platform: Federated Wiki for collaborative designs of healthy cities.
+- Peer-reviewed publication: methods
+- Peer-reviewed publication: modelling scenarios
+
+** Contracted work
+
+Dr Joe Corneli WP2 (Oxford Brookes University & Hyperreal, Oxford):
+
+- Facilitation of symposium, including development of technical aspects of the wiki structure.  This work will take place in the build up to the symposium and on day 2 & 3 of the symposium itself.
+
+- Manuscript preparation.
+
+- External grant preparation.
+
+** Track record
+
+- Dr Joe Corneli (Oxford Brookes University): expertise in computer programming and media engagement, will develop wiki platform.
+
+- Hyperreal Enterprises, UK (Expertise in wiki establishment, will develop online platform for pattern language in design).
