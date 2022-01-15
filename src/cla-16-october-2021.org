@@ -82,7 +82,7 @@ This one includes data from Episodes 25-31.
 
 #+begin_quote
 We’ve made progress since we started with the raw themes of *Research
-on/in/with Emacs* back in October 2020.  We’ve met almost every week
+on/in/with Emacs* back in November 2020.  We’ve met almost every week
 since then, and interviewed some interesting and varied guests.  We
 have a clearer idea of what what we want to talk about at the next
 EmacsConf, and how we can be of service to researchers and Emacs

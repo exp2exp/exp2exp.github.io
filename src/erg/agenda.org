@@ -121,8 +121,8 @@ Org mode is less good at keeping track of ongoing/recurring/progressive tasks
 ** BACK Identify venues where we can reach these different stakeholders :Wrapper:
 ** BACK Create some publication to plant a flag for our group        :Paper:
 - PLoP paper has been progressed! ✓
-** BACK Keep exploring                                         :Serendipity:
 ** BACK Spec out the Emacs based ‘answer’ to RStudio, Roam Research :Community:
+** BACK Keep exploring                                         :Serendipity:
 ** BACK Develop our own intention-based workflow                     :Forum:
 ** BACK Continue to develop and refine our methods              :Assessment:
 ** BACK Product and business development plans for a multigraph interlinking service :Website:
@@ -154,3 +154,4 @@ But they might not be ready to do this yet, so it remains an aspiration
 - War Room metaphor for open source
 - Joe could work on this in one of his grant proposals and report back on any progress
 - We might have other little steps forward that help us do this
+  
