@@ -39,7 +39,6 @@
 ** Longer checkins this time because we had a longer break!
 ** DONE Don't forget to record the session!                             :LV:
 
-
 * Agenda, Part 1                                                        :20m:
 
 ** Discuss mission and vision of the group
