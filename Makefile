@@ -20,6 +20,6 @@ deploy: commit
 # installs to /usr/local/bin/firn
 # https://github.com/theiceshelf/firn/blob/master/install#L27
 firn:
-	curl -s https://raw.githubusercontent.com/theiceshelf/firn/master/install -o install-firn
+	curl -s https://raw.githubusercontent.com/theiceshelf/firn/v0.0.14/install -o install-firn
 	chmod +x install-firn
 	sudo ./install-firn

@@ -1,5 +1,15 @@
 #+title: Springboard application
 
+#+begin_src 
+(* 100 3 3) 900     ; three of us working three hours a week
+
+; 10K would allow 10 weeks total
+
+; 1 week to run it
+; 9 weeks of prep?
+#+end_src
+
+
 Title: *Designing urban environments for human health: from the microbiome to the metropolis*
 
 PI: Abby Tabor
@@ -26,17 +36,17 @@ practice under the remit of health in the city.
 Invited experts from the fields of computational neuroscience and
 computer science will be tasked with creating a user-friendly
 Federated Wiki, that will embody a Pattern Language and an Active
-Inference
+Inference.
 
 Framework for the purpose of collaborative, evolving city design.
 
 ** Day 3. User testing of collaborative design platform.
 
 A live demonstration and interactive utilisation of the Federated Wiki
-platform. A collaborative effort, honing the platform under the remit
+platform.  A collaborative effort, honing the platform under the remit
 of a city case study focussing on biodiversity and immune
-function. Emphasis on input from citizens, professionals, experts to
-ensure co-creation and usability is addressed.
+function.  *Emphasis on input from citizens, professionals, experts to
+ensure co-creation and usability is addressed.*
 
 ** Aim. The creation of a usable online platform (federated wiki) for ongoing collaborative design of health cities.
 
