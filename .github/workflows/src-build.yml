@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download firn
-        run: curl -s https://raw.githubusercontent.com/theiceshelf/firn/master/install -o install-firn
+        run: curl -s https://hyperreal.enterprises/install-firn -o install-firn
       - name: Install firn
         run: chmod +x install-firn && sudo ./install-firn
       - run: firn build -d /home/runner/work/exp2exp.github.io/exp2exp.github.io/src
