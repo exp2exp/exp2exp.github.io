@@ -8,7 +8,6 @@
 
 * 15 January 2022  — Emacs Research Group
 
-
 * Check-ins                                                             :20m:
 
 ** NA
