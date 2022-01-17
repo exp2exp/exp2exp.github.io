@@ -173,7 +173,6 @@ Points:
 ** Changing the time to 1600Z (not for [2022-01-22 Sat], but for later moments)
 *** WAIT JC’s discussion about switching the meetings with his folks
 
-
 ** Explore LV's psychotherapy.el
 - It won’t let you conclude until you walk through all the steps
 ** Joe to bring the text-analysis code (if it can be found)
