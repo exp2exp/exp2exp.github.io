@@ -1,0 +1,195 @@
+#+TITLE: 22 January 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-01-22 Sat>
+
+* 22 January 2022  — Emacs Research Group
+
+* Check-ins                                                             :15m:
+
+** NA
+- Recovered from serious COVID-19 related fatigue
+- Watched Encanto twice: it’s good & highly recommended
+- Booked her flight to Kuwait to see her sister and her daughter in March (20 days visit! [2022-03-01 Tue]--[2022-03-20 Sun])
+
+** JC
+- Camera broken because... oh wait, fixed by rebooting Firefox!
+- Reminded of [[https://en.wikipedia.org/wiki/Gauntlet_(1985_video_game)][Gauntlet]]
+- Will probably watching Encanto soon.
+- Just back from the market, and has filled all his cupboards!
+- Will start teaching next week!
+- Abby is still negotiating her end of the grant
+  - Money stuff is probably worth discussing later?
+
+** RP
+- After Friday coffee chat we set up CRDT so that Ray can use it (on the metameso.org linode)
+- Busy working on physics, understanding dynamic phase transitions and related topics.
+- Preparing notes on intuitionistic logic and discussing them with Joe and Qiantan.
+- Hope to return to ob-servant and make a practical tool on metameso, especially to help him work on notetaking for his other interests.
+
+** LV
+- Can move his shoulder now, in fact feeling amazingly body-wise.
+- Diligent with equal (6h/6h) in-pool and dry-land training over the last week
+- Self-care week w/ listening to body and doing what’s needed to feel better.
+- Bank account has a different attitude but it’s backburnered until Monday
+
+* Meta points
+** DONE Don't forget to record the session!                             :LV:
+** RP: Do we still have workshop seminars
+
+* Agenda                                                                :40m:
+** Scope/network of different Emacs related topics/projects
+*** What our group is
+*** Soft-goals
+- We did mention that we were going to use preparation for EmacsConf as our weekly checkpoint.
+  - As a result, it should be the event to which we look forward to.
+  - That way, we reduce the scope of those meetings, and reduce any sense of pressure
+- "How we use Emacs right now, what’s working, what’s not working?"
+
+*** Tech setup and scope of (possibly) different groups
+- RP:
+  - [JC: Current access is ssh into a server that Joe and Ray have been using from back in the PlanetMath days, accessing Emacs with CRDT set up already.]
+  - Observant, other integrations could be something that RP and JC work on
+  - We talked about following up what we said in the EmacsConf presentation: we might want to have multiple groups (e.g., LV+QH on CRDT =<= some group for developers)
+  - Evan Misshula, Ray, Cameron(?); others looking at "how to use Emacs within their other research projects";
+  - Could we find ways to share information about topics like biology and policy where we have a mechanism to go deep (in separate groups) and still stay in communication (with the wrap).
+  - This is reminiscent of the =#intention= mechanism we’re using on Hyperreal Discord
+  - A lot of the stuff happening around Emacs have been location-based so far (Emacs /Paris/, Emacs /ATX/)
+**** Replies:
+  - NA:
+    - Doing this within the 1½h we have slated might be too ambitious, and running counter to our scaling-down effort
+  - JC:
+    - Perhaps it doesn’t matter what we do during those meetings; rather than muddling them all in a soup.  This particular "ERG" could focus on HCI things, but other groups could be focusing on Scientific computing, Development issues, and so on.
+**** Concerns
+- NA: How to circumvent the frustration of bringing atomic ideas into the main meeting, which is to be focused on the main HCI thing?  A possible solution is, that we’d work asyncronously on our separate ideas, by utilizing *Org Roam*; e.g., RP+JC could meet to talk about ob-servant, bio-physics... the notes could appear in the same wiki; if we have it documented then we don’t have to tell everything on Saturday; I can just check the Org Roam, and it might say at high level everything I need to know
+  - RP: Yes, similar to the [[https://peeragogy.org/wrap][Wrap]] pattern.  Other domains can also serve as test cases for HCI research on Emacs, so we’re not just looking at the real-time meeting stuff in the discussion here
+  - JC: So far, it sounds like the joint intention is to find a way to not struggle with the same bandwidth.  I think it’s fair to discuss “Here’s what I’ve tried to do with Emacs and didn’t manage”.  In particular, in this time slot we won’t be aiming at paper-writing, which might clunk up the process; but we could potentially talk about other paper-writing activities that take place in other groups.
+  - *Collaboration within Emacs* as the theme, what’s working, what could be improved
+- We do have some other groups going, and, e.g., we could help foster the other groups; maybe some overlaps
+
+*** Back to soft goals
+
+**** What’s the culture that we need in order to have a thriving community?
+- LV: We’ve been thinking in terms of input and output; should a group have an output?  But at the end of last year we steered more towards "what does it mean from human-to-human to be meeting regularly, and what tools assist this collaboration?"
+  - This is more ‘lay’ and less ‘academic’; but it’s also quite practical and close to our =in/on/with= setting, with its practicality
+- NA: The soft goal of EmacsConf can be to talk about the fact that we’re hanging out, using Emacs, talking about it; that’s enough for me!  Others could benefit from this
+- RP: If others shared information on this level we could learn from them.
+- JC: Imogen asked me “how did you learn to program?”, which I did out of a desire to circumvent typing-induced wrist-RSI.  This might be just a nice little anecdote, but I was impressed in how supportive the Emacs community was and about the boundless generosity of thos
+  - JC: What would be the generalisation of this experience?  How are people using Emacs?  What are their pain-points?  What are /our/ pain-points?
+  - JC: Maybe LV’s workflow could help here?
+
+**** Trying to conclude on soft goals
+- EmacsConf *2021* : How we formed as a group?
+  - EmacsConf *2022* : XXX
+    - Then: Process to address XXX
+    - Ongoing reflection on "what’s working and what’s not working"; e.g, "I’m enjoying watching Joe typing the notes right now; once we’re done, I’ll save it and push it to the repo."  And CRDT share buffer, I love it!  Let’s keep building on these things!
+
+- JC: Looking back at last year, one *lesson learned* was that the CLA seemed great to everyone, but it feels like some members had not appropriated the tool.  They liked the process and the conclusions, but weren’t taking part in the gathering process.
+  - So, do we maintain the previous way of working? Change it? Throw out the CLA?
+  - JC: All this stuff about "how we work together" feels different from the way other groups work.
+    - LV: Other groups have meta aspects but we tend to have a very meta aspect.  Can we be *leaner* than we were last year?  Perhaps the time now is to constrict some the shutter so we can pin-point on something.  Can we apply concepts like "make meetings more meaningful" so that we can, e.g., show up to the meeting and already know what the meeting is about.
+  - Choose some specific voices and do something specific with them
+  - RP: Other transdisciplinary voices can be part of the broader group [JC: network?]; how do we interact with them?
+  - LV: Let’s not let this component overtake the picture-making (e.g., let’s maintain relations with peeragogy, CRDT, and all this, but let’s not struggle with holding the ropes that connect us); who we are and what we’re doing is mostly defined in terms of a Venn intersection of Peeragogy, EmacsConf, Hyperreal, Emacs Packages... and we’re supposed to make out of this nebulous intersection what we’re trying to be.
+    - Let’s try: stop thinking in terms of intersections or outputs, but soft goals, for us to grip around or focus on.
+- NA: Common theme for Saturdays is "Emacs"
+- RP: Other things are also Emacs
+- JC: If we’re writing our EmacsConf talk, why not go back to what we did in October/November.  Perhaps we could reintroduce goals like that on a monthly basis so that, in the next 10 months, we can do something like 1 slide per month.  The point would be to come to the meeting knowing what the theme is; “what do we need to do?”.
+- NA: “Emacs & =$blank=” could be a monthly topic
+  - E.g., =yasnipet= template to fill out the org file.
+  - "Emacs and templating"; something we could experiment with
+  - "Emacs and asyncronous notetaking" - simple stuff that we do every week, and just document them, talk about them, do them every week
+  - JC: That sounds good!  If that’s our worldview (that we want it to be fun, interactive, etc.), then we have no shortage of examples: Emacs & timetracking, etc.  We don’t have to plot it all in advance, and we can think in advance.
+  - NA: If you’ve done something with Emacs, let’s learn about it; but let’s stay away from deep theoretical topics
+  - Tech request: how could we look at the Org Roam and see what’s changed and what’s interesting over the last week or month?
+**** Summary
+- Have an objective for the month
+- Aim for EmacsConf
+  - Let’s not get to September and wonder "What do we talk about?"  The conference is the purpose that guides what we do.
+- RP: Say, July: Finalise "What will we talk about this year?" Have we given ourselves enough time to narrow it down, the rest of the time can focus on what we need.
+- LV: Maybe even come up with it in January!
+- JC: Per Noorah last year, let’s have soft plans for the first 6 months, and perhaps only more rigid plans for the current month.
+
+* BREAK                                                                  :5m:
+
+* Part II:
+** LV’s demo of therapy.el                                              :4m:
+- JC: Could we fill this out as a group for problems that we encounter?
+- NA: Could we use the package for the PARs?
+- LV: The package predates PARs, but there’s a likeness between PARs and this form
+- NA: Maybe we could think about we use prompts to feel focussed
+- RP: These are "patterns of thoughts"; in some other domain we could have "patterns of something else"; we could come back to this in Tuesday?
+** JC’s demo of mal-mode.el                                             :3m:
+- JC: Wrote it because he needed it, based off rid-mode.el, a regressive imaginary dictionary (?)
+  - JC: It highlights specific words based on user-defined rules, and they’re supposed to highlight patterns in your notes/thinking.
+- RP: Has anyone attempted something like "in what context would they be associated?"
+  - JC: Still using NNexus as a giant hammer...?
+- NA: Could we use mal-mode for the CLA, i.e., at the litany level: count frequencies of words (removing stopwords).
+  - This could be our starting point at the litany level, use the meeting to think about: what have we done in the last three months?  What could we alter or revise...?
+  - JC: I love this!  Now that we’ve got a way to programmatically do the PAR, we might also have an option to facilitate the CLA!  That might already be an objective for February.
+
+
+* PAR                                                                   :10m:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+- LV: What I used to do was to try to revisit the agenda, today was mostly "let’s have a bog standard session"
+- The first half of this meeting was about intention-setting: scope, intention, who/what, clarifying questions about what has come up over the last year
+
+*** 2. Establish what is happening: what and how are we learning?
+- We tend to skip question 1! in the PAR.
+- JC and LV taking notes simultaneously allows one to think about structure of the meeting, i.e. for returning to a previous agenda point.
+- JC: Having short demos makes the meeting feel more meaningful.
+- JC: We’ve got a new 1½h format, and I think we’ve done a good way of adapting it today.
+
+  (Not sure where to put it)
+- JC did a quick presentation of his reply to Charlotte’s question on what AAR meant.
+  - JC: I particularly like the idea of experiments
+
+*** 3. What are some different perspectives on what's happening?
+- Other people use other formats for review, so the wording there shouldn’t be seen as set in stone.  Maybe the format should adapt to us.
+- LV: The lean/agile cycle is inherent in most Agile methods.  We’re familiar with patterns and cycles.  Perhaps we could accommodate the use of "experiments"; themes, reviews, all seem a bit like experiments without the name!
+
+*** 4. What did we learn or change?
+- Let’s revisit the AAR format from the Discord
+- Changed the starting time and length of the meeting, and we haven’t missed anything
+- JC: We have a lot of clarity, /perhaps/ more so than every time before.  We know the ins-and-out of the Game™, and now we just have to play it!
+  - JC: As a way to ensure consistent progress, I’d like to meet with NA to review the CLA in light of the points I’ve brought up in this point.
+    - NA: Will follow-up with you at another time! <<TODO for NA>>
+
+*** 5. What else should we change going forward?
+- NA: Workshop meetings are Tuesdays and Thursdays 10 am CST/9 am EST
+- I’d suggest every time we come in on Saturday, the intention has to be Emacs-related.  Whatever ideas you’re bringing in must link to Emacs (use, interaction); keep your thoughts focused on that?  "How are we going to implement it in Emacs?"
+- Not checkins, that’s just something simple.
+- JC: Re: workshop; feeling very encouraged that this might be the seedling of an Emacs-based workshop.
+
+* Tentative agenda for next week
+
+- Continue planning, with initial guess of 3-10 points for months ahead
+- Decide on our "Emacs And..." theme(s) for February
+
+* Tasks for next week
+
+** NA
+
+*** TODO Get back to JC on [[TODO for NA][TODO for NA]] re: meeting on CLA
+*** TODO Come up with a topic suggestion
+
+* Check-out                                                              :5m:
+
+** NA
+- Feel great!  Glad that my energy is back.
+- Happy about the meeting inasmuch as we’re progressing with more clarity and focus.
+- Will upload and push the repo
+
+** JC
+- Also feeling well!
+- Will get back to NA on Encanto!
+
+** RP
+- See you Monday JC, everyone have a good weekend
+
+** LV
+- It’s good to be leaving earlier than before (6:30PM rather than 8:30PM), might resume EmacsConf sometime but, yay! Thanks for pushing the meeting earlier and making it shorter.
