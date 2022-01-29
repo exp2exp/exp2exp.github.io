@@ -1,0 +1,319 @@
+#+TITLE: 29 January 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-01-29 Sat>
+
+* 29 January 2022  — Emacs Research Group
+
+
+* Check-ins                                                            :15m:
+
+** NA
+
+- Slept really well last night (8h)!
+  - Lots of dreams
+- Talked to two people (COO of asset management at Nasdaq, and City of Austin wildlands conservation person, who said NA should contact Office of Sustainability to ask about opportunities there; there’s a role in City of Austin of "Chief Resiliency Officer", who puts in place policies of climate resilience)
+  - LV: Reminds me of "Site _Reliability_ Engineer"; there are some interesting keywords.
+
+** JC
+
+- Just came back from the market and visiting some friends.
+- Mid-week was stressful, but things are more relaxed now.
+- Need to do more active stress-management for next week.
+- Rethinking his stance on relocating; Oxford is quite alright, after all.
+
+** LV
+
+- Doing fine mentally, but left shoulder is now exhibiting same symptoms that the right one was earlier, so have been investigating the problem with much PT thinking, and 8hrs of sleep (out of 10 needed)
+- Still having a sense of physical progress, injury is tough for sportists... you still have the possibility to keep doing the sport but the more you do it, the more you feel like you’re borrowing from your future; trying to use some philosophy to stay equanimous (but may also have to lower the amount of butterfly)
+  - NA: when you meet a physical limitation and realise "I shouldn’t do that to my body" it is an existential thing.
+     - LV: It’s like a memento mori at a triumph (as in fact I approach 30)
+     - NA: Getting comfortable with that?
+     - LV: It feels like the emotional ability to resolve stress grows through adulthood, but you also age mentally.  At 18 we seemed bright and smiley, but now it seems as though something’s lost.
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :NA:
+CLOSED: [2022-01-29 Sat 17:19]
+
+** CRDT debugging
+
+#+begin_quote
+Leo: comint-send-input is still giving me this "apply: Symbol’s function definition is void: crdt--remote-fcap-advice"
+#+end_quote
+
+- CRDT doesn’t play well with shell.
+- LV: My server uses a very old version of Emacs, and when you’re sharing a major mode that the server doesn’t handle well (like Cronos), things start to go haywire.  So, don’t worry too much about it.
+
+* Agenda                                                               :40m:
+
+** psychotherapy.el                                                     :LV:
+
+Previous code from Leo for a PAR template:
+#+begin_src emacs-lisp
+(require 'dash)
+(require 's)
+
+(defun insert-par-template ()
+  (interactive)
+  (let-then-go ((pos (point)))
+    ;; Nb. Org mode doesn’t recognise ‘->’ as a function, thinks > is a delimiter
+    (-> (s-join "\n\n"
+                '("**1. Review the intention: what do we expect to learn or make together?**"
+                  ;; insert a target for the cursor
+                  "%?"
+                  "**2. Establish what is happening: what and how are we learning?**"
+                  "**3. What are some different perspectives on what’s happening?**"
+                  "**4. What did we learn or change?**"
+                  "**5. What else should we change going forward?**"))
+        (insert))
+     (goto-char pos)
+     ;; Look for the marker above, and go to
+     (re-search-forward "\\%\\?)
+     (delete-char 2)))
+#+end_src
+
+Reworked version that goes to the target:
+#+begin_src elisp
+(require 'dash)
+(require 's)
+
+(defun insert-par-template ()
+  (interactive)
+  (let ((pos (point))
+        (target "%TARGET"))
+    (-> (s-join "\n\n"
+                `("**1. Review the intention: what do we expect to learn or make together?**"
+                  ,target
+                  "**2. Establish what is happening: what and how are we learning?**"
+                  "**3. What are some different perspectives on what’s happening?**"
+                  "**4. What did we learn or change?**"
+                  "**5. What else should we change going forward?**"))
+        (insert))
+    ;; Go back to before PAR
+    (goto-char pos)
+    (re-search-forward target)
+    (delete-char (- (length target)))))
+#+end_src
+
+*** Output:
+#+begin_src
+**1. Review the intention: what do we expect to learn or make together?**
+
+**2. Establish what is happening: what and how are we learning?**
+
+**3. What are some different perspectives on what’s happening?**
+
+**4. What did we learn or change?**
+
+**5. What else should we change going forward?**
+#+end_src
+
+*** Discussion
+
+Is it possible for each question to pop up in a minor mode, or an org capture?
+At each point, C-c C-c goes to the next question.
+
+LV: There’s a problem here, with the lack of ability to go back.
+Yasnippet can break with this.  The problem is that if you confirm
+with C-c C-c, it’s possible to open, rather than just asking to fill
+one form.
+
+NA: In org-tree-slides you can move back and forth
+
+LV: There’s something basic I do: you could do this with narrowing.  If you wrote the slides, it works, but if you are dealing with people who don’t know their way around the content it can run into difficulty.  Or, if you deal with an Org Mode aficionado they might break everything.
+
+NA: What I have in mind is that I want to have the user focused on each point; what if for each heading, it’s like
+
+JC: Reminds me of =nero.el= which I was using as an early pseudo-web browser, which had a quite general history mechanism. Maybe we could reuse that.
+
+LV: When you move through the Slipbox in Org roam, we were thinking about having some breadcrumbs; it’s a simple data structure, on which you could add the new location, and to display the history you read from the end to the beginning.  I’ve also done this in lispy, it’s relatively easy to do but doesn’t play great with undo.
+
+*** Back to psychotherapy.el
+
+The org mode buffer expands with regard to contextual data.  The design function here is that people should be focusing on questions one step at a time.
+
+Existing feature set does some validation (e.g., to make sure that the user has answered all of the questions).  But you need to be pretty good at Org mode to make semantic decisions based on the context.  For a human, the question has been answered if there is content.  But Org mode would perceive whitespace or other such things as content.
+
+What would be the simplest problem we could solve for the three of us?
+
+"Where did we say what we said?"  That means we need to work on hyperlinks.
+
+E.g., show me all the headings that mentioned "collaboration" in our history of talking together
+
+** mal-mode.el                                                          :JC:
+
+Code demo from earlier in the week:
+
+#+begin_src emacs-lisp
+(defun mal-ct ()
+  (let (props)
+    (while (not (eobp))
+      (let* ((next-change
+              (or (next-single-property-change (point) 'face)
+                  (point-max)))
+             ;; Get the current property from the buffer
+             (prop (get-text-property next-change 'face))
+             ;; Look up the current tabulation
+             (cur (when prop (assoc prop props)))
+             (ct (or (cdr cur) 0)))
+        ;; If there’s some current tabulation, increment it
+        (if (and cur prop)
+            (setf (cdr cur) (1+ (cdr cur)))
+          ;; otherwise, assuming we found a property, start counting now
+          (when prop (push `(,prop . 1) props))
+          )
+        (goto-char next-change)))
+    props))
+#+end_src
+
+*** What would be a keyword breakdown of this paragraph
+
+#+begin_quote
+We’ve made progress since we started with the raw themes of *RESEARCH
+on/in/with EMACS* back in November 2020.  We’ve MET almost every WEEK
+since then, and interviewed some interesting and varied GUESTS.  We
+have a CLEARER IDEA of what what we want to talk about at the next
+EmacsConf, and how we can be of SERVICE to researchers and Emacs
+users.  We have been using a WORKFLOW that helps us carefully REVIEW
+progress, DIAGNOSE issues, and MANAGE our energy.  We’re understanding
+how research is done by doing it, and keeping careful track of the
+PROCESS.
+- If a session doesn’t go as WELL as hoped, we think about why (esp. Leo as chair). You know what the BOMB is... so you can at least hope to defuse it later.
+- We try to ADAPT gracefully to circumstances as they evolve, without being REACTIVE because we know we will be back again next week and the week after, etc.
+#+end_quote
+
+#+begin_quote
+| Maintain plans for the next six months       | Roadmap     |
+| Process the following points                 | Scrapbook   |
+| Keep doing PARs and CLAs                     | Assessment  |
+| Develop our intention-based workflow         | Forum       |
+| Mesh with other ongoing activities elsewhere | Cooperation |
+#+end_quote
+
+*** Solutions:
+
+- We go separately and come up with tags on our own (apply a standard Qualitative Content Analysis method, which needs at least three people who do this and then try to reach a consensus about what can be)
+- But this is a long process, so what about a process that would do something here for us?
+
+LV: Maybe our assumption is that we need a human to see what the quality is; in ML we start there and go onto quantity.  But here, or with mal-mode, we try to derive quantitative data from previous qualitative.  It could be tempting to remove the human, or keep the human in the cycle of improvement.
+
+- Human interpretation is very time consuming... so what can we develop?  How can we run PLACARD, with people; and in interest time how can I automate this process.
+
+JC: presumably our notes reflect both conflict and solutions, we could look for those using James Pennebaker style ideas.
+
+#+begin_quote
+James W. Pennebaker is an American social psychologist. He is the Centennial Liberal Arts
+Professor of Psychology at the University of Texas at Austin and a member of the Academy of
+Distinguished Teachers. His research focuses on the relationship between natural language
+use, health, and social behavior, most recently "how everyday language reflects basic
+social and personality processes".
+#+end_quote
+
+LV: Joe 2022 is "have coffee with everyone"!
+
+JC: Let’s run this over emacs-devel, there’s probably some conflict in there!
+
+LV: The list can be pretty aggressive.
+
+NA: How far back does it run?
+
+JC: 80’s?
+
+NA: September 2000?
+
+[LV: "Dryland" kick]
+
+Early mailing lists are written in a language of their own, 90% of the things won’t make sense, 5% will sound aggressive, and 5% will sound brilliant but ultimately incomprehensible.  It’s like a Director’s Board for Emacs.  They do take suggestions from the public.
+
+NA: Maybe we could look at "How creativity happens in open source settings"?
+
+JC: Maybe we could have a little agent that joins us on the calls and says "I sense conflict".
+
+NA: Has there been much study on the process of creativity in OSS?
+
+* BREAK                                                                 :5m:
+
+* NNexus status report                                                  :5m:
+
+- Revised version of [[https://hyperreal.enterprises/nnexus.html][https://hyperreal.enterprises/nnexus.html]] which was submitted to a Mathematics panel.  Now going for "Responsive Mode" submission to an Information and Communications Technology ([[https://en.wikipedia.org/wiki/Information_and_communications_technology][ICT]]) panel.
+
+** So what?  Let’s zoom in on the evaluation thing.
+
+#+begin_quote
+Long-term studies will evaluate concept and user models with regard to
+measures of learning and research efficacy, as well as self-perceived
+usefulness.  Relevant initial proxy measures include: new per person
+use of technical terms ([[http://oro.open.ac.uk/40775/][http://oro.open.ac.uk/40775/]], Chapter 6)
+new uses of adjacent concepts in the hierarchy, interaction (including
+publication), upvotes (on Stack Exchange), and traditional measures
+such as citations (for researchers) and course outcomes (for
+students).  Useful recommendations should be drawn from a meaningful
+‘adjacent possible’ of concepts and actions that users can learn,
+practice, or apply, and non-useful recommendations should be corrected
+in ongoing development the system.
+#+end_quote
+
+LV: JC, it seems you’ve been very busy this week!  A lot of work going
+into this proposal, and it seems like a correlation with you feeling
+down.  "I am spending blood sweat and tears giving birth to the
+proposal and creating some content... at the end of the process... I
+spent so long on this, and is it going to pan out or not?"
+
+NA: Can YOU shop it around?
+
+JC: Yes.  Bottom-line: what funders would be interested?
+
+NA: Emiratis and Qataris might pay for this!
+
+JC: Might need an agent to help me shop it :-)
+
+* PAR                                                                  :10m:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+
+- Wanted to look again at psychotherapy and mal-mode
+- Look briefly at NNexus proposal
+
+*** 2. Establish what is happening: what and how are we learning?
+
+- We had interesting discussions about how to navigate time and space and meaningful content together?
+
+*** 3. What are some different perspectives on what's happening?
+
+- JC: Noticed some CRDT issue
+- LV: This is fixed two months ago, but we haven’t been able to chat things through; we could update to a newer CRDT soon, at most a month.
+- JC: Very pleased to hear Noorah’s update on networking progress, cool stuff!
+
+*** 4. What did we learn or change?
+
+- Funding and grants, even for PhD students can be pretty good money.
+- Let’s look at some James Pennebaker stuff
+
+*** 5. What else should we change going forward?
+
+- Share a version the grant when it’s a little more complete.
+- JC: Look at relationship between big press of work, and stress levels on the possibility of reward.
+- Better abstraction of psychotherapy
+
+* Tentative agenda for next week                                        :5m:
+
+
+- LV+JC: Let’s have a chat during the week?
+- Are we still meeting on Tuesdays and Thursdays?
+  - JC: Maybe find one time during the week?  This week we have an interview lined up for CLA 3.0 book, with Sweeney.
+
+* Check-out                                                             :5m:
+
+** NA
+- Gonna catch up with a friend today, and relax!
+
+** JC
+- Will follow up with Ray and Cameron next Friday about their Hypernotebooks public interest company idea
+- Tried to watch Encanto, will try again.
+
+** LV
+- Sorry for being a bit absent minded, I’m also somewhat self-conscious about not being prepared, but also still feeling tired.  Working on focus for next week, and meanwhile will try sleeping.  Still happy about the meeting, and glad to voice concerns.
