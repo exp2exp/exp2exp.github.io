@@ -8,47 +8,175 @@
 
 * 05 February 2022  — Emacs Research Group
 
-
 * Check-ins                                                             :15m:
 
 ** NA
 
+- Things have been good, today’s meeting will be short b/c of upcoming meeting to brother-in-law today!
+- Have been on screening interviews
+- Going back to Kuwait in march
+
 ** JC
 
-** LV
+*** Pre-meeting
+#+begin_src 
+JC: Transferring data… :-)
+You really need a <Compose> key
+`<Compose>...` is literally what I do.
 
+=C-x 8= doesn’t do it(?)
+#+end_src
+
+:HIDDEN:
+Not everything can be done with Emacs, regardless of how much time we’re sinking into it. 🙃
+:END:
+
+*** Actual checkin
+
+- Was up a little bit late last night doing Clojure stuff in anticipation with Alex’s workshop
+- Reporting on an interesting CLA interview with Ralph Mercer
+- Has been diligent about /not/ playing Go
+- Doing a lot of writing to sublimate the energy.
+
+** LV
+*** Pre-meeting
+#+begin_src 
+LV: Waiting to connect…
+
+Not sure what’s going on on my end; it’s taking ages to load the page.
+Just stuck here: https://paste.xinu.at/pC6Z/
+(╯°□°）╯︵ ┻━┻
+Might I suggest Discord whilst I get things working here?
+I can join via phone... Ray says hi.
+I’m on Discord and BBB.
+#+end_src
+
+*** Actual checkin
+
+Since pre-2 y.o., I slept 10 hours a day 5 days in a row. Working to enshrine 10 hours of sleeping now!
+Not sure if it’s the key component or what, but now I am back preparing properly for the interview, clocking 6 hours of work daily on the interview prep.
+
+- Agenda is wonderfully clear
+- Not using Org Roam, would need to start afresh with a new folder refiling everything
+- Had a 3hr session with QH and we’ve now switched to the upstream
+- QH & LV are sharing an Org-based kanban and have been getting a lot done
+
+** RP 
+
+- Can’t stay long but here to say hi for the check-in!
+- Is busy with research in math & bio, this month is hectic
 
 * Meta points
 
-** TODO Don't forget to record the session!                             :LV:
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-02-05 Sat 17:09]
 
+* Agenda (Part 1)                                                       :15m:
 
-* Agenda (Part 1)                                                                :20m:
+** Leo’s reports on CRDT
+- Would like also to make this interactive to do a 5-10 minute onboarding to the new version for Noorah
 
-* BREAK                                                                 :5m:
+JC: This worked for me:
+#+begin_src 
+git clone https://code.librehq.com/qhong/crdt.el.git
+cd crdt.el
+git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git fetch --all
+git pull --all
+git checkout development
+#+end_src
 
-* Agenda (Part 2)                                                                :20m:
+* BREAK                                                                  :0m:
 
-* PAR                                                                   :10m:
+* Agenda (Part 2)                                                       :15m:
+
+** CRDT Adventure continues
+
+What happened: Qiantan has updated the thing overnight, so we all had to pull (except Noorah!).
+
+We interacted with it:
+
+#+begin_quote
+LV: I try typing something
+JC: (It’s not the same from my side, but it might appear the same as Leo’s!)
+#+end_quote
+
+Update on the hacking progress: remove any chance of middle-man attacks, using encryption with GNU TLS.
+:HIDDEN:
+it’s not going 100% yet
+:END:
+
+Strengthening desync, better coordination, better debug
+
+** Papers-in-progress with Abby/others for Anticipation
+
+- Worked on two papers so far: one with the Peeragogy crew (“Steps to a synthesis”), and the other one written with Abby (“Open Future Design: Towards a pattern language for anticipating …”)
+
+** Themes via the call
+
+- *1. Public Futures*
+- *2. Politics, Justice and Ethics of Anticipation*
+- *3. Decolonizing Anticipation*
+- *4. Critical Anticipatory Capacities*
+- *5. Creativity, Innovation and New Media*
+- *6. Time & Temporalities*
+
+** Possible formats
+
+- */Curated Sessions /*
+- */Paper Sessions/*
+- */New Ideas Sessions/*
+- */Techniques Workshops/*
+
+Details on the [[http://anticipationconference.org/call-for-participation-2022/][http://anticipationconference.org/call-for-participation-2022/]].
+
+** Plan upcoming
+Could submit something for 15th February, to write something of 1000 words
+
+Action: Let’s table the discussion of this; we could meet during the week.
+
+  
+* PAR                                                                    :8m:
 
 *** 1. Review the intention: what did we expect to learn or make together?
+- NA: I don’t know
+- JC: We wanted to have the meeting be short
+- We wanted to update CRDT
 
 *** 2. Establish what is happening: what and how are we learning?
+- JC: We had some hiccups with crdt.el which had to be debugged live.
+- LV: Joe did a machine-gun style presentation on Anticipation 2022 that was a bit hard to follow
 
 *** 3. What are some different perspectives on what's happening?
+- LV: We shouldn’t be making the first question in the PAR about repeating the agenda; perhaps good note-taking is invalidating the need for question 1.
+- JC: One-hour session isn’t impossible to work with
+- LV: But we did only dabble with some topics; in my life, I plan for 8 hours, but actually aim to get 6 hours of work done.  Meeting of 1h30 works because we get 1h of actual meeting out of this.
+- We had thought to meet once to refine the agenda
 
 *** 4. What did we learn or change?
+- JC: We’ve got acquainted with ourselves working at a father pace (helium + cocaine, could be a good/bad idea...)
 
 *** 5. What else should we change going forward?
-
+- JC: We look forward to a more leisurely-paced meeting next week.
+   - Maybe try to set the agenda by Friday
+- We do plan another meeting during the week at some point to look at Anticipation?
 
 * Tentative agenda for next week
+- NA: I propose we revise PAR questions (what's working and what needs to be modified)
 
-
-* Check-out                                                              :5m:
+* Check-out                                                              :2m:
 
 ** NA
+- Going to Fredericksburg, TX next week, will have iPad
+- Militant with sleep
+- Interested in Python too!
 
 ** JC
+- Will hopefully meet this week with Zaid Hassan (cofounder of Reos)
+- Did appreciate NA’s dive into Reos
+- Slept through the night 3 nights in a row, yay!
+  - NA: We are healing our minds!
 
 ** LV
+- My mind is looking for an expression... Flanders has an idiom for this
+- Looking forward to a week of diligence
