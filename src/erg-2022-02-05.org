@@ -1,0 +1,54 @@
+#+TITLE: 05 February 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-02-05 Sat>
+
+* 05 February 2022  — Emacs Research Group
+
+
+* Check-ins                                                             :15m:
+
+** NA
+
+** JC
+
+** LV
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+
+* Agenda (Part 1)                                                                :20m:
+
+* BREAK                                                                 :5m:
+
+* Agenda (Part 2)                                                                :20m:
+
+* PAR                                                                   :10m:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+
+*** 2. Establish what is happening: what and how are we learning?
+
+*** 3. What are some different perspectives on what's happening?
+
+*** 4. What did we learn or change?
+
+*** 5. What else should we change going forward?
+
+
+* Tentative agenda for next week
+
+
+* Check-out                                                              :5m:
+
+** NA
+
+** JC
+
+** LV
