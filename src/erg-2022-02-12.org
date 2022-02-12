@@ -1,0 +1,211 @@
+#+TITLE: 12 February 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-02-12 Sat>
+
+* 12 February 2022  — Emacs Research Group
+
+
+* Check-ins                                                             :15m:
+
+** NA
+
+- Fredricksburg was great
+- Got an interview task
+- Went to a great local taqueria (great MARGS and queso)
+- PLEASE VISIT ME IN AUSTIN!!!!
+
+** JC
+- I am here!
+- Market day, sharing greens with Elizabeth live!
+- Demo Confluence (~5min)
+- Upcoming meetings this weekend: Charlie checkin, Peeragogy
+- Felt quite a lot of enjoyment from the Alex/Leo/Joe meeting on Monday, but also the Ray/Cameron/Joe meeting on Friday
+
+** RP
+- Yes, I got this to work.  It looks like the update works.
+- Has another Emacs server + remote graphical login, will work on adding Xpra access and CRDT; good for hypernotebooks prototyping
+
+** LV
+- Had a decent week, reflecting back to the AM+JC 0815Z meeting, with ERG being the closing
+- Shoulder has been behaving, according to the PT things are going well, have still been able to work effectively (60% previous week)
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-02-12 Sat 17:10]
+
+
+* Agenda (Part 1)                                                       :20m:
+
+** Revisiting/Revising the PAR
+
+- JC, LV and Alex challenged the PAR on Monday
+  - The accusation was mostly
+    “If we don’t have a clear intention, we’ll come to the end of the meeting without knowing how to answer the first question of the PAR.”
+    - Does realising at the end of a meeting that there was no intention (which would be manifested via the difficulty to answer the first question fo the PAR) constitute an anti-pattern that should be addressed, or should we not consider this as as anti-pattern and merely a different mode of meeting (which perhaps might be less formal/formalised)?
+
+- RP: Maybe the intention was in some cases "just to meet".
+  - LV: But in that case, why have a PAR?
+
+- We could potentially have this information directly in our meeting template rather than in a separate review
+
+- JC: I like this discussion a lot!  It’s bringing the design-patterns into the discussion.  PARs are
+
+*** Worth comparing this AAR template:
+
+1. Initial Objective: What were/are our intended results? ("WHY")
+2. Reality: What were/are our actual results?
+3. What we learned: What caused our results?
+4. Goals: What will we sustain or improve?
+5. Experiments: What are some upcoming opportunities in which to test our hypotheses in action?
+
+*** Continuing
+
+- JC: I like this discussion a lot!  It’s bringing the design-patterns into the discussion.  PARs are like the realtime part of the PAR/CLA/DPL trifecta, focussed on what’s actually happening, effectively becoming a framework for mindful awareness.  Maybe the PAR is a set of training wheels for mindful attention to what is currently happening.  The whole meeting could be a review of what has happened during the week, but we wouldn’t be reviewing the meeting, but has gone throughout the week.
+
+- LV: This could be discussed more later; the original concern was that "I don’t want extraneous structure"; but actually what they provide is distantiated perspective (which isn’t so extraneous)
+
+- Maybe this is the same criticism of CLA: where we didn’t really appropriate it; with the PAR, maybe we simply want to review the wording; taking account the *mindfulness aspect*, and *action-oriented-non-perfuctory goal*
+
+- NA: If we decide that the meeting will always be a review or synthesis of the whole week, do we need Q1 of the PAR?
+  - Three priorities: seeing each other, deciding maybe that it is always a synthesis
+
+- RP: In the context of a checklist, questions which are often answered in a perfunctory way can be useful for show the things you need to consider. (but doesn’t include truly unnecessary questions).
+
+- JC: As a whole other topic, this is causing me to rethink the design-pattern outline, which I’d been already doing with Abby.  I’m pleased to see that this is underway, but since there’s no time for us to consider it.
+
+** crdt.el: Tech progress
+
+- Webcam screensharing
+- Since last Thursday... we had trouble seeing different colours
+  - Colours are now fairly different; selection is displayed correctly (yes, a kind of teal); the colors are related to the cursor color
+- ERG is using =development= ; using TLS, you don’t need to put =tcp:=
+- =crdt-region-alpha= can be set to make something that works OK per different backgorunds
+- Fixed ‘recovery’ code, Leo contributed to the proper debugging function
+- keybindings for following users
+- Only works on current buffer presently
+  - JC: would work well across buffers on the wiki
+  - Could make it only work when yourself isn’t typing, you would need to turn it off before being able to type
+
+- JC: =crdt-set-user-color= would be a nice request
+- Looping around the user list might cause an error
+
+* BREAK                                                                  :5m:
+
+* Agenda (Part 2)                                                       :20m:
+
+** Think more about CLA in the context of ERG
+
+- JC: Spending a lot of time writing and reading on writing.
+
+#+begin_quote
+_Joe Corneli in =#bureau= on Hyperreal_
+
+What I'm trying to do is to think about the PLACARD pattern as a writing prompt.
+
+On that basis it occurs to me that the Day One to Day Four regime above might somewhat map to the four layers of CLA.
+
+/Day One: the trauma or emotional upheaval that has been influencing your life most/ — LITANY LAYER
+
+/Day Two: Today, try to link the trauma to other parts of your life./ — SYSTEM LAYER
+
+/Day Three: Your primary goal is to focus on your emotions and thoughts about those events that are affecting your life the most right now./ — WORLDVIEW LAYER
+
+/Day Four: In your writing, try to tie up anything that you haven't yet confronted./ — MYTH LAYER
+
+... It kind of works.
+
+*[10:21 AM]* Joe Corneli: With PLACARD, there's more than just CLA going on; the way I am deploying it:
+
+2pp for "Context" (similar to the PAR, though I didn't typically use the PAR template, maybe worth trying it at some point to be more formal)
+
+2pp for "Cognition" (using the CLA template)
+
+2pp for "Action" (thinking in very loose and approximate terms about patterns, conflicts, and next steps: this is free-writing, after all).
+
+Inspired by mal-mode.el, I've also started to pause after the 1st and 2nd sets to look back over the pages and underline keywords (in red ink!), particularly looking for emotion-laden words.
+#+end_quote
+
+- JC: Rather than mulling on the PAR template, maybe this 6-page thing could be a collaborative version of this 4-step program?
+
+- [[https://en.wikipedia.org/wiki/James_W._Pennebaker][https://en.wikipedia.org/wiki/James_W._Pennebaker]]
+
+** Confluence demo
+
+- Has some nice organisational features like drawers for pages
+- Integration is fast but doesn’t necessarily empower users
+- [[https://confluence.atlassian.com/confkb/how-to-add-a-jira-kanban-board-to-a-confluence-page-959798689.html][Jira integration]] exists...
+
+- LV: I’m interested in sharing an agenda to my phone; currently you can take a screenshot and put it as your lockscreen...
+
+- RP: What is the original motivation?
+- RP: "What’s missing?"
+  - JC: Briefly, to make design patterns measurable?
+
+* PAR                                                                   :5m:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+- Try to tune-up our tools?
+- Try to have a distantiated view on the PAR (not =PAR^2= but something simialr to it)
+*** 2. Establish what is happening: what and how are we learning?
+- Went at it from the angle of PAR as an exercise in mindfulness/grounding
+- Also from the action-oriented perspective: Is it helpful for us in what we are trying to do?
+- What’s the actual value of the PARs going forward?
+- JC: Has the process of doing *and reviewing* the PARs gone stale?
+  - Could we address it via the appropriation of the CLA?
+- Roger Mercer interview could be an example of using CLA as an organising framework, e.g., for writing, or other things
+
+*** 3. What are some different perspectives on what's happening?
+- LV: It’s been a slog, maybe because I was tired, I felt slightly underprepared with the CRDT update. Perhaps we were rushing too much to keep it to one hour, but I leave feeling like more could have been done; or there wasn’t much to contribute to.
+- NA: It does feel rushed.
+- NA: I like Joe’s idea of collecting the previous PARs and tagging them for the litany/system/worldview/myth layers...
+- What even are the tags for this one?
+
+*** 4. What did we learn or change?
+- LV: I’m not sure yet if the CLA review is something I’m on board with; I’m on board with having the PARs be something to ground yourself with in the present
+
+*** 5. What else should we change going forward?
+- Defend CLA to Leo
+  - JC: Maybe it’s mostly "concentration" rather than "mindfulness"
+  - LV: Still not sure it’s contributing to the structure we’re trying to build
+- JC: We should return to this mission of writing one slide per month.
+  - To that end, we should be able to write the slide for January.
+  - Even if the CLA isn’t a great method
+- LV: This could be like too much cruft; a SOKOBAN with too many boxes
+
+* Tentative agenda for next week
+
+** Trial by fire for CLA
+- RP: I can include some background on what CLA is actually about
+- LV: Would like more action-generating structure, that generates clear actions
+- NA: So, make the meeting more actionable?
+- RP: Maybe having goals for things to accomplish, beyond a discussion.
+- JC: For example, maybe "work on one slide" as a goal?
+- The meeting needs to have /activities/ — "think about X" or "write a slide"?
+- LV: I want to produce something that is concise and that hones on something I can think about or do
+  - JC: This is echoing a point Alex brought up in the past: “If the meeting does not leave with action items, it’s not a good meeting”.
+- We can at least measure "Where there any outcomes?"
+- We can also try to plan ahead and think about what makes a meeting action-generating
+- There is an existing TODO list but it might be
+
+* Check-out                                                              :5m:
+
+** NA
+- Gonna go make another cup of coffee. 😪
+- Gonna go back to her take-home work for her interview.
+
+** JC
+- Will try to follow up with someone working on the The Learning University
+- Big picture: it’s been a week with lots of meetings.
+- Feeling better than at midweek
+
+** RP
+- Wish everyone a good weekend
+
+** LV
+- Has less time than planned to plan his outfit for tonight, juggling schedules the date might happen tomorrow
+- Had been relatively displeased with freefall but glad we landed on the ground, and looking forward to rest from exercises
