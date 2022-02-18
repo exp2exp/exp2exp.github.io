@@ -1,0 +1,166 @@
+#+title: Anticipating Anticipation: A Workshop Proposal
+#+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
+
+* Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+
+We have developed a collaboration strategy that scaffolds social
+/perception/, /cognition/ and /action/.  Among what we expect to be many
+possible applications, these four are top of mind for us.
+
+- Bringing together experts from design and life sciences to build the
+  next generation of wiki-like software for co-design of a healthy and
+  sustainable life-world.
+- More broadly, exploring the future of writing, information
+  processing, and collaboration, with open source software.
+- Helping to debug practical practice-based projects such as the
+  Gigatonne Challenge, in which local teams work to meet increasingly
+  major carbon abatement and community equity.[fn:: Cf. “[[Https://complexity.university/thegigatonnechallenge][The Gigatonne Challenge: Saving the planet is now a career choice]]”]
+- We’re also particularly interested in the collaboration methods
+  themselves, which we want to make as transferable as possible: this
+  “meta scenario” is what we aim to explore together with participants
+  at Anticipation 2022.
+
+* Background
+
+In the Minnesota 2050 project, participants were selected from a
+variety of professions and leadership roles to produce scenarios for
+local energy and land use, and combined modeling with scenario
+planning citep:olabisi2010.  Solving large-scale problems in
+interdisciplinary teams will require new thinking and additional
+tools: to bridge between the viewpoints of, e.g., professional
+futurists, programmers, data scientists, local farmers—and to draw on
+the insights of citizen scientists citep:wildschut2017a.  For maximum
+leverage, we have proposed to use and develop a collection of virtual
+/patterns of patterns/ that work fluently across domains, levels, and
+spheres of endeavour citep:cornelietal2021.  We draw on theoretical
+concepts from the life sciences,[fn:: [[https://www.x-spect.org/][Cf. “Expecting Ourselves: Embodied
+Prediction and the Construction of Conscious Experience”]]] but the work
+we develop here is not highly theoretical.
+
+* Workshop outline
+
+Our overall strategy use specific methods flexibly, depending on the
+context.  Relevant methods include sensing, embodied communication,
+wikis and text analysis, as well as data analytics and agent
+modelling.
+
+In a workshop setting, we need to train participants—or otherwise
+co-establish, e.g., through dialogue—the specific methods we will use,
+and also understand the context.  Participants will typically be
+familiar with the context, and not the methods.  In particular, local
+experts may not have spent much time thinking about the future: how it
+might be, or how to steer things in a desirable direction.
+
+Accordingly, our workshop design has three phases:
+
+- Envisioning the future :: We help participants come up with plausible scenarios.
+- Exploring the future :: We use a role-based method to explore the scenarios.
+- Enacting the future :: We develop strategies for action and practice that will prepare for the scenarios.
+
+For the Anticipation 2022 workshop, we are interested in "going meta"
+and exploring /the future of anticipatory methods/.  In this setting, we
+expect others will have been thinking about the future in
+sophisticated ways, and our aim is to pull these thoughts together.
+
+* Piloting
+
+On October 6th, 2022, we led an online workshop called "Flaws of the
+Cool City" at the [[https://www.hillside.net/plop/2021/][2021 Pattern Languages of Programming (PLoP)]]
+conference.  This was an adaptation of previous workshops offered this
+year at the Brookes Creative Industry Festival and the Connected
+Learning Summit.  Following a short [[https://docs.google.com/presentation/d/1xf7sgCciZNKDe5dWKQkYbj8oI1qYR0oqzo3VFOHpavI/edit?usp=drivesdk][presentation]], we trained attendees
+on the four roles—that of *Historian*, *Kaiju Communicator*, *Designer* and
+*Analyst*,—and invited them into a serious (but fun!) role-playing game.
+
+The game was a remix of other preexisting materials:
+- /Scenarios/ from the Causal Layered Analysis (CLA) game developed by Heinonen, Minkkinen, Karjalainen, and Inayatullah for the "[[https://doi.org/10.1016/j.techfore.2016.10.011][Future Studies Tackling Wicked Problems]]" 2015 conference in Turku, Finland;
+- /Roles/ inspired by the "[[http://www.flawsofthesmartcity.com/][Flaws of the Smart City]]" game created by Design Friction in Paris; and
+- /Actions/ drawn from the "[[https://www.coolingthecommons.com/pattern%20deck/][Cooling the Commons]]" design patterns from Tonkinwise and Lopes at University of Technology Sydney.
+
+At the end of the session, we did a Project Action Review (PAR)
+together with workshop participants,[fn:: Cf cite:cornelietal2021]
+summarised in the following section (and edited for clarity and
+brevity).[fn:: [[https://docs.google.com/document/d/17JCmBYqN6_zwxgY2cUkMQPU2jVoahgU8iidCErtZ_ts/edit][Relevant data is archived on Google Docs.]]]
+
+* Adaptation of the "Flaws of the Cool City" Pilot
+
+Our reflection on the previous pilot shapes our thinking about the
+next phase of the workshop, and our plans for Anticipation 2022.
+Accordingly, we outline specific details of our plan relative to
+excerpted comments from previous workshop participants.
+
+Two discussants who participated in the pilot were:
+
+- *YK*: Yuki Kawabe
+- *MW*: Michael Weiss
+
+** #1. Review the intention: what do we expect to learn or make together?
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- YK :: My expectation was to learn about how this can workshop work for me. I didn’t have much total prior experience of Future Studies.
+
+- MW :: I was curious how can we apply patterns that have been documented about the topic we are discussing or a similar topic?  How can they be used to think about a future scenario?
+
+#+begin_quote
+*Response:* In the Anticipation setting, people will be familiar with specific methods for futuring, but may not have thought about how to teach these methods to others, or about how their methods shape the future of futuring itself.  Further development of an anticipatory pattern language could help make methods quickly sharable (parallel submissions to Anticipation 2022 from Corneli and Tabor, and Corneli, Puzio, et al. comprise a starter pack), and would be a useful joint outcome.
+#+end_quote
+
+** #2. Establish what is happening: what and how are we learning?
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- YK :: Because this was my first experience with these methods, the training session was good for me because it was a time to ask meta questions like “why do we say kaiju communicator?”  However, this is a meta point, not main point of workshop, which ostensibly looked at climate scenarios. We could have done this preparatory stuff before the workshop itself.
+
+- MW :: How does choice of framework inform how we learn? Similarly, how does the use roles structure how we learn or constrain our thinking?
+
+#+begin_quote
+*Response:* With the challenge of Anticipating Anticipation, there to be less of a divide between meta thinking and domain thinking.  We will ask participants to be reflective about /how/ they are engaging throughout the activity.
+#+end_quote
+
+** #3. What are some different perspectives on what’s happening?
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- MW :: This reminds me of open space communication … people move from table to table they find one to contribute to; perhaps one is interesting, but I can’t contribute, but next one speaks to me more and I can talk to it.  One way to scale up the workshop would be to "double up" and divide the roles between teams of two, like in pair programming.
+
+#+begin_quote
+*Response:* Depending on the number of attendees we may use different methods for organising the session.
+#+end_quote
+
+** #4. What did we learn or change?
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- YK :: One thing I struggled with is there are many items to think about here and many tools for thinking: the scenario and headline, the kaiju communicator handbook, the designer handbook, and so on.
+
+- MW :: In workshops, people sometimes run them with cards … and even if there are 52 cards, one person might only get 3 cards. This makes it less daunting, just have to learn 3 of them.  This is related the challenge of facilitating a workshop versus allowing someone to dominate the conversation, since, indeed, we could being dominated by the methods.
+
+#+begin_quote
+*Response:* Using pattern methods, along with interactive examples, can help keep things focused and well-integrated.
+#+end_quote
+
+** #5. What else should we change going forward?
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- MW :: One possible trade off relative to doing the methodological bootstrapping in real time would be to ask participants to read some of the material ahead of time.  But it’s a good question how much preparation people will be willing to do. What would the pattern language for this workshop look like?
+
+#+begin_quote
+*Response:* Our aim is to use the application areas mentioned in the Introduction as “seeds”, and inviting others to bring their own anticipatory scenarios to the table.  We will then try to look together at how we can approach these scenarios, considering that each participant will have put in a lot of time prior to the workshop developing his or her own expertise!
+#+end_quote
+
+* References
+
+#+begin_export latex
+\bibliographystyle{unsrt}
+\bibliography{/home/joe/pattern-reboot/main.bib}
+#+end_export
