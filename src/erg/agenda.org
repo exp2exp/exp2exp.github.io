@@ -1,7 +1,7 @@
 #+Title: ERG Agenda
 
 * Long-term tasks
-** STRT Prepare EmacsConf proposal
+** DONE Prepare EmacsConf proposal
 DEADLINE: <2021-10-16 Sat>
 :LOGBOOK-NOTES:
 - State "STRT"       from "TODO"       [2021-09-18 Sat 19:28]
@@ -22,13 +22,13 @@ CLOSED: [2021-10-09 Sat 19:51]
 - State "CXLD"       from              [2021-10-09 Sat 19:51]
 :END:
 | [2021-09-18 Sat] | General discussion about the format & figuring out the points we want to cover    |
-*** STRT Write the proposal
+*** DONE Write the proposal
 DEADLINE: <2021-10-12 Tue 19:00>
 :LOGBOOK-NOTES:
 - State "STRT"       from "TODO"       [2021-10-09 Sat 19:51]
 :END:
 ** TODO [#D] Think about ways to implement silent-sessions of ERG (with heavy use of crdt.el)
-** TODO Trickle-down money from JC’s work with Abby?
+** [?] Trickle-down money from JC’s work with Abby?
 ** TODO Getting an evil maint to come talk some goddamn sense into Alex
 - RP: We could set up a dialogue with one of those evil-mode.
 - JC: We could just find someone who loves evil-mode.
@@ -45,7 +45,7 @@ CLOSED: [2021-09-18 Sat 15:42]
 :PROPERTIES:
 :CREATED:  [2021-09-18 Sat 15:42]
 :END:
-** TODO PLoP
+** DONE PLoP
 *** The crew will give a 10-min presentation of where we’re at with the workshop
 SCHEDULED: <2021-09-23 Thu>
 * Things on our

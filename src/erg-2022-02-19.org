@@ -1,0 +1,238 @@
+#+TITLE: 18 February 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-02-18 Fri>
+
+* 18 February 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Good; interviewing next Wednesday!
+- Now an auntie again (to a niece this time)
+- Has an org based timer now!
+- For Chronos, can I share the buffer on CRDT?
+  - LV: Yes, but I have to put the relevant major mode on the server, because if we try to share buffers in major modes that don’t exist, it will b0rk
+
+** JC
+- Here in spirit!
+  - Async checkin... just came from the local community center where Elizabeth is doing a "seed swap"; previously at the market; did an interesting journaling session today
+- For the agenda: hoping for 1/2 hour for PLACARD workshop, but also recalling that we were going to put the CLA on trial this time.
+
+** LV
+- Slowly joining…
+- JC@LV: NA’s timer could be piped into org-wc-display, and then piped into synced overlays on CRDT.  (This is a crazy radical idea independent of the timer idea.)
+- =<10hrs= of sleep last night but has been swimming fly and not hurting his shoulders, running a little late
+- Had a bit of an epiphany with swimming... /I’m good at swimming/ and I know this, and then I had an epiphany that allowed me to become 20% better via a mental click!
+  - You can go down to push through the shoulder, but instead of starting late, you go early, like you were gripping a ladder, and this gets you to use your back rather than the shoulder.  Shifting the focus to the back, changing the angle.
+- Also can do pull-ups with the barbell
+
+* Meta points
+
+** DONE Don't forget to record the session! :LV:
+
+** =org-timer-set-timer= is great!
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Design PLACARD workshop                                                       :LV:NA:JC
+
+*** Design
+
+- Joe shared anticipation-workshop.org on =exp2exp=.
+
+#+begin_quote
+We have developed a collaboration strategy that scaffolds social
+/perception/, /cognition/ and /action/.  Among what we expect to be many
+possible applications, these four are top of mind for us.
+
+- Bringing together experts from design and life sciences to build the next generation of wiki-like software for co-design of a healthy and sustainable life-world.
+- More broadly, exploring the future of writing, information processing, and collaboration, with open source software.
+- Helping to debug practical practice-based projects such as “[[Https://complexity.university/thegigatonnechallenge][The Gigatonne Challenge]]”, in which local teams work to meet increasingly major carbon abatement and community equity.
+- We’re also particularly interested in the collaboration methods themselves, which we want to make as transferable as possible: this “meta scenario” is what we aim to explore together with participants at Anticipation 2022.
+#+end_quote
+
+*** Next steps
+
+- 24th of February there’s a Anticipation 2022 deadline
+
+*** Budget breakdown
+
+- £5K available
+ - ≈ £1K per person?
+ - ... Except Abby’s could saved as an "overhead"
+
+| *Deliverable*             | *Costs*                                                         | *Status*     |
+|-------------------------+---------------------------------------------------------------+------------|
+| Emacsconf 2022          | time of facilitators, streaming, wiki hosting, calling people | PILOT      |
+|-------------------------+---------------------------------------------------------------+------------|
+| ABBY WORKSHOP           | Design of the workshop, and running the workshop              | to be paid |
+| /"Handbook" guide/      |                                                               |            |
+| Workshop facilitation   | [[https://www.rca.ac.uk/students/claire-van-rhyn/][Claire’s methods]]; potentially relevant                        |            |
+| EMACSCONF 2023 WORKSHOP |                                                               |            |
+| WIKI DESIGN             |                                                               |            |
+|-------------------------+---------------------------------------------------------------+------------|
+
+Inspired by "Embodying the city: from the microbiome to the biosphere."
+
+1. To establish a phenomenologically informed, theoretical platform from which to investigate the reciprocal and evolving health of city systems *(Work Package 1)*.
+2. To undertake an international, cross-disciplinary investigation, employing /spatial ethnography/, to identify the
+characteristics of health across spatial and temporal scales *(Work Package 2)*.
+3. /To develop an open-source, universal language platform/ (federated Wiki) for the design of good cities, co-produced by local and global communities of city dwellers *(Work package 3)*.
+
+ERG’s expertise is mostly on #3; we could turn the Saturday meetings to focused work on the goals above once we have the budget stream.
+
+*** Timeline estimate
+
+- 24th Feb  :: Anticipation 2022 deadline... could propose a meeting with Abby at this time
+  DEADLINE: <2022-02-24 Thu>
+
+- May  :: Joe in Paris. (This is a Michael Mehaffy event: [[https://www.imcl.online/2022-paris][https://www.imcl.online/2022-paris]]... do we want a pilot here?).
+DEADLINE: <2022-05-01 Sun>
+
+- August?  :: Abby workshop on Design Pattern Languages + Active Inference Framework, date and specific deliverables to be confirmed.
+  DEADLINE: <2022-08-01 Mon>
+
+- November 18th :: Anticipation 2022 delivery
+DEADLINE: <2022-11-18 Fri>
+
+- November 20th :: Emacsconf workshop
+DEADLINE: <2022-11-20 Sun>
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:02
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** crdt.el update                                                       :LV:
+:PROPERTIES:
+:Effort:   5
+:END:
+
+- Didn’t meet this week
+- Had a long session last week
+
+- NA: Request, could I kick myself from the server?
+  - LV: Working on permissions: ‘This user can run this function on the server’
+
+- JC: CRDT at the level of a shared directory?
+  - NA: An org-roam directory... with the Org Roam DB we’d have to add another column with the author
+  - Would leave Google Docs in the dust for a certain class of users...
+  - But why does it need to be live?
+    - An extension of breakout rooms on BBB; but this is more related to =meetings.el= than CRDT
+    - How do you crowd-control a document...; these aren’t strictly CRDT requests!
+
+** KILL Fix Noorah’s tag-align :LV:
+:PROPERTIES:
+:Effort:   5
+:END:
+
+NA: Figured this out!
+
+** SSH/VNC                                                              :LV:
+:PROPERTIES:
+:Effort:   15
+:END:
+
+*** Intro
+
+Could be related to ERG...
+
+- NA is taking her laptop to Kuwait, and setting up Emacs on the laptop is a PIA.
+- SSH not strictly needed, CRDT might work...
+- JC: Was also looking at Xpra with Ray, this does something similar to what we’re talking about here
+
+*** Demo
+- VNC is about sharing a desktop as images to another client, allowing the client to click on the computer
+- It’s about sharing JPEGS of the screen, and relating clicks from one machine to another
+- Basically it’s the lowest-friction way to access your PC remotely
+- But if you’re doing it on something other than the local network you do need to make it secure
+- You can do this with port forwarding: I’m telling my machine to connect a port to a different machine
+
+- If there’s a power failure in Texas... well, this isn’t robust to this sort of thing.
+  - LV: E.g., my server overheated when I was on holiday; but you can configure a WAL packet setup
+
+- JC: You need data offshoring as well... if you were to send me your =.emacs= I could try to make you a login on one of my Linodes
+
+- NA: What about getting CRDT working on my laptop, so that I can edit things via CRDT.
+
+- LV: For offshoring, you could also share the data with me.
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+- NA: What is this question... how did we achieve our initial objective?
+  JC: I had thought we might put CLA on trial, we didn’t, that’'s OK.
+- When we go into the meeting, we just go into checkins, we don’t go talk about the intention for the meeting.
+- Do we need an intention for the meeting?
+- The PAR should be a two-step process.  At the top, briefly go through an outline.
+- NA: I can go through an outline, and if you want to talk about something, let me know by Friday night.
+- PrePARing the PAR is something we talked about with Charlotte for a while
+*** 2. Establish what is happening: what and how are we learning?
+- Leo’s doing native compilation during the meeting, because he saved init.el!  This made his voice crunchy for a while.
+- Demoing our work and discussing...
+- Witnessing a group working well, not hampered by tension, geared towards action, comfortable enough to eat and crack jokes...
+
+*** 3. What are some different perspectives on what's happening?
+- Without trying to have everyone at the party we can be focused
+- The big parties are nice/admirable AND good to have "breakout rooms".
+
+*** 4. What did we learn or change?
+- JC: I did learn something about VNC being image-based.
+- NA: Also learned about SSH as well, and how I want to work
+
+*** 5. What else should we change going forward?
+- SSH and other remote stuff can be infuriating... let’s keep it simple.
+
+
+* Tentative agenda for next week
+
+- Meeting with Abby (possibly Thursday 24/02?)
+  - Confirm with JC before Thursday
+- Leo x Noorah on SSH stuff (Wednesday 23/02)
+** Next steps
+- Create an ERG agenda template.
+  - @NA: create custom agenda
+- Revisit PAR questions
+- JC: Solo PLACARD exercise
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Great, productive, almost-on-time meeting
+- Going to grab lunch and run some errands
+
+
+** JC
+- Brief CLA checkout...
+  - Applying hand-rolled mal-mode to his writing, but inspiring it with the CLA method, especially working on patterns; can say more about it later
+- @NA: Maybe you can drop by James Pennebaker’s office... when you’re back from Kuwait
+
+** LV
+
+- I’m even more anal retentive now with my spelling.
+- Not =-ise= endings, but =-ize= (it comes from the Greek suffix)
+- Now using American spellings and other things...
+- I looked into words I can’t spell; and also looked into quotes (the typewriter apostrophe is now the proper unicode apostrophe)...
+- Can still use typewriter quotes
+- Next week: is university hols in France and thinking about a Saturday night off
