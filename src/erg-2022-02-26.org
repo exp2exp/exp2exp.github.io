@@ -1,0 +1,291 @@
+#+TITLE: 26 February 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Ray Puzio, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-02-26 Sat>
+
+* 26 February 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+** RP
+- Will be back in a few weeks whenever the rest of the team is working on the project with Abby.
+
+** NA
+- Took a 2nd booster yesterday, good to have another one after five months...
+- Interview w/ potential line manager went well, things are moving forward 
+- Going to volunteer data analysis role right after this call
+
+** JC
+- Going to the loo
+- Was out by the river
+- Thinking about Open Future role
+- Was working on /Résumé/ for Researchers™©®
+
+** LV
+- [DATA EXPUNGED]
+- Magic magnets being put to good use today
+- Real news: had a miserable morning due to a miserable dream that highlighted loneliness
+- Considering 10 hours per night to be a necessity
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-02-26 Sat 17:05]
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** Where are things at now?
+
+*** Reflection
+- *Meta-point: how did it go with Abby?*
+- JC: I think it went well
+  - We did submit our workshop and [[https://docs.google.com/document/d/1FbxxmSIP_hJMP2eOlCl7So-1q7XKa5nY6FBD1fOyKHo/edit][short paper]] (worth reading)
+- Mobilization of undergrads could be interesting but doesn’t seem available yet... so let’s consider what that means for the next step (e.g., what’s the ‘dogsbody’ stuff that JC & AT need to do...).
+- Workflow is international, but we don’t have RAs; that could come as a next step after data gathering & getting the next grant
+- Is it possible to figure out where the boundaries are in terms of what we bring
+- We’ll eventually need to produce an invoice, but where do we see things going until May or so?
+- When you’re trying to think transversally, if you find something stymieing the process, you should be able to shit on something and also agree to fix it
+- Don’t try to do too much and it should be good; is it OK to comment on other aspects of the workshop that’s not the workshop?  
+- "Pro-Software" for people working with design patterns
+- Let’s make sure we get the money stuff sorted; JC to do this soon
+- NA: I’d be more a technician or designer
+- JC: We’re co-experts on the long term of the workshop, but let’s consider the "Embodying the Wiki" theme as particularly meaningful for the next step
+
+*** Annex: notes from conversation with Abby Tabor :noexport:
+
+- The next phase of this proposal is to embed it in different ways: 
+
+*Workshop 1.* Co-creation of prototype patterns for collaborative working
+
+A workshop led by experts in peeragogy and embodied methods, inviting citizens to discuss collaborative working in the form of Pattern Languages. Data generated through workshop to be embedded on Wiki platform to user test.
+
+*Workshop 2.* Co-creation of prototype patterns for healthy public futures
+
+A workshop led by representatives of the multidisciplinary steering group (architect, public health, psychology, computational biology, ecology) inviting citizens to discuss healthy urban environments around Pattern Languages.
+
+Modelling Scenario 1. Computational model of prototype patterns for health
+
+Computational model established to describe and predict longitudinal data describing the relationship between biodiversity, immune markers and health outcomes. The model will help to theoretically inform design patterns (e.g. Figure. 1).
+
+-  https://www.imcl.online/2022-paris
+
+IMCL
+2022, Paris (Le Plessy-Robinson), France | IMCL
+
+- Sharing lessons from Paris, its suburbs - and each other
+
+May 18-20 (with side tours on May 17 and 21)
+
+- Workshop that allows us to test a pattern or patterns
+
+- Creating the patterns depends on who you ask, e.g, professionals and citizens will have different things to say about the same situation.
+
+- "Ontology": sustainable cities, a dictionary of shared words
+
+- "Taxonomy" : whereas ontology would start from scratch, here it's more of a toolbox, where you've mapped the area.
+
+- "Embodying the wiki"?
+
+- Does the question change, depending on who is engaging?
+
+- Perhaps the question doesn't change ideally; but one question we have to ask experts is "does this make sense from a practice standpoint?"
+
+- Architects, especially in Michael's circle, will have a lot of exposure to DPL.  They may not see it as forward thinking.
+
+- When you're asking different people you'll produce different results.  It could be that the expert/citizen divide is something we can explore.
+
+- NA: Workshop = data-collection
+
+-  LV: To explain what we're trying to do to people who aren't familiar w/ future studies: NASA style simulations, where people do things before it becomes real, e.g., catastrophe planning of things that can go wrong. It's centred around something that's in the making; giving it data based on what the past has done.  This could be a nice way to explain what the workshop is supposed to be.  For building a city you'd have a given team...
+
+- LV: Another point, since we started the discussion such as ontology, taxonomy... the workshop = data-gathering part of building the DPL; what seems crucial is to circumscribe the gathering of data, and articulating it relative to another thing that's transversal.  We'd have a bit of a wall between experts and citizens.  You'd have different validities (e.g., lay, expert).  SO this leads to a question of the tooling.  How to refine and distill the data into something that can be transversal?
+
+- It may be a bit much to handle data-gathering & ensuring good communication between different members and survivability ; and also the simplification so that experts & citizens can use the same platform.
+
+- Implementation: it's imperative to get a clear idea of the information flow from inputs to outputs.
+
+- *Next steps*
+
+Although the system approaches we have described are well established, the integration of Pattern Languages with Active Inference is in its infancy. The success of this proposal is dependent on the citizens with which it will evolve.  Through this next phase, we invite people in, providing the tools for universal communication, allowing citizens to describe, experience, challenge and update the patterns for healthy urban futures.  Subsequently, we foresee a virtuous cycle in which hypotheses are generated by evidence, put into models that look at ideal scenarios, which are then described with interconnected patterns, which contain testable hypotheses, guiding experiments which can then be fed back into the model.
+
+-  AT: How do we insure that the information is useful & doesn't dissolve into complete disorder?  Output of each iteration should be useful; what's a realistic time-frame (inside the workshop: rapid/outside the workshop: years, with 2 years of data collection about, e.g., parks, experiential outcomes, then fed back into the pattern language).
+
+It feels as though, in order to have something succinct for this project we have to be quite constrained w/ the proposal...
+
+-  LV: It's important for people to use their own words to describe their patterns. We don't want to give them a taxonomy that closes doors rather than opening doors. If we ask people to work ex nilho ... they will come up with things.  We want to mobilise creativity so we don't get people stuck in a box.
+
+- If we focus on "how to gather the data" then there may be a component that allows us to pre-distill the data; this situation requires X, Y, Z (patterns). We only provide the flow.  And then another module, where we distill things; so that if we have a pattern that seems reminiscent of something that exists in the database, we could provide a list of selected patterns, and maybe 50% of the patterns will be linked as already represented in the database.  This will give a vista into how qualitative the data will be.
+
+-  NA: I have a friend who runs a workshop and lets people draw, that's good 
+
+- [JC: Especially for architects.]
+
+-  "Anticipate anticipation..." "Architect architecture"?
+
+-  Get them thinking in patterns, even if we are creating small groups (planners, public health, architects... in a group) trying to use patterns & think in networks.
+
+-  How well are they able to articulate key patterns facing these domains, when thought through in patterns?
+
+-  The "map" is the output; the unlinked patterns are the inputs.
+
+-  Wonder if we could pilot this with Michael and Andrea before the May thing.  Academic architects, what are we getting from this kind of structure.
+
+-  "What does Active Inference have to give a pattern language?"
+
+- If we discuss Bayesian methods, we're not shaping the patterns around design so much... but rather, it's centred around system integrity.  (Homeostasis, evolution.)
+
+- So, zooming out... creating simulations for what the future will hold... simulations under the umbrella of active inference
+
+- *Design Pattern for microbial diversity in civic space*
+
+*Problem Statement.*
+
+The incidence of immune-mediated diseases has increased rapidly in cities. This health burden has been linked to a reduction in biodiverse exposures in childhood, negatively impacting the resilience of the immune system (Rook, 2003; Roslund et al, 2020).
+
+*Discussion.*
+
+Microbial diversity is essential to the effective training of the human immune system. Without effective exposures to microbial diversity, the immune system is less able to accommodate encounters with stressors throughout the lifespan (e.g., asthma). There is, however, a tradeoff between too much (over exposure-risk of acute illness) and too little (underexposure, poorly refined system) in relation to microbial habitats in the city environment.  These trade-offs can be modelled computationally.
+
+*Candidate Policy Proposal.*
+
+Install publicly maintained raised beds for herbs, wild flowers and vegetables in civic spaces.
+
+-  If we discover that people want to go from the map back to the individual patterns...
+
+It would be easier to embody the methods... so that for people who run the workshop can have access to the methods, the wiki, the DPL all available.
+
+If we go to Michael, it may make sense to an expert... it sounds good / promising ... it would be significantly easier to come up with a solution for experts who will give credence to the research.  And the workshop running the workshop itself can be left to the discretion of those running the workshop itself.
+
+And so they won't be limited by the software itself.
+
+-  People who are sensitive to this: Anticipation, futurology, they are sensitive to common ground ... we didn't talk a lot about free software & the ethos, but they are also aligned w/ this forward-thinking aspect.
+
+-  Could be a relatively safe way to excite the experts & get further funding
+
+-  "Establishing a basis from which we can run successful workshops"
+
+Engaging experts, building on Michael's wiki or some kind of structure, building on this ourselves, and doing this before we go too wide
+
+-  It can take a front-end developer to make amazing interfaces for the public...
+
+-  Reminder of Kaiju Communicator role.  At the essence, the method is about leveraging plurality to create something that's more than the sum of its parts.  You can have an architect, a citizen policy expert, etc., and some of the methods are here to invite plurality for individuals... you don't need 5 architects, but ask the 1 to think from a different prism.  Then, we also have methods to try to harmonize the ideas from all the different roles... out of which can emanate potential good options.  "Leveraging plurality into good solutions" ... will speak to a lot of people.  Going from the complexity of "what to do next" — how do we make sure that it's leveraged by the expertise of the people we surround ourselves w/, whatever the field.  Good way to sell it to experts who might be needed & for whom we may need an initial hook.
+
+-  "Consensus building" : leveraging plurality
+
+-  "Universal language" : means everyone will at least be able to communicate, and we take out the noise.
+
+The difference between having a linguistic system that enables that adaptability, rather than a rigid system that renders outsiders.
+
+-  There's something about design patterns that seems to be porous ... but also leads to some better structure.
+
+-  We mobilised plurality here!  We should get working on it over a long period of time starting soon... so, one other session when Noorah is back?
+
+Back on the 21st of March... this would give us some time to think; can also meet from Kuwait.  Maybe in a couple weeks when we've had some time to simmer?
+
+-  Could get stared towards concrete application by mid-March, that would be stellar.
+
+-  NA: Students could work on things like an overview of workshop methods.
+
+-  Also data-collection methods in workshops...?
+
+
+* BREAK !
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** Workshop design (Misc)
+
+- Workflow
+- Wiki design(?)
+
+- JC: Based on the feedback from Yuki, there was a *lot* to process.  Maybe we should simplify around the Kaijū communicator and the other stuff, and recenter on the patterns that are relevant to them.  We would have the same content, but we wouldn’t overwhelm the participants.
+- NA: "Participants", "scenarios-possibilities-alternative futures", 
+- "Design patterns" still seems like jargon
+  - "Solutions to a problem in a context"
+  - Methods (from our paper)
+  - Context can be constrained by a hypothesis (showing up in the work with Abby)
+
+#+begin_quote
+Bring people together that leverage their plurality to solve complex problems
+#+end_quote
+
+#+begin_quote
+... with (tools; don’t say patterns, since “patterns” could just be one way to think about it and contentious at best).
+#+end_quote
+
+#+begin_quote
+...taking plurality and coming up with the best scenario.
+#+end_quote
+
+Trying to distill multiple voices into the best option.
+
+*** Patterns
+
+- SCENARIO
+  - Architects and urban planners
+  - Emacs people
+  - Anticipation folks
+  - ... will have different views on the medium
+- TRANSVERSAL (like with Guattari’s essay about horses)
+- CAUSAL LAYERED ANALYSIS (Could help facilitate a transversal way of thinking, carefully extending the blinders)
+- HISTORIAN
+- ...
+- FACTORY OF PATTERNS
+- CATALOGUE OF PATTERNS... is a useful output for something like anticipation, since we can use them later
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Review the intention: what did we expect to learn or make together?
+- Had been thinking to do item 1 of the PAR before we get going this week!
+- Think about the workshop workflow at first, and then if we have time think about the wiki as the data collection
+
+*** 2. Establish what is happening: what and how are we learning?
+- Talked about inputs and outputs more than workflow
+
+*** 3. What are some different perspectives on what's happening?
+- This seems eschatological (“connected with the part of theology that is concerned with death and judgement”).
+
+*** 4. What did we learn or change?
+- Got some breathing room with the concepts and ideas
+
+*** 5. What else should we change going forward?
+- Next ERG meeting, Saturday 5th?
+- LV: Date for next meeting with Abby = Thursday the 10th as a next touchpoint
+- Think about a roadmap to the Michael event
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- See you next week
+- Buying Girl Scout Cookies
+- Doing data
+
+** JC
+- Bye!
+
+** LV
+- Bye²!
