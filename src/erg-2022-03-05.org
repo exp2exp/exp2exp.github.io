@@ -1,0 +1,295 @@
+#+TITLE: 05 March 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-03-05 Sat>
+
+* 05 March 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Still slightly jet-lagged from fatiguing West-to-East travel
+- Have got a final-final interview with TEA on the Wednesday the 9th, circa 5PM local time.
+  - JC: Happy to have a 1-to-1 before that to think through this.
+** JC
+- Thanks to Leo for the =sudo rmmod uvcvideo && sudo modprobe uvcvideo= save
+- ANPLFGR, Community Edition uploaded to Discord
+** LV
+- Long-night-of-the-soul post-February blues
+- Has taken a break, thought about writing, thought about coding, but did it on the margins whilst taking a break to recoup, still riding the crest of the wave of distress.
+- Working on concision, exploring the meaning & how to convey a sense of conciseness; had ended up reading about ‘Anglish’ which is English without a Norman influence.  "Linguistically pure English" (Saxon, High Germanic).  English is Layered via French conquest, Latin/Greek influence.  So this is sort of like Academe Francesse (sp) version of English.
+  - All told: this gave some sparkling joy; thinking about writing and concision brings together the /humanities/ and /coding/ experience: in coding you don’t want or need any cruft; a desire to simplify my prose brings back up my linguistic knowledge, and also makes my coding benefit from the coding and vice versa.
+
+- JC: Cf. [[https://en.wikipedia.org/wiki/The_Long_Dark_Tea-Time_of_the_Soul][https://en.wikipedia.org/wiki/The_Long_Dark_Tea-Time_of_the_Soul]]
+  - LV: Looking at [[https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun][Book of the new sun]], which focuses on Latin and Greek; and Tolkien who is also focusing on Old English things.
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* DONE Pre-PAR — Review the intention: what do we expect to learn or make together?
+- LV: There’s an actual em-dash in the title of this section; NA means business.
+- To discuss the roadmap, and maybe budget if we have time
+- NA: Hope to have a list of TODOs for each one of us that we can accomplish
+- Try to keep distractions to a minimum, maybe move them to an AOB or another week
+- What’s within the realm of possibility and what’s not: say yes and no, and then we get to it; today, I’m feeling fairly available for whatever the requirements are, so; listen and riff.  Think about implementation.
+- Prepare for the meeting with Abby next week; she’ll give a sign-off as client based on what she wants to accomplish. Joe can field this position today.
+- LV: We typically need to minimize client feedback, but it does seem that going forward we don’t need to worry about that here.
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+** PLACARD workshop roadmap
+
+#+begin_quote
+Joe: One of the updates from Abby's side is that she's now thinking about the conference in Paris as a good time to pilot the workshop but would like to run it more formally in mid-Summer in Bristol.
+
+Budget is still around £5000 overall (I'm not sure if there's any flexibility).
+
+As a rough estimate, 20 weeks with 6 person hours per week could cover the prep (120h); let's say it was £30/hr, then we'd be at £3600.  Let's then say it's a full day for all three of us plus Claire to run the workshop in Bristol; that would bring us to £4560 at the same rate.  This leaves 14 hours in the budget for analysis and "writing up".
+#+end_quote
+
+
+#+begin_quote
+Abby: Just a little recap of the meeting earlier before I forget.
+
+- Suggestion to have ‘testing sessions’ ahead of full workshop: remote discussion with Alex, Mau & Mark; Remote discussion with Andrea and Eric Rietveld(?); In-person discussion with Michael and potentially others in Paris (MAY); FULL WORKSHOP in Bristol with architects & urban planners (JUNE?JULY)
+- Joe to cost personnel costs at Hyperreal + travel expenses associated with Paris & Bristol
+- Catch up Tuesday 8th to discuss final agenda and timeline 
+
+Not discussed, but I plan to work on the IMCL paper over the next few days so that we have a summary to send to Michael so we can start the conversation.
+#+end_quote
+
+- Wk9: now
+- Wk19: [[https://www.imcl.online/2022-paris][Michael’s conference]]
+
+** Ten weeks
+
+| Wk | Interviewee                                                | Cost                                                |
+|  1 | Abby                                                       | Roadmap created, and checked with Abby on March 8th |
+|  2 | Abby                                                       | use case for public health WALK THROUGH             |
+|  3 |                                                            |                                                     |
+|  4 |                                                            |                                                     |
+|  5 |                                                            |                                                     |
+|  6 | Alex, Mau & Mark                                           | use case for public health                          |
+|  7 | Abby                                                       | use case for architects WALK THROUGH                |
+|  8 | Andrea and Eric Rietveld                                   | use case for architects                             |
+|  9 |                                                            |                                                     |
+| 10 | Paris conference: Michael, architects and urban planners   |                                                     |
+| 11 |                                                            |                                                     |
+| 12 |                                                            |                                                     |
+| 13 |                                                            |                                                     |
+| 14 |                                                            |                                                     |
+| 15 | Bristol workshop: Bristol with architects & urban planners |                                                     |
+
+** Inputs
+
+*** Scenarios
+- How do we implement scenario planning?
+*** CLA
+- How do we design the scenario planning?
+*** Patterns
+
+*** Abby
+- A perspective on patterns that incorporates active inference.
+
+**** EXAMPLE: Design Pattern for microbial diversity in civic space
+
+***** Problem Statement.
+The incidence of immune-mediated diseases has increased rapidly in cities. This health burden has been linked to a reduction in biodiverse exposures in childhood, negatively impacting the resilience of the immune system.
+***** Discussion [scenario]
+Microbial diversity is essential to the effective training of the human immune system. Without effective exposures to microbial diversity, the immune system is less able to accommodate encounters with stressors throughout the lifespan (e.g., asthma). There is, however, a tradeoff between /TOO MUCH/ (over exposure-risk of acute illness) and /TOO LITTLE/ (underexposure, poorly refined system) in relation to microbial habitats in the city environment.  These trade-offs can be /modelled computationally/ [using active inference models].
+***** CANDIDATE PROPOSAL [that the model could suggest].
+Install publically maintained raised beds for herbs, wild flowers and vegetables in civic spaces.
+***** Workshop ideas
+
+- Is there enough problematization?  The approach to this specific problem is relatively one-dimensional.  If we want people to think geometrically about the issue, we want more dimensions.
+- If we only have one pattern/dimension, it’s far too limited; it won’t do much to help us think of the future. The future is supposed to help us think about complexity.
+  - JC: So, bring 10 of these?
+
+- Discussion of the scenarios can help develop a shared language.
+- Who makes this solution happen?
+- How did they come up with this solution?
+- What are some of the other alternative solutions?
+
+- *What problems can come up with ‘microbial diversity’?*
+
+- We can’t just throw them in there and say ‘talk amongst yourselves’; we need some intervention to create creativity.
+- Design the tooling to run the workshop; part of running the workshop is coming up with the problems, not delivering *pre-made problems*.
+
+
+**** EXAMPLE: Design Pattern Language creation
+
+***** OPEN FUTURE DESIGN
+
+****** Context:
+People need to coordinate, plan, and maintain social cohesion. If a culture can develop based on shared learning BUT there is no oracle that can tell us what to expect; Then use design pattern methods to articulate multiple futures. This can co-evolve with further patterns, e.g., developing:
+- a language for projects → Roadmap (Corneli et al, 2015), *(…)*
+- a language of roles → Play to Anticipate the Future, *(…)*
+- a language of future scenarios → *(…)*
+****** Examples: This pattern and Play to Anticipate the Future.
+****** Next Steps: Flesh out this pattern language.
+
+***** PLAY TO ANTICIPATE THE FUTURE
+****** Context:
+You are engaging with friends, colleagues or acquaintances. If you want to explore possible futures BUT time travel does not exist; Then play a game that lets you experience a plausible future scenario together.
+Example: A bipartisan group played a scenario planning game to anticipate the aftermath of a contested US election (Bidgood, 2020).
+****** Next Steps:
+Transform our scripted presentation for Anticipation 2019 into a game; cf. https://fearlessjourney.info/.
+
+***** Workshop
+
+- When do we need a new pattern?
+- How do we know when a given pattern is working well for us, etc.?
+
+- Giving all kinds of patterns or asking people to come up with a bunch of patterns kind of shifts the work onto the people.  The workshop _we’re doing_ has lasted ≈3 years, not 3 hours.  So we can bring this level of complexity as a backdrop.
+
+- Criteria like "when is a new pattern created" or "how do we know it is working" are great things for us to think about.
+
+- Thinking about patterns in general is something we can trust ourselves to think about.
+
+*** Alex, Mau & Mark
+*** Andrea and Eric Rietveld
+
+** Process
+<<process>>
+
+*** Create tooling to run the workshop
+- When people get together and talk about the problems that are going on in their lives, that’s scenario planning; what we’re offering here is just a bit more structured.
+*** ...
+*** First iteration: Coming up with the scenarios + problems
+- Design pattern languages of problems
+- Coming up with the problem is its own workflow
+*** ...
+*** Second iteration: Explore scenarios
+- Design pattern languages of solutions
+*** ...
+
+** Outcomes
+
+*** Find usefulness for users
+
+*** *Turn "EMBODYING THE WIKI" into something that is clear and communicable for attendees; but never use this phrase with them, it’s an internal project name.*
+- "Appropriating the wiki"
+
+- RAPID PROBLEM SOLVING IN GROUPS
+ - Short training
+ - Gather data on how people interact
+   - Use cards / notecards ; let people draw
+ - Use design patterns
+
+*** *Solution to "SHARED LANGUAGE".*
+
+- We use patterns to describe what we’re doing; we use language to talk about this.
+- But language in a stricter sense can also describe the purpose of the workshop activity
+- Start with 10-20 patterns that describe the workshop, and allow people to appropriate them as they wish.
+  - What’s the kaiju of a public park?  Maybe pulling it too far in any one direction.
+
+**** A network of problems
+(Text form.)
+**** A network of solutions
+(Text form.)
+
+*** *Rapid problem solving in distributed networks*
+
+- Bring singularity from plurality, or choose the best option from many
+- If we tell them "one of you will be a kaiju communicator" this is very obscure
+
+*** Wiki design is a product, not a core concept.
+
+*** Be able to sell the PLACARD workshop to experts
+- If we just sell to other workshop experts, we start with some sort of vapourware
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+** PLACARD workshop next steps
+
+| WK | INTERVIEWEE                                                | ACTIVITY                                             | COST             |
+|----+------------------------------------------------------------+------------------------------------------------------+------------------|
+|  1 | Abby                                                       | Roadmap created, and checked with Abby on March 8th  | [6 person hours] |
+|  2 | Abby                                                       | use case for public health WALK THROUGH              | [6 person hours] |
+|  3 |                                                            |                                                      | [6 person hours] |
+|  4 |                                                            |                                                      | [6 person hours] |
+|  5 |                                                            |                                                      | [6 person hours] |
+|  6 | Alex, Mau & Mark                                           | Mini-pilot: use case for public health               | [6 person hours] |
+|  7 | Abby                                                       | use case for architects WALK THROUGH                 | [6 person hours] |
+|  8 | Andrea and Eric Rietveld                                   | use case for architects                              | [6 person hours] |
+|  9 |                                                            |                                                      | [6 person hours] |
+| 10 | Paris conference: Michael, architects and urban planners   | Pilot                                                | [6 person hours] |
+|----+------------------------------------------------------------+------------------------------------------------------+------------------|
+|    |                                                            |                                                      | 3600             |
+|----+------------------------------------------------------------+------------------------------------------------------+------------------|
+| 11 |                                                            |                                                      |                  |
+| 12 |                                                            |                                                      |                  |
+| 13 |                                                            |                                                      |                  |
+| 14 |                                                            |                                                      |                  |
+| 15 | Bristol workshop: Bristol with architects & urban planners | Claire participates                                  | 960              |
+| 16 |                                                            | 14 hours in the budget for analysis and "writing up" | 440              |
+
+*** NA
+- Work on the diagram.
+
+*** JC
+- Is the 6h/week a good figure for us?
+
+*** LV
+- Figure out a workflow from problems to solutions as a process of refinement (output, tests, etc.)
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- Made some tables trying to make roadmaps
+- Shared some example design patterns trying to find the sweet spot of what participants can appreciate: applied a Goldilocks principle to complexity, though we don’t yet have an answer for the medium-sized thing, we’re starting to get a feel for it
+
+*** 2. What are some different perspectives on what's happening?
+
+- Trigger-inducing to be talking about vapourware, so I’ll try to be sterner not to get over the moon and bring us back into actualizing the ideas
+- Meta-stuff (e.g., our three year workshop) muddles up the objective which is to provide something for users of the workshops
+- We’ve used the terms "experts" to describe both participants & people who attend; this can be confusing
+
+*** 3. What did we learn or change?
+
+- Plea for some clarity on the terminology, maybe we need a glossary of clear terms.  "There’s only one problem in programming, and it’s how to name things."
+- Got some hope from the [[process]] section
+
+*** 4. What else should we change going forward?
+- NA: Ready to produce something on this framework
+
+
+* Tentative agenda for next week
+
+- Meet Abby same time (1600 UK) on Tuesday 8th (to be confirmed)
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to crash
+
+** JC
+- Going to talk with family, then dinner with Elizabeth later, maybe swimming in cold water tomorrow morning
+
+** LV
+- Mission to be more concise: did not reach conciseness, but more direct; ways to go.
