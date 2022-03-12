@@ -1,0 +1,169 @@
+#+TITLE: 12 March 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-03-12 Sat>
+
+* 12 March 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Affected by a sandstorm and Zirtek, prefers to do a check in and then go back to bed today!
+  - JC: Recommends Vitamin C powder with electrolytes.
+- Has icons in Org Agenda
+
+** JC
+- Haven’t finished the budget
+- Let’s discuss ‘what is a pattern’ in an ongoing fashion
+
+** LV
+- Let’s not push the whole meeting to Tuesday!
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Sort out the invoicing
+- Look at patterns more later, so we don’t get too much influenced by Joe’s prior preparation
+
+* Agenda (Part 1 — Invoicing)
+:PROPERTIES:
+:Effort: 0:20
+:END:
+
+** From last time:
+1) We need to spend as little time as possible coming up with this quote, because this is not the real work being done.
+2) We need the invoice to be satisfactory for Abby’s institution.
+
+
+| WK | CODE NAME                  | ACTIVITY / EXPERTISE                                                                           | COST             |
+|----+----------------------------+------------------------------------------------------------------------------------------------+------------------|
+|  1 | "Abby"                     | [JC/LV/NA/] CONVENE MEETING                                                                    | [6 person hours] |
+|    |                            | - /Initial roadmap created, and checked with Abby on March 8th/                                  |                  |
+|  2 | "Abby"                     | [JC/] FACILITATE PATTERNS ALIGNED DEFINITION AS GROUNDWORK FOR PROJECT DOCUMENTATION           | [6 person hours] |
+|    |                            | - /Use this to describe the agile process that we will use, so we can pilot on an ongoing basis/ |                  |
+|  3 |                            | [LV/] TECHNOLOGICAL IMPLEMENTATION OF THE WIKI PROTOTYPE                                       | [6 person hours] |
+|    |                            | - /Could be done with off-the-shelf/                                                             |                  |
+|  4 |                            | [NA/] WORKSHOP RE-DESIGN FOR URBAN POLICY                                                      | [6 person hours] |
+|    |                            | - /R&D informed by software limitations/                                                         |                  |
+|  5 |                            |                                                                                                | [6 person hours] |
+|    |                            |                                                                                                |                  |
+|  6 | "Alex, Mau & Mark"         | USE CASE FOR PUBLIC HEALTH MODELLERS                                                           | [6 person hours] |
+|    |                            | - /Test and refine the prototype/                                                                |                  |
+|  7 | "Abby II"                  | USE CASE FOR ARCHITECTS+DESIGNERS (DRY RUN) THROUGH                                            | [6 person hours] |
+|    |                            |                                                                                                |                  |
+|  8 | "Andrea and Eric Rietveld" | USE CASE FOR ARCHITECTS                                                                        | [6 person hours] |
+|    |                            |                                                                                                |                  |
+|  9 |                            |                                                                                                | [6 person hours] |
+|    |                            |                                                                                                |                  |
+| 10 | "Paris conference"         | [JC/] PILOT WORKSHOP WITH MICHAEL, ARCHITECTS AND URBAN PLANNERS                               | [6 person hours] |
+|    |                            | - /Methods and tools exist/                                                                      |                  |
+|----+----------------------------+------------------------------------------------------------------------------------------------+------------------|
+|    |                            |                                                                                                | 60 hours £3600   |
+|----+----------------------------+------------------------------------------------------------------------------------------------+------------------|
+| 11 |                            |                                                                                                |                  |
+| 12 |                            |                                                                                                |                  |
+| 13 |                            |                                                                                                |                  |
+| 14 |                            |                                                                                                |                  |
+| 15 | "Bristol workshop"         | Bristol with architects & urban planners, and Claire van Rhyn                                  | 960              |
+| 16 | "Write-up"                 | - /14 hours in the budget for analysis and "writing up"/                                       | 440              |
+
+
+** Draft Invoice
+*** R&D
+:PROPERTIES:
+:EFFORT: 40 hours
+:COST: £2400
+:END:
+- Iterative development of the workshop process
+- Harmonization via pilots with stakeholders
+*** Wiki Prototype
+:PROPERTIES:
+:EFFORT: 20 hours
+:COST: £1200
+:END:
+- To be seeded with patterns used in developing the workshop
+*** Final workshop with architects and urban planners in Bristol
+:PROPERTIES:
+:EFFORT: 32 hours
+:COST: £960
+:END:
+- In-person facilitated component
+- Online component
+*** Report on workshop
+:PROPERTIES:
+:EFFORT: 8 hours
+:COST: £460
+:END:
+- Analysis
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2 — All Other Business)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+Picking the right words for purposes of being clearer; interested in
+the longer term on thinking about these terms.  Thinking about it in
+detail is something we can do separately and come back together about
+first.
+
+** Patterns
+
+(1) According to the Peeragogy project (2015), patterns are imperfect, and have NEXT STEPS that allow them to be progressively better realised within a context.  This means that they can be used for distributed project management.  (This is quite different from the classical Alexandrian view; but coherent with the contemporary "Objectives and Key Results" management strategy.)
+
+(2) Patterns are necessarily contextual.  This is a classical Alexandrian point of view, which can supported by references to Simondon's concept of the pre-individual.  A related observation is that patterns are "processual" in nature; this supports (1).  (NB. Context-specificity is in tension with transferability between contexts.  This tension is itself a "meta-pattern".)
+
+(3) Patterns are "teachable methods".  This is explained by Leitner.  This also suggests that patterns are "mathetic" in nature (i.e., they are informative teaching-and-learning objects).  This connects patterns to the work of Alan Mathison Turing. 
+
+(4) Patterns are strongly akin to "institutions" in Elinor Ostrom's terminology.  Therefore, Ostrom's principles for institutional design should be relevant as guidance for the creation of pattern-languages.  I discussed Ostrom's principles here: http://metameso.org/~joe/papers/corneli2016institutional.pdf  (While this probably won't put us on a direct path to the Nobel Memorial Prize in Economic Sciences, it would be useful to learn from someone who got one.) 
+
+** "Other" inputs / objects of the process...?
+
+*** Methods
+*** Appropriating the wiki
+
+
+
+* BAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 2. Establish what is happening: what and how are we learning?
+- Glad we went through the quote but it shouldn’t take 1h20 minutes; we could have spent our time more efficiently
+*** 3. What are some different perspectives on what's happening?
+- LV: I didn’t even get a chance to do the check-in!
+- LV & NA were both feeling under the weather
+*** 4. What did we learn or change?
+- Overall, we weren’t so inclined to work today and would rather hang out, invoicing is pretty perfunctory.
+*** 5. What else should we change going forward?
+- Typesetting together is inefficient!
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+- Last night, I was out for a walk... and went by the pub for a folk evening!
+
+** LV
