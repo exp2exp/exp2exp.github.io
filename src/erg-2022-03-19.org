@@ -1,0 +1,228 @@
+#+TITLE: 19 March 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-03-19 Sat>
+
+* 19 March 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Just flew back from Bahrain; spent a couple of nights with close friends.
+- Did a lot of eating, drinking, and relaxing
+
+** JC
+- Had a nice session with Peeragogy folks dealing with a request for expert input on "Connected Learning 4.0"
+- Also feeling concerned about the job-searching loop
+  - JC: In particular, what job would I want to apply to in March?  E.g., what about putting myself forward for another role at Brookes related to research reproducibility and culture.
+- (Would be willing to talk about his progress on journalling and using org-mode to organize himself as lightning talk today.)
+
+** LV
+- Long week, with a lot of turmoil; still in the midst of job search
+- Otherwise the week was good with a lot of swimming (but a bit less than before)
+- Has been looking at books, e.g., 15 Commitments of Conscious Leadership, which is surprisingly insightful
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- JC: I am excited about my recent revision of the PAR + PLACARD + Org Mode stuff, but can present it all fairly quickly
+- JC: I’m also interested in discussing something else that we can do to bring back the themes for Abby (we can get to that for next part)
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+** LV: Answer JC’s question about crdt (re: undo-tree)
+
+- We share ONE undo-tree
+- E.g., If Noorah adds contents, Leo can undo it.
+- Doing it any other way is a big can of worms
+- We /are/ tracking with text properties who writes which lines, and we could limit it based on text properties but Emacs doesn’t make it easy
+*** foo bar
+
+** LV: Present his end-of-week agenda review (which JC likened to a CLA)
+
+- Review active tasks    [≈ Litany, Kaiju Communicator?]
+- Review inactive tasks  [≈ System, Designer?]
+- Review journal entries [≈ Worldview, Historian?]
+- Make new journal entry [≈ Myth, Analyst?]
+
+Package that LV is using to reset the checklist: [[https://orgmode.org/worg/org-contrib/org-checklist.html][org-checklist.el — org functions for checklist handling]]
+
+** JC: Quick thing on PLACARD
+
+- I’m continuing to refine how I’m using PLACARD in journaling
+- There’s now an org mode component to tracking goals at different levels of history:
+  - (Habits + Yearly, Monthly, Weekly, Daily goals/tasks).
+- What I might do in my journal, is:
+  - [PAR] To look at how the habits (= patterns) are going, and
+  - [CLA] Begin to identify new habits that I want to start practicing
+  - [DPL] Write these down in the form of habits with some next steps (= tasks for the day)
+- This would then feed into the Org mode Daily checkin.
+
+So far I haven’t gotten the whole system fully up and running, but
+I’ve had a few days where it’s /mostly/ working and that’s been helpful
+already.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Getting NA up-to-speed about work with Abby
+
+*** Maybe we need a drawing session to get the refined pattern pictured on a whiteboard?
+
+*** Goldilocks principle: 3 scenarios
+
+How to describe an interaction of the session w/ Alex and Mau?  Peer
+learning, practical, in line with the actual model that they are
+building...  Proposal w/ simple Alexander-type patterns are still very
+much "this is how it should be done".  Whereas here we are talking
+about patterns that are set within a network of patterns that describe
+how they could be used by different people /3 different scenarios/.
+
+A few different tools that can be used to explore it.
+
+Proposed policies; existing governmental policies; E.g., local policy
+"all food must be sourced from within 50 miles of this particular
+borough"
+
+- Maybe it's unsustainable to bring food in, or there are
+  over-fractious politics at play.
+
+But where is the evidence coming from that allows you to articulate
+the problem in this way.
+
+Then you'd have multiple policies (e.g., food fridges, donations,
+allotments, community farms).
+
+- Then you start to demonstrate the process by which you organise your
+  thoughts.
+
+Architects might then say: "We build a food hub at an allotment site
+to allow people to exchange food from local gardens."
+
+(What are the design solutions that will solve that problem.)
+
+How different is this to how they would solve things normally?
+
+Maybe it's not, but we might get some extra pixie dust out of looking
+at how they solve things, looking at how people think about things
+(e.g., food waste — cf. UWE /Food Network/ and FoodTinder; how do you
+redistribute food around the city: So, advertise your food, and you
+can swipe left or right if you need the food for a given recipe).
+
+— What information do you need to make this work?  E.g., what does a
+dating site rely on?
+
+— What’s modelling adding to that?  E.g., if we had a certain amount
+of resource and certain amount of scarity, how to optimally ensure
+that people are interacting in the right space?
+
+"How far are you willing to go to get some...?"
+
+This is something interesting to model.
+
+Cf. Noorah’s story about the local /disaster-preparedness group in Texas/
+
+One of the UWE folks has a background in large-scale systems like
+Amazon... "Let’s learn what people want before they know".  How can we
+make the food system intelligent in this way?  Similar to disaster
+planning... how can we /anticipate/?
+
+Maybe using this keyword is a good way to get leverage?
+
+*** TODO How would we describe patterns in 3-5 slides?  Action item for ERG. :JC:
+
+*** Taxonomy, working from this conversation starter (sourced from Abby’s PDF brief)
+
+It would be nice for us to harmonize, our selves, about what we mean by patterns
+
+#+begin_quote
+Drawing on a first principles approach to evolution (Active
+Inference), systems will be evaluated in light of a problem faced and
+its capacity for adaptive change/resilience in the face of that
+problem.  Each problem-system will be described as a pattern, setting
+out the evidence and hypothesis for resolution.  Each pattern is
+itself evolving over time, shaped by new findings; contextual,
+specific to the problem at hand, evidence-based and related to other
+patterns; and communicable, both teaching and learning for users of
+multiple disciplines.
+#+end_quote
+
+- Cf. The [[https://conscious.is/15-commitments][15 Commitments]] as a source for thinking about patterns!
+- Do we need the concept of "leadership"?  It’s not pitched at executives.
+- They use the word "commitments" but it could have been "patterns"; and they use lea
+
+#+begin_quote
+		I commit to taking full responsibility for the
+		circumstances of my life, and my physical, emotional,
+		mental and spiritual wellbeing. I commit to support
+		others to take full responsibility for their lives.
+#+end_quote
+- JC: Feels like a mantra or secular prayer.
+
+- These could give us some design requirements patterns
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We are catching up on last week’s session, mostly a review session with the exception of some helpful show-and-tell
+- There hasn’t been a lot of discussion so it’s been more briefing (less back and forth than would be nice!)
+- LV: This seems symptomatic of coming with stuff to present; but we don’t have a good plan of how we’re going to present things, the time grows organically with the contents, but it’s not conducive to conversation
+  - JC: We could just say: “if there’s a talk, let’s cap it at 10', leaving 10' for discussion”
+
+*** 2. What are some different perspectives on what's happening?
+- LV: I was happy to present the system above but would benefit from greater conciseness
+
+*** 3. What did we learn or change?
+- Both LV and JC have admitted that their situations require remediation.
+  - JC: “Some of the compartments of our lives are at risk of overfilling, and we should probably tend to them.”
+  - JC: This means that in Bergson terms, we have some real problems to solve, so that’s a good thing.
+
+*** 4. What else should we change going forward?
+- Writing down questions to ask others as a way to limit the "talk" portion, and add more "query from others".
+- Taking the time to write the questions down could help with curiousity commitment
+- We could also bring experimental questions like "What happens if we do 5 minutes of co-journaling?"
+
+* Tentative agenda for next week
+
+- JC: I’d like to bring some short candidate "ERG patterns" for /discussion/
+- NA @ all: Prepare questions!
+- Maybe plan a session w/ Mau + Alex for ≈wk12
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Glad to be here!  Had 30 minutes to produce the template and put it on CRDT after returning home!
+
+** JC
+- Feeling better this week compared to last week, and appreciated LV’s recommendations as to what he was doing for his own problems.
+- Appreciating Noorah being back with us post-sandstorm
+
+** LV
+- Hadn’t eaten after the pool...
+- I’m not liking the fact that my body has changed by removing fat and becoming cold all the time!
+  - JC: Try reheated cold tea!
