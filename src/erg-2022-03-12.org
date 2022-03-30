@@ -81,27 +81,27 @@
 ** Draft Invoice
 *** R&D
 :PROPERTIES:
-:EFFORT: 40 hours
+:EFFORT: 40:00
 :COST: £2400
 :END:
 - Iterative development of the workshop process
 - Harmonization via pilots with stakeholders
 *** Wiki Prototype
 :PROPERTIES:
-:EFFORT: 20 hours
+:EFFORT: 20:00
 :COST: £1200
 :END:
 - To be seeded with patterns used in developing the workshop
 *** Final workshop with architects and urban planners in Bristol
 :PROPERTIES:
-:EFFORT: 32 hours
+:EFFORT: 32:00
 :COST: £960
 :END:
 - In-person facilitated component
 - Online component
 *** Report on workshop
 :PROPERTIES:
-:EFFORT: 8 hours
+:EFFORT: 8:00
 :COST: £460
 :END:
 - Analysis

@@ -205,6 +205,20 @@ and derived PDF is defined.")
     "erg-2021-10-30.org"
     "erg-2021-11-06.org"
     "erg-2021-11-13.org"
+    "erg-2021-11-20.org"
+    "erg-2021-12-04.org"
+    "erg-2021-12-11.org"
+    "erg-2021-12-18.org"
+    "erg-2022-01-15.org"
+    "erg-2022-01-22.org"
+    "erg-2022-01-29.org"
+    "erg-2022-02-05.org"
+    "erg-2022-02-12.org"
+    "erg-2022-02-19.org"
+    "erg-2022-02-26.org"
+    "erg-2022-03-05.org"
+    "erg-2022-03-12.org"
+    "erg-2022-03-19.org"
 ))
 
 (defun indent-org-roam-export ()
@@ -224,7 +238,7 @@ and derived PDF is defined.")
 ;; ... doing that properly and cleanly is a bit of a hassle!
 ;;
 ;; Also, this function should really take some arguments and then separate implementations should be called for the individual extracts we want to build
-(defun rebuild-org-roam-pdf (filename &optional sources)
+(defun rebuild-org-roam-pdf (filename &optional sources anonymous)
   "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
   (shell-command (concat "cp " org-roam-directory "manual/hl.org "
@@ -237,6 +251,8 @@ and derived PDF is defined.")
       (insert "\n" (combine-org-roam-files (or sources files-to-combine)))
       (goto-char beg)
       (indent-org-roam-export)
+      (when anonymous (goto-char beg)
+            (flush-lines "#+AUTHOR:"))
       (org-latex-export-to-pdf))))
 
 ;;; org-roam-manual.el ends here

@@ -52,10 +52,10 @@
 
 ** LV: Present his end-of-week agenda review (which JC likened to a CLA)
 
-- Review active tasks    [≈ Litany, Kaiju Communicator?]
-- Review inactive tasks  [≈ System, Designer?]
-- Review journal entries [≈ Worldview, Historian?]
-- Make new journal entry [≈ Myth, Analyst?]
+- Review active tasks    [$\approx$ Litany, Kaiju Communicator?]
+- Review inactive tasks  [$\approx$ System, Designer?]
+- Review journal entries [$\approx$ Worldview, Historian?]
+- Make new journal entry [$\approx$ Myth, Analyst?]
 
 Package that LV is using to reset the checklist: [[https://orgmode.org/worg/org-contrib/org-checklist.html][org-checklist.el — org functions for checklist handling]]
 
