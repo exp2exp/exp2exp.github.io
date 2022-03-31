@@ -198,14 +198,6 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 * Check-out                                                             :5m:
 
 ** NA
-<<<<<<< HEAD
-
-** JC
-
-** RP
-
-** LV
-=======
 - Feels good about her first meeting as a chair!
 ** JC
 - Off to concert.
@@ -213,4 +205,4 @@ If I go to a party and someone asks me about ERG, what do I say about that?
 - Thought about the passive rôle
 ** LV
 - Showed off his nice collar.
->>>>>>> 387ede816491b4c864f73c587311e7011b89dd51
+
