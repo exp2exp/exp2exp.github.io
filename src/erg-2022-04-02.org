@@ -1,0 +1,166 @@
+#+TITLE: 02 April 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-04-02 Sat>
+
+* 02 April 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Good to be back and good news: got the job, starting on the 18th.
+- Next immediate tasks are to get things done around the house
+- Has been playing Kirby on Nintendo Switch and it’s fun
+  - LV: It has upbeat music, e.g., Prairie Theme
+** JC
+- Next week is last week teaching
+- Could do a quick demo of goals at different time-scales
+- Aiming to recover from feeling down
+  - Today: roller skating
+** LV
+- Thinking about finances and how to make progress in life, has been talking about this in morning chats
+- Now feels like he’s on track for a new interview at the end of April
+- In a good spot mentally
+- Has been interested in understanding how his car’s clutch works
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- JC: Use the two-part agendas as a place to run the workshop.
+  - NA: Would have to be a very tightly focused setup, could help
+  - And I can be available for further discussions during the week
+- JC: As a potential scenario for a next session, could we think about job-searching and job-getting?
+  - Bringing in a playtester for the workshop?
+
+* Agenda (Part 1) - Exploring ‘scenario generation’
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Meta-scenario-generation:
+
+*** How would scenario generation work in the job-search + job expectations mini workshop?
+
+- Maybe we could use the ERG patterns; we could do some show-and tell in Agenda Part 2
+
+- Will Noorah be more busy with this job?
+  - It will be 9-to-5 during the week, and weekends are available!  Might have more time actually because no more travel and job search.
+
+- Job expectations: recover from burn-out, the dissertation still exists.  It’s part of the recovery, even if it gets a bit boring, then I can work on ERG because that excites me, or work on my garden.
+  - LV: Car-cleaning also helps with deeper sense of self! [Show and tell of cleaning stuff.]
+
+*** Can we take stock of where we are?
+- Chairing
+- Membership
+
+- How do we feel about the chairing setup so far?
+- Consider a pause on chairing /if push comes to shove/.
+
+- JC: Cf. the *15 Commitments of Conscious Leadership*, which has been influential for Leo.
+  - Job-prep has been challenging, looking for answers in ='(... places ...)=.
+  - "What is needed for me to get the job" is
+    - Preparation type A :: Books to read, how to approach the sources (discovering the realms of possibility).  This widens to include more and more stuff.  (E.g., an authority source will tell you ‘This is a good source’ but there are still many entry-points).
+    - Preparation type B :: Actually making good on those plans
+
+LV: I’ve been doing a lot of “Preparation Type A” looking at e.g. things like patterns, software development community, trying to understand things.  On one such late night excursion I stumbled upon this self-help book.  You get the usual stories... but the thing I liked is that those patterns are /meant to facilitate communication/ and the life/health of the team.  It could be seen as a ‘self-help book for businesses’ that comes up with patterns and presents them in a way that could be useful for us to mimic.
+
+- It’s efficient at presenting a model (they use the concept of a ‘Line’ and being ‘above or below the line’)
+  - So we could ask: what does it mean for the pattern to be deployed?  What does it feel like when it isn’t deployed?  What would be the anti-pattern?
+
+The book explains a method about how a group can benefit itself but...
+
+- NA: Are you stuck at the information gathering?
+- LV: More like stuck at the "ignition" phase.
+
+An ad hoc presentation on "15 Commitments" was difficult to do just now!
+
+- LV: Feeling stressed about where I am in my life, so any ‘professional’ thing makes me aware that I’m deploying energy towards something that isn’t (/directly/) helping me reach financial sustainability.
+
+Membership: I didn’t like the way we handled communication with Ray earlier this year.  And I don’t feel we’re communicating well about the work we’re going to be doing; maybe partly because we missed a week. I feel a little estranged from the project; I feel a bit iffy about it, e.g., bringing Imogen to the call.  How would this serve the workshop?
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+
+* Agenda (Part 2) - Exploring ‘scenario exploration’
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- NA: Recap 3 points:
+  - Feeling you’re not using your energy efficiently for the goal of financial sustainability
+  - This flows into/from how we didn’t communicate well, we did some tip-toeing
+  - And the project, e.g., when we talked about Ray’s involvement it seemed he wanted things to be go-go-go and we wanted to do something more laid back (what we’re doing here isn’t something that we have to accomplish, we can enjoy our 90 minutes together, and if we get something out of it great; in any case we enjoy each other’s company)
+
+Plus:
+- Bringing in a wild card (e.g., Imo’s input): someone who doesn’t know anything about what we’re doing with the workshop.  "The Stranger".
+
+** JC: Show and tell ERG patterns?
+
+** NA@LV: Do you need to scale back from interactions?
+
+- I can’t make a good answer! The only thing I know is that I’m in a bad place right now. I’m overly critical with everything I say, and on edge. When I try to think about what to say I feel a sense of pressure.  Previously talking about the ‘15 Commitments’ I realised that it’s not helping it directly, and there is obvious stuff I could do that would help directly!  There’s a sense of tragedy about seeing people succeed at getting jobs...
+- I feel disconnected from most everything that I had in my life (ERG, Emacs, the job search, family, friends either online or in person): this brings a sense of isolation.  Any position where I put myself in the public and feel I failed... it makes me feel I’m making the wrong decisions.  This isn’t great for listening, contributing, or being up-beat.
+
+- NA: I definitely felt it when it doesn’t feel good hearing about others successes.  I’d want you to be self-compassionate.  I like having you here!
+- JC: I’d say Imo’s getting a job is more ‘progress’ than ‘success’.
+
+- LV: (Weekly) family pressure doesn’t help!  And I’m beyond burn-out on talking about it.  The one thing I need to do is work without the regular application of stress; but the stress permeates everything!  And I don’t find many places to find joy.  So the only thing I can do is seek down-time.  I wish I could make it sound happy!  But the last couple weeks have been rough.  Joe was helping but ERG seems like the only weekly thing; this is the weekly check-point.  For the last two months I’ve been showing up, thinking I want to be more to the point, but I’ve been having less to say.
+
+- NA: Even driving around at 1 AM in infusing some joy into your life.
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- Leo is very stressed
+
+*** 2. What are some different perspectives on what's happening?
+
+- We (JC+NA) didn’t know that before this conversation, but it makes sense in context.
+- JC: "Practice self compassion" seems like good advice.
+
+*** 3. What did we learn or change?
+
+- The only thing Leo feels he can do is take some down time
+
+*** 4. What else should we change going forward?
+
+- It’s easier said than done to practice self-compassion, especially if you’re finding it hard to get out of the self-critical spiral.
+- Understanding how things work can help, and feeling stuck in terms of "trapped" stories isn’t fun
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going for a walk next
+
+** JC
+
+- Joe going to dinner next
+- Feeling down is OK
+
+** LV
+
+- I’m sitting at the entrance of a tunnel, and feel devoid of a sense of self-confidence; interactions w/ mother have been taxing; listening for emotions, the advice doesn’t necessarily connect with the actions that are needed; I need rest from mental anguish
+- JC: Good luck
