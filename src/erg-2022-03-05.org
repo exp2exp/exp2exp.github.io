@@ -101,6 +101,7 @@ Not discussed, but I plan to work on the IMCL paper over the next few days so th
 *** Abby
 - A perspective on patterns that incorporates active inference.
 
+
 **** EXAMPLE: Design Pattern for microbial diversity in civic space
 
 ***** Problem Statement.
@@ -156,11 +157,15 @@ Transform our scripted presentation for Anticipation 2019 into a game; cf. https
 
 - Thinking about patterns in general is something we can trust ourselves to think about.
 
+
 *** Alex, Mau & Mark
+
 *** Andrea and Eric Rietveld
+
 
 ** Process
 <<process>>
+
 
 *** Create tooling to run the workshop
 - When people get together and talk about the problems that are going on in their lives, that’s scenario planning; what we’re offering here is just a bit more structured.
@@ -172,6 +177,7 @@ Transform our scripted presentation for Anticipation 2019 into a game; cf. https
 *** Second iteration: Explore scenarios
 - Design pattern languages of solutions
 *** ...
+
 
 ** Outcomes
 
