@@ -1,0 +1,635 @@
+#+TITLE: 09 April 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-04-09 Sat>
+
+* 09 April 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Doing well!
+- Relaxing, cleaning; calm before the storm.
+- Went to a book club reading "Disasterology" about emergency management systems, 1st half was heavy on the narrative, the 2nd half had to do with the factors (players, leading to different responses...)
+  - [[https://www.goodreads.com/en/book/show/54737059][Disasterology: Dispatches from the Frontlines of the Climate Crisis by Samantha Montano | Goodreads]]
+- On Thursday, went for a massage therapy and it was /great/.
+  - Mentioned some ongoing fear of writing, and the therapist mentioned Pennebaker’s technique of having /a fixed time of the day/ and write /a sentence for each different topic/; one sentence per topic, don’t continue in another sentence!  She explained the idea that your brain will jump from topic to topic and overcome the fear of writing.
+  - LV: Compare Roald Dahl’s "writer’s shed"; and two-hour writing habit.
+  - NA: It’s not emacs pinkie because I use my ring finger.
+  - JC: Maybe integrate writing with a trip to Barton Springs...
+
+** JC
+- Joining from a back room at a party!
+- Different rhythms:
+  - Lovely morning off in the allotment; went to the market.
+  - Last day of the term was yesterday, now with the promise or more rest.
+  - Doing “survival management” in daily sessions with LV during the week.
+  - Work is moving ahead, and moving ahead; now has a draft and soon to have an improved one!
+  - Friends suggested other avenues for financing Hyperreal as a business.
+
+** LV
+- Feeling better, enjoying relaxed view on monitors with his sunglasses.
+- NA: looks good in the sunglasses!
+- Sorry I derailed the agenda last week!  But glad to have brought some useful vulnerability.  I subsequently spent most of the week resting; lots of contributions to the increased well-being, e.g., channeling our coffee chat spirit in morning one-to-ones we’ve both gotten things out of in a peeragogy style.
+- Wanted to do interview prep, but it didn’t work like that and I decided not to force it; instead I watched many K-dramas, and it’s been a fountain of youth for me.  On Monday my emotional batteries were charged, now I’m up to 300% or so.  The bow on this week’s progress is that it feels like a week of growth.  We came to the theme of pausing and observing; this was also assimilating Noorah’s pointer about self-compassion.  By /pausing and observing/ I realised I was too hard on myself... and I released some tension.
+- Yesterday something interesting happened... swimming has so far been going very well since June; I’m having a lot of success with this leisure form.  Now, an event happened which caused me to question things.  I bumped into a lady who veered into my lane, and I was racing with a friend... and she was there when I had no visibility!  She’s fine, but from this little event; it crystalised something.  It made me realise it’s stupid to keep swimming in a public pool!
+- Made me think I should join a club after all.  Follow up with the swim guards was insightful.  And this morning I sent an application to the nearest master’s swim club, which is equidistant to the public pool!  I’ll apply at some point in the near future.
+  - JC: ‘Sous les pavés, la plage!’
+  - NA: I hadn’t known of swim clubs you have to apply for!  LV: In this case, with Master’s club, you need a certain amount of experience.  I’ll apply without a shadow of a doubt that I /could/ get in, though it is late in the season.  Not this club, but another one near by, their records are pretty close to my normal training times.  Could end up renewing my youthful competition.
+- Maybe I could have spread out the insights across this week and last.
+  - NA: You needed to go through that...!
+  - LV: Last week I headed to an online-paper-RPG session, even though I was feeling miserable.
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- JC: Ideas:
+
+- To share some ERG patterns (longer with feedback?)
+
+- To share the Business ideas (5 minutes)
+
+LV: I spent some time looking into cybernetics and system theory, reminding me of some Hyperreal chats; I’ve been investigating the relationship with patterns.  I’m trying to see the bridges between the fields that could help us find sources to understand how patterns actually work (e.g., related to the 15 commitments from last week).  But I’ve also found an Encyclopedia of System Theory that could be helpful as a starting point for thinking about the taxonomy of patterns.
+
+- NA: Would the glossary be a pattern?
+- LV: Glossary, compendium, encyclopedia all similar.
+- JC: Michael Mehaffy & Ward Cunningham’s paper talk about "Wiki as pattern language"
+
+- Let’s hear what Joe has to say...
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Patterns
+*** Meeting review
+We conclude each meeting with a [[https://peeragogy.org/realtime][Project Action Review]].  This helps us
+reflect on what we did during the meeting, and sometimes allows us to
+formulate perspectives that weren’t surfaced during the meeting.  More recently,
+we realised that the first question of the Project Action Review
+(“Review the intention: what do we expect to learn or make together?”)
+should be engaged with as a meta-point, early in the session.  Broadly
+the PAR helps us cultivate a sense of shared mindfulness about what
+we’re doing.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* Research & Emacs 02 Dec]]              |
+| \zbold{Revised:}    | Session [[* 05 March 2022 — Emacs Research Group]] |
+
+*** Regular meetings
+Meetings follow a regular [[https://peeragogy.org/heartbeat][Heartbeat]]: typically weekly (but with needed
+exceptions).  This allows us to build trust, because we know there
+will be a next time to talk about anything that comes up.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* Research & Emacs 02 Dec]]  |
+*** Look for patterns
+As we’ve developed our working style, we’ve developed an increasingly
+complex understanding of ‘patterns’.  Our methods allow us to
+establish a high-level view for surfacing patterns.  We also
+understand ‘patterns’ as not always complete: they can also be
+‘projects’.  Design patterns have an orientation towards scaffolding
+action!  The distilled data from logged [[* Meeting review]] and [[* Meeting
+meta-review]] can help us notice relevant patterns.
+
+A collection of patterns can then become a quite general system for
+information and workflow management.  As our collaborator Abby Tabor
+summarises the motivations for establishing a link between design
+patterns and the theory of Active Inference:
+
+\begin{quote}\emph{“Each problem-system will be described as a pattern, setting out the evidence and hypothesis for resolution.  Each pattern is itself evolving over time, shaped by new findings; contextual, specific to the problem at hand, evidence-based and related to other patterns; and communicable, both teaching and learning for users of multiple disciplines.”}
+\end{quote}
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* Notes 30 Jan]]                         |
+| \zbold{Revised:}    | Session [[* 19 March 2022 — Emacs Research Group]] |
+
+*** Work with scenarios
+Scenarios (or /possibilities/, /alternative futures/) are intuitive for
+people to think about.  We realised that we could cast much of our
+work as a process of *Scenario Generation* [[* Scenario Generation]] and
+*Scenario Exploration* [[* Scenario Exploration]] (cf. *Humane agenda* [[*
+Humane agenda]]).  /Indeed, these two phases are a bit like the/ =eval= /and/
+=apply= /functions familiar from LISP!/
+
+Due to the two-part structure, our meetings could resemble the "[[https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model)][Double
+Diamond]]" process model, with its two primary phases of (1) Problem
+finding and (2) Solution finding.  However, for our purposes the
+“language of scenarios” seems more neutral and descriptive: when we
+*Work with scenarios*, we aren’t only looking for problems, but also
+possibilities.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 22 May 2021 — Emacs Research Group]]
+
+*** Meeting meta-review
+
+We also have a strategy for reviewing the PARs to develop a more
+distilled perspective.  However, we’ve been less consistent about the
+approach than we were with [[* Meeting review]], since we are still
+figuring out what approach to meta-review works best for us.  We have
+more to learn from examining the artefacts created in earlier
+attempts.  Some examples:
+
+- [[https://exp2exp.github.io/cla-16-october-2021][https://exp2exp.github.io/cla-16-october-2021]]
+- [[https://exp2exp.github.io/erg/agenda][https://exp2exp.github.io/erg/agenda]]
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 29 May 2021 — Emacs Research Group]] |
+
+*** Seasons and cycles
+
+We take summers off, and view EmacsConf (in November) as our main
+venue for presenting what we learn.  This reduces pressure on
+attendees, and also means that any external publications with
+deadlines are a bonus (but participation in such work is strictly not
+required for participation here).  We also treat our sessions as
+something akin to “professional group therapy”, which is one reason
+for our emphasis on an ethos of *Light creative work* [[* Light creative
+work]].
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 19 June 2021 — Emacs Research Group]]    |
+| \zbold{Revised:}    | Session [[* 15 January 2022 — Emacs Research Group]] |
+
+*** Deep engagement
+Inspired by [[https://en.wikipedia.org/wiki/Causal_layered_analysis][Causal Layered Analysis]], we've had a look at the following
+roles which attendees can take on during meetings; often in a shared
+or rotating manner, so that everyone gets experience with the
+different roles.
+
+- \textbf{Kaiju communicator}: Review active tasks [$\approx$ Litany]
+- \textbf{Designer}: Review inactive tasks [$\approx$ System]
+- \textbf{Historian}: Review previous sessions [$\approx$ Worldview]
+- \textbf{Analyst}: Write up the current session [$\approx$ Myth]
+
+Other roles can be created as needed; for example, the meeting Chair
+is a yearly assignment distinct from any of these roles.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 9 October 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+
+*** Focus on methods
+We are looking for effective methods for collaboration.  We need these
+in our own lives and we think others in free software and research need them too.
+
+Our [[https://emacsconf.org/2021/talks/erg/][talk for EmacsConf 2021]] provided a compressed summary of what we
+came up with in Season Zero, and our preprint "[[https://arxiv.org/abs/2107.10497][Patterns of Patterns]]"
+elaborates at length.
+
+Our current aims are to:
+- expand our working methods into an interactive workshop for rapid-problem solving; and,
+- to develop an wiki that encapsulates a slower-changing but nonetheless dynamic and remixable record of information generated in these sessions.
+
+(Our seminars serve as mini-pilots for the workshop, and these notes
+constitute an early prototype of the wiki.)
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 13 November 2021 — Emacs Research Group]] |
+
+*** Humane agenda
+
+Recent meetings are kept to 1½ hours, with a consistent signature or
+template.  We eventually realised limiting the agenda to two major
+topics with a break makes it easier to focus on contents and think
+about things coherently.  As it’s changed over time, the meeting
+schedule and style is a great example of an /evolving pattern/.  We can
+loosely map many of the other patterns we have identified to the
+meeting schedule, which makes sense, since our meetings have been a
+primary source of data.  To wit:
+
+**** Check-in
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ This is a chance to say how we’re doing, and to tune in to others; this  gets our minds ready for *Light creative work* [[* Light creative work]].
+
+**** Meta points
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ We realised that we should do the first question in the PAR early as one of our meta-points (“Review the intention: what do we expect to learn or make together?”).  As such, this point in the meeting is good a time to *Prepare questions* [[* Prepare questions]] (or to recollect ones that have been prepared earlier).
+
+**** Agenda Part 1
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ With lightning talks or other methods we can use the first part of the agenda for *Scenario Generation*  [[* Scenario Generation]].
+
+**** Break
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ Part of a *Humane agenda* [[* Humane agenda]] is to take time to digest things and rest!
+
+**** Agenda Part 2
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ After the break we can go into *Scenario Exploration* [[* Scenario Exploration]].
+
+**** Project Action Review
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ The *Meeting review* [[* Meeting review]] serves as an anchor for anything that wasn’t voiced; it is also a last-chance opportunity to *Limit one-way talking* [[* Limit one-way talking]].
+
+**** Tentative agenda for next week
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ As we look ahead to the next session we *Work with scenarios* [[* Work with scenarios]] and plan for *Deep engagement* [[* Deep engagement]] outside of the meetings.
+
+**** Check-out
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+ Ideally we leave the meeting feeling refreshed, as per *Seasons and cycles* [[* Seasons and cycles]]; if not, sharing closing concerns here gives us something concrete to think about next time.
+
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 16 December 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[* 15 January 2022 — Emacs Research Group]] |
+
+*** Light creative work
+
+A related central pattern that motivates our collaboration is that we
+get together for *light creative work*. This influences how we interact
+during meetings, including "regarding every interaction as an
+opportunity to learn" (one of /[[https://conscious.is/15-commitments][The 15 Commitments of Conscious
+Leadership]]/). Often our sessions feel like a "Writer's Room" for a TV
+series; as such we've referred to each year of work as a ‘Season’ (see *Seasons and cycles* [[* Seasons and cycles]]).
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 15 January 2022 — Emacs Research Group]] |
+
+*** Scenario Generation
+
+Since participants in the workshop will typically have a better idea
+than us about how things could plausibly develop, they should be
+responsible for scenario generation.  Otherwise, if we bring the
+scenarios along they only have what Inyatullah calls a “[[https://www.benlandau.com/wp-content/uploads/2015/06/Inayatullah-2008-Six-Pillars.pdf][used future]]”
+to work with.
+
+The link between /patterns/ and /active inference/ helps inform what
+happens in this phase, insofar as active inference is a generative
+process that creates and selects from possibilities for action.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 26 February 2022 — Emacs Research Group]]
+
+*** Scenario Exploration
+*Deep engagement* [[* Deep engagement]] helps us explore the scenarios
+generated in the first part of the meeting.
+
+The link between /patterns/ and /active inference/ also helps inform what
+happens in this phase.  A scenario is a simulated environment with
+certain possibilities for action.  We explore and map these together.
+We return from our exploration with new hypotheses about potential
+actions (1) leading to and (2) available within the identified
+scenarios, as well as indicators that can help us ascertain which
+scenario(s) we are in.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 26 February 2022 — Emacs Research Group]]
+
+*** Bootstrap through mini-pilots
+The setup described in patterns like *Humane agenda* and *Light creative
+work* will allow us to make each session of our seminar a mini-pilot of
+our external-facing workshop.  We plan to do this both by ‘dogfooding’
+(using the methods ourselves) as well as attempting to structure some
+of our sessions as mini workshops with guest attendees.  We plan do
+this through a mixture of convivial /pro bono/ discussions and small
+consulting contracts; and potentially even some paid playtesting,
+watch this space!
+
+Some of the scenarios we are interested in exploring include: /The
+Integration of Design Patterns and Active Inference/, /The Future of
+Free Software and Citizen Science/, and /Climate Adaptation/.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 05 March 2022  — Emacs Research Group]]
+
+*** Generate stakeholder value
+
+Each workshop (or series of workshops) should create some value-add
+for clients and participants.  This can be put in more defined terms
+by looking at the scenarios that are explored, and how this creates
+the potential for skilled practice that can overcome real
+difficulties.
+
+Part of a strategy for generating stakeholder value include relying on
+any attendees (whether guests or ourselves) as experts; this is a good
+reason to *Prepare questions* [[* Prepare questions]] in advance of the
+meeting, so that we surface that expertise.  Another aspect of this is
+that our shared expertise is on supporting *Deep engagement* [[* Deep
+engagement]]; this shouldn’t mean shoe-horning participants into roles
+that are awkward for them, but rather, using our methods to help
+understand how they are engaging and to amplify that.
+
+It is often enough for us to enjoy a creative chat as per *Seasons and
+cycles* [[* Seasons and cycles]]; and while other stakeholders can get
+something out of that, they may need more substantial take-aways
+(particularly if they don’t plan to keep coming to these sessions).
+Much as the *Humane agenda* [[* Humane agenda]] pattern describes how our
+patterns work at the level of an individual meeting, a longer project
+roadmap shows how we generate value on the larger scale, and something
+also about the specificity of our approach.  Further detail follows in
+the [[* Example PLACARD roadmap for Abby Tabor (UWE)][Example PLACARD roadmap for Abby Tabor (UWE)]], showing how we think
+about value-creation in our first paid contract.  For now, here is a
+quick sketch of how the major deliverables map to patterns.
+
+**** Research & Development for rapid problem solving workshop
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+# Steps include:
+
+# - Convene Meeting
+# - Facilitate patterns-aligned definition as groundwork for project documentation
+# - Workshop re-design for urban policy
+
+Broadly, aligning on patterns as a method will help make things
+coherent across the lifecycle of the project (*Look for patterns* [[* Look
+for patterns]]).  If we need new patterns to solve the problems of
+attendees—which is likely, since urban policy experts aren’t the same
+crowd as Emacs enthusiasts—we can start by writing them down here!
+That said, there are lots of existing patterns that are directly aimed
+at urban policy, so we can potentially remix some of that material.
+For our own in-house purposes we will need both ‘workshop patterns’
+and ‘wiki patterns’.
+
+**** Technological implementation of the wiki prototype
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+# Likely prototyping steps:
+
+# - A place to put the ERG patterns (mentioned above) as an early prototype
+# - We could also use the “Community Edition” of Michael’s patterns as another prototype
+# - Design more advanced features (potentially related to =#emacs-hyper-notebooks=)
+
+This relates to the *Focus on methods* [[* Focus on methods]], insofar as
+the a crystalized form of a method is a technical implementation of
+that method or workflow.  Patterns should help solve some problem, so
+we should keep track of the problems that we’re actually trying to
+solve as we go (using new patterns).  Since we have both our own
+content and some other CC-licensed content to start with, we now have
+some reasonable starting material to play with.  We also have some
+ideas about more advanced features that we could incorporate in
+subsequent prototypes.
+
+**** Workshop with architects, designers and urban planners in Bristol
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+# Steps include several pilots leading up to the final workshop:
+
+# - Use case for public health modellers
+# - Use case for architects+designers (dry run)
+# - Use case for architects
+# - Pilot workshop with Michael, architects and urban planners
+# - Bristol with architects & urban planners, and Claire van Rhyn
+
+This relates to our plan to *Bootstrap through mini-pilots* [[* Bootstrap
+through mini-pilots]].  Could we be ready to run a workshop with Alex,
+Mau, and Abby in a week or two?  What would help us get there?  The
+idea of doing some play-testing with ourselves or with friends before
+we get there seems wise.  E.g., we’re planning to deploy some body-led methods at the Bristol workshop, maybe we could build some understanding of those methods before the day of the workshop (e.g., Joe could drop down to London again and do a meeting that includes Claire some Saturday).
+
+**** Write-up
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+We can get a head start on this by collecting PARs throughout the eproject (*Meeting review* [[* Meeting review]]) and developing a CLA based on these (*Meeting meta-review* [[* Meeting meta-review]]).
+
+
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 05 March 2022  — Emacs Research Group]]
+
+*** Prepare questions
+Since we're looking for opportunities to learn, we're typically on the
+lookout for new patterns. One of the recent ones that we're practicing
+is to *prepare questions*, as a route to helping everyone's voice be
+included and valued.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+*** Limit one-way talking
+
+Similarly we limit the talk portion in any particular part of the
+agenda to 50% of the available time (maximum); so, e.g., a 5 minute
+lightning talk would be followed by 5 minutes of discussion.  In a
+*Scenario Exploration* [[* Scenario Exploration]] phase, we might take on
+different roles to ensure a robust diversity of thought and
+contribution.  As much as we’re interested to listen to experts, the
+best benefits we can offer is though dialogue: so this pattern is also
+relevant for guests.
+
+\medskip
+\noindent
+#+ATTR_LATEX: :center nil
+| \zbold{Introduced:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+
+** Remarks
+
+I love the succinct definitions of the patterns.  E.g., "meeting
+reviews" and "regular meetings" are to the point.  I also love the log
+of revisions.  With Org Roam and Slip Box methods, we’re typically
+supposed to keep track of the revision of a concept.  The new one
+might be the /de facto/ concept definition, but you typically want to
+refer back to the old one.  Sometimes you want to rename the card,
+sometimes you want to change the content; and such.  The relationship
+to data that allows us to go back to earlier versions and see the
+progressions (chronology) = great.
+
+Cooking metaphor:
+
+- A tomato remains a tomato
+- But the recipe indicates how you /use/ the tomato.
+  - Maybe useful to distinguish between "ingredients" and "recipes"
+
+- E.g., "asking questions" is an /ingredient/ but "asking questions to prepare for the agenda" is starting to sound like a /recipe/.
+  - Similar topic of "atomic" vs "molecular" and "pattern" vs "molecular"
+
+- So let’s break the patterns down further.
+
+- I like the analogy between recipes and ingredients as a way to generate the next set of patterns
+
+- Something else that might illuminate this is: "the aim" (You want to have a nice cake) vs ingredients which have no end on their own.
+
+- So: "Does a pattern have a goal?"
+  - What does it mean for the pattern to work well or be adhered to.
+  - They tend to have some sense of what they want to usher into the world
+  - A tool (like a hammer) does feel like an ingredient even if it has a purpose
+
+- NA: I’m just /digesting/ these metphors.  I’m thinking about ...
+  - And we’re still thinking about how we want to define pattern relative to our work.  We want to turn what we’ve done with ERG into something sharable that can sit on their own, without needing us to provide the context.
+
+- JC: Reminds me of what a player might have in their inventory (when playing a RPG game, for instance).  I’ve used my Swiss Army Knife a bunch of times in the last 24 hours.
+
+- NA: Some things within Emacs may be useful or not; e.g., Org Mode ecosystem is something that only some chunk of people are using, and developers are using different tools.
+
+
+** Wrap?
+
+It’s becoming dire, we need some language to talk about patterns.  We’ve been delving into "what is a pattern?" — and we get sort of stuck on "is a pattern a tool?"
+
+- Maybe we need 5 or 6 words that we can use when we talk about method / pattern / tool / etc.
+
+  - The three of us might agree on these things; for us to advance it’s a necessity not to fumble with "pattern vs method, are they interchangeable?"
+
+- Maybe this can be done with some succinct contrasting cases.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- JC: Some nice snacks were eaten
+
+#+begin_quote
+This stance [of Hayek and Hobbes] implies a commitment to reducing natural and social reality (ontology) to the mathematisable structures that are used to explain it (epistemology), and calls for political power to grant the progressive implementation of scientific models
+of order. The concept of progress is – such is our claim here – based on the idea of a dynamic but ‘stable’ order as both its condition of possibility and goal. — from [[https://journals.sagepub.com/doi/10.1177/00380261221084426][Governing progress: From cybernetic homeostasis to Simondon’s politics of metastability]] by Andrea Bardin and Marco Ferrari
+#+end_quote
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Question recap
+- Mental map of what is a pattern, tool, and so on, might be better to do in our own time initially.
+- Coming with examples might be fun (this is a pattern, a method, a tool, *an abstraction* this is interesting but what is it, an ingredient, a recipe, and so on).
+- JC: I’d like come up with a response to the Bardin quote above to talk about "what’s the point of what we’re doing here"
+- Are patterns (static, fixed) /elements of a system/ or are they (dynamic) /processes [that take place]/.
+
+ - Ingredient is more static
+ - Recipe leads somewhere
+
+** Topic recap
+- Systems (more about systems)
+- Cybernetics (more about what seem to be patterns)
+- Every school and discipline seems to have their own way of going about this
+- Like Christopher Alexander talked about architecture but also more... this encyclopedia does the same kind of thing
+- If we can find something that works for /us three/ then we can agree on the terms & then probably make progress.
+- /Method for doing this/ is the recursive bootstrapping step
+- We’re not trying to be merely mathematical, practical, or philosophical; we’re trying to go from the point of view of learning and peeragogy.  /Architects/ did this to make-visible what they do.  Biologists are similarly trying to find better abstractions.  For us, given that we’re not from a given field but are focused on peeragogy, we’re in the best position to think peeragogically about it...
+
+- In short: we’re thinking about /learning/ which might make our treatment more philosophical, but this can be our edge.
+
+- It’s not about whose school should we follow, or whose camp!
+
+I’d like to e.g., use Joe’s patterns that we’ve already written down; we could critique and categorise these.
+
+** Our edge
+- Learning
+- Interdisciplinarity
+- Our relationship to software (specifically Emacs)
+- Move from dogma to philosophy... we should feel equiped to fight dogmatism in the way we think about patterns; e.g., meeting regularly, focusing on outputting pragmatical stuff, the reason dogmatism feels like dogmatism is that it prevents output from being released!  We’re trying to encourage the plurality of the voices...
+
+** Aside on our taxonomy
+- Abby think of patterns as hypothesis; so, almost like a question.
+- NA: Maybe pieces of a puzzle?
+  - LV: Helpful visualisation, but we need to come to a close!
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- 1/2 hour check in good this time, might need this to get a sense of being in the same room together
+- Today’s might have been overkill but it was warranted
+
+*** 2. What are some different perspectives on what's happening?
+
+- Feels like a productive meeting
+- Maybe we need to think of check-in and check-out as the inputs and outputs of the meetings; this helps us understand the /process/.
+
+- What even is a process?  A process is more actionable and moving.
+
+*** 3. What did we learn or change?
+
+- We’ve started to build that taxonomy...
+- Are patterns the /puzzle pieces/ that we’re creating
+- A pattern is an action, and an anti-pattern is either a negative action or something that /you don’t do/ and that’s negative.  So, we can ask: what’s something that’s NOT WORKING?
+
+*** 4. What else should we change going forward?
+
+- We should all practice more about asking more questions.
+
+* Tentative agenda for next week
+
+- LV: Work on JC’s pattern-list and come up with questions and answers
+
+- Build in dailies with Leo and build in a weekly checkpoint with Noorah as well.  Could inject some fun!
+
+- Leo’s encyclopedia review for next time
+
+- Share some potential directions; maybe "We’ll be ready to present to EmacsConf AND we’ve hit these milestones."
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going back to continue more chores and then going to meet friends later on
+- Looking forward to hearing about the Master’s swim club
+
+** JC
+- Going back to a party
+- NB. Auditions aren’t necessarily "elite"
+
+** LV
+- Heading in 1/2 hour to the next table-top RPG session; eventually going to get some swimmer-friendly clothes
+- Have spent 320 hours in the water since June!  Placement is something I’m pretty clear on.
