@@ -86,8 +86,8 @@ we’re doing.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* Research & Emacs 02 Dec]]              |
-| \zbold{Revised:}    | Session [[* 05 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2020-12-02.org][Research & Emacs 02 Dec]]             |
+| \zbold{Revised:}    | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
 
 *** Regular meetings
 Meetings follow a regular [[https://peeragogy.org/heartbeat][Heartbeat]]: typically weekly (but with needed
@@ -118,8 +118,8 @@ patterns and the theory of Active Inference:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* Notes 30 Jan]]                         |
-| \zbold{Revised:}    | Session [[* 19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-01-30.org][Notes 30 Jan]]                         |
+| \zbold{Revised:}    | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
 
 *** Work with scenarios
 Scenarios (or /possibilities/, /alternative futures/) are intuitive for
@@ -139,7 +139,7 @@ possibilities.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 22 May 2021 — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[file:erg-2021-05-22.org][22 May 2021 — Emacs Research Group]]
 
 *** Meeting meta-review
 
@@ -156,7 +156,7 @@ attempts.  Some examples:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 29 May 2021 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-05-29.org][29 May 2021 — Emacs Research Group]] |
 
 *** Seasons and cycles
 
@@ -172,8 +172,8 @@ work]].
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 19 June 2021 — Emacs Research Group]]    |
-| \zbold{Revised:}    | Session [[* 15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-06-19.org][19 June 2021 — Emacs Research Group]]   |
+| \zbold{Revised:}    | Session [[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
 
 *** Deep engagement
 Inspired by [[https://en.wikipedia.org/wiki/Causal_layered_analysis][Causal Layered Analysis]], we've had a look at the following
@@ -192,8 +192,8 @@ is a yearly assignment distinct from any of these roles.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 9 October 2021 — Emacs Research Group]] |
-| \zbold{Revised:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-10-09.org][9 October 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
 
 *** Focus on methods
 We are looking for effective methods for collaboration.  We need these
@@ -213,7 +213,7 @@ constitute an early prototype of the wiki.)
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 13 November 2021 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-11-13.org][13 November 2021 — Emacs Research Group]] |
 
 *** Humane agenda
 
@@ -278,8 +278,8 @@ primary source of data.  To wit:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 16 December 2021 — Emacs Research Group]] |
-| \zbold{Revised:} | Session [[* 15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2021-12-18.org][16 December 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
 
 *** Light creative work
 
@@ -293,7 +293,7 @@ series; as such we've referred to each year of work as a ‘Season’ (see *Seas
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session[[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
 
 *** Scenario Generation
 
@@ -310,7 +310,8 @@ process that creates and selects from possibilities for action.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 26 February 2022 — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[file:erg-2022-02-26.org][26 February 2022 — Emacs Research Group]] |
+
 
 *** Scenario Exploration
 *Deep engagement* [[* Deep engagement]] helps us explore the scenarios
@@ -327,7 +328,7 @@ scenario(s) we are in.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 26 February 2022 — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[file:erg-2022-02-26.org][26 February 2022 — Emacs Research Group]] |
 
 *** Bootstrap through mini-pilots
 The setup described in patterns like *Humane agenda* and *Light creative
@@ -346,7 +347,7 @@ Free Software and Citizen Science/, and /Climate Adaptation/.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 05 March 2022  — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
 
 *** Generate stakeholder value
 
@@ -450,7 +451,7 @@ We can get a head start on this by collecting PARs throughout the eproject (*Mee
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 05 March 2022  — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
 
 *** Prepare questions
 Since we're looking for opportunities to learn, we're typically on the
@@ -461,7 +462,7 @@ included and valued.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
 *** Limit one-way talking
 
 Similarly we limit the talk portion in any particular part of the
@@ -476,7 +477,7 @@ relevant for guests.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[* 19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
 
 ** Remarks
 

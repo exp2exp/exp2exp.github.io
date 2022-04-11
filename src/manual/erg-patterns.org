@@ -74,7 +74,7 @@ Some of the scenarios we are interested in exploring in this and future seasons 
 *** Meeting review
 We conclude each meeting with a [[https://peeragogy.org/realtime][Project Action Review]].  This helps us
 reflect on what we did during the meeting, and sometimes allows us to
-perspectives that weren’t surfaced during the meeting.  More recently,
+formulate perspectives that weren’t surfaced during the meeting.  More recently,
 we realised that the first question of the Project Action Review
 (“Review the intention: what do we expect to learn or make together?”)
 should be engaged with as a meta-point, early in the session.  Broadly
@@ -352,7 +352,7 @@ Each workshop (or series of workshops) should create some value-add
 for clients and participants.  This can be put in more defined terms
 by looking at the scenarios that are explored, and how this creates
 the potential for skilled practice that can overcome real
-difficulties. 
+difficulties.
 
 Part of a strategy for generating stakeholder value include relying on
 any attendees (whether guests or ourselves) as experts; this is a good
