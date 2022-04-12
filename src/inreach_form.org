@@ -1,0 +1,112 @@
+#+title: InReach Form
+
+* COMPANY PROFILE
+
+Company details
+Company Name
+Website
+Company description
+Company HQ
+Country
+City
+Date founded
+Year
+Month
+
+* HUMAN FACTOR
+
+** About you
+
+First name
+Last name
+LinkedIn
+
+Are you a founder?
+Title
+% ownership
+
+** Founders
+First name
+Last name
+LinkedIn
+Title
+% ownership
+
+** Key employees
+First name
+Last name
+LinkedIn
+Title
+% ownership
+
+** Number of employees
+
+Include founders. For example, if one founder is the CTO and you have
+one developer, record this as two employees in engineering and
+product.
+
+Engineering and product
+Sales and marketing
+Other disciplines
+Total
+
+* What inspired you to start this company?
+
+* Is there a link between the founders' background and what the company does?
+
+
+* PRODUCT
+
+- Who owns the product vision?
+- Within the team who is the product owner?
+- What is the exact problem you are solving?
+- How are you solving this problem?
+- Who are you building the product for?
+
+- What are the key product priorities for the next six months?
+
+** What was your monthly revenue in each of the last three months?
+
+Include the currency and abbreviate if appropriate.
+
+- Last month
+- Two months ago
+- Three months ago
+
+** How many active users did you have in each of the last three months?
+Abbreviate if appropriate.
+
+- Last month
+- Two months ago
+- Three months ago
+
+** What other relevant KPIs do you use to measure growth?
+Break these down, month by month, over the last three months.
+
+* MARKET
+
+** What is the sales model?
+E.g. direct sales vs telesales etc.
+What is the marketing approach?
+E.g. performance marketing, content marketing, etc.
+
+** What is the exact target segment of your product?
+
+** What is the total addressable market?
+For your current product, not any planned future product(s).
+
+** Who are your key competitors and how large are they?
+How does the company position itself in relation to its competitors?
+
+* FUNDING
+
+** How much external funding, if any, has the company received to date?
+Round up to the closest applicable value.
+Amount
+
+** How many months will the existing capital last
+How much fresh capital are you looking to raise?
+Round up to the closest applicable value.
+Amount
+
+** How many months will the capital you raise last?
