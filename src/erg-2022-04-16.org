@@ -1,0 +1,301 @@
+#+TITLE: 16 April 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-04-16 Sat>
+
+* 16 April 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Doing good!
+- Had a good week
+- More Meowwolf in Vegas; needs at least 3 days to fully explore.
+- Lots of mystery solving
+  - JC: Sounds like a good context for getting back to work!
+- Also good food!
+
+** JC
+- One SX-question away from getting his code working.
+  - In Lisp, you’ll probably be familiar with ~let~ for lexically binding variable.
+  - In macro, it’s a little more complicated to do that, this you need to deal with the expansion of the macro’s definition.
+- Had a chat with the folks in Canada who are working with Abby to talk about their current project.
+  - Code runs, but they can’t get past Iteration 0 presently, because the agents have to explore every /possible/ next step before they decide what to do.
+  - We might want to connect the wagons at some point in the future between their simulation and our wiki.
+
+** LV
+Noticed that French is passive aggressive... you can just tell someone
+drink water to tell someone to calm down.  If you say you don’t have
+light on all the floors, you tell them they’re half-witted.
+
+But in general: I had a good week we kept up with 0815BST, keeping up
+with mixed job, programming, philosophy topics.  I managed to get back
+to python and read my books & practice; the last two days (49 hours
+and 20 minutes in fact!) have been fun.
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+** Direction of travel with simulations included in patterns
+- To discuss with Abby, Alex, Mau in circa a month in Paris with Abby, Leo
+  - In connection with *IMCL 2022: PARIS, MAY 18-20*
+** Looking back at Joe’s initial ERG patterns from last time
+In outline:
+- Meeting review
+- Regular meetings
+- Look for patterns
+- Work with scenarios
+- Meeting meta-review
+- Seasons and cycles
+- Deep engagement
+- Focus on methods
+- Humane agenda
+- Light creative work
+- Scenario Generation
+- Scenario Exploration
+- Bootstrap through mini-pilots
+- Generate stakeholder value
+- Prepare questions
+- Limit one-way talking
+
+** Relationship to the Apprenticeship Patterns
+- These are some nice patterns, comparable to 15 Commitments that talked about "what it means for a pattern to exist, to be applied well, etc."
+- Here, you have all the things you might want for a nice pattern definition; it also includes a nice definition, along with caveats like "don’t over-apply this pattern"
+- So, Leo looked more at this and this can trickle to us now
+- NA: I like how you said the book described each pattern with regard to criteria; how do they do it in more detail?
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+Hm...
+
+* Agenda (Part 1) - Some look at the Apprenticeship Patterns
+:PROPERTIES:
+:Effort:   0:20
+:END:
+- Book is 290 ebook pages
+- Context, Problem, Solution, and Action
+- Solution is about "groking" but it doesn’t actually say what to do
+- Action is stuff you should be doing.
+  - E.g., find the language specification / manual.
+E.g., "Exposing your ignorance" is contrasted with "Confronting your ignorance".
+
+** Example: Meeting review
+
+Narrative:
+
+#+begin_quote
+We conclude each meeting with a [[https://peeragogy.org/realtime][Project Action Review]].  This helps us
+reflect on what we did during the meeting, and sometimes allows us to
+FORMULATE PERSPECTIVES THAT WEREN’T SURFACED DURING THE MEETING.  More recently,
+we realised that the first question of the Project Action Review
+(“Review the intention: what do we expect to learn or make together?”)
+should be engaged with as a meta-point, early in the session.  Broadly
+the PAR helps us to cultivate a sense of shared mindfulness about what
+we’re doing.
+#+end_quote
+
+*Label*: Meeting reviews
+
+*Context*: We’re going through meetings.
+
+*Problem*: Sometimes we don’t remember what we discussed, or don’t get a chance to say something important in the flow of conversation.  How do essentialise what we’re doing in a way we can think about later?
+
+*Solution*: Go back over the meeting with a different lens.
+
+*Action*: Answer these specific questions and make a record of the answers.
+
+** A possible strategy
+Since we ourselves are keen on making it practical, to directly help
+people using them, we should keep in mind that the form will have a
+significant impact in legibility.  Alexander, Mehaffy style patterns
+mightn’t be so practical for everyone.
+
+** Reflections on the format
+This seems good, there will some that are aligned in terms of context,
+some aligned in terms of problem, and some aligned in terms of
+solution.  Decomposing them like this makes the map more obvious.
+This is necessarily a simplification of the pattern.
+
+You can have patterns like "I can’t start Emacs".  The action is
+"Debug your init."  If you put some distance between the problem and
+you, the meeting is a social moment, the PAR is meant to bring to the
+surface a lot of stuff.  It’s meant to answer a number of problems.
+It addresses /many/ problems or surfaces-for-learning.
+
+Maybe the PAR isn’t the pattern, reviewing the meeting is actually a
+/group/ of patterns.  Each of the questions could be a different
+pattern.
+
+So, above, in the summary we simplify.  The *context* could then be
+"Meeting review that we do at the end of the meeting".
+
+Can we try to create a certain number of patterns that describe all
+the functions that the PAR is hoping to achieve.  We might have a list
+of contexts, problems, and solutions.  Actually we did this
+organically by saying "Do we need the 1st question?"
+
+Labels are good but maybe better to think about *What is your current problem?*.
+
+If you’re confronted with a problem, just reading random patterns
+won’t help.  "A Different Road" could point in different directions
+but better to start with the list of problems here in the current
+context.
+
+"In software we start with formulating something as an opportunity to
+learn."
+
+How do we ensure the method starts somewhere and ends somewhere?
+
+Review the intention: what do we expect to learn or make together?
+1. Establish what is happening: what and how are we learning?
+2. What are some different perspectives on what's happening?
+3. What did we learn or change?
+4. What else should we change going forward?
+
+** In the workshop
+
+/3 (or more) phases:/
+
+1. *Context setting*: In the Reos model, they do this beforehand by thinking of who to invite.  How do we choose to design a context worksheet?
+
+2. *Problem generation*.
+
+3. *Problem solving*.
+
+4. *Reviewing the context*, i.e. “Do we need to reconsider the context based on the resolution of the problem?”
+
+E.g., two ways of tackling ignorance: Exposing vs Confronting.  You need someone to ask, vs you can just do it on your own.  If you conclude at the end of the process "I could have done this on my own" then you get
+
+4. *Reviewing the solution*, i.e., did we solve the actual problem?  Should we have used different patterns in formulating our solution?
+
+** Closing reflections
+Cybernetics is just the older science and systems are the offshoot of
+that, but both are dealing with patterns, influenced by Alexander, and
+interested in complexity.  And this means that a lot of people have
+thought about patterns, but a lot of people also haven’t succeeded in
+making a great pattern language.  Cybernetics had started after the
+2nd world war but we’re not yet studying it in school.
+
+*** Challenge 1: Is it too complex?  Too simple?  To inapplicable?
+Why did people in the past fail to establish patterns?  This is kind
+of related to simplicity... we want our patterns to be practical.
+
+*** Challenge 2: How to make something useful to more than just us
+Every PL makes a big deal of sharing the patterns and vetting them.
+(E.g., 300 seasoned developers read the Apprenticeship patterns.)
+
+We want not-just-an-idiolect but a language.
+
+For the workshop, let’s think about it as a deliberative process.  At
+the end of Phase I they will come to a consensus on the problems they
+want to focus on.
+
+This method is /co-construction/ of the patterns, going through many
+communities, not merely coming with a full box.  This is a good way to
+address the 2nd challenge.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - First stab at the 2 challenges
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- JC: One of my thoughts from the week was that “Practices aren’t abstractions.”
+  - Does that imply the patterns aren’t abstract?
+  - To answer LV’s 1st challenge (“Why did patterns fail to establish themselves in the past?”).
+- JC: I find myself very comfortable with practices; how do they relate to patterns.
+
+Like *habits*: e.g., sleeping, waking, eating at a regular time, these provide stability and structure in the day.  I currently like to wake up, not check the phone, and get straight to reading the Apprenticeship Patterns.  So this is a practice.
+
+The way we were approaching the ‘context’ and ‘problem’ above are also anchor points upon which we can deploy a pattern and produce learning [JC: Or other outcomes?].
+
+Feeling inspired by /patterns/, /evergreen notes/, /refinement/.  With patterns I like bio and chemistry metaphors; thinking about transmutating a problem into a solution, or making hay from the surface for learning.  There’s something transformational/transactional about patterns.
+
+They’re often presented as antidotes to problems.  They make the problems (negative sense) go away.  So this is a kind of health metaphor.
+
+** Why did the patterns not stick?
+
+The ways of thinking about chemistry, botany, etc., provide abstract concepts that can be used for us to talk about patterns.
+
+NA: Patterns are abstractions... I know that in the policy world, they create products called "toolkits" which are solutions to certain community problems, like "you’re having high blood pressure a lot in this community... you might want to stick to healthy lifestyles, get exercise, get educated about this stuff."
+
+JC: That’s another interesting example of the essence of a pattern, or the abstraction of a pattern living in a community.  Some communities might have the habit of brushing their teeth without realising that it’s healthy, or eating a lot of salt without realising it’s unhealthy.
+
+LV: Habits that /survive/ might be linked to “actual problems”?  Maybe the high blood pressure example generates a checklist (cf. their use in medicine), of things to check.  In a group, in a social setting, trying to think about problems... it’s not necessarily thinking about problems and antidotes, and /how they impact the future/, or /how to steer in a different direction/.  It can remove something, or maintain the status quo.  E.g., a trend of climate change will continue or worsen.  But we could look at social conversations about problems-as-opportunities-for-learning to do more than just apply an antidote.
+
+NA: How do we anticipate a different future?  Remember "Disasterology", they were talking about how, because policy-makers failed to anticipate, we draw on fiction writers to thin about climate and so on.
+
+LV: The different versions of a problem: why do people brush teeth... they get grimy? they fall out?  But with climate change, it’s wider, linked with a community; it’s not obviously individualisable.
+
+JC: If it’s an individual context, e.g. “everyone should brush their teeth”, you get your typical mathematical set/context; but with anticipation patterns/contexts, it’s very different.
+
+JC: The “Review the context phase” highlights the inherent transformative role of those patterns.  Niche-construction means that we could change the context through repeated practice.
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We are clarifying our methodology, becoming more concrete on the elements of a pattern, and this is a step forward.
+
+*** 2. What are some different perspectives on what's happening?
+- We’re working with abstraction/meta in a funny way because we used the PAR as a running example above.
+- The meta move was to consider one of our patterns, but being very concrete about "what is a pattern, context, and so on".
+
+*** 3. What did we learn or change?
+- This scratched the itch about clarifying the taxonomy about terms that we use
+- Even though we have pluralised e.g. solution -> click + action, it’s helping to build a solid mental map; this makes it easier to talk about things
+- Joe suggested a "Context" step as the 1st-of-Three
+
+*** 4. What else should we change going forward?
+- Asking
+- Since we didn’t address the pre-PAR today, we should probably rewrite that initial question into something that is more meaningful to us.
+  - e.g. from Peeragogy: everyone comes with a question.
+- NB. Pre-PAR is first step before jumping into the agenda, so we didn’t need to anticipate too much.
+
+* Tentative agenda for next week
+
+- Rewrite: "Pre-PAR — Review the intention: what do we expect to learn or make together?"
+  - How do we use it for something?
+  - Maybe use it as "List of questions for today."
+  - Maybe this links with the Context step
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** LV
+- Happy about today’s session, though I have trouble remembering whether everything was today or today-plus-yesterday
+- On swimming, I have 2 swim clubs interested, but the water was too warm for a try-out. News in a fortnight.
+
+** NA
+- Going to go grab lunch and do more cleaning
+- Maybe play Carcassonne
+
+** JC
+- Next step is to go to the garden and plant some parsley and onions seedlings.
+*** JC’s jail
+#+begin_src emacs-lisp
+(defun zp/square (number)
+  (* number number))#'
+ '(1 2 3)) ;=>  (1 4 9)
+
+(defun math-magic ()
+  (let (f #'zp/square)
+(mapcar f '(1 2 3))
+))
+#+end_src
