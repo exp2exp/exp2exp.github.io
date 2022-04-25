@@ -88,7 +88,6 @@ CLOSED: [2022-04-23 Sat 17:39]
 
 * Tentative agenda for next week
 - NA: Wiki and anticipatory science(?)?
-  
 *************** TODO Look up different models of wikis and present them in the next meeting.
 *************** END
 
