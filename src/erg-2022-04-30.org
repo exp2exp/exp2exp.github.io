@@ -1,0 +1,202 @@
+#+TITLE: 30 April 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-04-30 Sat>
+
+* 30 April 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Had a busy week.
+- Working on early childhood, pre-K, collecting data from all over the place; making sense of which schools are not reporting data correctly.
+
+** JC
+- Witnessed armed robbery for arrest in front of his house about 1 hour ago, lots of big guns flashed by police!
+- Going for a special dance later!
+- Started reading [[https://www.amazon.com/Designing-Disorder-Experiments-Disruptions-City-ebook/dp/B07V11CWNS][Designing Disorder]].
+
+** LV
+- Still working on Python, w/ deep dive into representation of binary numbers; what’s the bedrock of programming?
+  - NA: I’m glad the journey into program is moving forward
+- On the journey towards acquiring skills there are lots of unknown unknowns, with even more unknown effort estimates.  (Also some known unknowns like networking!)
+- There’s some learning-related friction but that’s a good thing...
+- Overcome a phase of boredom from awhile ago
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+** Could look at "Designing Disorder" together sometime?
+- Could be good to have some orientation to urban planning & architecture in the next week or two
+- How can people be incentivised to look into politics?
+  - E.g., national politics for students or local issues?
+  - Portland & Austin are places where there are active neighbourhood associations with stuff like "Climate Change Committees"
+** Could look at our back catalogue "Emacs Research Group: Seminar Notes"
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Talk about wiki as a method rather than a product.
+- Wiki [[http://wiki.c2.com/?WikiDesignPrinciples][design patterns]].
+  - NA: Wiki models from last week
+- Improvisation design patterns? Here’s something about [[https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/3/3481/files/2012/11/Gerber_Improv_Design.pdf][Improvisation Principles and Techniques for Design]], though that’s not quite the same thing; and something in [[https://www.jazzbooks.com/mm5/merchant.mvc?Screen=PROD&Product_code=PI][Jazz]].
+
+* Agenda (Part 1) - Wiki models
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** What do we mean when we talk about building a wiki for our PLACARD method?
+- Patterns, synthesis of personal note-taking and sharing
+- Uses of bidirectional links...
+** NA: What is a Wiki method?
+- There are a great many different wiki products, people have been using Wiki a lot, e.g., as an education/teaching tool.
+- JC: “Can we teach wiki–writing as a pattern?
+  - Maybe look into Wikisym and it’s successor, OpenSym would have some resources
+- Commercially, things like Atlassian (Confluence) are big
+- But HOW do we come out w/ a given wiki to express a given set of ideas?  Especially when we are talking about templates of gathering data in a collaborative setting?
+- Zettlekasten is an example but typically single-user.
+- [[https://cscw.acm.org/2022/][Computer Supported Collaborative Work]] (CSCW) is a super-category
+- Note-taking is a base-case of knowledge media
+  - LV: We need some tacit way to engage w/ knowledge, written is more substantial for the long-term
+  - NA: Now we have the ability to record things, even live transcription by tools like Otter
+- Hypothesis:
+  - Wiki is a tool to enable a conversation?
+  - They /permit/ a search for information (with notes we can search and highlight, producing a Christmas-tree-of-activation)
+  - Notes would capture the difference between plop and PLoP
+  - Unlike a mailing list, wiki enables editing
+- With Wikipedia, do people highlight the keywords (careers?) by hand or automatically?
+  - JC: On PlanetMath it was automated... perhaps will be again?
+** To problematise:
+- LV: I have access to Org Roam, Jethro has been going to simplification, refining the tooling...
+- As you said, Org Roam is geared towards personal notes, like flashcards for handling your own knowledge (e.g., distillation, presentation; any function that emanates out of knowledge can eminate from Org Roam or Anki or similar)
+- There can be personal wiki as well, but the way we’ve been talking about it has been about sharing w/ other people.  Not merely talking with temporal versions of yourself...
+- The Wiki that interests us, with regard to planning / urban planning / etc. is mostly about other people...
+- BUT because we’ve worked with Org Roam and knowledge-encapsulating and -sharing tools
+  - We think about personal wikis, but when we talk about wiki in terms of deliverables, it’s mostly about harmonising a community to share
+- The missing piece: Collective Org Roam; how to have a collective directory of notes; this could be a great bridge
+- JC: How would such a thing upgrade [[https://www.emacswiki.org/emacs/SiteMap][EmacsWiki]]?
+- LV: We’ve had a relationship with notetaking, this is something we love to do; how do we make knowledge last for, e.g., developers?  Even we rather rarely/limitèdly look back at the archive.  It’s good to have the knowledge & think about patterns, but there will have to be some software solution implemented by someone...
+
+** To reconcile personal articulated note-taking with the sharing of ideas on the web with other people :PARENT:
+- LV: And this is the one area where I’d like to work in FLOSS post-employment
+- Org mode developer approached Leo about "Org Mode Syntax"; you can think about this as an =AST= for Org Mode.  You have other implementations of Org Mode outside of Emacs, but they are typically very minimal, e.g., it can fontify time-stamps but no one knows how to handle them; so, there’s motivation for a design specification of Org Mode /per se/
+- E.g., Background processing for faster parsing outside of Emacs could be one application, but this isn’t possible right now because we don’t have a good understanding of the abstract syntax
+*** E.g., the concept of subtrees is defined by nesting (like this)
+- But you don’t have the concept of "text that appears after the subheadline that belongs to the parent"; you can’t do this! =:PARENT-ONLY:=
+- How to account for the sharing of features between the sub- and parent-heading?  E.g., tags are shared between parents, and that’s hard to be descibed with a syntax tree.  Even though the markup language is augmented, it’s still something that represents /usage/.
+- "Markup or software?" will influence how you write external parsers. (E.g., does it need to understand timestamps, scheduled-ness?)
+
+** Another requirement: A "pattern wiki" of some kind
+- JC: We had a discussion with LV about patterns where they provide a fuzzy feeling but don’t actually produce any work.  In this way, it might be very similar to org-mode, and patterns could be seen as a language tied to humans that is hard to externalize onto paper.
+- Even within patterns we get the same complexity as we would with Org mode (E.g., reference another pattern, or have a "patterned action", like "meet regularly".)
+- When we think about Wikipedia we tend to think about prototypical examples, and these are highly regular in how they approach content, they don’t do /creative/ linking.
+  - E.g. "Cathedrals in France" have different architectural styles, if I go to this page it will mention the names of churches (like =[[Chartes]]=); this isn’t creative.
+- Could we have software that suggests /potential links/ between articles?  Org Mode "unlinked references" does something like this already; it’s a basic way to do this, this already mobilises some creativity.
+- E.g., I might as well link to this particular St (/Augustine/ or whatever).  But what about some kind of /reverse link/; when you’re writing something you think of another note that could be useful?
+- "Aha! Something I’ve already written could point to what I’m writing now."
+- "This Cathedral is named like the Saint."
+- We don’t have the same element of rigour in a personal wiki, and it might not always be germane to have a bidirectional link (i.e. "Saint Germaine" is irrelevant...)
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - Preview of Paris 18th presentation?
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+Thematic prompt from Abby:
+#+begin_quote
+The document itself is littered with challenges that are spread across themes and SDGs- can we identify the challenges and turn them into networked patterns?
+#+end_quote
+
+** Warm-up questions
+
+- *What’s* the context in which this material makes sense?
+- *Who’s* invited to the table?
+  - E.g., Michael Mehaffy is convening the conference
+- *How* would any of this inform policy, what else would be needed to get there?
+- There are many products that utilise the wiki idea, but did anyone talk about the wiki as the collaborative method, e.g., you have Jira, Confluence, people put in their projects and people track work, but *how are we thinking about collaboration?*
+- E.g., A free software, or citizen science, or trade union workflow might look very different from a corporate development workflow!
+- LV: If we push toward collaboration, implementing wikis like this is hard; e.g., wiki-making:
+  - Via Org Roam to store data and share it amongst ourselves
+    - We ourselves can put patterns into Org Roam, and voila, no new features needed! (We are the experts, we are managing the wiki.)
+  - If we add "others can circumvent the experts and use the tools itself"...
+    - We need to make Emacs understandable to newbies, or externalise the
+- JC: Let’s not lose track of the workshop as the PAPER-PROTOTYPE of some amazing future piece of software.
+** Some further features / questions
+    - *(Not in Emacs.)* It can’t be based in Emacs if it’s for wide adoption, for prototyping it’s hard to sell for others.
+    - *(Not just a Wiki.)* It needs to be more than just a wiki, we’re not just firing up some Wiki platform and saying "Create the links".
+    - *(How do we enter a pattern?)*  Similar to our existing psychotherapy demo, which provides a question-and-answer workflow.
+    - *(How to make it exploitable by a community?)*  If it’s a ballot box and the experts do whatever they want with it, it’s beyond what individuals can actually do much about.  Actually we need to take /individual contributions/, e.g., similar to the Gardens of Notes; clicking on links to traverse patterns, what does it mean to click-and-link.  Do something more actionable than a wiki?
+
+- These could inform some roles for the workshop (e.g., "voice of the community").
+- It’s also important to hone-in on the questions
+
+** Abstract from Abby
+
+#+begin_quote
+A paradigm shift has taken place over the last decade across the biological sciences. Complex systems are understood as embodied predictors of their environment (Friston, 2010), a process contingent on iterative exchange. This predictive shift, operationalised in a mathematical framework (Active Inference), allows a multiscale approach to describing the necessary contingencies for resilient systems, from the microbiome to the metropolis. Extended from evolutionary biology, a healthy system is one that is trained on uncertainty (Friston, 2010), enabling it to predict the consequences of this dynamic coupling, accommodate perturbations (resilience) and update its predictions over time (adaptive capacity).
+
+First, we will present an early translation of this mathematical modelling approach, describing the relationship between biodiversity, immune markers and health outcomes from an existing, cohort dataset (ALSPAC, Bristol, UK).
+
+Second, we will demonstrate how to embed this descriptive mathematical model of resilience in a prototype Pattern, as part of a broader network of A New Pattern Language (Mehaffy, 2020) for resilience in the city. We will present the basis for iterative, mathematically informed, hypotheses for resilience, starting at the human level.
+#+end_quote
+
+
+** Goals for us
+- Leave next meetings with agenda that we can think about for the next week?
+
+* PAR
+:PROPERTIES:
+:Effort:   0:04
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- LV: I’m doing wax-on, wax-off with Python; I’m also excited to be thinking about Free Software
+- NA: We’ve covered a lot and I’ll have to go back over some of it
+
+*** 2. What are some different perspectives on what's happening?
+- NA: I’m feeling overloaded with information today
+  - It’s very hard to synthesize new information in 90 minutes!
+- JC: There’s more information didn’t even cover!
+
+- LV: I’m also reverting to modes of engagement for when I was writing about and thinking about Org Roam, which is like juggling many burning potatoes; maybe 90% is relevant, but some of it is only relevant to me; we could save some implementation details.
+
+*** 3. What did we learn or change?
+- LV: What will change is to have the ejector seat more readily
+- Maybe it’s a context-shift, e.g., to "transplant your darlings"
+
+*** 4. What else should we change going forward?
+- Maybe we could make some future sessions more oriented to producing things together rather than notes (maybe focus on consolidate).
+
+* Tentative agenda for next week
+- Less WPMs for next week so we can focus more on what we think about
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to a taco place to try Birria tacos
+- Now going watch "Everything and nothing all at once"?
+  - LV: Has rave reviews
+
+** JC
+- Fun times, I’m off to the garden shortly to see if I can get into some actual transplanting or...?
+
+** LV
+- What part of =0101100= don’t you understand?
+- I went through a wardrobe change, but...
+  - JC: Maybe a toga would be OK?
+  - LV: Maybe not.
+- Sunday is more Python, today is more paper RPG for robbing a bank full of honey!  ʕ •́؈•̀)
