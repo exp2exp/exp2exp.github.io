@@ -1,0 +1,152 @@
+#+TITLE: 07 May 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-05-07 Sat>
+
+* 07 May 2022  — Emacs Research Group
+
+- We need to end the meeting 15 minutes early.
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+
+- Still feeling sleepy; coffee not really working
+- Landscapers HOA mowing required car-moving early (7AM on Saturday)
+ - In provincial France it’s illegal to mow on weekends!
+
+** JC
+- Joining on BBB,
+#+begin_quote
+The meeting hasn't started yet.
+You will automatically join when the meeting starts.
+#+end_quote
+
+Checkin:
+- I am happy
+- Spent Thursday-Friday in Bristol, lots of conversations with Abby
+  - Duvet was too hot, advocates travel w/ sleeping bag
+- We started to put together a draft of our talk for The International Making Cities Livable (IMCL) 2022 conference
+  - Actually thinking to make it more interactive (i.e., run a version of the workshop in the talk time slot; I could practice that with you today)
+
+** LV
+
+- Also on about a 7/10 energy
+- Moving to leave 15 minutes early
+- Quiet week, still working on Python, doing lots of exercise, upgrading his barbells with more weight
+- Received a friendly memento mori an the gym
+  - NA: I have also been increasing my weights, back is holding up fine
+  - Joe: keep your back in good condition in case you have to sit a lot at work
+- Birthday coming up at the end of the month
+
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Joe: Would like to debrief on the visit with Abby
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** JC: Coda platform demo
+- To compare this and other tools with Org Roam
+- Org Roam is just something that we run through
+- If people know how to use the syntax; could it just be a directory of text files?
+- [[https://github.com/gilch/hissp][Hissp]] could be a metaphor; could have a =.md= "skin" for Org Mode? (But doing this sort of thing well would be hours of work.)
+- LSP could be an implementation strategy, using hidden buffers, to mark things up?
+- Exporting Org to Jupyter notebooks was already about 30 hours of work; dealing with all of Org syntax is even more
+
+*** Relationship of Org Roam to...?
+- Logseq
+- /Org Roam is a specialist tool that might be hard for people to use/
+- What are we supposed to deliver in the time with Abby?  If we’re talking about a UI now, that’s a bit weird, because this should come late in the project
+  - Leo’s looking at a book that explains how things work from a low-level to a high-level; the alternative is that you could do the design from a top-down approach, like, what do we want the interaction to be and then you think about how to implement it.
+- Joe mentioned Logseq; they all have the same underlying low-level system of nodes-and-links
+- Logseq could be an inspiration for what Org Mode could be
+- This sounds like [[https://en.wikipedia.org/wiki/Cargo_cult][Cargo cult]]?  (It’s about holding views which are merely ambient without investigating them.)
+- Why judge a prototype?  We need to be around to explain what it does.
+**** We want something easy to use, if only the 3 of us can use it?
+**** We also need to make a concrete deliverable
+- Delivering a minimal Emacs in an environment with Mike took 100 hours
+
+*** Relationship to previous work by us:
+- Think about patterns, how they can be described and communicated
+- This seemed like a useful design path that could lead to a design document and/or prototype; there’s also the question of a workshop that we’d run in person; and the idea we had in mind was that we would use the tools in the workshops.  If we skip the step "we are here to mediate the accrual of patterns", then we’re not in prototype land and it takes a lot more work
+*** What inputs do we need from users of the PLACARD method?
+- If we go with the bottom-up approach!
+*** Before that, let’s decide what the patterns are that are associated with the PLACARD method
+- Let’s figure out the categories of the patterns that are in this method
+- The workshop is going to be on paper, for sure.
+- We can think about inputs into
+- If part of the design document is "we think this would take 5 person years to build this" that’s OK
+- How do we want to collect data to understand how to build a collaborative platform for solving urban design problems.
+- Just putting people in front of some software like Logseq won’t help solve the problems of how do we
+- What are the main patterns of a “collaborative problem solving exercise”?  If we give these to the participants then they could start to devise patterns for solving problems
+- A representation could be a mind-map; we could create a full-page of nodes
+*** Pattern format
+- Context, issues, problem, solution, action...
+- 4-5 main problems in your (actual) community, then talk about that
+- We don’t throw away our skills as users of Emacs, we show up, use the tools to record and organise what goes on in the discussion, and no one has to go very far out of their comfort zone to think about abstract things, or use tools that they aren’t already reasonably familiar with.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) — not today
+
+- Micro demo of Coda
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- It’s been a bit awkward, due to some mis-communication.
+
+*** 2. What are some different perspectives on what's happening?
+- LV: I’m miffed, because I feel I’m cast in the role of a dissident, since I try to facilitate advancement and focus on projects.
+
+*** 3. What did we learn or change?
+- Joe met w/ Abby but it felt like a completely different thing, at the expense of our previous good work.
+
+*** 4. What else should we change going forward?
+
+Let’s think about the PLACARD method or the method we want to send to
+Abby, and pick patterns that we think are important, and come to
+discuss them next week.  Let’s each bring 5-10 of them.  Think of
+these as the "continents", the "meta-categories" of the method.  Could
+compare npl.wiki’s major categories.
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to go sleep again
+
+** JC
+- Being reactive isn’t great but yeah we did get things back on course, it did seem to involve working across different timelines
+- If information and information-sharing-process isn’t being shared clearly in a way we can catch up on the thinking isn’t great.
+- How do we bring people up to speed if we’re learning in different ways?
+
+** LV
+- It would be better to talk with Abby soon about some of the requirements
+- Want to leave at 1720
