@@ -1,0 +1,196 @@
+#+TITLE: 21 May 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-05-21 Sat>
+
+* 21 May 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Has sore throat, but it’s not COVID according to 4x tests
+- Had birthday on Tuesday!
+
+** JC
+- Fun working with Abby most of the week
+- NA: the mean librarian made JC move.
+  - Mediateque doesn’t necessarily mean I’m alone, according to [[https://villains.fandom.com/wiki/Mystery_Man_(Lost_Highway)][Mystery Man]], despite the Jazz concert going on
+
+** LV
+- JC: We’ll meet circa mid-day at Gare du Nord
+- Packed week, secured good money from state benefits until September.
+
+* Tentative agenda for next week
+
+** Agenda Part 1: Reflect on notes...
+- From the IMCL conference...
+- Expansion of Joe’s pattern notes
+- Distill to 5 or 10 minutes presentation, for 20 minutes total
+- Think about Abby’s talk in light of our patterns and...
+- Think about how to make it interactive for a workshop sometime in September!
+
+*** Attempt to Alexander-CPS our ERG patterns and ...
+
+/Can we use this to get folks from different disciplines talking with each other and not have it be too superficial?/
+
+**** PLACARD
+- How do we gather context...
+- Understand what the meanings are...
+- And act accordingly?  AKA, we need methods to "OBSERVE, DESIGN, STRATEGIZE"
+
+**** HEARTBEAT
+- People are drawn to regular schedules...
+- But in the context of a rapid workshop we have to follow a different rhythm...
+- Let's look for places into the workshop where we have pause points for reflection...
+
+**** WRAPPER
+- People won't follow everything that's being discussed...
+- But they can follow a summary...
+- So let's make sure to sum up the key points...
+
+**** LEVERAGE DIFFERENT RHYTHMS
+- We'll have to work across different scales and spheres of engagement...
+- Often disconnected or working in different ways...
+- Let's find the rhythms that engage us fully...
+
+**** EMPTY YOUR CUP
+- When we go to work with people we will bring our expertise
+- If everyone did this, the table would be too full
+- Mark your intention to not let expertise be too much of a blinder: who can we learn from?
+
+**** EMBRACE PROTOCOLS
+- We confront situations that need to be addressed over the long term
+- Sticking with things in the face of adversity is hard
+- Be they finding a time to meet, or rigorously applying methods for thinking things through, protocols help us mobilise useful work.
+
+**** CONTEXT
+- Everyone needs to get on the same page as to ‘context’
+- But context is also changing as the environment changes and we learn more
+- So revisit the context and see what's missing from our understanding
+
+**** VALUES
+- Even if we agree about the context
+- We may have many different ideas about how things should evolve
+- We should try to understand one another's views on this: empathy can promote useful conversations
+
+**** VISION
+- We don't want to bump into each other
+- But we're doing different things
+- So we can use pattern methods to understand and predict our collective paths of action
+
+**** CAPACITY
+- We only exist within certain ranges of liveability and thriveability
+- If we're stretched too far, or if our skills are underutilised, then we lose out or risk everything
+- So, build an understanding of our capacity for change and our capabilities for problem solving
+
+**** CONSTRAINTS
+- Much as our own CAPACITY is constrained, there are other broader environmental constraints
+- How do we understand what these are and how they affect us?
+- We need to cultivate our capacity for meaning and possibility, so that we don't simply react within a limited frame
+
+**** UNKNOWNS
+- Many of these patterns are about building knowledge or understanding
+- But we all have different relationships to the unknown (e.g., they might be scary threats, or exciting possibilities for learning)
+- By definition we can't know the 'unknown unknowns' (U/U), but we can embrace the chaos; and to help navigate it we we can learn more about the subconscious mind (U/K), and about who to ask (K/U)
+
+**** ALTERNATIVES
+- The future could develop in many ways that we haven’t yet anticipated...
+- It’s easy to think of obvious concerns and likely possibilities, and to fixate on them, but harder to discover other more desirable futures
+- Cultivate a frame of mind that’s able to think big and consider both choices and possibilities; consider the wishes of those on the margins.
+
+**** TIMESCALES OF THE HUMAN BODY
+- The body has multiple subsystems (endocrine, immune, neural, etc.) each with multiple functions, each moving on different timescales
+- These rhythms serve as an imperfect and ever-adapting model of the environment
+- All the processes that we develop can be thought about and experienced at the human scale, and understood in terms of these functions: our bio-psycho-social models are our best tools to help us understand and shape our environment.
+
+**** INTEGRATING REAL-TIME DATA
+- There are many potential sources sources of data that can be integrated using technological means and that can pottentially inform decision-making.
+- Society is neither mechanical nor biological, but interfaces with and share aspects of both; how can we form social organisations that work well with data?
+- As we think about a context more, revising our understanding of the context in the process and sharing it with others, we’re apt to use ‘mapping’ tools of various kinds, which refer data from varied sources to a human sensory experience.
+
+*** Analysis of the British Academy (Dis)Order call
+
+***** COMPLEXITY:
+****** There is no single solution to the challenges, or the ordering, of global (dis)order.
+- When we deal with more than a few [[UNKNOWNS]] we quickly encounter *complexity*.
+- What looks like disorder is just another form of order (Bergson says this, for one); thinking like this helps us [[LEVERAGE DIFFERENT RHYTHMS]].
+- *Complexity* shows us [[ALTERNATIVES]].
+****** International engagement has always relied upon strategic interactions with others, and on what others decide to do, and how they understand and interpret these interactions.
+- In order to be *strategic* we need to [[EMBRACE PROTOCOLS]] that allow us to work together.
+- For example, in order to keep apprised of what others are doing, we need an information systems that allows us to share information [[WRAPPER][WRAPPERS]].
+****** The Academy would like to support projects that bring a plural understanding of the facets of global (dis)order, and that bring to the fore the cultural and historical elements of such an understanding.
+- Keeping in mind the the evolving *strategic* needs, humanity has developed many different methods for [[INTEGRATING REAL-TIME DATA]] throughout *history*.
+****** This would include an understanding that the complexity of international systems and technological change themselves cause disruption, as well as the interaction between their different contextual economic, social, political and institutional domains.
+- *Disruption*, when it happens within safe limits, promotes creativity and new ideas that (in turn) change the [[CONTEXT]].
+- These complex feedback loops are experienced across all of the [[TIMESCALES OF THE HUMAN BODY]], some directly perceptible, and some only showing up in population or other large-scale analyses.
+
+***** CHANGE: A major part of the complexity has to do with the changing nature of the times at any moment in history.
+****** This can involve interest-driven bargains as well as legitimising discourses and an understanding of the values and self-understandings that have often motivated the search for status, for recognition and a different kind of international order emanating in different regions and parts of the world.
+- Social could offer many [[ALTERNATIVES]] for development, but these can get lost or subjugated.
+- In many circumstances the local [[VALUES]] are not pro-social but pro-individual.
+- Local forms of power and local [[VISION][VISIONS]] for development can bump up against each other in margins and conflict zones.
+- Understanding humanity as a complex system, organised together with other complex systems, can help us build our shared [[CAPACITY]] for adaptation.
+****** The Academy is keen to support projects that engage with the changing nature of societies and economies – past or present – and what that has meant for the forces of global (dis)order, and what kinds of ordering may have come from these new forms.
+- Theorists would be wise to [[EMPTY YOUR CUP]] with regard to the trend in *societies and economies* towards urbanisation, with an unprececedented 70% of the human population expected to live in cities by 2050.
+- Our previous approach to cities has generated many disorders on the [[TIMESCALES OF THE HUMAN BODY]], across the lifespan, and in both mental and physical health.
+- When we consider that cities are responsible for 70% of humanity’s current carbon footprint, we have to question whether the ‘ordering’ of people into city-dwellers will not plunge the world into environmental chaos, as we run up against fundamental ecological [[CONSTRAINTS]].
+
+***** POWER: Study of international governance across periods of time and regions must sit alongside analysis of strategic interests, (in)justice, values and what is described today as geopolitics.
+****** Power is protean, diffuse and evolving incorporating challenges to the established patterns of authority and justice.
+- Indeed, the *established patterns* need to be understood, augmented, and adapted as we explore [[ALTERNATIVES]] for social form.
+- Thinking in terms of patterns gives us a way to think across complex systems, [[EMBRACE PROTOCOLS]]; for example, we can use pattern methods to rethink governance in terms of bio-power (and potentially to adapt [[https://en.wikipedia.org/wiki/Biopower][Foucault’s concept]] in a ‘positive’ direction).
+****** Power relies on an understanding of others.
+- We can build a pro-social power through the use of loosely formulated patterns like [[PLACARD]] which allow us to conceptualise learning and adaptation at broad scales.
+- The particular [[VALUES]] that inform this proposal link to the field of citizen science, and other forms of social movements for citizen power.
+****** In order to tackle global problems – such as, in today’s terms, climate change, global health, or the regulation of new technologies and of the private actors that exercise such control over them – this understanding of others is critical.
+- We’re developing an approach that can be used in wide contexts to assist in [[INTEGRATING REAL-TIME DATA]] to inform citizen power.
+- A natural testbed for this work is to seek its own level, the “meta-level” [[CONTEXT]] of social organisation; precedent here can be found in the mapping efforts of [[https://www.whatisemerging.com/opinions/mapping-for-emergence][Emerge and Life Itself]].
+****** The Academy wishes to support projects that explore the question of power in global (dis)order.
+- Accordingly, we propose to step up this mapping process with an eye to building our collective [[CAPACITY]] for adaptation.
+***** CONDITIONS OF KNOWLEDGE: Understanding the wide range of regionally and historically constructed narratives of the global requires interdisciplinary consideration.
+****** When exploring complexity, change or power the notion of the local must be linked.
+- We will use Ostrom’s theory in connection with Alexander-inspired patterns to put the local at the centre (in a polycentric fashion), considering the [[HEARTBEAT][HEARTBEATS]] of different organisational forms as a primary data source.
+- What patterns exist in various locales (physical or cultural)? How are they used? How are they changed? ([[PLACARD]]) What happens when these locales run up against each other?
+****** Discussion of global (dis)order should be attached to lived experience.
+- We use the [[TIMESCALES OF THE HUMAN BODY]] as another form of data, and bring the social and personal scale together by using the Active Inference Framework for integration purposes
+- Active Inference can help us make sense of a variety of complex systems, and interactions between complex systems, by thinking about these systems in terms of their [[UNKNOWNS]] and their processes of learning and adaptation.
+****** The Academy is keen to support projects that focus on marginalised voices and voices beyond the system of states and governing authorities, including those today that would be called non-state actors.
+- Citizen organisation have helped shape urban form in the past (e.g., through co-operatives and [[http://www.protosociology.de/][proto-sociologist]] modern Rome), and have had significant impact within the boundary of modern state (as in the Civil Rights movement).  The [[CONTEXT]] of contemporary citizen movements is international in scope.
+******** In this regard, the Academy would like to see projects that engage with causal analyses and understandings of social situations and how that pertains to the experience and notions of global (dis)order; with interpretative and historical understandings of how traditions including epistemic traditions, heritage, cultures and values view their place in world; and the role of normative ideas in the development or demise of global (dis)order.
+- One of the elements of [[PLACARD]] is CLA, which is a great tool for doing ‘causal analysis’ but which also needs to be refined if PLACARD is going to become an instrument rather than a heuristic.
+
+** Agenda part 2: Moving towards our EmacsConf contribution
+
+- (Circa 1st of September proposal)
+- Maybe think about CLA in terms of # of sessions (e.g., every 12 rather than every 6)
+- How to look for options to address the CLA appropriation question...
+  - https://www.ncf.edu/directory/david-brain/ mentioned an interesting strategy for solving this through participatory artworks?
+- Also start to have a rough idea of how we organise the summer, Leo’s not taking breaks this Summer but we do need to think about timings because after September he’ll be busy
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Needs to be away June 25th will remind us again later
+- Will go play Kirby soon
+  - JC: recommends Kirby minigolf: https://en.wikipedia.org/wiki/Kirby%27s_Dream_Course
+  - Vigilante Gastropub!
+  - JC: https://drafthouse.com/austin/show/before-sunrise-before-sunset-double-feature
+
+** JC
+- Visiting https://www.parisdigest.com/paris-gardens/parc-de-sceaux.htm next
+
+** LV
+- Would love to come down here to talk in person :-)
+- Done with the week and and want to rest!
+- To organize a chat next day w/ Noorah
