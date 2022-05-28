@@ -15,11 +15,17 @@
 :END:
 
 ** NA
+- Air Conditioning is down
+- Education in Texas has been undergoing a stressful time
+- "Bye" to co-supervisors!
 
 ** JC
+- Moving out in a month
+- (So, also some "bye" energy.)
 
 ** LV
-
+- Delayed massively by EmacsConf and a late-comer who stressed things
+- Birthday is in 3 days
 
 * Meta points
 
@@ -32,6 +38,115 @@
 :Effort:   0:20
 :END:
 
+** Problem: “Global (Dis)Order”
+
+- IMCL @ Mumbai?
+
+#+begin_quote
+The purpose of each project will be to develop new international
+research in the humanities and social sciences, to further our
+understanding of global order and disorder. Research may be
+problem-focused, creatively innovative and exploratory, and should
+bring together relevant disciplines in the humanities and social
+sciences, where appropriate, for maximum impact/effect. The Academy
+expects all applications to fundamentally involve and integrate both
+the humanities and social sciences. The Academy particularly encourage
+applications led from the humanities.
+
+The Academy is interested in projects of an interdisciplinary nature
+that go beyond the day-to-day matters that this theme might engender,
+and instead focus on the deeper and more long-term issues of global
+(dis)order.
+— https://www.thebritishacademy.ac.uk/funding/knowledge-frontiers-international-interdisciplinary-research/
+#+end_quote
+
+*** Terminology: ‘Complexity’ vs ‘Disorder’
+
+“When we deal with more than a few [[UNKNOWNS]] we quickly encounter
+_complexity_.  What looks like ‘disorder’ is just another form of order:
+at least, this is what [[https://archive.org/stream/creativeevolu1st00berguoft/creativeevolu1st00berguoft_djvu.txt)][Bergson says]], and it seems that thinking this
+way can helps us to [[LEVERAGE DIFFERENT RHYTHMS]] as we _explore_ (and
+exploit) the complex patterns manifest(ing) in our lifeworld.  We can
+appreciate *complexity* when it shows us [[ALTERNATIVES]].”
+
+- ✓ Infer that _complexity_ is important and related to the ‘UNKNOWN’.
+- ✓ Infer that _explore_ is important and related to ‘LEVERAGE DIFFERENT RHYTHMS’.
+
+/I.e./, we can store into a structure the *5 words before & after the anchor*.
+
+“Oh, you’re using ‘people’ a lot with ‘facilitator’.”
+
+It might not be considering NLP stuff but considering /frequency/ as an
+element of *salience*.  NLP: decipher salience.  Use the pre-defined
+words as a stepping stone to identify salience.
+
+#+begin_quote
+*LEVERAGE DIFFERENT RHYTHMS*
+- We'll have to *work* across different *scales* and *spheres of engagement*...
+- Often *disconnected* or working in different ways...
+- Let's find the *rhythms* that *engage us* fully...
+(7 matches)
+#+end_quote
+
+#+begin_quote
+*UNKNOWNS*
+- Many of these patterns are about building *knowledge* or *understanding*
+- But we all have different relationships to the *unknown* (e.g., they might be scary *threats*, or *exciting possibilities* for learning)
+- By definition we can't know the *unknown unknowns* (U/U), but we can *embrace the chaos*; and to help *navigate* it we we can learn more about the subconscious mind (U/K), and about *whom to share our questions* with (K/U)
+(5 matches)
+#+end_quote
+
+*** High-level summary
+
+We need strategies to handle to complexity.  We need to recognise
+feedback loops, and prepare for emergence/innovation uption*, when it
+happens within more or less safe limits, can promote creativity and
+new ideas that (in turn) change the [[CONTEXT]].  These complex
+feedback loops are experienced across all of the [[TIMESCALES OF THE
+HUMAN BODY]], some directly perceptible, and some only showing up in
+population or other large-scale analyses.  And again, technologies
+extend our perception.
+
+To do this, we need suitable social infrastructure CITIES: 70% OF
+HUMANS, 70% OF CO2 EMISSIONS Are global cities a ‘pharmakon’?  TOWARDS
+A COSMOPOLITAN REORGANISATION OF ‘BIOPOWER’ Related work: mapping
+social movements How can we gather and understand non-state
+organisations?  How do local and global patterns relate?  This is
+different from social movements at the urban and state level We’d need
+to refine the Causal Layered Analysis heuristic
+
+
+** Solution: “Public space is public health”
+
+- Can we think about things using the existing NPL patterns, aided perhaps by the pattern cards?
+
+*** Health is a concept that cuts across scales and contexts
+We’re thinking about a social [[CONTEXT]], and looking at the decisions
+and decision processes that people make, together, about ‘social
+care’, broadly construed.  In this setting, we see some conflict
+between [[VALUES]] related to individuals and collectives (in particular,
+as regards collective health).  With pattern methods like [[PLACARD]] we
+can rethink the way policies are made and implemented, to potentiate
+more effective collective decision making.
+
+*** High-level summary
+
+Life-affirming policies — by and for the people.  Demo of an
+integrated approach to community power for health.  We need to
+understand how communities work (“embodying the wiki”).
+Transdisciplinary, multi-stakeholder policy development.  Work with
+complex notions of ‘health’ from a modelling perspective.
+Understanding policy development and keeping tabs on the implications.
+Protocols for grassroots public health.  Understanding alternatives
+and empowering people.  Understanding the actual trends rather than
+the worst case scenario.  Cities mirror the ‘natural order’.
+Understanding how famed urban creativity works.  Designs for
+innovation.  Working with evolutionary strategies.  Post-human health.
+Rethinking cities & urban infrastructure with complexity in mind.  How
+values get into it...  Developing a ‘kernel’ for thinking about
+values.  Antipatterns of rigidity.  Proposal: a way to organise.
+
+
 * BREAK
 :PROPERTIES:
 :Effort:   0:05
@@ -42,6 +157,47 @@
 :Effort:   0:20
 :END:
 
+#+begin_quote
+*A proposal:*
+
+As facilitators we're taking notes as people are discussing things
+What happens if we have multiple people talking; are we going to
+record things in different documents, and will we be able to notice
+“people have been talking about this thing in other contexts”?
+
+Typically our notes are more of a brain-dump, and it’s another step to
+create a TOPIC for this.  But what if at the end of writing the stuff,
+we notice that *facilitators* have come up a lot and we want to know
+where else we’ve talked about ‘facilitators’.  Say, via =M-x
+find-topics=.  Then hyperlink the topics.
+#+end_quote
+
+** Deliverables
+*** *Research & Development for rapid problem solving workshop*
+- The tool is the way!  We’ve been thinking about ‘how to solve problems quickly’ the whole time!  And we’ve been doing it from a research perspective.  There’s also a clear approach to the workshop, we had the PLoP workshop and we had some ideas about how we could have done it in Paris (e.g., bringing demo patterns).
+*** *Prototype Wiki for patterns and method*
+- (This feeds into how we’re rapidly solving problems.)
+  - /We could be a rapid sense-making team, or alternatively build something for everyone to get trained in on/...
+    - (Building something that we find interesting and fun, and the £5K is an enabler to speed up this process.)
+  - What if we automatically created the links?  Going through all the org mode files and count words, create links.  (An auto-linker and word-counter.)
+    - How do we define the salience of the topics, without having something pre-computed?  NLP + ML both relevant for the solution.  Maybe we could try something cheap and dirty here.
+    - If we already had the topics of salience and we had the list of words which had a particular amount of salience, we can use those.
+  - When people want to use this method, consider UX: what is easy for people?  If they’re thinking about solutions for complex problems, getting help from a machine that would help to process the thoughts could help them think more about the solution.
+  - When I’m creating notes, I’m not usually creating links as I go; what if there’s something that does this for you.
+
+- Our thinking about the prototype is upgraded by thinking about nonrelational databases; we could take our keywords, and make it more efficient.
+
+*** *Workshop with architects, designers and urban planners in Bristol*
+- ‘Gun control’ would also be a good question
+- ‘Arming teachers’ isn’t a great plan
+- A cosmopolitan reorganisation of ‘biopower’... would be better?
+*** *Report*
+
+** Comments
+
+- Hyperlinking feature is already implement in Org Roam
+- What if we do a search for 5 words prior to and post ‘facilitator’, and try to determine what the topic
+
 * PAR
 :PROPERTIES:
 :Effort:   0:10
@@ -49,16 +205,21 @@
 
 
 *** 1. Establish what is happening: what and how are we learning?
-
+- Lateness in EmacsConf isn’t going to be a regular feature.
 *** 2. What are some different perspectives on what's happening?
 
+- Asking, “what tools can make a rapid sense-making team work better” is a good question for us to be asking.
+- We missed Leo during first half!
 *** 3. What did we learn or change?
-
+We can, e.g., start to intuit not just that something ‘is’ related, but how it is related.
 *** 4. What else should we change going forward?
-
+- Let’s try to plan out our engagements up to September, including 2-week breaks
+- Organise an open house?  Maybe beta-testers once we’re ready.
 
 * Tentative agenda for next week
 
+- Agenda Part 1: How to bring our wiki to life? (Subtitle: How do we ruin LV’s Summer)
+- Agenda Part 2: Schedule up to September, we’re good at planning...
 
 * Check-out
 :PROPERTIES:
@@ -66,7 +227,10 @@
 :END:
 
 ** NA
-
+- Running to lunch with friends!
 ** JC
-
+- New fountain pen acquired!
+- Staying at the Vicarage tonight...
 ** LV
+- Lunch coming up soon, 3 breakfasts under the belt
+- Busy week ahead!
