@@ -1,0 +1,212 @@
+#+TITLE: 11 June 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-06-11 Sat>
+
+* 11 June 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Went to Brunch 1 Saturday ago
+- Busy with work (e.g., different pathways for college, career, military readiness... — lots of different data sources)
+- Nice to have the weekend back
+- SmartHome upgrades potential
+
+** JC
+- It’s hard to catch up on a fortnight.
+- Moving out from his current place, and should save a ton of money in the process.
+- Trying to sort out the contract payment.
+
+** LV
+- Couple good weeks of work; lots of swimming as usual, now has shaded goggles
+- Emacs stuff
+  - Worked on [[https://github.com/tecosaur/org-glossary][org-glossary]]
+  - Emacs Paris: induction of new people
+  - Feeling energised, and doesn’t feel this compromises interview prep
+- Revision of strategy for summer as needed, e.g., to do more practical things; and wants to keep doing more practical stuff.  Python is OK but there are other languages like Go that are interesting.  Got good depth in python, and now thinking about breadth.  Happy about how it’s going!
+- Tonight is another dinner party
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Nice to have a summary of where we’re at, even if it’s just a plan.
+- ≈23 weeks until EmacsConf
+- ≈13 weeks until mid-September
+- Figure out what to do about not getting paid so far (though conference, design work are online)
+- Discussions with Finance leading to nothing have been generating frustration; the money tag sours things after we planned around getting the money
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** What to do with the contract
+
+- Firstly, we need the money.
+- Secondly, we need to know when it will arrive; we need stability.
+- We could halt our work on the project to take a break.
+- Anyway, we had thought we’d be paid in advance, but if the money doesn’t come in we can’t pay rent.  If we can’t be paid *in June* we can’t do the work, so we’d delay the workshop until we’re paid.
+- Grant says money must be spent by *31st of July*.  If we’re paid then, we can start, we’ll just work more in August.
+- To Abby: if you want to meet with us we can talk about other routes forward together!
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** LV's debrief: Emacs Communities
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- (Org-glossary linked above)
+- Saw RMS present the usual stuff on proprietary software vs free software (in French, understandable when presenting).
+- Spent 40 minutes talking about federating the different Emacs Paris,NY,ATX — which he has excited about
+- This seems like a fertile ground to talk about free software, there’s a missing wagon connecting Emacs users, Linux users, and contribution to FSF projects.
+- Actually people with fsf.org email addresses aren’t recruited from specific software packages
+- For Leo, though, there was a natural jump from using free software to thinking about free software.
+- It would be good to have an opportunity to talk about Emacs communities and EmacsConf at someplace with a bigger platform (like [[https://libreplanet.org/wiki/Main_Page][LibrePlanet]]).
+- Maybe for March 2023
+- Other stuff was about maybe Leo working more closely with the FSF either as a developer or community member
+
+*** Comments
+
+- We could run our workshop with these folks to envision the future of free software!
+- Leo can connect people & ideas; we’ll get a chance to check it out with EmacsConf.
+- Does RMS have a strong following?  Many people don’t like him but he has a big following.
+- We might want to run any big ideas past Mako Hill and others https://mako.cc/ (Cf. This Twitter [[https://twitter.com/makoshark/status/1375533288073293825][thread]].)
+
+
+** Summer schedule
+
+*** Preferred scenario
+| Tentative Date | Deliverable                | Owner | Notes |
+|----------------+----------------------------+-------+-------|
+|     2022-06-18 | —                          |       |       |
+|     2022-06-25 | MONEY HAS APPEARED         |       |       |
+|     2022-07-02 | (tentative) meeting        |       |       |
+|     2022-07-09 | (ensured) meeting          |       |       |
+|     2022-07-16 | Wiki deliverable Design    |       |       |
+|     2022-07-23 |                            |       |       |
+|     2022-07-30 |                            |       |       |
+|     2022-08-06 | Wiki deliverable Prototype |       |       |
+|     2022-08-13 |                            |       |       |
+|     2022-08-20 | Pilot workshop?            |       |       |
+|     2022-08-27 |                            |       |       |
+|     2022-09-03 |                            |       |       |
+|     2022-09-10 | Abby’s workshop in Bristol |       |       |
+
+*** Bailing at end of July
+
+| Tentative Date | Deliverable                                   | Owner | Notes |
+|----------------+-----------------------------------------------+-------+-------|
+|     2022-06-18 | —                                             |       |       |
+|     2022-06-25 | —                                             |       |       |
+|     2022-07-02 | (tentative) meeting                           |       |       |
+|     2022-07-09 | Meet with Abby to talk about other directions |       |       |
+|     2022-07-16 | —                                             |       |       |
+|     2022-07-23 |                                               |       |       |
+|     2022-07-30 | Money doesn’t appear                          |       |       |
+|     2022-08-06 |                                               |       |       |
+|     2022-08-13 |                                               |       |       |
+|     2022-08-20 |                                               |       |       |
+|     2022-08-27 |                                               |       |       |
+|     2022-09-03 |                                               |       |       |
+|     2022-09-10 | Pilot workshop prep for EmacsConf             |       |       |
+|     2022-09-17 |                                               |       |       |
+|     2022-09-24 |                                               |       |       |
+|     2022-10-01 |                                               |       |       |
+|     2022-10-08 |                                               |       |       |
+|         -10-15 |                                               |       |       |
+|         -10-22 |                                               |       |       |
+|         -10-29 |                                               |       |       |
+|         -11-05 |                                               |       |       |
+|         -11-12 | Can this count as deliverable for Abby?       |       |       |
+
+- Focus on free software tools and communities
+- Rather than focusing on built environment, focus on technology & ICT environment
+
+* PAR
+:PROPERTIES:
+:Effort:   0:03
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Certain about of real talk from Leo about money
+
+*** 2. What are some different perspectives on what's happening?
+- JC: I feel OK about what we got to
+- NA: I don’t think you should ever have to pull money out of your pocket to pay people [LV: especially when the money is supposed to be available]
+- LV: I feel better about it because I can re-allocate brain power w/o the worry
+
+*** 3. What did we learn or change?
+- Maybe we practiced our adaptive capacity, if we don’t get paid it’s a bummer
+
+*** 4. What else should we change going forward?
+- Leo’s invoice says it’s only valid for two weeks, should stick with something like that
+- Reassure Abby that she’s a catalyst here, and basically out of the equation until the money flows
+
+* Tentative agenda for next time we meet
+
+** Wiki design: Our plans
+
+*** Part 1: Resources
+
+*** Part 2: Processes
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going for a walk
+- Too hot to go to Barton Springs and it gets crowded
+
+** JC
+- Usual family call starting now.
+- Might go swimming later.
+- Might consider an application for a Research Practice Coordinator™ at Oxford. Could share a draft for comments.
+
+** LV
+- Dinner party w/ the Criteo folks and friend from Princeton, organised hastily from Noon today
+- Honeyheist is tomorrow, and will benefit from Org Roll:
+- Example:
+#+begin_quote
+Roll:
+- 1d6 :: [ 2 ]
+
+Rolls:
+- 4d6 :: [ 1, 4, 3, 5 ]
+
+Rolls:
+- 4d6< :: [ 2, 5, 5, 6 ]
+
+Rolls:
+- 4d6> :: [ 6, 5, 5, 1 ]
+
+Rolls:
+- 4d6+ :: [ 2, 2, 3, 3 ]
+     Σ :: 10
+
+Rolls:
+- 4d6   :: [ 2, 6, 6, 3 ]
+- 4d20  :: [ 8, 11, 3, 10 ]
+- 4d100 :: [ 14, 83, 81, 16 ]
+#+end_quote
