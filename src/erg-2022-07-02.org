@@ -1,0 +1,281 @@
+#+TITLE: 02 July 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-07-02 Sat>
+
+* 02 July 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Mostly working
+- Drove to Fayetteville, Arkansas (AR) and met friend who works in environmental consulting (water issues)
+- People are hungry for connection
+** JC
+- Moved to the new place.
+- Made better pancakes at the new place
+** LV
+- Leo has been sick this whole time; what a waste of vacation.
+- Numbers for Covid aren’t great
+
+* Meta points
+
+- Today’s meeting is "tentative"
+- Money is important — and humans throughout time have been interested in history.
+- Ideas are cheap, Joe’s grant proposal by contrast looks like it will cost
+
+** TODO Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Joe’s notes from most recent discussion with Abby
+#+begin_quote
+Abby@Hyperreal: I’d like to know what it looks like, what do we do in terms of the process.
+
+Our ask from Abby:
+
+• Initial sketch of INPUTS: e.g., 12 people involved with health in
+Bristol?
+
+• Potential OUTPUTS: (we could envision several options graded as
+"amazing", "OK", and "minimally acceptable"... recalling that the ESRG
+session that we went to was an example of a "workshop", but it was not
+really an acceptable prototype from our viewpoint: both Abby and Joe
+wanted something more engaging.)
+
+Some examples:
+
+E.g., not just a "workshop" in terms of a one-day event but using that
+day to prototype a WORKSHOP (LIKE A CARPENTRY WORKSHOP) that changes
+and develops over time after the one-day event.  For instance, the
+Workshop activities could be centred around a map, with different
+aspects of "health" recorded on it.  Later, if people want to learn
+how to make a healthy city, in Coventry or Canterbury, they might
+decide to visit Bristol and learn how!
+
+E.g., What does it mean to create a diverse planted bed in a town
+square?  If we have time to do this... maybe we could prototype our
+way towards doing it as an exhibition at Arnofini... translating to a
+mockup of the town square in the gallery space.
+
+E.g., also,
+
+• Better understandings of the interactions of professionals
+• Visual output sketching
+• A relatively accessible wiki
+
+Compare work by Geoffrey Thun <gthun@umich.edu>, from Detroit: they
+required a skilled GIS operator, they held workshops to get people in
+and give feedback on whether they'd captured things with their maps.
+The work involved establishing Living Labs, e.g., in Japan. They are
+spaces for sharing ideas that involve citizens coming and working
+together.  What does a Living Lab look like?  How would it be
+sustained?  Perhaps we could put forward an Artist’s Residency, e.g.,
+where we rent the gallery space for a longer period... take over the
+space for a prolonged period of time; and/or make a moving
+installation where we invite different experts/citizens to start to
+move the picture around from place to place, and change its components
+(cf. assemblage theory).
+
+Rather than using GIS, maybe we could do something similar with a
+knowledge map?  This would require some pre-work to map the domain.
+
+Later we want to enable people to put their own inputs into the
+resource, remotely/asyncronously?
+
+We could introduce the platform as a technical approach to capturing a
+knowledge map.
+
+Objective of the workshop might be "inventing practices and sharing
+these practices", so that they can be worked on even after the
+workshop is over?  So, not just a platform for knowledge sharing, but
+for charting the course of actions. So they could share INTENTIONAL
+ACTION and keep track of updates?
+
+E.g., the Detroit group organized around a "food, energy, water" nexus
+— but "health" is missing and the presumption is that health somehow
+falls out of that combination.  But actually, we think that health is
+central, and the above nexus underpins planetary health.  We can look
+specifically from a health perspective.
+
+PATTERNS (and the work by pattern folks) can feel inward-looking.
+There’s a reason why they have stagnated in architecture!  Ben Bolgar
+and Sergio Porta gavie interesting talks at IMCL which were somehow
+"pattern inspired", and David Brain also... however, they aren’t
+pinning themselves to patterns; their work has other structures that
+organize it.
+
+The ESRG folks had their own agenda; in particular, Michael wanted to
+continue CA’s legacy, but that becomes difficult when you’re working
+with contemporary architects and civilians.
+
+We’d like to talk further with Setha Low as well?  Both David and
+Setha have in common the sociology/anthropology orientation.  Asking
+"how do people use their space, and how do they engage with that?"
+
+So, for us, an interesting challenge is how to relate the mind map or
+knowledge graph to spacial arrangements?  E.g., asking participants,
+how would you create space to live in?  And, how do we ACTUALLY make
+real these sketches?  Perhaps we could get started with some embodied
+activities with Claire van Rhyn in the afternoon session?
+"Translating into action"... fits nicely with the "enacting" view that
+we wanted to archieve.
+#+end_quote
+
+
+** Follow-up?
+
+- Establish core working group
+- Wiki deliverable Design
+  - Features: sustainability/longevity
+- Wiki deliverable Prototype
+- Pilot workshop?
+
+We’ve bought into the idea that Emacs allows us to do what we want to
+do better.  There are some features that were missing, like CRDT.
+We’ve now been making use of it in every meeting.  If we’re to sell
+people on having proficient tools, we need to talk with them about
+what they do.
+
+If we try to sell people on "Emacs" it will look like something for
+writing code or something antiquated... we’ll get stuck.  But we could
+progressively sell people by showing people what’s possible.  What can
+we present with the workflow that we have?
+
+We talked about ERG, we talked about how we work together; and we can
+sell people on the METHOD.  We can talk about how we use Emacs to do
+stuff, and we can show it.  They might not replicate what we do
+immediately, but we could catalogue patterns that can be easily
+accessed.
+
+- We require experts with the model to run the workshop, who have bought into Emacs [and PLACARD?] already
+
+** Our goal
+- Essentialise it to something that’s valuable
+- E.g., CLA is similarly liberating compared with CRDT
+- How can we implement new design ideas, like word-highlighting?  We could implement this; whereas CRDT we already use all the time!
+- We also have a "healthy collaboration" — tools are part of this, because they support the workflow. So, the selling point is developing methods, that get people to reach the essence of what they have in common
+  - The tools we use support this, but we could use different tools; if we ran 3 workshops, w/ 3 articles for each, we could then distill the commonalities.  This doesn’t
+
+- Emacs is a tool, but there’s a high learning curve!!  Even just understanding what’s going on can be difficult/disorienting.
+- A workshop with Emacs would work better because people would know how to use it.
+
+- CRDT robustness hasn’t been tested in the field.
+
+- If we were using a standard wiki, how would it work?  Do they have all their own pages?
+
+- Wiki could be the archive.  Getting people to work on the topic, we could use an *Etherpad*; we can put text in, hope people don’t screw up the text; they just need to know how to type on their keyboard.
+- Then when we look at what they’ve written, we pull things together, distil the essence... if we want to auto-populate the Etherpad pages, we could do it with a CLI.
+
+- A web client for *CRDT?*
+
+- Or use existing Etherpad CLI?
+  - [[https://github.com/ether/etherpad-cli-client][ether/etherpad-cli-client: Etherpad Node CLI for interacting with Pads in real time.]]
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- Cookies...
+
+* Agenda (Part 2) — Did we
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+Didn’t want to open the gate, it would be nice to have the rewards.
+- Money for FLOSS is a general problem!  How can we do this?
+- If the model is to help people get a job in industry to do FLOSS on the side, that’s pragmatic
+- Working on Org Roam was a good idea, but Leo is now a much better developer.
+How do you engineer success of people who start with OSS?
+
+Consultants have ugly jargon!
+- "Let’s circle back."
+- "Let’s not reinvent the wheels."
+- "Faire ‘disrupter’".
+
+... and they don’t solve the problems they tackle?
+
+Have we learned anything from last November?  (Not 63 video recordings, but the EmacsConf presentation...)
+
+- We all spoke very robotically!  The snippet in the middle from the actual ERG session sounds more natural!
+
+** Achieve something similar to Houston homelessness result?
+
+- It’s not that simple; what they did takes a lot of effort!
+  - People were willing; they were all working on Homelessness for a while...
+  - Their activities disrupted the normal order of business.  It can’t have just replicated the earlier patterns, it presumably had to do with the methods they used.
+- Even designing the activities wasn’t easy, it had someone from the Whitehouse, and they probably had a team.  What’s the tiny piece that Abby’s envisioning for us.
+
+- Let’s get people with good will, and then get them moving on paths which are not traditional.  Not specialists in homelessness, but how to generate innovation and clever ideas...?  How to make sure that serendipity is fruitful?  Not... "Move all the homeless people to another city?"
+- What was different?
+- "Maybe if each of you bring 10 of your friends?"
+
+Instead of a Kaiju, we can usher some disruption: we are experts that facilitate the workshop, or... what if, we’re more like ‘game masters’ that provide wrinkles that...
+
+When we talked about this: we’re not the experts of the content, we don’t come up with the content questions... the participants do.  We provide vehicles.
+
+We won’t come up with health scenarios, but we can ask them to do
+something in advance.  Abby can bring the content problems?  What do
+we do going from there?
+
+Let’s think about fruitful wrinkles — e.g., we can’t be experts on
+homelessness, but we could try to find the wrinkles that they
+generated in Houston.  We can be experts on our specialties + Emacs.
+We can bank on the fact that we have entrypoints & the culture to
+understand the outward aspect of the project.  Our goal: be able to be
+inserted into any setting, dropped in w/ others, find the gaps w/
+other aspects, find the questions that get the conversation moving
+forward...
+
+Pick some people & run some workshop?
+
+How do we bring these our methods together, so that we can address
+issues of contents that others bring?
+
+— E.g., sitting down with 2 power users of Emacs
+
+#+begin_quote
+E.g., the Detroit group organized around a "food, energy, water" nexus
+— but "health" is missing and the presumption is that health somehow
+falls out of that combination.
+#+end_quote
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- Back after a break
+*** 2. What are some different perspectives on what's happening?
+- I think we covered a lot of ground
+*** 3. What did we learn or change?
+- Stay away from focusing on content only and leave that for others
+- Think about the design, think about implementation later.
+*** 4. What else should we change going forward?
+- Let’s focus on how we run the workshop
+- Maybe we could do a micro version of the workshop
+- How can we ‘wrinkle’ the ≈12 people that Abby brings
+- "Generate coordination between people who are not coordinated naturally"
+- So we need to be experts at coordinating people that are not traditional
+  - Coordination as the transmissible skill that we want people to get; therefore, the archival wiki becomes a wiki on how to coordinate people in untraditional ways
+
+* Tentative agenda for next week
+Stay tuned...
+
+* Check-out
+See you next time!
