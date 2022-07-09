@@ -264,9 +264,13 @@ falls out of that combination.
 *** 2. What are some different perspectives on what's happening?
 - I think we covered a lot of ground
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - The break was a good thing
 >>>>>>> 98af781 (Add notes from last session)
+=======
+- The break was a good thing
+>>>>>>> 6eeefdfa4c4634d266f489e6eb1d0e767ea779bb
 *** 3. What did we learn or change?
 - Stay away from focusing on content only and leave that for others
 - Think about the design, think about implementation later.
@@ -277,10 +281,14 @@ falls out of that combination.
 - "Generate coordination between people who are not coordinated naturally"
 - So we need to be experts at coordinating people that are not traditional
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Coordination as the transmissible skill that we want people to get; therefore, the archival wiki becomes a wiki on how to coordinate people in untraditional ways
 =======
   - Coordination as the transmissible skill that we want people to get; therefore, the archival wiki becomes a wiki on how to coordinate people in nontraditional ways
 >>>>>>> 98af781 (Add notes from last session)
+=======
+  - Coordination as the transmissible skill that we want people to get; therefore, the archival wiki becomes a wiki on how to coordinate people in nontraditional ways
+>>>>>>> 6eeefdfa4c4634d266f489e6eb1d0e767ea779bb
 
 * Tentative agenda for next week
 Stay tuned...
