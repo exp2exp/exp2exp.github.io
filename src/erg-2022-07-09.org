@@ -15,50 +15,187 @@
 :END:
 
 ** NA
+- Getting property re-appraised
+- It’s super hot in Texas, but at least they have AC and are ready to handle it
 
 ** JC
+- Late after coming from the garden
+- Has set up a CRDT devel server on metameso.org
 
 ** LV
-
+- Probably not attending today
 
 * Meta points
-
-** TODO Don't forget to record the session!                             :LV:
+** DONE Don't forget to record the session!                             :LV:
 
 * TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
 
-* Agenda (Part 1)
+- 8:30AM Central on Friday could potentially work for a next meeting?
+- For now let’s get prepared for some meeting with Abby.
+
+* Agenda (Part 1) - Go over latest notes from discussion with Abby
 :PROPERTIES:
 :Effort:   0:20
 :END:
+
+#+begin_quote
+"How do we share information effectively for action?"
+
+- "INTERACTIVE DOCUMENTARIES" — these folks are based at UWE
+- These could link really well
+- These could augment people's relation with space, not with AR, but augmentation of people's narratives
+- This opens the idea of "is this public space healthy?" — we'd have lot of people speaking to that?
+- Maybe we have some kind of immersion in the workshop, which sets the tone for "how do we create healthy spaces"
+- Maybe it's developed outside of the workshop,
+- Becoming a platform for doing SPATIAL ETHNOGRAPHY, connecting with the map?
+- Drawing out experiential information that's mapped across the city
+#+end_quote
+
+Maybe we would help write the "script" or "screenplay" (also interactively)...?
+
+** Healthy public spaces
+- This is the content... how can our expertise be useful to her?
+- For us, we’re providing a method of collecting information from them
+  - Through interactive connections, meetings & synthesizing the data efficiently
+  - So this isn’t directly about making the healthy space, but how do we gather the data
+
+** How do we utilize our talents to best benefit this project?
+
+#+begin_quote
+— How does this look, how does it INTERACT?
+
+Could we plan some Friday meetings w/ Abby?  And/or Abby will plan the
+Saturdays that she could potentially do.  Aim to catch up with all of
+us next week.
+
+— Can potentially do some work-arounds (regarding contract payments)
+we can demonstrate that the pilot & wiki stuff has been done.
+
+So, what do "HYPERREAL ENTERPRISES" bring?  The other folks will
+have their own production methods, but what they don't have is
+how do you engender that beyond the scope of the platform.
+
+"How do we embed documentaries across maps?"
+#+end_quote
+
+- But we need to get the data first...
+- The first bridge is to see what’s actually going on in this space
+- Otherwise we might end up having a nice media object but won’t have the content ready
+
+** Make it clear about what we know and what we can do
+
+JC: It will all be much more clear if we have a pilot
+
+Abby wants to accomplish something, we’ll provide a prototype of how
+to collect relevant info.  We think this method that we’re building on
+could.
+
+#+begin_quote
+"What are the methods by which we can get people to invest in public
+space?"
+
+It's on the back of neglected space... JC: I'd like to see and use
+Melanie's playbook for community food systems?
+#+end_quote
+
+** We did our first workshop virtually!
+
+- So we know the workshop can happen virtually and asynchronously.
+- This could be quite freeing
+- But how different is it from people submitting their issues online?
+
+- NA: How can I type into the PLATFORM, share my thoughts on what should be happening in my local area... how can this connected to a bigger concern?
+
+** A few different workshops, in fact!
+
+- Bristol Healthy Public Spaces :: Could we quickly set up an initial conversation between filmmaker & community members?  (Have something that people can go and type into...)
+  - Possible Pilot #1
+  - ...
+- Anticipation 2022 (Arizona) :: (How do we analyse the data?)
+- EmacsConf ::
+- Peeragogy Workshop :: Working together across 10 weeks for 10 chapters
+- ...?
+
+If our product is: "build a _platform_ that collects data on certain issues", then Bristol would have a customized platform... maybe Emacs + EmacsConf would have a customized platform?
+
+*** The method is what links these things together!
+
+** Reflections on the method
+
+*** How is this different, what are we adding?
+
+- It’s different from /argumentation/
+- What sort of skills do we need to bring things to life?
+
+*** Is there a CLA product somewhere?!
+- A good question for Sohail, or Ralph, about this.
+  - There certainly is text analysis software, and we could have a think about how to apply it to get it to go into the 4 layers; maybe the *National Centre for Text Mining* could help.
+- What if we had a software that we could run on all our notes and it is able to categorize them into a network, to see which parts of Abby’s asks are aligned with what we’re doing
+- After the text collection: "you now need to talk to this person about that topic"
 
 * BREAK
 :PROPERTIES:
 :Effort:   0:05
 :END:
 
-* Agenda (Part 2)
+* Agenda (Part 2) - Prepare for Friday and any other next steps
 :PROPERTIES:
 :Effort:   0:20
 :END:
+
+** Who are the right people to talk about healthy public space?
+
+This seems like a really *good question*, because this will impact the
+data we collect, and how collect it.
+
+(E.g., if it was homeless people in Houston, we’d want to talk with them, or else people who engage with them in every day!)
+
+- We probably don’t need too many random people in the conversation
+- Maybe a few people who bring quirky perspectives, like 1 street musician?
+
+** The follow-through for us is "what did we learn?"
+
+- This is not the last stop, this is the first stop.
+- Some friction like expectations seem a bit unclear, once we collaborate with the external group we can become highly invested in their goals, trying to fix their issues
+
+- It could be something like "Is this what we want vs what the client wants?"
+
+** We could have a prototype of the process, from collecting data through to the next steps.
+
+- Would be very grounding for us
+- Can we go back to the drawings that Noorah made?
+
+* Agenda (Part 2A)
+Hi Leo!
+** Can now livestream from his tablet to OBS
 
 * PAR
 :PROPERTIES:
 :Effort:   0:10
 :END:
 
-
 *** 1. Establish what is happening: what and how are we learning?
-
+- Noorah & Joe talked & took a step back, coming back to re-focus on the method as the core thing
+- LV: Not opening the gate but stepping back
 *** 2. What are some different perspectives on what's happening?
-
+- JC: To take as a learning that getting super excited about the next big thing is a bit ungrounding!
+- NA: Good to ask, are we doing what we agreed on?
+- LV: I can understand the summary, but I should have been there to understand the different rhythm; I can validate it but somewhat regret that I couldn’t have been there.
 *** 3. What did we learn or change?
-
+- We’re wrapping our head around the methods
 *** 4. What else should we change going forward?
-
+- Do what we’re good at rather than trying to learn new things.
+- Joe, don’t go back and do another Master’s degree!
 
 * Tentative agenda for next week
 
+*** From Abby:
+
+#+begin_quote
+- KNOWLEDGE EXCHANGE PLATFORM (online and physical, Hyperreal): the mapping public space, experiences, use and structural components of space. An online map of public spaces around the city, with a WIKI like page associated with it: ecological diversity, noise pollution, type of space, how people use it, their experiences (documentary/photographs-like the case studies I proposed in the original BA grant).
+#+end_quote
+
+*** Maybe a quick walkthrough of the completion stuff
 
 * Check-out
 :PROPERTIES:
@@ -66,7 +203,20 @@
 :END:
 
 ** NA
-
+- Taking it easy today
+- Will be reading a bit about CLA and if there are any programming applications
+  - JC: Can skim through the CLA 3.0 reader for keywords like "software"!
+- Have been watching "Only Murders in the Building"
 ** JC
-
+- We’ve now all watched "Everything, Everywhere, All at Once"
+  - Mom/daughter stuff
+  - Romance stuff, e.g., instant connection at the end with the hug + calm gaze
+- Spent a lot of time on the garden and covered the greenhouse
 ** LV
+- Spent 6 hours without breaks solving a problem with his keyboard
+- Lesson: programming is a bit like crack, because I don’t stop!
+- Also switched away from Helm & Ivy, it was a packed!
+- Checkout, is I’m tired and feeling like shit but not sleeping enough
+  - 9PM-6AM?  Midnight/1AM-?
+  - Haven’t been able to watch his series
+- E.g., had to copy without Control... but I’m still curious!
