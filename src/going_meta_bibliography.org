@@ -1,0 +1,12 @@
+#+title: Going Meta Bibliography
+
+References for the Workshop "Going meta, anticipating anticipation: a
+workshop" which will be presented at Anticipation 2022.
+
+Corneli, J., Murphy, A., Puzio, R. S., Vivier, L., Alhasan, N., Danoff, C. J., Bruno, V., & Pierce, C.  (2021). Patterns of patterns: A methodological reflection on the future of design pattern methods. https://arxiv.org/abs/2107.10497
+
+Olabisi, L. K. S., Kapuscinski, A. R., Johnson, K. A., Reich, P. B., Stenquist, B., & Draeger, K. J.  (2010). Using scenario visioning and participatory system dynamics modeling to investigate the future: Lessons from Minnesota 2050. Sustainability, 2(8), 2686–2706.  https://doi.org/10.3390/su2082686
+
+Van Rhyn, C., Dutra Gonçalves, R., Huggins, H., and Øverland, I. (2019). Future-making in education through Social Presencing Theatre: an awareness-based anticipatory methodology. Curated Session at Anticipation 2019. https://web.archive.org/web/20210410151159/http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_47.pdf
+
+Wildschut, D. (2017). The need for citizen science in the transition to a sustainable peer-to-peer-society. Futures, 91, 46–52.
