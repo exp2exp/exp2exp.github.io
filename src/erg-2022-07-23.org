@@ -1,0 +1,237 @@
+#+TITLE: 23 July 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-07-23 Sat>
+
+* 23 July 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Just work
+- Excited about how the workshop is shaping up
+** JC
+- Dogsitting, Flora has a good life here
+- Living location is good, but living in this community might not last forever
+** LV
+- Multiple doctor’s appointments, w/ a fever.  Concerned about
+  digestive disorders, looking at an early September appointment.  ABS
+  not working on the car.
+
+* Meta points
+
+- Informal session, would have had Abby today but she couldn’t join
+- Michel Serres is pronounced like "Saire"
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) — Recap
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** What we last remember from the meeting from Abby
+- NA: I like that she brought this prompt as a way to introduce people to the workshop
+- Priming but not too much: "How do you connect with nature?"
+- Rethinking our relation with nature vs society.
+- We don’t need to ask complicated questions
+- NA: I left wanting to read more about the difference between ‘system’ and ‘worldview’
+  - We found a nice paper on this, good for us to do a bit more reading about how other folks have
+*** Systems:
+- Social causes & structures that we’re observing
+- Indeed, they are structures that /enable our observations/
+*** Worldview:
+- Forces that support these structures
+  - E.g., people could live in the same house but do very different things on Sunday morning
+
+*** We had a list of potential invitees
+*** We had a list of initial questions
+*** Could adjust the questions to the levels of the CLA
+*** Regarding "Governance"
+- NA: I want the participants to come up with this.
+  - I want to think about how we formulate the questions at each level, so we can reuse the questions
+  - E.g., instead of "tell us about the ways goverance blocks you", just "tell us about some of your blockers"
+*** Generally a good point to get to common ground early in the workshop
+- Myth is something that pretty much everyone will agree about
+
+** What is a social contract?
+- We usually think this way
+** What is a nature contract?
+- Indigenous cultures can talk about something like a ‘nature contract’.
+** Work in parallel with the early outputs of e.g. i-Docs
+- E.g., in principle we could come up with a draft of the grant proposal
+
+** Pre-workshop exercise
+- Come with stories to tell,
+- Each of us goes for 1 hour walk in our environment (e.g., 1PM local time)
+- Take pictures, make observations; there would be lots of maybes
+- "Go for an hour around your neighbourhood, document things you observe, things that you feel, anything that comes up."
+
+** Street art: is still part of the social context / contract
+- How we relate to each other
+- Tree isn’t graffiti, but you could imagine a tree growing through a crack in the sidewalk in front of a mural
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) — Serre + the prompt itself
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Serre — This is a good prompt to start the activity
+
+Immediate observations of reality:
+
+#+begin_quote
+Please see below for a general summary of the important points in
+relation to Michel Serres’ work, in particular his writings on “The
+Nature Contract’ and ‘Parasite’ [...]
+
+How do we establish ‘The Natural Contract’?
+
+    A Natural Contract of symbiosis and reciprocity in which our
+    relationship to things would set aside mastery and possession in
+    favour of admiring attention, reciprocity, contemplation, and
+    respect.
+
+    Recognises and acknowledges an equilibrium between our current
+    power and the forces of the world.
+
+    Leads us to consider the world’s point of view in its totality.
+
+    We, former parasites, must become symbionts.
+
+    The rights of symbiosis are defined by reciprocity, however much
+    nature gives man, man must give that much back to nature, now a
+    legal subject.
+#+end_quote
+
+
+We can recreate this:
+- "Go through the Emacs packages, tell us how you interact with Emacs."
+- "Come back with screenshots, share them during the workshop."
+- "How do you even conceptualise your relationship with the future."
+
+** Towards the system level:
+
+- Could be fun to go with Polaroid pictures, or use a Miro board online to cluster the images... a shared Pinterest board.
+- Themes and clusters
+- Create the alt-text using some automatic AI tools that would then... could imagine a fully-automatic process going to an Org Roam cloud
+
+#+begin_quote
+I see this linking nicely with the themes of antifragility and
+disorder.
+
+And so, with the British Academy grant in mind:
+
+    Complexity: bring plural understanding to the facets of global
+    (dis)order, bringing to the fore cultural and historical elements
+    of such an understanding.
+
+    Conditions of Knowledge: BA would like to see projects that engage
+    with causal analyses and understanding of social situations and
+    how that pertains to the experience and notions of global
+    disorder; with interpretative and historical understandings of how
+    traditions including epistemic traditions, heritage, cultures and
+    values view their place in the world.
+
+If you have time to catch up early next week, that would be great.
+#+end_quote
+
+- Can extract social science & humanities knowledge
+- We can look at how these important people view the world
+- 20 people will have 400 possible pairs, each of these could cluster
+
+- How could we change things to make it more disposed to action?
+- Just agreeing isn’t going to change anything
+
+- Do we have to go to the common ground before we could articulate the
+  worldview?
+
+*** E.g., quality and saftey in healthcare
+>100,000 deaths related to mistakes
+- Focus on the individual
+- Go deeper: it can lie with medical and hospital system as a whole
+- To get a vision of this map
+
+** Activity: draw the constellation
+- But maybe just using fifth-grade methods?
+- WHO are the actors?
+- Think more about what they are observing at a deeper layer?
+** How do you want the system to be?
+- What about a more open-ended diagram, where you can make arrows that work like a flow-chart
+- Not dealing with one simple domain, but essentialise some of the key functions that they do
+- Then rearrange this!
+
+** What changes?
+
+Can people take their ideas one step further?
+
+- Even if you have a pessimistic outlook at least you’ve articulate this
+- That’s sort of how we came away from IMCL
+
+** Even with technological advances we still have to deal with nature
+
+- Could run future workshops for another £5000, helping people articulate their
+
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Today slow paced meeting
+- Felt deliberate
+*** 2. What are some different perspectives on what's happening?
+- Good exercise to go back over w/o any notes to see if we retained anything
+- Glad we’re confident about the litany layer (and myth layer as something that everyone agrees on, but we will figure out what that is).
+*** 3. What did we learn or change?
+- It feels good to slow down so we’re not rushing w/ more new ideas all the time!
+*** 4. What else should we change going forward?
+- Maybe it would be good to have a CLA expert run a master class with us
+- Joe will visit a democratic school soon, that could be a good fit for some future "CLA for kids" opportunity
+  - LV: Secondary school kids mostly do rebellion and subordination; "system" putting 30 in one classroom...
+  - NA: What about putting 30 of them into a Fortnite game?
+  - Teaching & games: a lot of crafting went into FN, and kids are sold on this.  But in the classroom, we have 1 person 5 years of education, focus on the discipline rather than learning how to teach!  And you charge them with a huge scope.  We might want to learn from this to keep the scope limited.  Could we design a ‘problem’ out of the workshop, by trying to find a more limited scope.
+     - If we limit what they can come up with by asking limited questions that could help them think outside the box!
+
+* Tentative agenda for next week
+
+- Come up with more questions for the different layers: how would you ask someone.
+
+"What do you see?"  "How could you see it?"
+
+- Stay healthy or become healthy!
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+- Exercising slow and deliberately
+- Opportunity for some peer learning at the gym?
+
+** JC
+- Going to go play my giant cello soon
+
+** LV
+- Pain ongoing
+- Appointment in 30 minutes w/ GP
+- Walking to the pharmacy before they close at a crab’s pace
+- Painkillers work at the level of the brain
+  - NA: Get it checked out ASAP.
+- Compounded by stress...
