@@ -14,6 +14,7 @@
 :END:
 
 ** NA
+
 - Just work
 - Excited about how the workshop is shaping up
 ** JC
@@ -31,7 +32,7 @@
 
 * TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
 
-* Agenda (Part 1) — Recap
+* Agenda (Part 1)
 :PROPERTIES:
 :Effort:   0:20
 :END:
@@ -76,7 +77,6 @@
 ** Street art: is still part of the social context / contract
 - How we relate to each other
 - Tree isn’t graffiti, but you could imagine a tree growing through a crack in the sidewalk in front of a mural
-
 
 * BREAK
 :PROPERTIES:
@@ -184,7 +184,6 @@ Can people take their ideas one step further?
 
 - Could run future workshops for another £5000, helping people articulate their
 
-
 * PAR
 :PROPERTIES:
 :Effort:   0:10
@@ -214,6 +213,7 @@ Can people take their ideas one step further?
 
 - Stay healthy or become healthy!
 
+* Tentative agenda for next week
 
 * Check-out
 :PROPERTIES:
@@ -221,7 +221,6 @@ Can people take their ideas one step further?
 :END:
 
 ** NA
-
 - Exercising slow and deliberately
 - Opportunity for some peer learning at the gym?
 
