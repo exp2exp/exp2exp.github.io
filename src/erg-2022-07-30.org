@@ -1,0 +1,138 @@
+#+TITLE: 30 July 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-07-30 Sat>
+
+* 30 July 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- I am the notetaker today.
+- Slept in for a little bit.
+
+** JC
+- At a music festival; feeling a bit sleepy
+
+** LV
+- Walking and talking; feeling better since last week.
+- Focusing on self-care
+- Swimming again! Woohoo!
+- Big financial surprise with car fixing cost.
+
+* Meta points
+
+** KILL Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Create a slide deck mostly for funders.
+- Use LV's diagram to drill vertically for each phase
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Random inputs from us
+- Why don’t we try to run our own CLA to check for the porosity between the different layers?
+- NA: We should try to have commented walks to discover and share more things about our neighbourhoods and use it as data for running the worskhop.
+
+
+** CLA questions for workshop
+
+*** TRANSITION: Before the workshop to Litany
+
+- We need to find
+
+*** Litany
+
+- What are you observing? (sight, sound, smell)
+- What do we /already/ see?
+- What are you experiencing? (feelings, thoughts, first impressions)
+- Timeline experiences
+
+*** TRANSITION: Litany to Systems
+- Thinking about the stories; finding the dots in the litany, and connecting them in the systems.
+
+*** Systems
+
+- What systems/factors/actors bring about these observations/experiences?
+- Who do you think is involved in these decisions?
+
+*** TRANSITION: Systems to Worldview
+
+*** Worldview
+
+- How would you represent this on a map?  How would you visualize it?
+- Our worldview is probably already summed up in the diagram that LV drew last time.
+- What do you want to have happened?
+
+*** TRANSITION: Worldview to Myths
+
+- From maps to myths.
+
+*** Myths
+
+- By running this process in a  lot of different spaces, we’ll learn something; different people might have different maps and myths
+- The output of each preceeding layers feed into the next one; when we get to the Myths later, we need to personalize what was uncovered in the Worldview layer and slowly return to the
+
+*** TRANSITION: Myths to after the workshop
+
+- The goal is to run something akin to an inception.  Since our preliminary postulate is that, if people could change stuff on their own, they would have done it before, our goal is to challenge their views so that they leave the workshop with a modified understanding of how the world works (i.e. the myths that drive them)
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- We’ve worked on the periphery of what we’re doing with Abby, but gearing ourselves towards the future, especially future grants.
+- We dug through the CLA layers, collecting questions that we found relevant to running the workshop.
+
+*** 2. What are some different perspectives on what's happening?
+- Since it’s only NA and LV, it’s going to be hard to collect different perspectives.
+
+*** 3. What did we learn or change?
+- LV: We’ve enshrined the use of diagramming during our session, and this is helping us quite a bit.
+- We’ve reinforced our desire to learn more about the different layers, and especially how they dovetail, or do we transition to one to another.
+- Having transition layers allows us to visualize flows of transformation for the participants
+
+*** 4. What else should we change going forward?
+- LV: We might want to find time in our weeks to work on our own on the project.  The reason is that we sometimes find ourselves desperately short on time with our Saturday session (or scatterbrained towards the start) which is not conducive to long, quality work.
+
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Just gonna go grab lunch.
+
+** JC
+- Enjoying his festival.
+
+** LV
+- Gonna keep taking his chill pills until Monday (at least).
