@@ -1,0 +1,47 @@
+\makeatletter
+\newcommand\level[1]{%
+  \ifcase#1\relax\expandafter\chapter\or
+    \expandafter\section\or
+    \expandafter\subsection\or
+    \expandafter\subsubsection\else
+    \def\next{\@level{#1}}\expandafter\next
+  \fi}
+\newcommand{\@level}[1]{%
+  \@startsection{level#1}
+    {#1}
+    {\z@}%
+    {-3.25ex\@plus -1ex \@minus -.2ex}%
+    {1.5ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+
+\newdimen\@leveldim
+\newdimen\@dotsdim
+{\normalfont\normalsize
+ \sbox\z@{0}\global\@leveldim=\wd\z@
+ \sbox\z@{.}\global\@dotsdim=\wd\z@
+}
+
+\newcounter{level4}[subsubsection]
+\@namedef{thelevel4}{\thesubsubsection.\arabic{level4}}
+\@namedef{level4mark}#1{}
+\def\l@section{\@dottedtocline{1}{0pt}{\dimexpr\@leveldim*4+\@dotsdim*1+6pt\relax}}
+\def\l@subsection{\@dottedtocline{2}{0pt}{\dimexpr\@leveldim*5+\@dotsdim*2+6pt\relax}}
+\def\l@subsubsection{\@dottedtocline{3}{0pt}{\dimexpr\@leveldim*6+\@dotsdim*3+6pt\relax}}
+\@namedef{l@level4}{\@dottedtocline{4}{0pt}{\dimexpr\@leveldim*7+\@dotsdim*4+6pt\relax}}
+
+\count@=4
+\def\@ncp#1{\number\numexpr\count@+#1\relax}
+\loop\ifnum\count@<100
+  \begingroup\edef\x{\endgroup
+    \noexpand\newcounter{level\@ncp{1}}[level\number\count@]
+    \noexpand\@namedef{thelevel\@ncp{1}}{%
+      \noexpand\@nameuse{thelevel\@ncp{0}}.\noexpand\arabic{level\@ncp{1}}}
+    \noexpand\@namedef{level\@ncp{1}mark}####1{}%
+    \noexpand\@namedef{l@level\@ncp{1}}%
+      {\noexpand\@dottedtocline{\@ncp{1}}{0pt}{\the\dimexpr\@leveldim*\@ncp{5}+\@dotsdim*\@ncp{0}\relax}}}%
+  \x
+  \advance\count@\@ne
+\repeat
+\makeatother
+\setcounter{secnumdepth}{100}
+\setcounter{tocdepth}{100}

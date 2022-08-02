@@ -1,0 +1,223 @@
+#+TITLE: Workshop outline 15/07
+
+#+BEGIN_EXPORT LATEX
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{./Downloads/2022-07-16_workshop-diagram-raster.pdf}
+\caption{Sketch of the relationship between content and context for purposes of the workshop}
+\end{figure}
+#+END_EXPORT
+
+
+* Pre-planning
+
+** IDEAS
+
+- Inviting collaborators for British Academy grant proposal on the theme [[https://www.thebritishacademy.ac.uk/funding/knowledge-frontiers-international-interdisciplinary-research/]["Global (Dis)order"]] (Deadline: *19 Oct 2022*)
+  - Disorder is a theme that comes up in a lot of discussions: knowledge exchange, space creation, the need for disorder for resilience and adaptability (natural disorder applies across scales)
+
+- Processes of answering some questions through the iterations, phases, and tools
+
+** Meta-question(s)
+
+- What are the questions (i.e., prompts); and are these driven by Abby or the theme or the participants?
+  - We can have prompts at each CLA level?
+- What are the participants going to be like?
+
+*** "HOW TO GO FROM A GROUP OF PEOPLE WHO NEVER MET TO AN INTEGRATED FORM OF ACTION?"
+
+*** Context and Content
+- Before the workshop
+- After the workshop
+
+Thinking about the contextual output, we want people from different fields to go out of the workshop with different ideas — we won’t turn an architect into a city planner or an expert on biology.  People typically just become more expert in their field.
+
+If we ask people from different fields, we’ll have (say) 5 fields
+
+| PERSON     | QUESTIONS                                                                        |
+|            | Read the list of participants but merely on the roles, how do these inspire you? |
+| Architect  |                                                                                  |
+| Planner    |                                                                                  |
+| Health     |                                                                                  |
+| Film-maker |                                                                                  |
+| Etc.       |                                                                                  |
+|            |                                                                                  |
+
+Make people confront the boundaries of their expertise.  E.g., they
+might depend on the planner to know if they can build something here
+or there.  By collecting this input data, we have the boundaries of
+everyone’s expertise.  They’ll have frontiers w/ potential porosity,
+e.g., interfaces between architect & planner.
+
+So we’ll have some conceptual map of where the boundaries are.  Where
+does the expertise belong?
+
+*** They’ll have relatively rigid maps
+#+begin_quote
+"Architect @ health (e.g.)  Do I really need to care?"
+
+Yes, I could be creative at these frontiers...  If I am generating
+open space at a hospital, they can propose bridges.  But *litigation*
+and *cost* can shut the frontiers down.
+#+end_quote
+
+*** What happens?
+
+So, our role is: how do I generate an interface between these 2 remote
+people?  Now, after the workshop, the architect knows what kind of
+interface they can have with the health expert.
+
+First analysing a map of the expertise in the fields; going from
+incomplete conceptual map of where expertise lies — but being able to
+ask probing questions to generate a frontier?
+
+- Experts will want to do more of what they already do
+- So, ask some probing questions like "How do you rank your ability to coordinate with the other person?  Is it hindered by them, or by some other person/policy/factor?"
+- Not only mapping the boundaries, but involving some 3rd parties.
+
+- So, this key point is recurring at multiple times on the map.  If multiple people address it as a blocker
+
+** Process
+- From this, we can formulate a process of how they can talk to each other!
+
+- JC: Use their native adaptive capacity, in response to our provocations?
+
+** Outcomes
+
+- Co-creation of the wiki, films, a gallery exhibition, etc., /needs to be driven by the people who are involved./
+- *The long-term output* will be an integration of all of these things that allows people to share knowledge
+
+- Improve methodology that can create novelty in various circumstances
+- But for a prototype we need a vertical slice — if we collect a lot of contexts where we can apply the method, it won’t show what the key interest of the method is
+- A grant proposal
+
+** THEMES
+
+*** "How do we co-create public space for public health"?
+  - Health: something many people will have opinions about
+    - Global Health: not only from the individual’s perspective, but across different scales of time & space (e.g. climate)
+**** Might need to be reformulated for people who are using the space
+*** "Embodying the city"
+  - /How/ to enable participants to become *producers of public space* — not just to access it, but to be able to contribute to the space?
+  - Neoliberal cities are still centred around consumerism
+*** Reciprocal exchange of knowledge, different types of experts
+  - Citizen of the city
+
+** POTENTIAL INVITEES
+
+- Landscape Architects
+- Documentary makers (I-docs team from UWE)
+   - Polyphony of multiple voices, engaging multiple citizens
+- Identified public health stakeholders
+- Identified public space stakeholders
+- City planners
+- Ex-mayor of Bristol
+- Active Inference folks from the UK
+- Artist
+- Expert on X?
+- Hyperreal, potentially, as experts on how to move to action?
+- ...
+
+*** All of them will have their own remit
+- How do they interleave their things w/ that of others?
+
+** Other inputs
+
+*** Potential pilot?
+- What’s easy?
+
+*** Ethnographic work in a case study to bring to the workshop
+- Snapshots of different people’s narratives
+
+** /Outputs/
+
+- Likely to be mostly text based...
+- (vs) Bringing particular problem from which multiple people will have conflicting views...
+- (vs) The bits connecting the different case studies...
+
+- Documentary material could have a particular output...
+- *Methods* for the disorder grant for whatever
+
+- A commitment to a /research agenda/ that informs practice?
+  - E.g., landscape architects that might not have an engagement with a space that goes beyond designing it
+
+** /Outcomes/ for participants
+- "Now people have a broader perspective on what public health is."
+
+* Iteration 1: Problem design/definition
+
+- CONTENT/CONTEXT DIVIDE: this is useful to start to think about what I’m trying to achieve
+- Context has been framing the novelty of the research; TWO STRAINS OF NOVELTY in relation to preparation for the grant, part of what we’re trying to do is use a theory & synthesise it with practical methods
+- Is this testable because there’s no control?
+
+- JC: How to go from the impetus question to specific prompts?
+- NA: The questions need to come from you, the expert, we can come up with some questions but we mayn’t come up with the right ones.
+- LV: On novelty, you can’t fully map out what kinds of interactions — this isn’t hard science or mathematics.  We’ll have irrational interactions between irrational people having irrational exchanges!
+
+** Scenario planning ** Before the workshop and during the first session
+(Workshop? CLA?)
+
+- *How to document activity?*
+
+  - LV: Could it linked to the documents that should *augment* the experience?
+
+  - So far we’re building on what might come out of this...
+  - Can we include pictures / what purpose will it serve / who will it serve?
+
+
+- *How to collect data?*
+  - Can we use CLA to collect the data?  What we could do is formulate questions that are associated with each level:
+
+*** Litany
+*** System
+*** Worldview
+*** Myth
+
+** Pattern design
+(Wiki? )
+
+- *How to organise information for action?*
+  - Creating an experience?
+
+*** Roadmap? Storyboard?
+*** Interactive map
+Mapping across the city, with the wiki taking the form of a city map.
+
+** Project Action Reviews
+
+(Deliberation? Working Consensus?)
+
+- *How to sustain the effort?*
+
+* Repeatable workshop method - we could run it in several places and times
+
+- How do we move from having a group of people in different fields coming together creating & confronting views, and generating new paths of actions.
+- Contrast, novelty, serendipity based on weird interactions; and from this workshop, we generate a textual picture of the exchange; the novelty that we want to distill... this becomes the event.
+- This moves us from having different people meeting, to finding a method that guarantees a distillate that can be shared with other people
+- The wiki is a way to share these reflections (which can be context-based)
+- Getting the novelty that we’ve harvested — goal to create atomic blocks of serendipity which we can use in other places on the map, creating something that connect the dots ; not just applied in this park but also in social housing.
+
+** MVP?
+- If all we get is documentation of what went on, it’s not really answering our question
+- If we put people together, and the aim is to get them to act... we can’t necessarily guarantee success if it’s actions at the city level
+
+* Next steps
+
+- Thanks for a great conversation!
+- JC: Save and then circulate the notes.
+- NA: A good prompting question is, what do we need from you, Abby, and what do you need from us?
+- LV: The way we’ve been discussing content might seem like we’re trimming a lot of stuff away, but it’s because we’re at the designing phase and want to get to the point as well; just trying to keep the scope neat so we can start work.  ‘Documentary’, e.g., isn’t focusing on this method.
+  - A next step is to ensure that the conceptual method fits everyone’s intent (especially Abby’s)
+  - Do we think the method described will meet the targets?
+
+It’s clearer for us to meet together.
+
+- NA: Convert the conceptual model / draw diagrams / write it up.
+- [NA@AT: Potential participants, or mockup.]
+- NA: What sort of questions would come up with this sort of group?
+
+- AT: What’s the last point on the conceptual model... I’ve sat in workshops with these people and ‘governance’ is disabling with regard to the problem.  Between content & context is us, trying to create a _different way_ of doing thing.  I’m trying to engender a way to allow action, even though there’s top-down governance, through a different means.  Whether it’s a professional or non-professional, we’re sharing information in a new way of online governance.
+
+- LV: If governance is a regular blocker, but we don’t solve it... can we do away with it during the workshop?  What if you had ownership of the project, more horizontally?  Can we see beyond governance, or reform, or generate reforms.
+
+- JC: Can we imagine a pilot sooner rather than later?
+- LV: What if we plan a workshop based on people who have been to a lot of these meetings who have a transversal perspective, to understand what the usual blockers?  A pre- workshop for us

@@ -1,0 +1,188 @@
+#+TITLE: CLA questions for workshop
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+OPTIONS: H:11 num:11
+#+LaTeX_CLASS: report
+#+LATEX_HEADER_EXTRA: \usepackage{nest}
+#+LATEX_HEADER_EXTRA: \usepackage{adforn}
+#+LATEX_HEADER_EXTRA: \renewcommand{\chaptername}{\adftripleflourishright\ Series}
+#+LATEX_HEADER_EXTRA: \usepackage{xcolor}
+#+LATEX_HEADER_EXTRA: \usepackage{quoting}
+#+LATEX_HEADER_EXTRA: \usepackage{framed}
+#+LATEX_HEADER_EXTRA: \definecolor{lavenderblush}{rgb}{1.0, 0.94, 0.96}
+#+LATEX_HEADER_EXTRA: \colorlet{shadecolor}{lavenderblush}
+#+LATEX_HEADER_EXTRA: \renewenvironment{quote}{\begin{shaded*}\singlespacing\small\sf\quoting[leftmargin=0pt, vskip=0pt]}{\endquoting\end{shaded*}}
+#+LATEX_HEADER_EXTRA: \usepackage{tikz}
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-07-30 Sat>
+
+* Introduction
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\phantomsection
+\addcontentsline{chapter}{Introduction}
+
+#+BEGIN_EXPORT LATEX
+  \begin{figure}[h]
+    \begin{tikzpicture}[x=1.00mm, y=1.00mm, inner xsep=0pt, inner ysep=0pt, outer xsep=0pt, outer ysep=0pt]
+
+% add only this line
+      \node [anchor=south west] at (0,-3.5) {\includegraphics[width=\textwidth]{2022-07-16_workshop-diagram-raster.pdf}};
+\definecolor{L}{rgb}{1,0,0};
+\path[line width=0.30mm, draw=L] (5,5) rectangle (55.50,90.00) ;
+\end{tikzpicture}
+
+\caption{Sketch of the relationship between content and context for purposes of the workshop (first phase is highlighted in {\color{red}\textbf{red}})}
+\end{figure}
+#+END_EXPORT
+
+Here we outline questions and activities related to the first phase of
+the overall workshop design.  Our aim is to understand the context and
+relationships that exist in that context.  To do this, we ask a series
+of questions to participants.  To make it more fun and to get some
+richer information, we use interactive activities to scaffold the
+process of answering these questions.
+
+
+* CLA questions for workshop
+
+** TODO Before the workshop to Litany
+
+- We need to gather data on participants.
+- *UPGRADE*: If participants have one or more defined sets of routine problems that they tend to think about, this could take the role of a ‘design pattern language’.
+  - Example: In our pilot workshop, we used the [[https://www.coolingthecommons.com/][Cooling the Commons]] pattern language.
+
+*** Litany
+
+#+begin_quote
+\noindent *Solo Activity:* Dérive Comix (2 hours max)
+
+Walk for one hour around your neighbourhood.  Address the following
+questions, possibly documenting them with photos or video clips.  (You
+can prepare in advance by reading this short intro to the [[https://www.publicstreet.org/derive][dérive]].
+Please follow up by preparing your materials to share, e.g., as
+slides, sketches, a zine, a map, or some PostIt notes.)
+#+end_quote
+
+- What are you observing? (sight, sound, smell)
+- What do we /already/ see? (What are the obvious things? What are the particular sites of meaning, e.g., a bowl that is more than just ‘a bowl’?)
+- What are you experiencing? (feelings, thoughts, first impressions)
+- Make a timeline of your experiences on the walk.
+
+- *UPGRADE*: The Celts pray using the every day (such as making a fire or milking a cow); they don’t separate time for prayer and time for life.  In a faith perspective, this is an incarnational model (God in flesh).
+
+**** TODO Litany to Systems
+
+#+begin_quote
+*Small Group Activity:* Find the dots
+
+Join together with other workshop participants in small groups to
+share your results from the previous activity, and cluster the themes
+that you find there.
+#+end_quote
+
+- Thinking about the stories; finding the ‘dots’ in the litany, and start to connect them in the systems.
+
+***** Systems
+
+#+begin_quote
+*Solo/Pair Activity:* Advice from a Caterpillar
+
+"'Who are you?' said the Caterpillar."
+
+Reflect on your observations, and use your observations to describe
+your own personal perspective.  You might comment on aspects of your
+values, professional training, and life experiences that led you to
+make these observations, as well as the direct circumstances (e.g.,
+other actors you encountered) in your environment who contributed to
+shaping your experience.
+
+(E.g. if you worked for the police you’d see different things from
+someone who works for the NHS, probably.)
+
+To make use of the workshop environment, use a "think-pair" strategy:
+after doing some reflection on your own, turn to your neighbour and
+discuss what the two of you have come up with.
+#+end_quote
+
+- What systems/factors/actors bring about these observations and experiences?
+- Who do you think is involved in the /decisions/ that shaped your environment?
+
+****** TODO Systems to Worldview
+
+#+begin_quote
+*Small Group Activity:* Map-making
+
+Return to the small groups and bring together the themes you
+identified earlier, and add in the new information from your
+reflection.  Work together with this group to arrange the information
+on a map.  Notice that since people have navigated different physical
+locations, your ‘map’ is likely to be a somewhat abstract space.
+#+end_quote
+
+- How would you represent this information on a map?  How would you visualize it?  How would you explain it to others?
+- (E.g., /our/ worldview is probably already summed up in the diagram that LV drew, showing the inputs, process, and outputs of the workshop.)
+
+- E.g., Hypothesis about Kennington, Oxfordshire: the older people perceive place as a village, younger people perceive it as a settlement on the outskirts of Oxford.  Older people might perceive what’s missing and also what’s new.
+
+******* Worldview
+
+#+begin_quote
+*Small Group Activity:* Problem identification
+
+Using your map and working together with the small group, talk about
+the problems you’ve noticed.  How does the map represent stressful or
+concerning experiences?  What are some alternative histories or
+alternative futures that would describe how the circumstances would
+have changed.
+#+end_quote
+
+- What do you want to have happened?  What would you like to have happen in the future?
+
+******** TODO Worldview to Myths
+
+#+begin_quote
+*Full Group Activity:* Dimension analysis
+
+Working together with the full group, arrange the maps you created
+across a set of dimensions.  Two dimensions would be traditional
+(creating a 2-by-2 grid with "best" in the upper right, "worst" in the
+lower left) — but feel free to use as many as you wish.
+#+end_quote
+
+- From maps to myths.
+
+********* Myths
+
+#+begin_quote
+*Full Group Activity:* Scenarios
+
+Working together with the full group, use the dimensions you created
+in the previous activities (together with the maps and stories) to
+describe several scenarios for the future.
+#+end_quote
+
+The output of each preceeding layers feed into the next one; when we
+get to the Myths later, we need to personalize what was uncovered in
+the Worldview layer, and prepare to return to the other layers in the
+later phases of the workshop.
+
+
+\medskip
+
+********** TODO Myths to next phases of the workshop
+
+The goal is to run something akin to an inception.  Our preliminary
+postulate is that, if people could change stuff on their own, they
+would have done it before.  Our goal is to challenge their views, so
+that they leave the workshop with a modified understanding of how the
+world works (i.e. the myths that drive them).
+
+*********** After the workshop
+
+By running this process in a lot of different spaces, we’ll learn
+something; different people are likely to have have different maps and
+myths.
