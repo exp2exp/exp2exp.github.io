@@ -1,0 +1,313 @@
+#+TITLE: 06 August 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-08-06 Sat>
+
+* 06 August 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Feeling pretty bad, but also feeling that she’s in a sufficiently stable position to allow herself to feel bad.
+  - JC: Taking time to feel feelings is very good for health
+- Has worked more on questions, feeling good about the direction, distinguishing between the system & the worldview
+
+** JC
+- At ‘Summerhill Festival of Childhood’
+  - Slightly iffy WIFI situation
+  - Just came from a workshop on effecting systemic change by Bas Rosendbrand.
+- Joining on Emacs 29.0.50 (2022-07-28)
+
+** LV
+- Mediocre week, upon reflection.
+
+* Meta points
+
+- Documenting what’s happening is one thing
+- Ushering in further work is another
+  - Suggests picking one scenario & exploring that _one_.
+  - Fluctuation of weirdness-levels: rising and falling as we get back to the myth
+
+** TODO Don't forget to record the session!                             :LV:
+
+* TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) - Working through questions from last time again
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Report back from LV
+- Did some reading on CLA, has taken some notes
+  - E.g., transitions between layers, systemic change, questions to interrogate our process and maybe include directly in the Q&A
+  - The paper includes some practical stuff, relevance to cyclical nature of the CLA.  Modification of Litany layer, so you can get an emended system, and a new litany; useful in relation to our "changed context" diagram
+** Report back from NA
+- The difference between the systems and the worldview is that systems are the structures and actors that create the litany.  It’s sort-of like going from structures to observations, and with the worldviews back into the structure.
+
+- Go "down" in Phase 1 and "up" in Phase 2
+
+- Overall phase 1 Question: What is underlying set of values?
+  - Present+Past focus
+
+- Once we get that, are these the values that we want, are there alternatives?
+   - E.g., ‘community’, what sort of ideas would enable it?  What sort of system would create this?
+
+- Overall question: How to potentiate action?
+
+- (Phase 2 question should relate to that)
+  - NB: is future oriented.
+
+*** Followup
+- Tech note: draw onto same OBS screen?
+
+** Report back from JC
+*** CLA questions for workshop
+**** TODO Before the workshop to Litany
+
+- We need to gather data on participants.
+- *UPGRADE*: If participants have one or more defined sets of routine problems that they tend to think about, this could take the role of a ‘design pattern language’.
+  - Example: In our pilot workshop, we used the [[https://www.coolingthecommons.com/][Cooling the Commons]] pattern language.
+
+***** Litany
+
+#+begin_quote
+\noindent *Solo Activity:* Dérive Comix (2 hours max)
+
+Walk for one hour around your neighbourhood.  Address the following
+questions, possibly documenting them with photos or video clips.  (You
+can prepare in advance by reading this short intro to the [[https://www.publicstreet.org/derive][dérive]].
+Please follow up by preparing your materials to share, e.g., as
+slides, sketches, a zine, a map, or some PostIt notes.)
+#+end_quote
+
+- What are you observing? (sight, sound, smell)
+- What do we /already/ see? (What are the obvious things? What are the particular sites of meaning, e.g., a bowl that is more than just ‘a bowl’?)
+- What are you experiencing? (feelings, thoughts, first impressions)
+- Make a timeline of your experiences on the walk.
+
+- *UPGRADE*: The Celts pray using the every day (such as making a fire or milking a cow); they don’t separate time for prayer and time for life.  In a faith perspective, this is an incarnational model (God in flesh).
+
+****** TODO Litany to Systems
+
+#+begin_quote
+*Small Group Activity:* Find the dots
+
+Join together with other workshop participants in small groups to
+share your results from the previous activity, and cluster the themes
+that you find there.
+#+end_quote
+
+- Thinking about the stories; finding the ‘dots’ in the litany, and start to connect them in the systems.
+
+******* Systems
+
+#+begin_quote
+*Solo/Pair Activity:* Advice from a Caterpillar
+
+"'Who are you?' said the Caterpillar."
+
+Reflect on your observations, and use your observations to describe
+your own personal perspective.  You might comment on aspects of your
+values, professional training, and life experiences that led you to
+make these observations, as well as the direct circumstances (e.g.,
+other actors you encountered) in your environment who contributed to
+shaping your experience.
+
+(E.g. if you worked for the police you’d see different things from
+someone who works for the NHS, probably.)
+
+To make use of the workshop environment, use a "think-pair" strategy:
+after doing some reflection on your own, turn to your neighbour and
+discuss what the two of you have come up with.
+#+end_quote
+
+- What systems/factors/actors bring about these observations and experiences?
+- Who do you think is involved in the /decisions/ that shaped your environment?
+
+******** TODO Systems to Worldview
+
+#+begin_quote
+*Small Group Activity:* Map-making
+
+Return to the small groups and bring together the themes you
+identified earlier, and add in the new information from your
+reflection.  Work together with this group to arrange the information
+on a map.  Notice that since people have navigated different physical
+locations, your ‘map’ is likely to be a somewhat abstract space.
+#+end_quote
+
+- How would you represent this information on a map?  How would you visualize it?  How would you explain it to others?
+- (E.g., /our/ worldview is probably already summed up in the diagram that LV drew, showing the inputs, process, and outputs of the workshop.)
+
+- E.g., Hypothesis about Kennington, Oxfordshire: the older people perceive place as a village, younger people perceive it as a settlement on the outskirts of Oxford.  Older people might perceive what’s missing and also what’s new.
+
+********* Worldview
+
+#+begin_quote
+*Small Group Activity:* Problem identification
+
+Using your map and working together with the small group, talk about
+the problems you’ve noticed.  How does the map represent stressful or
+concerning experiences?  What are some alternative histories or
+alternative futures that would describe how the circumstances would
+have changed.
+#+end_quote
+
+- What do you want to have happened?  What would you like to have happen in the future?
+
+********** TODO Worldview to Myths
+
+#+begin_quote
+*Full Group Activity:* Dimension analysis
+
+Working together with the full group, arrange the maps you created
+across a set of dimensions.  Two dimensions would be traditional
+(creating a 2-by-2 grid with "best" in the upper right, "worst" in the
+lower left) — but feel free to use as many as you wish.
+#+end_quote
+
+- From maps to myths.
+
+*********** Myths
+
+#+begin_quote
+*Full Group Activity:* Scenarios
+
+Working together with the full group, use the dimensions you created
+in the previous activities (together with the maps and stories) to
+describe several scenarios for the future.
+#+end_quote
+
+The output of each preceeding layers feed into the next one; when we
+get to the Myths later, we need to personalize what was uncovered in
+the Worldview layer, and prepare to return to the other layers in the
+later phases of the workshop.
+
+\medskip
+
+************ TODO Myths to next phases of the workshop
+
+The goal is to run something akin to an inception.  Our preliminary
+postulate is that, if people could change stuff on their own, they
+would have done it before.  Our goal is to challenge their views, so
+that they leave the workshop with a modified understanding of how the
+world works (i.e. the myths that drive them).
+
+************* After the workshop
+
+By running this process in a lot of different spaces, we’ll learn
+something; different people are likely to have have different maps and
+myths.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** DONE JC: Power-up!
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- We will need Abby to help us reframe the general CLA-inspired questions we come up with in light the public-space-public-health context, and future grants’ interest especially, “disorder for resilience and adaptability”
+  - JC: Useful to know more about the potential attendees, in particular whether they have anything like a pattern catalogue, b/c if they do we may be able to facilitate addressing new problems just by bringing together the different perspectives
+
+Thinking about relationships between:
+** Disorder
+- We had the idea of disrupting their ‘preferred’ scenario with some surprises, with the goal of getting them to start thinking in different ways
+- JC: (One simple way to do this could be to steal ideas from the ‘adjacent’ scenarios, and inject them into the preferred one.)
+
+- LV: Initially I assumed a context of "machine learning" — but here, we’re not actually talking about randomness.  We limit disorder and think about disruption.  But, probably many people won’t think like this.
+
+- NA: This brings to mind ‘entropy’ from physics.
+- JC: Let’s also think of Emacs as having an infrastructure that’s like Sendra’s, e.g., when Noorah presses =h= one thing happens, and when Joe presses =h= something else happens!
+
+** Resilience
+** Adaptability
+- NA: (Can explain the issues here.)
+
+** Next step:
+
+*** Slide deck
+
+**** Puprose/Goal of the workshop
+**** Main research question(s)
+**** Methodology (CLA)
+- (Many other things besides what we’re doing now have been done with CLA.)
+- But what’s clear is that we’re not expert architects, etc.
+
+**** Why CLA?
+Traditional uses of CLA
+| 1 | Mapping the present/future                                      | Prevents worldview blindness and creates whole-of-worldview and narrative solutions |
+| 2 | Unpack an issue                                                 | Avoids the quick-fix reflex and creates longer lasting strategies                   |
+| 3 | Create a preferred future                                       | Moves from how things are to the desired future and enhances the visioning process  |
+| 4 | Deconstruction and reconstruction from an alternative worldview | Challenges assumptions so that other solutions are developed                        |
+| 5 | Mapping leading to a transformed future                         | Includes multiple positions plus a transformed or integrated future                 |
+| 6 | As gaming, role-playing                                         | Embodies learning with real time solutions and demonstrates the four layers         |
+table is on page 7 on futuribles-causal-layered-analysis.pdf
+
+**** Participants
+
+**** Process
+[diagram]
+
+**** Potential deliverables
+
+**** Potential outcomes
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- We are working simultenously on multiple aspects of the workshop. It's a bit disorienting, but inspirational when I'm hearing other folks' input.
+*** 2. What are some different perspectives on what's happening?
+- Would it be helpful to present EmacsConf with themes like ‘community’ to structure their contributions?
+- We can fail, be derailed, and stuff like that, without it being too problematic; today we have surface for learning based on how we lacked being on point but we have actionable items for future about how to address that
+- Supportive concern more important than specific progress anyway!
+
+*** 3. What did we learn or change?
+- Let’s share earlier with consideration to having time to read (e.g., <5 pages by Thursday 0000UTC, <10 pages by Wednesday!)
+  - Could have an auto-scheduler to send reminders but that’s an unnecessary upgrade.
+  - Could have the agenda ready in the week before, so everything’s in there
+
+*** 4. What else should we change going forward?
+- Can we coordinate better to dump what we want the others to read or consider in advance, e.g., 10 minutes before the meeting that we all know what we’ve got
+- JC: I want to do some background research on potential attendees for Bristol workshop, especially related to how they think about ‘problems and solutions’
+- JC: Propose meeting with Abby on the 16th
+
+
+* Tentative agenda for next week
+
+** Scheduling a new meeting with Abby tentatively on <2022-08-16 Tue>
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Tarot-reading session
+  - JC: common interest of erg
+** JC
+- it’s been fun to reflect his childhood during this school festival
+  - but at the same time, what defines a creative context for growth and development;
+  - considering the ejector-seat button with regards to his current festival
+
+** LV
+- focus on golang as a last objective of the week
+- otherwise need some more rest, and will start another korean series
+- 10 of cups
+- lots of water?
+- 8 of cups
