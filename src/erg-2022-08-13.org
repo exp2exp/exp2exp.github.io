@@ -1,0 +1,194 @@
+#+TITLE: 13 August 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-08-13 Sat>
+
+* 13 August 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Feeling much better this week!
+- Looking to move to a colder, affordable place.
+
+** JC
+- Was at the Festival of Childhood, talking about an alternative educational model "democratic education"
+  - Interesting motto: “Freedom, not license”; interesting because the polysemy of the words
+- Quite drained from the process, and still tired as he’s reintegrating into normal society
+
+** LV
+- Recovery continues
+
+* Meeting Start Protocol
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-08-13 Sat 17:41]
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) - Business
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Calendar for the next couple of months
+
+| <2022-08-20 Sat> | M | Business as usual - Abby’s away for a bit now      |
+| <2022-08-26 Fri> |   | Meet Abby sometime this week, maybe Friday 0830    |
+| <2022-08-27 Sat> | M | Business as usual + Emacsconf proposal ¶ Part 1    |
+| <2022-09-02 Fri> |   | Mini-pilot w/ i-docs                               |
+| <2022-09-03 Sat> | M | Debrief from mini-pilot w/ Abby + i-docs           |
+| <2022-09-10 Sat> | M | Emacsconf prep + Part 2 (tentative)                |
+| <2022-09-17 Sat> | M | Start contacting people to invite + ask questions? |
+| <2022-09-18 Sun> |   | End of [[https://emacsconf.org/2022/cfp/][EmacsConf - 2022 - Call for Participation]]   |
+| <2022-09-24 Sat> | M |                                                    |
+| <2022-10-01 Sat> | M |                                                    |
+| <2022-10-08 Sat> | M | Pilot nowabouts                                    |
+| <2022-10-15 Sat> | M |                                                    |
+| <2022-10-19 Wed> |   | End of British Academy Grant ([[https://www.thebritishacademy.ac.uk/funding/knowledge-frontiers-international-interdisciplinary-research/][Knowledge Frontiers]]) |
+
+- Abby wants to have more regular meetings with us until the deadline.
+  - Any pilot we’re doing in September/October is leading into the British Academy grant. <2022-10-19 Wed>
+  - Business question for us:
+    - How much do we want to take part in this?
+    - Is there future for us in this?
+    - Should we get involved more?
+    - NA: Gamifying this method is something that we’re interested in exploring on our own, even though it might not align with Abby’s goals.
+    - CLA is still story-telling, could be a good start for game-play
+      - JC: We could look at "mythmaking" session from Festival of Childhood
+- But Leo’s getting a bit busy with EmacsConf.
+
+** We’ve been paid; what do we do with the money?
+- Most was intended for payroll, if there are other things we can do with it, let’s think of them
+** Business structure
+- Right now it’s just Joe as the owner + Director ...
+  - JC: Would rather set it up as a co-operative structure where everyone who works there co-owns it
+- Leo could be paid in full now, JC NA later!
+*** TODO JC Needs to file *tax report quarterly*
+- Unless he deregisters from VAT, which is totally
+** Business plans
+- Do we need more clients?
+- Definitely should invest some money in present survival
+- Money isn’t preventing us from scaling up, the current blocker is more “how much time we can put in on this”
+- Fructification of the business could be dealt with later
+
+** Stakeholders
+*** Relationship to data governance + AI Ethics
+- E.g. “How to bring in Alex?”
+*** Natural Language Processing, sentiment analysis
+- Potentially of big interest to paying customers ≈£500 /per diem/
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+** Brunch in the US is great, even in a Texas winter
+
+* Agenda (Part 2) - Delivery of Bristol workshop: Ascent from the underworld
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Recap
+- Abby wants us to work on certain themes, which are inputs, but she wants them to be woven together with the workshop.  The themes are disorder, dissolving the boundaries between human bodies and the environment; the point is, we can’t take them just as inputs and release them as outputs, we need to do something with them.
+- we agreed we need to think more about the meaning of ‘disorder’
+  - Let’s make sure we understand these things, especially in term that the BA
+  - Let’s check to see if Abby and the BA are thinking about it the same way.
+    - Maybe these are actually design patterns and we just need to have them written down for our *Designer* role to use
+    - E.g., Freephone is an example of ‘Design for Disorder’
+** Hope: Both bring disciplinary design patterns and get some new ones
+
+** Let’s revisit the roles, and see if they’re the ones we need here
+
+*** *Historian*
+- Owns the specific scenario
+- They could be the overall problem-holder (e.g., Abby, or the British Academy — "why do you care, why are you putting money into this?")
+*** *Designer*
+- Owns any existing design patterns & identifies new patterns
+*** *Analyst*
+- Own the CLA approach
+  - (Including mapmaking at the worldview level.)
+- Who needs to be involved?
+*** *Kaiju Communicator*
+- Brings the chaos to get people out of their typical paths
+
+*** We want:
+- Multiple scenarios!
+
+**** Phase 1: Moving from litany to myth is describing reality
+  - What’s going on here?
+**** Phase 2: Moving from myth to litany is imagining new futures
+  - What do we need to see?
+**** Phase 3: How do we actually enact this stuff?
+- (Some tech specs are needed for what we can actually do here?)
+***** At the Prototype 1 level
+***** At the Prototype N level
+- If we’re saying a "global" "wiki" how do we create it?
+  - We all have our org-roam directories with atomic notes...
+  - How would we go on about it in a workshop setting?
+  - Not everyone knows how to use Org Roam.
+  - A drawing isn’t enough to keep adding meanings!
+
+*** What if we don’t have all the roles?
+*** We don’t yet have a document that gives a taxonomy of the workshop
+- Could have one file or multiple
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We want to be talking about the cool shit that we do with Emacs, and because we’re always ‘doing bsns as usual’ with Abby, we find ourselves somewhat starved for creativity, so maybe we might want to enshrine this into the way we run those meetings.
+*** 2. What are some different perspectives on what's happening?
+- NA: Glad we talked about finances
+- JC + LV: Idea of paying Leo for the contract now out of our current takings is a good one.
+- LV: It was good to have 100% of our brains available!
+*** 3. What did we learn or change?
+- Joe to do reasonable business actions
+- We revisited the rôles; re-inhabiting Phase 2.
+*** 4. What else should we change going forward?
+- Could link the template-generating code inside the repo, and link to the yasnippet directory and this directory so that we always use the latest version of the template
+- Leo could set up a set of chained timers matching the ERG agenda, and start the timer at the start to keep us on track
+- We need a shared document as an initial workspace for this workshop — not an org roam repo for now
+
+* Work we intend to do next week
+** TODO LV: Create shared document for crystallizing what we have on the workshop so far
+** TODO LV & NA: <2022-08-14 Sun 14:30> Work on shared snippet for the ERG
+** TODO JC: Business actions
+** TODO All: 1 hour walking around your neighbourhood (where we live)
+- Fine-tune planning by Discord
+
+* Tentative agenda for next week
+** Coming up with taxonomical questions to ask Abby
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Gonna go get lunch, and then fancy dinner plans.
+- Also cross-stitching in R!  Cross-stitch is a grid, and you can hard-code the colors.
+  - Kirby is on his way!
+
+** JC
+- Learnt something new about computers: you have to install debugging symbols.
+  - It’s cool because you’re getting deep into how the sausage is made!
+  - Glad we didn’t crash during this call
+- Garden going well: we have many courgettes
+  - NA: Zucchini pasta recipe is available on Instagram!
+    - LV: I hate this vegetable
+
+** LV
+- Dinner plans = now.
+- Did have a fairly productive week, have gotten back to week
+- Talked a lot with Alex about meditation & consciousness
+- Thinking about math + precalc to properly understand algos!
