@@ -161,7 +161,7 @@ CLOSED: [2022-08-13 Sat 17:41]
 
 * Work we intend to do next week
 ** TODO LV: Create shared document for crystallizing what we have on the workshop so far
-** TODO LV & NA: <2022-08-14 Sun 14:30> Work on shared snippet for the ERG
+** DONE LV & NA: <2022-08-14 Sun 14:30> Work on shared snippet for the ERG
 ** TODO JC: Business actions
 ** TODO All: 1 hour walking around your neighbourhood (where we live)
 - Fine-tune planning by Discord

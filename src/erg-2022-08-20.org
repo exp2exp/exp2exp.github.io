@@ -1,0 +1,168 @@
+#+TITLE: 20 August 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-08-20 Sat>
+
+* 20 August 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Still needs to finish up some packing for San Diego trip, leaving for airport in 3 hours!
+- There til next Saturday
+- Hot and murky in Texas
+** JC
+- Hot, catching up on rest this weekend.
+- Cleaned carpet
+- Slow week work-wise
+** LV
+- Walking back to his place
+- Productive week (work-wise)
+- Getting good rest
+- Didn’t do the create-the-file task, but did do virtualisation of Emacs task
+
+* Meta points
+
+** KILL Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Taxonomy items questions for Abby, meeting circa Friday 26 - get started
+- Run through the workshop super quickly
+
+* Agenda (Part 1) - Question brainstorm
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+** TODO Leo will draft the file during the week
+** "Taxonomy of Disorder"
+- Other words
+  - LV: Can we make a constellation of those words?  Health, sustainability, disorder, mayhem, chaos, reshuffling, thriving, order?...  How do they relate
+- "Do Abby and the British Academy mean the same thing by ‘disorder’?"
+** Dissolving the boundary between self and environment
+- Example: *Camp anywhere in Scotland*, if you’re tired you just lie down somewhere comfortable
+- Opposite would be benches with spikes or whatever on them so you can’t take a nap
+- Broader question: what are the policies + affordances that shape how we use the space
+** Nature contract
+- From Serres,
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:02
+:END:
+
+- JC: I met someone at an art opening yesterday who mentioned a group
+  of people in Bristol who do something with words and public space,
+  it reminded me of Abby’s pals at i-Docs, but instead of dealing with
+  video they deal with text!  Could be cool to figure out who they
+  are, and invite them along.
+
+* Agenda (Part 2) - Quick mini pilot of Phase 1
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+- JC: Footpath image.  Arrow showing a footpath, creating paths.
+  - Images of plants in the wood wasn’t shown
+- LV: Seems like Joe’s been doing the same thing
+  - Taken a way I’d only taken once before, this was the same path I took today
+  - Biggest thunderstorm of the season with water everywhere, puddles
+  - Deafening highway, 200m away from pool, 100km/hr allowed; roads, density, city life
+  - I’ve been looking out for bike lanes
+  - Having trees around fills me with joy
+  - People live here w/ greenery skirted by trees all around
+  - Even though there are lots of cars and everyone works in Paris, it’s friendly for walking and biking
+    - I think the US is very car-centric, French people also have a lot of cars, but it’s easy to do things witthout
+  - Stark contrast between trees and grasses
+    - JC: similarly
+- NA: I’ve stopped watering my backyard because "If it [the grass] doesn’t survive, it’s not meant to be here."
+   - JC: nature has come that much closer to your house
+   - Humans trying to manipulate nature when they don’t need to... I’m thinking of getting native seeds and growing them in the Fall when it starts raining more!
+   - If I walked around my neighbourhood I’d expect to see a lot of the same yellow grass, I wouldn’t be able to walk comfortable
+   - It’s mostly concrete, no good sidewalk!
+
+** Theme: Paths that I haven’t taken before
+- Except, in Texas there might not be a ‘path’ because people love their trucks!
+** Theme: Where does the water go?
+- The Dutch did a good thing by digging the canals throughout the city
+** Scenario: "Add paths where there aren’t any?"
+
+
+* Agenda (Part 3) - Bonus: demo of ‘Virtualisation of Emacs’
+:PROPERTIES:
+:Effort:   0:03
+:END:
+
+- Docker allows you to run ‘images’ and share it with people
+- If I make a small image w/ Emacs, Org mode etc. loaded, people can run ‘my’ copy of Emacs w/o needing anything but the virtualisation facility
+
+- NA: Is this open source?
+- LV: Yes, it’s also massively overused; there are some other facilities we might consider.
+
+Emacs can be packaged with all the settings we need, also allowing
+their own customizations.
+
+Files can be shared alongside, if we want them updatable then we should additionally share a Git repo.
+
+- We could also make a bare-bones external web-based editor, with a
+  little box that people can type in, when they ‘submit’ we can
+  collect it in the database.  This could allow us to interact w/ Org
+  Roam directly.
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We had 3 parts, so weird, and fast too!
+
+*** 2. What are some different perspectives on what's happening?
+- At risk of singularity + black hole at the same time.
+- LV: I don’t like doing tech at the end w/o time for questions
+- NA: Needs to marinate!
+- We had an extended checkin due to walking, and pre-loaded work on dockerization.
+  - Live walk corresponding to the pre-recorded one was kind of fun
+- LV: I liked that I could state that I’m stressed about org stuff, and we could just defuse it really quickly.
+
+*** 3. What did we learn or change?
+- Doing things in 5 or 10 minutes is only really accessible to people who know what they are doing
+- How prepared are we?  Enough to ask some questions to Abby, and also enough to be ready for a run-through on the 2nd.
+
+*** 4. What else should we change going forward?
+- Sticking to the plan a bit more would be good
+- Deal with stress associated with feeling a bit unprepared?
+- Propose a joint meeting w/ Abby for Friday: 8:30AM Pacific time, 10:30AM Central, 4:30PM UK time, 5:30PM France?
+- Taxonomy would be nice but it’s more long-term, not vitally needed just now.
+  - Work more next week.
+
+* Tentative agenda for next week
+- Propose meeting with Abby
+- Main purpose is to reconnect :-)
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to go finish packing & head to the airport in 1h45m
+  - JC: I hope it’s a chance to relax!
+
+** JC
+- On Monday I will call HMRC and try to sort out tax issues one way or another
+- Have a deadline of 31 August to get this done anyway
+- Feel a lot more confident now that I’ve cleaned
+- Talking with you all is cleaning the brain
+
+** LV
+- Did get paid!  Good feeling.
+- I did go back to Common Lisp today, the granddaddy of Emacs Lisp.  Looks pretty much the same!  You can compile and run it on the command line, nice!  Not too big (11M).  There’s a Makefile to compile w/ compression!
+- Happy to be getting back to programming.
