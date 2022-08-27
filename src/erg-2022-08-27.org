@@ -1,0 +1,202 @@
+#+TITLE: 27 August 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-08-27 Sat>
+
+* 27 August 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA [away today]
+** JC
+- Coming from a pub lunch...
+- Feeling the need to go through part 2: Explore the scenarios and come up with a plan of action
+- Guest room is actually being used by guests hence I am in the kitchen today
+- Excited about the visit on <2022-09-07 Wed>
+- Starting a new job (a “mini game” inside his old job); the HQ of the new division is in Bristol, so he might be able to visit AT from 11AM
+** LV
+- Haircut went well!
+- Just coming from the pool and doing various tech things to get this meeting up and running
+- Reviewing questions from last time
+- Week was intense watching many series & running to the pool
+** AT
+- Just back from hols (= outside of Toronto w/o electricity)
+- Feeling recharged
+  - JC: Nature contract renewed!
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-08-27 Sat 17:18]
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Recap of a couple weeks of conversations w/ ERG & check thoughts in all directions ERG <-> AT
+
+* Agenda (Part 1) - Q&A with Abby
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+** Workshop recap:
+- Had different profiles of participation in Phase 1 workshop
+- "Emplacement" - embed yourself in different environments
+- "RGCS" workshop is worth checking out - blend of philosophy & conceptualising space per Bachelard
+- "GETTING EVERYONE ON THE SAME MAP" (viewed through different lenses) is really what we’re hoping to do during Phase 1.
+- Myth layer is what everything
+- Phase 1 and 2 together: CHANGING WORLDVIEWS
+
+*** Our example scenario: "Exploring new paths"
+- Storytelling will allow us to change how we explore the map
+- "Storyteller" could be another role for these groups
+- Maybe the "crucial blocker" is an anti-pattern that prevents people from working together
+- The story + documentation is yet another thing that people can use to talk about how this works.
+- E.g. compare with Houston activities that built bridges in the community who were working on ending homelessness
+- What we’re trying to do here is similar to a meditation, maybe?
+  - In a typical buddhistic meditation, you calm yourself down, your body – then, achieve a sense of peace.
+
+*** How will it look?
+
+- If people actually had images they could print them and move them around...
+- But it’s more important to create a conceptual map.
+- And we do this by creating serendipity
+- During our ERG try-out of the method, all three of us had different methods to describe what we’d done or seen.  Those media might not be intended to be shared
+- Shareback could go onto a whiteboard or text buffer
+
+** Layers & Phases
+
+- Litany is at the surface level (like the crust on the surface of the earth): imagining problems in the world being described in a newspaper headline.
+- The deeper you go the more weird things become!
+- Philosophy or literature studies might make you more familiar with myth
+- Myth (more like the molten core!): core beliefs & values
+
+Having created a vision at this level, you come back with a new way of reformulating the problems they were already familiar with
+
+- Phase 1: We now have all the different lenses
+- “What’s the core of what we’re working on?”
+
+- Now we can start to think about the headlines we’d like to see arising
+
+** What’s the "default scenario" from Abby?
+- How do people relate to public space?
+  - The core of that is to really understand how do we *reassert the consumer/producer relationship* between us and our environments
+    - JC: Similar to open source software
+
+- Can go across different fields: e.g., buyer and producer in cities, using a park vs maintaining a park, how you take and give.
+- Scope is: reasserting the citizen by embedding them in the city that they are part of.  So, a key step: do they feel like they are part of the city that they live in?
+
+*** This seems different when we think about empowering citizens vs engaging specialists
+- Do we work with the specialists/professionals or the citizens (to raise the issues)?
+
+- Phase 1: At your base you are a citizen of Bristol... but part of Phase 2: How do we think about this?  You, as a citizen who has the expertise to design public spaces, how do we do that from a ‘change’ worldview, engaging bottom-up thinking?
+- So, undress the expert in Phase 1 to get to the base of what it means to be a citizen, then say: but you are an expert. 
+  - E.g., we design public spaces that are essentially private.
+  - We are well-placed with architects who can talk with us about essentially-private gardens and so forth
+
+- We risk burdening the architect & urban planner ("these are our problems with the city, fix them")
+  - Thinking about the conference in Paris, this conference seemed systematically centred on architects; it wasn’t targeted at citizens (other than mayors!)
+
+- On the topic of Melanie’s thesis: would like to marry it with Richard Sennett, and the bare minimum of infrastructure that’s needed to make the space _democratic_
+  - Reminded JC of his festival of self-regulating schools: like Summerhill’s rulebook.
+  - Mobilizing different kind of people: locals and non-locals (people specialized on learning, or on the methods)?
+
+- *Labor*: the Labor shadow government isn’t actually supporting labor initiatives in the UK!
+
+- Relationships between the environment and the time that people spend investing in that environment, e.g., how do we spend the time outside of the paid work.
+  - Reminding JC of the active inference theme of "niche construction"
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:02
+:END:
+
+* Agenda (Part 2): *Thematic questions*
+
+** Dissolving the boundary between self and environment
+- Also, what do we mean by the key themes here, e.g., is environment related to ‘context’.
+  - E.g., "camp anywhere in Scotland" is indeed a good example
+  - This theme works through all the layers + levels: e.g., micro/meso/macro.
+  - Holobiont is the best example for Abby: the human microbiome is always interchanged with the environment, there’s a clear overlap with the environment; you can scale that up to how people socialise and so on
+  - It will then start to become irrelevant to be human-centric; instead there’s a constant exchange
+  - Everything we do has a *reciprocity* to it
+*** Feedback
+  - We can imagine different nodes — with more links there’s more _porosity_.  The method still requires being able to atomise elements, the cell has a unity of their own but also a porous wall.  We can take into account this degree of porosity, it should lead to more links being created.
+  - What we’re doing in Phase 1 is creating porosity by "doing something that everyone can do"
+  - Like a cell w/ reshuffling organelles — how the breakout groups  function together will change the way the cell works...
+
+** "Taxonomy of Disorder"
+- Are we operating on the same understanding?
+- How do we understand disorder ourselves, and how does it relate to how the British Academy sees it?
+  - LV: Is healthy disorder serendipity?
+- How do we see Al Queda as bad and local community organisations as good?
+  - Abby’s concept comes in from AIF, originating at the individual level
+  - We’re almost taking it to the micro level and then seeing it permeate up to the other levels; we’ve been talking about it in terms of learning, e.g., to _become anti-fragile_ — you gain through disorder
+    - ‘Resilence’ has some traction in academia
+    - But does antifragility?
+    - Can it mix with AIF, to take ‘resilience’ to a more active level, instead of just rebounding, you get something that’s positive for the population at a whole (e.g., in relation to evolutionary dynamics over time; short timescales it might look negative, learning how to deal w/ the pert)
+      - JC: Balwinian evolution: when we learn, it can have a hereditary effect?
+*** Can British Academy see ‘disorder’ as a positive thing?
+- We’ll have to convince them
+- The scope of the call is enormous
+- If we take ‘disorder’ to mean a successful condition for learning, then we can say it’s a good thing
+  - LV: Makes me think of Deleuze & Parnet’s book going from one topic to another in a chaotic way, exemplifying Guattarian schizophrenic thought as a way to generate serendipity...
+    - JC: And Simondonian breakthrough-invention?
+** Nature contract
+- Are we considering anything to be the environment?
+- How does Serres fit into this?
+  - Cf. [[https://www.bloomsbury.com/uk/time-and-history-in-deleuze-and-serres-9781441163868/][Time and History in Deleuze and Serres]]
+  - With the climate we’ve become more and more ordered, linear... in our thinking... but this is actually where the current problems are coming from.  How does the order get _perturbed_ by the ‘dis-’.
+  - System that work, system that do not, systems that could work better...
+** Anything else?
+*** E.g., when will we meet next?
+- LV: Can we keep the Saturday stuff for ERG (especially because we’ve got other business to tend to wrt EmacsConf)?
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Dialogue with Abby after a few weeks
+- Going over the levels and layers again and starting to feel pretty confident with it
+*** 2. What are some different perspectives on what's happening?
+- JC: Everyone is feeling refreshed and a bit excited.
+- LV: We’re the only experts after the stripping of expertise
+*** 3. What did we learn or change?
+- Our exploration of the taxonomy of disorder was very fruitful, and our perspectives on Phase 1 are very positive.  We feel a little hazy about part 2, though.
+- “If I were to take part in a workshop like this, I want to take part in it with my professional skills (e.g., as a software developer; and the way we work with /free software/ is something we want to propagate!)”
+- Our backgrounds should make us good at running the workshop even with a very different crowd from the ones that we’re familiar with: we can get to the nitty gritty quickly.
+*** 4. What else should we change going forward?
+- Let’s work on Phase 2, it’s harder to think about the future — future stuff is something we’re still learning about.
+- It’s great to come back feeling refreshed after exploring the myth level, but we need to think about the future together with new people in a very short period of time.
+- JC & AT: Maybe reconsider the refused paper to the anticipation group, and rework it as “Abby’s scenario”
+  - ERG: Similarly produce some Emacs scenarios to explore them?
+- The fact that we get excited about these meetings, there’s something that we should distil and share with others!  Excitement might lead to further innovation down the line.
+- AT: "Phase 2" & tools to facilitate it: it would be lovely to understand this, e.g., how does CLA work on this level?
+  - The workshop has to be a pattern in-and-of (meta pattern)itself that people need to apply
+
+* Tentative agenda for next week
+
+- One more meeting before next Friday, if pos., w/ NA?
+- E.g., 2:30PM UK any time this week?
+- On Friday we’ll try to do a micro-pilot
+- Or we all join the Friday afternoon thing with Judith?
+  - But online-offline can be tricky
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** JC
+- Going to family call now, 5 minutes late
+** LV
+- Will eat!  Everything is ready in the fridge.  4 hour haircut was a big investment.
+** AT
+- About to go see auntie downstairs.

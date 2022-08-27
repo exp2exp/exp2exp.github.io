@@ -22,8 +22,7 @@
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-\phantomsection
-\addcontentsline{chapter}{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
 
 #+BEGIN_EXPORT LATEX
   \begin{figure}[h]
