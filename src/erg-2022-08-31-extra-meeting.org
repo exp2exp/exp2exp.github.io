@@ -1,0 +1,67 @@
+* Check-in
+
+** NA
+- Recommends everyone to go to San Diego at some point in their lives; saw plenty of cool things there.
+** AT
+- Called for this meeting in anticipation for meeting with another interested party on Friday.
+
+* Goal for today
+
+- Review upcoming meeting for Friday
+- Review our timeline in the weeks ahead
+
+* Agenda
+Objective:
+- Work out what we’re going to do on Friday with Judith.
+- What would a timeline look like?
+- How involved should we be in writing/delivering the grant?
+  - Is there some longevity for these methods?
+  - 3 offshoots for now, with different scopes/contexts/crowds:
+    - Bristol
+    - Anticipation conference
+    - EmacsConf
+
+* Thoughts about the meeting with Judith
+
+- Review the high level add: the /methodology/ by which we might start to answer BA questions
+  - Could be a workpackage in the (Dis)Order proposal, the idocs methods could work well together with Hyperreal+PLACARD methods
+  - Judith is more senior & more embedded in social science, would be a solid contributor
+- Can we coalesce/synergize the concepts that Abby, Judith and ourselves have been developing?
+  - E.g., /adaptive capacity/, especially the measure thereof (resources, knowledge-based, etc.); we could compare the potential for effective adaptations to flooding in Pakistan & NYC.
+    - How is it that being very closed off to the environment would reliably predict your inability (?) to adapt to this environment?
+    - Thinking of the method as a proactive solution rather than a reactive one; bringing these people together might push the conversation forward
+      - (E.g., in the public spaces setting, this condition applies.)
+  - Judith uses [[https://en.wikipedia.org/wiki/Korsakow][Korsakow]], and we might be interested in looking into it to gauge how much common ground we could immediately have with her.
+
+** Objectives
+- Intro CLA and what it brings to the table
+- Learn about i-docs 
+- Coalesce with i-docs methods.
+- Review the work for the next weeks.
+
+** Joe’s presentation of the paper he’s prepared
+- Explanation of the 3 main aspects of our method: CLA, DP and PAR.
+- Bringing back Abby’s idea of patterns as /hypotheses/.
+- Explained the different steps via examples based on our own walks.
+- Re: Advice from a caterpillar:
+  - “How does our life experience informs what we see?  How is it that our background contributes?”
+- Notes on rôles:
+  - Kaiju: “What could possibly go wrong to perturb the scenario?  (e.g. ‘Contrary to everything you’ve said, there’s a new X’)”
+  - Analyst: “Here’s what we could do.”
+  - Historian/*Futurist*: “Why is this news worthy?  What could be a plan of actions?”
+  - Designer: “I should be on the lookout for transversal methods.”
+
+- What Inyatullah says about the CLA is that we may make adjustments on all 4 levels to make those changes adopted, e.g., if we’re talking about enacting a law, we can’t just say that the law is going to be enacted or maintained.  It’s important for us to think about all the layers so that we can really enact profund, durable change.
+
+Interesting notes from the meeting for us to dig:
+- Mythic rôles :: after having stripped them of their expertise in phase 1, we re-equip them with a new /mythic/ rôle informed by the method.
+- Where do Abby’s grant-concepts (Dis(Order) and co) come into play into our method?  We might want to think more about incorporating the concepts so that the method fit better within the grant framework.
+  - We’ve already laid the groundwork by clarifying the different points with Abby.
+
+** Scheduling
+- 1:30pm--2:30pm BST / 7:30am--8:30am CDT
+
+Backup plan:
+- 2:30pm----4:30pm BST / 8:30am--10:30am
+
+Because of scheduling restraint, Noorah will have to sit this one out.
