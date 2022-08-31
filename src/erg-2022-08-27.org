@@ -1,5 +1,5 @@
 #+TITLE: 27 August 2022 — Emacs Research Group
-#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier, Abby Tabor
 #+roam_tag: HI
 #+FIRN_UNDER: erg
 # Uncomment these lines and adjust the date to match

@@ -1,0 +1,288 @@
+#+TITLE: CLA workshop
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+OPTIONS: H:11 num:11
+#+LaTeX_CLASS: reportalt
+#+LATEX_HEADER_EXTRA: \usepackage[style=apa,natbib=true,backend=biber,uniquename=false,uniquelist=false]{biblatex}
+#+LATEX_HEADER_EXTRA: \bibliography{./erg.bib}
+#+BIBLIOGRAPHY: ./erg.bib
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \newenvironment{JUSTIFYLEFT}{\begin{FlushLeft}}{\end{FlushLeft}}
+#+LATEX_HEADER: \newenvironment{JUSTIFYRIGHT}{\begin{FlushRight}}{\end{FlushRight}}
+#+LATEX_HEADER_EXTRA: \usepackage{nest}
+#+LATEX_HEADER_EXTRA: \usepackage{footmisc}
+#+LATEX_HEADER_EXTRA: \usepackage{setspace}
+#+LATEX_HEADER_EXTRA: \usepackage{adforn}
+#+LATEX_HEADER_EXTRA: \renewcommand{\chaptername}{\adftripleflourishright\ Phase}
+#+LATEX_HEADER_EXTRA: \usepackage{xcolor}
+#+LATEX_HEADER_EXTRA: \usepackage{quoting}
+#+LATEX_HEADER_EXTRA: \usepackage{framed}
+#+LATEX_HEADER_EXTRA: \definecolor{lavenderblush}{rgb}{1.0, 0.94, 0.96}
+#+LATEX_HEADER_EXTRA: \definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+#+LATEX_HEADER_EXTRA: \definecolor{aureolin}{rgb}{0.99, 0.93, 0.0}
+#+LATEX_HEADER_EXTRA: \definecolor{deepmagenta}{rgb}{0.8, 0.0, 0.8}
+#+LATEX_HEADER_EXTRA: \definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+#+LATEX_HEADER_EXTRA: \colorlet{shadecolor}{lavenderblush}
+#+LATEX_HEADER_EXTRA: \renewenvironment{quote}{\begin{shaded*}\small\sf\quoting[leftmargin=0pt, vskip=0pt]}{\endquoting\end{shaded*}}
+#+LATEX_HEADER_EXTRA: \usepackage{tikz}
+# #+LATEX_HEADER_EXTRA: \makeatletter\newcommand{\globalcolor}[1]{\color{#1}\global\let\default@color\current@color}\makeatother
+# #+LATEX_HEADER_EXTRA: \AtBeginDocument{\globalcolor{white}}
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-07-30 Sat>
+
+* Introduction
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\addcontentsline{toc}{chapter}{Introduction}
+
+In this workshop we draw on Causal Layered Analysis methods to bring
+together a group of people who haven’t worked together before, get
+them onto the same page, and generate a path for collaborative action.
+
+We want our methods to be transferable between contexts.  Topics we’re
+currently exploring include /public space/, /free software/ and
+/anticipatory methods/.  We envision these topics weaving together in
+the future around larger and longer scale collaboration around massive
+problems.
+
+** Phase One
+
+In the first phase of the workshop we build a shared understand the
+context and relationships that exist in that context.  We use
+interactive activities to scaffold the process.  The result will be a
+set of *scenarios* and *dimensions*.
+
+** Phase Two
+
+The second phase of the workshop, we ask participants to take on roles
+that explore the scenarios.  Our aim is to create an *orientation to
+action* that will outlive the workshop itself.
+
+** Summary of Methods
+
+- [ ] *Causal Layered Analysis.*  In both phases of the workshop we think in terms of CLA’s four layers: Litany, System, Worldview, and Myth.  In Phase 1, the output of each preceeding layers feeds into the next one; when we get to the Myths later, we have a shared perspective.  We then work our way back through the previous layers in the second phase of the workshop, envisioning a new Litany (e.g., future newspaper headlines).
+- [ ] *Design Patterns.* The defined sets of problems that participants are familiar with solving comprise a simple ‘design pattern language’.  This is especially important as a way to bring in themes and approaches that are important to the workshop sponsors!  /Prior to the workshop/: we should do some background research on participants to develop hypotheses about what their patterns might look like.  /During the workshop/: we will refactor these patterns to bring about new ways of working.  /Example/: In our pilot workshop, we used the [[https://www.coolingthecommons.com/][Cooling the Commons]] pattern language.  
+- [ ] *Project Action Review.*  In this setting we want to ask people to imagine /future actions/, with attention to unexpected perturbations and variations (e.g., what can go wrong, what they might have to learn, things they might need to make, etc.).
+
+* Scenario building activities
+
+** /Before the workshop to Litany/
+
+#+begin_quote
+\noindent *Solo Activity:* *Dérive Comix* (2 hours max)
+
+Walk for one hour around your neighbourhood.  Address the following
+questions, possibly documenting them with photos or video clips.  (You
+can prepare in advance by reading this short intro to the [[https://www.publicstreet.org/derive][dérive]].
+Please follow up by preparing your materials to share, e.g., as
+slides, sketches, a zine, a map, or some PostIt notes.)
+#+end_quote
+
+# - What are you observing? (sight, sound, smell)
+# - What do we /already/ see? (What are the obvious things? What are the particular sites of meaning, e.g., a bowl that is more than just ‘a bowl’?)
+# - What are you experiencing? (feelings, thoughts, first impressions)
+# - Make a timeline of your experiences on the walk.
+
+# - *UPGRADE*: The Celts pray using the every day (such as making a fire or milking a cow); they don’t separate time for prayer and time for life.  In a faith perspective, this is an incarnational model (God in flesh).
+
+*** /Litany to Systems/
+
+#+begin_quote
+*Small Group Activity:* *Find the dots*
+
+Join together with other workshop participants in small groups to
+share your results from the previous activity, and cluster the themes
+that you find there.
+#+end_quote
+
+# - Thinking about the stories; finding the ‘dots’ in the litany, and start to connect them in the systems.
+
+**** Systems
+
+#+BEGIN_JUSTIFYRIGHT
+"'Who are you?' said the Caterpillar."[fn:: fullcite:alice]
+#+END_JUSTIFYRIGHT
+
+#+begin_quote
+*Solo/Pair Activity:* *Advice from a Caterpillar*
+
+Reflect on your observations, and use your observations to describe
+your own personal perspective.  You might comment on aspects of your
+values, professional training, and life experiences that led you to
+make these observations, as well as the direct circumstances that contributed to shaping your experience. 
+#+end_quote
+
+
+# - What systems/factors/actors bring about these observations and experiences?
+# - Who do you think is involved in the /decisions/ that shaped your environment?
+
+***** /Systems to Worldview/
+
+#+begin_quote
+\noindent *Small Group Activity:* *Map-making*
+
+Return to the small groups and bring together the themes you
+identified earlier, and add in the new information from your
+reflection.  Work together with this group to arrange the information
+on a map.  Notice that since people have navigated different physical
+locations, your ‘map’ is likely to be a somewhat abstract space.
+#+end_quote
+
+# - How would you represent this information on a map?  How would you visualize it?  How would you explain it to others?
+# - (E.g., /our/ worldview is probably already summed up in the diagram that LV drew, showing the inputs, process, and outputs of the workshop.)
+
+# - E.g., Hypothesis about Kennington, Oxfordshire: the older people perceive place as a village, younger people perceive it as a settlement on the outskirts of Oxford.  Older people might perceive what’s missing and also what’s new.
+
+****** Worldview
+
+#+begin_quote
+*Small Group Activity:* *Problem identification*
+
+Using your map and working together with the small group, talk about
+the problems you’ve noticed.  How does the map represent stressful or
+concerning experiences?  What are some alternative histories or
+alternative futures that would describe how the circumstances would
+have changed.
+#+end_quote
+
+# - What do you want to have happened?  What would you like to have happen in the future?
+
+******* /Worldview to Myths/
+
+#+begin_quote
+*Full Group Activity:* *Dimension analysis*
+
+Working together with the full group, arrange the maps you created
+across a set of dimensions.  Two dimensions would be traditional
+(creating a 2-by-2 grid with "best" in the upper right, "worst" in the
+lower left) — but feel free to use as many as you wish.  For example,
+it could be helpful to use the [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory of Basic Human Values]] to
+organise the scenarios.
+#+end_quote
+
+# - From maps to myths.
+
+******** Myths
+
+#+begin_quote
+*Full Group Activity:* *Scenarios*
+
+Working together with the full group, use the dimensions you created
+in the previous activities (together with the maps and stories) to
+describe several scenarios for the future.
+#+end_quote
+
+\medskip
+
+* Intermezzo: /Myths to next phase of the workshop/
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+The goal here to run something akin to an inception.  Our preliminary
+postulate is that, if people could change difficult things on their
+own, they would have done it already.  Our goal therefore is to
+challenge their views, so that they leave the workshop with a modified
+understanding of how the world works (i.e. of the myths that drive
+them).
+
+* Scenario exploration activities
+
+Here we introduce four roles.  The attendees are broken into four
+corresponding groups, each to be given a short training.  Then
+participants will be put into teams of four, with one person from each
+role in every team.
+
+\colorlet{shadecolor}{aqua!40}
+#+begin_quote
+*HISTORIAN.* You are the custodian of the scenario and how it came to be.
+#+end_quote
+
+\colorlet{shadecolor}{deepmagenta!40}
+#+begin_quote
+*KAIJU COMMUNICATOR.* You are responsible for describing perturbations to the scenario.
+#+end_quote
+
+\colorlet{shadecolor}{aureolin!40}
+#+begin_quote
+*ANALYST.* You will find meaningful symbols in the journey.
+#+end_quote
+
+\colorlet{shadecolor}{dimgray!40}
+#+begin_quote
+*DESIGNER.* You are responsible for helping the team put together solutions to problems that arise.
+#+end_quote
+
+#+BEGIN_EXPORT LATEX
+\clearpage
+\colorlet{shadecolor}{lavenderblush}
+\addtocounter{footnote}{1}
+#+END_EXPORT
+
+** Myths
+
+#+begin_quote
+\noindent *Team Activity:* *Dérive Comix Part 2*
+
+Explore your scenarios together in your imagination.  What are some of
+the things you observe from the perspective of your new role?  What
+things that you observe from the perspective of your prior training
+and experience?
+#+end_quote
+
+*** /Myths to Worldview/
+
+#+BEGIN_JUSTIFYRIGHT
+"...the cognitive mechanisms responsible for implicitly learning novel patterns of association are enhanced by the presence of a meaning threat."[fn:: fullcite:proulx2009connections]
+#+END_JUSTIFYRIGHT
+
+
+#+begin_quote
+\noindent *Team Activity:* *Connections from Kafka*
+
+The *\fcolorbox{deepmagenta}{deepmagenta!20}{Kaiju Communicator}* should now develop and communicate significant purturbations to the scenario.
+#+end_quote
+
+**** Worldview
+#+begin_quote
+\noindent *Team Activity:* *A path forward*
+
+Work to develop a story of the future evolution to the scenario, taking into account the meaning threats.
+#+end_quote
+
+***** /Worldview to Systems/
+#+begin_quote
+\noindent *Team Activity:* *Back to reality*
+
+Having explored the scenario the *\fcolorbox{aureolin}{aureolin!20}{Analyst}* should build a tableau of 4 meaningful symbols based on the exploration above.
+#+end_quote
+
+
+****** Systems
+
+#+begin_quote
+\noindent *Team Activity:* *New patterns*
+
+Having explored the scenario the *\fcolorbox{dimgray}{dimgray!20}{Designer}* should write down some new design patterns that relate to the skills of participants.
+#+end_quote
+
+******* /Systems to Litany/
+
+#+begin_quote
+\noindent *Team Activity:* *Project action review*
+
+Having explored the scenario the *\fcolorbox{aqua}{aqua!20}{Historian}* should write down some next steps for participants to take after the workshop.
+#+end_quote
+
+
+* /After the workshop/
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+By running this process in a lot of different spaces, we’ll learn
+something; different people are likely to have have different maps and
+myths.
