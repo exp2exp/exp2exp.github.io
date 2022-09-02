@@ -1,0 +1,36 @@
+* Agenda
+
+** Preliminaries
+- Discord will be open on Abby’s laptop in a few minutes
+- We’ll present the =bristol-workshop-I-and-II.pdf= on a screen here, so you can follow along at your own pace with that.
+- I also have =bristol-workshop-I-and-II.org= in =~/exp2exp.github.io/src/erg=
+
+** Activities:
+*** Introductions between the different participants
+Judith mentioned “tools / culture / artist”.
+*** 5 minutes of theory overview from Abby
+- “Public spaces are the foundation of public health.”
+- “Reciprocal interplay between people and their environment”
+- Abby provided a definition of disorder that we might want to explore again.
+  - Disorder :: Creating conditions in which adaptative systems learn over time
+  - The Natural Contract :: A reconsideration of our relationship with our environment
+  - Disolving boundaries :: Between self and (?) (TODO: get it from the slide)
+- On the grant
+  - The goal is really to bring multiple/conflicting perspectives together
+*** ≈25 minutes walkthrough by Joe
+Interesting reflections:
+- During Phase 2, the different rôles are really transversal according the different layers: non-linear journey, but making a linear journey out of their contribution; the essence of future-thinking/-making?
+- Noorah on adaptive capacity
+  - Bringing people together to solve problems is a way to mobilize their adaptive capacity.  Something new always comes up when you mobilize people.
+  - JC: What is the difference between resilience and adaptive capacity:
+    - NA: The outcome is what changes.  The ability to adapt is to get to a new state.  For example, the sharing economy is an example of an adaptation; rather than saying “we’re reducing our consumption”, we say that we’re going to develop a new attitude to consumption.
+    - Judith: Interest on transformative narratives, and their relationship to problems
+    - JC: The bridge between narrative and policy is well-trodden.
+    - AT: Can the interactive documentary layer in with the notion of transformative narratives?
+      - Judith: This could be a method of exploring transformative narratives.  Documentation could be a narrative (?).
+      - NA: The CLA method as a use-case for the interactive documentary?
+      - Judith: Related to polyphonic documentation of those processes.  Interactive documentary isn’t a close system; it can also be a dynamic.
+- AT: Creating a wiki as an on-going live artefact of the workshop
+- AT: It seems there are two parallels things: the tools associated with the methods (or getting their foundations, as in enough to get it online and show it)
+
+*** 30 minutes Q&A
