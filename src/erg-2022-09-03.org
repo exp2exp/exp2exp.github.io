@@ -1,0 +1,251 @@
+#+TITLE: 03 September 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-09-03 Sat>
+
+* 03 September 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Has a long weekend ahead, Monday is Labor Day and off, and the week itself moved fast!
+- Getting more work at work,  working with a dep’t called College, Career, and Military preparedness; has labor market data to see what options high school graduates have in the workforce...
+  - A lot has changed since we went to high school; people are trained for the job market via programmes of study linked with different careers.  So NA helps decide what things the state should invest in
+- "Data Governance" has purchased AWS services and is helping set it up; it’s tricky to manage the private data and deal with the fact that people can’t be identified, and it can’t go onto a public server
+  - LV: Same basic applied in France, and people would mostly just use Google tools
+  - NA: I’m interested in the policies and documents
+  - JC: I’m now working with open data which feels a bit related
+** JC
+- On the train back to Oxford (via London); having some difficulty with the background but semi-resolved with a new push to talk button
+- Went on brunch with someone who was very talkative.
+** LV
+- Today feels like a continuation of yesterday
+- Woke up early and did lots of stuff
+- It’s been a good day so far, studying Makefiles for building software according to recipies
+  - E.g., =./configure && make= applies to building Emacs, similarly for SVG-to-icon generation
+  - It’s comparable to macros for expediting work
+    - NA: I’d like my own server, Leo could help set it up...?
+    - LV: I use Arch, even though it’s unstable with updates
+  - NA: It’s cool that you’re learning new Emacs-related things!
+
+* Meta points
+
+** CXLD KILL Don't forget to record the session!              :LV:cancelled:
+CLOSED: [2022-09-03 Sat 17:17]
+:LOGBOOK-NOTES:
+- State "CXLD"       from              [2022-09-03 Sat 17:17]
+:END:
+We're in Discord, so not recording today.
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Debrief yesterday’s conversation and talk about EmacsConf
+  - JC: It might be particularly important for us to reflect on the stuff we didn’t get to cover.
+- LV: I need to remember to breathe during this meeting, partly b/c I don’t hear voice feedback
+
+* Agenda (Part 1) - Succinct recap of yesterday: what do we need to take note of?
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+** Meta
+- We did a good job of sticking with the time, allowing some time for Q&A (though that part did overflow)
+
+** Coverage
+- We talked about a lot of stuff
+  - Potential for some confusion
+- I see where Judith is coming from with Korsakow, I can imagine using it as a tool for the workshop
+  - If it’s a text-based data that we’re delivering then I’m not sure how this 3rd-party software fits in
+
+- I felt confident with the tools that we’re using, the open-data aspect of Korsakow makes it potentially somewhat accessible for us
+  - Let’s walk slowly, using Korsakow might not be a blocker
+  - But there’s some potential with preference to get over-invested in a particular piece of software
+
+- Maybe longer-term relevant if we get funding
+
+** What we talked about 
+- CLA seduction operation
+- Could have included Noorah’s perspectives on CLA rather than just adaptive capacity
+- But the outcome could be an increased adaptive capacity by increased abillity to interoperate — a new level of homeostasis
+  - Offering this is something we can do
+- CLA can be our anchor, it’s what we’re relying on as a theory
+- If we’re hoping to provoke innovation or gather serendipity, it can be hard to justify and measure; so it’s all the more important to have strong methods and tools.  Whatever we share should be easy to explain and use, and should feel robust.  The method needs to make sense but won’t have an obvious look and feel
+
+** What we heard / felt
+- The real passion seems to be for interactive documentary rather than just Korsakov.
+- LV: I had a good feeling, slightly iffy that LV+JC were talking more, it didn’t leave much room for you NA!
+- NA: I’m usually a listener when we are meeting a new person.
+- JC: It feels like the way we’ve presented the method was on three rhythms: fast walkthrough and on-the-ground vibe with JC, deeper tech dive with LV, longest-term aims with NA.
+- JC: Did a little bit of research on Korsakov, and it seems to be mostly about showing random video snippets based on keywords.
+- Judith + Florian are more on the humanities side, and software can be held a bit closely; similar example for 20-year-old software for phonology, we might be able to have an ffmpeg clone pretty easily; a keyword cloud based on text might be more technically sophisticated because it models salience
+
+** Back to Abby
+- Is it better to invest in tech or coffee?
+- We can invest in our own tech solutions but it might be tangential to what Abby wants.
+- We’ll probably need to start with the tools we need to make some progress e.g. with patterns
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - EmacsConf
+:PROPERTIES:
+:Effort:   0:40
+:END:
+
+For today, to try and get the form filled in on this call.
+
+Info about the call:
+
+** Discussion
+- Do we want to "run" a shortened version of the workshop?
+- How about using the conference as a place to get ideas about how to operationalise the workshop through Emacs!  Could we use the time to workshop-the-workshop?
+- E.g., will we demo the Emacs-via-the-Browser thing (maybe in a separate session?)
+  - Maybe similar to the Org Roam "technical" + "user" orientation
+- Also talking about the tech stack that we use / would want to use?
+
+*** Two things
+- (1) "Workshop the workshop"
+  - “We’re going to run a workshop in October, could we ask Judith and Florian to make a 5 minute video that is a documentary of the workshop which we could share as an intro”
+- (2) From the lens of technological capacity... to what extent ...
+   - Could we use the conference to recruit participants?
+
+*** Comments
+
+ - We have the method... by the end of September we’ll be confident with Phase 2 of the workshop
+- But what will be be able to do in November?  We’ll have one exemplar showing what the workshop does... with EmacsConf we can use it as a platform... but there can also be some struggles with the platform that make it run or have it make a good impression
+
+- Can people help us make Emacs that’s easier to approach?
+  - Sure, we can get it running in the browser, but...
+  - Emacs supports a philosophy like the one we need, and we can do better!
+  - We want to have something where others can benefit from the same kinds of things we benefit from!  E.g., we want to have it so that people benefit from Emacs but that also stands on its own feet...
+
+- "Emacs" should be incidental to the user experience
+
+- LV: I can imagine a platform that can be edited via Emacs (patterns, reminders, whatever else we need).
+  - The website is something we can interoperate with, but they are separate modules
+  - EmacsWiki is a possible prototype
+
+*** The presentation?
+- We’re trying to make the technology work with the method, do you have any ideas?
+- We can present the possible solutions that we’ve come up with so far, but we want to use the audience to think about how to make the technology fit...
+
+- We have some technology now, but we haven’t yet done a whole lot of technical work... but how much can we talk about this?
+
+- We should be OK asking for help from the community... but what we present can be amorphous depending on what we’ve gotten done
+
+- There can be two parts: presenting the workshop and asking for help
+
+- Yesterday we were talking confidently about the tech stack, but it’s different talking with potential clients and community experts!
+- Preparing for presenting technology or even asking for help will take significant amount of time to prepare; can we 
+
+- NA: Do you feel comfortable asking for help at EmacsConf?
+- LV: I feel uncomfortable only if I haven’t had a chance to work on it myself...  in order to spend time on the project I need to be paid, so if so
+
+- NA: 2 questions
+  - What can we offer the conference as a group?
+  - What can we benefit from the conference?
+
+** Template
+#+begin_quote
+Speaker name (and optional pronunciation) and preferred pronouns:
+- Noorah Alhasan
+- Joe Corneli
+- Leo Vivier
+
+Speaker availability and preferred Q&A approach:
+
+Live Q&A
+
+Speaker emergency contact information:
+- Leo Vivier
+  - Phone: [DATA EXPUNGED]
+
+Talk title:
+
+Talk abstract:
+
+- 5-10 minutes: (brief description/outline)
+- 20 minutes: (brief description/outline)
+- 40 minutes: (brief description/outline)
+
+Speaker release:
+
+  By submitting this proposal, I agree that my presentation at
+  EmacsConf 2022 is subject to the following terms and conditions:
+
+  The EmacsConf organizers may capture audio and video (a "Recording")
+  of my presentation and any associated materials, which may include
+  slides, notes, transcripts, and prerecording(s) of my presentation
+  that I provide to the EmacsConf organizers.
+
+  I authorize the EmacsConf organizers to distribute, reproduce,
+  publicly display, and prepare derivative works of the Recording and
+  any derivative works of the Recording (the "Licensed Materials")
+  under the terms of the Creative Commons Attribution-ShareAlike 4.0
+  International (CC BY-SA 4.0) license.
+
+  I grant to the EmacsConf organizers permission to use my name,
+  likeness, and biographic information in association with their use
+  of the Licensed Materials under the above license.
+
+  I represent that I have the authority to grant the above license to
+  the EmacsConf organizers.  If my presentation incorporates any
+  material owned by third parties, I represent that the material is
+  sublicensable to the EmacsConf organizers or that my use of them is
+  fair use.
+
+— XXX
+  NA, JC, LV 
+#+end_quote
+
+
+** Do we want to reuse the Bristol material or any parts of it
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- Did what we set out to do at the top
+
+*** 2. What are some different perspectives on what's happening?
+- LV: Thinking about a lot of things including platform stuff. If we announce a future event they may be wanting a lot, I have to grapple with this.
+- Situation is good w/ people wanting to pay us and develop the method, gaining visibility, opportunity, possibility of getting some grant money
+
+*** 3. What did we learn or change?
+- Good reminder of what we’re showing up for!
+
+*** 4. What else should we change going forward?
+- Can AT pay LV over time?
+- What does AT want?
+- JC: Should review the grant some to see what we might look 
+
+
+* Tentative agenda for next week
+1. Think about the two guiding questions NA presented
+2. Finalize EmacsConf proposal
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Big week ahead.
+- Today: lunch and an interactive art exhibit called "Wonder Spaces", it’s a space...
+** JC
+- On the way to a friend's b-day party
+** LV
+- Drained and brain-dead.
+- onto something about how I want to engage w/ EmacsConf, i.e., with confidence!
+  - NA: this is why we have these conversation here
