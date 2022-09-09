@@ -1,0 +1,83 @@
+
+* Agenda
+
+** Debrief on how the meeting with Judith went
+- AT: It was lovely to go through the process with us of explaining how the workshop went to Judith.  It was also nice to see the overlaps between the different peoples (some of which were anticipated, others which weren’t.).
+  - Judith seems to be on-board with the concepts, and we seem to have convinced her.
+  - The technological dimensions seems to have been emphasized wrt the deadlines we’re facing.
+  - Intersections with Judith: story-telling; confluencing narratives.
+  - Chronology for the coming weeks: running this early version of the workshop, and iterating over the concept
+  - Getting LV and Florian Thalhofer talking about the technological stack.
+    - JC: Also agrees that this should be done, but who else should we bring to the table?  It might be too small for other people to get excited.
+    - AT: We should probably look for people within our circles for extra participants/stake-holders, e.g. academics collaborators from other disciplines; perhaps some friends and interested citizens so as to have a mix of people.
+    - NA: How many people do we have on the list so far?
+    - AT: So far, 12, which could be clustered as 3 groups of 4.
+    - LV: In early iterations, we can also consider taking part ourselves (the organizers) soas to get more data points on how the people actually follow the process.
+
+- JC: We should probably consider the short-term/-horizon and the long-term/-horizon (LV: different rhythms), especially to get a feel for the long-term objective of this project.
+- AT: There should be plans for the workshop (Bristol), and others plans for the long-term (e.g. grants).  Also, with the later point, figuring out what to do within a 3-months window. 
+- AT: Really pleased with how the meeting and the process is going.  Whilst she got excited by the techno
+
+** 3 months work?
+- How to coordinate efforts between what we’ve been doing, and what Juddith and Florian have been doing.  For Abby, this boils down to bridging the /conceptual/ mappings (it doesn’t have to be spatial, or not only spatial) that they and we are doing.
+- On a 3-month period, we could have small funds to build that up (i.e. the bridging of conceptual mappings); what is within the realm of possibilities?
+- JC: We can also think of this as how it would help us in the future, both for the grants, but also for ERG.
+  - Potentially good for Florian and Judith as well, as a research tool that would go beyond the data we’ll get in the workshop
+- LV: 3 months is a good period of time to design, implement, and deliver a product.
+  - We can provide early prototypes and the ability to get early feedback and iterate on the work.
+  - Concerns: the Krosakow software requires more work.
+  - Need to touch base with Florian to figure out where we're situated within the project.
+  - Start with a 1-1 Leo & Florian: start by figuring out what the concrete starting point is
+
+*** How big should our pilot be?
+- JC: Brainstorm: what about having the ‘pilot’ focus on the software design question?  So, bring together a few people to explore scenarios around “tools for shadow democracy”
+  - LV: I like using the method to develop the method; the ship that builds itself leading to positive feedback loop.
+- AT: What I’m worried about re: the BA grant is that it’s only 1.5 months away, and it doesn’t leave a whole lot of time to create a competitive application.  Also, it seems to be slightly unrelated to what we’re trying to do, esp. wrt the output.  We’re going to need to be strategic.  Also, there are going to be other grants from the BA that might be more accessible to us.
+- JC: If in 3 months, we are in a better position to apply for grants, on the one hand we should probably eschew the current big BA one.  On the other hand, we should probably focus on the technological aspects either way.
+- AT: In terms of the springboard grant, the purpose is to create a interdisciplinary network, and we’ve already started doing this work.
+- AT: Having a discussion with Judith/Florian might allow us to have different work-packages with which we could synergize.
+- JC: It would be nice to have some sustainability of the network we’re working on.  Maybe this is the true value of this springboard grant.
+- NA: Didn’t know that the grant was only 6 weeks away; this will most definitely link to compromise on other fronts.  I want to concentrate my energy on the Bristol workshop that we’re going to run.
+  - JC: Focusing on what we’ve already been signed to do is a wise idea.  We might invest any remaining time after it focusing on the grant, but until then, we should focus on doing more of what we’ve already been doing.
+
+** Timeline & strategy
+- Focus on delivery of the workshop circa early October
+  - Immediate Q for Leo & Florian: Is Korsakow part of the stack we want to work with?
+  - Only basic tech for the workshop in any case
+  - Two tandom pilots: /methods/ (e.g., envisioning the technology) & /themes/ (early October, themes from Abby)
+- Keep going with tech stuff for the long-term interaction, winding it up late December
+  - Longer-term tech work extends Springboard grant, to something we could do bigger/better in December
+- Keep Hyperreal’s involvement in BA grant for October 19th secondary to these
+- JC: Financial sustainability is part of what we refer to when we talk of sustainability, but it’s part of a larger question on what it means for the workshop to be a sustainable method, which means wondering how we co-create public spaces on the long-term.
+  - AT: There’s not really an end-point, b/c the answer is a process rather than a fixed point.  The same thing is true for the methodology, it’s an ongoing collaborative effort.  The answer is that there needs to continued /correspondence/ (Ingold)
+    - JC: Correspondence is a good description of what we’re trying
+    - NA: More grassroots efforts!
+    - LV: This is what we can build, even if it’s (just) correspondence with us
+- JC: What would it take to charm people in a similar way that we’ve all been charming one another in the process of working together?  We might want to revisit the longer-term sustainability thingy with that particular lens.
+  - Rough analogy between "designing software" and "designing policies" — but are policies what’s needed for sustainability?
+  - NA: Are you trying to answer the question of the so what?  Maybe it is that we are uncovering shared myths between people.
+  - NA:How do we show them: look what you did today? This is where tech comes into it.
+  - JC: What if we we were 100 years ago, and we were meeting to engineer into the world some kind of technology.
+
+- AT: If we’re running two pilots in October, one would be tech-focused, the other one would be Bristol-focused.
+- JC: There is such a thing as civic tech which might inform how we run the tech workshop.
+  - Cf. this event from [[https://chaitinschool.org/workshops/open-source-hack-night-session-6-sep-2022/][Chaitin School]] in London. They talked about "an application for large scale open ended feedback, built with JavaScript, React.js, Node.js, Clojure." — and another tool "a participatory democracy framework, built with Ruby and Rails."
+  - https://www.youtube.com/watch?v=qujRVwxRQOQ
+
+** PAR
+*** 1. Establish what is happening: what and how are we learning?
+- JC: We’ve reviewed our objectives; what prompted us to do so?
+  - When we see goalposts moving around, should we be a little nervous?  We might at least need to be worried about the financial sustainability, which should be a fundamental thought.
+- We have managed to create a “next step” with Judith & Florian (an intention): from this simple meeting we’ve found a renewed approach to work & some more deliverables (an emended conceptual map and more intention).
+*** 2. What are some different perspectives on what's happening?
+- Good that we’re planning 4 total pilots and 1 "full workshop"
+  - JC: Hm... 4 -> 1 interesting.
+- We’re not stuck on the methods!  Let’s focus on the people and building their enthusiasm
+*** 3. What did we learn or change?
+- Tools are the "pretty face"; the workshop itself has legs and is ready...
+- Abandoning fully committing to developing a heavy BA proposal; focusing on the people & running the workshop would mean getting more people involved, whereas getting the money wouldn’t necessarily imply more involvement.
+*** 4. What else should we change going forward?
+- What caused us to review the 
+- We need to iron out details like "how are we going to gather the data"
+- Hypothesis: this method will resonate with people like Judith, but if we were to do this with BA, we don’t know them but it would be harder to generate the same type of curiosity; however the technology is so poorly understood — this fact can give some leverage for us to develop the next thing
+- JC: We probably need to come up with new deadlines to meet the new timeline.
