@@ -1,0 +1,245 @@
+#+TITLE: 10 September 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+#+OPTIONS: num:nil
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-09-10 Sat>
+
+* 10 September 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+- Food thoughts:
+  - Proteins from peanuts, multiple breakfasts; soy, chocolate.
+
+- Tech thoughts: we’re probably the primary user group of CRDT so should contribute to testing & debugging
+
+** NA
+- Went to the post office to finish some errands
+- Ran into a youtube celebrity.
+
+** JC
+- Coming from Oxford open doors day
+- Would be fun to have (and maybe make) a web-based client for CRDT (e.g., ClojureScript)
+
+** LV
+- Happy not to be an English teacher any more because life would be disrupted
+- Getting a folding bike next week which will help entend the life of his knees; it will be heavily (70%) subsidized by the French state (up to 2000€ subsidy)!
+  - It’s a well-known subsidy that’s been running for two years, and Macron’s second term increased it!
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+** DONE Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Back to last week with the EmacsConf stuff for part 1; then continuing with the Bristol workshop, reflecting on our meeting w/ Abby in part 2.  These link up in our minds :-)
+
+* Agenda (Part 1) — Finalise EmacsConf proposal
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Talk Outline
+*** State the problem
+**** "So what?"  What is the point of everything you’re doing?
+- Originally when we started meeting it was focused on a simple why: "We all use Emacs".  We can focus on any part of Emacs (in/of/with...).
+- But... what does it take to energise people on some topic?  We’re still energised, we still have serendipity, we’re even getting paid some for this work.
+- The method even more than the tools (e.g., Org Roam) is what helped us take those steps
+  - A little tool or even a changed protocol could allow things to flow better for us...
+  - Maybe the next generation of tools will be needed to make the methods work better...
+  - But maybe so far the methods have compensated for the flaws of the tools
+
+**** Well, this ‘problem’ has to do with Anticipation ’22, EmacsConf, Bristol... maybe others?
+
+- The problem is roughly:
+
+  - [X] "how can we run a community-building workshop with _free software_?"
+  - [ ] "how can we extend our _joyful way of working together_ to others?"
+
+- Or, is that really the question?
+
+- We started with the tools, we met at EmacsConf and continued as ERG.  We’ve had an idea of running a workshop.  At no point did we think we’d use non-free software!  Our work, and the workshop, is a direct evolution of this.
+  - This is our shared myth: it never occurred to us not to use FLOSS or not to be honest about the failures of our tools, we’re not going to shoehorn use of Org Roam
+  - E.g., "The ship that builds itself" is a metaphor...
+    - Maybe the destination has been changed (cf. the goal post changes before)
+    - We made minor changes to commit some snippets to the repo, but there’s a lot more that could be done with technology: maybe things like Org, Emacs provides a way to *be rigorous*
+  - /Tech sophisticated vs tech led/
+  - It’s a bit disconcerting if the tech isn’t something that we’re actively working on
+
+*** What we've been doing so far:
+
+  - We’ve been meeting regularly (*already presented this last year*)
+    - It’s important that we commit!  This is important outside of Emacs, note taking.  We show up ready to be creative.
+  - *Now added*: doing outreach to others
+   - Adapting our methods for non-Emacs users who aren’t familiar with our meeting workflow
+     - "Phase 1" and "Phase 2" of the workshop mirror our agenda a bit...
+        - Idea: It’s a game/play/experiment/thing for reaching what we’ve been doing all along.
+        - It’s a scenario-based way to impart the methods that we use, but with experiential methods, not top-down teaching
+   - Not just taking notes but putting them into context, putting them into hierarchy, allowing us to reflect on what we’ve been talking about, looking back at old notes if and when we want to, looking ahead to the next week...
+     - And note-taking allows us to practice ‘active listening’!
+     - (*Org Roam* would be good for going back over our old thoughts more.)
+
+*** Challenges
+
+- Being critical about whether our tools and methods are going to work with many.
+
+  - How can we make Emacs more accessible?  Less of an immediate problem for this crowd, but you’ll probably recognise the problem based on people you work with!
+
+  - The relationship of our methods to technologies: *what tech do we actually need?*
+    - Currently working with Org Roam as a group isn’t so easy, even for people who use it individually!
+      - (A simple step would be to /browse headlines in addition to titles/.)
+
+- Challenges notwithstanding: we want to invite you to attend a workshop in +1m
+  - Might want to robustify CRDT
+  - Would be fun to do it with Org Roam users, collectively building an Org Roam directory in real time?
+    - LV: I can consider it to achieve by November but there are many hoops
+    - "*Collectivized slip-boxes*" might be a good presentation for next year
+      - We’re still missing an easy way to publish the notes
+      - Is /not having this/ a crucial blocker?
+        - NA: For me the biggest feature of Org Roam is visualising the notes & connections between notes
+        - JC: In our minds we can do "Minority Report" style browsing but we can’t do it with our hands yet... Org Roam would be useful for this, but it might be even more crucial for us to /get the concepts out/.
+
+
+** Template
+#+begin_quote
+
+"How to run a workshop with Emacs"
+
+Speaker name (and optional pronunciation) and preferred pronouns:
+
+- Noorah Alhasan
+- Joe Corneli
+- Leo Vivier
+
+Speaker availability and preferred Q&A approach:
+
+Live Q&A
+
+Speaker emergency contact information:
+- Leo Vivier
+  - Phone: [DATA EXPUNGED]
+
+Talk title:
+
+Talk abstract:
+
+- 5-10 minutes: (brief description/outline)
+
+  - LAST YEAR, we talked about how we use Emacs, and a paper about how we use CLA.
+  - THIS YEAR, we talk about how we’ve been refining the methods and tools we used last year, and present how far we’ve gotten with the Bristol workshop and any developing technical solutions
+
+- 20 minutes: (brief description/outline)
+  - ...
+  - ...
+
+- 40 minutes: (brief description/outline)
+  - ...
+  - ...
+
+Speaker release:
+
+  By submitting this proposal, I agree that my presentation at
+  EmacsConf 2022 is subject to the following terms and conditions:
+
+  The EmacsConf organizers may capture audio and video (a "Recording")
+  of my presentation and any associated materials, which may include
+  slides, notes, transcripts, and prerecording(s) of my presentation
+  that I provide to the EmacsConf organizers.
+
+  I authorize the EmacsConf organizers to distribute, reproduce,
+  publicly display, and prepare derivative works of the Recording and
+  any derivative works of the Recording (the "Licensed Materials")
+  under the terms of the Creative Commons Attribution-ShareAlike 4.0
+  International (CC BY-SA 4.0) license.
+
+  I grant to the EmacsConf organizers permission to use my name,
+  likeness, and biographic information in association with their use
+  of the Licensed Materials under the above license.
+
+  I represent that I have the authority to grant the above license to
+  the EmacsConf organizers.  If my presentation incorporates any
+  material owned by third parties, I represent that the material is
+  sublicensable to the EmacsConf organizers or that my use of them is
+  fair use.
+
+— XXX
+  NA, JC, LV
+#+end_quote
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) — Bristol Workshop
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- EmacsConf is the yearly review: we’ve done a lot, grant, workshop, meetings ongoing w/o breaking up!  BUT technologically LV has been trying to spearhead things, and now we have more to report on methods.  Have we missed the boat?
+- LV deliberately kept away from Elisp, and feels like this has been delaying innovation.  Did Qiantan think we would be using CRDT?  What if getting the collectivised slipbox was the next big thing for us?  You never know what the thing is that will be one big step for collaboration.  Maybe this is the thing that would make people feel really energised.
+- JC: I think it’s pure potential energy!
+  - LV: The discomfort is towards losing time... you never know.
+
+NA: I’d like to run a text model over our notes, maybe have Org Roam add the notes automatically.  Once we have the algorithm, every time we feed a new note, it will reassess the entire slip box and try to see if there are new connections.
+ - Is there a way within Lisp to interact with Python?  Yes, you can use the Python objects in CL, and the other way.
+
+- Cf. Buckminster Fuller quote on "Synergy"
+
+** Takeaways
+- We can do this!
+- LV: I feel re-energised; not via a CLA but via our ‘full-year review of where we were, where we’re at, and where we’d like to be’
+- Adjustments: Talk more about technology, e.g., starting to prototype the slipboxes; but the 1h30m to to workshop, tech, EmacsConf &c... could we maybe bump up the amount of meeting time to 2h weekly?
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- We did talk some about the workshop, mostly about EmacsConf + tech
+
+*** 2. What are some different perspectives on what's happening?
+- Judith: "Tools for thought"
+- We haven’t changed our tech stack for a long time
+- Is the regular meeting with Abby on Friday 2:30PM a good thing?  Could do 7AM CT... but we haven’t been setting an hourly rate on those meetings, but if we increase the amount of meeting time, it doesn’t necessarily translate into more money.  Abby’s maybe unlikely to join the Saturday call.  Could we move to a more *asynchronous workflow* there?
+  - This would keep us connected.
+- JC: but we need more of a shopping list
+  - NA (yesterday): *We need to iron out details like ‘how are we going to gather the data’*
+
+*** 3. What did we learn or change?
+- Let’s try meeting *1h* earlier? 3PM-5PM UK &c., would allow us more time
+
+*** 4. What else should we change going forward?
+- Should we have a weekly ‘tools’ segment?  E.g., feed back about the cool things we’ve been doing with Emacs, and use them to generate some technical ways to make our lives easier.
+- LV: How about centralising the workshop stuff into one etherpad?  Something that works as a kanban board that allows us to stay connected
+
+* Tentative agenda for next week
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to meet girlfriends for lunch
+- In AZ there’s a place for pizza that’s the best in the world — in Phoenix!
+- Chris Ianko (Chef’s table, pizza version!)
+
+** JC
+- Go to my usual family call now.
+- Might call my aunt to see if she can help me connect with my mom... they live in the same town!
+- Will escalate my travel plans
+
+** LV
+- Had a very reflective meeting
+- Death tends to make us worry about those close to us...
