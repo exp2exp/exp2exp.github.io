@@ -1,0 +1,255 @@
+#+TITLE: 17 September 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-09-17 Sat>
+
+* 17 September 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Introducing Emacs Research Group
+  - Noting that the look-and-feel of the buffer we are seeing is different for each user here
+- We leave our "shoes" outside the door of the meeting
+
+** LV
+- New domain name zaeph.dev not zaeph.tk
+- Org Roam = tool similar to obsidian
+- Met with Abby, Florian, & Judith last Wednesday
+  - Intro’d Org Mode & extensibility thereof
+- Intro to Emacs for (collaborative) note-taking
+  - Extensibility of software & methods
+  - Our experience learning how to use & extend Emacs is somewhat transferable (e.g., to future studies, e-research, collaboration...)
+ - Goal is to ... [mic drop?]
+- Different rhythms are being mobilised
+
+** FT
+- Inventor of Korsakow = interactive, nonlinear, generative films
+  - 20 years longevity, it’s influenced my thinking since then
+  - Obsidian is somehow similar, Org Roam is similar
+  - Recent version of Korsakow was developed by a Java programmer
+
+- Currently between Berlin & Hamburg
+- Happy to observe
+  - LV: Common interest: "horizontal note-taking"
+  - ‘Horizontality’ = a theme we can discuss today
+- Org Roam demo for next time
+
+** JC
+- Spent most of the day cleaning
+- Feeling peaceful and zen after cleaning
+
+* Meta points
+
+** DONE Don't forget to record the session                              :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- High-level overview of ERG stuff for Florian
+- Why are we not using Org Roam as much?
+- Finalize EmacsConf proposal
+  - =<3=
+
+* Agenda (Part 1) - EmacsConf proposal
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Proposal
+
+*Talk title:* "The ship that builds itself: How we used Emacs to develop
+a workshop for communities"
+
+*Talk abstract:*
+
+*** 5-10 minutes:
+
+We’ve created *a day-long activity* to bring people together around a
+topic of *shared interest*.  We use a scenario-development and
+exploration process to break down boundaries, help participants better
+understand their common ground, and discover the right tools to
+continue working together.  We’ll give an overview of the discoveries
+we’ve made in a two recent pilots related to public space and future
+studies.
+
+*** <20 minutes: (brief description/outline)
+
+/[All of the above and...]/
+
+We reflect on how *technology* — including further evolution of Emacs —
+could help make collaboration *methods* even more effective at
+addressing bigger problems, with bigger groups.  Note-taking with CRDT
+helps us practice ‘active listening’ in our meetings.  Thinking about
+other affordances of Emacs, we’re excited about how *data analysis* and
+more structured interaction patterns could aide in going back over our
+old thoughts and getting more out of the time we spend together.
+
+*** <40 minutes: (brief description/outline)
+
+/[All of the above and...]/
+
+Lastly, we’ll bring these ideas together to introduce our *plans for a
+day-long workshop specifically for Emacs* users and developers, to work
+together to imagine the future of Emacs.  Of course, in this setting,
+participants will again have a considerable technical common ground,
+and the community already has a long history of collaboration.
+Nevertheless, Emacs presents both challenges (especially for new
+users) and interesting opportunities.  We hope to get your feedback on
+the kind of workshop you’d be excited to attend, before we run it (in
+about a month!).
+
+** Feedback & outtakes
+*** FT: Feedback 1
+- A shell, system, that can hold all kinds of workshops & collaborations.
+- We apply it to a workshop w/ a topic from people who want to run the workshop.
+  - It’s more about the method (for the workshop)...
+  - We could do it for any topic (= content)
+
+*** LV: Feedback 2
+- Group of maintainers to support each other, making it less lonesome
+
+*** "5-10 minutes" outtakes / extra info?
+
+For us, *Emacs provides a common ground*, but not everyone uses it.
+
+Indeed, we could run our meetings with other tools or conduct them in
+person without using software at all.  Maybe the next generation of
+tools will make our meetings work even better!  But so far, our way of
+running the meetings has far outweighed any flaws of the tools, and
+has allowed us to find a joyful way of working together.  We wondered:
+could we share this way of working with others?
+
+*** "20 minutes"  outtakes / extra info?
+
+We’ll dive the workshop design, and how it relates to the structure of
+our weekly meetings.  Both are social processes that scaffold group
+creativity, but in our meetings we can lean on a shared history.  In
+the workshop, we aim to scaffold brand-new collaboration patterns.
+More specifically, we use a process to develop collaboration through
+creative interaction with peers, with the bare minimum of top-down
+teaching.
+
+*** NA: _Convert questions into statements, that will make it stronger._
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - Catch up on life stuff + work on the "making of"
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Chaos
+- Kindness
+  - LV: I abhor interruptions!  Took a breather, and will be getting something to eat.
+
+** Background
+
+#+begin_quote
+The three of us met for the first time at EmacsConf 2020, and have met
+almost every week since then to talk about Emacs and research!  We’re
+still energised about this topic two years later.  We wondered:
+
+- *What would it take to energise other people in a similar fashion?*
+- *People who, by default, are not Emacs users?*
+- *People who, perhaps, have never met before, but who in their first meeting discover that they have common concerns?*
+#+end_quote
+
+** Questions-to-statements conversion
+
+*** *What would it take to energise other people in a similar fashion?*
+
+  - How we get energised!
+
+     - The workshop is a result of our experience interacting with each other on a regular basis, given our different backgrounds
+     - But we did have a common ground when we got together
+
+  - As we worked, we came up with the theme of "_light creative work_".
+
+  - Enough personal engagement at stake that you feel invested, but not too much so that you feel too stressed about it.
+
+*** *People who, by default, are not _Emacs_ users, but who have something else in common?*
+
+- Could the method we use speed up that process?
+
+  - Increase stickiness for at least some people (like ERG & like the international peeragogy group vs the Berkeley folks)
+
+- Maybe the "double" common ground is what does it for us?
+
+- It’s important that they start with something, a fundamental common link (e.g., "public space").
+
+  - If we realise that there’s something here that’s an important priority for some of the participants they are going to want to get traction on it
+
+*** *People who, perhaps, have never met before, but who in their first meeting discover that they have common concerns?*
+
+- Phase 1 is building the *Myth* layer which is an understanding of the common ground
+- Phase 2 is about moving from that into *effective action*
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- "Suprise" guest.
+- We’re all stressed out for different reasons which have nothing to do with ourselves or the meeting.
+- None of us checked in properly!  Maybe we all had our shoes on for this meeting.
+
+*** 2. What are some different perspectives on what's happening?
+- LV: Low on energy after the pool
+- We would have all wanted a chilled meeting
+- If we’d known a bit more about what was going on it would have shifted perspective
+- We did an OK job going through the EmacsConf proposal contents
+
+*** 3. What did we learn or change?
+**** [#1] If there are special guests let’s be sure to share that info in advance clearly
+- Let’s not change the makeup within the week, it would be good to have at least a week of lead time
+  - JC: if I had this in mind it would have acted like a ratchet to block changing the line up right away
+
+*** 4. What else should we change going forward?
+- Better to have 30 minutes to chill out and check in properly...
+- Let’s not over-refine the paragraphs above, we can refine the message when we actually give the talk
+- Post-September will help us catch breath!
+- EmacsConf will inevitably be presenting work-in-progress
+
+* Tentative agenda for next week
+- Florian is available, would be good if we could meet during 2nd hour
+- Good to spent 1st hour (ERG) preparing for 2nd hour (guests)
+  - Suggested homework: digest Florian’s 20m presentation (you can do it in 10 minutes at 2x speed)
+  - [[https://www.youtube.com/watch?v=KEnBYi2HY5c][The Way We Tell Stories – Florian Thalhofer @ iDocs - YouTube]]
+  - Good check of maturity of our language
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going lunch at Hmart (Korean supermarket’s food court)
+  - LV: Uniqlo
+
+** JC
+- Plan is to go make an apple pie...
+- Even though the meeting was tense, it felt like a good life lesson.  Communicating clearly might be a good path forward.
+- Getting ready for family call...
+
+** LV
+- Late checkin: I have a bike now and had my first crash on Day 1
+- Body is feeling ouchy
+  - NA: If I feel stressed it shows up as arthritic flareup
+- Pool has said the folding bike can’t go inside, so I’m looking for a beater bike that feels safe to lock up at the pool... I did send a letter to the management.  I wonder if the ecological objectives of the government are being flauted...
+  - JC: Sounds like a ‘public space’ issue with the bike racks not being safe!
+  - If you leave it in the bag it looks like a bomb
+- Exhausting week, EmacsConf stuff
+- Hunting for bikes currently (€40/£/$).  Clinching a deal on a Dutch bike that’s in Paris... but this weekend is bad, I’ll go tomorrow and potentially cycle back over 3 hours?
+  - JC+NA: Be careful!
