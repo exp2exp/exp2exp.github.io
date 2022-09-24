@@ -1,0 +1,456 @@
+#+TITLE: 24 September 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-09-24 Sat>
+
+* 24 September 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- How they say: people look at truth from different angles. I want to anticipate how that happens in the workshop, even though the experts come from different backgrounds.
+- Something to think about!
+- Liked Snus and their features; they still have in-and-out directionality, rather than it being directionless.
+  - LV: I think this introduces narrative direction.  This is different from nodes, which aren’t inherently in a direction.  I think that Korsakow is oriented towards producing one output, whereas slipboxes can produce many outputs due to having the other explorations.
+  - NA: Is it good if things just keep growing?  If we’re not creating meaningful links, we’re like hoarders, but we do have the tools at our disposal to actually use them; at the end you could have a nicely organised set of things out of the hoard!
+  - We’ve been using exp2exp as a hoarder would, but it would be possible to sort it according to some strategy.  *To ‘colonise’ the unorganised hoard.*
+    - JC: It’s fascinating to me that this is exactly what I’ve been working on in my main job.
+    - NA: I have a friend who’s trying to do the same thing with cybersecurity laws, working at Columbia, trying to create a taxonomy of cybersecurity recommendations.
+- Week was otherwise uneventful, woke up a couple hours ago, caught up with Korsakow stuff in the morning.
+- Friction from 2 weeks ago is over!  NB. in Persian-Gulf culture(?) if you’re engaged you’re engaged.
+
+** JC
+
+- Triangle metaphor of social groups introduced by reflecting on conversation with a systemic therapist I’m seeing.  It’s an interesting lens to use when looking at the various groups of collaborations we have.
+  - Maybe suggests a remedy to the easy pitfall of cybernetics bringing everything into the circus.
+- Explored the concept of bathable bodies of water, especially focusing on what could be done about places around him to make them qualify as bathable ("Designated Bathing Water Status").
+- Was in a focus group yesterday about AI and faith.  It was interesting because there was no intermingling between the two obvious crowds.
+  - Computer scientists can bring a lot to people of faith but can people of faith bring things to AI discussions?  Maybe faith is about philosophy... but isn’t it more about surrendering than active stuff and questioning?
+  - Everyone seemed to value this conversation and thought their voices were being heard.  However, if you just stick to the level of the conversation, nothing is going to be built.
+
+** LV
+
+- Plans to show a demo for AT & FT
+- Has a new full-sized bike that he picked up from Paris
+- A month ago I showed you the local bike lanes, but now I have 2 bikes, one I can bring everywhere except the pool and another that works as a beater; it’s 10 minutes with the bike to the pool, so it saves an hour hour.
+  - JC: These little conversations about public space have had some value for us.
+  - LV: I’ve noticed that the separate bike lanes near me are often in bad condition, so many bikes actually go on the road because it’s too uncomfortable to ride on the bike lane.  Now that I’m starting to gain some expertise with this system I’m starting to gain some expertise.  When you participate in a system you can start to have some ideas about how to improve things.  We can become actors in a system if we become more expert.
+- A little worried about money here at the end of the month, hair is nicely maintained, though had to do the back.  A shoelace came in handy.  Worked a lot on EmacsConf.
+- Things are complicated in Iran
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-09-24 Sat 16:31]
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+*** Migration to org-roam v2 for exp2exp
+- How I got Org Roam UI working with exp2exp
+*** Still have until next Friday to submit the paper could someone else do it?
+*** Organiser’s guidebook for EmacsConf is big; we have lots of other roles for later on (very detailed)
+- We could in principle do something similar with ERG
+*** Prep two pilots with Abby and Florian in 2nd hour?  Can we sell them on the concrete tech that we have?
+**** Maybe keep the workshop as a bonus, Joe can bring an Historian role for that
+**** If we want to have a meta-workshop we need to all be on the same page as far as the tech is concerned
+
+* Agenda (Part 1) — back to the talk, hopefully wrapping it up
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Lightning talk: every headline that has a link pointing to it now has an ID
+
+- Joe, you tried to port to v2 it broke publishing
+- Since we’re not really using Org Roam, ultimately we’ll want to switch to v2.
+- We won’t have the HTML published, but we’d be able to use Org Roam from =main=, and it’d be easier to experiment...
+- We’d have an easier time with things like CLA
+- We can add some other HTML frontend later, requires migrating to v2 of Org if you haven’t done so already
+- JC: Starting over with exp2exp is a good fresh start on v2.
+
+** Feature:
+
+#+begin_quote
+Talk title: "The ship that builds itself: How we used Emacs to develop a workshop for communities"
+
+Talk abstract:
+
+5-10 minutes:
+
+After meeting at EmacsConf 2020, and since then convening weekly as
+the Emacs Research Group, we gained a lot of experience working across
+disciplines.  Building on our long-running small-group experience, we
+developed a strategy for engaging others in the kind of light creative
+work that we value, because we want to share our patterns for building
+effective joyful action.
+
+Our new day-long workshop brings people together around a topic of
+shared interest.  We use a scenario-development and exploration
+process to help participants understand their common ground, and
+discover new ways to work together.  In this talk, we will give an
+overview of recent workshops we’ve run, on themes linked to public
+space and future studies.
+
+<20 minutes: (brief description/outline)
+
+[All of the above and...]
+
+Looking back at our recent pilots as a source of evidence, we’ll look
+at whether and how the methods we used helped people quickly identify
+core themes that they want to keep working on together.  While we
+don’t expect everyone to meet weekly like we did, we do expect that
+some participants will leave energised.  Underlying the workshop is
+the claim that the right combination of methods should help people
+find topics of priority that they want to get traction on it, for
+example, breaking down a topic like "public space" into doable actions
+like cleaning up an abandoned lot.  Does the evidence so far support
+this claim?
+
+We also reflect on how technology — including further evolution of
+Emacs — could help people be even more effective at identifying and
+addressing challenging problems.  As a small example, note-taking in
+real time with CRDT helps us practice ‘active listening’ in our
+meetings and gives us a detailed record of what happened that we can
+return to for further reflection and analysis.  As we think about the
+other affordances of Emacs, we get excited about how more advanced
+data analysis and more structured interaction patterns could aid in
+going back over our old thoughts and getting more out of the time we
+spend together.  One potential application would be forming bridges
+between the different community groups we work with.
+
+<40 minutes: (brief description/outline)
+
+[All of the above and...]
+
+In our workshop design, Phase 1 is a descent to a shared Myth, which
+comprises an understanding of common ground; Phase 2 is about moving
+from that into effective action.
+
+We’ll bring these ideas together to introduce our plans for a day-long
+workshop specifically for Emacs users and developers.  We want to work
+together to imagine the future of Emacs.  In this setting,
+participants will begin with considerable technical common ground, as
+well as community with a long history of effective collaboration.
+Nevertheless, Emacs presents both challenges (especially for new
+users) and many interesting opportunities.  This talk constitutes an
+invitation, and we hope to get your feedback on the kind of workshop
+you’d be excited to attend, before we run it (in about a month!).
+#+end_quote
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - Discussion of Org Roam features
+:PROPERTIES:
+:Effort:   0:20
+:END:
+** Checkin from/with newcomers
+
+*** LV
+- Summing up Emacsconf from last week
+- Exploring what was possible with Obsidian, Org Roam, Roam Research -like software
+*** AT
+- Here for 4PM, but calendar said 3PM
+*** FT
+- Doing super
+*** JA
+- Initially here with headphones only?
+
+** Presentation of slipboxes, going more into technical stuff
+
+- We previously checked out the common ground with Korsakow, and his thinking about narratives
+- We can show you now what Org Roam does, and why it makes it easy for us to develop any kind of workflow
+- We have individual SBs
+
+** Demo Part 1
+
+- We have files with unique titles
+- We can display a fancy collection of constellactions
+- E.g., you can click on a note and see the connections coming out
+- Looking at "note-taking" in Emacs we get an update of the files connected to "note-taking"
+- These kinds of tools allow you to link things together
+- But we have a different collection of notes for our meeting notes; with a very different collection of things
+- In the ERG meeting collection we haven’t been good about creating links between things.
+- But we have clusters of things which are almost forming molecules
+- These clusters seem more salient, i.e., they are referred to a lot
+- This can show us where we are getting a lot of concepts.
+- [[file:exp2exp.github.io/src/cla-20-february-2021.org][CLA 20 February 2021]] is a good example that links to a lot of things
+- We could similarly do that with the meetings since then
+- There’s a difference between Leo’s collection of notes and the group’s collection of notes
+- We’d like to be able to move from individual to collective within the scope of this grant
+
+** Demo Part 2: starting with a blank repo
+- E.g. a blank Index
+- AT: In the directory, is that offline or housed online & automatically connected to the constellation?
+- LV: It’s a web application but not necessarily running live online.
+- However, this type of stuff could be hosted on the web, you’d be able to see the same page.
+- For now it’s just a directory of notes; there’s no "nice" way to move things from place to place, it currently has to be moved from place to place manually.
+- The database is a bit like a black box, we send *queries* & get *answers*
+  - Our file system can be thought of as being a bit like that (even though we’re not used to thinking about it that way)
+- We can use this to talk about creating the *Workshop 1*, and making a trace of the things we do, and identifying the patterns
+- E.g., we might have meeting notes of what was discussed.  This is initially just a blob of text.  But what if we link to *Pattern A*.  Now we’ll have workshop 1, creating a link to a file called =Pattern A=.
+- During the workshop we also found *Pattern B* could be used in other settings.
+
+- JC: But here there’s no distinction between "Pattern A occurs in this workshop" and "Pattern B would be good to try in some other setting".
+
+E.g., "bike lanes" and "private gardens" might be subject to the same pattern.
+
+- We have "vertical" chronological retelling
+- We can also contribute to "horizontal" collections of patterns.
+
+** AT: utility in workshop
+- Familiar, building links
+- Taking a summary to build the nodes that allow the connections to be useful
+- But you might have a lot coming out of a workshop that takes a lot of work
+- Can we refine the things so that it’s democratic, vs being quite heavily curated by someone who knows.
+
+*** LV
+- Org Roam is (currently) very dependent on human interaction to make the connections.
+- There’s a lot of chaos brought by the methods; some chaos/disorder is useful b/c it creates opportunities for different paths.  "I definitely think I can relate note-taking to archiving, or Zettlekasten to Korsakow.  They have a similar approach to horizontality."
+- How could we automatize & suggest links?
+- NLP?
+- Bare minimum is to look at the number of links, but we could also analyse the text of the notes to create links or create salience.  Let’s say, within those orphans that we have *Emacs*, we could link them on that basis
+- Tags can be added, and we could introduce salience from the notes, e.g., getting a visual cluster around the cluster of notes, "this is the island of Zettlekasten"; "this is the island of meeting notes"
+- We can ask humans to provide meaningful information, or the computer could supply *tags*, *links*.
+- E.g., computer decided, human aided clustering?
+
+** AT Taking this to the workshop
+- Would we have someone in the group making clusters, then we start to find clusters at the higher level
+- We have the "Analyst" role who could enter the information, e.g., every time they enter 500 characters it can go through this process of computer aided & human decided.
+
+** FT Thanks
+
+- The presentation was clear and detailed
+- So, Abby’s question about how to conduct the workshop
+- Working across, e.g., *public space* and *climate change*
+
+- JC: Scribe, a technician, or one of the participants
+- FT We can be using the expert system so it could be hard to learn how it’s doing, I’d recommend that you do this as technicians
+- I wouldn’t understand this system if I hadn’t spent a week with it
+
+** LV The importance of plain text
+- This could take significant place in a demo, when you go down to the zeros & ones...
+- Thinking about the future is what you see on the right (Org Roam UI); this is where the meaning is easily approached.
+- Clusters, constellations, these concepts are easily approachable
+- If we just had a text box on the web page...
+- When I look at the interface, for me it would be difficult to handle the system if I didn’t know it in depth
+- If we had a workshop with experienced users / we could ask them to enter the data...
+- But my question is, when you’re looking at the *graph*, are you looking at the graph often?
+
+Notions of salience... the plain text isn’t going to include information about *salience*, or by having a visual representation.  E.g., relationship, clustering...
+
+I already know that some files are being linked together, but if you can use some other suggestion...
+
+If I only do the change in the software, I won’t understand it without seeing it.
+
+- The before & after...
+- E.g., dreaming about connecting the red nodes in some form of narrative
+
+- How we make the stuff is something that we dwelt on, but today we’re not selling the Emacs software; we want something that won’t require advanced software skills
+
+** AT longitudinal interactions
+
+- E.g., different actions within the city
+- How can the software help maintain the workshop catalyst longer than just during the workshop?
+- A picture on a board wouldn’t do that.
+
+- E.g. the constellation that we made together... we could have different files...  if we are using the tool to run the workshop, we could have a collection of notes related to the 1 workshop, e.g., the cluster could be input.
+- A node can be made as complex as needed, e.g., if we need the chronological retelling, we can have that; we can have a cluster alongside... [JC, or tags]
+- And any of these things can be used 
+
+** What’s needed for people to contribute in the weeks and months after?
+- How do we capture that action in something like this?
+- E.g., reporting back to the constellation or cluster as a whole...
+- JC: there’s an anonymous email reporting mechanism that we could maybe repeat
+- The collection that we take is somehow supposed to follow people through their career, e.g., following people after the workshops that they participate in
+
+** AT Another question
+- If someone takes *Pattern A* and enact it in their environment, what’s the capacity to enable evolution of the patterns themselves?  E.g., changing and reshaping of existing nodes.  Is there an ability to have historic nodes that layer on top of each other, almost like saved files?
+- LV: The short answer is yes.
+  - The cool thing is horizontality, we can iterate over Pattern A...
+  - We can have multiple files w/ the same name
+  - You can have the map before and map after
+  - E.g., to go back to Jan ’22
+
+- And, what if you only want to show the nodes that have been modified since Jan ’22?  It’s just text and just a matter of showing the filtering functions
+
+- Ecological references, e.g., mycorhyzzae under the roots of trees... what looks like a healthy constellation system?  It looks like the dense soil structure, you can see versions that get healthier 
+
+- JC: No way to display verticality in the system right now.
+
+* Notes
+
+#+begin_quote
+Noorah Alhasan
+4:27 PM
+
+Also the file that Leo just created is done through a custom template that is created through org-roam, and it is possible to create multiple types of templates that will still be readable by org-roam
+
+Noorah Alhasan
+4:28 PM
+
+Think of anything that begins with "#+" as a property or a column in a spreadsheet
+
+judith aston
+4:51 PM
+
+it's the same as with Korsakow!
+
+judith aston
+4:53 PM
+
+Contributors submit clips, Florian enacts the magic by putting them into Korsakow, and and contributors see their clips mirrored back at them in new and surprising configurations
+
+judith aston
+4:54 PM
+
+Our next step in the polyphonic documentary project is to attempt to enable contributors to put these clips into the system themselves
+
+judith aston
+4:55 PM
+
+but it's likely that only some will take to it with relative ease
+
+judith aston
+4:55 PM
+
+exactly!
+
+judith aston
+4:58 PM
+
+the non-linear clusters are also documentary in our expanded sense of the term
+
+judith aston
+4:59 PM
+
+documentary/documentation - blurring the line between these
+
+Abby
+5:00 PM
+
+Eactly!
+
+*Exactly
+
+udith aston
+5:05 PM
+
+being able to easily review previous versions would be helpful - we struggled with this when working on the project that's currently on the website. Only the developer can see this at the moment - it's in Florian's head and less accessible to us as collaborators.
+ju
+judith aston
+5:06 PM
+
+this is why I want to learn to use korsakow to experience what florian experiences for myself - and to see how I find it!
+ju
+judith aston
+5:07 PM
+
+well - or to experience the software for myself - there will be some separation between florian and the software!
+#+end_quote
+
+
+** Next steps
+
+- In October, possibly getting people hands-on and seeing what happens there, but if we’re asking participants coming in... e.g., having the role to document, as well as being stripped of your expertise... we may want to be wary of asking too much for them
+- Needs to be safe enough to do something weird
+
+* Debrief
+
+- NA: I have some ideas about ways to resolve these things
+- The participant should know how to input text into a webpage, and they can also upload a photo
+- This means that maybe we can create a website where you just dump up to 500 characters at a time, and it’s just a text box, super basic.  This is all they see.  The max they can put is some smallish number of characters.
+- This is then fed into an Org Roam unique template for each participant, and they will be tagged; we’ll have a repo that will collect all of these atomic texts
+- And then hopefully coming up with the algos tho filter out these fields to come up with the connections  (this is the hard part).
+- It will be easy enough to do it on mobile, on their smart phones, while they are communicating... typing what they are thinking on their phones, that goes straight to the repo...
+- If we know what’s going on under the hood, then we can analyse the data, it’s the model that creates the link & the network gets updated
+
+- AT: I think I follow, and from my mind, that’s possibly ultimate democracy, everyone has a hand, there’s no filtering from the level of the group.  The democratic process can happen further up.
+  - JC: But you could build sub-groups into the model?
+
+- How much of a demand does this place into the model?
+
+- NA: If I’m part of group A, it will know that I’m part of group A.  So there will be a distinction.
+
+- Within that, rather than having a designated scribe
+
+- JC: The scribe could be like a narrator in a stage play, but you very much need the other characters; the scribe can’t know what’s going on in their heads.
+
+- LV: Lovely design ideas, though I have to temper expectations; there are some things that are easy to do, and some things are within the realm of possibility.  The problem is, given the timeline until the end of December, we’ll have to make concessions of one form or another.
+
+- Everything that we’re doing with Org Roam works because Org Roam works; but we could go further with the ideas without requiring Emacs to be the center of the ecosystem
+
+- It will work fine for a few workshops, but it can’t be the perennial solution...
+
+- Designing this is something... but developing it will take time, and take a lot of time and money... so it’s not totally clear what’s possible by the end of December
+
+- We can work on the methods for the workshop; we can collect and display notes via Emacs magic w/ one weekend of work; but beyond that baseline, what else do we want to achieve as the technical outcome of the workshop?
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- JC: We had a shorter org-roam by LV at the start (heralding what we were ), and we had another look at the talk for EmacsConf; i.e., very much the practical version of that.
+
+*** 2. What are some different perspectives on what's happening?
+
+- JC: This was a more productive meeting than last week I think!
+- LV: It was interesting to have 6 people, we’ve usually have smaller groups, the 2nd half was more professional
+- We felt it was important to do the usual stuff in h1, otherwise we’d feel pressured to cram everything in.
+- Nice use of the 2 hour format
+- JC: Whilst was demoed was very cutting-edge, we should probably think about long-term financing.
+
+*** 3. What did we learn or change?
+
+- JC: Technical criterion of follow-through on action
+
+- LV: Changing tech at the last minute was a bit stressful!  Glad I managed to do so.
+
+- With EmacsConf, we’re doing 15-20 hours of work for a conference that will happen in 3 months, to give an idea of how much we’ll be prepared.  I was using OBS...
+- Sharing my entire 4K screen was choppy, and I have a lot happening.
+
+- But Judith couldn’t join with audio
+
+*** 4. What else should we change going forward?
+
+- JC: Let’s be aware that we used 2.5 hours this time.
+- Noorah’s getting editing on the talk
+- Ideal to have a weekly meeting with Abby leading up to the workshop in October, maybe have a 1-1 early this week and plan a Friday meeting if that’s possible
+- We need dates, number of participants, and sticking to that
+- Noorah started a "workshop protocols" file (e.g., if Florian will be there)
+- Thursday 3:30PM Britain, 9:30AM Central with hard stop at 11:00
+
+* Tentative agenda for next week
+
+- Two pilots: tech & the other one
+- Costings and time, how much can we achieve... what would be a workable time amount
+- I’ll need at least 10h per week and enough money to sustain myself until December; either I have the money via this and other endeavours
+- £2K-3K might be the lower end of doable, but more money would allow
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Gonna go get lunch.
+** JC
+- I’m a bit late for family call
+- Had a really great and fun day prior the meeting by going to the market
+- Thanks Leo for the presentation
+** LV
+- Gonna go get dinner.
+** AT
+- Thanks all of you!  That was an awesome overview,
