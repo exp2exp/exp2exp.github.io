@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       dbb23f8e-a5a0-4f7f-8186-b39885bad80e
+:END:
 #+TITLE: Identify potential stakeholders in Emacs Research
-#+roam_tags: TO
+#+filetags: :TO:
 
-- [[file:../hel/extensions_beyond_emacs.org][Extensions beyond Emacs]]
+- [[id:5b4234bf-8700-4e67-83bb-07ce31ed1096][Extensions beyond Emacs]]

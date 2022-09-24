@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       d326b1d8-8a66-47a6-b089-8e17b683e047
+:END:
 #+TITLE: Develop our own intention-based workflow
-#+roam_tags: TO
+#+filetags: :TO:
 
-- [[file:keep_exploring.org][Keep exploring!]]
-- [[file:continue_to_develop_and_refine_our_methods.org][Continue to develop and refine our methods]]
-- [[file:create_some_publication_to_plant_a_flag_for_our_group.org][Create some publication to plant a flag for our group]]
+- [[id:8d776aef-da28-49a3-8d40-4bafcf43d2d8][Keep exploring!]]
+- [[id:2bcd9920-1926-4f0a-b47e-4c2f4ef5c03d][Continue to develop and refine our methods]]
+- [[id:bf00cdbd-6e60-43ae-97f9-527c277c5e00][Create some publication to plant a flag for our group]]

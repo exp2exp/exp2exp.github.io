@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       f1180b7f-a57a-4d38-b104-b7366da24e97
+:END:
 #+TITLE: Scientific software developers
-#+roam_tags: SH AN
+#+filetags: :SH:AN:
 
 We imagine some software developers consuming “tutorial” content we
 produce, and improving their skills and abilities as a result.

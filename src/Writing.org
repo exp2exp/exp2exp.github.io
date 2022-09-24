@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       84d108a1-a053-462b-ad4c-ad41bf13fd45
+:END:
 #+TITLE: Writing
 #+FIRN_LAYOUT: sketchbook
 

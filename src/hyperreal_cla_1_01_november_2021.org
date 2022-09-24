@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       3d812f5d-32eb-4ff7-a07d-8b5db73b217c
+:END:
 #+title: Hyperreal CLA #1 01 November 2021
-#+roam_tags: HL
 #+LATEX_HEADER: \hypersetup{frenchlinks=true}.
+#+filetags: :HL:
 
 Using the principle of ‘adapting wholes’ from Christopher Alexander,
-I’ll start with [[file:cla-16-october-2021.org][CLA 16 October 2021]] from ERG.  There are plenty of
+I’ll start with [[id:732219c0-9784-4593-b781-b82e54e948ce][CLA 16 October 2021]] from ERG.  There are plenty of
 overlaps in terms of people and processes.  However, this will need
 considerable adaptation to take into account the data we’ve been
 gathering in our Discord (incluing PARs by Joe and Alex).

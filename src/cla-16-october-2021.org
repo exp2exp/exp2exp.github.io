@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       732219c0-9784-4593-b781-b82e54e948ce
+:END:
 #+TITLE: CLA 16 October 2021
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+roam_tag: HI TO
@@ -67,10 +70,10 @@ we use this tool along with other methods.
 # erg-2021-10-09.org 31
 
 This CLA refines the previous drafts:
-- [[file:cla-16-january-2021.org][CLA 16 January 2021]], which covered Episodes 1-6,
-- [[file:cla-20-february-2021.org][CLA 20 February 2021]] which covered Episodes 7-12, and
-- [[file:cla-12-april-2021.org][CLA 12 April 2021]], which covered Episodes 13-18.
-- [[file:cla-29-may-2021.org][CLA 29 May 2021]], which covered Episodes 19-24.
+- [[id:eba531ea-7a47-4dba-bdd5-045d27cf0033][CLA 16 January 2021]], which covered Episodes 1-6,
+- [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 20 February 2021]] which covered Episodes 7-12, and
+- [[id:8cfb334a-4176-4fa2-ac2f-8efff5f3c842][CLA 12 April 2021]], which covered Episodes 13-18.
+- [[id:4b759839-5721-41e8-bce7-04606183bfc9][CLA 29 May 2021]], which covered Episodes 19-24.
 This one includes data from Episodes 25-31.
 
 * Objective for this session
@@ -370,7 +373,7 @@ emissions or something like that.
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2020-12-02.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
 ***** [[file:erg-2020-12-19.org::*Felt a degree of coherence][Felt a degree of coherence]] :ep3:
 ***** [[file:erg-2021-01-02.org::*This could turn into a grant (be careful!)][This could turn into a grant (be careful!)]] :ep4:
 ***** [[file:erg-2021-01-02.org::*Virtuous circle of reflection.][Virtuous circle of reflection.]] :ep4:

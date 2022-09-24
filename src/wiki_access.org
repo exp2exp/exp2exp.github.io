@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9a554d2d-19cc-4066-b092-4d55f08e9f75
+:END:
 #+title: Wiki: Access
 
 Obtain the sources by cloning the repo at [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].

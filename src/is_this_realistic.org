@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c239828e-f153-403a-a6bb-7b687130911d
+:END:
 #+title: Is this realistic?
 
 * Joe’s plans for 2021-2022
@@ -10,7 +13,7 @@ Aiming for approximately quarterly journal submissions.
 - Arandas et al. project to target /Philosophy and Technology/ journal
 - Baruzzi and Corneli to target /Leonardo/ journal
 - Murphy project to be written up (venue TBD, possibly also reusing material from Joe’s “Serendipity and Big Data” workshop presentation and associated preprint)
-- From December: focus on a paper related to [[file:arxana.org][Arxana]], tentatively for the International Conference on Functional Programming or IJCAI.
+- From December: focus on a paper related to [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]], tentatively for the International Conference on Functional Programming or IJCAI.
 
 This seems doable but ambitious.
 

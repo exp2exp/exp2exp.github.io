@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       75878b0d-59a5-4b88-9870-6a510a975468
+:END:
 #+TITLE: Consulting clients
-#+roam_tags: SH AN
+#+filetags: :SH:AN:
 
 We discussed the idea of doing consulting for clients who are
 interested in using scientific models.

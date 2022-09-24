@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ec547f33-d6fb-4dda-9ece-f0221f9e33c9
+:END:
 #+title: Wiki: Org Roam setup
 
 * Basic setup

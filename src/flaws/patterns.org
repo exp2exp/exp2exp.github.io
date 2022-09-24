@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       99ac2bf0-17d1-4b0b-a4f8-70a38944dfd4
+:END:
 #+TITLE: Designer’s Handbook: ‘Cooling the commons’ design patterns
 #+OPTIONS: broken-links:t toc:t
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e20d3ef4-e2cd-467b-a650-ce392cf695ad
+:END:
 #+TITLE: 11 June 2022 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 #+roam_tag: HI

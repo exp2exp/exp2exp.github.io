@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       a868bf85-3040-4bdc-942b-37be1a4e39a7
+:END:
 #+TITLE: Category theoretic glue
-#+roam_tags: CDN
 #+CATEGORY: MATH
+#+filetags: :CDN:
 
 We want to develop enough theory that we can use it to frame our
 experiments.  We are trying to do this in a computationally meaningful way.
@@ -9,5 +12,5 @@ experiments.  We are trying to do this in a computationally meaningful way.
 
 * Next steps :noexport:
 
-- [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
+- [[id:7b40f31f-5816-4254-9733-e4fa1386e499][How to Design Programs]]
 

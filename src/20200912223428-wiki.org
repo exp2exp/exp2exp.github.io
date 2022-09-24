@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f55bb496-6ce8-44fb-887f-a423972bfa73
+:END:
 #+TITLE: Wiki
-#+roam_tags: MAI AN
 #+CATEGORY: MAI
+#+filetags: :MAI:AN:
 
 #+COMMENT: OLD CONTENT:
 #+COMMENT: The public facing version of these notes is available on a simple
@@ -24,9 +27,9 @@ like [[https://metacademy.org/][Metacademy]].  For now, we describe how to use t
 based wiki.  A few sub-pages provide technical details needed for a
 one-time startup.
 
-- [[file:wiki_access.org][Wiki: Access]]
-- [[file:wiki_org_roam_setup.org][Wiki: Org Roam setup]]
-- [[file:wiki_pairing.org][Wiki: Pairing]]
+- [[id:9a554d2d-19cc-4066-b092-4d55f08e9f75][Wiki: Access]]
+- [[id:ec547f33-d6fb-4dda-9ece-f0221f9e33c9][Wiki: Org Roam setup]]
+- [[id:301e4bca-e388-467c-abe8-4580dffd4e15][Wiki: Pairing]]
 
 Now on to some of the more day to day topics, issues, and concerns!
 
@@ -69,7 +72,7 @@ from across the wiki.  It would be absolutely worthwhile to sort these
 =TODO= items based on their doability, and try to reorganize the
 document-oriented linearisation along the same lines.  (Joe said some
 more about managing =TODO= items in narrative terms within the notes on
-[[file:week_19_april_2021.org][Week 19 April 2021]].)
+[[id:58c5813a-0dce-43fa-8bd9-275f4e916672][Week 19 April 2021]].)
 
 * Publishing to the web
 

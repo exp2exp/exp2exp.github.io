@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6a9dbef6-212c-484a-ad8c-ebc009cd29a5
+:END:
 #+TITLE: Workshop outline 15/07
 
 #+BEGIN_EXPORT LATEX

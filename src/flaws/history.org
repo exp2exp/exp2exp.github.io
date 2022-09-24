@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cca5ae9c-a23f-4260-9823-8f1a5ff3b2ae
+:END:
 #+TITLE: Historian’s Handbook
 
 * Credits

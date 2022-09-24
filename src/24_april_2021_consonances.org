@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       f824e29a-ae1b-4768-84cf-d3b98fd801b3
+:END:
 #+title: 24 April 2021 — Consonances
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript
 #+DATE_CREATED: <2021-04-24>
 #+AUTHOR: Joe Corneli
 
-I’m looking at pages like the [[file:20200810131435-hyperreal_enterprises.org][Hyperreal Enterprises: Roadmap]] and [[file:20200810132653-top.org][Top]]
+I’m looking at pages like the [[id:ff606adf-3ec7-49a3-a7b7-3c12847ac35e][Hyperreal Enterprises: Roadmap]] and [[id:420fa6ad-57b3-419e-869c-1655898e3260][Top]]
 to reorient myself to what we said when we first created this wiki.
 I’m thinking about how what we’re doing may be /actively opposed/ in some cases,
 not simply difficult.  My sense is that some of our historical difficulties may

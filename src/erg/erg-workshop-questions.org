@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5ffb1225-cad5-4ab4-b684-a081481ed0e9
+:END:
 #+TITLE: CLA questions for workshop
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 #+roam_tag: HI

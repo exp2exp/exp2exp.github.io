@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a30cce0d-cdb2-4449-8f48-4cb5142aa148
+:END:
 #+TITLE: Study with agent-written questions
 
 Can agents come up with questions to ask about a given question that
@@ -11,6 +14,6 @@ what the author was actually trying to say.”
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905132334-an_abm_of_the_computer_programming_domain.org][An ABM of the computer programming domain]]
+HEL topic: [[id:53c8b53b-9cd3-4122-b6bd-9c8a517aa6bf][An ABM of the computer programming domain]]
 
-Next: [[file:publication_ijcai.org][Publication: IJCAI]]
+Next: [[id:aa60f881-85e0-48a1-ac9a-5f4fafe352aa][Publication: IJCAI]]

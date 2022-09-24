@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       6058a324-285a-4d18-8d01-3801c7f9dab3
+:END:
 #+TITLE: Upstream
 
 This is a place to keep track of the upstream tickets we’re interested
 in.  Our ability to resolve some of these issues might suggest that we
 have an ability to deliver things that are useful to other people and
-would therefore be a step in the direction of [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]].
+would therefore be a step in the direction of [[id:1e950c7d-db6d-4082-80e2-c744c984c219][BUSINESS DEVELOPMENT]].
 
 * emacs-jupyter
 

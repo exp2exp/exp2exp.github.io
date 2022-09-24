@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       26c23748-9d41-4b6d-af86-3fd1e403f438
+:END:
 #+TITLE: Knowledge graph
-#+roam_tags: LRD TO
 #+CATEGORY: KRR
+#+filetags: :LRD:TO:
 
 Once we have a model of knowledge from Q&A items, e.g., in the form of
 triples. we will want to be able to do something with this material.
@@ -18,11 +21,11 @@ earlier papers:
 - "Towards mathematical AI via a model of the content and process of mathematical question and answer dialogues".
 
 One possible strategy for further development would be to keep feeding
-our [[file:20201003164100-forum.org][Forum]] information into this wiki, thinking about the wiki as the
+our [[id:7550513a-ffc0-43c1-924a-02cb4670be67][Forum]] information into this wiki, thinking about the wiki as the
 basic grounds for a kind of informal knowledge graph.  This could
-potentially relate to the [[file:arxana.org][Arxana]] project.
+potentially relate to the [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]] project.
 
 * Next steps :noexport:
 
-- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
-- [[file:20200817172825-recommender_system.org][Recommender System]]
+- [[id:3c55cf7c-1dbe-4e33-b49a-6ff583db67e5][Teach arbitrary coding]]
+- [[id:181d1cba-8d5d-4292-9357-9c59eaed7884][Recommender System]]

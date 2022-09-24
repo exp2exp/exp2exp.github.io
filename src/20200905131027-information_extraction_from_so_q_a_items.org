@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       31e77b11-f921-414d-afc4-953b9210253a
+:END:
 #+TITLE: Information extraction from SO Q&A items
-#+roam_tags: CDN TO
 #+CATEGORY: ML
+#+filetags: :CDN:TO:
 
 We are attempting to extract triples from textual Q&A by using a
 Neural Machine Translation approach.
@@ -203,9 +206,9 @@ If you put leashes on these things, using solid methods.
 :ID:       2ee512d9-60cf-443c-aa3d-ef8eb42789e9
 :END:
 
-- [[file:20200905131918-knowledge_graph.org][Knowledge graph]]
-- [[file:20200810135403-advances_in_knowledge_mining_from_technical_documents.org][Advances in knowledge mining from technical documents]]
+- [[id:26c23748-9d41-4b6d-af86-3fd1e403f438][Knowledge graph]]
+- [[id:cdfd4862-f33c-4599-bc29-93557ae9288d][Advances in knowledge mining from technical documents]]
 ** BACK Refinining OpenIE approach
-- [[file:hel/refinining_openie_approach.org][Refinining OpenIE approach]]
+- [[id:c6045951-e7a7-43ba-bd31-ba3619e80af8][Refinining OpenIE approach]]
 ** BACK Analyse a small sample of examples from s.o.
-- [[file:hel/analyse_a_small_sample_of_examples_from_s_o.org][Analyse a small sample of examples from s.o.]]
+- [[id:58100894-a9fa-4217-b872-33bb5568c06b][Analyse a small sample of examples from s.o.]]

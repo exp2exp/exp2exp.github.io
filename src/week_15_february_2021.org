@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cde247c0-1916-48f3-b8e0-03d6b9478fbf
+:END:
 #+TITLE: Week 15 February 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update

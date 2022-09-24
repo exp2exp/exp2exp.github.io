@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       c030651e-9686-441f-94e2-6889ed38a7db
+:END:
 #+TITLE: Why not what
-#+roam_tags: HL
+#+filetags: :HL:
 
 Our purpose:
 
@@ -8,5 +11,5 @@ Our purpose:
 
 * Read on
 
- - [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
- - [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
+ - [[id:3c55cf7c-1dbe-4e33-b49a-6ff583db67e5][Teach arbitrary coding]]
+ - [[id:7b40f31f-5816-4254-9733-e4fa1386e499][How to Design Programs]]

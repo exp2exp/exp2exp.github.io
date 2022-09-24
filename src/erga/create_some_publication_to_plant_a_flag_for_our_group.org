@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       bf00cdbd-6e60-43ae-97f9-527c277c5e00
+:END:
 #+TITLE: Create some publication to plant a flag for our group
-#+roam_tags: TO
+#+filetags: :TO:
 
 - [[file:../stubs/survey_related_work.org][Survey related work]]

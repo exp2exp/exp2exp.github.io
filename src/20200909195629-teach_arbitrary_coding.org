@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       3c55cf7c-1dbe-4e33-b49a-6ff583db67e5
+:END:
 #+TITLE: Teach arbitrary coding
-#+roam_tags: LRD
+#+filetags: :LRD:
 
 This would be an abstraction over teaching basic programming and
 knowledge graphs.
@@ -30,5 +33,5 @@ that reimplementing it might be the best way to go.
 
 * Contributes to :noexport:
 
-- [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]
+- [[id:1e950c7d-db6d-4082-80e2-c744c984c219][BUSINESS DEVELOPMENT]]
 

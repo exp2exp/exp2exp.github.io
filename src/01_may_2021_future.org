@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9447bb0c-443b-4db8-aafd-52902f1c07e8
+:END:
 #+title: 01 May 2021 — Future
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

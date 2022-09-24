@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       ddc121cf-6c50-4d4c-b716-8b03816d441e
+:END:
 #+TITLE: Make a project analysis of active projects
-#+roam_tags: TO
+#+filetags: :TO:
 
 - [[file:../stubs/spec_out_the_emacs_based_answer_to_rstudio_roam_research_not_logseq.org][Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq)]]
 - [[file:../stubs/think_about_the_product_and_business_development_plans_for_a_multigraph_interlinking_service.org][Think about the product and business development plans for a multigraph interlinking service]]

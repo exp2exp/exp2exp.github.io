@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7deceeca-4aed-48b2-adb1-df8272a1deef
+:END:
 #+TITLE: 20 February 2021 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
@@ -7,7 +10,7 @@
 
 * 20 February 2021 — Emacs Research Group
 
-(Notes to be added here.) We also have the [[file:cla-20-february-2021.org][CLA 20 February 2021]] which is starting to collect input to progress our CLA.
+(Notes to be added here.) We also have the [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 20 February 2021]] which is starting to collect input to progress our CLA.
 
 * Checkins/News/Agenda
 - 1 hour Leo agenda

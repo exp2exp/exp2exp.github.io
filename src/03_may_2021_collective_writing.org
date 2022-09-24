@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6a6dddb4-1630-4338-bc65-ce88593965e5
+:END:
 #+title: 03 May 2021 — Collective writing
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

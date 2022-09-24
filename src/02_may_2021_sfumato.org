@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4dd04725-1d9e-4256-866a-3cee2066e687
+:END:
 #+title: 02 May 2021 — Sfumato
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

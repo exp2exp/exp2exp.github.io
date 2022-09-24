@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       0e526855-554c-483b-85c3-f6285ba641a3
+:END:
 #+TITLE: Data course
-#+roam_tags: LRD
+#+filetags: :LRD:
 
 There's a new book available from the group affiliated with STAN.  It
 doesn't go very far, but it has tons of examples.  They have data sets
@@ -63,4 +66,4 @@ linear regression, and working up to things like Lotka-Voltera model.
 
 * Next steps :noexport:
 
-- [[file:20201003205523-potential_products.org][POTENTIAL PRODUCTS]]
+- [[id:8fc71619-5773-40ae-aac0-4b15d322e140][POTENTIAL PRODUCTS]]

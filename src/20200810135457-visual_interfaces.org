@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       ef38ce3f-7db9-4f51-8477-3d1ffff62292
+:END:
 #+TITLE: Visual Interfaces
-#+roam_tags: LRD
+#+filetags: :LRD:
 
 * Graphical flow for programs
 
@@ -63,7 +66,7 @@ Server.
 :ID:       8ed6b549-0761-4f06-b478-d47e5ff1036f
 :END:
 
-- [[file:20200905132603-paperspace_do_nj_etc_collaboratory.org][Paperspace DO NJ etc. Collaboratory]]
+- [[id:a7295cc0-d8ae-40d1-a34b-72795309405d][Paperspace DO NJ etc. Collaboratory]]
 
 * Contributes to                                                   :noexport:
-- [[file:20201003205523-potential_products.org][POTENTIAL PRODUCTS]]
+- [[id:8fc71619-5773-40ae-aac0-4b15d322e140][POTENTIAL PRODUCTS]]

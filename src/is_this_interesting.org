@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       780f6d8c-ad15-402a-8f75-1efb86df7e8d
+:END:
 #+title: Is this interesting?
 
 * Applying AI to technical fields is a huge opportunity.
@@ -67,7 +70,7 @@ regular meetings, which we may record if they look likely to be
 interesting to a wider audience.  Other stuff:
 
 - We’re working on tools and processes that can improve our efficacy, for example, we gave a short [[https://github.com/exp2exp/ob-servant][talk]] at [[https://emacsconf.org/2020/][EmacsConf 2020]] about some of the Emacs-based data-and-computation wrangling tools we’ve been working on.
-- Also following up on EmacsConf we’ve started an additional weekly seminar, the “[[file:erg.org][Emacs Research Group]]”, which has been quite disciplined about taking notes, and developing a focused [[file:cla-12-april-2021.org][plan of work]].
+- Also following up on EmacsConf we’ve started an additional weekly seminar, the “[[id:11b149a2-84dd-4779-9cc6-633c8632fb6f][Emacs Research Group]]”, which has been quite disciplined about taking notes, and developing a focused [[id:8cfb334a-4176-4fa2-ac2f-8efff5f3c842][plan of work]].
 - We submitted a [[https://hyperreal.enterprises/nnexus.html][grant proposal]] (with colleagues at Oxford Brookes) to the [[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][EPSRC mathematical sciences small grants scheme]] that would support half a year of work on the data-facing part of the pipeline.
 
 

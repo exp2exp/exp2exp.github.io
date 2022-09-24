@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       16cdbd49-51ba-4ed8-a3ec-24c1b908025a
+:END:
 #+title: 21 April 2021 — Resonances
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

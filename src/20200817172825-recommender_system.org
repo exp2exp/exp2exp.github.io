@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       181d1cba-8d5d-4292-9357-9c59eaed7884
+:END:
 #+TITLE: Recommender System
-#+roam_tags: LRD
 #+CATEGORY: ML
+#+filetags: :LRD:
 
 We could consume various analyses of Stack Exchange data to make
 recommendations.
@@ -47,7 +50,7 @@ E.g., use generated answers to help identify ‘similarity’.
 * Feature: Initial import of SO for training                           :tim:
 * Contributes to :noexport:
 
-- [[file:20200810135325-advances_in_tutoring_systems_for_programming.org][Advances in tutoring systems for programming]]
-- [[file:20200905130423-agent_model.org][Agent model]]
-- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
+- [[id:58cdda7a-da0f-41bf-9387-fe474a945ca4][Advances in tutoring systems for programming]]
+- [[id:fb5b11a8-9567-47d5-b5d4-8d8abb32351b][Agent model]]
+- [[id:3c55cf7c-1dbe-4e33-b49a-6ff583db67e5][Teach arbitrary coding]]
 

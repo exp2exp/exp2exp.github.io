@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       6ea3737d-6978-47d7-b1f6-1931ead739fd
+:END:
 #+TITLE: Machine Learning course
-#+roam_tags: LRD
+#+filetags: :LRD:
 
 * Recent book
 

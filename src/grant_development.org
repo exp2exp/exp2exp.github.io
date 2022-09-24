@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       e59e6fd9-df22-489a-accd-05860bd5307c
+:END:
 #+TITLE: Grant development
 #+CATEGORY: BUSINESS
 
-One way to do [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]] could be through grant development
+One way to do [[id:1e950c7d-db6d-4082-80e2-c744c984c219][BUSINESS DEVELOPMENT]] could be through grant development
 to help bootstrap initial outputs.
 
 A sensible place to get some grant funding connected into the themes

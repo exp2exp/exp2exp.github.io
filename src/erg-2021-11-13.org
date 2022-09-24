@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       81282bf1-1912-4e26-8844-1937fcfcbb7f
+:END:
 #+TITLE: 13 November 2021 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+roam_tag: HI

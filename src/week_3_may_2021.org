@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       dfb2a8f9-4cc6-44bd-ab20-3d40f99d6475
+:END:
 #+title: Week 3 May 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -72,7 +75,7 @@ more with it.
 My guess is that I’m tired /because/ I have taken a break from the
 various ‘good habits’ I defined — by and large they should be
 restoring me rather than costing energy.  But it’s hard to do things
-like, e.g., [[file:Writing.org][write]], if I am feeling tired.  I think part of the
+like, e.g., [[id:84d108a1-a053-462b-ad4c-ad41bf13fd45][write]], if I am feeling tired.  I think part of the
 solution is to try to spend more time during the day roaming through
 the items here on Exp2Exp, so that I have the sense of being prepared.
 The other thing is to add in more wind-down time in the evening.
@@ -93,7 +96,7 @@ a background process, though that sounds a extremely dubious.  (I
 wonder if they are recorded?) Or, maybe I should just go ahead and
 attend it this time if I’m still feeling under the weather.
 
-Other than all this, I’ll have some meetings on Friday to revisit the [[file:clustering.org][grant]] that went in while ago.
-And there are a few other writing projects I’d like to get started on.  In the big picture, I think [[file:arxana.org][Arxana]]
+Other than all this, I’ll have some meetings on Friday to revisit the [[id:95a530b6-8e42-434d-b9b9-8efbdbcb83a1][grant]] that went in while ago.
+And there are a few other writing projects I’d like to get started on.  In the big picture, I think [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]]
 is what’s most in scope this quarter, since I want to be working towards another small proposal about that.
 

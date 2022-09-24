@@ -1,4 +1,7 @@
 * Agenda
+:PROPERTIES:
+:ID:       8593e5c4-7997-4935-bfef-1bc40c517efa
+:END:
 
 ** Preliminaries
 - Discord will be open on Abby’s laptop in a few minutes

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f46b9378-d4f4-40e0-bb52-133e9fdeec5a
+:END:
 #+TITLE: Research & Emacs 02 Dec
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI

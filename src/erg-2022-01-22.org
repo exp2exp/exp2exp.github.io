@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       30ad2f67-0ca8-408c-a911-8c77cfdd1a43
+:END:
 #+TITLE: 22 January 2022 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+roam_tag: HI

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       5326088d-bc10-4801-96df-ba703dc9f656
+:END:
 #+TITLE: Identify stakeholders in the kind of activities we can support
-#+roam_tags: TO
+#+filetags: :TO:

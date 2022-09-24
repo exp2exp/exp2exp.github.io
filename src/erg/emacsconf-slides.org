@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5e7e29e3-1c53-4aad-8443-113e3b789f55
+:END:
 #+TITLE: Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+DATE: [Emacsconf 2021]

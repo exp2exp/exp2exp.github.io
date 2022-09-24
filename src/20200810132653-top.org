@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       420fa6ad-57b3-419e-869c-1655898e3260
+:END:
 #+TITLE: Top
-#+roam_tags: AN
+#+filetags: :AN:
 
 * Motivation: For the sake of advancing AI
 :PROPERTIES:
@@ -106,7 +109,7 @@ Hypothetical conversation: /In my next post I want to integrate something that I
 :ID:       1d3660fd-8826-4afb-b1e4-91b20c27ee9a
 :END:
 
-- [[file:20200905124558-why_not_what.org][Why not what]]
-- [[file:20200905125023-which_model_construction_process_works_as_a_whole.org][Which model construction process works as a whole?]]
-- [[file:20200905124432-underlying_foundation.org][Underlying foundation]]
-- [[file:20200905124405-construct_critique_improve_models_of_the_creative_process.org][Construct, critique, improve models of the creative process]]
+- [[id:c030651e-9686-441f-94e2-6889ed38a7db][Why not what]]
+- [[id:f785e5bf-04c6-4c1f-b206-aef9ef4e25ba][Which model construction process works as a whole?]]
+- [[id:868ab257-f560-49fe-8906-47cbda9b18e9][Underlying foundation]]
+- [[id:d255e7b3-e1ab-4db7-bc7f-f69f84f0327e][Construct, critique, improve models of the creative process]]

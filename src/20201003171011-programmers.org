@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       14bb59e7-37e0-49ea-8a3d-80ccbbed38bd
+:END:
 #+TITLE: Programmers
-#+roam_tags: SH AN
+#+filetags: :SH:AN:
 
 We imagine any programmer having some use for our tools.  “B2D”
 (Business to Developer) is an emerging category of enterprise where we

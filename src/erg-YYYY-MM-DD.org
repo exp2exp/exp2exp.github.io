@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e5c32c55-9c1a-48ca-a8b3-3245e4b3ddd7
+:END:
 #+TITLE: DD Month YEAR — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI

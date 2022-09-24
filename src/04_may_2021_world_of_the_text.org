@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ec7e65a7-63eb-4707-892d-d7684a1a9590
+:END:
 #+title: 04 May 2021 — World of the text
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       43169e65-2a7a-4555-8c5c-d62ea3356e1c
+:END:
 #+TITLE: Firn-based Blog Created!
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update

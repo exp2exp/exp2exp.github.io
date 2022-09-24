@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       61fa3b63-9c72-4ee6-b51f-ea5091351d69
+:END:
 #+title: Week 26 April 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -42,9 +45,9 @@ and we’ve been trying to pay attention to thinking carefully about the tools a
 practices we’ve used when writing these successive drafts.
 
 Speaking of writing: over the past week I introduced a page here on Exp2Exp to
-collect some more free-form [[file:Writing.org][Writing]], which — if I post frequently and regularly —
+collect some more free-form [[id:84d108a1-a053-462b-ad4c-ad41bf13fd45][Writing]], which — if I post frequently and regularly —
 may be helpful (for me) as an alternative way to explore the themes we’ve been
-talking about here in the wiki.  I’m also wondering if a [[file:writers_workshop.org][Writers Workshop]] might be
+talking about here in the wiki.  I’m also wondering if a [[id:222da950-4bb0-4754-a14a-992edaa35d93][Writers Workshop]] might be
 worthwhile to add into the mix of shared activities, and I’ve aired that as a
 possibility.
 

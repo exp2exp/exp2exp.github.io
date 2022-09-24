@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       8e8d0e6a-ce79-414c-a7fd-3591b981be29
+:END:
 #+TITLE: Emacs Hyper Notebook
-#+roam_tags: CDN TO
 #+CATEGORY: DEV
+#+filetags: :CDN:TO:
 
 We are developing a better way to do “Jupyter notebooks” using Emacs.
 This recovers some of the Research Collab ideas developed by Aaron
@@ -27,7 +30,7 @@ could turn out to be useful here.)
 - ... possible deliverable for later on: a NIST talk?
 
 * BACK Could Emacsconf talk become a blog post?       :joe:ray:cameron:
-- [[file:hel/could_emacsconf_talk_become_a_blog_post.org][Could Emacsconf talk become a blog post?]]
+- [[id:302b60ba-c368-419c-b0dc-fc7e33bc2eb4][Could Emacsconf talk become a blog post?]]
 (Notice that with crdt, typing can go on inside folded nodes! Qiantan
 is thinking about a mode to make overlays shareable, which would
 change things a bit.)
@@ -118,7 +121,7 @@ a
 
 Notes for the first talk will appear here:
 
-- [[file:20201027174427-hypernotebook_first_demo.org][Hypernotebook First Demo]]
+- [[id:a19ba18c-5a10-4f49-a404-7dea0e9f54df][Hypernotebook First Demo]]
 
 * What would we actually want as our org interface?
 
@@ -136,7 +139,7 @@ We had a short problem with this:
 :ID:       43fd0298-adec-400a-a9b6-6d48cfd244a6
 :END:
 
-The jupyter backend works well locally but suffers from a bug when run via tramp. See [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]]
+The jupyter backend works well locally but suffers from a bug when run via tramp. See [[id:cb2a443d-9933-49ba-8aa2-1352a85babbf][emacs-jupyter remote debugging]]
 
 ** ob-streams
 
@@ -147,5 +150,5 @@ This is work in progress, with some sample content above.
 - [[file:ehn_next_steps.org][EHN next steps]]
 
 * Contributes to                                                   :noexport:
-- [[file:20200810135457-visual_interfaces.org][Visual Interfaces]]
-- [[file:20200905131918-knowledge_graph.org][Knowledge graph]]
+- [[id:ef38ce3f-7db9-4f51-8477-3d1ffff62292][Visual Interfaces]]
+- [[id:26c23748-9d41-4b6d-af86-3fd1e403f438][Knowledge graph]]

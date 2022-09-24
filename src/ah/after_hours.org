@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       199a4402-1ab6-463e-81fe-5c75f6d9b713
+:END:
 #+TITLE: After Hours
 
 Welcome to Hyperreal Enterprises After Hours.
@@ -49,7 +52,7 @@ a long time ago, in somewhat different capacities.
 Our protagonists, Molly and Bill — in keeping with the social mores of
 the world they live in — have decided not to have children.
 
-- [[file:story.org][BBC 28 March 2021]]
+- [[id:b4222cb3-77ba-4fb0-9104-ba33c1360b7c][BBC 28 March 2021]]
 
 * Reference
 

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       6aa0104c-3cfb-4a2c-881a-bfd304abb1ba
+:END:
 #+TITLE: What might our summarisation workflow look like?
-#+roam_tags: TO
+#+filetags: :TO:
 
-- [[file:make_a_list_of_actual_topics_of_interest.org][Make a list of actual topics of interest]]
+- [[id:095227bb-752e-4973-aa56-4302ef87cd8e][Make a list of actual topics of interest]]
 - [[file:../stubs/assess_what_we_re_learning.org][Assess what we’re learning]]
 - [[file:../stubs/keep_doing_pars_and_clas.org][Keep doing PARs and CLAs?]]

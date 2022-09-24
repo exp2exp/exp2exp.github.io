@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d70ec8a8-3bf6-4936-950e-50edc7092e81
+:END:
 #+title: 27 April 2021 — What's unwritten
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

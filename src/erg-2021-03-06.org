@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cacc7c42-39a4-4ca4-9eb7-8a7f0815da85
+:END:
 #+TITLE: 6 March 2021 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
@@ -227,7 +230,7 @@ And, even though this is the free version, there is a company behind it: whereas
 
 - The discussion was postponed last week to give more time to the discussion with Mark
 
-*** [[file:cla-20-february-2021.org][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
+*** [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][file:~/projects/exp2exp.github.io/src/cla-20-february-2021.org]]
 
 - Noorah: Is there a way to use NLP to get to this? I.e., NLP to get to document from atomic ideas? Does NLP play a role in coherence?
   - LV: You need to ask it to do something... humans are struggling already, so asking a machine to do it seems out of reach

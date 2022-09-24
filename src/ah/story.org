@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b4222cb3-77ba-4fb0-9104-ba33c1360b7c
+:END:
 #+TITLE: BBC 28 March 2021
 
 * HOSPITAL

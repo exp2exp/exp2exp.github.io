@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       37c81cca-372e-4de5-bdac-8b59e48c60ad
+:END:
 #+TITLE: Week 18 January 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -5,4 +8,4 @@
 #+AUTHOR: Joe Corneli
 
 * News
-- Posted summary of [[file:possible_student_projects.org][Possible student projects]].
+- Posted summary of [[id:8157858c-1390-46f8-8b0e-b254e99a0a03][Possible student projects]].

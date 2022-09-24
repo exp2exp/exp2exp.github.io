@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f9e1eddd-ca39-44c0-8092-ea6118f9e62f
+:END:
 #+TITLE: Week 25 January 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -45,7 +48,7 @@ style notes for revision *up to* the section on "Practice".  It would be
 great to do the rest of the sections on ‘patterns’ in one focused
 session, and it would probably take about *5 hours or most of 1 working day* to do that.
 
-I wrote 3 MSc project descriptions (see [[file:possible_student_projects.org][Possible student projects]]),
+I wrote 3 MSc project descriptions (see [[id:8157858c-1390-46f8-8b0e-b254e99a0a03][Possible student projects]]),
 and they were reasonably well received by my colleagues.  (No specific
 notes for revisions.  The topics are all “doable”, with concrete
 technical deliverables, which were appreciated.

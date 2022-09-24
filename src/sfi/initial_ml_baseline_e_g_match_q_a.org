@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ff0f2149-bb89-4b9d-8241-fcbe88396e42
+:END:
 #+TITLE: Initial ML baseline, e.g., match Q-A
 
 This remains a pretty straightforwardly “doable” task if we were to
@@ -9,6 +12,6 @@ and Deyan).  However, it’s less obviously useful... if we can’t do the
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+HEL topic: [[id:31e77b11-f921-414d-afc4-953b9210253a][Information extraction from SO Q&A items]]
 
-Next: [[file:hierarchical_ml_for_content_extraction.org][Hierarchical ML for content extraction]]
+Next: [[id:69c1c645-e75c-4ba2-aa03-89cc41ffa39b][Hierarchical ML for content extraction]]

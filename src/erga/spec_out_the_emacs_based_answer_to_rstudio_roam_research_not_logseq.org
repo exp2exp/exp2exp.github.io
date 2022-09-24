@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       94f49b82-0e95-4c25-a20f-686ed728e0c1
+:END:
 #+TITLE: Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq)
-#+roam_tags: TO
+#+filetags: :TO:

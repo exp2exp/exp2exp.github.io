@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       ad3e714b-adef-43d9-a16d-49630f3f6ddb
+:END:
 #+TITLE: Organisational infrastructure
-#+roam_tags: HL AN TO
 #+CATEGORY: ORG
+#+filetags: :HL:AN:TO:
 
 This section is mildly-technical appendix.  It looks at our
 organisational infrastructure itself, including simple things like the
@@ -125,7 +128,7 @@ objectives *or other forms of common ground* are.
 
 ** BACK Make a project analysis of active projects
 (This could refer to Peter Kaminski’s *project orientation* concept.)
-- [[file:hel/make_a_project_analysis_of_active_projects.org][Make a project analysis of active projects]]
+- [[id:ddc121cf-6c50-4d4c-b716-8b03816d441e][Make a project analysis of active projects]]
 - [[file:stubs/maintain_plans_for_the_quarter_ahead.org][Maintain plans for the quarter ahead?]]
 
 * Technology
@@ -135,21 +138,21 @@ serve a different function compared with Org mode agenda items?
 
 * Read on
 
- - [[file:20200810135619-discord_server.org][Discord server]]
- - [[file:20200811185435-obs_recordings.org][OBS recordings]]
- - [[file:20200814193042-code_sharing_platform.org][Code sharing platform]]
- - [[file:20200912223428-wiki.org][Wiki]]
- - [[file:20201003164100-forum.org][Forum]]
- - [[file:20200814195259-blog.org][Blog]]
+ - [[id:f5fa2895-ab5b-4bf9-a0e3-6d81d3442b0f][Discord server]]
+ - [[id:6a1db722-5ea2-4e44-8cad-d04216ce547a][OBS recordings]]
+ - [[id:afae2479-b005-4634-a99d-fa29d6f30bfd][Code sharing platform]]
+ - [[id:f55bb496-6ce8-44fb-887f-a423972bfa73][Wiki]]
+ - [[id:7550513a-ffc0-43c1-924a-02cb4670be67][Forum]]
+ - [[id:2cae99e6-7cc7-4974-a322-7abe2db1bd33][Blog]]
 
 * Next steps                                                      :noexport:
 :PROPERTIES:
 :ID:       17468abb-5c17-458e-a053-72e6356bbad5
 :END:
 
-- [[file:20200811185435-obs_recordings.org][OBS recordings]]
-- [[file:20200810135619-discord_server.org][Discord server]]
-- [[file:20200814193042-code_sharing_platform.org][Code sharing platform]]
-- [[file:20200814195259-blog.org][Blog]]
-- [[file:20200912223428-wiki.org][Wiki]]
-- [[file:20201003164100-forum.org][Forum]]
+- [[id:6a1db722-5ea2-4e44-8cad-d04216ce547a][OBS recordings]]
+- [[id:f5fa2895-ab5b-4bf9-a0e3-6d81d3442b0f][Discord server]]
+- [[id:afae2479-b005-4634-a99d-fa29d6f30bfd][Code sharing platform]]
+- [[id:2cae99e6-7cc7-4974-a322-7abe2db1bd33][Blog]]
+- [[id:f55bb496-6ce8-44fb-887f-a423972bfa73][Wiki]]
+- [[id:7550513a-ffc0-43c1-924a-02cb4670be67][Forum]]

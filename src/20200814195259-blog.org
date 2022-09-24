@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       2cae99e6-7cc7-4974-a322-7abe2db1bd33
+:END:
 #+TITLE: Blog
-#+roam_tags: OTS AN
 #+CATEGORY: BLOG
+#+filetags: :OTS:AN:
 
 For now we’re just maintaining a /blog roll/ rather than one shared blog
 
@@ -31,5 +34,5 @@ Here are some people with related interests.
 :ID:       307bdc02-be3b-464b-8424-323b3c66981a
 :END:
 
-- [[file:20200814193042-code_sharing_platform.org][Code sharing platform]]
+- [[id:afae2479-b005-4634-a99d-fa29d6f30bfd][Code sharing platform]]
 

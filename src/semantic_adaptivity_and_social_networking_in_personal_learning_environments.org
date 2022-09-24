@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4e8771d5-15d7-42b2-8c2f-e16ad02e9fc5
+:END:
 #+title: Semantic Adaptivity and Social Networking in Personal Learning Environments
 
 Joseph Corneli

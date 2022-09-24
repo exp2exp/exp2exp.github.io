@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       868ab257-f560-49fe-8906-47cbda9b18e9
+:END:
 #+TITLE: Underlying foundation
-#+roam_tags: HL
+#+filetags: :HL:
 
 We believe that category-theoretic foundations will help us make
 progress across different representations of code, process, model
@@ -7,13 +10,13 @@ building, and so on.
 
 * Read on
 
- - [[file:20200905125713-category_theoretic_glue.org][Category theoretic glue]]
- - [[file:20200905131656-probabilistic_programming_for_scientific_modelling.org][Probabilistic programming for scientific modelling]]
+ - [[id:a868bf85-3040-4bdc-942b-37be1a4e39a7][Category theoretic glue]]
+ - [[id:b7d17a80-9c84-4266-bee3-eedb870f029b][Probabilistic programming for scientific modelling]]
 
 * Subgoals :noexport:
 :PROPERTIES:
 :ID:       6778531b-0a13-4596-89f8-df926202c3b0
 :END:
 
-- [[file:20200905125713-category_theoretic_glue.org][Category theoretic glue]]
+- [[id:a868bf85-3040-4bdc-942b-37be1a4e39a7][Category theoretic glue]]
 - [[file:20200814195815-generating_small_graphs.org][Generating small graphs]]

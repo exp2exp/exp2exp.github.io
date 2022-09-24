@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f86ee79b-924e-4274-a0b5-d308a944c458
+:END:
 #+TITLE: Curate koans and develop solver
 
 The first part seems relatively straightforward: we already have
@@ -12,6 +15,6 @@ include a careful writeup of the ‘rules’ I follow.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
+HEL topic: [[id:7b40f31f-5816-4254-9733-e4fa1386e499][How to Design Programs]]
 
-Next: [[file:study_with_crowdsourced_exercises.org][Study with crowdsourced exercises]]
+Next: [[id:8db4f653-9327-4c76-b4c0-91443f28ab81][Study with crowdsourced exercises]]

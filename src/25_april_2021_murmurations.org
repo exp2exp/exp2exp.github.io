@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ebf13499-05dc-4eda-bf76-34da8e483f02
+:END:
 #+title: 25 April 2021 — Murmurations
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

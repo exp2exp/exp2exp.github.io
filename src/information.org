@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       97ae95b0-d0ba-4359-b558-0e8a3511312d
+:END:
 #+TITLE: Information Epoch
 
 * Introduction

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       ff606adf-3ec7-49a3-a7b7-3c12847ac35e
+:END:
 #+TITLE: Hyperreal Enterprises: Roadmap
-#+roam_tags: HL AN
 #+CATEGORY: ROADMAP
+#+filetags: :HL:AN:
 
 * Preface
 :PROPERTIES:
@@ -10,11 +13,11 @@
 This document synthesises a [[https://peeragogy.org/roadmap][Roadmap]] (and perhaps also a [[http://scrumbook.org/value-stream/release-plan/product-roadmap.html][Product
 Roadmap]]) for Hyperreal Enterprises, Ltd.  The Roadmap is being written
 inside [[https://github.com/org-roam/org-roam][Org Roam]] (an [[https://www.gnu.org/software/emacs/][Emacs]] package), and displayed with [[https://github.com/theiceshelf/firn][Firn]].  The
-document can be thought of as a [[file:20200912223428-wiki.org][Wiki]] (and edited inside Emacs).  From
+document can be thought of as a [[id:f55bb496-6ce8-44fb-887f-a423972bfa73][Wiki]] (and edited inside Emacs).  From
 these sources, other downstream formats can be derived.  A narrative
 overview follows.
 
-To skip it, browse ahead to [[file:20200810132653-top.org][Top]].
+To skip it, browse ahead to [[id:420fa6ad-57b3-419e-869c-1655898e3260][Top]].
 
 * TL;DR
 
@@ -46,5 +49,5 @@ AI technology everywhere there are /patterns/.
 
 * Other questions
 
-- [[file:is_this_interesting.org][Is this interesting?]]
-- [[file:is_this_realistic.org][Is this realistic?]]
+- [[id:780f6d8c-ad15-402a-8f75-1efb86df7e8d][Is this interesting?]]
+- [[id:c239828e-f153-403a-a6bb-7b687130911d][Is this realistic?]]

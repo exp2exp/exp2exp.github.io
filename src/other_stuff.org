@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       14fd1fe5-e45d-4d9a-9afd-4456fa2b1395
+:END:
 #+TITLE: Other stuff
 
-1. [[file:ah/after_hours.org][After Hours]]
-2. [[file:pc/peeragogy_intro.org][List of resources related to the Peeragogy Course]]
-3. [[file:writers_workshop.org][Writers Workshop]]
-4. [[file:time_capsule.org][Time Capsule]]
-5. [[file:20201003205523-potential_products.org][POTENTIAL PRODUCTS]]
-6. [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]
-7. [[file:20200905134325-research_outputs.org][RESEARCH OUTPUTS]]
-8. [[file:20200810135126-organisational_infrastructure.org][Organisational infrastructure]]
+1. [[id:199a4402-1ab6-463e-81fe-5c75f6d9b713][After Hours]]
+2. [[id:746a013d-adec-4e5b-8464-ad69be00e1df][List of resources related to the Peeragogy Course]]
+3. [[id:222da950-4bb0-4754-a14a-992edaa35d93][Writers Workshop]]
+4. [[id:0cd160f2-cb11-497d-b977-8fddb4431335][Time Capsule]]
+5. [[id:8fc71619-5773-40ae-aac0-4b15d322e140][POTENTIAL PRODUCTS]]
+6. [[id:1e950c7d-db6d-4082-80e2-c744c984c219][BUSINESS DEVELOPMENT]]
+7. [[id:afdaabca-ff0a-4390-9fad-5bcb2bb20138][RESEARCH OUTPUTS]]
+8. [[id:ad3e714b-adef-43d9-a16d-49630f3f6ddb][Organisational infrastructure]]

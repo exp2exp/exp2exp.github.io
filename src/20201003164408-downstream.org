@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       560970bf-8dfe-45d7-b490-23ba14b8aa25
+:END:
 #+TITLE: Downstream
-#+roam_tags: AN
 #+CATEGORY: USERS
+#+filetags: :AN:
 
 What do our potential users look like?
 
@@ -9,7 +12,7 @@ What do our potential users look like?
 :ID:       34ddbcd3-10a2-4d08-90d9-a489b7542fae
 :END:
 
-- [[file:20201003165500-consulting_clients.org][Consulting clients]]
-- [[file:20201003170312-open_source_developers.org][Scientific software developers]]
-- [[file:20201003170333-tutoring_students.org][Automated tutoring system users]]
-- [[file:20201003171011-programmers.org][Programmers]]
+- [[id:75878b0d-59a5-4b88-9870-6a510a975468][Consulting clients]]
+- [[id:f1180b7f-a57a-4d38-b104-b7366da24e97][Scientific software developers]]
+- [[id:4cdaf51d-50d0-45c1-87c9-55d2c758e28e][Automated tutoring system users]]
+- [[id:14bb59e7-37e0-49ea-8a3d-80ccbbed38bd][Programmers]]
