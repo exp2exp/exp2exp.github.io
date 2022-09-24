@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c913d808-1a8f-48b0-b392-efe444ad87ca
+:END:
 #+TITLE: 18 September 2021 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI

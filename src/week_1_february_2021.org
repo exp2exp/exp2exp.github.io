@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       69c1a559-5e5c-4398-aa49-981124962316
+:END:
 #+TITLE: Week 1 February 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -12,7 +15,7 @@ sent a copy of the ‘1st proposal’ to internal Brookes colleagues Dev,
 Jintao, and Ari.  I received some written feedback on previous drafts
 from Brendan Fong and Valeria de Paiva of Topos.  Their criticisms
 should improve the clarity of the presentation, and I’m also thinking
-of delaying the second proposal on [[file:arxana.org][Arxana]] until it is more mature and
+of delaying the second proposal on [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]] until it is more mature and
 backed up by a current demo.  Hopefully my Brookes colleagues will
 soon have some feedback on whether the proposal that I shared with
 them is something they want to get involved with.

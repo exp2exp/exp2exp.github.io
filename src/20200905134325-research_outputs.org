@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       afdaabca-ff0a-4390-9fad-5bcb2bb20138
+:END:
 #+TITLE: RESEARCH OUTPUTS
-#+roam_tags: HL
+#+filetags: :HL:
 
 We would like to publish some papers, though as Deyan points out we
 should only do this when we have high-quality results:
@@ -12,10 +15,10 @@ So, what can we do without shortcuts?
 
 * Read on
 
- - [[file:20200810135325-advances_in_tutoring_systems_for_programming.org][Advances in tutoring systems for programming]]
- - [[file:20200810135403-advances_in_knowledge_mining_from_technical_documents.org][Advances in knowledge mining from technical documents]]
- - [[file:20200905132334-an_abm_of_the_computer_programming_domain.org][An ABM of the computer programming domain]]
+ - [[id:58cdda7a-da0f-41bf-9387-fe474a945ca4][Advances in tutoring systems for programming]]
+ - [[id:cdfd4862-f33c-4599-bc29-93557ae9288d][Advances in knowledge mining from technical documents]]
+ - [[id:53c8b53b-9cd3-4122-b6bd-9c8a517aa6bf][An ABM of the computer programming domain]]
 
 * Next steps :noexport:
 
-- [[file:20200906003704-bottom.org][Bottom]]
+- [[id:9b1e0c6b-6f56-42fb-a773-5c12735bd885][Bottom]]

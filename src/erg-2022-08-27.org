@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       862e42ed-e0bb-43c4-9c56-c5c20bd3844b
+:END:
 #+TITLE: 27 August 2022 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier, Abby Tabor
 #+roam_tag: HI

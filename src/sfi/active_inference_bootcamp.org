@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ef1fd5b2-af18-4654-aaa2-9c85fa31c16e
+:END:
 #+TITLE: Active Inference bootcamp
 
 Cameron talked a bit about active inference, and his Bayesian stats
@@ -13,6 +16,6 @@ answers, then those could be used on the generative side too.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905130423-agent_model.org][Agent model]]
+HEL topic: [[id:fb5b11a8-9567-47d5-b5d4-8d8abb32351b][Agent model]]
 
-Next: [[file:agent_modelling_and_sandbox_setup.org][Agent modelling and sandbox setup]]
+Next: [[id:5f6f129e-4e17-4a5f-9633-d3f1c75cce13][Agent modelling and sandbox setup]]

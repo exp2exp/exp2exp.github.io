@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5f6f129e-4e17-4a5f-9633-d3f1c75cce13
+:END:
 #+TITLE: Agent modelling and sandbox setup
 
 This seems to be the main outcome of the Active Inference bootcamp.
@@ -23,6 +26,6 @@ how often they are used.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905130423-agent_model.org][Agent model]]
+HEL topic: [[id:fb5b11a8-9567-47d5-b5d4-8d8abb32351b][Agent model]]
 
-Next: [[file:curate_koans_and_develop_solver.org][Curate koans and develop solver]]
+Next: [[id:f86ee79b-924e-4274-a0b5-d308a944c458][Curate koans and develop solver]]

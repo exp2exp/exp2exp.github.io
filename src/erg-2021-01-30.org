@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       fabf510b-a528-4b1c-b4a3-2df316168738
+:END:
 #+TITLE: Notes 30 Jan
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       58113bf3-185d-4299-a44b-a2bc42e1ec8d
+:END:
 #+TITLE: Emacs Research Group: Seminar Notes,@@latex:\\@@02 December 2020-23 April 2022
 #+OPTIONS: H:3 num:t toc:nil ':t broken-links:mark author:nil
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks,linkcolor={red!50!black},citecolor={blue!50!black},urlcolor={blue!80!black}}

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       53c8b53b-9cd3-4122-b6bd-9c8a517aa6bf
+:END:
 #+TITLE: An ABM of the computer programming domain
-#+roam_tags: RO
+#+filetags: :RO:
 
 This would be a paper writing up our agent model work.
 
@@ -10,4 +13,4 @@ potentially other kinds of automation work).
 
 * Contributes to :noexport:
 
-- [[file:20200905134325-research_outputs.org][RESEARCH OUTPUTS]]
+- [[id:afdaabca-ff0a-4390-9fad-5bcb2bb20138][RESEARCH OUTPUTS]]

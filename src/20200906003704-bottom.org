@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       9b1e0c6b-6f56-42fb-a773-5c12735bd885
+:END:
 #+TITLE: Bottom
-#+roam_tags: HL
+#+filetags: :HL:
 
 By the time we get to this point, we will have established some
 impressive research outputs, a potentially profitable business, and a
@@ -12,14 +15,14 @@ teaching/upskilling platform for technical and scientific topics.
 
 * Read on
 
- - [[file:20201003164408-downstream.org][Downstream]]
- - [[file:20201003165500-consulting_clients.org][Consulting clients]]
- - [[file:20201003170312-open_source_developers.org][Scientific software developers]]
- - [[file:20201003170333-tutoring_students.org][Automated tutoring system users]]
- - [[file:20201003171011-programmers.org][Programmers]]
+ - [[id:560970bf-8dfe-45d7-b490-23ba14b8aa25][Downstream]]
+ - [[id:75878b0d-59a5-4b88-9870-6a510a975468][Consulting clients]]
+ - [[id:f1180b7f-a57a-4d38-b104-b7366da24e97][Scientific software developers]]
+ - [[id:4cdaf51d-50d0-45c1-87c9-55d2c758e28e][Automated tutoring system users]]
+ - [[id:14bb59e7-37e0-49ea-8a3d-80ccbbed38bd][Programmers]]
 
 * Contributes to :noexport:
 :PROPERTIES:
 :ID:       d8c152d1-0d86-4c66-9105-a83b926a0275
 :END:
-- [[file:20201003164408-downstream.org][Downstream]]
+- [[id:560970bf-8dfe-45d7-b490-23ba14b8aa25][Downstream]]

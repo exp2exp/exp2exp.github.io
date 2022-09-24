@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7cb156f0-584b-45be-bee1-07534629faf7
+:END:
 #+title: 05 May 2021 — Breakdown of language
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

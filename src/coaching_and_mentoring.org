@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c11bd25c-8abf-487b-9b37-912ade54cf85
+:END:
 #+title: Coaching and Mentoring
 
 * Coaching design c/o Fiona Reith

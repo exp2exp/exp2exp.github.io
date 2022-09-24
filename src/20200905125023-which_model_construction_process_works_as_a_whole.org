@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       f785e5bf-04c6-4c1f-b206-aef9ef4e25ba
+:END:
 #+TITLE: Which model construction process works as a whole?
-#+roam_tags: HL
+#+filetags: :HL:
 
 We plan on working in an applied way to build models, starting with
 data and using existing tools and methods, and reflecting on the
@@ -22,11 +25,11 @@ time to regroup — and perhaps, rethink.
 
 * Read on
 
- - [[file:20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+ - [[id:31e77b11-f921-414d-afc4-953b9210253a][Information extraction from SO Q&A items]]
 
 * Subgoals :noexport:
 :PROPERTIES:
 :ID:       0e2b1ab1-9e3a-4e6c-b2a7-e423cb41a030
 :END:
 
-- [[file:20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+- [[id:31e77b11-f921-414d-afc4-953b9210253a][Information extraction from SO Q&A items]]

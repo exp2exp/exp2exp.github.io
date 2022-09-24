@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       cb2a443d-9933-49ba-8aa2-1352a85babbf
+:END:
 #+TITLE: emacs-jupyter remote debugging
-#+roam_tags: CDN
+#+filetags: :CDN:
 
 * Debugging
 

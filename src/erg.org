@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       11b149a2-84dd-4779-9cc6-633c8632fb6f
+:END:
 #+TITLE: Emacs Research Group meeting notes
 #+FIRN_LAYOUT: erg-blog
 

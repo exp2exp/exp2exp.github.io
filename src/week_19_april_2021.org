@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       58c5813a-0dce-43fa-8bd9-275f4e916672
+:END:
 #+TITLE: Week 19 April 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update
@@ -77,7 +80,7 @@ the ‘April’ section of the defined datetree mentioned above:
 - Collate ‘Next Steps’ with Charlie’s spreadsheet
 - Prepare next event for the ‘course’ and invite people
 
-I also set up a [[file:Writing.org][Writing]] workflow that should help me stay focused, and made a little demo of a separate [[https://gist.github.com/holtzermann17/4bf00a023e9ba1d7fd38d02abd641b42][Org Mode based content transformer]].  
+I also set up a [[id:84d108a1-a053-462b-ad4c-ad41bf13fd45][Writing]] workflow that should help me stay focused, and made a little demo of a separate [[https://gist.github.com/holtzermann17/4bf00a023e9ba1d7fd38d02abd641b42][Org Mode based content transformer]].  
 
 * Week ahead tasks
 

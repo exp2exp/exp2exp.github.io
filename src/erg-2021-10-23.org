@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1d104313-939e-4d2c-9722-e5e1032d4178
+:END:
 #+TITLE: 23 October 2021 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
 #+roam_tag: HI
@@ -149,7 +152,7 @@ CLOSED: [2021-10-23 Sat 18:52]
 
 * Tentative agenda for next week
 ** EmacsConf: Storyboarding
-- (Building on the accumulating material in [[file:erg/emacsconf-notes.org][ERG EmacsConf 2021 notes]].)
+- (Building on the accumulating material in [[id:204c79a0-3d47-4677-a4de-b5d91bf14e52][ERG EmacsConf 2021 notes]].)
 ** EmacsConf: Prep recording
 
 * Check-out                                                            :10m:

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8e28fa5f-bb4b-4673-b6ae-825ae372b9b3
+:END:
 #+title: Anticipation 2022 proposals
 #+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
 

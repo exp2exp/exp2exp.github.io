@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       204c79a0-3d47-4677-a4de-b5d91bf14e52
+:END:
 #+Title: ERG EmacsConf 2021 notes
 * Meta
 - We might want to think about the priorities of some of those points; it’s probably more important to talk about crdt.el than talking about the fact that we had the summer off.

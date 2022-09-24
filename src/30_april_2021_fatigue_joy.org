@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6bb951e8-94ed-4e58-92e7-7146de0c88a9
+:END:
 #+title: 30 April 2021 — Fatigue/Joy
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

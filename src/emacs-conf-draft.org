@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c59b7937-45df-4224-a068-7f477a3a6862
+:END:
 #+TITLE: Experience Report: Steps to "Emacs Hyper Notebooks"
 #+Author: Joseph Corneli, Raymond Puzio, and Cameron Ray Smith
 #+Date: 10 minute talk for EmacsConf 2020 (28 Nov 2020)

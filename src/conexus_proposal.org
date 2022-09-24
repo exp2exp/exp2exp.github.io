@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5556b6a8-6878-4cad-aaf1-c5c77b2f8f56
+:END:
 #+title: Conexus Proposal
 
 Data migration from text into categorical semantic knowledge representation

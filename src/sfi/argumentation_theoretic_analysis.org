@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7a923aa7-9fed-46f1-a3f9-e5d57a83f90a
+:END:
 #+TITLE: Argumentation-theoretic analysis
 
 I’ve started to look at some of the Q&A items to see whether there’s
@@ -11,6 +14,6 @@ discussed.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905131918-knowledge_graph.org][Knowledge graph]]
+HEL topic: [[id:26c23748-9d41-4b6d-af86-3fd1e403f438][Knowledge graph]]
 
-Next: [[file:process_model_analysis.org][Process model analysis]]
+Next: [[id:9736b311-177e-4e64-a0b5-3d88e6e0b629][Process model analysis]]

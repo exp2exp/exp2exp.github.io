@@ -1,23 +1,26 @@
+:PROPERTIES:
+:ID:       49f6b442-9b60-4cc2-a2e5-afa553a4a75a
+:END:
 #+TITLE: Joe’s Santa Fe Institute proposal (Redux)
-#+roam_tags: HL AN
 #+CATEGORY: PERS
+#+filetags: :HL:AN:
 
 This is some content trying to build a linear plan.  From within the
-Hyperreal Enterprises repo this should connect to [[file:../20200810132653-top.org][Top]].  Inside the
+Hyperreal Enterprises repo this should connect to [[id:420fa6ad-57b3-419e-869c-1655898e3260][Top]].  Inside the
 Roadmap document, this now works as an appendix.  It uses the first
 person (I=Joe).
 
 * Index                                                            :noexport:
 
-M1      [[file:gather_data_via_stack_exchange_apis.org][Gather data via Stack Exchange APIs]]
-M2      [[file:argumentation_theoretic_analysis.org][Argumentation-theoretic analysis]]
-M3      [[file:process_model_analysis.org][Process model analysis]]
-M4      [[file:ml_nlp_bootcamp.org][ML/NLP bootcamp]]
-M5      [[file:initial_ml_baseline_e_g_match_q_a.org][Initial ML baseline, e.g., match Q-A]]
-M6      [[file:hierarchical_ml_for_content_extraction.org][Hierarchical ML for content extraction]]
-M7      [[file:active_inference_bootcamp.org][Active Inference bootcamp]]
-M8      [[file:agent_modelling_and_sandbox_setup.org][Agent modelling and sandbox setup]]
-M9      [[file:curate_koans_and_develop_solver.org][Curate koans and develop solver]]
-M10     [[file:study_with_crowdsourced_exercises.org][Study with crowdsourced exercises]]
-M11     [[file:study_with_agent_written_questions.org][Study with agent-written questions]]
-M12     [[file:publication_ijcai.org][Publication: IJCAI]]
+M1      [[id:6541edaa-2b39-482d-9437-97fce672dfa7][Gather data via Stack Exchange APIs]]
+M2      [[id:7a923aa7-9fed-46f1-a3f9-e5d57a83f90a][Argumentation-theoretic analysis]]
+M3      [[id:9736b311-177e-4e64-a0b5-3d88e6e0b629][Process model analysis]]
+M4      [[id:cb0a3867-2e87-4f07-b7c5-5bb2e70907d0][ML/NLP bootcamp]]
+M5      [[id:ff0f2149-bb89-4b9d-8241-fcbe88396e42][Initial ML baseline, e.g., match Q-A]]
+M6      [[id:69c1c645-e75c-4ba2-aa03-89cc41ffa39b][Hierarchical ML for content extraction]]
+M7      [[id:ef1fd5b2-af18-4654-aaa2-9c85fa31c16e][Active Inference bootcamp]]
+M8      [[id:5f6f129e-4e17-4a5f-9633-d3f1c75cce13][Agent modelling and sandbox setup]]
+M9      [[id:f86ee79b-924e-4274-a0b5-d308a944c458][Curate koans and develop solver]]
+M10     [[id:8db4f653-9327-4c76-b4c0-91443f28ab81][Study with crowdsourced exercises]]
+M11     [[id:a30cce0d-cdb2-4449-8f48-4cb5142aa148][Study with agent-written questions]]
+M12     [[id:aa60f881-85e0-48a1-ac9a-5f4fafe352aa][Publication: IJCAI]]

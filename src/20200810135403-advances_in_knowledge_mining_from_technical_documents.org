@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       cdfd4862-f33c-4599-bc29-93557ae9288d
+:END:
 #+TITLE: Advances in knowledge mining from technical documents
-#+roam_tags: RR
 #+CATEGORY: RESEARCH
+#+filetags: :RR:
 
 This would be a survey paper that would inform our efforts on
 *Information extraction from SO Q&A items* and the *Knowledge graph*
@@ -9,4 +12,4 @@ done, that’s pretty much just as useful, and saves us a bunch of time.
 
 * Contributes to :noexport:
 
-- [[file:20200905134325-research_outputs.org][RESEARCH OUTPUTS]]
+- [[id:afdaabca-ff0a-4390-9fad-5bcb2bb20138][RESEARCH OUTPUTS]]

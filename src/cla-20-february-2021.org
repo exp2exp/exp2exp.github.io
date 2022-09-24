@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ef397d5d-b0d5-4764-b0f3-b1fb9f240302
+:END:
 #+TITLE: CLA 20 February 2021
 #+Author: Noorah Alhasan, Joe Corneli, David O’Toole, Raymond Puzio, Cameron Ray Smith, Leo Vivier
 #+roam_tag: HI
@@ -21,7 +24,7 @@
 # erg-20-02-2021.org 11
 # erg-27-02-2021.org 12
 
-This refines the previous [[file:cla-16-january-2021.org][CLA 16 January 2021]], which covered Episodes 1-6.
+This refines the previous [[id:eba531ea-7a47-4dba-bdd5-045d27cf0033][CLA 16 January 2021]], which covered Episodes 1-6.
 Perhaps we should delay ‘finalising’ this for a couple more weeks, so that we can also have 6 episodes to look back on.
 But we might as well start now so that we don’t have to do it all at once!
 
@@ -38,22 +41,22 @@ But we might as well start now so that we don’t have to do it all at once!
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2020-12-02.org][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
-***** [[file:erg-2021-01-02.org][Plan whitepaper — Still narrowing to a decent output]] :ep3:
-***** [[file:erg-2021-01-09.org][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
-***** [[file:erg-2021-01-16.org][Joe to pass info about Firn tags to Leo]] :ep6:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Everyone shared a brief intro and ideas so we got to know each other]] :ep1:
+***** [[id:1390f4db-0a8f-4eef-9fed-cf2399a21822][Plan whitepaper — Still narrowing to a decent output]] :ep3:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][LV: Planning to go back over notes & improve current ZK to share]] :ep5:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Joe to pass info about Firn tags to Leo]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2021-01-23.org][crdt was almost a resounding success]]                             :ep7:
-***** [[file:erg-2021-01-23.org][Moving things from TODO to DONE would be nice]]                    :ep7:
-***** [[file:erg-2021-01-30.org][Joe to research Bookdown + Hypothes.is + Rstudio]]                 :ep8:
-***** [[file:erg-2021-01-30.org][Circulate early draft of HCI paper, Joe to read comedy and philosophy paper]] :ep8:
-***** [[file:erg-2021-02-06.org][Leo to liaise UX, dev stuff]]                                      :ep9:
-***** [[file:erg-2021-02-13.org][We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)]] :ep10:
-***** [[file:erg-2021-02-27.org][Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee]] :ep12:
-***** [[file:erg-2021-02-27.org][JC: It was good enough, especially since Mark might not be able to join us next week]] :ep12:
+***** [[id:2eb188b1-c2da-488e-a434-b063c2609478][crdt was almost a resounding success]]                             :ep7:
+***** [[id:2eb188b1-c2da-488e-a434-b063c2609478][Moving things from TODO to DONE would be nice]]                    :ep7:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Joe to research Bookdown + Hypothes.is + Rstudio]]                 :ep8:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Circulate early draft of HCI paper, Joe to read comedy and philosophy paper]] :ep8:
+***** [[id:a860f0d4-bb54-43ab-98fb-0f49a3431722][Leo to liaise UX, dev stuff]]                                      :ep9:
+***** [[id:e43f6831-7495-4fb3-a96a-697d31c0ce8e][We’ve brainstormed a couple of options for /getting out there/: White-papers, Grants, Journal papers (very concrete)]] :ep10:
+***** [[id:ea8ebe7a-a07a-47ef-ad67-7aa66c9534c4][Mark has 2 young children so this constrains his time, as well as new job; can’t promise to be frequent attendee]] :ep12:
+***** [[id:ea8ebe7a-a07a-47ef-ad67-7aa66c9534c4][JC: It was good enough, especially since Mark might not be able to join us next week]] :ep12:
 ** Systemic approaches and solutions (social system)                :system:
 #+begin_quote
 - We’ve got a workflow with careful review and diagnosis of issues when expectations aren’t met.
@@ -64,28 +67,28 @@ But we might as well start now so that we don’t have to do it all at once!
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2020-12-02.org][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
-***** [[file:erg-2020-12-02.org][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
-***** [[file:erg-2020-12-02.org][Public Policy conference: (How to get a grant?)]] :ep1:
-***** [[file:erg-2020-12-19.org][Work on methodology of the group]] :ep3:
-***** [[file:erg-2020-12-19.org][Have a nice language for asking for demo material, or other needs]] :ep3:
-***** [[file:erg-2021-01-02.org][David & Noorah have joined the Discord server!]] :ep4:
-***** [[file:erg-2021-01-09.org][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep5:
-***** [[file:erg-2021-01-16.org][Make the inputs contextual.]] :ep6:
-***** [[file:erg-2021-01-16.org][We came up with an adapted plan for the exercise]] :ep6:
-***** [[file:erg-2021-01-16.org][Maybe milestone based funding for Org Roam]] :ep6:
-***** [[file:erg-2021-01-16.org][Following up w/ 1600 UTC weekdays]] :ep6:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Part of a greater sense of trying to do something with EmacsConf to federate the community]] :ep1:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Joe: Leo did an amazing job facilitating the meeting]] :ep1:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Public Policy conference: (How to get a grant?)]] :ep1:
+***** [[id:1030076c-d30c-44c7-b101-756abc836cd1][Work on methodology of the group]] :ep3:
+***** [[id:1030076c-d30c-44c7-b101-756abc836cd1][Have a nice language for asking for demo material, or other needs]] :ep3:
+***** [[id:1390f4db-0a8f-4eef-9fed-cf2399a21822][David & Noorah have joined the Discord server!]] :ep4:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][Over the week, got a clearer notion of what’s going on here after looking at OR in action, will look at things after the call]] :ep5:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Make the inputs contextual.]] :ep6:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][We came up with an adapted plan for the exercise]] :ep6:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Maybe milestone based funding for Org Roam]] :ep6:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Following up w/ 1600 UTC weekdays]] :ep6:
 
 **** Supporting data from CLA 2                                        :TBA:
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2021-01-23.org][Worried that people might be burning out on meetings (PAR for Hyperreal?)]] :ep7:
-***** [[file:erg-2021-01-23.org][If you're coming last-minute with an agenda this can create fatigue]] :ep7:
-***** [[file:erg-2021-02-13.org][We’re continuing on the path of interdisciplinary learning]]      :ep10:
-***** [[file:erg-2021-02-13.org][Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)]] :ep10:
-***** [[file:erg-2021-02-20.org][Build some Elisp sessions for ourselves in future!]]              :ep11:
-***** [[file:erg-2021-02-27.org][Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!]] :ep12:
+***** [[id:2eb188b1-c2da-488e-a434-b063c2609478][Worried that people might be burning out on meetings (PAR for Hyperreal?)]] :ep7:
+***** [[id:2eb188b1-c2da-488e-a434-b063c2609478][If you're coming last-minute with an agenda this can create fatigue]] :ep7:
+***** [[id:e43f6831-7495-4fb3-a96a-697d31c0ce8e][We’re continuing on the path of interdisciplinary learning]]      :ep10:
+***** [[id:e43f6831-7495-4fb3-a96a-697d31c0ce8e][Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)]] :ep10:
+***** [[id:7deceeca-4aed-48b2-adb1-df8272a1deef][Build some Elisp sessions for ourselves in future!]]              :ep11:
+***** [[id:ea8ebe7a-a07a-47ef-ad67-7aa66c9534c4][Joe: the Emacs Bulletin Board should be a package to add Church of Emacs holidays to the calendar!]] :ep12:
 ** Worldview, ways of knowing and alternative discourse          :worldview:
 #+begin_quote
 - ‘Practice’ and ‘method’ keep coming up (respectively, more bottom up and more top down ways of actualising what we’re doing). E.g., one /method/ would be: instead of having a shared Org Roam directory, having ways of managing sharing of notes across ‘graphs’.
@@ -96,27 +99,27 @@ But we might as well start now so that we don’t have to do it all at once!
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2020-12-02.org][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
-***** [[file:erg-2020-12-19.org][Felt a degree of coherence]] :ep3:
-***** [[file:erg-2021-01-02.org][This could turn into a grant (be careful!)]] :ep4:
-***** [[file:erg-2021-01-02.org][Virtuous circle of reflection.]] :ep4:
-***** [[file:erg-2021-01-09.org][About these PARS... the method of ongoing review still needs improvement]] :ep5:
-***** [[file:erg-2021-01-09.org][Awareness of the adversarial process in review of research]] :ep5:
-***** [[file:erg-2021-01-16.org][We’re contributing to Peeragogy from within]] :ep6:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Wonderful outcome from attending EmacsConf 2020!]] :ep1:
+***** [[id:1030076c-d30c-44c7-b101-756abc836cd1][Felt a degree of coherence]] :ep3:
+***** [[id:1390f4db-0a8f-4eef-9fed-cf2399a21822][This could turn into a grant (be careful!)]] :ep4:
+***** [[id:1390f4db-0a8f-4eef-9fed-cf2399a21822][Virtuous circle of reflection.]] :ep4:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][About these PARS... the method of ongoing review still needs improvement]] :ep5:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][Awareness of the adversarial process in review of research]] :ep5:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][We’re contributing to Peeragogy from within]] :ep6:
 
 **** Supporting data from CLA 2                                        :TBA:
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2021-01-23.org][More fun to do this sort of stuff than the rules & structures of academia]] :ep7:
-***** [[file:erg-2021-01-30.org][Cover Oxford application some more]]                               :ep8:
-***** [[file:erg-2021-01-30.org][Collaborative annotations]]                                        :ep8:
-***** [[file:erg-2021-01-30.org][Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research]] :ep8:
-***** [[file:erg-2021-02-06.org][This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do]] :ep9:
-***** [[file:erg-2021-02-06.org][Qiantan doesn’t use org mode... it generates section]]             :ep9:
-***** [[file:erg-2021-02-13.org][Anthropology + Psychology is a special nightmare for reproducibility]] :ep10:
-***** [[file:erg-2021-02-13.org][Maybe the ERG could contribute further patterns?]]                :ep10:
-***** [[file:erg-2021-02-20.org][It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things contextually]] :ep11:
+***** [[id:2eb188b1-c2da-488e-a434-b063c2609478][More fun to do this sort of stuff than the rules & structures of academia]] :ep7:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Cover Oxford application some more]]                               :ep8:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Collaborative annotations]]                                        :ep8:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Noorah’s expertise, talking about her interests, made for an interesting conversation on Leo’s research]] :ep8:
+***** [[id:a860f0d4-bb54-43ab-98fb-0f49a3431722][This (meeting with Qiantan) is a perfect example of the kind of thing we wanted to do]] :ep9:
+***** [[id:a860f0d4-bb54-43ab-98fb-0f49a3431722][Qiantan doesn’t use org mode... it generates section]]             :ep9:
+***** [[id:e43f6831-7495-4fb3-a96a-697d31c0ce8e][Anthropology + Psychology is a special nightmare for reproducibility]] :ep10:
+***** [[id:e43f6831-7495-4fb3-a96a-697d31c0ce8e][Maybe the ERG could contribute further patterns?]]                :ep10:
+***** [[id:7deceeca-4aed-48b2-adb1-df8272a1deef][It’s all happening within a context, and now that we’re all getting more familiar with patterns, we’re more aware of thinking of things contextually]] :ep11:
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 #+begin_quote
 - What gives an objective character to what we’re doing?  Or, rather: what is it that allows us to synthesise new relationships?
@@ -126,16 +129,16 @@ But we might as well start now so that we don’t have to do it all at once!
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2020-12-02.org][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
-***** [[file:erg-2021-01-09.org][Taking a step back was helpful]] :ep5:
-***** [[file:erg-2021-01-09.org][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
-***** [[file:erg-2021-01-16.org][Relationship between these kinds of personal health things and the "group health"]] :ep6:
-***** [[file:erg-2021-01-16.org][Finding density poles within research?]] :ep6:
+***** [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][We generally agreed that we want to make something that exposes intrinsic value of using these tools]] :ep1:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][Taking a step back was helpful]] :ep5:
+***** [[id:60742fc0-3346-4902-9b3a-ae2ef577c92a][Missing link in HCI: refinement! Another: the importance of collaboration! — Everyone is able to collect a lot of data, but if people can’t refine... collaborative writing based on refinement of drafts &c; is not a proper way to elaborate]] :ep5:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Relationship between these kinds of personal health things and the "group health"]] :ep6:
+***** [[id:b15d410d-17e9-4d42-b579-2066d2bebe69][Finding density poles within research?]] :ep6:
 **** Supporting data from CLA 2                                        :TBA:
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-***** [[file:erg-2021-01-30.org][Noorah mentioned interest in pattern templates]]                   :ep8:
-***** [[file:erg-2021-02-06.org][We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)]] :ep9:
-***** [[file:erg-2021-02-06.org][Prepare for CRDT Hackathon in summer?]]                            :ep9:
-***** [[file:erg-2021-02-20.org][Joe: can report back on practical details of serendipity next week!]] :ep11:
+***** [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Noorah mentioned interest in pattern templates]]                   :ep8:
+***** [[id:a860f0d4-bb54-43ab-98fb-0f49a3431722][We understand the CRDT algorithm and also features of the code (like clicking on users to follow them)]] :ep9:
+***** [[id:a860f0d4-bb54-43ab-98fb-0f49a3431722][Prepare for CRDT Hackathon in summer?]]                            :ep9:
+***** [[id:7deceeca-4aed-48b2-adb1-df8272a1deef][Joe: can report back on practical details of serendipity next week!]] :ep11:

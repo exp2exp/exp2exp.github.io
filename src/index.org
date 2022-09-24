@@ -1,16 +1,19 @@
+:PROPERTIES:
+:ID:       f48f28d9-31e7-474b-83bd-57b870977aed
+:END:
 #+TITLE: index
-#+roam_tags: AN
+#+filetags: :AN:
 
-1. [[file:20200810131435-hyperreal_enterprises.org][Hyperreal Enterprises: Roadmap]]
-2. [[file:20200810132653-top.org][Top]]
-3. [[file:20200905124558-why_not_what.org][Why not what]]
-4. [[file:20200905124405-construct_critique_improve_models_of_the_creative_process.org][Construct, critique, improve models of the creative process]]
-5. [[file:20200905125023-which_model_construction_process_works_as_a_whole.org][Which model construction process works as a whole?]]
-6. [[file:20200905131918-knowledge_graph.org][Knowledge graph]]
-7. [[file:20200905124432-underlying_foundation.org][Underlying foundation]]
-8. [[file:20200906003704-bottom.org][Bottom]]
-9. [[file:other_stuff.org][Other stuff]]
+1. [[id:ff606adf-3ec7-49a3-a7b7-3c12847ac35e][Hyperreal Enterprises: Roadmap]]
+2. [[id:420fa6ad-57b3-419e-869c-1655898e3260][Top]]
+3. [[id:c030651e-9686-441f-94e2-6889ed38a7db][Why not what]]
+4. [[id:d255e7b3-e1ab-4db7-bc7f-f69f84f0327e][Construct, critique, improve models of the creative process]]
+5. [[id:f785e5bf-04c6-4c1f-b206-aef9ef4e25ba][Which model construction process works as a whole?]]
+6. [[id:26c23748-9d41-4b6d-af86-3fd1e403f438][Knowledge graph]]
+7. [[id:868ab257-f560-49fe-8906-47cbda9b18e9][Underlying foundation]]
+8. [[id:9b1e0c6b-6f56-42fb-a773-5c12735bd885][Bottom]]
+9. [[id:14fd1fe5-e45d-4d9a-9afd-4456fa2b1395][Other stuff]]
 
-Latest news at: [[file:updates.org][Updates]].
+Latest news at: [[id:1e65863c-9287-4fdd-ba1f-91526c975d93][Updates]].
 
 Sources available here: [[https://github.com/exp2exp/exp2exp.github.io][https://github.com/exp2exp/exp2exp.github.io]].

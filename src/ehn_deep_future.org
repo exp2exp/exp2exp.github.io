@@ -1,17 +1,20 @@
+:PROPERTIES:
+:ID:       5817b345-3556-4443-b3a4-b81ae3063500
+:END:
 #+TITLE: EHN deep future
 #+CATEGORY: EHN
-#+roam_tags: TO
+#+filetags: :TO:
 
 * EHN progress
 
 * EHN future steps
 
 ** BACK Repeat something like Minnesota 2050 with some of these tools
-- [[file:hel/repeat_something_like_minnesota_2050_with_some_of_these_tools.org][Repeat something like Minnesota 2050 with some of these tools]]
+- [[id:770811ae-03c9-449d-826a-74ea160c39fb][Repeat something like Minnesota 2050 with some of these tools]]
 ** BACK Figure out how EHN relates to other projects
-- [[file:hel/figure_out_how_ehn_relates_to_other_projects.org][Figure out how EHN relates to other projects]]
+- [[id:c75b54d4-b81c-47cd-aff4-5c2dcc52da8a][Figure out how EHN relates to other projects]]
 ** BACK Think about about the connections between EHN, Peeragogy, and Ethics
-- [[file:hel/think_about_about_the_connections_between_ehn_peeragogy_and_ethics.org][Think about about the connections between EHN, Peeragogy, and Ethics]]
+- [[id:90a61daf-0522-46e8-9b57-2084f23666d3][Think about about the connections between EHN, Peeragogy, and Ethics]]
 Is there a pattern where, if you have different subjects, interleave
 them in this way to make them branch out and learn?
 

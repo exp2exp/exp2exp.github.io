@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d93191ec-f1d6-4890-8374-67d5cc8372eb
+:END:
 #+TITLE: 09 April 2022 — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 #+roam_tag: HI
@@ -86,8 +89,8 @@ we’re doing.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2020-12-02.org][Research & Emacs 02 Dec]]             |
-| \zbold{Revised:}    | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:f46b9378-d4f4-40e0-bb52-133e9fdeec5a][Research & Emacs 02 Dec]]             |
+| \zbold{Revised:}    | Session [[id:a1d39861-b3c4-4c7b-94c4-f3e911a5a943][05 March 2022 — Emacs Research Group]] |
 
 *** Regular meetings
 Meetings follow a regular [[https://peeragogy.org/heartbeat][Heartbeat]]: typically weekly (but with needed
@@ -118,8 +121,8 @@ patterns and the theory of Active Inference:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-01-30.org][Notes 30 Jan]]                         |
-| \zbold{Revised:}    | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:fabf510b-a528-4b1c-b4a3-2df316168738][Notes 30 Jan]]                         |
+| \zbold{Revised:}    | Session [[id:5a92eac2-4163-47e3-8850-85b9509b6095][19 March 2022 — Emacs Research Group]] |
 
 *** Work with scenarios
 Scenarios (or /possibilities/, /alternative futures/) are intuitive for
@@ -139,7 +142,7 @@ possibilities.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-05-22.org][22 May 2021 — Emacs Research Group]]
+| \zbold{Introduced:} | Session [[id:869192e6-c8d4-4fdf-ac36-6d82ddacbd17][22 May 2021 — Emacs Research Group]]
 
 *** Meeting meta-review
 
@@ -156,7 +159,7 @@ attempts.  Some examples:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-05-29.org][29 May 2021 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:110a3a6b-2cf4-4ac4-af78-e5c713832426][29 May 2021 — Emacs Research Group]] |
 
 *** Seasons and cycles
 
@@ -172,8 +175,8 @@ work]].
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-06-19.org][19 June 2021 — Emacs Research Group]]   |
-| \zbold{Revised:}    | Session [[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:c48136bf-56ca-4b02-8c34-aa3bee53ac3c][19 June 2021 — Emacs Research Group]]   |
+| \zbold{Revised:}    | Session [[id:1e46e564-712d-4cd3-9287-37796a651acd][15 January 2022 — Emacs Research Group]] |
 
 *** Deep engagement
 Inspired by [[https://en.wikipedia.org/wiki/Causal_layered_analysis][Causal Layered Analysis]], we've had a look at the following
@@ -192,8 +195,8 @@ is a yearly assignment distinct from any of these roles.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-10-09.org][9 October 2021 — Emacs Research Group]] |
-| \zbold{Revised:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:096ac763-4685-4c2b-9627-469beb473544][9 October 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[id:5a92eac2-4163-47e3-8850-85b9509b6095][19 March 2022 — Emacs Research Group]] |
 
 *** Focus on methods
 We are looking for effective methods for collaboration.  We need these
@@ -213,7 +216,7 @@ constitute an early prototype of the wiki.)
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-11-13.org][13 November 2021 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:81282bf1-1912-4e26-8844-1937fcfcbb7f][13 November 2021 — Emacs Research Group]] |
 
 *** Humane agenda
 
@@ -278,8 +281,8 @@ primary source of data.  To wit:
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2021-12-18.org][16 December 2021 — Emacs Research Group]] |
-| \zbold{Revised:} | Session [[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:5b25e2cd-dbb5-407c-84fc-98df61515406][16 December 2021 — Emacs Research Group]] |
+| \zbold{Revised:} | Session [[id:1e46e564-712d-4cd3-9287-37796a651acd][15 January 2022 — Emacs Research Group]] |
 
 *** Light creative work
 
@@ -293,7 +296,7 @@ series; as such we've referred to each year of work as a ‘Season’ (see *Seas
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session[[file:erg-2022-01-15.org][15 January 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session[[id:1e46e564-712d-4cd3-9287-37796a651acd][15 January 2022 — Emacs Research Group]] |
 
 *** Scenario Generation
 
@@ -310,7 +313,7 @@ process that creates and selects from possibilities for action.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-02-26.org][26 February 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:b7ca235e-7010-42f2-b578-3adc913602d5][26 February 2022 — Emacs Research Group]] |
 
 
 *** Scenario Exploration
@@ -328,7 +331,7 @@ scenario(s) we are in.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-02-26.org][26 February 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:b7ca235e-7010-42f2-b578-3adc913602d5][26 February 2022 — Emacs Research Group]] |
 
 *** Bootstrap through mini-pilots
 The setup described in patterns like *Humane agenda* and *Light creative
@@ -347,7 +350,7 @@ Free Software and Citizen Science/, and /Climate Adaptation/.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:a1d39861-b3c4-4c7b-94c4-f3e911a5a943][05 March 2022 — Emacs Research Group]] |
 
 *** Generate stakeholder value
 
@@ -451,7 +454,7 @@ We can get a head start on this by collecting PARs throughout the eproject (*Mee
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-03-05.org][05 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:a1d39861-b3c4-4c7b-94c4-f3e911a5a943][05 March 2022 — Emacs Research Group]] |
 
 *** Prepare questions
 Since we're looking for opportunities to learn, we're typically on the
@@ -462,7 +465,7 @@ included and valued.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:5a92eac2-4163-47e3-8850-85b9509b6095][19 March 2022 — Emacs Research Group]] |
 *** Limit one-way talking
 
 Similarly we limit the talk portion in any particular part of the
@@ -477,7 +480,7 @@ relevant for guests.
 \medskip
 \noindent
 #+ATTR_LATEX: :center nil
-| \zbold{Introduced:} | Session [[file:erg-2022-03-19.org][19 March 2022 — Emacs Research Group]] |
+| \zbold{Introduced:} | Session [[id:5a92eac2-4163-47e3-8850-85b9509b6095][19 March 2022 — Emacs Research Group]] |
 
 ** Remarks
 

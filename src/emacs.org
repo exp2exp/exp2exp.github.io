@@ -1,14 +1,17 @@
+:PROPERTIES:
+:ID:       446a6cd6-44e7-4f00-8809-35b3e244a670
+:END:
 #+TITLE: Emacs and Org Mode
-#+roam_tags: TO
+#+filetags: :TO:
 
 Some of us have been looking at Emacs and Org Mode, along with other
 tools for researchers and knowledge workers. We gave a short talk at
-EmacsConf about a preliminary design for an [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]].  One
+EmacsConf about a preliminary design for an [[id:8e8d0e6a-ce79-414c-a7fd-3591b981be29][Emacs Hyper Notebook]].  One
 of our reasons for starting that project was a sense of
 dissatisfaction with what could be achieved with Jupyter; see for
-example: [[file:emacs_jupyter_remote_debugging.org][emacs-jupyter remote debugging]].
+example: [[id:cb2a443d-9933-49ba-8aa2-1352a85babbf][emacs-jupyter remote debugging]].
 
-Some of our subsequent discussions about Emacs and Research appear in [[file:erg.org][Emacs Research Group meeting notes]].
+Some of our subsequent discussions about Emacs and Research appear in [[id:11b149a2-84dd-4779-9cc6-633c8632fb6f][Emacs Research Group meeting notes]].
 
 - For convenience, here’s a template: [[file:erg-DD-MM-YYYY.org][DD Month YEAR — Emacs Research Group]]
 
@@ -16,7 +19,7 @@ Some of our subsequent discussions about Emacs and Research appear in [[file:erg
 
 This page attempts to create a summary of the themes and ideas we’ve
 been surfacing.  It draws on our experiments with Causal Layered Analysis
-([[file:cla-20-february-2021.org][CLA 16 January 2021]], [[file:cla-20-february-2021.org][CLA 20 February 2021]], [[file:cla-12-april-2021.org][CLA 12 April 2021]]).
+([[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 16 January 2021]], [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 20 February 2021]], [[id:8cfb334a-4176-4fa2-ac2f-8efff5f3c842][CLA 12 April 2021]]).
 
 * Remix of our CLA notes and some other outtakes, to turn into a narrative
 
@@ -119,13 +122,13 @@ beyond what’s humanly possible, but we are pushing ourselves to learn.
 
 * Some ERG seminar points for further discussion/action
 ** BACK Getting tasks mapped into reasonable packets
-- [[file:hel/getting_tasks_mapped_into_reasonable_packets.org][Getting tasks mapped into reasonable packets]]
+- [[id:66683bb8-62f5-4376-8a32-239fcf010c58][Getting tasks mapped into reasonable packets]]
 ** BACK Figure out how to handle tasks that are DONE
-- [[file:hel/figure_out_how_to_handle_tasks_that_are_done.org][Figure out how to handle tasks that are DONE]]
+- [[id:df7e391f-4631-403e-a8b3-61e6e7f08a70][Figure out how to handle tasks that are DONE]]
 ** BACK Figure out how to handle tasks that are FROZEN
-- [[file:hel/figure_out_how_to_handle_tasks_that_are_frozen.org][Figure out how to handle tasks that are FROZEN]]
+- [[id:ee3cf0e6-b09e-48f9-982c-66ec08a82402][Figure out how to handle tasks that are FROZEN]]
 ** BACK Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects
-- [[file:hel/ask_leo_how_to_handle_tasks_that_are_not_actually_discrete_doable_tasks_but_are_instead_projects.org][Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects]]
+- [[id:c9502070-fd39-469e-b43d-07745feacee9][Ask Leo how to handle tasks that are not actually discrete doable tasks but are instead projects]]
 
 * Emacs Tweaks
 Points too minor to be listed above.

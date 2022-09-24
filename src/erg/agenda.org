@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ff95756e-01d3-4038-8972-581cc68e1507
+:END:
 #+Title: ERG Agenda
 
 * Long-term tasks

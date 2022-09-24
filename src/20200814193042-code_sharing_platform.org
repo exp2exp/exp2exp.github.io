@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       afae2479-b005-4634-a99d-fa29d6f30bfd
+:END:
 #+TITLE: Code sharing platform
-#+roam_tags: OTS AN
 #+CATEGORY: OTS
+#+filetags: :OTS:AN:
 
 For now we have a Github organisation (https://github.com/exp2exp), as
 well as a separate repo that contains these Org Roam notes, among

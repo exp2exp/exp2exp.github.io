@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       222da950-4bb0-4754-a14a-992edaa35d93
+:END:
 #+title: Writers Workshop
 Here’s a two paragraph sample.
 

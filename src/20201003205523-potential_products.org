@@ -1,17 +1,20 @@
+:PROPERTIES:
+:ID:       8fc71619-5773-40ae-aac0-4b15d322e140
+:END:
 #+TITLE: POTENTIAL PRODUCTS
-#+roam_tags: HL
+#+filetags: :HL:
 
 Synthesis of some of our /projects/ could lead to marketable /products/.
 
 * Read on
 
- - [[file:20200905130423-agent_model.org][Agent model]]
- - [[file:20200817172825-recommender_system.org][Recommender System]]
- - [[file:20200810135457-visual_interfaces.org][Visual Interfaces]]
- - [[file:20200814203551-data_course.org][Data course]]
- - [[file:machine_learning_course.org][Machine Learning course]]
- - [[file:20200905132603-paperspace_do_nj_etc_collaboratory.org][Paperspace DO NJ etc. Collaboratory]]
+ - [[id:fb5b11a8-9567-47d5-b5d4-8d8abb32351b][Agent model]]
+ - [[id:181d1cba-8d5d-4292-9357-9c59eaed7884][Recommender System]]
+ - [[id:ef38ce3f-7db9-4f51-8477-3d1ffff62292][Visual Interfaces]]
+ - [[id:0e526855-554c-483b-85c3-f6285ba641a3][Data course]]
+ - [[id:6ea3737d-6978-47d7-b1f6-1931ead739fd][Machine Learning course]]
+ - [[id:a7295cc0-d8ae-40d1-a34b-72795309405d][Paperspace DO NJ etc. Collaboratory]]
 
 * Contributes to                                                   :noexport:
 
-- [[file:20200814210243-business_development.org][BUSINESS DEVELOPMENT]]
+- [[id:1e950c7d-db6d-4082-80e2-c744c984c219][BUSINESS DEVELOPMENT]]

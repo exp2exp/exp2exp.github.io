@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       78a685a7-1dc9-493c-b01d-2d3ecdfd5313
+:END:
 #+TITLE: Simple Noweb Example
 
 

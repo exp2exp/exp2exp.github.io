@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       1e950c7d-db6d-4082-80e2-c744c984c219
+:END:
 #+TITLE: BUSINESS DEVELOPMENT
-#+roam_tags: HL
+#+filetags: :HL:
 
 * Relationship to purpose
 
@@ -46,11 +49,11 @@ Broad categories of users are surveyed in the *Downstream*.
 
 * Read on
 
- - [[file:upstream.org][Upstream]]
- - [[file:grant_development.org][Grant development]]
- - [[file:action-and-change-in-peer-learning.org][Action and Change in Peer Learning]]
- - [[file:coaching_and_mentoring.org][Coaching and Mentoring]]
+ - [[id:6058a324-285a-4d18-8d01-3801c7f9dab3][Upstream]]
+ - [[id:e59e6fd9-df22-489a-accd-05860bd5307c][Grant development]]
+ - [[id:e3864f2a-62d0-4203-951a-a54bce13a307][Action and Change in Peer Learning]]
+ - [[id:c11bd25c-8abf-487b-9b37-912ade54cf85][Coaching and Mentoring]]
 
 * Next steps :noexport:
 
-- [[file:20200906003704-bottom.org][Bottom]]
+- [[id:9b1e0c6b-6f56-42fb-a773-5c12735bd885][Bottom]]

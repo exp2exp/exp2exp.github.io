@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6748b78f-7d86-4bd2-8b40-0d0c60259a5d
+:END:
 #+title: 29 April 2021 — Testament of Youf
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript

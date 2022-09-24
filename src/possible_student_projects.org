@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8157858c-1390-46f8-8b0e-b254e99a0a03
+:END:
 #+TITLE: Possible student projects
 
 * Co-editing a shared "second brain"

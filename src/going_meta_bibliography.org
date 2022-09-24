@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b85a9dca-854c-4c99-b189-5117b2f88650
+:END:
 #+title: Going Meta Bibliography
 
 References for the Workshop "Going meta, anticipating anticipation: a

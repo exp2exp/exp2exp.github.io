@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       302b60ba-c368-419c-b0dc-fc7e33bc2eb4
+:END:
 #+TITLE: Could Emacsconf talk become a blog post?
-#+roam_tags: TO
+#+filetags: :TO:

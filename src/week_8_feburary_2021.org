@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       68c35a0a-7344-47f6-abdb-9a44fadf736a
+:END:
 #+TITLE: Week 8 February 2021
 #+FIRN_UNDER: Updates
 #+FIRN_LAYOUT: update

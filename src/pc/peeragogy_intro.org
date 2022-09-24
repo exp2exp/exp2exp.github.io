@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       746a013d-adec-4e5b-8464-ad69be00e1df
+:END:
 #+TITLE: List of resources related to the Peeragogy Course
 
 - [[https://groups.google.com/g/peeragogy/c/MuOajHokGho/m/lZlEqcZwAwAJ][Howard Rheingold’s invitation]]

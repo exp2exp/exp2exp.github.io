@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       d255e7b3-e1ab-4db7-bc7f-f69f84f0327e
+:END:
 #+TITLE: Construct, critique, improve models of the creative process
-#+roam_tags: HL
+#+filetags: :HL:
 
 We want tools and processes for working with models, with a particular
 emphasis on improved models of the creative process. The reason for
@@ -10,15 +13,15 @@ tools that we are actually using.
 
 * Read on
 
- - [[file:emacs.org][Emacs and Org Mode]]
- - [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
- - [[file:arxana.org][Arxana]]
- - [[file:erg.org][Emacs Research Group meeting notes]]
+ - [[id:446a6cd6-44e7-4f00-8809-35b3e244a670][Emacs and Org Mode]]
+ - [[id:8e8d0e6a-ce79-414c-a7fd-3591b981be29][Emacs Hyper Notebook]]
+ - [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]]
+ - [[id:11b149a2-84dd-4779-9cc6-633c8632fb6f][Emacs Research Group meeting notes]]
 
 * Subgoals :noexport:
 
-- [[file:20200905125342-emacs_hyper_notebook.org][Emacs Hyper Notebook]]
-- [[file:20200810135851-how_to_design_programs_with_if.org][How to Design Programs]]
-- [[file:20200905131656-probabilistic_programming_for_scientific_modelling.org][Probabilistic programming for scientific modelling]]
-- [[file:20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
-- [[file:arxana.org][Arxana]]
+- [[id:8e8d0e6a-ce79-414c-a7fd-3591b981be29][Emacs Hyper Notebook]]
+- [[id:7b40f31f-5816-4254-9733-e4fa1386e499][How to Design Programs]]
+- [[id:b7d17a80-9c84-4266-bee3-eedb870f029b][Probabilistic programming for scientific modelling]]
+- [[id:31e77b11-f921-414d-afc4-953b9210253a][Information extraction from SO Q&A items]]
+- [[id:f266ac5c-6d51-4cd6-ac94-4da17690ffca][Arxana]]

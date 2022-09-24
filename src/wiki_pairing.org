@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       301e4bca-e388-467c-abe8-4580dffd4e15
+:END:
 #+title: Wiki: Pairing
 
 We’ve tried a couple of methods for effective pairing and group editing.

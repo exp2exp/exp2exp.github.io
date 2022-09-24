@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9d82af88-6195-4e6d-812a-98a7e2695ca1
+:END:
 #+title: Open Future Design Bibliography
 
 References for the talk "Open Future Design: methods for

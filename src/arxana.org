@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f266ac5c-6d51-4cd6-ac94-4da17690ffca
+:END:
 #+TITLE: Arxana
 
 Now that we’ve gotten quite familiar with Org Mode things, it could be

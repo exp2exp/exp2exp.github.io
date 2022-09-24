@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1e65863c-9287-4fdd-ba1f-91526c975d93
+:END:
 #+TITLE: Updates
 #+FIRN_LAYOUT: blog
 

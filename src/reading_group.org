@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a9a3cfc4-3df2-4055-9f40-12db372a16fa
+:END:
 #+title: Reading Group
 #+CATEGORY: RG
 

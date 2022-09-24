@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       69c1c645-e75c-4ba2-aa03-89cc41ffa39b
+:END:
 #+TITLE: Hierarchical ML for content extraction
 
 I guess part of this would be to do first Coarse Discourse style
@@ -9,6 +12,6 @@ here that should be thought about.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200905131027-information_extraction_from_so_q_a_items.org][Information extraction from SO Q&A items]]
+HEL topic: [[id:31e77b11-f921-414d-afc4-953b9210253a][Information extraction from SO Q&A items]]
 
-Next: [[file:active_inference_bootcamp.org][Active Inference bootcamp]]
+Next: [[id:ef1fd5b2-af18-4654-aaa2-9c85fa31c16e][Active Inference bootcamp]]

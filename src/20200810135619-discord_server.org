@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       f5fa2895-ab5b-4bf9-a0e3-6d81d3442b0f
+:END:
 #+TITLE: Discord server
-#+roam_tags: OTS AN
+#+filetags: :OTS:AN:
 
 We set up a Discord server that we’re using for our meetings.  This
 invite link should not expire: https://discord.gg/pArjt4p

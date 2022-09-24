@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       7b40f31f-5816-4254-9733-e4fa1386e499
+:END:
 #+TITLE: How to Design Programs
-#+roam_tags: HD
+#+filetags: :HD:
 
 We were thinking of /How to Design Programs/ (HtDP) as a potential basis
 for our approach to *teaching arbitrary programming*.  We would want to
@@ -35,5 +38,5 @@ for programming and program-related Q&A.
 - How can we define statistics in a general way and then derive things from it?  (E.g., Anglican probabilistic programming?)
 
 * Contributes to                                                   :noexport:
-- [[file:20200909195629-teach_arbitrary_coding.org][Teach arbitrary coding]]
-- [[file:20200905130423-agent_model.org][Agent model]]
+- [[id:3c55cf7c-1dbe-4e33-b49a-6ff583db67e5][Teach arbitrary coding]]
+- [[id:fb5b11a8-9567-47d5-b5d4-8d8abb32351b][Agent model]]

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       665a9723-c895-4d2c-b7c5-95d368d91989
+:END:
 #+title: 20 April 2021 — Getting Starting With Writing
 #+FIRN_UNDER: Writing
 #+FIRN_LAYOUT: typescript
@@ -28,4 +31,4 @@ In addition to the embedded PDF, I’m writing some extra commentary on
 the computer (which is what you’re seeing here).  Perhaps ideally,
 what I write in the typescripts would interesting enough for others to
 want to read them — and perhaps we could make such reading-and-writing
-effort a fair trade in a [[file:writers_workshop.org][Writers Workshop]] setup.
+effort a fair trade in a [[id:222da950-4bb0-4754-a14a-992edaa35d93][Writers Workshop]] setup.

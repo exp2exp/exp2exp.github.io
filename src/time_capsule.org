@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0cd160f2-cb11-497d-b977-8fddb4431335
+:END:
 #+title: Time Capsule
 
 * Created: Fri, 01 Apr 2005, opened 26 May 2021

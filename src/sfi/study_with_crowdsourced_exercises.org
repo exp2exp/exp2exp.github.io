@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8db4f653-9327-4c76-b4c0-91443f28ab81
+:END:
 #+TITLE: Study with crowdsourced exercises
 
 “Crowdsourced reading comprehension questions and simple exercises
@@ -11,6 +14,6 @@ we’re looking for inside of the Q&A items.
 
 * Navigation                                                       :noexport:
 
-HEL topic: [[file:../20200817172825-recommender_system.org][Recommender System]]
+HEL topic: [[id:181d1cba-8d5d-4292-9357-9c59eaed7884][Recommender System]]
 
-Next: [[file:study_with_agent_written_questions.org][Study with agent-written questions]]
+Next: [[id:a30cce0d-cdb2-4449-8f48-4cb5142aa148][Study with agent-written questions]]

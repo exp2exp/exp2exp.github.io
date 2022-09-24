@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       31174289-6ca5-4737-a939-41d88dd5a086
+:END:
 #+Title: Analyst’s Handbook
 #+BIBLIOGRAPHY: /home/joe/flaws/main.bib
 #+LATEX_HEADER: \usepackage{natbib}

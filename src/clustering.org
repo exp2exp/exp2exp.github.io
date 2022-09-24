@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       95a530b6-8e42-434d-b9b9-8efbdbcb83a1
+:END:
 #+TITLE: Draft of a "Mathematical Sciences Small Grant" Research Proposal
 #+Author: Joseph Corneli
 #+Date: Addressing [[https://www.ukri.org/opportunity/epsrc-mathematical-sciences-small-grants-scheme/][this call]] from the EPSRC; the next “batching date” is mid-April
