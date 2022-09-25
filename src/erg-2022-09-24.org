@@ -96,7 +96,7 @@ shared interest.  We use a scenario-development and exploration
 process to help participants understand their common ground, and
 discover new ways to work together.  In this talk, we will give an
 overview of recent workshops we’ve run, on themes linked to public
-space and future studies.
+space and future studies, and how we utilize Emacs for our research.
 
 <20 minutes: (brief description/outline)
 
