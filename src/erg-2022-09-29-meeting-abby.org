@@ -1,0 +1,83 @@
+#+title: Meeting with Abby [2022-09-29 Thu]
+
+* Agenda
+
+** AT: Tidy-up with regards to the last meeting
+** AT: Ensure that we are on the same page with regards to the timing of the tasks ahead of the workshop
+** AT: What do we want from software?  What are we trying to achieve in the 2–3 months that we have, and what is realistic for LV to achieve within this timeframe?
+** JC: Patterns
+
+* Contents
+
+** Feedback from the last session
+- AT: Judith found it really-really useful, and she’s keen to start thinking about how we can plot how they might be involved into the workshop as both interested parties of citizens, but also as interested parties of researcher to collaborate with.  On the back of that, Florian (as the German realist!) was trying to bring us to the concreate, asking us what we’re actually trying to achieve.
+- JC: Alexander Kluge
+- LV: Presenting Org Roam, what it could do, how to do it with 4 or 600 notes; set out to do a wide perspective, and the message went across well, though I might critique the ‘imagine this to be /X/ style’.  But I think you got the essence, which is that we’re only dealing w/ nodes and links, but more could be enabled w/, e.g., a query language.  What went on in the discussion was further definition of ‘computer-aided research’
+  - We’ve since talked more about how a query language for OR might work (e.g., detecting and displaying salience w/ varied definitions)
+  - We’ve got many ideas on the table now
+
+** Time table
+- [2022-09-29 Thu] Today
+- [2022-10-03 Mon] /Abby relatively busy with teaching this month/
+- [2022-10-10 Mon]
+- [2022-10-17 Mon]
+- [2022-10-24 Mon] - /pilots?/ (But Abby only has Wednesday this week.)
+- [2022-10-31 Mon] - AT Wednesday *(2nd)* [tech] and Thursday *(3rd)* [mini] free; weekdays potentially better than Saturday *(5th)*, but Saturday could be a fall-back.
+- [2022-11-07 Mon]
+- [2022-11-14 Mon]
+- [2022-11-20 Sun] LV especially packed with EmacsConf
+- [2022-11-28 Mon] LV especially packed with EmacsConf
+- [2022-12-05 Mon]: /LV’s more available/ — latest we could fit in a workshop
+- [2022-12-12 Mon]
+- [2022-12-19 Mon] : Travelling for Christmas
+- [2022-12-26 Mon] /hols?/
+- [2023-01-02 Mon]: Bigger workshop seems easier here
+- [2023-01-09 Mon] - more comfortable
+- [2023-01-16 Mon] - more comfortable 
+- [2023-01-23 Mon]
+- [2023-01-30 Mon]
+
+** Organisation stuff
+- Maybe we could shorten the tech workshop to half a day to move it faster
+  - How about we work on the long-term ramification of the /post-workshop/ for tech.
+  - For the =tech= workshop, keep to 1/2 day; create a map of potential actions for future; can we structure development on the future?  We’ll rely on people who have already been introduced to the method.
+  - For the =mini= workshop, keep it full, and aim this to be the proper preparation for the January workshop.  Mainly people we know.
+    - Could we allow flexibility so it doesn’t have to be a full day?
+    - Maybe even more than the full day is to have a break, e.g., 10:30-3PM?  Better to have a core group for 2 hours than not have them and do it for 4.
+- For the pilot, maybe better to try to do it with the full schedule
+- We need to think about the duration of the workshop.  We might be able to use the two mini workshop to gauge what is within the realms of possibility, but we also need to bear in mind that it might massively change based on the makeup of the people attending the workshop.
+** Tech stuff
+
+- We’re interested in what will emerge from the pilot!
+
+Nevertheless we have some hypotheses:
+
+1. Create a /democratic resource/ that supports interaction with other humans & non-human entities
+2. /Supports interaction/ around citizen identified challenges
+3. The /software should be evolving/ so that it tracks citizen action over time, connected to place; it’s like a conceptual map of challenges & potential solutions, which can be increasingly connected with place
+
+
+
+
+   
+(LV: Stop removing this newline, I need it!)
+- JC: That sounds good!  Cf. /Nouvelles du monde/ by Serres. It reminds me of what LV and I were talking this morning about how we were talking about the biomimicry of [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]] system, and the organic biosphere that is created by the notes.  We were thinking that it was all good to have the metaphors of 2nd brains, constellations, atoms,…
+- LV: ZK was presented as the tool for all of your ailments.  It was a great viral campaign.  When you’re using tools, you have /users/ and /designers/.  The designers should also use the tool (and learn from feedback from other users).  Often, in practice, designers aren’t actually making very good use of the software.  We don’t see a whole lot of documented /methods/ for application.  It’s great that we have some metaphors, and we imagine ‘nature’ having done the work in advance.  But this might be wrong.  We have a system that’s still viral; with some good design, we can put some meaning into this.
+   - JC: Ah, I remember getting the idea of a ‘genetic’ / ‘generative’ element embedded inside of the ZK.
+   - AT: Enable the interaction/correspondence between users and development and evolution of the software itself.  Can we capture this in the tangled complexity of interaction with the system, rather than ‘the method itself’.
+     - LV: ‘Horizontality first’ in ZK; but if you just have accumulation you have chaos without sensemaking.  So we ask users to recreate complexity/hierarchy as needed.  E.g., an Index as a list of frequent topics that you revisit.  We currently need them to create the order/hierachy out of chaos.  So we want them to colonise the notes somehow.  But, how about trying to address the chaos by computer-aiding the users?  E.g. ‘finding orphan nodes’ as an example.  Workflow could be done via a query to identify those; you could enforce this as a rule.
+       - JC: Cool, this could bring some Ostrom theory into it.
+- AT: In playing around with Obsidian I’m also expermenting w/ introducing some order to the system, w/ hierarchy, tags, and stuff; just how heavy or light the touches?  The orphans might be key touches at different points in time.  Rather than forcing order at every save, the longitudinal aspects
+  - JC: We might think of those as /lenses/, and we might use this at a later stage.
+- JC: We’ve got this biomimicry idea of nodes and links, and it’s like a neural network, but I was suggesting that we may embed into this a generic or genetic element.  This way, we’d still have nodes and links, but we also have this engine inside of it that is spawning further notes or orphans.  It would be fun to explore this side of organicity.
+- JC: There’s a lot of stuff we could do from this, especially thinking at the different levels.
+** JC’s presentation on patterns and tech features
+** Discussion
+
+
+* Recap/PAR
+
+- Time table sorted
+- Tech work on ≈£3K, that much that can go 2 months w/ LV’s base rate, if we could find £4.5K that would be also good, but ≈£3K would account for some time off for EmacsConf 
+- Maybe could ask some green investors to come to some of these workshops; maybe this falls out of the next few months if we have a product for investors as well as academics.  Goal would be to build something applicable across different fields.  Can we get "a product" that’s evidence-based.
+- JC: Research needed (Brookes) vs "build now" (Hyperreal)
