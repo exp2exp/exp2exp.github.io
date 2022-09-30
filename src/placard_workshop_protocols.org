@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a578ff26-aab4-4eb9-a73e-d492c1783103
+:END:
 #+TITLE: Placard workshop protocols
 #+DATE_CREATED: <2022-09-24 Sat>
 
