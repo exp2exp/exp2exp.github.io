@@ -1,0 +1,197 @@
+:PROPERTIES:
+:ID:       1dfc4835-8e9f-4fd9-86a8-b46f14754ea8
+:END:
+#+TITLE: 01 October 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-10-01 Sat>
+
+* 01 October 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Had a long week, and the next one might be just as busy.
+- Okay so far, and want to work more on the workshop.
+- Lamenting the lack of time spent on Emacs on recently.
+
+** JC
+- Late, was at garden, not feeling great
+- Preparing for 4th International Conference on Anticipation
+  - *4 November 2022 Virtual.*
+  - 16-18 November 2022 Tempe, Arizona USA.
+- Want to prepare on design patterns.
+- Met people in a non-profit called [[https://earthwatch.org.uk/news/blogs/589-engaging-environments-seeking-nature-finding-community][Earth Watch Europe]], and they seemed to be interested in building communities, organization, volunteering, and all this kind of stuff.
+
+** LV
+- Very long week; working more than 25 hours on prepping for the conference.
+  - Had to spent all day sending out acceptance notices
+- Back to working on algorithms to better for the job market.
+- Discussion about time-tabling w/ Abby
+- Thinking about ‘computer aided Org Roam’ — thinking about all the stuff that this could be might be living inside a query language
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2022-10-01 Sat 16:30]
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+*** LV:
+- Switching everyone to org-roam's v2, at least for =exp2exp= (10'),
+- Calendar for preparing the EmacsConf presentation (5'),
+- Reviewing the content of the presentation in the face of the downgrade to 20' rather than 40', and the possible further downgrade to 20' (10').
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+** Moving to org-roam v2
+
+- Do I need to have the =.dir-locals.el= in everyfile?
+- We haven’t got any immediate blockers to changing exp2exp to OrgRoamv2.
+- A few files here and there might need some updates
+** Calendar for EmacsConf submission
+| [2022-10-01 Sat] | Today             |
+| [2022-10-08 Sat] | WORK              |
+| [2022-10-15 Sat] | NA is away        |
+| [2022-10-22 Sat] | WORK              |
+| [2022-10-29 Sat] | Planned recording |
+| [2022-11-05 Sat] | Submission        |
+** Discussion on the presentation
+- JC: Last year, the presentation was a little robotic.  Maybe we could do something with a pseudo-host asking questions!
+  - NA: I do like this format the format!
+- JC: Maybe we want to expand further than what we did last year.
+- NA: Let’s decide on the number of interview questions.  Maybe 2–3 might be good, especially if there’s a back-and-forth
+- JC: An interview might work really well.
+- JC: We could with minimal post-processing: record it 7′ at a time (one question, one answer).
+- [[https://www.etsy.com/uk/listing/526527461/wildebeest-mask-gnu-mask-diy-printable][Gnu Mask]] possibly useful in this context
+** Good to get it done sooner rather than later
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** JC’s presentation on his future section (possible Phase 3)
+
+*** Special emphasis on two candidate requirements
+- What are the things we ‘need’ as ERG, from the point of view of software?
+- Of course it depends on our purpose
+
+** Query language
+- You put in queries and get results
+- But what are the functions that are being run?
+- E.g., regexp is a similar thing (find all matches for =E.*G= in a file...)
+- But we could add anything, using AI or whatever else to make those connections
+- Thinking of “I’d like to see the orphans in my Org Roam repository, I’ll get the computer to help with that.”
+- We can also do things like: “create new nodes by default: what if your collection of notes could evolve, and the computer can compute new links for you to consider overnight.”
+- What’s not covered by the query language?  Presumably not some other hooks that manage the workflow of interaction with the system.
+
+** Can we...?
+- Embed a model so that everything we push can tell us “hey, this note that you just wrote up is similar to these three other notes”
+- Imagine you save the file, the code will then go and try to find salient points in other files that are similar
+- So this isn’t a query that the user types, but it’s a type of query itself
+- And furthermore, once you save a file, the model updates
+*** Could we use the notes from the first year as a baseline and see how they evolved?
+- The model could rank similarities between documents, and if we have two notes that are highly similar, it’s an indication that we’re not innovating
+- If there’s a weak link then maybe there’s something more to develop
+- In the context of the workshop, we have 2 phases (I) Problematization and (II) Solution-finding; can we use the data from the problems as a baseline.
+- This is similar to how
+** Blockers
+- ‘Find salient words in a buffer’ is some NLP stuff
+- JC: Let’s team up on this
+- LV: Possibly difficult to achieve some of this w/in the time
+
+** Work arounds
+- Worst case scenario, we can can act like the system and say things like “do you remember when you said X? It seems related to Y”.
+
+** Current working implementation
+- Noorah has a python script for *topic modelling*, but it doesn’t currently update on entry of new texts
+- Alex has another super simple script for doing *bags-of-words* models
+- Even if we just create a wordcloud that doesn’t have a lot of processing
+
+** Mockup
+- If we get this working inside Org Roam adapting the current script isn’t hard
+- Updating the model on entry might be more complicated
+- In the case of PlanetMath, we’d have titles and synonyms "Gaussian distribution" and "normal distribution", and these would be introduced as links
+- What if we have a ‘glossary’ where we can say *Gaussian distribution is is the same as normal distribution*
+- We can store IDs
+- We can also make the glossary a tree, w/ parents/children, other hierarchical relations
+- We could further refine the suggestion model w/ a taxonomic model
+- Practicing algos would make me good at finding networked relationships between headlines, rather than just looking at a row of trees
+
+** Getting started
+- Maybe we want to think about “the taxonomy” as a slipbox of its own
+- Or maybe we want the taxonomy to be a tree of topics
+- Or the file could be the patterns
+- We can have a recipe for the semantic recommendations
+- Whenever there’s a new word, the system might say, “this word seems to belong to a new category, would you like to enfoef in to a new category?”
+- Could we use [[https://en-gb.padlet.com/][Padlet]] as a simple thing?
+- Well, worth weighing our options if what we could do w/ our time is create a padlet clone
+- LV: I have a snippet-processing Pastebin-like book, I can look into it
+- Padlet doesn’t have a real API but does have CSV export
+- What might be easier would be to run our own version of Etherpad, we can set it to allow CLI interaction
+
+** Closing
+- Can we create a basic website, we enter text, the text goes into a CSV file that has columns like IP address, body, user
+- 20m to 1d time needed
+- Alex might have already implemented this :-)
+- Maybe we can have a suitable demo for the tech workshop (≈ 1 month from now)
+
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- JC: I’m feeling better
+  - Thaw began earlier, got better as we got to "Phase 3"
+
+*** 2. What are some different perspectives on what's happening?
+- JC: Quite liked bringing in NA’s Python qualifier work as a new oldstock theme for us here
+- JC: Session feels dynamic
+
+*** 3. What did we learn or change?
+- Is this the first 2h session w/ just the three of us?  Seems so.  It was good.
+- Even if it was 1h30 working after a 30 checkin, we still felt better
+
+*** 4. What else should we change going forward?
+- Fix our web publishing /sometime/; maybe off the back of the new tool that we’re building!
+
+* Tentative agenda for next week
+- JC + LV will meet often!
+- Work on EmacsConf
+- Let’s confirm meeting plans with Abby
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- After: lunch!
+
+** JC
+- It’s been a rather stressful week/day.
+- Been sleeping better recently (except last night).
+- It’s time to relax some more!
+- Good to restart serious work on Monday, unless it helps me relax earlier :-)
+
+** LV
+- Glad we’re finished w/ this week’s EmacsConf, health stuff, meetings?
+- Looking forward to two weeks that are less busy, will enshrine working on algos; to cement a habit you need 3 weeks!  Use this time judiciously.
