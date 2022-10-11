@@ -159,9 +159,7 @@ This pattern can be used when we're thinking about designing cities
 also be used when designing other human interaction scenarios.
 
 **** Actions
-- [ ] In our workshop design, we want to create "wrinkles" for participants
-by getting them not only to encounter difference, but also to purturb
-their familiar environments.
+- [ ] In our workshop design, we want to create "wrinkles" for participants by getting them not only to encounter difference, but also to purturb their familiar environments.
 - [ ] We'll do this by stripping expertise in our descent to the myth layer, and also:
 - [ ] By adding disruptions to scenarios via the Kaij Communicator role.
 - [ ] However, we don't want to overwhelm participants with too much responsibility while we're going through this process, so:
