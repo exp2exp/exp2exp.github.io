@@ -48,10 +48,12 @@ worked together before, get them onto the same page, and scaffold
 collaborative action.
 
 We want our methods to be transferable between contexts.  Topics we’re
-currently exploring include /public space/, /free software/, and
-/anticipatory methods/.  We envision these topics weaving together in
-the future around larger and longer scale collaboration around massive
-problems.
+currently exploring include /public space/, /anticipatory methods/, and
+/the future of free software/.  We envision these topics eventually
+weaving together around larger and longer scale collaboration around
+massive problems.
+
+Our workshop has three phases.
 
 ** Phase One
 
@@ -66,10 +68,17 @@ The second phase of the workshop, we ask participants to take on roles
 that explore the scenarios.  Our aim is to create an *orientation to
 action* that will outlive the workshop itself.
 
+** Phase Three: The future
+
+The workshop will have both a local and potentially a global legacy,
+e.g.,
+- Potentially morphing into a place-based collaborative space, like a “carpentry workshop” or “bicycle workshop”; and, furthermore,
+- Local sites may link up to become part of a broader movement.
+
 ** Summary of Methods
 
 - [ ] *Causal Layered Analysis.*  In both phases of the workshop we think in terms of CLA’s four layers: Litany, System, Worldview, and Myth.  In Phase 1, the output of each preceeding layers feeds into the next one; when we get to the Myths later, we have a shared perspective.  We then work our way back through the previous layers in the second phase of the workshop, envisioning a new Litany (e.g., future newspaper headlines).
-- [ ] *Design Patterns.* The defined sets of problems that participants are used to solving comprise a simple ‘design pattern language’.  /Prior to the workshop/: we should do some background research on participants to develop hypotheses about what their patterns might look like.  *(This is especially important as a way to bring in themes and approaches that are important to the workshop sponsors!)* /During the workshop/: we will refactor these patterns to bring about new ways of working.
+- [ ] *Design Patterns.* The defined sets of problems that participants are used to solving comprise a simple ‘design pattern language’.  /Prior to the workshop/: we should do some background research on participants to develop hypotheses about what their patterns might look like.  *(This is especially important as a way to bring in themes, approaches, and hypotheses that are important to the workshop sponsors!)* /During the workshop/: we will refactor these patterns to bring about new ways of working.
 - [ ] *Project Action Review.*  In this setting we want to ask people to imagine /future actions/, with attention to unexpected perturbations and variations (e.g., what can go wrong, what they might have to learn, things they might need to make, etc.).
 
 Further details are available in a separate preprint.[fn::
@@ -79,10 +88,40 @@ here as Appendices [[analyst]], [[historian]], [[kaiju]], and [[designer]].)  In
 partipants will only need to familiarize themselves with one of these,
 and we can do that during the workshop itself.
 
+** Related work
+
+Our methods, derive from experience with the Peeragogy project, particularly our use of design patterns, project action reviews, and short trainings for multiple roles.[fn:: fullcite:peeragogy-handbook]  Although the specific methodological synthesis is unique, we are not the only people working on related topics.  Here we limit ourselves to a few examples:
+
+- [[https://earthwatch.org/][Earthwatch]] — “connects people with scientists worldwide to conduct
+  environmental research and empowers them with the knowledge they
+  need to conserve the planet.”
+- [[https://doughnuteconomics.org/about-doughnut-economics][Doughnut Economics]] — “the Doughnut offers a vision of what it means
+  for humanity to thrive in the 21st century - and Doughnut Economics
+  explores the mindset and ways of thinking needed to get us there.”
+  More specifically: “The social foundation forms an inner boundary,
+  below which are many dimensions of human deprivation. The
+  environmental ceiling forms an outer boundary, beyond which are many
+  dimensions of environmental degradation.”
+
+Like the proponents of these efforts, we are steeped in the values of
+citizen science and open research.j  We also believe that our methods
+can scaffold complex interactions between citizens and experts, to
+achieve more integrated action than traditional conservation and
+development projects.  Thus, we can help to further and consolidate
+the aims of projects like the above.
+
+Nevertheless, we should be clear that this point of view is currently
+somewhat speculative.  Each of our patterns represents a hypothesis
+that can be tested in practice and refined.  This document is an
+evolving record of that process.
+
 * /Before the workshop/
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+#+BEGIN_EXPORT LATEX
+\addcontentsline{toc}{chapter}{\emph{Before the workshop}}
+#+END_EXPORT
 
 As mentioned, the workshop organizers should do some background
 research on project participants and prepare some simple design
@@ -93,51 +132,129 @@ Problem ... Solution ... Rationale ... Actions ...
 #+end_quote
 and the four CLA layers to frame the patterns.
 
+Our client for the public space workshop, Abby Tabor, suggested three
+themes, which we've translated into patterns and immediate next steps,
+using the DPL template.  We also have developed some patterns in
+advance of our Anticipation 2022 workshop, which play a similar role
+in that context.  These patterns presented in the subsections below as
+indicative examples.  Further brief examples of patterns can be found
+in the Designer Handbook, Appendix [[designer]].
 ** Example: “Public Space as Public Health”
 
-Abby Tabor suggested the following themes for our workshop(s), which we’ve translated into patterns.  
-
-*** *Disorder* :: Creating conditions in which adaptative systems learn over time                                
+*** Disorder :: Creating conditions in which adaptative systems learn over time
 **** Problem
-
-People tend to live in their own worlds, comfortable with their abilities and limitations.  /However/, when they encounter something shocking they have trouble reacting appropriately.
+People tend to live in their own worlds, comfortable with their
+abilities and limitations. However, when they encounter something
+shocking they have trouble reacting appropriately.
 
 **** Solution
-
-Sennett suggests that human environments should be designed so that people encounter difference.[fn:: cite:sennett2022designing]  This helps make brittleness more supple and enhances our repertoires for thinking about things in complexity.
+Sennett suggests that human environments should be designed so that
+people encounter difference.[fn:: fullcite:sennett2022designing] This
+enhances our repertoires for thinking about things in complexity.
 
 **** Rationale
-
-This pattern can be used when we’re thinking abouttsssssssl-sln78vsssss++++++=/*
+This pattern can be used when we're thinking about designing cities
+(e.g., at the level of an exposed, reusable infrastructure) but it can
+also be used when designing other human interaction scenarios.
 
 **** Actions
-*** *The Nature Contract* :: A reconsideration of our relationship with our environment
+- [ ] In our workshop design, we want to create "wrinkles" for participants
+by getting them not only to encounter difference, but also to purturb
+their familiar environments.
+- [ ] We'll do this by stripping expertise in our descent to the myth layer, and also:
+- [ ] By adding disruptions to scenarios via the Kaij Communicator role.
+- [ ] However, we don't want to overwhelm participants with too much responsibility while we're going through this process, so:
+- [ ] We'll make our interfaces simple to use.
+- [ ] We may add a Scribe role (filled by a facilitator) so that participants don't have to practice yet another skill while they think about the kinds of disorder that we want to expose them to.
+- [ ] We'll aim to assess the outcomes of these design choices following a couple pilots before running the full workshop.
+
+*** The Natural Contract :: A reconsideration of our relationship with our environment
 **** Problem
+The social contract is said to describe an implicit agreement that
+allowed humans to form collectivities, leaving a state of nature. This
+‘nature’ is presumed to accord with human reason. /And yet/, the limits
+of this Enlightenment philosophy have become clear, in light of the
+effects of modern human life on the globe.
+
 **** Solution
+Michel Serres proposes an alternative pact with nature that is no
+longer parasitic, but symbiotic.[fn:: fullcite:serres1995natural] This
+requires thinking in wholes, and in closed circuits: "by natural
+contract above all the precisely metaphysical recognition, by each
+collectivity, that it lives and works in the same global world as all
+the others" @@latex:(p.~46).@@
+
 **** Rationale
+This perspective is friendly with cybernetics, although cybernetics
+may not have the final word on the kinds of creative breakthroughs
+that are needed to bring about needed change.[fn::
+fullcite:Bardin2022] Furthermore, it may be difficult to engage with
+‘nature’ in the way that Serres asks us to, given our tendency to
+think in terms of socially meaningful symbols.  However, this pattern
+provides something like a compass direction: whether we use it for
+steering or for something else is up to us.
+
 **** Actions
-*** *Dissolving boundaries* :: Between self and environment
+
+- [ ] One of our hopes is to invite new forms of action by mashing up the `patterns' that folks in different disciplines will already be familiar with, to produce new forms of action.
+- [ ]  We should be careful to look at the relationship between `symbolic' action (e.g., actions that could justifiably tagged as "greenwashing") and actions that lead to new forms of life (e.g., ERG talks about "the ship that builds itself", which itself builds on other ship metaphors, such as the /polis/-as-ship for the Ancient Greeks).
+- [ ]  Think about Ingold's perspective on lines themselves as important for correspondence between the evolving nodes (e.g., tube lines, bus routes); relevant to `salience' & capturing the communication between the nodes
+
+*** Dissolving boundaries :: Between self and environment
 **** Problem
+Life in modern democracies is often characterised by shrink-wrapped food, waste that is taken away automatically, and exercise in gyms or yoga studios.  We often see the environment as something to consume, rather than as something that we live in symbiosis with.  /However/, despite the many benefits of modern living, some of its patterns are associated with poor health outcomes.
 **** Solution
+Life tends to cross boundaries in a complex web.  Social structures
+also change how we think about boundaries: forexample, consider the
+2003 Land Reform Act in Scotland, which allows camping anywhere.  When
+we dissolve boundaries between elements of the environment, we see
+things in a new way and can encourage the health of the whole.
 **** Rationale
+To see ourselves as part of a greater whole is step towards radical
+action.  Everyone has access to a way experiencing the world in which
+"We stop imputing the sense of solidity that creates a sense of
+separation [and yet] do not shut off the senses in any way. Actually,
+we shed the veneer, the films of confusion, of opinion, of judgment,
+of our conditioning, so that we can see the way things really
+are"[fn:: fullcite:amaro] @@latex:(p.~66).@@ This necessarily happens
+"interfaced with the phenomenal world" @@latex:(\emph{ibid.},
+p.~71).@@ Living creatures have a tendency to be biased towards
+precise information, even if this information isn’t true.  Dissolving
+boundaries can allow more holistic informative patterns to take shape.
+Nevertheless, care should be taken not to dissolve the self into
+unwholesome relational systems.
 **** Actions
+- [ ] We want to be careful not to overwhelm participants; use "wrinkles" that are, nevertheless within participants' zone of progress.
+- [ ] Following the workshop, we want people to be more aware of the ramifications of their actions.
 
+** Example: “Anticipating Anticipation”
 
-# Do we need a phase 3 that will help people work across scenarios?  E.g., if folks focus on solutions related to food security, homelessness, rivers, etc., ... w/ the conceptual map of clusters you might have commonalities between domains that would help us make links.
-# [11:39 AM]Joe Corneli: E.g., river dragons + the big issue delivery would have something in common, like "Public art" or "Public information dissemination"  — but how do we ensure that it's sufficiently doable that people don't feel demoralised?
-# [11:40 AM]Joe Corneli: Maybe document the actions that are people doing in the workshop and feed that back to folks as an example of public art, so that people don't feel it's impossible?
-# [11:46 AM]Joe Corneli: We want OSS that's available to everyone; we want people to relinquish expertise & then apply it to settings that potentially carries a lot of value.
+*** Open Future Design
 
-# If we're asking people to contribute in a full-on way we don't just want to take ideas, we want to make coordinated action.  We want to facilitate idea generation that will benefit "all".
+**** Problem
+People need to coordinate, plan, and maintain social cohesion. If a culture can develop based on shared learning BUT there is no oracle that can tell us what to expect
+**** Solution
+Use design pattern methods to articulate multiple futures. This can co-evolve with further patterns, e.g., developing:
+- a language for projects → Roadmap (Corneli et al, 2015), (…)
+- a language of roles → Play to Anticipate the Future, (…)
+- a language of future scenarios → (…)
+**** Rationale
+Examples include this pattern and Play to Anticipate the Future.
 
-# — Maybe bring this as a 'concern' to the tech focused workshop?
-# [11:58 AM]Joe Corneli: Tech ROI headline: Something demonstrating the capacity to work w/ sharing of knowledge over time.  This will give basis to write in Hyperreal as a knowledge sharing partner over a long period of time.  Let's have a test bed for some software that offers something different.
+**** Actions
+- [ ] Flesh out this pattern language.
 
-# AT: I'm enjoying thinking about real-world challenges and how software might augment that.  The software is a tool, can I help keep this developing?  Can we take something that would demonstrate enough of its potential to a funder?
+*** Play to Anticipate the Future
+<<play-to-anticipate-the-future>>
 
-# Possible outcome from the pilots and/or full workshop, e.g., for a media or policy or knowledge-sharing journal?
-# [12:03 PM]Joe Corneli: How to credit "Contributors" to workshop?  How to integrate their knowledge into the software as it develops?  Keeping in mind our hopes for the software, the idea that it can be used by anyone...
-# [12:03 PM]Joe Corneli: 3:30PM on Thursday meet again — largely a strategy meeting to outline key dates, outputs, etc.
+**** Problem
+You are engaging with friends, colleagues or acquaintances. If you want to explore possible futures BUT time travel does not exist;
+**** Solution
+Play a game that lets you experience a plausible future scenario together.
+**** Rationale
+Example: A bipartisan group played a scenario planning game to anticipate the aftermath of a contested US election (Bidgood, 2020).
+**** Actions:
+- [ ] Transform our scripted presentation for Anticipation 2019 into a game; cf. https://fearlessjourney.info/.
 
 * Scenario building activities
 
@@ -282,10 +399,15 @@ the diagrammatic analysis.
 
 \medskip
 
-* Intermezzo: /Myths to next phase of the workshop/
+
+* Intermezzo: /From Phase 1 to Phase 2/
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+#+BEGIN_EXPORT LATEX
+\addcontentsline{toc}{chapter}{\emph{Intermezzo}}
+#+END_EXPORT
+
 
 The goal here to run something akin to an inception.  Our preliminary
 postulate is that, if people could change things on their own, they
@@ -294,8 +416,6 @@ Our goal therefore is to challenge their views, so that they leave the
 workshop with a modified understanding of how the world works
 (including the myths that motivate them, but more broadly with the
 ability to orchestrate complex change).
-
-* Scenario exploration activities
 
 Here we introduce four roles.  The attendees are broken into four
 corresponding groups, each to be given a short training.  Then
@@ -323,6 +443,8 @@ role in every team.
 *DESIGNER.* You are responsible for helping the team put together solutions to problems that arise.
 #+end_quote
 
+* Scenario exploration activities
+
 #+BEGIN_EXPORT LATEX
 \clearpage
 \colorlet{shadecolor}{lavenderblush}
@@ -330,6 +452,7 @@ role in every team.
 #+END_EXPORT
 
 ** Myths
+<<myths>>
 
 #+BEGIN_JUSTIFYRIGHT
 He trains himself, ‘I will breathe in focusing on inconstancy.’ He
@@ -392,6 +515,7 @@ design patterns that relate to the skills of participants.
 #+end_quote
 
 ******* /Systems to Litany/
+<<systems-to-litany>>
 
 #+begin_quote
 \noindent *Team Activity:* *Project action (p)review*
@@ -405,10 +529,42 @@ actions may need to be scaffolded by new tools, policies, or other
 innovations: write these down, also.
 #+end_quote
 
+
+** Myths-to-Litany Loop
+<<myths-to-litany-loop>>
+
+#+begin_quote
+\noindent *Team Activity: Start over*
+
+Re-form groups and run the exercises from Myths ([[myths]]) with a new
+Historian. The new Historian should recap key points from the PAR from
+Systems to Litany ([[systems-to-litany]]), and the team should then
+explore the new scenario, following all of the steps between [[myths]] and
+[[myths-to-litany-loop]] again. This process can be repeated more than
+once as time allows. As you work through this activity, feel free to
+introduce connections with the previous scenario(s) you already
+explored, although the new Historian won’t be familiar with them.
+#+end_quote
+**  Closing
+
+
+#+begin_quote
+\noindent *Full Group Activity: Share back*
+We’re at the end of our time together, let’s share back any crucial points with a full-group PAR.
+1. Review the intention: what do we expect to learn or make together?
+2. Establish what is happening: what and how are we learning?
+3. What are some different perspectives on what’s happening?
+4. What did we learn or change?
+5. What else should we change going forward?
+#+end_quote
+
 * /After the workshop/
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+#+BEGIN_EXPORT LATEX
+\addcontentsline{toc}{chapter}{\emph{After the workshop}}
+#+END_EXPORT
 
 /Our hope is that partipants will be ready for new forms of action after this workshop.  We’re prepared to offer support with tooling and other next steps./
 
@@ -435,6 +591,7 @@ Here are some notes about how technology can potentially help people manage acti
 - Maintain a Kanban board to keep track of actions, intentions, patterns
 - Discover new connections between contributed texts, to find new patterns
 - ...
+
 
 * Appendices
 :PROPERTIES:
@@ -773,7 +930,7 @@ The isolation of Finland proves in more and more occasions a two-sided sword. As
 * Kaijū Communicator Handbook
 <<kaiju>>
 
-Example issues from Flaws of the Smart City.
+Three example issues from Flaws of the Smart City.
 
 # ** FLAWS OF THE SMART CITY: CONTENTS
 
@@ -1411,7 +1568,7 @@ errors.  In every meaning of the word.
 * Designer’s Handbook: 
 <<designer>>
 
-Three example patterns from ‘Cooling the commons’: 
+Three example patterns from ‘Cooling the commons’
 
 - Pedestrian Linkages -- Cycle Club
 - Caring for Trees
@@ -9351,3 +9508,22 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 # <<footer-info>>
 # Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 
+
+
+* Notes :ignore:
+
+# Do we need a phase 3 that will help people work across scenarios?  E.g., if folks focus on solutions related to food security, homelessness, rivers, etc., ... w/ the conceptual map of clusters you might have commonalities between domains that would help us make links.
+# [11:39 AM]Joe Corneli: E.g., river dragons + the big issue delivery would have something in common, like "Public art" or "Public information dissemination"  — but how do we ensure that it's sufficiently doable that people don't feel demoralised?
+# [11:40 AM]Joe Corneli: Maybe document the actions that are people doing in the workshop and feed that back to folks as an example of public art, so that people don't feel it's impossible?
+# [11:46 AM]Joe Corneli: We want OSS that's available to everyone; we want people to relinquish expertise & then apply it to settings that potentially carries a lot of value.
+
+# If we're asking people to contribute in a full-on way we don't just want to take ideas, we want to make coordinated action.  We want to facilitate idea generation that will benefit "all".
+
+# — Maybe bring this as a 'concern' to the tech focused workshop?
+# [11:58 AM]Joe Corneli: Tech ROI headline: Something demonstrating the capacity to work w/ sharing of knowledge over time.  This will give basis to write in Hyperreal as a knowledge sharing partner over a long period of time.  Let's have a test bed for some software that offers something different.
+
+# AT: I'm enjoying thinking about real-world challenges and how software might augment that.  The software is a tool, can I help keep this developing?  Can we take something that would demonstrate enough of its potential to a funder?
+
+# Possible outcome from the pilots and/or full workshop, e.g., for a media or policy or knowledge-sharing journal?
+# [12:03 PM]Joe Corneli: How to credit "Contributors" to workshop?  How to integrate their knowledge into the software as it develops?  Keeping in mind our hopes for the software, the idea that it can be used by anyone...
+# [12:03 PM]Joe Corneli: 3:30PM on Thursday meet again — largely a strategy meeting to outline key dates, outputs, etc.
