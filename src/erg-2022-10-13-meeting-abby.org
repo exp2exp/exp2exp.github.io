@@ -1,0 +1,117 @@
+:PROPERTIES:
+:ID:       022de421-7fcd-42f8-bd7a-70b02ba33bb2
+:END:
+#+title: Meeting with Abby <2022-10-13 Thu>
+
+* Agenda
+
+** On the workshops
+
+- *Who* do we want to invite
+- *What* do we want to achieve?
+  - JC has a couple of ideas from his notes
+- Abby will provide list and blurb
+- Aiming for 8 per pilot
+- Joe can add a few people potentially
+
+** JC’s update on the workshop-document (esp. future)
+
+- NA: Do these pattern descriptions work for Abby?
+  - e.g., is this "disorder" the right one?
+
+*** Tech reflection
+- The periphery of unlinked nodes could be useful for perturbing the core.  We want some software that can help order ideas, but also to have the potential for ‘dis’-ordering the landscape.
+- It’s related to the idea of different people putting in different content; we don’t want to condense too much on a solution.
+- The tech support can either produce more disorder or less.
+- You should be able to keep the ordered hierarchical structures, but break them down in another workspace or such.
+- NA: The conditions you add to the constellation should be analysed by humans
+  - Periphery should be analysed by humans
+  - Sense-making should be left to humans
+  - We’re not expecting the system to be "intelligent"
+- AT: How do things like *Instagram*, Twitter, etc., end up /narrowing/ the content that we’re exposed to?
+  - How to have something that shuffles the landscape so that it’s uncertain?
+
+** "If we remove this pattern from the context in which it was generated, does it still produce insights?"
+- We shuffle around the cards, then try to make sense of the cards.
+  - JC: Relates to reproducibility of research.  In some cases the pattern might be very productive in a new data context.
+- JC: Every contribution should be enhancing the discourse; if they’re not, we may want to prune them.  I have a little  difficulty wrapping my head around the social contract.
+  - Natural contract a bit hard to wrap my head around in the fully general context, but it can work at the level of the workshop.
+** What are the key functions of the computer stuff?
+- We won’t have enough data at the 1st pilot proto-workshop, but we can start to reflect on the best ways to implement the systems.
+- Imagine parallels: workflow progressing on both methods and tools.
+  - So far we’ve been working on the methods; let’s work towards designing the key functions of the tools.
+** AT: "Connecting people and places: how communities use tech"
+- [[https://www.powertochange.org.uk/][Power to Change]] company has a fund (gov’t lottery); a community-tech fund of up to 10 X £40K to support (with rapid turn-around time)
+- Can we pitch what we want to create as the tool there?
+- It supports charities and community interest companies; it needs to be written into the pro forma that they aren’t for shareholder profits
+- What does Leo want to do through the platform?
+- 4th of Nov is right around the corner, but if we need to crunch on this, it might be tough for Leo.
+- JC + AT to write up the project on this, Leo could read the draft; "How do you see change through tech"
+- Tech will be the guarantor that the things we’re doing is repeatable
+- Depending on when the results of the funding are shared... December... this can stay online.
+
+** Finance
+- January timeline informally OK’ed
+- Joe advised to bill for the money that’s in there for the next lot of money
+- We’ll do the same for Leo-specific work for time up to December
+ - 2.6K invoice both times (the one for asap and the one for LV on December), full amount
+
+** Back to JC’s questions on the /who/ for the workshop
+- JC: When would it be best to have Florian and Judith for the workshop?  ASAP for a proto workshop, or later for the big one?
+  - AT: Hope that they will be in both;
+
+** Pursuing grant with Judith (and possibly Florian)
+  - plan is to apply for a small project grant with Judith (£10K)
+
+** Going forward
+- We should probably do a better job of differentiating the two parts of the technology, i.e. methods and tools
+
+** Calendar
+All times UTC
+| <2022-10-15 Sat 14:00> | ERG w/ Abby but w/o Noorah                                         |
+| <2022-10-20 Thu 13:30> | Weekly meeting with Abby                                           |
+| <2022-10-27 Thu 13:30> | Weekly meeting with Abby                                           |
+| <2022-10-29 Sat 14:00> | ERG working on the workshop with focus on tooling (esp. designing) |
+| *<2022-11-02 Wed ??:??>* | Proto-workshop on tooling                                          |
+| *<2022-11-03 Thu ??:??>* | Proto-workshop on community                                        |
+| <2022-11-03 Thu ??:??> | Weekly meeting with Abby for debriefing                            |
+| <2022-11-04 Fri ~~:~~> | Deadline for grant                                                 |
+
+** PAR
+
+**1. Review the intention: what do we expect to learn or make together?**
+
+- Catch up with Abby after 1st week
+- Two fainters in separate groups who had their hands in freezing cold water
+  - One hadn’t had breakfast
+
+**2. Establish what is happening: what and how are we learning?**
+
+- "Community tech could be anything" — e.g., the hardware of community space
+- This is a good fit for reproducible research
+
+**3. What are some different perspectives on what’s happening?**
+
+- Tech = methods and tools?
+
+**4. What did we learn or change?**
+
+- We should be applying the same kind of rigour to designing tech that we’ve been applying to methods
+- Tools require us to look at 0’s and 1’s, whereas it’s relatively easy to talk about methods
+
+**5. What else should we change going forward?**
+- Abby coming along on Saturday, could spend the entire day working 
+- Meet again next Thursday 14:30 and for the next 2-3 weeks
+- Decide how long the proto-workshops are going to be!  1h? 2h? 3.5h?  Let’s say 10:30, break, reconvene after lunch.
+  - We only had 40’ to do it at the anticipation thingy
+
+** Next steps
+
+- Abby: will start a draft of the proposal for power to change
+- 1500 on Saturday
+
+* Checkout
+
+- Joe: meetings with peeragogy folks tomorrow for Anticipation prep; will check out requirements of company
+- Leo: going back to work now
+
