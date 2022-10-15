@@ -1,0 +1,272 @@
+:PROPERTIES:
+:ID:       5dccd473-42ca-4533-abd7-22098bbfb3f2
+:END:
+#+TITLE: 15 October 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-10-15 Sat>
+
+* 15 October 2022  — Emacs Research Group
+
+
+* Check-ins                                                             
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA (away)
+- Travelling this weekend, but back next week!
+
+** JC
+- Back from a Go session and applied doughnut economics
+
+** LV
+- Had a good week!
+- Having fun with programming concepts.
+- Had some swimwear to put away...
+
+** AT
+- Tech at different scales: e.g., *StreetGoat*, meals for students
+- Ability of WhatsApp is limited
+- Linking people across different place
+  - JC: Maybe people learning how to contribute to the technology is the missing part
+    - LV: Designing and coding software; so far, we’re the ones who have the expertise to create software.
+    - To the people whom we want to take the idea, they may be dependent on a basic set of tools at the start, but can we get them developing the methods?  We have the ability to work on methods and help people take those up.
+    - We can’t turn people into coders (JC: At least not overnight.)
+    - We can develop refined methods, w/ paper implementations; or with computer-aided systems; we can create a vanilla set of methods that people can build on later.
+    - We want to build across communities, find the patterns that go across communities; not to abandon the tool; we aren’t yet in a position to work across communities and methods.  Maybe the different communities can look at each other and learn something; the communities may also develop some cravings "A: We wish we could implement method a!"  It’s up to us to reconsider this.
+    - *Sustainment model*: we can improve the tooling, we can add new functions to the tools that are already there; not just for community A.  If A wants a tool, we’ll try to keep growing as a central hub through which development runs.
+    - AT: The central component, e.g., the hub of tool development requires high-level skill and an oversight of the landscape.
+    - How to build something transversal enough so that communities are empowered to input?  We provide lots of litle lego blocks that folks can build, with whatever shape?  The hope is that people in site A will build a form that will relate to the ‘landscape tool’, perhaps using a pattern, and that in Site B they can have some communal interchange.
+    - The global tool of the development 
+    - Spin out tools that can feed into the.
+
+* Meta points
+
+** CXLD Don't forget to record the session!                   :LV:cancelled:
+CLOSED: [2022-10-15 Sat 16:10]
+:LOGBOOK-NOTES:
+- State "CXLD"       from "TODO"       [2022-10-15 Sat 16:10] \\
+  Meeting is on Discord today.
+:END:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+"How to build something transversal enough so that communities are
+empowered to input into it?"
+
+* Agenda (Part 1): What is the model?
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Technology
+- Methods
+
+Zooming out: "Sharing of knowledge in a way that doesn’t rely on expertise to translate it."
+
+- Phase I, II,     III:
+  - Goal is still to focus on the day of the workshop itself
+  - Even if we just have one community we can still work on the hub
+  - It will still come at a later stage
+  - A lot of the tech is still for "the day of the workshop"
+
+- We have a method we use for ERG; we’ll provide a subset of this method and we hope that people will be able to use a subset
+
+- The "baseline": Relate nodes together, we need that.
+  - In the future, we want to get to the ability to:
+    - CHECK THINGS OFF
+    - CONNECT THINGS UP
+    - ADD THINGS, DELETE THINGS, CONNECT WITH OTHER MAPS
+    - PERTURB THINGS; etc.
+
+- So that we have the capacity to *perturb* within the workshop itself
+  - All the abilities that people will have will be more effective if people continue to invest in these methods
+
+- Can we enable some stepping stones for the community to continue to engage with the software?  So that we leave them with the capacity to contribute further.
+
+- A lot of the stuff we’re going to need to do is to think about the data model: when designing the software, we hate legacy versions of the system, e.g., previous schemata; when you need to make a change it may need a different form of the data; this can take time & can be an error prone process.
+  - If we’re in the room with them we can show a bit of the perturbations
+  - The software afterwards can mimic a lot of the stuff we’ve been doing during the workshop, though it won’t be as complete as a human agent bringing the relevant.
+  - But!
+    - We also have a long-term vision whereby we can upgrade the system according to the desires of folks
+    - We can be a helpline until the system gets to 60% of what we can do during the workshop
+    - If they are still using the tool as a proto-Zettlekasten; we can leave the session, you can keep track of your notes.
+    - We can also say: A lot of the stuff we’ve presented comes from ZK method, and we can transfer all your notes into such a system and you can keep working on it at home; if you feel the system would benefit from other tools, and we could use you as a community of testers for the system
+    - AKA, *sustaining the interest* of users in the tools we’re developing
+
+** And, we’re using the workshop too
+- Information that hones the software itself;
+- This might reshape depending on how the workshop goes
+- It’s an iterative process; the methods have been running for a while with us; we have little doubts that the methods can help, but we have more doubts about how to induct people into the method; what’s the best format to do that in 6 hours?
+- This goes back to the baseline.
+  - If the goal of the tool is to support the ‘baseline methods’
+  - Goal is to grok the method, and what the forte of the methods are
+*** Recap
+- The doubts that the method is working is very low
+- Doubts that the workshop will adequately inculcate people exist but we’ll have trial by fire
+- For tools, it’s only a matter of time, e.g., ZK tool baseline is covered
+- Where the iterative feature is mobilised, is w/ the ongoing purturbations
+- Implement
+- JC: We know that the method work for us, but we might actually mobilize some of the concepts we’ve developed for the workshop inside our own meetings.  In other words, it’d make sense to mobilize the fun aspects of the workshop into the baseline of the method as people actually use it.
+  - ‘The patterns for designing the workshop are a subset of the methods we have for working together’
+  - The methods are for effective co-learning and collaboration; the workshop is a way to give a taste for this
+  - But we also need to re-infuse the serious baseline with some of these abstract concepts;
+  - E.g., ship, kaiju, etc., are personas that we return to cement some of these things; 
+
+** Closing
+- The workshop is labor and skill intensive, and dependent on the facilitators
+- That’s great for business, but not necessarily great for local sustainability; how to balance so that they can attend the workshop and also be connected to the workshop, and so that they can learn how to do things w/o massive labour intensive involvement
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2): What is the sustainment model?
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Intro
+- How does it work when more people are involved?
+- Not necessarily for the longest term
+- Not necessarily 100s or 1000s of people in the medium term
+- "How to make it marketable for further grant research?"
+- How to sustain ourselves long enough to get a reasonable grant?
+- Community tech: blocked by concentration of expertise
+- Also noted: sustaining projects is actually very difficult and there’s not much funding for sustainablitiy compared to innovation of new tech
+- This project is *embedded* - we’re not trying to reinvent the wheel - we’re developing something novel, but from there on out it needs to sustain.
+- "We just want a system that we can keep working on"
+
+- JC: We need to think about the workshop we’re going to run with the Emacs community where technology is not going to be a blocker.  However, what we haven’t got yet is a workshop with masters of developing sustainability.
+
+** Past
+*** Learn from =sickboi=
+- Push ourselves some, but not too much in any one direction
+- And not trying to do too many things at once
+- Also notice that it was difficult to model all the different nested things that were required for sustainment; there were at least 3 levels (complexity of an immune system, human system, social system).
+- This is a nice way to help make sense of community tech
+  - "Emacs booster shot"
+
+*** Learn from Doughnut Economics
+- Reminds of personalities between two extremes, e.g., introverts and extroverts
+- If you’re <5, you’re below your needs
+- On different levels about systems you’re part of; thinking more globally might be straining our model
+- You can kind of look at it as a value-based discussion: do we extend our model to consider ecological effects; but the values of hyperreal or this project are set within these bounds; our values are based on localism
+- The cross-over is: Kate has set up a research group based on DE, and they run workshops that run all over the place; they then form a network of people applying the
+- JC: It’s kinda like a franchise where we run different but similar things.
+- JC: The real problem that we have is that our values are torn between  and globalism/internationalism.  We want to have this kind of 24/7 system across systems, but we also want to help local communities.  So, how do those things work together?  How do you do internationalism w/o being extractive + a jerk?
+- Implementing the methods and tools locally, plus connectedness wherever you are in the world?
+
+*** Learning from Student Union in France
+- Still strong in FR, though not the strongest union
+- But you always have a tension between what the student unions are supposed to do... helping local students face problems with the university admin, or contribute to the national discourse?  There should be both, and a link.
+- We can extrapolate the national level; you find some student unions that specialise in local stuff, they’ll go on demonstration, but they won’t be invited to national discussion b/c they aren’t considered valid actors at that level; some can be the opposite, without having much impact on local students, only mobilising them around election time.
+- Technology allows us to coordinate w/ different groups of people across the world!  Resting on the shoulders of giants here.
+- Considering how simple the method we want to induct people into is, the simpler we keep it, the more useful it is for the local folks; we could have hyperlocal communities that are connected by us, or by the system if we develop it that way.
+- The baseline method is informed by these hyperlocal settings; NYC-local discoveries could be shared with other groups, or the global system; it’s mainly local-first, for developing local solutions using a sane global system; but even this baseline system will be refined by engagement with the local innovations.
+
+*** Let’s learn from ERG!
+- We have weekly meetings.
+- We have a very congenial way to work with each other.
+- We’ve experimented with different levels of self-directednesss to find the formula that works best for all of us (not necessarily a compromise, more like a progress from everyone).
+- ERG can feel a little directionless, but that’s not necessarily bad: it means that we can reassess our goals frequently.
+- Tolkien: All those who roam aren’t necessarily lost.
+- JC: We view these notes as a form of literature or creative writing.
+- Last year: our goal wasn’t to scale ERG but to replicate it.
+
+** Future
+Let’s think about something that’s sufficiently improbable that it would really reshuffle the project.
+
+How do we get to such an event?
+
+At some point I will have less time to invest in the project.  That will come into play within 6 months unless we have a massive or moderate ‘event’.
+
+- Grants?  ERC might give a 10x boost versus the Springboard.
+- VC?
+- ...
+
+There are multiple different prongs that we could take.  "What _funding_, e.g., 200K to 500K, over say 2 years, that might enable sustaining of a small company as part of a bigger research picture?"
+
+- There are different ways of getting it, e.g., a big Research Council grant, a fellowship w/ some costings for tech development; these can hit £.5m across 3-5 years.
+
+- But there could be other ways.
+
+- With Org Roam, we were approached by Roam Research to write a ‘connector’; this is similar to VC request, but they have a decent amount of funding, but we know who is holding the cards.
+
+- We can be pragmatic.  Technology attracts venture capitalists; if it’s sufficiently novel.  But we need to set some strict rules, to figure out what are the expectations.
+
+- It’s not one of our objectives to have the tool bought away and developed into something else.  We can surf on the wave of ZK tools (with extra stuff); ‘I love the method, I can sell it as a subscription.’  If we lose control of the tool, it can make us loose the local impact.  It creates an obstacle to adoption if you have to pay for £20/month.  VC will favour the global (scaling) aspect.  They are global first.
+
+Is there a way to balance this... HEL doesn’t have CIC, charity, etc., written in.  Is there a way to source funding through Hyperreal, but link it to a CIC?  So you’d have two foundations, one
+
+- JC: Melany in her theses talked about a transaction engine for their platforms, alongside a learning engine where people could build the platform itself.  We could say that the community interest might be to have control over the learning engine, and the HyperReal engine could have control over the transaction engine.
+- JC: The long vision of mine would be to be towards something like Amazon, but with community-interest.  Maybe a [[https://en.wikipedia.org/wiki/Benefit_corporation][B-corp]]?
+
+- But what about an activist group?  Tools for organisation around methods can be important for groups around local objectives, e.g., a food hub, or a student union; a lot of these communities would rely on tools they use professionally.  (E.g., Word, Google Sheets.)
+  - How about trying to market the tool as community-driven, local-first, maybe we could reach out; we’ll provide you a free tool good for local organisation, it fits the baseline method that we want to use/inculcate... 
+  - We help them learn a tool that will be useful for working among people.  ZK works b/c it’s you and your thoughts; everyone loves a note-taking system (especially Silicon Valley)...  We’re all working with knowledge! ... so we market ZK features, but specifically for communities; rather than you, yourself, and your past selves; you can start thinking together, the different TODOS that you need...
+- Student unions need to keep track of upcoming events, they use Google Calendar, docs, etc., we don’t need to subsume all of these features but for coming up with concepts & setting up tasks, we can set.
+- JC: Is what we’re doing comparable to a virtual prosthetics?
+
+** Summary
+- JC: We haven’t solved the issue of how we get there, i.e., our own roadmap which would have action items for us to get there (over, say, the 4 month time scale)
+- AT: This roadmap from a partical perspective whereby we have a lot of conversation in terms of what we’re trying to achieve, especially the workshop, and what the tech looks like by the end of this springboard; it’d be good to have a long-term version to go alongside it.
+- JC: We might be able to go with an angel investment?
+  - This would be a mid-term solution at best
+  - If people are sold on the ideas
+- One investment thesis: There’s no defensibility in software, but hardware is defensible, because "hardware is hard."  (And: patents, presumably.)
+
+- If people were to use the baseline methods, and use a ZK tool, it’s already a success if it helps people improve their work, maybe we get some credit, we can continue to improve the ideas...
+
+- Philanthropic private donors?  Patagonia company?  Local solutions to global problems.
+
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- JC: I liked the fact that the intention was stated as a very clear question.  We might want to replicate this in future ERG sessions.
+- Abby was here!
+- We didn’t record this time
+*** 2. What are some different perspectives on what's happening?
+- AT: Full 2 hours on Saturday allowed us to be less rushed
+- We’re often going in different directions so it’s nice to have the time to indulge that
+- LV: Related to explore vs exploit, we need a balance, and with 1 hour sessions we can get stuck into one of the dichotomous choices; we’re not the only ones to do this.  There often isn’t room for exploration; 2 hrs isn’t typically acceptible for professional settings, but it works for this setting.  We have some expertise in exploration, and as a result of this more time and the slight lineup change created a perturbation.
+*** 3. What did we learn or change?
+- JC: It would have been better if Noorah had been here.  However, a 3-person grouping makes for very exciting interaction.  It might be the same with a 4-person group.
+
+*** 4. What else should we change going forward?
+- Need to develop more of a roadmap for the next 6 months, keeping in mind that we’d actually need to tide over the next 12
+- JC: to do the quote and send it
+
+
+* Tentative agenda for next week
+- JC will be working on some of the foundational themes, planning for the 4th
+- Remind Noorah of our meeting on Thursday
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** AT
+- Need to get to the two grants that are coming up at the beginning of November.  I’d like to get done with at least one of them to forward them to us.
+- Looping in Judith.
+- “Power to change” might also be a good mentor company to float what we’re trying to do; could we invite one of their team members along, hoping that they’d be able to give feedback.
+  - JC: Nesta could be a similar type of role to consider.
+
+** JC
+- Preparing a presentation for the anticipation conference on [2022-11-04 Fri].
+- Even though AT and LV are not participants, we could be interested parties in the developing themes.
+- Maybe we can keep our feelers out for other kinds of investors, e.g., someone like Howard was for the peeragogy project!
+
+** LV
+- Worst case scenario, less of my time will be available but it’s not going to be the death knell, it would just slow things down or cause need.
