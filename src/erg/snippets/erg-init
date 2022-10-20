@@ -2,7 +2,9 @@
 # name: erg
 # key: erg
 # --
-
+:PROPERTIES:
+:ID:       `(org-id-get-create)`
+:END:
 #+TITLE: `(format-time-string "%d %B %Y")` — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 #+roam_tag: HI
@@ -14,7 +16,7 @@
 * `(format-time-string "%d %B %Y")`  — Emacs Research Group
 
 
-* Check-ins                                                             
+* Check-ins
 :PROPERTIES:
 :Effort:   0:15
 :END:
