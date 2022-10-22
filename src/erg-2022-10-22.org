@@ -1,0 +1,231 @@
+:PROPERTIES:
+:ID:     4589beea-c5e4-4077-b5f5-f655079f6226
+:END:
+#+TITLE: 22 October 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-10-22 Sat>
+
+* 22 October 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Yasnippet issues whilst starting up
+  - LV: quick and dirty solution for today
+- Have been wanting to take voice lessons
+  - JC: Lizzie said hers helped a lot; the tools we use influence what we can play (e.g., sing from your belly, breathe from your belly)
+    - LV: E.g, I can force my chest to be immobile
+
+** JC
+- Double-fisting it with beer (6%) & tea today
+- Was sleepy; trying to develop a healthy relationship with stress
+- JC@NA: What sort of project management tools do you use?
+  - NA: At work we use "Smartsheet", I hate it, but it does the job; it’s almost like an excel sheet; I can’t use Emacs, but have been handwriting notes & using some Notion templates
+  - JC: We are empowered when we use Org mode, no matter how horrible it is.
+    - NA: As much as I hate it sometime, it’s all in plain text, and I like that all the notes are in text files!  In Notion, I have to download a PDF.
+    - JC Re: Deezer; I had to connect a 3rd-party tool, and jump through many hoops to get access to his data.  These tools are definitely built to disempower the users by design.
+      - LV: Big news! [Cf. Org Mode mailing list.]
+        - Hindsight 2020 coming soon!
+
+** LV
+- Didn’t have time to eat yet post-pool
+- I have had a wonderful week!  It’s my first week keeping the rudder straight w/ algorithms; also doing dryland strength training, and doing literature stuff on the side (Shakespeare + scansion [i.e., studying rhythm of poems]; I hadn’t previously read all the plays of Shakespeare); now planning to read Shakespeare in roughly chronological order.
+  - So I now have a new "major", "minor" and "sport" setup.
+  - And I slept 10 hours a day for the last 4 days!  Exercise is 80% of the formula here.  Algos are mentally tiring, and sports coalesce with this and make me physically tired.  And it’s very restorative, if I wake up a bit it’s still full of dreams.  I feel prepared to face the ailments of the day.  I encounter many scenarios; I have lived many lives.  The nights feel dense.  Foucault talks about the ‘equipment of the soul’.
+    - JC@NA: I recommend ‘waking life’.
+    - Cf. [[https://en.wikipedia.org/wiki/Gattaca#Cast][Gattaca]].
+
+
+* Meta points
+
+** Time change issues need to be dealt with
+- Follow what it says in Google Calendar: on *5th of November* 2PM UK, 3PM Paris; others as normal
+
+** Projects
+
+- JC: We need more project patterns.
+  - NA: Can we set up a shared agenda; we actually tried it: We did already have [[file:~/exp2exp.github.io/src/erg/agenda.org::*Long-term tasks][Long-term tasks]].
+  - LV: We maybe just need to formalise what we’re actually doing.
+     - JC: Cf. discussion on Emacs Humanities list
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Review our project abilities
+- Deal with EmacsConf requirements
+
+* Agenda (Part 1) - Meta-agenda
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Find our working files in =~/exp2exp.github.io/src/erg/= or equivalent on your system
+- Let’s look again at the agenda
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - Continue with Abby
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** AT: Checkin
+- Coming from out and about
+- Tennis
+- Appreciate EmacsConf coming up!
+
+** JC’s update with the Peeragogy-inspired cards, and comments
+- It might be a good goal for today to flesh out the project-related patterns in order to make more cards
+
+*** Feedback
+- Workshop is umbrella pattern
+- Nested patterns of others, with rationale throughout (e.g., 4 layers of thought processes!)
+- There’s a lot there: if I was a newcomer, how does the richness translate?  We’ll have the information for facilitation purposes, but how much do we need to share with attendees?  But we’re all versed in /dynamic linguistics/ and have been used to finding patterns.  Attendees will already be feeling somewhat outside of their comfort zone.
+- NA: Abby, when is the first time you heard of the word “kaijū communicator”
+  - Point being: can you understand the roles in simple terms?
+- LV: If you focus on the roles, they get down to things like "why, how, so what?"  They encompass what the roles are about.  The terms stick around when they are visual/tangible.
+
+*** Reframe
+- Phase I: shows importance of asking the why, how, so what?
+- Phase II: After we’ve all had some distance: remember how important it was to think about the ‘so what’?  Now, this is a role (e.g., to make the past, present, and future cohere).
+- So, let’s make sure we provide good seeds in Phase I.
+  - AT: As a guinea pig early on, as the workshop has developed and become richer: we get some sense of taking people with you rather than losing them
+  - Keep in mind that we’re asking people to be rather vulnerable when we strip the expertise away; we’re trying to create an alternate universe where people can ‘be’
+  - We need to work towards making people /grok/ our system as fast as possible.  Whilst it’s not as vital for the proto-workshop and the bristol workshop, the Anticipation workshop is only going to be 20′ long.
+  - JC: Maybe make sure that each person only gets introduce to 3 concepts in the whole workshop
+  - NA: Make the roles clear: rules of the game, how people interact, the authority they posesses
+  - LV: If we come at it through the lens of the game, we’ll be the ‘game masters’, shepherding through the 2 phases (losing expertise & reintroducing roles that are fun and future oriented); LV & NA can explain in the shoes of people who have to be there, introducing people smoothly to the concepts.
+    - LV: I used to design games with cards, but people can get caught up with thinking about the cards.  If we give them a card they might stick with it too much (e.g., they might want to ask ‘why’ rather than ‘so what’).
+    - In Phase 1, we should try to make clear what we’re doing so that we empower everyone on /things that are not their expertise/.
+- Thinking about someone thinking about this for the first time, how can I absord this information in less than 5 minutes?
+  - The cards are for making people catch up quicker with the role they have.
+- JC: We all have previous expertise
+  - NA: we’ll only have about 2 + 2 hours in the pilots
+  - AT: Later in may be 3 + 3?
+
+*** Pausing and reviewing where we’re at
+- We’re good on Phase 2, pretty decent at Phase 1, and pretty bad at Phase 3.
+
+*** Potential Attendees
+- Rue Howe, Software: Stornaway
+
+**** Questions
+- For techincal workshop should we invite Alex and Mau (=sickboi= creators), who will have some input on what we were trying to do.
+- Getting their time might be tricky, but they will come from very useful backgrounds
+- Stephen Miller, who works for Power To Change, the org funding community initiatives; they already have a report on community tech & barriers
+- JC: Part of our collective expertise with Alex and May id active inference stuff we’ve worked on in the past.
+
+** Phase III
+*** Summary
+- Build a roadmap (or maybe a meta-roadmap) that incorporates previous activities and outputs from Phase I and II.
+-
+*** We do have expertise
+*** What do we need?
+- Remember the black box: it had a context with blockers
+- Now, Phase III should be, the same context without the same blockers
+- LV: We’ll need indicators of success, ability to track change
+- It’s one thing to pull the flashlight and show an area, it’s another to go there
+- We wanted to have people access the same tools and insights; if we make Phase I and II and transformative as they can be, then Phase III can just be perenity of the tool.
+
+*** Feedback on phase 3
+- It doesn’t need a formal iteration of I and II; the followup is about "what is the impact of change from this intervention"
+- Can we follow up on the engenderment of change from the workshop?
+- Like a follow-up email, it’s like a post-residency check; has there been an effect?  Have you used any of the software resources that LV made?  Do you need any adaptations to the software?
+- JC: (Policy suggestions embodying the methods could be similarly assessed and might be exciting to some (other?) subset of folks.)
+- LV: Given the METHODS & TOOLS that we’re developing for this workshop: the kernel of the hypothesis relies more on the methods; we need a minimal amount of tools (a pen & paper would be minimal); with regard to Phase III, success might be measured in other ways
+  - Reusing tools?
+  - Only using tools duing the workshop, but not convenient for future
+
+** "Prepare ground, inception, checkup"
+E.g., ask:
+- "Are you more of a transdisciplinarist when you approach the problems?"
+- W/ patterns that work for us, has some of what we do stuck?
+- E.g., 1 on 1 interviews w/ attendees?
+- Method is easy to think about, and induct people into
+- Method hypotheses & tools hypotheses: how do we confirm the former and implement the latter?
+- Another checkup: refining hypothesis enough for funders.
+
+** "Why are people coming to this workshop?"
+- Is it to learn a new method?  The invite isn’t “come to a new workshop to envision new methods”
+- Rather: We know that this is an issue in the world (public health / public space)
+- The methods _should help_ people address the problem
+
+*** AT: "This is a problem you will all recognise and have a stake in"
+- (E.g. homelessness: you’re all aware of this and part of the solution)
+- We’re going to try something new and we’re not sure it’s going to work, but we’ve had some success with others and great success with ourselves
+*** ERG: "We are here as specialists on problem solving"
+*** WORKSHOP ATTENDEES: "Yeah, you actually helped us solve the problem, or at least think about it in a different way"
+*** SECRET 4TH STEP: "And we’ve all thought about general ways to solve problems... :-)"
+- JC: We’re going to run a workshop multiple times (or prototype versions of it) in different contexts; circa March we might have more to say about integration...
+  - AT: But it does hook into Phase III with "Hopefully you’ve come up with some patterns that you can test in the real world... did it work?" - So Phase IV is entwined in Phase III.
+    - At least the groundwork of this.
+
+** Checkout of this section
+- Anyone attending will be interested in solving a problem
+- We also have a 2nd order interst in methods for problem solving
+- It’s honest to share this
+- It’s already going to be weird by stripping expertise, so let’s be a bit weirder.  If it’s just the architect exploring why their buildings arent permitted, OK; but if everyone has good will and ask for honest feedback about our real premise.
+
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- JC: We’ve done a great job thinking about the different phases of the project, and I’ve also really liked what AT said about not setting out to do to much in Phase 3.
+
+*** 2. What are some different perspectives on what's happening?
+- JC: We did some practical stuff for EmacsConf
+- LV: We’re getting in a nice flow, and AT’s contributions are almost indistinguishable from the other part, it feels like a well-oiled machinery
+- AT: I feel comfortable now; perhaps it’s taken a period of discomfort, but now I understand more about what you’re trying to do & bringing in the different perspectives; an element of discomfort is a powerful thing, e.g., peeling back the expertise & thinking about what that’s like...
+  - NA: That’s the point of phase 2 as well, when we reintroduce a different type of expertise
+  - JC: This is reminding me of the common element between comedy and horror being the unexpected.  There is something scary for participants when they get started with the workshop, but we’ll only do as much as is needed.
+
+*** 3. What did we learn or change?
+
+- JC: Having a 2-parter meeting with a guest on the 2nd part makes it awkward to do a PAR.
+- "Phase IV" is now in scope
+
+*** 4. What else should we change going forward?
+- Tough task: how to make as short as possible the discomfort, to generate a high level of confidence after 4 hours!
+- We (probably) don’t want people to say: "at the end I’m just starting to grok it."
+- LV: Remember that they will be in groups working together: even though they won’t all have all 4 hats, they do need a (collective?) understanding of how they work together and how this helps them think differently about the problem; if the ideas are a bit wild (JC often gets a 🔔); workshop should develop feelings of friendship
+- Make sure we don’t overwhelm folks with too many ideas; focus on the nuggets
+
+* Tentative agenda for next week
+
+- Keep on with what we’re doing
+- Emacsconf tasks: Leo will send reminders
+- Scheduling may be difficult
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Deep cleaning of the bathroom is next; Annan is out of town.
+
+** JC
+- We moved a lot of furniture in the house today to avoid noise.
+- Going to a party in the later evening (maybe)
+
+** LV
+- Will eat and sleep soon enough, 8PM bedtime is the average lately and I feel fantastic albeit tired after a lot of sport and thinking
+  - AT: I dream of an 8PM bedtime
+
+** AT
+- ... and will swim later

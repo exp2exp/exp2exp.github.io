@@ -1,0 +1,159 @@
+#+TITLE: 08 October 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-10-08 Sat>
+
+* 08 October 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- feeling under the weather; most likely seasonal cold/allergies
+- We featured in Noorah’s dreams!  Leo showed up half-naked...; Joe accused NA of stealing his book which was Belgium’s constitution.
+  - LV: Not too unrealistic, and besides Joe does love his books
+  - JC: Dreams are cool :-)
+  - NA: People are usually harbingers of something else...
+
+** JC
+- Feels sorry about the low-energy from last week (but everything’s fine!)
+
+** LV
+- Doing fine, has a wound on his shin from biking
+- Weekending progresses apace
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- We had ‘almost’ created a recurring meeting with Abby, but she was quite busy with the start of the semester.
+- We had a lot of meetings w/ her prior to the semester starting
+  - Thursday best for NA and probably all of us.
+
+* Agenda (Part 1): “Review of workshop”
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** What do we need from Abby?
+- A list of attendees, for both workshops.
+- [[patterns][Patterns]].
+- Do we want different list of requirements between this proto-workshop and the future ones?
+
+** JC’s further work on patterns
+<<patterns>>
+- We can review this today and ask Abby for her thoughts as well on Thursday
+
+Collective review:
+- brittleness?
+- chaos as a pattern
+- trivial: partic*-*ipants?
+- Our ship metaphor is building on other ship metaphors (like the /polis/ as a ship for the Ancient Greeks)
+- Dissolving boundaries : “we only see nature as something to consume”
+
+** Feedback on ¶: Patterns, Dissolving boundaries, etc.
+- It sums up a lot of our common ground to create a good working environment (e.g., ‘the ocean’)
+- But, regarding the workshop itself, thinking about ‘social contract’ and ‘X contract’, I’m not sure how relevant it is for our presentation of the workshop methods...
+- We need to be careful about what we put in the heads of participants when we get started
+- Some of the things will be thought-provoking, but if we talk too much about ‘dissolving boundaries’ (removing identity as well as expertise)
+  - People may be too aware of the process...!
+- Some of the points ought to be mentioned *before we start the workshop* (_a blurb_); some of the things might need to be communicated *after the workshop* to explain why
+
+- JC: also the *midway point* where we’ll introduce different things to different people
+
+- If we talk about ‘dissolution of self relative to environment’ — this should be entirely done by Phase I
+  - "This is what allowed us to go to the very bottom of the problem as citizens"
+  - "As we’re now going to mobilise your expertise, be aware that we’ve now dissolved the boundaries between all of you; we’ve also dissolved you with regard to your environment"
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2): "All tech business"
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** Idea: AM’s tech-demo?
+- If you type a word, it will recognise that it’s a dog...
+- But there’s no further brain...
+
+** Implementation: Walk through of Joe’s grant
+
+- Features of text tools:
+  - Add concept modelling (based on Noorah’s work)
+
+- s/playes/plays/
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We’re taking a laid-back *meeting*, staying to about one hour
+- JC: Perfect day here in the UK
+  - NA: Antidote to the SADs!
+- LV: I decided to share a little less and focus on what I want to share rather than having constant logorhea... I don’t need to steal the show w/ a long rant about X and Y. 
+  - JC: Mind can create pain or make it go away, apparently.
+    - LV: I wish I could wish away pain!
+    - NA: I hate how much it distracts you from other things
+      - LV: It’s like a buzzing fly, it doesn’t produce a lot of noise, but it can be still annoying partly because there’s no pattern
+
+*** 2. What are some different perspectives on what's happening?
+- NA: How do you do the emojis?
+- LV: Emojis look wrong in Org Bullets!
+  - I used to love Nyan cat but I realised it was very distacting
+    - JC: Let’s not over-design our stuff
+
+*** 3. What did we learn or change?
+
+- "Fly" is feminine in both Arabic and French
+  - NA: I can guess the gender of French words based on Arabic
+    - LV: It’s possible that there are language borrowings
+- Sun/Moon gender is opposite in French and German
+
+- LV: I recommend the retelling of "The Stranger" from a different perspective by [[https://en.wikipedia.org/wiki/Kamel_Daoud][Kamel Daoud]]
+  - NA: Worth rereading "The Stranger"
+
+- LV: I read "The Plague" ("La Peste") by Camus before Covid!
+
+- LV: "When Annie Ernaux says ‘I’, the reader feels ‘we’."
+
+*** 4. What else should we change going forward?
+- More chat time is good
+- Short sessions sometimes are OK
+
+* Tentative agenda for next week
+
+- Meeting with Abby
+- EmacsConf Conference
+- Workshop
+- JC: I want to share my Google Calendar for the week on Monday so I don’t miss important things
+- NA: Won’t be around next Saturday
+  - 
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going back to bed, and may order Thai food
+  - JC: I met my old neighbour who’s the proprietor of [[https://en-gb.facebook.com/shaktikitchenoxford/][Shakti Kitchen]].
+** JC
+- I have lots of Algerian food to eat later
+** LV
+- Hungry and going to go cook now, I was supposed to have something here now, but don’t, so I must cook
+- Healing my leg...
+  - NA: Ouch!!!  Did you get a tetanus shot?
+  - I couldn’t have done it better if I wanted to get a tattoo
