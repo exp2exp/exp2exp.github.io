@@ -578,28 +578,45 @@ But, again, there are plenty of hypotheses to test out at this level.
 Here are some notes about how technology can potentially help people manage actions.
 
 ** Purposes
-• Maintain a Kanban board to keep track of actions, intentions, patterns
-• Discover new connections between contributed texts, to find new patterns
-• Introduce genetic principles into the system
-• Model salience of topics or modes of engagement
-• Incorporate rich history of interactions
-- Allow us to track experiments and their results
-- ...
+1. Discover new connections between contributed texts, to find new patterns
+2. Maintain a Kanban board to keep track of actions, intentions, patterns
+3. Introduce some genetic principles into the system, so that it adds new structure itself
+4. Model the *salience* of topics to some group, or, salience of various modes of engagement
+5. Incorporate a rich history of interactions
+6. Allow us to track experiments and their results
+7. ...
+
 
 ** Features of text tools
 
 | *Feature*                          | *Example implementation* |
+| _ADD THINGS, DELETE THINGS_        |                        |
 | Storage                          | File system            |
+| _PERTURB THINGS_                   |                        |
+| Versioning                       | Git                    |
+| _CONNECT THINGS UP_                |                        |
+| Hierarchy                        | File system; Org Mode  |
 | Hyperlinks                       | Org Mode               |
 | Backlinks                        | Org Roam               |
 | Stand-off annotations            | Arxana                 |
 | Linking to regions in text       | NNexus                 |
-| Text mining                      | mal-mode               |
-| Document analysis                | topic modelling        |
+| _CHECK THINGS OFF_                 |                        |
 | Todo item scheduling and marking | Org Agenda             |
 | Project hierarchies              | zaeph/.emacs.d         |
-| ...                              | ...                    |
+| _CONNECT WITH OTHER MAPS_          |                        |
+| Document analysis                | topic modelling        |
+| Text mining                      | mal-mode               |
 
+
+
+** Architecture sketches
+
+*** E.g. “Connections between contributed texts”:
+- Library of submitted texts
+- Rerun an *indexing operation* over all of the texts when a new one is submitted
+- Index will store relations 
+  - E.g., similarity based on bag-of-words.
+    - More complex would be: relationship based on /hierarchy of concepts/.
 
 * Appendices
 :PROPERTIES:

@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       022de421-7fcd-42f8-bd7a-70b02ba33bb2
+:END:
+#+title: Meeting with Abby [2022-10-27 Thu]
+
+* Agenda
+
+- This would be remote?
+- Could we reschedule the tech one to the following week?
+- Theme based one can be Judith and some students (somewhat diverse group, 2+ can make it, equitable food markets, works for Fareshare; somewhat outward looking focused), and it’s easier to pull people into;
+  - Leo may try to come remotely; let’s double check
+  - Imogen Cheetham might come?
+  - Work colleagues?
+  - Open Research
+  - Ask the Bristol folks
+  - Arts community; couple friends who might be willing to do it?  People associated with Watershed / immersive media
+  - Book in Arnolfini room right above the cafe
+  - Abby has contacted 2 folks, Ellie King (a counselor for British City Council — plans for public space); and local Councillor for St George, interested in how we use side spaces, where most people park their cars — both are members of the City Council; founder of a company called "Feeding Bristol", who are involved in food equality
+- Judith free from 10:30-2:30 on Nov 3rd, and will try to get people involved?
+- Could be in person
+
+** Slight changes
+For a tech one, could we run it on the 10th, possibly with a couple facilitators
+Would Leo want to demo current software as part of the programme?
+Would we want to do screenshots of the software we use as a way to get people on the same map?
+** Fall-back plan
+- If it looks like people can’t make it then push back
+** Ask Noorah if she can get off work on the 10th
+
+* Tech
+- Meetings about KORSOKOW and STORNOWAY
+- Community Tech guy, even though it’s a pilot, we’re also trying to troubleshoot some serious issues before the full workshop
+- Maybe Evelyn, keeping a balance of people who are interested in the community side: 2:30PM
+- Joe ask Aaron Krowne if he’d attend or suggest someone
+- Melanie Weir could maybe do if she wakes up at 6:30
+- Maybe some of the Open Research folks could come along or nominate
+- Author: someone who has done a lot of work on Github; what does it actually involve?  “Maintenance” calls to only a few people.
+
+- Rob might be a good play for the full workshop in January
