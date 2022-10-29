@@ -1,0 +1,305 @@
+:PROPERTIES:
+:ID:       f80078b7-45e4-436c-b470-e279fa87bcc3
+:END:
+#+TITLE: 29 October 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-10-29 Sat>
+
+* 29 October 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- At home alone for a week!
+
+** JC
+- Coming from band practice with a gig tonight
+- Recap of upcoming workshops:
+  - *3rd* (10:30AM-2:30PM in person)
+  - *4th* [deadline for EmacsConf] + mini-pilot at Anticipation
+  - *12th* (2:30PM- fully remote)
+- 12th is hopefully the "tech" workshop, with full remote participation from ERG.
+  - *10th* is hard for Leo, but some folks already invited
+
+** LV
+- Practice with Murphy’s law today
+- Drying self with fan at max level
+- Decided not to swim & run simultaneously; your body doesn’t optimise the same way with triathlon
+
+** AT
+- Do need more time for planning the 12th
+- Update on Theme workshop, 10:30-2:30, everyone in person, students naive to the process (who won’t have thought about problems in this way), Judith, Evelyn, Anne-Marie (documentary-making student)
+  - Will share blurbs about the people
+  - NA: Are you preparing any slides?
+  - Maybe something similar to what Judith saw; or the thing from IMCL?
+    - AT: Would be good to get everyone on the same page
+  - Timetable? [JC: I can make this]
+    - NA: this will prevent confusion
+  - LV: There are a couple scenarios to quickly learn about CLA, maybe get the message across with a diagram; e.g., a lovely iceberg
+  - What if we give them papers?
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- How can we collect the data for the workshop?
+- What’re the research questions?
+
+
+* Agenda (Part 1) - EmacsConf revisited
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Talk outline
+*** <5-10 minutes: (brief description/outline)
+
+**** SUBH1: What’s going on with the Emacs Research Group?
+
+# After meeting at EmacsConf 2020, and since then convening weekly as
+# the Emacs Research Group, we gained a lot of experience working
+# across disciplines.
+
+Building on our long-running small-group experience, we developed a
+strategy for engaging others in the kind of light creative work that
+we value, because we want to share our patterns for building effective
+joyful action.
+
+**** SUBH2: Tell me more about the workshop.
+
+Our new day-long workshop brings people together around a topic of
+shared interest.  We use a scenario-development and exploration
+process to help participants understand their common ground, and
+discover new ways to work together.  In this talk, we will give an
+overview of recent workshops we’ve run, on themes linked to public
+space and future studies, and how we utilize Emacs for our research.
+
+In our workshop design, Phase 1 is a descent to a shared Myth, which
+comprises an understanding of common ground; Phase 2 is about moving
+from that into effective action.
+
+*** <20 minutes: (brief description/outline)
+**** SUBH3: So, what do you expect the outcomes for workshop participants to be?
+
+# Looking back at our recent pilots as a source of evidence, we’ll
+# look at whether and how the methods we used helped people quickly
+# identify core themes that they want to keep working on together.
+
+While we don’t expect everyone to meet weekly like we did, we do
+expect that some participants will leave energised.  Underlying the
+workshop is the claim that the right combination of methods should
+help people find topics of priority that they want to get traction on
+it, for example, breaking down a topic like "public space" into doable
+actions like cleaning up an abandoned lot.
+
+# Does the evidence so far support this claim?
+
+**** SUBH4: What does this have to do with Emacs?
+
+- We can talk about our attempt to create a shared slipbox! (this isn’t an Apple conference :-))
+
+Technology should help people be even more effective at identifying
+and addressing challenging problems.  As a small example, note-taking
+in real time with CRDT helps us practice ‘active listening’ in our
+meetings and gives us a detailed record of what happened that we can
+return to for further reflection and analysis.
+
+We get excited about how more advanced data analysis and more
+structured interaction patterns could aid in going back over our old
+thoughts and getting more out of the time we spend together.  One
+potential application would be forming bridges between the different
+community groups we work with.
+
+*** <40 minutes: (brief description/outline)
+**** SUBH5: What’s coming up next?
+
+We’ll bring these ideas together to introduce our plans for a day-long
+workshop specifically for Emacs users and developers.  We want to work
+together to imagine the future of Emacs.  In this setting,
+participants will begin with considerable technical common ground, as
+well as community with a long history of effective collaboration.
+Nevertheless, Emacs presents both challenges (especially for new
+users) and many interesting opportunities.  This talk constitutes an
+invitation, and we hope to get your feedback on the kind of workshop
+you’d be excited to attend, before we run it (in about a month!).
+
+** Quick demo of Conceptconnector
+- We’ve seen what we can do, but what would be useful?
+- Salience, similar concepts, what is common between *nodes*?
+  - Do we parse titles? Lines? Text?
+  - Noise vs data; it may take a completely different
+
+#+begin_quote
+"I looked at the blue *cat*."
+
+This should be similar to:
+
+"I own a red *dog*."
+#+end_quote
+
+*** If we do it recursively across texts/nodes
+
+** Next steps
+- Leo can make something to capture data for Nov 12
+- Everyone can access all the notes, might need to refresh
+- Minimum need can see & sync the data
+  - "Save text box input to txt file"
+  - Should be accessible on phone, similar to note-taking app
+  - We collect the data and analyse
+- Backup plan: we use Org Roam + Etherpad
+*** Design questions
+- Do we want one group?  We could make a 2nd repo?
+- Do we only have one person taking notes per group?
+- How to merge the two groups (two constellations)
+- We deal with phase III, no data processing live
+- Could guide people step-by-step through activities?
+- Is it for phase I or II?
+- Does it feed into a spreadsheet, with a column of all the ideas under each phase?
+- Who made the comment?  What was their role?
+- X group, myth layer, etc.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Feasibility: Pilot of theme workshop
+- Logistical thing, managing a certain group of people in this amount of time
+- Does it allow us to get engagement?
+- As an outcome: can we formulate useful patterns that have actions attached?
+- As follow-up, great to do informal interviews, was that crazy, was that useful?
+*** If we want to gather feedback on the workshop...
+- We need to have a proper PAR at the end
+- What are the extra questions we need to ask?
+- This will help us generate the distance to comment?
+- It’s unreasonable to ask them to generate feedback as they go.
+- "If there’s something that feels weird, keep it in mind and answer at the end".
+
+
+** Tech workshop: What’s the role of collective action supported through tech?
+- How does this sit with community tech in a sustainable way?
+- How do we develop something that is longitudinal, that we’re contributing to?
+- How is it *sustained*?
+- How does this relate to reliance on the "Leos" of the world?
+
+*** Address via WH questions:
+- *How* do you enable such a system?
+  - Use Free Software: one leo goes away, another will come
+- *What* to use?
+  - Probably best to do it with text now because it’s what we have, and relationships are easier to form?
+- *Why* do it?
+  - Current technologies & methods aren’t working for the problems that we want to solve.
+*** Another point
+- It’s also complex for us, without having run the workshop, to know how growable the tools will be; if it’s important to do it with diverse people that’s different from running it once and hoping for the best
+- This suggests that the best thing we can achieve right away is to make sure that people are comfortable with the CLA method
+  - E.g., tools can help prevent unlinked nodes
+*** JC: is this a tech policy question?
+- NA: This is a difficult problem especially with non-tech folks maintaining community tech, even in FS where there are developers, it’s hard to maintain the technologies
+- AT: Book "Working in Public", data on who is doing the maintenance (2% of the community)
+- NA: Social solution, getting the private sector to opt in on maintaining; e.g., via ‘social responsibility officers’ in tech companies who will recognise the value to the community; developers could volunteer their time
+
+
+*** LV: On sustainability
+- One responsibility I had at Etalab (tech company working for FR state on opening data & opening software)
+- One important point was the growth of _OSPO_ offices; Google+Meta, plus others, will have these offices to pilot how much these companies want to have free software
+- OSPO isn’t yet deeply embedded but it’s getting there; the EC has declared OSPOs as something companies should implement;
+- Most of these companies will have a (strong) relationship to software
+- All of these companies have deployed ‘Agile’ methods
+- Agile is all methodologies, but you can have some tools that support it
+- What if we could access this field of methodology, and say: You are used to "novel" methodology (like Agile); there could be an angle to say,
+- ‘we are specialists of problem solving; you are software engineers; how about we add some tools to work together, improving the methods, creating the tools that are ever more complex (moreso than just code problems + workplace people problems); community is plural’
+**** Quick demo of "Taiga" software
+- Meta- approach: People are used to having some technologies for looking at problems
+- With civil engineering you need a brick eventually, and you can ultimately depend on testing at that level
+- With software engineering you get quicker feedback
+- These folks may best understand what we’re bringing to the table
+- We can take lessons from Scrum/Agile, what can we bring into our method?
+- These are well-tested and have led to great success
+***** Comments
+- Integration into our phases
+  - the diverse catalogue of off-the-shelf and bespoke software that helps to promote agility
+  - Awareness of other thing vs novel creation via disorder and serendipity + a longitudinal evolving aspect
+  - Are we talking about the optimal use of platforms, existing ones?
+- NA: *Priority*, let’s get the tech working, *sustainability* of collection, dissemination, &c., can be later dealt with; sustainability is a social problem not a tech problem!  This has to be dealt with later w/ other stakeholders, not just us.
+- LV: Reason notetaking is close to project tracking:
+   - Org mode makes porosity between tasks and text items
+   - You can see things in a nice board like Taiga
+   - We’re not doing this (much) in our ERG workflow, but we’d like to make more of this come into
+- LV: So, action happens at the note-taking level; we could direct people to other platforms for tracking actions
+  - It’d be nice to have something that makes it easy to take notes & identify actions
+  - Org mode can do this (sort of) but it’s not totally easy to solve
+- If people want to have a separate file of ‘tasks’ they can do this
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- ‘Keep it simple’
+- The simple text box idea has been maturing over the week: is it myth, worldview, what is your name? - this could be all that we need
+- Should link to a folder with ‘created this stage, this person used it, their notes, in which part of the workshop’
+- Can go into a database & split however we want afterwards
+
+*** 2. What are some different perspectives on what's happening?
+- JC: I really liked LV’s point about doing a proper PAR at the end of our workshop to collect distantiated data.  Maybe reserving 30′ at the end of the workshop might be best.  It might be a good way to demonstrate what constitutes our routine.
+- We have enough PARs to do a substantial analysis (2 years!)
+
+*** 3. What did we learn or change?
+- LV: I’d failed to synchronise that we need something simple both for the workshop itself and the feedback afterwards
+- JC: Patterns back in scope as an outcome!
+  - Did we help them get unblocked?
+  - How can we grow the ship that is the method? (with patterns)
+  - We get benefit from exposure to the problem domain; they get some benefits from the methods
+
+*** 4. What else should we change going forward?
+- Trying to translate the methods we’ve been using, seeing how people can accommodate them w/ their own problems; e.g., to think about the *challenges* that have been raised within the workshop
+- The ‘theme’ / ‘methods’ stuff complement each other; a key part of it is, have we been able to get people thinking about the problems in the community in a different way?
+- We own the method at the start, but we should all own the theme at the end
+  - We’ll come to people with a problem, they’ve been selected for that; everyone should leave with a clear idea of the problems (blockers) and solutions suggested at the end; so we need enough bridges to be able to communicate (once we have the problem in front of us)
+- Phase III will be scaffolded by some new ideas, and patterns
+
+* Tentative agenda for next week
+- Thurday the 3rd pilot, good to check in either Tues or Weds (LV can attend)
+- 4th of Nov deadline can be pushed to the 12th
+- Debrief on the 5th
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Errands to finish.  I’m not used to 2K-square-ft of space; we need the cleaner.
+  - AT: More fun than cleaning the bathroom!
+     - NA: Nintendo called last Saturday!
+
+** JC
+- Getting ready for first double bass gig
+- Bike travel?
+
+** LV
+- The week was busy b/c I’ve almost finished a complicated algos book
+- ‘tech an english major how to code a binary search tree and they will never be thirsty’
+- I’ll probably apply for a PhD programme at Princeton... while I’m now almost hireable
+- so, all good!
+
+** AT
+- Off to rescue potatoes that need harvesting!
+  - They’ve been in there since April...
+  - JC: Garlic planting for tomorrow :-)
