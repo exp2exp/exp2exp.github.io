@@ -1,0 +1,242 @@
+:PROPERTIES:
+:ID:       d96f5daa-696b-4cf5-8b38-3fb3d81b48e8
+:END:
+#+TITLE: 05 November 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-11-05 Sat>
+
+* 05 November 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Doing okay!
+- Has interesting professional possibilities
+
+** JC
+- Out of the house, for the first part of the meeting at least.
+- Did a micro-version of the workshop on Thursday
+
+** LV
+- Had a very good week working on algorithms!
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Adaptations for EmacsConf
+
+*** Good
+- Just showing up and saying that we’ve still been meeting every week for another year!
+- LV asks questions, JC and NA come with blurb
+
+*** Better?
+- We have a longer Q&A session when we go into a little more depth on what we’ve been doing with AT
+
+*** Best?
+- We make a prerecording so that LV can also participate in the presenting (rather than baselining at just asking questions)
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Debriefing the pilot
+
+- AT: Phase 1 was much more intuitive that I thought it was going to be.
+  - We generated multiple
+  - 1h15-worth of Phase 1.
+  - Spontaneously went from two groups to just one, meaning that conversations were shared very fluidly.
+  - The sharing felt very productive, hive-like synergizing/coalescing.
+  - JC had three people on his end.
+
+- NA: How were the transitions between the layers and between the phases.
+  - AT: The dynamic was quite good.  It felt like a meandering vortex from top-level challenges to the myths at the bottom (rather than something in layers).  In previous meetings, I found that the paths people were taking were always ending quickly on the usual culprits preventing change.
+    - LV: This last point feels like an antipattern, and perhaps we should strive to find an antidote for it.  Otherwise, people are not setting themselves to think creatively.
+
+*** Phase 1 successful at bringing people to common ground
+
+- Can we pick out when we’re decending into circular narratives?
+- Can we apply an antidote?
+
+Sometimes we bring people with expertise,
+- and problem occurs during the workshop
+- Or, we come with the problem and find the experts to talk about it
+
+E.g., for the tech workshop, we want to gauge how the tools we are developing can be improved/implemented
+- THEREFORE, we should invite Florian who can advise on this (i.e., the problem defines the people)
+
+BUT, sometimes the people will define the problem (e.g., we bring people around ‘homelessness’, and we bring people who feel adjacent to this problem, who can identify concrete problems adjacent to this area)
+
+In both scenarios, the context we should have is "what constitutes a short-circuiting"; e.g., what constitutes a banal answer.
+
+- NA: How smoothly did you transition from Phase 1 to Phase 2?
+  - AT: Lunch split phase 1 and phase 2, and phase 2 felt quite abrupt as a result.
+    - JC was the only facilitator, and it was hard for him to explain the roles to the everyone.
+  - JC: Yeah, the transition was rought, but we should probably focus on what happened regeradless of how the roles were introduced.  It felt like people were not adopting the roles, though, and using their personal stories.
+
+- NA: I want to figure out what we can fix to make the transition not as abrupt.
+
+- NA $NA_question?
+  - AT: There were three scenarios that were proposed.
+  - To my mind, because of the role break down, there was a huge load on Joe having to facilitate, and the discussion always came back to the facilitator.  To me, the people who were very vocal in phase 1 became very silent in the second phase, and we lost the ability to translate the creativity.
+
+** Norms
+- NA: It would help to create explicit norms for phase 2, and I feel like, before the break, we should prime them on phase 2.
+- E.g., "We will talk about scenarios so get ready to do this"
+- Pokemon cards for the roles, with the "do’s and don’ts"
+  - For first 15 minutes we will do X, then do Y, then do Z.
+- Have them think over lunch about what their roles are going to be
+- E.g., with a short physical manipulative that will help them experience what they are going to do
+
+** Embedding the context:
+- Joe did run through an example; a more clear treatment of this here (with micro-example of the roles) would be even more helpful
+- Embedding the context:
+  - What about if we try to present Phase II as the reversal of Phase I (Litany, System, Worldview, Myth)
+  - Now: (Myth, Worldview, System, Litany)
+- Imagine that all the facilitators say: “Try to fix the problem with all the tools at your disposal”
+  - They will naturally say  "Let’s look at the history and see what worked."  (I.e., exactly what the Historian is supposed to do.)
+- We could also nudge people into using the ideas in the card
+
+** Alternatively
+- What if it’s less about the roles and more about the climb back to the litany that we want?
+- What if we consider the roles to be something extra, perhaps for reusing afterwards; so we could even defer them to end of Phase II
+- Focus on layers and how we move between them
+
+** How to introduce ‘ourselves’
+- JC: On “why can’t we be ourselves?”: If we have the roles and minimize their importance, and if we make people believe that the role is a mindset (useful for building new design patterns, which is how we get back from the Myth layer to the new Litany)
+- NA: We can call the roles as /conversation functions/, but it almost feels too prepared now; and they might still go in phase 2 blind-sighted
+- AT: We could have the roles available as prompts, without requiring people to go back to the bounds of their professional boundaries
+
+- An actual Historian may fall into the "Historian" role
+
+- Can we associate roles with the climb back up?
+- Which role is most helpful for getting back from layer to layer
+
+- JC: Enriching the scenario is ultimately what we should strive towards.  We never really spent a lot of time elaborating the scenario.
+  - "What are the ingredients of the scenario?"
+
+- NA: Logistically: do we want to prep people for Phase II before or after?
+  - JC: Maybe it’d be best for us to be more active in piloting these methods ourselves.  What it’s like for us to use those patterns, or “become” these patterns?
+
+** Can we make more of an effort to use the roles during the meeting?
+- ...
+
+** Roles for Phase 3: 
+- ATOMIZING in even smaller patterns, bring them in as pieces of the technology and methods that we use then
+- We have talked about the roles for over a year; but, putting oneself in the shoes of a participant, a bit of guidance about what to think about 
+
+** Run through?
+- JC: What if we model the different roles between the facilitators first?
+
+** Our requirements are more clear now:
+E.g.,
+- printing
+- travel
+- invitations
+- dates
+- maintaining relations w/ people who may become collaborators
+
+** When do we have the tech workshop?
+
+- 12th looking a bit tricky from attendance standpoint
+- We might need more time to be more prepared
+- Maybe delay 1 more time, 2-3 weeks to iron out the stuff we talked about today
+- Line: "we feel ready" otherwise we don’t do it.
+
+- We’ve just run a version of the workshop, Phase II needs to be reworked; having this thought in our mind is not conducive to feeling we’ll do a great job next Saturday or whenever we do it
+- It also happens that LV has a lot of commitments currently
+
+- Options: Delay, go on, attempt to bring reassurance
+
+- What are the role’s we are all playing?  (With practical translations [e.g., to the things like printing!].)
+- How do we communicate well between us so that we feel well about the planning, bringing in people that we feel confident about interacting with the people outside of this group?
+
+- It’s important to make a good impression with the people we run the workshop with
+- Getting the tech workshop ASAP will inform LV’s work to prepare for the January workshop, to help guide what’s coming in the development portion of this
+- LV: Workshop input is an ameliorator not a blocker; hearken back to a baseline like a textbox; mostly for the longterm is the benefit 
+- With regard to changing the methods or making it a meta- workshop where we e.g., just have a discussion; not sure if we have the level of confidence to do it
+
+- JC: We had very good feedback from a participant to the Thursday workshop.
+  - ... But how much better could it have been if we were better prepared?
+  - So, what can we do to feel better prepared, so that we’re all working together?  When I know what to expect and how that dynamic works, that feels pleasureable.  How do we better do that next time?  It was a positive experience; the critical focus in on how do we create that process and how do we make it better next time?
+
+** Next steps
+
+*** Participant invitation (e-mail)
+- [ ] Establish location (online)
+- [ ] Create a meeting date and duration (Phase 1: 2 hours; break: 1 hour; Phase 2: 2 hours)
+- [ ] Phase 1 blurb
+- [ ] Phase 2 blurb
+- [ ] Do the invitations!
+
+*** Phase 2 materials
+- [ ] Play-by-play process of Phase 2 (moving from Myth to Litany through Scenario Planning) 
+- [ ] Participation norms
+- [ ] Explaining the roles
+  - [ ] Their meanings
+  - [ ] How they should be used (conversational functions)
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Some of these concerns seem to stem from communication issues
+
+*** 2. What are some different perspectives on what's happening?
+- NA + LV seem to be roughly on par, it can be confusing what we’re aiming for
+- JC: I liked what Abby said about how our work is driven forward by our positive way of working; how do we revisit our joyful methods in some meta-time to think about how we work together
+
+*** 3. What did we learn or change?
+- We may need someone in a ‘clerk’ position: someone to do the ant-work to try to address the problems, to bring everyone cohesively on the project b/c it’s a bit of a split-mind
+- The meeting on the Saturdays and Thursdays feel quite different
+- LV: I could volunteer some time to this; how can we adjust how are we ‘piloting’ our work together?
+
+*** 4. What else should we change going forward?
+- Meet next Thursday
+- Address the "Next steps" NA wrote down above; LV+NA to drive the online/tech workshop?
+
+* Tentative agenda for next week
+
+- Drop Saturday workshop: AT to speak w/ Rue & Florian: "it’s been postponed"; we should set the date ourselves & give them a heads-up at least 2 weeks in advance; collective apology from us about that
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Leaving in 2 minutes
+- Hope these are good steps to work on 
+
+** JC
+- Loads of marking to do that’s the main thing that’s coming up next
+
+** LV
+- In touch with NA tomorrow?  NA: Same time tomorrow (8AM CST).
+
+** AT
+- Value this incredibly and it’s a pleasure to work w/ different people & trying to find my own place in this w/ many roles in one seat; always comes away richer
