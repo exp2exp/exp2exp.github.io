@@ -1,0 +1,69 @@
+#+TITLE: PLACARD Project Plan
+#+STARTUP: CUSTOMTIME SHOWALL
+#+exclude_tags: notes noexport
+#+AUTHOR:Noorah Alhasan, Joe Corneli, Leo Vivier
+#+OPTIONS: toc:nil <:nil num:nil title:nil
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \include{header.tex}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Project Plan}
+#+LATEX_HEADER: \rhead{\today}
+
+* Introduction
+
+Use this document to follow up on tasks leading to the PLACARD workshop in Bristol, UK in Jan 2023.
+
+* General process of the worksop
+
+** Pre-workshop
+
+1. Send invitation e-mails at least 3 weeks in advance
+   1. Include a brief blurb about the workshop and what their participation will accomplish
+   2. Include the minimum level of technology knowledge (can they use a PC, browse the web, etc.?)
+   3. Include the level of security/privacy of participation and ask for consent
+   4. Include date, time, duration, and location (if it's TBD make sure to include this info)
+   5. Include whether their participation will be monetarily compensated
+   6. Thank them for their time and consideration
+2. Once we have confirmations, send another e-mail.
+   1. Include a brief blurb about the workshop and what their participation will accomplish
+   2. Include timeline of the workshop
+      1. Introductions (30 minutes)
+      2. Explaining Phase 1 (15 - 30 minutes)
+      3. Phase 1 (1.5 - 2 hours)
+      4. Lunch break (1 hour)
+      5. Explaining Phase 2 (30 - 45 minutes)
+      6. Phase 2 (1.5 - 2 hours)
+      7. Concluding remarks
+   3. Include pre-workshop activity or any other asks
+   4. Thank them for their time and consideration
+
+** Workshop
+*** Introductions
+**** Meet and greet with participants
+***** TODO ice-breaker activity
+**** TODO Go over the general rules and norms
+*** Pre Phase 1 (walk-through, questions, concerns, etc.)
+**** Explain theme of the workshop
+**** Explain CLA
+**** Explain the process
+*** Phase 1
+**** Process
+**** Materials
+**** Facilitators
+*** Post Phase 1 immediate feedback; check on participants
+*** Break
+*** Pre Phase 2 (walk-through, questions, concerns, etc.)
+**** Identify scenarios
+**** Explain the game
+***** What are the roles?
+***** What does each role potentially represent?
+***** How should each participant use these roles?
+***** What are the rules of the game?
+****** Reverse CLA
+*** Phase 2
+**** TODO Process
+**** Materials
+***** Roles
+**** Facilitators
+*** Post Phase 2 immediate feedback, check on participants
