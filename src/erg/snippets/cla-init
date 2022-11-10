@@ -1,0 +1,44 @@
+# -*- mode: snippet -*-
+# name: cla
+# key: cla
+# --
+:PROPERTIES:
+:ID:       `(org-id-get-create)`
+:END:
+#+TITLE: `(format-time-string "%d %B %Y")` — Emacs Research Group — CLA Workshop
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <`(format-time-string "%Y-%m-%d %a")`>
+
+* `(format-time-string "%d %B %Y")`  — Emacs Research Group — CLA Workshop
+
+
+* Meta points: Open Future Design
+  :PROPERTIES:
+  :CUSTOM_ID: open-future-design
+  :END:
+
+* Agenda (Part 1): Participatory Scenario Planning
+
+** Dérive Comix
+
+** Meaning Map
+
+** Reinfuse Expertise
+
+* Agenda (Part 2): Play to Anticipate the Future
+
+** Kaijū Communicator
+
+** Historian
+
+** Analyst
+
+** Designer
+
+* Roadmap
+
+** Project Action Review
