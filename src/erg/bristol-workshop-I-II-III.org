@@ -2,6 +2,7 @@
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 #+roam_tag: HI
 #+OPTIONS: H:11 num:11 broken-links:mark
+#+LATEX_COMPILER: xelatex
 #+LaTeX_CLASS: reportalt
 #+LATEX_HEADER_EXTRA: \usepackage{url}
 #+LATEX_HEADER_EXTRA: \makeatletter\g@addto@macro{\UrlBreaks}{\UrlOrds}\makeatother
@@ -58,8 +59,8 @@ to run it, though with adaptations it can be run in less than an hour.
 
 ** Phase One
 
-In the first phase of the workshop we build a shared understand the
-context and relationships that exist in that context.  We use
+In the first phase of the workshop we build a shared understanding of
+the context and relationships that exist in that context.  We use
 interactive activities to scaffold the process.  The result will be a
 set of *scenarios* and *dimensions*.
 
@@ -72,14 +73,19 @@ action* that will outlive the workshop itself.
 ** Phase Three: The future
 
 The workshop will have both a local and potentially a global legacy,
-e.g.,
-- Potentially morphing into a place-based collaborative space, like a “carpentry workshop” or “bicycle workshop”; and, furthermore,
-- Local sites may link up to become part of a broader movement.
+
+- Potentially morphing into a place-based collaborative spaces...
+
+** Phase Four: Stitching everything together
+
+- ... and local sites may link up to become part of a broader movement.
 
 ** Summary of Methods
 
 - [ ] *Causal Layered Analysis.*  In both phases of the workshop we think in terms of CLA’s four layers: Litany, System, Worldview, and Myth.  In Phase 1, the output of each preceeding layers feeds into the next one; when we get to the Myths later, we have a shared perspective.  We then work our way back through the previous layers in the second phase of the workshop, envisioning a new Litany (e.g., future newspaper headlines).
+
 - [ ] *Design Patterns.* The defined sets of problems that participants are used to solving comprise a simple ‘design pattern language’.  /Prior to the workshop/: we should do some background research on participants to develop hypotheses about what their patterns might look like.  *(This is especially important as a way to bring in themes, approaches, and hypotheses that are important to the workshop sponsors!)* /During the workshop/: we will refactor these patterns to bring about new ways of working.
+
 - [ ] *Project Action Review.*  In this setting we want to ask people to imagine /future actions/, with attention to unexpected perturbations and variations (e.g., what can go wrong, what they might have to learn, things they might need to make, etc.).
 
 Further details are available in a separate preprint.[fn::
@@ -93,9 +99,6 @@ and we can do that during the workshop itself.
 
 Our methods, derive from experience with the Peeragogy project, particularly our use of design patterns, project action reviews, and short trainings for multiple roles.[fn:: fullcite:peeragogy-handbook]  Although the specific methodological synthesis is unique, we are not the only people working on related topics.  Here we limit ourselves to a few examples:
 
-- [[https://earthwatch.org/][Earthwatch]] — “connects people with scientists worldwide to conduct
-  environmental research and empowers them with the knowledge they
-  need to conserve the planet.”
 - [[https://doughnuteconomics.org/about-doughnut-economics][Doughnut Economics]] — “the Doughnut offers a vision of what it means
   for humanity to thrive in the 21st century - and Doughnut Economics
   explores the mindset and ways of thinking needed to get us there.”
@@ -103,6 +106,9 @@ Our methods, derive from experience with the Peeragogy project, particularly our
   below which are many dimensions of human deprivation. The
   environmental ceiling forms an outer boundary, beyond which are many
   dimensions of environmental degradation.”
+- [[https://earthwatch.org/][Earthwatch]] — “connects people with scientists worldwide to conduct
+  environmental research and empowers them with the knowledge they
+  need to conserve the planet.”
 
 Like the proponents of these efforts, we are steeped in the values of
 citizen science and open research.j  We also believe that our methods
@@ -140,6 +146,10 @@ advance of our Anticipation 2022 workshop, which play a similar role
 in that context.  These patterns presented in the subsections below as
 indicative examples.  Further brief examples of patterns can be found
 in the Designer Handbook, Appendix [[designer]].
+
+/NB./ In any particular workshop, any preferred set of patterns can
+replace the current contents of the Designer Handbook! 
+
 ** Example: “Public Space as Public Health”
 
 *** Disorder :: Creating conditions in which adaptative systems learn over time
@@ -159,13 +169,8 @@ This pattern can be used when we're thinking about designing cities
 also be used when designing other human interaction scenarios.
 
 **** Actions
-- [ ] In our workshop design, we want to create "wrinkles" for participants by getting them not only to encounter difference, but also to purturb their familiar environments.
-- [ ] We'll do this by stripping expertise in our descent to the myth layer, and also:
-- [ ] By adding disruptions to scenarios via the Kaij Communicator role.
-- [ ] However, we don't want to overwhelm participants with too much responsibility while we're going through this process, so:
-- [ ] We'll make our interfaces simple to use.
-- [ ] We may add a Scribe role (filled by a facilitator) so that participants don't have to practice yet another skill while they think about the kinds of disorder that we want to expose them to.
-- [ ] We'll aim to assess the outcomes of these design choices following a couple pilots before running the full workshop.
+
+- [ ] ...
 
 *** The Natural Contract :: A reconsideration of our relationship with our environment
 **** Problem
@@ -195,9 +200,7 @@ steering or for something else is up to us.
 
 **** Actions
 
-- [ ] One of our hopes is to invite new forms of action by mashing up the `patterns' that folks in different disciplines will already be familiar with, to produce new forms of action.
-- [ ]  We should be careful to look at the relationship between `symbolic' action (e.g., actions that could justifiably tagged as "greenwashing") and actions that lead to new forms of life (e.g., ERG talks about "the ship that builds itself", which itself builds on other ship metaphors, such as the /polis/-as-ship for the Ancient Greeks).
-- [ ]  Think about Ingold's perspective on lines themselves as important for correspondence between the evolving nodes (e.g., tube lines, bus routes); relevant to `salience' & capturing the communication between the nodes
+- [ ] ...
 
 *** Dissolving boundaries :: Between self and environment
 **** Problem
@@ -223,8 +226,8 @@ boundaries can allow more holistic informative patterns to take shape.
 Nevertheless, care should be taken not to dissolve the self into
 unwholesome relational systems.
 **** Actions
-- [ ] We want to be careful not to overwhelm participants; use "wrinkles" that are, nevertheless within participants' zone of progress.
-- [ ] Following the workshop, we want people to be more aware of the ramifications of their actions.
+
+- ...
 
 ** Example: “Anticipating Anticipation”
 
@@ -232,16 +235,19 @@ unwholesome relational systems.
 
 **** Problem
 People need to coordinate, plan, and maintain social cohesion. If a culture can develop based on shared learning BUT there is no oracle that can tell us what to expect
+
 **** Solution
 Use design pattern methods to articulate multiple futures. This can co-evolve with further patterns, e.g., developing:
 - a language for projects → Roadmap (Corneli et al, 2015), (…)
 - a language of roles → Play to Anticipate the Future, (…)
 - a language of future scenarios → (…)
+
 **** Rationale
 Examples include this pattern and Play to Anticipate the Future.
 
 **** Actions
 - [ ] Flesh out this pattern language.
+- [ ] This starting point has been expanded with several further patterns linked with the workshop design: Play to Anticipate the Future, Roadmap, Kaijū Communicator, Historian, Analyst, Designer, Dérive Comix, Meaning Map, Reinfuse Expertise, Project Action Review.  *Are these the right patterns?*
 
 *** Play to Anticipate the Future
 <<play-to-anticipate-the-future>>
@@ -255,10 +261,10 @@ Example: A bipartisan group played a scenario planning game to anticipate the af
 **** Actions:
 - [ ] Transform our scripted presentation for Anticipation 2019 into a game; cf. https://fearlessjourney.info/.
 
+
 * Scenario building activities
 
 ** /Before the workshop to Litany/
-
 
 
 #+begin_quote
@@ -932,7 +938,7 @@ The isolation of Finland proves in more and more occasions a two-sided sword. As
 # *** 2050
 # Germs of the new, shared consciousness begin to sprout throughout the globe. The phenomenon of the anxiety-ridden self that tries to secure social status, pride, prestige and power starts to evaporate, and humans are finally finding a peace within themselves, each other, and nature.
 
-* Kaijū Communicator Handbook
+* Kaijū Communicator’s Handbook
 <<kaiju>>
 
 Three example issues from the game [[http://www.flawsofthesmartcity.com/][Flaws of the Smart City]] created by
@@ -1574,7 +1580,7 @@ errors.  In every meaning of the word.
 * Designer’s Handbook:
 <<designer>>
 
-Three example patterns from ‘Cooling the commons’
+First, three example patterns from ‘Cooling the commons’, then another way to think about patterns.
 
 - Pedestrian Linkages -- Cycle Club
 - Caring for Trees
@@ -9516,6 +9522,33 @@ Website by [[https://www.madbeecreative.com.au][MadBee Creative]]
 
 
 
+** Design pattern as hypothesis
+
+The following examples gives a slightly different way of thinking
+about patterns, linked with the ideas of hypothesis testing,
+generativity, and computational modelling.
+
+*** Design Pattern for microbial diversity in civic space
+
+***** Problem Statement.
+The incidence of immune-mediated diseases has increased rapidly in
+cities.  This health burden has been linked to a reduction in
+biodiverse exposures in childhood, negatively impacting the resilience
+of the immune system.
+***** Discussion [Containing several scenarios, which are furthermore potential linked by a computational model.]
+Microbial diversity is essential to the effective training of the
+human immune system. Without effective exposures to microbial
+diversity, the immune system is less able to accommodate encounters
+with stressors throughout the lifespan (e.g., asthma). There is,
+however, a tradeoff between /TOO MUCH/ (over exposure: risk of acute
+illness) and /TOO LITTLE/ (underexposure: poorly refined system) in
+relation to microbial habitats in the city environment.  These
+trade-offs can be /modelled computationally/ [e.g., potentially using
+active inference agents].
+***** Candidate proposal [which the model might suggest, and which experiments could otherwise validate/invalidate]
+Install publically maintained raised beds for herbs, wild flowers and
+vegetables in civic spaces.
+***** Workshop ideas
 * Notes :ignore:
 
 # Do we need a phase 3 that will help people work across scenarios?  E.g., if folks focus on solutions related to food security, homelessness, rivers, etc., ... w/ the conceptual map of clusters you might have commonalities between domains that would help us make links.
