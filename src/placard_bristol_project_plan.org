@@ -12,13 +12,20 @@
 
 * Introduction
 
-Use this document to follow up on tasks leading to the PLACARD workshop in Bristol, UK in Jan 2023.
+Use this document to follow up on tasks leading to the PLACARD workshop in Bristol, UK in *Jan 2023*.
 
-* General process of the worksop
+* General process of the workshop
 
 ** Pre-workshop
 
-1. Send invitation e-mails at least 3 weeks in advance
+/(Dec 15th? 29th; Jan 12th? as _soonest_ possible, but maybe better to push it to January.)/
+
+- We would be able to present how we work with this stuff
+- We’d even a *present-only version* done optimistically for 3rd and 4th / and for sure by 10th December.
+- _Maybe_ use EmacsConf as a recruiting venue?
+
+
+1. *Send invitation e-mails at least 3 weeks in advance*
    1. Include a brief blurb about the workshop and what their participation will accomplish
    2. Include the minimum level of technology knowledge (can they use a PC, browse the web, etc.?)
    3. Include the level of security/privacy of participation and ask for consent
@@ -67,3 +74,25 @@ Use this document to follow up on tasks leading to the PLACARD workshop in Brist
 ***** Roles
 **** Facilitators
 *** Post Phase 2 immediate feedback, check on participants
+
+* Notes: November 10th.  Process feedback on pilot
+
+How to value the prep work that we’ve already done?
+How to manage the scaling up process?
+
+** Phase I: Process input needs
+- Consider *centralising the data*, since a lot of stuff is currently buried
+- Explain where the notes are, how to find the LaTeX files, git repos, &c.
+- This follows patterns of the EmacsConf organisation, e.g., minimal commits, logs, etc.
+
+** Phase II: Strategy: consider using Org Roam intelligently
+- We’d stopped using it as we originally intended, and just had meeting notes
+- Leo’s happy to create a slip-box following the patterns of Noorah’s agenda & create an operational manual
+- This will be a ‘moderated’ shared slip box; we can have all the data so far, can create notes, read things, etc.
+- *Method for maintaining structure* can be taught later after we have the contents
+
+** Plan
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- This can be "Phase III"
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
