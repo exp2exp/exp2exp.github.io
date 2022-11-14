@@ -1,0 +1,2206 @@
+\documentclass{elsarticle}
+\usepackage[utf8x]{inputenc}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage{placeins}
+\usepackage{mdframed}
+\usepackage[hyphens]{url}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Futures, Copyright waived (CC0)\hspace{.7em}\raisebox{-.5ex}{\includegraphics[height=2.8ex]{CC0_button.svg.png}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+%\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Patterns, anticipation and participatory futures}
+
+
+\author{Raymond PUZIO\corref{mycorrespondingauthor}}
+\address{Hyperreal Enterprises, Ltd. 114A New Street, Musselburgh, Scotland, EH216LQ, UK}
+\ead{rsp@hyperreal.enterprises}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\author{Paola RICAURTE​}
+\address{Tecnol\'ogico de Monterrey, Calle del Puente 222 Col. Ejidos de Huipulco, Tlalpan,
+14380 Mexico City, Mexico}
+\address{Berkman Klein Center for Internet \& Society, 23 Everett Street, 2nd Floor, Cambridge,
+MA 02138}
+\ead{pricaurt@tec.mx}
+\author{Charles Jeffrey DANOFF​}
+\address{Mr. Danoff’s Teaching Laboratory, PO Box 802738, Chicago, IL 60680}
+\ead{contact@mr.danoff.org}
+\author{Charlotte PIERCE​}
+\address{Pierce Press, PO Box 206, Arlington MA 02476}
+\ead{charlotte@piercepress.com}
+\author{Analua DUTKA-CHIRICHETTI​}
+\address{DeepResiliency.io, Hauptstrasse 28, 67475 Weidenthal, Germany}
+\ead{analua.chirichetti@gmail.com}
+\author{Vitor BRUNO​}
+\address{Milestone English Course, Rua Trieste 170, ap2, Palhoca, SC, Brazil, 88132-227}
+\ead{chief@milestoneenglishcourse.com}
+\author{Hermano CINTRA​}
+\address{Instituto Kapok de Inovação Corporativa, Rua Estados Unidos, 411, São Paulo, SP,
+Brazil, 01457-00}
+\ead{hermano.cintra@institutokapok.org}
+\author{Joseph CORNELI​}
+\address{Hyperreal Enterprises, Ltd. 114A New Street, Musselburgh, Scotland}
+\address{Institute for Ethical AI, Oxford Brookes University, Headington Campus, Oxford, OX3 0BP UK}
+\ead{jcorneli@brookes.ac.uk}
+
+\begin{abstract}
+Patterns embody repeating phenomena, and, as such, they are partly but not fully
+detachable from their context. ‘Design patterns’ and ‘pattern languages’ are established
+methods for working with patterns. They have been applied in architecture, software
+engineering, and other design fields, but have so far seen little application in the field of
+future studies. We reimagine futures discourse and anticipatory practices using pattern
+methods. We focus specifically on processes for coordinating distributed projects,
+integrating multiple voices, and on play that builds capability to face what’s yet to come.
+One of the advantages of the method as a whole is that it deals with local knowledge
+and does not subsume everything within one overall ‘global’ strategy, while
+nevertheless offering a way to communicate between contexts and disciplines.
+\end{abstract}
+
+\begin{keyword}
+ Anticipation \sep Design patterns \sep Pattern languages \sep
+ Futures Studies \sep Scenario planning \sep Applied games
+\end{keyword}
+
+\end{frontmatter}
+
+%\linenumbers
+
+\section{Introduction}
+
+In the midst of the Covid-19 pandemic, it is natural to ask: could we
+have been able to collectively anticipate the spread of zoonotic
+diseases, understand possible reactions, and formulate more adaptive
+responses? Many individuals anticipated that something like this was
+coming
+\citep{yong2018a,karesh2012a,schwartz1996a,sardar2010a,sardar2016a}. Our
+collective struggles have shown that we need to improve our
+anticipatory capabilities, that is, \emph{the capacity to act in
+  response to or in preparation for a potential future reality}
+\cite{unknown2018a}. As the virus spread from one corner
+of the world to another, it was no longer simply a question of putting
+a stop to the disease, and not simply a biomedical issue. Pandemics
+belong to a class of complex problems with social, political, and
+economical layers. While we are not going to solve the pandemic in
+this paper, the complex challenge motivates the issue we want to
+explore: how can communities learn to better anticipate together.
+
+Of course, people have been finding new ways to think about the future
+together for a long time. For example, \citet{ariyaratne1977a} tells the
+story of a rural group who were finally able to complete an important
+construction project. After 15 years of deadlock spent waiting for
+outside investment, they were called to a community meeting where they
+figured out that they could do the job with their own labour. As
+dialogue and inquiry gave participants new ways to articulate and
+develop their thinking together, the nature of the problem they faced
+became easier to understand and resolve.
+
+The methodology we will develop here centres on \emph{design patterns}:
+succinctly, solutions to problems arising in the context of a repeatable
+activity. We propose to use design patterns to structure
+anticipatory peer learning as a way to relate to possible future
+scenarios. The link between design and the future has been aptly
+summarised: ``Design is future creating and not future guessing''
+\citep[p.~47]{banathy1991a}. However, the relationship between the
+well-established design pattern methodology and futures studies has seen
+relatively little previous development.
+
+After defining and giving examples of how design patterns have been used
+in other fields, we then examine how they can help create peer learning
+experiences to explore and prepare for the future. We outline a process
+of Open Future Design that we elaborate with three patterns that can
+be applied to collaboratively anticipate the unknown:
+
+\begin{itemize}
+\tightlist
+\item
+  Create a roadmap as a tool to guide collaborative creative work.
+\item
+  Use scenario planning as a quasi-democratic approach to organise
+  thinking about the future.
+\item
+  Play games in a collaborative manner to explore possible futures.
+\end{itemize}
+
+Our results present a synthetic, literature-based, treatment of these
+topics by way of design patterns. Whether the future holds a
+catastrophe, or something much better, patterns can help us evolve in
+our collective awareness today.
+
+\subsection{Background}
+
+Life itself is intrinsically anticipatory \citep{poli2012a,poli2020a} and
+prefigurative schemas are relevant to the way we learn \citep{spiro1996a}. However, as a society, we are not guaranteed to be able to
+produce a viable outcome out of disparate individuals' capacities to
+think about the future. How the challenges we face are understood
+depends very much on who is brought to the table, and how their
+discussions are organised. We have chosen to focus on pattern methods
+here because they seem to offer the prospect of being useful for
+developing viable, thriving, collective outcomes.
+
+As Covid-19 rages out of control in some places, it is easy to forget
+that humans have largely eradicated or successfully controlled other
+diseases (e.g., polio, ebola, leprosy). While design patterns do not
+directly prevent the spread of disease, they can help prevent uncareful
+thinking --- the consequences of which have included failing to
+anticipate a problem (as happened in many places with Covid-19 in
+December 2019 to February 2020) --- or becoming too complacent based on
+previous successes (many people regularly choose not to get a flu shot).
+Patterns have been used to support and structure discourse around
+complex technical systems, and we feel they have much to offer in a
+futures studies context.
+
+Reflecting on the history of design-pattern discourse, \citet{shalloway2005a} remark that the related notion of a `cultural pattern' has
+received attention in anthropology \citep{benedict1934a,benedict1946a}. Likewise,
+Joseph Campbell proposed the monomyth of the hero as an `archetypal
+pattern' that is embedded in myths and stories across diverse cultures
+and historical periods \citep{campbell1949a} and Inayatullah noted that
+historians have understood historical trends in terms of patterns
+\citep{inayatullah1998a}. `Design patterns' in a general sense have long
+supported both small-scale and mass-manufacture of material objects and
+structures, ranging from clothing and ceramic ware to city-scale
+planning and, arguably, beyond.
+
+Notwithstanding these precedents, the concept of patterns with which we
+are concerned here originated with the architect Christopher Alexander
+and his collaborators in the 1960s and 1970s \citep{alexander1977a}.
+One feature of their proposed pattern-based approach was to enable all
+stakeholders to participate in the process of architectural design.
+Additionally, they promoted a natural quality found in traditional
+architecture, versus the artificial one due to central planning
+\citep{alexander1965a}.
+
+Alexander's notion of an architectural pattern language was later
+adopted and adapted within the field of computer programming
+\citep{beck1987a,gamma1994a}. This trend received a large boost with
+the invention of wiki software, which was first used to collect and
+curate collections of such patterns \citep{cunningham2013a}.
+Subsequently, `design pattern' methods roughly in the Alexander style
+have been applied to other domains, including social activism
+\citep{schuler2009a}, the transition movement
+\citep{hopkins2010a,transitionnetworkorg2010a}, organizational
+development \citet{manns2015a}, disaster prevention
+\citet{furukawazono2013a}, and mental health
+\citet{pierri2016}. Particularly relevant to our interests,
+\citet{schuler2009a} speaks about patterns as conceptual tools
+for the future, and
+developed a pattern called
+``\href{http://www.publicsphereproject.org/node/543}{\emph{Future
+    Design}}.'' Iba develops a future-oriented view on pattern
+language discourse, with a recent presentation on ``Creating Pattern
+Languages for Creating a Future where We Can Live Well'' \citep{iba2019a}.
+
+Since the definition of a pattern has been criticized for being
+inexplicit and inadequately explained \citep{dawes2017a} and
+treatments by different sources vary, we would like to begin by
+explaining our understanding of the term \emph{design pattern}. We
+recognise that some readers may bring their own existing understandings
+of this term, and that some will have no previous familiarity with it at
+all.
+
+As our starting point, we take Alexander's phrase: ``Each pattern is a
+three-part rule, which expresses a relation between a certain context, a
+problem, and a solution'' \citep[p.~247]{alexander1979a}. However, 
+\citet{gabriel2002a} emphasises that Alexander's full description of patterns goes
+well beyond the one sentence quoted above. Leitner supplied the
+following further summary text: ``Patterns are shared as complete
+methodic descriptions intended \emph{for practical use by experts and
+non-experts}'' \citep{leitner2015a} {[}emphasis added{]}.
+
+As we look into the matter two central elements emerge. Like an ellipse,
+the concept of the design pattern has two foci: context and community.
+The context is the type of activity which is being considered, such as
+designing a building or writing software. Communities include
+stakeholders --- experts and non-experts alike --- who are involved with
+or affected by a particular project. Also central to Alexander's
+pattern-based methodology is the notion of a \emph{pattern language}, in
+which each pattern description itself is contextualised by related
+pattern descriptions that deal with related problems. By working
+together as a whole, a pattern language produces coherent entities
+\citep{alexander1999a}. Within a specific design challenge, cascading
+patterns overlap to build out a design solution: for example, to fully
+develop a building, one would require a pattern for a suitable type of
+roof.
+
+A pattern identifies how a community may proceed to obtain an outcome by
+making certain choices and applying specific methods to suitable
+materials. At the heart of the design pattern method is the feature of
+practicality. Each pattern description, when followed, should help the
+people using it --- the community --- overcome some real or potential
+conflict \citep[pp.~9-10]{alexander1970a}.
+
+We will argue that patterns can be used to promote the organic, vital
+quality of resilience, that is, ``not to be well-adapted, but to adapt
+well'' (\citet{downing2007a}; quoted in \citet{tschakert2010a}). We find
+the `non-expert' portion of Leitner's definition particularly important
+and hope to explain our ideas in an accessible way.
+
+The most tangible metaphor is to treat each pattern as a journey, ``a
+path as a solution to reach a goal'' \citep{kohls2010a,kohls2011a}. In this
+treatment, patterns are understood to have an initial condition and an
+end condition, defined within some context, and the corresponding
+problem is understood to be that of finding a good way to move from the
+initial state to the goal.
+
+The economist Elinor Ostrom related Alexander's pattern
+language to Arthur Koestler's notion of `holons' --- stable components ``in an
+organismic or social hierarchy, which displays rule-governed behavior''
+(\citet[p.~11]{ostrom2009a}; \citet{koestler1973a}). This citation makes explicit the analogy between
+patterns and Ostrom-style institutions. Ostrom's framework understands
+an institution as a stable set of action-situations and proposes that
+each such situation be understood as a whole, while simultaneously being
+part of a larger social arrangement and a result of particular
+circumstances. In short, pattern language and institutional design are
+seen to be closely compatible.
+
+In their applications within the computing discipline, patterns are
+typically written down with a template for easy communication and
+discussion. For example, alongside ``Context'', ``Problem'', and
+``Solution'', a typical template may include things like ``Rationale''
+(reasons for preferring this specific solution over other possible
+solutions; Meszaros \& Doble, 1997) and ``Examples''. Typically a
+picture is included to serve as a mnemonic. Corneli et al.~(2015) added
+a ``Next Step'' facet to the template they used, with the implication
+that each pattern is imperfectly realised and that further steps should
+be taken to manifest it within a collaboration.
+
+Patterns have also been discussed in explicitly computational terms,
+though that direction of work remains mostly at the level of a proposal
+\citep{alexander1999a,moran1971a}, which has seen limited
+discipline-specific uptake within architectural design
+\citep{jacobus2009a,oxman1994}. As a whole, the pattern discipline continues to evolve as
+an active area of research, particularly in computing disciplines.
+Several parallel yearly conferences are devoted to the exploration of
+themes touched on here, with some of the most developed contributions
+appearing in the Transactions on Pattern Languages of Programming book
+series. The specific contribution we make in this paper is to unite the
+pattern language and futures discourses as a coherent whole.
+
+\subsection{Pattern(s) as anticipatory method}
+
+In an everyday sense, `patterns' are elements of an environment that
+recur in time or space. Because we expect them to recur, the patterns we
+recognise bear on our thinking about the future. The methodology we
+apply below is the reanalysis of existing future-oriented discourse
+within the specific constraints of the design pattern approach. The goal
+is to reimagine and reassemble it ``together as a different version to
+bring out something latent or implicit in the original''
+\citep[p.~85]{handelman1998a}.
+
+As we reviewed above, we refer here to a specific methodological system
+centred on pattern descriptions that are intended for practical use
+\citep{leitner2015a}. Patterns of this form are accompanied by and embody
+principles that can lead from problem identification to problem solution
+within a given domain.
+
+In concrete terms, we imagine how existing future-oriented discourses
+can be discussed and thought about using the pattern format. If the goal
+of future planning is to move from being reactive to being proactive,
+patterns methods have much to offer: they can help imagine and
+anticipate possible futures, and can help communities build resilience.
+
+Through the comparative analysis of different future-oriented discourses
+vis-à-vis design patterns, we reimagine patterns as being something more
+than design tools: they become the building blocks for possible futures.
+Used in this way they present a way to ``deconstruct {[}...{]}
+conventional thinking to produce a shared view of possible future
+outcomes that can break existing paradigms of thinking and operating''
+\citep{euforesight2020a}.
+
+From the many existing approaches to scaffolding
+anticipation---including speculative fiction
+\citep{gill2013a,liveley2017a,wagner-lawlor2017a}, design fiction
+\citep{danoff2019,kerspern2019a,di2019a} prospective studies
+\citep{jouvenel2004a} and
+predictive statistical models \citep{arslan2006a}---we get limited
+insights about how to engage together. It is understood that
+anticipatory behavior can be provoked and improved \citep{bishop2018a}; and
+as individuals, we can engage in anticipatory learning, ``the general
+mechanism of learning to generate predictions or learning a predictive
+or forward model of an encountered environment or problem''
+\citep{butz2012a}. We see design patterns as filling a gap that addresses
+participatory anticipatory learning for complex problems requiring a
+group response.
+
+\section{Open Future Design: Patterns for anticipating the future}
+
+In this section we use design patterns to analyze three approaches to
+thinking about the future, namely: \emph{roadmaps}, \emph{scenario
+planning}, and \emph{play}. We posit that the process of anticipation
+requires a set of choices that will be associated not only with our
+vision of the future --- values, situations, materialities --- but also
+with the process in which this anticipation happens.
+
+To begin our exploration of how design patterns relate to futures
+studies, we refer to \citet[Appendix, pp.~241-248]{schwartz1996a}, \emph{viz.},
+his ``Steps to Developing Scenarios''. This process follows an outline
+with a striking similarity to a design pattern template. Both Alexander
+and Schwartz advocate the identification of driving forces in a context.
+However, unlike Alexander, Schwartz does not intend to resolve conflicts
+between the forces within a harmonising design. On the contrary, the aim
+in scenario development method is to understand how these forces might
+evolve and lead to diverse scenarios. As scenarios develop, they can
+serve as the ground for developing new design work in Alexander's sense.
+With these aims in mind, the pattern Open Future Design serves as an
+entrypoint (Figure 1). As a mnemonic image, we chose to illustrate this
+pattern with a depiction of the water cycle, to show how Open Future
+Design, and subsidiary patterns that we describe below, represent an
+anticipatory cycle: as unknown and unexpected features materialise, our
+expectations develop and change.
+
+\begin{figure}[h]
+  \begin{center}
+    \begin{mdframed}
+        \begin{center}
+          \includegraphics[width=.9\columnwidth]{image5.jpg}
+         \end{center}
+\begin{minipage}[t]{0.97\textwidth}\raggedright
+\subsection*{{\upshape\texttt{PATTERN}}: Open Future Design}
+\smallskip
+
+\textbf{Context} People need to coordinate, plan, and maintain social cohesion.\newline
+\textbf{If} a culture can develop based on shared learning BUT there is no reliable oracle that can tell us what to expect;\newline
+\textbf{Then} use design pattern methods to articulate multiple futures. This work can be guided by further patterns, e.g., to develop
+\medskip
+
+- \emph{a language for projects} → Roadmap
+
+- \emph{a language of future scenarios} → Participatory Scenario Planning
+
+- \emph{a language of roles} → Play to Anticipate the Future
+\end{minipage}
+\end{mdframed}
+\end{center}
+\caption{Open Future Design Pattern. Inner image credit: Howard Perlman,
+USGS. Public domain, Source:
+\href{https://www.usgs.gov/media/images/water-cycle-natural-water-cycle}{\emph{https://www.usgs.gov/media/images/water-cycle-natural-water-cycle}}}
+\end{figure}
+
+\subsection{The future via a roadmap}
+
+The success of collaborative learning and work is related to the
+conditions, processes, and tools that make such collaborations possible.
+One indicative example of `success' is found in the Wikimedia Foundation
+(WMF). The WMF has made use of various planning exercises, ranging from
+the collaboratively produced ``Wikimedia Strategic Plan'' \citep{walsh2011a}
+to the more centrally produced ``Knowledge Gaps'' \citep{zia2019a}
+whitepaper. These activities should be understood in the context of an
+ongoing decline in participation in Wikipedia projects \citep{simonite2013a},
+and the capture of online attention in various privatized media \citep{fuster2011a}.
+
+WMF's strategy and plans are not dissociated from other practices in
+their projects. Structured guidance is made available to contributors to
+Wikimedia projects at all stages. Such guidance ranges from policies to
+tutorials, and helps contributors produce and maintain content to the
+benefits of the entire user community. Specific guidance on how to
+participate in data analysis and other planning activities that can help
+steer the project is available.
+
+The culture around maintaining, updating and using such anticipatory
+artifacts comprises a system for governance. For example, online
+governance may evolve along the bottom-up lines proposed by
+\citet{schneider2020modular}. In the WMF example, the context, problems, and solutions
+are relatively explicit --- e.g., gaps in knowledge should be filled to
+make Wikipedia more inclusive --- and the community is included in both
+framing the problem and shaping the solution. On the other hand,
+justifiable doubts are likely to arise among constituencies who are
+brought into a ``culture of consultation'' \citep{featherstone2017a} that is
+concerned, not with authentic community power, but with establishing and
+rubber-stamping the semblance of participation.
+
+One way to enhance community power is to make plans based on pattern
+methods. In what might be a best case scenario, the ``Roadmap'' pattern
+from \citet{corneli2015a} becomes the entry point to a ``living
+language'' made up of other evolving patterns \citet{alexander1977a},
+each pointing to clearly designated next steps. While any notion of a
+plan presumes an anticipation of outcomes, the Roadmap may not be linear
+and directed towards one goal. It may instead be an organic tool for
+coordination across variables such as time, groups of people, and
+software. In the Scrum agile project management methodology, the
+``Product Roadmap'' is complemented by a ``Product Backlog'' that offers
+a best-guess linear path through the various branching paths contained
+in the roadmap, while the roadmap itself keeps track of all anticipated
+alternatives as well as dependencies between tasks
+\citep[p.~220, pp.~222-223]{sutherland2019a}.
+
+We can consider the pheromone trails of ants as an example of an
+adaptive Roadmap in nature. By analogy, human participants in a
+collaborative design process should, metaphorically, have their antennae
+out to detect and respond to developing situations, and should develop
+suitably immediate methods for sharing meaning with each other. Notice
+that by anticipating future conflicts, we can take steps in advance to
+prevent and mitigate the problems that might ensue. This connects the
+Roadmap pattern with the broader themes of improving our ability to
+anticipate the future and resiliency. Figure 2 re-summarizes the Roadmap
+pattern, and highlights its nested context, in which the immediate
+community of users must adapt to a broader context in motion.
+
+\begin{figure}[h]
+  \begin{center}
+    \begin{mdframed}
+      \begin{center}
+\includegraphics[width=.9\columnwidth]{image1.jpg}
+        \end{center}
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+  \subsection*{{\upshape\texttt{PATTERN}}: Roadmap}
+  \smallskip
+  
+\textbf{Context} a group needs to coordinate its activities over a period of time.\newline
+\textbf{If} the landscape is complex and not completely knowable BUT adjustment to action based on feedback is possible;\newline
+\textbf{Then} use an explicit mechanism to share information about goals, obstacles, methods, and resources.\newline\smallskip
+
+\textbf{Example} Everyday roadmap languages include both iconic map and road sign symbols; when people are confused or lost they may ask for help or try to find their own way back to the road using other informal languages.
+
+\end{minipage}
+\end{mdframed}
+\end{center}
+\caption{Roadmap pattern. Image: Maritess Sulcer, CC0, via Wikimedia
+Commons
+\href{https://commons.wikimedia.org/wiki/File:Trees_and_bridge_and_stream_and_clouds_--_25_of_33.jpg}{\emph{https://commons.wikimedia.org/wiki/File:Trees\_and\_bridge\_and\_stream\_and\_clouds\_-\/-\_25\_of\_33.jpg}}}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{The future via peer learning and scenario planning}
+
+While scenario planning can be carried out by groups of experts, there
+is the danger that the life experiences and opinions of other people who
+are affected by their planning will not be considered. This could lead
+to a narrow understanding of the problem and a limited vision of what
+the future can look like. In \emph{participatory }scenario planning, the
+activities are carried out by a community of non-experts with the
+experts or designers limiting their role to facilitation and moderation
+\citep{johnson2012}. For instance:
+
+\begin{itemize}
+\tightlist
+\item
+  The Consultative Group for International Agricultural Research project
+  in Mali held a workshop at which 38 people including farmers,
+  journalists, local leaders, forest officers, extension workers, policy
+  makers, and representatives of NGOs and District Councils collaborated
+  to produce scenarios for the future of agriculture \citep{johnson2012,totin2018}.
+\item
+  Agricultural development workshops in Nigeria included a
+  teacher/researcher, a journalist, an engineer, an animal nutritionist,
+  a camera operator and head of a women's group \citep{olabisi2016a}.
+\item
+  In the Minnesota 2050 project, participants were selected from a
+  variety of professions and leadership roles to produce scenarios for
+  energy and land use, and combined modelling with scenario planning
+  \citep{olabisi2010}.
+\end{itemize}
+
+In all of these examples, scenario planning was taken out of the hands
+of the experts, but scientists and other consultants still played a
+specialized role. A varied community that designs and produces something
+by and for themselves would be more fully analogous to Alexander's
+vision of community-designed architecture \citep{alexander1977a}. If
+community members could be involved as scenario planners, or as
+architects, why not also involve them as citizen scientists or
+modellers? \citet{wildschut2017a} points out that the `local knowledge' of
+citizens can make the inquiry process more robust: ``Citizens have
+valuable knowledge that is often out of reach for university
+scientists.'' Another related people-centered approach
+is described by the \citet{designjusticeorg2018a} whose principles are
+addressed to ``people who are normally marginalized by design.'' Whether
+in a scenario planning, scientific inquiry, or design process,
+participants need more than just `access', i.e., not just access to
+existing scholarly materials produced elsewhere, but also to a platform
+and literacies/capabilities that allow them to contribute and negotiate;
+Heidegger used the term \emph{Zuhandenheit}: “readiness-to-hand,
+handiness.” Existing collections of design patterns can help address
+these requirements. For example, many of the ``Wise Democracy'' patterns
+elaborated by the \citet{institute2019a} would carry over well to participatory scenario planning. Specific
+patterns include: (\#30) ``Expertise on tap (not on top)'', (\#33)
+``Feeling heard'', (\#82) ``Systems thinking'', and (\#94) ``Wise use of
+uncertainty''.
+
+The pattern language contains other useful hints for scenario planners.
+We can elaborate with a concrete example. \citet{johnson2012} made
+this observation based on their experience with participatory scenario
+planning: ``Groups with too little diversity converge quickly and
+without exchanging contrary ideas, and will necessarily develop fewer
+options for action. Yet too much diversity can hobble a group and
+overwhelm a process with too many conflicting values and perspectives.''
+We do not consider that there is such a thing as ``too much diversity''
+in any absolute sense, only limitations to a group's ability to
+integrate diverging visions of the future and to learn from conflict.
+Indeed, since managing conflict seems to be a key concern here, it would
+make sense to express this experience with a design pattern. One benefit
+of diversity was noticed by \citet[p.~97]{schwartz1996a}: “being part of
+several networks not only opens up diverse arenas, but allows you to
+cross-check the insights that emerge among people from vastly different
+places.'' Relevant patterns are again found in the Wise Democracy
+pattern language: (\#26) ``Diversity'' and (\#88) ``Using Diversity and
+Disturbance Creatively''. Scenario planners who are concerned that there
+is too little or too much diversity within their dialogue could refer to
+these patterns to enrich their thinking on the matter with to-hand
+knowledge. An example of where this could have been helpful: \citet{ewing2018a} describes how, when forty-nine individual public schools in
+Chicago closed, students were not equal participants in the decision and
+were left to deal with the ``intense emotional aftermath'' (p. 159). She
+suggested that ``perhaps CPS can learn from the school closures to
+create structures that let stakeholders participate meaningfully in
+decisions so as to incorporate community voices'' (p. 161).
+
+Patterns could help with further specifics of process. One reference
+point in futures studies is the Delphi method \cite{corporation2020a}.
+However, in Delphi, summaries are produced by a facilitator synthesising
+expert feedback and sharing it back out to participants. Delphi's “goal
+is to reduce the range of responses and arrive at something closer to
+expert consensus” (\emph{ibid.}). In a world in which we
+respect each participant as an expert with relevant experiences, we need
+more complex ways to integrate multiple voices. The pattern methodology
+itself has the potential to incorporate contributions from diverse
+stakeholders, by foregrounding context and community at each stage. It
+is worth pointing to extant patterns \emph{for} pattern writing \citep{iba2016a,meszaros1997a} and workshopping
+\citep{coplien1997a,gabriel2002a}; and to criteria for evaluating patterns
+throughout their lifecycle \citep{petter2010a}. We summarise these
+reflections in a ``Participatory Scenario Planning'' design pattern in
+Figure 3.
+
+\subsection{The future via play}
+
+Before the future arrives, one way to prepare is by playing: this not
+only simulates different scenarios, but also helps us experience what it
+is like to live in them. ``Play can help kids learn, plan and even
+persevere in the face of adversity'' \citep{willyard2020a}. There can be
+other benefits---for adults as well. According to legend, the ancient
+Maeonians developed various games (played with dice and balls, as well
+as a lottery) that helped them endure hunger \citep[p.~43]{herodotus1975a}.
+According to \citet{huizinga1949a}, play is in fact fundamental for
+civilization. In a metaphysical view that centers aleatory practice,
+``the game and fate fuse into destiny'' \cite[p.~25]{gane1991a}.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \begin{mdframed}
+      \begin{center}
+        \includegraphics[width=.6\columnwidth]{image3.jpg}
+        \end{center}
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+
+  \subsection*{{\upshape\texttt{PATTERN}}: Participatory Scenario Planning}
+\smallskip
+  
+\textbf{Context} you want to plan for possible future scenarios.\newline
+\textbf{If} you have an interested group BUT no “expert” has all the answers;\newline
+\textbf{Then} pool the collected expertise of the affected communities.\newline\smallskip
+
+\textbf{Example} the Next Generation Services project (\url{http://nextgenpsf.co.uk}) used participatory scenario planning to imagine different plausible AI futures, which were then used in design sprints to expose professional services firms to potential AI challenges and opportunities.
+\end{minipage}
+\end{mdframed}
+\end{center}
+\caption{Participatory Scenario Planning.
+\href{https://commons.wikimedia.org/wiki/File:IrvingJohnstonAground.jpg}{\emph{Image}}:
+The tall ship\href{https://en.wikipedia.org/wiki/Irving_Johnson_(ship)}{
+}\href{https://en.wikipedia.org/wiki/Irving_Johnson_(ship)}{\emph{Irving
+Johnson}} lies hard aground, only yards from shore, near the entrance to
+Channel Islands
+Harbor,\href{https://en.wikipedia.org/wiki/Oxnard,_California}{
+}\href{https://en.wikipedia.org/wiki/Oxnard,_California}{\emph{Oxnard,
+California}}, March 2005. US Coast Guard, public domain.}
+\end{figure}
+
+\FloatBarrier
+
+Games offer `oblique strategies' (à la Eno \& Schmidt --- see \citet{taylor1997a})
+for anticipating the future. They transform the future into
+something we can play with and thereby expand the horizons of what we
+believe is possible in the coming days and years \citep{Sweeney2019}.
+This has not gone unnoticed by futurists. For example: in 2015, United
+Kingdom government officials developed a futures gaming process called
+the ``Scenario and Implication Development''
+system to play at the 5th edition of the Global Strategic
+Trends review \citep{sweeney2017a}. Causal Layered Analysis (CLA)
+\citep{inayatullah1998b} is a well known tool for imagining possible
+futures: at the conference “Futures Studies Tackling Wicked Problems”
+in Finland, attendees played a CLA game to test out different
+scenarios, and the game allowed them to include a diversity of
+perspectives \citep{heinonen2017a}.
+
+
+Examples of recent games designed to explore possible futures include:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{\textbf{The Oracle for Transfeminist Technologies}} \citep{varon2019a}: a card deck designed to collectively envision and share
+  ideas for transfeminist tech in the future. This game is based on the
+  assumption that people who are excluded by technology in today's world
+  are qualified to design future scenarios \citep{varon2020a}.
+\item
+  \emph{\textbf{Flaws of the Smart City}} \citep{friction2016a}: a
+  card game exploring smart-city futures (that architects like Alexander
+  might also enjoy playing). The co-founder of Design Friction explains
+  how the game tries to make it easier for those outside the design
+  community to easily use future scenarios and design fiction \citep{kerspern2019a}.
+\item
+  \emph{\textbf{HEY! Imaginable Guidelines}} \citep{sanalarc2018a}: another
+  city themed game in which participants use cards to discover how
+  cities are designed by selecting topics that are necessary, desirable,
+  or irrelevant to the urban-design problem they are trying to solve
+  \citep{hattam2019a}. The game provokes players to make changes and continue
+  the conversation after play has concluded.
+\item
+  \emph{\textbf{Equitable Futures}}: a future-oriented game produced by
+  the Institute For the Future. It is used to develop understandings of
+  challenges to overcome as players try to find new ways to build a more
+  equitable future and re-imagine our worlds for 2030 \citep{finlev2019a}.
+\end{itemize}
+
+Although it was not designed by futurists, the cooperative board game
+\emph{Pandemic} \citep{leacock2008a}, where players work together to find a
+cure for a virus spreading across the world, has served a similar
+purpose. It has helped people cope with the current Covid-19 pandemic
+\citep{genovese2020a,leacock2020a}, including doctors and medical students
+\citep{woo2020a,borrelli2020a}. Employees of the Centers for Disease
+Control previously commented that the game ``reflected the reality and
+values of public health'' \citep{lee2013a}. In this case the upshot is that
+players have been experimenting with how to solve a pandemic, thanks to
+this game, since 2008.
+
+There are existing design patterns for creating games and using them to
+learn. Iba's pattern
+“\href{https://books.google.com/books?id=9yJPBwAAQBAJ\&lpg=PA35\&ots=cplh2j7i7i\&dq=takashi\%20iba\%20play\%20game\%20pattern\&pg=PA35\#v=onepage\&q=game\&f=false}{Playful
+Learning}” is based on the observation “It is easier to enjoy learning
+something new if you take pleasure in the results” \citep[p.~9]{iba2018a}; for
+instance, one might opt to learn to program by programming a video game,
+or practice a foreign language by playing Two Truths and a Lie. The
+genre of “`Applied Games' or `Games with Purpose' ... seek to harness
+our natural curiosity and playfulness in the search for new knowledge”
+\citep{rawlings2016a}. One sub-genre is described in Schuler’s
+``Socially Responsible Video Games Pattern'' where games are used as a
+vehicle to introduce real-world issues in an interactive format \citep{schuler2008a}.
+
+As Iba's
+``\href{https://books.google.com/books?id=9yJPBwAAQBAJ\&lpg=PA35\&ots=cplh2j7i7i\&dq=takashi\%20iba\%20play\%20game\%20pattern\&pg=PA35\#v=onepage\&q=game\&f=false}{Playful
+Learning}'' pattern stated, the games themselves need to be fun and
+tangible. As one simple step in this direction, Iba created
+physical cards for his patterns, so that playing with them would be more
+enjoyable. Collections of game design patterns are also available that
+can help designers build in features that make games attractive and
+interesting \citep{kreimeier2002a}.
+
+Figure 4 summarises the foregoing reflections as a pattern, Play to
+Anticipate the Future. Perhaps future definitions for \emph{play} will
+catch up with the reality this description embodies: none of the five
+current definitions for this word as a verb in the Webster dictionary
+include anything about learning or the future \citep{merriam-webster2020a}.
+
+\section{Discussion}
+
+Our presentation at the Anticipation 2019 conference took the form of a
+scripted dialogue that we invited audience members to read aloud. We
+hoped that this might spark conversation, by modelling the kind of
+participatory dialogue we wanted participants to feel comfortable
+having---better than one presenter speaking to the audience the entire
+time. As it happened, the first comment we received from one of the
+volunteer readers pushed back vigorously against the format: ``Why did
+you ask us to read a script, rather than improvise?'' Subsequently, this
+led us to explore more authentically collaborative methods for
+anticipating the future. Central to this process was the fact that we
+are a diverse international group of peers who were prepared to think
+together about our local concerns, investments, and activities. This
+paper has shown how the pattern method can be used to develop a mindset
+for collaborative anticipation that embraces diverse points of view.
+Such usage was already hinted at by \citet{moran1971a}, who wrote that ``From
+the point of view of methodology, it is not so important how good each
+pattern is, but only that each one is transparent and open to criticism
+and can be improved over time.''
+
+With further application of the method, futures discourses could become
+more `generative', i.e., refashioned as ``a kit of parts \ldots{}
+together with rules for combining them'' \citep{alexander1968a}. To meet this
+need, the set of patterns would have to be more fully elaborated. In the
+domain of the built environment, \citet{alexander1999a} refers to inspiration
+coming from ``generative schemes that exist in traditional cultures''
+with ``as few as a half a dozen steps, or as many as 20 or 50.''
+It is not simply a matter of adding more patterns ---
+but one of understanding the unfolding processes that they represent, when taken together.
+
+\begin{figure}[h]
+  \begin{center}
+    \begin{mdframed}
+      \begin{center}
+\includegraphics[width=.7\columnwidth]{image4.png}
+\end{center}
+  \begin{minipage}[t]{0.97\columnwidth}\raggedright
+\subsection*{{\upshape\texttt{PATTERN}}: Play to Anticipate the Future}
+\smallskip
+
+\textbf{Context} you want to have fun with friends, colleagues or acquaintances.\newline
+\textbf{If} you want to explore possible futures BUT time travel does not exist and you don’t know what to expect;\newline
+\textbf{Then} play a game that lets you experience a plausible future scenario together.\newline\smallskip
+
+\textbf{Example} a bipartisan group of politicians, former civilian and military officials, and academics gathered to play a scenario planning game to anticipate the possible aftermath of a contested election: at the very least the scenarios they came up with managed to surprise them (Bidgood, 2020).
+
+\end{minipage}
+\end{mdframed}
+\end{center}
+\caption{Fig 4. Play to Anticipate the Future Pattern, illustration from
+\href{https://archive.org/details/romps00furn/page/22/mode/2up}{\emph{Romps}}
+by Harry Furniss, published by Routledge and Sons in 1886 (public domain
+via Archive.org)}
+\end{figure}
+
+\FloatBarrier
+
+Pattern language development can give us another way to think
+and talk about 
+the ``process of language development'' that already goes
+on inside institutions \citep[p.~205]{schwartz1996a}. Further challenges
+include understanding complex interactions between contexts and
+communities that previously had little relationship with each other.
+Another concern is how to balance futures discourse with other pressing
+concerns: if we wait too long, or structure the discourse poorly, we
+will end up being reactive. One specific direction for development
+of the ideas would be to work jointly with the Participatory Modeling (PM)
+community, addressing concerns like ``What are the major interpretation
+and communication issues in PM? Are there best practices to address
+these issues?'' \citep{jordan2018a}. To be most applicable in this
+setting, the methods would need further elaboration, e.g., to become
+more computationally salient to address the specific needs of modelers,
+and to incorporate the developing insights from Alexander and others on
+what makes this method work well.
+
+The vision of ``Open Future Design'' (§2) is to be open to almost any
+possibility when we imagine it. As a touchstone, when they are first
+suggested, beneficial future visions ``should appear to be ridiculous''
+\citep{dator2019futures}. However, in real life, there are scenarios we prefer to
+close off. We can prepare for various eventualities by experiencing
+these possibilities in games (§2.2) or other simulated encounters,
+rather than in real life.
+
+A pattern-theoretic approach to futures links `futures studies' to
+processes of growth and development. Community assembly of ecosystems
+and the growth of embryos are relevant natural examples of processes
+that have `futures'. These natural processes are ordered, not only in
+time but also in space. Reflecting on these examples, we see more
+clearly how it is that individual futurists --- without the contexts in
+which their ideas could become meaningful --- are like little bits of
+organs that are detached from the bodies and materials needed to
+function. Similarly, while science fiction can provide a `thinking
+machine' \citep{Doherty2020}, it cannot on its own provide
+historically robust alternatives to the global crises that we face.
+Narrative and design fiction methods \citep{gill2013a,liveley2017a,wagner-lawlor2017a} have been applied in design, and from there,
+reapplied in futures studies. When these methods are used to prepare
+effectively, we would be inclined to think of them as part of a
+``Roadmap'' in the sense we used this term above (§2.1).
+
+A roadmap is a kind of genetic code for a successful project: and here
+one should keep in mind that a genotype is not a simple blueprint
+\citep{pigliucci2010a}. You cannot create a roadmap in a vacuum and hand it
+to someone and expect it to work. Collaboration and communication are
+needed to create a useful roadmap and that process itself can become the
+largest part of the value of the roadmap. Once the plan is in motion and
+things start not to happen as expected, the roadmap can be used as a
+reminder of what was planned to help groups respond based on prior
+collaborative knowledge and understanding. The understanding it took to
+create it is key. It creates “resilience”.
+
+Diversity --- secured via patterns like ``Participatory Scenario
+Planning'' (§2.2) --- can boost our collective immunity in a broad sense
+of that word \citep{Wambacq2017}. Diversity allows our
+understanding of the whole to be enriched. Without it, we risk attacking
+potentially vital imagined futures, as when in autoimmune disease, the
+immune system attacks healthy body cells \citep{handbookdao}. If
+we fail to consider and account for the needs of all stakeholders
+affected by decisions, we are not acting in alignment with our basic
+need for survival as part of humanity and part of the ecosystem on
+earth.
+
+As we consider the needs and interests of broad cohorts of stakeholders
+we can position this work as a response to \citet{KOSTAKIS2015126} who
+argued for a development model based on ``thinking global and producing
+local.'' At the centre of their vision is a global pool of designs,
+which are put into production in local Fab Lab facilities. By contrast,
+in our work we have centred circumstances of cultural diversity and
+human relationships. In our view, the pattern method flips the Kostakis
+et al.~formula on its head: patterns are primarily tools for thinking
+locally about particular contexts, individual relationships,
+conflicts and circumstances. Only secondarily and potentially does this
+lead to a shared global resource. More likely, pattern methods would
+simply strengthen local forms of resilience and better identify healthy
+futures.
+
+Incorporating diverse communities into an ongoing futures discourse is a
+tall order and some humility is required. In contrast to design, which
+ultimately converges, futures-oriented activities are about producing
+diverse open-ended possibilities: this is akin to Deleuze's remark that
+``the system must not only be in perpetual heterogeneity, it must also
+be a heterogenesis'' \citep{deleuze2010a}. This is why reading a script --- for
+example --- is not necessarily the best way to motivate discussion about
+the future. As \citet{sardar2010a} pointed out, future predictions do not
+actually provide us with foreknowledge. However, anticipation can
+provide future-readiness; with this in mind, a script could be reworked
+as a game that participants could ``Play to Anticipate the Future''
+(§2.3) together.
+
+The project we have embarked on will help to address the societal need
+for improved facilities of anticipation. Through the generative nature
+of the pattern method, users can become prepared for many outcomes and
+possibilities. A great strength of this method is that it can be used
+differently in different places, with no need of assembling everything
+into one unified `design'. We highlight some specific implications of
+the patterns we developed in Figure 5.
+
+The individual points indicated in Figure 5 are at least somewhat
+plausible, e.g., Ali S. Khan  from the CDC ``became interested in
+Vaughan's game {[}\emph{Plague Inc.}{]} as a tool to teach the public
+about outbreaks and disease transmission because of how it uses a
+non-traditional route to raise public awareness on epidemiology, disease
+transmission, and diseases/pandemic information'' \citep{kahn2013a}.
+Potentially even more
+exciting is to think about what the pattern methods offer if they were
+adopted on a broad scale. Like \citet{escobar2018a} proposes, they could open
+up the possibility to design multiple pluriverses, where we do not just
+make plans focused on one choice but include diversity integrally in our
+thinking. Reanalysis of futures methods in light of the
+transdisciplinary pattern methodology has given us new insights into the
+way futures studies work, and how they might be practiced
+collaboratively, across domains and cultures.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \begin{mdframed}
+      \begin{center}
+\includegraphics[width=.5\columnwidth]{image2.png}
+      \end{center}
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+\subsection*{{\upshape{\texttt{EXAMPLES}}:}}
+
+\textbf{Looking back: how }\emph{\textbf{might}}\textbf{ the patterns we
+wrote have helped in 2020?}
+
+\begin{itemize}
+  \item In January, world leaders met online to simulate many global infection-spreading scenarios by playing Pandemic \citep{leacock2008a}, and Plague Inc \citep{creations2012a} to see how to contain or spread the virus.
+  \item In February, people in nursing homes and prisons engaged in participatory scenario planning, which helped shift the collective outlook of society at large, leading to more informed discussions, and safer health behaviours.
+  \item In March, national teams developed roadmaps for curricula teaching citizen science approaches of epidemiology, and students subsequently helped lead national recovery projects.
+\end{itemize}
+
+\textbf{Looking forward: How }\emph{\textbf{might}}\textbf{ things look
+  in the future building on this work?}
+
+\begin{itemize}
+  \item Everyone learns “history” in school, but not “future”: this material and associated techniques could become part of a new curriculum for futures.
+  \item Policy could develop via town-hall format discussions: rather than being based on Q\&A, politicians would lead citizen teams in developing different scenarios.
+  \item E-sports could expand to explore plausible scenarios in games like SuperBugs \citep{nesta2016a} where players race against the clock to keep antibiotics effective.
+  \end{itemize}
+  
+\end{minipage}
+\end{mdframed}
+\end{center}
+\caption{Figure 5. Implications. Image: Umberto Brunelleschi, illustration pour
+Fantasio d'Alfred de Musset, detail (Public Domain,
+\href{https://commons.m.wikimedia.org/wiki/File:Umberto_Brunelleschi,_illustration_pour_Fantasio_d\%27Alfred_de_Musset.jpg}{\emph{via
+Wikimedia Commons}})}
+\end{figure}
+
+\FloatBarrier
+
+\section{Conclusions}
+
+Our main results outlined several ways in which design patterns can be
+used to model future-directed activities. It is possible to envision
+scenarios that bring all of these methods together. For example,
+consider a gaming situation in which teams are completing, or a similar
+setting in which there are people acting with competing interests, with
+different scenarios thrown into the mix
+ (resource depletion, regulatory
+changes, inflation, natural disasters, actions by other players, etc.)
+to test their reactions. Roadmaps could be used both in the competition
+and in research designs to make sense of the subsequent output and draw
+transferable insights from the exercise.
+
+
+As we have noted, a key feature of the methods we have described is to
+promote heterogeneity of thought and behavior. Part of the purpose of
+participatory methods would be to make sure we have the right experts.
+For example, a nurse may have noticed things on the ward that
+epidemiologists would never have experienced. A pandemic team with the
+right balance of expertise and diverse community participants --- with
+suitable methods for collaborating and learning together --- will get
+better results than professional analysts, scientists, and university
+researchers working in isolation.
+
+Which brings us to you, dear reader. We assume you wanted to learn about
+the subjects in the title: or perhaps this paper was assigned to you in
+school and you are reading it for a grade? Either way, we are excited to
+invite you to use and adapt these methods. For us, this work is likely
+to serve as a springboard for our efforts. We hope that the paper will
+be practical for you, too. Or, perhaps you think we are deluding
+ourselves with ivory tower navel gazing? --- After all, even if the
+broad outlines of this work are correct, a degree of skepticism is
+warranted given that Alexander already shared relevant clues 20 years
+ago. Or perhaps your criticisms run the other direction, and you found
+the patterns too simplistic. We, of course, remain open to these and
+other criticisms. Future work might integrate design patterns and
+macrohistorical patterns for anticipation, or combine patterns and CLA
+\citep{inayatullah1998a,inayatullah1998b} to connect diverse and divergent themes
+across multiple layers of experience and observation. Alternative
+methods described by \citet{Sools} focus on observing how consideration
+of future outcomes affects present choices. Depending on what year it is
+when you are reading this, perhaps these integrative suggestions have
+already come to pass. If you think the points we raised in this paper
+are meaningful and valuable, then a likely corollary is that there will
+still be a lot of hard work to realise the full vision.
+
+\section*{Acknowledgements}
+
+We thank Claire van Rhyn for bringing the Anticipation conference to our
+attention. We acknowledge the comments and participation in online
+seminar discussions of: Roland Legrand, Lisa Snow MacDonald, Verena
+Roberts, Charles Blass, Stephan Kreutzer, Giuliana Marques, and Cris
+Gherhes.
+
+% \section*{Funding sources}
+
+% This research did not receive any specific grant from funding agencies
+% in the public, commercial, or not-for-profit sectors.
+
+%\section*{References}
+
+%\nocite{*}
+%\bibliography{main-no-month.bib}
+
+\begin{thebibliography}{118}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Alexander(1965)}]{alexander1965a}
+\bibinfo{author}{Alexander, C.} (\bibinfo{year}{1965}).
+\newblock A City Is Not a Tree.
+\newblock {\it \bibinfo{journal}{Architectural Forum}\/},  {\it
+  \bibinfo{volume}{122}\/}, \bibinfo{pages}{58–62}. \URLprefix
+  \url{https://www.patternlanguage.com/archive/cityisnotatree.html}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Alexander(1968)}]{alexander1968a}
+\bibinfo{author}{Alexander, C.} (\bibinfo{year}{1968}).
+\newblock Systems Generating Systems.
+\newblock {\it \bibinfo{journal}{Architectural Design}\/},  {\it
+  \bibinfo{volume}{38}\/}, \bibinfo{pages}{605–610}. \URLprefix
+  \url{https://patterns.architexturez.net/doc/az-cf-173046}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Book
+\bibitem[{Alexander(1979)}]{alexander1979a}
+\bibinfo{author}{Alexander, C.} (\bibinfo{year}{1979}).
+\newblock {\it \bibinfo{title}{The Timeless Way of Building}\/}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+%Type = Article
+\bibitem[{Alexander(1999)}]{alexander1999a}
+\bibinfo{author}{Alexander, C.} (\bibinfo{year}{1999}).
+\newblock The origins of pattern theory: the future of the theory, and the
+  generation of a living world.
+\newblock {\it \bibinfo{journal}{IEEE Software}\/},  {\it
+  \bibinfo{volume}{16}\/}, \bibinfo{pages}{71–82}. \URLprefix
+  \url{https://doi.org/10.1109/52.795104}. \DOIprefix\doi{10.1109/52.795104}.
+%Type = Book
+\bibitem[{Alexander et~al.(1977)Alexander, Ishikawa \&
+  Silverstein}]{alexander1977a}
+\bibinfo{author}{Alexander, C.}, \bibinfo{author}{Ishikawa, S.}, \&
+  \bibinfo{author}{Silverstein, M.} (\bibinfo{year}{1977}).
+\newblock {\it \bibinfo{title}{A pattern language: towns, buildings,
+  construction}\/}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+%Type = Incollection
+\bibitem[{Alexander \& Poyner(1970)}]{alexander1970a}
+\bibinfo{author}{Alexander, C.}, \& \bibinfo{author}{Poyner, B.}
+  (\bibinfo{year}{1970}).
+\newblock The atoms of environmental structure.
+\newblock In \bibinfo{editor}{G.~Moore} (Ed.), {\it
+  \bibinfo{booktitle}{Emerging Methods in Environmental Design and Planning}\/}
+  (p. \bibinfo{pages}{308–321}).
+\newblock \bibinfo{publisher}{MIT Press}.
+%Type = Incollection
+\bibitem[{Ariyaratne(1977)}]{ariyaratne1977a}
+\bibinfo{author}{Ariyaratne, A.} (\bibinfo{year}{1977}).
+\newblock Organization of rural communities for group effort and self-help.
+\newblock In {\it \bibinfo{booktitle}{Food Crisis Workshop, Los Banos, Laguna
+  (Philippines)}\/} (p. \bibinfo{pages}{23–24}).
+\newblock \URLprefix
+  \url{https://web.archive.org/web/20120503060209/http://www.sarvodaya.org/about/philosophy/collected-works-vol-1/rural-self-help}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Inproceedings
+\bibitem[{Arslan \& Shamma(2006)}]{arslan2006a}
+\bibinfo{author}{Arslan, G.}, \& \bibinfo{author}{Shamma, J.}
+  (\bibinfo{year}{2006}).
+\newblock Anticipatory learning in general evolutionary games.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the IEEE Conference on
+  Decision and Control}\/} (p. \bibinfo{pages}{6289–6294}).
+\newblock \URLprefix \url{https://doi.org/10.1109/cdc.2006.376684}.
+  \DOIprefix\doi{10.1109/cdc.2006.376684}.
+%Type = Book
+\bibitem[{Banathy(1991)}]{banathy1991a}
+\bibinfo{author}{Banathy, B.} (\bibinfo{year}{1991}).
+\newblock {\it \bibinfo{title}{Systems Design of Education: A Journey to Create
+  the Future}\/}.
+\newblock \bibinfo{publisher}{Educational Technology Pubns}.
+%Type = Misc
+\bibitem[{Beck \& Cunningham(1987)}]{beck1987a}
+\bibinfo{author}{Beck, K.}, \& \bibinfo{author}{Cunningham, W.}
+  (\bibinfo{year}{1987}).
+\newblock Using Pattern Languages for Object-Oriented Programs.
+\newblock \URLprefix \url{http://c2.com/doc/oopsla87.html}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Book
+\bibitem[{Benedict(1934)}]{benedict1934a}
+\bibinfo{author}{Benedict, R.} (\bibinfo{year}{1934}).
+\newblock {\it \bibinfo{title}{Patterns of Culture}\/}.
+\newblock \bibinfo{publisher}{Houghton Mifflin Co}.
+%Type = Book
+\bibitem[{Benedict(1946)}]{benedict1946a}
+\bibinfo{author}{Benedict, R.} (\bibinfo{year}{1946}).
+\newblock {\it \bibinfo{title}{The Chrysanthemum and the Sword. Patterns of
+  Japanese Culture}\/}.
+\newblock \bibinfo{publisher}{Houghton Mifflin Co}.
+%Type = Article
+\bibitem[{Bidgood(2020)}]{bidgood2020a}
+\bibinfo{author}{Bidgood, J.} (\bibinfo{year}{2020}).
+\newblock A bipartisan group secretly gathered to game out a contested
+  Trump-Biden election. It wasn’t pretty.
+\newblock {\it \bibinfo{journal}{Boston Globe}\/},  {\it
+  \bibinfo{volume}{\upshape{July 26}}\/}. \URLprefix
+  \url{https://www.bostonglobe.com/2020/07/25/nation/bipartisangroup-secretly-gathered-game-out-contested-trump-bidenelection-it-wasnt-pretty/}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Bishop(2018)}]{bishop2018a}
+\bibinfo{author}{Bishop, P.} (\bibinfo{year}{2018}).
+\newblock Anticipation: Teaching the Future.
+\newblock In {\it \bibinfo{booktitle}{Handbook of Anticipation}\/} (p.
+  \bibinfo{pages}{1–10}).
+\newblock \bibinfo{publisher}{Springer International Publishing}.
+\newblock \URLprefix
+  \url{https://link.springer.com/referenceworkentry/10.1007/978-3-319-91554-8_1}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Borrelli(2020)}]{borrelli2020a}
+\bibinfo{author}{Borrelli, C.} (\bibinfo{year}{2020}).
+\newblock Q\&A with the Chicago creator of Pandemic, the board game that has
+  become all too real.
+\newblock {\it \bibinfo{journal}{Chicago Tribune}\/},  {\it
+  \bibinfo{volume}{\upshape March 5}\/}. \URLprefix
+  \url{https://www.chicagotribune.com/entertainment/ct-ent-pandemic-board-game-20200305-ujujmxok3zeqnlkrn3c7mp75r4-story.html}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Butz \& Pezzulo(2012)}]{butz2012a}
+\bibinfo{author}{Butz, G.}, \& \bibinfo{author}{Pezzulo, M.}
+  (\bibinfo{year}{2012}).
+\newblock Anticipatory Learning.
+\newblock In \bibinfo{editor}{N.~Seel} (Ed.), {\it
+  \bibinfo{booktitle}{Encyclopedia of the Sciences of Learning}\/} (p.
+  \bibinfo{pages}{1007 978–1–4419–1428–6}).
+\newblock \URLprefix \url{https://doi.org/10.1007/978-1-4419-1428-6}.
+%Type = Book
+\bibitem[{Campbell(1949)}]{campbell1949a}
+\bibinfo{author}{Campbell, J.} (\bibinfo{year}{1949}).
+\newblock {\it \bibinfo{title}{The Hero With A Thousand Faces}\/}.
+\newblock \bibinfo{publisher}{Pantheon Books (The Bollingen Series}.
+%Type = Misc
+\bibitem[{{Co-Intelligence Institute}(2019)}]{institute2019a}
+\bibinfo{author}{{Co-Intelligence Institute}} (\bibinfo{year}{2019}).
+\newblock Wise Democracy Project.
+\newblock \URLprefix \url{https://www.wd-pl.com/pattern-list-v2/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Coplien \& Woolf(1997)}]{coplien1997a}
+\bibinfo{author}{Coplien, J.}, \& \bibinfo{author}{Woolf, B.}
+  (\bibinfo{year}{1997}).
+\newblock A pattern language for writers’ workshops.
+\newblock {\it \bibinfo{journal}{C Plus Plus Report}\/},  {\it
+  \bibinfo{volume}{9}\/}, \bibinfo{pages}{51–60}.
+%Type = Inproceedings
+\bibitem[{Corneli et~al.(2015)Corneli, Danoff, Pierce, Ricaurte \&
+  MacDonald}]{corneli2015a}
+\bibinfo{author}{Corneli, J.}, \bibinfo{author}{Danoff, C.},
+  \bibinfo{author}{Pierce, C.}, \bibinfo{author}{Ricaurte, P.}, \&
+  \bibinfo{author}{MacDonald, L.} (\bibinfo{year}{2015}).
+\newblock Patterns of peeragogy.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 22nd Conference on
+  Pattern Languages of Programs}\/} (p. \bibinfo{pages}{1–23}).
+\newblock \URLprefix \url{https://dl.acm.org/doi/10.5555/3124497.}
+%Type = Inproceedings
+\bibitem[{Cunningham \& Mehaffy(2013)}]{cunningham2013a}
+\bibinfo{author}{Cunningham, W.}, \& \bibinfo{author}{Mehaffy, M.}
+  (\bibinfo{year}{2013}).
+\newblock Wiki as pattern language.
+\newblock In {\it \bibinfo{booktitle}{Preprints of the 20th Pattern Languages
+  of Programs Conference}\/} (p.~\bibinfo{pages}{32}).
+\newblock volume \bibinfo{volume}{PLoP’13}.
+\newblock \URLprefix \url{http://dl.acm.org/citation.cfm?id=2725669.2725707}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Danoff et~al.(2019)Danoff, Corneli, Ricaurte~Quijano, Pierce,
+  Snow~MacDonald \& Roberts}]{danoff2019}
+\bibinfo{author}{Danoff, C.~J.}, \bibinfo{author}{Corneli, J.},
+  \bibinfo{author}{Ricaurte~Quijano, P.}, \bibinfo{author}{Pierce, C.},
+  \bibinfo{author}{Snow~MacDonald, L.}, \& \bibinfo{author}{Roberts, V.}
+  (\bibinfo{year}{2019}).
+\newblock A Fictional Peeragogical Anticipatory Learning Exploration
+  {[}Conference Presentation Abstract{]}, .
+\newblock \URLprefix
+  \url{http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_113.pdf}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Dator(2019)}]{dator2019futures}
+\bibinfo{author}{Dator, J.} (\bibinfo{year}{2019}).
+\newblock What futures studies is, and is not.
+\newblock In {\it \bibinfo{booktitle}{Jim Dator: A Noticer in Time}\/} (pp.
+  \bibinfo{pages}{3--5}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Dawes \& Ostwald(2017)}]{dawes2017a}
+\bibinfo{author}{Dawes, M.}, \& \bibinfo{author}{Ostwald, M.}
+  (\bibinfo{year}{2017}).
+\newblock Christopher Alexander’s A Pattern Language: analysing, mapping and
+  classifying the critical response.
+\newblock {\it \bibinfo{journal}{City, Territory and Architecture}\/},  {\it
+  \bibinfo{volume}{4}\/}, \bibinfo{pages}{1–14}. \URLprefix
+  \url{https://doi.org/10.1186/s40410-017-0073-1}.
+  \DOIprefix\doi{10.1186/s40410-017-0073-1}.
+%Type = Incollection
+\bibitem[{Deleuze(2010)}]{deleuze2010a}
+\bibinfo{author}{Deleuze, G.} (\bibinfo{year}{2010}).
+\newblock Letter Preface.
+\newblock In \bibinfo{editor}{J.-C. Martin} (Ed.), {\it
+  \bibinfo{booktitle}{Variations: The Philosophy of Gilles Deleuze}\/}.
+\newblock \bibinfo{address}{Edinburgh}: \bibinfo{publisher}{Edinburgh
+  University Press}.
+%Type = Article
+\bibitem[{{DesignJustice.Org}(2018)}]{designjusticeorg2018a}
+\bibinfo{author}{{DesignJustice.Org}} (\bibinfo{year}{2018}).
+\newblock Design Justice Network Principles.
+\newblock {\it \bibinfo{journal}{Philos Ethics Humanit Med}\/},  {\it
+  \bibinfo{volume}{15, 4}\/}, \bibinfo{pages}{1186 13010–020–00089–0}.
+  \URLprefix \url{https://designjustice.org/read-the-principles}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Doherty \& Giordano(2020)}]{Doherty2020}
+\bibinfo{author}{Doherty, J.}, \& \bibinfo{author}{Giordano, J.}
+  (\bibinfo{year}{2020}).
+\newblock What we may learn -- and need -- from pandemic fiction.
+\newblock {\it \bibinfo{journal}{Philosophy, Ethics, and Humanities in
+  Medicine}\/},  {\it \bibinfo{volume}{15}\/}, \bibinfo{pages}{4}. \URLprefix
+  \url{https://doi.org/10.1186/s13010-020-00089-0}.
+  \DOIprefix\doi{10.1186/s13010-020-00089-0}.
+%Type = Incollection
+\bibitem[{Downing(2007)}]{downing2007a}
+\bibinfo{author}{Downing, T.} (\bibinfo{year}{2007}).
+\newblock Adapting to Climate Change: Achieving Increased Resilience and
+  Livelihood Improvements. Panel Discussion.
+\newblock In {\it \bibinfo{booktitle}{Forest Day}\/}.
+\newblock \bibinfo{address}{Bali}: \bibinfo{publisher}{Nusa Dua}.
+%Type = Book
+\bibitem[{Escobar(2018)}]{escobar2018a}
+\bibinfo{author}{Escobar, A.} (\bibinfo{year}{2018}).
+\newblock {\it \bibinfo{title}{Designs for the Pluriverse Radical
+  Interdependence, Autonomy,and the Making of Worlds}\/}.
+\newblock \bibinfo{publisher}{Duke University Press}.
+%Type = Misc
+\bibitem[{{European Foresight platform}(2020)}]{euforesight2020a}
+\bibinfo{author}{{European Foresight platform}} (\bibinfo{year}{2020}).
+\newblock \URLprefix \url{http://www.foresight-platform.eu/}
+  \bibinfo{note}{accessed 25 November, 2020}.
+%Type = Book
+\bibitem[{Ewing(2018)}]{ewing2018a}
+\bibinfo{author}{Ewing, E.} (\bibinfo{year}{2018}).
+\newblock {\it \bibinfo{title}{Ghosts in the Schoolyard}\/}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+%Type = Book
+\bibitem[{Featherstone(2017)}]{featherstone2017a}
+\bibinfo{author}{Featherstone, L.} (\bibinfo{year}{2017}).
+\newblock {\it \bibinfo{title}{Divining Desire: Focus groups and the culture of
+  consultation}\/}.
+\newblock \bibinfo{publisher}{OR Books}.
+%Type = Misc
+\bibitem[{Finlev et~al.(2019)}]{finlev2019a}
+\bibinfo{author}{Finlev, T.} et~al. (\bibinfo{year}{2019}).
+\newblock Equitable Futures Toolkit. Institute for the Future.
+\newblock \URLprefix \url{http://www.iftf.org/fileadmin/user_upload/images/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{Friction(2016)}]{friction2016a}
+\bibinfo{author}{Friction, D.} (\bibinfo{year}{2016}).
+\newblock Flaws of the Smart City {[}Card game{]}.
+\newblock \URLprefix \url{http://www.flawsofthesmartcity.com/}
+  \bibinfo{note}{accessed 25 November, 2020}.
+%Type = Misc
+\bibitem[{Furukawazono et~al.(2013)Furukawazono, Seshimo, Muramatsu \&
+  Iba}]{furukawazono2013a}
+\bibinfo{author}{Furukawazono, T.}, \bibinfo{author}{Seshimo, S.},
+  \bibinfo{author}{Muramatsu, D.}, \& \bibinfo{author}{Iba, T.}
+  (\bibinfo{year}{2013}).
+\newblock Designing a Pattern Language For Surviving Earthquakes.
+\newblock \URLprefix \url{http://arxiv.org/abs/1308.1175}.
+%Type = Inproceedings
+\bibitem[{Fuster~Morell(2011)}]{fuster2011a}
+\bibinfo{author}{Fuster~Morell, M.} (\bibinfo{year}{2011}).
+\newblock An Introductory Historical Contextualization of Online Creation
+  Communities for the Building of Digital Commons: The Emergence of a Free
+  Culture Movement.
+\newblock In \bibinfo{editor}{S.~Hellmann}, \bibinfo{editor}{P.~Frischmuth},
+  \bibinfo{editor}{S.~Auer}, \& \bibinfo{editor}{D.~Dietrich} (Eds.), {\it
+  \bibinfo{booktitle}{OKCon 2011. Open Knowledge Conference Proceedings of the
+  6th Open Knowledge Conference}\/}.
+\newblock \bibinfo{address}{Berlin, Germany}: \bibinfo{publisher}{Universitat
+  Leipzig, Germany and Technical University}.
+\newblock \URLprefix \url{http://ceur-ws.org/Vol-739/} \bibinfo{note}{retrieved
+  from}.
+%Type = Book
+\bibitem[{Gabriel(2002)}]{gabriel2002a}
+\bibinfo{author}{Gabriel, R.} (\bibinfo{year}{2002}).
+\newblock {\it \bibinfo{title}{Writers’ Workshops \& the Work of Making
+  Things: Patterns, Poetry{\ldots}}\/}.
+\newblock \bibinfo{publisher}{Pearson Education}.
+%Type = Book
+\bibitem[{Gamma et~al.(1994)Gamma, Helm, Johnson \& Vlissides}]{gamma1994a}
+\bibinfo{author}{Gamma, E.}, \bibinfo{author}{Helm, R.},
+  \bibinfo{author}{Johnson, R.}, \& \bibinfo{author}{Vlissides, J.}
+  (\bibinfo{year}{1994}).
+\newblock {\it \bibinfo{title}{Design patterns: Elements of Reusable
+  Object-Oriented Software}\/}.
+\newblock \bibinfo{publisher}{Addison-Wesley}.
+%Type = Book
+\bibitem[{Gane(1991)}]{gane1991a}
+\bibinfo{author}{Gane, M.} (\bibinfo{year}{1991}).
+\newblock {\it \bibinfo{title}{Baudrillard’s Bestiary: Baudrillard and
+  Culture}\/}.
+\newblock \bibinfo{publisher}{Routledge}.
+%Type = Article
+\bibitem[{Genovese(2020)}]{genovese2020a}
+\bibinfo{author}{Genovese, P.} (\bibinfo{year}{2020}).
+\newblock Pandemic — the board game — foreshadows current crisis.
+\newblock {\it \bibinfo{journal}{NJ.Com}\/},  {\it \bibinfo{volume}{\upshape
+  April 3}\/}. \URLprefix \url{https://www.nj.com/coronavirus/2020/04/}.
+\newblock \bibinfo{note}{Accessed 25 November, 2020}.
+%Type = Article
+\bibitem[{Gill(2013)}]{gill2013a}
+\bibinfo{author}{Gill, R.} (\bibinfo{year}{2013}).
+\newblock The Uses of Genre and the Classification of Speculative Fiction.
+\newblock {\it \bibinfo{journal}{Mosaic: A Journal for the Interdisciplinary
+  Study of Literature}\/},  {\it \bibinfo{volume}{46}\/},
+  \bibinfo{pages}{71–85}. \URLprefix
+  \url{https://doi.org/10.1353/mos.2013.0021}.
+  \DOIprefix\doi{10.1353/mos.2013.0021}.
+%Type = Book
+\bibitem[{Handelman(1998)}]{handelman1998a}
+\bibinfo{author}{Handelman, D.} (\bibinfo{year}{1998}).
+\newblock {\it \bibinfo{title}{Models and mirrors: Towards an anthropology of
+  public events}\/}.
+\newblock \bibinfo{publisher}{Berghahn Books}.
+%Type = Misc
+\bibitem[{Hattam(2019)}]{hattam2019a}
+\bibinfo{author}{Hattam, J.} (\bibinfo{year}{2019}).
+\newblock A Card Game Designed to Help Urban Communities Plan for the Future.
+  Bloomberg CityLab.
+\newblock \URLprefix
+  \url{https://www.bloomberg.com/news/articles/2019-02-26/can-a-card-game-make-a-more-equitable-community}
+  \bibinfo{note}{accessed 25 November,}.
+%Type = Article
+\bibitem[{Heinonen et~al.(2017)Heinonen, Minkkinen, Karjalainen \&
+  Inayatullah}]{heinonen2017a}
+\bibinfo{author}{Heinonen, S.}, \bibinfo{author}{Minkkinen, M.},
+  \bibinfo{author}{Karjalainen, J.}, \& \bibinfo{author}{Inayatullah, S.}
+  (\bibinfo{year}{2017}).
+\newblock Testing transformative energy scenarios through causal layered
+  analysis gaming.
+\newblock {\it \bibinfo{journal}{Technological Forecasting and Social
+  Change}\/},  {\it \bibinfo{volume}{124}\/}, \bibinfo{pages}{101–113}.
+  \URLprefix \url{https://doi.org/10.1016/j.techfore.2016.10.011}.
+%Type = Book
+\bibitem[{Herodotus(1975)}]{herodotus1975a}
+\bibinfo{author}{Herodotus} (\bibinfo{year}{1975}).
+\newblock \bibinfo{address}{London}: \bibinfo{publisher}{Penguin Books}.
+\newblock \bibinfo{note}{(Selincourt, R. A. and Aubrey Burn, eds.)}.
+%Type = Misc
+\bibitem[{Hopkins(2010)}]{hopkins2010a}
+\bibinfo{author}{Hopkins, R.} (\bibinfo{year}{2010}).
+\newblock Rethinking Transition as a Pattern Language: an introduction.
+\newblock \URLprefix
+  \url{https://www.transitionculture.org/2010/06/04/rethinking-transition-as-a-pattern-language-an-introduction/}
+  \bibinfo{note}{accessed 25 November, 2020}.
+%Type = Book
+\bibitem[{Houwen \& Rachmany(2018)}]{handbookdao}
+\bibinfo{author}{Houwen, M.}, \& \bibinfo{author}{Rachmany, G.}
+  (\bibinfo{year}{2018}).
+\newblock {\it \bibinfo{title}{So, you've got a DAO ... Management for the 21st
+  Century: Handbook for Distributed and Connected Leadership 1.0}\/}.
+\newblock \bibinfo{publisher}{DAO Leadership}.
+%Type = Book
+\bibitem[{Huizinga(1949)}]{huizinga1949a}
+\bibinfo{author}{Huizinga, J.} (\bibinfo{year}{1949}).
+\newblock {\it \bibinfo{title}{Homo Ludens: A Study of the Play-Element of
+  Culture}\/}.
+\newblock \bibinfo{address}{London}: \bibinfo{publisher}{Routledge \& Kegan
+  Paul}.
+%Type = Book
+\bibitem[{Iba(2018)}]{iba2018a}
+\bibinfo{author}{Iba, T.} (\bibinfo{year}{2018}).
+\newblock {\it \bibinfo{title}{Learning Patterns: A Pattern Language for
+  Creative Learning}\/}.
+\newblock \bibinfo{publisher}{CreativeShift Lab}.
+%Type = Misc
+\bibitem[{Iba(2019)}]{iba2019a}
+\bibinfo{author}{Iba, T.} (\bibinfo{year}{2019}).
+\newblock Creating Pattern Languages for Creating a Future where We Can Live
+  Well.
+\newblock \URLprefix \url{https://www.youtube.com/watch?v=NVCzQM-KQ50}
+  \bibinfo{note}{iNTERSECTION19 (Designing Enterprises for Better Futures).}
+%Type = Misc
+\bibitem[{Iba \& Isaku(2016)}]{iba2016a}
+\bibinfo{author}{Iba, T.}, \& \bibinfo{author}{Isaku, T.}
+  (\bibinfo{year}{2016}).
+\newblock A pattern language for creating pattern languages: 364 patterns for
+  pattern mining, writing, and symbolizing.
+\newblock \DOIprefix\doi{10.5555/3158161.3158175}.
+%Type = Article
+\bibitem[{Inayatullah(1998{\natexlab{a}})}]{inayatullah1998a}
+\bibinfo{author}{Inayatullah, S.} (\bibinfo{year}{1998}{\natexlab{a}}).
+\newblock Macrohistory and futures studies.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{30}\/},
+  \bibinfo{pages}{381–394}. \URLprefix
+  \url{https://doi.org/10.1016/s0016-3287(98)00043-3}.
+  \DOIprefix\doi{10.1016/s0016-3287(98)00043-3}.
+%Type = Article
+\bibitem[{Inayatullah(1998{\natexlab{b}})}]{inayatullah1998b}
+\bibinfo{author}{Inayatullah, S.} (\bibinfo{year}{1998}{\natexlab{b}}).
+\newblock Poststructuralism as method.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{30}\/},
+  \bibinfo{pages}{815–829}. \URLprefix
+  \url{https://doi.org/10.1016/S0016-3287(98)00086-X}.
+  \DOIprefix\doi{10.1016/S0016-3287(98)00086-X}.
+%Type = Inproceedings
+\bibitem[{Jacobus(2009)}]{jacobus2009a}
+\bibinfo{author}{Jacobus, F.} (\bibinfo{year}{2009}).
+\newblock The Disappearing Architect: 21st Century Practice and the Rise of
+  Intelligent Machines.
+\newblock In {\it \bibinfo{booktitle}{97th ACSA Annual Meeting Proceedings, The
+  Value of Design}\/} (p. \bibinfo{pages}{159–165}).
+\newblock \URLprefix
+  \url{https://www.acsa-arch.org/proceedings/Annual%20Meeting%20Proceedings/ACSA.AM.97/ACSA.AM.97.21.pdf}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Johnson et~al.(2012)Johnson, Dana, Jordan, Draeger, Kapuscinski,
+  Schmitt~Olabisi \& Reich}]{johnson2012}
+\bibinfo{author}{Johnson, K.~A.}, \bibinfo{author}{Dana, G.},
+  \bibinfo{author}{Jordan, N.~R.}, \bibinfo{author}{Draeger, K.~J.},
+  \bibinfo{author}{Kapuscinski, A.}, \bibinfo{author}{Schmitt~Olabisi, L.~K.},
+  \& \bibinfo{author}{Reich, P.~B.} (\bibinfo{year}{2012}).
+\newblock Using participatory scenarios to stimulate social learning for
+  collaborative sustainable development.
+\newblock {\it \bibinfo{journal}{Ecology and Society}\/},  {\it
+  \bibinfo{volume}{17}\/}. \URLprefix
+  \url{https://doi.org/10.5751/ES-04780-170209}.
+%Type = Article
+\bibitem[{Jordan et~al.(2018)Jordan, Gray, Zellner, Glynn, Voinov \&
+  Hedelin}]{jordan2018a}
+\bibinfo{author}{Jordan, R.}, \bibinfo{author}{Gray, S.},
+  \bibinfo{author}{Zellner, M.}, \bibinfo{author}{Glynn, P.},
+  \bibinfo{author}{Voinov, A.}, \& \bibinfo{author}{Hedelin, B.}
+  (\bibinfo{year}{2018}).
+\newblock Twelve questions for the participatory modeling community.
+\newblock {\it \bibinfo{journal}{Earth’s Future}\/},  {\it
+  \bibinfo{volume}{6}\/}, \bibinfo{pages}{1046– 1057}. \URLprefix
+  \url{https://doi.org/10.1029/2018EF000841}.
+  \DOIprefix\doi{10.1029/2018EF000841}.
+%Type = Book
+\bibitem[{de~Jouvenel(2004)}]{jouvenel2004a}
+\bibinfo{author}{de~Jouvenel, H.} (\bibinfo{year}{2004}).
+\newblock {\it \bibinfo{title}{Invitation a la prospective–An Invitation to
+  Foresight}\/}.
+\newblock \bibinfo{publisher}{Bilingual Collection Perspectives–Futuribles}.
+%Type = Misc
+\bibitem[{Kahn(2013)}]{kahn2013a}
+\bibinfo{author}{Kahn, A.} (\bibinfo{year}{2013}).
+\newblock Plague Inc., Centers for Disease Control and Prevention.
+\newblock \URLprefix
+  \url{https://blogs.cdc.gov/publichealthmatters/2013/04/plagueinc/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Karesh et~al.(2012)Karesh, Dobson, Lloyd-Smith, Lubroth, Dixon,
+  Bennett, Aldrich, Harrington, Formenty, Loh, MacHalaba, Thomas \&
+  Heymann}]{karesh2012a}
+\bibinfo{author}{Karesh, W.}, \bibinfo{author}{Dobson, A.},
+  \bibinfo{author}{Lloyd-Smith, J.}, \bibinfo{author}{Lubroth, J.},
+  \bibinfo{author}{Dixon, M.}, \bibinfo{author}{Bennett, M.},
+  \bibinfo{author}{Aldrich, S.}, \bibinfo{author}{Harrington, T.},
+  \bibinfo{author}{Formenty, P.}, \bibinfo{author}{Loh, E.},
+  \bibinfo{author}{MacHalaba, C.}, \bibinfo{author}{Thomas, M.}, \&
+  \bibinfo{author}{Heymann, D.} (\bibinfo{year}{2012}).
+\newblock Ecology of zoonoses: Natural and unnatural histories.
+\newblock {\it \bibinfo{journal}{The Lancet}\/},  {\it
+  \bibinfo{volume}{380}\/}, \bibinfo{pages}{1936–1945}. \URLprefix
+  \url{https://doi.org/10.1016/S0140-6736(12)61678-X}.
+  \DOIprefix\doi{10.1016/S0140-6736(12)61678-X}.
+%Type = Inproceedings
+\bibitem[{Kerspern(2019)}]{kerspern2019a}
+\bibinfo{author}{Kerspern, B.} (\bibinfo{year}{2019}).
+\newblock Game Design Fiction: Bridging mediation through games and design
+  fiction to facilitate anticipation-oriented thinking.
+\newblock In {\it \bibinfo{booktitle}{3rd Conference on Anticipation}\/}.
+\newblock \bibinfo{address}{Oslo Norway}.
+\newblock \URLprefix
+  \url{http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_38.pdf}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Koestler(1973)}]{koestler1973a}
+\bibinfo{author}{Koestler, A.} (\bibinfo{year}{1973}).
+\newblock The tree and the candle.
+\newblock In \bibinfo{editor}{W.~G.}, \& \bibinfo{editor}{N.~Rizzo} (Eds.),
+  {\it \bibinfo{booktitle}{Unity Through Diversity}\/}.
+\newblock \bibinfo{publisher}{A Festschrift for Ludwig von Bertalanffy. Gordon
+  \& Breach Science Pub}.
+%Type = Inproceedings
+\bibitem[{Kohls(2010)}]{kohls2010a}
+\bibinfo{author}{Kohls, C.} (\bibinfo{year}{2010}).
+\newblock The structure of patterns.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 17th Conference on
+  Pattern Languages of Programs - PLOP}\/} (p. \bibinfo{pages}{1–10}).
+\newblock volume~\bibinfo{volume}{10}.
+\newblock \URLprefix \url{https://doi.org/10.1145/2493288.2493300}.
+  \DOIprefix\doi{10.1145/2493288.2493300}.
+%Type = Inproceedings
+\bibitem[{Kohls(2011)}]{kohls2011a}
+\bibinfo{author}{Kohls, C.} (\bibinfo{year}{2011}).
+\newblock The structure of patterns: part II - qualities.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 18th Conference on
+  Pattern Languages of Programs - PLoP}\/} (p. \bibinfo{pages}{1–18}).
+\newblock volume~\bibinfo{volume}{11}.
+\newblock \URLprefix \url{https://doi.org/10.1145/2578903.2601079}.
+  \DOIprefix\doi{10.1145/2578903.2601079}.
+%Type = Article
+\bibitem[{Kostakis et~al.(2015)Kostakis, Niaros, Dafermos \&
+  Bauwens}]{KOSTAKIS2015126}
+\bibinfo{author}{Kostakis, V.}, \bibinfo{author}{Niaros, V.},
+  \bibinfo{author}{Dafermos, G.}, \& \bibinfo{author}{Bauwens, M.}
+  (\bibinfo{year}{2015}).
+\newblock Design global, manufacture local: Exploring the contours of an
+  emerging productive model.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{73}\/},
+  \bibinfo{pages}{126 -- 135}. \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0016328715001214}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.futures.2015.09.001}.
+%Type = Article
+\bibitem[{Kreimeier(2002)}]{kreimeier2002a}
+\bibinfo{author}{Kreimeier, B.} (\bibinfo{year}{2002}).
+\newblock The Case For Game Design Patterns.
+\newblock {\it \bibinfo{journal}{Gamasutra Features}\/}, . \URLprefix
+  \url{https://www.gamasutra.com/view/feature/132649/the_case_for_game_design_patterns.php}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{Leacock(2008)}]{leacock2008a}
+\bibinfo{author}{Leacock, M.} (\bibinfo{year}{2008}).
+\newblock Pandemic {[}Board game{]}.
+\newblock \URLprefix \url{https://www.zmangames.com/en/games/pandemic/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Leacock(2020)}]{leacock2020a}
+\bibinfo{author}{Leacock, M.} (\bibinfo{year}{2020}).
+\newblock No Single Player Can Win This Board Game. It’s Called Pandemic.
+\newblock {\it \bibinfo{journal}{New York Times}\/},  {\it
+  \bibinfo{volume}{\upshape March 25}\/}. \URLprefix
+  \url{https://www.nytimes.com/2020/03/25/opinion/pandemic-game-covid.html}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{Lee(2013)}]{lee2013a}
+\bibinfo{author}{Lee, S.} (\bibinfo{year}{2013}).
+\newblock The Next Monopoly? What “Pandemic” teaches us about public
+  health. Public Health Matters Blog.
+\newblock \URLprefix
+  \url{https://blogs.cdc.gov/publichealthmatters/2013/04/plague-inc/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Book
+\bibitem[{Leitner(2015)}]{leitner2015a}
+\bibinfo{author}{Leitner, H.} (\bibinfo{year}{2015}).
+\newblock {\it \bibinfo{title}{Pattern theory: introduction and perspectives on
+  the tracks of Christopher Alexander}\/}.
+\newblock \bibinfo{publisher}{HLS Software}.
+%Type = Incollection
+\bibitem[{Liveley(2017)}]{liveley2017a}
+\bibinfo{author}{Liveley, G.} (\bibinfo{year}{2017}).
+\newblock Anticipation and Narratology.
+\newblock In {\it \bibinfo{booktitle}{Handbook of Anticipation}\/} (p.
+  \bibinfo{pages}{1–20}).
+\newblock \bibinfo{publisher}{Springer International Publishing}.
+\newblock \URLprefix \url{https://doi.org/10.1007/978-3-319-31737-3_7-1}.
+%Type = Book
+\bibitem[{Manns \& Rising(2015)}]{manns2015a}
+\bibinfo{author}{Manns, M.}, \& \bibinfo{author}{Rising, L.}
+  (\bibinfo{year}{2015}).
+\newblock {\it \bibinfo{title}{Fearless Change: Patterns for Introducing New
+  Ideas}\/}.
+\newblock \bibinfo{publisher}{Addison-Wesley Professional}.
+%Type = Incollection
+\bibitem[{Merriam-Webster(2020)}]{merriam-webster2020a}
+\bibinfo{author}{Merriam-Webster} (\bibinfo{year}{2020}).
+\newblock Play.
+\newblock In {\it \bibinfo{booktitle}{Merriam-Webster Dictionary}\/}.
+\newblock \URLprefix \url{https://www.merriam-webster.com/dictionary/play}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Meszaros \& Doble(1997)}]{meszaros1997a}
+\bibinfo{author}{Meszaros, G.}, \& \bibinfo{author}{Doble, J.}
+  (\bibinfo{year}{1997}).
+\newblock A Pattern Language for Pattern Writing.
+\newblock In {\it \bibinfo{booktitle}{Pattern Languages of Program Design 3}\/}
+  (p. \bibinfo{pages}{656}).
+\newblock \bibinfo{publisher}{Addison-Wesley Professional}.
+\newblock \URLprefix
+  \url{http://xunitpatterns.com/~gerard/plopd3-patternwriting-patterns-paper.pdf}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Moran(1971)}]{moran1971a}
+\bibinfo{author}{Moran, T.} (\bibinfo{year}{1971}).
+\newblock (Artificial, intelligent) architecture: Computers in design.
+\newblock {\it \bibinfo{journal}{Architectural Record}\/},  {\it
+  \bibinfo{volume}{149}\/}, \bibinfo{pages}{129–134}.
+%Type = Misc
+\bibitem[{{Ndemic Creations}(2012)}]{creations2012a}
+\bibinfo{author}{{Ndemic Creations}} (\bibinfo{year}{2012}).
+\newblock Plague, Inc [Video game.
+\newblock \URLprefix \url{https://www.ndemiccreations.com/en/}
+  \bibinfo{note}{accessed 25 November, 2020}.
+%Type = Misc
+\bibitem[{Nesta(2016)}]{nesta2016a}
+\bibinfo{author}{Nesta} (\bibinfo{year}{2016}).
+\newblock Our new game: How long can you survive against the superbugs?
+\newblock \URLprefix
+  \url{https://www.nesta.org.uk/blog/our-new-game-how-long-can-you-survive-against-the-superbugs/}
+  \bibinfo{note}{accessed 25 November, 2020}.
+%Type = Article
+\bibitem[{Olabisi et~al.(2016)Olabisi, Adebiyi, Traore \&
+  Kakwera}]{olabisi2016a}
+\bibinfo{author}{Olabisi, L.}, \bibinfo{author}{Adebiyi, J.},
+  \bibinfo{author}{Traore, P.}, \& \bibinfo{author}{Kakwera, M.}
+  (\bibinfo{year}{2016}).
+\newblock Do participatory scenario exercises promote systems thinking and
+  build consensus?
+\newblock {\it \bibinfo{journal}{Elementa}\/},  (p. \bibinfo{pages}{1–11}).
+  \URLprefix \url{https://doi.org/10.12952/journal.elementa.}
+  \DOIprefix\doi{10.12952/journal.elementa.}
+%Type = Article
+\bibitem[{Olabisi et~al.(2010)Olabisi, Kapuscinski, Johnson, Reich, Stenquist
+  \& Draeger}]{olabisi2010}
+\bibinfo{author}{Olabisi, L. K.~S.}, \bibinfo{author}{Kapuscinski, A.~R.},
+  \bibinfo{author}{Johnson, K.~A.}, \bibinfo{author}{Reich, P.~B.},
+  \bibinfo{author}{Stenquist, B.}, \& \bibinfo{author}{Draeger, K.~J.}
+  (\bibinfo{year}{2010}).
+\newblock Using scenario visioning and participatory system dynamics modeling
+  to investigate the future: Lessons from Minnesota 2050.
+\newblock {\it \bibinfo{journal}{Sustainability}\/},  {\it
+  \bibinfo{volume}{2}\/}, \bibinfo{pages}{2686–2706}. \URLprefix
+  \url{https://doi.org/10.3390/su2082686}.
+%Type = Article
+\bibitem[{Ostrom(2009)}]{ostrom2009a}
+\bibinfo{author}{Ostrom, E.} (\bibinfo{year}{2009}).
+\newblock Understanding Institutional Diversity.
+\newblock {\it \bibinfo{journal}{Design Studies}\/},  {\it
+  \bibinfo{volume}{15}\/}, \bibinfo{pages}{141–157}. \URLprefix
+  \url{https://doi.org/10.2307/j.ctt7s7wm}. \DOIprefix\doi{10.2307/j.ctt7s7wm}.
+%Type = Article
+\bibitem[{Oxman(1994)}]{oxman1994}
+\bibinfo{author}{Oxman, R.~E.} (\bibinfo{year}{1994}).
+\newblock Precedents in design: a computational model for the organization of
+  precedent knowledge.
+\newblock {\it \bibinfo{journal}{Design Studies}\/},  {\it
+  \bibinfo{volume}{15}\/}, \bibinfo{pages}{141–157}. \URLprefix
+  \url{https://doi.org/10.1016/0142-694X(94)90021-3}.
+%Type = Article
+\bibitem[{Petter et~al.(2010)Petter, Khazanchi \& Murphy}]{petter2010a}
+\bibinfo{author}{Petter, S.}, \bibinfo{author}{Khazanchi, D.}, \&
+  \bibinfo{author}{Murphy, J.} (\bibinfo{year}{2010}).
+\newblock A Design Science Based Evaluation Framework for Patterns.
+\newblock {\it \bibinfo{journal}{SIGMIS Database}\/},  {\it
+  \bibinfo{volume}{41}\/}, \bibinfo{pages}{9–26}. \URLprefix
+  \url{https://doi.org/10.1145/1851175.1851177}.
+  \DOIprefix\doi{10.1145/1851175.1851177}.
+%Type = Inproceedings
+\bibitem[{Pierri \& Warwick(2016)}]{pierri2016}
+\bibinfo{author}{Pierri, P.}, \& \bibinfo{author}{Warwick, L.}
+  (\bibinfo{year}{2016}).
+\newblock Changing the mental health system by design.
+\newblock In {\it \bibinfo{booktitle}{People, Place and Policy Conference:
+  Governing social and spatial inequalities under enduring austerity, 15th
+  September 2016, Sheffield, UK}\/}.
+%Type = Article
+\bibitem[{Pigliucci(2010)}]{pigliucci2010a}
+\bibinfo{author}{Pigliucci, M.} (\bibinfo{year}{2010}).
+\newblock Genotype–phenotype mapping and the end of the ‘genes as
+  blueprint’metaphor.
+\newblock {\it \bibinfo{journal}{Philosophical Transactions of the Royal
+  Society B: Biological Sciences}\/},  {\it \bibinfo{volume}{365}\/},
+  \bibinfo{pages}{557–566}.
+%Type = Incollection
+\bibitem[{Poli(2012)}]{poli2012a}
+\bibinfo{author}{Poli, R.} (\bibinfo{year}{2012}).
+\newblock Many Aspects of Anticipation.
+\newblock In \bibinfo{editor}{N.~Seel} (Ed.), {\it
+  \bibinfo{booktitle}{Encyclopedia of the Sciences of Learning}\/}.
+\newblock \bibinfo{publisher}{Springer US}.
+\newblock \URLprefix \url{https://doi.org/10.1007/978-1-4419-1428-6}.
+%Type = Book
+\bibitem[{Poli(2020)}]{poli2020a}
+\bibinfo{editor}{Poli, R.} (Ed.) (\bibinfo{year}{2020}).
+\newblock {\it \bibinfo{title}{Handbook of Anticipation}\/}.
+\newblock \bibinfo{publisher}{Springer International Publishing}.
+\newblock \URLprefix \url{https://doi.org/10.1007/978-3-319-31737-3}.
+  \DOIprefix\doi{10.1007/978-3-319-31737-3}.
+%Type = Misc
+\bibitem[{{RAND Corporation}(2020)}]{corporation2020a}
+\bibinfo{author}{{RAND Corporation}} (\bibinfo{year}{2020}).
+\newblock Delphi Method.
+\newblock \URLprefix \url{https://www.rand.org/topics/delphi-method.html}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{Rawlings(2016)}]{rawlings2016a}
+\bibinfo{author}{Rawlings, T.} (\bibinfo{year}{2016}).
+\newblock Playing at Science: How video games and science can work together.
+  Longitude Prize.
+\newblock \URLprefix \url{https://longitudeprize.org/blog-post/}.
+%Type = Inproceedings
+\bibitem[{Raymond et~al.(2019)Raymond, Snaddon, Chisin, Morrison, Steggell \&
+  Di~Ruvo}]{di2019a}
+\bibinfo{author}{Raymond, C.}, \bibinfo{author}{Snaddon, B.},
+  \bibinfo{author}{Chisin, A.}, \bibinfo{author}{Morrison, A.},
+  \bibinfo{author}{Steggell, A.}, \& \bibinfo{author}{Di~Ruvo, M.}
+  (\bibinfo{year}{2019}).
+\newblock Design, relational ontologies and futurescaping.
+\newblock In {\it \bibinfo{booktitle}{3rd Conference on Anticipation}\/}.
+\newblock \bibinfo{address}{Oslo Norway}.
+\newblock \URLprefix \url{http://anticipationconference.org/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{{\c{S}}analArc(2018)}]{sanalarc2018a}
+\bibinfo{author}{{\c{S}}analArc} (\bibinfo{year}{2018}).
+\newblock HEY! Imaginable Guidelines [Card game.
+\newblock \URLprefix \url{https://www.imaginableguidelines.org/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Sardar(2010)}]{sardar2010a}
+\bibinfo{author}{Sardar, Z.} (\bibinfo{year}{2010}).
+\newblock Welcome to postnormal times.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{42}\/},
+  \bibinfo{pages}{435–444}. \URLprefix
+  \url{https://doi.org/10.1016/j.futures.2009.11.028}.
+  \DOIprefix\doi{10.1016/j.futures.2009.11.028}.
+%Type = Article
+\bibitem[{Sardar \& Sweeney(2016)}]{sardar2016a}
+\bibinfo{author}{Sardar, Z.}, \& \bibinfo{author}{Sweeney, J.}
+  (\bibinfo{year}{2016}).
+\newblock The Three Tomorrows of Postnormal Times.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{75}\/},
+  \bibinfo{pages}{1–13}. \URLprefix
+  \url{https://doi.org/10.1016/j.futures.2015.10.004}.
+  \DOIprefix\doi{10.1016/j.futures.2015.10.004}.
+%Type = Article
+\bibitem[{Schmitt~Olabisi \& Reich(2012)}]{schmitt2012a}
+\bibinfo{author}{Schmitt~Olabisi, L.}, \& \bibinfo{author}{Reich, P.}
+  (\bibinfo{year}{2012}).
+\newblock Using participatory scenarios to stimulate social learning for
+  collaborative sustainable development.
+\newblock {\it \bibinfo{journal}{Ecology and Society}\/},  {\it
+  \bibinfo{volume}{17}\/}. \URLprefix
+  \url{https://doi.org/10.5751/ES-04780-170209}.
+  \DOIprefix\doi{10.5751/ES-04780-170209}.
+%Type = Misc
+\bibitem[{Schneider et~al.(2020)Schneider, Filippi, Frey, Tan \&
+  Zhang}]{schneider2020modular}
+\bibinfo{author}{Schneider, N.}, \bibinfo{author}{Filippi, P.~D.},
+  \bibinfo{author}{Frey, S.}, \bibinfo{author}{Tan, J.~Z.}, \&
+  \bibinfo{author}{Zhang, A.~X.} (\bibinfo{year}{2020}).
+\newblock Modular Politics: Toward a Governance Layer for Online Communities.
+\newblock \href{http://arxiv.org/abs/2005.13701}{\tt arXiv:2005.13701}.
+%Type = Book
+\bibitem[{Schuler(2008)}]{schuler2008a}
+\bibinfo{author}{Schuler, D.} (\bibinfo{year}{2008}).
+\newblock {\it \bibinfo{title}{Liberating Voices: A Pattern Language for
+  Communication Revolution}\/}.
+\newblock \bibinfo{publisher}{MIT Press}.
+%Type = Inproceedings
+\bibitem[{Schuler(2009)}]{schuler2009a}
+\bibinfo{author}{Schuler, D.} (\bibinfo{year}{2009}).
+\newblock Pattern languages as critical enablers of civic intelligence.
+\newblock In {\it \bibinfo{booktitle}{PUARL Conference}\/}.
+\newblock \URLprefix
+  \url{http://publicsphereproject.org/sites/default/files/Critical%20Enablers%20of%20Civic%20Intelligence.reduced.pdf}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Book
+\bibitem[{Schwartz(1996)}]{schwartz1996a}
+\bibinfo{author}{Schwartz, P.} (\bibinfo{year}{1996}).
+\newblock {\it \bibinfo{title}{The Art of the Long View: Paths to Strategic
+  Insight for Yourself and Your Company}\/}.
+\newblock \bibinfo{publisher}{Doubleday}.
+%Type = Book
+\bibitem[{Shalloway \& Trott(2005)}]{shalloway2005a}
+\bibinfo{author}{Shalloway, A.}, \& \bibinfo{author}{Trott, J.}
+  (\bibinfo{year}{2005}).
+\newblock {\it \bibinfo{title}{Design patterns explained: A new perspective on
+  object-oriented design}\/}.
+\newblock \bibinfo{publisher}{Addison-Wesley Professional}.
+%Type = Article
+\bibitem[{Simonite(2013)}]{simonite2013a}
+\bibinfo{author}{Simonite, T.} (\bibinfo{year}{2013}).
+\newblock The Decline of Wikipedia.
+\newblock {\it \bibinfo{journal}{MIT Technology Review}\/},  {\it
+  \bibinfo{volume}{\upshape October 22}\/}.
+%Type = Article
+\bibitem[{Sools(2020)}]{Sools}
+\bibinfo{author}{Sools, A.} (\bibinfo{year}{2020}).
+\newblock Back from the future: a narrative approach to study the imagination
+  of personal futures.
+\newblock {\it \bibinfo{journal}{International Journal of Social Research
+  Methodology}\/},  {\it \bibinfo{volume}{23}\/}, \bibinfo{pages}{451--465}.
+  \URLprefix \url{https://doi.org/10.1080/13645579.2020.1719617}.
+  \DOIprefix\doi{10.1080/13645579.2020.1719617}.
+  \href{http://arxiv.org/abs/https://doi.org/10.1080/13645579.2020.1719617}{\tt
+  arXiv:https://doi.org/10.1080/13645579.2020.1719617}.
+%Type = Article
+\bibitem[{Spiro et~al.(1996)Spiro, Feltovich \& Coulson}]{spiro1996a}
+\bibinfo{author}{Spiro, R.}, \bibinfo{author}{Feltovich, P.}, \&
+  \bibinfo{author}{Coulson, R.} (\bibinfo{year}{1996}).
+\newblock Two Epistemic World-Views: Prefigurative Schemas and Learning in
+  Complex Domains.
+\newblock {\it \bibinfo{journal}{Applied Cognitive Psychology}\/},  {\it
+  \bibinfo{volume}{10}\/}, \bibinfo{pages}{51–61}. \URLprefix
+  \url{https://doi.org/10.1002/(SICI)1099-0720(199611)10:7<51::AID-ACP437>3.0.CO;2-F}.
+%Type = Book
+\bibitem[{Sutherland et~al.(2019)}]{sutherland2019a}
+\bibinfo{author}{Sutherland, J.} et~al. (\bibinfo{year}{2019}).
+\newblock {\it \bibinfo{title}{A Scrum Book: The Spirit of the Game}\/}.
+\newblock \bibinfo{publisher}{The Pragmatic Programmers}.
+%Type = Article
+\bibitem[{Sweeney(2017)}]{sweeney2017a}
+\bibinfo{author}{Sweeney, J.} (\bibinfo{year}{2017}).
+\newblock Game on: Foresight at play with the United Nations.
+\newblock {\it \bibinfo{journal}{Journal of Futures Studies}\/},  {\it
+  \bibinfo{volume}{22}\/}, \bibinfo{pages}{27–40}. \URLprefix
+  \url{https://doi.org/10.6531/JFS.2017.22(2).A27}.
+%Type = Inbook
+\bibitem[{Sweeney et~al.(2019)Sweeney, Baker, Daheim, Dujardin, Dunagan,
+  Eklund, Haldenby, Rosa, Stovall \& Yeomans}]{Sweeney2019}
+\bibinfo{author}{Sweeney, J.~A.}, \bibinfo{author}{Baker, M.~T.},
+  \bibinfo{author}{Daheim, C.}, \bibinfo{author}{Dujardin, Y.},
+  \bibinfo{author}{Dunagan, J.}, \bibinfo{author}{Eklund, K.},
+  \bibinfo{author}{Haldenby, T.}, \bibinfo{author}{Rosa, A.~B.},
+  \bibinfo{author}{Stovall, G.}, \& \bibinfo{author}{Yeomans, G.}
+  (\bibinfo{year}{2019}).
+\newblock Anticipatory Games {\&} Simulations.
+\newblock In \bibinfo{editor}{R.~Poli} (Ed.), {\it \bibinfo{booktitle}{Handbook
+  of Anticipation: Theoretical and Applied Aspects of the Use of Future in
+  Decision Making}\/} (pp. \bibinfo{pages}{1--29}).
+\newblock \bibinfo{address}{Cham}: \bibinfo{publisher}{Springer International
+  Publishing}.
+\newblock \URLprefix \url{https://doi.org/10.1007/978-3-319-31737-3_94-1}.
+  \DOIprefix\doi{10.1007/978-3-319-31737-3_94-1}.
+%Type = Misc
+\bibitem[{Taylor(1997)}]{taylor1997a}
+\bibinfo{author}{Taylor, G.} (\bibinfo{year}{1997}).
+\newblock Introduction. The Oblique Strategies.
+\newblock \URLprefix \url{http://www.rtqe.net/ObliqueStrategies/OSintro.html}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Totin et~al.(2018)Totin, Butler, Sidibé, Partey, Thornton \&
+  Tabo}]{totin2018}
+\bibinfo{author}{Totin, E.}, \bibinfo{author}{Butler, J.~R.},
+  \bibinfo{author}{Sidibé, A.}, \bibinfo{author}{Partey, S.},
+  \bibinfo{author}{Thornton, P.~K.}, \& \bibinfo{author}{Tabo, R.}
+  (\bibinfo{year}{2018}).
+\newblock Can scenario planning catalyse transformational change? Evaluating a
+  climate change policy case study in Mali.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{96}\/},
+  \bibinfo{pages}{44–56}. \URLprefix
+  \url{https://doi.org/10.1016/j.futures.2017.11.005}.
+%Type = Misc
+\bibitem[{TransitionNetwork.org(2010)}]{transitionnetworkorg2010a}
+\bibinfo{author}{TransitionNetwork.org} (\bibinfo{year}{2010}).
+\newblock Seeing Transition as a Pattern Language Conference Booklet.
+\newblock \URLprefix
+  \url{https://archive.org/details/Seeing-Transition-as-a-Pattern-Language-conference-booklet-latest-version-1.1.}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Tschakert \& Dietrich(2010)}]{tschakert2010a}
+\bibinfo{author}{Tschakert, P.}, \& \bibinfo{author}{Dietrich, K.}
+  (\bibinfo{year}{2010}).
+\newblock Anticipatory learning for climate change adaptation and resilience.
+\newblock {\it \bibinfo{journal}{Ecology and Society}\/},  {\it
+  \bibinfo{volume}{15}\/}, \bibinfo{pages}{11}.
+  \DOIprefix\doi{10.5751/ES-03335-150211}.
+%Type = Article
+\bibitem[{Varon(2020-07)}]{varon2020a}
+\bibinfo{author}{Varon, J.} (\bibinfo{year}{2020-07}).
+\newblock The Future Is TransFeminist: from imagination to action.
+\newblock {\it \bibinfo{journal}{Deep Dives}\/}, . \URLprefix
+  \url{https://deepdives.in/the-future-istransfeminist-from-imagination-to-action-6365e097eb22}.
+\newblock \bibinfo{note}{Accessed 24 November, 2020}.
+%Type = Misc
+\bibitem[{Varon et~al.(2019)Varon, Juliano \& Costanza-Chock}]{varon2019a}
+\bibinfo{author}{Varon, J.}, \bibinfo{author}{Juliano, C.}, \&
+  \bibinfo{author}{Costanza-Chock, S.} (\bibinfo{year}{2019}).
+\newblock The Oracle for Transfeminist Technologies.
+\newblock \URLprefix \url{https://www.transfeministech.codingrights.org/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Incollection
+\bibitem[{Wagner-Lawlor(2017)}]{wagner-lawlor2017a}
+\bibinfo{author}{Wagner-Lawlor, J.} (\bibinfo{year}{2017}).
+\newblock Anticipating Utopia: Utopian Narrative and an Ontology of
+  Representation.
+\newblock In {\it \bibinfo{booktitle}{Handbook of Anticipation}\/} (p.
+  \bibinfo{pages}{1–21}).
+\newblock \bibinfo{publisher}{Springer International Publishing}.
+\newblock \URLprefix \url{https://doi.org/10.1007/978-3-319-31737-3_63-1}.
+  \DOIprefix\doi{10.1007/978-3-319-31737-3_63-1}.
+%Type = Misc
+\bibitem[{Walsh(2011)}]{walsh2011a}
+\bibinfo{author}{Walsh, J.} (\bibinfo{year}{2011}).
+\newblock Wikimedia Movement strategic plan: A collaborative vision for the
+  movement through.
+\newblock \URLprefix
+  \url{https://strategy.wikimedia.org/wiki/File:WMF_StrategicPlan2011_spreads.pdf}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Wambacq \& van Tuinen(2017)}]{Wambacq2017}
+\bibinfo{author}{Wambacq, J.}, \& \bibinfo{author}{van Tuinen, S.}
+  (\bibinfo{year}{2017}).
+\newblock Interiority in Sloterdijk and Deleuze.
+\newblock {\it \bibinfo{journal}{Palgrave Communications}\/},  {\it
+  \bibinfo{volume}{3}\/}. \URLprefix
+  \url{https://doi.org/10.1057/palcomms.2017.72}.
+  \DOIprefix\doi{10.1057/palcomms.2017.72}.
+%Type = Article
+\bibitem[{Wildschut(2017)}]{wildschut2017a}
+\bibinfo{author}{Wildschut, D.} (\bibinfo{year}{2017}).
+\newblock The need for citizen science in the transition to a sustainable
+  peer-to-peer-society.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{91}\/},
+  \bibinfo{pages}{46–52}.
+%Type = Misc
+\bibitem[{Willyard(2020)}]{willyard2020a}
+\bibinfo{author}{Willyard, C.} (\bibinfo{year}{2020}).
+\newblock How play energizes your Kid’s brain.
+\newblock \URLprefix
+  \url{https://www.nytimes.com/2020/07/21/parenting/playbrain-science.html}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Woo(2020)}]{woo2020a}
+\bibinfo{author}{Woo, S.} (\bibinfo{year}{2020}).
+\newblock How do doctors treating coronavirus relax? By playing the game
+  “Pandemic”.
+\newblock {\it \bibinfo{journal}{Wall Street Journal}\/},  {\it
+  \bibinfo{volume}{{\upshape June 28}}\/}. \URLprefix
+  \url{https://gatekeeper.chipublib.org/login?url=https://search-proquest-com.gatekeeper.chipublib.org/docview/2417892865?accountid=303}.
+%Type = Incollection
+\bibitem[{Yong(2018)}]{yong2018a}
+\bibinfo{author}{Yong, E.} (\bibinfo{year}{2018}).
+\newblock The Next Plague Is Coming.
+\newblock In {\it \bibinfo{booktitle}{Is America Ready? The Atlantic}\/}.
+\newblock \URLprefix
+  \url{https://www.theatlantic.com/magazine/archive/2018/07/}
+  \bibinfo{note}{accessed 24 November, 2020}.
+%Type = Article
+\bibitem[{Zamenopoulos \& Alexiou(2020)}]{unknown2018a}
+\bibinfo{author}{Zamenopoulos, T.}, \& \bibinfo{author}{Alexiou, K.}
+  (\bibinfo{year}{2020}).
+\newblock Collective design anticipation.
+\newblock {\it \bibinfo{journal}{Futures}\/},  {\it \bibinfo{volume}{120}\/}.
+  \URLprefix \url{https://doi.org/10.1016/j.futures.2020.102563}.
+%Type = Misc
+\bibitem[{Zia et~al.(2019)Zia, Johnson, Mansurov, Morgan, Redi, Saez-Trumper \&
+  Taraborelli}]{zia2019a}
+\bibinfo{author}{Zia, L.}, \bibinfo{author}{Johnson, I.},
+  \bibinfo{author}{Mansurov, B.}, \bibinfo{author}{Morgan, J.},
+  \bibinfo{author}{Redi, M.}, \bibinfo{author}{Saez-Trumper, D.}, \&
+  \bibinfo{author}{Taraborelli, D.} (\bibinfo{year}{2019}).
+\newblock {Knowledge Gaps — Wikimedia Research 2030}.
+\newblock \URLprefix
+  \url{https://figshare.com/articles/Knowledge_Gaps_Wikimedia_Research_2030/7698245}.
+
+\end{thebibliography}
+
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{.2em}
+% \everypar{\setlength\hangindent{2em}}
+% \sloppy
+
+
+% %%% -*-BibTeX-*-
+% %%% Do NOT edit. File created by BibTeX with style
+% %%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+% Alexander, C. (1999). The origins of pattern theory: the future of the theory, and the generation of a living world. IEEE Software, 16 (5), 71–82. \url{https://doi.org/10.1109/52.795104} 
+
+% Alexander, C., \& Poyner, B. (1970). The atoms of environmental structure. In G. T. Moore (Ed.), Emerging Methods in Environmental Design and Planning (pp. 308–321). MIT Press.
+
+% Alexander, C. (1965). A City Is Not a Tree. Architectural Forum, 122 (1), 58–62. \url{https://www.patternlanguage.com/archive/cityisnotatree.html} \textbf{\small Accessed 24 November, 2020}
+
+% Alexander, Christopher, Ishikawa, S., Silverstein, M., King, I., Angel, S., \& Jacobsen, M. (1977). A pattern language: towns, buildings, construction. Oxford University Press.
+
+% Alexander, Christopher. "Systems Generating Systems." Architectural Design 38, no. December 1968 (1968): 605-610. \url{https://patterns.architexturez.net/doc/az-cf-173046} \textbf{\small Accessed 24 November, 2020}
+
+% Alexander, C. (1979). The Timeless Way of Building. Oxford University Press.
+
+% Ariyaratne, A. T. (1977). Organization of rural communities for group effort and self-help. In Food Crisis Workshop, Los Baños, Laguna (Philippines) (pp. 23–24). Archived at \url{https://web.archive.org/web/20120503060209/http://www.sarvodaya.org/about/philosophy/collected-works-vol-1/rural-self-help} \textbf{\small Accessed 24 November, 2020}
+
+% Arslan, G., \& Shamma, J. S. (2006). Anticipatory learning in general evolutionary games. Proceedings of the IEEE Conference on Decision and Control, January 2007, 6289–6294. \url{https://doi.org/10.1109/cdc.2006.376684} 
+
+% Banathy, B. H. (1991). Systems Design of Education: A Journey to Create the Future. Educational Technology Pubns.
+
+% Beck, K., \& Cunningham, W. (1987). Using Pattern Languages for Object-Oriented Programs. \url{http://c2.com/doc/oopsla87.html} \textbf{\small Accessed 24 November, 2020}
+
+% Benedict, R. (1934). Patterns of Culture. Houghton Mifflin Co.
+
+% Benedict, R. (1946). The Chrysanthemum and the Sword. Patterns of Japanese Culture. Houghton Mifflin Co.
+
+% Bidgood, J. (2020, July 26). A bipartisan group secretly gathered to game out a contested Trump-Biden election. It wasn’t pretty. Boston Globe. \url{https://www.bostonglobe.com/2020/07/25/nation/bipartisan-group-secretly-gathered-game-out-contested-trump-biden-election-it-wasnt-pretty/} \textbf{\small Accessed 24 November, 2020}
+
+% Bishop, P. (2018). Anticipation: Teaching the Future. In Handbook of Anticipation (pp. 1–10). Springer International Publishing. \url{https://link.springer.com/referenceworkentry/10.1007/978-3-319-91554-8_1} \textbf{\small Accessed 24 November, 2020}
+
+% Borrelli, C. (2020, March). Q\&A with the Chicago creator of Pandemic, the board game that has become all too real. Chicago Tribune. \url{https://www.chicagotribune.com/entertainment/ct-ent-pandemic-board-game-20200305-ujujmxok3zeqnlkrn3c7mp75r4-story.html} \textbf{\small Accessed 24 November, 2020}
+
+% Butz, G., \& Pezzulo, M. V. (2012). Anticipatory Learning. In N. M. Seel (Ed.), Encyclopedia of the Sciences of Learning. \url{https://doi.org/10.1007/978-1-4419-1428-6} 
+
+% Campbell, J. (1949). The Hero With A Thousand Faces. Pantheon Books (The Bollingen Series).
+
+% Co-Intelligence Institute. (2019). Wise Democracy Project: PATTERNS LIST version 2.0. \url{https://www.wd-pl.com/pattern-list-v2/} \textbf{\small Accessed 24 November, 2020}
+
+% Coplien, J. O., \& Woolf, B. (1997). A pattern language for writers’ workshops. C Plus Plus Report, 9, 51–60.
+
+% Corneli, J., Danoff, C. J., Pierce, C., Ricaurte, P., \& MacDonald, L. S. (2015). Patterns of peeragogy. Proceedings of the 22nd Conference on Pattern Languages of Programs, 1–23. \url{https://dl.acm.org/doi/10.5555/3124497.3124531} 
+
+% Cunningham, W., \& Mehaffy, M. W. (2013). Wiki as pattern language. Preprints of the 20th Pattern Languages of Programs Conference, PLoP’13, 32. \url{http://dl.acm.org/citation.cfm?id=2725669.2725707} 
+
+% Danoff, C. J., Corneli, J., Quijano, P. R., Pierce, C., MacDonald, L. S., \& Roberts, V. (2019). A Fictional Peeragogical Anticipatory Learning Exploration [Conference Presentation Abstract]. 3rd Conference on Anticipation, Oslo Norway. \url{http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_113.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Dawes, M. J., \& Ostwald, M. J. (2017). Christopher Alexander’s A Pattern Language: analysing, mapping and classifying the critical response. City, Territory and Architecture, 4 (1), 1–14. \url{https://doi.org/10.1186/s40410-017-0073-1}
+
+% Deleuze, G. (2010). “Letter Preface” in Variations: The Philosophy of Gilles Deleuze, ed. Jean-Clet Martin, Edinburgh: Edinburgh University Press.
+
+% DesignJustice.Org (2018). Design Justice Network Principles. \url{https://designjustice.org/read-the-principles} \textbf{\small Accessed 24 November, 2020}
+
+% Doherty, J., Giordano, J. What we may learn – and need – from pandemic fiction. Philos Ethics Humanit Med 15, 4 (2020). \url{https://doi.org/10.1186/s13010-020-00089-0} 
+
+% Downing, T. (2007). Adapting to Climate Change: Achieving Increased Resilience and Livelihood Improvements. Panel Discussion. In Forest Day, December 8, 2007, Nusa Dua, Bali.
+
+% Escobar, A. (2018). Designs for the Pluriverse Radical Interdependence, Autonomy,and the Making of Worlds. Duke university Press.
+
+% European Foresight platform. (2020). \url{http://www.foresight-platform.eu/} \textbf{\small Accessed 25 November, 2020}
+
+% Ewing, E. (2018). Ghosts in the Schoolyard. University of Chicago Press. 
+
+% Featherstone, L. (2017). Divining Desire: Focus groups and the culture of consultation. OR Books. \url{https://doi.org/10.2307/j.ctv62hdsr}
+
+% De Filippi, P., Frey, S., Schneider, N., Tan, J. Z., \& Zhang, A. X. (2020). Modular Politics: Toward a Governance Layer for Online Communities. 3. \url{http://arxiv.org/abs/2005.13701} 
+
+% Finlev, T. et al. (2019). Equitable Futures Toolkit. Institute for the Future \url{http://www.iftf.org/fileadmin/user_upload/images/people/f4g/IFTF_equitable_futures_toolkit_031219.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Fuster Morell, M. (2011). An Introductory Historical Contextualization of Online Creation Communities for the Building of Digital Commons: The Emergence of a Free Culture Movement. In Hellmann, S., Frischmuth, P., Auer, S. \& Dietrich, D. (ed.). OKCon 2011. Open Knowledge Conference Proceedings of the 6th Open Knowledge Conference Berlin, Germany, June 30 \& July 1, 2011. Universität Leipzig, Germany and Technical University Berlin, Germany. Retrieved from \url{http://ceur-ws.org/Vol-739/}
+
+% Design Friction (2016). Flaws of the Smart City [Card game]. 2016. \url{http://www.flawsofthesmartcity.com/} \textbf{\small Accessed 25 November, 2020}
+
+% Furukawazono, T., Seshimo, S., Muramatsu, D., \& Iba, T. (2013). Designing a Pattern Language For Surviving Earthquakes. \url{http://arxiv.org/abs/1308.1175} 
+
+% Gabriel, R. P. (2002). Writers’ Workshops \& the Work of Making Things: Patterns, Poetry... Pearson Education.
+
+% Gamma, E., Helm, R., Johnson, R., \& Vlissides, J. (1994). Design patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley.
+
+% Gane, M. (1991). Baudrillard’s Bestiary: Baudrillard and Culture. Routledge.
+
+% Genovese, P. (2020, April 3). Pandemic —the board game — foreshadows current crisis. NJ.Com. \url{https://www.nj.com/coronavirus/2020/04/pandemic-the-board-game-foreshadows-current-day-events.html} \textbf{\small Accessed 25 November, 2020}
+
+% Gill, R. B. (2013). The Uses of Genre and the Classification of Speculative Fiction. Mosaic: A Journal for the Interdisciplinary Study of Literature, 46 (2), 71–85. \url{https://doi.org/10.1353/mos.2013.0021}
+
+% Handelman, D. (1998). Models and mirrors: Towards an anthropology of public events. Berghahn Books.
+
+% Hattam, J. (2019). A Card Game Designed to Help Urban Communities Plan for the Future. Bloomberg CityLab. \url{https://www.bloomberg.com/news/articles/2019-02-26/can-a-card-game-make-a-more-equitable-community} \textbf{\small Accessed 25 November, 2020}
+
+% Heinonen, S., Minkkinen, M., Karjalainen, J., \& Inayatullah, S. (2017). Testing transformative energy scenarios through causal layered analysis gaming. Technological Forecasting and Social Change, 124, 101–113. \url{https://doi.org/10.1016/j.techfore.2016.10.011}
+
+% Herodotus (1975). Burn, A. R.; de Sélincourt, Aubrey (eds.). The Histories. London: Penguin Books.
+
+% Hopkins, R. (2010). Rethinking Transition as a Pattern Language: an introduction. Transition Culture. \url{https://www.transitionculture.org/2010/06/04/rethinking-transition-as-a-pattern-language-an-introduction/} \textbf{\small Accessed 25 November, 2020}
+
+% Huizinga, J. (1949). Homo Ludens: A Study of the Play-Element of Culture. London: Routledge \& Kegan Paul.
+
+% Iba, T. (2018) Learning Patterns: A Pattern Language for Creative Learning. CreativeShift Lab.
+
+% Iba, T. (2019). Creating Pattern Languages for Creating a Future where We Can Live Well. INTERSECTION19 (Designing Enterprises for Better Futures). \url{https://www.youtube.com/watch?v=NVCzQM-KQ50} 
+
+% Iba, T., \& Isaku, T. (2016). A pattern language for creating pattern languages: 364 patterns for pattern mining, writing, and symbolizing. 90–102. \url{https://doi.org/https://dl.acm.org/doi/10.5555/3158161.3158175} 
+
+% Inayatullah, S. (1998a). Macrohistory and futures studies. Futures, 30 (5), 381–394. \url{https://doi.org/10.1016/s0016-3287(98)00043-3} 
+
+% Inayatullah, S. (1998b). Poststructuralism as method. Futures, 30 (8), 815–829. \url{https://doi.org/10.1016/S0016-3287(98)00086-X} 
+
+% Jacobus, F. (2009). The Disappearing Architect: 21st Century Practice and the Rise of Intelligent Machines. 97th ACSA Annual Meeting Proceedings, The Value of Design, 159–165. \url{https://www.acsa-arch.org/proceedings/Annual%20Meeting%20Proceedings/ACSA.AM.97/ACSA.AM.97.21.pdf} \textbf{\small Accessed 24 November, 2020} 
+
+% Johnson, K. A., Dana, G., Jordan, N. R., Draeger, K. J., Kapuscinski, A., Schmitt Olabisi, L. K., \& Reich, P. B. (2012). Using participatory scenarios to stimulate social learning for collaborative sustainable development. Ecology and Society, 17 (2). \url{https://doi.org/10.5751/ES-04780-170209}
+
+% Jordan, R., Gray, S., Zellner, M., Glynn, P. D., Voinov, A., Hedelin, B., et al. (2018). Twelve questions for the participatory modeling community. Earth's Future, 6, 1046– 1057. \url{https://doi.org/10.1029/2018EF000841}
+
+% de Jouvenel, H. (2004). Invitation à la prospective–An Invitation to Foresight. Bilingual Collection Perspectives–Futuribles.
+
+% Karesh, W. B., Dobson, A., Lloyd-Smith, J. O., Lubroth, J., Dixon, M. A., Bennett, M., Aldrich, S., Harrington, T., Formenty, P., Loh, E. H., MacHalaba, C. C., Thomas, M. J., \& Heymann, D. L. (2012). Ecology of zoonoses: Natural and unnatural histories. The Lancet, 380 (9857), 1936–1945. \url{https://doi.org/10.1016/S0140-6736(12)61678-X} 
+
+% Kerspern, B. (2019). Game Design Fiction: Bridging mediation through games and design fiction to facilitate anticipation-oriented thinking. 3rd Conference on Anticipation, Oslo Norway. \url{http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_38.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Kahn, A. (2013). Plague Inc., Centers for Disease Control and Prevention. \url{https://blogs.cdc.gov/publichealthmatters/2013/04/plague-inc/} \textbf{\small Accessed 24 November, 2020}
+
+% Koestler, A. (1973). The tree and the candle. In W. G. and N. D. Rizzo (Ed.), Unity Through Diversity. A Festschrift for Ludwig von Bertalanffy. Gordon \& Breach Science Pub.
+
+% Kohls, C. (2010). The structure of patterns. Proceedings of the 17th Conference on Pattern Languages of Programs - PLOP ’10, 1–10. \url{https://doi.org/10.1145/2493288.2493300} 
+
+% Kohls, C. (2011). The structure of patterns: part II - qualities. Proceedings of the 18th Conference on Pattern Languages of Programs - PLoP ’11, 1–18. \url{https://doi.org/10.1145/2578903.2601079} 
+
+% Kreimeier, B. (2002). The Case For Game Design Patterns. Gamasutra Features. \url{https://www.gamasutra.com/view/feature/132649/the_case_for_game_design_patterns.php} \textbf{\small Accessed 24 November, 2020}
+
+% Leacock, M. (2008). Pandemic [Board game]. \url{https://www.zmangames.com/en/games/pandemic/} \textbf{\small Accessed 24 November, 2020}
+
+% Leacock, M. (2020, March 25). No Single Player Can Win This Board Game. It’s Called Pandemic. New York Times. \url{https://www.nytimes.com/2020/03/25/opinion/pandemic-game-covid.html} \textbf{\small Accessed 24 November, 2020}
+
+% Lee, S. (2013). The Next Monopoly? What “Pandemic” teaches us about public health. Public Health Matters Blog. \url{https://blogs.cdc.gov/publichealthmatters/2013/05/pandemic/} \textbf{\small Accessed 24 November, 2020}
+
+% Leitner, H. (2015). Pattern theory: introduction and perspectives on the tracks of Christopher Alexander. HLS Software.
+
+% Liveley, G. (2017). Anticipation and Narratology. In Handbook of Anticipation (pp. 1–20). Springer International Publishing. \url{https://doi.org/10.1007/978-3-319-31737-3_7-1} 
+
+% Manns, M. L., \& Rising, L. (2015). Fearless Change: Patterns for Introducing New Ideas. Addison-Wesley Professional.
+
+% Merriam-Webster. (2020). Play. In Merriam-Webster Dictionary. \url{https://www.merriam-webster.com/dictionary/play} \textbf{\small Accessed 24 November, 2020}
+
+% Meszaros, G., \& Doble, J. (1997). A Pattern Language for Pattern Writing. In Pattern Languages of Program Design 3 (p. 656). Addison-Wesley Professional. \url{http://xunitpatterns.com/~gerard/plopd3-pattern-writing-patterns-paper.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Moran, T. P. (1971). (Artificial, intelligent) architecture: Computers in design. Architectural Record, 149, 129–134.
+
+% Ndemic Creations (2012) Plague, Inc [Video game]. \url{https://www.ndemiccreations.com/en/} \textbf{\small Accessed 25 November, 2020}
+
+% Nesta (2016). Our new game: How long can you survive against the superbugs? \url{https://www.nesta.org.uk/blog/our-new-game-how-long-can-you-survive-against-the-superbugs/} \textbf{\small Accessed 25 November, 2020}
+
+% Olabisi, L. K. S., Kapuscinski, A. R., Johnson, K. A., Reich, P. B., Stenquist, B., \& Draeger, K. J. (2010). Using scenario visioning and participatory system dynamics modeling to investigate the future: Lessons from Minnesota 2050. Sustainability, 2 (8), 2686–2706. \url{https://doi.org/10.3390/su2082686} 
+
+% Olabisi, L. S., Adebiyi, J., Traoré, P. S., \& Kakwera, M. N. (2016). Do participatory scenario exercises promote systems thinking and build consensus? Elementa, 2016, 1–11. \url{https://doi.org/10.12952/journal.elementa.000113} 
+
+% Ostrom, E. (2009). Understanding Institutional Diversity. Princeton University Press. \url{https://doi.org/10.2307/j.ctt7s7wm} 
+
+% Oxman, R. E. (1994). Precedents in design: a computational model for the organization of precedent knowledge. Design Studies, 15 (2), 141–157. \url{https://doi.org/10.1016/0142-694X(94)90021-3} 
+
+% Petter, S., Khazanchi, D., \& Murphy, J. D. (2010). A Design Science Based Evaluation Framework for Patterns. SIGMIS Database, 41(3), 9–26. \url{https://doi.org/10.1145/1851175.1851177} 
+
+% Pierri, P., \& Warwick, L. (2016). Changing the mental health system by design. Proceedings of People, Place and Policy Conference 2016, September, 18.
+
+% Pigliucci, M. (2010). Genotype–phenotype mapping and the end of the ‘genes as blueprint’metaphor. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1540), 557-566.
+
+% Poli, R. (2012). Many Aspects of Anticipation. In N. M. Seel (Ed.), Encyclopedia of the Sciences of Learning. Springer US. \url{https://doi.org/10.1007/978-1-4419-1428-6} 
+
+% Poli, R. (Ed.). (2020). Handbook of Anticipation. Springer International Publishing. \url{https://doi.org/10.1007/978-3-319-31737-3}
+
+% RAND Corporation (2020). Delphi Method. \url{https://www.rand.org/topics/delphi-method.html} \textbf{\small Accessed 24 November, 2020}
+
+% Rawlings, T. (2016). Playing at Science: How video games and science can work together. Longitude Prize. \url{https://longitudeprize.org/blog-post/playing-science-how-video-games-and-science-can-work-together} \textbf{\small Accessed 24 November, 2020}
+
+% Raymond, C., Snaddon, B., Chisin, A., Morrison, A., Steggell, A., \& Ruvo, M. Di. (2019). Design, relational ontologies and futurescaping. 3rd Conference on Anticipation, Oslo Norway. \url{http://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_141.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% ŞanalArc. (2018). HEY! Imaginable Guidelines [Card game]. \url{https://www.imaginableguidelines.org/} \textbf{\small Accessed 24 November, 2020}
+
+% Sardar, Z. (2010b). Welcome to postnormal times. Futures, 42 (5), 435–444. \url{https://doi.org/10.1016/j.futures.2009.11.028} 
+
+% Sardar, Z., \& Sweeney, J. A. (2016). The Three Tomorrows of Postnormal Times. Futures, 75, 1–13. \url{https://doi.org/10.1016/j.futures.2015.10.004} 
+
+% Schuler, D. (2009). Pattern languages as critical enablers of civic intelligence. PUARL Conference. \url{http://publicsphereproject.org/sites/default/files/Critical%20Enablers%20of%20Civic%20Intelligence.reduced.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Schuler, D. (2008). Liberating Voices: A Pattern Language for Communication Revolution. MIT Press.
+
+% Schwartz, P. (1996). The Art of the Long View: Paths to Strategic Insight for Yourself and Your Company. Doubleday.
+
+% Shalloway, A., \& Trott, J. (2005). Design patterns explained: A new perspective on object-oriented design. Addison-Wesley Professional.
+
+% Simonite, Tom (22 October 2013). "The Decline of Wikipedia". MIT Technology Review. Massachusetts Institute of Technology.
+
+% Spiro, R. J., Feltovich, P. J., \& Coulson, R. L. (1996). Two Epistemic World-Views: Prefigurative Schemas and Learning in Complex Domains. Applied Cognitive Psychology, 10 (7), 51–61. \url{https://doi.org/10.1002/(SICI)1099-0720(199611)10:7<51::AID-ACP437>3.0.CO;2-F}
+
+% Sutherland, J. et al. (2019). A Scrum Book: The Spirit of the Game. The Pragmatic Programmers.
+
+% Sweeney, J. A. (2017). Game on: Foresight at play with the United Nations. Journal of Futures Studies, 22 (2), 27–40. \url{https://doi.org/10.6531/JFS.2017.22(2).A27} 
+
+% Sweeney, J. A., Baker, M. T., Daheim, C., Dujardin, Y., Dunagan, J., Eklund, K., Haldenby, T., Rosa, A. B., Stovall, G., \& Yeomans, G. (2019). Anticipatory Games \&amp; Simulations. In Handbook of Anticipation (pp. 1–29). Springer International Publishing. \url{https://doi.org/10.1007/978-3-319-31737-3_94-1} 
+
+% Taylor, G. (1997). Introduction. The Oblique Strategies. \url{http://www.rtqe.net/ObliqueStrategies/OSintro.html} \textbf{\small Accessed 24 November, 2020}
+
+% Totin, E., Butler, J. R., Sidibé, A., Partey, S., Thornton, P. K., \& Tabo, R. (2018). Can scenario planning catalyse transformational change? Evaluating a climate change policy case study in Mali. Futures, 96, 44–56. \url{https://doi.org/10.1016/j.futures.2017.11.005}
+
+% TransitionNetwork.org. (2010). Seeing Transition as a Pattern Language Conference Booklet. 1–108. \url{https://transitionculture.org/wp-content/uploads/Seeing-Transition-as-a-Pattern-Language-conference-booklet-latest-version-1.1..pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Tschakert, P., \& Dietrich, K. A. (2010). Anticipatory learning for climate change adaptation and resilience. Ecology and Society, 15 (2), 11. \url{https://doi.org/10.5751/ES-03335-150211} 
+
+% Varon, J. (2020, July). The Future Is TransFeminist: from imagination to action. Deep Dives. \url{https://deepdives.in/the-future-is-transfeminist-from-imagination-to-action-6365e097eb22} \textbf{\small Accessed 24 November, 2020}
+
+% Varon, J., Juliano, C., \& Costanza-Chock, S. (2019). The Oracle for Transfeminist Technologies. \url{https://www.transfeministech.codingrights.org/} \textbf{\small Accessed 24 November, 2020}
+
+% Wagner-Lawlor, J. A. (2017). Anticipating Utopia: Utopian Narrative and an Ontology of Representation. In Handbook of Anticipation (pp. 1–21). Springer International Publishing. \url{https://doi.org/10.1007/978-3-319-31737-3_63-1} 
+
+% Walsh, J. (2011). Wikimedia Movement strategic plan: A collaborative vision for the movement through 2015. \url{https://strategy.wikimedia.org/wiki/File:WMF_StrategicPlan2011_spreads.pdf} \textbf{\small Accessed 24 November, 2020}
+
+% Wambacq, J., van Tuinen, S. Interiority in Sloterdijk and Deleuze. Palgrave Commun 3, 17072 (2017). \url{https://doi.org/10.1057/palcomms.2017.72} 
+
+% Wildschut, D. (2017). The need for citizen science in the transition to a sustainable peer-to-peer-society. Futures, 91, 46-52.
+
+% Willyard, C. (2020). How play energizes your Kid’s brain. New York TImes. \url{https://www.nytimes.com/2020/07/21/parenting/play-brain-science.html} \textbf{\small Accessed 24 November, 2020}
+
+% Woo, S. (2020, June 28). How do doctors treating coronavirus relax? By playing the game “Pandemic.” Wall Street Journal. \url{https://gatekeeper.chipublib.org/login?url=https://search-proquest-com.gatekeeper.chipublib.org/docview/2417892865?accountid=303} 
+
+% Yong, E. (2018). The Next Plague Is Coming. Is America Ready? The Atlantic. \url{https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/561734/} \textbf{\small Accessed 24 November, 2020}
+
+% Zamenopoulos, T., \& Alexiou, K. (2020). Collective design anticipation. Futures, 120 (November 2018). \url{https://doi.org/10.1016/j.futures.2020.102563} 
+
+% Zia, L., Johnson, I., Mansurov, B., Morgan, J., Redi, M., Saez-Trumper, D., \& Taraborelli, D. (2019). Knowledge Gaps – Wikimedia Research 2030. \url{https://figshare.com/articles/Knowledge_Gaps_Wikimedia_Research_2030/7698245} \textbf{\small Accessed 24 November, 2020}
+
+\end{document}

@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{xcolor}
+% \AddToHook{shipout/before}{%
+%   \ifodd\value{page}
+%     \pagecolor{blue!10!white}% Odd page colour (light blue)
+%   \else
+%     \pagecolor{red!10!white}% Even page colour (light red)
+%   \fi
+% }
+
+
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage{adjustbox}
+\usepackage[hyphens]{url}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+%% APA style
+\usepackage{graphicx}
+\usepackage{caption}
+
+\definecolor{deepmagenta}{rgb}{0.8, 0.0, 0.8}
+\definecolor{almond}{rgb}{0.94, 0.87, 0.8}
+\usepackage{pagecolor}
+\usepackage{afterpage}
+
+\begin{document}
+\pagestyle{empty}
+\thispagestyle{empty}
+\pagecolor{deepmagenta!30}
+
+\begin{figure}[h]
+\begin{adjustbox}{minipage=[c]{\textwidth-10mm},margin= 5mm 30mm 5mm 30mm, frame=1pt, bgcolor=almond,env=center}%
+%\begin{adjustbox}{varwidth=\textwidth,bgcolor=almond,margin=3mm {\abovecaptionskip} 3mm 3mm, frame=1pt }
+\begin{center}
+ \includegraphics[width=.7\paperwidth]{Butterfly_close_up.jpg}
+\end{center}
+
+\begin{center}
+\begin{minipage}[t]{0.7\paperwidth}
+
+\medskip
+{\huge Kaijū Communicator}
+\bigskip
+
+\Large\raggedright
+\textbf{Context} When developing a vision of the future.\newline
+\textbf{If} people start to agree BUT no one challenges what’s going on, solutions become brittle;\newline
+\textbf{Then} use words like “\emph{however}” to challenge proposals and highlight conflicts.
+\end{minipage}
+\end{center}
+\caption*{Don Haultman, U.S. Fish and Wildlife Service. \emph{Hyalophora cecropia} moth. Public domain, via Wikimedia Commons.\newline
+\url{https://commons.wikimedia.org/wiki/File:Butterfly_close_up.jpg}}
+\end{adjustbox}
+\end{figure}
+
+\end{document}
