@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       c2133273-aba2-4601-8e19-22602734eca4
+:END:
+#+TITLE: 12 November 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-11-12 Sat>
+
+* 12 November 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- It’s 7AM local, but I’m personally on Austin time.
+
+** JC
+- Still a bit sleepy.  Got lots of sun.
+
+** LV
+- It’s nippy, but sunny.  It’s nice to have a sunny autumn day.
+- I’m sleepy because I’m waking up early now.
+  - NA: Is this permanent?
+    - LV: Mostly yes, but I’ll be a little quieter.
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+*** JC: Would be happy to highlight the next steps for our current plan of starting a collective slip-box
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+*** Explore the implementation of collective slipbox
+*** Pick up where we left off with the plan
+
+* Agenda (Part 1)
+- Discussion of the pre-workshop outline
+
+* BREAK                                                                 
+
+* Agenda (Part 2)
+- Walk through of the details of the workshop plan up to Phase 2 delivery
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Good discussion of Noorah’s outline from last week
+- Request for clarity around terminology gives us more to think about w/ clarity for next time
+- Massive-time zone difference!
+
+*** 2. What are some different perspectives on what's happening?
+- Joe feels reassured that we can use the workshop outline in Anticipation?
+- NA: I feel well-rested from 8:30PM sleep; the meeting feels helpful b/c we work through an outline!
+
+*** 3. What did we learn or change?
+- JC: Was in a pretty grumpy mood at the start (Emacs annoyance & sleep deprivation!)
+
+*** 4. What else should we change going forward?
+- Joe to communicate with Abby about the next meeting on Next Monday, verifying the timings
+- Anticipate quiet-mode for Leo.
+- Keep structure for assurance that we are carefully building towards an objective; it’s better for the long-term to have the notes that scaffold (for reusing & revisiting, condensing, etc.)
+- If we believe the notes that we’ve taken on that day can be easily be picked up next time.
+- Joe: upload stuff to the exp2exp repo... plan for reworking it more hierarchically later.
+
+* Tentative agenda for next week
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to grab a tasty bite (probably a bagel)
+  - LV: A US delicacy :-)
+
+** JC
+- My big agenda is to get a good night of sleep, starting soon :-)
+  - LV: Martial the variables & parameters that you can; prioritise e.g. toothbrush & pants for US.
+- Will check in on Monday sayth that at least I’ve packed
+
+** LV
+- Finishing episode of "The Crown" Season 5, and will be in bed very early (already feeling sleepy here at 6PM today)
