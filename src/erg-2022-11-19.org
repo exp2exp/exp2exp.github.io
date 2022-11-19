@@ -1,0 +1,171 @@
+:PROPERTIES:
+:ID:       d54d4e22-6bb1-407a-81d2-dbfb6a8aed21
+:END:
+#+TITLE: 19 November 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-11-19 Sat>
+
+* 19 November 2022  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+It’s getting colder to Austin! 5°C
+- JC: Meow Wolf recommendations getting circulated!
+- Should chat with Charlie Danoff on text analysis!
+- "Walker" (formerly "Texas Ranger") on its way to Noorah’s street
+
+** JC
+- In Tempe, AZ.
+- Great meeting with CD on Peeragogy
+- Workshop went well!
+
+** LV
+- Eating lunch!
+- Fairly long week with DSA (Data Structure & Algorithms) trials & tribulations
+- Lots of EmacsConf which is happening in *2 weeks* — created a "pre-mortem" file of all the things that could go wrong!  This is like having a Kaiju Communicator script.  Then we have mitigation steps that bring reassurance.  It’s kind of like NASA creating lots of simulations before they enter situations of danger.
+- No bad things happened this week except a haircutting injury.
+
+* Meta points
+
+** Need to manage our ‘meeting apologies’
+
+** DONE Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Discuss updates with Abby
+
+* Agenda (Part 1) — Hyperreal
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Money for 2nd payment has been received
+  - Joe paid hotel w/ Starling card
+  - If it’s a business expense we should have some record
+  - App is pretty good for this
+  - Paris & Bristol trips would be reasonable to reimburse?
+  - Would be good to get a *spreadsheet* going w/ the transactions — to do later
+  - Leo would like to get his next payment for financial sustenance to remove sources of anxiety about rent!
+*** Horizon
+- More money might come later either for workshop or tech, maybe in January; but if we all do extra work we could bill for other things.
+- We haven’t yet talked about the extra deliverables.
+
+** We’ve done a lot since and we’re feeling good about what’s happened so far
+
+- Let’s focus on recaps
+  - Noorah’s outline
+  - New 1h30m workshop pilot at Anticipation that happened, and went pretty well!
+  - [[https://docs.google.com/document/d/1r3pV7F2HCpMmdFN2KPsbGMcEIX6pfzs3Ul8VrEAGEf0/edit][Outline of activities]]
+  - [[https://groups.google.com/g/peeragogy/c/V-knbZkwhB0][Feedback in the form of PAR]]
+    - Went through both phases — we can walk through it in Part 2
+
+** Debrief questions
+
+- How many participants? 2 facilitators; 4 participants per facilitator
+  - Who were they (level expertise, level of familiarity with the workshop)?
+    - Experts on Anticipation
+    - One of the participants wanted to learn about workshop.
+    - Some have an idea about workshops.
+    - No one had knowledge on CLA and design patterns.
+- Length of workshop (1.5 hours)
+  - Length of Phase 1: 20 + 10 upgrade
+  - ~Break:~ Didn’t happen.
+  - Length of Phase 2:
+  - Included a share-back phase that was new here
+- Topic discussed in Phase 1:
+- Scenarios is Phase 2:
+- Overall feedback:
+- Unexpected surprises: A riot to overthrow the conference organisers!
+- Did anything serendipitous happen?
+
+*** JC: happy to take these as homework
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** "So what?"
+
+If the people who get it are able to formulate interesting stuff, that’s good.
+
+If you have the perfect group of participants and you ask them to talk - they will produce value because it’s the perfect group (JC: I’ve seen this movie!).  We need to ensure that this conversation is at least as interesting.  Then as an extra objective we want to ensure that there is _lasting impact_.  We know that we have clever people in the room, but we want Phase III to have lasting effects in the future.
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- It’s exciting and it’s strengthened the desire in me to really iron out the method
+- How do we keep the benefits of gamifying, without making it about the game?
+- How do we get the benefits w/o thinking that it’s just a game?
+
+*** 2. What are some different perspectives on what's happening?
+
+- I appreciate the Par.4 — there can be the situation where prompts put people in a box to start with.  We need prompts to guide people, but how do we balance that with the need to foster serendipity?
+  - JC: This mirrors Leo’s point above
+
+*** 3. What did we learn or change?
+
+- With constraints, we read the playbook and then you can play outside of the playbook.  And cf. Oscar Wilde, if you want people to tell you the truth, you have to give them a mask.  We could allow them to know that they have a mask...
+
+*** 4. What else should we change going forward?
+
+- Do we need to change the wording of question 4?
+- SHOULD WE HAVE AN UPCOMING ERG MEETING "AS A WORKSHOP" to build it ourselves — to make the workshop about what we should do that day?  To use the patterns and know we are using the patterns.  We are having productive discussions & mobilising some of the fixtures, like the PAR, keeping plural, looking to the past, etc., but it would help us to think about how to actually use these things
+- When shall we do this? Should we follow our own protocol and invite ourselves in 3 weeks?
+- We need the monkeywrench!
+  - Let’s send an invite on Monday so that we say, we’ll do something on December, just the 3 of us, as our regular meeting but as a simulation of the workshop.
+
+* Tentative agenda for next week
+
+- Who communicates w/ Abby; I want us to be clear if Thursday she comes along!  Someone(s) should know for sure if we know who is coming on Thursday — or rather Saturday!
+
+- Actually let’s drop the Thursday meeting b/c of Thanksgiving & EmacsConf.
+
+- For Saturday: we want to share:
+
+  1. The plan the Noorah made, b/c it works towards rigor & a clear plan of what we do during the workshop.
+  2. Feedback on the Anticipation iteration, linking it w/ Abby’s feedback to make it about the iterative nature of the feedback/learning process, and using this process to steer towards the next workshop
+  3. Can we strengthen the bridge towards quality (if possible, relative to institutional pressures) so that we only set a date.
+
+- Next week is the last chance for EmacsConf prep; and a good opportunity to distill what we’re doing that’s, yes, a little different from using Emacs but w/ the goal to use the tools.
+  - Do we drop it?
+  - Can we help in some way during EmacsConf?
+    - LV: Best thing you can do is ‘no extra work’
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Free on Friday 25th November =9AM Central= (3PM UK, 4PM France)
+- Going for lunch
+
+** JC
+- Will send email invite to Abby by Monday evening for the invite w/ included debrief
+- Packing and becoming an itinerant scholar again
+
+** LV
+- I’ve been up since 5 and the density of this meeting is now giving me a headache
+- EmacsConf has 500 viewers, we pushed for our wait-screen to be dark b/c it will shave some energy off the bill
+- Starting the Slipbox; moving away from Bristol I II III to create atomic notes on the patterns we’re using and the different phases of the workshop, etc.; making them as short as possible
+- 3-5 lines, linking them together to the roles &c.
+- Not going for the PhD
