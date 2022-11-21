@@ -2,6 +2,7 @@
 :ID:       0ef4b185-513f-40c2-b884-6213601bbe09
 :END:
 #+title: Advice from a Caterpillar
+#+filetags: :WS:
 
 Reflect on your observations, and use them to describe your
 perspective.  You might comment on aspects of your values,

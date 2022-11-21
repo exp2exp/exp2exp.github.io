@@ -2,6 +2,7 @@
 :ID:       a853be79-85c1-4ffa-9750-459192c539e8
 :END:
 #+title: Find the dots
+#+filetags: :WS:
 
 * Instructions
 
