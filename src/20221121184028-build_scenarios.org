@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7357a42a-9691-4669-92c3-895d9061dda5
+:END:
+#+title: Build Scenarios
+
+* Instructions
+
+Working together with the full group, use the dimensions you created
+in the previous activities (together with the maps and stories) to
+give descriptive names to some scenarios for the future.  These should
+sum up the map(s) in each quadrant (or more generally, segment) from
+the diagrammatic analysis.

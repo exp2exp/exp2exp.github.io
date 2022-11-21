@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       092e4fe4-ee4f-494d-8776-c5f1389e8dc0
+:END:
+#+title: Repeat Phase II
+#+filetags: :WS:
+
+Reform groups, and run the exercises from Myths with a new
+[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]. The new Historian should recap key points from the PAR from
+the previous group’s Systems-to-Litany exercise, and the team should
+then explore the new scenario, following all of the steps again.
+
+This process can be repeated more than once as time allows. As you
+work through this activity, feel free to introduce connections with
+the previous scenario(s) you already explored, although the new
+Historian won’t be familiar with them.

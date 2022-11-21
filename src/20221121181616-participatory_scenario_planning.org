@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       95072d03-1359-4863-bad1-651191eb2f38
+:END:
+#+title: Participatory Scenario Planning
+#+filetags: :WS:
+
+* Summary
+
+*Context* you want to plan for possible future scenarios. *If* you have
+an interested group BUT no "expert" has all the answers; *Then* pool the
+collected expertise of the affected communities.
+
+* Instructions
+
+** Overall process
+
+- The initial input are participants' individual reflections on the workshop theme ([[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]).
+- We want to make one or more big mind-maps ([[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]])
+- These can be improved by coming up with dimensions in which things can optimise in some direction (good/bad) ([[id:105e0ad7-ada7-4cee-b2c6-a68d08096159][Dimension analysis]])
+- Once we have dimensions, we can describe scenarios that merge the themes and dimensions, outlining possible directions of development ([[id:7357a42a-9691-4669-92c3-895d9061dda5][Build Scenarios]])
+- The maps can be enriched by bringing in areas of expertise ([[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]])
+- Post Phase 1 immediate feedback; check on participants (like a mini-PAR).
+
+** Materials
+- Big sheets of paper
+
+** Intended outcomes
+- Merge everything into one big shared possibility space
+- Identify core issues
+
+** Responsibilities of facilitators
+
+- Move things along, e.g., so that we identify and elaborate the blockers, but don’t get stuck on them
+- Merge and evolve the mindmaps both within groups and across groups
+- Identify [[id:d7c5081f-cc76-4893-9daa-ff13b9bf1ae2][scenarios]].
+
+* Phase I Feedback
+
+** Improve processing of input
+- Consider *centralising the data*, since a lot of stuff is currently buried.
+- Explain where the notes are, how to find the LaTeX files, git repos, &c.
+- This follows patterns of the EmacsConf organisation, e.g., minimal commits, logs, etc.
+
+** _How to merge multiple mindmaps?_
+- *Merging* might be easier to do with software, without them, you can get a spaghetti-fest; distilling, by asking "What are the key nodes?"; it feels like this is particularly important.
+- Building something that distills the info
+
+* Phase I Evolution
+
+- JC: Initial translation of materials into Org Roam notes (21/11/2022)

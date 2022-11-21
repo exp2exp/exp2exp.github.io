@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       85fefbc1-ca57-46fa-a8b2-154821a56c75
+:END:
+#+title: Play to Anticipate the Future
+#+filetags: :WS:
+
+* Summary
+
+*Context* you want to have fun with friends, colleagues or
+acquaintances. *If* you want to explore possible futures BUT time travel
+does not exist and you don't know what to expect; *Then* play a game
+that lets you experience a plausible future scenario together.
+
+* Instructions
+
+** Overall process
+
+*** Rapid training:
+
+- *Explain the game*:
+  - We should explain the game by trying it a few times.
+- *Explain the roles*:
+  - We need to convey that each role convey a little bit of a design pattern, or multiple of those.
+  - “Why can’t I be myself?” - Yes you can, you just get a different colored scarf
+  - How should each participant use these roles?
+- In short, what does each role represent?
+  - "‘However’, ‘because’, ‘therefore’, ‘specifically’".
+- What are the rules of the game?
+  - [Need more time to re-do the discussion multiple times to optimize this.]
+
+*** Scenario exploration:
+
+- Enrich the scenarios using the familiar pattern from [[id:f447153f-7ff5-449d-bb08-67f579dda53f][Dérive Comix Part 2]].
+- Develop [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]].  Each role as a part to play in doing this:
+  - [[id:e38d2006-bcf7-494b-bd51-d8932b1ed0cd][Back to reality]] (Analyst)
+  - [[id:34be214c-5885-4794-b93c-84e49ddad18b][Connections from Kafka]] (Kaijū Communicator)
+  - [[id:ed238393-a7e4-4a0d-9eb2-3d6ab745c170][New patterns]] (Designer)
+  - [[id:baa168fb-37a0-4144-ab16-d4962728ea9c][Project Action Preview]] (Historian)
+- If there's time, [[id:092e4fe4-ee4f-494d-8776-c5f1389e8dc0][Repeat Phase II]] for extra practice.
+- [[id:848c8c3d-cde3-48b4-9dae-23eca4db440d][Share back]]
+- [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+
+** Materials
+- Need "another big sheet of paper" to elaborate what that thing is like, e.g., what is it like for you, what is it like for me.
+
+** Intended outcome
+- Reverse CLA process to return from Myth to Litany.
+  - ‘Produce new headlines.’
+
+* Phase II Feedback
+
+** Strategy: consider using Org Roam intelligently
+
+- We’d stopped using it as we originally intended, and just had meeting notes
+- Leo’s happy to create a slip-box following the patterns of Noorah’s agenda & create an operational manual
+- This will be a ‘moderated’ shared slip box; we can have all the data so far, can create notes, read things, etc.
+- *Method for maintaining structure* can be taught later after we have the contents

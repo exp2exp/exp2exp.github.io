@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       781d52fa-71a9-4c90-b4f6-9b0dd4244c33
+:END:
+#+title: Workshop backstage organisation
+#+filetags: :WS:
+
+Be sure to sort these as-needed:
+
+- Methods, needed at the appropriate level of rigour
+  - *Decide: In-person vs remote vs hybrid?*
+  - Technologies for the workshop
+  - Facilitation
+  - Feedback platform
+  - Technologies for after the workshop
+
+We need every component to fit well with the methods.
+
+**** Criterion: The methods need to be tested and familiar to facilitators

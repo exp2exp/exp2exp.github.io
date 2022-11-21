@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       34be214c-5885-4794-b93c-84e49ddad18b
+:END:
+#+title: Connections from Kafka
+#+filetags: :WS:
+
+The [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]] should now develop and communicate significant
+purturbations to the scenario.

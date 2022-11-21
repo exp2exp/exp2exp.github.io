@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       2a01f142-31c7-4e86-ae10-e14e85b4dda9
+:END:
+#+title: Workshop frontstage organisation
+#+filetags: :WS:
+
+1. *Send invitation e-mails at least 4 weeks in advance*
+   - Send reminder *3 weeks* in advance
+   - Get confirmation as early as possible, cut-off date *2 weeks* in advance
+   - *Follow best practices for human participation activities:*
+      1. Include a /brief/ blurb about the workshop (*including what the commitment* is, e.g., full-day) and what their participation will accomplish
+      2. Include the minimum level of technology knowledge (can they use a PC, browse the web, bring a phone, typing into a website, etc.?)
+      3. Include the level of security/privacy of participation and ask for consent
+      4. Include date, time, duration, and location (if it's TBD make sure to include this info)
+      5. Include _whether_ their participation will be monetarily compensated
+      6. Thank them for their time and consideration
+2. *Once we have confirmations, send another e-mail.*
+   1. Include a somewhat more detailed outline of the workshop, reminding them what it’s about, and reminding them what their participation will accomplish
+   2. Include timeline of the workshop (*full day timings here*):
+      1. Introductions, overall workshop overview (30 minutes)
+      2. Explaining Phase 1 (15 - 30 minutes)
+      3. Phase 1 (1.5 - 2 hours)
+      4. Lunch break (1 hour)
+      5. Explaining Phase 2 (30 - 45 minutes)
+      6. Phase 2 (1.5 - 2 hours)
+      7. Concluding remarks
+   3. Include pre-workshop activity or any other asks
+   4. Thank them for their time and consideration
+
+

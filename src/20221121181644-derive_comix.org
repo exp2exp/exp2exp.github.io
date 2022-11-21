@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       615846a2-1795-40b4-8dfb-3e12923fccc0
+:END:
+#+title: Dérive Comix
+#+filetags: :WS:
+
+* Summary
+
+*Context* you want to develop some future scenarios to explore with a
+group. *If* you have an group BUT everyone has their own experiences;
+*Then* Go for a walk or just look out the window wherever you, and
+document what you see. Follow up by preparing your materials to share in
+a succinct fashion, e.g., as photos, a screenshot, slides, sketches, a
+zine, a map, or some PostIt notes.
+
+* Instructions
+
+Walk for one hour around your neighbourhood.  Address some or all of
+the following questions, possibly documenting them with photos, text,
+or video clips.
+
+What are you observing (sight, sound, smell)?  What are the obvious
+things?  What are the sites of meaning, e.g., a bowl that is more than
+just ‘a bowl’?  Where is meaning made unclear or fragmented?  What are
+you experiencing (feelings, thoughts, first impressions)?  How have
+things changed?  (It’s OK to get lost, but if you’re feeling lost when
+reading these instructions, you may want to read this short intro to
+the [[https://www.publicstreet.org/derive][dérive]].)
+
+Follow up by preparing your materials to share in a succinct fashion,
+e.g., as slides, sketches, a zine, a map, or some PostIt notes.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3d0acf49-0c87-4aaa-94b3-84e5d926d58d
+:END:
+#+title: After the workshop
+#+filetags: :WS:
+
+* Instructions
+
+Phase III. Follow instructions at [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]].

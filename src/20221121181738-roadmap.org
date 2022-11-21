@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       92e18906-d0e6-4e73-a9cf-fbdad931f3cf
+:END:
+#+title: Roadmap
+#+filetags: :WS:
+
+* Summary
+
+*Context* a group needs to coordinate its activities over a period of
+time. *If* the landscape is complex and not completely knowable BUT
+adjustment to action based on feedback is possible; *Then* use an
+explicit mechanism to share information about goals, obstacles, methods,
+and resources.
+
+* Instructions
+
+** Our Plan
+
+- Recognise that we are living inside "Phase III"
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks

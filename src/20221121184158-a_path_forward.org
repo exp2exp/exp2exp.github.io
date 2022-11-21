@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7c0dce3b-d5ea-4712-a771-6ff26f143686
+:END:
+#+title: A path forward
+#+filetags: :WS:
+
+Work to develop a story of the future evolution to the scenario,
+taking into account the meaning threats.

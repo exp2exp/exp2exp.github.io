@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       105e0ad7-ada7-4cee-b2c6-a68d08096159
+:END:
+#+title: Dimension analysis
+
+* Instructions
+
+Coming back together with the full group, arrange the maps you created
+across a set of dimensions.  Two dimensions would be traditional:
+creating a 2-by-2 grid with ``best'' in the upper right, ``worst'' in
+the lower left, and so on — but feel free to use as many dimensions as
+you wish.  For example, it could be helpful to use the [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory of Basic
+Human Values]] to organise the scenarios.

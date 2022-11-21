@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       baa168fb-37a0-4144-ab16-d4962728ea9c
+:END:
+#+title: Project Action Preview
+#+filetags: :WS:
+
+As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]
+should write down next steps for participants to take after the
+workshop.  These actions might help people learn the skills they need
+to bring about any beneficial aspects of the scenario (e.g., to
+prepare for an adaptive response to a challenging situation).  The
+actions may need to be scaffolded by new tools, policies, or other
+innovations: write these down, also.

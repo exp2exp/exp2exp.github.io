@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       407beae8-ab2f-4340-9552-211d3b92ede6
+:END:
+#+title: Meaning Map
+#+filetags: :WS:
+
+* Summary
+
+*Context* We have collected images describing people's worlds (see
+[[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]). *If* you want to distill shared meaning BUT everyone has
+their own experience; *Then* talk together about the problems and
+opportunities that everyone sees. Maybe some of these will cluster
+together, or maybe everyone will have their own different perspective:
+that's OK. You can use these different viewpoints to get everyone on
+the same map.
+
+* Instructions
+
+Return to your small groups and bring together the themes you
+identified earlier.  Informed by your reflections, work together with
+the group to arrange the information on a map.  Notice that since
+people navigated different physical locations, your ‘map’ is likely to
+be somewhat abstract.  Where it makes sense, the map should record
+different perspectives from people in the group.  For example, the
+older people might perceive the place they explored to be a village,
+while younger people perceive it to be a settlement on the outskirts
+of town.  You might have different perspectives on what’s missing.
+Try to articulate such complexities.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       48a1d6a3-800d-46bd-8a4a-0d3414ecf150
+:END:
+#+title: Designer
+#+filetags: :WS:
+
+
+* Summary
+
+*Context* When developing a vision of the future. *If* people start to
+form a solution BUT we don't connect it with our existing knowledge,
+then it's likely to be fragile; *Then* use words like "/therefore/" to
+describe the solution in terms of other known solutions.

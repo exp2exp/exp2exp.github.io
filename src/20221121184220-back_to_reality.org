@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e38d2006-bcf7-494b-bd51-d8932b1ed0cd
+:END:
+#+title: Back to reality
+#+filetags: :WS:
+
+As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]] should
+build a tableau of 4 meaningful symbols indexed to the four CLA
+layers, summarising the exploration above.

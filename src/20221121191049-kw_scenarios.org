@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d7c5081f-cc76-4893-9daa-ff13b9bf1ae2
+:END:
+#+title: KW: Scenarios
+
+- A way to entertain the future based on core issues participants identify
+- E.g., imagine a shop that picks up citizen's concerns; what would that look like in a dictatorship?

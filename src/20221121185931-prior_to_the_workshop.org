@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9accd402-6d28-4ee2-ac35-44b4fe682d53
+:END:
+#+title: Prior to the workshop
+#+filetags: :WS:
+
+* Instructions
+
+Follow instructions at
+- [[id:e28fb669-45a6-4916-b56b-a3afd6238d4f][Workshop management checklist]],
+- [[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]],
+- [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]].
+

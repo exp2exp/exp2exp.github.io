@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       e28fb669-45a6-4916-b56b-a3afd6238d4f
+:END:
+#+title: Workshop management checklist
+#+filetags: :WS:
+
+- [ ] Make sure everyone is on the same page
+- [ ] Develop a clear taxonomy of the fundamental terms
+- [ ] Get contracts & deliverables sorted
+- [ ] Know how much flexibility there is (what’s possible, and what’s possible when)
+- [ ] Reasonable expectations about where this is going
+- [ ] Reasonable expectations how much effort it needs, and what’s available
+- [ ] Make sure we have a protocol about this
+- [ ] Make good commits for this document!

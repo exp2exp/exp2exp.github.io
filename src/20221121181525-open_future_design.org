@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       66d6f9a0-c5ab-480d-8010-5c645aeadc17
+:END:
+#+title: Open Future Design
+#+filetags: :WS:
+
+* Summary
+
+*Context* People need to coordinate, plan, and maintain cohesion. *If* a
+culture can develop based on shared learning BUT there is no reliable
+oracle that can tell us what to expect; *Then* use design pattern
+methods to articulate multiple futures. This work can be guided by
+further patterns, e.g., to develop languages of:
+
+- /future scenarios/ →  [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]]
+  - cf. [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]], [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]], [[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]]
+
+- /roles/ →  [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]]
+  - cf. [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]], [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]], [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]], [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
+
+- /projects/ →  [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]]
+  - cf. [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+
+* Instructions
+
+1. Follow instructions at [[id:9accd402-6d28-4ee2-ac35-44b4fe682d53][Prior to the workshop]].
+2. Follow instructions at [[id:c8823bc4-d08e-4486-9841-c914bba9977e][During the workshop]].
+3. Follow instructions at [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After the workshop]].
+
+* Documentation
+
+This is the entry point pattern for the Open Future Design Pattern
+Language.  Instructions for building all of the cards in a printable
+format are as follow.  The command is to be run in the directory
+=./erg/pattern-cards/=.
+
+#+begin_src
+pdflatex patterns-reboot-figures.tex && \
+ pdflatex patterns-reboot-figure-main.tex && \
+ pdflatex patterns-reboot-roles.tex && \
+ pdflatex patterns-reboot-roles-2.tex && \
+ pdflatex patterns-reboot-roles-3.tex && \
+ pdflatex patterns-reboot-roles-4.tex && \
+ pdflatex scenario-planning-patterns.tex && \
+ pdflatex patterns-reboot-par.tex && \
+pdfjam \
+patterns-reboot-figures.pdf \
+patterns-reboot-figure-main.pdf \
+patterns-reboot-roles.pdf \
+patterns-reboot-roles-2.pdf \
+patterns-reboot-roles-3.pdf \
+patterns-reboot-roles-4.pdf \
+scenario-planning-patterns.pdf \
+patterns-reboot-par.pdf \
+--outfile open-future-design-patterns.pdf --paper a5paper
+#+end_src

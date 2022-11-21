@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a853be79-85c1-4ffa-9750-459192c539e8
+:END:
+#+title: Find the dots
+
+* Instructions
+
+Join together with other workshop participants in small groups to
+share your results from the previous activity, and cluster the themes
+that you find there.

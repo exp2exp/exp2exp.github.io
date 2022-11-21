@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       b7b42aa2-c57c-4bcc-bc45-be9b63972be7
+:END:
+#+title: PLACARD workshop introduction
+#+filetags: :WS:
+
+* Instructions
+
+** Introductions
+- Bristol Pilot: Abby presented a 10 minute slide show about the "Public Space and Public Health"
+** Meet and greet with participants
+- Bristol Pilot: minimal, people said hi
+** TODO ice-breaker activity
+- /Could be based on an in-advance ask, like, email a photo?/
+- Maybe better to have it be something that can happen at a coffee break.
+** TODO Go over the general rules and norms
+- Bristol Pilot: Joe presented an outline of what was going on on the day
+** Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use
+** Explain _theme_ of the workshop
+- NB. different people/groups might go in different directions from this point.
+** Explain the process
+- "Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out."
+- "Find new ‘design patterns’ that enable them to solve new problem."
+*** Explain _CLA_ (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
+- We can explain how this will be applied, e.g., via an *example*
+- Diagrams can convey information quickly (e.g., iceberg)
+- Roles & patterns are visual and memorable
+- How will it be used in this phase: decent to the myth
+- Be able to access the rules quickly (cf. "Settlers of Catan")
+

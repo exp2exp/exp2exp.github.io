@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       bf8791b5-e50b-4666-bc01-286e279a5971
+:END:
+#+title: Reinfuse Expertise
+#+filetags: :WS:
+
+* Summary
+
+*Context* a group wants to build a [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]. *If* everyone has
+experience as a citizen BUT they also have expertise; *Then* begin by
+removing expertise to get everyone on the same page, and subsequently
+reinfuse expertise to enable richer and more complex thinking.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       57d46961-a056-435e-85d2-27ab6e0de7f6
+:END:
+#+title: Historian
+#+filetags: :WS:
+
+* Summary
+
+*Context* When developing a vision of the future. *If* people start to
+agree BUT no one connects it with local history and concrete actions,
+then work bogs down; *Then* use words like "/specifically/" to connect
+abstract problems and solutions to specific actions.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       c8823bc4-d08e-4486-9841-c914bba9977e
+:END:
+#+title: During the workshop
+#+filetags: :WS:
+
+* Instructions
+
+Introduction: Follow instructions at [[id:b7b42aa2-c57c-4bcc-bc45-be9b63972be7][PLACARD workshop introduction]].
+
+Phase I: Follow instructions at [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]].
+
+Phase II. Follow instructions at [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]].

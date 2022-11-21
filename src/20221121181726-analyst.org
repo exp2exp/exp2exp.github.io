@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5826c7d9-8962-433d-83c5-27a5196908ea
+:END:
+#+title: Analyst
+#+filetags: :WS:
+
+* Summary
+
+*Context* When developing a vision of the future. *If* people start to
+form a solution BUT no one connects it with the complex reasons why that
+solution is likely to work, then it's likely to be fragile; *Then* use
+words like "/because/" to describe the complex reasons that the solution
+is likely to work.

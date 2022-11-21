@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       f5a1bc15-5abb-44d6-8f7a-e254974c9002
+:END:
+#+title: Project Action Review
+#+filetags: :WS:
+
+* Summary
+
+*Context* Work in progress. *If* we are working on something together
+BUT we might lose momentum; *Then* use a review template to think about
+our progress. Questions like the following can be asked at any point in
+a project, and provide a momentary record of perspectives which can be
+analysed later.
+
+1. /Review the intention: what do we (did we) expect to learn or make
+   together?/
+
+2. /Establish what is happening: what and how are we learning?/
+
+3. /What are some different perspectives on what's happening?/
+
+4. /What did we learn or change?/
+
+5. /What else should we change going forward?/

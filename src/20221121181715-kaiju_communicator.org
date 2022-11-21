@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a0796d9e-664b-46fa-bb37-7f6a6fc15584
+:END:
+#+title: Kaijū Communicator
+#+filetags: :WS:
+
+
+* Summary
+
+*Context* When developing a vision of the future. *If* people start to
+agree BUT no one challenges what's going on, solutions become brittle;
+*Then* use words like "/however/" to challenge proposals and highlight
+conflicts.
