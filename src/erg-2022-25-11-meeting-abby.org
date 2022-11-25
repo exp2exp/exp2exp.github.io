@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       75c6286c-d997-48d7-9618-89a87f03a44e
+:END:
+
+* Agenda
+
+** Revised workshop protocol
+
+https://github.com/exp2exp/exp2exp.github.io/blob/master/src/placard_bristol_project_plan.org
+
+- Include pre-workshop activities in the initial outreach email (e.g., exploring your neighbourhood)
+- "Feedback platform" - to get their valuable feedback...
+  - ... But also want to spur them to action
+
+- How much do we explain, and how much do we leave to intuition in the introduction bit?
+
+- Blockers can lead to "helplessness cycle"
+- /Facilitator should unpick this/
+- Good to keep some diversity of thought by encouraging them to, e.g., create positive and negative examples
+
+- Even just putting them into a discussion, something will happen — this is the baseline.  Just inviting clever people does something, but the facilitation should provide a net benefit.
+
+- If we were using *indicators* & control groups we could try this in different ways & get some sense of the signal
+
+- Detailing Phase 2 — to do 26th Nov
+
+** Report back from Anticipation 2022 "Going Meta" workshop
+
+- PAR: https://groups.google.com/g/peeragogy/c/V-knbZkwhB0
+
+- Photos: https://twitter.com/Danoff/status/1593421340693827585
+
+- It'd be interesting to get ourselves back out of "Phase III" to see more about how it feels for us experientially!
+
+We've mentioned multiple times in the past "The Ship that Builds Itself" — it seems like a necessary step for us to _use the method_ as it is
+
+- This allows us to put ourselves in the frame of someone who is discovering the method; and we can then return to this regularly & *iteratively* (in an Agile way, getting quick feedback, checking whether it makes more sense)
+
+- Using the tools ourselves we might be able to discover things about the method ourselves
+
+- This alludes to what Phase III could be about — rather than considering it to be something that's already acquired; now we're in Phase III trying to consolidate the tools
+
+- *Note-taking w/ quicker feedback loops* — easily shareable & refineable
+
+- W/ a method to have all the concepts that we use during the workshop so that they connect with them; so we get a short blurb to say what this role is about, it connects w/ XYZ, and so on.
+
+- This will allow us to explain what the roles are clearly.
+
+- Also centralises the data in the same collection of notes
+
+- Rather than having one big document, we'll still have a big PDF, but in our own collection of notes we can pinpoint the things that we use.
+
+** Next steps
