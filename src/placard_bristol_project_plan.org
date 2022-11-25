@@ -121,6 +121,8 @@ We need every component to fit well with the methods.
 *** Post Phase 1 immediate feedback; check on participants
 - Like a mini-PAR
 *** *Phase 1 Contingency plans*
+- Helpless blockers
+- Encourage diversity of thoughts
 *** _Break_
 *** Pre Phase 2 (walk-through, questions, concerns, etc.)
 - Need "another big sheet of paper" to elaborate what that thing is like, e.g., what is it like for you, what is it like for me.
