@@ -55,3 +55,10 @@ that lets you experience a plausible future scenario together.
 - Leo’s happy to create a slip-box following the patterns of Noorah’s agenda & create an operational manual
 - This will be a ‘moderated’ shared slip box; we can have all the data so far, can create notes, read things, etc.
 - *Method for maintaining structure* can be taught later after we have the contents
+
+* Phase II Evolution
+
+- Could we view "evolution" inside the diagram?
+- We do have ways to track & see how things have changed; it'd be good to upgrade the interface
+- If the tools aren't there yet, we can mimic the tools.
+- Anyway, using Org Roam again will help us see where the /feature evolution/ should be

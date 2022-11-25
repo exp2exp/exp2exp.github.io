@@ -14,6 +14,7 @@
       4. Include date, time, duration, and location (if it's TBD make sure to include this info)
       5. Include _whether_ their participation will be monetarily compensated
       6. Thank them for their time and consideration
+      7. Introduce a warm-up activity like [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]
 2. *Once we have confirmations, send another e-mail.*
    1. Include a somewhat more detailed outline of the workshop, reminding them what it’s about, and reminding them what their participation will accomplish
    2. Include timeline of the workshop (*full day timings here*):
