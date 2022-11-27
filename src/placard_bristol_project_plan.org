@@ -138,10 +138,22 @@ We need every component to fit well with the methods.
 - ‘Produce new headlines.’
 *** Phase 2
 - To furnish in the next stage
-**** TODO Process
+- Need to describe terms such as patterns, roles, scenarios
+  - Pattern:
+  - Roles:
+  - Scenarios:
+**** STRT Process
+- Start with the pre-decided scenario from Phase 1
+- Myth layer: what is the essence of the scenario?
+- Worldview: what sort of ideas and philosophies that support this scenario versus ideas and philosophies that disturbs this scenario into another scenario?
+- Systems: what are the key actors, institutions, functions, and processes that facilitate these differing scenarios?
+- Litany: what are the atomic actions that support the initial scenario versus ones that prevent the alternative scenario?
+
 **** Materials
-***** Roles
+***** Roles cards
 **** Facilitators
+- Thinking of roles as patterns
+- Mitigate information overload with participants
 *** Post Phase 2 immediate feedback, check on participants
 *** *Phase 2 Contingency plans*
 *** Phase 3

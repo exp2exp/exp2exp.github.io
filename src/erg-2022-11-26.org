@@ -1,0 +1,253 @@
+#+TITLE: 26 November 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-11-26 Sat>
+
+* 26 November 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Stayed home & played new Pokemon
+- 5 family members at Thanksgiving
+
+** JC
+- Now a Meow Wolf SF alum!
+  - Reminds me of Fluxus Labyrinth = [LV: w t f]
+  - Did leave inspired about how we create experiences
+- 2°C in Santa Fe
+
+** LV
+- Low energy session today because of wrist pain from yesterday's accident
+- Thinking 1 week of recovery time
+
+* Meta points
+
+** Joe to go into kitchen partway through the call to recharge
+
+** Leo wants to talk about PhD stuff b/c it could create some potential to work on the stuff we're looking at together longer term
+- Looking at the French Studies programme
+- This [[http://wgss.emory.edu/home/people/biography/amin-kadji.html][old pal of Joe's]] was very fixed on being a professor and went through the French Studies route
+  - Natural progression of work with programming?  In History, NLP is being applied a lot; in anthro as well, in literary studies.  I went to a short workshop at the library on this kind of stuff.
+  - Another relevant person working in digital humanities: [[https://www.turing.ac.uk/people/researchers/barbara-mcgillivray][Barbara McGillivray]]
+
+*** Leo's previous prof introduced him to Deleuze 
+- It's not frequent (at least in France) to find people who understand his work
+- In Princeton there are a lot of specialists in Derrida; there's *Deleuze* (mostly philosophy), *Derrida* (mostly literature), and *Foucault* (mostly history), and a lot of people gravitate around these things; these folks all have the same sources for their education, though they took it in different directions
+  - The Derrida specialisms include Derrida's archive, and they are trying to explore how to make it a virtual library; to see the value & make connections.
+  - Promising to make a Deleuzian/Foucaldian analysis of Derrida's archive
+  - Leo also has appreciable teaching experience b/c Princeton has more undergrads than grads
+  - And he's done a lot of event & cultural organisation
+  - And on top of this is the e-research & digital library orientation o Leo's overall programming trajectory
+
+- Plus Leo's friend can help craft a good application that doesn't look weird
+- And on top of all this: Leo's a good communicator & if he gets into the onsight interviews he'll make a good impression.
+
+- NA: You're thinking from a grad student perspective; what will the supervisor think?  They will think, what will this candidate do for me?  "You're my employee."  Which professor needs you the most?
+- JC: can you apply the mapping idea to what's there in 2022 e.g. to make some new connections between the material that's there (e.g., other people who are doing digital library & e-research stuff); having a look at Aaron Krowne's Master's thesis could be interesting
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) — Develop on "Phase II"
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Intro of roles: Historian, Designer, Analyst, Kaijū Communicator
+
+*** Historian
+- Ouline of 3 papers to write over the next few years?
+- (This could be mirrored roughly by the 3 letters that are coming in now to provide some track record on these areas.)
+
+- LV came back a month early from Reed and prof didn't reply, and then didn't speak with Leo for a long time; and she just said she didn't want to talk with him
+- Leo was feeling homesick, alongside really liking Reed
+- She'd written a letter of recommendation as part of the Reinne/Reed programme, so she felt that his early return reflected poorly on her
+- He reflected back that he was appalled at the treatment!
+
+*** Designer
+- Changes to the field of e-research?
+
+**** Previous experience with academic experience
+- Personal meaning of academic research to Leo — there's an analogy of an injury
+  - As a setback
+  - Or a blessing that changes how you consider what you're currently doing, teaching you to be more careful; it's a bit like a lobster moulting
+
+**** What's "the package" that they offer?
+- Will you be doing a lot of teaching in the first few years?
+- If so, it will limit the
+
+**** How what will you learn?                                  :newpatterns:
+- Currently has, on one hand, /philosophy & literature/; on the other, /software development/.
+- Possible to keep working on on the software development on the side within the program
+- Literature thinking & philosophical thinking have contributed to the work here at Hyperreal
+- What would it look like to keep applying the diligence to humanities?
+- So, could I pull together the different themes and have that work valued?
+  - Cf. "code poetry"; here instead it would be "code philosophy"
+  - It's a small group of people who pull together philosophy and programming (Alex K, Manuel Delanda, maybe a few others)
+
+*** Analyst
+- Maybe it's good to be able to move between different contexts & roles
+- Does the institution /value/ curiosity?
+- Previous experience w/ the old prof might have led her to employ her own curiosity to find out what was going on with her
+- But Leo was spending more time programming than doing research; also /didn't necessarily have the maturity/ to, e.g., ask for the supervision he was needing.
+
+**** Derrida: originally doing literature and had to go to philosophy to make progress
+
+*** Kaijū Communicator
+- Maybe I'm not cut out for corporate development
+- What if you get into another relationship?
+- What would you do if you run into another version of the old professor, how would you deal with that next time?
+  - Old prof was the embodiment of LV's lack of rigour!
+  - If I were to find someone whe went the same route, he could deploy rigour in that setting.
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) — How did that go?
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Significantly drew Leo into the conversation!
+- Reminiscent of House MD as well!
+
+** Roles could be there as 'patterns'
+- We didn't hand out the roles among the participants this time
+
+** However we only had 3 people so Leo was in the role of 'explainer'
+- I grew a little disenchanted with the project
+- 2 weeks ago I knew what I wanted to do with my life (e.g., back then I was just making great progress with programming)
+- Now I've reopened Pandora's box about feelings; the programming stuff is what taught me to be rigorous!  I love being curious, but I particularly love it in the context in which /the code works/?
+
+** Noorah was able to deploy fresh knowledge about academia
+- Joe added some reflections from 6 & 20 years ago
+- NA: I find it's more political, if there's nothing else going on I could have finished my PhD.  That stuff didn't help me.
+- JC: Worried that the higher up you go on the ivory tower the more political it can become
+- LV: Friend says that the department is all leftist thinking...
+- NA: Are they open in terms of interdisciplinary work?!
+  - If you say you want someone from Digital Humanities or Libraries on your committee... how would they react.  In my experience they are very siloed.  Can you get them to meet you where you?  And French Studies has the potential to be very niche.
+  - Are the professors boomers...?
+     - Keep this in mind: you'll get some pushback.
+- Also look at programs in information schools, e.g., you can bring in the philosophy stuff.
+
+** Recap for Abby
+- LV thinking of applying to PhD programme in Princeton
+- However LV was previously set on doing corporate programming or consulting
+- So this is a bit of a crossroads
+- Pain
+
+
+** How do we mesh the idea of the 4 roles w/ the patterns?
+- Maybe the patterns (in general) are comprise
+
+Context: Conflict X HOWEVER Y [Kaiju]
+Rationale: _xxx_ BECAUSE _zzz_ [Analyst]
+Solution: /www/ therefore /ppp/ [Designer]
+Action: Specifically =...= [Historian]
+
+** We did move from myth to litany!
+- We started w/ passion for research etc
+- We then talked about the worldview in academia
+- The systems of research (e.g., including politics)
+- The specific things that Leo should take into account
+
+** BUT: I come out of this meeting feeling a little less stable
+- I had assurance in my mind that I was going to be turning myself into a software developer
+- Now I am dealing with my previous trauma in academia and this is making me think, can I /retreat into comfort/ —
+- The Princeton path is high-risk high-reward
+- Systems view would be coming up with a plan; litany could be, envisioning what this looks like
+- But I find myself closer to wanting to bail, out of self-preservation
+
+- NA: If I was considering this thing and people said this is going to turn like shit b/c of all of our trauma... but you're only being /overwhelmed with information/.
+
+- LV [...] : I enjoyed removing myself from the need to become a professor!  Now, I find that I still want to be a teacher & still want to be curious.  What would allow me to go back to the system layer: "Those are 2 great options, apply whilst having a great profile & pursuing software development."  If I make a choice between 2 great projects, I'll end up with something great.  What if I just consider it to be a job?
+- Can I focus more on the impact system wide?
+
+** Disorder
+
+- We've almost created an element of disorder through new information that needs to be dealt w/ or filtered, and Leo hasn't (yet) engaged w/ some of this b/c he previously disengaged from academia
+- So the previous model didn't really accommodate this
+- Magic mushrooms: sandcastles can be reset, what does the landscape look like then?  What does it feel like when you're trying to scaffold
+
+- JC: It's a psychological workout; is it a useful one?
+
+- LV: When my Princeton friend suggested this, eventually one new tree nubilates me — it takes all my attention.  It's potential roots below the surface make me nervous.
+
+  - Pragmatism would solidify things in the system layer; it doesn't have to change anything other than this, it's just another map on the bigger constellation
+
+- Now the problem is that I have a constellation that's remote from what I've been (previously) doing in humanities
+
+- I moved from a map w/ 100 nodes, now I am considering 300 nodes all together!
+
+- Do I want to trim some thing, e.g., supervisor trauma?
+
+- I'm now like the witches that cut lives of dead people — Charites
+
+- JC: maybe you need a phase of consolidation
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Working in a micro-pilot with Leo as subject matter expert
+- Let's not be lazy about how we involve the body
+*** 2. What are some different perspectives on what's happening?
+- I'm glad we had this exercise with Leo b/c it made me consider how do we facilitate when people are overwhelmed with information in Phase 2?  I want to think about this more?
+- Do we decide the scenarios beforehand or pick up from Phase 1?
+  - You can also have sub-scenarios?
+- LV: I did feel vulnerable about talking about personal stuff, ego, etc., but now I can look at it with fresh eyes.  The choices here won't change who I am; but I need to think a lot.
+- This meeting has led me to understand: if I felt confident before, what was it about this tree that caused me to feel nervous? 
+- I feel less stress
+*** 3. What did we learn or change?
+- The patterns & roles are something that we have to work on as facilitators?
+  - "Aha, you've used the Kaijū Communicator pattern?"
+  - But if they didn't use the pattern then how can we prompt it?
+  - How can we scaffold the return from the myth layer, in a way that feels light for the participants?
+- All I've been doing in programming, I owe only to myself... with university, I did it within a set setting for learning; at university you're supposed to learn — it feels almost like a different person did this.  It's one of my many lives...  — I find it difficult to identify with this past body, and here I feel more in control; I may need to maintain the same stance that has made me sane & has allowed me to make regular progress, and I should focus on the things that work in this
+*** 4. What else should we change going forward?
+- Maybe rather than putting all the cards on the table, we expose the cards as people use them?
+- Imbrication of aha moments
+- Could we get people making little tricks of HOWEVER, BECAUSE, THEREFORE, SPECIFICALLY, constituting new patterns
+- There might be a (serendipity) pattern here: "What nurtures opportunity for you?"
+
+* Tentative agenda for next week
+
+- Meeting next Wednesday at 3PM UK / 9AM Central
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- There are docs to review on the github
+- Ready for lunch (per usual)
+  - JC: :-)
+- Will commit notes
+
+** JC
+- Let's try to deploy Noorah's "bring a question" pattern for next time
+- Going to some markets next
+- I have an idea of an action for us but need to formulate it
+
+** AT
+- It's been nice to have a little sample of how you put this into action w/ Leo's case; the different use of language around scenarios, patterns, roles: how they are distinct & how they overlap.  How do we describe patterns & scenarios emerging, roles, changing?
+- JC: technical aspect of this
+
+** LV
+- Now need 10+ hours of sleep, to recover
+- I forgot to buy my mushrooms
