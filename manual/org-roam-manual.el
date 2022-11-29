@@ -258,6 +258,8 @@ and derived PDF is defined.")
 "erg-2022-10-29.org"
 "erg-2022-11-05.org"
 "erg-2022-11-12.org"
+"erg-2022-11-19.org"
+"erg-2022-11-26.org"
 ))
 
 (defvar just-workshop '(
@@ -314,9 +316,9 @@ and derived PDF is defined.")
 (defun rebuild-org-roam-pdf (filename &optional sources anonymous)
   "Build an org file and PDF compiling `files-to-combine'."
   (interactive)
-  (shell-command (concat "cp " org-roam-directory "manual/hl.org "
-                               org-roam-directory "manual/" filename))
-  (save-excursion (find-file (concat org-roam-directory "manual/" filename))
+  (shell-command (concat "cp " org-roam-directory "/../manual/hl.org "
+                               org-roam-directory "/../manual/" filename))
+  (save-excursion (find-file (concat org-roam-directory "/../manual/" filename))
     (goto-char (point-min))
     (search-forward "# IMPORT")
     (let ((beg (point)))
