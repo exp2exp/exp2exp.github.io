@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       56ce8d31-d3d6-4493-bb41-b07d810afbcc
+:END:
+#+title: Causal Layered Analysis
+
+*Context* Work in progress. *If* we are working on something together BUT
+we might lose direction; *Then* review our previous [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action
+Review]] data to sense-make about our progress and intentions.  This
+process can be carried out routinely, e.g., after 6 or more sessions.
+The template suggested by Causal Layered Analysis theory can be used.
+This can be adapted in light of our roles, to help formulate new
+patterns.
+
+1. Litany (However...)
+2. System (Because...)
+3. Worldview (Therefore...)
+4. Myth (Specifically...)
+
+* Examples
+
+The Emacs Research Group developed a set of CLAs in 2021.
+
+- [[id:eba531ea-7a47-4dba-bdd5-045d27cf0033][CLA 16 January 2021]]
+- [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 20 February 2021]]
+- [[id:8cfb334a-4176-4fa2-ac2f-8efff5f3c842][CLA 12 April 2021]]
+- [[id:4b759839-5721-41e8-bce7-04606183bfc9][CLA 29 May 2021]]
+- [[id:732219c0-9784-4593-b781-b82e54e948ce][CLA 16 October 2021]]
+
+However, we left off at that point; see feedback below.
+
+* Feedback
+
+- After discussion it seemed that there wasn't sufficient group buy-in to the CLA-creation process in these early exercises.  Although we had appropriated the PAR, we hadn't appropriated CLA.  Would it be possible to revisit the CLA to make it more meaningful?
+- Addressing this could help make “Phase III” more useful in general!
