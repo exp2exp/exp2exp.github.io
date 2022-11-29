@@ -1,0 +1,1203 @@
+# Created 2022-11-29 Tue 20:16
+#+options: num:nil
+#+title: Hyperreal Enterprises: ERG Manual
+#+author: Noorah Alhasan, Joe Corneli, Leo Vivier
+* 23 October 2021 — Emacs Research Group
+#+date_created: <2021-10-23 Sat>
+
+** PAR                                                           :10m:review:
+**** 1. Review the intention: what did we expect to learn or make together?
+- Prep EmacsConf talk (via set objectives) and work on CLA
+**** 2. Establish what is happening: what and how are we learning?
+- Myth level dropped (catsonified by Bella on the floor)
+- We got through a nice outline and initial storyboard of the talk (but not script yte)
+**** 3. What are some different perspectives on what’s happening?
+- We’ve been focused between PLoP, workshop, EmacsConf: in 2 or 3 weeks we’ll be ready to move on
+- NA: Yay outline! Looking forward to recording it next week
+- JC: Following from his check-in; we didn’t really answer the question: ‘Because we have such a positive attitude towards the way we work together, could it inform the way we work in other groups?’
+- LV: This could be a thematic question to come back to after EmacsConf; it’s not linked to any output but it’s linked to inputs from all of us and the groups in which we work, can we get a high-level view on how the groups work or don’t?
+**** 4. What did we learn or change?
+- Planned what we will do next week
+- Try to minimise work we do outside of the ERG slot
+- "Understanding how groups interact with each other" is part of what we can offer towards sharing effective methods; Hypernotebooks as a metaphor for this is kind of clever
+**** 5. What else should we change going forward?
+- RP: As we were saying once we get through EmacsConf we will have cleared our projects; so what’s going on in the wings? What may have been left behind?
+- We had started getting in touch with Qiantan, and it has broadened to logic and other areas; we might want to pick up on these things especially as they relate to Emacs
+- So after we get through delivery phase, can we get back to these people and involve them?  And how to bring in NNexus as well?
+- Stakeholder meeting to complement our recorded talk?
+- What are the different groups, what are their purposes, what’s their structure? Are they in fact different groups or what?  How do they relate?
+* 30 October 2021 — Emacs Research Group
+#+date_created: <2021-10-30 Sat>
+
+** PAR                                                           :10m:review:
+**** 1. Review the intention: what did we expect to learn or make together?
+- We wanted to finish the presentation
+- Joe wanted to report on CLA progress
+**** 2. Establish what is happening: what and how are we learning?
+- We made good headway on the presentation
+- Fielded late-breaking-news as a lightning talk (CLA methods inside Org Roam)
+**** 3. What are some different perspectives on what’s happening?
+- We’re not late, but we are using a bit of overflow time
+- Merged the CLA and the talk notes in one place and are weaving them together
+- This is an example that things sometime take longer than expected so this is a good example of why we may need the extra buffer of time
+**** 4. What did we learn or change?
+- We still had to spend some time sorting out timezone differences for our workshop
+- We’ve adapted our objectives based on how much progress we have been making today
+**** 5. What else should we change going forward?
+- For Tuesday session finish the storyboarding and slides
+- We have the agenda for next week: to record the presentation on Saturday
+- Return to the CLA in a future two-hour Planning session
+- Anyone who wants to read the notes can review them before the meeting
+- Some week in November or equivalent of time we should devote to finalising the PLoP paper (to be scheduled; it’s due on the 7th of December)
+- EmacsConf itself is on November 27th and 28th
+- Next CLA cycle begins on November 20th, this can therefor cover planning and how we did with the talk
+* 13 November 2021 — Emacs Research Group
+#+date_created: <2021-11-13 Sat>
+
+** PAR                                                           :10m:review:
+**** 1. Review the intention: what did we expect to learn or make together?
+- JC: We wanted to have a short session, and even though there were doubts about needing to go for a second hour, we’ve managed to do verything we wanted to do.
+- Recall that in the CLA it says "we are going to focus on methods"
+**** 2. Establish what is happening: what and how are we learning?
+- Kept to 1 hour (with a 10 minute PAR overrun)
+- The meta talks we’ve had this week have allowed us to make good headway on how we work together; this is at least somewhat related to our work on the PLACARD workshop
+**** 3. What are some different perspectives on what’s happening?
+- RP: Wanted to get to PLoP today to have time to think before we jump into editing
+- NA: We’re maturing as a group, being more deliberate about what we’re doing which is nice.
+  - We’ve been able to turn our aspirations into concrete things and delivering
+  - Maturation is a process that doesn’t necessarily imply more outputs; but we can think that as we mature we can produce more stuff
+**** 4. What did we learn or change?
+- Out of our discussions during the week, we’ve also developed potential new patterns, like VEST (Visionary, Engineers, Scientists, Technicians)
+**** 5. What else should we change going forward?
+- Possibly adjust Hyperreal coffee chats
+- The talk should reproduce more ERGs after we plant the seeds!
+- For 2022, can we take steps to equalise the volume across our mics/sessions (maybe with suggestions to BBB)
+* 20 November 2021 — Emacs Research Group
+#+date_created: <2021-11-20 Sat>
+
+** PAR                                                           :10m:review:
+**** 1. Review the intention: what did we expect to learn or make together?
+- Review agenda.org and talk about whether the PLACARD methods was actually useful for us in real terms
+**** 2. Establish what is happening: what and how are we learning?
+- We had that discussion
+- In addition, Noorah and Joe and Ray came up with an agreed plan for a submitable version of the PLoP paper via moving much of the discussion to Journal version outtakes
+- By breaking/inflicting pain upon CRDT we have learned some of its limitations that can be resolved later
+  - =(defun crdt--remote-fcap-advice (lambda (x)))= ??
+- Touched on several interesting points in agenda.org that can help us organise our thinking, furthing the discussion of what we’ve done as ERG and what’s good about it and what we will do in future
+**** 3. What are some different perspectives on what’s happening?
+- Joe said: "this is what I want to be doing with my life!"
+  - This session is a great synthesis of a writer’s room feel and strong technical abilities
+- Leo is tired
+- Ray: We want to finish things so we get a break for Thanksgivings and get back fresh without things hanging over our heads
+  - Leo: And in general closing things without reintroducing new things right away (at least not as joint projects)
+  - What else have we been sacrificing in our activities?
+**** 4. What did we learn or change?
+- Be wary of introducing new things, but if there are things we’ve started make sure we finish or decide they shouldn’t be finished
+- That’s actually what agenda.org is for!  It’s for sketching and thinking about possibilities.
+**** 5. What else should we change going forward?
+- Based on our use of agenda.org (which lives in exp2exp repo)
+  - We designed it as an an ad hoc file for managing projects... it would be good to keep using and developing it... eventually this file might live constantly on Leo’s CRDT server
+  - What if, when you open the file on the server, you can specify, e.g., "Joe has this file on his computer and it lives here" (subscribe to any changes on the server)
+- Take it easy and don’t work 128h per week!
+* 4 December 2021 — Emacs Research Group
+#+date_created: <2021-12-04 Sat>
+
+** PAR                                                           :10m:review:
+**** 1. Review the intention: what did we expect to learn or make together?
+- Leo moving to ‘vice-chair’, freeing up mental space, maintaining the level of flexibility as a group that has been flexible for us
+- Working on the tools is another important way to work towards flexibility
+**** 2. Establish what is happening: what and how are we learning?
+- Thinking about the roles that we take on in the meeting
+- LV: At EmacsConf, when I wasn’t talking, I was doing things in the background
+- RP: We agreed to meet with QH one day a week on some other topics, hoping to have Joe join this so we can start meeting this day (could take over / mesh with the logic programming stuff)
+**** 3. What are some different perspectives on what’s happening?
+- "Thanks" is appreciated as a way to socially lubricate the conversation
+- Everyone’s overworking, COVID is starting again
+- RP: Thank you to all of you for what you’ve added; and in answer to the question about the PLACARD workshop, important roles aren’t always active roles, sometimes a neutral observer comes in when the active people don’t see things.  Even if I don’t know much about a topic I don’t feel it’s a waste to show up!
+- NA: Yes; I want us all thinking about Season One in terms of production, so having more structure, and being in the right mental space so we don’t go all over the place.
+- JC: if we want to organise it as a season, then we might need a story arc, not just organising things as an ‘ad hoc’ improvisation every time
+- LV: If there’s something I’m less good at but still the only one able to do it... then I should do it!  E.g. a maintainer’s meeting would help many maintainers, and we have all the tools to do this.  And I really want to experiment with this.  But I don’t want it at the cost of flexibility; though, it’s always hard to run a meeting and can be clunky; but I want it to be done w/ a bunch of care.
+- LV: Thanks for letting me field this!  And willing to run behind you to help the next phase!
+**** 4. What did we learn or change?
+- Flexibility: e.g., if a “CRDT” isn’t ready until next week, we could just move things around
+- If we kept 30 minutes for checkin, we’d have plenty of time to talk about latest changes for CRDT and then go on to a seminar + discussion
+- Leo has had a high level of fatique from November through now; can look forward to similar work surge with future dayjob
+- This sort of fatigue and role change is the cardboard kaiju we have been preparing for
+**** 5. What else should we change going forward?
+- Noorah as chair for next week; keeping in mind that this is an experiment
+- Let’s remain honest with feedback!
+- LV: The best way to address not-feeling-responsible for things, would be to to be responsible for things where it’s valued and have others replace me in areas where I’m replaceable
+
+
+* 11 December 2021 — Emacs Research Group
+#+date_created: <2021-12-11 Sat>
+
+** PAR                                                           :10m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- High level: see where we are for the end of the year
+- Practice chairing by Noorah!
+- Still after the conference so right before the new year, still thinking what are the new things to do, so it is in an intermediate stage
+**** 2. Establish what is happening: what and how are we learning?
+- NA: We’re getting there from a chairing standpoint
+**** 3. What are some different perspectives on what's happening?
+- JC: Chairing has gone well!
+- JC: Happy to see that LV has more time to involve 100% of his brain to those meetings.
+- LV: Comments about the process: Noorah did a great job, though I don’t feel like I’ve been listened to about weekly organisation (e.g., I didn’t field); scheduling is in a bit of a shambles, we end up the session w/ a point being cut short, e.g. "let’s discuss on Tuesday"...
+- LV: we should have been wondering "How best to contact Greta"?  Was it for ERG?  Confusion about how to get them mobilised is not adequately addressing how to get people working with us.
+  - LV volunteered his time to induct Greta as an ad-hoc solution if need be.
+- (RP: But this was for PLACARD, and a part she could play there!; and JP was multiply interested in Peeragogy, this would be different from contacting them all three for the meeting here.)
+**** 4. What did we learn or change?
+- JC: LV shared audio-concerns about the audio-quality, and I wonder how we may address it in the near-ish future.
+**** 5. What else should we change going forward?
+- JC: If we could get high-quality footage in the coming ≈6 months, that would be a nice goal...
+- LV: A good first goal would be not to cause physical pain, so let’s get that sorted sooner
+
+* 16 December 2021 — Emacs Research Group
+#+date_created: <2021-12-16 Thu>
+
+
+** PAR                                                            :9m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- NA: We intended to think about the ERG roadmap.
+- NA: We’ve had an interesting+healthy discussion about what is expected.
+  - How do we want to conduct ourselves?
+  - What’s the bar? What’s the intention that we come in on each meeting?
+
+**** 2. Establish what is happening: what and how are we learning?
+- JC: This is the last PAR after, effectively, our first year of working together (as Charlie pointed out).  The massive amount of maturation =:-}= after a year should be acknowledged.
+
+**** 3. What are some different perspectives on what's happening?
+- NA: Creative work is very hard, and isn’t well-fueled by strife
+
+**** 4. What did we learn or change?
+- LV: I’d say we are having a distentiated perspective to CLA and perhaps also to the PAR, going back to what they mean, the essence; we headed into this discussion about how and why that in hindsight feels similar to CLA, but which we didn’t say "we are heading into a CLA".  This is trying to mobilise what Charlotte said about taxonomies, they can become a box from which you have to think outside.  The processes are adaptable... I’d invite us to rethink what these are about, and get it towards a more practical core.
+  - Hedging the discussion; you bring a ponderous playbook of "CLA".
+  - Today we mobilised a lot of the same tools but it didn’t feel half as handicapping on the way we were conceptualising things.
+  - JC: Just having that rôle, as per our workshop, it’s just a guideline
+- RP: This sounds like the issue w/ handbook where we have attached a specific meaning to the word in this group that might not mean the same thing in other groups
+- LV: "Common ground" is essential!! (JC: !!!)
+  - There might be an offset between the map and the territory
+- RP: The difference in perspectives and priorities may not always align
+- LV: Since we’ve been diligent in reviewing regular cycles, maybe we should review the common ground
+**** 5. What else should we change going forward?
+- JC: Volunteers one more CLA for January 15th
+- LV: Because of all the pompousness... it comes to mind with the Monty Python Grail priest who hits themselves in the head.
+- NA: could we have images for each layer, play with it... it doesn’t have to be exact.
+* 15 January 2022 — Emacs Research Group
+#+date_created: <2022-01-15 Sat>
+
+** PAR                                                           :10m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- Clarify how we 'work' together
+- Scope of ERG
+**** 2. Establish what is happening: what and how are we learning?
+- We’d like a "Relationship with difficulties" that itself feels light fun and creative, not adding even more difficulty
+**** 3. What are some different perspectives on what's happening?
+- LV: We’re back after a month, but we’d been meeting weekly before then. We remember each others names but not that of their cats.  There’s some distance and asyncronicity.  And we’re all tired, each in their own ways and time zones.  If we met at a different time it might help!
+**** 4. What did we learn or change?
+- Chronos crash can cause propagating crashes
+- Dormancy isn’t opposed to creativity, but I don’t want to bring saturnineness
+- Idea to focus on Emacs, firstly, and EmacsConf, secondly; and a support group aspect, thirdly.
+- Cf. "Feeling Good" book
+**** 5. What else should we change going forward?
+- JC: Let’s keep doing the things that support our work together (namely LV and Qiantan’s work on making crdt.el better; similarly Joe and the peeragogy folks, assuming that’s useful).
+- Could make the time 1600 UK after some negotiation? Leo would really like that, and it should be possible for Joe’s family (maybe appreciated by the West Coast folks)
+- NA: Create journaling prompts for every day?  Emacs could ask me a question, and it would ask me another question when I am done.
+* 22 January 2022 — Emacs Research Group
+#+date_created: <2022-01-22 Sat>
+
+** PAR                                                           :10m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- LV: What I used to do was to try to revisit the agenda, today was mostly "let’s have a bog standard session"
+- The first half of this meeting was about intention-setting: scope, intention, who/what, clarifying questions about what has come up over the last year
+
+**** 2. Establish what is happening: what and how are we learning?
+- We tend to skip question 1! in the PAR.
+- JC and LV taking notes simultaneously allows one to think about structure of the meeting, i.e. for returning to a previous agenda point.
+- JC: Having short demos makes the meeting feel more meaningful.
+- JC: We’ve got a new 1½h format, and I think we’ve done a good way of adapting it today.
+
+  (Not sure where to put it)
+- JC did a quick presentation of his reply to Charlotte’s question on what AAR meant.
+  - JC: I particularly like the idea of experiments
+
+**** 3. What are some different perspectives on what's happening?
+- Other people use other formats for review, so the wording there shouldn’t be seen as set in stone.  Maybe the format should adapt to us.
+- LV: The lean/agile cycle is inherent in most Agile methods.  We’re familiar with patterns and cycles.  Perhaps we could accommodate the use of "experiments"; themes, reviews, all seem a bit like experiments without the name!
+
+**** 4. What did we learn or change?
+- Let’s revisit the AAR format from the Discord
+- Changed the starting time and length of the meeting, and we haven’t missed anything
+- JC: We have a lot of clarity, /perhaps/ more so than every time before.  We know the ins-and-out of the Game™, and now we just have to play it!
+  - JC: As a way to ensure consistent progress, I’d like to meet with NA to review the CLA in light of the points I’ve brought up in this point.
+    - NA: Will follow-up with you at another time! <<TODO for NA>>
+
+**** 5. What else should we change going forward?
+- NA: Workshop meetings are Tuesdays and Thursdays 10 am CST/9 am EST
+- I’d suggest every time we come in on Saturday, the intention has to be Emacs-related.  Whatever ideas you’re bringing in must link to Emacs (use, interaction); keep your thoughts focused on that?  "How are we going to implement it in Emacs?"
+- Not checkins, that’s just something simple.
+- JC: Re: workshop; feeling very encouraged that this might be the seedling of an Emacs-based workshop.
+* 29 January 2022 — Emacs Research Group
+#+date_created: <2022-01-29 Sat>
+
+** PAR                                                           :10m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+
+- Wanted to look again at psychotherapy and mal-mode
+- Look briefly at NNexus proposal
+
+**** 2. Establish what is happening: what and how are we learning?
+
+- We had interesting discussions about how to navigate time and space and meaningful content together?
+
+**** 3. What are some different perspectives on what's happening?
+
+- JC: Noticed some CRDT issue
+- LV: This is fixed two months ago, but we haven’t been able to chat things through; we could update to a newer CRDT soon, at most a month.
+- JC: Very pleased to hear Noorah’s update on networking progress, cool stuff!
+
+**** 4. What did we learn or change?
+
+- Funding and grants, even for PhD students can be pretty good money.
+- Let’s look at some James Pennebaker stuff
+
+**** 5. What else should we change going forward?
+
+- Share a version the grant when it’s a little more complete.
+- JC: Look at relationship between big press of work, and stress levels on the possibility of reward.
+- Better abstraction of psychotherapy
+* 05 February 2022 — Emacs Research Group
+#+date_created: <2022-02-05 Sat>
+
+** PAR                                                            :8m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- NA: I don’t know
+- JC: We wanted to have the meeting be short
+- We wanted to update CRDT
+
+**** 2. Establish what is happening: what and how are we learning?
+- JC: We had some hiccups with crdt.el which had to be debugged live.
+- LV: Joe did a machine-gun style presentation on Anticipation 2022 that was a bit hard to follow
+
+**** 3. What are some different perspectives on what's happening?
+- LV: We shouldn’t be making the first question in the PAR about repeating the agenda; perhaps good note-taking is invalidating the need for question 1.
+- JC: One-hour session isn’t impossible to work with
+- LV: But we did only dabble with some topics; in my life, I plan for 8 hours, but actually aim to get 6 hours of work done.  Meeting of 1h30 works because we get 1h of actual meeting out of this.
+- We had thought to meet once to refine the agenda
+
+**** 4. What did we learn or change?
+- JC: We’ve got acquainted with ourselves working at a father pace (helium + cocaine, could be a good/bad idea...)
+
+**** 5. What else should we change going forward?
+- JC: We look forward to a more leisurely-paced meeting next week.
+  - Maybe try to set the agenda by Friday
+- We do plan another meeting during the week at some point to look at Anticipation?
+* 12 February 2022 — Emacs Research Group
+#+date_created: <2022-02-12 Sat>
+
+** PAR                                                            :5m:review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- Try to tune-up our tools?
+- Try to have a distantiated view on the PAR (not =PAR^2= but something simialr to it)
+**** 2. Establish what is happening: what and how are we learning?
+- Went at it from the angle of PAR as an exercise in mindfulness/grounding
+- Also from the action-oriented perspective: Is it helpful for us in what we are trying to do?
+- What’s the actual value of the PARs going forward?
+- JC: Has the process of doing *and reviewing* the PARs gone stale?
+  - Could we address it via the appropriation of the CLA?
+- Roger Mercer interview could be an example of using CLA as an organising framework, e.g., for writing, or other things
+
+**** 3. What are some different perspectives on what's happening?
+- LV: It’s been a slog, maybe because I was tired, I felt slightly underprepared with the CRDT update. Perhaps we were rushing too much to keep it to one hour, but I leave feeling like more could have been done; or there wasn’t much to contribute to.
+- NA: It does feel rushed.
+- NA: I like Joe’s idea of collecting the previous PARs and tagging them for the litany/system/worldview/myth layers...
+- What even are the tags for this one?
+
+**** 4. What did we learn or change?
+- LV: I’m not sure yet if the CLA review is something I’m on board with; I’m on board with having the PARs be something to ground yourself with in the present
+
+**** 5. What else should we change going forward?
+- Defend CLA to Leo
+  - JC: Maybe it’s mostly "concentration" rather than "mindfulness"
+  - LV: Still not sure it’s contributing to the structure we’re trying to build
+- JC: We should return to this mission of writing one slide per month.
+  - To that end, we should be able to write the slide for January.
+  - Even if the CLA isn’t a great method
+- LV: This could be like too much cruft; a SOKOBAN with too many boxes
+* 18 February 2022 — Emacs Research Group
+#+date_created: <2022-02-18 Fri>
+
+** PAR                                                               :review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- NA: What is this question... how did we achieve our initial objective?
+  JC: I had thought we might put CLA on trial, we didn’t, that’'s OK.
+- When we go into the meeting, we just go into checkins, we don’t go talk about the intention for the meeting.
+- Do we need an intention for the meeting?
+- The PAR should be a two-step process.  At the top, briefly go through an outline.
+- NA: I can go through an outline, and if you want to talk about something, let me know by Friday night.
+- PrePARing the PAR is something we talked about with Charlotte for a while
+**** 2. Establish what is happening: what and how are we learning?
+- Leo’s doing native compilation during the meeting, because he saved init.el!  This made his voice crunchy for a while.
+- Demoing our work and discussing...
+- Witnessing a group working well, not hampered by tension, geared towards action, comfortable enough to eat and crack jokes...
+
+**** 3. What are some different perspectives on what's happening?
+- Without trying to have everyone at the party we can be focused
+- The big parties are nice/admirable AND good to have "breakout rooms".
+
+**** 4. What did we learn or change?
+- JC: I did learn something about VNC being image-based.
+- NA: Also learned about SSH as well, and how I want to work
+
+**** 5. What else should we change going forward?
+- SSH and other remote stuff can be infuriating... let’s keep it simple.
+* 26 February 2022 — Emacs Research Group
+#+date_created: <2022-02-26 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Review the intention: what did we expect to learn or make together?
+- Had been thinking to do item 1 of the PAR before we get going this week!
+- Think about the workshop workflow at first, and then if we have time think about the wiki as the data collection
+
+**** 2. Establish what is happening: what and how are we learning?
+- Talked about inputs and outputs more than workflow
+
+**** 3. What are some different perspectives on what's happening?
+- This seems eschatological (“connected with the part of theology that is concerned with death and judgement”).
+
+**** 4. What did we learn or change?
+- Got some breathing room with the concepts and ideas
+
+**** 5. What else should we change going forward?
+- Next ERG meeting, Saturday 5th?
+- LV: Date for next meeting with Abby = Thursday the 10th as a next touchpoint
+- Think about a roadmap to the Michael event
+* 05 March 2022 — Emacs Research Group
+#+date_created: <2022-03-05 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- Made some tables trying to make roadmaps
+- Shared some example design patterns trying to find the sweet spot of what participants can appreciate: applied a Goldilocks principle to complexity, though we don’t yet have an answer for the medium-sized thing, we’re starting to get a feel for it
+
+**** 2. What are some different perspectives on what's happening?
+
+- Trigger-inducing to be talking about vapourware, so I’ll try to be sterner not to get over the moon and bring us back into actualizing the ideas
+- Meta-stuff (e.g., our three year workshop) muddles up the objective which is to provide something for users of the workshops
+- We’ve used the terms "experts" to describe both participants & people who attend; this can be confusing
+
+**** 3. What did we learn or change?
+
+- Plea for some clarity on the terminology, maybe we need a glossary of clear terms.  "There’s only one problem in programming, and it’s how to name things."
+- Got some hope from the [[process]] section
+
+**** 4. What else should we change going forward?
+- NA: Ready to produce something on this framework
+* 19 March 2022 — Emacs Research Group
+#+date_created: <2022-03-19 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- We are catching up on last week’s session, mostly a review session with the exception of some helpful show-and-tell
+- There hasn’t been a lot of discussion so it’s been more briefing (less back and forth than would be nice!)
+- LV: This seems symptomatic of coming with stuff to present; but we don’t have a good plan of how we’re going to present things, the time grows organically with the contents, but it’s not conducive to conversation
+  - JC: We could just say: “if there’s a talk, let’s cap it at 10', leaving 10' for discussion”
+
+**** 2. What are some different perspectives on what's happening?
+- LV: I was happy to present the system above but would benefit from greater conciseness
+
+**** 3. What did we learn or change?
+- Both LV and JC have admitted that their situations require remediation.
+  - JC: “Some of the compartments of our lives are at risk of overfilling, and we should probably tend to them.”
+  - JC: This means that in Bergson terms, we have some real problems to solve, so that’s a good thing.
+
+**** 4. What else should we change going forward?
+- Writing down questions to ask others as a way to limit the "talk" portion, and add more "query from others".
+- Taking the time to write the questions down could help with curiousity commitment
+- We could also bring experimental questions like "What happens if we do 5 minutes of co-journaling?"
+* 02 April 2022 — Emacs Research Group
+#+date_created: <2022-04-02 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- Leo is very stressed
+
+**** 2. What are some different perspectives on what's happening?
+
+- We (JC+NA) didn’t know that before this conversation, but it makes sense in context.
+- JC: "Practice self compassion" seems like good advice.
+
+**** 3. What did we learn or change?
+
+- The only thing Leo feels he can do is take some down time
+
+**** 4. What else should we change going forward?
+
+- It’s easier said than done to practice self-compassion, especially if you’re finding it hard to get out of the self-critical spiral.
+- Understanding how things work can help, and feeling stuck in terms of "trapped" stories isn’t fun
+* 09 April 2022 — Emacs Research Group
+#+date_created: <2022-04-09 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- 1/2 hour check in good this time, might need this to get a sense of being in the same room together
+- Today’s might have been overkill but it was warranted
+
+**** 2. What are some different perspectives on what's happening?
+
+- Feels like a productive meeting
+- Maybe we need to think of check-in and check-out as the inputs and outputs of the meetings; this helps us understand the /process/.
+
+- What even is a process?  A process is more actionable and moving.
+
+**** 3. What did we learn or change?
+
+- We’ve started to build that taxonomy...
+- Are patterns the /puzzle pieces/ that we’re creating
+- A pattern is an action, and an anti-pattern is either a negative action or something that /you don’t do/ and that’s negative.  So, we can ask: what’s something that’s NOT WORKING?
+
+**** 4. What else should we change going forward?
+
+- We should all practice more about asking more questions.
+* 16 April 2022 — Emacs Research Group
+#+date_created: <2022-04-16 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- We are clarifying our methodology, becoming more concrete on the elements of a pattern, and this is a step forward.
+
+**** 2. What are some different perspectives on what's happening?
+- We’re working with abstraction/meta in a funny way because we used the PAR as a running example above.
+- The meta move was to consider one of our patterns, but being very concrete about "what is a pattern, context, and so on".
+
+**** 3. What did we learn or change?
+- This scratched the itch about clarifying the taxonomy about terms that we use
+- Even though we have pluralised e.g. solution -> click + action, it’s helping to build a solid mental map; this makes it easier to talk about things
+- Joe suggested a "Context" step as the 1st-of-Three
+
+**** 4. What else should we change going forward?
+- Asking
+- Since we didn’t address the pre-PAR today, we should probably rewrite that initial question into something that is more meaningful to us.
+  - e.g. from Peeragogy: everyone comes with a question.
+- NB. Pre-PAR is first step before jumping into the agenda, so we didn’t need to anticipate too much.
+* 23 April 2022 — Emacs Research Group
+#+date_created: <2022-04-23 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- We looked at good attributes deployed by LV for studying Python
+  1. Developing capacities rather than just targeting one job.
+- Developing his fundamentals on Python
+- “Don’t worry too much about the grant-finding and more
+**** 2. What are some different perspectives on what's happening?
+**** 3. What did we learn or change?
+- NA: Looked briefly at [[https://www.constituteproject.org/][ConstituteProject]] as template for wikis
+**** 4. What else should we change going forward?
+* 30 April 2022 — Emacs Research Group
+#+date_created: <2022-04-30 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- LV: I’m doing wax-on, wax-off with Python; I’m also excited to be thinking about Free Software
+- NA: We’ve covered a lot and I’ll have to go back over some of it
+
+**** 2. What are some different perspectives on what's happening?
+- NA: I’m feeling overloaded with information today
+  - It’s very hard to synthesize new information in 90 minutes!
+- JC: There’s more information didn’t even cover!
+
+- LV: I’m also reverting to modes of engagement for when I was writing about and thinking about Org Roam, which is like juggling many burning potatoes; maybe 90% is relevant, but some of it is only relevant to me; we could save some implementation details.
+
+**** 3. What did we learn or change?
+- LV: What will change is to have the ejector seat more readily
+- Maybe it’s a context-shift, e.g., to "transplant your darlings"
+
+**** 4. What else should we change going forward?
+- Maybe we could make some future sessions more oriented to producing things together rather than notes (maybe focus on consolidate).
+* 07 May 2022 — Emacs Research Group
+#+date_created: <2022-05-07 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- It’s been a bit awkward, due to some mis-communication.
+
+**** 2. What are some different perspectives on what's happening?
+- LV: I’m miffed, because I feel I’m cast in the role of a dissident, since I try to facilitate advancement and focus on projects.
+
+**** 3. What did we learn or change?
+- Joe met w/ Abby but it felt like a completely different thing, at the expense of our previous good work.
+
+**** 4. What else should we change going forward?
+
+Let’s think about the PLACARD method or the method we want to send to
+Abby, and pick patterns that we think are important, and come to
+discuss them next week.  Let’s each bring 5-10 of them.  Think of
+these as the "continents", the "meta-categories" of the method.  Could
+compare npl.wiki’s major categories.
+* 14 May 2022 — Emacs Research Group
+#+date_created: <2022-05-14 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+
+We all met on Emacs stuff and FLOSS stuff, and we had a grid of software *collaboration* online.  Software engineers, we use the term “engineer” as a term of experience even though we don’t do a lot of actual engineering. But in fact it’s available to anyone, you don’t need a fancy degree or ages studied mathematics & physics.  You might get people building the equivalent of bridges that collapse...  But you don’t expect bridge-builders to share their designs.  I think this is our heritage from the shared field we come from.  We had an interest in software.
+
+JC: AT & JC have been thinking about software a lot too.
+
+AT: It does seem to form the basis of what we’re doing, we talked with AK about this yesterday, and talking and thinking about the limitations of the architecture there.  Making something relatively abstract take shape with practicality seems nicely embedded in natural sciences but it was born out of problem solving at a computational level.  There’s a dance between abstract-communication-enhancing stuff (which can also bridge disciplines) and making it practical (within disciplines [JC: within transdisciplinary teams?]).
+
+**** 2. What are some different perspectives on what's happening?
+
+- Design is the "remedy against complexity"; or perhaps a “/dance/ with complexity?”
+- Simplify as much as possible (in software); have a stance where you hide in a machine whatever should go in the machine, and create a simple interface (e.g., just press a button to turn on the computer)
+- Conversations w/ AK almost mimics this: the situation is computationally complex trying to account for every single policy in a moderately-sized matrix.  AK is working with someone to try to solve this.  Behind the solution is a refinement of policies, creating a condensation of complexity.
+- This is what Noorah was telling us to do with people in transdisciplinary groups
+
+**** 3. What did we learn or change?
+
+- Abstract to practical...
+
+**** 4. What else should we change going forward?
+
+- We like the computational approach, looking at what to do with patterns that are close
+- It’s more machinistic
+* 28 May 2022 — Emacs Research Group
+#+date_created: <2022-05-28 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- Lateness in EmacsConf isn’t going to be a regular feature.
+**** 2. What are some different perspectives on what's happening?
+
+- Asking, “what tools can make a rapid sense-making team work better” is a good question for us to be asking.
+- We missed Leo during first half!
+**** 3. What did we learn or change?
+We can, e.g., start to intuit not just that something ‘is’ related, but how it is related.
+**** 4. What else should we change going forward?
+- Let’s try to plan out our engagements up to September, including 2-week breaks
+- Organise an open house?  Maybe beta-testers once we’re ready.
+* 11 June 2022 — Emacs Research Group
+#+date_created: <2022-06-11 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Certain about of real talk from Leo about money
+
+**** 2. What are some different perspectives on what's happening?
+- JC: I feel OK about what we got to
+- NA: I don’t think you should ever have to pull money out of your pocket to pay people [LV: especially when the money is supposed to be available]
+- LV: I feel better about it because I can re-allocate brain power w/o the worry
+
+**** 3. What did we learn or change?
+- Maybe we practiced our adaptive capacity, if we don’t get paid it’s a bummer
+
+**** 4. What else should we change going forward?
+- Leo’s invoice says it’s only valid for two weeks, should stick with something like that
+- Reassure Abby that she’s a catalyst here, and basically out of the equation until the money flows
+* 02 July 2022 — Emacs Research Group
+#+date_created: <2022-07-02 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- Back after a break
+**** 2. What are some different perspectives on what's happening?
+- I think we covered a lot of ground
+- The break was a good thing
+**** 3. What did we learn or change?
+- Stay away from focusing on content only and leave that for others
+- Think about the design, think about implementation later.
+**** 4. What else should we change going forward?
+- Let’s focus on how we run the workshop
+- Maybe we could do a micro version of the workshop
+- How can we ‘wrinkle’ the ≈12 people that Abby brings
+- "Generate coordination between people who are not coordinated naturally"
+- So we need to be experts at coordinating people that are not traditional
+- Coordination as the transmissible skill that we want people to get; therefore, the archival wiki becomes a wiki on how to coordinate people in untraditional ways
+* 09 July 2022 — Emacs Research Group
+#+date_created: <2022-07-09 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Noorah & Joe talked & took a step back, coming back to re-focus on the method as the core thing
+- LV: Not opening the gate but stepping back
+**** 2. What are some different perspectives on what's happening?
+- JC: To take as a learning that getting super excited about the next big thing is a bit ungrounding!
+- NA: Good to ask, are we doing what we agreed on?
+- LV: I can understand the summary, but I should have been there to understand the different rhythm; I can validate it but somewhat regret that I couldn’t have been there.
+**** 3. What did we learn or change?
+- We’re wrapping our head around the methods
+**** 4. What else should we change going forward?
+- Do what we’re good at rather than trying to learn new things.
+- Joe, don’t go back and do another Master’s degree!
+* 16 July 2022 — Emacs Research Group
+#+date_created: <2022-07-16 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- Big innovation to have a drawing!
+- Sacha did this at EmacsConf 1 and probably since then... next time probably coming with stenography or whatever!
+
+**** 2. What are some different perspectives on what's happening?
+- JC: I think last meeting was a good experience for us to work together as a team, and a good bonding experience.
+
+**** 3. What did we learn or change?
+- "Relationships" as a key element that updates through the workshop process
+- Wiki is tangential b/c it outputs all the good things we’ve done.
+  - Do we have a shared folder?
+  - We could drop it in our repo...
+  - Or we could make them embed into the wiki.
+
+**** 4. What else should we change going forward?
+- LV: Redo some of these drawings
+  - NA: And export a PDF.
+- JC: Need to do the "next steps" from our meeting from Abby
+* 23 July 2022 — Emacs Research Group
+#+date_created: <2022-07-23 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Today slow paced meeting
+- Felt deliberate
+**** 2. What are some different perspectives on what's happening?
+- Good exercise to go back over w/o any notes to see if we retained anything
+- Glad we’re confident about the litany layer (and myth layer as something that everyone agrees on, but we will figure out what that is).
+**** 3. What did we learn or change?
+- It feels good to slow down so we’re not rushing w/ more new ideas all the time!
+**** 4. What else should we change going forward?
+- Maybe it would be good to have a CLA expert run a master class with us
+- Joe will visit a democratic school soon, that could be a good fit for some future "CLA for kids" opportunity
+  - LV: Secondary school kids mostly do rebellion and subordination; "system" putting 30 in one classroom...
+  - NA: What about putting 30 of them into a Fortnite game?
+  - Teaching & games: a lot of crafting went into FN, and kids are sold on this.  But in the classroom, we have 1 person 5 years of education, focus on the discipline rather than learning how to teach!  And you charge them with a huge scope.  We might want to learn from this to keep the scope limited.  Could we design a ‘problem’ out of the workshop, by trying to find a more limited scope.
+    - If we limit what they can come up with by asking limited questions that could help them think outside the box!
+* 30 July 2022 — Emacs Research Group
+#+date_created: <2022-07-30 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- We’ve worked on the periphery of what we’re doing with Abby, but gearing ourselves towards the future, especially future grants.
+- We dug through the CLA layers, collecting questions that we found relevant to running the workshop.
+
+**** 2. What are some different perspectives on what's happening?
+- Since it’s only NA and LV, it’s going to be hard to collect different perspectives.
+
+**** 3. What did we learn or change?
+- LV: We’ve enshrined the use of diagramming during our session, and this is helping us quite a bit.
+- We’ve reinforced our desire to learn more about the different layers, and especially how they dovetail, or do we transition to one to another.
+- Having transition layers allows us to visualize flows of transformation for the participants
+
+**** 4. What else should we change going forward?
+- LV: We might want to find time in our weeks to work on our own on the project.  The reason is that we sometimes find ourselves desperately short on time with our Saturday session (or scatterbrained towards the start) which is not conducive to long, quality work.
+* 06 August 2022 — Emacs Research Group
+#+date_created: <2022-08-06 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- We are working simultenously on multiple aspects of the workshop. It's a bit disorienting, but inspirational when I'm hearing other folks' input.
+**** 2. What are some different perspectives on what's happening?
+- Would it be helpful to present EmacsConf with themes like ‘community’ to structure their contributions?
+- We can fail, be derailed, and stuff like that, without it being too problematic; today we have surface for learning based on how we lacked being on point but we have actionable items for future about how to address that
+- Supportive concern more important than specific progress anyway!
+
+**** 3. What did we learn or change?
+- Let’s share earlier with consideration to having time to read (e.g., <5 pages by Thursday 0000UTC, <10 pages by Wednesday!)
+  - Could have an auto-scheduler to send reminders but that’s an unnecessary upgrade.
+  - Could have the agenda ready in the week before, so everything’s in there
+
+**** 4. What else should we change going forward?
+- Can we coordinate better to dump what we want the others to read or consider in advance, e.g., 10 minutes before the meeting that we all know what we’ve got
+- JC: I want to do some background research on potential attendees for Bristol workshop, especially related to how they think about ‘problems and solutions’
+- JC: Propose meeting with Abby on the 16th
+* 13 August 2022 — Emacs Research Group
+#+date_created: <2022-08-13 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- We want to be talking about the cool shit that we do with Emacs, and because we’re always ‘doing bsns as usual’ with Abby, we find ourselves somewhat starved for creativity, so maybe we might want to enshrine this into the way we run those meetings.
+**** 2. What are some different perspectives on what's happening?
+- NA: Glad we talked about finances
+- JC + LV: Idea of paying Leo for the contract now out of our current takings is a good one.
+- LV: It was good to have 100% of our brains available!
+**** 3. What did we learn or change?
+- Joe to do reasonable business actions
+- We revisited the rôles; re-inhabiting Phase 2.
+**** 4. What else should we change going forward?
+- Could link the template-generating code inside the repo, and link to the yasnippet directory and this directory so that we always use the latest version of the template
+- Leo could set up a set of chained timers matching the ERG agenda, and start the timer at the start to keep us on track
+- We need a shared document as an initial workspace for this workshop — not an org roam repo for now
+* 20 August 2022 — Emacs Research Group
+#+date_created: <2022-08-20 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- We had 3 parts, so weird, and fast too!
+
+**** 2. What are some different perspectives on what's happening?
+- At risk of singularity + black hole at the same time.
+- LV: I don’t like doing tech at the end w/o time for questions
+- NA: Needs to marinate!
+- We had an extended checkin due to walking, and pre-loaded work on dockerization.
+  - Live walk corresponding to the pre-recorded one was kind of fun
+- LV: I liked that I could state that I’m stressed about org stuff, and we could just defuse it really quickly.
+
+**** 3. What did we learn or change?
+- Doing things in 5 or 10 minutes is only really accessible to people who know what they are doing
+- How prepared are we?  Enough to ask some questions to Abby, and also enough to be ready for a run-through on the 2nd.
+
+**** 4. What else should we change going forward?
+- Sticking to the plan a bit more would be good
+- Deal with stress associated with feeling a bit unprepared?
+- Propose a joint meeting w/ Abby for Friday: 8:30AM Pacific time, 10:30AM Central, 4:30PM UK time, 5:30PM France?
+- Taxonomy would be nice but it’s more long-term, not vitally needed just now.
+  - Work more next week.
+* 27 August 2022 — Emacs Research Group
+#+date_created: <2022-08-27 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Dialogue with Abby after a few weeks
+- Going over the levels and layers again and starting to feel pretty confident with it
+**** 2. What are some different perspectives on what's happening?
+- JC: Everyone is feeling refreshed and a bit excited.
+- LV: We’re the only experts after the stripping of expertise
+**** 3. What did we learn or change?
+- Our exploration of the taxonomy of disorder was very fruitful, and our perspectives on Phase 1 are very positive.  We feel a little hazy about part 2, though.
+- “If I were to take part in a workshop like this, I want to take part in it with my professional skills (e.g., as a software developer; and the way we work with /free software/ is something we want to propagate!)”
+- Our backgrounds should make us good at running the workshop even with a very different crowd from the ones that we’re familiar with: we can get to the nitty gritty quickly.
+**** 4. What else should we change going forward?
+- Let’s work on Phase 2, it’s harder to think about the future — future stuff is something we’re still learning about.
+- It’s great to come back feeling refreshed after exploring the myth level, but we need to think about the future together with new people in a very short period of time.
+- JC & AT: Maybe reconsider the refused paper to the anticipation group, and rework it as “Abby’s scenario”
+  - ERG: Similarly produce some Emacs scenarios to explore them?
+- The fact that we get excited about these meetings, there’s something that we should distil and share with others!  Excitement might lead to further innovation down the line.
+- AT: "Phase 2" & tools to facilitate it: it would be lovely to understand this, e.g., how does CLA work on this level?
+  - The workshop has to be a pattern in-and-of (meta pattern)itself that people need to apply
+* 03 September 2022 — Emacs Research Group
+#+date_created: <2022-09-03 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- Did what we set out to do at the top
+
+**** 2. What are some different perspectives on what's happening?
+- LV: Thinking about a lot of things including platform stuff. If we announce a future event they may be wanting a lot, I have to grapple with this.
+- Situation is good w/ people wanting to pay us and develop the method, gaining visibility, opportunity, possibility of getting some grant money
+
+**** 3. What did we learn or change?
+- Good reminder of what we’re showing up for!
+
+**** 4. What else should we change going forward?
+- Can AT pay LV over time?
+- What does AT want?
+- JC: Should review the grant some to see what we might look
+* Emacs Research Group Extra Meeting Abby 2022-09-09
+
+** PAR                                                               :review:
+**** 1. Establish what is happening: what and how are we learning?
+- JC: We’ve reviewed our objectives; what prompted us to do so?
+  - When we see goalposts moving around, should we be a little nervous?  We might at least need to be worried about the financial sustainability, which should be a fundamental thought.
+- We have managed to create a “next step” with Judith & Florian (an intention): from this simple meeting we’ve found a renewed approach to work & some more deliverables (an emended conceptual map and more intention).
+**** 2. What are some different perspectives on what's happening?
+- Good that we’re planning 4 total pilots and 1 "full workshop"
+  - JC: Hm... 4 -> 1 interesting.
+- We’re not stuck on the methods!  Let’s focus on the people and building their enthusiasm
+**** 3. What did we learn or change?
+- Tools are the "pretty face"; the workshop itself has legs and is ready...
+- Abandoning fully committing to developing a heavy BA proposal; focusing on the people & running the workshop would mean getting more people involved, whereas getting the money wouldn’t necessarily imply more involvement.
+**** 4. What else should we change going forward?
+- What caused us to review the
+- We need to iron out details like "how are we going to gather the data"
+- Hypothesis: this method will resonate with people like Judith, but if we were to do this with BA, we don’t know them but it would be harder to generate the same type of curiosity; however the technology is so poorly understood — this fact can give some leverage for us to develop the next thing
+- JC: We probably need to come up with new deadlines to meet the new timeline.
+* 10 September 2022 — Emacs Research Group
+#+date_created: <2022-09-10 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- We did talk some about the workshop, mostly about EmacsConf + tech
+
+**** 2. What are some different perspectives on what's happening?
+- Judith: "Tools for thought"
+- We haven’t changed our tech stack for a long time
+- Is the regular meeting with Abby on Friday 2:30PM a good thing?  Could do 7AM CT... but we haven’t been setting an hourly rate on those meetings, but if we increase the amount of meeting time, it doesn’t necessarily translate into more money.  Abby’s maybe unlikely to join the Saturday call.  Could we move to a more *asynchronous workflow* there?
+  - This would keep us connected.
+- JC: but we need more of a shopping list
+  - NA (yesterday): *We need to iron out details like ‘how are we going to gather the data’*
+
+**** 3. What did we learn or change?
+- Let’s try meeting *1h* earlier? 3PM-5PM UK &c., would allow us more time
+
+**** 4. What else should we change going forward?
+- Should we have a weekly ‘tools’ segment?  E.g., feed back about the cool things we’ve been doing with Emacs, and use them to generate some technical ways to make our lives easier.
+- LV: How about centralising the workshop stuff into one etherpad?  Something that works as a kanban board that allows us to stay connected
+* 17 September 2022 — Emacs Research Group
+#+date_created: <2022-09-17 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- "Suprise" guest.
+- We’re all stressed out for different reasons which have nothing to do with ourselves or the meeting.
+- None of us checked in properly!  Maybe we all had our shoes on for this meeting.
+
+**** 2. What are some different perspectives on what's happening?
+- LV: Low on energy after the pool
+- We would have all wanted a chilled meeting
+- If we’d known a bit more about what was going on it would have shifted perspective
+- We did an OK job going through the EmacsConf proposal contents
+
+**** 3. What did we learn or change?
+***** If there are special guests let’s be sure to share that info in advance clearly
+- Let’s not change the makeup within the week, it would be good to have at least a week of lead time
+  - JC: if I had this in mind it would have acted like a ratchet to block changing the line up right away
+
+**** 4. What else should we change going forward?
+- Better to have 30 minutes to chill out and check in properly...
+- Let’s not over-refine the paragraphs above, we can refine the message when we actually give the talk
+- Post-September will help us catch breath!
+- EmacsConf will inevitably be presenting work-in-progress
+* 24 September 2022 — Emacs Research Group
+#+date_created: <2022-09-24 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- JC: We had a shorter org-roam by LV at the start (heralding what we were ), and we had another look at the talk for EmacsConf; i.e., very much the practical version of that.
+
+**** 2. What are some different perspectives on what's happening?
+
+- JC: This was a more productive meeting than last week I think!
+- LV: It was interesting to have 6 people, we’ve usually have smaller groups, the 2nd half was more professional
+- We felt it was important to do the usual stuff in h1, otherwise we’d feel pressured to cram everything in.
+- Nice use of the 2 hour format
+- JC: Whilst was demoed was very cutting-edge, we should probably think about long-term financing.
+
+**** 3. What did we learn or change?
+
+- JC: Technical criterion of follow-through on action
+
+- LV: Changing tech at the last minute was a bit stressful!  Glad I managed to do so.
+
+- With EmacsConf, we’re doing 15-20 hours of work for a conference that will happen in 3 months, to give an idea of how much we’ll be prepared.  I was using OBS...
+- Sharing my entire 4K screen was choppy, and I have a lot happening.
+
+- But Judith couldn’t join with audio
+
+**** 4. What else should we change going forward?
+
+- JC: Let’s be aware that we used 2.5 hours this time.
+- Noorah’s getting editing on the talk
+- Ideal to have a weekly meeting with Abby leading up to the workshop in October, maybe have a 1-1 early this week and plan a Friday meeting if that’s possible
+- We need dates, number of participants, and sticking to that
+- Noorah started a "workshop protocols" file (e.g., if Florian will be there)
+- Thursday 3:30PM Britain, 9:30AM Central with hard stop at 11:00
+* 01 October 2022 — Emacs Research Group
+#+date_created: <2022-10-01 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- JC: I’m feeling better
+  - Thaw began earlier, got better as we got to "Phase 3"
+
+**** 2. What are some different perspectives on what's happening?
+- JC: Quite liked bringing in NA’s Python qualifier work as a new oldstock theme for us here
+- JC: Session feels dynamic
+
+**** 3. What did we learn or change?
+- Is this the first 2h session w/ just the three of us?  Seems so.  It was good.
+- Even if it was 1h30 working after a 30 checkin, we still felt better
+
+**** 4. What else should we change going forward?
+- Fix our web publishing /sometime/; maybe off the back of the new tool that we’re building!
+* 08 October 2022 — Emacs Research Group
+#+date_created: <2022-10-08 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- We’re taking a laid-back *meeting*, staying to about one hour
+- JC: Perfect day here in the UK
+  - NA: Antidote to the SADs!
+- LV: I decided to share a little less and focus on what I want to share rather than having constant logorhea... I don’t need to steal the show w/ a long rant about X and Y. 
+  - JC: Mind can create pain or make it go away, apparently.
+    - LV: I wish I could wish away pain!
+    - NA: I hate how much it distracts you from other things
+    - LV: It’s like a buzzing fly, it doesn’t produce a lot of noise, but it can be still annoying partly because there’s no pattern
+
+**** 2. What are some different perspectives on what's happening?
+- NA: How do you do the emojis?
+- LV: Emojis look wrong in Org Bullets!
+  - I used to love Nyan cat but I realised it was very distacting
+    - JC: Let’s not over-design our stuff
+
+**** 3. What did we learn or change?
+
+- "Fly" is feminine in both Arabic and French
+  - NA: I can guess the gender of French words based on Arabic
+    - LV: It’s possible that there are language borrowings
+- Sun/Moon gender is opposite in French and German
+
+- LV: I recommend the retelling of "The Stranger" from a different perspective by [[https://en.wikipedia.org/wiki/Kamel_Daoud][Kamel Daoud]]
+  - NA: Worth rereading "The Stranger"
+
+- LV: I read "The Plague" ("La Peste") by Camus before Covid!
+
+- LV: "When Annie Ernaux says ‘I’, the reader feels ‘we’."
+
+**** 4. What else should we change going forward?
+- More chat time is good
+- Short sessions sometimes are OK
+* Meeting with Abby [2022-10-13 Thu]
+
+** PAR                                                               :review:
+
+***1. Review the intention: what do we expect to learn or make together?**
+
+- Catch up with Abby after 1st week
+- Two fainters in separate groups who had their hands in freezing cold water
+  - One hadn’t had breakfast
+
+***2. Establish what is happening: what and how are we learning?**
+
+- "Community tech could be anything" — e.g., the hardware of community space
+- This is a good fit for reproducible research
+
+***3. What are some different perspectives on what’s happening?**
+
+- Tech = methods and tools?
+
+***4. What did we learn or change?**
+
+- We should be applying the same kind of rigour to designing tech that we’ve been applying to methods
+- Tools require us to look at 0’s and 1’s, whereas it’s relatively easy to talk about methods
+
+***5. What else should we change going forward?**
+- Abby coming along on Saturday, could spend the entire day working
+- Meet again next Thursday 14:30 and for the next 2-3 weeks
+- Decide how long the proto-workshops are going to be!  1h? 2h? 3.5h?  Let’s say 10:30, break, reconvene after lunch.
+  - We only had 40’ to do it at the anticipation thingy
+
+*** Next steps
+
+- Abby: will start a draft of the proposal for power to change
+- 1500 on Saturday
+
+* 15 October 2022 — Emacs Research Group
+#+date_created: <2022-10-15 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- JC: I liked the fact that the intention was stated as a very clear question.  We might want to replicate this in future ERG sessions.
+- Abby was here!
+- We didn’t record this time
+**** 2. What are some different perspectives on what's happening?
+- AT: Full 2 hours on Saturday allowed us to be less rushed
+- We’re often going in different directions so it’s nice to have the time to indulge that
+- LV: Related to explore vs exploit, we need a balance, and with 1 hour sessions we can get stuck into one of the dichotomous choices; we’re not the only ones to do this.  There often isn’t room for exploration; 2 hrs isn’t typically acceptible for professional settings, but it works for this setting.  We have some expertise in exploration, and as a result of this more time and the slight lineup change created a perturbation.
+**** 3. What did we learn or change?
+- JC: It would have been better if Noorah had been here.  However, a 3-person grouping makes for very exciting interaction.  It might be the same with a 4-person group.
+
+**** 4. What else should we change going forward?
+- Need to develop more of a roadmap for the next 6 months, keeping in mind that we’d actually need to tide over the next 12
+- JC: to do the quote and send it
+* 22 October 2022 — Emacs Research Group
+#+date_created: <2022-10-22 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- JC: We’ve done a great job thinking about the different phases of the project, and I’ve also really liked what AT said about not setting out to do to much in Phase 3.
+
+**** 2. What are some different perspectives on what's happening?
+- JC: We did some practical stuff for EmacsConf
+- LV: We’re getting in a nice flow, and AT’s contributions are almost indistinguishable from the other part, it feels like a well-oiled machinery
+- AT: I feel comfortable now; perhaps it’s taken a period of discomfort, but now I understand more about what you’re trying to do & bringing in the different perspectives; an element of discomfort is a powerful thing, e.g., peeling back the expertise & thinking about what that’s like...
+  - NA: That’s the point of phase 2 as well, when we reintroduce a different type of expertise
+  - JC: This is reminding me of the common element between comedy and horror being the unexpected.  There is something scary for participants when they get started with the workshop, but we’ll only do as much as is needed.
+
+**** 3. What did we learn or change?
+
+- JC: Having a 2-parter meeting with a guest on the 2nd part makes it awkward to do a PAR.
+- "Phase IV" is now in scope
+
+**** 4. What else should we change going forward?
+- Tough task: how to make as short as possible the discomfort, to generate a high level of confidence after 4 hours!
+- We (probably) don’t want people to say: "at the end I’m just starting to grok it."
+- LV: Remember that they will be in groups working together: even though they won’t all have all 4 hats, they do need a (collective?) understanding of how they work together and how this helps them think differently about the problem; if the ideas are a bit wild (JC often gets a 🔔); workshop should develop feelings of friendship
+- Make sure we don’t overwhelm folks with too many ideas; focus on the nuggets
+* 29 October 2022 — Emacs Research Group
+#+date_created: <2022-10-29 Sat>
+
+** PAR                                                               :review:
+
+
+**** 1. Establish what is happening: what and how are we learning?
+- ‘Keep it simple’
+- The simple text box idea has been maturing over the week: is it myth, worldview, what is your name? - this could be all that we need
+- Should link to a folder with ‘created this stage, this person used it, their notes, in which part of the workshop’
+- Can go into a database & split however we want afterwards
+
+**** 2. What are some different perspectives on what's happening?
+- JC: I really liked LV’s point about doing a proper PAR at the end of our workshop to collect distantiated data.  Maybe reserving 30′ at the end of the workshop might be best.  It might be a good way to demonstrate what constitutes our routine.
+- We have enough PARs to do a substantial analysis (2 years!)
+
+**** 3. What did we learn or change?
+- LV: I’d failed to synchronise that we need something simple both for the workshop itself and the feedback afterwards
+- JC: Patterns back in scope as an outcome!
+  - Did we help them get unblocked?
+  - How can we grow the ship that is the method? (with patterns)
+  - We get benefit from exposure to the problem domain; they get some benefits from the methods
+
+**** 4. What else should we change going forward?
+- Trying to translate the methods we’ve been using, seeing how people can accommodate them w/ their own problems; e.g., to think about the *challenges* that have been raised within the workshop
+- The ‘theme’ / ‘methods’ stuff complement each other; a key part of it is, have we been able to get people thinking about the problems in the community in a different way?
+- We own the method at the start, but we should all own the theme at the end
+  - We’ll come to people with a problem, they’ve been selected for that; everyone should leave with a clear idea of the problems (blockers) and solutions suggested at the end; so we need enough bridges to be able to communicate (once we have the problem in front of us)
+- Phase III will be scaffolded by some new ideas, and patterns
+* 05 November 2022 — Emacs Research Group
+#+date_created: <2022-11-05 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Some of these concerns seem to stem from communication issues
+
+**** 2. What are some different perspectives on what's happening?
+- NA + LV seem to be roughly on par, it can be confusing what we’re aiming for
+- JC: I liked what Abby said about how our work is driven forward by our positive way of working; how do we revisit our joyful methods in some meta-time to think about how we work together
+
+**** 3. What did we learn or change?
+- We may need someone in a ‘clerk’ position: someone to do the ant-work to try to address the problems, to bring everyone cohesively on the project b/c it’s a bit of a split-mind
+- The meeting on the Saturdays and Thursdays feel quite different
+- LV: I could volunteer some time to this; how can we adjust how are we ‘piloting’ our work together?
+
+**** 4. What else should we change going forward?
+- Meet next Thursday
+- Address the "Next steps" NA wrote down above; LV+NA to drive the online/tech workshop?
+* 12 November 2022 — Emacs Research Group
+#+date_created: <2022-11-12 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Good discussion of Noorah’s outline from last week
+- Request for clarity around terminology gives us more to think about w/ clarity for next time
+- Massive-time zone difference!
+
+**** 2. What are some different perspectives on what's happening?
+- Joe feels reassured that we can use the workshop outline in Anticipation?
+- NA: I feel well-rested from 8:30PM sleep; the meeting feels helpful b/c we work through an outline!
+
+**** 3. What did we learn or change?
+- JC: Was in a pretty grumpy mood at the start (Emacs annoyance & sleep deprivation!)
+
+**** 4. What else should we change going forward?
+- Joe to communicate with Abby about the next meeting on Next Monday, verifying the timings
+- Anticipate quiet-mode for Leo.
+- Keep structure for assurance that we are carefully building towards an objective; it’s better for the long-term to have the notes that scaffold (for reusing & revisiting, condensing, etc.)
+- If we believe the notes that we’ve taken on that day can be easily be picked up next time.
+- Joe: upload stuff to the exp2exp repo... plan for reworking it more hierarchically later.
+* 19 November 2022 — Emacs Research Group
+#+date_created: <2022-11-19 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+
+- It’s exciting and it’s strengthened the desire in me to really iron out the method
+- How do we keep the benefits of gamifying, without making it about the game?
+- How do we get the benefits w/o thinking that it’s just a game?
+
+**** 2. What are some different perspectives on what's happening?
+
+- I appreciate the Par.4 — there can be the situation where prompts put people in a box to start with.  We need prompts to guide people, but how do we balance that with the need to foster serendipity?
+  - JC: This mirrors Leo’s point above
+
+**** 3. What did we learn or change?
+
+- With constraints, we read the playbook and then you can play outside of the playbook.  And cf. Oscar Wilde, if you want people to tell you the truth, you have to give them a mask.  We could allow them to know that they have a mask...
+
+**** 4. What else should we change going forward?
+
+- Do we need to change the wording of question 4?
+- SHOULD WE HAVE AN UPCOMING ERG MEETING "AS A WORKSHOP" to build it ourselves — to make the workshop about what we should do that day?  To use the patterns and know we are using the patterns.  We are having productive discussions & mobilising some of the fixtures, like the PAR, keeping plural, looking to the past, etc., but it would help us to think about how to actually use these things
+- When shall we do this? Should we follow our own protocol and invite ourselves in 3 weeks?
+- We need the monkeywrench!
+  - Let’s send an invite on Monday so that we say, we’ll do something on December, just the 3 of us, as our regular meeting but as a simulation of the workshop.
+* 26 November 2022 — Emacs Research Group
+#+date_created: <2022-11-26 Sat>
+
+** PAR                                                               :review:
+
+**** 1. Establish what is happening: what and how are we learning?
+- Working in a micro-pilot with Leo as subject matter expert
+- Let's not be lazy about how we involve the body
+**** 2. What are some different perspectives on what's happening?
+- I'm glad we had this exercise with Leo b/c it made me consider how do we facilitate when people are overwhelmed with information in Phase 2?  I want to think about this more?
+- Do we decide the scenarios beforehand or pick up from Phase 1?
+  - You can also have sub-scenarios?
+- LV: I did feel vulnerable about talking about personal stuff, ego, etc., but now I can look at it with fresh eyes.  The choices here won't change who I am; but I need to think a lot.
+- This meeting has led me to understand: if I felt confident before, what was it about this tree that caused me to feel nervous?
+- I feel less stress
+**** 3. What did we learn or change?
+- The patterns & roles are something that we have to work on as facilitators?
+  - "Aha, you've used the Kaijū Communicator pattern?"
+  - But if they didn't use the pattern then how can we prompt it?
+  - How can we scaffold the return from the myth layer, in a way that feels light for the participants?
+- All I've been doing in programming, I owe only to myself... with university, I did it within a set setting for learning; at university you're supposed to learn — it feels almost like a different person did this.  It's one of my many lives...  — I find it difficult to identify with this past body, and here I feel more in control; I may need to maintain the same stance that has made me sane & has allowed me to make regular progress, and I should focus on the things that work in this
+**** 4. What else should we change going forward?
+- Maybe rather than putting all the cards on the table, we expose the cards as people use them?
+- Imbrication of aha moments
+- Could we get people making little tricks of HOWEVER, BECAUSE, THEREFORE, SPECIFICALLY, constituting new patterns
+- There might be a (serendipity) pattern here: "What nurtures opportunity for you?"
