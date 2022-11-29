@@ -197,7 +197,7 @@ still energised about this topic two years later.  We wondered:
 - Phase 1 is building the *Myth* layer which is an understanding of the common ground
 - Phase 2 is about moving from that into *effective action*
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

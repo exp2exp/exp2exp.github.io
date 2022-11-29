@@ -172,7 +172,7 @@ data we collect, and how collect it.
 Hi Leo!
 ** Can now livestream from his tablet to OBS
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

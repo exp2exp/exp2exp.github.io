@@ -367,7 +367,7 @@ Could we leave these sessions with questions we would want to ask other people?
 - Presumably by trying, sometimes succeeding, and sometimes not.
 - It’s a rare PAR where someone says "we learned nothing", but we should be a bit humble about just how much we know about
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

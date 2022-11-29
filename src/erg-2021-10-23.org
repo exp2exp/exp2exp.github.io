@@ -128,7 +128,7 @@ CLOSED: [2021-10-23 Sat 18:52]
 ** CLA: 2nd part                                                       :40m:
 *** Quick summary of what we did last week
 *** Go through System, Worldview
-* PAR                                                                  :10m:
+* PAR                                                                  :10m:review:
 *** 1. Review the intention: what did we expect to learn or make together?
 - Prep EmacsConf talk (via set objectives) and work on CLA
 *** 2. Establish what is happening: what and how are we learning?

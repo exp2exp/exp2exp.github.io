@@ -1,7 +1,10 @@
-* Check-in
 :PROPERTIES:
 :ID:       133f5e8b-f252-412e-984b-4d0ccd68b1b7
 :END:
+#+title: Emacs Research Group Extra Meeting 2022-08-31
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+
+* Check-in
 
 ** NA
 - Recommends everyone to go to San Diego at some point in their lives; saw plenty of cool things there.

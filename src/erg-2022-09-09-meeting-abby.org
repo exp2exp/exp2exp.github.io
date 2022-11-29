@@ -1,6 +1,8 @@
 :PROPERTIES:
 :ID:       75c6286c-d997-48d7-9618-89a87f03a44e
 :END:
+#+title: Emacs Research Group Extra Meeting Abby 2022-09-09
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
 
 * Agenda
 
@@ -67,7 +69,7 @@
   - Cf. this event from [[https://chaitinschool.org/workshops/open-source-hack-night-session-6-sep-2022/][Chaitin School]] in London. They talked about "an application for large scale open ended feedback, built with JavaScript, React.js, Node.js, Clojure." — and another tool "a participatory democracy framework, built with Ruby and Rails."
   - https://www.youtube.com/watch?v=qujRVwxRQOQ
 
-** PAR
+* PAR :review:
 *** 1. Establish what is happening: what and how are we learning?
 - JC: We’ve reviewed our objectives; what prompted us to do so?
   - When we see goalposts moving around, should we be a little nervous?  We might at least need to be worried about the financial sustainability, which should be a fundamental thought.

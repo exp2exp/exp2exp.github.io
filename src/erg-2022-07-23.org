@@ -187,7 +187,7 @@ Can people take their ideas one step further?
 
 - Could run future workshops for another £5000, helping people articulate their
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

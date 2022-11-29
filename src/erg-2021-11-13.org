@@ -92,7 +92,7 @@ this session to 1 or 1.5 hours?
 - Leo will be answering questions live (starting 17:53), we’ll also have a pad that we can answer questions on.
 - We can also add our own questions to the pad that we might especially want to answer!
 
-* PAR                                                                   :10m:
+* PAR                                                                   :10m:review:
 *** 1. Review the intention: what did we expect to learn or make together?
 - JC: We wanted to have a short session, and even though there were doubts about needing to go for a second hour, we’ve managed to do verything we wanted to do.
 - Recall that in the CLA it says "we are going to focus on methods"

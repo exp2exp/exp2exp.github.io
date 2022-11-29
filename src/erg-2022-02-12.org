@@ -149,7 +149,7 @@ Inspired by mal-mode.el, I've also started to pause after the 1st and 2nd sets t
 - RP: "What’s missing?"
   - JC: Briefly, to make design patterns measurable?
 
-* PAR                                                                   :5m:
+* PAR                                                                   :5m:review:
 
 *** 1. Review the intention: what did we expect to learn or make together?
 - Try to tune-up our tools?

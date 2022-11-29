@@ -101,7 +101,7 @@
 :Effort:   0:20
 :END:
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

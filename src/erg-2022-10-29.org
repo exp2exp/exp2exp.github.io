@@ -244,7 +244,7 @@ This should be similar to:
   - Org mode can do this (sort of) but it’s not totally easy to solve
 - If people want to have a separate file of ‘tasks’ they can do this
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

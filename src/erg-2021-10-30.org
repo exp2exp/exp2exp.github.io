@@ -392,7 +392,7 @@ We’ve decided that "going public", for now, means sharing this talk.
 ** PAUSE                                                                :5m:
 ** EmacsConf: Record recording                                         :35m:
 
-* PAR                                                                   :10m:
+* PAR                                                                   :10m:review:
 *** 1. Review the intention: what did we expect to learn or make together?
 - We wanted to finish the presentation
 - Joe wanted to report on CLA progress

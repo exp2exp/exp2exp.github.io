@@ -179,7 +179,7 @@ E.g., ask:
 - It’s already going to be weird by stripping expertise, so let’s be a bit weirder.  If it’s just the architect exploring why their buildings arent permitted, OK; but if everyone has good will and ask for honest feedback about our real premise.
 
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

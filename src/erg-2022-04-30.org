@@ -158,7 +158,7 @@ Second, we will demonstrate how to embed this descriptive mathematical model of 
 ** Goals for us
 - Leave next meetings with agenda that we can think about for the next week?
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:04
 :END:

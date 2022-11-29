@@ -202,7 +202,7 @@ NA: I’d like to run a text model over our notes, maybe have Org Roam add the n
 - LV: I feel re-energised; not via a CLA but via our ‘full-year review of where we were, where we’re at, and where we’d like to be’
 - Adjustments: Talk more about technology, e.g., starting to prototype the slipboxes; but the 1h30m to to workshop, tech, EmacsConf &c... could we maybe bump up the amount of meeting time to 2h weekly?
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

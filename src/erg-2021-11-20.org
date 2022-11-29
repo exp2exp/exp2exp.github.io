@@ -58,7 +58,7 @@ CLOSED: [2021-11-20 Sat 18:54]
 Discussion of [[https://www.ukri.org/opportunity/explore-peoples-relationships-with-digital-technologies/][https://www.ukri.org/opportunity/explore-peoples-relationships-with-digital-technologies/]]
 - What if we had a £1m budget alongside 3 other cool projects
 
-* PAR                                                                  :10m:
+* PAR                                                                  :10m:review:
 *** 1. Review the intention: what did we expect to learn or make together?
 - Review agenda.org and talk about whether the PLACARD methods was actually useful for us in real terms
 *** 2. Establish what is happening: what and how are we learning?

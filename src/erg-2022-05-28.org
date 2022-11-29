@@ -201,7 +201,7 @@ find-topics=.  Then hyperlink the topics.
 - Hyperlinking feature is already implement in Org Roam
 - What if we do a search for 5 words prior to and post ‘facilitator’, and try to determine what the topic
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

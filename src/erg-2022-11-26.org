@@ -197,7 +197,7 @@ Action: Specifically =...= [Historian]
 
 - JC: maybe you need a phase of consolidation
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

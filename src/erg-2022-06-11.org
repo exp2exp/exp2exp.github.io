@@ -145,7 +145,7 @@
 - Focus on free software tools and communities
 - Rather than focusing on built environment, focus on technology & ICT environment
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:03
 :END:

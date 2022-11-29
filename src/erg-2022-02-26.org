@@ -251,7 +251,7 @@ Trying to distill multiple voices into the best option.
 - FACTORY OF PATTERNS
 - CATALOGUE OF PATTERNS... is a useful output for something like anticipation, since we can use them later
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

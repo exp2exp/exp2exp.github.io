@@ -152,7 +152,7 @@ CLOSED: [2022-10-01 Sat 16:30]
 - Maybe we can have a suitable demo for the tech workshop (≈ 1 month from now)
 
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

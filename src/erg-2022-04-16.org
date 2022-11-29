@@ -245,7 +245,7 @@ JC: If it’s an individual context, e.g. “everyone should brush their teeth�
 
 JC: The “Review the context phase” highlights the inherent transformative role of those patterns.  Niche-construction means that we could change the context through repeated practice.
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

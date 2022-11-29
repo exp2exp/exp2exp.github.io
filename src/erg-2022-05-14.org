@@ -193,7 +193,7 @@ So e.g. is it useful to have experts work together or mix them up?  Which is cru
 - You use a concept associated with a label, e.g., "OOP" is clear to software engineers.  But if you have a group of specialists, say engineers, and they try to think in terms of labels that are beyond their field.  Rising above their mere speciality: yes we’re engineers who build complex stuff, but what’s mobilised from a human/social perspective?  What’s the element related to mastery in your field?  How do you quantify it, appreciate it in others?  Using a group of experts to derive elements of brilliance from a field.
 
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

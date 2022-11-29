@@ -139,7 +139,7 @@ Could submit something for 15th February, to write something of 1000 words
 Action: Let’s table the discussion of this; we could meet during the week.
 
   
-* PAR                                                                    :8m:
+* PAR                                                                    :8m:review:
 
 *** 1. Review the intention: what did we expect to learn or make together?
 - NA: I don’t know

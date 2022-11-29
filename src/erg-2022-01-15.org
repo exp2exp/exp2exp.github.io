@@ -151,7 +151,7 @@ Meta:
 Points:
 - Try to get org-tag-realign (not actual name) working for NA.
 
-* PAR                                                                   :10m:
+* PAR                                                                   :10m:review:
 
 *** 1. Review the intention: what did we expect to learn or make together?
 - Clarify how we 'work' together

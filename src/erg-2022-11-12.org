@@ -47,7 +47,7 @@
 * Agenda (Part 2)
 - Walk through of the details of the workshop plan up to Phase 2 delivery
 
-* PAR                                                                   
+* PAR  :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

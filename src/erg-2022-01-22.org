@@ -135,7 +135,7 @@
   - JC: I love this!  Now that we’ve got a way to programmatically do the PAR, we might also have an option to facilitate the CLA!  That might already be an objective for February.
 
 
-* PAR                                                                   :10m:
+* PAR                                                                   :10m:review:
 
 *** 1. Review the intention: what did we expect to learn or make together?
 - LV: What I used to do was to try to revisit the agenda, today was mostly "let’s have a bog standard session"

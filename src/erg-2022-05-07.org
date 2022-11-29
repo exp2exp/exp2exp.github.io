@@ -111,7 +111,7 @@ Checkin:
 
 - Micro demo of Coda
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

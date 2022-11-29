@@ -175,7 +175,7 @@ Could be related to ERG...
 
 - LV: For offshoring, you could also share the data with me.
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

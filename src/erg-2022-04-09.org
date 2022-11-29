@@ -584,7 +584,7 @@ I’d like to e.g., use Joe’s patterns that we’ve already written down; we c
 - NA: Maybe pieces of a puzzle?
   - LV: Helpful visualisation, but we need to come to a close!
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

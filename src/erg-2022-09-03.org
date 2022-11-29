@@ -212,7 +212,7 @@ Speaker release:
 
 
 ** Do we want to reuse the Bristol material or any parts of it
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

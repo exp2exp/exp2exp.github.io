@@ -411,7 +411,7 @@ We had less to say about the following patterns, which are indexed at https://pe
 
 - CD: Back to ERG, Noorah offered a long time ago to help with Emacs and I’ve procrastinated about a year on that offer; if I could be "optionally" available in January 15th. As a personal goal I’d like to make Emacs more what I use... and maybe on a slower path towards 2025 full-time usage.  It’s been a good discussion!
 
-* PAR                                                                   :9m:
+* PAR                                                                   :9m:review:
 :PROPERTIES:
 :Effort:   0:09
 :END:

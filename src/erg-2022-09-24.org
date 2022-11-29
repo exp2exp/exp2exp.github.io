@@ -398,7 +398,7 @@ well - or to experience the software for myself - there will be some separation 
 
 - We can work on the methods for the workshop; we can collect and display notes via Emacs magic w/ one weekend of work; but beyond that baseline, what else do we want to achieve as the technical outcome of the workshop?
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

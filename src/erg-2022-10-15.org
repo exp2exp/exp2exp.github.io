@@ -226,7 +226,7 @@ Is there a way to balance this... HEL doesn’t have CIC, charity, etc., written
 - Philanthropic private donors?  Patagonia company?  Local solutions to global problems.
 
 
-* PAR                                                                   
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

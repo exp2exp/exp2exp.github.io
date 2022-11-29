@@ -160,7 +160,7 @@ Having created a vision at this level, you come back with a new way of reformula
 *** E.g., when will we meet next?
 - LV: Can we keep the Saturday stuff for ERG (especially because we’ve got other business to tend to wrt EmacsConf)?
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

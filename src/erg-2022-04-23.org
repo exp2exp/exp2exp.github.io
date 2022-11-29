@@ -72,7 +72,7 @@ CLOSED: [2022-04-23 Sat 17:39]
 :Effort:   0:20
 :END:
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

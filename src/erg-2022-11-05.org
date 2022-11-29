@@ -198,7 +198,7 @@ E.g.,
   - [ ] Their meanings
   - [ ] How they should be used (conversational functions)
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

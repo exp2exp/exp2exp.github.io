@@ -183,7 +183,7 @@ multiple disciplines.
 
 - These could give us some design requirements patterns
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

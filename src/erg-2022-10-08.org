@@ -94,7 +94,7 @@ Collective review:
 
 - s/playes/plays/
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:
@@ -107,7 +107,7 @@ Collective review:
   - JC: Mind can create pain or make it go away, apparently.
     - LV: I wish I could wish away pain!
     - NA: I hate how much it distracts you from other things
-      - LV: It’s like a buzzing fly, it doesn’t produce a lot of noise, but it can be still annoying partly because there’s no pattern
+    - LV: It’s like a buzzing fly, it doesn’t produce a lot of noise, but it can be still annoying partly because there’s no pattern
 
 *** 2. What are some different perspectives on what's happening?
 - NA: How do you do the emojis?

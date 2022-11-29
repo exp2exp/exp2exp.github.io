@@ -260,7 +260,7 @@ Transform our scripted presentation for Anticipation 2019 into a game; cf. https
 *** LV
 - Figure out a workflow from problems to solutions as a process of refinement (output, tests, etc.)
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:

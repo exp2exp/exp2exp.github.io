@@ -105,7 +105,7 @@ If the people who get it are able to formulate interesting stuff, that’s good.
 
 If you have the perfect group of participants and you ask them to talk - they will produce value because it’s the perfect group (JC: I’ve seen this movie!).  We need to ensure that this conversation is at least as interesting.  Then as an extra objective we want to ensure that there is _lasting impact_.  We know that we have clever people in the room, but we want Phase III to have lasting effects in the future.
 
-* PAR
+* PAR :review:
 :PROPERTIES:
 :Effort:   0:10
 :END:
