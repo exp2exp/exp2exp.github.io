@@ -53,19 +53,22 @@ Changes headers to titles."
   "Process an Org Roam buffer for inclusion in a standard Org file.
 Changes title to header, and increase indentation of existing headers.
 Changes file links to internal links."
-  (if (looking-at "^#\\+TITLE:")
-      (replace-match "*"))
-  (forward-line 1)
-  (if (looking-at "^#\\+roam_tags:\\(.*\\)")
-      (replace-match ":PROPERTIES:
-  :tag:\\1
-  :END:"))
-  (while (re-search-forward "^\\*" nil t)
-    (replace-match "**"))
-  (goto-char (point-min))
-  (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
-    (replace-match "[[*\\2][\\2]]"))
-  (buffer-substring-no-properties (point-min) (point-max)))
+  ;; Works in a temporary buffer
+  (let ((beg (point)))
+    (search-forward-regexp "^#\\+title:" nil t)
+    (delete-region beg (point))
+    (insert "*")
+    (forward-line 1)
+    (if (looking-at "^#\\+filetags:\\(.*\\)")
+        (replace-match ":PROPERTIES:
+:tag:\\1
+:END:"))
+    (while (re-search-forward "^\\*" nil t)
+      (replace-match "**"))
+    (goto-char (point-min))
+    (while (re-search-forward "\\[\\[file:\\([^]]*\\)\\]\\[\\([^]]*\\)\\]\\]" nil t)
+      (replace-match "[[*\\2][\\2]]"))
+    (buffer-substring-no-properties (point-min) (point-max))))
 
 (defun combine-org-roam-files (&rest args)
 "Combine a list of files, specified as ARGs.
@@ -169,56 +172,126 @@ and derived PDF is defined.")
 
 (defvar just-erg
   '(
-    "erg-2020-12-02.org"
-    "erg-2020-12-12.org"
-    "erg-2020-12-19.org"
-    "erg-2021-01-02.org"
-    "erg-2021-01-09.org"
-    "erg-2021-01-16.org"
-    "erg-2021-01-23.org"
-    "erg-2021-01-30.org"
-    "erg-2021-02-06.org"
-    "erg-2021-02-13.org"
-    "erg-2021-02-20.org"
-    "erg-2021-02-27.org"
-    "erg-2021-03-06.org"
-    "erg-2021-03-13.org"
-    "erg-2021-03-27.org"
-    "erg-2021-04-03.org"
-    "erg-2021-04-10.org"
-    "erg-2021-04-17.org"
-    "erg-2021-04-24.org"
-    "erg-2021-05-01.org"
-    "erg-2021-05-08.org"
-    "erg-2021-05-15.org"
-    "erg-2021-05-22.org"
-    "erg-2021-05-29.org"
-    "erg-2021-06-19.org"
-    "erg-2021-08-28.org"
-    "erg-2021-09-11.org"
-    "erg-2021-09-18.org"
-    "erg-2021-09-25.org"
-    "erg-2021-10-02.org"
-    "erg-2021-10-09.org"
-    "erg-2021-10-16.org"
-    "erg-2021-10-23.org"
-    "erg-2021-10-30.org"
-    "erg-2021-11-06.org"
-    "erg-2021-11-13.org"
-    "erg-2021-11-20.org"
-    "erg-2021-12-04.org"
-    "erg-2021-12-11.org"
-    "erg-2021-12-18.org"
-    "erg-2022-01-15.org"
-    "erg-2022-01-22.org"
-    "erg-2022-01-29.org"
-    "erg-2022-02-05.org"
-    "erg-2022-02-12.org"
-    "erg-2022-02-19.org"
-    "erg-2022-02-26.org"
-    "erg-2022-03-05.org"
-    "erg-2022-03-12.org"
-    "erg-2022-03-19.org"
+"erg-2020-12-02.org"
+"erg-2020-12-12.org"
+"erg-2020-12-19.org"
+"erg-2021-01-02.org"
+"erg-2021-01-09.org"
+"erg-2021-01-16.org"
+"erg-2021-01-23.org"
+"erg-2021-01-30.org"
+"erg-2021-02-06.org"
+"erg-2021-02-13.org"
+"erg-2021-02-20.org"
+"erg-2021-02-27.org"
+"erg-2021-03-06.org"
+"erg-2021-03-13.org"
+"erg-2021-03-27.org"
+"erg-2021-04-03.org"
+"erg-2021-04-10.org"
+"erg-2021-04-17.org"
+"erg-2021-04-24.org"
+"erg-2021-05-01.org"
+"erg-2021-05-08.org"
+"erg-2021-05-15.org"
+"erg-2021-05-22.org"
+"erg-2021-05-29.org"
+"erg-2021-06-19.org"
+"erg-2021-08-28.org"
+"erg-2021-09-11.org"
+"erg-2021-09-18.org"
+"erg-2021-09-25.org"
+"erg-2021-10-02.org"
+"erg-2021-10-09.org"
+"erg-2021-10-16.org"
+"erg-2021-10-23.org"
+"erg-2021-10-30.org"
+"erg-2021-11-06.org"
+"erg-2021-11-13.org"
+"erg-2021-11-20.org"
+"erg-2021-12-04.org"
+"erg-2021-12-11.org"
+"erg-2021-12-18.org"
+"erg-2022-01-15.org"
+"erg-2022-01-22.org"
+"erg-2022-01-29.org"
+"erg-2022-02-05.org"
+"erg-2022-02-12.org"
+"erg-2022-02-19.org"
+"erg-2022-02-26.org"
+"erg-2022-03-05.org"
+"erg-2022-03-12.org"
+"erg-2022-03-19.org"
+"erg-2022-04-02.org"
+"erg-2022-04-09.org"
+"erg-2022-04-16.org"
+"erg-2022-04-23.org"
+"erg-2022-04-30.org"
+"erg-2022-05-07.org"
+"erg-2022-05-14.org"
+"erg-2022-05-21.org"
+"erg-2022-05-28.org"
+"erg-2022-06-11.org"
+"erg-2022-07-02.org"
+"erg-2022-07-09.org"
+"erg-2022-07-16.org"
+"erg-2022-07-23.org"
+"erg-2022-07-30.org"
+"erg-2022-08-06.org"
+"erg-2022-08-13.org"
+"erg-2022-08-20.org"
+"erg-2022-08-27.org"
+"erg-2022-08-31-extra-meeting.org"
+"erg-2022-09-02-meeting-judith.org"
+"erg-2022-09-03.org"
+"erg-2022-09-09-meeting-abby.org"
+"erg-2022-09-10.org"
+"erg-2022-09-17.org"
+"erg-2022-09-24.org"
+"erg-2022-09-29-meeting-abby.org"
+"erg-2022-10-01.org"
+"erg-2022-10-08.org"
+"erg-2022-10-13-meeting-abby.org"
+"erg-2022-10-15.org"
+"erg-2022-10-22.org"
+"erg-2022-10-27-meeting-abby.org"
+"erg-2022-10-29.org"
+"erg-2022-11-05.org"
+"erg-2022-11-12.org"
+))
+
+(defvar just-workshop '(
+                        "20221121185152-placard_workshop_introduction.org"
+                        "20221121185625-workshop_management_checklist.org"
+                        "20221121185656-workshop_frontstage_organisation.org"
+                        "20221121185710-workshop_backstage_organisation.org"
+                        "20221121185931-prior_to_the_workshop.org"
+                        "20221121181525-open_future_design.org"
+                        "20221121181616-participatory_scenario_planning.org"
+                        "20221121181644-derive_comix.org"
+                        "20221121181653-meaning_map.org"
+                        "20221121181702-reinfuse_expertise.org"
+                        "20221121181707-play_to_anticipate_the_future.org"
+                        "20221121181715-kaiju_communicator.org"
+                        "20221121181721-historian.org"
+                        "20221121181726-analyst.org"
+                        "20221121181731-designer.org"
+                        "20221121181738-roadmap.org"
+                        "20221121181745-project_action_review.org"
+                        "20221121183832-find_the_dots.org"
+                        "20221121183858-advice_from_a_caterpillar.org"
+                        "20221121183935-problem_indentification.org"
+                        "20221121183951-dimension_analysis.org"
+                        "20221121184028-build_scenarios.org"
+                        "20221121184108-derive_comix_part_2.org"
+                        "20221121184126-connections_from_kafka.org"
+                        "20221121184158-a_path_forward.org"
+                        "20221121184220-back_to_reality.org"
+                        "20221121184341-new_patterns.org"
+                        "20221121184439-new_patterns.org"
+                        "20221121184522-project_action_preview.org"
+                        "20221121184614-repeat_phase_ii.org"
+                        "20221121184718-share_back.org"
 ))
 
 (defun indent-org-roam-export ()
@@ -226,7 +299,7 @@ and derived PDF is defined.")
   (org-map-entries (lambda ()
                      ;; don’t demote the top level items and their sub-items
                      (let ((tag (org-entry-get nil "tag")))
-                       (if (and tag (string= (car (split-string tag)) "HL"))
+                       (if (and tag (string= (car (split-string (string-trim tag ":" ":") ":")) "HL"))
                            (progn (org-end-of-subtree)
                                   (setq org-map-continue-from (point)))
                          (org-do-demote))))
