@@ -16,12 +16,12 @@
 ** TODO Go over the general rules and norms
 - Bristol Pilot: Joe presented an outline of what was going on on the day
 ** Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use
-** Explain _theme_ of the workshop
+** Explain theme of the workshop
 - NB. different people/groups might go in different directions from this point.
 ** Explain the process
 - "Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out."
 - "Find new ‘design patterns’ that enable them to solve new problem."
-*** Explain _CLA_ (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
+*** Explain CLA (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
 - We can explain how this will be applied, e.g., via an *example*
 - Diagrams can convey information quickly (e.g., iceberg)
 - Roles & patterns are visual and memorable
