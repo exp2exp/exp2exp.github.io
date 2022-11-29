@@ -1,0 +1,616 @@
+:PROPERTIES:
+:ID:       0cc6700c-1018-4309-8a5b-44359e171abe
+:END:
+#+TITLE: Hyperreal Enterprises: Workshop Manual
+#+OPTIONS: H:3 num:t toc:nil ':t broken-links:mark
+#+LATEX_HEADER_EXTRA: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+#+LATEX_HEADER_EXTRA: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER_EXTRA: \usepackage{fontspec}
+#+LATEX_HEADER_EXTRA: \usepackage[math-style=french]{unicode-math}
+#+LATEX_HEADER_EXTRA: \usepackage{mathtools}
+#+LATEX_HEADER_EXTRA: \setmathfont[math-style=upright]{DejaVu Sans Mono}
+#+LATEX_HEADER_EXTRA: \setmonofont[Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\mm}[Color=red]{DejaVu Sans Mono}
+#+LATEX_HEADER_EXTRA: \setmainfont[BoldFont=EB Garamond,BoldFeatures={Color=ff0000}]{EB Garamond}
+#+LATEX_HEADER_EXTRA: \newcommand{\hookuparrow}{\mathrel{\rotatebox[origin=c]{90}{$\hookrightarrow$}}}
+#+LATEX_HEADER_EXTRA: \usepackage{fix-abstract}
+#+LATEX_HEADER_EXTRA: \definecolor{pale}{HTML}{fffff8}
+#+LATEX_HEADER_EXTRA: \definecolor{orgone}{HTML}{83a598}
+#+LATEX_HEADER_EXTRA: \definecolor{orgtwo}{HTML}{fabd2f}
+#+LATEX_HEADER_EXTRA: \definecolor{orgthree}{HTML}{d3869b}
+#+LATEX_HEADER_EXTRA: \definecolor{orgfour}{HTML}{fb4933}
+#+LATEX_HEADER_EXTRA: \definecolor{orgfive}{HTML}{b8bb26}
+#+LATEX_HEADER_EXTRA: \definecolor{gruvbg}{HTML}{1d2021}
+#+LATEX_HEADER_EXTRA: \newenvironment*{emptyenv}{}{}
+#+LATEX_HEADER_EXTRA: \usepackage{sectsty}
+#+LATEX_HEADER_EXTRA: \sectionfont{\normalfont\color{red}\selectfont}
+#+LATEX_HEADER_EXTRA: \subsectionfont{\normalfont\selectfont}
+# #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont}
+#+LATEX_HEADER_EXTRA: \paragraphfont{\normalfont\selectfont}
+#+LATEX_HEADER_EXTRA: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
+
+\begin{abstract}
+\noindent This document is a linear treatment of the PLACARD workshop.
+\end{abstract}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+# IMPORT
+* PLACARD workshop introduction
+:PROPERTIES:
+:tag: :HL:WS:
+:END:
+
+** Instructions
+
+*** Introductions
+- Bristol Pilot: Abby presented a 10 minute slide show about the "Public Space and Public Health"
+*** Meet and greet with participants
+- Bristol Pilot: minimal, people said hi
+*** TODO ice-breaker activity
+- /Could be based on an in-advance ask, like, email a photo?/
+- Maybe better to have it be something that can happen at a coffee break.
+*** TODO Go over the general rules and norms
+- Bristol Pilot: Joe presented an outline of what was going on on the day
+*** Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use
+*** Explain theme of the workshop
+- NB. different people/groups might go in different directions from this point.
+*** Explain the process
+- "Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out."
+- "Find new ‘design patterns’ that enable them to solve new problem."
+**** Explain CLA (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
+- We can explain how this will be applied, e.g., via an *example*
+- Diagrams can convey information quickly (e.g., iceberg)
+- Roles & patterns are visual and memorable
+- How will it be used in this phase: decent to the myth
+- Be able to access the rules quickly (cf. "Settlers of Catan")
+
+** Workshop management checklist
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+- [ ] Make sure everyone is on the same page
+- [ ] Develop a clear taxonomy of the fundamental terms
+- [ ] Get contracts & deliverables sorted
+- [ ] Know how much flexibility there is (what’s possible, and what’s possible when)
+- [ ] Reasonable expectations about where this is going
+- [ ] Reasonable expectations how much effort it needs, and what’s available
+- [ ] Make sure we have a protocol about this
+- [ ] Make good commits for this document!
+** Workshop frontstage organisation
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+1. *Send invitation e-mails at least 4 weeks in advance*
+   - Send reminder *3 weeks* in advance
+   - Get confirmation as early as possible, cut-off date *2 weeks* in advance
+   - *Follow best practices for human participation activities:*
+      1. Include a /brief/ blurb about the workshop (*including what the commitment* is, e.g., full-day) and what their participation will accomplish
+      2. Include the minimum level of technology knowledge (can they use a PC, browse the web, bring a phone, typing into a website, etc.?)
+      3. Include the level of security/privacy of participation and ask for consent
+      4. Include date, time, duration, and location (if it's TBD make sure to include this info)
+      5. Include _whether_ their participation will be monetarily compensated
+      6. Thank them for their time and consideration
+      7. Introduce a warm-up activity like [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]
+2. *Once we have confirmations, send another e-mail.*
+   1. Include a somewhat more detailed outline of the workshop, reminding them what it’s about, and reminding them what their participation will accomplish
+   2. Include timeline of the workshop (*full day timings here*):
+      1. Introductions, overall workshop overview (30 minutes)
+      2. Explaining Phase 1 (15 - 30 minutes)
+      3. Phase 1 (1.5 - 2 hours)
+      4. Lunch break (1 hour)
+      5. Explaining Phase 2 (30 - 45 minutes)
+      6. Phase 2 (1.5 - 2 hours)
+      7. Concluding remarks
+   3. Include pre-workshop activity or any other asks
+   4. Thank them for their time and consideration
+
+
+** Workshop backstage organisation
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+Be sure to sort these as-needed:
+
+- Methods, needed at the appropriate level of rigour
+  - *Decide: In-person vs remote vs hybrid?*
+  - Technologies for the workshop
+  - Facilitation
+  - Feedback platform
+  - Technologies for after the workshop
+
+We need every component to fit well with the methods.
+
+****** Criterion: The methods need to be tested and familiar to facilitators
+** Prior to the workshop
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Instructions
+
+Follow instructions at
+- [[id:e28fb669-45a6-4916-b56b-a3afd6238d4f][Workshop management checklist]],
+- [[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]],
+- [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]].
+
+* Open Future Design
+:PROPERTIES:
+:tag: :HL:WS:
+:END:
+
+** Summary
+
+**Context* People need to coordinate, plan, and maintain cohesion. *If* a
+culture can develop based on shared learning BUT there is no reliable
+oracle that can tell us what to expect; *Then* use design pattern
+methods to articulate multiple futures. This work can be guided by
+further patterns, e.g., to develop languages of:
+
+- /future scenarios/ →  [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]]
+  - cf. [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]], [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]], [[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]]
+
+- /roles/ →  [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]]
+  - cf. [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]], [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]], [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]], [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
+
+- /projects/ →  [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]]
+  - cf. [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+
+** Instructions
+
+1. Follow instructions at [[id:9accd402-6d28-4ee2-ac35-44b4fe682d53][Prior to the workshop]].
+2. Follow instructions at [[id:c8823bc4-d08e-4486-9841-c914bba9977e][During the workshop]].
+3. Follow instructions at [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After the workshop]].
+
+** Documentation
+
+This is the entry point pattern for the Open Future Design Pattern
+Language.  Instructions for building all of the cards in a printable
+format are as follow.  The command is to be run in the directory
+=./erg/pattern-cards/=.
+
+#+begin_src
+pdflatex patterns-reboot-figures.tex && \
+ pdflatex patterns-reboot-figure-main.tex && \
+ pdflatex patterns-reboot-roles.tex && \
+ pdflatex patterns-reboot-roles-2.tex && \
+ pdflatex patterns-reboot-roles-3.tex && \
+ pdflatex patterns-reboot-roles-4.tex && \
+ pdflatex scenario-planning-patterns.tex && \
+ pdflatex patterns-reboot-par.tex && \
+pdfjam \
+patterns-reboot-figures.pdf \
+patterns-reboot-figure-main.pdf \
+patterns-reboot-roles.pdf \
+patterns-reboot-roles-2.pdf \
+patterns-reboot-roles-3.pdf \
+patterns-reboot-roles-4.pdf \
+scenario-planning-patterns.pdf \
+patterns-reboot-par.pdf \
+--outfile open-future-design-patterns.pdf --paper a5paper
+#+end_src
+* Participatory Scenario Planning
+:PROPERTIES:
+:tag: :HL:WS:
+:END:
+
+** Summary
+
+**Context* you want to plan for possible future scenarios. *If* you have
+an interested group BUT no "expert" has all the answers; *Then* pool the
+collected expertise of the affected communities.
+
+** Instructions
+
+*** Overall process
+
+- The initial input are participants' individual reflections on the workshop theme ([[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]).
+- We want to make one or more big mind-maps ([[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]). This can be structured by further activities:
+  - [[id:a853be79-85c1-4ffa-9750-459192c539e8][Find the dots]]
+  - [[id:0ef4b185-513f-40c2-b884-6213601bbe09][Advice from a Caterpillar]]
+- These can be improved by coming up with dimensions in which things can optimise in some direction (good/bad) ([[id:105e0ad7-ada7-4cee-b2c6-a68d08096159][Dimension analysis]])
+- Once we have dimensions, we can describe scenarios that merge the themes and dimensions, outlining possible directions of development ([[id:7357a42a-9691-4669-92c3-895d9061dda5][Build Scenarios]])
+- The maps can be enriched by bringing in areas of expertise ([[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]])
+- Post Phase 1 immediate feedback; check on participants (like a mini-PAR).
+
+*** Materials
+- Big sheets of paper
+
+*** Intended outcomes
+- Merge everything into one big shared possibility space
+- Identify core issues
+
+*** Responsibilities of facilitators
+
+- Move things along, e.g., so that we identify and elaborate the blockers, but don’t get stuck on them
+- Merge and evolve the mindmaps both within groups and across groups
+- Identify [[id:d7c5081f-cc76-4893-9daa-ff13b9bf1ae2][scenarios]].
+
+** Phase I Feedback
+
+*** Improve processing of input
+- Consider *centralising the data*, since a lot of stuff is currently buried.
+- Explain where the notes are, how to find the LaTeX files, git repos, &c.
+- This follows patterns of the EmacsConf organisation, e.g., minimal commits, logs, etc.
+
+*** How to merge multiple mindmaps?
+- *Merging* might be easier to do with software, without them, you can get a spaghetti-fest; distilling, by asking "What are the key nodes?"; it feels like this is particularly important.
+- Building something that distills the info
+
+** Phase I Evolution
+
+- JC: Initial translation of materials into Org Roam notes (21/11/2022)
+** Dérive Comix
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* you want to develop some future scenarios to explore with a
+group. *If* you have an group BUT everyone has their own experiences;
+**Then* Go for a walk or just look out the window wherever you, and
+document what you see. Follow up by preparing your materials to share in
+a succinct fashion, e.g., as photos, a screenshot, slides, sketches, a
+zine, a map, or some PostIt notes.
+
+*** Instructions
+
+Walk for one hour around your neighbourhood.  Address some or all of
+the following questions, possibly documenting them with photos, text,
+or video clips.
+
+What are you observing (sight, sound, smell)?  What are the obvious
+things?  What are the sites of meaning, e.g., a bowl that is more than
+just ‘a bowl’?  Where is meaning made unclear or fragmented?  What are
+you experiencing (feelings, thoughts, first impressions)?  How have
+things changed?  (It’s OK to get lost, but if you’re feeling lost when
+reading these instructions, you may want to read this short intro to
+the [[https://www.publicstreet.org/derive][dérive]].)
+
+Follow up by preparing your materials to share in a succinct fashion,
+e.g., as slides, sketches, a zine, a map, or some PostIt notes.
+** Meaning Map
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* We have collected images describing people's worlds (see
+[[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]). *If* you want to distill shared meaning BUT everyone has
+their own experience; *Then* talk together about the problems and
+opportunities that everyone sees. Maybe some of these will cluster
+together, or maybe everyone will have their own different perspective:
+that's OK. You can use these different viewpoints to get everyone on
+the same map.
+
+*** Instructions
+
+Return to your small groups and bring together the themes you
+identified earlier.  Informed by your reflections, work together with
+the group to arrange the information on a map.  Notice that since
+people navigated different physical locations, your ‘map’ is likely to
+be somewhat abstract.  Where it makes sense, the map should record
+different perspectives from people in the group.  For example, the
+older people might perceive the place they explored to be a village,
+while younger people perceive it to be a settlement on the outskirts
+of town.  You might have different perspectives on what’s missing.
+Try to articulate such complexities.
+** Reinfuse Expertise
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* a group wants to build a [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]. *If* everyone has
+experience as a citizen BUT they also have expertise; *Then* begin by
+removing expertise to get everyone on the same page, and subsequently
+reinfuse expertise to enable richer and more complex thinking.
+* Play to Anticipate the Future
+:PROPERTIES:
+:tag: :HL:WS:
+:END:
+
+** Summary
+
+**Context* you want to have fun with friends, colleagues or
+acquaintances. *If* you want to explore possible futures BUT time travel
+does not exist and you don't know what to expect; *Then* play a game
+that lets you experience a plausible future scenario together.
+
+** Instructions
+
+*** Overall process
+
+**** Rapid training:
+
+- *Explain the game*:
+  - We should explain the game by trying it a few times.
+- *Explain the roles*:
+  - We need to convey that each role convey a little bit of a design pattern, or multiple of those.
+  - “Why can’t I be myself?” - Yes you can, you just get a different colored scarf
+  - How should each participant use these roles?
+- In short, what does each role represent?
+  - "‘However’, ‘because’, ‘therefore’, ‘specifically’".
+- What are the rules of the game?
+  - [Need more time to re-do the discussion multiple times to optimize this.]
+
+**** Scenario exploration:
+
+- Enrich the scenarios using the familiar pattern from [[id:f447153f-7ff5-449d-bb08-67f579dda53f][Dérive Comix Part 2]].
+- Develop [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]].  Each role as a part to play in doing this:
+  - [[id:e38d2006-bcf7-494b-bd51-d8932b1ed0cd][Back to reality]] (Analyst)
+  - [[id:34be214c-5885-4794-b93c-84e49ddad18b][Connections from Kafka]] (Kaijū Communicator)
+  - [[id:ed238393-a7e4-4a0d-9eb2-3d6ab745c170][New patterns]] (Designer)
+  - [[id:baa168fb-37a0-4144-ab16-d4962728ea9c][Project Action Preview]] (Historian)
+- If there's time, [[id:092e4fe4-ee4f-494d-8776-c5f1389e8dc0][Repeat Phase II]] for extra practice.
+- [[id:848c8c3d-cde3-48b4-9dae-23eca4db440d][Share back]]
+- [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+
+*** Materials
+- Need "another big sheet of paper" to elaborate what that thing is like, e.g., what is it like for you, what is it like for me.
+
+*** Intended outcome
+- Reverse CLA process to return from Myth to Litany.
+  - ‘Produce new headlines.’
+
+** Phase II Feedback
+
+*** Strategy: consider using Org Roam intelligently
+
+- We’d stopped using it as we originally intended, and just had meeting notes
+- Leo’s happy to create a slip-box following the patterns of Noorah’s agenda & create an operational manual
+- This will be a ‘moderated’ shared slip box; we can have all the data so far, can create notes, read things, etc.
+- *Method for maintaining structure* can be taught later after we have the contents
+
+** Phase II Evolution
+
+- Could we view "evolution" inside the diagram?
+- We do have ways to track & see how things have changed; it'd be good to upgrade the interface
+- If the tools aren't there yet, we can mimic the tools.
+- Anyway, using Org Roam again will help us see where the /feature evolution/ should be
+** Kaijū Communicator
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+
+*** Summary
+
+**Context* When developing a vision of the future. *If* people start to
+agree BUT no one challenges what's going on, solutions become brittle;
+**Then* use words like "/however/" to challenge proposals and highlight
+conflicts.
+** Historian
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* When developing a vision of the future. *If* people start to
+agree BUT no one connects it with local history and concrete actions,
+then work bogs down; *Then* use words like "/specifically/" to connect
+abstract problems and solutions to specific actions.
+** Analyst
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* When developing a vision of the future. *If* people start to
+form a solution BUT no one connects it with the complex reasons why that
+solution is likely to work, then it's likely to be fragile; *Then* use
+words like "/because/" to describe the complex reasons that the solution
+is likely to work.
+** Designer
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+
+*** Summary
+
+**Context* When developing a vision of the future. *If* people start to
+form a solution BUT we don't connect it with our existing knowledge,
+then it's likely to be fragile; *Then* use words like "/therefore/" to
+describe the solution in terms of other known solutions.
+** Find the dots
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Instructions
+
+Join together with other workshop participants in small groups to
+share your results from the previous activity, and cluster the themes
+that you find there.
+** Advice from a Caterpillar
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+Reflect on your observations, and use them to describe your
+perspective.  You might comment on aspects of your values,
+professional training, and life experiences that led you to make the
+observations you did, as well as the direct circumstances that
+contributed to shaping your experience.
+** Problem indentification
+
+*** Instructions
+Working together with the small group, talk about any problems you
+noticed.  How does the map represent stressful or concerning
+experiences?  What are some alternative histories or alternative
+futures that would describe how the circumstances would have changed?
+** Dimension analysis
+
+*** Instructions
+
+Coming back together with the full group, arrange the maps you created
+across a set of dimensions.  Two dimensions would be traditional:
+creating a 2-by-2 grid with ``best'' in the upper right, ``worst'' in
+the lower left, and so on — but feel free to use as many dimensions as
+you wish.  For example, it could be helpful to use the [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory of Basic
+Human Values]] to organise the scenarios.
+** Build Scenarios
+
+*** Instructions
+
+Working together with the full group, use the dimensions you created
+in the previous activities (together with the maps and stories) to
+give descriptive names to some scenarios for the future.  These should
+sum up the map(s) in each quadrant (or more generally, segment) from
+the diagrammatic analysis.
+** Dérive Comix Part 2
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+Explore your scenarios together in your imagination and discuss what
+you find there.  What are some of the things you observe from the
+perspective of your new role?  What things that you observe from the
+perspective of your prior training and experience?
+** Connections from Kafka
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+The [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]] should now develop and communicate significant
+purturbations to the scenario.
+** A path forward
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+Work to develop a story of the future evolution to the scenario,
+taking into account the meaning threats.
+** Back to reality
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]] should
+build a tableau of 4 meaningful symbols indexed to the four CLA
+layers, summarising the exploration above.
+** New patterns
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
+should write down some new design patterns that relate to the skills
+of participants.
+** Project Action Preview
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]
+should write down next steps for participants to take after the
+workshop.  These actions might help people learn the skills they need
+to bring about any beneficial aspects of the scenario (e.g., to
+prepare for an adaptive response to a challenging situation).  The
+actions may need to be scaffolded by new tools, policies, or other
+innovations: write these down, also.
+** Repeat Phase II
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+Reform groups, and run the exercises from Myths with a new
+[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]. The new Historian should recap key points from the PAR from
+the previous group’s Systems-to-Litany exercise, and the team should
+then explore the new scenario, following all of the steps again.
+
+This process can be repeated more than once as time allows. As you
+work through this activity, feel free to introduce connections with
+the previous scenario(s) you already explored, although the new
+Historian won’t be familiar with them.
+** Share back
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+We’re at the end of our time together, let’s share back any crucial points with a full-group PAR.
+
+* Roadmap
+:PROPERTIES:
+:tag: :HL:WS:
+:END:
+
+** Summary
+
+**Context* a group needs to coordinate its activities over a period of
+time. *If* the landscape is complex and not completely knowable BUT
+adjustment to action based on feedback is possible; *Then* use an
+explicit mechanism to share information about goals, obstacles, methods,
+and resources.
+
+** Instructions
+
+*** Our Plan
+
+- Recognise that we are living inside "Phase III"
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
+** Project Action Review
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Summary
+
+**Context* Work in progress. *If* we are working on something together
+BUT we might lose momentum; *Then* use a review template to think about
+our progress. Questions like the following can be asked at any point in
+a project, and provide a momentary record of perspectives which can be
+analysed later.
+
+1. /Review the intention: what do we (did we) expect to learn or make
+   together?/
+
+2. /Establish what is happening: what and how are we learning?/
+
+3. /What are some different perspectives on what's happening?/
+
+4. /What did we learn or change?/
+
+5. /What else should we change going forward?/
+** Causal Layered Analysis
+
+**Context* Work in progress. *If* we are working on something together BUT
+we might lose direction; *Then* review our previous [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action
+Review]] data to sense-make about our progress and intentions.  This
+process can be carried out routinely, e.g., after 6 or more sessions.
+The template suggested by Causal Layered Analysis theory can be used.
+This can be adapted in light of our roles, to help formulate new
+patterns.
+
+1. Litany (However...)
+2. System (Because...)
+3. Worldview (Therefore...)
+4. Myth (Specifically...)
+
+*** Examples
+
+The Emacs Research Group developed a set of CLAs in 2021.
+
+- [[id:eba531ea-7a47-4dba-bdd5-045d27cf0033][CLA 16 January 2021]]
+- [[id:ef397d5d-b0d5-4764-b0f3-b1fb9f240302][CLA 20 February 2021]]
+- [[id:8cfb334a-4176-4fa2-ac2f-8efff5f3c842][CLA 12 April 2021]]
+- [[id:4b759839-5721-41e8-bce7-04606183bfc9][CLA 29 May 2021]]
+- [[id:732219c0-9784-4593-b781-b82e54e948ce][CLA 16 October 2021]]
+
+However, we left off at that point; see feedback below.
+
+*** Feedback
+
+- After discussion it seemed that there wasn't sufficient group buy-in to the CLA-creation process in these early exercises.  Although we had appropriated the PAR, we hadn't appropriated CLA.  Would it be possible to revisit the CLA to make it more meaningful?
+- Addressing this could help make “Phase III” more useful in general!
