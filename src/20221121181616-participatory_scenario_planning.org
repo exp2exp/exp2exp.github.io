@@ -43,7 +43,7 @@ collected expertise of the affected communities.
 - Explain where the notes are, how to find the LaTeX files, git repos, &c.
 - This follows patterns of the EmacsConf organisation, e.g., minimal commits, logs, etc.
 
-** _How to merge multiple mindmaps?_
+** How to merge multiple mindmaps?
 - *Merging* might be easier to do with software, without them, you can get a spaghetti-fest; distilling, by asking "What are the key nodes?"; it feels like this is particularly important.
 - Building something that distills the info
 
