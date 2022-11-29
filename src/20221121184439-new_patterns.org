@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       f34a6f91-876b-4a02-a2cb-93e71d3fb818
-:END:
-#+title: New patterns
-
-As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]] should
-write down some new design patterns that relate to the skills of
-participants.
