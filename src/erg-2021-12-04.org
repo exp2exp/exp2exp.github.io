@@ -175,7 +175,7 @@ CLOSED: [2021-12-04 Sat 18:54]
 - The CLA hasn’t been too disruptive for our workflow on topics + free-ranging discussion
 - Also thinking about different chairs and styles, and we win when more people are brought into the chair; we might look at things in a different way
   
-* PAR                                                                  :10m:
+* PAR                                                                  :10m:review:
 *** 1. Review the intention: what did we expect to learn or make together?
 - Leo moving to ‘vice-chair’, freeing up mental space, maintaining the level of flexibility as a group that has been flexible for us
 - Working on the tools is another important way to work towards flexibility
