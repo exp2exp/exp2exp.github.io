@@ -2,7 +2,7 @@
 :ID:       66d6f9a0-c5ab-480d-8010-5c645aeadc17
 :END:
 #+title: Open Future Design
-#+filetags: :WS:
+#+filetags: :HL:WS:
 
 * Summary
 

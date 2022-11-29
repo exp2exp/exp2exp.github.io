@@ -2,7 +2,7 @@
 :ID:       95072d03-1359-4863-bad1-651191eb2f38
 :END:
 #+title: Participatory Scenario Planning
-#+filetags: :WS:
+#+filetags: :HL:WS:
 
 * Summary
 

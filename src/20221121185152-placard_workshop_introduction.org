@@ -2,7 +2,7 @@
 :ID:       b7b42aa2-c57c-4bcc-bc45-be9b63972be7
 :END:
 #+title: PLACARD workshop introduction
-#+filetags: :WS:
+#+filetags: :HL:WS:
 
 * Instructions
 
