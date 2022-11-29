@@ -276,8 +276,6 @@ and derived PDF is defined.")
                         "20221121181721-historian.org"
                         "20221121181726-analyst.org"
                         "20221121181731-designer.org"
-                        "20221121181738-roadmap.org"
-                        "20221121181745-project_action_review.org"
                         "20221121183832-find_the_dots.org"
                         "20221121183858-advice_from_a_caterpillar.org"
                         "20221121183935-problem_indentification.org"
@@ -288,10 +286,12 @@ and derived PDF is defined.")
                         "20221121184158-a_path_forward.org"
                         "20221121184220-back_to_reality.org"
                         "20221121184341-new_patterns.org"
-                        "20221121184439-new_patterns.org"
                         "20221121184522-project_action_preview.org"
                         "20221121184614-repeat_phase_ii.org"
                         "20221121184718-share_back.org"
+                        "20221121181738-roadmap.org"
+                        "20221121181745-project_action_review.org"
+                        "20221129173158-causal_layered_analysis.org"
 ))
 
 (defun indent-org-roam-export ()
