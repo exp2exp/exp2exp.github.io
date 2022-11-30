@@ -14,13 +14,6 @@ and resources.
 
 * Instructions
 
-** Make our own roadmap
-
-- Recognise that we are living inside "Phase III"
-- Make sure that we have things well prepared
-- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
-- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
-
 ** Respond to pilots and keep building energy
 
 *** Previous Runs of This or Related Workshops
@@ -36,3 +29,44 @@ and resources.
 
 - [ ] Alana from Bristol pilot wants to follow up; others may as well!
 - [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’
+
+* Phase III Feedback
+
+** Make our own roadmap
+
+- Recognise that we are living inside "Phase III"
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks.
+  - A potential implementation is at =~/exp2exp.github.io/src/erg/agenda.org= — that’s worth a look as a starter pack.
+  - However, we could do something similar in a more distributed way, e.g., the following will create an agenda for all =TODO= items files within this repo that have the :WS: file tag.  There are only two such items so far.
+  - We could, similarly, make additional mixes for different managerial views into the repo.
+
+#+begin_src emacs-lisp
+(defun org-scrum-board (&optional filter)
+  (interactive)
+  (let ((org-todo-keywords
+         '((sequence "TODO(t)" "|" "DONE(y)"))))
+  (org-todo-list "TODO")
+  (when filter
+    (org-agenda-filter-apply `(,filter) 'regexp))))
+
+(defun org-scrum-board-workshop ()
+  (interactive)
+  (let ((org-agenda-sorting-strategy '((todo todo-state-up category-keep tag-up)))
+        (org-agenda-files '("~/exp2exp.github.io/src/"))
+        (org-agenda-title "Workshop Roadmap"))
+    (org-scrum-board ":WS:")))
+
+(global-set-key (kbd "C-c R e") 'org-scrum-board-workshop)
+#+end_src
+
+** Overall taxonomy
+
+- Terms like “scenario” and “role” aren’t entirely clear, much less specifics like “Kaijū Communicator”: can we clear this up with a taxonomy?
+- We’ll need to add some additional terms (like “disorder” or “meta”) per workshop run, but good to have a start with the core lexicon, then we could see how the other terms relate
+
+* Phase III Evolution
+
+- Having refactored things as a collection of Org Roam files, and reexported them as a linear document, we’re starting to have a "map" of the domain.
+- Demo task tracker, above.  But, are these the right set of tasks?
