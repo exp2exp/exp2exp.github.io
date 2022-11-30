@@ -2,5 +2,42 @@
 :ID:       2b1ca06d-486e-4398-a2c9-a4a9e303eaa3
 :END:
 #+title: Community Tech
+#+filetags: :WS:
 
-TBA
+- As part of managing the [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]], this document is starting to turn into some user stories.
+
+- Technology that exists in this approximate space is Org Roam (this software); Obsidian; Logseq; Roam Research; etc.
+- All of the tools have limitations; cf. "[[https://www.reddit.com/r/emacs/comments/s9uzcx/anyone_move_from_emacs_to_logseq_why/][Anyone move from Emacs to Logseq? Why?]]"
+- In particular, /none/ of these tools are really *set up for community use*.
+
+* In Emacs we're working with software that has 30+ years of continuous community development
+
+** Efforts to externalise Org Mode have typically only exported 2% of the feature set
+
+* We have the hypothesis that community tech can help people understand their local problems and solve them
+
+- If nothing else we could leave them with an editable document, like a "Charter"
+- But the software should embody *the method* that helps them strengthen their collaboration, so we want something 'better'.
+
+* *During the workshop:* it would be good for things to happen collaboratively
+
+- This way, people are getting used to working together, using the technology
+
+* After the workshop: if we even just leave them with the method and show them how tech is evolving to link them...
+
+- Users get on board with the ideas
+
+* A Zettlekasten-style tool has some advantages
+
+- People should be able to edit nodes without interfering w/ others
+- People should be able to make new connections
+
+* How do we as developers push the capacity, to show the capacity of the software?  This way we can get investment from funders.
+
+- *Funders get on board with the ideas*
+- Funders see people in the community using and appropriating the methods?
+
+* In "Phase IV" we want to merge across maps
+
+- After a series of pilots we want to show people how the things evolve
+- We may also want to do this during the workshop
