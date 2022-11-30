@@ -14,7 +14,26 @@ and resources.
 
 * Instructions
 
-** Respond to pilots and keep building energy
+** Overall process
+
+- *Review Phase I and Phase II*:
+  - [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+- *Repeat with variations, as needed.*
+- *Respond to pilots and keep building energy*
+- *Carry out meta-review periodically:*
+  - [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]]
+- Adjust workshop methods based on what we learned
+- Develop supportive methods and technology to scaffold ongoing work by communities
+
+*** Specific actions arising
+
+- [ ] Alana from Bristol pilot wants to follow up; others may as well!
+- [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’
+
+** Materials
+
+- Shared experience of facilitators
+- This archive of working methods
 
 *** Previous Runs of This or Related Workshops
 **** 2022 November 18, Anticipation 2022 "Going Meta"
@@ -25,14 +44,13 @@ and resources.
 **** 2019 Anticipation Conference in Oslo “Fictional Peeragogical Anticipatory Learning Exploration”
 **** 2014 OpenEdJam with ‘zine http://is.gd/openedjam
 
-*** Actions arising
 
-- [ ] Alana from Bristol pilot wants to follow up; others may as well!
-- [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’
+** Intended outcome
+We want to help communities grow and solve complicated problems that they would not readily solve without the kinds of interventions we’re offering.
 
 * Phase III Feedback
 
-** Make our own roadmap
+** Let’s make and maintain our own roadmap
 
 - Recognise that we are living inside "Phase III"
 - Make sure that we have things well prepared
@@ -61,7 +79,7 @@ and resources.
 (global-set-key (kbd "C-c R e") 'org-scrum-board-workshop)
 #+end_src
 
-** Overall taxonomy
+** Let’s make and maintain our overall taxonomy
 
 - Terms like “scenario” and “role” aren’t entirely clear, much less specifics like “Kaijū Communicator”: can we clear this up with a taxonomy?
 - We’ll need to add some additional terms (like “disorder” or “meta”) per workshop run, but good to have a start with the core lexicon, then we could see how the other terms relate

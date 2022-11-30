@@ -2,6 +2,7 @@
 :ID:       56ce8d31-d3d6-4493-bb41-b07d810afbcc
 :END:
 #+title: Causal Layered Analysis
+#+filetags: :WS:
 
 *Context* Work in progress. *If* we are working on something together BUT
 we might lose direction; *Then* review our previous [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action
