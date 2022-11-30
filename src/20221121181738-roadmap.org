@@ -19,11 +19,13 @@ and resources.
 - *Review Phase I and Phase II*:
   - [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
 - *Repeat with variations, as needed.*
-- *Respond to pilots and keep building energy*
+- *Respond to participants in the pilot workshops, and keep building energy*
 - *Carry out meta-review periodically:*
   - [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]]
 - Adjust workshop methods based on what we learned
-- Develop supportive methods and technology to scaffold ongoing work by communities
+- *Develop supportive methods and technology to scaffold ongoing work by communities*
+  - [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community Tech]]
+- "Dogfood" this process by developing methods and technology that we ourselves find useful
 
 *** Specific actions arising
 

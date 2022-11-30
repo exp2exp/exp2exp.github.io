@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2b1ca06d-486e-4398-a2c9-a4a9e303eaa3
+:END:
+#+title: Community Tech
+
+TBA
