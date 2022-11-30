@@ -14,9 +14,25 @@ and resources.
 
 * Instructions
 
-** Our Plan
+** Make our own roadmap
 
 - Recognise that we are living inside "Phase III"
 - Make sure that we have things well prepared
 - We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
 - Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
+
+** Respond to pilots and keep building energy
+
+*** Previous Runs of This or Related Workshops
+**** 2022 November 18, Anticipation 2022 "Going Meta"
+**** 2022 November 3rd pilot in Bristol on Public Space and Public Health, Arnolfini Arts
+**** 2021 PLoP
+**** 2021 Connected Learning Summit
+**** 2021 Oxford Brookes University Creative Industry Festival
+**** 2019 Anticipation Conference in Oslo “Fictional Peeragogical Anticipatory Learning Exploration”
+**** 2014 OpenEdJam with ‘zine http://is.gd/openedjam
+
+*** Actions arising
+
+- [ ] Alana from Bristol pilot wants to follow up; others may as well!
+- [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’

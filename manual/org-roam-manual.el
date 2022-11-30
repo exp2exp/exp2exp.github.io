@@ -268,6 +268,8 @@ and derived PDF is defined.")
                         "20221121185656-workshop_frontstage_organisation.org"
                         "20221121185710-workshop_backstage_organisation.org"
                         "20221121185931-prior_to_the_workshop.org"
+                        "20221121190006-during_the_workshop.org"
+                        "20221121190030-after_the_workshop.org"
                         "20221121181525-open_future_design.org"
                         "20221121181616-participatory_scenario_planning.org"
                         "20221121181644-derive_comix.org"

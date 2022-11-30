@@ -137,6 +137,26 @@ Follow instructions at
 - [[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]],
 - [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]].
 
+** During the workshop
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Instructions
+
+Introduction: Follow instructions at [[id:b7b42aa2-c57c-4bcc-bc45-be9b63972be7][PLACARD workshop introduction]].
+
+Phase I: Follow instructions at [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]].
+
+Phase II. Follow instructions at [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]].
+** After the workshop
+:PROPERTIES:
+:tag: :WS:
+:END:
+
+*** Instructions
+
+Phase III. Follow instructions at [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]].
 * Open Future Design
 :PROPERTIES:
 :tag: :HL:WS:
