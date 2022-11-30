@@ -1,0 +1,65 @@
+#+TITLE: Meeting with Abby - <2022-11-30 Wed 15:00>
+
+* Intro questions
+
+Can we make an in-house slipbox representation of Pilot1?
+Can we visualise the results of that for everyone?
+Can we make a minimal view-only version of Org Roam UI? (For feedback for pilot.)
+
+- Imagining interaction also to be easy, like editing a text box on the phone and selecting which node to connect it to from the drop-down.
+
+Can we make an extended visualisation that's interactive for everyone that at the end of the full Bristol workshop they have a map that they see at the end of the workshop, and we can create patterns that we can see as a group, and create notes within those patterns?
+
+So, they can go in, click, and even if they can't edit it they can provide feedback for us?
+
+Why? So that we can scaffold ONGOING EFFORTS.
+
+- Merge everything into one big shared possibility space
+- Identify core issues
+- " ‘Produce new headlines.’ "
+- "We want to help communities grow and solve complicated problems that they would not readily solve without the kinds of interventions we’re offering."
+
+See [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community Tech]] for notes of how this develops.
+
+* Actual plotline...
+
+** Current reality
+- We have an experimental ground where we can iterate fast
+
+** Development direction
+- We also need to constantly have in mind that if we want to aim for democratisation, we need significant effort to make those available
+
+** Prototyping strategy
+- As an intermediate step, we can have minimal model (e.g., text box)
+
+** Ideal end result
+- We have a more fleshed out tool that we people want to use
+
+* Challenges:
+
+1. Getting outsiders/normies — enter Org Roam notes w/o using Org Roam notes.  This way, within a workshop we're collecting atomic notes from users.  Maybe the textbox can also be directed (like a protocol)
+  - The nodes could also link to a *Discussion forum* — so that we could have threaded discussions there.  This would also work for extending their own networks.
+  - It stays cleaner if we send people elsewhere!
+  - Maybe people can deposit small clips of interaction with the patterns that we've developed
+2. Then from /those notes/ we can create an Org Roam network
+3. Later, we can imagine the map reflecting activity in real time!
+  - People can see the initiatives that are there, how they relate, where they are active and not
+  - There are typically many isolated initiatives that are not in touch with each other
+
+** Tech limitations
+- We need the protocol to send things to Emacs stably.
+- Can we save it to the local machine, then run that to the local machine?-
+ Could do it via synchronising databases to keep it simpler
+
+** Use case: e.g. cameras + forms to homeless people
+- How would we respond to the data that they contribute?
+- How do we integrate mixed media?
+
+* Closing comments?
+
+- 1980s hypertext?  - OK we can build it
+- Taking forward what we've done
+- Next week — 
+- Drop into *EmacsConf*!
+- No Saturday meeting
+- Arrange next week by email

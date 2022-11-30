@@ -109,8 +109,8 @@
       7. Concluding remarks
    3. Include pre-workshop activity or any other asks
    4. Thank them for their time and consideration
-
-
+3. *Run the workshop and try to ensure that folks have a good time.*
+4. *After the workshop, follow up appropriately.*
 ** Workshop backstage organisation
 :PROPERTIES:
 :tag: :WS:
