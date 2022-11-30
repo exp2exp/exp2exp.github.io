@@ -55,14 +55,18 @@ Changes title to header, and increase indentation of existing headers.
 Changes file links to internal links."
   ;; Works in a temporary buffer
   (let ((beg (point)))
-    (search-forward-regexp "^#\\+title:" nil t)
-    (delete-region beg (point))
-    (insert "*")
-    (forward-line 1)
-    (if (looking-at "^#\\+filetags:\\(.*\\)")
-        (replace-match ":PROPERTIES:
+    (search-forward-regexp "^:ID: +\\(.*\\)" nil t)
+    (let ((my-id (match-string 1)))
+      (delete-region beg (point))
+      (search-forward-regexp "^#\\+title:" nil t)
+      (delete-region beg (point))
+      (insert "*")
+      (forward-line 1)
+      (if (looking-at "^#\\+filetags:\\(.*\\)")
+          (replace-match (concat ":PROPERTIES:
 :tag:\\1
-:END:"))
+:CUSTOM_ID: " my-id "
+:END:"))))
     (while (re-search-forward "^\\*" nil t)
       (replace-match "**"))
     (goto-char (point-min))
