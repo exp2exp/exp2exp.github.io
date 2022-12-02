@@ -1,12 +1,23 @@
-% Created 2022-12-02 Fri 11:57
-% Intended LaTeX compiler: xelatex
-\documentclass[11pt]{article}
+% Created 2022-12-02 Fri 18:34
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
 \usepackage[mathletters]{ucs}
 \usepackage[mathletters]{ucs}
-\usepackage{color}
-\usepackage{listings}
-\usepackage[english]{babel}
+\usepackage[mathletters]{ucs}
+\usepackage[mathletters]{ucs}
+\usepackage[mathletters]{ucs}
+\PassOptionsToPackage{hyperref}{breaklinks=true,pageanchor}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
 \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{fontspec}
@@ -31,9 +42,16 @@
 \subsectionfont{\normalfont\selectfont}
 \paragraphfont{\normalfont\selectfont}
 \subsubsectionfont{\normalfont\selectfont\color{black!50}}
-\author{Noorah Alhasan}
+\author{Joe Corneli}
 \date{\today}
 \title{Hyperreal Enterprises: Workshop Manual}
+\hypersetup{
+ pdfauthor={Joe Corneli},
+ pdftitle={Hyperreal Enterprises: Workshop Manual},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.0.50 (Org mode 9.5.4)}, 
+ pdflang={English}}
 \begin{document}
 
 \maketitle
@@ -45,46 +63,93 @@
 \tableofcontents
 \section{PLACARD workshop introduction}
 \label{b7b42aa2-c57c-4bcc-bc45-be9b63972be7}
+\subsection{Overview}
+
+Our Open Future Design (OFD) workshop design is mirrored by a strategy
+called ``PLACARD'' that distributed teams can use to scaffold social
+perception, cognition and action (Corneli et al., 2021).  This method
+combines design patterns with future scenario planning and review
+processes.  The OFD workshop is, essentially, the first run through a
+cycle that groups can repeat on their own.  The workshop introduces
+new collaboration methods and shows how they are effective.
+
+Applications range from building new platforms for collaborative
+design and citizen science, to assisting on-the-ground innovation
+projects.
+
+\subsection{Example Outcomes and Evalution}
+
+\subsubsection{Intermediate artifacts}
+
+\begin{itemize}
+\item Mindmaps created with participants
+\item Group insights in a form of shared futures.
+\end{itemize}
+
+\subsubsection{Output}
+
+\begin{itemize}
+\item A constellation of interrelated design patterns that is produced by a diverse group of experts based on shared futures.
+\end{itemize}
+
+\subsubsection{Outcomes}
+
+\begin{itemize}
+\item Long-term community engagement and buy-in based on agreed upon design patterns.
+\item Time-savings, unified structure, and further multi-lateral relationships formed (improving upon the standard default of individual meetings with stakeholders)
+\item Potential next steps include new communities of practice, and new initiatives (e.g., grant proposals, working groups)
+\end{itemize}
+
+\subsubsection{Narrative Example}
+
+On November 3rd, 2022 we ran a pilot in Bristol with the theme ``Public
+Space and Public Health''.  This brought together 8 people with varied
+expertise on these themes for a structured discussion.  In the first
+phase, we discussed the theme, and potential scenarios for development
+(\ldots{}).  In the second phase, we zoomed in on one of these scenarios
+and fleshed it out (\ldots{}).  In a follow-up round of analysis, the
+facilitators looked at notes from the workshop and found new ‘design
+patterns’ that enable workshop participants to solve the problems they
+identified.
+
+\subsubsection{Limitations}
+
+\begin{itemize}
+\item Interrater reliablity is initially low, though it should improve as
+our collection of design patterns grows.
+\end{itemize}
+
 \subsection{Instructions}
-\label{sec:orgb90d76f}
 
 \subsubsection{Introductions}
-\label{sec:orgfc4c538}
 \begin{itemize}
 \item Bristol Pilot: Abby presented a 10 minute slide show about the ``Public Space and Public Health''
 \end{itemize}
 \subsubsection{Meet and greet with participants}
-\label{sec:org1cc3ed0}
 \begin{itemize}
 \item Bristol Pilot: minimal, people said hi
 \end{itemize}
 \subsubsection{{\bfseries\sffamily TODO} ice-breaker activity}
-\label{sec:org84be6f0}
 \begin{itemize}
 \item \emph{Could be based on an in-advance ask, like, email a photo?}
 \item Maybe better to have it be something that can happen at a coffee break.
 \end{itemize}
 \subsubsection{{\bfseries\sffamily TODO} Go over the general rules and norms}
-\label{sec:org05fe842}
 \begin{itemize}
 \item Bristol Pilot: Joe presented an outline of what was going on on the day
 \end{itemize}
 \subsubsection{Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use}
-\label{sec:org502a528}
 \subsubsection{Explain theme of the workshop}
-\label{sec:orgcffff23}
 \begin{itemize}
 \item NB. different people/groups might go in different directions from this point.
 \end{itemize}
 \subsubsection{Explain the process}
-\label{sec:orga40a5c2}
 \begin{itemize}
 \item ``Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out.''
 \item ``Find new ‘design patterns’ that enable them to solve new problem.''
 \end{itemize}
 \begin{enumerate}
 \item Explain CLA (also good for us as well) \textbf{and/or} present the framework with some tangible interactives, like cards, so they don’t get bored
-\label{sec:org0f21535}
 \begin{itemize}
 \item We can explain how this will be applied, e.g., via an \textbf{example}
 \item Diagrams can convey information quickly (e.g., iceberg)
@@ -93,7 +158,6 @@
 \item Be able to access the rules quickly (cf. ``Settlers of Catan'')
 \end{itemize}
 \end{enumerate}
-
 \subsection{Workshop management checklist}
 \label{e28fb669-45a6-4916-b56b-a3afd6238d4f}
 \begin{itemize}
@@ -162,12 +226,10 @@ We need every component to fit well with the methods.
 
 \begin{enumerate}
 \item Criterion: The methods need to be tested and familiar to facilitators
-\label{sec:orgf45df24}
 \end{enumerate}
 \subsection{Prior to the workshop}
 \label{9accd402-6d28-4ee2-ac35-44b4fe682d53}
 \subsubsection{Instructions}
-\label{sec:org9a4ba9e}
 
 Follow instructions at
 \begin{itemize}
@@ -179,7 +241,6 @@ Follow instructions at
 \subsection{During the workshop}
 \label{c8823bc4-d08e-4486-9841-c914bba9977e}
 \subsubsection{Instructions}
-\label{sec:org7d32676}
 
 Introduction: Follow instructions at \hyperref[b7b42aa2-c57c-4bcc-bc45-be9b63972be7]{PLACARD workshop introduction}.
 
@@ -189,13 +250,11 @@ Phase II. Follow instructions at \hyperref[85fefbc1-ca57-46fa-a8b2-154821a56c75]
 \subsection{After the workshop}
 \label{3d0acf49-0c87-4aaa-94b3-84e5d926d58d}
 \subsubsection{Instructions}
-\label{sec:org58d62b1}
 
 Phase III. Follow instructions at \hyperref[92e18906-d0e6-4e73-a9cf-fbdad931f3cf]{Roadmap}.
 \section{Open Future Design}
 \label{66d6f9a0-c5ab-480d-8010-5c645aeadc17}
 \subsection{Summary}
-\label{sec:orgb6310a4}
 
 \textbf{*Context} People need to coordinate, plan, and maintain cohesion. \textbf{If} a
 culture can develop based on shared learning BUT there is no reliable
@@ -216,7 +275,6 @@ further patterns, e.g., to develop languages of:
 \end{itemize}
 
 \subsection{Instructions}
-\label{sec:orgd8eabf1}
 
 \begin{enumerate}
 \item Follow instructions at \hyperref[9accd402-6d28-4ee2-ac35-44b4fe682d53]{Prior to the workshop}.
@@ -224,8 +282,7 @@ further patterns, e.g., to develop languages of:
 \item Follow instructions at \hyperref[3d0acf49-0c87-4aaa-94b3-84e5d926d58d]{After the workshop}.
 \end{enumerate}
 
-\subsubsection{Documentation}
-\label{sec:org4bcc1f6}
+\subsection{Documentation}
 
 This is the entry point pattern for the Open Future Design Pattern
 Language.  Instructions for building all of the cards in a printable
@@ -255,17 +312,14 @@ patterns-reboot-par.pdf \
 \section{Participatory Scenario Planning}
 \label{95072d03-1359-4863-bad1-651191eb2f38}
 \subsection{Summary}
-\label{sec:org5a81d99}
 
 \textbf{*Context} you want to plan for possible future scenarios. \textbf{If} you have
 an interested group BUT no ``expert'' has all the answers; \textbf{Then} pool the
 collected expertise of the affected communities.
 
 \subsection{Instructions}
-\label{sec:org118a0fd}
 
 \subsubsection{Overall process}
-\label{sec:org748c1ef}
 
 \begin{itemize}
 \item The initial input are participants' individual reflections on the workshop theme (\hyperref[615846a2-1795-40b4-8dfb-3e12923fccc0]{Dérive Comix}).
@@ -274,39 +328,34 @@ collected expertise of the affected communities.
 \item \hyperref[a853be79-85c1-4ffa-9750-459192c539e8]{Find the dots}
 \item \hyperref[0ef4b185-513f-40c2-b884-6213601bbe09]{Advice from a Caterpillar}
 \end{itemize}
-\item These can be improved by coming up with dimensions in which things can optimise in some direction (good/bad) ([BROKEN LINK: 105e0ad7-ada7-4cee-b2c6-a68d08096159])
-\item Once we have dimensions, we can describe scenarios that merge the themes and dimensions, outlining possible directions of development ([BROKEN LINK: 7357a42a-9691-4669-92c3-895d9061dda5])
+\item These can be improved by coming up with dimensions in which things can optimise in some direction (good/bad) (\href{../../git-repos/exp2exp.github.io/src/20221121183951-dimension_analysis.org}{Dimension analysis})
+\item Once we have dimensions, we can describe scenarios that merge the themes and dimensions, outlining possible directions of development (\href{../../git-repos/exp2exp.github.io/src/20221121184028-build_scenarios.org}{Build Scenarios})
 \item The maps can be enriched by bringing in areas of expertise (\hyperref[bf8791b5-e50b-4666-bc01-286e279a5971]{Reinfuse Expertise})
 \item Post Phase 1 immediate feedback; check on participants (like a mini-PAR).
 \end{itemize}
 
 \subsubsection{Materials}
-\label{sec:orgadc9bfb}
 \begin{itemize}
 \item Big sheets of paper
 \end{itemize}
 
 \subsubsection{Intended outcomes}
-\label{sec:org4fa3470}
 \begin{itemize}
 \item Merge everything into one big shared possibility space
 \item Identify core issues
 \end{itemize}
 
 \subsubsection{Responsibilities of facilitators}
-\label{sec:orga892e45}
 
 \begin{itemize}
 \item Move things along, e.g., so that we identify and elaborate the blockers, but don’t get stuck on them
 \item Merge and evolve the mindmaps both within groups and across groups
-\item Identify [BROKEN LINK: d7c5081f-cc76-4893-9daa-ff13b9bf1ae2].
+\item Identify \href{../../git-repos/exp2exp.github.io/src/20221121191049-kw_scenarios.org}{scenarios}.
 \end{itemize}
 
 \subsection{Phase I Feedback}
-\label{sec:orgcd3764e}
 
 \subsubsection{Improve processing of input}
-\label{sec:orgc1aa67e}
 \begin{itemize}
 \item Consider \textbf{centralising the data}, since a lot of stuff is currently buried.
 \item Explain where the notes are, how to find the \LaTeX{} files, git repos, \&c.
@@ -314,14 +363,12 @@ collected expertise of the affected communities.
 \end{itemize}
 
 \subsubsection{How to merge multiple mindmaps?}
-\label{sec:org5ef4ea9}
 \begin{itemize}
 \item \textbf{Merging} might be easier to do with software, without them, you can get a spaghetti-fest; distilling, by asking ``What are the key nodes?''; it feels like this is particularly important.
 \item Building something that distills the info
 \end{itemize}
 
-\subsubsection{Phase I Evolution}
-\label{sec:orga7380f4}
+\subsection{Phase I Evolution}
 
 \begin{itemize}
 \item JC: Initial translation of materials into Org Roam notes (21/11/2022)
@@ -329,7 +376,6 @@ collected expertise of the affected communities.
 \subsection{Dérive Comix}
 \label{615846a2-1795-40b4-8dfb-3e12923fccc0}
 \subsubsection{Summary}
-\label{sec:org72ecb42}
 
 \textbf{*Context} you want to develop some future scenarios to explore with a
 group. \textbf{If} you have an group BUT everyone has their own experiences;
@@ -339,7 +385,6 @@ a succinct fashion, e.g., as photos, a screenshot, slides, sketches, a
 zine, a map, or some PostIt notes.
 
 \subsubsection{Instructions}
-\label{sec:orgaaafe98}
 
 Walk for one hour around your neighbourhood.  Address some or all of
 the following questions, possibly documenting them with photos, text,
@@ -358,7 +403,6 @@ e.g., as slides, sketches, a zine, a map, or some PostIt notes.
 \subsection{Meaning Map}
 \label{407beae8-ab2f-4340-9552-211d3b92ede6}
 \subsubsection{Summary}
-\label{sec:org28f58fb}
 
 \textbf{*Context} We have collected images describing people's worlds (see
 \hyperref[615846a2-1795-40b4-8dfb-3e12923fccc0]{Dérive Comix}). \textbf{If} you want to distill shared meaning BUT everyone has
@@ -369,7 +413,6 @@ that's OK. You can use these different viewpoints to get everyone on
 the same map.
 
 \subsubsection{Instructions}
-\label{sec:org679c057}
 
 Return to your small groups and bring together the themes you
 identified earlier.  Informed by your reflections, work together with
@@ -384,7 +427,6 @@ Try to articulate such complexities.
 \subsection{Reinfuse Expertise}
 \label{bf8791b5-e50b-4666-bc01-286e279a5971}
 \subsubsection{Summary}
-\label{sec:orga340b4e}
 
 \textbf{*Context} a group wants to build a \hyperref[407beae8-ab2f-4340-9552-211d3b92ede6]{Meaning Map}. \textbf{If} everyone has
 experience as a citizen BUT they also have expertise; \textbf{Then} begin by
@@ -393,7 +435,6 @@ reinfuse expertise to enable richer and more complex thinking.
 \section{Play to Anticipate the Future}
 \label{85fefbc1-ca57-46fa-a8b2-154821a56c75}
 \subsection{Summary}
-\label{sec:orga288b15}
 
 \textbf{*Context} you want to have fun with friends, colleagues or
 acquaintances. \textbf{If} you want to explore possible futures BUT time travel
@@ -401,14 +442,11 @@ does not exist and you don't know what to expect; \textbf{Then} play a game
 that lets you experience a plausible future scenario together.
 
 \subsection{Instructions}
-\label{sec:org8b6051f}
 
 \subsubsection{Overall process}
-\label{sec:org6528878}
 
 \begin{enumerate}
 \item Rapid training:
-\label{sec:orgabef6a4}
 
 \begin{itemize}
 \item \textbf{Explain the game}:
@@ -432,7 +470,6 @@ that lets you experience a plausible future scenario together.
 \end{itemize}
 
 \item Scenario exploration:
-\label{sec:orga2c0f30}
 
 \begin{itemize}
 \item Enrich the scenarios using the familiar pattern from \hyperref[f447153f-7ff5-449d-bb08-67f579dda53f]{Dérive Comix Part 2}.
@@ -450,13 +487,11 @@ that lets you experience a plausible future scenario together.
 \end{enumerate}
 
 \subsubsection{Materials}
-\label{sec:orgad6d242}
 \begin{itemize}
 \item Need ``another big sheet of paper'' to elaborate what that thing is like, e.g., what is it like for you, what is it like for me.
 \end{itemize}
 
 \subsubsection{Intended outcome}
-\label{sec:org7a90b87}
 \begin{itemize}
 \item Reverse CLA process to return from Myth to Litany.
 \begin{itemize}
@@ -465,10 +500,8 @@ that lets you experience a plausible future scenario together.
 \end{itemize}
 
 \subsection{Phase II Feedback}
-\label{sec:orgb0c278a}
 
 \subsubsection{Strategy: consider using Org Roam intelligently}
-\label{sec:org5f47982}
 
 \begin{itemize}
 \item We’d stopped using it as we originally intended, and just had meeting notes
@@ -477,8 +510,7 @@ that lets you experience a plausible future scenario together.
 \item \textbf{Method for maintaining structure} can be taught later after we have the contents
 \end{itemize}
 
-\subsubsection{Phase II Evolution}
-\label{sec:org50e0b06}
+\subsection{Phase II Evolution}
 
 \begin{itemize}
 \item Could we view ``evolution'' inside the diagram?
@@ -489,7 +521,6 @@ that lets you experience a plausible future scenario together.
 \subsection{Kaijū Communicator}
 \label{a0796d9e-664b-46fa-bb37-7f6a6fc15584}
 \subsubsection{Summary}
-\label{sec:org9894ee9}
 
 \textbf{*Context} When developing a vision of the future. \textbf{If} people start to
 agree BUT no one challenges what's going on, solutions become brittle;
@@ -498,7 +529,6 @@ conflicts.
 \subsection{Historian}
 \label{57d46961-a056-435e-85d2-27ab6e0de7f6}
 \subsubsection{Summary}
-\label{sec:org2436bdb}
 
 \textbf{*Context} When developing a vision of the future. \textbf{If} people start to
 agree BUT no one connects it with local history and concrete actions,
@@ -507,7 +537,6 @@ abstract problems and solutions to specific actions.
 \subsection{Analyst}
 \label{5826c7d9-8962-433d-83c5-27a5196908ea}
 \subsubsection{Summary}
-\label{sec:orgc01c7c1}
 
 \textbf{*Context} When developing a vision of the future. \textbf{If} people start to
 form a solution BUT no one connects it with the complex reasons why that
@@ -517,7 +546,6 @@ is likely to work.
 \subsection{Designer}
 \label{48a1d6a3-800d-46bd-8a4a-0d3414ecf150}
 \subsubsection{Summary}
-\label{sec:org68ffc62}
 
 \textbf{*Context} When developing a vision of the future. \textbf{If} people start to
 form a solution BUT we don't connect it with our existing knowledge,
@@ -526,7 +554,6 @@ describe the solution in terms of other known solutions.
 \subsection{Find the dots}
 \label{a853be79-85c1-4ffa-9750-459192c539e8}
 \subsubsection{Instructions}
-\label{sec:orgeaa3865}
 
 Join together with other workshop participants in small groups to
 share your results from the previous activity, and cluster the themes
@@ -539,19 +566,15 @@ professional training, and life experiences that led you to make the
 observations you did, as well as the direct circumstances that
 contributed to shaping your experience.
 \subsection{Problem indentification}
-\label{sec:org769d413}
 
 \subsubsection{Instructions}
-\label{sec:org6cc932b}
 Working together with the small group, talk about any problems you
 noticed.  How does the map represent stressful or concerning
 experiences?  What are some alternative histories or alternative
 futures that would describe how the circumstances would have changed?
 \subsection{Dimension analysis}
-\label{sec:org67443d9}
 
 \subsubsection{Instructions}
-\label{sec:orgcf1fd4c}
 
 Coming back together with the full group, arrange the maps you created
 across a set of dimensions.  Two dimensions would be traditional:
@@ -560,10 +583,8 @@ the lower left, and so on — but feel free to use as many dimensions as
 you wish.  For example, it could be helpful to use the \href{https://en.wikipedia.org/wiki/Theory\_of\_Basic\_Human\_Values}{Theory of Basic
 Human Values} to organise the scenarios.
 \subsection{Build Scenarios}
-\label{sec:orgf3992ba}
 
 \subsubsection{Instructions}
-\label{sec:orgcf8e046}
 
 Working together with the full group, use the dimensions you created
 in the previous activities (together with the maps and stories) to
@@ -621,7 +642,6 @@ We’re at the end of our time together, let’s share back any crucial points w
 \section{Roadmap}
 \label{92e18906-d0e6-4e73-a9cf-fbdad931f3cf}
 \subsection{Summary}
-\label{sec:orga4e8af5}
 
 \textbf{*Context} a group needs to coordinate its activities over a period of
 time. \textbf{If} the landscape is complex and not completely knowable BUT
@@ -630,10 +650,8 @@ explicit mechanism to share information about goals, obstacles, methods,
 and resources.
 
 \subsection{Instructions}
-\label{sec:org7206ec0}
 
 \subsubsection{Overall process}
-\label{sec:org0b7c145}
 
 \begin{itemize}
 \item \textbf{Review Phase I and Phase II}:
@@ -656,7 +674,6 @@ and resources.
 
 \begin{enumerate}
 \item Specific actions arising
-\label{sec:org5d19d65}
 
 \begin{itemize}
 \item[{$\square$}] Alana from Bristol pilot wants to follow up; others may as well!
@@ -665,7 +682,6 @@ and resources.
 \end{enumerate}
 
 \subsubsection{Materials}
-\label{sec:org550cc26}
 
 \begin{itemize}
 \item Shared experience of facilitators
@@ -674,35 +690,24 @@ and resources.
 
 \begin{enumerate}
 \item Previous Runs of This or Related Workshops
-\label{sec:org18dfa67}
 \begin{enumerate}
 \item 2022 November 18, Anticipation 2022 ``Going Meta''
-\label{sec:org1bc1a2a}
 \item 2022 November 3rd pilot in Bristol on Public Space and Public Health, Arnolfini Arts
-\label{sec:org79eccc8}
 \item 2021 PLoP
-\label{sec:org218ec5b}
 \item 2021 Connected Learning Summit
-\label{sec:orgdec1f98}
 \item 2021 Oxford Brookes University Creative Industry Festival
-\label{sec:orgeb83126}
 \item 2019 Anticipation Conference in Oslo “Fictional Peeragogical Anticipatory Learning Exploration”
-\label{sec:orgc8de25e}
 \item 2014 OpenEdJam with ‘zine \url{http://is.gd/openedjam}
-\label{sec:org2785ca5}
 \end{enumerate}
 \end{enumerate}
 
 
 \subsubsection{Intended outcome}
-\label{sec:org0f11016}
 We want to help communities grow and solve complicated problems that they would not readily solve without the kinds of interventions we’re offering.
 
 \subsection{Phase III Feedback}
-\label{sec:orgda953eb}
 
 \subsubsection{Let’s make and maintain our own roadmap}
-\label{sec:org7862d11}
 
 \begin{itemize}
 \item Recognise that we are living inside ``Phase III''
@@ -736,15 +741,13 @@ We want to help communities grow and solve complicated problems that they would 
 \end{verbatim}
 
 \subsubsection{Let’s make and maintain our overall taxonomy}
-\label{sec:org243fcde}
 
 \begin{itemize}
 \item Terms like “scenario” and “role” aren’t entirely clear, much less specifics like “Kaijū Communicator”: can we clear this up with a taxonomy?
 \item We’ll need to add some additional terms (like “disorder” or “meta”) per workshop run, but good to have a start with the core lexicon, then we could see how the other terms relate
 \end{itemize}
 
-\subsubsection{Phase III Evolution}
-\label{sec:org48d00fb}
+\subsection{Phase III Evolution}
 
 \begin{itemize}
 \item Having refactored things as a collection of Org Roam files, and reexported them as a linear document, we’re starting to have a ``map'' of the domain.
@@ -753,7 +756,6 @@ We want to help communities grow and solve complicated problems that they would 
 \subsection{Project Action Review}
 \label{f5a1bc15-5abb-44d6-8f7a-e254974c9002}
 \subsubsection{Summary}
-\label{sec:orgf126cff}
 
 \textbf{*Context} Work in progress. \textbf{If} we are working on something together
 BUT we might lose momentum; \textbf{Then} use a review template to think about
@@ -791,22 +793,20 @@ patterns.
 \end{enumerate}
 
 \subsubsection{Examples}
-\label{sec:org4fb1c0d}
 
 The Emacs Research Group developed a set of CLAs in 2021.
 
 \begin{itemize}
-\item\relax [BROKEN LINK: eba531ea-7a47-4dba-bdd5-045d27cf0033]
-\item\relax [BROKEN LINK: ef397d5d-b0d5-4764-b0f3-b1fb9f240302]
-\item\relax [BROKEN LINK: 8cfb334a-4176-4fa2-ac2f-8efff5f3c842]
-\item\relax [BROKEN LINK: 4b759839-5721-41e8-bce7-04606183bfc9]
-\item\relax [BROKEN LINK: 732219c0-9784-4593-b781-b82e54e948ce]
+\item \href{../../git-repos/exp2exp.github.io/src/cla-16-january-2021.org}{CLA 16 January 2021}
+\item \href{../../git-repos/exp2exp.github.io/src/cla-20-february-2021.org}{CLA 20 February 2021}
+\item \href{../../git-repos/exp2exp.github.io/src/cla-12-april-2021.org}{CLA 12 April 2021}
+\item \href{../../git-repos/exp2exp.github.io/src/cla-29-may-2021.org}{CLA 29 May 2021}
+\item \href{../../git-repos/exp2exp.github.io/src/cla-16-october-2021.org}{CLA 16 October 2021}
 \end{itemize}
 
 However, we left off at that point; see feedback below.
 
 \subsubsection{Feedback}
-\label{sec:orgec3c179}
 
 \begin{itemize}
 \item After discussion it seemed that there wasn't sufficient group buy-in to the CLA-creation process in these early exercises.  Although we had appropriated the PAR, we hadn't appropriated CLA.  Would it be possible to revisit the CLA to make it more meaningful?
