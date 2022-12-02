@@ -4,6 +4,54 @@
 #+title: PLACARD workshop introduction
 #+filetags: :HL:WS:
 
+* Overview
+
+Our Open Future Design (OFD) workshop design is mirrored by a strategy
+called "PLACARD" that distributed teams can use to scaffold social
+perception, cognition and action (Corneli et al., 2021).  This method
+combines design patterns with future scenario planning and review
+processes.  The OFD workshop is, essentially, the first run through a
+cycle that groups can repeat on their own.  The workshop introduces
+new collaboration methods and shows how they are effective.
+
+Applications range from building new platforms for collaborative
+design and citizen science, to assisting on-the-ground innovation
+projects.
+
+* Example Outcomes and Evalution
+
+** Intermediate artifacts
+
+- Mindmaps created with participants
+- Group insights in a form of shared futures.
+
+** Output
+
+- A constellation of interrelated design patterns that is produced by a diverse group of experts based on shared futures.
+
+** Outcomes
+
+- Long-term community engagement and buy-in based on agreed upon design patterns.
+- Time-savings, unified structure, and further multi-lateral relationships formed (improving upon the standard default of individual meetings with stakeholders)
+- Potential next steps include new communities of practice, and new initiatives (e.g., grant proposals, working groups)
+
+** Narrative Example
+
+On November 3rd, 2022 we ran a pilot in Bristol with the theme "Public
+Space and Public Health".  This brought together 8 people with varied
+expertise on these themes for a structured discussion.  In the first
+phase, we discussed the theme, and potential scenarios for development
+(...).  In the second phase, we zoomed in on one of these scenarios
+and fleshed it out (...).  In a follow-up round of analysis, the
+facilitators looked at notes from the workshop and found new ‘design
+patterns’ that enable workshop participants to solve the problems they
+identified.
+
+** Limitations
+
+- Interrater reliablity is initially low, though it should improve as
+  our collection of design patterns grows.
+
 * Instructions
 
 ** Introductions
@@ -27,4 +75,3 @@
 - Roles & patterns are visual and memorable
 - How will it be used in this phase: decent to the myth
 - Be able to access the rules quickly (cf. "Settlers of Catan")
-
