@@ -13,3 +13,6 @@ yarn-error.log*
 .npm
 .eslintcache
 .dir-locals.el
+*.aux
+*.toc
+*.out
