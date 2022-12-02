@@ -541,7 +541,6 @@ taking into account the meaning threats.
 As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]] should
 build a tableau of 4 meaningful symbols indexed to the four CLA
 layers, summarising the exploration above.
-
 ** New patterns
 :PROPERTIES:
 :tag: :WS:
@@ -603,14 +602,28 @@ and resources.
 
 ** Instructions
 
-*** Make our own roadmap
+*** Overall process
 
-- Recognise that we are living inside "Phase III"
-- Make sure that we have things well prepared
-- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
-- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
+- *Review Phase I and Phase II*:
+  - [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+- *Repeat with variations, as needed.*
+- *Respond to participants in the pilot workshops, and keep building energy*
+- *Carry out meta-review periodically:*
+  - [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]]
+- Adjust workshop methods based on what we learned
+- *Develop supportive methods and technology to scaffold ongoing work by communities*
+  - [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community Tech]]
+- "Dogfood" this process by developing methods and technology that we ourselves find useful
 
-*** Respond to pilots and keep building energy
+**** Specific actions arising
+
+- [ ] Alana from Bristol pilot wants to follow up; others may as well!
+- [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’
+
+*** Materials
+
+- Shared experience of facilitators
+- This archive of working methods
 
 **** Previous Runs of This or Related Workshops
 ***** 2022 November 18, Anticipation 2022 "Going Meta"
@@ -621,10 +634,50 @@ and resources.
 ***** 2019 Anticipation Conference in Oslo “Fictional Peeragogical Anticipatory Learning Exploration”
 ***** 2014 OpenEdJam with ‘zine http://is.gd/openedjam
 
-**** Actions arising
 
-- [ ] Alana from Bristol pilot wants to follow up; others may as well!
-- [ ] Worth dropping a line to attendees of the Anticipation 2022 where they can be traced to say ‘thank you’
+*** Intended outcome
+We want to help communities grow and solve complicated problems that they would not readily solve without the kinds of interventions we’re offering.
+
+** Phase III Feedback
+
+*** Let’s make and maintain our own roadmap
+
+- Recognise that we are living inside "Phase III"
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks.
+  - A potential implementation is at =~/exp2exp.github.io/src/erg/agenda.org= — that’s worth a look as a starter pack.
+  - However, we could do something similar in a more distributed way, e.g., the following will create an agenda for all =TODO= items files within this repo that have the :WS: file tag.  There are only two such items so far.
+  - We could, similarly, make additional mixes for different managerial views into the repo.
+
+#+begin_src emacs-lisp
+(defun org-scrum-board (&optional filter)
+  (interactive)
+  (let ((org-todo-keywords
+         '((sequence "TODO(t)" "|" "DONE(y)"))))
+  (org-todo-list "TODO")
+  (when filter
+    (org-agenda-filter-apply `(,filter) 'regexp))))
+
+(defun org-scrum-board-workshop ()
+  (interactive)
+  (let ((org-agenda-sorting-strategy '((todo todo-state-up category-keep tag-up)))
+        (org-agenda-files '("~/exp2exp.github.io/src/"))
+        (org-agenda-title "Workshop Roadmap"))
+    (org-scrum-board ":WS:")))
+
+(global-set-key (kbd "C-c R e") 'org-scrum-board-workshop)
+#+end_src
+
+*** Let’s make and maintain our overall taxonomy
+
+- Terms like “scenario” and “role” aren’t entirely clear, much less specifics like “Kaijū Communicator”: can we clear this up with a taxonomy?
+- We’ll need to add some additional terms (like “disorder” or “meta”) per workshop run, but good to have a start with the core lexicon, then we could see how the other terms relate
+
+** Phase III Evolution
+
+- Having refactored things as a collection of Org Roam files, and reexported them as a linear document, we’re starting to have a "map" of the domain.
+- Demo task tracker, above.  But, are these the right set of tasks?
 ** Project Action Review
 :PROPERTIES:
 :tag: :WS:
@@ -650,6 +703,10 @@ analysed later.
 
 5. /What else should we change going forward?/
 ** Causal Layered Analysis
+:PROPERTIES:
+:tag: :WS:
+:CUSTOM_ID: 56ce8d31-d3d6-4493-bb41-b07d810afbcc
+:END:
 
 **Context* Work in progress. *If* we are working on something together BUT
 we might lose direction; *Then* review our previous [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action
