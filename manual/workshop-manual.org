@@ -179,13 +179,13 @@ methods to articulate multiple futures. This work can be guided by
 further patterns, e.g., to develop languages of:
 
 - /future scenarios/ →  [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]]
-  - cf. [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]], [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]], [[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]]
+#  - cf. [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]], [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]], [[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]]
 
 - /roles/ →  [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]]
-  - cf. [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]], [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]], [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]], [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
+#  - cf. [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]], [[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]], [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]], [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
 
 - /projects/ →  [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]]
-  - cf. [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
+#  - cf. [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]]
 
 ** Instructions
 
