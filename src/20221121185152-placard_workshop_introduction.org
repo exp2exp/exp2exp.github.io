@@ -1,13 +1,13 @@
 :PROPERTIES:
 :ID:       b7b42aa2-c57c-4bcc-bc45-be9b63972be7
 :END:
-#+title: PLACARD workshop introduction
+#+title: Open Future Design workshop: Introduction
 #+filetags: :HL:WS:
 
 * Overview
 
-Our Open Future Design (OFD) workshop design is mirrored by a strategy
-called "PLACARD" that distributed teams can use to scaffold social
+Our /Open Future Design/ (OFD) workshop is mirrored by a strategy called
+"PLACARD" that distributed teams can use to scaffold social
 perception, cognition and action (Corneli et al., 2021).  This method
 combines design patterns with future scenario planning and review
 processes.  The OFD workshop is, essentially, the first run through a
@@ -18,7 +18,7 @@ Applications range from building new platforms for collaborative
 design and citizen science, to assisting on-the-ground innovation
 projects.
 
-* Example Outcomes and Evalution
+* Outcomes and Evalution
 
 ** Intermediate artifacts
 

@@ -1,0 +1,163 @@
+#+TITLE: 10 December 2022 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2022-12-10 Sat>
+
+* 10 December 2022  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Potential new cat owner 🐈
+- Cat has been visiting for 10 days to 2 weeks, Annan's been taking care of it
+- Now wants to come inside :-)
+- Petsmart bound
+
+** LV
+- Just came from a tangential conversation that was tense; I had to tell my friend that I'm giving up (the 3rd time)
+  - NA: Keep in mind that you'd be foregoing €40-80K per year and the quick route to senior dev + management in your case!
+  - And you can always go back to do the PhD later
+- It's freezing (current cast-iron-paned heater isn't on yet)
+- Low on money so doesn't want to gamble on the bill!
+- Emacsconf was great
+- Following that, lots of frustration leading to applying for 5 developer positions
+  - LV: Now's the time for rejoicing in my readiness for this approach
+  - Besides I've been fighting impostership for a long time and value the self-made aspect of my development; I'd rather take the long way round
+  - NA: So you want to focus more on development now... rather than writing and philosophy; but they'd shape your focus for 2 years
+  - A programme in an information school would work better for you
+  - Which would you rather be getting more training on?
+  - LV: So, where's the ceiling on what I can do on my own?
+  - Self-learning can be very inefficient
+  - JC: You don't need to do it now!
+  - If you went to an iSchool you could leave w/ a Masters in Information Studies — much more employable
+- I also just want to spend time here in France & to be more grounded!
+
+** JC
+- In Minneapolis, reconnecting w/ Anders
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Catch Leo up on the workshop framing from NA + JC
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- We can't measure the strength of connection between nodes in Org Roam!
+- Nor anything like that in Org Roam UI
+- It could be something simple like /frequency of words/ to test the strength of connection: which would only be applied to neighbouring nodes
+- Read into network analysis, they have done stuff like this before
+  - Quadratic (e.g., 100x100) at worst case
+  - But this does go to linguistic ideas
+  - We can think more about how to do this well
+
+- If you have many lines going out of it you could at least say "This one is instrumental to others"
+- This is a constant time!
+
+- Tech question: if I open org-roam.db w/ DB Browser for SQLite
+  - There are 2 columns w/ node id an alias...
+  - Can we pull the text for the node id into another column
+  - Text data is currently stored in file, but it would be easier for analysis if we had the full-text data inside
+  - LV: Though, from data-hygiene standpoint, it's considered better to keep only metadata in the database! — Otherwise computation vs database writes is tricky
+  - Maybe I need a python script that extracts the text from each node & puts it into compute
+- "Datalake" might be a tech thing we could use
+
+- Expanding the local neighbourhood of new nodes could be useful for thinking about "what's missing" that would make our new insights more effective & more valuable
+
+- Think about this in terms of "activation" — you might be more likely to create more links in an already-densely-connected area
+
+- Another route: exclude distance 2, but see connections that aren't obvious (not distance 3 but w/ high salience)
+- E.g., also, "retract nodes that are already well connected, so that we only see the new stuff"
+
+- Currently there's no way to do these queries or interact with the graph
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Speed through of specific changes
+- Use Bristol Pound to build similar network of exchange which we can analyse
+- Rethink the CLA along bio-psycho-social-eco
+- Potentially create new patterns with pictures created by participants
+
+** Web form demo
+- Populate name, text
+- Google is handling the backend here
+- JC: Maybe also node that they are connecting to
+  - NA: But I want to make it as simple as possible at first, e.g., "I am reacting to something someone else is saying"
+  - LV: Like on "Survivor" breakout rooms
+  - JC: OK, this is like the open string, and we could build other features on them
+- Timestamps could differentiate the phases
+- Could also display as a timeline, and we come back and interact with them later
+- LV: How about creating documents of the design ideas... so that feature-wise we have ideas fitted under bigger ideas; simple ideas are easy to keep in mind, but more complex ideas are hard to remember
+- JC: Can we zoom in on the ideas that are related to technology in our Org Roam?
+
+- Can it be phone friendly?
+- LV: E.g., React/reactive display should help with this
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- Brief meeting today
+- Deployed some computing concepts in today's meeting
+
+*** 2. What are some different perspectives on what's happening?
+- Leo feeling unfocused (and slept 12 hours last night!); will be fine when the quagmire is resolved
+- JC: You do seem to be in a transition phase of some kind
+- Enjoyed demos inducing conversations (e.g., you can actually expand Org Roam — cool!)
+- This helps think about things we can do
+
+*** 3. What did we learn or change?
+- JC: Spelling of Annan
+- Leo has insta-mime ability with is push-to-mute
+
+*** 4. What else should we change going forward?
+- JC: I met a couple people that I might want to suggest
+- Next Saturday Noorah is traveling to Kuwait (GMT+3)
+
+* Tentative agenda for next week
+
+- Abby mentioned earlier in the week
+- After that, next meet as ERG on 7th?
+- Can find times during the week to coordinate as needed
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Excited about the cat
+- Packing soon!
+
+** JC
+- Shortly going to see my second cousin
+- I do have a slight cold so won't cough on her
+- Oh yeah, lots of meetings for next week
+  - NA: me too, got dragged in!
+
+** LV
+- JC: Drop it for a year, you'll have everything and more next year!
+- LV: I have people around me who know I prevaricate when I'm at 90%...
