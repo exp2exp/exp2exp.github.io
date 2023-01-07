@@ -30,7 +30,7 @@
 #+LATEX_HEADER_EXTRA: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
 
 \begin{abstract}
-\noindent This document is a linear treatment of the PLACARD workshop.
+\noindent This document is a linear treatment of the Open Future Design workshop.
 \end{abstract}
 
 \setcounter{tocdepth}{2}
@@ -41,6 +41,54 @@
 :tag: :HL:WS:
 :CUSTOM_ID: b7b42aa2-c57c-4bcc-bc45-be9b63972be7
 :END:
+
+** Overview
+
+Our Open Future Design (OFD) workshop design is mirrored by a strategy
+called "PLACARD" that distributed teams can use to scaffold social
+perception, cognition and action (Corneli et al., 2021).  This method
+combines design patterns with future scenario planning and review
+processes.  The OFD workshop is, essentially, the first run through a
+cycle that groups can repeat on their own.  The workshop introduces
+new collaboration methods and shows how they are effective.
+
+Applications range from building new platforms for collaborative
+design and citizen science, to assisting on-the-ground innovation
+projects.
+
+** Example Outcomes and Evalution
+
+*** Intermediate artifacts
+
+- Mindmaps created with participants
+- Group insights in a form of shared futures.
+
+*** Output
+
+- A constellation of interrelated design patterns that is produced by a diverse group of experts based on shared futures.
+
+*** Outcomes
+
+- Long-term community engagement and buy-in based on agreed upon design patterns.
+- Time-savings, unified structure, and further multi-lateral relationships formed (improving upon the standard default of individual meetings with stakeholders)
+- Potential next steps include new communities of practice, and new initiatives (e.g., grant proposals, working groups)
+
+*** Narrative Example
+
+On November 3rd, 2022 we ran a pilot in Bristol with the theme "Public
+Space and Public Health".  This brought together 8 people with varied
+expertise on these themes for a structured discussion.  In the first
+phase, we discussed the theme, and potential scenarios for development
+(...).  In the second phase, we zoomed in on one of these scenarios
+and fleshed it out (...).  In a follow-up round of analysis, the
+facilitators looked at notes from the workshop and found new ‘design
+patterns’ that enable workshop participants to solve the problems they
+identified.
+
+*** Limitations
+
+- Interrater reliablity is initially low, though it should improve as
+  our collection of design patterns grows.
 
 ** Instructions
 
@@ -65,8 +113,7 @@
 - Roles & patterns are visual and memorable
 - How will it be used in this phase: decent to the myth
 - Be able to access the rules quickly (cf. "Settlers of Catan")
-
-* Workshop management checklist
+** Workshop management checklist
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: e28fb669-45a6-4916-b56b-a3afd6238d4f
@@ -80,7 +127,7 @@
 - [ ] Reasonable expectations how much effort it needs, and what’s available
 - [ ] Make sure we have a protocol about this
 - [ ] Make good commits for this document!
-* Workshop frontstage organisation
+** Workshop frontstage organisation
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 2a01f142-31c7-4e86-ae10-e14e85b4dda9
@@ -111,7 +158,7 @@
    4. Thank them for their time and consideration
 3. *Run the workshop and try to ensure that folks have a good time.*
 4. *After the workshop, follow up appropriately.*
-* Workshop backstage organisation
+** Workshop backstage organisation
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 781d52fa-71a9-4c90-b4f6-9b0dd4244c33
@@ -128,40 +175,40 @@ Be sure to sort these as-needed:
 
 We need every component to fit well with the methods.
 
-***** Criterion: The methods need to be tested and familiar to facilitators
-* Prior to the workshop
+****** Criterion: The methods need to be tested and familiar to facilitators
+** Prior to the workshop
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 9accd402-6d28-4ee2-ac35-44b4fe682d53
 :END:
 
-** Instructions
+*** Instructions
 
 Follow instructions at
 - [[id:e28fb669-45a6-4916-b56b-a3afd6238d4f][Workshop management checklist]],
 - [[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]],
 - [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]].
 
-* During the workshop
+** During the workshop
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: c8823bc4-d08e-4486-9841-c914bba9977e
 :END:
 
-** Instructions
+*** Instructions
 
 Introduction: Follow instructions at [[id:b7b42aa2-c57c-4bcc-bc45-be9b63972be7][PLACARD workshop introduction]].
 
 Phase I: Follow instructions at [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]].
 
 Phase II. Follow instructions at [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]].
-* After the workshop
+** After the workshop
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 3d0acf49-0c87-4aaa-94b3-84e5d926d58d
 :END:
 
-** Instructions
+*** Instructions
 
 Phase III. Follow instructions at [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]].
 * Open Future Design
@@ -272,13 +319,13 @@ collected expertise of the affected communities.
 ** Phase I Evolution
 
 - JC: Initial translation of materials into Org Roam notes (21/11/2022)
-* Dérive Comix
+** Dérive Comix
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 615846a2-1795-40b4-8dfb-3e12923fccc0
 :END:
 
-** Summary
+*** Summary
 
 **Context* you want to develop some future scenarios to explore with a
 group. *If* you have an group BUT everyone has their own experiences;
@@ -287,7 +334,7 @@ document what you see. Follow up by preparing your materials to share in
 a succinct fashion, e.g., as photos, a screenshot, slides, sketches, a
 zine, a map, or some PostIt notes.
 
-** Instructions
+*** Instructions
 
 Walk for one hour around your neighbourhood.  Address some or all of
 the following questions, possibly documenting them with photos, text,
@@ -303,13 +350,13 @@ the [[https://www.publicstreet.org/derive][dérive]].)
 
 Follow up by preparing your materials to share in a succinct fashion,
 e.g., as slides, sketches, a zine, a map, or some PostIt notes.
-* Meaning Map
+** Meaning Map
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 407beae8-ab2f-4340-9552-211d3b92ede6
 :END:
 
-** Summary
+*** Summary
 
 **Context* We have collected images describing people's worlds (see
 [[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]). *If* you want to distill shared meaning BUT everyone has
@@ -319,7 +366,7 @@ together, or maybe everyone will have their own different perspective:
 that's OK. You can use these different viewpoints to get everyone on
 the same map.
 
-** Instructions
+*** Instructions
 
 Return to your small groups and bring together the themes you
 identified earlier.  Informed by your reflections, work together with
@@ -331,13 +378,13 @@ older people might perceive the place they explored to be a village,
 while younger people perceive it to be a settlement on the outskirts
 of town.  You might have different perspectives on what’s missing.
 Try to articulate such complexities.
-* Reinfuse Expertise
+** Reinfuse Expertise
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: bf8791b5-e50b-4666-bc01-286e279a5971
 :END:
 
-** Summary
+*** Summary
 
 **Context* a group wants to build a [[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]. *If* everyone has
 experience as a citizen BUT they also have expertise; *Then* begin by
@@ -407,69 +454,69 @@ that lets you experience a plausible future scenario together.
 - We do have ways to track & see how things have changed; it'd be good to upgrade the interface
 - If the tools aren't there yet, we can mimic the tools.
 - Anyway, using Org Roam again will help us see where the /feature evolution/ should be
-* Kaijū Communicator
+** Kaijū Communicator
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: a0796d9e-664b-46fa-bb37-7f6a6fc15584
 :END:
 
 
-** Summary
+*** Summary
 
 **Context* When developing a vision of the future. *If* people start to
 agree BUT no one challenges what's going on, solutions become brittle;
 **Then* use words like "/however/" to challenge proposals and highlight
 conflicts.
-* Historian
+** Historian
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 57d46961-a056-435e-85d2-27ab6e0de7f6
 :END:
 
-** Summary
+*** Summary
 
 **Context* When developing a vision of the future. *If* people start to
 agree BUT no one connects it with local history and concrete actions,
 then work bogs down; *Then* use words like "/specifically/" to connect
 abstract problems and solutions to specific actions.
-* Analyst
+** Analyst
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 5826c7d9-8962-433d-83c5-27a5196908ea
 :END:
 
-** Summary
+*** Summary
 
 **Context* When developing a vision of the future. *If* people start to
 form a solution BUT no one connects it with the complex reasons why that
 solution is likely to work, then it's likely to be fragile; *Then* use
 words like "/because/" to describe the complex reasons that the solution
 is likely to work.
-* Designer
+** Designer
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 48a1d6a3-800d-46bd-8a4a-0d3414ecf150
 :END:
 
 
-** Summary
+*** Summary
 
 **Context* When developing a vision of the future. *If* people start to
 form a solution BUT we don't connect it with our existing knowledge,
 then it's likely to be fragile; *Then* use words like "/therefore/" to
 describe the solution in terms of other known solutions.
-* Find the dots
+** Find the dots
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: a853be79-85c1-4ffa-9750-459192c539e8
 :END:
 
-** Instructions
+*** Instructions
 
 Join together with other workshop participants in small groups to
 share your results from the previous activity, and cluster the themes
 that you find there.
-* Advice from a Caterpillar
+** Advice from a Caterpillar
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 0ef4b185-513f-40c2-b884-6213601bbe09
@@ -480,16 +527,16 @@ perspective.  You might comment on aspects of your values,
 professional training, and life experiences that led you to make the
 observations you did, as well as the direct circumstances that
 contributed to shaping your experience.
-* Problem indentification
+** Problem indentification
 
-** Instructions
+*** Instructions
 Working together with the small group, talk about any problems you
 noticed.  How does the map represent stressful or concerning
 experiences?  What are some alternative histories or alternative
 futures that would describe how the circumstances would have changed?
-* Dimension analysis
+** Dimension analysis
 
-** Instructions
+*** Instructions
 
 Coming back together with the full group, arrange the maps you created
 across a set of dimensions.  Two dimensions would be traditional:
@@ -497,16 +544,16 @@ creating a 2-by-2 grid with ``best'' in the upper right, ``worst'' in
 the lower left, and so on — but feel free to use as many dimensions as
 you wish.  For example, it could be helpful to use the [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory of Basic
 Human Values]] to organise the scenarios.
-* Build Scenarios
+** Build Scenarios
 
-** Instructions
+*** Instructions
 
 Working together with the full group, use the dimensions you created
 in the previous activities (together with the maps and stories) to
 give descriptive names to some scenarios for the future.  These should
 sum up the map(s) in each quadrant (or more generally, segment) from
 the diagrammatic analysis.
-* Dérive Comix Part 2
+** Dérive Comix Part 2
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: f447153f-7ff5-449d-bb08-67f579dda53f
@@ -516,7 +563,7 @@ Explore your scenarios together in your imagination and discuss what
 you find there.  What are some of the things you observe from the
 perspective of your new role?  What things that you observe from the
 perspective of your prior training and experience?
-* Connections from Kafka
+** Connections from Kafka
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 34be214c-5885-4794-b93c-84e49ddad18b
@@ -524,7 +571,7 @@ perspective of your prior training and experience?
 
 The [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator]] should now develop and communicate significant
 purturbations to the scenario.
-* A path forward
+** A path forward
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 7c0dce3b-d5ea-4712-a771-6ff26f143686
@@ -532,7 +579,7 @@ purturbations to the scenario.
 
 Work to develop a story of the future evolution to the scenario,
 taking into account the meaning threats.
-* Back to reality
+** Back to reality
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: e38d2006-bcf7-494b-bd51-d8932b1ed0cd
@@ -541,7 +588,7 @@ taking into account the meaning threats.
 As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:5826c7d9-8962-433d-83c5-27a5196908ea][Analyst]] should
 build a tableau of 4 meaningful symbols indexed to the four CLA
 layers, summarising the exploration above.
-* New patterns
+** New patterns
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: ed238393-a7e4-4a0d-9eb2-3d6ab745c170
@@ -550,7 +597,7 @@ layers, summarising the exploration above.
 As the process of building [[id:7c0dce3b-d5ea-4712-a771-6ff26f143686][A path forward]] develops, the [[id:48a1d6a3-800d-46bd-8a4a-0d3414ecf150][Designer]]
 should write down some new design patterns that relate to the skills
 of participants.
-* Project Action Preview
+** Project Action Preview
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: baa168fb-37a0-4144-ab16-d4962728ea9c
@@ -563,7 +610,7 @@ to bring about any beneficial aspects of the scenario (e.g., to
 prepare for an adaptive response to a challenging situation).  The
 actions may need to be scaffolded by new tools, policies, or other
 innovations: write these down, also.
-* Repeat Phase II
+** Repeat Phase II
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 092e4fe4-ee4f-494d-8776-c5f1389e8dc0
@@ -578,7 +625,7 @@ This process can be repeated more than once as time allows. As you
 work through this activity, feel free to introduce connections with
 the previous scenario(s) you already explored, although the new
 Historian won’t be familiar with them.
-* Share back
+** Share back
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 848c8c3d-cde3-48b4-9dae-23eca4db440d
@@ -678,13 +725,13 @@ We want to help communities grow and solve complicated problems that they would 
 
 - Having refactored things as a collection of Org Roam files, and reexported them as a linear document, we’re starting to have a "map" of the domain.
 - Demo task tracker, above.  But, are these the right set of tasks?
-* Project Action Review
+** Project Action Review
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: f5a1bc15-5abb-44d6-8f7a-e254974c9002
 :END:
 
-** Summary
+*** Summary
 
 **Context* Work in progress. *If* we are working on something together
 BUT we might lose momentum; *Then* use a review template to think about
@@ -702,7 +749,7 @@ analysed later.
 4. /What did we learn or change?/
 
 5. /What else should we change going forward?/
-* Causal Layered Analysis
+** Causal Layered Analysis
 :PROPERTIES:
 :tag: :WS:
 :CUSTOM_ID: 56ce8d31-d3d6-4493-bb41-b07d810afbcc
@@ -721,7 +768,7 @@ patterns.
 3. Worldview (Therefore...)
 4. Myth (Specifically...)
 
-** Examples
+*** Examples
 
 The Emacs Research Group developed a set of CLAs in 2021.
 
@@ -733,7 +780,7 @@ The Emacs Research Group developed a set of CLAs in 2021.
 
 However, we left off at that point; see feedback below.
 
-** Feedback
+*** Feedback
 
 - After discussion it seemed that there wasn't sufficient group buy-in to the CLA-creation process in these early exercises.  Although we had appropriated the PAR, we hadn't appropriated CLA.  Would it be possible to revisit the CLA to make it more meaningful?
 - Addressing this could help make “Phase III” more useful in general!
