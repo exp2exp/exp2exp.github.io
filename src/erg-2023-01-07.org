@@ -162,31 +162,45 @@ This is a way to keep track of who is attending.
 
 - Friday     13 January 2023
 
-- Saturday   14 January 2023 —
+- Saturday   14 January 2023
   - *JC + LV*: look at tech stuff at 15:00 UK
 
 - Sunday     15 January 2023
 
 - Monday     16 January 2023 W03
+  - NA is free all day
+  - LV and NA work together for the analysis?
+  - Come up with consent forms
 
 - Tuesday    17 January 2023
 
-- Wednesday  18 January 2023 — *AT* within 1430-1800 (but just 1h30; starting early because NA has her work).
+- Wednesday  18 January 2023 — *AT* within 1430-1600 (but just 1h30; starting early because NA has her work).
   - LV: Delivery for tech, potential feature-freeze.
+  - Draft itemized bill and send to Abby.
   - Testing of the tech
 
 - Thursday   19 January 2023
+  - LV: Working on diagrams to help people get phase 1 & phase 2
 
 - Friday     20 January 2023 
-  - *Joe will go to Bristol for the weekend*
 
 - Saturday   21 January 2023
+  - *Joe will go to Bristol for the weekend*
   - *Meeting with everyone*, Abby + Joe in-person
 
 - Sunday     22 January 2023
 
 - Monday     23 January 2023 W04
   - *Run the workshop*
+
+...
+
+- Tuesday    31 January 2023
+  - Delivery of the analysis
+
+Notes from meeting with Abby on [2023-01-11 Wed]
+- AT: Some community tech might be joining as well, yay!
+- JC: /Linguistics/ roles
 
 *** After the workshop
 
