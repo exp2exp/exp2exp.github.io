@@ -154,7 +154,7 @@ This is a way to keep track of who is attending.
 - Tuesday    10 January 2023
 
 - Wednesday  11 January 2023 — *AT* within 1500-1800 (but just 1h30)
-  - Check out the recording facilities
+  - Check out the *recording facilities*
   - Ask about documentary team involvement
   - anything else ...
 
@@ -169,18 +169,18 @@ This is a way to keep track of who is attending.
 
 - Monday     16 January 2023 W03
   - NA is free all day
-  - LV and NA work together for the analysis?
-  - Come up with consent forms
+  - LV and NA work together for the analysis, developing an *analysis protocol*
+  - Come up with *consent forms*
 
 - Tuesday    17 January 2023
 
 - Wednesday  18 January 2023 — *AT* within 1430-1600 (but just 1h30; starting early because NA has her work).
   - LV: Delivery for tech, potential feature-freeze.
-  - Draft itemized bill and send to Abby.
-  - Testing of the tech
+  - Draft *itemized bill* and send to Abby.
+  - Testing of the tech to make sure that everyone groks the stuff that they need to use 
 
 - Thursday   19 January 2023
-  - LV: Working on diagrams to help people get phase 1 & phase 2
+  - (stetch-goal) LV: Working on diagrams to help people get phase 1 & phase 2 in the introduction
 
 - Friday     20 January 2023 
 
@@ -193,10 +193,74 @@ This is a way to keep track of who is attending.
 - Monday     23 January 2023 W04
   - *Run the workshop*
 
-...
+#+begin_quote
+- 09﻿30-1000. Arrival, tea and coffee (Waterside 3)
+- 1﻿000-1030. Media screening (Cinema 2)
+- 1﻿030-1230. Session 1: experts to citizens (Waterside 3).  This is about context, stripping expertise, going to the root myth.
+  - Introduce the workshop theme and core question using *slides* [AT]
+  - Introduce the workshop format using *slides* [JC]
+    - In short, if the problem could be solved by individuals using standard methods it probably would have been done already.
+  - _1145_: LV is available and we begin a process of condensing what was done in phase 1
+  - Distil everything into one *overall map*
+- 1﻿230-1330. Lunch (provided)
+  - Working lunch for facilitators, so have a *premade lunch*
+  - Finalise distillation of map
+  - Walk through map with Noorah from _1300_
+  - Ensure that we have people only as citizens, not as experts; they have reached a ‘centered point’ in which everyone is harmonized.
+- 1﻿330-1500. Session 2: citizens to action (Waterside 3).  We want to generate patterns with some degree of mobility from the original context.
+  - Joe to provide some =HOWEVER= =BECAUSE= =THEREFORE= =SPECIFICALLY= *cards* and show how to use them
+  - Participants continue to work in small groups to explore scenarios that explore the original problems, and come up with *coherent next steps*
+  - Introduce *the Lounge* tool for Phase 2
+  - Pictures of these can become *proto-patterns*, see example below; these are the prismatic reflections of the original problem AT presented
+    - With given proto-patterns, ‘However’ means a bridge between contexts
+  - Leo and Noorah work in the background to turn patterns into a *pattern language*
+- 1﻿500-1530. Review and close (Cinema 2)
+  - Screenshare Org-Roam-UI with basic patterns in it; as a prototype, can we view the central problem as the apex of a double cone of problems?
+  - We want them to understand that this problem is related to a whole *array of problems* (things this is not, but things it is adjacent to); this will contribute to motivating the participants because they’ll realise they have new superpowers.
+    - Who else do they need to talk to?
+  - Not only are they harmonized (from Phase I, they are also somewhat unblocked)
+- 1﻿530-1700. Reception (Watershed bar)
+#+end_quote
+
+E.g. proto-pattern: (TBA).
+- Progression from HOWEVER → BECAUSE → THEREFORE → SPECIFICALLY
+
+#+begin_quote
+TRANSFER CONTROL TO PARTICIPANTS v1
+
+We come into the workshop expecting to be facilitators HOWEVER we look
+for opportunities whenever participants are taking a lead in the
+conversation, identifying problems, drawing mindmaps, etc., and help
+them practice these skills.
+
+BECAUSE the workshop is designed to build skills and connections that
+are put into practice later, and we only have a short period to work
+with, we should highlight the skills that participants are bringing to
+the table.
+
+A typical pattern in coaching is to build from the participants’
+strengths, THEREFORE we need to identify those strengths within the
+workshop.
+
+SPECIFICALLY, in the Anticipation pilot, participants were willing to
+take charge of making mindmaps early on.
+
+=TRANSFER CONTROL TO PARTICIPANTS v2=
+
+facilitators [HOWEVER] participant leadership
+[BECAUSE] we don’t have much time
+build from strengths [THEREFORE] identify strengths
+[SPECIFICALLY] participants make maps
+#+end_quote
+
+- Monday     30 January 2023 W05 Finish analysis
 
 - Tuesday    31 January 2023
   - Delivery of the analysis
+
+#+begin_quote
+- Why is this the method that builds itself?
+#+end_quote
 
 Notes from meeting with Abby on [2023-01-11 Wed]
 - AT: Some community tech might be joining as well, yay!
