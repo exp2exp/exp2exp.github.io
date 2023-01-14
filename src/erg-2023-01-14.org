@@ -1,0 +1,180 @@
+:PROPERTIES:
+:ID:       b2bd195e-be52-49fc-91cb-7a2d8231e417
+:END:
+#+TITLE: 14 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-14 Sat>
+
+* 14 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** JC
+- Learned a little bit about how to use yasnippet
+  - The buffer needs to be in org mode
+  - Then run =yas-expand= after the string "erg".
+
+** LV
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+
+*** 2. What are some different perspectives on what's happening?
+
+*** 3. What did we learn or change?
+
+*** 4. What else should we change going forward?
+
+
+* Tentative agenda for next week
+
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+
+** LV
+
+:PROPERTIES:
+:ID:       b2bd195e-be52-49fc-91cb-7a2d8231e417
+:END:
+#+TITLE: 14 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-14 Sat>
+
+* 14 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** JC
+- At the start of the meeting learned a little bit about how to use yasnippet:
+  - The buffer needs to be in org mode
+  - Then run =yas-expand= after the string "erg".
+- Browsers are going well w/ pop-out in Discord to remove left pane
+- Joe has a wall, and a standing desk, so is happy about that.
+
+** LV
+- Today was a lazy day
+- But jump roping is back in the exercise cycle
+
+* Meta points
+
+** No recording today so we’ll take careful notes
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Last time we concluded by going through the schedule and a checklist of key components and steps
+- Let’s do that again, but in slow motion with regard to the checklist, so that we can think about which parts
+
+* Agenda (Part 1)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- JC: Liked LV’s point about participants being proto-facilitators.
+
+We took notes into the previous meeting’s notes
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+Yummy apple
+
+* Agenda (Part 2)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+Nice diagrams based on an hourglass shape and extensions thereof
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Just Leo and Joe this time
+- Prior to this meeting we’d thought it would be a more technical meeting but instead we walked through the methods in more detail
+
+*** 2. What are some different perspectives on what's happening?
+- Working through the methods carefully seems better than rehashing the technology at this point
+- The checklist approach is what we wanted to switch to from the last pilot
+
+*** 3. What did we learn or change?
+- We have some existing technologies that are basically ready to deploy if needed
+- We have a more detailed analysis of Phase II to Phase III transition
+
+*** 4. What else should we change going forward?
+- Get ready to do the first step
+- Definitely show the final result!
+- LV: I want to figure out an *export of Org Roam UI* so that we can host it on a website
+  - Comment box is slightly harder to do
+- If we want to get pictures later, facilitators can take pictures and send them via Discord
+- "Technology will be the blocker for Phase III" (and that’s what we’re aiming to get the grant on)
+
+* Tentative agenda for next week
+
+See other notes for time table.
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+We’ll be seeing each other a lot next week!
+
+** JC
+- We may go to a party soon, with the bass guitar guy as a host
+
+** LV
+- 20 minutes left in current (1st) episode of a new series and need to eat
+- Emacs frustration isn’t worth it!
