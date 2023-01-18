@@ -281,6 +281,55 @@ For next time.
 Federated Wiki development, pattern Language specialists, data processing.
 #+end_quote
 
+**** [2023-01-18 Wed 15:33] Meeting with Abby
+
+
+***** Agenda
+- 4-keywords pattern-making: Is it enough?
+- How to introduce phase 2
+- How does the flow look like from problem → solution → pattern
+- How does context of the original problem relate to the context of application of the pattern.
+
+***** Next steps
+- Check if JC and AT will be meeting in person for ERG this Saturday.
+
+***** Chit-chat before meeting
+
+****** Challenging the 4-keyword format for pattern-making
+- JC: Perhaps the 4-keyword is all we need.  It’s sufficiently abstract for what we need to do, and LV and NA will be in the background anyway.
+-
+***** Re-cap Monday meeting LV x NA
+
+- How to visualize the entire workshop. See LV's diagram
+  
+****** Technology used during workshop
+
+- Initially we wanted to create a text box
+- Using IRC chat instead of URL text box
+
+****** Post-workshop analysis
+
+- 30 minutes to create slipbox network
+
+***** Workshop logistics
+
+- AT: teetering between presenting participants' videos at the beginning of the workshop (must submit on Friday prior) or after workshop.
+- AT: Balancing method with content.
+
+***** Items that JC would like to have addressed (based on retro-planning)
+Are we ready for the following?
+
+- [ ] Introduce the workshop theme and core question using ¶slides¶ [AT]
+- [ ] Introduce the workshop format using ¶slides¶ [JC]
+- [ ] End of Phase I: Distil everything into one ¶overall map¶ [JC, LV, NA]
+- [ ] Working lunch for facilitators, so have a ¶premade lunch¶ [JC, LV]
+- [ ] Joe to provide some =HOWEVER= =BECAUSE= =THEREFORE= =SPECIFICALLY= ¶cards¶ and show how to use them [JC]
+- [ ] Pictures of card-based activities can become ¶proto-patterns¶, see example below; these are the prismatic reflections of the original problem AT presented [JC, LV, NA]
+- [ ] Leo and Noorah work in the background to turn patterns into a ¶pattern language¶ [LV, NA]
+- [ ] 2nd part of Phase II: Participants continue to work in small groups to explore scenarios that explore the original problems, and come up with ¶coherent next steps¶ [?]
+- [ ] Introduce ¶the Lounge¶ tool for Phase 2 [LV]
+- [ ] We want them to understand that this problem is related to a whole ¶array of problems¶ (things this is not, but things it is adjacent to); this will contribute to motivating the participants because they’ll realise they have new superpowers. [LV, AT]
+
 * PAR                                                                   
 :PROPERTIES:
 :Effort:   0:10
