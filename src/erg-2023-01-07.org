@@ -1,0 +1,332 @@
+:PROPERTIES:
+:ID:       8fa9fd2e-0329-47ea-afe2-57269941e227
+:END:
+#+TITLE: 07 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-07 Sat>
+
+* 07 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- In Dubai, and it’s a bit late there!  But, up for 1h30 session as usual for a break.
+  - JC: Reminding of Zoo Eyes by Aldous Harding “What am I doing in Dubai?”
+
+** JC
+- Purchased a mandola to complement bass
+- Aubergine plant did not survive; must try again later.
+
+** LV
+- Application to Princeton completed 
+- Slicing veggies as usual
+- Emacs + server hasn’t been restarted for 28 days
+
+* Meta points
+
+** Meetings
+
+- Abby couldn’t make it today but would like to talk during the week if possible
+- 2PM except Tuesday or Friday would be good
+
+** Event placeholder circulated: Mon, 23 January 2023, 10:00 – 15:30 GMT
+
+- 2 weeks from Monday hence
+
+- https://www.eventbrite.co.uk/e/public-space-for-public-health-a-call-to-action-tickets-492522286417
+
+This is a way to keep track of who is attending.
+
+- 09﻿30-1000. Arrival, tea and coffee (Waterside 2)
+- 1﻿000-1030. Media screening (Cinema 3)
+- 1﻿030-1230. Session 1: experts to citizens (Waterside 2)
+- 1﻿230-1330. Lunch (provided)
+- 1﻿330-1500. Session 2: citizens to action (Waterside 2)
+- 1﻿500-1530. Review and close (Cinema 3)
+- 1﻿530-1700. Reception (Watershed bar)
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) - Reflections on life since we last met.
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Joe: Reflections on social dynamics
+- Articulation of ERG + Abby
+- Difficulties ping-ponging between different spheres in a Venn diagram was tricky for everyone; maybe especially for Joe as a liaison
+- What do we all bring?  E.g.:
+  - Inclusive perspective, filter for what’s doable+valuable, in-betweeners, rigour, interest in what we’re doing (i.e., interest in the methods), interest in acquiring/expanding/replicating the methods.
+
+** Noorah: Reflecting on the workshop, and a sense of guilt about not being as present as I would have liked
+
+- How can we help w/ this?
+- Communication: e.g., Feeling I’m missing out in meetings w/ Abby and asking for a catch up.
+- LV: What’s the positive version of this?  LV+NA both wanted to be more involved in the project, then Noorah came up with a plan of what we needed to do during the project.  Then we used this as the skeleton guide of how to do the workshop, and Abby was pleased w/ this and able to contribute.
+- So responsibility + time aren’t necessarily correlated, we knew we’d be running out of money and working more than we intended to.
+- The sneaky thing about frustration is that it can accumulate w/o a strong clue about what causes it. 
+- Though, we did come up with a plan, communicate reasonable restructuring (time + dynamics w/ Slipbox plan)
+- We have notes & todo file of everything we want to do...
+- And we’ve been pretty busy in the meantime — let’s start January w/ a stance of using the worries to be efficient in what we do!
+- Maybe we can decide that every December is going to be shit & we can be kind to ourselves
+- JC: Can I help you do the pattern analysis of the workshop this time?
+
+*** Now I have two cats 
+- The two 8-months-old cats bonded in the shelter
+- Suzie🐱 is bonded w/ her brother Andy🐱
+  - She’s super energetic
+
+** Leo: We need to be on the ball w/ communication
+
+- It would be good if in coming weeks if we need to invite her, someone does it right after we agree it
+- How much can we take on w/ the tech for this time?  LV decided to take on the (potentially) difficult tech conversations so that 
+- Main goal here is to keep it fun through the next few weeks.
+
+*** Princeton stuff
+- Find out at the end of January if he’ll be invited for an on-campus week (to happen in March, with final info in April)
+- LV was able to make the proposal about how literature & computing can conciliate
+
+*** Other stuff
+- Unexpected car repairs led to ditching the car at parents’
+- Life is now the same as before but w/ fewer keys
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- Rev Allison coincidentally returned just now
+- Git/Magit : Absorb?  Merges a branch and deletes the former branch.
+
+* Agenda (Part 2) - Next steps, who does what.
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Recap of what we talked about in December
+- Refresh on roles /during/ the workshop
+- We changed things so:
+  - JC+AT are there, 15-25 participants will be managed in the room
+  - NA+LV will be behind the scenes, e.g., making mind maps, putting stuff into Org Roam, will have plenty of time to do this
+- We discussed /recording/; will think about how to deal w/ this, how to analyse the data.
+
+** Any concerns at this point?
+
+- How to ensure communication from the groups?
+  - E.g., text-box on phone?
+- Is the workshop itself the deliverable?  Or WS+mindmap showing the map + ability to make comments
+  - Ability to keep track of TODOs?
+- But this isn’t quite the most effective way into Phase III.
+- Is reporting on the workshop enough.
+  - JC: Reporting should be good enough.  Even if the reporting isn’t too automated yet, but our technological report will broach on this.
+- E.g., comparing it with =sickboi= — we slightly altered the deliverables, but the methods will still be there
+- The tech stuff that we can automatise is a net bonus
+
+** Outline of days & actions upcoming
+
+*** Parameters to keep in mind
+  - We meet with AT every week.
+  - We need to have one ERG session per week, even if it doesn’t happen on a Saturday
+  - Technology-wise, we need to have LV present tooling to everyone sufficiently early for them to understand how use the tools they’ll need.
+  - We need to finish writing the report for end-of-January (so that it fits within the grant)
+  - We need to send *a quote* for the last bit of money before end-of-January
+  - AT & JC (+ Judith?): Find a way to record participants in groups.  We talked about dictaphones which should be available in the venue.
+  - Liaising with the documentary team
+
+*** Timeline up to the workshop
+
+- Saturday    7 January 2023
+
+- Sunday      8 January 2023
+
+- Monday      9 January 2023 W02
+
+- Tuesday    10 January 2023
+
+- Wednesday  11 January 2023 — *AT* within 1500-1800 (but just 1h30)
+  - Check out the *recording facilities*
+  - Ask about documentary team involvement
+  - anything else ...
+
+- Thursday   12 January 2023 
+
+- Friday     13 January 2023
+
+- Saturday   14 January 2023
+  - *JC + LV*: look at tech stuff at 15:00 UK
+
+- Sunday     15 January 2023
+
+- Monday     16 January 2023 W03
+  - NA is free all day
+  - LV and NA work together for the analysis, developing an *analysis protocol*
+  - Come up with *consent forms*
+
+- Tuesday    17 January 2023
+
+- Wednesday  18 January 2023 — *AT* within 1430-1600 (but just 1h30; starting early because NA has her work).
+  - LV: Delivery for tech, potential feature-freeze.
+  - Draft *itemized bill* and send to Abby.
+  - Testing of the tech to make sure that everyone groks the stuff that they need to use 
+
+- Thursday   19 January 2023
+  - (stetch-goal) LV: Working on diagrams to help people get phase 1 & phase 2 in the introduction
+
+- Friday     20 January 2023 
+
+- Saturday   21 January 2023
+  - *Joe will go to Bristol for the weekend*
+  - *Meeting with everyone*, Abby + Joe in-person
+
+- Sunday     22 January 2023
+
+- Monday     23 January 2023 W04
+  - *Run the workshop*
+
+#+begin_quote
+- 09﻿30-1000. Arrival, tea and coffee (Waterside 3)
+- 1﻿000-1030. Media screening (Cinema 2)
+- 1﻿030-1230. Session 1: experts to citizens (Waterside 3).  This is about context, stripping expertise, going to the root myth.
+  - Introduce the workshop theme and core question using *slides* [AT]
+  - Introduce the workshop format using *slides* [JC]
+    - In short, if the problem could be solved by individuals using standard methods it probably would have been done already.
+  - _1145_: LV is available and we begin a process of condensing what was done in phase 1
+  - Distil everything into one *overall map*
+- 1﻿230-1330. Lunch (provided)
+  - Working lunch for facilitators, so have a *premade lunch*
+  - Finalise distillation of map
+  - Walk through map with Noorah from _1300_
+  - Ensure that we have people only as citizens, not as experts; they have reached a ‘centered point’ in which everyone is harmonized.
+- 1﻿330-1500. Session 2: citizens to action (Waterside 3).  We want to generate patterns with some degree of mobility from the original context.
+  - Joe to provide some =HOWEVER= =BECAUSE= =THEREFORE= =SPECIFICALLY= *cards* and show how to use them
+  - Participants continue to work in small groups to explore scenarios that explore the original problems, and come up with *coherent next steps*
+  - Introduce *the Lounge* tool for Phase 2
+  - Pictures of these can become *proto-patterns*, see example below; these are the prismatic reflections of the original problem AT presented
+    - With given proto-patterns, ‘However’ means a bridge between contexts
+  - Leo and Noorah work in the background to turn patterns into a *pattern language*
+- 1﻿500-1530. Review and close (Cinema 2)
+  - Screenshare Org-Roam-UI with basic patterns in it; as a prototype, can we view the central problem as the apex of a double cone of problems?
+  - We want them to understand that this problem is related to a whole *array of problems* (things this is not, but things it is adjacent to); this will contribute to motivating the participants because they’ll realise they have new superpowers.
+    - Who else do they need to talk to?
+  - Not only are they harmonized (from Phase I, they are also somewhat unblocked)
+- 1﻿530-1700. Reception (Watershed bar)
+#+end_quote
+
+E.g. proto-pattern: (TBA).
+- Progression from HOWEVER → BECAUSE → THEREFORE → SPECIFICALLY
+
+#+begin_quote
+TRANSFER CONTROL TO PARTICIPANTS v1
+
+We come into the workshop expecting to be facilitators HOWEVER we look
+for opportunities whenever participants are taking a lead in the
+conversation, identifying problems, drawing mindmaps, etc., and help
+them practice these skills.
+
+BECAUSE the workshop is designed to build skills and connections that
+are put into practice later, and we only have a short period to work
+with, we should highlight the skills that participants are bringing to
+the table.
+
+A typical pattern in coaching is to build from the participants’
+strengths, THEREFORE we need to identify those strengths within the
+workshop.
+
+SPECIFICALLY, in the Anticipation pilot, participants were willing to
+take charge of making mindmaps early on.
+
+=TRANSFER CONTROL TO PARTICIPANTS v2=
+
+facilitators [HOWEVER] participant leadership
+[BECAUSE] we don’t have much time
+build from strengths [THEREFORE] identify strengths
+[SPECIFICALLY] participants make maps
+#+end_quote
+
+- Monday     30 January 2023 W05 Finish analysis
+
+- Tuesday    31 January 2023
+  - Delivery of the analysis
+
+#+begin_quote
+- Why is this the method that builds itself?
+#+end_quote
+
+Notes from meeting with Abby on [2023-01-11 Wed]
+- AT: Some community tech might be joining as well, yay!
+- JC: /Linguistics/ roles
+
+*** After the workshop
+
+- (Another week to analyse and deliver post-workshop.)
+- LV may be out of the loop in first week in February
+
+**** Make the analysis method replicable
+
+For next time.
+
+**** Make sure we deliver something approximating the original spec
+
+#+begin_quote
+Federated Wiki development, pattern Language specialists, data processing.
+#+end_quote
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- Back after a break
+- Keeping it informal at first & raising concerns
+- Flip the concerns into positives & plans
+
+*** 2. What are some different perspectives on what's happening?
+
+- NA: Appreciate the flip technique
+- JC: Appreciate Venn diagram discussion recap
+
+- Balance 15 minute check-in & rigour
+
+*** 3. What did we learn or change?
+
+Productive
+
+*** 4. What else should we change going forward?
+
+- LV: Be on the ball with communication so that we don’t waste time and generate frustration.
+- <<Explore use of more elaborate templates for specific needs in future>>
+
+* Tentative agenda for next week
+
+- JC: Arrange meeting for Wednesday during the week
+
+* Tentative agenda for after January
+
+- Explore use of more elaborate templates for specific needs in future (was something we discussed pointing users to)
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going off to hang out
+
+** JC
+- Not crashing yet, planning to join family call
+- Keep it simple, probably no social plans for today
+
+** LV
+- Gonna cook dinner now.

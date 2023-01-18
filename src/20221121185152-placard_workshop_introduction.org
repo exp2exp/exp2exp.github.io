@@ -18,7 +18,7 @@ Applications range from building new platforms for collaborative
 design and citizen science, to assisting on-the-ground innovation
 projects.
 
-* Example Outcomes and Evalution
+* Outcomes and Evalution
 
 ** Intermediate artifacts
 
