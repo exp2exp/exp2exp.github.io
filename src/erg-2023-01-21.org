@@ -38,9 +38,46 @@
 
 ** Introducing Phase II
 
-- Start with an example.
-- Explain the keywords
-- Explain the roles
+- Converting Phase I mind map into org-roam network visual
+- How to classify these notes?
+  - By CLA level?
+
+- Questions that we need to answer:
+  1. What needs to happen from the end of phase 1?
+  2. How does it go into phase 2?
+  3. How does phase 2 happens?
+    
+** Play-by-play of the entire workshop
+- 09﻿30-1000. Arrival, tea and coffee (Waterside 3)
+- 1﻿000-1030. Media screening (Cinema 2)
+- 1﻿030-1230. Session 1: experts to citizens (Waterside 3).  This is about context, stripping expertise, going to the root myth.
+  - Introduce the workshop theme and core question using *slides* [AT]
+  - Introduce the workshop format using *slides* [JC]
+    - In short, if the problem could be solved by individuals using standard methods it probably would have been done already.
+  - _1145_: LV is available and we begin a process of condensing what was done in phase 1
+  - Distil everything into one *overall map*
+- 1﻿230-1330. Lunch (provided)
+  - Working lunch for facilitators, so have a *premade lunch*
+  - Finalise distillation of map
+  - Walk through map with Noorah from _1300_
+  - Ensure that we have people only as citizens, not as experts; they have reached a ‘centered point’ in which everyone is harmonized.
+- 1﻿330-1500. Session 2: citizens to action (Waterside 3).  We want to generate patterns with some degree of mobility from the original context.
+  - Joe to provide some =HOWEVER= =BECAUSE= =THEREFORE= =SPECIFICALLY= *cards* and show how to use them
+  - Participants continue to work in small groups to explore scenarios that explore the original problems, and come up with *coherent next steps*
+  - Introduce *the Lounge* tool for Phase 2
+  - Pictures of these can become *proto-patterns*, see example below; these are the prismatic reflections of the original problem AT presented
+    - With given proto-patterns, ‘However’ means a bridge between contexts
+  - Leo and Noorah work in the background to turn patterns into a *pattern language*
+- 1﻿500-1530. Review and close (Cinema 2)
+  - Screenshare Org-Roam-UI with basic patterns in it; as a prototype, can we view the central problem as the apex of a double cone of problems?
+  - We want them to understand that this problem is related to a whole *array of problems* (things this is not, but things it is adjacent to); this will contribute to motivating the participants because they’ll realise they have new superpowers.
+    - Who else do they need to talk to?
+  - Not only are they harmonized (from Phase I, they are also somewhat unblocked)
+- 1﻿530-1700. Reception (Watershed bar)
+
+1:30–1:45 Presentation of org-roam mindmap by LV and NA
+1:45–2:00 JC explanation
+2:00–2:45 3 rotations of 15′
 
 * BREAK
 :PROPERTIES:
@@ -51,6 +88,9 @@
 :PROPERTIES:
 :Effort:   0:20
 :END:
+
+- Phase I
+  
 
 * PAR
 :PROPERTIES:
