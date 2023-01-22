@@ -1,0 +1,82 @@
+#+TITLE: 21 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-21 Sat>
+
+* 21 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Mourning the loss of Andy, and Suzi's loss of her brother
+
+** JC
+- Currently in Bristol with AT
+
+** AT
+
+** LV
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Dress rehearsal of the Bristol workshop
+
+* Agenda (Part 1) - Phase II (play-by-play)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Introducing Phase II
+
+- Start with an example.
+- Explain the keywords
+- Explain the roles
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+
+*** 2. What are some different perspectives on what's happening?
+
+*** 3. What did we learn or change?
+
+*** 4. What else should we change going forward?
+
+
+* Tentative agenda for next week
+
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+
+** LV
