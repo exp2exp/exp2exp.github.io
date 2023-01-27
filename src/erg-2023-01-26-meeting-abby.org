@@ -1,0 +1,250 @@
+:PROPERTIES:
+:ID:       fc5c107d-f10e-47c9-8a5b-8883636f681e
+:END:
+#+TITLE: 26 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-26 Thu>
+
+* 26 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** General life check-ins
+*** NA
+- Up early with Susie 🐱 
+*** JC
+- Took a walk this morning.
+*** LV
+- 
+*** AT
+- Slept good
+
+* Meta points
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Overview & feedback
+
+*** Emotional feedback from us
+- Moving back and forth between the different rooms went well, especially the moves between Cinema 2 and Watershed 3.
+- Which part of the last preparations did we think were useful?
+  - The degree to which we elaborated on the play-by-play allowed us to clarify what we were going to do and when we were going to do it.
+  - It also allowed us to connect different part of the workshop through the day, both with the different teams and the different moments in the day.
+- Was something missing?
+  - Under pressure, we could put this workshop together, but AT might have appreciated an extra week to further iterate on the checklist.
+  - The difference between using the words that JC had first proposed, and then articulating them with the roles/pieces that we used in Phase 2 was difficult.
+  - The connection between context/problem/solution and the roles of Phase 2 was not satisfactory.
+  - The explanations and prompts could have been clearer, although they should not be sanitized to the point of being clinical.
+  - The workshop felt facilitator-heavy, i.e., that the conversations can get blocked fairly easily without a facilitator.
+
+
+- Did things make sense?
+- Were they obstacles we didn’t anticipate?
+
+*** Anything that’s come in since the meeting
+
+**** Judith and Frankie (who were already in the November pilot)
+- Thought it was a great forum for discussion
+- People noted informal exchange of contact details in the room (offshoots)
+- Coherence of the workshop as a whole ‘worked’
+  - LV: I think this is the result of the extra preparation we’ve done over the week-end right before the workshop
+- Not overwhelming; it felt like this was the best method for this type of problem-resolution workshop.
+
+**** Martin (landscape architect) @ BDP Bristol
+- Was inspired, wanted slides, wanted another
+- Had a conversation with Judith, and they made a connection (as we intended the workshop to do in its earliest formulation)
+
+**** Pending feedback from PhD students
+- 
+**** Others
+
+***** Questions
+- Do we send feedback forms to partcipants?
+- Do we follow up 1-1 with Bea?
+
+***** Questions for later
+- Should we look for more grants related to the British UKRI funding opportunity?
+- How would we do the framing?
+  - Bidding starts at £200k and goes up to £1.2m
+  - Link: https://www.ukri.org/opportunity/ukri-cross-research-council-responsive-mode-pilot-scheme/
+
+
+*** In room feedback (Joe & Abby)
+
+- Moving between rooms worked well
+- Last minute prep was ‘the right’ prep
+- But it also revealed things that could have been done that we might have done with more time
+  - E.g., what does this look like?
+  - Fitting together of certain constructs could have been more finessed
+  - E.g., How do we interweave the index cards & roles, and text box?
+    - Maybe one or two of these are superfluous
+
+- Examples & interrelationships from Joe worked well
+- Descriptions of tasks from Phase 1 to Phase 2 needed clearer prompts
+  - To make it action-oriented for participants
+
+- If facilitators aren’t helping guide the discussions around complex systems the discussions can become rather circular
+
+- CPS format: "Solutions" having come from the myth layer can be overwhelming
+  - E.g., you can be faced w/ socio-economics that you disagree with
+  - LV: Maybe they don’t agree with the myth layer?
+    - AT: No, I meant, how do you go from a deep rooted problem to solutions that seem really poor in comparison
+      - E.g., ‘contested spaces for homelessness’: Austerity, social housing, systemic removal of government funding (&c.) — these become difficult to fight against w/o appealing to things like protest.
+      - LV: ‘Protest’ sounds like an anti-pattern, because we say the society we live in is unacceptable, but actually the workshop has a more reformist programme
+        - JC: Maybe the anarchism of self-funded park rangers (e.g.) is a good pattern, or maybe it’s actually an anti-pattern that hides in our assumptions?
+          - LV: On of the roles could 
+
+- LV: Regarding facilitator-heaviness: ultimately the goal is to impart a method of problem solving & reflection that people can eventually recover.  If the workshop leads to recovery of the method in another setting, we’ve won!  Maybe the ‘facilitator-heaviness’ is actually ‘method-heaviness’.
+
+   - Methods and tools tend to go together
+   - This time, facilitators were doing things that tools could do.
+
+**** Phase 1
+- NA: They pick a route from Litany to Myth
+  - Can they next revisit the path that causes the problems (from the worldview)?
+  - Then, in the system level, what are the moving pieces that can address things?
+
+- AT: At the end of Phase 1, they didn’t really have clear stories
+  - This links to the facilitator burden; how can we practice that, using the resources across the layers... this would also make the lunchtime distillation process easier
+
+
+*** Remote team feedback (Noorah & Leo)
+- We were technically just being a machine, but in principle could be replaced by a tool and not trying to replicate people /in absentia/.
+- In future, facilitators will be more of a high-level person in the group
+  - E.g., if in Phase 1, people could directly create the map of meaning...
+  - The role would still be to unblock discussions, e.g., "why can you not get a 3rd story in?"
+
+- LV: Maybe we can ‘toolify’ 40%
+  - AT: part of the comment here is separate from the tool question, i.e., particpants are crucial ‘tools’ in the process b/c they are their own resources...
+  - But, the burden felt heavy as "translation from CLA theory" to "what this looks like as a task in Phase 2" — This is communication not tooling
+
+- LV: One of our stretch goals was to make diagrams that would make things more grokable. 
+  - JC: An example story or two maybe even better.
+
+- LV: We need some formalism in terms of examples, checklist
+
+- NA: Let’s keep in mind that everyone is at around an 8th-grade comprehension level.
+  - JC: Because no one has training in ‘this’; even we aren’t yet at the experts level yet.
+**** Experience report
+- Converting mind maps from Phase 1 wasn’t difficult but there was a lot of nuance that we were missing b/c we weren’t present there.
+  - So, it wasn’t easy to think about "How was it linked to node X or Y"
+  - There were only a few things that we were able to comprehend
+  - If it’s remote it may need to be completely remote, w/ even the participants being remote; we can all facilitate simultaneously, get data in real time, etc.
+
+- In Phase 2, we didn’t get a lot of feedback 
+
+- LV: I don’t agree that having Joe doing Emacs stuff would be a good idea, it would have just overloaded you even more; it would have helped us in the back
+
+***** LV: we didn’t have enough data 
+- we didn’t achieve much of what we intended to do
+- Tech solutions could have made it easier to grok what was going on!
+- Much of what we did do was based on the mid-day debrief!
+- We didn’t understand things like ‘turbo-island’
+
+*** Improvements based on this
+- Needs some trimming/tuning that specify the points
+
+*** Team overview
+
+**** Workshop specific: a thing that went well, a thing that could’ve gone better, a thing that would change
+***** NA
+***** JC
+***** LV
+***** AT
+
+** Outputs & Analyses
+
+NA: What do we need to report back to the funders?
+
+*** What are the key outputs and associated analyses
+- Demonstrating that it took place
+- Demonstrating that it was a collaboration between different expertise
+  - i-docs
+  - free software
+  - peer learning
+  - facilitation
+
+- For Abby: To demonstrate good use of internal funds, the outputs should be readily re-usable for grant applications
+  - An overview of what the workshop is, summarising the methodology as a whole
+  - Makes it clear that we’ve created something that’s usable and reproducible in many different fields
+
+- More fine-grained:
+  - What was discussed with regard to public space and public health?
+  - What does it mean?
+  - Can we analyse the qualitative data, the tech data?
+  - How rich was the methodology in terms of creating usable things?
+
+NA: We can say more after we hear the recordings... we could use a transcription app to help with this
+- We can start tagging, analysing
+- There are roughly 9 hours of content, to listen/read would take a lot of time for not a lot of production.
+- So, how do we split the work?  In principle, we could leave the in-the-room-based research to Joe and Abby.
+
+*** Who is doing what?
+*** Target deadlines
+
+** Where we’ve got to & where we are going.
+
+*** Taking stock of the project
+*** What next?
+
+Hi!  We had a quick debrief after you were gone Noorah, and we’d like to have a meeting on Thursday 2:30pm GMT to gather our feedback on how the workshop went.  Judith said she’d like to come if she’s available
+
+** Plan for the coming days
+
+*** Today
+During this meeting, if we assume the slip-box to be 70% of the analysis, I’d also like to get everyone’s opinion on what should the last 30% be.
+
+*** This weekend
+We’ll also have ERG on Saturday with the following agenda: 1) finishing the technical translation of the content from the workshop with Joe’s and Abby’s help; 2) select people to wrap up the last 30% and formally deliver it; and 3) create an itemized bill for what was done in this last month and submit it to Abby’s institution
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+
+*** 2. What are some different perspectives on what's happening?
+
+*** 3. What did we learn or change?
+
+*** 4. What else should we change going forward?
+
+
+* Tentative agenda for next week
+
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+
+** LV
