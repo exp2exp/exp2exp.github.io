@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2f76b06e-06dc-416b-b14d-b3c69c76d886
+:END:
+#+title: Example Constellation
+
+We made a simple constellation with the following contents for demo purposes:
+
+- [[id:fc865931-9ea0-4327-9126-13dccf1fa64c][A Litany]]
+- [[id:7f4345fa-8322-4626-ab59-f915dfe9527a][A Blank Note]]
+- [[id:a1faac5b-8e2d-4c5d-a6ea-4108a643da50][A Worldview]]
+- [[id:146f66d1-0944-43bc-9efd-3fc894a4b03d][Some system]]
+- [[id:f78c5e66-6e3a-4743-8bc3-cc2e6f28af94][Pollution]]
+- [[id:2b052ac6-1fe2-4546-90fc-0323cde1da69][Sewage in river]]
+- [[id:4af11f52-4a62-47fd-8dfb-da2dba7d593a][Cars in town]]
