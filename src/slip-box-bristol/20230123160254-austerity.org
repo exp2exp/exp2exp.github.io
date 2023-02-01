@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9acdd916-be4e-4c84-867d-24fb01609681
+:END:
+#+title: Austerity
+#+created: [2023-01-23 Mon 16:02]
+#+last_modified: [2023-01-23 Mon 16:07]
+
+A challenge.
+
+- [[id:34da443b-45d3-4ece-8445-959ad26872ac][Council housing]]
+- [[id:8585bd0a-9028-4c68-ac1a-84ae5f85c2b3][Safety]]

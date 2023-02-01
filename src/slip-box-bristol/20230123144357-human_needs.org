@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       827ae14c-27d3-4483-93a9-d4005c5231a8
+:END:
+#+title: Human needs
+#+created: [2023-01-23 Mon 14:43]
+#+last_modified: [2023-01-23 Mon 14:44]
+
+- [[id:d92074a0-0ae1-4da5-9831-f2e1cb883499][Physical health]]
+- [[id:04deb42a-1f9c-46a7-9471-ff557ea682c9][Mental health]]
+- [[id:0cf573a5-2119-4cfc-93de-222b2f7dea49][Public authority]]
+

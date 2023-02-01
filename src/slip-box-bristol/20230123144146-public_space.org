@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       eec9b3f8-7ddb-4c06-bec5-edad77424c1d
+:END:
+#+title: Public space
+#+created: [2023-01-23 Mon 14:41]
+#+last_modified: [2023-01-23 Mon 23:11]
+
+- [[id:d92074a0-0ae1-4da5-9831-f2e1cb883499][Physical health]]
+- [[id:04deb42a-1f9c-46a7-9471-ff557ea682c9][Mental health]]
+- [[id:aa19a96e-061b-4891-80dd-58e05d1e544c][Social health]]
+- [[id:4055187a-6bf9-4e2a-969a-673808d607ca][Dynamic complex systems]]
+

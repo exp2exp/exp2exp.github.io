@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       31430561-7338-4b02-8abe-83b651067665
+:END:
+#+title: Polyphonic documentary
+#+created: [2023-01-23 Mon 16:04]
+#+last_modified: [2023-01-23 Mon 16:05]
+
+- [[id:6f7c039c-21e4-4550-939a-826126d85d93][Awareness]]
+- [[id:ae4ced91-e896-479c-b400-7ee2867816c3][Storytelling]]
+

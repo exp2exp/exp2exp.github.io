@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1fc21e43-8c22-4e83-bdde-9ce84ec1fb41
+:END:
+#+TITLE: Conflict
+
+- [[id:da23b839-1480-4a63-89a6-03c2b0e0def9][Equity and Inclusivity]]
+- [[id:5232fe23-38b3-4311-9803-fc4646d0d400][Ownership and responsibility]]
+- [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]]
+- [[id:be7bf681-cb6f-4e94-8006-8614e1f3c48c][Sanitization]]
+- [[id:00dfcc97-48b5-4300-a2e5-8fc3c3631bdf][Conflicts between users]]
+- [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. nature]]
+- [[id:4752b78a-134e-47ab-b579-179668ca0866][Habits]]
+- [[id:8585bd0a-9028-4c68-ac1a-84ae5f85c2b3][Safety]]

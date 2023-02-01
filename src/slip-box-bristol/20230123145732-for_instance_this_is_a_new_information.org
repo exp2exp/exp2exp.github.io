@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6c154849-24ec-4981-b3df-f37510851876
+:END:
+#+title: For instance, this is a new information
+#+created: [2023-01-23 Mon 14:57]
+#+last_modified: [2023-01-23 Mon 14:57]
+

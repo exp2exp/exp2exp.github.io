@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ae4ced91-e896-479c-b400-7ee2867816c3
+:END:
+#+title: Storytelling
+#+created: [2023-01-23 Mon 15:36]
+#+filetags: :bristol:group-1:worldview:group-1-worldview
+
+- [[id:f7908e28-be78-4831-a1c5-69bd96ef719e][Social media vs. Traditional media]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       570f3d11-d1f6-4ffb-87ed-c815e7efe624
+:END:
+#+TITLE: Communal spaces
+
+- [[id:3a67aa9c-77f5-459b-a428-bfcde87b34a2][Community ownership]]
+- [[id:2f5de6c1-8a54-43da-a2a7-34d772f2db15][Lack of investment]]
+- [[id:3f03656b-43ee-426b-a308-9e59cfee4d70][Exhaustion]]

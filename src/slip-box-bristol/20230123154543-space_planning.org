@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c954c34f-7304-40cf-a341-1f2d9064d97b
+:END:
+#+title: Space planning
+#+created: [2023-01-23 Mon 15:45]
+#+filetags: :bristol:group-1:system:group-1-system
+
+- [[id:c3ff2747-ac70-40f9-96d0-181b78c0ec7c][Evidence-based]]

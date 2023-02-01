@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       4ed30e8c-784a-401e-9631-add816f8c2be
+:END:
+#+title: Boundaries
+#+created: [2023-01-23 Mon 14:43]
+#+last_modified: [2023-01-23 Mon 23:11]
+
+- [[id:2318237b-2381-42c9-96f2-be8faecf9a46][Self-imposed boundaries]]
+- [[id:54221b98-f113-48f3-b6f1-6c1d9213d001][Pushing boundaries]]

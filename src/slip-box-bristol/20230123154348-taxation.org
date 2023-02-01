@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8d719ee0-6ac7-4d32-afb0-1dd9cf6cfe8f
+:END:
+#+title: Taxation
+#+created: [2023-01-23 Mon 15:43]
+#+filetags: :bristol:group-1:system:group-1-system
+

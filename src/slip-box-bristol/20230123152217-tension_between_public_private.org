@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       86d1669e-bd6c-487b-a8f1-3ca8a211817f
+:END:
+#+title: Tension between public/private
+#+created: [2023-01-23 Mon 15:22]
+#+last_modified: [2023-01-23 Mon 15:51]
+#+filetags: :bristol:group-1:
+
+- [[id:f33b87b2-13d7-4f71-98ab-e15fb156008c][Gentrification]]
+

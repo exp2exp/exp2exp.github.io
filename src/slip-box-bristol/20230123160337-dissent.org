@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d60982d5-a278-45a4-939f-b2d84b6b941e
+:END:
+#+title: Dissent
+#+created: [2023-01-23 Mon 16:03]
+#+last_modified: [2023-01-23 Mon 16:03]
+
+- [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]]
+
