@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       d718ec87-1ed5-4804-a219-4b9cba2376d9
+:END:
+#+title: Remote Facilitation
+#+filetags: :HL:BF:
+
+For the Bristol Full workshop, we introduced a remote facilitation
+circuit.  This wasn’t as effective as we’d hoped, so for now let’s
+record the problems that came up, and then think about mitigation
+strategies.
+
+Previously, technology had been used asynchronously, to help identify
+new patterns in an “offline” analysis; see [[id:20a61286-bc8b-46ed-8dca-21aeef31969a][Bristol Pilot Screenshots]],
+for example.
+
+For this workshop, we wanted to try some real-time analysis, which
+would reflect what was going on in the room into a org roam repository
+and Org Roam UI interface that participants could look at.  This was
+something of a stop-gap solution given that the technology+skills
+aren’t yet available for participants to easily edit a shared graph in
+real time.  (However, this did constitute a ‘pilot’ for such a system,
+given that Noorah and Leo were working together as two skilled Org
+Roam operators to create the graph!)
+
+Some obstacles could be expected given this set-up.
+
+* Obstacles
+
+** Lossy communication from photos
+Remote facilitators were sent photos of text but didn’t have the
+context.  Accordingly, they could start to type up what they saw on
+the page but didn’t typically know what what the contents meant.
+(E.g., what is "Turbo Island"?)
+
+** Briefing over lunch did not have quite the desired effect
+Joe had some time over lunch to describe what was going on with the
+images, but didn’t join the ongoing Org Roam session in progress.  We
+might have been more effective if the remote facilitators had
+‘interviewed’ the in-person facilitators about outstanding questions,
+and recorded their answers into the graph.
+
+** Participants did not use the chat function, or at least not much
+We set up a way for participants to reach the remote facilitators,
+using a chat tool rather than a ‘text box’.  Participants perhaps
+didn’t see the point, but in any case they didn’t use it much.

@@ -11,3 +11,7 @@ Introduction: Follow instructions at [[id:b7b42aa2-c57c-4bcc-bc45-be9b63972be7][
 Phase I: Follow instructions at [[id:95072d03-1359-4863-bad1-651191eb2f38][Participatory Scenario Planning]].
 
 Phase II. Follow instructions at [[id:85fefbc1-ca57-46fa-a8b2-154821a56c75][Play to Anticipate the Future]].
+
+* Instructions for remote facilitators
+
+Follow instructions at [[id:d718ec87-1ed5-4804-a219-4b9cba2376d9][Remote Facilitation]].
