@@ -6,72 +6,74 @@
 
 * Overview
 
-Our /Open Future Design/ (OFD) workshop is mirrored by a strategy called
-"PLACARD" that distributed teams can use to scaffold social
-perception, cognition and action (Corneli et al., 2021).  This method
-combines design patterns with future scenario planning and review
-processes.  The OFD workshop is, essentially, the first run through a
-cycle that groups can repeat on their own.  The workshop introduces
-new collaboration methods and shows how they are effective.
+Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
+method called "PLACARD" that scaffolds social perception, cognition,
+and action (Corneli et al., 2021).  PLACARD combines design patterns
+with futuring exercises and review processes.  The OFD workshop walks
+participants through a cycle of creative learning using these methods,
+which they can later reuse on their own.  Our intention with the
+workshop is, therefore, primarily to introduce new collaboration
+methods and to show how they are effective.
 
-Applications range from building new platforms for collaborative
-design and citizen science, to assisting on-the-ground innovation
-projects.
+Applications of the method range from building new platforms for
+collaborative design and citizen science, to assisting on-the-ground
+innovation projects.  In the workshop format, we work from the
+assumption that we are talking to groups of people who have not yet
+formed a strong group identity, and who are not necessarily all going
+to work together on one highly cohesive project, but who are likely to
+need to communicate with each other in the future.  We make structural
+use of breakout groups and full-group discussions to gather
+information at different levels of significance.  We also introduce a
+technology-assisted quasi-real-time sensemaking process, which allows
+participants to focus on content, while the technology helps to weave
+new meanings at the context level.
 
 * Outcomes and Evalution
 
 ** Intermediate artifacts
 
 - Mindmaps created with participants
-- Group insights in a form of shared futures.
+- Group insights in a form of shared future stories
 
 ** Output
 
-- A constellation of interrelated design patterns that is produced by a diverse group of experts based on shared futures.
+- A constellation of interrelated design patterns outlining potential paths of action, produced by a diverse group of experts based on a collaborative analysis of complex challenges.
 
 ** Outcomes
 
-- Long-term community engagement and buy-in based on agreed upon design patterns.
-- Time-savings, unified structure, and further multi-lateral relationships formed (improving upon the standard default of individual meetings with stakeholders)
-- Potential next steps include new communities of practice, and new initiatives (e.g., grant proposals, working groups)
+- Leverage in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
+- Time-savings, a unified action-orientation, and further multi-lateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
+- Potential next steps may include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
 
 ** Narrative Example
 
-On November 3rd, 2022 we ran a pilot in Bristol with the theme "Public
-Space and Public Health".  This brought together 8 people with varied
-expertise on these themes for a structured discussion.  In the first
-phase, we discussed the theme, and potential scenarios for development
-(...).  In the second phase, we zoomed in on one of these scenarios
-and fleshed it out (...).  In a follow-up round of analysis, the
-facilitators looked at notes from the workshop and found new ‘design
-patterns’ that enable workshop participants to solve the problems they
-identified.
+On November 3rd, 2022 we ran a pilot workshop in Bristol with the
+theme “Public Space and Public Health”.  This brought together 8
+people with varied expertise on these themes for a structured
+discussion.  We discussed the theme, and potential scenarios for
+development.  We then zoomed in on one of the scenarios, and discussed
+its surrounding motivations.  In follow-up analysis, the facilitators
+identified new ‘design patterns’ that could enable workshop
+participants to solve the problems they identified.  On November 17,
+2022, we ran a second pilot with a group of futurists at the
+Anticipation conference in Tempe, Arizona, focused on workshopping the
+methods.  Following this pilot we reflected on how we could make
+better use of the direct particpants’ skills to facilitate broader
+uptake beyond the activities in the room.
+
+On January 23, 2023 we ran a longer workshop on a similar theme to the
+first pilot: "Public space for public health: a call to action".  This
+time, there were approximately twice as many participants, and we had
+most of the day together.  We had made several changes to the
+structure of the workshop.  In the first session, we used a
+multi-stage share-back process to understand layered meanings.  In the
+second session, we used manipulatives to elaborate design solutions.
+In both phases, participants were accompanied by a remote team that
+worked to make sense of data coming from the room.  Each break out
+group was additionally supported by one or more persons who had
+attended the initial pilot.
 
 ** Limitations
 
-- Interrater reliablity is initially low, though it should improve as
-  our collection of design patterns grows.
+- Interrater reliablity is initially low, though it should improve as our collection of design patterns grows.  For now, have partially addressed this concerned through the multi-layered analysis process, which weaves between small-group, whole-group, and written text.
 
-* Instructions
-
-** Introductions
-- Bristol Pilot: Abby presented a 10 minute slide show about the "Public Space and Public Health"
-** Meet and greet with participants
-- Bristol Pilot: minimal, people said hi
-** TODO ice-breaker activity
-- /Could be based on an in-advance ask, like, email a photo?/
-- Maybe better to have it be something that can happen at a coffee break.
-** TODO Go over the general rules and norms
-- Bristol Pilot: Joe presented an outline of what was going on on the day
-** Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use
-** Explain theme of the workshop
-- NB. different people/groups might go in different directions from this point.
-** Explain the process
-- "Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out."
-- "Find new ‘design patterns’ that enable them to solve new problem."
-*** Explain CLA (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
-- We can explain how this will be applied, e.g., via an *example*
-- Diagrams can convey information quickly (e.g., iceberg)
-- Roles & patterns are visual and memorable
-- How will it be used in this phase: decent to the myth
-- Be able to access the rules quickly (cf. "Settlers of Catan")
