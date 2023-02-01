@@ -300,6 +300,11 @@ and derived PDF is defined.")
                         "20221121181738-roadmap.org"
                         "20221121181745-project_action_review.org"
                         "20221129173158-causal_layered_analysis.org"
+                        ))
+
+(defvar just-bristol-full '(
+                            "20221121185152-placard_workshop_introduction.org"
+                            "20221207183642-bristol_pilot_screenshots.org"
 ))
 
 (defun indent-org-roam-export ()
