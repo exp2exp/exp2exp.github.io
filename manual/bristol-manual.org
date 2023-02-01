@@ -1,0 +1,366 @@
+:PROPERTIES:
+:ID:       0cc6700c-1018-4309-8a5b-44359e171abe
+:END:
+#+TITLE: Hyperreal Enterprises: Notes on Bristol Pilot
+#+OPTIONS: H:3 num:t toc:nil ':t broken-links:mark
+#+LATEX_HEADER_EXTRA: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+#+LATEX_HEADER_EXTRA: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER_EXTRA: \usepackage{fontspec}
+#+LATEX_HEADER_EXTRA: \usepackage[math-style=french]{unicode-math}
+#+LATEX_HEADER_EXTRA: \usepackage{mathtools}
+#+LATEX_HEADER_EXTRA: \setmathfont[math-style=upright]{DejaVu Sans Mono}
+#+LATEX_HEADER_EXTRA: \setmonofont[Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\mm}[Color=red]{DejaVu Sans Mono}
+#+LATEX_HEADER_EXTRA: \setmainfont[BoldFeatures={Color=ff0000},Ligatures={Common,TeX}]{Cormorant Garamond}
+#+LATEX_HEADER_EXTRA: \newcommand{\hookuparrow}{\mathrel{\rotatebox[origin=c]{90}{$\hookrightarrow$}}}
+#+LATEX_HEADER_EXTRA: \usepackage{fix-abstract}
+#+LATEX_HEADER_EXTRA: \definecolor{pale}{HTML}{fffff8}
+#+LATEX_HEADER_EXTRA: \definecolor{orgone}{HTML}{83a598}
+#+LATEX_HEADER_EXTRA: \definecolor{orgtwo}{HTML}{fabd2f}
+#+LATEX_HEADER_EXTRA: \definecolor{orgthree}{HTML}{d3869b}
+#+LATEX_HEADER_EXTRA: \definecolor{orgfour}{HTML}{fb4933}
+#+LATEX_HEADER_EXTRA: \definecolor{orgfive}{HTML}{b8bb26}
+#+LATEX_HEADER_EXTRA: \definecolor{gruvbg}{HTML}{1d2021}
+#+LATEX_HEADER_EXTRA: \newenvironment*{emptyenv}{}{}
+#+LATEX_HEADER_EXTRA: \usepackage{sectsty}
+#+LATEX_HEADER_EXTRA: \sectionfont{\normalfont\color{red}\selectfont}
+#+LATEX_HEADER_EXTRA: \subsectionfont{\normalfont\selectfont}
+# #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont}
+#+LATEX_HEADER_EXTRA: \paragraphfont{\normalfont\selectfont}
+#+LATEX_HEADER_EXTRA: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\zhfont}{FandolSong}% or whatever
+#+LATEX_HEADER_EXTRA: \DeclareTextFontCommand{\textzh}{\normalfont\zhfont}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\cinfant}{Cormorant Infant}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\csc}{Cormorant SC}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\cunicase}{Cormorant Unicase}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\cupright}{Cormorant Upright}
+#+LATEX_HEADER_EXTRA: \newfontfamily{\cormorant}{Cormorant}
+# #+LATEX_HEADER_EXTRA: \usepackage{xpatch}
+# #+LATEX_HEADER_EXTRA: \usepackage{etoolbox}
+# #+LATEX_HEADER_EXTRA: \xpatchcmd\href{\begingroup}{\begingroup\cormorant}{}{\fail}
+#+LATEX_HEADER_EXTRA: \let\oldhyperref\hyperref
+#+LATEX_HEADER_EXTRA: \renewcommand\hyperref[2][]{\oldhyperref[#1]{{\cunicase#2}}} 
+#+LATEX_HEADER_EXTRA: \makeatletter\newcommand{\url@cuprightstyle}{\def\UrlFont{\cupright}}\makeatother
+#+LATEX_HEADER_EXTRA: \usepackage[style=apa,natbib=true,backend=biber,uniquename=false,uniquelist=false]{biblatex}
+#+LATEX_HEADER_EXTRA: \bibliography{../src/erg/erg.bib}
+#+BIBLIOGRAPHY: ../src/erg/erg.bib
+
+
+\begin{abstract}
+  \noindent This document is a brief initial analysis of our Open Future Design pilot workshop on November 3rd 2022 at UWE City Campus/Arnolfini Arts.  Attendees were:
+  \begin{itemize}
+    \item Abby Tabor {\cupright<Abby.Tabor@uwe.ac.uk>},
+    \item Judith Aston {\cupright<Judith.Aston@uwe.ac.uk>},
+    \item Anna Mikezova {\cupright<Anna2.Mikezova@live.uwe.ac.uk>},
+    \item Evelyn Sanderson {\cupright<esandersonox@gmail.com>},
+    \item Frankie Brown {\cupright<fb382@bath.ac.uk>},
+    \item Alanna (\textzh{阿蘭娜}) Hill {\cupright<alanna@sharedassets.org.uk>}
+\end{itemize}
+\end{abstract}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+\urlstyle{cupright}
+
+# IMPORT
+* Open Future Design workshop: Introduction
+:PROPERTIES:
+:tag: :HL:WS:
+:CUSTOM_ID: b7b42aa2-c57c-4bcc-bc45-be9b63972be7
+:END:
+
+** Overview
+
+Our /Open Future Design/ (OFD) workshop is mirrored by a strategy called
+"PLACARD" that distributed teams can use to scaffold social
+perception, cognition and action.[fn:: fullcite:patterns-of-patterns]  This method
+combines design patterns with future scenario planning and review
+processes.  The OFD workshop is, essentially, the first run through a
+cycle that groups can repeat on their own.  The workshop introduces
+new collaboration methods and shows how they are effective.
+Applications range from building new platforms for collaborative
+design and citizen science, to assisting on-the-ground innovation
+projects.
+
+** Outcomes and Evaluation
+
+*** Intermediate artifacts
+
+- Mindmaps created with participants.
+- Group insights, in the form of shared futures.
+
+*** Output
+
+- A constellation of interrelated design patterns that is produced by a diverse group of experts, based on shared futures.
+
+*** Outcomes
+
+- Long-term community engagement and buy-in based on agreed upon design patterns.
+- Time-savings, unified structure, and further multilateral relationships formed (improving upon the standard default of individual meetings with stakeholders).
+- Potential next steps include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
+
+*** Limitations
+
+- Interrater reliability is initially low, though this may improve as
+  our collection of design patterns grows.
+
+*** Narrative Example
+
+On November 3rd, 2022 we ran a pilot in Bristol with the theme "Public
+Space and Public Health".  This brought together 8 people with varied
+expertise on these themes for a structured discussion.  In the first
+phase, we discussed the theme, and potential scenarios for development
+(...).  In the second phase, we zoomed in on one of these scenarios
+and fleshed it out (...).  In a follow-up round of analysis, the
+facilitators looked at notes from the workshop and found new ‘design
+patterns’ that enable workshop participants to solve the problems they
+identified.  (Details follow.)
+
+
+* Sharing our stories
+:PROPERTIES:
+:tag: :HL:BP:
+:CUSTOM_ID: ab96ee6b-86f2-4b0d-a3b5-3654864644b3
+:END:
+
+** Problem
+
+We only had a relatively small amount of time during the pilot.
+
+** Solution Strategy
+
+One of the proposals that we talked about was a “Listening project
+2.0” HOWEVER we only had time to go in depth into one person’s
+personal history during our workshop.
+
+BECAUSE of limitations of the workshop, as to time and scale, getting
+even one story written down is an achievement !  Nevertheless, we all
+might have stories somewhat similar to Judith’s (with plenty
+differences as well) about how we got interested in the things we are
+now doing professionally.  If we were to share these stories we’d have
+completed a solid get-to-know-you round, and might then have an even
+better ‘springboard’ for further dialogue.
+
+THEREFORE, we could develop a small-scale pilot of our “Listening
+Project 2.0” that follows Judith’s example and each tell some story
+about how we got into the work we are doing now.  The original
+Listening Project is itself [[https://en.wikipedia.org/wiki/The_Listening_Project][well documented]], and we could borrow some
+of their ideas.  This might then put us in a good position to return
+to the roles from the workshop, with various attendees sitting in the
+“[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]” seat, and others taking on the other roles to think about
+how their work might relate to the trajectory traced by each
+Historian.
+
+SPECIFICALLY, we might do the initial information gathering in a series
+of online interviews with attendees, circulate the materials, and then
+return to a suitable space for group dialogue.
+* Measures of complexity as indicative of health
+:PROPERTIES:
+:tag: :HL:BP:
+:CUSTOM_ID: a80f0651-a681-4c9a-b398-9e66e1cdfb71
+:END:
+
+** Problem
+
+We envisioned healthy public spaces as complex and multi-use but
+didn’t (yet) have related tangible measures that could give us direct
+feedback on urban health.
+
+** Solution Strategy
+
+In various examples, we talked about public spaces as multi-use or
+transformable.  For example, a cycle path has different properties at
+rush hour and other times of day.  From a traditional design pattern
+standpoint, design is useful for minimising conflict.  (E.g., bike
+lanes might be installed in the first place following a pattern like
+"Build protected bike lanes where motor vehicle speed consistently
+exceeds 25 mph.")  HOWEVER, sometimes the multiple uses are going to
+be in conflict, or the design solution itself will create new
+conflicts (e.g., a four-lane bicycle highway might help with speed
+issues — but it would have a bigger environmental footprint and a
+two-lane path).  Sometimes the multiple uses are inconsistent (e.g., a
+given space cannot straightforwardly be both a football pitch and a
+hill).  A metaphor that we used in our discussion was that the city’s
+structure should be “like organs” and “not mushed up”.  (A similar
+body metaphor was used to describe the design of Paris’s sewer
+system!)
+
+BECAUSE we are thinking in terms of ‘health’ we may want to switch
+from ‘minimising conflict’ to ‘increasing complexity’ as our overall
+goal.  Natural systems may contain lots of conflict (e.g., between the
+wishes of wildebeests and lions) and still be complex and vital.  A
+eutrophic pond reduces conflict by creating the conditions for a
+monoculture of algae: that’s probably not what we want.  Maybe even
+more specifically we want patterns “at the edge of chaos”, which
+exhibit both organisation and instability (cf. the [[http://www.interactivearchitecture.org][Interactive
+Architecture]] lab at UCL — they might be worth talking to as part of an
+interactive-everything consortium).
+
+THEREFORE, let’s look around for some design principles that take the
+“edge of chaos” into account.  Here are some ideas from [[https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/202007/the-edge-chaos][Psychology
+Today]], drawing models of elite performance.  Here is a [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766553/][paper]] that
+draws on the edge-of-chaos concept to critique applications of
+‘sustainability’.  Doyne Farmer, who coined the term, is now at the
+Oxford Martin school, and has contributed to a 1988 [[https://www.taylorfrancis.com/chapters/edit/10.1201/9780429492846-6/new-approaches-nonlinear-modeling-improve-economic-forecasts-doyne-farmer-john-sidorowich][volume]] on ‘The
+Economy As An Evolving Complex System’.  How has this thinking been
+taken up since then?  Note that there are various approaches to
+measuring urban health which aren’t specifically informed by
+complexity theory, but which could be brought into a new
+complexity-informed synthesis:
+
+#+begin_quote
+In the 1960s, a social indicator movement flourished in the United
+States: agencies ranging from the USDA to NASA advocated for a
+national social accounting body, cities regularly published
+data-driven reports on urban wellbeing, and academics assembled
+comprehensive social progress indices for cities, counties, and
+states. — [[https://dspace.mit.edu/handle/1721.1/118070?show=full][Making urban progress legible : the role of territorial social indicators in the new economy]] by Sarah Oz Johnson, 2018
+#+end_quote
+
+SPECIFICALLY, Farmer has worked on [[https://arxiv.org/abs/2011.05277][agent simulations]] in recent years.
+This is something we looked into in an adjacent effort.  How might we
+revive the central ideas within future interactive experiments?  Would
+this relate to what we might do within an "[[https://www.domesday86.com/?page_id=149][Ecodisc]] 2.0" type of
+project, perhaps rethought as an interactive game-based platform
+(e.g., here thinking of SimEarth or SimCity).
+
+#+begin_quote
+("The BBC Ecodisc offers a unique opportunity to manage a real nature
+reserve at your desk. The project which was 2 years in the making
+includes 4000 photographs, 150 video sequences and over 1000 kilobytes
+of software. It is about a real nature reserve at Slapton Ley in
+Devon, you have the opportunity to explore the reserve and its
+inhabitants and to manage it.")
+#+end_quote
+
+Might we want to connect future experiments with other local
+experiments like the [[https://bristolpound.org/][Bristol Pound]], perhaps making an "Ecodisc of
+Bristol’s Urban Ecosystem"?  (Any such team up would depend on how 
+[[https://web.archive.org/web/20211007151020/https://bristolpound.org/future-vision/][their plans]] are developing.)
+
+All of this is relevant to thinking about how we move forward [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After
+the workshop]], and what might distinguish our approach to [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community
+Tech]] from a generic communication platform.
+* (Inter-)Personal Doughnut
+:PROPERTIES:
+:tag: :HL:BP:
+:CUSTOM_ID: f83051b3-95b5-4471-b03d-eeeccda51d6d
+:END:
+
+** Problem
+
+Informed by [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]], at the workshop we were ready to
+work across levels — but did we have the correct set of levels for the
+‘public space & public health’ setting front-of-mind?
+
+** Solution Strategy
+
+Something that came up in the discussions around the workshop and
+PLACARD method was our prominent focus on the wellbeing of
+participants.  We could frame this in a rough analogy with Doughnut
+Economics, HOWEVER the framing would be different in this small-scale
+format.
+
+BECAUSE ‘health’ is inherently a complex topic — e.g., considering a
+“bio-psycho-social” or “bio-psycho-social-eco” model — there are
+multiple moving parts.  If we want to talk about health effectively in
+future versions of the workshop, we might want to rethink aspects of
+the workshop itself using these components, e.g., the "roles" that we
+introduced could be rethought this way.
+
+Since we cannot be guaranteed to have teams of participants evenly
+divided along the bio/psycho/social/eco components of health,
+THEREFORE, it could be useful to survey some of the other frameworks
+that are out there that could be relevant to this reframing, so that
+we could get creative about reconfiguring them.  Examples might
+include [[https://en.wikipedia.org/wiki/Manfred_Max-Neef%27s_Fundamental_human_needs][Manfred Max-Neef's Fundamental human needs]], Schwartz’s [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory
+of Basic Human Values]].
+
+#+begin_quote
+/According to Schwartz, individual values are responses to three
+universal requirements of human existence, namely needs of people as
+biological organisms, of agreement in social actions, and of survival
+and well-being of groups./
+#+end_quote
+
+SPECIFICALLY, the axes and dimensions that were used to organise
+scenarios (in-balance vs out-of-balance, scarcity, aliveness,
+availability of knowledge commons, etc.) provide a very rough
+framework that was generated by participants.  How would we analyse
+our workshop’s framework in terms of the bio-psycho-social-eco model
+of health?  Does it have natural ‘habitable zones’ similar to the Kate
+Raworth doughnut?  One limiting factor that was drawn into the diagram
+was based on language/access/education.  Since many of our solutions
+were related to /communication/, these do seem to be relevant factors.
+How do these limiting factors show up around active participation in
+(both) [[id:57f06710-a96c-4cbc-bcc7-57d3d3e550c4][Public Space & Public Discourse]]?
+* Public Space & Public Discourse
+:PROPERTIES:
+:tag: :HL:BP:
+:CUSTOM_ID: 57f06710-a96c-4cbc-bcc7-57d3d3e550c4
+:END:
+
+** Problem
+
+The theme of the workshop was “public space for public health”, but our discussion was more noticeably a small-scale model of ‘public discourse’.  How could we develop that model further?
+
+** Solution Strategy
+
+The workshop’s theme was ‘public space for public health’, HOWEVER the
+most noticeable theme that surfaced in the second part of the workshop
+was the relationship of these topics to ‘public discourse’.
+
+BECAUSE public discourse can ‘take place’ within both physical and
+virtual settings, this adds another virtual dimension to our thinking.
+Some of the most tangible proposals combined space, health, and
+discourse.  The workshop itself took place in person, and gave us
+the opportunity to practice some of the ideas we were discussing.
+
+We don’t want to [[https://peeragogy.org/reduce_reuse_recycle][reinvent the wheel]], THEREFORE it would be useful to
+look at existing systems working at this intersection.  One example is
+[[https://www.bigissue.com/][The Big Issue]], "The UK's number one street paper and social
+enterprise, giving people who are experiencing homelessness or who are
+vulnerably housed a hand up."  People selling the paper physically
+occupy public spaces such as street corners, and promote discourse
+around a range of topics, including, e.g., [[https://www.bigissue.com/news/environment/why-englands-rivers-are-so-polluted-and-will-be-for-years-to-come/][environmental concerns]].
+That said, some aspects of the paper’s production and model and
+business model aren’t obvious at first look (e.g., who writes it? what
+percentage of the sales go to distribution, production, and admin?).
+It may also be interesting to draw some ideas from the ‘open’
+ecosystem when designing new solutions in this space.
+
+SPECIFICALLY, the Big Issue is useful as an example of the idea 
+of *transformable space* that was discussed in the workshop: street corners
+become places of work, as well as information depots.  The “Listening Project
+2.0” and “Ecodisc 2.0/Facilitated Dialogue/Doughnut Deals” scenarios
+that we discussed could potentially dovetail with the Big Issue’s
+existing distribution model, as sources of production.  Other models
+could be possible: if homeless people can find fruitful employment in
+distribution, could they also be employed, e.g., as a documentary film
+crew?  We might also use some of these ideas to change how we do
+[[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]] and [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]] in the future,
+keeping in mind that the workshop itself is a “transformable space”—and, hopefully, also a
+space for transformation.  As a simple example, building on our connection
+with iDocs, what would the workshop look like if we gave people
+the opportunity to take some pictures during the break?  Could we use
+these images as illustrations of the scenarios, and develop them into
+design pattern templates, like the https://hyperreal.enterprises/open-futures patterns?
+* Bristol Pilot Screenshots
+:PROPERTIES:
+:tag: :HL:
+:CUSTOM_ID: 20a61286-bc8b-46ed-8dca-21aeef31969a
+:END:
+
+#+CAPTION: Our overall network of patterns: new additions in yellow
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/bristol-map.png]]
+
+
+
+#+CAPTION: Example of the local network around "Public Space & Public Discourse"
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 300px
+#+ATTR_LATEX: :width .5\textwidth
+[[../manual/local.png]]
