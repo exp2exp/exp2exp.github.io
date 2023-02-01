@@ -43,3 +43,10 @@ and recorded their answers into the graph.
 We set up a way for participants to reach the remote facilitators,
 using a chat tool rather than a ‘text box’.  Participants perhaps
 didn’t see the point, but in any case they didn’t use it much.
+
+* Potential mitigation strategies
+
+** We could try to replicate the setup for an upcoming ERG meeting so that we take notes directly into a constellation
+- Rather than sharing one buffer via CRDT, let’s try to co-edit a constellation so that we get more familiar with the workflow.
+
+** Other ideas: TBA
