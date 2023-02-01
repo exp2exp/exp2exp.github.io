@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       146f66d1-0944-43bc-9efd-3fc894a4b03d
+:END:
+#+title: Some system
+
+This is a system from a mindmap.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7f4345fa-8322-4626-ab59-f915dfe9527a
+:END:
+#+title: A Blank Note
+#+filetags: :LITANY:
+
+/Lorem Ipsem/ description
+
+This is connected to a given System: [[id:146f66d1-0944-43bc-9efd-3fc894a4b03d][Some system]]
+
+

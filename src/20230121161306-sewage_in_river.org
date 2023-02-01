@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2b052ac6-1fe2-4546-90fc-0323cde1da69
+:END:
+#+title: Sewage in river
+#+filetags: :EXAMPLE:
+
+This is an example of [[id:f78c5e66-6e3a-4743-8bc3-cc2e6f28af94][Pollution]].
+

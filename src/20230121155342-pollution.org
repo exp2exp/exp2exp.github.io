@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f78c5e66-6e3a-4743-8bc3-cc2e6f28af94
+:END:
+#+title: Pollution
+#+filetags: :SYSTEM:EXAMPLE:
+
+An example of pollution is /Noise Pollution/.
+-  Cf. [[id:fc865931-9ea0-4327-9126-13dccf1fa64c][A Litany]] for an example.
+
+Related problems:
+- [[id:4af11f52-4a62-47fd-8dfb-da2dba7d593a][Cars in town]]
+- [[id:2b052ac6-1fe2-4546-90fc-0323cde1da69][Sewage in river]]

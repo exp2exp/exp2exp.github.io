@@ -1,0 +1,87 @@
+:PROPERTIES:
+:ID:       a80f0651-a681-4c9a-b398-9e66e1cdfb71
+:END:
+#+title: Measures of complexity as indicative of health
+#+filetags: :HL:BP:
+
+* Problem
+
+We envisioned healthy public spaces as complex and multi-use but
+didn’t (yet) have related tangible measures that could give us direct
+feedback on urban health.
+
+* Solution Strategy
+
+In various examples, we talked about public spaces as multi-use or
+transformable.  For example, a cycle path has different properties at
+rush hour and other times of day.  From a traditional design pattern
+standpoint, design is useful for minimising conflict.  (E.g., bike
+lanes might be installed in the first place following a pattern like
+"Build protected bike lanes where motor vehicle speed consistently
+exceeds 25 mph.")  HOWEVER, sometimes the multiple uses are going to
+be in conflict, or the design solution itself will create new
+conflicts (e.g., a four-lane bicycle highway might help with speed
+issues — but it would have a bigger environmental footprint and a
+two-lane path).  Sometimes the multiple uses are inconsistent (e.g., a
+given space cannot straightforwardly be both a football pitch and a
+hill).  A metaphor that we used in our discussion was that the city’s
+structure should be “like organs” and “not mushed up”.  (A similar
+body metaphor was used to describe the design of Paris’s sewer
+system!)
+
+BECAUSE we are thinking in terms of ‘health’ we may want to switch
+from ‘minimising conflict’ to ‘increasing complexity’ as our overall
+goal.  Natural systems may contain lots of conflict (e.g., between the
+wishes of wildebeests and lions) and still be complex and vital.  A
+eutrophic pond reduces conflict by creating the conditions for a
+monoculture of algae: that’s probably not what we want.  Maybe even
+more specifically we want patterns “at the edge of chaos”, which
+exhibit both organisation and instability (cf. the [[http://www.interactivearchitecture.org][Interactive
+Architecture]] lab at UCL — they might be worth talking to as part of an
+interactive-everything consortium).
+
+THEREFORE, let’s look around for some design principles that take the
+“edge of chaos” into account.  Here are some ideas from [[https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/202007/the-edge-chaos][Psychology
+Today]], drawing models of elite performance.  Here is a [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766553/][paper]] that
+draws on the edge-of-chaos concept to critique applications of
+‘sustainability’.  Doyne Farmer, who coined the term, is now at the
+Oxford Martin school, and has contributed to a 1988 [[https://www.taylorfrancis.com/chapters/edit/10.1201/9780429492846-6/new-approaches-nonlinear-modeling-improve-economic-forecasts-doyne-farmer-john-sidorowich][volume]] on ‘The
+Economy As An Evolving Complex System’.  How has this thinking been
+taken up since then?  Note that there are various approaches to
+measuring urban health which aren’t specifically informed by
+complexity theory, but which could be brought into a new
+complexity-informed synthesis:
+
+#+begin_quote
+In the 1960s, a social indicator movement flourished in the United
+States: agencies ranging from the USDA to NASA advocated for a
+national social accounting body, cities regularly published
+data-driven reports on urban wellbeing, and academics assembled
+comprehensive social progress indices for cities, counties, and
+states. — [[https://dspace.mit.edu/handle/1721.1/118070?show=full][Making urban progress legible : the role of territorial social indicators in the new economy]] by Sarah Oz Johnson, 2018
+#+end_quote
+
+SPECIFICALLY, Farmer has worked on [[https://arxiv.org/abs/2011.05277][agent simulations]] in recent years.
+This is something we looked into in an adjacent effort.  How might we
+revive the central ideas within future interactive experiments?  Would
+this relate to what we might do within an "[[https://www.domesday86.com/?page_id=149][Ecodisc]] 2.0" type of
+project, perhaps rethought as an interactive game-based platform
+(e.g., here thinking of SimEarth or SimCity).
+
+#+begin_quote
+("The BBC Ecodisc offers a unique opportunity to manage a real nature
+reserve at your desk. The project which was 2 years in the making
+includes 4000 photographs, 150 video sequences and over 1000 kilobytes
+of software. It is about a real nature reserve at Slapton Ley in
+Devon, you have the opportunity to explore the reserve and its
+inhabitants and to manage it.")
+#+end_quote
+
+Might we want to connect future experiments with other local
+experiments like the [[https://bristolpound.org/][Bristol Pound]], perhaps making an "Ecodisc of
+Bristol’s Urban Ecosystem"?  (Any such team up would depend on how 
+[[https://web.archive.org/web/20211007151020/https://bristolpound.org/future-vision/][their plans]] are developing.)
+
+All of this is relevant to thinking about how we move forward [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After
+the workshop]], and what might distinguish our approach to [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community
+Tech]] from a generic communication platform.

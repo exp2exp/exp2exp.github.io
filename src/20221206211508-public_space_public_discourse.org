@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       57f06710-a96c-4cbc-bcc7-57d3d3e550c4
+:END:
+#+title: Public Space & Public Discourse
+#+filetags: :HL:BP:
+
+* Problem
+
+The theme of the workshop was “public space for public health”, but our discussion was more noticeably a small-scale model of ‘public discourse’.  How could we develop that model further?
+
+* Solution Strategy
+
+The workshop’s theme was ‘public space for public health’, HOWEVER the
+most noticeable theme that surfaced in the second part of the workshop
+was the relationship of these topics to ‘public discourse’.
+
+BECAUSE public discourse can ‘take place’ within both physical and
+virtual settings, this adds another virtual dimension to our thinking.
+Some of the most tangible proposals combined space, health, and
+discourse.  The workshop itself took place in person, and gave us
+the opportunity to practice some of the ideas we were discussing.
+
+We don’t want to [[https://peeragogy.org/reduce_reuse_recycle][reinvent the wheel]], THEREFORE it would be useful to
+look at existing systems working at this intersection.  One example is
+[[https://www.bigissue.com/][The Big Issue]], "The UK's number one street paper and social
+enterprise, giving people who are experiencing homelessness or who are
+vulnerably housed a hand up."  People selling the paper physically
+occupy public spaces such as street corners, and promote discourse
+around a range of topics, including, e.g., [[https://www.bigissue.com/news/environment/why-englands-rivers-are-so-polluted-and-will-be-for-years-to-come/][environmental concerns]].
+That said, some aspects of the paper’s production and model and
+business model aren’t obvious at first look (e.g., who writes it? what
+percentage of the sales go to distribution, production, and admin?).
+It may also be interesting to draw some ideas from the ‘open’
+ecosystem when designing new solutions in this space.
+
+SPECIFICALLY, the Big Issue is useful as an example of the idea 
+of *transformable space* that was discussed in the workshop: street corners
+become places of work, as well as information depots.  The “Listening Project
+2.0” and “Ecodisc 2.0/Facilitated Dialogue/Doughnut Deals” scenarios
+that we discussed could potentially dovetail with the Big Issue’s
+existing distribution model, as sources of production.  Other models
+could be possible: if homeless people can find fruitful employment in
+distribution, could they also be employed, e.g., as a documentary film
+crew?  We might also use some of these ideas to change how we do
+[[id:781d52fa-71a9-4c90-b4f6-9b0dd4244c33][Workshop backstage organisation]] and [[id:2a01f142-31c7-4e86-ae10-e14e85b4dda9][Workshop frontstage organisation]] in the future,
+keeping in mind that the workshop itself is a “transformable space”—and, hopefully, also a
+space for transformation.  As a simple example, building on our connection
+with iDocs, what would the workshop look like if we gave people
+the opportunity to take some pictures during the break?  Could we use
+these images as illustrations of the scenarios, and develop them into
+design pattern templates, like the https://hyperreal.enterprises/open-futures patterns?

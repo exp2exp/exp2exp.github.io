@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       ab96ee6b-86f2-4b0d-a3b5-3654864644b3
+:END:
+#+title: Sharing our stories
+#+filetags: :HL:BP:
+
+* Problem
+
+We only had a relatively small amount of time during the pilot.
+
+* Solution Strategy
+
+One of the proposals that we talked about was a “Listening project
+2.0” HOWEVER we only had time to go in depth into one person’s
+personal history during our workshop.
+
+BECAUSE of limitations of the workshop, as to time and scale, getting
+even one story written down is an achievement !  Nevertheless, we all
+might have stories somewhat similar to Judith’s (with plenty
+differences as well) about how we got interested in the things we are
+now doing professionally.  If we were to share these stories we’d have
+completed a solid get-to-know-you round, and might then have an even
+better ‘springboard’ for further dialogue.
+
+THEREFORE, we could develop a small-scale pilot of our “Listening
+Project 2.0” that follows Judith’s example and each tell some story
+about how we got into the work we are doing now.  The original
+Listening Project is itself [[https://en.wikipedia.org/wiki/The_Listening_Project][well documented]], and we could borrow some
+of their ideas.  This might then put us in a good position to return
+to the roles from the workshop, with various attendees sitting in the
+“[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]” seat, and others taking on the other roles to think about
+how their work might relate to the trajectory traced by each
+Historian.
+
+SPECIFICALLY, we might do the initial information gathering in a series
+of online interviews with attendees, circulate the materials, and then
+return to a suitable space for group dialogue.

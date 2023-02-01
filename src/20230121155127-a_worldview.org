@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a1faac5b-8e2d-4c5d-a6ea-4108a643da50
+:END:
+#+title: A Worldview
+
+People should be able to focus on their work when they are commuting,
+/because/ it’s part of their work day.

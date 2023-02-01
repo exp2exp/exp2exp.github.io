@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4af11f52-4a62-47fd-8dfb-da2dba7d593a
+:END:
+#+title: Cars in town
+#+filetags: :EXAMPLE:
+
+This is a source of [[id:f78c5e66-6e3a-4743-8bc3-cc2e6f28af94][Pollution]].

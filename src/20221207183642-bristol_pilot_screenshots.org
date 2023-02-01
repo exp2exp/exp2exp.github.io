@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       20a61286-bc8b-46ed-8dca-21aeef31969a
+:END:
+#+title: Bristol Pilot Screenshots
+#+filetags: :HL:
+
+#+CAPTION: Our overall network of patterns: new additions in yellow
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/bristol-map.png]]
+
+
+
+#+CAPTION: Example of the local network around "Public Space & Public Discourse"
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 300px
+#+ATTR_LATEX: :width .5\textwidth
+[[../manual/local.png]]
