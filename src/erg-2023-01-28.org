@@ -1,0 +1,147 @@
+:PROPERTIES:
+:ID:       af1c62f0-4885-4adc-8ee5-1d834693354f
+:END:
+#+TITLE: 28 January 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-01-28 Sat>
+
+* 28 January 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Not much; just cat stuff
+** JC
+- It’s been a lovely day!
+** LV
+- Left K-drama episode at a critical point.
+** AT
+- Must leave at the top of the hour (4 PM UK)
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- What’s in the report?
+- Think some about the big picture as a breather from the intensive report
+- Figure out what we put in the invoice
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- For the review board for the grant; this is one component of the overall report
+- 10-12pp?  Ideally as a practical doc for attendees (touchpoint for Monday, asking for feedback)
+- A snapshot of where we’re at.
+
+3 parts:
+  - Context/background (theory & method, why was the method selected) [NA, AT; + short statement about tools from LV]
+  - What happened in the workshop? [JC]
+  - The analysis & next steps [NA,JC]
+    - What does Phase III look like?
+    - How will we analyse the data?
+    - We’re gathering feedback from participants (via a survey design)
+
+Questions:
+- How well did it do at addressing the things we were trying to tackle?
+- Could it address other things well/better (with investment?)?
+- What can we learn from how it went about how our meta-methods work (i.e., for any group of interdisciplinary people working together)
+
+Structure:
+- E.g., sociology papers may defer the "methods" to an appendix
+- For use, the method is more central & trying to change things
+
+Our methods:
+- Let’s not spend too much time on the report
+- Let’s submit something by Monday the 6th
+- Let’s make sure we can retrieve the mindmaps etc.
+- Let’s spend some time on the technology requirements (separately; with a very short treatment in genealogy in =ii=)
+- Work on Google Docs
+
+- Stretch goal(s):
+  - Link with https://www.ukri.org/opportunity/ukri-cross-research-council-responsive-mode-pilot-scheme/ or something.
+  - "£200,000 to £1.2 million."
+  - How might we take videos from parts of our meetings, to look at how we’ve been developing our methods in the run up to the workshop?  Could we use Florian’s methods to explore this?
+  - Pointers ahead to a future whitepaper
+
+- Timeline:
+  - We have a couple weeks
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2)                                                                
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Re-Check In
+*** NA
+- Susie is doing OK!
+*** LV
+- Seasoning his food
+- Have lubed the bike chain, and it’s a smooth ride, like a silent electric car
+*** JC
+- Steam room was nice, but don’t recommend the bus
+  - LV: Historically you (JC) did a lot of work to bridge the grant even before it existed
+  - Interesting to look back at mentions of "Abby"
+
+** Invoice
+- JC to draft and send to Leo (15 minute job, 5 mins to review)
+
+** NA: My Emacs 28 is crashing on Windows
+- https://www.reddit.com/r/emacs/comments/v27pqu/emacs28_on_windows_problem_on_startup/
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- Post workshop, we finished debriefing (last time) and are now moving forward w/ a plan for the report
+- We /are/ the Emacs Research Group, without being tied to an institution or being funded!
+
+*** 2. What are some different perspectives on what's happening?
+- JC: Leo, you seem to see light at the end of the tunnel
+- LV: Glad NA will focus on 2nd part of the report and glad that I’ll be focusing on technology; I was dragging my feet on writing process
+- NA: Glad this happened!
+
+*** 3. What did we learn or change?
+- We have outline of who’s doing what; again not everyone has to do the same thing!
+
+*** 4. What else should we change going forward?
+- JC to transcribe the screenshots
+- Can we next make an narrative outline (a few sentences per section)
+- Work on the [[https://docs.google.com/document/d/1VJQHFyZS5AgJHnO3_SaPUQw5y6QzZWcFnwJjQYad5RA/edit?usp=sharing&ts=63d54634][Google Doc]] next
+  
+* Tentative agenda for next week
+- Next meeting <2023-02-01 Wed 14:00 GMT>
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Taking it easy and doing some chores.
+ - JC: Consider me inspired
+
+** JC
+- I thought Lizzie was going to be playing cello upstairs so I will see if she wants a quick practice with me; my bass playing is getting pretty good
+
+** LV
+- Eating potatoes; had been out of his diet in previous part of 20s.
