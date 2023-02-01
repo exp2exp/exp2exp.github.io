@@ -12,3 +12,27 @@
 - [ ] Reasonable expectations how much effort it needs, and what’s available
 - [ ] Make sure we have a protocol about this
 - [ ] Make good commits for this document!
+
+* By example: How did it go with the Bristol pilot and workshop?
+
+This account doesn’t exactly match the checklist above, but does give
+a representative summary of how things went on the day.
+
+** Final preparations
+- *Bristol Pilot*: Somewhat ad hoc, e.g., it wasn’t entirely clear who would be doing things like printing or exactly how facilitation would work.
+- *Full Workshop*: Final preparations were fairly intensive and assisted by a developing ‘checklist’ of the things that we would need to have to hand during the workshop, as well as some nano-pilots of new materials.  Things like printing and facilitation were considerably clearer.  Abby, Judith, and Frankie had attended the pilot, and their experience with the methods helped facilitation of the larger group (in breakout groups) go relatively smoothly.
+** Introductions
+- *Bristol Pilot*: Abby presented a 10 minute slide show about the "Public Space and Public Health"
+- *Full Workshop*: Abby and Judith had 30 minutes to both introduce the workshop aims, and to framed it relative to practices of polyphonic documentary. This provided a set of ideas about what sort of purpose the workshop could serve.
+** Meet and greet with participants
+- *Bristol Pilot*: minimal, people said hi
+- *Full Workshop*: we had half an hour with coffee and pastries, and workshop conductor got to know everyone by name by maintaining a sign in sheet.  One of the participants brought labels that we could use as name tags.
+** Ice-breaker activity
+- *Full Workshop*: Participants had been invited to share short films of public space, which we later reviewed in Korsakow format.
+** Go over the general rules and norms
+- *Bristol Pilot*: Joe presented an outline of what was going on on the day
+- *Bristol Workshop*: Now with the adjustment that we had breakout groups and recordings (requiring consent forms) as well as a remote team working with us
+** Clear terminology/taxonomy per phase
+- *Bristol Workshop*: We used ‘future story’ rather than ‘scenario’, and we intended to use the words ‘challenge’ and ‘problem’ carefully, with the latter word linked to CPS-style design patterns; nevertheless one participant complained that ‘problem’ still made many assumptions, giving an example of ‘a problem with graffiti’ which was reductive — we agreed.  We also readjusted the description of roles that had been introduced for the Anticipation pilot to make them clearer.
+** Explain the process
+- *Bristol Workshop*: We explained CLA and how we would use it, together with an image of concentric circles and arrows showing the descent to a shared myth and subsequent ascent to potential for action.  Both phases of the workshop had articulations (I: mindmaps + shareback; II: keywords + roles).  We explained that some of the analysis happened on the day and some would be available later through this report and a website.
