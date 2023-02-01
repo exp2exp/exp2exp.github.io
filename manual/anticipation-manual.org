@@ -175,32 +175,34 @@ of the system that we are intervening in.  Some seemingly simple
 questions could have complicated answers, like “Who’s in and who’s
 out?”
 
-BECAUSE of the limitations as to scope and scale of a one-day
-workshop, we do well to think of it as a smaller scale model of the
+BECAUSE of the limitations as to scope and scale of a one-day (or
+shorter) workshop, we can think of it as a small-scale model of the
 surrounding dynamics.  We intend to both learn about these dynamics
 (analytically) and develop new interventions (synthetically).  Since
-we’re thinking about patterns, many of these will describe patterns of
-interaction.
+we’re thinking about patterns, many of our interventions describe
+possible patterns of interaction.
 
 We’re not building a community from scratch, in any case, though the
-sense of collective identity or agency for people in the room may be
-limited.  THEREFORE, design the patterns that we develop so that their
-uptake is relatively straightforward.  Use an accessible metaphor to
-build a small-scale pattern language per each constituent pattern
-(e.g., ‘Open future design’ used a water metaphor; ‘Sharing our
-stories’ could use a library metaphor or similar).  Notice that there
-are a couple other existing ‘metaphors’ that could define the large
-scale dynamics of our interaction, e.g., we might think about the
-whole day as the creation of a documentary (iDocs) or like a startup
-incubator for new community interventions.  The framing metaphors will
-impact on how invested people are in the day’s activities; different
-participants may have different expectations, and for that aspect, the
+sense of collective identity, or collective agency, for people in the
+room may be limited.  THEREFORE, design the patterns that we develop
+so that their uptake is relatively straightforward.  Use an accessible
+metaphor to build a small-scale pattern language per each constituent
+pattern (e.g., ‘[[id:66d6f9a0-c5ab-480d-8010-5c645aeadc17][Open Future Design]]’ used a water metaphor; ‘[[id:ab96ee6b-86f2-4b0d-a3b5-3654864644b3][Sharing
+our stories]]’ could use a library metaphor or similar).  Notice that
+existing ‘metaphors’ could significantly shape the dynamics of our
+interaction on the day, e.g.,
+- If running the workshop at a conference, we take the form of a breakout room, defined relative to a larger whole, and potentially as a ‘shadow committee’ relative to the conference’s organising committee.
+- If we focus on capturing data on interactions, we might think about the whole day as the creation of a documentary (iDocs).
+- Or, if we focus on building new teams, we might think of the day like a startup incubator for new community interventions.
+In short, the framing metaphors will impact on how invested people are
+in the day’s activities. Indeed, different participants may have
+different expectations for the day, and to understand that aspect, the
 simplest thing to do is to ask them.
 
-SPECIFICALLY We’re defining our values as a research group and company
-doing open source work.  We need to stay clear with everyone that
+SPECIFICALLY We’re defining our values as a /research group/ and /company
+working with open source/.  We aim to be clear with participants that
 we’re not extracting more than we’re giving.  At the workshop, we can
-ask about ideas that are needed to prototype something quickly that we
-can share with the wider community; and, at each stage in the
+ask about ideas that are needed to prototype something quickly, which
+we can share with the wider community; and, at each stage in the
 workshop, reflect together on what’s needed to move the conversation
 forward.
