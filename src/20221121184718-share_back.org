@@ -4,5 +4,35 @@
 #+title: Share back
 #+filetags: :WS:
 
-We’re at the end of our time together, let’s share back any crucial points with a full-group PAR.
+We’re at the end of our time together, let’s share back any crucial
+points with a full-group [[id:f5a1bc15-5abb-44d6-8f7a-e254974c9002][Project Action Review]].
 
+* Formalising the reflection in a useful way
+
+If we want the PAR to sum up possible actions for all participants we
+need to be especially careful how we ask the question.  Indeed, it may
+be too much to ask newcomers for committed actions.  It may be better
+to simply take advice about things that the facilitators can change.
+
+Nevertheless, the workshop should generate and gather /potential/ paths
+to action, through the ‘SPECIFIC’ next steps attached to [[id:ed238393-a7e4-4a0d-9eb2-3d6ab745c170][New patterns]].
+
+If we want to use the PAR to reflect on these next steps, then we may
+change the way we ask the final question.  In groups who are used to
+working with each other, the ‘We’ pronoun makes sense:
+
+**What else should we change going forward?**
+
+For groups that haven’t formed a strong group identity, it may be
+better to ask:
+
+**What does the future look like to you?**
+
+This first-person singular reflection may be a more meaningful prompt
+for participants who have engaged in a visioning exercise.
+
+* Timing
+
+As a matter of practicality, it may be necessary to do some of the
+share-back asynchronously, after people have left the room, via a
+survey mechanism.
