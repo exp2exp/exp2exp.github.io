@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       5826c7d9-8962-433d-83c5-27a5196908ea
 :END:
-#+title: Analyst
-#+filetags: :WS:
+#+title: Analyst (♗)
+#+filetags: :role:
 
 * Summary
 
@@ -11,3 +11,11 @@ form a solution BUT no one connects it with the complex reasons why that
 solution is likely to work, then it's likely to be fragile; *Then* use
 words like "/because/" to describe the complex reasons that the solution
 is likely to work.
+
+* Details
+
+Like the [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator/Wrinkler (♘)]], the part of the Analyst’s
+role is to work across contexts, looking at external articulations.
+The other part of the analyst’s role is to look within the context at
+internal details of articular.  For this latter purpose, [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal
+Layered Analysis]] is one useful technique.

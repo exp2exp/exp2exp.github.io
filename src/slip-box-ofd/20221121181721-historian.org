@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       57d46961-a056-435e-85d2-27ab6e0de7f6
 :END:
-#+title: Historian
-#+filetags: :WS:
+#+title: Historian/Time Traveller (♕)
+#+filetags: :role:
 
 * Summary
 
@@ -10,3 +10,9 @@
 agree BUT no one connects it with local history and concrete actions,
 then work bogs down; *Then* use words like "/specifically/" to connect
 abstract problems and solutions to specific actions.
+
+* Details
+
+Like the [[id:a0796d9e-664b-46fa-bb37-7f6a6fc15584][Kaijū Communicator/Wrinkler (♘)]], the Time Traveller should
+also work across contexts, but the contexts are specifically linked by
+(temporal) /evolution/.

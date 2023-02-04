@@ -38,3 +38,4 @@ e.g., perhaps with a mini-action-oriented PAR after each phase ("what
 have we been doing, and who needs to continue these actions?").  This
 will make the scenarios more concrete (e.g. by imagining specific
 actors and roles they might take on).
+

@@ -62,3 +62,11 @@ that lets you experience a plausible future scenario together.
 - We do have ways to track & see how things have changed; it'd be good to upgrade the interface
 - If the tools aren't there yet, we can mimic the tools.
 - Anyway, using Org Roam again will help us see where the /feature evolution/ should be
+
+** Further reflections
+
+To what extent do our ‘play’ activities put us in the mindset to
+explore [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]]?  There’s a superficial resemblance of
+both nodes in the current graph, since both are hubs for a lot of
+concepts.  But they also /should be/ conceptually related.  Are they?
+Can we rethink the play activities in terms of these tensions?

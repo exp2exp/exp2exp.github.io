@@ -2,7 +2,7 @@
 :ID:       20a61286-bc8b-46ed-8dca-21aeef31969a
 :END:
 #+title: Bristol Pilot Screenshots
-#+filetags: :HL:BF:
+#+filetags: :HL:BP:
 
 These images were produced by filtering Org Roam for the =WS= and =BP=
 tags.

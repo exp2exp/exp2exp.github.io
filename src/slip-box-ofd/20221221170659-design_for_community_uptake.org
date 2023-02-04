@@ -53,3 +53,13 @@ ask about ideas that are needed to prototype something quickly, which
 we can share with the wider community; and, at each stage in the
 workshop, reflect together on what’s needed to move the conversation
 forward.
+
+We also want to be sure that our design strategies are not
+overdetermining or prescriptive (fairly common perception of
+Alexander’s patterns).  As such, patterns can be enriched by
+considering the [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]] that they may embody.  Whereas the
+‘HOWEVER’ component typically describes a /conflict/, productive
+tensions should help us elaborate living, working, solutions.
+
+Community uptake may include /building new things/, e.g., [[id:73ebb973-f06c-4394-bd91-59b67dd4a7db][Building at
+the boundaries]].

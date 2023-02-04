@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       a0796d9e-664b-46fa-bb37-7f6a6fc15584
 :END:
-#+title: Kaijū Communicator
-#+filetags: :WS:
+#+title: Kaijū Communicator/Wrinkler (♘)
+#+filetags: :role:
 
 
 * Summary
@@ -11,3 +11,7 @@
 agree BUT no one challenges what's going on, solutions become brittle;
 *Then* use words like "/however/" to challenge proposals and highlight
 conflicts.
+
+* Details
+
+The Wrinkler should help to bring the collaborative design process in touch with [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]] by working /across contexts/.
