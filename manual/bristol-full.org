@@ -48,12 +48,13 @@
 
 
 \begin{abstract}
-  \noindent This document is an initial analysis of our Open Future Design workshop on January 23rd 2023 at Watershed in Bristol.  Attendees included:
+  \noindent This document is an initial analysis of our Open Future Design workshop on January 23rd 2023 at Watershed in Bristol.  Among the 18 attendees, there were three who had previously participated in a pilot:
   \begin{itemize}
     \item Abby Tabor {\cupright<Abby.Tabor@uwe.ac.uk>},
     \item Judith Aston {\cupright<Judith.Aston@uwe.ac.uk>},
     \item Frankie Brown {\cupright<fb382@bath.ac.uk>},
 \end{itemize}
+These folks helped with facilitation of small group activities.
 \end{abstract}
 
 \setcounter{tocdepth}{2}
@@ -138,8 +139,299 @@ attended the initial pilot.
 
 *** Limitations
 
-- Interrater reliablity is initially low, though it should improve as our collection of design patterns grows.  For now, have partially addressed this concerned through the multi-layered analysis process, which weaves between small-group, whole-group, and written text.
+Interrater reliablity regarding pattern identification from workshop
+discussions can be presumed to be low.  We have addressed this concern
+through the multi-layered data-gathering protocol, which (in Phase I)
+gives us data that is structured along dimensions which lend
+themselves to pattern analysis; and (in Phase II) through an activity
+that directly involves participants in collaboratively formulating
+pattern descriptions.  Even so, the utility of these patterns as paths
+to action can only be evaluated later (Phase III, ‘after the
+workshop’).
 
+* Funding of public space
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 65b47a3f-914b-470c-8aa4-2662bd391c8e
+:END:
+
+** Problem summary
+Even though public space is known to increase wellness in the population, well-being priorities that would lead to increased funding for public space aren’t universally adopted.
+** Solution summary
+
+Funders typically needs to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
+
+BECAUSE the values upheld by the current UK government (and some devolved governments) lean towards enterprise, it may be possible in these constituencies to develop a well-being agenda within a ‘social enterprise’ framework, investing locally while integrating community into the design process.   There are many examples to learn from, i.e., both in terms of their successes and failures.  These include the Bristol Pound, which aimed to keep cash in the local economy (and which in its latest iteration might have provided a nice open data set around local investments) and Froom social enterprise efforts which built nice social housing and schools.
+
+In Wales, there is legislation, in the form of the [[https://www.gov.wales/well-being-future-generations-wales-act-2015-guidance][Well-being of Future Generations Act 2015]], which enshrines a well-being agenda into law, and which has been monitored according to national indicators, in “Wellbeing of Wales” [[https://www.gov.wales/wellbeing-wales][reports]]. THEREFORE, a similar level of transparency around social enterprise investments could show where money is going, and help negotiate a well-being agenda that isn’t legislated.
+
+Historically, investment in public space and community has come from different places and aligned with different value systems (e.g. medieval churches were often at the centre of local communities, now many are unused and available for sale); Kew was 1p to get in via the turnstile; modern architecture had a long phase in which public space was an afterthought at best.  Now, contemporary architecture and urban planning initiatives are rediscovering these social values and, SPECIFICALLY, this may provide a niche for social enterprise to engage.
+* Rebalance social services
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 0f9e1955-845f-419d-bb55-70051d5df2c3
+:END:
+
+** Problem summary
+
+Some behaviours require policing, however, if the balance is incorrect, then self-expression suffers.  Similarly, other welfare-related services should be supplied in balance with local needs, though they often are not.
+
+** Solution strategy
+
+Police and other social services exist to deal with problems which are not addressed on their own, HOWEVER in the right environment, criminality, disease, etc., either go away entirely or shrink to a minimum.
+
+BECAUSE there is a limited amount of funding for public services, communities are now faced with dilemmas like closing the library to pay for the park, or removing bus services to pay for police, etc.; and, in fact, the police are already having to deal with a range of social problems which aren’t strictly within their remit, as are teachers and other service providers.  Whereas there used to be a /community policeman/ who could act with discretion, police officers now are oftentimes are not members of the communities they are meant to serve.  Other service provision can feel similarly remote and disconnected.
+
+THEREFORE, what’s needed are more people in the community who provide good examples of — and paradigms for — action, more immediately and directly.  One strategy to pursue would be to arrange it so that the organisations that provide welfare services are connected with each other.  Much in the way that food co-ops can serve the alimentary needs of a community, other more integrated systems could be devised to tackle the structural issues that made apparent by current regimes of underfunding and disorganisation.  For example, Houston, Texas, significantly reduced homelessness by developing a continuum of care approach.  Other societal challenges might be addressed similarly.
+
+SPECIFICALLY, it may be possible, in Bristol, to create a /radical public space/ that is taken care of by local people, which provides a range of relevant services.  Some good examples of community centres already exist, though they aren’t yet widespread into all of the communities that need them.  This could be an example of [[id:570f3d11-d1f6-4ffb-87ed-c815e7efe624][Communal spaces]].  However, there’s more than just a ‘space’ aspect to such a place.  Organisations like Médicins Sans Frontièrs show that experts are willing to activate around identified needs: can varied expertise be integrated in a similar way to address complex local challenges?
+
+This strategy relates to the concept of /facilitator load/ that Abby talked about in the Bristol workshop.  As such we have an experience inside the workshop of (potentially) too many things to think about and an over-extended service provision.  This relates to the concept of [[id:80a6488b-af62-4340-b542-eecb6b922343][Volatility]].
+* Contested space
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06
+:END:
+#+created: [2023-01-23 Mon 16:06]
+#+last_modified: [2023-01-23 Mon 16:06]
+
+** Problem summary
+
+So-called public space doesn’t always necessarily feel welcoming to
+all members of the public.  It can be overrun with antisocial
+behaviour.  It can feel exclusionary, or uninviting.  It can be the
+site of conflict.  When we enter public space, we may see others there
+only in terms of their stereotypes.
+
+** Solution summary
+
+Public space can feel uninviting: it may be an “only” space; it may be
+“only space”.  HOWEVER, we should not see this as inevitable.
+
+The history of public space should be read alongside the history of
+private spaces.  BECAUSE privitisation has had the upper hand in many
+historical turns (e.g., in agendas of enclosure and austerity), public
+goods of various kinds suffer.  This can be seen not only in attested
+public ‘spaces’, but in offerings like council housing, which in
+current times is often degraded as well as having decreased
+availability.
+
+This history is not unknown, but responses which aim to assert agency
+over space often amount to a descent into protest.  The People’s
+Republic of Stoke’s Croft is one local history, in which protest is
+paired with other forms of activism.  [[https://thebristolcable.org/2021/04/the-stokes-croft-riots-10-years-on-tesco/][Protest]] alone may prove
+ineffective at achieving its goals.  THEREFORE, forms of activism that
+directly enhance public space should be preferred.
+
+SPECIFICALLY, the iDocumentary methods ([[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]]) can be
+brought into activist settings in a way that gives recognition, builds
+awareness, and link stories.
+- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not
+feel friendly to all potential users
+* (Inter-)Personal Doughnut
+:PROPERTIES:
+:tag: :HL:BP:
+:CUSTOM_ID: f83051b3-95b5-4471-b03d-eeeccda51d6d
+:END:
+
+** Problem
+
+Informed by [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]], at the workshop we were ready to
+work across levels — but did we have the /correct/ set of levels for the
+‘public space & public health’ setting front-of-mind?
+
+** Solution Strategy
+
+Something that came up in the discussions around the workshop and
+PLACARD method was our prominent focus on /the wellbeing of
+participants/.  We could frame this in a rough analogy with Doughnut
+Economics, HOWEVER the framing would be different in this small-scale
+format.
+
+BECAUSE ‘health’ is inherently a complex topic — e.g., considering a
+“bio-psycho-social” or “bio-psycho-social-eco” model — there are
+multiple moving parts.  If we want to talk about health effectively in
+future versions of the workshop, we might want to rethink aspects of
+the workshop itself using /these/ components; e.g., the “roles” that we
+use in Phase II could potentially be rethought this way.
+
+Since we cannot be guaranteed to have teams of participants with expertise evenly
+divided along the bio/psycho/social/eco components of health,
+THEREFORE, it could be useful to survey some of the other frameworks
+that are out there that could be relevant to this reframing, so that
+we could get creative about reconfiguring them.  Examples might
+include [[https://en.wikipedia.org/wiki/Manfred_Max-Neef%27s_Fundamental_human_needs][Manfred Max-Neef's Fundamental human needs]], Schwartz’s [[https://en.wikipedia.org/wiki/Theory_of_Basic_Human_Values][Theory
+of Basic Human Values]].
+
+#+begin_quote
+/According to Schwartz, individual values are responses to three
+universal requirements of human existence, namely needs of people as
+biological organisms, of agreement in social actions, and of survival
+and well-being of groups./
+#+end_quote
+
+SPECIFICALLY, the axes and dimensions that were used to organise
+scenarios (in-balance vs out-of-balance, scarcity, aliveness,
+availability of knowledge commons, etc.) provide a very rough
+framework that was generated by participants.  How would we analyse
+our workshop’s framework in terms of the bio-psycho-social-eco model
+of health?  Does it have natural ‘habitable zones’ similar to the Kate
+Raworth doughnut?  One limiting factor that was drawn into the diagram
+was based on language/access/education.  Since many of our solutions
+were related to /communication/, these do seem to be relevant factors.
+How do these limiting factors show up around active participation in
+(both) [[id:57f06710-a96c-4cbc-bcc7-57d3d3e550c4][Public Space & Public Discourse]]?
+
+** Validation
+
+In the full Bristol workshop, we continued to use the CLA levels, but
+we presented them as a set of concentric circles, both in our framing
+presentation, and in visual templates that we distributed to
+participants (see images below).
+
+#+CAPTION: Our pictoral framing of the workshop design
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/cla-circles.png]]
+
+#+CAPTION: ‘Grid’ distributed to participants, partially filled in
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/concentric-grid.jpg]]
+
+This reframing of the suggests an analysis of the layers in this order
+of descent:
+
+| Psycho- | Litany    | Observables        |
+| Social- | System    | Factors and actors |
+| Bio-    | Worldview | Attitudes          |
+| Eco-    | Myth      | Shared values      |
+
+*** Further comments unpacking that
+
+It makes sense that /observables/ would be top of mind in our
+psychological make-up.  We’re also able to perceive aspects of the
+social world, though without reflection, we can be more driven by
+immediate sense perceptions than the more complex relations which give
+rise to those perceptions.  We also bring many well-documented biases
+to our cognition and emotion, based on the long history of human
+evolution.  Nevertheless, we are now also aware, at least in the back
+of our minds, of ourselves as part of an ecological system
+(cf. /Nouvelles du monde/, by Serres).
+
+*** Further links with the design pattern format
+
+The table above can be extended directly to incorporate our four-part
+pattern format:
+
+| Psycho- | Litany    | Observables        | /HOWEVER/      |
+| Social- | System    | Factors and actors | /BECAUSE/      |
+| Bio-    | Worldview | Attitudes          | /THEREFORE/    |
+| Eco-    | Myth      | Shared values      | /SPECIFICALLY/ |
+
+Again, some brief remarks to narrate this extension.
+
+/Conflicts/ exist at the observable layer.  They may be well-known
+blockers or simply annoyances.
+
+/Causal/ relations are typically derived from social relationships.
+Here it may be useful to recall George Mead’s reframing of ‘sociality’
+in terms co-evolution or change (which is then reflected in our
+awareness).[fn:: George H. Mead, /The philosophy of the present/, Open
+Court, 1932.]
+
+# #+begin_quote
+# What is peculiar to intelligence is that it is a change that involves
+# a mutual reorganization, an adjustment in the organism and a
+# reconstitution of the environment; for at its lowest terms any change
+# in the organism carries with it a difference of sensitivity and
+# response and a corresponding difference in the environment. [...] Now
+# what we are accustomed to call social is only a so-called
+# consciousness of such a process, but the process is not identical with
+# the consciousness of it, for that is an awareness of the situation.
+# The social situation must be there if there is to be consciousness of
+# it.
+# #+end_quote
+
+Our /dispositions/ to action are filtered through our consciousness,
+with reference to our existing repertoires of action.
+
+Lastly, although our /values/ are not always top of mind, they are not
+ephemeral, but are, rather, among the most concrete things that we
+perceive when, to use a tun of phrase, we see with our eyes closed.
+Specific actions which are not already-programmed by our existing
+/patterns of action/ are likely to relate to these values.  (Here we
+could refer to, e.g., Spinoza’s ethics.)
+
+*** More specific relationship to the Raworth doughnut
+
+With these comments in mind, the relationship to the Raworth doughnut
+becomes clearer.  ‘Eco’ is at the core of the CLA model, but the
+periphery of the Raworth doughnut.  An ‘overshoot’ of the /ecological
+ceiling/ corresponds, here, to living a life not in line with our
+values, or even more fundamentally to values which underspecified.
+Similarly, a ‘shortfall’ relative to /social foundation/ relates to the
+underprovision of public goods and to the /fragmentation/ of the
+ecosphere in individual minds (often, themselves, fragmented by
+craving).  We can do something about this in local communities if we
+[[id:0f9e1955-845f-419d-bb55-70051d5df2c3][Rebalance social services]].
+
+This also suggests a strategy for ‘patternizing’ materials from the
+workshop.  During the workshop itself, we already began to [[id:6ec29348-55cd-404b-b352-238db7f85b72][Identify
+core concepts]].  This gives us a picture of the ‘myth’ layer.  From
+there, we should be able to work back to new and possibly quite
+different social relationships.
+* Identify core concepts
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 6ec29348-55cd-404b-b352-238db7f85b72
+:END:
+
+** Problem summary
+** Solution summary
+
+We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
+
+BECAUSE we have potential for overwhelm if we simply live awash in the
+world, we have evolved language tools that work ‘digitally’ to give us
+structure and grammar.
+
+We can use these tools at various levels, ranging from language to
+written words to digital tools. THEREFORE if we want to make sense of
+a complex situation it is useful to have all of these tools at our
+disposal.
+
+SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
+Org Roam to start to digitize the maps.
+- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
+- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
+- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
+- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
+* Building at the boundaries
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 73ebb973-f06c-4394-bd91-59b67dd4a7db
+:END:
+
+** Problem summary
+
+If we take it as given that “Bristol needs to grow” (a debateable
+point), then it can either grow intensively with higher-density
+housing, or it can grow extensively by building at the boundaries.
+Both of these have some associated challenges.  Here we consider
+strategies for building at the boundaries.
+
+** Solution summary
+
+This should relate to the ‘Avon Mouth’ discussion, see ‘Group 3 details’. 
+
+This relates to the concept of [[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both
+the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as
+the ‘edges’ may be (or may be perceived to be) closer to wild space,
+and as such may be conceptualised as ‘external’ and ‘public by
+default’.
 * Remote Facilitation
 :PROPERTIES:
 :tag: :HL:BF:
@@ -194,7 +486,7 @@ didn’t see the point, but in any case they didn’t use it much.
 *** Other ideas: TBA
 * Bristol Pilot Screenshots
 :PROPERTIES:
-:tag: :HL:BF:
+:tag: :HL:BP:
 :CUSTOM_ID: 20a61286-bc8b-46ed-8dca-21aeef31969a
 :END:
 

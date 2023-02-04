@@ -303,8 +303,15 @@ and derived PDF is defined.")
                         ))
 
 (defvar just-bristol-full '(
-                            "20221121185152-placard_workshop_introduction.org"
-                            "20221207183642-bristol_pilot_screenshots.org"
+                            "slip-box-ofd/20221121185152-placard_workshop_introduction.org"
+                            "slip-box-ofd/20230204172150-funding_of_public_space.org"
+                            "slip-box-ofd/20230204111338-minimal_policing.org"
+                            "slip-box-ofd/20230123160601-contested_space.org"
+                            "slip-box-ofd/20221206222928-personal_doughnut.org"
+                            "slip-box-ofd/20230204212537-identify_core_concepts.org"
+                            "slip-box-ofd/20230204223724-building_at_the_boundaries.org"
+                            "slip-box-ofd/20230201071948-remote_facilitation.org"
+                            "slip-box-ofd/20221207183642-bristol_pilot_screenshots.org"
 ))
 
 (defun indent-org-roam-export ()
@@ -312,6 +319,7 @@ and derived PDF is defined.")
   (org-map-entries (lambda ()
                      ;; don’t demote the top level items and their sub-items
                      (let ((tag (org-entry-get nil "tag")))
+                       ;; This assumes that HL is the *first* tag
                        (if (and tag (string= (car (split-string (string-trim tag ":" ":") ":")) "HL"))
                            (progn (org-end-of-subtree)
                                   (setq org-map-continue-from (point)))
