@@ -8,7 +8,7 @@
 
 Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
 method called "PLACARD" that scaffolds social perception, cognition,
-and action (Corneli et al., 2021).  PLACARD combines design patterns
+and action.[fn:: fullcite:patterns-of-patterns]  PLACARD combines design patterns
 with futuring exercises and review processes.  The OFD workshop walks
 participants through a cycle of creative learning using these methods,
 which they can later reuse on their own.  Our intention with the
@@ -75,5 +75,13 @@ attended the initial pilot.
 
 ** Limitations
 
-- Interrater reliablity is initially low, though it should improve as our collection of design patterns grows.  For now, have partially addressed this concerned through the multi-layered analysis process, which weaves between small-group, whole-group, and written text.
+Interrater reliablity regarding pattern identification from workshop
+discussions can be presumed to be low.  We have addressed this concern
+through the multi-layered data-gathering protocol, which (in Phase I)
+gives us data that is structured along dimensions which lend
+themselves to pattern analysis; and (in Phase II) through an activity
+that directly involves participants in collaboratively formulating
+pattern descriptions.  Even so, the utility of these patterns as paths
+to action can only be evaluated later (Phase III, ‘after the
+workshop’).
 

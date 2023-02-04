@@ -18,6 +18,7 @@ collected expertise of the affected communities.
 - We want to make one or more big mind-maps ([[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]). This can be structured by further activities:
   - [[id:a853be79-85c1-4ffa-9750-459192c539e8][Find the dots]]
   - [[id:0ef4b185-513f-40c2-b884-6213601bbe09][Advice from a Caterpillar]]
+- Participants may have skills to bring to the table, so this is a good opportunity to [[id:902d27f7-26c7-488b-baa7-5b973a850359][Transfer control to participants]].
 - These can be improved by coming up with dimensions in which things can optimise in some direction (good/bad) ([[id:105e0ad7-ada7-4cee-b2c6-a68d08096159][Dimension analysis]])
 - Once we have dimensions, we can describe scenarios that merge the themes and dimensions, outlining possible directions of development ([[id:7357a42a-9691-4669-92c3-895d9061dda5][Build Scenarios]])
 - The maps can be enriched by bringing in areas of expertise ([[id:bf8791b5-e50b-4666-bc01-286e279a5971][Reinfuse Expertise]])

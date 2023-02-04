@@ -7,14 +7,14 @@
 * Problem
 
 Informed by [[id:56ce8d31-d3d6-4493-bb41-b07d810afbcc][Causal Layered Analysis]], at the workshop we were ready to
-work across levels — but did we have the correct set of levels for the
+work across levels — but did we have the /correct/ set of levels for the
 ‘public space & public health’ setting front-of-mind?
 
 * Solution Strategy
 
 Something that came up in the discussions around the workshop and
-PLACARD method was our prominent focus on the wellbeing of
-participants.  We could frame this in a rough analogy with Doughnut
+PLACARD method was our prominent focus on /the wellbeing of
+participants/.  We could frame this in a rough analogy with Doughnut
 Economics, HOWEVER the framing would be different in this small-scale
 format.
 
@@ -22,10 +22,10 @@ BECAUSE ‘health’ is inherently a complex topic — e.g., considering a
 “bio-psycho-social” or “bio-psycho-social-eco” model — there are
 multiple moving parts.  If we want to talk about health effectively in
 future versions of the workshop, we might want to rethink aspects of
-the workshop itself using these components, e.g., the "roles" that we
-introduced could be rethought this way.
+the workshop itself using /these/ components; e.g., the “roles” that we
+use in Phase II could potentially be rethought this way.
 
-Since we cannot be guaranteed to have teams of participants evenly
+Since we cannot be guaranteed to have teams of participants with expertise evenly
 divided along the bio/psycho/social/eco components of health,
 THEREFORE, it could be useful to survey some of the other frameworks
 that are out there that could be relevant to this reframing, so that
@@ -51,3 +51,105 @@ was based on language/access/education.  Since many of our solutions
 were related to /communication/, these do seem to be relevant factors.
 How do these limiting factors show up around active participation in
 (both) [[id:57f06710-a96c-4cbc-bcc7-57d3d3e550c4][Public Space & Public Discourse]]?
+
+* Validation
+
+In the full Bristol workshop, we continued to use the CLA levels, but
+we presented them as a set of concentric circles, both in our framing
+presentation, and in visual templates that we distributed to
+participants (see images below).
+
+#+CAPTION: Our pictoral framing of the workshop design
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/cla-circles.png]]
+
+#+CAPTION: ‘Grid’ distributed to participants, partially filled in
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 500px
+#+ATTR_LATEX: :width .8\textwidth
+[[../manual/concentric-grid.jpg]]
+
+This reframing of the suggests an analysis of the layers in this order
+of descent:
+
+| Psycho- | Litany    | Observables        |
+| Social- | System    | Factors and actors |
+| Bio-    | Worldview | Attitudes          |
+| Eco-    | Myth      | Shared values      |
+
+** Further comments unpacking that
+
+It makes sense that /observables/ would be top of mind in our
+psychological make-up.  We’re also able to perceive aspects of the
+social world, though without reflection, we can be more driven by
+immediate sense perceptions than the more complex relations which give
+rise to those perceptions.  We also bring many well-documented biases
+to our cognition and emotion, based on the long history of human
+evolution.  Nevertheless, we are now also aware, at least in the back
+of our minds, of ourselves as part of an ecological system
+(cf. /Nouvelles du monde/, by Serres).
+
+** Further links with the design pattern format
+
+The table above can be extended directly to incorporate our four-part
+pattern format:
+
+| Psycho- | Litany    | Observables        | /HOWEVER/      |
+| Social- | System    | Factors and actors | /BECAUSE/      |
+| Bio-    | Worldview | Attitudes          | /THEREFORE/    |
+| Eco-    | Myth      | Shared values      | /SPECIFICALLY/ |
+
+Again, some brief remarks to narrate this extension.
+
+/Conflicts/ exist at the observable layer.  They may be well-known
+blockers or simply annoyances.
+
+/Causal/ relations are typically derived from social relationships.
+Here it may be useful to recall George Mead’s reframing of ‘sociality’
+in terms co-evolution or change (which is then reflected in our
+awareness).[fn:: George H. Mead, /The philosophy of the present/, Open
+Court, 1932.]
+
+# #+begin_quote
+# What is peculiar to intelligence is that it is a change that involves
+# a mutual reorganization, an adjustment in the organism and a
+# reconstitution of the environment; for at its lowest terms any change
+# in the organism carries with it a difference of sensitivity and
+# response and a corresponding difference in the environment. [...] Now
+# what we are accustomed to call social is only a so-called
+# consciousness of such a process, but the process is not identical with
+# the consciousness of it, for that is an awareness of the situation.
+# The social situation must be there if there is to be consciousness of
+# it.
+# #+end_quote
+
+Our /dispositions/ to action are filtered through our consciousness,
+with reference to our existing repertoires of action.
+
+Lastly, although our /values/ are not always top of mind, they are not
+ephemeral, but are, rather, among the most concrete things that we
+perceive when, to use a tun of phrase, we see with our eyes closed.
+Specific actions which are not already-programmed by our existing
+/patterns of action/ are likely to relate to these values.  (Here we
+could refer to, e.g., Spinoza’s ethics.)
+
+** More specific relationship to the Raworth doughnut
+
+With these comments in mind, the relationship to the Raworth doughnut
+becomes clearer.  ‘Eco’ is at the core of the CLA model, but the
+periphery of the Raworth doughnut.  An ‘overshoot’ of the /ecological
+ceiling/ corresponds, here, to living a life not in line with our
+values, or even more fundamentally to values which underspecified.
+Similarly, a ‘shortfall’ relative to /social foundation/ relates to the
+underprovision of public goods and to the /fragmentation/ of the
+ecosphere in individual minds (often, themselves, fragmented by
+craving).  We can do something about this in local communities if we
+[[id:0f9e1955-845f-419d-bb55-70051d5df2c3][Rebalance social services]].
+
+This also suggests a strategy for ‘patternizing’ materials from the
+workshop.  During the workshop itself, we already began to [[id:6ec29348-55cd-404b-b352-238db7f85b72][Identify
+core concepts]].  This gives us a picture of the ‘myth’ layer.  From
+there, we should be able to work back to new and possibly quite
+different social relationships.

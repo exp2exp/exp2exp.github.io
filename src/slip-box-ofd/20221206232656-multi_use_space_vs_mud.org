@@ -33,24 +33,27 @@ BECAUSE we are thinking in terms of ‘health’ we may want to switch
 from ‘minimising conflict’ to ‘increasing complexity’ as our overall
 goal.  Natural systems may contain lots of conflict (e.g., between the
 wishes of wildebeests and lions) and still be complex and vital.  A
-eutrophic pond reduces conflict by creating the conditions for a
+eutrophic pond /reduces/ conflict by creating the conditions for a
 monoculture of algae: that’s probably not what we want.  Maybe even
 more specifically we want patterns “at the edge of chaos”, which
 exhibit both organisation and instability (cf. the [[http://www.interactivearchitecture.org][Interactive
 Architecture]] lab at UCL — they might be worth talking to as part of an
 interactive-everything consortium).
 
-THEREFORE, let’s look around for some design principles that take the
-“edge of chaos” into account.  Here are some ideas from [[https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/202007/the-edge-chaos][Psychology
-Today]], drawing models of elite performance.  Here is a [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766553/][paper]] that
-draws on the edge-of-chaos concept to critique applications of
-‘sustainability’.  Doyne Farmer, who coined the term, is now at the
-Oxford Martin school, and has contributed to a 1988 [[https://www.taylorfrancis.com/chapters/edit/10.1201/9780429492846-6/new-approaches-nonlinear-modeling-improve-economic-forecasts-doyne-farmer-john-sidorowich][volume]] on ‘The
-Economy As An Evolving Complex System’.  How has this thinking been
-taken up since then?  Note that there are various approaches to
-measuring urban health which aren’t specifically informed by
-complexity theory, but which could be brought into a new
-complexity-informed synthesis:
+One area in which greater transparency can be useful is /funding/ of
+public space (from various sources): see [[id:65b47a3f-914b-470c-8aa4-2662bd391c8e][Funding of public space]].
+Even if such data is available, we will need an appropriate analysis
+protocol.  THEREFORE, let’s look around for some design principles
+that take the “edge of chaos” into account.  There are some related
+ideas in [[https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/202007/the-edge-chaos][Psychology Today]] that connect this model with /elite
+performance/.  There’s another a [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766553/][paper]] that draws on the edge-of-chaos
+concept to critique applications of ‘sustainability’.  Doyne Farmer,
+who coined the term, is now at the Oxford Martin school, and has
+contributed to a 1988 [[https://www.taylorfrancis.com/chapters/edit/10.1201/9780429492846-6/new-approaches-nonlinear-modeling-improve-economic-forecasts-doyne-farmer-john-sidorowich][volume]] on ‘The Economy As An Evolving Complex
+System’.  How has this thinking been taken up since then?  Note that
+there are various approaches to measuring urban health which aren’t
+specifically informed by complexity theory, but which could be brought
+into a new complexity-informed synthesis:
 
 #+begin_quote
 In the 1960s, a social indicator movement flourished in the United
@@ -79,7 +82,7 @@ inhabitants and to manage it.")
 
 Might we want to connect future experiments with other local
 experiments like the [[https://bristolpound.org/][Bristol Pound]], perhaps making an "Ecodisc of
-Bristol’s Urban Ecosystem"?  (Any such team up would depend on how 
+Bristol’s Urban Ecosystem"?  (Any such team up would depend on how
 [[https://web.archive.org/web/20211007151020/https://bristolpound.org/future-vision/][their plans]] are developing.)
 
 All of this is relevant to thinking about how we move forward [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After

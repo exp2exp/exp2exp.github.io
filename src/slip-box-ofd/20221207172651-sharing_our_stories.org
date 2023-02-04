@@ -15,7 +15,7 @@ One of the proposals that we talked about was a “Listening project
 personal history during our workshop.
 
 BECAUSE of limitations of the workshop, as to time and scale, getting
-even one story written down is an achievement !  Nevertheless, we all
+even one story written down is an achievement!  Nevertheless, we all
 might have stories somewhat similar to Judith’s (with plenty
 differences as well) about how we got interested in the things we are
 now doing professionally.  If we were to share these stories we’d have
@@ -30,7 +30,11 @@ of their ideas.  This might then put us in a good position to return
 to the roles from the workshop, with various attendees sitting in the
 “[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]” seat, and others taking on the other roles to think about
 how their work might relate to the trajectory traced by each
-Historian.
+Historian.  Note that similar ideas apply not only of workshop
+attendees, but to other members of our communities as well.  The
+Interactive Documentary methods that we’ve been learning about can
+apply beyond the workshop, in “Phase III” activities: see [[id:44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06][Contested
+space]].
 
 SPECIFICALLY, we might do the initial information gathering in a series
 of online interviews with attendees, circulate the materials, and then

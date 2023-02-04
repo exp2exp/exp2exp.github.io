@@ -25,7 +25,9 @@ shorter) workshop, we can think of it as a small-scale model of the
 surrounding dynamics.  We intend to both learn about these dynamics
 (analytically) and develop new interventions (synthetically).  Since
 we’re thinking about patterns, many of our interventions describe
-possible patterns of interaction.
+possible patterns of interaction.  We should establish both the
+current baseline, and constructive agendas for change: see [[id:0f9e1955-845f-419d-bb55-70051d5df2c3][Rebalance
+social services]].
 
 We’re not building a community from scratch, in any case, though the
 sense of collective identity, or collective agency, for people in the

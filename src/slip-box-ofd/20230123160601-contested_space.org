@@ -2,6 +2,40 @@
 :ID:       44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06
 :END:
 #+title: Contested space
+#+filetags: :HL:BF:
 #+created: [2023-01-23 Mon 16:06]
 #+last_modified: [2023-01-23 Mon 16:06]
 
+* Problem summary
+
+So-called public space doesn’t always necessarily feel welcoming to
+all members of the public.  It can be overrun with antisocial
+behaviour.  It can feel exclusionary, or uninviting.  It can be the
+site of conflict.  When we enter public space, we may see others there
+only in terms of their stereotypes.
+
+* Solution summary
+
+Public space can feel uninviting: it may be an “only” space; it may be
+“only space”.  HOWEVER, we should not see this as inevitable.
+
+The history of public space should be read alongside the history of
+private spaces.  BECAUSE privitisation has had the upper hand in many
+historical turns (e.g., in agendas of enclosure and austerity), public
+goods of various kinds suffer.  This can be seen not only in attested
+public ‘spaces’, but in offerings like council housing, which in
+current times is often degraded as well as having decreased
+availability.
+
+This history is not unknown, but responses which aim to assert agency
+over space often amount to a descent into protest.  The People’s
+Republic of Stoke’s Croft is one local history, in which protest is
+paired with other forms of activism.  [[https://thebristolcable.org/2021/04/the-stokes-croft-riots-10-years-on-tesco/][Protest]] alone may prove
+ineffective at achieving its goals.  THEREFORE, forms of activism that
+directly enhance public space should be preferred.
+
+SPECIFICALLY, the iDocumentary methods can be brought into activist
+settings in a way that gives recognition, builds awareness, and link
+stories.
+- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not
+feel friendly to all potential users
