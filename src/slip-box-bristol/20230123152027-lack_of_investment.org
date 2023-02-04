@@ -2,6 +2,7 @@
 :ID:       2f5de6c1-8a54-43da-a2a7-34d772f2db15
 :END:
 #+title: Lack of investment
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 15:20]
 #+last_modified: [2023-01-23 Mon 16:01]
 

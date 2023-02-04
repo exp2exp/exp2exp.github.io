@@ -2,4 +2,5 @@
 :ID:       f941b6c0-167b-4ad2-808a-482820830c4f
 :END:
 #+TITLE: Rigidity
+#+filetags: :bristol:
 *

@@ -2,6 +2,7 @@
 :ID:       5232fe23-38b3-4311-9803-fc4646d0d400
 :END:
 #+title: Ownership and responsibility
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 14:46]
 #+last_modified: [2023-01-23 Mon 14:46]
 

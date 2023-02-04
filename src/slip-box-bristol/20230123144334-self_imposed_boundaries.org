@@ -2,6 +2,7 @@
 :ID:       2318237b-2381-42c9-96f2-be8faecf9a46
 :END:
 #+title: Self-imposed boundaries
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 14:43]
 #+last_modified: [2023-01-23 Mon 23:11]
 

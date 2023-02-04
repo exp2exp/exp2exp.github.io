@@ -2,4 +2,5 @@
 :ID:       22257fd3-db15-4826-8582-81d9815e2e43
 :END:
 #+TITLE: Individuality
+#+filetags: :bristol:
 *

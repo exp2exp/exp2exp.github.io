@@ -5,7 +5,11 @@
 #+created: [2023-01-23 Mon 15:25]
 #+filetags: :bristol:group-1:system:group-1-system
 
-Turbo island might be more in the private that in the public space.
+[[https://www.bristolpost.co.uk/news/local-news/turbo-island-stokes-croft-called-3856687][Turbo Island]] is a place known for public drinking in Bristol, specifically in the Stokes Croft area.
+
+/Turbo Island/ might be more in the private than in the public space.
+
+- JC: or a quasi-enclosure of a public space for private purposes.
 
 - [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]]
 - [[id:c9cfb102-84f3-4398-8192-5c17535589c3][Homeless people]]

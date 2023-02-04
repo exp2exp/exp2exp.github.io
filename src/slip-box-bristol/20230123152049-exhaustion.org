@@ -2,6 +2,7 @@
 :ID:       3f03656b-43ee-426b-a308-9e59cfee4d70
 :END:
 #+title: Exhaustion
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 15:20]
 #+last_modified: [2023-01-23 Mon 15:20]
 

@@ -2,6 +2,7 @@
 :ID:       fda9acc7-f49e-48ca-bf45-a2909e2ec6ed
 :END:
 #+title: Governance
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 15:41]
 #+last_modified: [2023-01-23 Mon 15:42]
 

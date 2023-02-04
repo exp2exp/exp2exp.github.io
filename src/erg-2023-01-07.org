@@ -344,7 +344,7 @@ Are we ready for the following?
 **** Fixup:
 - We were working with the same day’s meeting notes for a while, in order to keep going over the itinerary and checklist, rather than creating new files.
 - It might have been clearer to have those in separate files.
-- We created an [[id:2f76b06e-06dc-416b-b14d-b3c69c76d886][Example Constellation]] during one of these meetings.
+- We created an [[id:2f76b06e-06dc-416b-b14d-b3c69c76d886][Example Constellation]] during one of these meetings
 
 *** 2. What are some different perspectives on what's happening?
 

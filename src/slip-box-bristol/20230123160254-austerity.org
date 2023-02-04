@@ -2,6 +2,7 @@
 :ID:       9acdd916-be4e-4c84-867d-24fb01609681
 :END:
 #+title: Austerity
+#+filetags: :bristol:
 #+created: [2023-01-23 Mon 16:02]
 #+last_modified: [2023-01-23 Mon 16:07]
 
