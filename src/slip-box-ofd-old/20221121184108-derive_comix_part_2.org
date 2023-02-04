@@ -2,7 +2,7 @@
 :ID:       f447153f-7ff5-449d-bb08-67f579dda53f
 :END:
 #+title: Dérive Comix Part 2
-#+filetags: :WS:
+#+filetags: :OLD:
 
 Explore your scenarios together in your imagination and discuss what
 you find there.  What are some of the things you observe from the
