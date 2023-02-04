@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       65b47a3f-914b-470c-8aa4-2662bd391c8e
+:END:
+#+title: Funding of public space
+#+filetags: :HL:BF:
+
+* Problem summary
+Even though public space is known to increase wellness in the population, well-being priorities that would lead to increased funding for public space aren’t universally adopted.
+* Solution summary
+
+Funders typically needs to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
+
+BECAUSE the values upheld by the current UK government (and some devolved governments) lean towards enterprise, it may be possible in these constituencies to develop a well-being agenda within a ‘social enterprise’ framework, investing locally while integrating community into the design process.   There are many examples to learn from, i.e., both in terms of their successes and failures.  These include the Bristol Pound, which aimed to keep cash in the local economy (and which in its latest iteration might have provided a nice open data set around local investments) and Froom social enterprise efforts which built nice social housing and schools.
+
+In Wales, there is legislation, in the form of the [[https://www.gov.wales/well-being-future-generations-wales-act-2015-guidance][Well-being of Future Generations Act 2015]], which enshrines a well-being agenda into law, and which has been monitored according to national indicators, in “Wellbeing of Wales” [[https://www.gov.wales/wellbeing-wales][reports]]. THEREFORE, a similar level of transparency around social enterprise investments could show where money is going, and help negotiate a well-being agenda that isn’t legislated.
+
+Historically, investment in public space and community has come from different places and aligned with different value systems (e.g. medieval churches were often at the centre of local communities, now many are unused and available for sale); Kew was 1p to get in via the turnstile; modern architecture had a long phase in which public space was an afterthought at best.  Now, contemporary architecture and urban planning initiatives are rediscovering these social values and, SPECIFICALLY, this may provide a niche for social enterprise to engage.

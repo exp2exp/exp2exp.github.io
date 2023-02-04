@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       dfd2e796-c500-4f86-bfca-7890e0cb644a
+:END:
+#+title: Bristol Full Workshop Patterns
+#+filetags: :WS:
+
+
+It’s easiest to get started with the patterns that were identified in
+Phase II:
+
+- [[id:0f9e1955-845f-419d-bb55-70051d5df2c3][Rebalance social services]]
+- [[id:65b47a3f-914b-470c-8aa4-2662bd391c8e][Funding of public space]]
+- [[id:44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06][Contested space]]
+
+From these, we should be able to work back into the Phase I materials.
+
+E.g., the first one that occurs to me is:
+
+- [[id:73ebb973-f06c-4394-bd91-59b67dd4a7db][Building at the boundaries]]

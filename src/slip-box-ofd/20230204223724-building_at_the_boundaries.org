@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       73ebb973-f06c-4394-bd91-59b67dd4a7db
+:END:
+#+title: Building at the boundaries
+#+filetags: :HL:BF:
+
+* Problem summary
+
+If we take it as given that “Bristol needs to grow” (a debateable
+point), then it can either grow intensively with higher-density
+housing, or it can grow extensively by building at the boundaries.
+Both of these have some associated challenges.  Here we consider
+strategies for building at the boundaries.
+
+* Solution summary
+
+This should relate to the ‘Avon Mouth’ discussion, see ‘Group 3 details’. 
+
+This relates to the concept of [[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both
+the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as
+the ‘edges’ may be (or may be perceived to be) closer to wild space,
+and as such may be conceptualised as ‘external’ and ‘public by
+default’.

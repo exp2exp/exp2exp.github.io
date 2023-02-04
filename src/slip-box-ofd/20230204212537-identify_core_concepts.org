@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       6ec29348-55cd-404b-b352-238db7f85b72
+:END:
+#+title: Identify core concepts
+#+filetags: :HL:BF:
+
+* Problem summary
+* Solution summary
+
+We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
+
+BECAUSE we have potential for overwhelm if we simply live awash in the
+world, we have evolved language tools that work ‘digitally’ to give us
+structure and grammar.
+
+We can use these tools at various levels, ranging from language to
+written words to digital tools. THEREFORE if we want to make sense of
+a complex situation it is useful to have all of these tools at our
+disposal.
+
+SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
+Org Roam to start to digitize the maps.
+- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
+- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
+- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
+- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
