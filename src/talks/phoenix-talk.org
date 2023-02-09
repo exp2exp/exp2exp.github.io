@@ -1,0 +1,177 @@
+#+TITLE: Going Meta: Anticipating Anticipation
+#+STARTUP: CUSTOMTIME SHOWALL
+#+exclude_tags: notes noexport
+#+AUTHOR:Noorah Alhasan, Joe Corneli, Leo Vivier
+#+OPTIONS: toc:nil <:nil num:nil title:nil
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \include{header.tex}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Project Plan}
+#+LATEX_HEADER: \rhead{\today}
+
+* Objective
+
+Together with workshop participants, we will co-develop a Design
+Pattern Language for envisioning, exploring, and enacting the future.
+
+* Previously at Anticipation 2022
+
+We presented “Open Future Design: methods for co-anticipating the
+future”.  Attendees will have gotten a taste of the kind of patterns
+that we’re working with.
+
+That paper was based on an (unsuccessful) submission to /Futures/ after
+a presentation at Anticipation 2019.  Since then, we published
+
+** Pre-workshop
+
+*** Planning a date (TBD)
+
+/(Dec 15th? 29th; Jan 12th? as _soonest_ possible dates for the Tech workshop, but maybe better to push it to January.)/
+
+- We would be able to present _how_ we work with this stuff
+- We’d even a *present-only version* of our tech stack ready to show, optimistically, for 3rd and 4th / and for sure by 10th December.
+- _Maybe_ use EmacsConf as a recruiting venue?
+
+*** Front-stage outline of activities
+
+1. *Send invitation e-mails at least 4 weeks in advance*
+   - Send reminder *3 weeks* in advance
+   - Get confirmation as early as possible, cut-off date *2 weeks* in advance
+   - *Follow best practices for human participation activities:*
+      1. Include a /brief/ blurb about the workshop (*including what the commitment* is, e.g., full-day) and what their participation will accomplish
+      2. Include the minimum level of technology knowledge (can they use a PC, browse the web, bring a phone, typing into a website, etc.?)
+      3. Include the level of security/privacy of participation and ask for consent
+      4. Include date, time, duration, and location (if it's TBD make sure to include this info)
+      5. Include _whether_ their participation will be monetarily compensated
+      6. Thank them for their time and consideration
+2. *Once we have confirmations, send another e-mail.*
+   1. Include a somewhat more detailed outline of the workshop, reminding them what it’s about, and reminding them what their participation will accomplish
+   2. Include timeline of the workshop (*full day timings here*):
+      1. Introductions, overall workshop overview (30 minutes)
+      2. Explaining Phase 1 (15 - 30 minutes)
+      3. Phase 1 (1.5 - 2 hours)
+      4. Lunch break (1 hour)
+      5. Explaining Phase 2 (30 - 45 minutes)
+      6. Phase 2 (1.5 - 2 hours)
+      7. Concluding remarks
+   3. Include pre-workshop activity or any other asks
+   4. Thank them for their time and consideration
+
+*** Back-stage outline of activities
+
+Be sure to sort these as-needed:
+
+- Methods, needed at the appropriate level of rigour
+  - *Decide: In-person vs remote vs hybrid?*
+  - Technologies for the workshop
+  - Facilitation
+  - Feedback platform
+  - Technologies for after the workshop
+
+We need every component to fit well with the methods.
+
+**** Criterion: The methods need to be tested and familiar to facilitators
+
+*** Overall management checklist
+
+- [ ] Make sure everyone is on the same page
+- [ ] Develop a clear taxonomy of the fundamental terms
+- [ ] Get contracts & deliverables sorted
+- [ ] Know how much flexibility there is (what’s possible, and what’s possible when)
+- [ ] Reasonable expectations about where this is going
+- [ ] Reasonable expectations how much effort it needs, and what’s available
+- [ ] Make sure we have a protocol about this
+- [ ] Make good commits for this document!
+
+** Workshop
+*** Introductions
+- Bristol Pilot: Abby presented a 10 minute slide show about the "Public Space and Public Health"
+**** Meet and greet with participants
+- Bristol Pilot: minimal, people said hi
+***** TODO ice-breaker activity
+- /Could be based on an in-advance ask, like, email a photo?/
+- Maybe better to have it be something that can happen at a coffee break.
+**** TODO Go over the general rules and norms
+- Bristol Pilot: Joe presented an outline of what was going on on the day
+**** Make sure we have a clear terminology/taxonomy per phase, not only for patterns and roles but the mundane terms that we use
+*** Pre Phase 1 (walk-through, questions, concerns, etc.)
+**** Explain _theme_ of the workshop
+- NB. different people/groups might go in different directions from this point.
+**** Explain the process
+- "Discuss the theme, discuss the scenarios for development, zoom in on those, flesh them out."
+- "Find new ‘design patterns’ that enable them to solve new problem."
+***** Explain _CLA_ (also good for us as well) *and/or* present the framework with some tangible interactives, like cards, so they don’t get bored
+- We can explain how this will be applied, e.g., via an *example*
+- Diagrams can convey information quickly (e.g., iceberg)
+- Roles & patterns are visual and memorable
+- How will it be used in this phase: decent to the myth
+- Be able to access the rules quickly (cf. "Settlers of Catan")
+
+*** Phase 1
+**** Process
+- Basically make one or more big mind-maps
+- Develop some dimensions in which things can optimise in some direction (good/bad)
+- Scenarios that merge the themes and dimensions, outlining possible directions of development
+- Merge everything into one big shared possibility space
+- Identify core issues
+**** Materials
+- Big sheets of paper
+**** Facilitators
+- Moving things along, so that we elaborate the blockers but don’t get stuck on them
+- _How to merge multiple mindmaps?_
+  - *Merging* might be easier to do with software, without them, you can get a spaghetti-fest; distilling, by asking "What are the key nodes?"; it feels like this is particularly important.
+- Building something that distills the info
+**** Identify _scenarios_
+- A way to entertain the future based on the core issues that were identified in this phase
+- E.g., imagine a shop that picks up your concerns; how would it look like in a dictatorship?
+*** Post Phase 1 immediate feedback; check on participants
+- Like a mini-PAR
+*** *Phase 1 Contingency plans*
+*** _Break_
+*** Pre Phase 2 (walk-through, questions, concerns, etc.)
+- Need "another big sheet of paper" to elaborate what that thing is like, e.g., what is it like for you, what is it like for me.
+**** Explain the game
+- We should explain the game by trying it a few times.
+***** What are the roles?
+- We need to convey that each role convey a little bit of a design pattern, or multiple of those.
+- “Why can’t I be myself?” - Yes you can, you just get a different colored scarf
+***** What does each role potentially represent?
+- "‘However’, ‘because’, ‘therefore’, ‘specifically’"
+***** How should each participant use these roles?
+***** What are the rules of the game?
+- Need more time to re-do the discussion multiple times
+****** Reverse CLA process to return from Myth to Litany
+- ‘Produce new headlines.’
+*** Phase 2
+- To furnish in the next stage
+**** TODO Process
+**** Materials
+***** Roles
+**** Facilitators
+*** Post Phase 2 immediate feedback, check on participants
+*** *Phase 2 Contingency plans*
+*** Phase 3
+
+* Notes: November 10th.  Process feedback on pilot
+
+How to value the prep work that we’ve already done?
+How to manage the scaling up process?
+
+** Phase I: Process input needs
+- Consider *centralising the data*, since a lot of stuff is currently buried
+- Explain where the notes are, how to find the LaTeX files, git repos, &c.
+- This follows patterns of the EmacsConf organisation, e.g., minimal commits, logs, etc.
+
+** Phase II: Strategy: consider using Org Roam intelligently
+- We’d stopped using it as we originally intended, and just had meeting notes
+- Leo’s happy to create a slip-box following the patterns of Noorah’s agenda & create an operational manual
+- This will be a ‘moderated’ shared slip box; we can have all the data so far, can create notes, read things, etc.
+- *Method for maintaining structure* can be taught later after we have the contents
+
+** Plan
+- Make sure that we have things well prepared
+- We do have a =yasnippet= based workflow for running the *meetings*, could we do something similar with the workflow for the *workshop*?
+- This can be "Phase III"
+- Use a common agenda file for the Abby project; it will live somewhere we can all access & track tasks
