@@ -2,6 +2,6 @@
 :ID:       a023e304-b0ba-4079-afd3-f44e87319910
 :END:
 #+TITLE: State-policed
-#+filetags: :bristol::group-2:
+#+filetags: :bristol:group-2:
 
 

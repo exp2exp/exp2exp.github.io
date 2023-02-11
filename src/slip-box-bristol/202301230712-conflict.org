@@ -9,6 +9,7 @@
 - [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]]
 - [[id:be7bf681-cb6f-4e94-8006-8614e1f3c48c][Sanitization]]
 - [[id:00dfcc97-48b5-4300-a2e5-8fc3c3631bdf][Conflicts between users]]
+- [[id:5ad15f5e-0b03-4c98-a43a-3ab9316e94e5][Conflicts between individuals]]
 - [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. nature]]
 - [[id:4752b78a-134e-47ab-b579-179668ca0866][Habits]]
 - [[id:8585bd0a-9028-4c68-ac1a-84ae5f85c2b3][Safety]]

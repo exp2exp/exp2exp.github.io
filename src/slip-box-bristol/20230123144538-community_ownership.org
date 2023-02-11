@@ -2,7 +2,7 @@
 :ID:       3a67aa9c-77f5-459b-a428-bfcde87b34a2
 :END:
 #+title: Community ownership
-#+filetags: :bristol:
+#+filetags: :bristol:myth:
 #+created: [2023-01-23 Mon 14:45]
 #+last_modified: [2023-01-23 Mon 14:45]
 
@@ -23,3 +23,5 @@ This should be contrasted with [[id:34da443b-45d3-4ece-8445-959ad26872ac][Counci
 Typically would contrast with [[id:e22e9325-8b43-4a3d-9e37-bd303a935f7d][High-rise buildings]].
 
 Cf. [[id:d2fb2628-2646-4b51-9f81-188eaaa089a5][McCagg]].
+
+Examples might include [[id:25330d01-33d4-4d4e-a523-71b1f86cb98a][free access hubs]]

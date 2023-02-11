@@ -16,3 +16,7 @@ future through ‘anticipation’ rather than determining.
 
 * Examples
 
+- [[id:145f3cfe-e71a-4642-a03e-9545367e6d9a][Cycle paths]]
+- [[id:a49aeaa3-753c-4ced-be52-df716d156f43][Amenities]]
+
+- [[id:fda9acc7-f49e-48ca-bf45-a2909e2ec6ed][Governance]] could be both an example (something that is designed) and a way of implementing other designs.

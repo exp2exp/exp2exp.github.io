@@ -1,0 +1,179 @@
+:PROPERTIES:
+:ID:       d6530597-c1ed-4dab-a7cc-666170bbb9b8
+:END:
+#+TITLE: 11 February 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-02-11 Sat>
+
+* 11 February 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Was in New York last week
+- Probably will need to recompile Emacs sometime soon to get around a Windows bug.
+
+- We got another cat, as of yesterday afternoon, Phantom (part Siamese and very cute, loves cuddles unlike Suzie).
+  - LV: Are you spraying pheromones?
+  - NA: Yes, and this helps with Suzie’s anxiety!
+  - LV: The cats might average out.
+
+** JC
+
+- Has reorganised the directories in Github, so https://github.com/exp2exp/exp2exp.github.io/tree/master/src now looks like a list of folders, not a mess!
+  - NA: Looks nice!
+  - LV: You could have an org roam DB inside each sub-dir as well as one in the main directory...
+  - JC: I might move more things out into an "annex"
+- Our meeting notes are in: https://github.com/exp2exp/exp2exp.github.io/tree/master/src/erg-meetings
+
+- Reasonably nice presentation of Workshop contents an an Org Roam UI graph
+  - NA: Can we add feedback box?
+  - LV: Better in my view to focus on making it editable later rather than just adding comments
+
+  - AT: The maps: are these ready to play around with?
+
+- Will be moving in about a month
+
+** LV
+
+- Slowly dying, due to a white and red pinkie.
+  - JC: Better than quickly!
+  - AT: Localised infection?
+     - LV: pinkie, index, fluid build-up + redness, localised on some joints, checking blood for rheumatism problems; but it hasn’t progressed beyond 3 fingers ... (ouch); but no impact that would generate it.
+       - NA: Been there, but without redness!
+
+- Other than that, working towards publishing the Org Roam UI on the web, not to be editable but clickable and navigable.
+
+** AT
+- I have been doing more running but it was a bit slow!
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) - Quick Admin round
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- LV: Aiming for next week: editable web Org Roam UI.
+- JC: What do we want or need to share with participants and when?  I have a draft report but it might be the right thing.
+  - AT: Feedback to particpants might be 3 pages max, whereas the report for us + uni would be more comprehensive.
+     - LV: Participants won’t need tons of contextualisation about the methods, they might need some info about the Springboard grant, and can mainly report back on what happened on the day and the ramifications.  Like, the _highlights_ or Executive Summary of the report.
+- NA: Would like to catch up after a week away!
+
+** LV: Tech notes
+
+- Working on query language & interpretation of queries like "All the notes within depth 3 of /Node A./"
+- This is the next milestone we could reach with computer aided interaction.
+- Working in parallel on the web stuff.
+
+** AT: What would you like to see out of this from the applied public health / policy element?
+
+- Phase III part, part of this is technology, but another part of this is: how is this implementable in a policy way?
+- We’re looking at routes to action in the population; so, informing this could be "What’s missing to translate this into action?"
+
+  - Methods + tech
+  - Feedback to participants?
+
+- Did the questions get to any of these gaps, or what else would we need?
+
+*** NA: the policy implications ...
+- AT: /Doughnut Economics/ is a policy thing, across cities
+
+- If we’re starting to think with this same model, how does this structure people’s actions, as communities sharing knowledge?
+
+  - NA: /Public information/ via sharing the workshop info is something we’re getting started with
+    - A) /Network is a public good/
+    - B) Policy-makers can use this /synthesis of priorities from experts/ as starting point to make better decisions.
+      - B.1) The policy-makers can then potentially help bridge to collective agency, rather than leaving all of the actions up to individuals.
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - Walk through draft report (patterns)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Maybe some interpretation of CLA in line with the Raworth doughnut can go in there?
+
+- Getting this material into the hands of planners, city council, people like that? — in the Bristol area.
+
+** Are some of the patterns specific to the local area?
+- There’s an active community in Stokes Croft could be engaged! — they engage w/ local government.
+- Sharing reports, or in principle run workshops again with them...
+
+- To share w/ policy-makers it needs to be about 3 pages long; but this is also true for all of the participants
+- Participants won’t necessarily care about the theory; they want to know "what happened and how can I get involved?"
+
+** Are these data accessible?
+
+- Data
+- Methods
+- Analysis
+
+... should be in separate directories.
+
+** "Analysis" headline?
+
+- Below the contents
+- Related to tracking updates of patterns
+- /A way to update the patterns with new data/
+  - The full scope of this will be bigger, having a catalogue of different approaches to thinking/working with Turbo Island — we could watch the evolution
+
+- Leo has a template for the Org Roam nodes, we could split them into content and analysis
+  - JC: And maybe run our meetings by adding to a collection rather than one file
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+- Changing line up b/c Abby was 30 minutes late and Leo had to leave 1 hour early
+- Nevertheless interesting conversation
+
+*** 2. What are some different perspectives on what's happening?
+- JC: This collaboration feels very dynamic!
+- AT: The two points for policy implications were strong: implications of the network & strategy for change
+
+*** 3. What did we learn or change?
+- Did have a good discussion about doughnut, and Joe will not oversimplify the model too much any more! but will think more about implications
+
+*** 4. What else should we change going forward?
+- Fairly immediate goal of producing a ≈12 page report
+- We have some draft content
+  - JC: Go back over the actual outline
+
+* Tentative agenda for next week
+
+- Go over report Monday JC+NA
+- Fix Emacs Thursday LV+NA
+- All meet for a quick walkthrough of report on Thursday?
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Have to clean up stuff
+
+** JC
+- I’m going out w/ Ali & Elizabeth for dinner and then to caleigh
+
+** AT
+- About to go watch rugby

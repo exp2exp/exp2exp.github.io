@@ -90,3 +90,4 @@ We want to help communities grow and solve complicated problems that they would 
 
 - Having refactored things as a collection of Org Roam files, and reexported them as a linear document, we’re starting to have a "map" of the domain.
 - Demo task tracker, above.  But, are these the right set of tasks?
+

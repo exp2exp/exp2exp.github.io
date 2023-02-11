@@ -6,4 +6,8 @@
 
 * Instructions
 
+(A we move to the next phase we may do some further [[id:03b484ec-ec07-433a-9c2b-9cf676a2a174][Off-site analysis]].)
+
 Phase III. Follow instructions at [[id:92e18906-d0e6-4e73-a9cf-fbdad931f3cf][Roadmap]].
+
+

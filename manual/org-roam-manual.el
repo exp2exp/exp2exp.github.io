@@ -310,6 +310,7 @@ and derived PDF is defined.")
                             "slip-box-ofd/20221206222928-personal_doughnut.org"
                             "slip-box-ofd/20230204212537-identify_core_concepts.org"
                             "slip-box-ofd/20230204223724-building_at_the_boundaries.org"
+                            "slip-box-ofd/20230211142625-different_narratives.org"
                             "slip-box-ofd/20230201071948-remote_facilitation.org"
                             "slip-box-ofd/20221207183642-bristol_pilot_screenshots.org"
 ))

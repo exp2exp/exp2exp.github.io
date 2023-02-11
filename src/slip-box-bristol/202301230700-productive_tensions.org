@@ -2,7 +2,7 @@
 :ID:       59798017-b0af-473e-bdcd-108a8ef1e06d
 :END:
 #+TITLE: Productive tensions
-#+filetags: :bristol:
+#+filetags: :bristol:myth:
 
 The following six productive tension can potentially avoid:
 1. [[id:1fc21e43-8c22-4e83-bdde-9ce84ec1fb41][Conflict]]

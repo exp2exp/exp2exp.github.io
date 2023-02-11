@@ -4,7 +4,36 @@
 #+title: Open Future Design workshop: Introduction
 #+filetags: :HL:WS:
 
-* Overview
+* Executive Summary
+
+On November 3rd, 2022 we ran a pilot workshop in Bristol with the
+theme “Public Space and Public Health”.  This brought together 8
+people with varied expertise on these themes for a structured
+discussion.  We discussed the theme, and potential scenarios for
+development.  We then zoomed in on one of the scenarios, and discussed
+its surrounding motivations.  In follow-up analysis, the facilitators
+identified new ‘design patterns’ that could enable workshop
+participants to solve the problems they identified.  On November 17,
+2022, we ran a second pilot with a group of futurists at the
+Anticipation conference in Tempe, Arizona, focused on workshopping the
+methods.  Following this pilot we reflected on how we could make
+better use of the direct particpants’ skills to facilitate broader
+uptake beyond the activities in the room.
+
+On January 23, 2023 we ran a longer workshop on a similar theme to the
+first pilot: "Public space for public health: a call to action".  This
+time, there were approximately twice as many participants, and we had
+most of the day together.  We had made several changes to the
+structure of the workshop.  In the first session, we used a
+multi-stage share-back process to understand layered meanings.  In the
+second session, we used manipulatives to elaborate design solutions.
+In both phases, participants were accompanied by a remote team that
+worked to make sense of data coming from the room.  Each break out
+group was additionally supported by one or more persons who had
+attended the initial pilot.
+
+
+* Overview of Open Future Design
 
 Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
 method called "PLACARD" that scaffolds social perception, cognition,
@@ -44,34 +73,6 @@ new meanings at the context level.
 - Leverage in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
 - Time-savings, a unified action-orientation, and further multi-lateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
 - Potential next steps may include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
-
-** Narrative Example
-
-On November 3rd, 2022 we ran a pilot workshop in Bristol with the
-theme “Public Space and Public Health”.  This brought together 8
-people with varied expertise on these themes for a structured
-discussion.  We discussed the theme, and potential scenarios for
-development.  We then zoomed in on one of the scenarios, and discussed
-its surrounding motivations.  In follow-up analysis, the facilitators
-identified new ‘design patterns’ that could enable workshop
-participants to solve the problems they identified.  On November 17,
-2022, we ran a second pilot with a group of futurists at the
-Anticipation conference in Tempe, Arizona, focused on workshopping the
-methods.  Following this pilot we reflected on how we could make
-better use of the direct particpants’ skills to facilitate broader
-uptake beyond the activities in the room.
-
-On January 23, 2023 we ran a longer workshop on a similar theme to the
-first pilot: "Public space for public health: a call to action".  This
-time, there were approximately twice as many participants, and we had
-most of the day together.  We had made several changes to the
-structure of the workshop.  In the first session, we used a
-multi-stage share-back process to understand layered meanings.  In the
-second session, we used manipulatives to elaborate design solutions.
-In both phases, participants were accompanied by a remote team that
-worked to make sense of data coming from the room.  Each break out
-group was additionally supported by one or more persons who had
-attended the initial pilot.
 
 ** Limitations
 

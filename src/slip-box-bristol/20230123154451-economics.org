@@ -5,3 +5,4 @@
 #+created: [2023-01-23 Mon 15:44]
 #+filetags: :bristol:group-1:worldview:group-1-worldview
 
+- [[id:6b0c873b-75fd-4d50-9d79-e31404b9e900][Regional economy]]

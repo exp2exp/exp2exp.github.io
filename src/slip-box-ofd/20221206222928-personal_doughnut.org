@@ -52,7 +52,7 @@ were related to /communication/, these do seem to be relevant factors.
 How do these limiting factors show up around active participation in
 (both) [[id:57f06710-a96c-4cbc-bcc7-57d3d3e550c4][Public Space & Public Discourse]]?
 
-* Validation
+* Partial Validation
 
 In the full Bristol workshop, we continued to use the CLA levels, but
 we presented them as a set of concentric circles, both in our framing
@@ -139,10 +139,10 @@ could refer to, e.g., Spinoza’s ethics.)
 
 With these comments in mind, the relationship to the Raworth doughnut
 becomes clearer.  ‘Eco’ is at the core of the CLA model, but the
-periphery of the Raworth doughnut.  An ‘overshoot’ of the /ecological
+periphery of the Raworth doughnut.  An *overshoot* of the /ecological
 ceiling/ corresponds, here, to living a life not in line with our
 values, or even more fundamentally to values which underspecified.
-Similarly, a ‘shortfall’ relative to /social foundation/ relates to the
+Similarly, a *shortfall* relative to /social foundation/ relates to the
 underprovision of public goods and to the /fragmentation/ of the
 ecosphere in individual minds (often, themselves, fragmented by
 craving).  We can do something about this in local communities if we
@@ -153,3 +153,7 @@ workshop.  During the workshop itself, we already began to [[id:6ec29348-55cd-40
 core concepts]].  This gives us a picture of the ‘myth’ layer.  From
 there, we should be able to work back to new and possibly quite
 different social relationships.
+
+** But! the 4 parts of /Psycho- Social- Bio- Eco-/ are meant to be integrated parts
+- Maybe the 4 Psycho- Social- Bio- Eco- things cut across each of the layers
+- So, what are the practical implications for our method?

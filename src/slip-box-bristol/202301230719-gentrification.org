@@ -4,3 +4,4 @@
 #+TITLE: Gentrification
 #+filetags: :bristol:group-2:
 
+This relates to the [[id:695af877-8047-4824-9d49-2fb4031430af][Privativation of public space]]

@@ -6,9 +6,16 @@
 #+created: [2023-01-23 Mon 14:41]
 #+last_modified: [2023-01-23 Mon 23:11]
 
+* Public space relates to various dimensions of health
 - [[id:d92074a0-0ae1-4da5-9831-f2e1cb883499][Physical health]]
 - [[id:04deb42a-1f9c-46a7-9471-ff557ea682c9][Mental health]]
 - [[id:aa19a96e-061b-4891-80dd-58e05d1e544c][Social health]]
+
+Evidence for the links between public space and health could be produced by [[id:de0ec2ea-885d-4b5f-a15b-3bdb46ab4918][Science]]
+
+* Public space tends to be embedded in complex systems
 - [[id:4055187a-6bf9-4e2a-969a-673808d607ca][Dynamic complex systems]]
 
+* Other context
 These are related to spaces which are [[id:b9404365-7a47-47a1-84c1-cb00eee62fe3][Shared spaces]].
+

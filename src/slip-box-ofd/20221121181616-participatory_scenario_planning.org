@@ -15,6 +15,7 @@ collected expertise of the affected communities.
 ** Overall process
 
 - The initial input are participants' individual reflections on the workshop theme ([[id:615846a2-1795-40b4-8dfb-3e12923fccc0][Dérive Comix]]).
+- Make sure we use consistent terminology, e.g., [[id:d7c5081f-cc76-4893-9daa-ff13b9bf1ae2][KW: Scenarios]].
 - We want to make one or more big mind-maps ([[id:407beae8-ab2f-4340-9552-211d3b92ede6][Meaning Map]]). This can be structured by further activities:
   - [[id:a853be79-85c1-4ffa-9750-459192c539e8][Find the dots]]
   - [[id:0ef4b185-513f-40c2-b884-6213601bbe09][Advice from a Caterpillar]]

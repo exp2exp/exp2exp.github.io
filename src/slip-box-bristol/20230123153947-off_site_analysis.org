@@ -1,12 +1,14 @@
 :PROPERTIES:
 :ID:       03b484ec-ec07-433a-9c2b-9cf676a2a174
 :END:
-#+title: Off-site analysis
+#+title: Off-site analysis - process notes
 #+filetags: :bristol:
 #+created: [2023-01-23 Mon 15:39]
 #+last_modified: [2023-01-23 Mon 15:53]
 
-- Storytelling might be related to Conflicts between individuals
+* Storytelling might be related to Conflicts between individuals.
+- See [[id:62bb2257-2438-4e4b-9f5b-9bcafad2794e][Different narratives dissolve in a non-linear narrative]].
 
-Stuff that we need to return to:
+* Stuff that we need to return to:
+
 - G1: “Why do we have a homeless problem?”; we might refile it to the litany layer
