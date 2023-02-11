@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e3ece2a2-541c-4847-82d4-7ccb46037385
+:END:
+#+title: Lockdown
+#+filetags: :bristol:group-3:
+
+Lockdown changed our perception of [[id:eec9b3f8-7ddb-4c06-bec5-edad77424c1d][Public space]], making it of greater
+local importance.
+

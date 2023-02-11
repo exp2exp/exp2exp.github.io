@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b9404365-7a47-47a1-84c1-cb00eee62fe3
+:END:
+#+title: Shared spaces
+#+filetags: :bristol:group-3:
+
+Examples (may) include things like the rugby pitch at the local
+school, which isn’t public but which may allow people to use it when
+it isn’t actively in use by the school.

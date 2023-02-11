@@ -7,3 +7,8 @@
 #+last_modified: [2023-01-23 Mon 16:01]
 
 - [[id:a023e304-b0ba-4079-afd3-f44e87319910][State-policed]]
+
+Lack of infrastructure (hospitals)
+
+Or, we may have investment that doesn’t actually serve the community
+(second homes pushing out locals).

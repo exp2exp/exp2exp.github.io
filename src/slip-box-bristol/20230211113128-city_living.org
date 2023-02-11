@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       3d786c43-e803-4160-bf52-282b35a68b9e
+:END:
+#+title: City living
+#+filetags: :bristol:group-3:
+
+We have been getting used to living close to one another in cities.
+
+We may appreciate the aesthetics of the shimmering lights that we see
+below, or the skyline.
+
+We also face challenges of mouldy houses, and expensive rentals, many
+people living in multiple-person dwellings, with no shared living
+space (because the living room is being used as another bedroom).
+
+This sort of situation increases the need for [[id:eec9b3f8-7ddb-4c06-bec5-edad77424c1d][Public space]], because
+there’s less chance of being able to access private recreational
+facilities.
+
+An alternative might be offered by [[id:3a67aa9c-77f5-459b-a428-bfcde87b34a2][Community ownership]].
+
+This is a complex example of [[id:b9404365-7a47-47a1-84c1-cb00eee62fe3][Shared spaces]].
+
+There’s an assumption that [[id:b540d93f-0aac-4951-8252-a45f100cb997][Bristol needs to grow]].
+
+In fact, despite some differences, there are also similarities with
+the experience in [[id:0bb3c8a9-8461-4482-ac6b-b68c1e605c54][Rural areas]].

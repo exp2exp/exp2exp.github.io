@@ -2,7 +2,8 @@
 :ID:       0cf573a5-2119-4cfc-93de-222b2f7dea49
 :END:
 #+title: Public authority
-#+filetags: :bristol:
+#+filetags: :bristol:group-2:
 #+created: [2023-01-23 Mon 14:44]
 #+last_modified: [2023-01-23 Mon 14:44]
 
+Required to provide conditions to thrive.

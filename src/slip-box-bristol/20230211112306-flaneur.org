@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       f73ea1a7-823b-4847-ad0f-141cd2af0049
+:END:
+#+title: Flaneur
+#+filetags: :bristol:group-2:
+
+
+This is a role that someone might take on in public space.
+
+The [[id:0a5d287f-0458-4290-bd54-832a7fa60562][Mood of a space]] may influence the extent to which it is possible
+to exist as an unassimilated individual within a give public space.
+
+* Cinema vs theatre
+
+JC: I think we could relate this to different forms of spectation vs
+participation.

@@ -2,5 +2,17 @@
 :ID:       2d692e15-0b5f-4d98-87a1-bb99d1eae579
 :END:
 #+TITLE: Design
-#+filetags: :bristol:
-*
+#+filetags: :bristol:group-2:
+
+This dimension is often related to the dimension of being [[id:3628d209-8777-4dae-ae27-4acdb252dfca][Fixed]], since
+the design often assumes that the system will function in one way, and
+in any case cannot fully take account of the unexpected.
+
+‘Design’ typically means a response to understood, present, economic needs.
+
+It works to ‘predict’ the future, and may constrain it.  Here is is
+opposed to spontaneous, undesigned organisation which senses the
+future through ‘anticipation’ rather than determining.
+
+* Examples
+

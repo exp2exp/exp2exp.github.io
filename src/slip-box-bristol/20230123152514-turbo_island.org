@@ -14,3 +14,6 @@
 - [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]]
 - [[id:c9cfb102-84f3-4398-8192-5c17535589c3][Homeless people]]
 - [[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]]
+
+* As time goes by these places may be "cleaned up"
+- [[id:be7bf681-cb6f-4e94-8006-8614e1f3c48c][Sanitization]]

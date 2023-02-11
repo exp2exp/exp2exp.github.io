@@ -2,7 +2,7 @@
 :ID:       eec9b3f8-7ddb-4c06-bec5-edad77424c1d
 :END:
 #+title: Public space
-#+filetags: :bristol:
+#+filetags: :bristol:group-2:
 #+created: [2023-01-23 Mon 14:41]
 #+last_modified: [2023-01-23 Mon 23:11]
 
@@ -11,3 +11,4 @@
 - [[id:aa19a96e-061b-4891-80dd-58e05d1e544c][Social health]]
 - [[id:4055187a-6bf9-4e2a-969a-673808d607ca][Dynamic complex systems]]
 
+These are related to spaces which are [[id:b9404365-7a47-47a1-84c1-cb00eee62fe3][Shared spaces]].

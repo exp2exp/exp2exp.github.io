@@ -7,3 +7,10 @@
 #+last_modified: [2023-01-23 Mon 14:46]
 
 - [[id:8163011b-3c44-41d4-a045-5505a6c136ff][Self-policed]]
+
+* E.g.,
+
+A potential example is found in the Councillor for Communities role which is held in some local areas
+- https://democracy.cambridge.gov.uk/mgExecPostDetails.aspx?ID=195
+- https://www.resourcecentre.org.uk/meet-the-lead-councillor-for-communities-20th-october/
+- https://news.exeter.gov.uk/councillors-call-for-a-strengthening-of-the-armed-forces-covenant/

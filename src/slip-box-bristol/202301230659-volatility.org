@@ -5,3 +5,7 @@
 #+filetags: :bristol:group-1:litany:group-1-litany
 
 Related to [[id:1fc21e43-8c22-4e83-bdde-9ce84ec1fb41][Conflict]], volatility is also linked to [[id:da23b839-1480-4a63-89a6-03c2b0e0def9][Equity and Inclusivity]]. It was also linked to [[id:f33b87b2-13d7-4f71-98ab-e15fb156008c][Gentrification]].
+
+Too much volatility can create a sense of [[id:3f03656b-43ee-426b-a308-9e59cfee4d70][Exhaustion]].
+
+This also relates to unacceptable levels of uncertainty, which could be a call for [[id:2d692e15-0b5f-4d98-87a1-bb99d1eae579][Design]].

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0bb3c8a9-8461-4482-ac6b-b68c1e605c54
+:END:
+#+title: Rural areas
+
+These may suffer from [[id:2f5de6c1-8a54-43da-a2a7-34d772f2db15][Lack of investment]].

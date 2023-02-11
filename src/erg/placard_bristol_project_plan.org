@@ -4,7 +4,7 @@
 #+AUTHOR:Noorah Alhasan, Joe Corneli, Leo Vivier
 #+OPTIONS: toc:nil <:nil num:nil title:nil
 #+LATEX_CLASS_OPTIONS: [12pt]
-#+LATEX_HEADER: \include{header.tex}
+#+LATEX_HEADER: \include{../docs/header.tex}
 #+LATEX_HEADER: \usepackage{fancyhdr}
 #+LATEX_HEADER: \pagestyle{fancy}
 #+LATEX_HEADER: \lhead{Project Plan}

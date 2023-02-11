@@ -2,7 +2,8 @@
 :ID:       5d169b07-2cf6-435a-b9db-50e95bc287e0
 :END:
 #+TITLE: Freedom of expression
-#+filetags: :bristol:
+#+filetags: :bristol:group-2:
 
 - [[id:8163011b-3c44-41d4-a045-5505a6c136ff][Self-policed]]
 
+- [[id:44c16ab7-a2d2-4b5b-8b20-1023137d2d2e][Creativity]]

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       940028a7-c67b-46fc-add9-44861e0d0ff3
+:END:
+#+title: Young people
+#+filetags: :bristol:group-3:
+
+Young people need things to do.
+
+If they don’t find more engaging activities, they may resort to
+vandalism etc.
+
+Young people may have a particular developmental need to exercise
+their [[id:22257fd3-db15-4826-8582-81d9815e2e43][Individuality]].  However, they may feel excluded from spaces in
+which they might do so (cf. [[id:da23b839-1480-4a63-89a6-03c2b0e0def9][Equity and Inclusivity]]).

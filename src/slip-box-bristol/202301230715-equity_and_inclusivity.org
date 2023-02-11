@@ -3,4 +3,16 @@
 :END:
 #+TITLE: Equity and Inclusivity
 #+filetags: :bristol:
-*
+
+‘Inclusive/exclusive’ wasn’t one of the six enumerated [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive
+tensions]] but it is nevertheless a tension that is closely related to
+those.
+
+* The tension
+
+- To be part of a group
+- To be experience in relation to one another
+
+- To be yourself in public
+- To have a sense of self that is nevertheless not alone
+- (The character of the [[id:f73ea1a7-823b-4847-ad0f-141cd2af0049][Flaneur]] is representative here.)

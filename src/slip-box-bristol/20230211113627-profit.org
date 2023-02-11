@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       11c980db-dfcc-4c6c-a51d-76859c993ac6
+:END:
+#+title: Core themes
+#+filetags: :bristol:group-3:
+
+Monetised stakeholders
+
+[[id:3da40754-be1e-457b-a66b-1274ca8cc10a][Population pressures]]
+
+Driving themes
+
+myth
+
+[[id:3f03656b-43ee-426b-a308-9e59cfee4d70][Exhaustion]]
+
+Breaking boundaries
+
+Giving back
+
+Politics of open space
+
+No hope communities

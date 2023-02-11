@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d32e37dd-6649-4465-a932-ea51183b1e79
+:END:
+#+title: Perfect City
+#+filetags: :bristol:group-3:
+
+Possible examples include Burning Man or Boom town.
+
+- They exist for a while and then go away, leaving no trace.
+
+These are cities which have typically been created through [[id:2d692e15-0b5f-4d98-87a1-bb99d1eae579][Design]] process.
+
+Other examples of highly designed cities include Poundbury in the UK.
+
+

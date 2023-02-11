@@ -6,3 +6,20 @@
 #+created: [2023-01-23 Mon 14:45]
 #+last_modified: [2023-01-23 Mon 14:45]
 
+- Alongside community ownership might come increased community
+  involvement, due to having a meaningful stake in the space due to
+  the sense of [[id:5232fe23-38b3-4311-9803-fc4646d0d400][Ownership and responsibility]].
+
+- This could relate to long-term investment, more personal ownership,
+  community pride, stronger connections with others in the local
+  community, and a communal/community feeling.
+
+- We might also have more inclusive housing.
+
+This could be a good match for [[id:aa101812-c398-4ec8-8592-0c72c6f62fe7][Bio-phylic design]]
+
+This should be contrasted with [[id:34da443b-45d3-4ece-8445-959ad26872ac][Council housing]].
+
+Typically would contrast with [[id:e22e9325-8b43-4a3d-9e37-bd303a935f7d][High-rise buildings]].
+
+Cf. [[id:d2fb2628-2646-4b51-9f81-188eaaa089a5][McCagg]].

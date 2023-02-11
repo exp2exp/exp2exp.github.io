@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b540d93f-0aac-4951-8252-a45f100cb997
+:END:
+#+title: Bristol needs to grow
+#+filetags: :bristol:group-3:
+
+- This is a narrative.
+
+- But there are some reasons why, e.g., local universities want to
+  increase their enrolments, because their business models depend on
+  ‘bums in seats’.
