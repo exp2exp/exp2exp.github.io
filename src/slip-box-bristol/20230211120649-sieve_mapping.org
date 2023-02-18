@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       9b5758cd-f7b7-4a11-b0ef-f72b31d39d5b
+:END:
+#+title: Sieve Mapping
+#+filetags: :bristol:group-3:
+
+#+begin_quote
+Known as ‘landscape suitability analysis’ or sometimes just as
+‘sieve-mapping’, the technique he developed involved layering
+information on acetate sheets. So, for example, in considering the
+optimal route for a new highway, McHarg would combine layers showing
+the engineering properties of the substrates with layers showing
+productive soils, significant wildlife habitats, important cultural
+sites, and so on. When these were combined, it was the areas which
+were clearest of symbols that were the better areas in which to
+construct the road. — https://landscapetheory1.wordpress.com/tag/ian-mcharg/
+#+end_quote
+
+This is a form of design that relates to [[id:de0ec2ea-885d-4b5f-a15b-3bdb46ab4918][Science]].

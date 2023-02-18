@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       62bb2257-2438-4e4b-9f5b-9bcafad2794e
+:END:
+#+title: Different narratives dissolve in a non-linear narrative
+#+filetags: :HL:BF:
+
+* Problem
+
+Since we have different ways of thinking about things and make sense
+of things in different ways, the stories we tell can be a repository of
+conflict.
+
+* Solution Strategy
+
+We live in the same world HOWEVER we don’t always agree.
+
+BECAUSE we have different ways of thinking about things, and would
+like to put different things to different uses, the opportunity for
+conflict arises.  Examples are bound to be readily available, e.g.,
+one person wants something to happen, and others agree it’s a good
+idea, but don’t have the resources to help right now.  Sometimes this
+is resolved through patience; sometimes when waiting around, nothing
+happens and it’s better to find an alternative.  It may or may not be
+necessary to keep everyone in the loop.  Sometimes, actions speak
+louder than words.  But, when we do need to communicate or interact
+with each other, this can come with an added layer of meaning, which
+brings the old conflicts back to the surface.  This relates to the way
+we’ve been thinking about [[id:2d692e15-0b5f-4d98-87a1-bb99d1eae579][Design]], as a somewhat more brittle system
+(that aims to predict or change the future) than systems that grow
+organically.
+
+THEREFORE use techniques like [[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]] to allow the
+conflicts to come to the surface and be made explicit — but without
+being violent.  Often, the hidden conflict is scarier than the
+explicit tension!
+
+We’ve gotten a start with this by exploring worldviews.  SPECIFICALLY
+we talked about [[id:33201035-52ec-4662-a99c-88d26a992ab3][Avon Mouth]] as a place where some (ongoing) documentary
+work may be interesting, to gather different stories about the place.
+This may or may not then be related to development initiatives in the
+region; it could also help inform some new initiatives.  Another
+strategy would be to (continue to) map the policy landscape in
+Bristol, contextualising perspectives like [[id:b540d93f-0aac-4951-8252-a45f100cb997][Bristol needs to grow]] with
+other narratives.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6b0c873b-75fd-4d50-9d79-e31404b9e900
+:END:
+#+title: Regional economy
+
+E.g. the Northern Powerhouse might be mirrored by a Great Western
+Powerhouse.
+
+In Bristol, the region includes [[id:33201035-52ec-4662-a99c-88d26a992ab3][Avon Mouth]].

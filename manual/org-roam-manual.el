@@ -303,16 +303,16 @@ and derived PDF is defined.")
                         ))
 
 (defvar just-bristol-full '(
-                            "slip-box-ofd/20221121185152-placard_workshop_introduction.org"
-                            "slip-box-ofd/20230204172150-funding_of_public_space.org"
-                            "slip-box-ofd/20230204111338-minimal_policing.org"
-                            "slip-box-ofd/20230123160601-contested_space.org"
-                            "slip-box-ofd/20221206222928-personal_doughnut.org"
-                            "slip-box-ofd/20230204212537-identify_core_concepts.org"
-                            "slip-box-ofd/20230204223724-building_at_the_boundaries.org"
-                            "slip-box-ofd/20230211142625-different_narratives.org"
-                            "slip-box-ofd/20230201071948-remote_facilitation.org"
-                            "slip-box-ofd/20221207183642-bristol_pilot_screenshots.org"
+                            "bristol-analysis/20221121185152-placard_workshop_introduction.org"
+                            "bristol-analysis/20230204172150-funding_of_public_space.org"
+                            "bristol-analysis/20230204111338-minimal_policing.org"
+                            "bristol-analysis/20230123160601-contested_space.org"
+                            "bristol-analysis/20221206222928-personal_doughnut.org"
+                            "bristol-analysis/20230204212537-identify_core_concepts.org"
+                            "bristol-analysis/20230204223724-building_at_the_boundaries.org"
+                            "bristol-analysis/20230211142625-different_narratives.org"
+                            "bristol-analysis/20230201071948-remote_facilitation.org"
+                            "bristol-analysis/20221207183642-bristol_pilot_screenshots.org"
 ))
 
 (defun indent-org-roam-export ()

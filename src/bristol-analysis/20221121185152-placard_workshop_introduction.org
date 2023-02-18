@@ -1,0 +1,89 @@
+:PROPERTIES:
+:ID:       b7b42aa2-c57c-4bcc-bc45-be9b63972be7
+:END:
+#+title: Open Future Design workshop: Introduction
+#+filetags: :HL:WS:
+
+* Executive Summary
+
+On November 3rd, 2022 we ran a pilot workshop in Bristol with the
+theme “Public Space and Public Health”.  This brought together 8
+people with varied expertise on these themes for a structured
+discussion.  We discussed the theme, and potential scenarios for
+development.  We then zoomed in on one of the scenarios, and discussed
+its surrounding motivations.  In follow-up analysis, the facilitators
+identified new ‘design patterns’ that could enable workshop
+participants to solve the problems they identified.
+
+On November 17, 2022, we ran a second pilot with a group of futurists
+at the Anticipation conference in Tempe, Arizona, focused on
+workshopping the methods.  Following this pilot we reflected on how we
+could make better use of the direct particpants’ skills to facilitate
+broader uptake beyond the activities in the room.
+
+On January 23, 2023 we ran a longer, and larger, workshop on a similar
+theme to the first pilot: "Public space for public health: a call to
+action".  This time, there were approximately twice as many
+participants, and we had most of the day together.  We had made
+several changes to the structure of the workshop.  In the first
+session, we used a multi-stage share-back process to understand
+layered meanings.  In the second session, we used manipulatives to
+elaborate design solutions.  In both phases, participants were
+accompanied by a remote team that worked to make sense of data coming
+from the room.  Each break out group was additionally supported by one
+or more persons who had attended the initial pilot.
+
+
+* Overview of Open Future Design
+
+Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
+method called "PLACARD" that scaffolds social perception, cognition,
+and action.[fn:: fullcite:patterns-of-patterns]  PLACARD combines design patterns
+with futuring exercises and review processes.  The OFD workshop walks
+participants through a cycle of creative learning using these methods,
+which they can later reuse on their own.  Our intention with the
+workshop is, therefore, primarily to introduce new collaboration
+methods and to show how they are effective.
+
+Applications of the method range from building new platforms for
+collaborative design and citizen science, to assisting on-the-ground
+innovation projects.  In the workshop format, we work from the
+assumption that we are talking to groups of people who have not yet
+formed a strong group identity, and who are not necessarily all going
+to work together on one highly cohesive project, but who are likely to
+need to communicate with each other in the future.  We make structural
+use of breakout groups and full-group discussions to gather
+information at different levels of significance.  We also introduce a
+technology-assisted quasi-real-time sensemaking process, which allows
+participants to focus on content, while the technology helps to weave
+new meanings at the context level.
+
+* Outcomes and Evalution
+
+** Intermediate artifacts
+
+- Mindmaps created with participants
+- Group insights in a form of shared future stories
+
+** Output
+
+- A constellation of interrelated design patterns outlining potential paths of action, produced by a diverse group of experts based on a collaborative analysis of complex challenges.
+
+** Outcomes
+
+- Leverage in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
+- Time-savings, a unified action-orientation, and further multi-lateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
+- Potential next steps may include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
+
+** Limitations
+
+Interrater reliablity regarding pattern identification from workshop
+discussions can be presumed to be low.  We have addressed this concern
+through the multi-layered data-gathering protocol, which (in Phase I)
+gives us data that is structured along dimensions which lend
+themselves to pattern analysis; and (in Phase II) through an activity
+that directly involves participants in collaboratively formulating
+pattern descriptions.  Even so, the utility of these patterns as paths
+to action can only be evaluated later (Phase III, ‘after the
+workshop’).
+

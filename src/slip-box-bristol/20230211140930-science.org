@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       de0ec2ea-885d-4b5f-a15b-3bdb46ab4918
+:END:
+#+title: Science
+#+filetags: :group-3:bristol:
+

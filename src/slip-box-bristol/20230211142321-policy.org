@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       e762f392-af3f-4798-9ae8-b1969265792b
+:END:
+#+title: Policy
+#+filetags: :bristol:
+
+
+This is related to [[id:fda9acc7-f49e-48ca-bf45-a2909e2ec6ed][Governance]].
+
+It may be informed by [[id:de0ec2ea-885d-4b5f-a15b-3bdb46ab4918][Science]].
+
+* Examples of government policy
+
+- [[id:9acdd916-be4e-4c84-867d-24fb01609681][Austerity]]
+- [[id:8d719ee0-6ac7-4d32-afb0-1dd9cf6cfe8f][Taxation]]
+
+* Policies can build on narratives
+
+- [[id:b540d93f-0aac-4951-8252-a45f100cb997][Bristol needs to grow]]

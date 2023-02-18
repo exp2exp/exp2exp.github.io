@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       d2fb2628-2646-4b51-9f81-188eaaa089a5
+:END:
+#+title: McHarg
+#+filetags: :bristol:group-3:
+
+This is a thinker from urban design / architecture who could help us learn more about cities that serve people.
+
+- /Design with Nature/ (Wiley Series in Sustainable Design). by Ian L. McHarg
+
+McHarg introduced the concept of [[id:9b5758cd-f7b7-4a11-b0ef-f72b31d39d5b][Sieve Mapping]].
+
+

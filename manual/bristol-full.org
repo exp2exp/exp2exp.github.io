@@ -68,7 +68,37 @@ These folks helped with facilitation of small group activities.
 :CUSTOM_ID: b7b42aa2-c57c-4bcc-bc45-be9b63972be7
 :END:
 
-** Overview
+** Executive Summary
+
+On November 3rd, 2022 we ran a pilot workshop in Bristol with the
+theme “Public Space and Public Health”.  This brought together 8
+people with varied expertise on these themes for a structured
+discussion.  We discussed the theme, and potential scenarios for
+development.  We then zoomed in on one of the scenarios, and discussed
+its surrounding motivations.  In follow-up analysis, the facilitators
+identified new ‘design patterns’ that could enable workshop
+participants to solve the problems they identified.
+
+On November 17, 2022, we ran a second pilot with a group of futurists
+at the Anticipation conference in Tempe, Arizona, focused on
+workshopping the methods.  Following this pilot we reflected on how we
+could make better use of the direct particpants’ skills to facilitate
+broader uptake beyond the activities in the room.
+
+On January 23, 2023 we ran a longer, and larger, workshop on a similar
+theme to the first pilot: "Public space for public health: a call to
+action".  This time, there were approximately twice as many
+participants, and we had most of the day together.  We had made
+several changes to the structure of the workshop.  In the first
+session, we used a multi-stage share-back process to understand
+layered meanings.  In the second session, we used manipulatives to
+elaborate design solutions.  In both phases, participants were
+accompanied by a remote team that worked to make sense of data coming
+from the room.  Each break out group was additionally supported by one
+or more persons who had attended the initial pilot.
+
+
+** Overview of Open Future Design
 
 Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
 method called "PLACARD" that scaffolds social perception, cognition,
@@ -92,7 +122,7 @@ technology-assisted quasi-real-time sensemaking process, which allows
 participants to focus on content, while the technology helps to weave
 new meanings at the context level.
 
-** Outcomes and Evalution
+** Outcomes and Evaluation
 
 *** Intermediate artifacts
 
@@ -105,41 +135,13 @@ new meanings at the context level.
 
 *** Outcomes
 
-- Leverage in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
-- Time-savings, a unified action-orientation, and further multi-lateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
+- Agency in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
+- Time-savings, a unified action-orientation, and further multilateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
 - Potential next steps may include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
-
-*** Narrative Example
-
-On November 3rd, 2022 we ran a pilot workshop in Bristol with the
-theme “Public Space and Public Health”.  This brought together 8
-people with varied expertise on these themes for a structured
-discussion.  We discussed the theme, and potential scenarios for
-development.  We then zoomed in on one of the scenarios, and discussed
-its surrounding motivations.  In follow-up analysis, the facilitators
-identified new ‘design patterns’ that could enable workshop
-participants to solve the problems they identified.  On November 17,
-2022, we ran a second pilot with a group of futurists at the
-Anticipation conference in Tempe, Arizona, focused on workshopping the
-methods.  Following this pilot we reflected on how we could make
-better use of the direct particpants’ skills to facilitate broader
-uptake beyond the activities in the room.
-
-On January 23, 2023 we ran a longer workshop on a similar theme to the
-first pilot: "Public space for public health: a call to action".  This
-time, there were approximately twice as many participants, and we had
-most of the day together.  We had made several changes to the
-structure of the workshop.  In the first session, we used a
-multi-stage share-back process to understand layered meanings.  In the
-second session, we used manipulatives to elaborate design solutions.
-In both phases, participants were accompanied by a remote team that
-worked to make sense of data coming from the room.  Each break out
-group was additionally supported by one or more persons who had
-attended the initial pilot.
 
 *** Limitations
 
-Interrater reliablity regarding pattern identification from workshop
+Interrater reliability regarding pattern identification from workshop
 discussions can be presumed to be low.  We have addressed this concern
 through the multi-layered data-gathering protocol, which (in Phase I)
 gives us data that is structured along dimensions which lend
@@ -159,7 +161,7 @@ workshop’).
 Even though public space is known to increase wellness in the population, well-being priorities that would lead to increased funding for public space aren’t universally adopted.
 ** Solution summary
 
-Funders typically needs to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
+Funders typically need to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
 
 BECAUSE the values upheld by the current UK government (and some devolved governments) lean towards enterprise, it may be possible in these constituencies to develop a well-being agenda within a ‘social enterprise’ framework, investing locally while integrating community into the design process.   There are many examples to learn from, i.e., both in terms of their successes and failures.  These include the Bristol Pound, which aimed to keep cash in the local economy (and which in its latest iteration might have provided a nice open data set around local investments) and Froom social enterprise efforts which built nice social housing and schools.
 
@@ -228,6 +230,55 @@ brought into activist settings in a way that gives recognition, builds
 awareness, and link stories.
 - [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not
 feel friendly to all potential users
+* Building at the boundaries
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 73ebb973-f06c-4394-bd91-59b67dd4a7db
+:END:
+
+** Problem summary
+
+If we take it as given that “Bristol needs to grow” (a debateable
+point), then it can either grow intensively with higher-density
+housing, or it can grow extensively by building at the boundaries.
+Both of these have some associated challenges.  Here we consider
+strategies for building at the boundaries.
+
+** Solution summary
+
+This should relate to the ‘Avon Mouth’ discussion, see ‘Group 3 details’. 
+
+This relates to the concept of [[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both
+the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as
+the ‘edges’ may be (or may be perceived to be) closer to wild space,
+and as such may be conceptualised as ‘external’ and ‘public by
+default’.
+* Identify core concepts
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 6ec29348-55cd-404b-b352-238db7f85b72
+:END:
+
+** Problem summary
+** Solution summary
+
+We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
+
+BECAUSE we have potential for overwhelm if we simply live awash in the
+world, we have evolved language tools that work ‘digitally’ to give us
+structure and grammar.
+
+We can use these tools at various levels, ranging from language to
+written words to digital tools. THEREFORE if we want to make sense of
+a complex situation it is useful to have all of these tools at our
+disposal.
+
+SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
+Org Roam to start to digitize the maps.
+- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
+- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
+- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
+- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
 * (Inter-)Personal Doughnut
 :PROPERTIES:
 :tag: :HL:BP:
@@ -282,7 +333,7 @@ were related to /communication/, these do seem to be relevant factors.
 How do these limiting factors show up around active participation in
 (both) [[id:57f06710-a96c-4cbc-bcc7-57d3d3e550c4][Public Space & Public Discourse]]?
 
-** Validation
+** Partial Validation
 
 In the full Bristol workshop, we continued to use the CLA levels, but
 we presented them as a set of concentric circles, both in our framing
@@ -369,10 +420,10 @@ could refer to, e.g., Spinoza’s ethics.)
 
 With these comments in mind, the relationship to the Raworth doughnut
 becomes clearer.  ‘Eco’ is at the core of the CLA model, but the
-periphery of the Raworth doughnut.  An ‘overshoot’ of the /ecological
+periphery of the Raworth doughnut.  An *overshoot* of the /ecological
 ceiling/ corresponds, here, to living a life not in line with our
 values, or even more fundamentally to values which underspecified.
-Similarly, a ‘shortfall’ relative to /social foundation/ relates to the
+Similarly, a *shortfall* relative to /social foundation/ relates to the
 underprovision of public goods and to the /fragmentation/ of the
 ecosphere in individual minds (often, themselves, fragmented by
 craving).  We can do something about this in local communities if we
@@ -383,55 +434,141 @@ workshop.  During the workshop itself, we already began to [[id:6ec29348-55cd-40
 core concepts]].  This gives us a picture of the ‘myth’ layer.  From
 there, we should be able to work back to new and possibly quite
 different social relationships.
-* Identify core concepts
+
+*** But! the 4 parts of /Psycho- Social- Bio- Eco-/ are meant to be integrated parts
+- Maybe the 4 Psycho- Social- Bio- Eco- things cut across each of the layers
+- So, what are the practical implications for our method?
+* Measures of complexity as indicative of health
 :PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 6ec29348-55cd-404b-b352-238db7f85b72
+:tag: :HL:BP:
+:CUSTOM_ID: a80f0651-a681-4c9a-b398-9e66e1cdfb71
 :END:
 
-** Problem summary
-** Solution summary
+** Problem
 
-We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
+We envisioned healthy public spaces as complex and multi-use but
+didn’t (yet) have related tangible measures that could give us direct
+feedback on urban health.
 
-BECAUSE we have potential for overwhelm if we simply live awash in the
-world, we have evolved language tools that work ‘digitally’ to give us
-structure and grammar.
+** Solution Strategy
 
-We can use these tools at various levels, ranging from language to
-written words to digital tools. THEREFORE if we want to make sense of
-a complex situation it is useful to have all of these tools at our
-disposal.
+In various examples, we talked about public spaces as multi-use or
+transformable.  For example, a cycle path has different properties at
+rush hour and other times of day.  From a traditional design pattern
+standpoint, design is useful for minimising conflict.  (E.g., bike
+lanes might be installed in the first place following a pattern like
+"Build protected bike lanes where motor vehicle speed consistently
+exceeds 25 mph.")  HOWEVER, sometimes the multiple uses are going to
+be in conflict, or the design solution itself will create new
+conflicts (e.g., a four-lane bicycle highway might help with speed
+issues — but it would have a bigger environmental footprint and a
+two-lane path).  Sometimes the multiple uses are inconsistent (e.g., a
+given space cannot straightforwardly be both a football pitch and a
+hill).  A metaphor that we used in our discussion was that the city’s
+structure should be “like organs” and “not mushed up”.  (A similar
+body metaphor was used to describe the design of Paris’s sewer
+system!)
 
-SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
-Org Roam to start to digitize the maps.
-- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
-- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
-- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
-- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
-* Building at the boundaries
+BECAUSE we are thinking in terms of ‘health’ we may want to switch
+from ‘minimising conflict’ to ‘increasing complexity’ as our overall
+goal.  Natural systems may contain lots of conflict (e.g., between the
+wishes of wildebeests and lions) and still be complex and vital.  A
+eutrophic pond /reduces/ conflict by creating the conditions for a
+monoculture of algae: that’s probably not what we want.  Maybe even
+more specifically we want patterns “at the edge of chaos”, which
+exhibit both organisation and instability (cf. the [[http://www.interactivearchitecture.org][Interactive
+Architecture]] lab at UCL — they might be worth talking to as part of an
+interactive-everything consortium).
+
+One area in which greater transparency can be useful is /funding/ of
+public space (from various sources): see [[id:65b47a3f-914b-470c-8aa4-2662bd391c8e][Funding of public space]].
+Even if such data is available, we will need an appropriate analysis
+protocol.  THEREFORE, let’s look around for some design principles
+that take the “edge of chaos” into account.  There are some related
+ideas in [[https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/202007/the-edge-chaos][Psychology Today]] that connect this model with /elite
+performance/.  There’s another a [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766553/][paper]] that draws on the edge-of-chaos
+concept to critique applications of ‘sustainability’.  Doyne Farmer,
+who coined the term, is now at the Oxford Martin school, and has
+contributed to a 1988 [[https://www.taylorfrancis.com/chapters/edit/10.1201/9780429492846-6/new-approaches-nonlinear-modeling-improve-economic-forecasts-doyne-farmer-john-sidorowich][volume]] on ‘The Economy As An Evolving Complex
+System’.  How has this thinking been taken up since then?  Note that
+there are various approaches to measuring urban health which aren’t
+specifically informed by complexity theory, but which could be brought
+into a new complexity-informed synthesis:
+
+#+begin_quote
+In the 1960s, a social indicator movement flourished in the United
+States: agencies ranging from the USDA to NASA advocated for a
+national social accounting body, cities regularly published
+data-driven reports on urban wellbeing, and academics assembled
+comprehensive social progress indices for cities, counties, and
+states. — [[https://dspace.mit.edu/handle/1721.1/118070?show=full][Making urban progress legible : the role of territorial social indicators in the new economy]] by Sarah Oz Johnson, 2018
+#+end_quote
+
+SPECIFICALLY, Farmer has worked on [[https://arxiv.org/abs/2011.05277][agent simulations]] in recent years.
+This is something we looked into in an adjacent effort.  How might we
+revive the central ideas within future interactive experiments?  Would
+this relate to what we might do within an "[[https://www.domesday86.com/?page_id=149][Ecodisc]] 2.0" type of
+project, perhaps rethought as an interactive game-based platform
+(e.g., here thinking of SimEarth or SimCity).
+
+#+begin_quote
+("The BBC Ecodisc offers a unique opportunity to manage a real nature
+reserve at your desk. The project which was 2 years in the making
+includes 4000 photographs, 150 video sequences and over 1000 kilobytes
+of software. It is about a real nature reserve at Slapton Ley in
+Devon, you have the opportunity to explore the reserve and its
+inhabitants and to manage it.")
+#+end_quote
+
+Might we want to connect future experiments with other local
+experiments like the [[https://bristolpound.org/][Bristol Pound]], perhaps making an "Ecodisc of
+Bristol’s Urban Ecosystem"?  (Any such team up would depend on how
+[[https://web.archive.org/web/20211007151020/https://bristolpound.org/future-vision/][their plans]] are developing.)
+
+All of this is relevant to thinking about how we move forward [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After
+the workshop]], and what might distinguish our approach to [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community
+Tech]] from a generic communication platform.
+* Sharing our stories
 :PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 73ebb973-f06c-4394-bd91-59b67dd4a7db
+:tag: :HL:BP:
+:CUSTOM_ID: ab96ee6b-86f2-4b0d-a3b5-3654864644b3
 :END:
 
-** Problem summary
+** Problem
 
-If we take it as given that “Bristol needs to grow” (a debateable
-point), then it can either grow intensively with higher-density
-housing, or it can grow extensively by building at the boundaries.
-Both of these have some associated challenges.  Here we consider
-strategies for building at the boundaries.
+We only had a relatively small amount of time during the pilot.
 
-** Solution summary
+** Solution Strategy
 
-This should relate to the ‘Avon Mouth’ discussion, see ‘Group 3 details’. 
+One of the proposals that we talked about was a “Listening project
+2.0” HOWEVER we only had time to go in depth into one person’s
+personal history during our workshop.
 
-This relates to the concept of [[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both
-the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as
-the ‘edges’ may be (or may be perceived to be) closer to wild space,
-and as such may be conceptualised as ‘external’ and ‘public by
-default’.
+BECAUSE of limitations of the workshop, as to time and scale, getting
+even one story written down is an achievement!  Nevertheless, we all
+might have stories somewhat similar to Judith’s (with plenty
+differences as well) about how we got interested in the things we are
+now doing professionally.  If we were to share these stories we’d have
+completed a solid get-to-know-you round, and might then have an even
+better ‘springboard’ for further dialogue.
+
+THEREFORE, we could develop a small-scale pilot of our “Listening
+Project 2.0” that follows Judith’s example and each tell some story
+about how we got into the work we are doing now.  The original
+Listening Project is itself [[https://en.wikipedia.org/wiki/The_Listening_Project][well documented]], and we could borrow some
+of their ideas.  This might then put us in a good position to return
+to the roles from the workshop, with various attendees sitting in the
+“[[id:57d46961-a056-435e-85d2-27ab6e0de7f6][Historian]]” seat, and others taking on the other roles to think about
+how their work might relate to the trajectory traced by each
+Historian.  Note that similar ideas apply not only of workshop
+attendees, but to other members of our communities as well.  The
+Interactive Documentary methods that we’ve been learning about can
+apply beyond the workshop, in “Phase III” activities: see [[id:44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06][Contested
+space]].
+
+SPECIFICALLY, we might do the initial information gathering in a series
+of online interviews with attendees, circulate the materials, and then
+return to a suitable space for group dialogue.
 * Remote Facilitation
 :PROPERTIES:
 :tag: :HL:BF:
@@ -484,6 +621,50 @@ didn’t see the point, but in any case they didn’t use it much.
 - Rather than sharing one buffer via CRDT, let’s try to co-edit a constellation so that we get more familiar with the workflow.
 
 *** Other ideas: TBA
+* Different narratives dissolve in a non-linear narrative
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 62bb2257-2438-4e4b-9f5b-9bcafad2794e
+:END:
+
+** Problem
+
+Since we have different ways of thinking about things and make sense
+of things in different ways, the stories we tell can be a repository of
+conflict.
+
+** Solution Strategy
+
+We live in the same world HOWEVER we don’t always agree.
+
+BECAUSE we have different ways of thinking about things, and would
+like to put different things to different uses, the opportunity for
+conflict arises.  Examples are bound to be readily available, e.g.,
+one person wants something to happen, and others agree it’s a good
+idea, but don’t have the resources to help right now.  Sometimes this
+is resolved through patience; sometimes when waiting around, nothing
+happens and it’s better to find an alternative.  It may or may not be
+necessary to keep everyone in the loop.  Sometimes, actions speak
+louder than words.  But, when we do need to communicate or interact
+with each other, this can come with an added layer of meaning, which
+brings the old conflicts back to the surface.  This relates to the way
+we’ve been thinking about [[id:2d692e15-0b5f-4d98-87a1-bb99d1eae579][Design]], as a somewhat more brittle system
+(that aims to predict or change the future) than systems that grow
+organically.
+
+THEREFORE use techniques like [[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]] to allow the
+conflicts to come to the surface and be made explicit — but without
+being violent.  Often, the hidden conflict is scarier than the
+explicit tension!
+
+We’ve gotten a start with this by exploring worldviews.  SPECIFICALLY
+we talked about [[id:33201035-52ec-4662-a99c-88d26a992ab3][Avon Mouth]] as a place where some (ongoing) documentary
+work may be interesting, to gather different stories about the place.
+This may or may not then be related to development initiatives in the
+region; it could also help inform some new initiatives.  Another
+strategy would be to (continue to) map the policy landscape in
+Bristol, contextualising perspectives like [[id:b540d93f-0aac-4951-8252-a45f100cb997][Bristol needs to grow]] with
+other narratives.
 * Bristol Pilot Screenshots
 :PROPERTIES:
 :tag: :HL:BP:
