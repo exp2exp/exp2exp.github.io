@@ -1,0 +1,198 @@
+:PROPERTIES:
+:ID:       3ea1acbd-add6-4b9d-8394-b23003befb7f
+:END:
+#+TITLE: 18 February 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-02-18 Sat>
+
+* 18 February 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Demo of Phantom
+
+** JC
+- Was working on report right before this call
+- Coming from getting buzz going at the club
+
+** LV
+- Quick visual demo
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) — More detailed demo of Org Roam UI hacks
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- We’re used to having Emacs as the backend of Org Roam UI
+- You can inspect the network connection and see what’s going on w/ the queries
+- Lots of HTTP requests
+  - In default Org Roam UI, Emacs acted as an HTTP server
+  - In new version, Emacs is ‘spoofed’ and LV modified Org Roam UI to talk to another server
+
+** 200
+- Server replied
+- Lots of javascript chunks, which are minified and chunked for downloading (similar to =.elc=)
+
+** 101
+- These are web sockets
+- Instead of sending a reply, it’s more like a tunnel
+- =websocat= lets us connect to the server and see the sockets/payload
+
+** 502
+- This is a "bad gateway error"
+
+** Protocol
+- =refresh-sockets= tells connected clients that something has changed
+
+- Typically, clients would request things from the server
+  - When you have a client that’s requesting an update, you get a reply
+  - But Websocket and GRPC are two different protocols that can be used to do inter-process communication (e.g., microservices typically use GRPC).
+
+** Architecture
+
+- =graphdata.js= (expunged file data)
+- =variables.js=
+- All the nodes, exported with the IDs
+
+** Notes and questions
+
+- Connection had a number of features, like live updating based on edits
+- Currently updating strategy is a bit different
+- Can we explore more about the database that underlies Org Roam?
+  - NA: If we think about nodes as our ‘unit of measure’ then understanding what’s in there is important
+  - JC: Maybe could include some validation data at some point
+
+*** Org Roam template idea
+- What template will work for our work that makes it parseable in our database?
+
+*** Mini-PAR
+- We’re now all really focused and in it to win it.
+- Leo has been spending about 30 hours a week to work on this sort of stuff
+- Deliverables have been hanging for a while but delivery is actually not that time consuming; if any worries come up in the future can we talk about it in the future
+
+*** Web socket stuff, could this be packaged?
+- Can we package up the elisp code for us to be able to publish our nodes?
+- LV: I need to go a bit into details of this
+  - There’s a fileserver serving all the Javascript
+  - If I inspect the network, I get lots of =200= OKs.  The other part is the =101= stuff for websockets.
+  - We could, technically, make it possible w/ the Linode, put the Org Roam UI on Joe’s server, implement some authentication in the package, allow us to communicate w/ the server
+  - This would take more engineering, so we could have a server hosting this stuff... we’d only need to get the elisp file, get the environment file
+  - If we want to /co-edit/ nodes not just push them, we’d want to have it on a CRDT session
+  - LV: Now that I understand how web sockets work, I see that this Org Roam UI is connected to a web socket, and what if we re-introduce Emacs into the loop, we all have Web Sockets open to the Org Roam UI, so you can open a node in Emacs; or have the Web Socket deliver a payload saying "I want to focus this node", or "Share this on CRDT"
+    - So I could abstract Emacs back in again, supplemented with CRDT, Org Roam, being able to edit the same nodes &c.
+    - So, click "Open in Emacs" means:
+       - Send the ID of the node being opened, the node is now being opened, focus it, share it on CRDT (if needed) and connect to it, others can connect to it; we could also have CRDT host /all of the files/ (it can do this better than hosting large files!)
+
+*** Follow-up questions
+- Could this have been done prior to our workshop?
+- No, because LV timelined it to allow Leo to learn about servers, web sockets, etc., to deliver in time for this
+- And, LV’s at a new level of competence here
+
+*** Strategy
+- LV: Up knowledge, rewrite Org Roam UI and improve it, this will take a couple months
+- NA: What’s a good use of our time today?
+  - LV: Happy to consider this to be it
+
+- Grants for this type of stuff?  I’m happy to talk about the tech & timeline stuff, happy to be having these discussions, but I can’t commit to do more than proof of concepts for now
+
+** Current database schema
+
+- Nodes, tags, links.
+- We also have aliases, but we don’t care about these in the snapshot or Org Roam UI.
+
+** Relationship with the method?
+
+- Method will also have value but it’s slower
+- But, tools without methods are pretty useless
+- Let’s not be too awestruck by the tech, even though it looks immediately useful
+- Adding onto this, we should be critical of the method (e.g., debunking Phase II as needed)
+- Org Roam, Roam Research, etc., all started with the /slipbox method/
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) — Look at the Google Doc and patterns
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Think about templates
+
+** Quick run through of draft report
+
+*** Joe needed to push some things
+
+*** If we can present it all like magic...
+- By the time we try to convince people, we’ll have the chops in place to deliver features
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Leo demo in Part I 
+- Joe walk through in Part II
+
+*** 2. What are some different perspectives on what's happening?
+- Amazing demo
+- Good discussion of holes in report
+
+*** 3. What did we learn or change?
+- We emphasised that leaning on Leo’s tech skills benefit all of us
+- Leo reminded us not to get too caught up in the tech just because it looks cool and useful
+
+*** 4. What else should we change going forward?
+- We want to lean on Noorah’s policy skills in the "Phase III" discussion in the report, but she’ll need the analysis from Joe to make much headway on that
+- Loads of tech ideas to come back to later, but this stuff is mostly a natural evolution of what we’ve had here
+- Also need to get back to the templates; which, these are related to the theory side
+
+* Tentative agenda for next week
+
+- Drop a line to Abby on Monday summing up the state, hope to ship the report this week
+- Meet on Saturday, would like to focus more on the tech stuff
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- How can we make LV’s Saturday useful?
+- How can you use us?  E.g., talking about Org Roam templates?  Or impacts on building the Org Roam UI?  SQL?
+  - LV: It can be interesting but it’s walking a thin line, we should first review if the method is a good as we want it to be.  I don’t want to design tech that we deprecate because we change the methods. 
+    - But in general being able to explain & have friends listen that’s already a lot!  If I get bored I’ll share it.
+- We sent a lot of time on the workshop; want to go into something more fun!
+  - LV: What I hate is when we get stuck in vapourware and don’t implement anything!  Sometimes we suppress the signals telling us that something isn’t a great use of time. 
+- Need to eat something.  Southern Biscuits pending.
+  - JC: Feed two birds with one scone?
+
+** JC
+- I want to do a very deep dive into methods & think a lot about it by next week...
+- Have we made progress on /our goals/ during this time?  Do we have new things to say about /our data/?  Like a state of the union.
+- But first, call Lizzie!  She’s out of town.
+
+** LV
+- Now that this is delivered I’ll go back to studying; during ERG I want to solve technical problems; please come with problems, so I can be an engineer being presented with problems
+  - JC: Maybe we could follow along on the Org Roam UI rewrite?
+  - LV: Maybe, though to do the current project I had to do a bunch of relevant upskilling stuff.
+- Delivering this stuff was very professional.
+- Sleep early, maybe start a new series.
