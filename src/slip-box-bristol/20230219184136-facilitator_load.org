@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       4dba3e52-fd1c-4a85-809f-68ea299b3bf2
+:END:
+#+title: Facilitator load
+#+filetags: :bristol:
+
+This was a concept that Abby used to describe the effort that the
+facilitators had to take on to run the workshop.  It could be useful
+in other facilitation contexts as well.
