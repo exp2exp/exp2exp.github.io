@@ -3,4 +3,4 @@
 :END:
 #+TITLE: Conformity
 #+filetags: :bristol:group-2:
-*
+
