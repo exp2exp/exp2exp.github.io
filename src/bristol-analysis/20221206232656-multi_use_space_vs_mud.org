@@ -88,3 +88,9 @@ Bristol’s Urban Ecosystem"?  (Any such team up would depend on how
 All of this is relevant to thinking about how we move forward [[id:3d0acf49-0c87-4aaa-94b3-84e5d926d58d][After
 the workshop]], and what might distinguish our approach to [[id:2b1ca06d-486e-4398-a2c9-a4a9e303eaa3][Community
 Tech]] from a generic communication platform.
+
+Agent models could be helpful as a way to move knowledge out of
+central positions and distribute it into the system (cf. [[id:4dba3e52-fd1c-4a85-809f-68ea299b3bf2][Facilitator
+load]]).
+
+This may describe how we get [[id:de0ec2ea-885d-4b5f-a15b-3bdb46ab4918][Science]] into our work.

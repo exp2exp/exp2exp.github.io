@@ -2,7 +2,7 @@
 :ID:       1fc21e43-8c22-4e83-bdde-9ce84ec1fb41
 :END:
 #+TITLE: Conflict
-#+filetags: :bristol:
+#+filetags: :bristol:giant:
 
 - [[id:da23b839-1480-4a63-89a6-03c2b0e0def9][Equity and Inclusivity]]
 - [[id:5232fe23-38b3-4311-9803-fc4646d0d400][Ownership and responsibility]]

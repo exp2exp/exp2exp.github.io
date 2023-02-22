@@ -2,7 +2,7 @@
 :ID:       3a67aa9c-77f5-459b-a428-bfcde87b34a2
 :END:
 #+title: Community ownership
-#+filetags: :bristol:myth:
+#+filetags: :bristol:myth:giant:
 #+created: [2023-01-23 Mon 14:45]
 #+last_modified: [2023-01-23 Mon 14:45]
 

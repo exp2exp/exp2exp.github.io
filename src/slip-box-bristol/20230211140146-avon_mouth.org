@@ -2,6 +2,7 @@
 :ID:       33201035-52ec-4662-a99c-88d26a992ab3
 :END:
 #+title: Avon Mouth
+#+filetags: :bristol:group-3:
 
 - "It was supposed to be a garden"
 

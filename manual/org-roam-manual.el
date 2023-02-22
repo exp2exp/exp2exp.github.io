@@ -302,18 +302,31 @@ and derived PDF is defined.")
                         "20221129173158-causal_layered_analysis.org"
                         ))
 
+;                            "bristol-analysis/20221121185152-placard_workshop_introduction.org"
+;                            "bristol-analysis/20230201071948-remote_facilitation.org"
+;                            "bristol-analysis/20221207183642-bristol_pilot_screenshots.org"
+
 (defvar just-bristol-full '(
-                            "bristol-analysis/20221121185152-placard_workshop_introduction.org"
-                            "bristol-analysis/20230204172150-funding_of_public_space.org"
-                            "bristol-analysis/20230204111338-minimal_policing.org"
-                            "bristol-analysis/20230123160601-contested_space.org"
+;; (Inter-)Personal Doughnut
                             "bristol-analysis/20221206222928-personal_doughnut.org"
+;; Measures of complexity as indicative of health
+                            "bristol-analysis/20221206232656-multi_use_space_vs_mud.org"
+;; Sharing our stories
+                            "bristol-analysis/20221207172651-sharing_our_stories.org"
+;; Contested space
+                            "bristol-analysis/20230123160601-contested_space.org"
+;; Rebalance social services
+                            "bristol-analysis/20230204111338-minimal_policing.org"
+;; Funding of public space
+                            "bristol-analysis/20230204172150-funding_of_public_space.org"
+;; Identify core concepts
                             "bristol-analysis/20230204212537-identify_core_concepts.org"
+;; Building at the boundaries
                             "bristol-analysis/20230204223724-building_at_the_boundaries.org"
+;; Different narratives dissolve in a non-linear narrative
+
                             "bristol-analysis/20230211142625-different_narratives.org"
-                            "bristol-analysis/20230201071948-remote_facilitation.org"
-                            "bristol-analysis/20221207183642-bristol_pilot_screenshots.org"
-))
+                            ))
 
 (defun indent-org-roam-export ()
   "Utility function to increase indention for selected trees."

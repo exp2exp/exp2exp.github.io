@@ -2,7 +2,7 @@
 :ID:       eec9b3f8-7ddb-4c06-bec5-edad77424c1d
 :END:
 #+title: Public space
-#+filetags: :bristol:group-2:
+#+filetags: :bristol:group-2:giant:
 #+created: [2023-01-23 Mon 14:41]
 #+last_modified: [2023-01-23 Mon 23:11]
 

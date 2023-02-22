@@ -2,6 +2,7 @@
 :ID:       6b0c873b-75fd-4d50-9d79-e31404b9e900
 :END:
 #+title: Regional economy
+#+filetags: :bristol:group-3:
 
 E.g. the Northern Powerhouse might be mirrored by a Great Western
 Powerhouse.

@@ -2,6 +2,7 @@
 :ID:       ecab7463-148a-4d4e-bef6-1780bedafb81
 :END:
 #+title: Private
+#+filetags: :bristol:group-3:
 
 [[id:695af877-8047-4824-9d49-2fb4031430af][Privativation of public space]]
 [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]]

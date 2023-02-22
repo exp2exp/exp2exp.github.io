@@ -36,6 +36,17 @@ directly enhance public space should be preferred.
 
 SPECIFICALLY, the iDocumentary methods ([[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]]) can be
 brought into activist settings in a way that gives recognition, builds
-awareness, and link stories.
-- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not
-feel friendly to all potential users
+awareness, and links stories together.
+- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not feel
+  friendly to all potential users, and which could be an interesting
+  site for such documentary work.
+- In other locales, specific spaces that are friendly to those who
+  wish to drink in public have been designated, partly to allow
+  drinkers not to bother others.  The need for complex uses of space
+  does not mean that each space needs to support every use equally;
+  cf. our pattern [[id:a80f0651-a681-4c9a-b398-9e66e1cdfb71][Measures of complexity as indicative of health]].
+- Recent research in Oxford points out that women may use public space
+  less than men, not because of concerns about safety, but rather due
+  to design flaws like missing toilets.  Public space may be designed
+  with hidden biases built in.  This shows the value of designing
+  public spaces together with the potential users.

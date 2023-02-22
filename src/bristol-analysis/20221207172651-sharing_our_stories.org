@@ -39,3 +39,7 @@ space]].
 SPECIFICALLY, we might do the initial information gathering in a series
 of online interviews with attendees, circulate the materials, and then
 return to a suitable space for group dialogue.
+
+If our assumption is that ‘workshop attendees’ will become
+facilitators, then this interview strategy might be interesting as a
+way to understand [[id:4dba3e52-fd1c-4a85-809f-68ea299b3bf2][Facilitator load]].

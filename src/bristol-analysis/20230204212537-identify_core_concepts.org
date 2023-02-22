@@ -5,13 +5,14 @@
 #+filetags: :HL:BF:
 
 * Problem summary
+We risk being awash in data and going over the same topics and issues endlessly.
+
 * Solution summary
 
 We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
 
-BECAUSE we have potential for overwhelm if we simply live awash in the
-world, we have evolved language tools that work ‘digitally’ to give us
-structure and grammar.
+BECAUSE we have potential for overwhelm, we have evolved language
+tools that work ‘digitally’ to give us structure and grammar.
 
 We can use these tools at various levels, ranging from language to
 written words to digital tools. THEREFORE if we want to make sense of
@@ -24,3 +25,5 @@ Org Roam to start to digitize the maps.
 - Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
 - Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
 - ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
+
+This could be similar to [[id:9b5758cd-f7b7-4a11-b0ef-f72b31d39d5b][Sieve Mapping]] as a way of finding the functions in otherwise undifferentiated ‘space’, and to build according to our understanding of those.

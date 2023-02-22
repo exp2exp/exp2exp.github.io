@@ -62,223 +62,6 @@ These folks helped with facilitation of small group activities.
 \urlstyle{cupright}
 
 # IMPORT
-* Open Future Design workshop: Introduction
-:PROPERTIES:
-:tag: :HL:WS:
-:CUSTOM_ID: b7b42aa2-c57c-4bcc-bc45-be9b63972be7
-:END:
-
-** Executive Summary
-
-On November 3rd, 2022 we ran a pilot workshop in Bristol with the
-theme “Public Space and Public Health”.  This brought together 8
-people with varied expertise on these themes for a structured
-discussion.  We discussed the theme, and potential scenarios for
-development.  We then zoomed in on one of the scenarios, and discussed
-its surrounding motivations.  In follow-up analysis, the facilitators
-identified new ‘design patterns’ that could enable workshop
-participants to solve the problems they identified.
-
-On November 17, 2022, we ran a second pilot with a group of futurists
-at the Anticipation conference in Tempe, Arizona, focused on
-workshopping the methods.  Following this pilot we reflected on how we
-could make better use of the direct particpants’ skills to facilitate
-broader uptake beyond the activities in the room.
-
-On January 23, 2023 we ran a longer, and larger, workshop on a similar
-theme to the first pilot: "Public space for public health: a call to
-action".  This time, there were approximately twice as many
-participants, and we had most of the day together.  We had made
-several changes to the structure of the workshop.  In the first
-session, we used a multi-stage share-back process to understand
-layered meanings.  In the second session, we used manipulatives to
-elaborate design solutions.  In both phases, participants were
-accompanied by a remote team that worked to make sense of data coming
-from the room.  Each break out group was additionally supported by one
-or more persons who had attended the initial pilot.
-
-
-** Overview of Open Future Design
-
-Our /Open Future Design/ (OFD) workshop is mirrored by a collaboration
-method called "PLACARD" that scaffolds social perception, cognition,
-and action.[fn:: fullcite:patterns-of-patterns]  PLACARD combines design patterns
-with futuring exercises and review processes.  The OFD workshop walks
-participants through a cycle of creative learning using these methods,
-which they can later reuse on their own.  Our intention with the
-workshop is, therefore, primarily to introduce new collaboration
-methods and to show how they are effective.
-
-Applications of the method range from building new platforms for
-collaborative design and citizen science, to assisting on-the-ground
-innovation projects.  In the workshop format, we work from the
-assumption that we are talking to groups of people who have not yet
-formed a strong group identity, and who are not necessarily all going
-to work together on one highly cohesive project, but who are likely to
-need to communicate with each other in the future.  We make structural
-use of breakout groups and full-group discussions to gather
-information at different levels of significance.  We also introduce a
-technology-assisted quasi-real-time sensemaking process, which allows
-participants to focus on content, while the technology helps to weave
-new meanings at the context level.
-
-** Outcomes and Evaluation
-
-*** Intermediate artifacts
-
-- Mindmaps created with participants
-- Group insights in a form of shared future stories
-
-*** Output
-
-- A constellation of interrelated design patterns outlining potential paths of action, produced by a diverse group of experts based on a collaborative analysis of complex challenges.
-
-*** Outcomes
-
-- Agency in a complex challenges, based on a shared understanding of the core issues and a well-articulated design strategy.
-- Time-savings, a unified action-orientation, and further multilateral relationships, as compared with more naive methods such as interviews, discussions, and focus groups.
-- Potential next steps may include new communities of practice, and new initiatives (e.g., grant proposals, working groups).
-
-*** Limitations
-
-Interrater reliability regarding pattern identification from workshop
-discussions can be presumed to be low.  We have addressed this concern
-through the multi-layered data-gathering protocol, which (in Phase I)
-gives us data that is structured along dimensions which lend
-themselves to pattern analysis; and (in Phase II) through an activity
-that directly involves participants in collaboratively formulating
-pattern descriptions.  Even so, the utility of these patterns as paths
-to action can only be evaluated later (Phase III, ‘after the
-workshop’).
-
-* Funding of public space
-:PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 65b47a3f-914b-470c-8aa4-2662bd391c8e
-:END:
-
-** Problem summary
-Even though public space is known to increase wellness in the population, well-being priorities that would lead to increased funding for public space aren’t universally adopted.
-** Solution summary
-
-Funders typically need to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
-
-BECAUSE the values upheld by the current UK government (and some devolved governments) lean towards enterprise, it may be possible in these constituencies to develop a well-being agenda within a ‘social enterprise’ framework, investing locally while integrating community into the design process.   There are many examples to learn from, i.e., both in terms of their successes and failures.  These include the Bristol Pound, which aimed to keep cash in the local economy (and which in its latest iteration might have provided a nice open data set around local investments) and Froom social enterprise efforts which built nice social housing and schools.
-
-In Wales, there is legislation, in the form of the [[https://www.gov.wales/well-being-future-generations-wales-act-2015-guidance][Well-being of Future Generations Act 2015]], which enshrines a well-being agenda into law, and which has been monitored according to national indicators, in “Wellbeing of Wales” [[https://www.gov.wales/wellbeing-wales][reports]]. THEREFORE, a similar level of transparency around social enterprise investments could show where money is going, and help negotiate a well-being agenda that isn’t legislated.
-
-Historically, investment in public space and community has come from different places and aligned with different value systems (e.g. medieval churches were often at the centre of local communities, now many are unused and available for sale); Kew was 1p to get in via the turnstile; modern architecture had a long phase in which public space was an afterthought at best.  Now, contemporary architecture and urban planning initiatives are rediscovering these social values and, SPECIFICALLY, this may provide a niche for social enterprise to engage.
-* Rebalance social services
-:PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 0f9e1955-845f-419d-bb55-70051d5df2c3
-:END:
-
-** Problem summary
-
-Some behaviours require policing, however, if the balance is incorrect, then self-expression suffers.  Similarly, other welfare-related services should be supplied in balance with local needs, though they often are not.
-
-** Solution strategy
-
-Police and other social services exist to deal with problems which are not addressed on their own, HOWEVER in the right environment, criminality, disease, etc., either go away entirely or shrink to a minimum.
-
-BECAUSE there is a limited amount of funding for public services, communities are now faced with dilemmas like closing the library to pay for the park, or removing bus services to pay for police, etc.; and, in fact, the police are already having to deal with a range of social problems which aren’t strictly within their remit, as are teachers and other service providers.  Whereas there used to be a /community policeman/ who could act with discretion, police officers now are oftentimes are not members of the communities they are meant to serve.  Other service provision can feel similarly remote and disconnected.
-
-THEREFORE, what’s needed are more people in the community who provide good examples of — and paradigms for — action, more immediately and directly.  One strategy to pursue would be to arrange it so that the organisations that provide welfare services are connected with each other.  Much in the way that food co-ops can serve the alimentary needs of a community, other more integrated systems could be devised to tackle the structural issues that made apparent by current regimes of underfunding and disorganisation.  For example, Houston, Texas, significantly reduced homelessness by developing a continuum of care approach.  Other societal challenges might be addressed similarly.
-
-SPECIFICALLY, it may be possible, in Bristol, to create a /radical public space/ that is taken care of by local people, which provides a range of relevant services.  Some good examples of community centres already exist, though they aren’t yet widespread into all of the communities that need them.  This could be an example of [[id:570f3d11-d1f6-4ffb-87ed-c815e7efe624][Communal spaces]].  However, there’s more than just a ‘space’ aspect to such a place.  Organisations like Médicins Sans Frontièrs show that experts are willing to activate around identified needs: can varied expertise be integrated in a similar way to address complex local challenges?
-
-This strategy relates to the concept of /facilitator load/ that Abby talked about in the Bristol workshop.  As such we have an experience inside the workshop of (potentially) too many things to think about and an over-extended service provision.  This relates to the concept of [[id:80a6488b-af62-4340-b542-eecb6b922343][Volatility]].
-* Contested space
-:PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06
-:END:
-#+created: [2023-01-23 Mon 16:06]
-#+last_modified: [2023-01-23 Mon 16:06]
-
-** Problem summary
-
-So-called public space doesn’t always necessarily feel welcoming to
-all members of the public.  It can be overrun with antisocial
-behaviour.  It can feel exclusionary, or uninviting.  It can be the
-site of conflict.  When we enter public space, we may see others there
-only in terms of their stereotypes.
-
-** Solution summary
-
-Public space can feel uninviting: it may be an “only” space; it may be
-“only space”.  HOWEVER, we should not see this as inevitable.
-
-The history of public space should be read alongside the history of
-private spaces.  BECAUSE privitisation has had the upper hand in many
-historical turns (e.g., in agendas of enclosure and austerity), public
-goods of various kinds suffer.  This can be seen not only in attested
-public ‘spaces’, but in offerings like council housing, which in
-current times is often degraded as well as having decreased
-availability.
-
-This history is not unknown, but responses which aim to assert agency
-over space often amount to a descent into protest.  The People’s
-Republic of Stoke’s Croft is one local history, in which protest is
-paired with other forms of activism.  [[https://thebristolcable.org/2021/04/the-stokes-croft-riots-10-years-on-tesco/][Protest]] alone may prove
-ineffective at achieving its goals.  THEREFORE, forms of activism that
-directly enhance public space should be preferred.
-
-SPECIFICALLY, the iDocumentary methods ([[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]]) can be
-brought into activist settings in a way that gives recognition, builds
-awareness, and link stories.
-- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not
-feel friendly to all potential users
-* Building at the boundaries
-:PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 73ebb973-f06c-4394-bd91-59b67dd4a7db
-:END:
-
-** Problem summary
-
-If we take it as given that “Bristol needs to grow” (a debateable
-point), then it can either grow intensively with higher-density
-housing, or it can grow extensively by building at the boundaries.
-Both of these have some associated challenges.  Here we consider
-strategies for building at the boundaries.
-
-** Solution summary
-
-This should relate to the ‘Avon Mouth’ discussion, see ‘Group 3 details’. 
-
-This relates to the concept of [[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both
-the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as
-the ‘edges’ may be (or may be perceived to be) closer to wild space,
-and as such may be conceptualised as ‘external’ and ‘public by
-default’.
-* Identify core concepts
-:PROPERTIES:
-:tag: :HL:BF:
-:CUSTOM_ID: 6ec29348-55cd-404b-b352-238db7f85b72
-:END:
-
-** Problem summary
-** Solution summary
-
-We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
-
-BECAUSE we have potential for overwhelm if we simply live awash in the
-world, we have evolved language tools that work ‘digitally’ to give us
-structure and grammar.
-
-We can use these tools at various levels, ranging from language to
-written words to digital tools. THEREFORE if we want to make sense of
-a complex situation it is useful to have all of these tools at our
-disposal.
-
-SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
-Org Roam to start to digitize the maps.
-- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
-- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
-- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
-- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
 * (Inter-)Personal Doughnut
 :PROPERTIES:
 :tag: :HL:BP:
@@ -569,58 +352,147 @@ space]].
 SPECIFICALLY, we might do the initial information gathering in a series
 of online interviews with attendees, circulate the materials, and then
 return to a suitable space for group dialogue.
-* Remote Facilitation
+* Contested space
 :PROPERTIES:
 :tag: :HL:BF:
-:CUSTOM_ID: d718ec87-1ed5-4804-a219-4b9cba2376d9
+:CUSTOM_ID: 44d1d5dd-d8ff-4ce4-8d9e-dd5f7c8f8c06
+:END:
+#+created: [2023-01-23 Mon 16:06]
+#+last_modified: [2023-01-23 Mon 16:06]
+
+** Problem summary
+
+So-called public space doesn’t always necessarily feel welcoming to
+all members of the public.  It can be overrun with antisocial
+behaviour.  It can feel exclusionary, or uninviting.  It can be the
+site of conflict.  When we enter public space, we may see others there
+only in terms of their stereotypes.
+
+** Solution summary
+
+Public space can feel uninviting: it may be an “only” space; it may be
+“only space”.  HOWEVER, we should not see this as inevitable.
+
+The history of public space should be read alongside the history of
+private spaces.  BECAUSE privitisation has had the upper hand in many
+historical turns (e.g., in agendas of enclosure and austerity), public
+goods of various kinds suffer.  This can be seen not only in attested
+public ‘spaces’, but in offerings like council housing, which in
+current times is often degraded as well as having decreased
+availability.
+
+This history is not unknown, but responses which aim to assert agency
+over space often amount to a descent into protest.  The People’s
+Republic of Stoke’s Croft is one local history, in which protest is
+paired with other forms of activism.  [[https://thebristolcable.org/2021/04/the-stokes-croft-riots-10-years-on-tesco/][Protest]] alone may prove
+ineffective at achieving its goals.  THEREFORE, forms of activism that
+directly enhance public space should be preferred.
+
+SPECIFICALLY, the iDocumentary methods ([[id:31430561-7338-4b02-8abe-83b651067665][Polyphonic documentary]]) can be
+brought into activist settings in a way that gives recognition, builds
+awareness, and links stories together.
+- [[id:e83d48ca-47dd-4a20-9928-8fcc1c4348b9][Turbo island]] is an example of a space in Bristol that may not feel
+  friendly to all potential users, and which could be an interesting
+  site for such documentary work.
+- In other locales, specific spaces that are friendly to those who
+  wish to drink in public have been designated, partly to allow
+  drinkers not to bother others.  The need for complex uses of space
+  does not mean that each space needs to support every use equally;
+  cf. our pattern [[id:a80f0651-a681-4c9a-b398-9e66e1cdfb71][Measures of complexity as indicative of health]].
+- Recent research in Oxford points out that women may use public space
+  less than men, not because of concerns about safety, but rather due
+  to design flaws like missing toilets.  Public space may be designed
+  with hidden biases built in.  This shows the value of designing
+  public spaces together with the potential users.
+* Rebalance social services
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 0f9e1955-845f-419d-bb55-70051d5df2c3
 :END:
 
-For the Bristol Full workshop, we introduced a remote facilitation
-circuit.  This wasn’t as effective as we’d hoped, so for now let’s
-record the problems that came up, and then think about mitigation
-strategies.
+** Problem summary
 
-Previously, technology had been used asynchronously, to help identify
-new patterns in an “offline” analysis; see [[id:20a61286-bc8b-46ed-8dca-21aeef31969a][Bristol Pilot Screenshots]],
-for example.
+Some behaviours require policing, however, if the balance is incorrect, then self-expression suffers.  Similarly, other welfare-related services should be supplied in balance with local needs, though they often are not.
 
-For this workshop, we wanted to try some real-time analysis, which
-would reflect what was going on in the room into a org roam repository
-and Org Roam UI interface that participants could look at.  This was
-something of a stop-gap solution given that the technology+skills
-aren’t yet available for participants to easily edit a shared graph in
-real time.  (However, this did constitute a ‘pilot’ for such a system,
-given that Noorah and Leo were working together as two skilled Org
-Roam operators to create the graph!)
+** Solution strategy
 
-Some obstacles could be expected given this set-up.
+Police and other social services exist to deal with problems which are not addressed on their own, HOWEVER in the right environment, criminality, disease, etc., either go away entirely or shrink to a minimum.
 
-** Obstacles
+BECAUSE there is a limited amount of funding for public services, communities are now faced with dilemmas like closing the library to pay for the park, or removing bus services to pay for police, etc.; and, in fact, the police are already having to deal with a range of social problems which aren’t strictly within their remit, as are teachers and other service providers.  Whereas there used to be a /community policeman/ who could act with discretion, police officers now are oftentimes are not members of the communities they are meant to serve.  Other service provision can feel similarly remote and disconnected.
 
-*** Lossy communication from photos
-Remote facilitators were sent photos of text but didn’t have the
-context.  Accordingly, they could start to type up what they saw on
-the page but didn’t typically know what what the contents meant.
-(E.g., what is "Turbo Island"?)
+THEREFORE, what’s needed are more people in the community who provide good examples of — and paradigms for — action, more immediately and directly.  One strategy to pursue would be to arrange it so that the organisations that provide welfare services are connected with each other.  Much in the way that food co-ops can serve the alimentary needs of a community, other more integrated systems could be devised to tackle the structural issues that made apparent by current regimes of underfunding and disorganisation.  For example, Houston, Texas, significantly reduced homelessness by developing a continuum of care approach.  Other societal challenges might be addressed similarly.
 
-*** Briefing over lunch did not have quite the desired effect
-Joe had some time over lunch to describe what was going on with the
-images, but didn’t join the ongoing Org Roam session in progress.  We
-might have been more effective if the remote facilitators had
-‘interviewed’ the in-person facilitators about outstanding questions,
-and recorded their answers into the graph.
+SPECIFICALLY, it may be possible, in Bristol, to create a /radical public space/ that is taken care of by local people, which provides a range of relevant services.  Some good examples of community centres already exist, though they aren’t yet widespread into all of the communities that need them.  This could be an example of [[id:570f3d11-d1f6-4ffb-87ed-c815e7efe624][Communal spaces]].  However, there’s more than just a ‘space’ aspect to such a place.  Organisations like Médicins Sans Frontièrs show that experts are willing to activate around identified needs: can varied expertise be integrated in a similar way to address complex local challenges?
 
-*** Participants did not use the chat function, or at least not much
-We set up a way for participants to reach the remote facilitators,
-using a chat tool rather than a ‘text box’.  Participants perhaps
-didn’t see the point, but in any case they didn’t use it much.
+** Further comments
 
-** Potential mitigation strategies
+JC: This strategy relates to the concept of /facilitator load/ that Abby talked about in the Bristol workshop.  As such we have an experience inside the workshop of (potentially) too many things to think about and an over-extended service provision.  This relates to the concept of [[id:80a6488b-af62-4340-b542-eecb6b922343][Volatility]].
+* Funding of public space
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 65b47a3f-914b-470c-8aa4-2662bd391c8e
+:END:
 
-*** We could try to replicate the setup for an upcoming ERG meeting so that we take notes directly into a constellation
-- Rather than sharing one buffer via CRDT, let’s try to co-edit a constellation so that we get more familiar with the workflow.
+** Problem summary
+Even though public space is known to increase wellness in the population, well-being priorities that would lead to increased funding for public space aren’t universally adopted.
+** Solution summary
 
-*** Other ideas: TBA
+Funders typically need to show some ‘return on investment’ HOWEVER, in the UK funding often goes to projects for digital innovation and other perceived economic growth areas, rather than towards investments in a well-being agenda.
+
+BECAUSE the values upheld by the current UK government (and some devolved governments) lean towards enterprise, it may be possible in these constituencies to develop a well-being agenda within a ‘social enterprise’ framework, investing locally while integrating community into the design process.   There are many examples to learn from, i.e., both in terms of their successes and failures.  These include the Bristol Pound, which aimed to keep cash in the local economy (and which in its latest iteration might have provided a nice open data set around local investments) and Froom social enterprise efforts which built nice social housing and schools.
+
+In Wales, there is legislation, in the form of the [[https://www.gov.wales/well-being-future-generations-wales-act-2015-guidance][Well-being of Future Generations Act 2015]], which enshrines a well-being agenda into law, and which has been monitored according to national indicators, in “Wellbeing of Wales” [[https://www.gov.wales/wellbeing-wales][reports]]. THEREFORE, a similar level of transparency around social enterprise investments could show where money is going, and help negotiate a well-being agenda that isn’t legislated.
+
+Historically, investment in public space and community has come from different places and aligned with different value systems (e.g. medieval churches were often at the centre of local communities, now many are unused and available for sale); Kew was 1p to get in via the turnstile; modern architecture had a long phase in which public space was an afterthought at best.  Now, contemporary architecture and urban planning initiatives are rediscovering these social values and, SPECIFICALLY, this may provide a niche for social enterprise to engage. [[id:a80f0651-a681-4c9a-b398-9e66e1cdfb71][Measures of complexity as indicative of health]] describes one potential way to source relevant data (modelled on the “Bristol Pound”).
+* Identify core concepts
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 6ec29348-55cd-404b-b352-238db7f85b72
+:END:
+
+** Problem summary
+We risk being awash in data and going over the same topics and issues endlessly.
+
+** Solution summary
+
+We see things as complex and interconnected HOWEVER we also need to make sense of things by teasing apart details.
+
+BECAUSE we have potential for overwhelm, we have evolved language
+tools that work ‘digitally’ to give us structure and grammar.
+
+We can use these tools at various levels, ranging from language to
+written words to digital tools. THEREFORE if we want to make sense of
+a complex situation it is useful to have all of these tools at our
+disposal.
+
+SPECIFICALLY in the Bristol workshop, we used mind-maps, cards, and
+Org Roam to start to digitize the maps.
+- Concepts at the ‘Psycho-’ level may be, usefully, related to [[id:59798017-b0af-473e-bdcd-108a8ef1e06d][Productive tensions]], though they will not always start out that way.
+- Some of the core concepts will exist at the ‘Bio-’ level, and correspond to [[id:827ae14c-27d3-4483-93a9-d4005c5231a8][Human needs]].
+- Some will exist at the ‘Social-’ level, particularly those corresponding to [[id:26ffbc6f-7955-41bd-8c91-99be46847e72][Agency]].
+- ‘Eco-’ concepts may be perceived as a conflict, e.g., [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], however in a more positive story the concepts could relate to people living in harmony with nature.
+* Building at the boundaries
+:PROPERTIES:
+:tag: :HL:BF:
+:CUSTOM_ID: 73ebb973-f06c-4394-bd91-59b67dd4a7db
+:END:
+
+** Problem summary
+
+If we take it as given that “Bristol needs to grow” (a debateable
+point), then it can either grow /intensively/ with higher-density
+housing, or it can grow /extensively/ by building at the boundaries.
+Both of these have some associated challenges.  Here we consider
+strategies for building at the boundaries.
+
+** Solution summary
+
+This relates to the discussion of [[id:33201035-52ec-4662-a99c-88d26a992ab3][Avon Mouth]] as a potential site for
+future development.  More broadly, it relates to the concept of
+[[id:4ed30e8c-784a-401e-9631-add816f8c2be][Boundaries]].  It also relates to both the [[id:86d1669e-bd6c-487b-a8f1-3ca8a211817f][Tension between
+public/private]], and [[id:9574546b-4e65-4f40-89e0-95bf41b7eb87][People vs. Nature]], insofar as the ‘edges’ may be
+(or may be perceived to be) closer to wild space, and as such may be
+conceptualised as ‘external’ and ‘public by default’.
 * Different narratives dissolve in a non-linear narrative
 :PROPERTIES:
 :tag: :HL:BF:
@@ -665,25 +537,3 @@ region; it could also help inform some new initiatives.  Another
 strategy would be to (continue to) map the policy landscape in
 Bristol, contextualising perspectives like [[id:b540d93f-0aac-4951-8252-a45f100cb997][Bristol needs to grow]] with
 other narratives.
-* Bristol Pilot Screenshots
-:PROPERTIES:
-:tag: :HL:BP:
-:CUSTOM_ID: 20a61286-bc8b-46ed-8dca-21aeef31969a
-:END:
-
-These images were produced by filtering Org Roam for the =WS= and =BP=
-tags.
-
-#+CAPTION: Our overall network of patterns: new additions in yellow
-#+NAME:   fig:SED-HR4049
-#+ATTR_ORG: :width 500px
-#+ATTR_LATEX: :width .8\textwidth
-[[../manual/bristol-map.png]]
-
-
-
-#+CAPTION: Example of the local network around "Public Space & Public Discourse"
-#+NAME:   fig:SED-HR4049
-#+ATTR_ORG: :width 300px
-#+ATTR_LATEX: :width .5\textwidth
-[[../manual/local.png]]

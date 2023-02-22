@@ -4,3 +4,4 @@
 #+title: Science
 #+filetags: :group-3:bristol:
 
+A potential antidote to [[id:2f5de6c1-8a54-43da-a2a7-34d772f2db15][Lack of investment]].
