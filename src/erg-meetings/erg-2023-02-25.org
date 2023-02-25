@@ -1,0 +1,214 @@
+:PROPERTIES:
+:ID:       79b7d655-a562-4a26-ae31-0036ccbd2087
+:END:
+#+TITLE: 25 February 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-02-25 Sat>
+
+* 25 February 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+
+** NA
+- Cats have a somewhat fraught relationship
+- All of my meetings have been moved to Friday
+
+** JC
+- Festival
+- Professional-grade bass tuner 
+
+** LV
+- Now has a new client who is a postdoc in biology who wants to work w/ org roam & org mode
+- Attended dressed for success
+- Hand is somewhat better (maybe): dry hands with infections, antibiotics needed
+  - I used to religiously hydrate when I was done swimming, but you can’t trust the feeling of dryness
+- Doc said not to swim; obviously that’s not happening
+- We’re almost at the live
+
+** AT 
+- Deep dive into how you build your own road bike (touring)
+- Highly involved in bike repair 
+- JC: Bike riding like David Foxcroft would be a good plan
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) Next steps
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Real-time note-taking
+** Report
+*** Local Actors
+*** Satisfy UWE’s needs
+*** Get back to 
+** Next steps
+*** Continued skill development
+- Leo’s prioritising stuff that will make him hireable as a generalist, can’t justify time w/o getting paid.
+- E.g., tags &c. would be nice to fix up, but we’d need to have time available to support the learning curve
+*** Lunch with Jeremy
+*** What do we want to do with Hyperreal?
+**** A “social enterprise”?
+**** What would we like to be doing
+***** Our tech skills are, collectively, at a new level
+- LV: I’d love to keep working on this part, Org Roam, Org Mode, getting paid enough to be able to keep up the current lifestyle
+- Would eventually lead to a more attractive profile & eventually being paid at the typical software developer level
+***** The method
+- This is the meat & potatoes, and we can keep working on this and link it to the tech
+- Sky is the limit, but we need to build the ladders!
+  - E.g., features that Joe requested need us to get into React (i.e., frontend stuff); what took most of the time so far was mostly backend stuff.
+  - I’d like to be learning the fundamentals 
+**** How to get there?
+- Funding bids?
+- Other?
+- ?
+***** Building towards another proposal, w/ Hyperreal contributing
+- As part of something bigger...
+***** Current project(s), leading to the bare minimum/baseline
+- Snippet project w/ user authentication, entry forms for sending stuff to the website, saving it into a database
+- Could go into Sqlite3, and then update the website from that
+- So, we could have 2 websites, e.g., for sending (via a simple text box), and management/visualisation
+- This could all be ready by end of March, but only if I have a guarantee of money
+- Maybe we can orient to /smaller pots of money to get the biggest gain/.
+  - Probably necessary before we get to external funding sources
+  - Universities are throwing money at tech right now
+****** Methods, product, etc., needs to be clear
+- Even the smallest grants, Hyperreal needs a definition of what we’re applying for
+- We’re talking about people who won’t have experience w/ AI
+******* How can we pitch, even to people who we know
+- ... it still feels like a slightly fuzzy beast, even to Abby
+****** Snippetbox demo
+- Reached via following fundamentals
+*** AI tutoring?
+- https://hyperreal.enterprises/ isn’t really up to date w/ what we’ve been doing: update it
+- This was focusing on how knowledge could become a tutor
+- Now we’re focusing on taking people’s knowledge and sharing it for action
+- Even in Bristol, we spoke about so many projects!
+- There are lots of people doing great things, but they aren’t really talking to each other
+- We can bring people together; and, especially now, they don’t have to be in the same room
+- So, what are the steps that we need to outline to get there.
+- Put, what we want to get to... e.g., "a platform that updates over time, for citizens as well as policymakers"
+  - Quantitative stuff should also get there
+**** Current model allows self-directed, peer guided learning, not AI!
+- But the EPSRC grant would allow us to add a bolt-on around this
+*** Do we go for other grants?  Angel investors?
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+- Joe had previously put in [[https://docs.google.com/document/d/1YWeRoWFV_f6MgmlvhbQ37JvC3TyZddr3jow8eV5mwvA/edit#heading=h.bdqqkxgnv5t3][this small grant proposal]] for Brookes
+  - It wasn’t funded, was it b/c it was fuzzy?
+
+* Agenda (Part 2) - A set of questions we can systematically talk through
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- To unfuzzy things
+- High level
+
+** What have we accomplished thus far?
+- /(i.e. “What can we put in the next grant?”)/
+- We had 4 workshops (Bristol x2; Arizona, PLoP)
+  - W/ success indicators like:
+    - “As long as people leave energise, we’ve ticked the ‘light’ box.”
+    - “Does it spur further action?”
+- Tech side: Org Roam UI decoupling
+- Debrief documents: methods for workshop, websites
+- We have a slipbox that works; and a Discord that collects more information
+- We’ve made great connections
+- We were part of a larger grant of interdisciplinary participants, w/ £50K
+- We brought together attendees from a wider multidisciplinary group
+** What is our mission: what do we stand for?
+- /(This is the north-star: a consise explanation of the organisations’ reason for existence.)/
+- We want to /build bridges across disciplines/
+- In order to facilitate collective knowledge sharing, w/ an action prioritisation
+- Facilitating better collective work, whereby people manifest their common ground effectively, so that we can have citizens coming to the platform w/ their respective expertise, working from a common framework, enacting action towards a better future
+*** Cf. “The Mission Economy”
+- E.g., /supporting a guerilla approach to social change (since 2023)/.
+*** What is the hard thing we should pick?
+- Finding methods and tools that ultimately enable collective action from local to more global circles
+- Citizens-to-experts
+** What is our vision: what is the impact we’d like to make?
+- /(This is how we get there.)/
+*** We want a spirit of light creative work in how we go about things
+*** What do we ask LV to develop next?
+*** Represent what we’ve accomplished so far in a digestible way
+*** Using knowledge management tools for collective aims
+- Like a challenger to Google documents; there are lots of things for /tracking actions/
+- ... but not much that’s /knowledge-first/.
+*** Various specialist contexts exist
+- Buildings, hospitals, city centres...
+- How can we create discussions between different pools expertise?
+  - In different locales, or other contexts?
+*** Driven by science, enabled by tech
+- /Reduce distance between collective knowledge sharing and collective action./
+- We’ve talked a lot about serendipity & diversity, creating opportunities for action that maximise the potential for serendipitous solutions: this matches AIF; if we narrow opportunities for action we become brittle in a world that’s changing
+- We want to create maleable/adaptable/resilient/[anti-fragility?] systems
+
+** The fuzzy annexe for things that aren’t concrete enough
+- We’ve built this thing that magnetizes things to it
+- Hyperreal is something that transcends the real...
+- Business model: Is it a for-profit company?  A co-op?  A social enterprise?
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Although we’re all tired we’ve managed to pull things together very well today
+- A game to get small grants, possibly winnable
+*** 2. What are some different perspectives on what's happening?
+- NA: I’m starting to feel like my role is more management, i.e., how this group is going to work
+- JC: helped us manage our internal conversation so that we can at least be clear with 
+*** 3. What did we learn or change?
+- What do we want to accomplish
+- How do we carry it out?
+*** 4. What else should we change going forward?
+- Let’s have a section in the template for ‘fuzzy thoughts’
+- Let’s keep reFURbishing the exp2exp
+- Let’s also keep some kind of inbox in mind
+- Princeton has a role for a Digital Humanities programmer; is there someone who could help develop digital solutions.  (The Director is the DH director...)
+
+* Tentative agenda for next week
+
+- Week off
+- Meet next Saturday
+  - Fix Noorah’s Emacs?
+- Set up meeting with Jeremy & Abby
+- Abby will feed back on report
+- Figure out Linode deployment
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Cat wrangling, playing with phantom to remove his aggression
+- Phantom wants to wrestle!  Boys have a lot of testosterone... this is new to me!
+
+** JC
+- Need to do my other main job after a month’s worth of extra work on my ‘side-job’
+- This weekend taking the weekend off; did shopping; now do laundry, vacuuming, &c. and not much else
+
+** LV
+- Cure hands w/o systemic antibiotics first if possible
+- Preparing my meal, so far I’ve been busy & I have time cook today!
+- Laundry is waiting
