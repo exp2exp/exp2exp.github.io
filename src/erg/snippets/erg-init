@@ -3,7 +3,7 @@
 # key: erg
 # --
 :PROPERTIES:
-:ID:       `(org-id-get-create)`
+:ID:       `(org-id-new)`
 :END:
 #+TITLE: `(format-time-string "%d %B %Y")` — Emacs Research Group
 #+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
