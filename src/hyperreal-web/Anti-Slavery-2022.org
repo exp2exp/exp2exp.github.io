@@ -1,0 +1,133 @@
+:PROPERTIES:
+:ID:       d57c0f0a-f961-4e29-8872-bb219c42e162
+:END:
+#+Title: Anti-Slavery and Human Trafficking Statement - 2022
+#+filetags: :web:
+
+#+begin_example
+  Anti-Slavery and Human Trafficking Statement - 2022
+
+  1. Purpose and Commitment
+
+  Hyperreal Enterprises Ltd. (“Hyperreal”) is committed to preventing
+  acts of modern slavery and human trafficking from occurring within our
+  business and supply chain. We will not tolerate any form of modern
+  slavery or human trafficking in our operations and supply chains. We
+  take this commitment to seriously and actively work to devise,
+  implement and maintain reasonable assurance and detection strategies.
+
+  This statement describes our business structure, relevant policies and
+  ongoing efforts to reduce the possibility that slavery and human
+  trafficking occur in our operations or global supply chains. We will
+  continue to monitor these risks within our business and supply chain
+  and adjust or enhance our anti-slavery and human trafficking
+  initiatives accordingly.
+
+  2. About Hyperreal – Our Organizational Structure and Supply Chains
+
+  Hyperreal is a provider of research and development services focused
+  on the digital domain, with a particular emphasis on social software.
+  It was incorporated in June, 2019, and is presently headquartered in
+  Glasgow, UK.
+
+  As a new company with less than £80K in annual turn-over, Hyperreal’s
+  employees come from a global pool of talent, and work as consultants.
+  Whilst many of our projects relate to the free software movement and
+  are supported by volunteers, we make a clear distinction between
+  volunteer work and contract work.  Recruitment for paid contracts
+  follows ethical recruitment practices.
+
+  3. Our Policies
+
+  As part of our commitment to combating modern slavery and human
+  trafficking, we have developed and implemented the following policies:
+  the Code of Conduct, the Supplier Code of Conduct, the Anti-bribery &
+  Anti-corruption Policy and the Human Rights Policy.
+
+  Code of Conduct. Our code of conduct clearly expresses Hyperreal’s
+  values and the behaviors expected of employees in their actions on
+  behalf of the company.  Hyperreal strives to maintain the highest
+  standards of employee conduct and ethical behavior in all areas where
+  we do business.
+
+  Supplier Code of Conduct. All of Hyperreal’s suppliers must adhere to
+  our supplier code as a condition for doing business with the
+  company. The supplier code clearly states Hyperreal’s prohibition on
+  human trafficking and forced labor in all forms.  Breaches of the
+  supplier code will result in termination of the business relationship.
+
+  Anti-bribery and Anti-corruption Policy. Hyperreal recognizes the
+  potential links between bribery and corruption and modern
+  slavery. Hyperreal’s robust policy is communicated to all employees on
+  a regular basis and to other parties acting on the company’s behalf,
+  as appropriate.
+
+  Human Rights Policy. Hyperreal’s approach to human rights is guided by
+  international standards. We respect and follow the UN Guiding
+  Principles on Business and Human Rights, OECD Guidelines for
+  Multinational Enterprises, core Conventions of the International
+  Labour Organization (ILO), the ILO Declaration on Fundamental
+  Principles and Rights at Work, and the UN Universal Declaration of
+  Human Rights.  Our commitment to human rights applies throughout all
+  aspects of our business and in all geographies where we operate.
+
+  In 2023, we will review our anti-slavery and whistleblower policies
+  and ensure they are communicated to all employees worldwide.  Copies
+  of our current policies are available to all employees on our company
+  intranet.  Our Code of Conduct, Supplier Code of Conduct and Human
+  Rights Policy are also available to employees, suppliers and the
+  public on our corporate website.
+
+  4. Due Diligence
+
+  To monitor and reduce the risk of slavery and human trafficking taking
+  place within our supply chain, Hyperreal has begun the process of
+  formalizing its risk assessment and due diligence procedures.
+
+  The procedures will:
+
+  Establish and assess areas of potential risk; Monitor potential risk
+  areas in our business as well as our supply chain; Mitigate identified
+  risks; and Provide adequate protection for whistleblowers.
+
+  5. Risk and Compliance
+
+  Hyperreal will regularly evaluate the nature and extent of its
+  exposure to the risk of modern slavery occurring in our supply chain
+  through an ongoing risk assessment process. Where we identify a
+  potential risk during our assessment process, we will conduct
+  additional investigation and due diligence, including third-party
+  audits and alternative sourcing.  We ensure that all our suppliers are
+  aware of our Supplier Code of Conduct. This code mandates that
+  suppliers comply with all applicable labor laws and regulations as
+  well as the conventions of the International Labour Organization. For
+  example, all supplier employment must be freely chosen. Forced or
+  bonded labor, human trafficking, forced prison labor, and involuntary
+  labor through threat, force coercion, confiscation of government
+  identification, or fraudulent claims are all strictly prohibited under
+  our supplier code.
+
+  6. Effectiveness and Key Performance Indicators
+
+  Hyperreal intends to develop key performance indicators to measure our
+  effectiveness in ensuring that slavery and human trafficking does not
+  take place in any part of our business or supply chain.
+
+  7. Training
+
+  We invest in educating our procurement and human resources personnel
+  to recognize the risks of modern slavery and human trafficking in our
+  business and supply chains, and our employees are reminded of their
+  obligation to report potential breaches of policy, including the Human
+  Rights Policy. Our training also highlights the benefits of
+  eradicating slavery and human trafficking as well as the consequences
+  of failing to do so. Our training is conducted periodically and on an
+  ongoing basis.
+
+  This statement is made in accordance with section 54(1) of the
+  U.K. Modern Slavery Act of 2015 for the year 2022.
+
+  By:
+  Joseph Corneli
+  Director
+#+end_example

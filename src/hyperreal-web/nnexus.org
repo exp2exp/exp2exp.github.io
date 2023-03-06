@@ -1,0 +1,514 @@
+:PROPERTIES:
+:ID:       cd86c635-9430-45cd-91ba-d34ab2a0290f
+:END:
+#+title:  NNexus Revolutions: NeuralNamed Entity Recognition and Linking for Technical Topics
+#+filetags: :web:
+
+** Highlights
+   :PROPERTIES:
+   :CUSTOM_ID: highlights
+   :END:
+
+- We propose to adapt contemporary machine learning methods for natural
+  language processing to work with mathematical text.
+
+- This constitutes a needed investment in the core infrastructure of
+  mathematical
+  sciences.⊕[[https://hyperreal.enterprises/img/beetle.jpg]]
+
+Introduction
+There are around 15K articles being added to the Arxiv preprint server
+/each month/. Can AI be used to help make this technical material easier
+to access, understand, and apply?
+
+This six month project will use contemporary natural language processing
+techniques to take the first steps towards building computational models
+of mathematical language that reflect the richness of mathematical
+symbolism and the structure of mathematical arguments --- as
+communicated by mathematicians.
+
+Named entity recognition (NER) provides a foundation that can support
+the creation of knowledge graphs, recommendation services, and enhanced
+bibliometrics. These services have the potential to significantly
+improve the mathematical science research landscape. For example,
+analysis of the graph data could help researchers form coalitions around
+common themes, and support translation between different disciplinary
+languages. Recommender systems could help make the talent pipeline more
+robust, intermediating between the learner's existing knowledge and a
+research project or application.
+
+Recent work illustrates the feasibility of this approach. The
+NaturalProofs project worked with ≈32K theorems, proofs, and
+definitions, and spotted references between them.[[#fn1][^{1}]] Our
+project will train a new neural NER system on a much larger corpus (≈10m
+online records). Because the pretraining strategy we have used preserves
+mathematical expressions (see “Pretraining Example”), we expect to be
+able to reliably link symbolic identifiers to their definitions, an
+entirely novel advance.
+
+Our previous experiments with naive term spotting methods --- based on
+lists of known named entities extracted from online encyclopedias and
+similar corpora --- ran into difficulty with text samples such as these:
+
+| “Let /G/ be a /group/” | “/group/ the numbers in rows” |
+| “/chain/ in a graph”   | “/chain/ made of steel”       |
+| “/permanent/ of /M/”   | “a /permanent/ marker”        |
+
+Neural methods for NER offer a key advance, because they can distinguish
+between different senses of words based on context.[[#fn2][^{2}]]
+
+This project will give evidence that we can effectively bridge the
+/subsymbolic methods based on neural networks/ that underlie
+contemporary language models with /symbolic methods for mathematical
+knowledge management/. This opens up a further programme of research in
+mathematical AI, and will have immediate practical applications.
+
+** Pretraining Example
+   :PROPERTIES:
+   :CUSTOM_ID: pretraining-example
+   :END:
+
+#+begin_quote
+  “Let (𝒳, /d/_{∞}) denote the input feature space 𝒳...” →
+  =Let ( calligraphic X , italic d sub ∞ ) denote the input feature space calligraphic X=...
+#+end_quote
+
+Beneficiaries
+The direct beneficiaries of this work include STEM researchers and
+students who will gain a new way to navigate the technical literature.
+Named entities, assembled in graphs and made traversable with
+recommendation engines, will help people make use of open source and
+open access resources such as Arxiv, Wikipedia, and MathOverflow ---
+with the potential for similar applications to resources held by
+publishers. A secondary benefit will confer to researchers working on
+mathematical AI. NER has been applied in scientific
+domains,[[#fn3][^{3}]] but without attention to mathematical notation or
+syntax. In open symbolic domains like mathematics and programming, the
+appropriate representations for machine learning and automated reasoning
+are not a settled issue. Graph representations are a strong
+candidate.[[#fn4][^{4}]] Broader benefits will confer to society at
+large as support for formal education, learning on the job, and
+workplace productivity all improve.
+
+Research gap addressed
+The context-rich nature of mathematical language and reasoning presents
+unique challenges for artificial intelligence. Classically-derived NLP
+methods are brittle, and typically only handle strictly conformant
+texts. Contemporary neural models do not incorporate domain knowledge,
+at least not without extra work (Note [[#graphs][4]]). For example,
+while language models such as GPT-3 have made a splash in the popular
+press, they do not understand simple word problems.[[#fn5][^{5}]] We
+currently do not have computer models capable of modelling technical
+language as used by mathematicians.
+
+** Track record
+   :PROPERTIES:
+   :CUSTOM_ID: track-record
+   :CLASS: unnumbered
+   :END:
+*Dr Corneli* completed a PhD in 2014 about learning on PlanetMath, one
+of the first large online encyclopedias. Based at the Open University's
+*Knowledge Media Institute*, he worked with members of the German
+*Knowledge Adaptation and Reasoning for Content* (KWARC) research group
+to modernise PlanetMath's software,[[#fn6][^{6}]] including its named
+entity linking tool NNexus, expanding its scope of
+application.[[#fn7][^{7}]]^{,}[[#fn8][^{8}]] Corneli then researched
+computational creativity and social machines at Goldsmiths and the
+University of Edinburgh. His main thematic focus was mathematical
+argumentation.[[#fn9][^{9}]]^{,}[[#fn10][^{10}]]^{,}[[#fn11][^{11}]]^{,}[[#fn12][^{12}]]
+In 2020, he spent six months working on business model development at
+the startup incubator Entrepreneur First. Corneli has been in close
+contact with Deyan Ginev at KWARC about the project's technical
+groundwork (see “Groundwork”).
+
+*Professor Crook* is Director of the Institute for Ethical AI at Brookes
+and will help manage the project and explore potential future
+applications. Crook has a background in both autonomous systems and
+natural language processing, e.g., with application to conversational
+agents.[[#fn13][^{13}]]
+
+*Dr Long* is a research software engineer. He specialises in natural
+language processing using transformer-based tools, with a previous
+research background in statistical learning. Long has worked as a
+software developer in Fintech, e-commerce, and business intelligence.
+
+*Mr Batra* is a PhD Candidate at Oxford University and a Researcher at
+Oxford Brookes. He previously earned an MSc in Computer Science from
+Oxford University, where he majored in AI. Batra has worked at Snapdeal
+as a Research Engineer in their Recommendations and Personalization
+team.
+
+Long and Batra have recently been collaborating on learning-recommender
+focused tasks with *Learner Shape*, a company working in the training
+space that “uses AI to recommend individualized learning pathways to
+bridge skill gaps and get organizations future ready.”[[#fn14][^{14}]]
+They bring related but distinct skills to the project: both will be
+employed throughout the project at .5FTE, to enable team work and skill
+sharing.
+
+** Groundwork
+   :PROPERTIES:
+   :CUSTOM_ID: groundwork
+   :END:
+Deyan Ginev prepared a large technical corpus using LaTeX ML and other
+tools, improving on earlier work with Arxiv
+data[[#fn15][^{15}]]^{,}[[#fn16][^{16}]] by
+
+- /regularising mathematical symbols/
+
+- /significantly expanding the training set/[[#fn17][^{17}]]
+
+- /developing word-level embeddings./
+
+Specifically, this data is being used to train a custom ELECTRA-Large
+model[[#fn18][^{18}]] (estimated total run time: 33 days on one GPU).
+
+Objectives and Methods
+*Objective 1.* /Adapt algorithms for neural named entity recognition
+over natural language to work with mathematical texts./
+
+Neural NER methods have been under development for over twenty
+years.[[#fn19][^{19}]] Among recent systems, *Facebook's GENRE* system
+is a strong contender.[[#fn20][^{20}]]^{,}[[#fn21][^{21}]] Various other
+methods exist that could be quickly applied to adapt our ELECTRA model
+for NER tasks.[[#fn22][^{22}]]^{,}[[#fn23][^{23}]] However, no existing
+neural NER system was designed with mathematical symbols in mind, so
+existing methods are likely to need significant adaptation. One of the
+key issues here is long-range reference. For example, a human reader
+would likely accept that “𝒳” appearing anywhere in this document refers
+to the same input feature space mentioned in above in the “Pretraining
+Example”, unless informed otherwise, but this may pose challenges for
+NER. One likely strategy for overcoming these challenges will be to
+incorporate /relation extraction/ methods.[[#fn24][^{24}]]
+
+*Objective 2.* /Evaluate our named entity annotation system by using
+ground truth sources of ‘significant named entities' and by eliciting
+user feedback on a public demonstration deployment./
+
+We will validate the mathematical NER system using data from textbooks,
+Wikipedia, PlanetMath, and a recently developed dataset based on
+ProofWiki (Note [[#naturalproofs][1]]). We will also use the same
+methods to identify terms that should in principle be linked, i.e.,
+terms that appear in Wikipedia as “red links”, and assess the quality of
+these links in a user study.
+
+*Objective 3.* /Co-design a roadmap for further research together with
+key stakeholders./
+
+Methods to explore further include adapting (I) ‘fingerprint databases'
+to map mathematical documents,[[#fn25][^{25}]] (II) neural relation
+extraction, and (III) explainable
+recommendations.[[#fn26][^{26}]]^{,}[[#fn27][^{27}]]
+
+Research Programme
+Challenge: It is hard for researchers to quickly adapt to a new field of
+research.
+
+*WP1: NER for mathematical text.* We will review existing methods for
+neural named entity recognition and adapt them for a corpus that is rich
+with mathematical symbolism. A baseline can be provided by the classical
+version of NNexus (Note [[#classicNNexus][7]]); SciBERT and GENRE (Notes
+[[#scibert][3]], [[#genre][20]]) provide suggestive directions for
+implementation work. The resulting NER system will be packaged into a
+proof-of-concept demonstration of a document recommendation system that
+can enable a non-expert user to find other relevant texts, and that can
+add useful cross-references within a given text.
+
+Challenge: Academic papers do not come with an index or links to
+learning materials.
+
+*WP2: Evaluation.* We will carry out a formal evaluation of the software
+from WP1 with reference to /precision/ and /recall/ of index terms in
+several well-known *Springer GTM* textbooks and (elided) wiki links in
+the mathematical portion of *Wikipedia*, and the *PlanetMath*
+encyclopedia (where most existing links were produced by the earlier
+verison of NNexus). The new NaturalProofs dataset based on *ProofWiki*
+gives us an additional benchmark for retrieval based evaluation (Note
+[[#naturalproofs][1]]). We will also develop a new service that adds
+links to papers on the Arxiv, and carry out a small-scale evaluation
+with authors of preprints in various domains of mathematical science.
+The study will include interviews that will inform the next phase of
+design.
+
+Challenge: Publishers, universities, and edtech providers will need to
+rapidly adapt to a changing landscape enriched by AI.
+
+*WP3: Applications.* We will create a roadmap for future work centred on
+the technical methods listed under Objective 3. We will initially (WP3A)
+focus on discussions with stakeholders in the UK via the *Oxford
+International Centre for Publishing* and various contacts in
+mathematics, supported by developing demos in WP1. As this work matures
+(WP3B), Corneli will liaise with *Topos Institute* [[#fn28][^{28}]] to
+develop related use cases and designs. Futurist Bryan Alexander
+envisions a scenario in which the rise of open education leads some
+publishers to become “/essentially data analytics specialists, providing
+value by helping researchers see links between documents, tracing
+patterns of discovery, and generating insights about articles and
+monographs through data mining and AI./”[[#fn29][^{29}]] We will assess
+the feasibility and any missing components with publishers.
+
+*Planned outputs*: We will submit to the Conferences on Intelligent
+Computer Mathematics and Learning Representations (CICM, ICLR). All code
+and demonstrator services will be released as open source. We will
+prepare a larger collaborative grant proposal with stakeholders.
+
+Impact Strategy
+In WP3, our developing plan for further work will relate the technical
+Methods I-III mentioned above to their social context.
+
+/‘Fingerprint databases' to map mathematical documents./ As discussed in
+Corneli's 2014 PhD thesis,[[#fn30][^{30}]] with the rise of the social
+web, online creativity in mathematics is now widely distributed. The
+technical aspects of this proposal will give us the key tools we need to
+create and maintain an up-to-date concept-based index to mathematical
+communications at large. We plan to collaborate with the Topos Institute
+to develop this theme, building on Corneli's prior experience with
+PlanetMath. This effort will be facilitated by outreach to organisations
+such as Arxiv and Stack Exchange with demo work based on WP1.
+
+/Neural relation extraction./ Evan Patterson, based at the Topos
+Institute, previously worked with IBM researchers to develop methods for
+modelling computer code, piloting this work in the field of data
+science.[[#fn31][^{31}]]^{,}[[#fn32][^{32}]] Patterson's system
+decomposes programs using a database of known programmatic patterns.
+Neural relation extraction could help to identify such composable
+patterns in mathematical language. Corneli will seek funding to support
+a current MSc thesis student to develop this work in a PhD.
+
+/Explainable recommendations./ Bibliometrics is a well-established area
+of research, typically focusing on citation graphs. However, books
+usually contain additional metadata: the /index/ and /table of
+contents/, which convey a sense of the document's structure.
+Generalising this, we will be able to create something akin to a
+citation network, but for named entities. Such structures could allow
+users or client programs to reject or accept certain meanings. This
+suggests a new way to think about context that goes beyond the
+contemporary affordances of language models, which predict the next word
+in a sequence. This would inform the development of learning support
+tools, which would also benefit from our team's experience working with
+Learner Shape.
+
+National Importance
+The project presages future technologies that translate high-level
+descriptions of proofs and algorithms into custom learning pathways ---
+or even directly runnable code.
+
+Reviewers will be familiar with the fact that investments in
+mathematical sciences have an exceptionally high
+return-on-investment.[[#fn33][^{33}]] This project constitutes a needed
+investment in the infrastructure of mathematical sciences itself,
+promising outsized leverage. The immediate economic relevance of this
+project is that computational models of technical subjects can provide
+students and researchers with a map of technical domains --- showing not
+only how topics relate to each other, but also allowing users to keep
+track of skills that they themselves have mastered. Skills certification
+is key to closing the well-documented “skills gap”. Success with these
+endeavours would motivate similar experiments in software engineering.
+
+By making transforming everyday mathematical language into computational
+structures the project has the potential to open new paths towards
+automated discovery, alongside AI tutoring and other forms of software
+assistance. Corneli's prior work on argumentation (see Notes
+[[#towards][10]]-[[#argumentation][12]]) may provide useful scaffolding
+for new methods of AI reasoning.
+
+--------------
+
+1.  
+
+    <<fn1>>
+    “NaturalProofs: Mathematical Theorem Proving in Natural Language”,
+    2021[[#fnref1][↩]]
+
+2.  
+
+    <<fn2>>
+    “Transformer visualization via dictionary learning: contextualized
+    embedding as a linear superposition of transformer factors”.
+    2021[[#fnref2][↩︎]]
+
+3.  
+
+    <<fn3>>
+    “SciBERT: A Pretrained Language Model for Scientific Text”.
+    2019[[#fnref3][↩︎]]
+
+4.  
+
+    <<fn4>>
+    “BERT-MK: Integrating Graph Contextualized Knowledge into
+    Pre-trained Language Models”. EMNLP 2020[[#fnref4][↩︎]]
+
+5.  
+
+    <<fn5>>
+    “Are NLP Models really able to Solve Simple Math Word Problems?”
+    2021[[#fnref5][↩︎]]
+
+6.  
+
+    <<fn6>>
+    “The planetary system: Web 3.0 & active documents for STEM”.
+    Procedia Computer Science 4, 2011[[#fnref6][↩︎]]
+
+7.  
+
+    <<fn7>>
+    “NNexus Reloaded”. 2014[[#fnref7][↩︎]]
+
+8.  
+
+    <<fn8>>
+    [[https://github.com/dginev/nnexus/tree/master/lib/NNexus/Index]][[#fnref8][↩︎]]
+
+9.  
+
+    <<fn9>>
+    “Lakatos-style collaborative mathematics through dialectical,
+    structured and abstract argumentation”. Artificial Intelligence 246,
+    May 2017[[#fnref9][↩︎]]
+
+10. 
+
+    <<fn10>>
+    “Towards mathematical AI via a model of the content and process of
+    mathematical question and answer dialogues”. Intelligent Computer
+    Mathematics, CICM 2017, Edinburgh, UK, 2017, Proceedings.
+    2017[[#fnref10][↩︎]]
+
+11. 
+
+    <<fn11>>
+    “Modelling the Way Mathematics is Actually Done”. 5th ACM SIGPLAN
+    International Workshop on Functional Art, Music, Modeling, and
+    Design. 2017[[#fnref11][↩︎]]
+
+12. 
+
+    <<fn12>>
+    “Argumentation Theory for Mathematical Argument”. Argumentation
+    33.2, June 2019[[#fnref12][↩︎]]
+
+13. 
+
+    <<fn13>>
+    “Interaction strategies for an affective conversational agent”.
+    Presence: Teleoperators and Virtual Environments 20.5,
+    2011[[#fnref13][↩︎]]
+
+14. 
+
+    <<fn14>>
+    [[https://www.learnershape.com/]][[#fnref14][↩︎]]
+
+15. 
+
+    <<fn15>>
+    [[https://kwarc.info/projects/arXMLiv/]][[#fnref15][↩︎]]
+
+16. 
+
+    <<fn16>>
+    “Scientific Statement Classification over arXiv.org”. 2019. arXiv:
+    1908.10993 [cs.CL][[#fnref16][↩︎]]
+
+17. 
+
+    <<fn17>>
+    [[https://github.com/KWARC/llamapun/issues/59]][[#fnref17][↩︎]]
+
+18. 
+
+    <<fn18>>
+    “ELECTRA: Pre-training Text Encoders as Discrimi- nators Rather Than
+    Generators”. ICLR. 2020[[#fnref18][↩︎]]
+
+19. 
+
+    <<fn19>>
+    “Neural Architectures for Named Entity Recognition”. Proceedings of
+    the 2016 Conference of the North American Chapter of the Association
+    for Computational Linguistics: Human Language Technologies. June
+    2016[[#fnref19][↩︎]]
+
+20. 
+
+    <<fn20>>
+    “Autoregressive Entity Retrieval”. International Conference on
+    Learning Representations. 2021[[#fnref20][↩︎]]
+
+21. 
+
+    <<fn21>>
+    [[https://paperswithcode.com/task/entity-linking]][[#fnref21][↩︎]]
+
+22. 
+
+    <<fn22>>
+    “Named Entity Recognition as Dependency Parsing”. Proceedings of the
+    58th Annual Meeting of the Association for Computational
+    Linguistics. July 2020[[#fnref22][↩︎]]
+
+23. 
+
+    <<fn23>>
+    “Zero-shot Entity Linking with Dense Entity Retrieval”. EMNLP.
+    2020[[#fnref23][↩︎]]
+
+24. 
+
+    <<fn24>>
+    [[https://github.com/thunlp/NREPapers]][[#fnref24][↩︎]]
+
+25. 
+
+    <<fn25>>
+    “Fingerprint databases for theorems”. Notices of the AMS 60.8,
+    2013[[#fnref25][↩︎]]
+
+26. 
+
+    <<fn26>>
+    “Personalized Recommendations Using Knowledge Graphs: A
+    Probabilistic Logic Programming Approach”. Proceedings of the 10th
+    ACM Conference on Recommender Systems. 2016[[#fnref26][↩︎]]
+
+27. 
+
+    <<fn27>>
+    “TransNets: Learning to Transform for Recommendation”. Proceedings
+    of the Eleventh ACM Conference on Recommender Systems.
+    2017[[#fnref27][↩︎]]
+
+28. 
+
+    <<fn28>>
+    [[https://topos.institute/]][[#fnref28][↩︎]]
+
+29. 
+
+    <<fn29>>
+    /[[https://jhupbooks.press.jhu.edu/title/academia-next][Academia
+    Next]]/ (2020), JHU Press, p. 169[[#fnref29][↩︎]]
+
+30. 
+
+    <<fn30>>
+    “[[http://oro.open.ac.uk/40775/][Peer Produced Peer Learning: A
+    mathematics case study]]”, Open University, 2014[[#fnref30][↩︎]]
+
+31. 
+
+    <<fn31>>
+    [[https://www.datascienceontology.org/]][[#fnref31][↩︎]]
+
+32. 
+
+    <<fn32>>
+    [[https://github.com/IBM/datascienceontology]][[#fnref32][↩︎]]
+
+33. 
+
+    <<fn33>>
+    “[[https://epsrc.ukri.org/newsevents/pubs/era-of-maths/][The Era of
+    Mathematics]]” (Bond Review), 2018[[#fnref33][↩︎]]

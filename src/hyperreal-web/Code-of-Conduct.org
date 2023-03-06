@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       ef0bb4e4-46e1-417a-bb58-207e10c5e014
+:END:
+#+title: Code of Conduct
+#+filetags: :web:
+
+
+#+begin_example
+  Code of Conduct — Hyperreal Enterprises
+
+  Everybody here is a steward of their own time and interest, and works
+  to pursue it.
+
+  The group intersects at any potential points of mutual utility.
+
+  Three ground rules are elaborated below.
+
+  (1) The right to dignity.  Human dignity must be respected and
+  protected. Unfortunately, dignity can be violated by acts that lead to
+  humiliation, instrumentalization or objectification, degradation, and
+  dehumanization. We commit ourselves to avoiding such behaviours, and
+  will put any such behaviours to an end if they are made known.
+
+  (2) The golden rule. As a guide, treat others as you would like others
+  to treat you. If you have further questions about whether a given
+  behaviour upholds the golden rule and the right to dignity, it is
+  perfectly fine to ask about it in our code-of-conduct-discussion
+  channel. Minor violations do not disqualify participation, though they
+  may warrant an apology.
+
+  (3) Disqualifying abusive behaviour. We will put outright abuse to an
+  end. We will aim to do this in a way that does the least further harm
+  to all parties (however, see point (b) below for one structural
+  caveat). Abuse can take the form of manipulation, exploitation,
+  maltreatment, neglect, violence, cruelty, harm, hurt, or
+  ill-treatment. It can manifest in physical, mental, verbal, emotional,
+  financial, sexual, spiritual, or legal dimensions of life. Please
+  disclose any instances of abuse to a trusted party and/or the relevant
+  authorities.
+
+  While this is not a definitive list, if anyone here experiences any of
+  the following, please disclose it so that the situation can be
+  resolved: intimidation, isolation, restraint, aggression,
+  endangerment; being the target of rage, gaslighting, projection,
+  twisting of one’s words, or manipulation; concerning extremes in vocal
+  volume and tone, intimidating words, an inappropriately intense manner
+  of speech, personal attacks, withholding of apology for wrongdoing,
+  browbeating, nitpicking, embarrassment/shame; indicative symptoms
+  including increased anxiety, excessive guilt, insecurity, confusion,
+  alienation, anger/fear, hostility/rejection.
+
+  While there may be two or more sides to any given story, we will
+  strive to take the side of the person with less power in an abusive
+  situation.
+
+  Further comments
+
+  First and foremost our organisation is home to “a discussion” and the
+  familiar norms of discussion apply. At this stage, organization is
+  “bottom-up” — it is more a bazaar than a cathedral. This code of
+  conduct along with other matters will be revisited as things evolve.
+
+  References
+
+  https://en.wikipedia.org/wiki/Dignity#Violations
+  https://fra.europa.eu/en/eu-charter/article/1-human-dignity
+  https://en.wikipedia.org/wiki/Golden_Rule
+  https://pro.psychcentral.com/exhausted-woman/2018/12/the-8-types-of-abusive-behavior/
+#+end_example

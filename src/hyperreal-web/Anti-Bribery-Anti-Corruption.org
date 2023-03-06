@@ -1,0 +1,140 @@
+:PROPERTIES:
+:ID: 6ec7bc04-b22d-4cac-954d-a42ed7edae83
+:END:
+#+Title: Anti-bribery policy
+#+filetags: :web:
+
+#+begin_example
+  Anti-bribery policy
+
+  Definition
+
+  Bribery is, in the conduct of the Company’s business, the offering or
+  accepting of any gift, loan, payment, reward or advantage for personal
+  gain as an encouragement to do something which is dishonest, illegal
+  or a breach of trust.
+
+  Bribery is a criminal offence. The Company prohibits any form of
+  bribery. We require compliance, from everyone connected with our
+  business, with the highest ethical standards and anti-bribery laws
+  applicable. Integrity and transparency are of utmost importance to us
+  and we have a zero tolerance attitude towards corrupt activities of
+  any kind, whether committed by Hyperreal Enterprises Ltd’s employees
+  or by third parties acting for or on behalf of Hyperreal Enterprises Ltd.
+
+  Purpose
+
+  The purpose of this policy is to convey to all employees and
+  interested parties of Hyperreal Enterprises Ltd the rules of the
+  Company in relation to our unequivocal stance towards the eradication
+  of bribery and our commitment to ensuring that Hyperreal Enterprises
+  Ltd conducts its business in a fair, professional and legal manner.
+
+  Offences
+
+  It is a criminal offence to:
+
+  • offer a bribe
+  • accept a bribe
+  • bribe a foreign official
+  • as a commercial organisation, to fail to prevent a bribe.
+
+  You should be aware that if you are found guilty by a court of
+  committing bribery, you could face up to 10 years in prison and/or an
+  unlimited fine. The Company could also face prosecution and be liable
+  to pay a fine.
+
+  Definitions of bribery and corruption
+
+  Corruption is the misuse of office or power for private gain. Bribery
+  is a form of corruption which means in the course of business giving
+  or receiving money, gifts, meals, entertainment or anything else of
+  value as an inducement to a person to do something which is dishonest
+  or illegal.
+
+  Scope
+
+  This policy applies to all employees of Hyperreal Enterprises Ltd,
+  regardless of seniority or site. It also extends to anyone working for
+  or on our behalf eg those engaged by us on a self-employed basis or an
+  agency arrangement.
+
+  We will encourage the application of this policy where our business
+  involves the use of third parties eg suppliers; contractors.
+
+  Policy
+
+  It is prohibited, directly or indirectly, to offer, give, request or
+  accept any bribe ie gift, loan, payment, reward or advantage, either
+  in cash or any other form of inducement, to or from any person or
+  company in order to gain commercial, contractual or regulatory
+  advantage for the Company, or in order to gain any personal advantage
+  for an individual or anyone connected with the individual in a way
+  that is unethical.
+
+  It is also prohibited to act in the above manner in order to influence
+  an individual in his capacity as a foreign public official. You should
+  not make a payment to a third party on behalf of a foreign public
+  official.
+
+  If you are offered a bribe, or a bribe is solicited from you, you
+  should not agree to it unless your immediate safety is in
+  jeopardy. You should immediately contact Joseph Corneli, Director, so
+  that action can be taken if considered necessary. You may be asked to
+  give a written account of events.
+
+  If you, as an employee or person working on our behalf, suspect that
+  an act of bribery, or attempted bribery, has taken place, even if you
+  are not personally involved, you are expected to report this to
+  contact Joseph Corneli, Director. You may be asked to give a written
+  account of events.
+
+  Appropriate checks will be made before engaging with suppliers or
+  other third parties of any kind to reduce the risk of our business
+  partners breaching our anti- bribery rules.
+
+  The Company will ensure that all of its transactions, including any
+  sponsorship or donations given to charity, are made transparently and
+  legitimately.  Hyperreal Enterprises Ltd takes any actual or suspected
+  breach of this policy extremely seriously and will carry out a
+  thorough investigation should any instances arise.We will uphold laws
+  relating to bribery and will take disciplinary action against any
+  employee, or other relevant action against persons working on our
+  behalf or in connection with us, should we find that an act of
+  bribery, or attempted bribery, has taken place. This action may result
+  in your dismissal if you are an employee, or the cessation of our
+  arrangement with you if you are self-employed, an agency worker,
+  contractor etc.
+
+  Staff are reminded of the Company’s whistleblowing policy which is
+  available in the employee handbook, or upon request.
+
+  Gifts and hospitality
+
+  We realise that the giving and receiving of gifts and hospitality
+  where nothing is expected in return helps form positive relationships
+  with third parties where it is proportionate and properly
+  recorded. This does not constitute bribery and consequently such
+  actions are not considered a breach of this policy.  Gifts include
+  money; goods (flowers, vouchers, food, drink, event tickets when not
+  used in a hosted business context); services or loans given or
+  received as a mark of friendship or appreciation.
+
+  Hospitality includes entertaining; meals or event tickets (when used
+  in a hosted business context) given or received to initiate or develop
+  relations. Hospitality will become a gift if the host is not present.
+
+  No gift should be given nor hospitality offered by an employee or
+  anyone working on our behalf to any party in connection with our
+  business without receiving prior written approval from Joseph Corneli,
+  Director. Similarly, no gift nor offer of hospitality should be
+  accepted by an employee or anyone working on our behalf without
+  receiving prior written approval from Joseph Corneli, Director.
+
+  A record will be made of every instance in which gifts or hospitality
+  are given or received.
+
+  As the law is constantly changing, this policy is subject to review
+  and the Company reserves the right to amend this policy without prior
+  notice.
+#+end_example

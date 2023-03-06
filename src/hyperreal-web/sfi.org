@@ -1,0 +1,354 @@
+:PROPERTIES:
+:ID:       9d4f9946-e8f6-4632-9518-eeff4ca17ecd
+:END:
+#+title:  Complexity Postdoctoral Fellowship
+#+filetags: :web:
+
+** Interests
+   :PROPERTIES:
+   :CUSTOM_ID: interests
+   :END:
+My goal is to integrate themes from my previous work on peer learning,
+computational creativity, and social machines in an agent-based model of
+a popular question-and-answer website, Stack Overflow. This will realise
+Turing's vision of artificial agents that are “able to converse with
+each other to sharpen their wits,” and could potentially open the way to
+superhuman AI for computer programming.
+
+[[https://stackoverflow.com/][Stack Overflow]] is the flagship site on
+the open source Q&A network, [[https://stackexchange.com/][Stack
+Exchange]]. It contains over 18 million user-contributed questions on
+computing topics. About 13 million of these questions have vetted
+answers, marked with votes that give an indication of their value.
+Questions are similarly rated. These signals establish contributors'
+reputations, and should be useful for building AI tools based on the
+corpus. Notwithstanding, a recent generative experiment entitled
+[[https://stackroboflow.com/about/index.html][Stack Roboflow]] produced
+only meaningless ersatz questions and
+answers.⊕[[https://hyperreal.enterprises/img/hearts.png]]
+
+My proposal unfolds into two overarching objectives. These are reading
+technical texts into knowledge representations that the computer can
+reason about, and developing programs that can act on these
+representations to pose and solve practical problems. A key innovative
+aspect of the proposal is that an evolving population of rule-based
+agents will be employed to assist with both tasks. Agents will gain
+points for asking and answering questions about Stack Overflow content.
+
+Recent developments in natural language processing make the knowledge
+extraction task plausible. Powerful tools are now available
+off-the-shelf, including pretrained language models that can be fine
+tuned around specific tasks. Question-answering systems based on
+Google's BERT perform at a
+[[https://arxiv.org/abs/1810.04805][superhuman level]] on a standard
+[[https://rajpurkar.github.io/SQuAD-explorer/][reading comprehension
+task]]. In the programming domain, there have been advances in
+extraction from code into
+[[https://www.datascienceontology.org/help/faq][higher-level abstract
+representations of process]]. Argument modelling has been applied by
+myself and coauthors to
+[[https://link.springer.com/chapter/10.1007/978-3-319-62075-6_10][sample
+Q&A dialogues]] and other technical texts. The combined constraints of
+the Q&A format and the technical focus make models of semantic structure
+more straightforward than for domain-nonspecific free text. Given
+sufficient structural clues, machine learning techniques can be applied
+to technical texts to [[https://arxiv.org/abs/1908.10993][categorise
+their statements]]. These are key landmarks on the way to the first
+objective.
+
+The real test of meaningfulness will come in the use of the extracted
+information, via evaluation of agent performance on both synthetic tasks
+and human-in-the-loop applications. At the level of anatomy, I am
+interested in exploiting the similarity between networks of related
+questions and answers and the
+[[https://github.com/topics/tangled-program-graph][Tangled Program
+Graphs]] (TPG) approach, in which teams of programs are assembled and
+networked together, and a team's fitness is scored jointly. TPG has
+[[https://link.springer.com/chapter/10.1007/978-3-319-55696-3_5][performed
+comparably]] with agents built using deep learning on video game
+challenges, but TPG agents are trained on standard CPU hardware. At the
+level of individual learning and behaviour, I plan to draw upon the
+active inference paradigm from cognitive science, in which agents
+actively seek to maximise the evidence for their sensory model and
+minimise uncertainty. Designs based on active inference have been
+realised in neural network-based agents, and demonstrated in
+[[https://www.biorxiv.org/content/10.1101/633677v3.full][concept
+learning]] and [[https://arxiv.org/abs/1907.03876][reinforcement
+learning tasks]]. At the level of collective behaviour, Elinor Ostrom's
+institutional analysis and development (IAD) framework will be used to
+guide and constrain agent interactions, beginning with a model of the
+institutions currently in place on Stack Exchange. IAD is based on
+rules, norms, and strategies, for example,
+[[https://bit.ly/32PTi4M][regulatory rules]] describe “ATTRIBUTES of
+participants who are OBLIGED, FORBIDDEN, OR PERMITTED to ACT (or AFFECT
+an outcome) under specified CONDITIONS, OR ELSE.” To scaffold
+evaluation, metrics that have previously been used to
+[[https://arxiv.org/abs/1612.04831][measure learning]]
+[[https://www.microsoft.com/en-us/research/publication/question-difficulty-estimation-in-community-question-answering-services/][on
+Stack Exchange]] can be adapted. Crowdsourced reading comprehension
+questions and simple exercises derived from existing Q&A would provide a
+further route to evaluation. Agents will also generate their own
+questions early on in the project, which is
+[[https://www.aclweb.org/anthology/D17-1090/][expected to]]
+[[https://arxiv.org/abs/1902.10418][boost]] their question-answering
+ability. Computational questions typically have another source of ground
+truth, namely computational tests, and agents will accordingly be given
+access to sandboxed computing environments. Performance will be
+connected back to choices made in content extraction, and both will
+improve together.
+
+To situate this proposal relative to other work in formalisation, one
+notes that the contents of a Q&A site have a structural resemblance to
+Kolmogorov's
+[[http://homepages.inf.ed.ac.uk/jmckinna/kolmogorov-1932.pdf][calculus
+of problems]]. Whereas in formal mathematics we would write /x/ ⊢ /y/
+for a valid inference, now in a certain sense we have /Q/ ⊢ /A/. The
+essence of Stack Exchange is that obtaining a useful answer typically
+reduces to asking a suitable question. It has also been observed that a
+well-posed question can fully constrain the form taken by the answer.
+However, most questions on Stack Exchange are not so formal. Just as
+questions must be set in an appropriate context, answers often include
+contextually appropriate exposition. Far from being comprised of atomic
+actions, answers often refer to preexisting Q&A, use them as informal
+rules, and describe the mutual accommodation of their contents. Agents
+in the sense outlined above will be playable collections of interlinked
+rules, somewhat akin, as it happens, to HyperCard's /stacks/.
+
+Although Stack Overflow is ‘gamified' through the reputation mechanism,
+in comparison to most game playing research, the programming domain is
+more open. Professional programming practice relies on accumulated
+design patterns and various ergonomic conveniences, and it has at least
+as much to do with humans as it does with computers. In order for agents
+to explore this domain, they will need stepping stones, starting from
+the simplest possible tasks and growing in complexity. This principle is
+illustrated in a
+[[https://www.santafe.edu/research/results/working-papers/the-evolution-of-technology-within-a-simple-comput][2004
+SFI working paper]] by W. Brian Arthur and Wolfgang Polak. In the
+programming domain, we can begin to develop agents' abilities using
+simplified exercises, often referred to as /koans/. Similarly, simple
+process models and argument structures will be introduced to scaffold
+content creation. As the work progresses, agents should be able to
+identify at first simple and then increasingly complex patterns and
+regularities, and use these to encode new behaviours.
+
+I have allocated time to learn new things in focused bootcamps
+(involving participation in organ ised summer schools or research visits
+where these can be arranged), to integrate ideas from SFI collaborators
+about both design and theory, and to involve external collaborators. My
+plan is to hold an agent programming competition in month 18 of the
+project, once the basic infrastructure is in place. This friendly
+competition will help to place AI for programming solidly on an open
+science footing. In recognition of the fact that human Q&A do not exist
+in a vacuum, in month 20 of the project, I propose to integrate the
+system with Github's API, so that agents can ask and answer questions
+about ongoing software development. In month 22, I propose a tutoring
+study, which could potentially take place /in situ/ within the Github
+issue tracker. I have not laid out a timetable beyond two years. From a
+project management standpoint, the biggest risk is that some aspects of
+the proposed work may overrun, and in this regard the third year
+provides a buffer. On the other hand, if the engineering aspects of the
+project are highly successful, applications and policy will be
+foregrounded.
+
+** Milestones and deliverables for first 24 months of the project.
+   :PROPERTIES:
+   :CUSTOM_ID: milestones-and-deliverables-for-first-24-months-of-the-project.
+   :END:
+*M1*
+
+Gather data via Stack Exchange APIs
+
+*M13*
+
+Institution modelling using IAD
+
+*M2*
+
+Argumentation-theoretic analysis
+
+*M14*
+
+Integrate themes from SFI collaborators
+
+*M3*
+
+Process model analysis
+
+*M15*
+
+Develop infrastructure for contributors
+
+*M4*
+
+*ML/NLP bootcamp*
+
+*M16*
+
+Agents writing agents
+
+*M5*
+
+Initial ML baseline, e.g., match Q↔A
+
+*M17*
+
+Agents writing institutions
+
+*M6*
+
+Hierarchical ML for content extraction
+
+*M18*
+
+Organise first contest
+
+*M7*
+
+*Active Inference bootcamp*
+
+*M19*
+
+*Publication:* Artificial Intelligence
+
+*M8*
+
+Agent modelling and sandbox setup
+
+*M20*
+
+Integrate with Github API
+
+*M9*
+
+Curate koans and develop solver
+
+*M21*
+
+Integrate themes from SFI collaborators
+
+*M10*
+
+Study with crowdsourced exercises
+
+*M22*
+
+Study in an online tutoring application
+
+*M11*
+
+Study with agent-written questions
+
+*M23*
+
+*Publication:* Science
+
+*M12*
+
+*Publication:* IJCAI
+
+*M24*
+
+*Time off* and plan Year 3
+
+This proposal is inspired in part by a project led by Tom Hales at the
+University of Pittsburgh which aims to use machine learning to help
+build a large collection of
+[[https://formalabstracts.github.io/][computationally-meaningful
+mathematical objects]]. The research proposed here will provide
+groundwork for flexible reasoning about such contents when they are
+available. Of course, Q&A can be addressed to any topic. In a
+[[http://tuvalu.santafe.edu/~wbarthur/Papers/Arthur-McKinsey2Essay.pdf][2017
+essay,]] Arthur describes an emerging virtual, autonomous economy, in
+which the “intelligence is selforganizing, conversational,
+ever-adjusting, and dynamic.” Stack Exchange has these properties, and
+importantly, its primary application is to support meaningful work by
+its users. Using it as a model for AI means that we take as a starting
+point a system for which economic access and pro-social engagement are
+very much in scope. These are values to be conserved and enhanced.
+Against any utopian or dystopian readings, Turing's assessment that
+intelligent machines will eventually take control is considerably
+ameliorated by Ostrom, insofar as control will be distributed across an
+array of institutions. The research project will make technical
+contributions to the domains of question-answering and AI for
+programming. At its heart, it is an investigation of what it means to be
+part of a culture of shared inquiry.
+
+** Statement of interest in SFI
+   :PROPERTIES:
+   :CUSTOM_ID: statement-of-interest-in-sfi
+   :END:
+Stack Exchange represents a portion of what could be called the human
+“noöme”, a noetic heritage that is as necessary for our collective
+survival as the micro-biome is to individual persons. It exhibits a rich
+set of dynamics in language, learning, and knowledge economy. Moving
+from human apprehension of these dynamics towards machine understanding
+will profitably draw on resources and insights from across SFI, drawing
+as well on its rich history. In particular, an Artificial Stack Exchange
+can be seen as a sequel to the classic Artificial Stock Market. The
+current proposal shares “a desire to understand the impact of agent
+interactions and group learning dynamics.” I believe I already share
+some of SFI's cultural DNA.
+
+*** Career Highlights
+    :PROPERTIES:
+    :CUSTOM_ID: career-highlights
+    :END:
+My pursuit of a mathematics education and subsequent doctorate in
+Knowledge Media were inspired by an edited volume in ecological
+anthropology, /The Question of the Commons/, which included papers that
+used mathematical methods to study culture. I became interested in
+mathematics as culture, and in the knowledge commons. With an eye on
+Deep Blue, I saw computers as an essential part of the landscape. My
+student research related to D'Arcy Thompson-style “Growth and Form” in
+simple geometrical systems has guided my subsequent thinking about the
+structure of knowledge and learning dynamics. Recent work bridges
+between mathematics, philosophy, argumentation theory, and computing,
+and has resulted in high-quality journal publications.
+
+[[https://hyperreal.enterprises/img/metaca.png]]
+
+I have attached a
+[[http://metameso.org/~joe/papers/SACCS-AISB2015_submission_6.pdf][2015
+workshop paper]] on cellular automata that illustrates my interest in
+themes studied at SFI. The paper integrates ideas from cognitive science
+and social theory. I should point out that the question raised by this
+paper is by no means solved; I did make some further progress after the
+publication, see Figure 1. The unsolved issues from this paper could
+serve as a conversation stater with SFI researchers. It offers an
+analogy for the work I am proposing. Below, I outline some potential
+connections with themes that people working at or aﬀiliated with SFI,
+and the ways in which these collaborations could support the foregoing
+proposal.
+
+I mentioned W. Brian Arthur's /The Nature of Technology/ as a
+theoretical framework that can be reused here. Helena Miton's work on
+/“the role of institutions in generating and transmitting technical
+knowledge and practices”/ would find concrete analogues within the work
+I have proposed. Albert Kao's research on /“how learning as part of a
+collective results in behavior that is fundamentally different from that
+learned in isolation”/ is related to interests that run through my PhD
+thesis, my subsequent work in the Peeragogy project, and that continues
+to be important for this proposal. Jessica Flack's research on
+/“collective computation”/ and /“extracting strategies... from
+time-series data and constructing stochastic strategic circuits”/ could
+help with modelling and improving learning outcomes within the system I
+have proposed. In Chapter 6 of my PhD thesis, I used a statistical
+method to model human learning, but this could go further. Tyler
+Marghetis studies /“high-level, abstract thinking,”/ and there is some
+overlap with his research and my earlier work in concept blending. One
+of the interesting challenges in the proposal is the lack of an overt
+embodiment for the agents I have proposed. David Krakauer's classic work
+on language evolution and interest in /“complex feed-backs present
+between individuals and their environments”/ will be relevant to my
+proposal, as I seek to understand technical language and practices.
+David Kinney's work on /“a pragmatic measure of explanatory depth”/ will
+be relevant to shaping questions and answers, as well as agent
+protocols. Jürgen Jost aims to /“investigate the basic principles of
+structural knowledge”/, which is close the interests I have described.
+
+I should acknowledge that neither my education nor my career has been
+particularly traditional. SFI is home to others who have sought out
+high-risk, high-reward learning opportunities. My skills, knowledge, and
+experience would complement those of SFI's current cohort. The culture
+of shared inquiry would be an ideal incubator for the next steps in my
+work.

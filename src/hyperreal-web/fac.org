@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       403b75c5-dc8f-4576-840a-7f7296fddc75
+:END:
+#+title: Peer learning is an effective way to learn how to program
+#+filetags: :web:
+
+Obviously, different people learn how to program in different ways. If
+you first learned how to program in BASIC at age 4, or in Pascal at age
+6, from a parent who was a programmer, that could shape your destiny.
+Personally, I learned some programming concepts from the educational
+software program Chipwits as a kid, and only learned how to program
+properly in high school.
+
+If you come to this subject as an adult, you nevertheless have quite a
+few resources available to you. Other people can give advice:
+
+#+begin_quote
+  “I missed the thing on DOM manipulation. I struggled with algorithms.
+  Is there any advice as to, what would be the word... /curricula/?...
+  to help with algorithms? When I search it says ‘keep practicing' or it
+  tells me the answer without telling me how to do it.”
+#+end_quote
+
+#+begin_quote
+  “If you feel like others are doing it better, you have to be patient
+  -- but tomorrow is a good opportunity to pair up or have a 1-to-1 with
+  a mentor who will guide you, as a start. I always recommend not to
+  rush through the pre-requisites.”
+#+end_quote
+
+#+begin_quote
+  “I think the main issue is that I'm a visual/practical learner, and I
+  need to see the bigger picture. FreeCodeCamp does it bit by bit and it
+  doesn't show you everything. Sometimes they use things that they
+  hadn't explained yet, like =slice=. So, I had to understand that. I
+  keep seeing new methods pop up. Is there somewhere where all of that's
+  explained? It's hard to take it all in.”
+#+end_quote
+
+#+begin_quote
+  “I find it useful to write pseudocode, so, like ‘I want to split the
+  string'. Drawing arrows and diagrams of what the code's doing. So
+  almost explaining it back to yourself using pictures. That was really
+  useful to me. That might be an approach as well. But I will also have
+  a look to see if I can find other engaging things.”
+#+end_quote
+
+#+begin_quote
+  “One thing I found helpful with the algorithms: on YouTube there are a
+  lot of people who have been explaining the algorithms from
+  FreeCodeCamp. Find someone whose voice you like, someone you gel with,
+  and you can go to Codewars and search for everything that's similar.
+  For example, ‘title casing a string' will have lots of similar things.
+  You do it slightly differently every time, and you've knocked off a
+  bunch of points.”
+#+end_quote
+
+Somewhat similar interactions apply for people who are learning more
+advanced things:
+
+#+begin_quote
+  “Then I taught myself the tech stack: we were working with some
+  external developers and an agency with Ukraine. There I learned React,
+  Lambda. Getting into the new technology was suprisingly easy. I had
+  been working with similar ideas in Angular, so it was just a different
+  framework with a few different ideas. Usually, using the documentation
+  is enough, sometimes I have to look at the source code. It helped a
+  lot that I had working code to work on, and was figuring out what
+  worked and didn't work, so I was engaged with a real-world example. I
+  did have some situations where I would have loved to call an external
+  developer to look at the code to help me figure out a bug or something
+  I'm stuck on. I tried posting on various platforms to get help, but
+  usually I couldn't strip it down enough. In some cases, the actual bug
+  was not related to what I was sharing. However, if I could find the
+  right context I could actually fix it.”
+#+end_quote
+
+Beyond dialogues, it really is about practicing, so if we really want to
+understand more about how people program, we should get ahold of some of
+practice data.
+
+April 24, 2020

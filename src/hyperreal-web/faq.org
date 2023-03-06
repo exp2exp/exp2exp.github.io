@@ -1,0 +1,189 @@
+:PROPERTIES:
+:ID:       ce8e85d3-2aaf-4618-b0e2-4976a6259553
+:END:
+#+title:  Frequently Asked Questions
+#+filetags: :web:
+
+** What are the current related offerings and how is what you're proposing different?
+   :PROPERTIES:
+   :CUSTOM_ID: org12e8ba1
+   :END:
+*Codata* recently raised a
+[[https://techcrunch.com/2020/04/27/codota-picks-up-12m-for-an-ai-platform-that-auto-completes-developers-code/][$12m
+Series A]], and last year acquired their competitor TabNine. Their
+smart-code-completion technology shows that contemporary AI can be made
+relevant to programmers. *DeepCode* similarly raised a
+[[https://techcrunch.com/2019/08/06/deepcode-gets-4m-to-feed-its-ai-powered-code-review-tool/][$4M
+seed round]] centred on their automated code review tool.
+
+While these developments give a sense of the need, the tools mentioned
+do not look across developer interactions on Stack Exchange, issue
+trackers, and Slack. They can't tell you when you're about to go down a
+rabbit hole.⊕[[https://hyperreal.enterprises/img/down.png]]
+
+Codota and DeepCode will without a doubt have a good run supporting
+human programmers. In the short term, there is room to do some things
+that they aren't doing! For the long term, we're pursuing something
+vastly more ambitious. Our long-term plan is to chart a path towards
+full-blown AI for programming.
+
+But let's hold that thought, and have a look at the current state of the
+art from another angle. *Andela* provides “engineering-as-a-service”
+(commonly referred to as /offshoring/). In order to do this effectively,
+they spend time and money [[https://andela.com/stackup/][developing
+talent]], often [[https://andela.com/alc/][in partnership]] with
+US-based companies. Indeed, Andela has such a dominant position in the
+talent pipeline that African startups can have trouble finding
+programmers: everyone is working in offshoring for Andela. In late 2019
+they
+[[https://techcrunch.com/2019/01/23/connecting-african-software-developers-with-top-tech-companies-nets-andela-100-million/][raised
+$100M]].
+
+What if, in the next five years, there were tools that made it became
+much easier for anyone to gain the skills needed to work as a
+programmer? What if, in the years following, “engineering-as-a-service”
+was delivered primarily by bots rather than humans?
+
+** Are you, perchance, describing a research project, rather than a VC-fundable startup?
+   :PROPERTIES:
+   :CUSTOM_ID: org6887934
+   :END:
+While there is certainly research to be done on the way towards full
+blown AI for programming, small-scale academic grants alone are not
+going to result in rapid progress. The problem is rather one of
+integration.
+
+It is presently possible to find many
+[[https://meta.stackexchange.com/questions/134495/academic-papers-using-stack-exchange-data][academic
+papers that use Stack Exchange data]]. Quite a few of these take a
+machine learning angle. However, so far, none put the pieces together to
+simulate Stack Exchange. Multi-agent simulations are, of course, a
+thing, but putative Stack Exchange simulators have been geared towards
+producing
+[[https://stackapps.com/questions/7875/stackexchange-simulator][nonsense]].
+
+Looking elsewhere, although the research literature on
+[[https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00364?mobileUi=0][argument
+mining]] recognises the importance of online fora for discussion, it
+rarely touches the formal semantics of the underlying language. To
+connect everything top to bottom, we would need to intertwine argument
+structure with models of computational objects. There is a good start on
+the latter in the work of [[https://arxiv.org/abs/1807.05691][Evan
+Patterson and colleagues]].
+
+As for developing the agent model, the Tangled Program Graphs approach
+to reinforcement learning developed by
+[[http://stephenkelly.ca/research_files/Kelly-Stephen-PhD-CSCI-June-2018.pdf][Stephen
+Kelly]] looks like a particularly good fit for simulating Stack Exchange
+interactions. There are open source implementations in
+[[https://github.com/Ryan-Amaral/PyTPG][Python]] and
+[[https://github.com/gegelati/gegelati][C++]].
+
+In short, absolutely, further R&D needs to be done, but the state of the
+art in academic research already gives us the pieces we need to add
+practical value for programmers. And furthermore the necessary research
+will develop better in an industry setting than it would inside of
+academia: vide, DeepMind.
+
+** If this is such a great idea, why hasn't it been done before?
+   :PROPERTIES:
+   :CUSTOM_ID: org875669b
+   :END:
+
+Well, Alan Turing [[http://www.turingarchive.org/browse.php/b/4][had
+this to say]] in 1951:
+
+#+begin_quote
+  /Let us now assume, for the sake of argument, that these machines are
+  a genuine possibility, and look at the consequences of constructing
+  them. To do so would of course meet with great opposition, unless we
+  have advanced greatly in religious toleration from the days of
+  Galileo. There would be great opposition from the intellectuals who
+  were afraid of being put out of a job. It is probable though that the
+  intellectuals would be mistaken about this. There would be plenty to
+  do, trying to understand what the machines were trying to say, i.e. in
+  trying to keep one's intelligence up to the standard set by the
+  machines, for it seems probable that once the machine thinking method
+  had started, it would not take long to outstrip our feeble powers.
+  There would be no question of the machines dying, and they would be
+  able to converse with each other to sharpen their wits. At some stage
+  therefore we should have to expect the machines to take control, in
+  the way that is mentioned in Samuel Butler's
+  ‘[[https://www.gutenberg.org/files/1906/1906-h/1906-h.htm][Erewhon]].'/
+#+end_quote
+
+What Turing clearly got right is the core idea of building machines that
+can converse with each other. That has been validated by DeepMind and
+others' work on self-play. The other thing he got right is that it's not
+typical to find massive change coming from within incumbents. We will
+need new institutions and new institutional arrangements to realise
+Turing's vision.
+
+By the way, Turing was probably wrong about machines taking over! Elinor
+Ostrom has a good chance of winning out over Nick Bostrom in the
+end---that is to say, we can use computational machinery to build better
+and more explicit, negotiable, models of social institutions, including
+our relationship with ecological commons.
+
+** How is the business defensible?
+   :PROPERTIES:
+   :CUSTOM_ID: org875669b
+   :END:
+Let's keep in mind that Deep Blue wasn't “defensible”, but it was epoch
+defining. From a business standpoint our strategy is akin to Amazon's
+initial decision to sell books online. Once we build AI for programming
+we can branch out to other domains, like AI for law, or AI for
+logistics, or AI for bioinformatics. We can become a leading provider of
+training and upskilling in these areas. We will win not because the
+ideas can't be copied but because we will build the best possible team
+to deliver the best quality service. To double down on this agenda our
+aim will be to build the company around open source software. Hopefully
+that's not the craziest-sounding proposal in this FAQ! Red Hat's
+[[https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future][$34B
+acquisition]] shows that an open source strategy can work.
+
+** Surely, “developer tools” will appeal to a niche market, and
+investors won't be interested?
+   :PROPERTIES:
+   :CUSTOM_ID: surely-developer-tools-will-appeal-to-a-niche-market-and-investors-wont-be-interested
+   :END:
+Well, [[http://www.jeffmorrisjr.com/][Jeff Morris Jr.]] is interested,
+and recently
+([[https://twitter.com/jmj/status/1255555445382451200?ref_src=twsrc%5Etfw][April
+29, 2020]]) proposed investment theses around these themes:
+
+- /How do you build cult followings via software? Which fringe
+  communities will go mainstream?/
+- /What can we build to make engineers (highest paid knowledge workers)
+  happier & more productive?/
+
+645ventures are interested:
+[[https://645ventures.com/engineering-value-chain-revolution][the
+Engineering Value Chain Revolution]] is one of their
+[[https://645ventures.com/themes/][investment themes]].
+
+** So why aren't the established players in tech building this?
+   :PROPERTIES:
+   :CUSTOM_ID: so-why-arent-the-established-players-in-tech-building-this
+   :END:
+In 2012, Semil Shah
+[[https://techcrunch.com/2012/09/30/iterations-we-know-about-b2b-and-b2c-but-dont-overlook-b2d/][asked]]:
+
+#+begin_quote
+  /Will a company like GitHub blaze a path for other B2D/
+  [Business-to-Developer] /startups up and down the stack to flood into
+  and create a company to the size and scale of an Adobe, which paired
+  software and service solutions for all kinds of developers?/
+#+end_quote
+
+That doesn't seem to have happened. What did happen was Microsoft's
+[[https://hbr.org/2018/06/why-microsoft-is-willing-to-pay-so-much-for-github][strategic]] acquisition of GitHub in 2018 for a goodly sum.
+
+If Microsoft (or any of the other big players) wanted to make a
+strategic move towards AI for code, they would be well placed to do so.
+Already in 2017 they were working on something called
+“[[https://www.microsoft.com/en-us/research/publication/deepcoder-learning-write-programs/][DeepCoder]]”.
+using a big data approach. They were learning from code, rather than
+from the way people write code: however, we learned recently that
+[[https://hyperreal.enterprises/facebook.html][Facebook has “simulating
+developer communities” in their sights]].

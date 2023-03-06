@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5012d2f5-5463-48b4-9c95-f3d4c6f3bbb8
+:END:
+#+title: Policies
+#+filetags: :web:
+
+1. [[./Anti-Slavery-2022.html][Anti Slavery (2022)]]
+2. [[./Code-of-Conduct.html][Code of Conduct]]
+3. [[./Supplier-Code-of-Conduct.html][Supplier Code of Conduct]]
+4. [[./Anti-Bribery-Anti-Corruption.html][Anti-Bribery, Anti-Corruption
+   Policy]]
+5. [[./Human-Rights-Policy.html][Human Rights Policy]]
+6. [[./Real-Living-Wage.html][Real Living Wage Policy]]

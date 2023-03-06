@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       140066b5-ac9a-4868-9b5f-0370866db38f
+:END:
+#+TITLE: There are useful analogies across other domains
+#+filetags: :web:
+
+
+#+begin_quote
+Kolmogorov's “calculus of problems” is a strong candidate for a
+"theory of FAbstracts". We could switch between rules "if A then B"
+and problems, "given A, construct B." Phrased the second way this
+leads to the question, what are the actually available tools for
+performing the construction. The general answer: whatever primitive
+problems we know how to solve. —
+http://homepages.inf.ed.ac.uk/jmckinna/kolmogorov-1932.pdf
+#+end_quote
+
+April 24, 2020

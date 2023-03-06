@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d6ccc8a3-5bd5-4cdf-a058-94a45d0133cc
+:END:
+#+title: More about us
+#+filetags: :web:
+
+How did we get here? As a postdoc working on EU and UK research
+projects, Joe Corneli developed several proposals for fellowships and
+grants:
+
+- [[./ati.html][Q&A for computers (2015)]]
+- [[./epsrc.html][Large-Scale Epistemic Agent-based Processes for
+  Question Answering (2017)]]
+- [[./sfi.html][Complexity Postdoctoral Fellowship (2019)]]
+- [[./nesta.html][Peeragogical Pathways (2020)]]
+
+As it happens, none of these were funded. HEL was created to pursue
+other routes for funding and delivery. One of the things we've been
+doing is marking up these old proposals with some new commentary. And of
+course, if at first you don't succeed, try try again.
+
+- [[./nnexus.html][NNexus Revolutions: Neural Named Entity Recognition
+  and Linking for Technical Topics (2021)]]

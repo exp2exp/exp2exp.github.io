@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       c41d6071-23a2-40d8-8093-74785739e069
+:END:
+#+title: Facebook has “simulating developer communities” in their sights
+#+filetags: :web:
+
+[[https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf][WES:
+Agent-based User Interaction Simulation on Real Infrastructure]],
+Facebook engineers describe a population of /ghost users/ on their
+platform: bots that simulate the behaviour of real users, but that are
+partitioned from actual interaction with real users. Within this paper,
+they position “Simulating Developer Communities” as a possible direction
+for future work:
+
+#+begin_quote
+  Although this paper has focused on [Web-Enabled Simulation] for social
+  media users, a possible avenue for other WES systems lies in
+  simulation of developer communities. This is a potential new avenue
+  for the Mining Software Repositories (MSR) research community. The
+  challenge is to mine information that can be usefully employed to
+  train bots to behave like developers, thereby exploring emergent
+  developer community properties using WES approaches. This may have
+  applications to and benefit from MSR. It is also related to topics
+  such as App Store analysis, for which the community combines
+  developers and users, and to software ecosystems, which combine
+  diverse developer subcommunities.
+#+end_quote
+
+There's no specific indication that they actually plan to work on this
+problem --- however, they could also be using the future work section to
+call their shots. In particular, the paper's lead author,
+[[http://www.ahlgren.info/][John Ahlgren]] , wrote a 2014 PhD Thesis on
+“Automated Programming using Constrained Inductive Logic Programming”.
+Another one of the co-authors is UCL professor
+[[http://www0.cs.ucl.ac.uk/staff/M.Harman/][Mark Harman]] (now full-time
+at Facebook) who won awards for search based engineering. Another
+co-author wrote
+[[https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.423][a paper on
+grammar recovery]]; another has given a quite enjoyable
+[[https://www.youtube.com/watch?v=TI0OGNrsRe0][TEDx talk]] on the
+“wisdom of the cloud”; another previously taught kids to code at
+[[http://www.turinglab.co.uk/][TuringLab]]. All told, I think there's a
+reasonably good chance that that the Facebook folks will use their
+existing momentum to move in the direction of AI for code.
+
+Looking around, I found another recent paper with an overlapping set of
+authors, “[[https://arxiv.org/abs/2004.07352][Ownership at Large -- Open
+Problems and Challenges in Ownership Management]]”, which does seems to
+move at least a little bit this direction.
+
+If an organisation like Facebook does get behind this idea, they would
+have the human and computational power to make rapid progress. They have
+access to the same open data that is available to everyone (though the
+Ownestry tool in “Ownership at Large” just looks at in-house data).
+
+Let's be clear that that creating bots that simulate software
+development isn't itself a highly defensible proposition. Nevertheless
+it looks like there is still a limited window of opportunity to be first
+in. That could have some advantages.
+
+The other point to make is that I also wrote a 2014 PhD thesis, which
+got at some of the other relevant ideas here from a /vastly less
+technical/ and /much more social/ perspective. This could also confer
+some advantages for designing systems with socially desirable
+properties.
+
+April 24, 2020

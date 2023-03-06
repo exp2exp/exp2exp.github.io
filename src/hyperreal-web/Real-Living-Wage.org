@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       e91e3385-3ca9-4ef5-8711-78b2b775e8b5
+:END:
+#+title: Real Living Wage Policy
+#+filetags: :web:
+
+#+begin_example
+  Real Living Wage Policy
+
+  Hyperreal Enterprises pays a minimum of £9.90 per hour for all
+  contracted work in the UK, and £11.05 in London.  We match these rates
+  in local currency for workers overseas, to support a good standard of
+  living for all employees.
+#+end_example

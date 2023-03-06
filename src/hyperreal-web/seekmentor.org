@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       ce3e7dd5-94aa-44b7-a419-a995633dc95d
+:END:
+#+title: There is an unmet need for developer helpouts
+#+filetags: :web:
+
+Chris Whitehead put together the simple website
+[[http://seekmentor.org/][seekmentor.org]] where people can share their
+problems with software:
+
+- In one sentence, what software-related issue would you like help with?
+- What are the sorts of questions you would like to ask someone?
+- What sort of experience would the ideal adviser have?
+
+They can also offer to help out:
+
+- In one sentence, what are your areas of specialism?
+- What is you experience? A short bio and link to LinkedIn would be
+  perfect.
+- What advice to you think you can offer that would be useful for
+  startups?
+
+To get some traction, but Chris went around LinkedIn and his current
+contacts and found some people who needed help, and some who could offer
+it. He quickly found some willing customers.
+
+The problem seems to be that people can get out of their depth, without
+people to talk to on a sustained basis about their technical challenges.
+It's one thing to ask questions on Stack Overflow, but when it comes to
+designing a new product or building a team from scratch, for example,
+some advice could come in handy.
+
+While there is plenty of existing competition, including
+[[https://www.codementor.io/][codementor.io]] which comes up in a Google
+search, probably a small consultancy could be built up in this way.
+
+April 22, 2020

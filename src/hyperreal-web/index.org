@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       90926bb4-78b8-4bf7-98d8-fad1f54408e4
+:END:
+
+#+title: HYPERREAL ENTERPRISES LTD
+#+filetags: :web:
+
+/Research and experimental development on natural sciences and
+engineering./
+
+We want to make the knowledge economy accessible to everyone. Web 2.0
+hasn't achieved that, though it has produced a large pool of open data.
+We will use this data to bootstrap AI tools that support knowledge
+workers. Our first product will be an AI tutor that helps people learn
+how to program and connects them with practical projects. The next step
+will be an AI assistant for professional level teams. Our long-term
+vision is computational intelligence based on collective
+intelligence.⊕[[https://hyperreal.enterprises/img/raven.png]]
+
+⁂
+
+We spent some time “getting out of the building” to talk with potential
+users. Here are some of the things we've learned so far:
+
+- [[./seekmentor.html][There is an unmet need for developer helpouts.]]
+- [[./fac.html][Peer learning is an effective way to learn how to
+  program.]]
+- [[./facebook.html][Facebook has “simulating developer communities” in
+  their sights.]]
+
+We are also getting on with our research, which is documented on our
+[[https://exp2exp.github.io/][wiki]]. Feel free to comment on any of the
+pages there (or here) using the hypothes.is sidebar.
+
+⁂
+
+[[https://hypothes.is/search?q=url%3Ahttps%3A%2F%2Fhyperreal.enterprises%2F%2A][Here
+are comments collected from across the site]] (also available via
+[[https://hypothes.is/stream.rss?wildcard_uri=https://hyperreal.enterprises/*][RSS]]).
+
+[[./faq.html][Answers to Frequently Asked Questions.]]
+
+[[./policies.html][Company policies.]]
+
+[[./about.html][Click through for more information about this company.]]
+
+HYPERREAL ENTERPRISES LTD is a private company limited by shares,
+incorporated 25th, June 2019 as Company Number 634284 on the Register of
+Companies for Scotland.

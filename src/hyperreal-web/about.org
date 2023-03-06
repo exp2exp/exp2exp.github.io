@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       0bcd3e8c-1b6e-4045-a3b5-b2223b6624b0
+:END:
+#+title: About us
+#+filetags: :web:
+
+
+#+begin_quote
+  Imagine the horror the Disneyland officials would feel when they
+  discovered the cruel hoax. Real birds! And perhaps someday even real
+  hippos and lions.
+
+  --- “How to Build a Universe That Doesn't Fall Apart Two Days Later”,
+  Philip K. Dick, 1978
+#+end_quote
+
+Joe Corneli, Zans Mihejevs and Ray Puzio put together an outline for a
+response to an RFP for projects in applied category theory. Hyperreal
+Enterprises was set up as a company at this time. We didn't end
+submitting the proposal, because the funder was interested in supporting
+projects that were already up and running.
+
+A few months later, Joe joined [[https://www.joinef.com/][Entrepreneur First]], which sponsors
+early-stage entrepreneurship. Joe worked briefly there with Chris
+Whitehead, Pooja Chokshi, and Oushesh Haradhun. We expanded the “crew”
+of active participants to include friends and collaborators Tim
+Teravainen, Deyan Ginev, and Cameron Smith, as well as some other
+acquaintances who dropped by as part of the “Friday Group”: thanks to
+Analua Dutka-Chirichetti, Iani Zeigerman, Yasemine Boudiaf. We ended
+up not pitching for funding at EF and are now “bootstrapping”
+instead. Progress is recorded at [[https://exp2exp.com][exp2exp.com]].  For the curious,
+there's more info on the [[./history.html][history]] page.
+
+Please feel free to get in touch!
+[[mailto:contact@hyperreal.enterprises][contact@hyperreal.enterprises]]

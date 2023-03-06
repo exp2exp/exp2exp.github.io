@@ -1,0 +1,309 @@
+:PROPERTIES:
+:ID:       68cf1306-baa7-4eb2-8424-9ae545c64e1b
+:END:
+#+title: Peeragogical Pathways
+#+filetags: :web:
+
+** Briefly describe your organisation or individual main areas of work
+   :PROPERTIES:
+   :CUSTOM_ID: briefly-describe-your-organisation-or-individual-main-areas-of-work
+   :END:
+Can we create learning opportunities leading to meaningful work for
+billions of people? A place to start is with sites like Stack Exchange,
+GitHub, and Wikipedia. For many, these are places to ask questions,
+share answers, solve problems, and understand the world we live in
+better. And yet many others are not presently able make much use of
+these resources.
+
+Since 2012, the Peeragogy Project has been building a collection of
+informal design patterns for effective peer learning and peer
+production. In the AI for Good programme, the new company Hyperreal
+Enterprises will translate these patterns into a software tool that can
+be used to organise open source materials into "peeragogical pathways"
+that support learning and development. In the words of their originator,
+Christopher
+Alexander:⊕[[https://hyperreal.enterprises/img/bennet-court.png]]
+
+“Each pattern describes a problem which occurs over and over again in
+our environment, and then describes the core of the solution to that
+problem, in a way that you can use this solution a million times over,
+without ever doing it the same way twice.”
+
+We are concerned with problems of human infrastructure. Our solutions
+will augment existing resources and workflows with AI methods that
+support learning and co-production at scale.
+
+** Please outline up to 2 examples of relevant professional experience
+(if applicable).
+   :PROPERTIES:
+   :CUSTOM_ID: please-outline-up-to-2-examples-of-relevant-professional-experience-if-applicable.
+   :END:
+This proposal builds on prior interdisciplinary collaboration in the
+Peeragogy Project and formal research into applications of AI within
+collaborations.
+
+The /Peeragogy Handbook/ (4th ed. forthcoming 2020) includes a growing
+collection of design patterns that model the activities that take place
+in peer learning and peer production. We have innovated on the classic
+pattern language template by adding a “*What's Next*” step to each of
+our patterns. Thus, each of our patterns is linked with a number of
+“issues” that reflect the way that the pattern is being put into
+practice in the project. The same methodology can be used to make sense
+of the issues and challenges faced in other projects.
+
+The other strand of research examines collaboration with an eye to
+building “mixed initiative” AI systems. This work has resulted in
+publications in the journals /Artificial Intelligence/ and
+/Argumentation/ [1], [2]. We modelled the way people collaborate to
+create mathematical proofs, by building a “dialogue game” that describes
+exploratory mathematical thinking, and constructed an empirical model of
+real-world mathematical dialogues. This work was additionally supported
+by small-scale experiments with a novel reasoning system [3].
+
+[1] [[http://bit.ly/36wPkQx]] [2] [[http://bit.ly/302Gnfn]] [3]
+[[http://bit.ly/2N97L6b]]
+
+** What social issue does your project address(e.g. health, climate
+etc.)?
+   :PROPERTIES:
+   :CUSTOM_ID: what-social-issue-does-your-project-addresse.g.-health-climate-etc.
+   :END:
+*Skills development*, including “reskilling” for the digital economy,
+through participation in open source projects. This will have further
+knock-on benefits. GitHub's director of social impact, Admas Kanyagia,
+observes that open source has the “power to drive collaboration and
+shared expertise to drive innovation and change and to build communities
+particularly with multiple and diverse perspectives" [1].
+
+[1] [[http://bit.ly/2FunB71]]
+
+** Provide a short description of the social issue you are trying to
+solve. How have you identified this?
+   :PROPERTIES:
+   :CUSTOM_ID: provide-a-short-description-of-the-social-issue-you-are-trying-to-solve.-how-have-you-identified-this
+   :END:
+The central issue we are tackling is the “skills gap”, within the
+broader context of a transition to a knowledge economy. The problem has
+many well-documented facets. Hired.com found a significant *gap in the
+UK's technical skills* [1]. Nesta reckons there will be an *increasing
+need for social skills and learning skills* as well [2]. Nevertheless,
+the Learning and Work Institute highlights that participation in
+learning within the UK is at *an all-time low* [3]. Furthermore, the
+OECD found that simply deploying technology within classrooms does
+little to *bridge the gap* between advantaged and disadvantaged students
+[4].
+
+We will focus on inclusive uses of technology to support skill
+acquisition at scale. We are inspired by the London-based *Founders and
+Coders* collective [5] which is able to provide free technical training
+to selected applicants, leading to gainful employment. We want to expand
+the benefits of peer learning to anyone who has an internet connection.
+We will build on prior research into peer learning and peer production,
+and emphasise interacting systems, diverse skillsets, and human
+relationships.
+
+[1] [[https://hrd.cm/2QxleXs]] [2] [[http://bit.ly/2sXP3aM]] [3]
+[[http://bit.ly/303DKty]] [4] [[http://bit.ly/35FMebS]] [5]
+[[http://bit.ly/35BVltO]]
+
+** At what stage is your project?
+   :PROPERTIES:
+   :CUSTOM_ID: at-what-stage-is-your-project
+   :END:
+Within the Peeragogy Project, our design patterns for peer learning and
+peer production exist at a ‘proof of concept' stage. In particular, we
+have used the patterns within this project to help manage our workflow.
+In the new project outlined here, we will move this material into a
+software ‘prototype' that will interoperate with existing sources of
+open data.
+
+** Describe your project - what is it you are doing?
+   :PROPERTIES:
+   :CUSTOM_ID: describe-your-project---what-is-it-you-are-doing
+   :END:
+The core technical activities combine human learning, machine learning,
+and logic:
+
+*1.* Harvest issues from GitHub, Stack Exchange, and Wikimedia projects.
+
+*2.* Tag a subset of this material using the Peeragogy design patterns
+(e.g., Newcomer, Heartbeat, Wrapper, etc.). Expand the collection of
+patterns to ensure meaningful coverage.
+
+*3.* Tagging will give us a collection of terms that can be used to
+detect patterns in a broader data collection using a standard machine
+learning approach.
+
+*4.* Operationalise the design patterns in code, with multiple
+implementations. We will be able to detect patterns when they appear,
+and also implement them programmatically when they do not. For example,
+we might detect that a project has a low level of ongoing activity but
+no "*Heartbeat*", and accordingly suggest a regular meeting time.
+
+*5.* We will orchestrate the patterns in combination with each other,
+discovering complex synergies that lead to learning success, and forging
+new connections between related projects so that they can support each
+other.
+
+*6.* We will be able to demonstrate new potential team-ups and other
+opportunities for exchange; new workflows and value propositions,
+learning prerequisites and outcomes.
+
+We will engage with relevant designers and users at least two workshops.
+
+** How do you think your project will help solve the issue you have
+identified? How does your use of AI differ from what is currently being
+used within thisfocus area?
+   :PROPERTIES:
+   :CUSTOM_ID: how-do-you-think-your-project-will-help-solve-the-issue-you-have-identified-how-does-your-use-of-ai-differ-from-what-is-currently-being-used-within-thisfocus-area
+   :END:
+AI applications to human learning are often geared towards students in
+formal educational settings. *Automated tutoring* is poised to become a
+major business, and several large-scale investments and deployments
+already exist. However, this does little to assist with informal
+learning and online collaboration; and, per the OECD report mentioned
+above, questions remain about the social impact of such interventions.
+
+Design patterns have been applied on an experimental basis within
+computational design projects, starting from a vision outlined by TP
+Moran [1]. The very first wiki was created to keep track of design
+patterns related to programming. However, there has been surprisingly
+little attention to the use of design patterns to bridge between
+collective and artificial intelligence.
+
+This project will draw on symbolic methods and will combine them with
+“big data” to progressively build a model of the patterns in open source
+projects, including Wikimedia projects and Stack Exchange
+question-and-answer dialogues [2], [3]. ‘Bots' are well-accepted in
+these environments, however a focus on learning support is novel.
+
+[1] TP Moran. “(Artificial, intelligent) architecture: Computers in
+design”, /Architectural Record/ 149 (1971), 129--134.
+
+[2] Wikimedia issue tracker: [[https://phabricator.wikimedia.org/]]
+
+[3] Stack Exchange question and answer network:
+[[https://stackexchange.com/]]
+
+** How will your involvement in AI for Good - the funding, curated
+programme and profile building - help realise the potential of your
+project?
+   :PROPERTIES:
+   :CUSTOM_ID: how-will-your-involvement-in-ai-for-good---the-funding-curated-programme-and-profile-building---help-realise-the-potential-of-your-project
+   :END:
+The AI for Good initiative will help Hyperreal Enterprises develop into
+a new kind of company. We will be able to connect with local talent and
+other UK-based initiatives during the programme. At the same time, we
+must recognise that the “skills gap” is properly global in scope [1],
+and we aim to address it on a global scale. Hyperreal Enterprises will
+build on public data to enhance the existing global knowledge commons.
+In the curated programme we will co-learn in direct contact with other
+progressive initiatives, and contact related endeavours sponsored by the
+Centre for Collective Intelligence Design [2]. We will be able to give
+something back by contributing to a better understanding of how CI
+projects can succeed. More specifically, while there are many ways to
+apply AI within CI [3], the present project moves in the direction of
+building computational models of CI itself. We aim to show this is an
+appropriate and effective way to scaffold engagement with CI, and skill
+development more broadly. Alongside working software, we will use
+workshops and hands-on learning experiences to co-develop an engaging
+vision.
+
+[1] [[https://nyti.ms/2Qxvlf0]] [2] [[http://bit.ly/35t8Lsc]] [3]
+[[http://bit.ly/2R3DPtw]]
+
+** What gaps or challenges will you need to overcome in order to develop
+this project?
+   :PROPERTIES:
+   :CUSTOM_ID: what-gaps-or-challenges-will-you-need-to-overcome-in-order-to-develop-this-project
+   :END:
+*Lack of interest* is the biggest documented obstacle to learning [1].
+Many open source projects and new wikis fail to attract contributors,
+and even successful projects typically decline in popularity as time
+goes by [2]. AI can help by working transversally across projects and
+assembling communities of collaborators, users, and supporters.
+
+Addressing this challenge requires a different way of thinking about
+software that takes into account its social side. Joe Corneli and
+colleagues at the University of Edinburgh developed an innovative data
+science course and ‘data fair' model [3], [4]. Building a similar
+initiative that cuts across institutional boundaries will be a novel
+challenge.
+
+*The primary strategy to address these challenges will be through
+transdisciplinary collaboration.* For example, whereas both Free
+Software and Wikipedia have well-documented problems with gender
+representation, our patterns describe domain general collaboration
+strategies, and can help work against insular trends to help build a
+truly inclusive movement. For example, we can connect communities by
+sharing a wiki page or software issue with potentially interested
+stakeholders who are unfamiliar with the medium, while scaffolding these
+“*Newcomers'*” engagement.
+
+[1] [[http://bit.ly/303DKty]] [2] [[http://bit.ly/35wf9Pj]] [3]
+[[http://bit.ly/2QAHkZc]] [4] [[http://bit.ly/35wPZjt]]
+
+** Who are the individual team members working on the project? What are
+their roles and key skills?
+   :PROPERTIES:
+   :CUSTOM_ID: who-are-the-individual-team-members-working-on-the-project-what-are-their-roles-and-key-skills
+   :END:
+Joseph Corneli, PhD (Director of Hyperreal Enterprises, Ltd., based in
+Musselburgh) will be involved .5FTE throughout the March-September
+programme.
+
+Joe's doctoral thesis (2014) examined “peer produced peer learning” in
+the context of PlanetMath.org, an innovative online learning community
+for mathematics. He has since completed two postdocs in “computational
+creativity” and “social machines”. This proposal combines these research
+themes into a practical software system.
+
+Other collaborators within the Peeragogy project will be involved on a
+volunteer basis. A “mid-term” report will be submitted to a workshop
+associated with the International Conference on Functional Programming,
+to be co-written with long-term collaborator Raymond Puzio
+(PlanetMath.org, Ltd.).
+
+Joe has previously written about patterns in two papers published in the
+Pattern Languages of Programs conference series: “Patterns of Peeragogy”
+(2015) and “Patterns of Design” (2017). Joe also brings a good awareness
+of the AI space, for example our current project will use methods
+similar to recent work by Google Research [1] and NIST [2], and will
+allow us to move in the direction of understandable computer code and AI
+for programming [3].
+
+[1] [[https://github.com/google-research-datasets/coarse-discourse]]
+
+[2] Scientific Statement Classification over arXiv.org,
+[[https://arxiv.org/pdf/1908.10993.pdf]]
+
+[3] Semantic Representation of Data Science Programs, /IJCAI/.
+
+** What wider support or capacity do you have to deliver your project?
+This could include institutions, colleagues and formal and informal
+partnerships?
+   :PROPERTIES:
+   :CUSTOM_ID: what-wider-support-or-capacity-do-you-have-to-deliver-your-project-this-could-include-institutions-colleagues-and-formal-and-informal-partnerships
+   :END:
+I have links to Lorna Campbell on the *Board of Wikimedia UK*, to Jeremy
+Knox who co-directs the University of Edinburgh's *Centre for Research
+in Digital Education*, and to Neil Mulholland in the *Edinburgh College
+of Art*. Mulholland's 2019 book “*Reimagining the Art School: Paragogy
+and Artistic Learning*” published with Palgrave builds on ideas that I
+developed in my thesis, and provides links to other creative communities
+across the UK. Mulholland has invited me to participate in *a creative
+arts workshop* that will explore peer learning and peer production in a
+Scottish context. Knox has offered to help arrange demos and other
+knowledge exchange and impact activities. Wikimedia UK may be able to
+support an additional workshop.
+
+I have contacted *Co-operative Development Scotland* to ask for
+assistance organizing Hyperreal Enterprises as a co-op, and will liase
+with the *Co-operative University* to understand how we can contribute
+to their developing initiative.
+
+In parallel with this submission, I have developed a course called
+*“Peeragogical Innovations”* that I hope to teach in *Tufts University's
+Experimental College* this Autumn. This would be an opportunity to
+expand on the themes of this proposal internationally, by engaging
+students and invited speakers in further rounds of codesign.
