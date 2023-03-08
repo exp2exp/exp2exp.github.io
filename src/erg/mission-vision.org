@@ -1,0 +1,64 @@
+#
+** What have we accomplished thus far?
+The principals of the Emacs Research Group have been meeting regularly
+since late 2020.
+
+We ran four workshops with the immediate success indicator that people
+left energised — e.g., at our latest workshop, one of the attendees
+approached us immediately and asked us to run a series of similar
+workshops within their organisation — and we are currently assessing
+the follow-up question “Does it spur further action?”.  We also
+produced documents which summarise the "Open Future Design" workshop
+methods and our primary findings so far.
+
+The "Open Future Design" process is supported by Org Roam and by new
+technical work which decoupled Org Roam UI from Emacs, yielding a
+demonstrator website that can be accessed on laptop and mobile, to
+share the workshop’s findings.
+
+Along the way we’ve made great connections, e.g., we contributed
+successfully to a larger interdisciplinary grant project, brought
+together discussants from a wider multidisciplinary group, and
+identified further routes to funding.
+
+** What is our mission: what do we stand for?
+
+We’ve been /supporting a guerilla approach to social change (since 2023)/.
+
+We build bridges across disciplines in order to facilitate collective
+knowledge sharing with an action orientation.  The methods we have
+developed facilitate effective collective work.  Citizens come to the
+platform with their respective expertise, work from a common
+framework, find and manifest common ground, and act towards a better
+future.
+
+The key problem we address is to create methods and tools that enable
+collective action from local to global circles.
+
+** What is our vision: what is the impact we’d like to make?
+
+We want to create adaptable and resilient systems.
+
+Our work is driven by science and enabled by technology.  As such, we
+talk a lot about serendipity and diversity, and embrace methods that
+create opportunities for action which maximise the potential for
+serendipitous solutions.  This matches a key pattern derived from the
+/Active Inference Framework/, namely, if we narrow opportunities for
+action, we become brittle in a world that’s changing.
+
+We maintain and share a spirit of light creative work in our
+collaborations.
+
+We’re prototyping our way forward to a set of knowledge management
+tools that can be used for collective aims.  There are lots of tools
+for tracking actions (like Trello), or for collaborative authoring
+(like Google Docs) — but we’ve found nothing available that’s
+/knowledge-first/ and simultaneously able to work across specialist
+contexts.
+
+I.e., there are blueprints + buildings, patient pathways + hospitals,
+development plans + city centres: but what could combine these kinds
+of knowledge repositories in a way that effectively brings together
+different pools of expertise, possibly from different locales, or
+across other contexts?  How can we reduce the distance between
+collective knowledge sharing and collective action?
