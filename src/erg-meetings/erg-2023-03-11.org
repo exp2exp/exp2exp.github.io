@@ -1,0 +1,189 @@
+:PROPERTIES:
+:ID:       2a648816-d453-433a-acca-91335db9f233
+:END:
+#+TITLE: 11 March 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-03-11 Sat>
+
+* 11 March 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Flying to Kuwait soon, next week might be on Discord via ipad, won’t bring laptop
+- Will attempt to stay on Austin time
+- Will be eligible for US citizen in November...
+- Highlights from education: I used to have a British accent & American schools seemed very lax
+
+** JC
+- Joining 10 minutes late
+- Band coming to the house for 4:30 UK
+
+** LV
+- Hands feeling better
+
+
+* Meta points
+
+** DONE Don't forget to record the session!                             :LV:
+CLOSED: [2023-03-11 Sat 16:23]
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Joe can share prose version of our mission/vision stuff from last time
+- JC: Nominating looking at Noorah’s Emacs issues
+- LV: I’ve been thinking in terms of mission/vision to set some personal research goals, and will share tech & job news
+
+* Agenda (Part 1): Mission/Vision revisited
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** What have we accomplished thus far?
+The principals of the Emacs Research Group have been meeting regularly
+since late 2020.
+
+We ran four "Open Future Design" workshops using new methods for
+organising collaborative work.
+
+The "Open Future Design" process is supported by Org Roam and by new
+technical work which decoupled Org Roam UI from Emacs, yielding a
+demonstrator website that can be accessed on laptop and mobile, to
+share the workshop’s findings.
+
+Along the way we’ve made great connections, e.g., we contributed
+successfully to a larger interdisciplinary grant project, brought
+together discussants from a wider multidisciplinary group, and
+identified further routes to funding.
+
+** What is our mission: what do we stand for?
+
+# [Title:] /A guerilla approach to social change/.
+# [Context:] There is a need for better ways of working across disciplines.  /Doctors Across Borders/ exists, but experts collaborating across disciplines is still hard.  We will help to address this!
+# [Problem:] The key problem to enable effective collective action from local to global circles.
+# [Solution:] What follows: →
+
+We stand to build a way to mobilize expertise for the health of communities...
+LV: ...by developing and using technologies and methods.
+
+** What is our vision: what is the impact we’d like to make?
+
+#+begin_quote
+... an inpirational statement of a company or group.
+
+"So what does the future look like to us?"
+#+end_quote
+
+We envision a world where...
+
+- NA: People from different disciplinary backgrounds seamlessly work together.
+- LV: Empowered by the Emacs model of packages which help people work together and find solutions to their problems.
+  
+** Leo’s agenda
+*** New stuff: I *applied* for a Research Software Engineer job at Princeton
+- Emailed people who could be supportive of the application, including their current RSE
+- Having a lot of fun with programming, and getting into Rust which is challenging but fun
+*** Prompted: What stance do I take towards the future?
+- /(Will we get further grants or incoming business from existing leads?)/
+ - I like the RSE in Digital Humanities position; they seem tailored to people who have a Humanities background and who happen to be technically competent.
+- Generally RSE are more ‘researchers’ than ‘engineers’.  The level of the tech is mostly people looking at NLP; folks want to mine it for e.g. how feminism was reflected in the text of the 19th C.; though these folks are mainly applying existing technology to novel problems, rather than new tools, performance, robustness, etc.
+- I’m trained in the humanities but have an engineering orientation; I’ve been working on being a better engineer rather than a better researcher.  I was developing the tools to make it easier to do research if I wanted to.  (E.g., I’m tutoring someone who wants to pilot their entire workflow w/ Emacs + Org Roam.)
+*** So *my mission:*
+- Mainly, getting this type of position
+  - More geared towards engineering than research
+  - Being pragmatic about it, insofar as ‘the values’ are served:
+    - Free software keeps evolving
+    - The software should be maintainable by others
+    - Want to apply values-based engineering; I write code that will work 10 years from now.
+*** Hyperreal
+- My domain: writing software for research, knowledge management, using this knowledge that has been acquired to usher in change (e.g., how papers are authored)
+- I want to further develop these skills; I don’t need to further develop my ‘generalist’ skills, w/ broad maleable, replaceable skills.  The generalist will always lose in a corporate setting.
+- Here, I can align my values w/ what we develop... even if we get more engineers we can convey the above values.  Since we’re currently at a bit of a pause-point; I’d like to make my skills available towards e.g. more Org Roam development.
+- Not as interested as I was in working on the method; I want there to be a coevolution of the method & the tools.  I’m happy to be the /technological lead/ for the project we do.
+
+*** Comments
+- That would be a perfect fit for you.  "The implementation will look like that."
+- I don’t mind getting into the theory for the programming part; the theory for the method takes me away from that
+- JC: The method that we use is actually pretty simple, but the idea that we could be using software (upgraded to what we have now) is exciting.
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+#+begin_quote
+- JC: (It provides a different lens to look at the different phases of the workshop (and working w/ data structures in an intelligent way).
+#+end_quote
+
+- Clothes need to be hung out ideally, and don’t use fabric softener or dryer sheets!!
+
+* Agenda (Part 2): Emacs fixing, starting from scratch
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Downloaded Emacs 28.2, and it is working but the emacs.d is empty
+- Could we make a little hand-over for someone like Abby that includes, e.g., CRDT?
+  - LV: I already made a containerized Emacs, just regular software...
+  - Then she just needs to get the image and it open Emacs w/ everything she needs... even already connected to the server we use.
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- We had the clear objective to review the mission & vision, as well as what we accomplished
+
+*** 2. What are some different perspectives on what's happening?
+- We did a good job
+- I’m glad we worked some more on the mission/vision stuff
+- Last week none of us were feeling the vibe & had all come from a big project and were overwhelmed; good that we could say that and roll with it
+
+*** 3. What did we learn or change?
+- Meeting fortnightly is going fine; we can double or half time it, we know we’ll meet eventually
+- LV: How I want to coordinate what I want to do professionally is coordinated w/ what we’re doing here, and it’s great to see those coincide
+  - NA: I liked how you used this for your career
+
+*** 4. What else should we change going forward?
+- It would be good for us not to take on projects w/o knowing how they serve us
+- JC: Maybe Noorah & I can similarly add notes about how what we’re (each) doing relates to what we’re doing here
+
+
+* Tentative agenda for next week
+- Scheduling of meeting for *March 25th* needs to be carefully done b/c of time zone craziness; would prefer to keep it consistent in UTC.
+- *10AM Central* = *3PM UK* = *4PM Europe*
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- A little frustrated:
+  - Austin to Amsterdam, Amsterdam to Kuwait, but first flight is delayed an hour and a half!  And I have an appointment there on Monday morning that I need to be at.
+  - There’s another flight leaving to Kuwait about 8 hours later, though it’s on a different airline...
+  - But I’m glad that you can catch it before you get to the airport!
+- ‘FlightAware’ app helps with this!
+- LV: Please take a picture of the wedding gown
+
+** JC
+- No band playing yet, I think they are having snacks... I hear a lot of giggling coming from downstairs
+- Family call starting in *1 hour*
+- Will Drop a line to Abby
+- Might go do a bit of long-overdue zen meditation to build on the nice vibes we had today.
+
+** LV
+- Will be going back to Rust, though I do also eat, and periodically look at Haskell
+- 2km in the pool thinking about my own personal mission/vision
+- The remaining 1.5km were spent thinking about Rust concepts; I want to test my ideas
+- It’s a low-level language w/ a lot of expressivity, but it requires a lot of understanding of how memory is being managed; unlike Python & R which have GCs, most low-level languages don’t have this and you need to make sure that the things are actually being removed from memory accordingly
+- NA: That’s a good skill to have!
+  - LV: In particular it’s about /engineering/ skills
