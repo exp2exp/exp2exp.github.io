@@ -1,0 +1,162 @@
+:PROPERTIES:
+:ID:       a2ea0940-f3df-4beb-87f3-12b7aff57004
+:END:
+#+TITLE: 01 April 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-04-01 Sat>
+
+* 01 April 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Business as usual!
+
+** JC
+- Little bummed about difficult conversations right prior tot he meeting.
+- Has been investigating follow-ups to the work with AT.
+- https://hyperreal.enterprises/bristol/
+
+** LV
+- Lots of work stuff.
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1)
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** We did run a workshop with Baruch CUNY CIS 9590 students
+- Joe, Ray, and Charlie were guest lecturers and we used ideas from our workshop.
+- ‘Data Fairs’ was cool and we are now doing something a little related in the Peeragogy project (3% finished).
+
+#+begin_quote
+I would never have been able to get data visualisations of my work
+without this project; now I have them, I can use them for future
+funding applications and demonstrate the implications of data-led
+historical study”
+#+end_quote
+
+- https://datafairs.github.io/submit.html - was cool
+
+** We will offer you a short training in data processing and pair you up w/ someone with a real problem + offer mentoring
+
+Hyperreal Enterprises:
+
+#+begin_quote
+"We want to make the knowledge economy accessible to everyone."
+#+end_quote 
+
+** Innovate UK as a possible opportunity
+*** £50K between 2 companies
+- What would we want to be doing...?
+- What is the problem...
+- What we do:
+  - "WE FACILITATE THE SCOPING/CONCEPTUALISATION STAGE"
+
+- Can AI help with the conceptualisation?  E.g., equip the company w/ good companies w/ good concepts.
+  - If so, could another organisation like [[http://www.nactem.ac.uk/index.php][NaCTeM]] help us build this?
+
+- We do /computer-aided/ stuff, it could bring in any old NLP, using functions that parse a set of data, mining it.
+- E.g., [[https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation][LDA]]
+
+*** What’s "AI" in this case?
+- Text mining (probably) isn’t.
+- It’s not just GPT either
+
+**** But, AI is in a peak hype phase right now
+- So, it would be better to train ourselves to use NLP, apply it to our own models, do it with good engineering practices
+- Rather than just relying on a model (like ChatGPT, which is only for /reflowing content/ & context that already exists; whereas we’re orienting ourselves to problems that don’t have existing solutions)
+- When you try to go outside of the playbook, ChatGPT will be bad at it
+- It’s even bad at "find me places to visit nearby"
+
+- 1000 monkeys more reliable than 1000 ChatGPTs
+
+- If we understand what it takes to make our own model, /we’d be able to train it to make it innovative/
+  - “Computer-aided disruption”
+
+- However this is a fairly academic path that’s difficult to invest into
+
+** Review our web page & mission vision statement
+
+Current websites:
+- [[https://exp2exp.github.io/]] (404ing currenty, used to be our published notes)
+  - Maybe we could host an orui of our hyperreal notes?
+    - CICD on note-push?
+- [[https://hyperreal.enterprises/][https://hyperreal.enterprises/ - Hyperreal Enterprises]]
+- [[https://hyperreal.enterprises/bristol/][https://hyperreal.enterprises/bristol/ - ORUI - Bristol slip-box]]
+
+** Maybe it’s more of a personal goal to remain more focused
+
+* BREAK                                                                 
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - chat
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Thinking about careers
+- Thinking about being more kind
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+
+*** 1. Establish what is happening: what and how are we learning?
+
+- Reflective day summing up a bunch of ‘outside’ perspectives from Joe on directions for the company
+- Also talked a bit about our web page
+
+*** 2. What are some different perspectives on what's happening?
+
+- We had all ‘wanted to do more’ at one time
+
+*** 3. What did we learn or change?
+
+- We’ve gotten enough feedback to learn
+
+*** 4. What else should we change going forward?
+
+- If we want to head down a route of training models, we could get access to GPU arrays, using about $10/month
+
+* Tentative agenda for next week
+
+- LV is not available next week
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- I am back on emacs!!!!! 
+  - JC: ⁂
+- Having an at-home spa day
+  - [[https://pitchfork.com/reviews/albums/richard-dawson-circle-henki/][Henki]] (2021) recommended soundtrack for Surreal Botanic Garden
+
+** JC
+- Doing a research project on a proprietary database on UK companies
+- Alex shared "Alda" language and I want to play around with it
+
+** LV
+- Has nice collection of =.md= files (🌚)
+  - Getting ‘Unstuck’ is a common theme
+  - Curiosity driven research
