@@ -1,0 +1,175 @@
+:PROPERTIES:
+:ID:       451453ba-c276-44d6-8306-fb364f352442
+:END:
+#+TITLE: 15 April 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-04-15 Sat>
+
+* 15 April 2023  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+ - Going back to swimming using the University's gym
+
+** JC
+- Has a cold
+
+** LV
+- Has upgraded his bike with a carrying system
+- Show-and-tell: bike bag carrier
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+- Keep it short.
+
+- We’ve been meeting fortnightly for a while, what are we expecting to achieve with this in the in the short/medium term (couple months)?
+  - More clients?
+  - Job security?
+  - Chill sessions talking about Emacs?
+
+- Meanwhile Leo has a HR+Business interviews completed at several companies
+- May have less time to invest into big projects
+- How are our professional lives evolving
+
+- Admin request: Paying Noorah from the Abby contract, should be ≈1/3 of the money in there
+- Insurance will kick in $2K out of the $5K
+
+* Agenda (Part 1) - How has it been going?
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** JC: Trying to find the next thing
+- AI Teamup opportunity: Interesting
+- Climate Adaptive Behavior Change (ABC): Enhancing Resilience Within and Across Communities - Climate ABC
+- Re: 4 circles; before and after; line down the middle; could revise to 3 states: too much, too little, in balance; related to donut economics; it’d be nice to have fluidity in-between the 3 sectors.
+  - ‘Progression towards centre’ was the original dynamic; could revise the above states as different link types.
+** NA: We’re kind of recovering from some post-workshop burn out
+- Taking it slow would be a good thing
+- Professionally, I’ve been thinking about activist business investing in tech and/or changing jobs
+  - You need money to make money
+- Has been in current job for 1 year (less 3 days)
+** LV: For me it feel more like completion of project w/o anything lined up
+- If we’d had continuance w/ Abby, Judith, Florian we’d likely have been meeting since
+- It’s not so much that we over-worked; we knew we’d need to work more than we were being paid for
+- This is cause for resting rather than over-analysing how we burned out
+- In my case I moved on quickly to job interviews, ≈1 month later was doing the interviews
+- Now I have 4 technical interviews, all in Paris, paying 55K-60K€/annum (e.g. 3K after tax, vs French median of 1900€/month, good especially for a single person)
+  - Some unpronounceable company-names, might request a gratuity in this regard
+- Qmomn — *a platform for political orgs & NGOs to organise themselves*, backend in Golang
+  - CTO may not have time to do a full technical interview
+  - Working w/ Canadian election, African countries &c. w/ data on 40m people
+  - Would learn infra w/o being alone
+- ‘Operations’ vs ‘Development’ — meetings w/ all 4 orgs next week, so should have more to say about employment circa 14 days
+*** Stability: 
+- Wanted to have everything going vis à vis my schedule, plus a job to get freedom from money worries
+- Could also mean the ability not to require payment for work we do, whereas before I couldn’t justify doing this stuff w/o getting paid b/c otherwise I owuld be practicing
+  - So I could put in some /pro bono/ work around here
+- Also I have an offer in Brittany
+
+
+* BREAK
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+* Agenda (Part 2) - How would we like it to be going?
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** JC:
+- If I don’t find my job very fulfilling, it’s fine as long as I can find ways to reinvent myself in the process
+- Current job is a little more taking than it was last year, but it’s still a possibility.
+- Two other forays
+  - Master in Creative Writing 
+  - Applied Topos Institute summer job;
+  - (Didn’t get into either of these.)
+- I would like to find clarity on this purpose soon.
+- Am thinking some about company business stuff (10% or so)
+
+** NA: 
+- Me & Anan talk about this as wouldn’t it be great to be able to retire and focus on pilates
+  - JC: Sacha quasi-retired a few years ago, after working at IBM for a while, and has some family support & responsibilities
+- When we talked about the method, we want to apply it in different contexts!
+  - E.g., education, business, open research...
+  - Might be some budget for the ‘online team’ — we can do live display of the nodes being added on the screen
+
+** LV: 
+- Hyperreal isn’t yet ready to be profitable (unless we don’t pay ourselves)
+- What would we expect from reaching out to Abby again, e.g., if she had more work?
+  - The conditions have slightly changed
+- NA: When Leo gets his job, I’d give him the space, at least 3 to 4 months to get ramped up w/ onboarding in the job
+  - LV: This will be my first work outside of academia, w/ the goal of a position of stability, e.g., where I can learn Rust, work on Org Roam &c., w/o needing to think about sustaining myself
+  - Though it might be too much to be on edge and also sacrifice the Saturday to para-professional stuff
+- 14 days rhythm supports a fortnightly tutoring session on Org Roam, but it would be good to go back to something weekly
+  - What about 2 weeks on, 1 week off?  After the *12th of May* could be good.
+
+** ChatGPT:
+- LV: I ask it for contextual stuff
+- NA: I made it create a vacation itinerary!
+- GPT4.5 should be coming out in the Fall!
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Now back after another couple weeks off
+
+*** 2. What are some different perspectives on what's happening?
+- We have doubled down on mutual sympathy w/o any particular deliverables
+
+*** 3. What did we learn or change?
+- Big proposal of 2 weeks on + 1 off to try in a month
+- Leo will need an adjustment period for onboarding w/ work of about 3 months 
+
+*** 4. What else should we change going forward?
+- Pay Noorah
+- Do we need any money left to pay monthly fees? 
+- Joe to do some playtesting w/ game group w/in the next month 
+
+* Tentative agenda for next weekS
+
+** Calender with new rhythm
+
+| [2023-04-15 Sat] | ON    | (today)                                                      |
+| [2023-04-22 Sat] | OFF   |                                                              |
+| [2023-04-29 Sat] | ON    |                                                              |
+| [2023-05-06 Sat] | OFF   |                                                              |
+|------------------+-------+--------------------------------------------------------------|
+| [2023-05-13 Sat] | ON    | (Joe will be in Southampton)                                 |
+| [2023-05-20 Sat] | ON    | (Joe will be in Southampton)                                 |
+| [2023-05-27 Sat] | OFF   | (Joe will be in Southampton)                                 |
+|------------------+-------+--------------------------------------------------------------|
+| [2023-06-03 Sat] | ON    |                                                              |
+| [2023-06-10 Sat] | ON    | (Last session before Oxford Brookes pilot on Open Research.) |
+| [2023-06-15 Thu] | Misc. | /Oxford Brookes pilot?/                                        |
+| [2023-06-17 Sat] | OFF   |                                                              |
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going out for lunch with a friend, getting ready after this; then Zilker Botanical Garden ("The Zilker Botanical Garden is a botanical garden of varied topography located on the south bank of the Colorado River
+at 2220 Barton Springs Road, near downtown Austin, Texas, United States.")
+
+** JC
+- Still has cold but will go out dancing at the St Barnabas church next (maybe)
+
+** LV
+- Am starving b/c I was out at 11 to do 20km of cycling & 1 hour of swimming
+- I am watching a ‘series’ that is quite enjoyable & well shot
