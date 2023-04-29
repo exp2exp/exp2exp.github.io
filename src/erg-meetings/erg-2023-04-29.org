@@ -1,0 +1,172 @@
+:PROPERTIES:
+:ID:       7b964118-792a-43cd-b1e0-89efdc9841bd
+:END:
+#+TITLE: 29 April 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-04-29 Sat>
+
+* 29 April 2023  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Not much, just started my day
+
+** JC
+- Has come from a free 2 hour tour of Oxford run by [[https://www.linkedin.com/in/jess-worth-660b2a1b/?originalSubdomain=uk][Jess Worth]] who used to be the director of [[https://cultureunstained.org/][cultureunstained.org]] (cf. https://cultureunstained.org/who-we-are/).
+  - Spouse Danny Chivers is a published [[https://www.amazon.co.uk/NoNonsense-Renewable-Energy-Clean-Democratic/dp/1780262434/ref=sr_1_3?crid=2N0997BZJ97X1&keywords=Danny+Chivers&qid=1682779937&sprefix=danny+chivers%2Caps%2C76&sr=8-3][author ]] in the NoNonsense series from /New Internationalist/; and he’s also [[https://www.theartnewspaper.com/2021/12/25/2022-crunch-time-for-culture-and-climate][a performance poet]].
+- Thinking about career ‘plateau’ phase; NA suggests thinking about how you want your day/week/month/year to be.
+- JC: Referenced [[https://designingyour.life/the-book/][Designing Your Life]].
+
+** LV
+- Having come from many interviews, he’s passed interviews, and is near to clinching something with Qomon
+- The prospects are looking very good
+
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part 1) - "Why?"
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+- Why do we do this?
+- Is anyone going to use the work we did?
+- The project is still up to us!
+
+- I’ll run a workshop w/ Brookes to help develop their strategy about Open Research
+- What does it mean for ‘research to be open’?
+- It means everyone can get access, but will they also have the ability to reproduce/understand?
+
+** But, it’s not 100% clear that employee skills are valued, despite Brookes being a HE and research place...?
+
+- It’s meant to be a self-sustaining system
+- But if it’s heavily encroached by capitalism, you limit access and # of educators
+- Brookes is at an interface between traditional education and avant garde technology
+- How could they let you in but not realise the potential?
+- At Amazon, they’ve invested in creating a collective skill set
+- What about here?  It’s more of a gas pump mentality, despite it being a research enterprise...
+
+** LV: Life + work
+- Sometimes I felt I was taking holiday, sometimes I just wasn’t working
+- But mostly it was about finding what kind of day I want to have
+- Parents: He must be lonely, he has all this potential he’s not using...
+  - Yes, I might have had less strife had I been employed, but actually I was making good progress
+  - And I’m ready to plop the job into my life
+
+** NA: This made me think...
+Leo’s journey over the last few years, we & your folks may have been projecting what we thought your life should be like.
+But you were trusting your gut!
+
+- JC: If you’re not too miserable, then parents shouldn’t be too concerned.
+- LV: But what if you’re not clear yourself, e.g., because you’re too in tune with your parents’ concern!
+  - For me stopping teaching was jarring for the parents & others
+  - JC: It’s ok for the parents to be concerned but not to organise your life around it
+
+** JC: The positives & negatives
+- Was it a good balance?
+  - At least here, work w/ Noorah & Leo has felt balanced!
+- LV: "Why" question might be answered with "We want to be at the /forefront of ethical AI research/."
+  - But what if they don’t also do upskilling?  How does this align w/ the actual mission?  It forces you to confront anything vapourish.  "I show up to work because I’m contributing to /X/."
+  - Otherwise it’s just an ailimentary job.
+  - Here, we do find a sense of purpose; if we do light creative work & achieve moderate financial success but from social perspectives it’s been unfailing.
+
+* BREAK — none this time
+
+* Agenda (Part 2) — Month by month look ahead
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Org Roam feature requests
+- Arrowheads
+- Typed links?
+- Real-time updates
+
+** Next few months outlook
+- Probably fine to spend a couple hours a day on OR;
+  - JC: But you might prefer to be spending the time on Rust...?
+  - LV: I’ll have a 35 minute train to spend some time on reading/preparing
+  - Org Mode parser in Rust might be a good route
+
+|           | Building confidence in skills...                         |
+|           | Increasing funding amount I’m confident to ask for...    |
+|-----------+----------------------------------------------------------|
+| May       | Leo getting into his full-time job; Joe working remotely |
+| June      |                                                          |
+| July      |                                                          |
+|-----------+----------------------------------------------------------|
+| August    |                                                          |
+| September | Some Saturdays reserved for Emacsconf                    |
+| October   | Austin entrepreneurs meetup?                             |
+| November  | Leo would prefer to stay involved in EmacsConf           |
+|-----------+----------------------------------------------------------|
+| December  |                                                          |
+| January   |                                                          |
+| February  |                                                          |
+| March     |                                                          |
+| April     | Noorah: finding a business accountant?                   |
+
+* PAR
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Review of our current feelings, calendars, outlooks on life
+*** 2. What are some different perspectives on what's happening?
+- Review of our cultures of experimentation
+- E.g., actually I’d like responsibility, helping other people, &c.
+- ‘Productivity’ isn’t purely an individual thing, it’s about the group
+*** 3. What did we learn or change?
+- Becoming more aware of the transition points
+  - E.g., confidence level & indicators thereof
+  - Maybe there’s a gut feeling to do more development work, or business work &c. (e.g., entrepreneur meetups in Oxford or London)
+*** 4. What else should we change going forward?
+- JC: I want to try and do Noorah’s suggested exercise about an ideal day/week
+- Revisit the Abby stuff, we did get a ping from her?  This would address confidence!
+
+* Tentative agenda for next week
+
+** Calender with new rhythm
+
+| [2023-04-29 Sat] | ON    | TODAY                                                        |
+| [2023-05-06 Sat] | ON    | Yes we’ll meet                                               |
+|------------------+-------+--------------------------------------------------------------|
+| [2023-05-13 Sat] | ON    | (Joe will be in Southampton)                                 |
+| [2023-05-20 Sat] | ON    | (Joe will be in Southampton)                                 |
+| [2023-05-27 Sat] | OFF   | (Joe will be in Southampton)                                 |
+|------------------+-------+--------------------------------------------------------------|
+| [2023-06-03 Sat] | ON    |                                                              |
+| [2023-06-10 Sat] | ON    | (Last session before Oxford Brookes pilot on Open Research.) |
+| [2023-06-15 Thu] | Misc. | /Oxford Brookes pilot?/                                        |
+| [2023-06-17 Sat] | OFF   |                                                              |
+
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Going to see a movie called “Air” about Nike Air Shoes
+
+** JC
+- Next stop: putting in potatoes
+- Lizzie will have collected worms from ‘Dragonfly’
+- Big intention: building confidence
+
+** LV
+- Experiencing nostalgia for his 90s French series
+- Need sleep
