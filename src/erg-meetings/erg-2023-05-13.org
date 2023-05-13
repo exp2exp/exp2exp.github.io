@@ -1,0 +1,160 @@
+:PROPERTIES:
+:ID:       8e3c380f-0466-4cfc-9380-6372cd1a6ebc
+:END:
+#+TITLE: 13 May 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-05-13 Sat>
+
+* 13 May 2023  — Emacs Research Group
+
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Health checks in progress
+
+** JC
+- Lockdown 4.0
+
+** LV
+- Job secured
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+- Quick look at companies with an eye to either working there or investing at some point; what kind of data is available?
+
+* Agenda (Part 1) — Unstructured discussion
+:PROPERTIES:
+:Effort:   0:20
+:END:
+
+** Where are we at?
+
+- JC: I feel like I need to *consolidate* what I have.  What have I been doing most of my life, what have I been consolidating towards?
+- JC: Could we use org-roam to provide support for creative writing?
+  - Would allow me to conciliate different interests in my life.
+- JC: org-roam could be useful for many-many things!
+
+** What Qomon can do
+
+- They can turn the data you provide into data that is visualisable.
+- They can merge tables so that you can merge and compare other pieces of data
+- It’s similar to merging graphs,
+
+** Careers
+
+- E.g, communication at IPPR
+- E.g., English didn’t stop Leo from getting into Software Engineering
+- How to present a rounded profile in a way that makes it interesting?
+  - NA: job skills, like ‘analyse’, ‘produce’, etc.
+
+** Honest account followed by buzzword rewrite
+- "Tech lead", "stacks", "dev ops", etc.
+- Do I want an AI skill set?
+- Instead focus on what I’ve been doing in the last 5 years
+
+** What has Joe been up to recently?
+                                                       
+#+begin_src 
+1/2023– Research Fellowship, Open Research Project Manager
+Oxford Brookes University                              
+Working with a large consortium of UK universities     
+to improve research practices across the sector.
+#+end_src
+
+- Research grant writing
+- Deliverables from recent grant are things I can claim as skills
+
+#+begin_src 
+08/2019– Director                                      
+Hyperreal Enterprises, Ltd.                            
+Developing new workflows for citizen science and       
+community-driven policy development.
+#+end_src                   
+
+- Mentoring
+- Facilitation
+- Project management
+- Design
+
+#+begin_src 
+01/2020–03/2020 Engineer                               
+Open Markets, Inc.                                     
+Programmed in Clojure and Clojurescript to grow        
+the operations of a SaaS health marketplace.
+#+end_src           
+
+- Coding
+                                                       
+#+begin_src 
+02/2017–07/2019    Research Associate                  
+School of Informatics, University of Edinburgh         
+Analysis of mathematical dialogues, published in       
+Argumentation and Artificial Intelligence journals.
+#+end_src
+
+- Some formal math
+- Research writing
+
+
+** Where to find ... people who care?
+
+- Leftist groups?
+- Working for NGOs
+- Nonprofits and foundations
+- Work is to pay bills
+- Look for people who are exciting
+- /Mutatis mutandis/ of Brookes with finance, but without any aspirations, might create more room for dreaming: *compartmentalization*
+- Development work would have 0 impact on work at Brookes, but I could surf on another wave of experience?
+
+* PAR                                                                   
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- It’s been a very free form chat
+- Taking stock, thinking about where things are at...
+
+*** 2. What are some different perspectives on what's happening?
+- JC: I liked the reframe of thinking about _who_ I want to work with
+- I appreciate the support
+
+*** 3. What did we learn or change?
+- Noorah’s birthday is May 17th and she’s looking forward to an ultrasound
+- LV: I had a great time doing Rust, but I don’t want to burn myself out
+
+*** 4. What else should we change going forward?
+- Meet on 20th, not on 27th or 3rd of June!
+- University of Finland provides a "Fullstack Open" class on Javascript, Typescript, and React: how to design a website from scratch.
+  - Good for people with some programming experience, to get up to speed.
+  - NA: I’d like build my data analysis profile w/ some interactive data science things
+    - LV: Try this: [[https://fullstackopen.com/en/][Full stack open]]
+  - Joe to pitch the idea of having some interactive site to Alex (Shiny? Tableau?)
+  - Joe to ask Madeleine whether Tableau can be scripted with R?
+- Think about who I like to work with and why!
+
+* Tentative agenda for next week
+- Leo can make it next week but not in three weeks
+
+* Check-out                                                              
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+
+** JC
+
+** LV
