@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       a0ce5eeb-9cd4-49a6-a35c-165f83d731fd
+:END:
+#+TITLE: 20 May 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-05-20 Sat>
+
+* 20 May 2023  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- No major news in the health department
+- Going to Vegas next weekend to catch up w/ sister & brother-in-law
+- Life stuff!!
+
+** JC
+- Lockdown Joe.0 continues!
+- Watched “A Mental Health Talk with Kevin Smith”, recommend!
+
+** LV
+- Starting Qomon job in 2 days!
+- Excited; worked towards new job, wanting
+  - Personal computer, using Slack
+  - Wanted to show when he’s not available, travelling, day over, etc.
+- Haircut does look good; and he owns Parlux hair dryer
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* PAR 
+:PROPERTIES:
+:Effort:   0:10
+:END:
+
+*** 1. Establish what is happening: what and how are we learning?
+- Mostly just extended check in and check out today.
+
+*** 2. What are some different perspectives on what's happening?
+- Joe to look into paying taxes for Hyperreal
+
+*** 3. What did we learn or change?
+- Plan to keep on a chat basis until ≈ September
+- After Summer, we’ll review what we do w/ the company
+- Could be on a path to real-time note-taking into Org-roam-ui display
+
+*** 4. What else should we change going forward?
+- Won’t meet next week or week after, but come back *3rd of June*
+- Follow-up with Abby this week to see where she’s at
+- Possible *morning* US sessions from time to time in the future, so as to safeguard Saturdays?
+  - Could have a session with Alex at 5:30UK?
+
+
+* Tentative agenda for next week
+
+* Check-out
+:PROPERTIES:
+:Effort:   0:05
+:END:
+
+** NA
+- Tarot cards recently are showing that it’s getting to be time
+- Sister visit upcoming
+
+** JC
+- Biometrics
+- Wants to do more music in lockdown-hotel
+- Work will be business-as-usual during the summer, probably; expecting to be very relaxed in 3 weeks
+
+** LV
+- Turning 29, on the 31st!
+- Looking forward to starting!
