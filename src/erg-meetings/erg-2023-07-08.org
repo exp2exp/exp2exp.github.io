@@ -1,0 +1,77 @@
+#+TITLE: 08 July 2023 — Emacs Research Group
+#+Author: Noorah Alhasan, Joe Corneli, Leo Vivier, Alex Murphy
+#+roam_tag: HI
+#+FIRN_UNDER: erg
+# Uncomment these lines and adjust the date to match
+#+FIRN_LAYOUT: erg-update
+#+DATE_CREATED: <2023-07-08 Sat>
+
+* 08 July 2023  — Emacs Research Group
+
+* Check-ins
+:PROPERTIES:
+:Effort:   0:15
+:END:
+
+** NA
+- Experienced a cool breeze in July in Austin
+
+** JC
+- Garden looks great; pets are doing well
+
+** AM
+- First attendance to ERG session (the Saturday one)
+
+** LV
+- At a cousin's wedding
+
+* Meta points
+
+** TODO Don't forget to record the session!                             :LV:
+
+** TODO Pre-PAR — Review the intention: what do we expect to learn or make together?
+
+* Agenda (Part I): Tools for collective thought
+
+** Who is the audience?
+
+- Any group of people
+
+- Businesses/organizations
+
+** What is the tool?
+
+- A methodology
+
+- The tool *MUST* empower the user.
+
+- The language
+
+- Collective knowledge
+
+  - Slack as a collective knowledge tool
+
+** Types of applications
+
+- Project management
+
+- Satisfaction survey feedback
+
+* Agenda (Part II)
+
+
+* Check-out
+
+** NA
+- Going to get PC fixed
+- Perhaps move meeting to next week instead of two weeks from now.
+
+
+** JC
+- Taking some time off (whatever that means)
+- Might go for a swim
+
+
+** AM
+- Look at possible properties
+- Help with the cooking.
